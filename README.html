@@ -692,9 +692,11 @@ cabecera a.out (base 0x42000) y desensamblar con capstone en modo M68K
 <ul>
 <li>Formato exacto de las líneas de <code>sys.id</code> (¿hay comando de
 consola, serie o FTP para leer <code>ram1disk:</code>?).</li>
-<li>Los discos antiguos sin serie (1998/2002): el código exige más de 3
-caracteres. ¿Eran para otra versión de BW o se instalaban de otro
-modo?</li>
+<li><del>Los discos antiguos sin serie (1998/2002)</del>:
+<strong>resuelto.</strong> Son discos de revisión <em>genéricos</em>
+(serie vacío) que no arrancan en ningún controlador; se "autorizan" con
+<code>UPDATE.EXE</code> (<code>3HAB2300-2_00</code>, ver más abajo), que
+copia el serie de un disco original del robot.</li>
 <li>BW/RW 3.x en S4 usa <code>disc.id</code> (confirmado), pero
 <strong>BW 3.0 para S4C usa un disco-llave con una
 <em>keystring</em></strong> (mecanismo distinto, sin analizar). ¿Es
@@ -702,9 +704,19 @@ estática por unidad como el serie, o un checksum/tiempo?</li>
 <li>¿Algo más lee <code>DISC.ID</code> o <code>sys.id</code> (opciones,
 Teach Pendant, RAPID, herramientas de servicio)? Solo se encontró un
 lector en <code>ABB_MC</code>.</li>
-<li>¿Con qué herramienta se fabricaron los discos? La cabecera lleva
-<code>Boot unit no 0 Make cmd 4 &lt;fecha&gt;</code> y el relleno parece
-sembrado con la hora.</li>
+<li><del>¿Con qué herramienta se fabricaron los discos?</del>
+<strong>Parcialmente resuelto:</strong> <code>UPDATE.EXE</code>
+(<code>3HAB2300-2_00</code>, Borland C++ 1991) contiene el escritor de
+<code>disc.id</code> (formatos <code>Boot  disk %d (%d)</code>,
+<code>Program no %s</code>, <code>Serial  no %s</code>, el texto de
+copyright y un formateador de fecha
+<code>%s %s %02d %02d:%02d:%02d %4d</code>) e importa
+<code>srand</code>/<code>rand</code>/<code>time</code>, coherente con un
+relleno sembrado con la hora. No contiene la cadena
+<code>Boot unit no … Make cmd</code>, así que esa línea la genera la
+herramienta de fabricación original y <code>UPDATE.EXE</code> solo la
+conserva. Pendiente: desensamblar la rutina de escritura para
+confirmarlo.</li>
 <li>Discos de instalación a medida para un controlador propio: ¿algo más
 que el serie debe coincidir?</li>
 </ul>

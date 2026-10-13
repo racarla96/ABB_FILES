@@ -112,10 +112,10 @@ Example (BW 2.1 set from an IRB1400-2405): the bytes at those positions are `A2 
 ### Open questions
 
 - The exact line format inside `sys.id` (is there a console, serial or FTP route to read `ram1disk:`?).
-- The old blank-serial disks (1998/2002): the code requires a serial longer than 3 characters. Were they for another BW version, or installed another way?
+- ~~The old blank-serial disks (1998/2002)~~: **solved.** They are *generic* revision disks (empty serial) that cannot boot any controller; they are "authorized" with `UPDATE.EXE` (`3HAB2300-2_00`, see below), which copies the serial from an original disk of the robot.
 - BW/RW 3.x on S4 uses `disc.id` (confirmed), but **BW 3.0 for S4C uses a key disk with a *keystring*** (a different, unanalysed mechanism). Is it static per unit like the serial, or a checksum/time-based value?
 - Does anything else read `DISC.ID` or `sys.id` (options, Teach Pendant, RAPID, service tools)? Only one reader was found in `ABB_MC`.
-- Which tool made the disks? The header has `Boot unit no 0 Make cmd 4 <date>` and the filler looks time-seeded.
+- ~~Which tool made the disks?~~ **Partly solved:** `UPDATE.EXE` (`3HAB2300-2_00`, Borland C++ 1991) contains the `disc.id` writer (format strings `Boot  disk %d (%d)`, `Program no %s`, `Serial  no %s`, the copyright text and a date formatter `%s %s %02d %02d:%02d:%02d %4d`) and imports `srand`/`rand`/`time`, consistent with time-seeded filler. It does not contain the string `Boot unit no … Make cmd`, so that line is produced by ABB's original manufacturing tool and `UPDATE.EXE` only preserves it. To do: disassemble the write routine to confirm.
 - Custom install floppies for your own controller: does anything besides the serial need to match?
 
 ### Tool in this repo: `tools/discid.py`

@@ -692,9 +692,11 @@ mode.</li>
 <ul>
 <li>The exact line format inside <code>sys.id</code> (is there a
 console, serial or FTP route to read <code>ram1disk:</code>?).</li>
-<li>The old blank-serial disks (1998/2002): the code requires a serial
-longer than 3 characters. Were they for another BW version, or installed
-another way?</li>
+<li><del>The old blank-serial disks (1998/2002)</del>:
+<strong>solved.</strong> They are <em>generic</em> revision disks (empty
+serial) that cannot boot any controller; they are "authorized" with
+<code>UPDATE.EXE</code> (<code>3HAB2300-2_00</code>, see below), which
+copies the serial from an original disk of the robot.</li>
 <li>BW/RW 3.x on S4 uses <code>disc.id</code> (confirmed), but
 <strong>BW 3.0 for S4C uses a key disk with a
 <em>keystring</em></strong> (a different, unanalysed mechanism). Is it
@@ -702,9 +704,17 @@ static per unit like the serial, or a checksum/time-based value?</li>
 <li>Does anything else read <code>DISC.ID</code> or <code>sys.id</code>
 (options, Teach Pendant, RAPID, service tools)? Only one reader was
 found in <code>ABB_MC</code>.</li>
-<li>Which tool made the disks? The header has
-<code>Boot unit no 0 Make cmd 4 &lt;date&gt;</code> and the filler looks
-time-seeded.</li>
+<li><del>Which tool made the disks?</del> <strong>Partly
+solved:</strong> <code>UPDATE.EXE</code> (<code>3HAB2300-2_00</code>,
+Borland C++ 1991) contains the <code>disc.id</code> writer (format
+strings <code>Boot  disk %d (%d)</code>, <code>Program no %s</code>,
+<code>Serial  no %s</code>, the copyright text and a date formatter
+<code>%s %s %02d %02d:%02d:%02d %4d</code>) and imports
+<code>srand</code>/<code>rand</code>/<code>time</code>, consistent with
+time-seeded filler. It does not contain the string
+<code>Boot unit no … Make cmd</code>, so that line is produced by ABB's
+original manufacturing tool and <code>UPDATE.EXE</code> only preserves
+it. To do: disassemble the write routine to confirm.</li>
 <li>Custom install floppies for your own controller: does anything
 besides the serial need to match?</li>
 </ul>

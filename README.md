@@ -112,10 +112,10 @@ Ejemplo (set BW 2.1 de un IRB1400-2405): los bytes en esas posiciones son `A2 AD
 ### Preguntas abiertas
 
 - Formato exacto de las líneas de `sys.id` (¿hay comando de consola, serie o FTP para leer `ram1disk:`?).
-- Los discos antiguos sin serie (1998/2002): el código exige más de 3 caracteres. ¿Eran para otra versión de BW o se instalaban de otro modo?
+- ~~Los discos antiguos sin serie (1998/2002)~~: **resuelto.** Son discos de revisión *genéricos* (serie vacío) que no arrancan en ningún controlador; se "autorizan" con `UPDATE.EXE` (`3HAB2300-2_00`, ver más abajo), que copia el serie de un disco original del robot.
 - BW/RW 3.x en S4 usa `disc.id` (confirmado), pero **BW 3.0 para S4C usa un disco-llave con una *keystring*** (mecanismo distinto, sin analizar). ¿Es estática por unidad como el serie, o un checksum/tiempo?
 - ¿Algo más lee `DISC.ID` o `sys.id` (opciones, Teach Pendant, RAPID, herramientas de servicio)? Solo se encontró un lector en `ABB_MC`.
-- ¿Con qué herramienta se fabricaron los discos? La cabecera lleva `Boot unit no 0 Make cmd 4 <fecha>` y el relleno parece sembrado con la hora.
+- ~~¿Con qué herramienta se fabricaron los discos?~~ **Parcialmente resuelto:** `UPDATE.EXE` (`3HAB2300-2_00`, Borland C++ 1991) contiene el escritor de `disc.id` (formatos `Boot  disk %d (%d)`, `Program no %s`, `Serial  no %s`, el texto de copyright y un formateador de fecha `%s %s %02d %02d:%02d:%02d %4d`) e importa `srand`/`rand`/`time`, coherente con un relleno sembrado con la hora. No contiene la cadena `Boot unit no … Make cmd`, así que esa línea la genera la herramienta de fabricación original y `UPDATE.EXE` solo la conserva. Pendiente: desensamblar la rutina de escritura para confirmarlo.
 - Discos de instalación a medida para un controlador propio: ¿algo más que el serie debe coincidir?
 
 ### Herramienta en este repo: `tools/discid.py`
