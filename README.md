@@ -1,5 +1,7 @@
 # ABB_FILES
 
+*[English version](README.en.md)*
+
 Backup personal y preservación de los disquetes de sistema (boot disks) de controladores **ABB S4 / S4C** (BaseWare / RobotWare 2.0, 2.1 y 3.0) para robots IRB 1400/2400/3400/4400/6400. Repositorio privado.
 
 ## Estructura

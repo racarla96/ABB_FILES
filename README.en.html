@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>ABB_FILES</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <style>body{font-family:system-ui,sans-serif;max-width:1000px;margin:2em auto;padding:0 1em;line-height:1.5;color:#222}
+  table{border-collapse:collapse;width:100%;font-size:.9em}th,td{border:1px solid #ccc;padding:4px 8px;text-align:left}th{background:#f0f0f0}
+  tr:nth-child(even) td{background:#fafafa}pre{background:#f6f8fa;padding:1em;overflow:auto}code{background:#f6f8fa;padding:0 3px}pre code{padding:0}</style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">ABB_FILES</h1>
+</header>
+<h1 id="abb_files">ABB_FILES</h1>
+<p><em><a href="README.md">Versión en español</a></em></p>
+<p>Personal backup and preservation of the system (boot) floppy disks
+for <strong>ABB S4 / S4C</strong> controllers (BaseWare / RobotWare 2.0,
+2.1 and 3.0) for IRB 1400/2400/3400/4400/6400 robots. Private
+repository.</p>
+<h2 id="structure">Structure</h2>
+<p>Every program (<code>3HABxxxx-y/rev</code>) follows the same
+pattern:</p>
+<pre><code>3HABxxxx-y_rev/
+├── 3HABxxxx-y_rev/      # extracted contents, one folder per floppy (DISK 1, DISK 2, ...)
+├── 3HABxxxx-y_rev.zip   # same contents, zipped
+└── 3HABxxxx-y_rev.md    # notes (origin, robot serial, etc.)</code></pre>
+<ul>
+<li>The <code>/</code> in the program number is replaced by
+<code>_</code> in the folder name.</li>
+<li><code>(2)</code> suffix: a second copy of the same program/revision
+with different contents (other date or origin).</li>
+<li>Each floppy's <code>disc.id</code> holds the program number, robot
+serial number, build date and label.</li>
+<li><code>3HAB2300-2_00</code> is not a boot disk: it is the MS-DOS tool
+<em>S4 Program Update</em> (see its <code>.md</code>).</li>
+</ul>
+<h2 id="program-table">Program table</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Program no. / rev.</th>
+<th>Description</th>
+<th>Version</th>
+<th>No. of disks</th>
+<th>Month/Year</th>
+<th>Available</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>3HAB2300-2/00</td>
+<td>S4 Program Update</td>
+<td>—</td>
+<td>1</td>
+<td>02/1998</td>
+<td>Yes</td>
+</tr>
+<tr class="even">
+<td>3HAB2316-1/13</td>
+<td>Basic 2.0</td>
+<td>2.0</td>
+<td>3</td>
+<td>02/1998</td>
+<td>Yes</td>
+</tr>
+<tr class="odd">
+<td>3HAB2317-1/05</td>
+<td>Basic CommWare 2.0</td>
+<td>2.0</td>
+<td>3</td>
+<td>02/1996</td>
+<td>Yes</td>
+</tr>
+<tr class="even">
+<td>3HAB2317-1/13</td>
+<td>Basic CommWare 2.0</td>
+<td>2.0</td>
+<td>3</td>
+<td>02/1998</td>
+<td>Yes</td>
+</tr>
+<tr class="odd">
+<td>3HAB2318-1/09</td>
+<td>IRB 1400 2400 3400 4400 2.0</td>
+<td>2.0</td>
+<td>2</td>
+<td>02/1998</td>
+<td>Yes</td>
+</tr>
+<tr class="even">
+<td>3HAB2319-1/03</td>
+<td>IRB 6400 Elmo/Siemens 2.0</td>
+<td>2.0</td>
+<td>3</td>
+<td>02/1996</td>
+<td>Yes</td>
+</tr>
+<tr class="odd">
+<td>3HAB2319-1/08</td>
+<td>IRB 6400 Elmo/Siemens 2.0 (newer rev.)</td>
+<td>2.0</td>
+<td>2</td>
+<td>02/1998</td>
+<td>Yes</td>
+</tr>
+<tr class="even">
+<td>3HAB2321-1/00</td>
+<td>Advanced Functions 2.0</td>
+<td>2.0</td>
+<td>1</td>
+<td>11/1995</td>
+<td>Yes</td>
+</tr>
+<tr class="odd">
+<td>3HAB2322-1/00</td>
+<td>Multitasking 2.0</td>
+<td>2.0</td>
+<td>1</td>
+<td>09/1997</td>
+<td>Yes</td>
+</tr>
+<tr class="even">
+<td>3HAB2330-1/08</td>
+<td>IRB 1400 2400 DCLink6 2.0</td>
+<td>2.0</td>
+<td>2</td>
+<td>02/1998</td>
+<td>Yes</td>
+</tr>
+<tr class="odd">
+<td>3HAB2331-1/00</td>
+<td>System Parameters 2.0 (empty SYSPAR)</td>
+<td>2.0</td>
+<td>2</td>
+<td>02/1998</td>
+<td>Yes</td>
+</tr>
+<tr class="even">
+<td>3HAB2331-1/00 (2)</td>
+<td>System Parameters 2.0 (full .CFG files, robot IRB6400-2562)</td>
+<td>2.0</td>
+<td>1</td>
+<td>06/2007</td>
+<td>Yes</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>3HAB2333-1/07</td>
+<td>BaseWare OS 2.1</td>
+<td>2.1</td>
+<td>3</td>
+<td>03/1998</td>
+<td>Yes</td>
+</tr>
+<tr class="odd">
+<td>3HAB2333-1/08</td>
+<td>BaseWare OS 2.1</td>
+<td>2.1</td>
+<td>2</td>
+<td>05/2022</td>
+<td>Yes</td>
+</tr>
+<tr class="even">
+<td>3HAB2334-1/08</td>
+<td>BaseWare OS RAP 2.1</td>
+<td>2.1</td>
+<td>2</td>
+<td>03/2002</td>
+<td>Yes</td>
+</tr>
+<tr class="odd">
+<td>3HAB2337-1/04</td>
+<td>System Parameters 2.1</td>
+<td>2.1</td>
+<td>1</td>
+<td>05/2022</td>
+<td>Yes</td>
+</tr>
+<tr class="even">
+<td>3HAB2337-1/04 (2)</td>
+<td>System Parameters 2.1</td>
+<td>2.1</td>
+<td>1</td>
+<td>03/1998</td>
+<td>Yes</td>
+</tr>
+<tr class="odd">
+<td>3HAB2338-1/06</td>
+<td>IRB 1400 2400 3400 4400 2.1</td>
+<td>2.1</td>
+<td>1</td>
+<td>05/2022</td>
+<td>Yes</td>
+</tr>
+<tr class="even">
+<td>3HAB2340-1/04</td>
+<td>IRB 6400 2.1</td>
+<td>2.1</td>
+<td>1</td>
+<td>05/2019</td>
+<td>Yes</td>
+</tr>
+<tr class="odd">
+<td>3HAB2342-1/04</td>
+<td>IRB 6400 2.1</td>
+<td>2.1</td>
+<td>1</td>
+<td>03/1998</td>
+<td>Yes</td>
+</tr>
+<tr class="even">
+<td>3HAB2343-1/03</td>
+<td>IRB 2400 M96 540 2.1</td>
+<td>2.1</td>
+<td>1</td>
+<td>02/1998</td>
+<td>Yes</td>
+</tr>
+<tr class="odd">
+<td>3HAB2344-1/00</td>
+<td>Advanced Functions 2.1</td>
+<td>2.1</td>
+<td>1</td>
+<td>05/2022</td>
+<td>Yes</td>
+</tr>
+<tr class="even">
+<td>3HAB2344-1/00 (2)</td>
+<td>Advanced Functions 2.1</td>
+<td>2.1</td>
+<td>1</td>
+<td>03/1998</td>
+<td>Yes</td>
+</tr>
+<tr class="odd">
+<td>3HAB2346-1/01</td>
+<td>Multitasking 2.1</td>
+<td>2.1</td>
+<td>1</td>
+<td>05/2022</td>
+<td>Yes</td>
+</tr>
+<tr class="even">
+<td>3HAB2347-1/02</td>
+<td>ArcWare 2.1</td>
+<td>2.1</td>
+<td>1</td>
+<td>05/2022</td>
+<td>Yes</td>
+</tr>
+<tr class="odd">
+<td>3HAB2351-1/03</td>
+<td>SpotWare + GlueWare + Advanced Functions 2.1</td>
+<td>2.1</td>
+<td>1</td>
+<td>02/2019</td>
+<td>Yes</td>
+</tr>
+<tr class="even">
+<td>3HAB2356-1/03</td>
+<td>Teach Pendant Text 2.1</td>
+<td>2.1</td>
+<td>2</td>
+<td>05/2019</td>
+<td>Yes</td>
+</tr>
+<tr class="odd">
+<td>3HAB2356-1/03 (2)</td>
+<td>Teach Pendant Text 2.1</td>
+<td>2.1</td>
+<td>2</td>
+<td>03/1998</td>
+<td>Yes</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>3HAB2375-1/47</td>
+<td>BaseWare OS 3.0</td>
+<td>3.0</td>
+<td>4</td>
+<td>12/2000</td>
+<td>Yes</td>
+</tr>
+<tr class="even">
+<td>3HAB2377-1/47</td>
+<td>Teach Pendant Text A 3.0</td>
+<td>3.0</td>
+<td>2</td>
+<td>05/2022</td>
+<td>Yes</td>
+</tr>
+<tr class="odd">
+<td>3HAB2379-2/21</td>
+<td>IRB 1400 2400 3400 4400 3.0</td>
+<td>3.0</td>
+<td>1</td>
+<td>11/2000</td>
+<td>Yes</td>
+</tr>
+<tr class="even">
+<td>3HAB2380-1/02</td>
+<td>Advanced Functions 3.0</td>
+<td>3.0</td>
+<td>1</td>
+<td>11/2000</td>
+<td>Yes</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>3HAB2319-3/05</td>
+<td>IRB 6400 M96</td>
+<td>2.0</td>
+<td>—</td>
+<td></td>
+<td>No</td>
+</tr>
+<tr class="odd">
+<td>3HAB2323-1/00</td>
+<td>ArcWare 2.0</td>
+<td>2.0</td>
+<td>—</td>
+<td></td>
+<td>No</td>
+</tr>
+<tr class="even">
+<td>3HAB2324-1/00</td>
+<td>ArcWare Plus 2.0</td>
+<td>2.0</td>
+<td>—</td>
+<td></td>
+<td>No</td>
+</tr>
+<tr class="odd">
+<td>3HAB2325-1/00</td>
+<td>SpotWare 2.0 (includes Advanced Functions)</td>
+<td>2.0</td>
+<td>—</td>
+<td></td>
+<td>No</td>
+</tr>
+<tr class="even">
+<td>3HAB2326-1/00</td>
+<td>SpotWare Plus 2.0 (includes Advanced Functions and
+Multitasking)</td>
+<td>2.0</td>
+<td>—</td>
+<td></td>
+<td>No</td>
+</tr>
+<tr class="odd">
+<td>3HAB2327-1/02</td>
+<td>Serial Link RAP 2.0</td>
+<td>2.0</td>
+<td>—</td>
+<td></td>
+<td>No</td>
+</tr>
+<tr class="even">
+<td>3HAB2328-1/02</td>
+<td>Weld Timer Interface 2.0</td>
+<td>2.0</td>
+<td>—</td>
+<td></td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<h2 id="discid-format-and-serial-number-validation"><code>disc.id</code>
+format and serial number validation</h2>
+<p>Summary of an analysis of ~135 <code>DISC.ID</code> files (59 unique)
+from BaseWare/RobotWare 2.0 and 2.1 sets (on these S4 systems BW and RW
+are the same thing). Additionally confirmed by other users with BW 3.0
+for S4 and with Basic M94A. <strong>Not tested on a real
+controller</strong> (validated against an exact replica of the parser).
+Use only with your own equipment and disks.</p>
+<h3 id="summary">Summary</h3>
+<ul>
+<li>A <code>DISC.ID</code> is a text header plus a 214–247 byte binary
+tail that looks like noise.</li>
+<li>The tail is random filler with the robot's serial number hidden at
+fixed positions. The <code>Serial  no …</code> line in the header is
+<strong>decorative</strong>.</li>
+<li>Every BW/RW 2.x <code>install.cmd</code> starts with
+<code>registrate -path flp1:disc.id</code>. If the disk's serial doesn't
+match the controller's: <strong>"Invalid disc id"</strong>.</li>
+</ul>
+<h3 id="structure-1">Structure</h3>
+<ul>
+<li><strong>ASCII header</strong> with CRLF line endings, ending in CRLF
+CRLF. <code>registrate</code> only looks for the
+<code>Program no …</code> line and then the
+<code>Boot discette label text:…</code> line.</li>
+<li><strong>Binary tail.</strong> The parser does
+<code>fseek(-193, SEEK_END)</code>, reads one byte, skips
+<code>17-i</code> bytes, and repeats until 17 characters or a 0. Each
+character is <code>serial[i] = (byte + 0xA7 - 2*i) &amp; 0xFF</code>.
+The serial must be longer than 3 characters.</li>
+<li>Nothing else in the tail is read. Across the 59 disks it is uniform
+random filler in <code>0x5B–0xBF</code>, with no <code>00</code>,
+<code>0A</code>, <code>0D</code> or <code>1A</code>.</li>
+</ul>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>POS <span class="op">=</span> [<span class="dv">0</span>]</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">16</span>):</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    POS.append(POS[<span class="op">-</span><span class="dv">1</span>] <span class="op">+</span> <span class="dv">18</span> <span class="op">-</span> i)   <span class="co"># 0,18,35,51,66,80,93,105,116,126,135,143,150,...</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> disc_serial(data: <span class="bu">bytes</span>) <span class="op">-&gt;</span> <span class="bu">str</span>:</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    base <span class="op">=</span> <span class="bu">len</span>(data) <span class="op">-</span> <span class="dv">193</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    out <span class="op">=</span> <span class="bu">bytearray</span>()</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">17</span>):</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>        c <span class="op">=</span> (data[base <span class="op">+</span> POS[i]] <span class="op">+</span> <span class="bn">0xA7</span> <span class="op">-</span> <span class="dv">2</span> <span class="op">*</span> i) <span class="op">&amp;</span> <span class="bn">0xFF</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> c <span class="op">==</span> <span class="dv">0</span>:</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>            <span class="cf">break</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>        out.append(c)</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> out.decode(<span class="st">&#39;ascii&#39;</span>)</span></code></pre></div>
+<p>Example (BW 2.1 set from an IRB1400-2405): the bytes at those
+positions are <code>A2 AD 9F 90 95 93 95 94 9B 9F 9D A4 71</code>, which
+decode to <code>IRB1400-2405</code> plus the terminating null. Across
+all 59 unique disks the decoded serial matches the header serial. A
+variant working on a hex dump of the file
+(<code>bytes.fromhex(...)</code>) uses exactly the same algorithm and
+also works.</p>
+<h3
+id="what-the-controller-does-68k-code-of-abb_mc-from-a-bwrw-20-image-aout-with-entry-point-0x42000">What
+the controller does (68k code of <code>ABB_MC</code> from a BW/RW 2.0
+image, a.out with entry point 0x42000)</h3>
+<ul>
+<li><code>registrate</code> handler at <code>0x26ed30</code>, parser at
+<code>0x2c292e</code>, comparison at <code>0x2c2baa</code>, registration
+routine at <code>0x2c2a3e</code>.</li>
+<li>If <code>ram1disk:sys.id</code> exists, it compares 12 bytes from
+the disk against its <code>SystemId</code> key. If they differ: "Invalid
+disc id".</li>
+<li>If it doesn't exist, it creates it with the sections
+<code>System:</code>, <code>Product:</code> and <code>Function:</code>
+and writes <code>SystemId</code> with the disk's serial. <strong>The
+first disk of a clean installation sets the system's identity</strong>;
+every later disk is compared against it. So never register a disk with a
+different serial first.</li>
+<li>It also records the disk's <code>Program no</code> and label as a
+product.</li>
+<li>Method: concatenate <code>ABB_MC.000/.001/.002</code>, read the
+a.out header (base 0x42000) and disassemble with capstone in M68K 040
+mode.</li>
+</ul>
+<h3 id="open-questions">Open questions</h3>
+<ul>
+<li>The exact line format inside <code>sys.id</code> (is there a
+console, serial or FTP route to read <code>ram1disk:</code>?).</li>
+<li>The old blank-serial disks (1998/2002): the code requires a serial
+longer than 3 characters. Were they for another BW version, or installed
+another way?</li>
+<li>BW/RW 3.x on S4 uses <code>disc.id</code> (confirmed), but
+<strong>BW 3.0 for S4C uses a key disk with a
+<em>keystring</em></strong> (a different, unanalysed mechanism). Is it
+static per unit like the serial, or a checksum/time-based value?</li>
+<li>Does anything else read <code>DISC.ID</code> or <code>sys.id</code>
+(options, Teach Pendant, RAPID, service tools)? Only one reader was
+found in <code>ABB_MC</code>.</li>
+<li>Which tool made the disks? The header has
+<code>Boot unit no 0 Make cmd 4 &lt;date&gt;</code> and the filler looks
+time-seeded.</li>
+<li>Custom install floppies for your own controller: does anything
+besides the serial need to match?</li>
+</ul>
+<h3 id="tool-in-this-repo-toolsdiscidpy">Tool in this repo:
+<code>tools/discid.py</code></h3>
+<p>Decodes, checks and <strong>generates</strong> <code>disc.id</code>
+files from a serial number.</p>
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># decode / check against the header</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="ex">python3</span> tools/discid.py decode <span class="st">&quot;3HAB2316-1_13/3HAB2316-1_13/DISK 1/disc.id&quot;</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="ex">python3</span> tools/discid.py check 3HAB<span class="pp">*</span>/<span class="pp">*</span>/DISK<span class="pp">*</span>/disc.id</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co"># generate a disc.id for another robot</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="ex">python3</span> tools/discid.py generate <span class="at">--serial</span> IRB6400-1234 <span class="at">--program</span> 3HAB2316-1/13 <span class="dt">\</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">--label</span> <span class="st">&quot;BaseWare OS 2.0&quot;</span> <span class="at">--disk</span> 1 <span class="at">--of</span> 3 <span class="at">--date</span> <span class="st">&quot;Wed May 04 08:16:27 2022&quot;</span> <span class="at">-o</span> disc.id</span></code></pre></div>
+<p>Tested on this repo's <code>disc.id</code> files: 51 of 52 decode to
+a serial identical to the header's (the blank-serial 1998 ones decode to
+an empty string). The exception is <code>3HAB2343-1_03</code>: its tail
+decodes to empty while the header says <code>2400-3706</code>; the file
+is dated 2021, so someone probably edited the header by hand on a disk
+that originally had no serial.</p>
+<p>The generator has only been verified against the decoder itself, not
+against a real controller.</p>
+</body>
+</html>
