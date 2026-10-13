@@ -1,6 +1,6 @@
 # ABB_FILES
 
-*[English version](README.en.md)*
+_[English version](README.en.md)_
 
 Backup personal y preservación de los disquetes de sistema (boot disks) de controladores **ABB S4 / S4C** (BaseWare / RobotWare 2.0, 2.1 y 3.0) para robots IRB 1400/2400/3400/4400/6400. Repositorio privado.
 
@@ -18,54 +18,68 @@ Cada programa (`3HABxxxx-y/rev`) sigue el mismo patrón:
 - `/` del número de programa se sustituye por `_` en el nombre de carpeta.
 - Sufijo `(2)`: segunda copia del mismo programa/revisión con contenido distinto (otra fecha o origen).
 - `disc.id` de cada disquete contiene número de programa, nº de serie del robot, fecha de generación y etiqueta.
-- `3HAB2300-2_00` no es un disco de arranque: es la herramienta MS-DOS *S4 Program Update* (ver su `.md`).
+- `3HAB2300-2_00` no es un disco de arranque: es la herramienta MS-DOS _S4 Program Update_ (ver su `.md`).
 
 ## Tabla de programas
 
-| Program no. / rev. | Description | Version | No. of disks | Month/Year | Available |
-|---|---|---|---|---|---|
-| 3HAB2300-2/00 | S4 Program Update | — | 1 | 02/1998 | Yes |
-| 3HAB2316-1/13 | Basic 2.0 | 2.0 | 3 | 02/1998 | Yes |
-| 3HAB2317-1/05 | Basic CommWare 2.0 | 2.0 | 3 | 02/1996 | Yes |
-| 3HAB2317-1/13 | Basic CommWare 2.0 | 2.0 | 3 | 02/1998 | Yes |
-| 3HAB2318-1/09 | IRB 1400 2400 3400 4400 2.0 | 2.0 | 2 | 02/1998 | Yes |
-| 3HAB2319-1/03 | IRB 6400 Elmo/Siemens 2.0 | 2.0 | 3 | 02/1996 | Yes |
-| 3HAB2319-1/08 | IRB 6400 Elmo/Siemens 2.0 (newer rev.) | 2.0 | 2 | 02/1998 | Yes |
-| 3HAB2321-1/00 | Advanced Functions 2.0 | 2.0 | 1 | 11/1995 | Yes |
-| 3HAB2322-1/00 | Multitasking 2.0 | 2.0 | 1 | 09/1997 | Yes |
-| 3HAB2330-1/08 | IRB 1400 2400 DCLink6 2.0 | 2.0 | 2 | 02/1998 | Yes |
-| 3HAB2331-1/00 | System Parameters 2.0 (empty SYSPAR) | 2.0 | 2 | 02/1998 | Yes |
-| 3HAB2331-1/00 (2) | System Parameters 2.0 (full .CFG files, robot IRB6400-2562) | 2.0 | 1 | 06/2007 | Yes |
-| | | | | | |
-| 3HAB2333-1/07 | BaseWare OS 2.1 | 2.1 | 3 | 03/1998 | Yes |
-| 3HAB2333-1/08 | BaseWare OS 2.1 | 2.1 | 2 | 05/2022 | Yes |
-| 3HAB2334-1/08 | BaseWare OS RAP 2.1 | 2.1 | 2 | 03/2002 | Yes |
-| 3HAB2337-1/04 | System Parameters 2.1 | 2.1 | 1 | 05/2022 | Yes |
-| 3HAB2337-1/04 (2) | System Parameters 2.1 | 2.1 | 1 | 03/1998 | Yes |
-| 3HAB2338-1/06 | IRB 1400 2400 3400 4400 2.1 | 2.1 | 1 | 05/2022 | Yes |
-| 3HAB2340-1/04 | IRB 6400 2.1 | 2.1 | 1 | 05/2019 | Yes |
-| 3HAB2342-1/04 | IRB 6400 2.1 | 2.1 | 1 | 03/1998 | Yes |
-| 3HAB2343-1/03 | IRB 2400 M96 540 2.1 | 2.1 | 1 | 02/1998 | Yes |
-| 3HAB2344-1/00 | Advanced Functions 2.1 | 2.1 | 1 | 05/2022 | Yes |
-| 3HAB2344-1/00 (2) | Advanced Functions 2.1 | 2.1 | 1 | 03/1998 | Yes |
-| 3HAB2346-1/01 | Multitasking 2.1 | 2.1 | 1 | 05/2022 | Yes |
-| 3HAB2347-1/02 | ArcWare 2.1 | 2.1 | 1 | 05/2022 | Yes |
-| 3HAB2351-1/03 | SpotWare + GlueWare + Advanced Functions 2.1 | 2.1 | 1 | 02/2019 | Yes |
-| 3HAB2356-1/03 | Teach Pendant Text 2.1 | 2.1 | 2 | 05/2019 | Yes |
-| 3HAB2356-1/03 (2) | Teach Pendant Text 2.1 | 2.1 | 2 | 03/1998 | Yes |
-| | | | | | |
-| 3HAB2375-1/47 | BaseWare OS 3.0 | 3.0 | 4 | 12/2000 | Yes |
-| 3HAB2377-1/47 | Teach Pendant Text A 3.0 | 3.0 | 2 | 05/2022 | Yes |
-| 3HAB2379-2/21 | IRB 1400 2400 3400 4400 3.0 | 3.0 | 1 | 11/2000 | Yes |
-| 3HAB2380-1/02 | Advanced Functions 3.0 | 3.0 | 1 | 11/2000 | Yes |
-| | | | | | |
-| 3HAB2319-3/05 | IRB 6400 M96 | 2.0 | — |   | No |   |
-| 3HAB2323-1/00 | ArcWare 2.0 | 2.0 | — |   | No |   |
-| 3HAB2324-1/00 | ArcWare Plus 2.0 | 2.0 | — |   | No |   |
-| 3HAB2325-1/00 | SpotWare 2.0 (includes Advanced Functions) | 2.0 | — |   | No |   |
-| 3HAB2326-1/00 | SpotWare Plus 2.0 (includes Advanced Functions and Multitasking) | 2.0 | — |   | No |   |
-| 3HAB2327-1/02 | Serial Link RAP 2.0 | 2.0 | — |   | No |   |
-| 3HAB2328-1/02 | Weld Timer Interface 2.0 | 2.0 | — |   | No |   |
+| Program no. / rev. | Description                                                      | Version | No. of disks | Month/Year | Available |
+| ------------------ | ---------------------------------------------------------------- | ------- | ------------ | ---------- | --------- | --- |
+| 3HAB2300-2/00      | S4 Program Update                                                | —       | 1            | 02/1998    | Yes       |
+| 3HAB2316-1/13      | Basic 2.0                                                        | 2.0     | 3            | 02/1998    | Yes       |
+| 3HAB2317-1/05      | Basic CommWare 2.0                                               | 2.0     | 3            | 02/1996    | Yes       |
+| 3HAB2317-1/13      | Basic CommWare 2.0                                               | 2.0     | 3            | 02/1998    | Yes       |
+| 3HAB2318-1/09      | IRB 1400 2400 3400 4400 2.0                                      | 2.0     | 2            | 02/1998    | Yes       |
+| 3HAB2319-1/03      | IRB 6400 Elmo/Siemens 2.0 (M94A)                                  | 2.0     | 3            | 02/1996    | Yes       |
+| 3HAB2319-1/08      | IRB 6400 Elmo/Siemens 2.0 (M94A, newer rev.)                      | 2.0     | 2            | 02/1998    | Yes       |
+| 3HAB2321-1/00      | Advanced Functions 2.0                                           | 2.0     | 1            | 11/1995    | Yes       |
+| 3HAB2322-1/00      | Multitasking 2.0                                                 | 2.0     | 1            | 09/1997    | Yes       |
+| 3HAB2330-1/08      | IRB 1400 2400 DCLink6 2.0                                        | 2.0     | 2            | 02/1998    | Yes       |
+| 3HAB2331-1/00      | System Parameters 2.0 (empty SYSPAR)                             | 2.0     | 2            | 02/1998    | Yes       |
+| 3HAB2331-1/00 (2)  | System Parameters 2.0 (full .CFG files, robot IRB6400-2562)      | 2.0     | 1            | 06/2007    | Yes       |
+|                    |                                                                  |         |              |            |           |
+| 3HAB2333-1/07      | BaseWare OS 2.1                                                  | 2.1     | 3            | 03/1998    | Yes       |
+| 3HAB2333-1/08      | BaseWare OS 2.1                                                  | 2.1     | 2            | 05/2022    | Yes       |
+| 3HAB2334-1/08      | BaseWare OS RAP 2.1                                              | 2.1     | 2            | 03/2002    | Yes       |
+| 3HAB2337-1/04      | System Parameters 2.1                                            | 2.1     | 1            | 05/2022    | Yes       |
+| 3HAB2337-1/04 (2)  | System Parameters 2.1                                            | 2.1     | 1            | 03/1998    | Yes       |
+| 3HAB2338-1/06      | IRB 1400 2400 3400 4400 2.1                                      | 2.1     | 1            | 05/2022    | Yes       |
+| 3HAB2340-1/04      | IRB 6400 Elmo/Siemens 2.1 (M94A)                                  | 2.1     | 1            | 05/2019    | Yes       |
+| 3HAB2342-1/04      | IRB 6400 M96 2.1                                                  | 2.1     | 1            | 03/1998    | Yes       |
+| 3HAB2343-1/03      | IRB 2400 M96 540 2.1                                             | 2.1     | 1            | 02/1998    | Yes       |
+| 3HAB2344-1/00      | Advanced Functions 2.1                                           | 2.1     | 1            | 05/2022    | Yes       |
+| 3HAB2344-1/00 (2)  | Advanced Functions 2.1                                           | 2.1     | 1            | 03/1998    | Yes       |
+| 3HAB2346-1/01      | Multitasking 2.1                                                 | 2.1     | 1            | 05/2022    | Yes       |
+| 3HAB2347-1/02      | ArcWare 2.1                                                      | 2.1     | 1            | 05/2022    | Yes       |
+| 3HAB2351-1/03      | SpotWare + GlueWare + Advanced Functions 2.1                     | 2.1     | 1            | 02/2019    | Yes       |
+| 3HAB2356-1/03      | Teach Pendant Text 2.1                                           | 2.1     | 2            | 05/2019    | Yes       |
+| 3HAB2356-1/03 (2)  | Teach Pendant Text 2.1                                           | 2.1     | 2            | 03/1998    | Yes       |
+|                    |                                                                  |         |              |            |           |
+| 3HAB2375-1/47      | BaseWare OS 3.0                                                  | 3.0     | 4            | 12/2000    | Yes       |
+| 3HAB2377-1/47      | Teach Pendant Text A 3.0                                         | 3.0     | 2            | 05/2022    | Yes       |
+| 3HAB2379-2/21      | IRB 1400 2400 3400 4400 3.0                                      | 3.0     | 1            | 11/2000    | Yes       |
+| 3HAB2380-1/02      | Advanced Functions 3.0                                           | 3.0     | 1            | 11/2000    | Yes       |
+|                    |                                                                  |         |              |            |           |
+| 3HAB2319-3/05      | IRB 6400 M96                                                     | 2.0     | —            |            | No        |     |
+| 3HAB2323-1/00      | ArcWare 2.0                                                      | 2.0     | —            |            | No        |     |
+| 3HAB2324-1/00      | ArcWare Plus 2.0                                                 | 2.0     | —            |            | No        |     |
+| 3HAB2325-1/00      | SpotWare 2.0 (includes Advanced Functions)                       | 2.0     | —            |            | No        |     |
+| 3HAB2326-1/00      | SpotWare Plus 2.0 (includes Advanced Functions and Multitasking) | 2.0     | —            |            | No        |     |
+| 3HAB2327-1/02      | Serial Link RAP 2.0                                              | 2.0     | —            |            | No        |     |
+| 3HAB2328-1/02      | Weld Timer Interface 2.0                                         | 2.0     | —            |            | No        |     |
+
+### IRB 6400: configuración M94A vs M96
+
+Los discos de modelo `IRB 6400` existen en dos generaciones de electrónica/motores y **no son intercambiables**:
+
+| | `3HAB2340-1/04` (y `3HAB2319-1/xx` en 2.0) | `3HAB2342-1/04` (y `3HAB2319-3/05` en 2.0) |
+|---|---|---|
+| Generación | M94A: IRB 6400 "Elmo/Siemens" | M96 |
+| `install.cmd` pregunta | modelo **y** tipo de motor del eje 4 (Elmo o Siemens) | solo el modelo |
+| Modelos | 2.25-75 (PE), 2.4-120, 2.4-150, 2.8-120, S2.9-120, 3.0-75, 2.4-balB (7) | 2.4-120, 2.4-150, 2.8-120, S2.9-120, 3.0-75, 2.4-balB (6, sin 2.25-75) |
+| Ficheros de `IRBCFG` | `M64xxxx*.CFG` (Elmo) y `S64xxxx*.CFG` (Siemens), 42 ficheros | `P64xxxx*.CFG`, 18 ficheros |
+| Texto en `install.cmd` | "IRB 6400 Elmo/Siemens S4 2.1" | "IRB 6400 M96 S4 2.1" |
+
+Para elegir: si la etiqueta del motor del eje 4 es Elmo o Siemens y el robot es de la serie temprana (p. ej. IRB6400-1262/1263/3518 con `3HAB2319` Elmo/Siemens 2.0), usar el M94A. Deducido de los `install.cmd`; no verificado en un robot M96.
 
 ## Formato de `disc.id` y validación del nº de serie
 
@@ -112,8 +126,8 @@ Ejemplo (set BW 2.1 de un IRB1400-2405): los bytes en esas posiciones son `A2 AD
 ### Preguntas abiertas
 
 - Formato exacto de las líneas de `sys.id` (¿hay comando de consola, serie o FTP para leer `ram1disk:`?).
-- ~~Los discos antiguos sin serie (1998/2002)~~: **resuelto.** Son discos de revisión *genéricos* (serie vacío) que no arrancan en ningún controlador; se "autorizan" con `UPDATE.EXE` (`3HAB2300-2_00`, ver más abajo), que copia el serie de un disco original del robot.
-- BW/RW 3.x en S4 usa `disc.id` (confirmado), pero **BW 3.0 para S4C usa un disco-llave con una *keystring*** (mecanismo distinto, sin analizar). ¿Es estática por unidad como el serie, o un checksum/tiempo?
+- ~~Los discos antiguos sin serie (1998/2002)~~: **resuelto.** Son discos de revisión _genéricos_ (serie vacío) que no arrancan en ningún controlador; se "autorizan" con `UPDATE.EXE` (`3HAB2300-2_00`, ver más abajo), que copia el serie de un disco original del robot.
+- BW/RW 3.x en S4 usa `disc.id` (confirmado), pero **BW 3.0 para S4C usa un disco-llave con una _keystring_** (mecanismo distinto, sin analizar). ¿Es estática por unidad como el serie, o un checksum/tiempo?
 - ¿Algo más lee `DISC.ID` o `sys.id` (opciones, Teach Pendant, RAPID, herramientas de servicio)? Solo se encontró un lector en `ABB_MC`.
 - ~~¿Con qué herramienta se fabricaron los discos?~~ **Parcialmente resuelto:** `UPDATE.EXE` (`3HAB2300-2_00`, Borland C++ 1991) contiene el escritor de `disc.id` (formatos `Boot  disk %d (%d)`, `Program no %s`, `Serial  no %s`, el texto de copyright y un formateador de fecha `%s %s %02d %02d:%02d:%02d %4d`) e importa `srand`/`rand`/`time`, coherente con un relleno sembrado con la hora. No contiene la cadena `Boot unit no … Make cmd`, así que esa línea la genera la herramienta de fabricación original y `UPDATE.EXE` solo la conserva. Pendiente: desensamblar la rutina de escritura para confirmarlo.
 - Discos de instalación a medida para un controlador propio: ¿algo más que el serie debe coincidir?
@@ -121,6 +135,8 @@ Ejemplo (set BW 2.1 de un IRB1400-2405): los bytes en esas posiciones son `A2 AD
 ### Herramienta en este repo: `tools/discid.py`
 
 Decodifica, comprueba y **genera** ficheros `disc.id` a partir de un nº de serie.
+
+Hay también una versión web sin instalación: abre `tools/discid.html` en el navegador (decodificar/comprobar, cambiar el serie de varios `disc.id` y generar uno nuevo; todo en local).
 
 ```bash
 # decodificar / comprobar contra la cabecera
@@ -135,4 +151,3 @@ python3 tools/discid.py generate --serial IRB6400-1234 --program 3HAB2316-1/13 \
 Comprobado con los `disc.id` de este repo: 51 de 52 decodifican a un serie idéntico al de la cabecera (los de serie vacío, 1998, decodifican a cadena vacía). La excepción es `3HAB2343-1_03`: su cola decodifica a vacío mientras la cabecera dice `2400-3706`; el fichero está fechado en 2021, así que probablemente alguien editó la cabecera a mano sobre un disco originalmente sin serie.
 
 El generador se ha verificado solo contra el propio decodificador, no contra un controlador real.
-

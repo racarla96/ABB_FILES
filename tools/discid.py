@@ -10,6 +10,7 @@ Everything else in the tail is filler in 0x5B-0xBF.
   discid.py generate --serial IRB6400-1234 --program 3HAB2316-1/13 \
       --label "BaseWare OS 2.0" --disk 1 --of 3 [--date "Wed May 04 08:16:27 2022"] -o disc.id
   discid.py check FILE...        # decode + compare with the header 'Serial no'
+  discid.py retarget --serial IRB6400-0001 FILE... [--outdir DIR]   # keep header, new serial + tail
 """
 import argparse, random, re, sys, time
 
@@ -65,12 +66,29 @@ def generate(serial, program, label, disk=1, of=1, date=None, make_cmd=4, rng=ra
     return make_header(program, label, serial, disk, of, date, make_cmd) + bytes(tail)
 
 
+def retarget(data: bytes, serial: str, rng=random) -> bytes:
+    """Same header (only the 'Serial  no' line changes), new filler tail carrying `serial`."""
+    if not 3 < len(serial) <= 16 or not serial.isascii():
+        raise ValueError("serial must be 4-16 ASCII characters")
+    end = data.index(b"\r\n\r\n") + 4
+    header = re.sub(rb"(Serial  no )[^\r\n]*", lambda m: m.group(1) + serial.encode(), data[:end], count=1)
+    tail = bytearray(rng.choice(FILLER) for _ in range(rng.randint(214, 247)))
+    base = len(tail) - TAIL_LEN
+    for i, ch in enumerate(serial.encode() + b"\0"):
+        tail[base + POS[i]] = (ch - 0xA7 + 2 * i) & 0xFF
+    return header + bytes(tail)
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
     for name in ("decode", "check"):
         p = sub.add_parser(name)
         p.add_argument("files", nargs="+")
+    r = sub.add_parser("retarget")
+    r.add_argument("files", nargs="+")
+    r.add_argument("--serial", required=True)
+    r.add_argument("--outdir", help="write copies here (default: overwrite in place)")
     g = sub.add_parser("generate")
     g.add_argument("--serial", required=True)
     g.add_argument("--program", required=True, help="e.g. 3HAB2316-1/13")
@@ -88,6 +106,14 @@ def main():
                         random.Random(a.seed) if a.seed is not None else random)
         open(a.output, "wb").write(data)
         print(f"{a.output}: {len(data)} bytes, serial {disc_serial(data)}")
+        return
+    if a.cmd == "retarget":
+        import os
+        for f in a.files:
+            out = retarget(open(f, "rb").read(), a.serial)
+            dst = os.path.join(a.outdir, os.path.basename(f)) if a.outdir else f
+            open(dst, "wb").write(out)
+            print(f"{dst}: serial {disc_serial(out)}")
         return
     bad = 0
     for f in a.files:

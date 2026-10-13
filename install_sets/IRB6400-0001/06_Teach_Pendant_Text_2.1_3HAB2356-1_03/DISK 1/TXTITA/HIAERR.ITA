@@ -1,0 +1,39 @@
+15::
+1:
+Oggetto non modificabile\n
+perche' dichiarato in\n
+modulo solo lettura.
+2:
+Oggetto non modificabile\n
+perche' dichiarato in\n
+modulo solo lettura.
+3:
+Nome non accettabile!\n
+Deve cominciare con una\n
+lettera !
+4:
+Direz esecuz non\n
+modificabile all'interno\n
+di un'istruz complessa.
+5:
+Direz esecuz non\n
+modificabile in questo\n
+sottoprogramma.
+6:
+Errore sintassi Rapid.\n
+Errori nel programma.
+7:
+Errore esecuzione\n
+programma.
+8:
+PP non puo' essere spostato\n
+nella posizione richiesta\n
+Provare un'altra posizione
+9:
+Oggetto dich in modulo\n
+protetto: non puo' essere\n
+modif., salvato o stampato
+10:
+Sottoprog dich. in modulo\n
+protetto: il contenuto non\n
+puo' essere visualizzato.

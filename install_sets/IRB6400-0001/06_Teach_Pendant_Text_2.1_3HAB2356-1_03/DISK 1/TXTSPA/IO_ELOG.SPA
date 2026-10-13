@@ -1,0 +1,796 @@
+27::
+0:
+ES y Comunicacion
+1000:
+Nombre de bus invalido\n
+Descripcion\Motivo:\n
+- Driver %s: tiene nombre bus invalido\n
+\t\n
+Comprobar:\n
+1. Cambiar nombre de bus del driver
+1001:
+Direccion duplicada\n
+Descripcion\Motivo:\n
+- Direccion igual en unidad %s y %s\n
+\t\n
+Comprobar:\n
+1. Comprobar la direccion\n
+2. Comprobar el bus
+1002:
+Controlador invalido\n
+Descripcion\Motivo:\n
+- Unidad %s:controlador no especificado\n
+\t\n
+Comprobar:\n
+1. Comprobar los controladores con el\n
+   especificado para la unidad
+1003:
+Unidad invalida\n
+Descripcion\Motivo:\n
+- La unidad especificada para señal %s\n
+  no especificada en seccion unidades\n
+\t\n
+Comprobar:\n
+1. Cambiar el nombre de la unidad\n
+2. Añadir nueva unidad a la lista
+1004:
+Longitud señal invalida\n
+Descripcion\Motivo:\n
+- La longitud de la señal\n
+  digital %s debe ser 1\n
+\t\n
+Comprobar:\n
+1.Cambiar longitud a 1 o borrar\n
+  la instruccion.
+1005:
+Tiempo de filtro invalido\n
+Descripcion\Motivo:\n
+- Señal %s: El tiempo del filtro pasivo\n
+  debe ser 0 o %d - %d ms\n
+\t\n
+Comprobar:\n
+1.Cambiar el tiempo del filtro
+1006:
+Tiempo de filtro invalido\n
+Descripcion\Motivo:\n
+- Señal %s: El tiempo del filtro activo\n
+  debe ser 0 o %d - %d ms\n
+\t\n
+Comprobar:\n
+1.Cambiar el tiempo del filtro
+1007:
+Valor logico fuera rango\n
+Descripcion\Motivo:\n
+- Señal %s: Max logico es menor o\n
+  igual que el Min logico\n
+\t\n
+Comprobar:\n
+1.Corregir valores: max mayor que min
+1008:
+Valor fisico fuera rango\n
+Descripcion\Motivo:\n
+- Señal %s: Max fisico es menor o\n
+  igual que el Min fisico\n
+\t\n
+Comprobar:\n
+1.Corregir valores: max mayor que min
+1009:
+Tipo invalido\n
+Descripcion\Motivo:\n
+- Señal %s: tipo de señal es\n
+  invalido\n
+\t\n
+Comprobar:\n
+1.Cambiar el tipo
+1010:
+Señal fuera de rango\n
+Descripcion\Motivo:\n
+- Señal %s: la señal fisica\n
+  numero + long. -1 es > %d\n
+\t\n
+Comprobar:\n
+1.Cambiar el numero de señal fisica\n
+2.Cambiar la longitud
+1011:
+Controlador no soportado\n
+Descripcion\Motivo:\n
+- El controlador %s no esta soportado\n
+\t\n
+Comprobar:\n
+1.Cambiar nombre del controlador
+1012:
+Sobrepasamiento memoria\n
+Descripcion\Motivo:\n
+- Carta %s: demasiadas cartas para el\n
+  tipo de controlador especificado\n
+\t\n
+Comprobar:\n
+1.Cambiar numero cartas del controlador\n
+  en la configuracion del controlador
+1013:
+Tipo de carta erronea\n
+Descripcion\Motivo:\n
+- Tipo de carta erronea conectada en\n
+  direccion %d\n
+\t\n
+Comprobar:\n
+1. Ver tipo de carta en direccion dada
+1014:
+Carta no conectada\n
+Descripcion\Motivo:\n
+- No hay carta conectada en\n
+  direccion %d\n
+\t\n
+Comprobar:\n
+1.Conectar la carta en la ranura\n
+2.Cambiar la direccion de la carta
+1015:
+Exceso entradas digitales\n
+Descripcion\Motivo:\n
+- Numero de entradas digitales para\n
+  la carta %s es mayor\n
+  que %d\n
+\t\n
+Comprobar:\n
+1.Reducir numero de entradas digitales
+1016:
+Exceso salidas digitales\n
+Descripcion\Motivo:\n
+- Numero de salidas digitales para\n
+  la carta %s es mayor\n
+  que %d\n
+\t\n
+Comprobar:\n
+1.Reducir numero de salidas digitales
+1017:
+Sin señal activacion\n
+Descripcion\Motivo:\n
+- Falta señal de activacion en enlace\n
+\t\n
+Comprobar:\n
+1.Se debe dar una señal de activacion
+1018:
+Exceso señales activacion\n
+Descripcion\Motivo:\n
+- Numero de señales activacion de\n
+  enlace es demasiado alto\n
+\t\n
+Comprobar:\n
+1.Se debe dar una sola señal\n
+  de activacion
+1019:
+Falta definicion señal\n
+Descripcion\Motivo:\n
+- La señal: %s, en enlace, no esta\n
+  definida\n
+\t\n
+Comprobar:\n
+1.Definir el nombre de la señal en\n
+  la seccion de señales
+1020:
+Sin señal resultado\n
+Descripcion\Motivo:\n
+- Falta señal de resultado\n
+\t\n
+Comprobar:\n
+1.Se debe dar al menos una señal de\n
+  resultado
+1021:
+Señales enlace duplicadas\n
+Descripcion\Motivo:\n
+- La señal: %s, aparece simultaneamente\n
+  como DE y como A.\n
+\t\n
+Comprobar:\n
+1.La misma señal no puede darse como DE\n
+  y como A simultaneamente
+1022:
+Max fisico muy alto\n
+Descripcion\Motivo:\n
+- Señal: %s\n
+- El valor fisico max > %d\n
+\t\n
+Comprobar:\n
+1.Cambiar valor en configuracion
+1023:
+Min fisico muy bajo\n
+Descripcion\Motivo:\n
+- Señal: %s\n
+- El valor fisico min < %d\n
+\t\n
+Comprobar:\n
+1.Cambiar valor en configuracion
+1024:
+Max fisico muy alto\n
+Descripcion\Motivo:\n
+- Señal: %s\n
+- Valor actual = %d > ValorMax = %d\n
+- Valor actualizado a ValorMax\n
+\t\n
+Comprobar:\n
+1.Cambiar valor fisico max en\n
+  configuracion
+1025:
+Min fisico muy bajo\n
+Descripcion\Motivo:\n
+- Señal: %s\n
+- Valor actual = %d < ValorMin = %d\n
+- Valor actualizado a ValorMin\n
+\t\n
+Comprobar:\n
+1.Cambiar valor fisico min en\n
+  configuracion
+1026:
+Max logico muy alto\n
+Descripcion\Motivo:\n
+- Señal: %s\n
+- Valor actual = %d > ValorMax = %d\n
+- Valor actualizado a ValorMax\n
+\t\n
+Comprobar:\n
+1.Cambiar valor logico max en\n
+  configuracion
+1027:
+Min logico muy bajo\n
+Descripcion\Motivo:\n
+- Señal: %s\n
+- Valor actual = %d < ValorMin = %d\n
+- Valor actualizado a ValorMin\n
+\t\n
+Comprobar:\n
+1.Cambiar valor logico min en\n
+  configuracion
+1028:
+Config. fuera de rango\n
+Descripcion\Motivo:\n
+- El cuarto inicial y tamaño rack\n
+  de la RIO esta fuera de rango en\n
+  carta %s\n
+\t\n
+Comprobar:\n
+1.Para el cuarto inicial 0, el tamaño\n
+  del rack debe ser menor de 4
+1029:
+Config. fuera de rango\n
+Descripcion\Motivo:\n
+- El cuarto inicial y tamaño rack\n
+  de la RIO esta fuera de rango en\n
+  carta %s\n
+\t\n
+Comprobar:\n
+1.Para el cuarto inicial 1, el tamaño\n
+  del rack debe ser menor de 3
+1030:
+Config. fuera de rango\n
+Descripcion\Motivo:\n
+- El cuarto inicial y tamaño rack\n
+  de la RIO esta fuera de rango en\n
+  carta %s\n
+\t\n
+Comprobar:\n
+1.Para el cuarto inicial 2, el tamaño\n
+  del rack debe ser menor de 2
+1031:
+Config. fuera de rango\n
+Descripcion\Motivo:\n
+- El cuarto inicial y tamaño rack\n
+  de la RIO esta fuera de rango en\n
+  carta %s\n
+\t\n
+Comprobar:\n
+1.Para el cuarto inicial 3, el tamaño\n
+  del rack debe ser 0
+1032:
+Fallo Comunicacion\n
+Descripcion\Motivo:\n
+- La carta RIO ha perdido comunicacion\n
+  con el PLC en carta con\n
+  direccion %d\n
+\t\n
+Comprobar:\n
+1. Comprobar cable de enlace con PLC\n
+2. Comprobar si el PLC esta apagado
+1033:
+Ent. digital fuera rango\n
+Descripcion\Motivo:\n
+- Numero de entradas digitales esta\n
+  fuera de rango en carta direccion %d\n
+  Las entradas max son %d\n
+\t\n
+Comprobar:\n
+1. Cambiar configuracion de\n
+   la carta
+1034:
+Sal. digital fuera rango\n
+Descripcion\Motivo:\n
+- Numero de salidas digitales esta\n
+  fuera de rango en carta direccion %d\n
+  Las salidas max son %d\n
+\t\n
+Comprobar:\n
+1. Cambiar configuracion de\n
+   la carta
+1035:
+Cuarto inic. fuera rango\n
+Descripcion\Motivo:\n
+- El cuarto inicial esta fuera de rango\n
+  en la carta %s\n
+\t\n
+Comprobar:\n
+1. El cuarto inicial debe estar entre\n
+   los valores 0 y 3. Cambiar la\n
+   configuracion
+1036:
+Nombre fuera de rango\n
+Descripcion\Motivo:\n
+- El numero de caracteres en el nombre\n
+- %s\n
+- es mayor de %d caracteres o\n
+- falta el nombre\n
+\t\n
+Comprobar:\n
+1. Dar un nuevo nombre que este dentro\n
+   de los limites
+1037:
+Fallo en enlace ES\n
+Descripcion\Motivo:\n
+- La señal %s aparece en DE\n
+  y en A de la misma cadena\n
+\t\n
+Comprobar:\n
+1. Corregir la configuracion del enlace\n
+   de ES donde la señal mencionada este\n
+   conectada.
+1038:
+Enlace ES muy profundo\n
+Descripcion\Motivo:\n
+- El enlace en la misma cadena es\n
+- demasiado profundo. Nombre señal\n
+- inicial: %s\n
+\t\n
+Comprobar:\n
+1. Hacer menos profundo el enlace
+1039:
+Instanc. max fuera rango\n
+Descripcion\Motivo:\n
+- Numero instancias max del controlador\n
+- %s estan fuera de rango\n
+\t\n
+Comprobar:\n
+1. Asegurarse que numero de instancias\n
+   es mayor de 0 y que no es mayor que\n
+   el numero de ranuras de ES.
+1040:
+Direccion RIO fuera rango\n
+Descripcion\Motivo:\n
+- La direccion de enlace de carta RIO\n
+- %s esta fuera de rango\n
+\t\n
+Comprobar:\n
+1. Asegurarse que direccion de enlace\n
+   de la RIO es mayor de 0 y menor de 64
+1041:
+Exceso salidas analogicas\n
+Descripcion\Motivo:\n
+- El numero de salidas analogicas de la\n
+- carta %s es mayor de %d\n
+\t\n
+Comprobar:\n
+1. Reducir numero de salidas analogicas
+1042:
+Exceso entradas analog.\n
+Descripcion\Motivo:\n
+- El numero de entradas analogicas de\n
+- carta %s es mayor de %d\n
+\t\n
+Comprobar:\n
+1. Reducir numero de entradas analogicas
+1043:
+Error de tipo de señal\n
+Descripcion\Motivo:\n
+- El tipo especificado en señal %s no\n
+  puede conectarse a carta especificada\n
+\t\n
+Comprobar:\n
+1. Cambiar a otro tipo.\n
+2. Cambiar a otra carta.
+1044:
+Exceso en señal fisica\n
+Descripcion\Motivo:\n
+- El rango de señalfis., o longitud o\n
+  señalfis y longitud de señal %s\n
+  es mayor de %d\n
+\t\n
+Comprobar:\n
+1. Cambiar el numero de señal fisica\n
+2. Cambiar la longitud
+1045:
+Err.especificacion filtro\n
+Descripcion\Motivo:\n
+- Señal %s : No se puede especificar\n
+  tiempo filtro en este tipo de señal\n
+\t\n
+Comprobar:\n
+1. Poner el tiempo de filtro a 0 o\n
+   o borrar la instruccion.
+1046:
+Error de escalado\n
+Descripcion\Motivo:\n
+- Señal %s: No se puede escalar\n
+\t\n
+Comprobar:\n
+1. Borrar el dato de escalado
+1049:
+Error parametro inversion\n
+Descripcion\Motivo:\n
+- Señal %s: Este tipo de señal\n
+  no se puede invertir\n
+\t\n
+Comprobar:\n
+1. Solo puede invertirse señal digital
+1050:
+Señal enlace no digital\n
+Descripcion\Motivo:\n
+- Señal %s: No es una señal digital\n
+\t\n
+Comprobar:\n
+1. Solo se pueden enlazar señales\n
+   digitales
+1051:
+Direccion enlace no octal\n
+Descripcion\Motivo:\n
+- Señal %s: La direccion RIO no esta en\n
+  forma octal\n
+\t\n
+Comprobar:\n
+1. Entrar nueva direccion en forma octal
+1052:
+Tabla enlace llena\n
+Descripcion\Motivo:\n
+- La suma de señales DE con el total\n
+  de la suma de señales A no deben\n
+  exceder %d\n
+\t\n
+Comprobar:\n
+1. Reducir el numero de señales
+1053:
+Rotura de conexion RIO\n
+Descripcion\Motivo:\n
+- No puedo acceder a la RIO porque la\n
+  conexion con el PLC se ha roto\n
+\t\n
+Comprobar:\n
+1. Comprobar cable de enlace al PLC\n
+2. Comprobar si el PLC esta apagado
+1054:
+Tipo señal erroneo\n
+Descripcion/motivo:\n
+- Señal %s:\n
+  El tipo de señal es incorrecto\n
+\t\n
+Comprobar:\n
+1. Cambiar el tipo
+1055:
+Nombre señal invalido\n
+Descripcion/motivo:\n
+- Simbolo %s: no esta definido\n
+\t\n
+Comprobar:\n
+1. Cambiar el nombre des simbolo
+1056:
+Recup. fallo tens. llena\n
+Descripcion/motivo:\n
+- Simbolo %s: no se pudo configurar para\n
+  recuperacion de fallo alimentacion.\n
+  La tabla para fallo tension esta llena\n
+\t\n
+Comprobar:\n
+1. Incrementar tamaño de tabla en\n
+   archivo inicial configuracion.\n
+2. Borrar otras señales de la lista de\n
+   recuperacion.
+1057:
+Falta carta DSQC319\n
+Descripcion/motivo:\n
+- No hay carta tipo DSQC319\n
+  conectada en direccion %d\n
+\t\n
+Comprobar:\n
+1. Conectar carta en la ranura\n
+2. Cambiar direccion de la carta
+1058:
+Sin contacto con nodo CAN\n
+Descripcion/motivo:\n
+- No hay contacto con nodo CAN\n
+  conectado al nodo direccion %d\n
+\t\n
+Comprobar:\n
+1. Comprobar direcciones de nodo de\n
+   cada modulo conectado al bus can\n
+2. Cambiar la direccion del nodo
+1059:
+Error config. nodo CAN\n
+Descripcion/motivo:\n
+- Error configurando nodo Can\n
+  conectado al nodo direccion %d\n
+\t\n
+Comprobar:\n
+1. Corregir la configuracion del nodo\n
+   de en la direccion dada
+1060:
+Error interno DSQC319\n
+Descripcion/motivo:\n
+- La carta DSQC319 conectada\n
+  a la direccion %d\n
+  tiene un error interno\n
+\t\n
+Comprobar:\n
+1. Comprobar que bus can funciona bien\n
+2. Comprobar que DSQC319 funciona bien
+1061:
+Error de bus can\n
+Descripcion/motivo:\n
+- Error de sucesos anormales en\n
+  Bus can conectado a DSQC319\n
+  en la direccion %d\n
+\t\n
+Comprobar:\n
+1. Comprobar cable de comunicacion Can
+1062:
+Buffer recep. D319 lleno\n
+Descripcion/motivo:\n
+- Buffer recepcion lleno en carta\n
+  conectado en direccion %d.\n
+  Se pueden perder mensajes\n
+\t\n
+Comprobar:\n
+1. Reducir numero de nodos del bus Can
+1063:
+Mensaje Can perdido\n
+Descripcion/motivo:\n
+- Mensajes Can perdidos en carta\n
+  conectada en direccion %d\n
+\t\n
+Comprobar:\n
+1. Reducir numero de nodos del bus Can
+1064:
+Fallo generado por IOC\n
+Descripcion/motivo:\n
+- Fallo señales IOC en carta\n
+  DSQC260 en direccion %d\n
+\t\n
+Comprobar:\n
+1. Comprobar IOC
+1065:
+Fallo generado en DSQC260\n
+Descripcion/motivo:\n
+- Carta DSQC260 en direccion %d\n
+  esta en fallo.\n
+\t\n
+Comprobar:\n
+1. Comprobar carta DSQC260
+1066:
+Interbus-S inactivo\n
+Descripcion/motivo:\n
+- Interbus-S conectado en carta\n
+  DSQC260 en direccion %d\n
+  esta inactivo\n
+\t\n
+Comprobar:\n
+1. Comprobar nodos de Interbus-S
+1067:
+Interbus-S desconectado\n
+Descripcion/motivo:\n
+- Interbus-S asociado en carta\n
+  DSQC260 en direccion %d\n
+  desconectado o master IBS\n
+  esta en modo reset\n
+\t\n
+Comprobar:\n
+1. Comprobar nodos de Interbus-S\n
+2. Comprobar master de Interbus-S
+1068:
+IOC OK\n
+Descripcion/motivo:\n
+- IOC antes con fallo, ahora OK\n
+  Mensaje de fallo enviado a carta\n
+  DSQC260 en direccion %d\n
+\t\n
+Comprobar:\n
+1. No hacer nada
+1069:
+DSQC260 OK\n
+Descripcion/motivo:\n
+- Carta DSQC260 en direccion %d\n
+  antes con fallo, ahora OK\n
+\t\n
+Comprobar:\n
+1. No hacer nada
+1070:
+Interbus-S activo\n
+Descripcion/motivo:\n
+- Interbus-S conectado a carta\n
+  DSQC260 en direccion %d\n
+  antes inactivo, ahora OK\n
+\t\n
+Comprobar:\n
+1. No hacer nada
+1071:
+Interbus-S conectado\n
+Descripcion/motivo:\n
+- Interbus-S asociado a carta\n
+  DSQC260 en direccion %d\n
+  antes desconectado o master IBS\n
+  en modo reset, ahora OK\n
+\t\n
+Comprobar:\n
+1. No hacer nada
+1072:
+Señal config. no guardar\n
+Descripcion/motivo:\n
+- Señal %s\n
+  no tiene el atributo Guardar en SI\n
+\t\n
+Comprobar:\n
+1. Activar el atributo Guardar
+1073:
+Cont establ con nodo Can\n
+Descripcion/motivo:\n
+- Contacto establecido con nodo Can\n
+  conectado en nodo direccion %d\n
+\t\n
+Comprobar:\n
+1. No hacer nada
+1074:
+Config. fuera de rango\n
+Descripcion/motivo:\n
+- El cuarto inicial de IBS y tamaño de\n
+  rack esta fuera de rango para\n
+  carta %s\n
+\t\n
+Comprobar:\n
+1. Para el cuarto inicial 1, el tamaño\n
+   de rack debe ser menor de 5
+1075:
+Error acceso de ES\n
+Descripcion/motivo:\n
+- No puedo leer o escribir de/a carta de\n
+  ES debido a corte de comunicacion\n
+\t\n
+Comprobar:\n
+1. Comprobar informe fallo comunicacion\n
+   para saber el motivo
+1076:
+Error com de rtp1\n
+Descripcion/motivo:\n
+- No hay respuesta de linea serie\n
+\t\n
+Comprobar:\n
+1. Comprobar dispositivo o comunicacion
+1077:
+Error com de rtp1\n
+Descripcion/motivo:\n
+- No es posible entregar el\n
+  mensaje recibido\n
+\t\n
+Comprobar:\n
+1. Comprobar flujo de comunicacion
+1078:
+Error com de rtp1\n
+Descripcion/motivo:\n
+- La respuesta del dispositivo no\n
+  tiene una secuencia valida\n
+\t\n
+Comprobar:\n
+1. Comprobar ruido en la linea serie
+1079:
+Salida grupo en pulso\n
+Descripcion/motivo:\n
+- Grupo de salida pulsante no permitido\n
+\t\n
+Comprobar:\n
+1. ---
+1080:
+Tabla controlador llena\n
+Descripcion/motivo:\n
+- El numero de controladores no\n
+  debe exceder %d\n
+\t\n
+Comprobar:\n
+1. Reducir el numero de controladores.\n
+2. Incrementar numero de controladores\n
+   permitidos.
+1081:
+Tabla fisica llena\n
+Descripcion/motivo:\n
+- El numero de señales fisicas no debe\n
+  exceder de %d\n
+\t\n
+Comprobar:\n
+1. Reducir el numero de señales fisicas\n
+2. Incrementar numero de señales fisicas\n
+   permitidas.
+1082:
+Tabla señales llena\n
+Descripcion/motivo:\n
+- El numero de señales definidas usrio\n
+  no debe exceder de %d\n
+\t\n
+Comprobar:\n
+1. Reducir el numero de señales.\n
+2. Incrementar numero de señales\n
+   permitidas.
+1083:
+Tabla simbolos llena\n
+Descripcion/motivo:\n
+- El numero de simbolos\n
+  no debe exceder de %d\n
+\t\n
+Comprobar:\n
+1. Reducir el numero de simbolos.\n
+2. Incrementar numero de simbolos.\n
+   permitidas.
+1084:
+Tabla Triggr llena\n
+Descripcion/motivo:\n
+- El numero de señales suscritas\n
+  no debe exceder de %d\n
+\t\n
+Comprobar:\n
+1. Reducir el numero de señales\n
+   suscritas\n
+2. Incrementar numero de suscripciones\n
+   permitidas.
+1085:
+Tabla unidades llena\n
+Descripcion/motivo:\n
+- El numero de cartas\n
+  no debe exceder de %d\n
+\t\n
+Comprobar:\n
+1. Reducir el numero de cartas definidas\n
+2. Incrementar numero de cartas\n
+   permitidas.
+1086:
+Com. OK con RIO\n
+Descripcion/motivo:\n
+- Contacto establecido con nodo RIO\n
+  conectado en nodo direccion %d\n
+\t\n
+Comprobar:\n
+1. No hacer nada.
+1094:
+Demasiados enlac. act def\n
+Descripcion/motivo:\n
+- Las conexiones enlace tiene definidos\n
+  demasiadas señales "De" : %s\n
+\t\n
+Comprobar:\n
+1. Comprobar configuracion enlace.
+1095:
+Str muy larga act. enlace\n
+Descripcion/motivo:\n
+- La parte "De" de string enlace es\n
+  demasiado larga : %s\n
+\t\n
+Comprobar:\n
+1. Check the cross configuration.
+1096:
+PLC en modo programacion\n
+Descripcion/motivo:\n
+- No puedo acceder a carta PLC debido\n
+  a que PLC esta en modo programacion\n
+  o que esta configurado incorrectamente\n
+\t\n
+Comprobar:\n
+1. PLC en modo programacion\n
+2. Comprobar configuracion PLC
+1097:
+Error parametro guardar\n
+Descripcion/motivo:\n
+- Señal %s: Este tipo de señal no puede\n
+  tener la opcion guardar\n
+\t\n
+Comprobar:\n
+1. Solo señales digitales pueden tener\n
+   guardar

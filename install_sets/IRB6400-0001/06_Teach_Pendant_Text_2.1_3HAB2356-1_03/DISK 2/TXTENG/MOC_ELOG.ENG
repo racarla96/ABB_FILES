@@ -1,0 +1,746 @@
+25::
+0:
+Motion
+1:
+Serious motion error\n
+Not possible to proceed motion control\n
+\t\n
+Start up the system again
+21:
+Joint position error\n
+Actual position of joint %s\n
+is too far away from the ordered\n
+position\n
+\t\n
+Check trim parameters, external\n
+forces or hardware.
+22:
+Too low DC-link voltage\n
+\t\n
+Check voltage from Motor On contactors\n
+Replace DC-link
+23:
+Stop-/Restart error\n
+The stop was made when too many move\n
+instructions were queued for execution.\n
+Restart is not possible\n
+\t\n
+Check the number of move instructions\n
+with concurrency. Move the start point\n
+and start a new movement.
+24:
+Corner path failure\n
+A corner path was executed as\n
+a stop point due to a time delay.\n
+\t\n
+Check the number of instructions\n
+between the move instructions.
+25:
+Restart too far from path\n
+\t\n
+Move back to path.
+26:
+Singularity or Zone error\n
+1 Robot too close to singularity\n
+2 MoveL to MoveJ corner zone error\n
+\t\n
+1 Use the joystick to move away from\n
+  the singularity or run a program in\n
+  joint coordinates\n
+2 Use fine point or modify position
+27:
+Joint Out of Range\n
+Joint %s is out of working range\n
+\t\n
+Use the joystick to move the joint into\n
+its working range
+28:
+Jog in wrong direction\n
+Joint %s is out of working range\n
+\t\n
+Use the joystick to move the joint in\n
+opposite direction.
+29:
+Robot outside its limits\n
+The robot has reached the configuration\n
+limit for the parallelogram\n
+transmission.\n
+\t\n
+Use the joystick to move the involved\n
+joint into the working range again.
+30:
+Robot outside its limits\n
+Jogging was made in wrong direction when\n
+parallelogram was out of working range\n
+\t\n
+Use the joystick to move the joint in\n
+opposite direction.
+31:
+Command not allowed.\n
+System parameters cannot be\n
+changed in MOTORS ON state.\n
+\t\n
+Change to MOTORS OFF.
+32:
+Calibration command error\n
+An attempt was made to calibrate while\n
+in MOTORS ON state.\n
+\t\n
+Change to MOTORS OFF.
+33:
+Commutation command error\n
+An attempt was made to commutate the\n
+motors in MOTORS ON state.\n
+\t\n
+Change to MOTORS OFF.
+35:
+Synchronization error\n
+An attempt was made to synchronize\n
+in MOTORS ON state.\n
+\t\n
+Change to MOTORS OFF.
+36:
+Correct regain impossible\n
+Correct regain impossible. A stop\n
+occurred with too many close points\n
+with corner zones. At restart the robot\n
+will move to a point farther forward in\n
+the program.\n
+\t\n
+Reduce the number of close points,\n
+increase the distance between them or\n
+reduce the speed.
+37:
+MOTORS ON order ignored\n
+MOTORS ON order ignored since the\n
+previous stop was not yet acknowledged.\n
+\t\n
+Order MOTORS ON again.
+41:
+Robot in a singularity\n
+The Robot is too close to a singularity.\n
+\t\n
+During program execution, use SingArea\n
+instruction or joint interpolation.\n
+During jogging, use axis by axis.
+42:
+System error\n
+\t\n
+Increase the distance between close\n
+points and/or decrease speed and/or\n
+change acceleration value.
+50:
+Position outside reach\n
+Position for IRB joint %.f\n
+is outside working area.\n
+\t\n
+Check the work object.\n
+Check the joint working range.\n
+Move the joint in joint coordinates.
+52:
+Joint speed error\n
+The speed of joint %s is too high\n
+relative the ordered speed\n
+\t\n
+1. Check the tune parameters, external\n
+   forces on the joint and hardware.\n
+2. Reduce programmed speed.
+53:
+Revolution counter error\n
+Too big difference between the counter\n
+in the serial measurement board and\n
+the expected value in the robot computer\n
+for joint %s\n
+\t\n
+Update the revolution counter\n
+Replace serial measurement board
+55:
+Joint load error\n
+Actual torque on joint %s too high\n
+May be caused by incorrect load data,\n
+too high acceleration, high external\n
+process forces, low temperature or\n
+hardware error\n
+\t\n
+1. Check load data\n
+2. Reduce acceleration or speed\n
+3. Check hardware
+56:
+Joint collision error\n
+Actual torque on joint %s is\n
+higher than ordered while at low\n
+or zero speed.\n
+\t\n
+May be caused by jam error (the arm\n
+has got stuck) or hardware error.
+57:
+Joint sync. error\n
+The position of joint %s after\n
+power down/failure is too far away\n
+from the position before the power\n
+down/failure.\n
+\t\n
+Make a new update of the revo-\n
+lution counter.
+58:
+Tool coord. sys. error\n
+The z-direction of the tool coordinate\n
+system is almost parallel with the path\n
+direction.\n
+\t\n
+Change the tool coordinate system to\n
+achieve at least 3 degrees deviation\n
+between z-direction and path direction.
+59:
+Frame error\n
+The definition of robot\n
+fixed tool is not correct.\n
+\t\n
+Check the tool and object data.
+60:
+Frame error\n
+The definition of robot\n
+fixed tool is not correct.\n
+\t\n
+Check the tool and object data.
+61:
+Frame error\n
+The definition of robot\n
+fixed tool is not correct.\n
+\t\n
+Check the tool and object data.
+62:
+Circle programming error\n
+Start and end positions for the circle\n
+are too close.\n
+\t\n
+
+63:
+Circle programming error\n
+The circle position is too close to the\n
+start or end position of the circle.\n
+\t\n
+
+65:
+Kinematics error\n
+The destination of the movement is\n
+outside the reach of the robot or too\n
+close to a singularity.\n
+\t\n
+Change the destination position.
+66:
+Robot not active\n
+Attempt to coordinate motion or\n
+calculate position of deactivated\n
+robot %s.\n
+\t\n
+Activate robot via the Motion Unit key,\n
+then Jogging window, or program.\n
+Check work object and program.
+67:
+Unit not active\n
+Attempt to coordinate motion or\n
+calculate position of deactivated\n
+single unit %s.\n
+\t\n
+Activate unit via Motion Unit key,\n
+then Jogging window, or program.\n
+Check work object and program.
+76:
+Orientation def. error\n
+Orientation is incorrectly defined.\n
+\t\n
+Make an accurate normalization of\n
+the quaternion elements.
+78:
+Too many close positions\n
+Too many consecutive closely spaced\n
+positions.\n
+\t\n
+Increase the distance between\n
+consecutive close positions.
+79:
+Wrist weaving\n
+not possible.\n
+\t\n
+Use smaller weaving amplitude or a\n
+larger TCP.
+80:
+Position not compatible.\n
+Position cannot be reached with the\n
+given robot configuration\n
+\t\n
+Modify the robot position\n
+in the program.
+82:
+Deceleration limit\n
+Calculation of joint deceleration time\n
+exceeds internal limits for this motion.\n
+\n
+You cannot proceed without removing the\n
+cause(s) of this error (see Check).\n
+\t\n
+Reduce speed, use fine points and incr.\n
+AccSet parameters. Check deceleration\n
+of external axes and noise level on I/O\n
+connections. Incr. dynamic_resolution,\n
+path_resolution and std_servo_que_time.
+83:
+Speed lowered by system.\n
+The speed has been lowered by the system\n
+due to dynamic limitations.\n
+\t\n
+Decrease speed and/or do not use close\n
+positions at high speed and/or increase\n
+acceleration (if below 100%).
+85:
+Too many user frames.\n
+For mech_unit %s more than one\n
+user frame has been defined.\n
+\t\n
+Take away one user frame or define\n
+one more mech_unit.
+86:
+Singularity calc. error\n
+Too close to wrist singularity with\n
+respect to numerical resolution\n
+for joint 4 of IRB.\n
+\t\n
+Change destination position a few\n
+increments.
+87:
+Singularity problems.\n
+Too close to wrist singularity with\n
+respect to numerical resolution\n
+for joint 6 of IRB.\n
+\t\n
+Change destination position a few\n
+increments.
+88:
+Restart not possible.\n
+It is not possible to restart the path\n
+due to a previous error.\n
+\t\n
+Move the program start point and start\n
+a new movement.
+89:
+Lower weaving frequency\n
+The weaving period length or\n
+period time is too short.\n
+\t\n
+Increase weave length or\n
+increase period time.
+91:
+Restart not possible.\n
+Restart no longer possible. Change of\n
+unit state made restart of program\n
+impossible.\n
+\t\n
+Move the program pointer and start\n
+a new movement.
+92:
+Axis computer comm. error\n
+Incorrect response from axis computer\n
+\t\n
+Check motion configuration parameters.\n
+Check axis computer hardware.
+93:
+Load too large\n
+The defined load mass is too large
+94:
+ServoTune not possible.\n
+Tuning is not implemented for the\n
+specified Joint.\n
+\t\n
+
+95:
+Cannot access joint.\n
+Cannot access external joint. Check\n
+configuration and activation of\n
+external Joints.\n
+\t\n
+
+100:
+Manipulator error\n
+There are more configuration or\n
+numerical errors in motion domain.\n
+\t\n
+Correct previous ones and try again.
+101:
+Manipulator config. error\n
+'%s' is  not free\n
+for the param. '%s'\n
+in type '%s' named\n
+'%s'.\n
+\t\n
+Use another one.\n
+For internal names, see moc_chk.log.
+102:
+Manipulator config. error\n
+'%s' used in the\n
+parameter '%s' in\n
+type '%s' named\n
+'%s' is not\n
+defined.\n
+\t\n
+Use another one that is defined or\n
+define the used one.\n
+For internal names, see moc_chk.log.
+103:
+Num. error in manipulator\n
+The orientation defined by quaternions\n
+including '%s' in\n
+the type '%s' named\n
+'%s' is not\n
+normalized.(SQRSUM =1)\n
+\t\n
+Check the quaternions and/or recalculate\n
+them.\n
+For internal names, see moc_chk.log.
+104:
+Num. error in manipulator\n
+The parameter '%s'\n
+in type '%s' named\n
+'%s' is not '%s'.\n
+\t\n
+Check the value.\n
+For internal names, see moc_chk.log.
+128:
+Manipulator error\n
+Terminating the topic check for\n
+manipulator due to earlier errors.\n
+\t\n
+Correct the reported errors and run\n
+topic check again.
+130:
+Synchronization failed.\n
+Synchronization failed for joint\n
+%s.\n
+\t\n
+Make a new synchronization.\n
+Restart System.
+131:
+Calibration failed.\n
+Calibration failed for joint\n
+%s.\n
+\t\n
+Make a new calibration.\n
+Restart System.
+132:
+Commutation failed.\n
+Commutation failed for joint\n
+%s.\n
+\t\n
+Make a new commutation.\n
+Restart System.
+133:
+Test signal error.\n
+No test signals are available\n
+for the master robot.\n
+\t\n
+
+134:
+Corr. vector warning\n
+Sensor correction vector calculations\n
+failed due to previous error.\n
+\t\n
+
+135:
+SoftAct not possible.\n
+Soft servo is not possible to activate.\n
+\t\n
+
+136:
+SoftAct not possible.\n
+Soft servo is not possible to modify.\n
+during ramping.\n
+\t\n
+
+137:
+Fine point inserted\n
+Corner zone is changed to fine point\n
+Too many consecutive Move instructions\n
+without fine point\n
+\t\n
+
+138:
+Arm check point outside\n
+The robot has reached the limit for arm\n
+check point\n
+\t\n
+Use the joystick to move the involved\n
+joint into the working range again
+139:
+Arm check point outside\n
+Jogging was made in wrong direction when\n
+arm check point was out of working range\n
+\t\n
+Use the joystick to move the joint in\n
+opposite direction.
+140:
+Payload too large\n
+Heavy payload caused static torque\n
+limit to be exceeded on joint %s\n
+\t\n
+Check and reduce payload\n
+for arm and/or wrist.\n
+Reduce joint working range to decrease\n
+static torque due to gravity.
+141:
+Speed or Jog error\n
+1. Robot too close to singularity\n
+2. Jogging error\n
+3. High speed error\n
+\t\n
+1. Move away from the singularity or run\n
+   the program in joint coordinates\n
+2. Try again\n
+3. Reduce the programmed speed
+142:
+Manipulator config. error\n
+Configuration of the manipulator failed.\n
+\t\n
+Check the parameter values under\n
+System parameters:Manipulator.
+143:
+Robot axes config. error\n
+Actual configuration is not the same\n
+as ordered and/or reorientation of\n
+joint 4/6 is too large.\n
+\t\n
+Use SingArea_Wrist, ConfL_Off,\n
+modify position or insert\n
+intermediary point.
+144:
+Displ frame uncertain.\n
+Calibration of displ frame uncertain\n
+1. Wrong TCP\n
+2. Ref. points inaccurate\n
+3. Ref. points badly spaced\n
+\t\n
+If estimated error is unacceptable:\n
+1. Verify that correct TCP is used.\n
+2. Try more than 3 ref. points.\n
+3. Be careful when positioning robot\n
+   to ref. points.
+145:
+Kinematic limitation\n
+Kinematic limitation, no solution\n
+obtained.\n
+1. Long segment.\n
+2. Position close to singularity.\n
+3. Joint out of range.\n
+4. Position out of reach.\n
+\t\n
+1. Insert an intermediary point to\n
+   reduce the length of the segment.\n
+2. Use MoveAbsJ.\n
+3-4. Check working range.
+146:
+Restart limitation\n
+Corner path executed as a stop point.\n
+Power fail restart not possible near\n
+the stop point.\n
+\t\n
+Use finepoint in the Move-instr before\n
+RestoPath, ActUnit, Wait or Stop-instr\n
+to make power fail restart possible.
+147:
+Power fail restart failed\n
+Re-creation of the path failed\n
+\t\n
+Move the start point and start\n
+a new movement.
+148:
+MOC_WRONG_MAIN_ISR_TYPE\n
+Error when trying to call a non existing\n
+interrupt routine in the main computer\n
+from the axis computer.\n
+\t\n
+
+149:
+MOC_SCHED_QUEUE_FULL\n
+Error when the scheduler queue in the\n
+axis computer is full.\n
+\t\n
+
+150:
+MOC_WRONG_CMD_TYPE\n
+Error when the axis computer have\n
+received a command from the main\n
+computer that is not supported.\n
+\t\n
+
+151:
+MOC_MAILBOX1_ERROR\n
+The axis computer driver failed\n
+to generate a new mailbox 1 interrupt\n
+since the previous interrupt has\n
+not been serviced properly.\n
+\t\n
+
+152:
+MOC_MAILBOX2_ERROR\n
+The axis computer driver failed\n
+to generate a new mailbox 2 interrupt\n
+since the previous interrupt has\n
+not been serviced properly.\n
+\t\n
+
+153:
+Command not allowed\n
+The given instruction, or command, was\n
+not allowed since the robot program was\n
+executing in a hold state.\n
+\t\n
+Modify program or stop program execution\n
+before issuing command.
+154:
+Command not allowed\n
+SingArea\Wrist mode interpolation is\n
+not supported for the IRB6400C robot.\n
+\t\n
+Replace SINGAREA\WRIST instruction with\n
+SINGAREA\OFF.
+155:
+Power fail restart failed\n
+Not possible to restart the Move-instr\n
+before RestoPath, ActUnit, Wait or\n
+Stop-instr\n
+\t\n
+Make program free from MOTION WARNING\n
+50146 Restart limitation, by changing\n
+the Move-instr to finepoint\n
+Move the start point and start\n
+a new movement.
+156:
+Independent joint error\n
+Joint %s is not configurated as an\n
+independent joint.\n
+\t\n
+Modify the program or configurate\n
+the joint as an independent joint.
+157:
+Corr. vector warning\n
+Sensor correction vector X calculations\n
+failed due to previous error.\n
+\t\n
+
+158:
+Sensor process missing\n
+Sensor process missing during\n
+initialization.\n
+Named sensor process %s\n
+could not be found or initialized.\n
+\t\n
+Check process name in motion and\n
+process configuration files.\n
+
+159:
+No sensor process\n
+Attempt to coordinate motion or\n
+calculate position of single %s\n
+without a sensor process.\n
+\t\n
+Check process name in motion and\n
+process configuration files.
+160:
+Cannot reach position\n
+Programmed position of indep. joint\n
+%s is outside working range and\n
+thus cannot be reached.\n
+\t\n
+Change the position.\n
+Check the joint working area limits.\n
+Check the used work object.
+161:
+Singularity area\n
+Robot is close to a singularity.\n
+Work area with kinematic limitations.\n
+\t\n
+During jogging, use axis by axis.\n
+During program execution,\n
+use MoveAbsJ.
+162:
+Internal position error\n
+Error caused by internal\n
+numerical limitation\n
+\t\n
+Reset independant joint\n
+Reduce work area if extended\n
+Remove or separate close points
+163:
+External Pos adjustment\n
+External Pos adjustment too large.\n
+TCP speed, orientation speed, or\n
+external position speed exceed\n
+allowed robot performance.\n
+\t\n
+1. Reduce programmed TCP and\n
+   orientation speeds\n
+2. Modify the path\n
+3. WaitWObj closer to sync\n
+4. Run in AUTO
+164:
+Ind. deactivation error\n
+Independent deactivation error\n
+Deactivation of mechanical unit may not\n
+be done while in independent mode.\n
+\t\n
+
+165:
+Convey max distance\n
+Conveyor position of %5.3f meters\n
+exceeds maximum safety distance\n
+configured for conveyor.\n
+\t\n
+Check conveyor configuration\n
+Check maximum distance possible for\n
+conveyor position.
+166:
+Convey pos. overflow\n
+Conveyor position overflow while\n
+tracking a work object. Work object\n
+went outside of measurement range.\n
+\t\n
+Increase programmed speed\n
+Change measurement gear ratio to\n
+increase tracking range.\n
+Reduce speed of conveyor
+167:
+Warning: new sync\n
+Warning: a new object sync signal has\n
+arrived while conveyor is active and\n
+program is running.\n
+\t\n
+
+168:
+New object sync\n
+New object sync arrived while conveyor\n
+was tracking the previous object.\n
+Cannot track two objects simultaneously\n
+\t\n
+Reduce speed of conveyor\n
+Increase programmed speed
+169:
+Coordination failed\n
+Coordination with the external position\n
+failed.  This is due to previous error,\n
+or improper use of DeactUnit, DropWObj\n
+during coordinated motion.\n
+\t\n
+
+178:
+Non optimal movement\n
+Non optimal movement\n
+Required torque too high\n
+Manual adjustment of acceleration or\n
+speed is needed.\n
+\t\n
+Reduce acceleration (AccSet 50 100) in\n
+this movement, restore it afterwards\n
+(AccSet 100 100). Optimize performance\n
+by search for max acceleration 50-99\n
+Alternatively, reduce speed.
+
+

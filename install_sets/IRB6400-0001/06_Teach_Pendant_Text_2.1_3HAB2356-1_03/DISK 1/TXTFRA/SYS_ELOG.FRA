@@ -1,0 +1,600 @@
+22::
+0:
+Systeme
+1:
+Chaine "enable" ouverte.\n
+\n
+\t\n
+
+2:
+Arret d'urgence\n
+\n
+\t\n
+
+3:
+Securite butee\n
+\n
+\t\n
+
+6:
+Securite circuit Auto.\n
+\n
+\t\n
+
+7:
+Securite circuit Manuel\n
+\n
+\t\n
+
+8:
+Securite circuit General\n
+\n
+\t\n
+
+9:
+Incoherence securites\n
+Les deux canaux sont\n
+dans des etats differents\n
+\t\n
+Localiser le defaut avec les voyants\n
+de la carte systeme si la lampe\n
+rouge ERR est allumee.
+10:
+Arret d'urgence actif.\n
+Appuyer sur le bouton "Motor Off" pour\n
+supprimer le defaut d'arret d'urgence.\n
+\t\n
+
+12:
+Arret du systeme\n
+Erreur fatale incontournable.\n
+Redemarrage a chaud necessaire.\n
+\t\n
+Couper et remettre la baie sous\n
+tension si la commande de redemarrage\n
+du logiciel est ineffective.
+20:
+Timeout chaine securite\n
+Timeout sur la lecture de l'etat\n
+des deux canaux de la chaine de\n
+securite.\n
+\t\n
+Localiser le defaut avec les voyants\n
+de la carte systeme si la lampe\n
+rouge ERR est allumee.\n
+Cette led s'allume sur une nouvelle\n
+demande de mise sous puissance.
+21:
+Conflit vitesse/mode\n
+Les signaux du selecteur de mode\n
+et les signaux de vitesse sont\n
+en conflit.\n
+\t\n
+
+22:
+Erreur cle de mode\n
+Les signaux du selecteur de mode\n
+sont incoherents (pas ou plusieurs\n
+indications de mode).\n
+\t\n
+
+24:
+Timeout chaine "enable"\n
+Timeout sur les deux canaux\n
+\t\n
+L'acquittement du changement d'etat\n
+des deux canaux de la chaine "enable"\n
+n'a pas ete recu dans les delais.
+25:
+Timeout ordre Stop\n
+Une commande d'arret a ete executee\n
+par defaut alors qu'aucun acquittement\n
+n'a ete recu dans les delais.\n
+\t\n
+
+26:
+Incoherence securites\n
+Conflit sur l'etat des deux chaines\n
+de securite\n
+Message normal si la gachette\n
+est enfoncee en mode AUTO et\n
+moteurs sous puissance.\n
+\t\n
+Remplacer la carte systeme dans\n
+tout autre cas.
+30:
+Axe non commute\n
+Un ou plusieurs variateurs internes\n
+ne sont pas commutes.\n
+\t\n
+
+31:
+Axe non etalonne\n
+Un ou plusieurs axes absolus/relatifs\n
+ne sont pas etalonnes.\n
+\t\n
+
+32:
+Compteur non reinitialise\n
+Un ou plusieurs axes absolus\n
+ne sont pas synchronises.\n
+Placer le robot sur ses reperes\n
+et proceder a la reinitialisation\n
+des compteurs.\n
+\t\n
+
+33:
+Axe non synchronise\n
+Un ou plusieurs axes relatifs\n
+ne sont pas synchronises.\n
+Mettre sous puissance et proceder\n
+a la synchronisation de tous les axes\n
+de la liste.\n
+\t\n
+
+40:
+Arret freine\n
+\n
+\t\n
+
+41:
+Surcharge moteur 1-6\n
+Un ou plusieurs moteurs surchauffent.\n
+Attendre le refroidissement avant de\n
+remettre sous puissance sinon un nouveau\n
+defaut apparaitra apres 15 secondes.\n
+\t\n
+Voir les securites dans la fenetre IO et\n
+attendre que le signal OLM1 soit a 0\n
+avant de remettre sous puissance.
+42:
+Surcharge moteur 7-x\n
+Un ou plusieurs moteurs surchauffent.\n
+Attendre le refroidissement avant de\n
+remettre sous puissance sinon un nouveau\n
+defaut apparaitra apres 15 secondes.\n
+\t\n
+Voir les securites dans la fenetre IO et\n
+attendre que le signal OLM7 soit a 0\n
+avant de remettre sous puissance.
+50:
+Commande non autorisee\n
+Interdite dans ce mode.\n
+\t\n
+
+51:
+Commande non autorisee\n
+Interdite quand le client n'a pas\n
+le controle de la ressource\n
+(programmation/mouvement).\n
+\t\n
+
+52:
+Commande non autorisee\n
+Interdite pour la configuration\n
+de cette armoire de commande.\n
+\t\n
+
+53:
+Commande non autorisee\n
+Interdite pour ce type de robot.\n
+\t\n
+
+54:
+Commande non autorisee\n
+Interdite en execution de programme.\n
+\t\n
+
+60:
+Commande non autorisee\n
+Interdite en mode AUTO.\n
+\t\n
+
+61:
+Commande non autorisee\n
+Interdite quand passage en mode AUTO.\n
+\t\n
+
+62:
+Commande non autorisee\n
+Interdite en mode MANUEL.\n
+\t\n
+
+63:
+Commande non autorisee\n
+Interdite en mode MANUEL 100%.\n
+\t\n
+
+64:
+Commande non autorisee\n
+Interdite quand passage en mode\n
+MANUEL 100%.\n
+\t\n
+
+70:
+Commande non autorisee\n
+Interdite sous puissance.\n
+\t\n
+
+71:
+Commande non autorisee\n
+Interdite pendant mise sous puissance.\n
+\t\n
+
+72:
+Commande non autorisee\n
+Interdite hors puissance.\n
+\t\n
+
+73:
+Commande non autorisee\n
+Interdite pendant mise hors puissance.\n
+\t\n
+
+74:
+Commande non autorisee\n
+Interdite gachette relachee.\n
+\t\n
+
+75:
+Commande non autorisee\n
+Interdite pendant un AU.\n
+\n
+Acquitter l'AU.\n
+Utiliser le bouton "Motor off'.\n
+\t\n
+
+76:
+Commande non autorisee\n
+Interdite pendant arret systeme.\n
+\n
+Erreur fatale incontournable.\n
+Redemarrer a chaud.\n
+\t\n
+Couper et remettre la baie sous\n
+tension si la commande de redemarrage\n
+du logiciel est ineffective.
+80:
+Commande non autorisee\n
+Interdite si un axe n'est pas commute.\n
+\t\n
+
+81:
+Commande non autorisee\n
+Interdite quand un axe n'est pas\n
+etalonne.\n
+\t\n
+
+82:
+Commande non autorisee\n
+Interdite quand un compteur de tour\n
+d'axe n'est pas remis a jour.\n
+\t\n
+
+83:
+Commande non autorisee\n
+Interdite quand un axe n'est pas\n
+synchronise.\n
+\t\n
+
+92:
+Not allowed command\n
+Interdite si E/S systeme bloquees.\n
+\n
+\t\n
+
+100:
+Pendant sous controle.\n
+Une application du pendant est\n
+sous controle de l'appelant\n
+(programme/mouvement)\n
+\t\n
+
+101:
+Pendant (prg) sous ctrl\n
+La fenetre programmation du pendant\n
+est active et sous controle du\n
+serveur de programmes.\n
+Activer la fenetre production et\n
+renouveler la commande.\n
+\t\n
+
+102:
+Pendant(joystick) ss ctrl\n
+Le joystick est sous le controle du\n
+serveur de mouvements.\n
+Liberer le joystick et renouveler\n
+la commande.\n
+\t\n
+
+111:
+Pendant (prg) sous ctrl\n
+La fenetre programmation du pendant\n
+est active et sous controle du\n
+serveur de programmes.\n
+Passer en production et renouveler\n
+la commande.\n
+\t\n
+
+112:
+Pgm (1) sous controle\n
+Le serveur de programme (1) est\n
+sous le controle du gestionnaire\n
+de mouvement.\n
+Arreter le programme et renouveler\n
+la commande.\n
+\t\n
+
+113:
+Pgm (2) sous controle\n
+Le serveur de programme (2) est\n
+sous le controle du gestionnaire\n
+de mouvement.\n
+Arreter le programme et renouveler\n
+la commande.\n
+\t\n
+
+114:
+Pgm (3) sous controle\n
+Le serveur de programme (3) est\n
+sous le controle du gestionnaire\n
+de mouvement.\n
+Arreter le programme et renouveler\n
+la commande.\n
+\t\n
+
+115:
+Pgm (4) sous controle\n
+Le serveur de programme (4) est\n
+sous le controle du gestionnaire\n
+de mouvement.\n
+Arreter le programme et renouveler\n
+la commande.\n
+\t\n
+
+116:
+Pgm (5) sous controle\n
+Le serveur de programme (5) est\n
+sous le controle du gestionnaire\n
+de mouvement.\n
+Arreter le programme et renouveler\n
+la commande.\n
+\t\n
+
+120:
+Systeme E/S sous ctrl\n
+\n
+\t\n
+
+125:
+Client %s sous ctrl\n
+Le client specifie est sous le\n
+controle de l'appelant\n
+(programme/mouvement).\n
+\t\n
+
+130:
+Cfg hors memoire\n
+\n
+\t\n
+
+131:
+Echec/Lecture fichier\n
+\n
+\t\n
+
+132:
+Parametres non sauves.\n
+Les parametres n'ont pas ete sauves.\n
+Disque protege ou place disponible\n
+insuffisante.\n
+\t\n
+Enlever la protection ou verifier que\n
+la place disponible soit suffisante.
+133:
+Modification impossible\n
+Description/Raison :\n
+N'a pas pu remplacer l'instance de la\n
+ligne %d du fichier %s\n
+\t\n
+Protege en ecriture.
+134:
+Mauvaise version\n
+Description\Cause:\n
+La version de CFG est mauvaise dans le\n
+fichier %s\n
+Le logiciel est pour\n
+la version %s\n
+\t\n
+Changer la version du CFG
+135:
+Ligne trop longue.\n
+Description\Raison:\n
+Ligne %d > %d caracteres\n
+\t\n
+Reduire le nombre de caracteres.
+136:
+Attribut hors limites\n
+Description\Raison:\n
+L'attribut %s est hors limites dans la\n
+ligne %d\n
+\t\n
+Changer la valeur de l'attribut.
+137:
+Nom double dans l'inst.\n
+Description\Raison:\n
+Nom double a la ligne %d\n
+du fichier %s\n
+\t\n
+Changer le nom.
+140:
+Mise sous Puis. refusee\n
+La Mise sous puissance via\n
+le systeme E/S n'est pas permise.\n
+\t\n
+
+141:
+Mise hors puis. refusee\n
+La Mise hors puissance via\n
+le systeme E/S n'est pas permise.\n
+\t\n
+
+142:
+Lancement refuse\n
+Le lancement ou la relance d'un\n
+programme via le systeme E/S\n
+n'est pas permis.\n
+\t\n
+
+143:
+Lanct pgm princ. refuse\n
+Le lancement du programme principal\n
+via le systeme E/S n'est pas permis.\n
+\t\n
+
+144:
+Arret pgm refuse\n
+L'arret du programme via le systeme E/S\n
+n'est pas permis.\n
+\t\n
+
+145:
+Arret cycle refuse\n
+L'arret du cycle de programme\n
+via le systeme E/S n'est pas permis.\n
+\t\n
+
+146:
+Interrupt. manu refusee\n
+L'interrution manuelle du programme\n
+via le systeme E/S n'est pas permise.\n
+\t\n
+
+147:
+Chargt et lancmt refuse\n
+Le chargement et le lancement du\n
+programme via le systeme E/S\n
+ne sont pas permis. Le nom du programme\n
+a charger(incluant le support d'origine)\n
+doit etre defini.\n
+\t\n
+
+148:
+Acquittement AU refuse\n
+L'acquittement de l'AU\n
+via le systeme E/S\n
+n'est pas permis.\n
+\t\n
+
+149:
+Acquit. erreur refuse\n
+L'acquittement d'erreur d'execution\n
+de programme via le systeme E/S\n
+n'est pas permis.\n
+\t\n
+
+150:
+Synchronisation refusee.\n
+La demande de synchronisation\n
+du robot via le systeme E/S\n
+n'est pas permise.\n
+\t\n
+
+151:
+Nom de signal errone.\n
+Impossible d'abonner ce nom de signal\n
+au systeme d'E/S. Ce nom ne devrait pas\n
+etre dans le fichier de config. du\n
+systeme d'E/S.\n
+\t\n
+
+152:
+Trop de limitations.\n
+Pour une action (signal) dans le systeme\n
+d'E/S aucune limitation n'est definie.\n
+Le nombre total de limitations (signaux)\n
+pour une action dans le fichier CFG du\n
+systeme d'E/S est trop grand.\n
+\t\n
+
+153:
+MSP, Depart refuse\n
+La mise sous puissance, le lancement ou\n
+le redemarrage d'un programme via le\n
+systeme d'E/S n'est pas autorise.\n
+\t\n
+
+154:
+STOP instr. refuse\n
+L'arret d'un programme via le systeme\n
+d'E/S n'est pas autorise.\n
+\t\n
+
+155:
+Argument non defini.\n
+Le nom d'un axe externe synchronise\n
+n'est pas defini.\n
+\t\n
+
+156:
+Argument non defini.\n
+Nom de routine d'interruption non\n
+defini.\n
+\t\n
+
+157:
+Argument non defini.\n
+Nom de programme non defini.\n
+\t\n
+
+160:
+Non configure.\n
+Le module systeme %!%s de la tache\n
+%s ne correspond pas a celui\n
+specifie dans la configuration\n
+des "Modules taches"\n
+\t\n
+Voir "Modules tache" dans le menu\n
+"Parametres systeme" et ajouter le nom\n
+de ce module systeme.
+161:
+Chemin non trouve\n
+Le module systeme %!%s de la tache\n
+%s specifie dans la configuration\n
+des "Modules taches" pointe sur\n
+un chemin inexistant\n
+\t\n
+Voir "Modules tache" dans le menu\n
+"Parametres systeme" et changer le\n
+chemin de ce module systeme.
+162:
+Erreur d'ecriture\n
+Erreur d'ecriture lors de la sauvegarde\n
+du module systeme %!%.14s\n
+a %.37s\n
+dans la tache %.16s\n
+ou le fichier systeme etait plein.\n
+\t\n
+Voir "Modules tache" dans le menu\n
+"Parametres systeme" et changer le\n
+chemin de ce module systeme.
+163:
+Echec de reconfiguration\n
+Quelques routines utilisateur ont change\n
+mais non pas ete sauvegardees.\n
+\t\n
+Les sauver et redemarrer le systeme
+164:
+Echec de reconfiguration\n
+Il reste des modules systeme non\n
+sauvegardes\n
+\t\n
+Lire les messages d'erreur precedents.\n
+Redemarrer le systeme
+165:
+PP Perdu!\n
+Redemarrage impossible depuis  position\n
+courante. le programme doit etre relance\n
+depuis le point d'entree.\n
+\t\n
+

@@ -1,0 +1,40 @@
+15::
+1:
+Objektet är deklarerat i\n
+en 'read only' modul och\n
+kan inte modifieras.
+2:
+Objektet är deklarerat i\n
+en 'view only' modul och\n
+kan inte modifieras.
+3:
+Namnet är otillåtet!\n
+Måste börja med bokstav och\n
+får ej vara reserverat ord.
+4:
+Exekveringsriktning kan\n
+ej ändras inuti en\n
+komplex instruktion.
+5:
+Ej tillåtet att ändra\n
+exekveringsriktning\n
+i denna rutin.
+6:
+RAPID syntax fel.\n
+Fel i programmet.
+7:
+Kan ej exekvera förbi\n
+första instruktionen i ett\n
+block eller en rutin.
+8:
+Kan inte sätta PP till\n
+begärd position. Försök\n
+med en annan position.
+9:
+Objektet är deklarerat i en\n
+'noview' modul och kan inte\n
+ändras, sparas el. skrivas.
+10:
+Rutin deklarerad i en\n
+'noview' modul. Rutin-\n
+resultatet kan ej visas.

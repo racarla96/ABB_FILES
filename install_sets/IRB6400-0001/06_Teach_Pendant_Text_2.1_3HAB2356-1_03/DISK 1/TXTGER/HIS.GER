@@ -1,0 +1,332 @@
+Revision 1.9  1995/12/15  14:10:54  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.8  1995/04/21  13:29:57  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.7  1994/08/19  10:48:07  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+8::
+0:
+Service
+1:
+Log
+2:
+
+3:
+
+4:
+
+5:
+Kalibrierung
+6:
+Kommutierung
+7:
+ Kalib
+8:
+(Kalibrierung manuell...)
+9:
+Kalibrieren...
+10:
+Umdr.Zähler aktualisieren...
+11:
+(Zeige gemessene Position...)
+12:
+Log überschreiben?\n
+Vorhandenes Log wird\n
+überschrieben.\n
+\n
+Weiter mit OK?
+13:
+Einheit         Status
+14:
+   Achse      Status
+15:
+Externe Steuerung
+16:
+Welche Achse? Markieren (inkl.)\n
+und OK betätigen.
+17:
+inkl.
+18:
+exkl.
+19:
+alle
+20:
+synchronisiert
+21:
+unsynchronisiert
+22:
+nicht kalibriert
+23:
+Umdr.Zähler nicht akt.
+24:
+kalibriert
+25:
+Umdr.Zähler aktualisiert
+26:
+Kalibrierung aktualisieren\n
+mit neuen Werten?\n
+Widerrufen unmöglich!\n
+\n
+Weiter mit OK?
+27:
+Kalibrierung der markierten Achsen\n
+wird geändert.\n
+Widerrufen unmöglich!\n
+\n
+Weiter mit OK?
+28:
+Umdr.Zähler der markierten Achsen\n
+werden aktualisiert.\n
+Widerrufen unmöglich!\n
+\n
+Weiter mit OK?
+29:
+Keine Achsen markiert (inkl.).\n
+\n
+\n
+\n
+Weiter mit ENTER!
+30:
+Kalibrierung läuft!\n
+\n
+Fertig in einigen Sekunden...
+31:
+nicht kommutiert
+32:
+Init Status
+33:
+  Kommut
+34:
+(Kommutierung manuell...)
+35:
+Kommutieren...
+36:
+\n
+Log wird in Datei\n
+gespeichert...
+37:
+Welche Achse? Markieren (inkl.)\n
+und OK betätigen.
+38:
+Kommutierung aktualisieren\n
+mit neuen Werten?\n
+Widerrufen unmöglich!\n
+\n
+Weiter mit OK?
+39:
+Kommutierung der markierten Achsen\n
+wird geändert.\n
+Widerrufen unmöglich!\n
+\n
+Weiter mit OK?
+40:
+kommutiert
+41:
+Keine Achsen markiert (inkl.).\n
+\n
+\n
+\n
+Weiter mit ENTER!
+42:
+Kommutierung läuft!\n
+\n
+Fertig in einigen Sekunden...
+43:
+Einige mech. Einheiten sind\n
+nicht kommutiert.\n
+Kommutierung im Menü -Ansicht-\n
+wählen.\n
+Weiter mit ENTER!
+44:
+Datum & Zeit...
+45:
+Datum:
+46:
+Zeit:
+47:
+<
+48:
+>
+49:
+System Infos...
+50:
+   Meld
+51:
+Name                 #     Letzte
+52:
+Meldung
+53:
+Lösche Log
+54:
+Lösche alle Logs
+55:
+ Spezial
+56:
+   Logs
+57:
+Meldung                    Datum
+58:
+Keine Meldungen vorhanden!
+59:
+Aktual
+60:
+Log aktual. auf Anweisung
+61:
+Log aktual. auf Ereignis
+62:
+Alle Meldungen im Log %s\n
+werden gelöscht.\n
+\n
+Weiter mit OK?
+63:
+Alle  Meldungen in allen Logs\n
+werden gelöscht.\n
+\n
+Weiter mit OK?
+64:
+Speichern der %s Log Meldungen als!
+65:
+ELOG
+66:
+%s Log Meldungen\n
+Speicherdatum: %s
+67:
+Gehe zu Zeile!
+68:
+Zeile:
+69:
+Fehler:
+70:
+Neustart...
+71:
+Neustart ist angewählt!\n
+Soll  die Steuerung neu\n
+gestartet werden?\n
+\n
+Weiter mit OK?
+72:
+Status:
+73:
+Warnung:
+74:
+Speichern der Log Meldungen unter!
+75:
+Koord. System Definition
+76:
+Einheit             Typ
+77:
+Einheit für die Definition eines\n
+Koordinaten Systems auswählen.\n
+Liste enthält nur Einheiten, bei\n
+denen eine Definition möglich ist.
+78:
+Def...
+79:
+Manipulator IRB1400
+80:
+Manipulator IRB1400
+81:
+Manipulator IRB2400
+82:
+Manipulator IRB2400
+83:
+Manipulator IRB3400
+84:
+Manipulator IRB6400
+85:
+Manipulator IRBPAL
+86:
+Orbit 160B_1
+87:
+Orbit 160B_2
+88:
+Portal
+89:
+Verfahrachse
+90:
+Externe Position
+91:
+Rot. Werkzeug
+92:
+frei rotierend
+93:
+KoordDef...
+94:
+Log nicht speicherbar.\n
+Diskette voll oder\n
+schreibgeschützt.\n
+\n
+Weiter mit ENTER!
+95:
+nicht verwendet
+96:
+ZweiAchsen Definition
+97:
+Einheit für die Ausführung einer\n
+Achsen Definition auswählen.\n
+Liste enthält nur gültige\n
+ZweiAchsen Einheiten.
+98:
+Def...
+99:
+ZweiAchsen Definition...
+100:
+(Def)
+101:
+Keine gültigen Einheiten verfügbar.
+102:
+Themen
+103:
+Thema wählen und weiter mit ENTER
+104:
+Roboter IRB4400
+105:
+Roboter IRB540_FLX
+106:
+Roboter IRB5400_HLW
+108:
+Speicherkapazität
+109:
+Task Status
+110:
+System ID
+111:
+Produkt ID
+112:
+Roboter Typ
+113:
+uninit
+114:
+fertig
+115:
+arbeitet
+116:
+gestoppt
+117:
+undefiniert
+118:
+Aktual
+119:
+Task
+120:
+Frei
+121:
+Total
+122:
+   Taskstatus
+123:
+Medium
+124:
+Programm Ressourcen
+125:
+Max Anzahl SPEICH Variable:
+126:
+Speicher vor Taskkonfiguration:
+127:
+Nicht verfügbar

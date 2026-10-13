@@ -29,8 +29,8 @@ Every program (`3HABxxxx-y/rev`) follows the same pattern:
 | 3HAB2317-1/05 | Basic CommWare 2.0 | 2.0 | 3 | 02/1996 | Yes |
 | 3HAB2317-1/13 | Basic CommWare 2.0 | 2.0 | 3 | 02/1998 | Yes |
 | 3HAB2318-1/09 | IRB 1400 2400 3400 4400 2.0 | 2.0 | 2 | 02/1998 | Yes |
-| 3HAB2319-1/03 | IRB 6400 Elmo/Siemens 2.0 | 2.0 | 3 | 02/1996 | Yes |
-| 3HAB2319-1/08 | IRB 6400 Elmo/Siemens 2.0 (newer rev.) | 2.0 | 2 | 02/1998 | Yes |
+| 3HAB2319-1/03 | IRB 6400 Elmo/Siemens 2.0 (M94A)  | 2.0 | 3 | 02/1996 | Yes |
+| 3HAB2319-1/08 | IRB 6400 Elmo/Siemens 2.0 (M94A, newer rev.)  | 2.0 | 2 | 02/1998 | Yes |
 | 3HAB2321-1/00 | Advanced Functions 2.0 | 2.0 | 1 | 11/1995 | Yes |
 | 3HAB2322-1/00 | Multitasking 2.0 | 2.0 | 1 | 09/1997 | Yes |
 | 3HAB2330-1/08 | IRB 1400 2400 DCLink6 2.0 | 2.0 | 2 | 02/1998 | Yes |
@@ -43,8 +43,8 @@ Every program (`3HABxxxx-y/rev`) follows the same pattern:
 | 3HAB2337-1/04 | System Parameters 2.1 | 2.1 | 1 | 05/2022 | Yes |
 | 3HAB2337-1/04 (2) | System Parameters 2.1 | 2.1 | 1 | 03/1998 | Yes |
 | 3HAB2338-1/06 | IRB 1400 2400 3400 4400 2.1 | 2.1 | 1 | 05/2022 | Yes |
-| 3HAB2340-1/04 | IRB 6400 2.1 | 2.1 | 1 | 05/2019 | Yes |
-| 3HAB2342-1/04 | IRB 6400 2.1 | 2.1 | 1 | 03/1998 | Yes |
+| 3HAB2340-1/04 | IRB 6400 Elmo/Siemens 2.1 (M94A)  | 2.1 | 1 | 05/2019 | Yes |
+| 3HAB2342-1/04 | IRB 6400 M96 2.1  | 2.1 | 1 | 03/1998 | Yes |
 | 3HAB2343-1/03 | IRB 2400 M96 540 2.1 | 2.1 | 1 | 02/1998 | Yes |
 | 3HAB2344-1/00 | Advanced Functions 2.1 | 2.1 | 1 | 05/2022 | Yes |
 | 3HAB2344-1/00 (2) | Advanced Functions 2.1 | 2.1 | 1 | 03/1998 | Yes |
@@ -66,6 +66,20 @@ Every program (`3HABxxxx-y/rev`) follows the same pattern:
 | 3HAB2326-1/00 | SpotWare Plus 2.0 (includes Advanced Functions and Multitasking) | 2.0 | — |   | No |   |
 | 3HAB2327-1/02 | Serial Link RAP 2.0 | 2.0 | — |   | No |   |
 | 3HAB2328-1/02 | Weld Timer Interface 2.0 | 2.0 | — |   | No |   |
+
+### IRB 6400: M94A vs M96 configuration
+
+The `IRB 6400` model disks exist for two hardware generations and are **not interchangeable**:
+
+| | `3HAB2340-1/04` (and `3HAB2319-1/xx` in 2.0) | `3HAB2342-1/04` (and `3HAB2319-3/05` in 2.0) |
+|---|---|---|
+| Generation | M94A: IRB 6400 "Elmo/Siemens" | M96 |
+| `install.cmd` asks | model **and** axis-4 motor type (Elmo or Siemens) | model only |
+| Models | 2.25-75 (PE), 2.4-120, 2.4-150, 2.8-120, S2.9-120, 3.0-75, 2.4-balB (7) | 2.4-120, 2.4-150, 2.8-120, S2.9-120, 3.0-75, 2.4-balB (6, no 2.25-75) |
+| `IRBCFG` files | `M64xxxx*.CFG` (Elmo) and `S64xxxx*.CFG` (Siemens), 42 files | `P64xxxx*.CFG`, 18 files |
+| Text in `install.cmd` | "IRB 6400 Elmo/Siemens S4 2.1" | "IRB 6400 M96 S4 2.1" |
+
+How to choose: if the axis-4 motor label says Elmo or Siemens and the robot is an early-series one (e.g. IRB6400-1262/1263/3518 with `3HAB2319` Elmo/Siemens 2.0), use the M94A one. Deduced from the `install.cmd` files; not verified on an M96 robot.
 
 ## `disc.id` format and serial number validation
 
@@ -121,6 +135,8 @@ Example (BW 2.1 set from an IRB1400-2405): the bytes at those positions are `A2 
 ### Tool in this repo: `tools/discid.py`
 
 Decodes, checks and **generates** `disc.id` files from a serial number.
+
+There is also an install-free web version: open `tools/discid.html` in a browser (decode/check, change the serial of several `disc.id` files, and generate a new one; everything runs locally).
 
 ```bash
 # decode / check against the header

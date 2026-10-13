@@ -1,0 +1,40 @@
+15::
+1:
+Objeto declarado en un\n
+modulo tipo SoloLectura\n
+y no es modificable.
+2:
+Objeto declarado en un\n
+modulo tipo SoloVer\n
+y no es modificable.
+3:
+Nombre no permitido!\n
+El nombre debe empezar con\n
+letra y no ser reservado.
+4:
+No puede cambiar direccion\n
+ejecucion dentro de instr.\n
+compleja.
+5:
+No permitido cambio de\n
+direccion dentro de\n
+esta rutina.
+6:
+Error(es) sintactico RAPID\n
+Error(es) en programa.
+7:
+No puedo ejecutar pasada\n
+la primera instruccion del\n
+bloque o la rutina.
+8:
+No puedo situar el PP en la\n
+posicion deseada. Probar\n
+otra posicion.
+9:
+Objeto declarado en modulo\n
+noview y no se puede\n
+cambiar, guardar o imprimir
+10:
+Rutina declarada en modulo\n
+noview. El contenido de la\n
+rutina no se puede mostrar.

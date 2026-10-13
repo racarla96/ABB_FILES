@@ -313,7 +313,7 @@ serial number, build date and label.</li>
 </tr>
 <tr class="even">
 <td>3HAB2319-1/03</td>
-<td>IRB 6400 Elmo/Siemens 2.0</td>
+<td>IRB 6400 Elmo/Siemens 2.0 (M94A)</td>
 <td>2.0</td>
 <td>3</td>
 <td>02/1996</td>
@@ -321,7 +321,7 @@ serial number, build date and label.</li>
 </tr>
 <tr class="odd">
 <td>3HAB2319-1/08</td>
-<td>IRB 6400 Elmo/Siemens 2.0 (newer rev.)</td>
+<td>IRB 6400 Elmo/Siemens 2.0 (M94A, newer rev.)</td>
 <td>2.0</td>
 <td>2</td>
 <td>02/1998</td>
@@ -425,7 +425,7 @@ serial number, build date and label.</li>
 </tr>
 <tr class="even">
 <td>3HAB2340-1/04</td>
-<td>IRB 6400 2.1</td>
+<td>IRB 6400 Elmo/Siemens 2.1 (M94A)</td>
 <td>2.1</td>
 <td>1</td>
 <td>05/2019</td>
@@ -433,7 +433,7 @@ serial number, build date and label.</li>
 </tr>
 <tr class="odd">
 <td>3HAB2342-1/04</td>
-<td>IRB 6400 2.1</td>
+<td>IRB 6400 M96 2.1</td>
 <td>2.1</td>
 <td>1</td>
 <td>03/1998</td>
@@ -610,6 +610,55 @@ Multitasking)</td>
 </tr>
 </tbody>
 </table>
+<h3 id="irb-6400-m94a-vs-m96-configuration">IRB 6400: M94A vs M96
+configuration</h3>
+<p>The <code>IRB 6400</code> model disks exist for two hardware
+generations and are <strong>not interchangeable</strong>:</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th><code>3HAB2340-1/04</code> (and <code>3HAB2319-1/xx</code> in
+2.0)</th>
+<th><code>3HAB2342-1/04</code> (and <code>3HAB2319-3/05</code> in
+2.0)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Generation</td>
+<td>M94A: IRB 6400 "Elmo/Siemens"</td>
+<td>M96</td>
+</tr>
+<tr class="even">
+<td><code>install.cmd</code> asks</td>
+<td>model <strong>and</strong> axis-4 motor type (Elmo or Siemens)</td>
+<td>model only</td>
+</tr>
+<tr class="odd">
+<td>Models</td>
+<td>2.25-75 (PE), 2.4-120, 2.4-150, 2.8-120, S2.9-120, 3.0-75, 2.4-balB
+(7)</td>
+<td>2.4-120, 2.4-150, 2.8-120, S2.9-120, 3.0-75, 2.4-balB (6, no
+2.25-75)</td>
+</tr>
+<tr class="even">
+<td><code>IRBCFG</code> files</td>
+<td><code>M64xxxx*.CFG</code> (Elmo) and <code>S64xxxx*.CFG</code>
+(Siemens), 42 files</td>
+<td><code>P64xxxx*.CFG</code>, 18 files</td>
+</tr>
+<tr class="odd">
+<td>Text in <code>install.cmd</code></td>
+<td>"IRB 6400 Elmo/Siemens S4 2.1"</td>
+<td>"IRB 6400 M96 S4 2.1"</td>
+</tr>
+</tbody>
+</table>
+<p>How to choose: if the axis-4 motor label says Elmo or Siemens and the
+robot is an early-series one (e.g. IRB6400-1262/1263/3518 with
+<code>3HAB2319</code> Elmo/Siemens 2.0), use the M94A one. Deduced from
+the <code>install.cmd</code> files; not verified on an M96 robot.</p>
 <h2 id="discid-format-and-serial-number-validation"><code>disc.id</code>
 format and serial number validation</h2>
 <p>Summary of an analysis of ~135 <code>DISC.ID</code> files (59 unique)
@@ -722,6 +771,10 @@ besides the serial need to match?</li>
 <code>tools/discid.py</code></h3>
 <p>Decodes, checks and <strong>generates</strong> <code>disc.id</code>
 files from a serial number.</p>
+<p>There is also an install-free web version: open
+<code>tools/discid.html</code> in a browser (decode/check, change the
+serial of several <code>disc.id</code> files, and generate a new one;
+everything runs locally).</p>
 <div class="sourceCode" id="cb3"><pre
 class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># decode / check against the header</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="ex">python3</span> tools/discid.py decode <span class="st">&quot;3HAB2316-1_13/3HAB2316-1_13/DISK 1/disc.id&quot;</span></span>

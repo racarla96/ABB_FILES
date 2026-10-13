@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ABB S4 DISC.ID tool</title>
+<style>
+  :root{--bg:#fff;--fg:#1d2430;--mut:#667085;--line:#d0d5dd;--card:#f6f8fa;--acc:#0b5cad;--ok:#067647;--bad:#b42318}
+  @media (prefers-color-scheme:dark){:root{--bg:#14181f;--fg:#e6e9ef;--mut:#98a2b3;--line:#344054;--card:#1c222c;--acc:#6aa9f0;--ok:#4cc38a;--bad:#f97066}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 system-ui,sans-serif}
+  main{max-width:860px;margin:0 auto;padding:16px}
+  h1{font-size:1.3rem;margin:.2em 0}
+  p.sub{color:var(--mut);margin-top:0}
+  nav{display:flex;gap:6px;flex-wrap:wrap;margin:14px 0}
+  nav button{border:1px solid var(--line);background:var(--card);color:var(--fg);padding:8px 14px;border-radius:8px;cursor:pointer;font:inherit}
+  nav button[aria-selected=true]{background:var(--acc);border-color:var(--acc);color:#fff}
+  section{display:none;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px}
+  section.on{display:block}
+  label{display:block;font-size:.85rem;color:var(--mut);margin:10px 0 3px}
+  input,select{width:100%;padding:8px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--fg);font:inherit}
+  .row{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px}
+  button.go{margin-top:14px;background:var(--acc);color:#fff;border:0;padding:9px 16px;border-radius:8px;cursor:pointer;font:inherit}
+  .drop{border:2px dashed var(--line);border-radius:10px;padding:22px;text-align:center;color:var(--mut)}
+  .drop.over{border-color:var(--acc);color:var(--fg)}
+  table{width:100%;border-collapse:collapse;margin-top:12px;font-size:.88rem}
+  td,th{border-bottom:1px solid var(--line);padding:6px 4px;text-align:left;word-break:break-all}
+  .ok{color:var(--ok);font-weight:600}.bad{color:var(--bad);font-weight:600}
+  pre{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:8px;overflow:auto;font-size:.8rem}
+  .note{color:var(--mut);font-size:.82rem;margin-top:14px}
+  a.dl{color:var(--acc);cursor:pointer}
+</style>
+</head>
+<body>
+<main>
+  <h1>ABB S4 DISC.ID tool</h1>
+  <p class="sub">Decode, check, generate and re-serialise <code>disc.id</code> files (BaseWare/RobotWare 2.x, 3.0). Everything runs in your browser; no files are uploaded.</p>
+  <nav role="tablist">
+    <button role="tab" aria-selected="true" data-t="check">Decode / check</button>
+    <button role="tab" aria-selected="false" data-t="retarget">Change serial</button>
+    <button role="tab" aria-selected="false" data-t="generate">Generate new</button>
+  </nav>
+
+  <section id="check" class="on">
+    <div class="drop" data-for="checkFiles">Drop <b>disc.id</b> files here or click to choose</div>
+    <input type="file" id="checkFiles" multiple hidden>
+    <table id="checkOut"></table>
+  </section>
+
+  <section id="retarget">
+    <label for="rtSerial">New serial number (4-16 ASCII chars, e.g. IRB6400-0001)</label>
+    <input id="rtSerial" value="IRB6400-0001" maxlength="16" spellcheck="false">
+    <div class="drop" data-for="rtFiles" style="margin-top:12px">Drop <b>disc.id</b> files here or click to choose</div>
+    <input type="file" id="rtFiles" multiple hidden>
+    <table id="rtOut"></table>
+    <p class="note">The header is kept as is (program, label, make date); only the <code>Serial  no</code> line and the hidden binary tail change. Downloaded files keep the name <code>disc.id</code>; save each one into its own disk folder.</p>
+  </section>
+
+  <section id="generate">
+    <div class="row">
+      <div><label>Serial</label><input id="gSerial" value="IRB6400-0001" maxlength="16" spellcheck="false"></div>
+      <div><label>Program no.</label><input id="gProg" value="3HAB2316-1/13"></div>
+      <div><label>Label text</label><input id="gLabel" value="BaseWare OS 2.0"></div>
+    </div>
+    <div class="row">
+      <div><label>Disk n</label><input id="gDisk" type="number" min="1" value="1"></div>
+      <div><label>of N</label><input id="gOf" type="number" min="1" value="1"></div>
+      <div><label>Make cmd</label><input id="gMake" type="number" min="0" value="4"></div>
+      <div><label>Date (empty = now)</label><input id="gDate" placeholder="Wed May 04 08:16:27 2022"></div>
+    </div>
+    <button class="go" id="gGo">Generate &amp; download</button>
+    <pre id="gOut" hidden></pre>
+  </section>
+
+  <p class="note">Algorithm: tail of 193 bytes from EOF; <code>serial[i] = (byte[pos_i] + 0xA7 − 2i) &amp; 0xFF</code>, positions 0,18,35,51,… (step 18−i), terminated by 0. Not tested on a real controller; use only with your own equipment and disks.</p>
+</main>
+
+<script>
+"use strict";
+// ---- core (same algorithm as tools/discid.py) -------------------------------
+const POS = [0];
+for (let i = 0; i < 16; i++) POS.push(POS[POS.length - 1] + 18 - i);
+const TAIL_LEN = 193;
+const enc = new TextEncoder(), dec = new TextDecoder("latin1");
+const COPYRIGHT =
+  "Property of ABB Vasteras/Sweden.All rights reserved.\r\n" +
+  "Reproduction,modification,use or disclosure to third\r\n" +
+  "parties without express authority is strictly forbidden.\r\n" +
+  "(C) Copyright ABB Robotics Products AB 1993.\r\n\r\n";
+
+function discSerial(d) {
+  const base = d.length - TAIL_LEN;
+  if (base < 0) throw new Error("file too short");
+  let out = "";
+  for (let i = 0; i < 17; i++) {
+    const c = (d[base + POS[i]] + 0xA7 - 2 * i) & 0xFF;
+    if (c === 0) break;
+    out += String.fromCharCode(c);
+  }
+  return out;
+}
+function headerSerial(d) {
+  const m = /Serial {2}no ([^\r\n]*)/.exec(dec.decode(d));
+  return m ? m[1] : "";
+}
+function headerField(d, re) {
+  const m = re.exec(dec.decode(d));
+  return m ? m[1].trim() : "";
+}
+function validSerial(s) {
+  if (!/^[\x20-\x7e]{4,16}$/.test(s)) throw new Error("Serial must be 4-16 printable ASCII characters");
+}
+function makeTail(serial) {
+  const n = 214 + Math.floor(Math.random() * 34);            // 214..247
+  const tail = new Uint8Array(n);
+  for (let i = 0; i < n; i++) tail[i] = 0x5B + Math.floor(Math.random() * 0x65); // 0x5B..0xBF
+  const base = n - TAIL_LEN;
+  const bytes = [...enc.encode(serial), 0];
+  bytes.forEach((ch, i) => { tail[base + POS[i]] = (ch - 0xA7 + 2 * i) & 0xFF; });
+  return tail;
+}
+function join(a, b) { const o = new Uint8Array(a.length + b.length); o.set(a); o.set(b, a.length); return o; }
+function retarget(d, serial) {
+  validSerial(serial);
+  const txt = dec.decode(d);
+  const end = txt.indexOf("\r\n\r\n");
+  if (end < 0) throw new Error("no CRLF CRLF header end found");
+  const header = txt.slice(0, end + 4).replace(/(Serial {2}no )[^\r\n]*/, (m, p) => p + serial);
+  return join(enc.encode(header), makeTail(serial));
+}
+function generate(o) {
+  validSerial(o.serial);
+  const date = o.date || new Date().toString().replace(/^(\w{3}) (\w{3}) (\d+) (\d{4}) (\d\d:\d\d:\d\d).*/,
+    (m, wd, mo, dd, yy, t) => `${wd} ${mo} ${dd.padStart(2, "0")} ${t} ${yy}`);
+  const header =
+    `Boot  disk ${o.disk} (${o.of})\r\n` +
+    `Boot unit no 0 Make cmd ${o.make} ${date}\r\n` +
+    `Program no ${o.program}\r\n` +
+    `Serial  no ${o.serial}\r\n` +
+    `Boot discette label text:${o.label}\r\n` + COPYRIGHT;
+  return join(enc.encode(header), makeTail(o.serial));
+}
+if (typeof module !== "undefined") module.exports = { discSerial, headerSerial, retarget, generate };
+
+// ---- UI --------------------------------------------------------------------
+if (typeof document !== "undefined") {
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const readFile = f => f.arrayBuffer().then(b => new Uint8Array(b));
+  const download = (bytes, name) => {
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([bytes], { type: "application/octet-stream" }));
+    a.download = name; document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  };
+
+  document.querySelectorAll("nav button").forEach(b => b.onclick = () => {
+    document.querySelectorAll("nav button").forEach(x => x.setAttribute("aria-selected", x === b));
+    document.querySelectorAll("section").forEach(s => s.classList.toggle("on", s.id === b.dataset.t));
+  });
+  document.querySelectorAll(".drop").forEach(z => {
+    const inp = $(z.dataset.for);
+    z.onclick = () => inp.click();
+    z.ondragover = e => { e.preventDefault(); z.classList.add("over"); };
+    z.ondragleave = () => z.classList.remove("over");
+    z.ondrop = e => { e.preventDefault(); z.classList.remove("over"); inp.files = e.dataTransfer.files; inp.onchange(); };
+  });
+
+  $("checkFiles").onchange = async () => {
+    let h = "<tr><th>File</th><th>Program</th><th>Label</th><th>Serial (tail)</th><th>Serial (header)</th><th></th></tr>";
+    for (const f of $("checkFiles").files) {
+      try {
+        const d = await readFile(f), t = discSerial(d), hd = headerSerial(d).trim();
+        h += `<tr><td>${esc(f.name)}</td><td>${esc(headerField(d, /Program no ([^\r\n]*)/))}</td>` +
+          `<td>${esc(headerField(d, /label text:([^\r\n]*)/))}</td><td>${esc(t) || "<i>(empty)</i>"}</td>` +
+          `<td>${esc(hd) || "<i>(empty)</i>"}</td><td class="${t === hd ? "ok" : "bad"}">${t === hd ? "match" : "DIFF"}</td></tr>`;
+      } catch (e) { h += `<tr><td>${esc(f.name)}</td><td colspan="5" class="bad">${esc(e.message)}</td></tr>`; }
+    }
+    $("checkOut").innerHTML = h;
+  };
+
+  $("rtFiles").onchange = async () => {
+    const serial = $("rtSerial").value;
+    let h = "<tr><th>File</th><th>Old serial</th><th>New serial</th><th></th></tr>";
+    const outs = [];
+    for (const f of $("rtFiles").files) {
+      try {
+        const d = await readFile(f), out = retarget(d, serial);
+        outs.push(out);
+        h += `<tr><td>${esc(f.name)}</td><td>${esc(discSerial(d)) || "<i>(empty)</i>"}</td><td class="ok">${esc(discSerial(out))}</td>` +
+          `<td><a class="dl" data-i="${outs.length - 1}">download</a></td></tr>`;
+      } catch (e) { h += `<tr><td>${esc(f.name)}</td><td colspan="3" class="bad">${esc(e.message)}</td></tr>`; }
+    }
+    $("rtOut").innerHTML = h;
+    $("rtOut").querySelectorAll("a.dl").forEach(a => a.onclick = () => download(outs[+a.dataset.i], "disc.id"));
+  };
+  $("rtSerial").oninput = () => { if ($("rtFiles").files.length) $("rtFiles").onchange(); };
+
+  $("gGo").onclick = () => {
+    const o = { serial: $("gSerial").value, program: $("gProg").value, label: $("gLabel").value,
+      disk: +$("gDisk").value, of: +$("gOf").value, make: +$("gMake").value, date: $("gDate").value.trim() };
+    try {
+      const out = generate(o);
+      $("gOut").hidden = false;
+      const txt = dec.decode(out), end = txt.indexOf("\r\n\r\n");
+      $("gOut").textContent = txt.slice(0, end) + `\n\n[binary tail: ${out.length - end - 4} bytes, decodes to "${discSerial(out)}"]`;
+      download(out, "disc.id");
+    } catch (e) { $("gOut").hidden = false; $("gOut").textContent = e.message; }
+  };
+}
+</script>
+</body>
+</html>
