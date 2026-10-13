@@ -18,16 +18,6 @@ Cada programa (`3HABxxxx-y/rev`) sigue el mismo patrón:
 - `disc.id` de cada disquete contiene número de programa, nº de serie del robot, fecha de generación y etiqueta.
 - `3HAB2300-2_00` no es un disco de arranque: es la herramienta MS-DOS *S4 Program Update* (ver su `.md`).
 
-## Origen de los últimos tres lotes integrados
-
-| Lote | Resultado |
-|---|---|
-| `ABB System Disks` (BaseWare 3.0, serie IRB2400-0399, 2000) | Añadidos 3HAB2375-1/47, 3HAB2379-2/21 y 3HAB2380-1/02. TPT 3.0 era idéntico a 3HAB2377-1/47 (descartado). |
-| `ABB Track Work Folder` (descarga de Drive, 2021) | Añadido 3HAB2343-1/03. Los otros 3 (AdvFunc 2.1, SysPar 2.1.04, ArcWare 2.1) eran idénticos a 3HAB2344-1/00, 3HAB2337-1/04 y 3HAB2347-1/02. |
-| `irb6400_s4_bw2.0` (backup del robot IRB6400-2562, 2007) | Añadidos 3HAB2319-1/08 (revisión nueva) y 3HAB2331-1/00 (2) (SYSPAR con ficheros reales; el original está vacío). Basic 2.0 y AdvFunc 2.0 eran idénticos. |
-
-La comparación se hizo por hash del contenido de cada disquete (ignorando `disc.id`, que cambia con el nº de serie). Las carpetas originales de los tres lotes se conservan en local pero están en `.gitignore`.
-
 ## Tabla de programas
 
 | Program no. / rev. | Description | Version | No. of disks | Month/Year | Available |
@@ -74,3 +64,73 @@ La comparación se hizo por hash del contenido de cada disquete (ignorando `disc
 | 3HAB2326-1/00 | SpotWare Plus 2.0 (includes Advanced Functions and Multitasking) | 2.0 | — |   | No |   |
 | 3HAB2327-1/02 | Serial Link RAP 2.0 | 2.0 | — |   | No |   |
 | 3HAB2328-1/02 | Weld Timer Interface 2.0 | 2.0 | — |   | No |   |
+
+## Formato de `disc.id` y validación del nº de serie
+
+Resumen de un análisis de ~135 ficheros `DISC.ID` (59 únicos) de sets de BaseWare/RobotWare 2.0 y 2.1 (en estos S4, BW y RW son la misma cosa). Confirmado además por otros usuarios con BW 3.0 para S4 y con Basic M94A. **Sin probar en un controlador real** (validado contra una réplica exacta del parser). Usar solo con equipos y discos propios.
+
+### Resumen
+
+- Un `DISC.ID` es una cabecera de texto más una cola binaria de 214–247 bytes que parece ruido.
+- La cola es relleno aleatorio con el nº de serie del robot escondido en posiciones fijas. La línea `Serial  no …` de la cabecera es **decorativa**.
+- Todo `install.cmd` de BW/RW 2.x empieza con `registrate -path flp1:disc.id`. Si el serie del disco no coincide con el del controlador: **"Invalid disc id"**.
+
+### Estructura
+
+- **Cabecera ASCII** con CRLF, terminada en CRLF CRLF. `registrate` solo busca la línea `Program no …` y luego `Boot discette label text:…`.
+- **Cola binaria.** El parser hace `fseek(-193, SEEK_END)`, lee un byte, salta `17-i` bytes y repite hasta 17 caracteres o un 0. Cada carácter es `serial[i] = (byte + 0xA7 - 2*i) & 0xFF`. El serie debe tener más de 3 caracteres.
+- No se lee nada más de la cola. En los 59 discos es relleno uniforme en `0x5B–0xBF`, sin `00`, `0A`, `0D` ni `1A`.
+
+```python
+POS = [0]
+for i in range(16):
+    POS.append(POS[-1] + 18 - i)   # 0,18,35,51,66,80,93,105,116,126,135,143,150,...
+
+def disc_serial(data: bytes) -> str:
+    base = len(data) - 193
+    out = bytearray()
+    for i in range(17):
+        c = (data[base + POS[i]] + 0xA7 - 2 * i) & 0xFF
+        if c == 0:
+            break
+        out.append(c)
+    return out.decode('ascii')
+```
+
+Ejemplo (set BW 2.1 de un IRB1400-2405): los bytes en esas posiciones son `A2 AD 9F 90 95 93 95 94 9B 9F 9D A4 71`, que decodifican a `IRB1400-2405` más el nulo final. En los 59 discos únicos el serie decodificado coincide con el de la cabecera. Una variante que trabaja sobre el volcado hexadecimal del fichero (`bytes.fromhex(...)`) usa exactamente el mismo algoritmo y también funciona.
+
+### Qué hace el controlador (código 68k de `ABB_MC` de una imagen BW/RW 2.0, a.out con entrada en 0x42000)
+
+- Handler de `registrate` en `0x26ed30`, parser en `0x2c292e`, comparación en `0x2c2baa`, rutina de registro en `0x2c2a3e`.
+- Si existe `ram1disk:sys.id`, compara 12 bytes del disco con su clave `SystemId`. Si difieren: "Invalid disc id".
+- Si no existe, lo crea con las secciones `System:`, `Product:` y `Function:` y escribe `SystemId` con el serie del disco. **El primer disco de una instalación limpia fija la identidad del sistema**; los siguientes se comparan contra ella. Por eso hay que evitar registrar primero un disco con otro serie.
+- También registra el `Program no` y la etiqueta del disco como producto.
+- Método: concatenar `ABB_MC.000/.001/.002`, leer la cabecera a.out (base 0x42000) y desensamblar con capstone en modo M68K 040.
+
+### Preguntas abiertas
+
+- Formato exacto de las líneas de `sys.id` (¿hay comando de consola, serie o FTP para leer `ram1disk:`?).
+- Los discos antiguos sin serie (1998/2002): el código exige más de 3 caracteres. ¿Eran para otra versión de BW o se instalaban de otro modo?
+- BW/RW 3.x en S4 usa `disc.id` (confirmado), pero **BW 3.0 para S4C usa un disco-llave con una *keystring*** (mecanismo distinto, sin analizar). ¿Es estática por unidad como el serie, o un checksum/tiempo?
+- ¿Algo más lee `DISC.ID` o `sys.id` (opciones, Teach Pendant, RAPID, herramientas de servicio)? Solo se encontró un lector en `ABB_MC`.
+- ¿Con qué herramienta se fabricaron los discos? La cabecera lleva `Boot unit no 0 Make cmd 4 <fecha>` y el relleno parece sembrado con la hora.
+- Discos de instalación a medida para un controlador propio: ¿algo más que el serie debe coincidir?
+
+### Herramienta en este repo: `tools/discid.py`
+
+Decodifica, comprueba y **genera** ficheros `disc.id` a partir de un nº de serie.
+
+```bash
+# decodificar / comprobar contra la cabecera
+python3 tools/discid.py decode "3HAB2316-1_13/3HAB2316-1_13/DISK 1/disc.id"
+python3 tools/discid.py check 3HAB*/*/DISK*/disc.id
+
+# generar un disc.id para otro robot
+python3 tools/discid.py generate --serial IRB6400-1234 --program 3HAB2316-1/13 \
+    --label "BaseWare OS 2.0" --disk 1 --of 3 --date "Wed May 04 08:16:27 2022" -o disc.id
+```
+
+Comprobado con los `disc.id` de este repo: 51 de 52 decodifican a un serie idéntico al de la cabecera (los de serie vacío, 1998, decodifican a cadena vacía). La excepción es `3HAB2343-1_03`: su cola decodifica a vacío mientras la cabecera dice `2400-3706`; el fichero está fechado en 2021, así que probablemente alguien editó la cabecera a mano sobre un disco originalmente sin serie.
+
+El generador se ha verificado solo contra el propio decodificador, no contra un controlador real.
+
