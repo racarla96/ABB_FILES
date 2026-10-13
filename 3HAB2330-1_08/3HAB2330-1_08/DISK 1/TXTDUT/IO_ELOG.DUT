@@ -1,0 +1,871 @@
+27::
+0:
+IO & communitatie
+1000:
+Ongeldige busnaam\n
+Beschrijving\reden:\n
+- Driver %s: heeft een ongeldige\n
+busnaam\n
+\t\n
+Controlelijst:\n
+1. Verander de busnaam voor de driver
+1001:
+Gedupliceerd adres\n
+Beschrijving\reden:\n
+- Zelfde adres voor eenheid %s en %s\n
+\t\n
+Controlelijst:\n
+1. Controleer het adres\n
+2. Controleer de bus
+1002:
+Ongeldige driver\n
+Beschrijving\reden:\n
+- Eenheid %s: heeft een niet\n
+gespecificeerde driver\n
+\t\n
+Controlelijst:\n
+1. Vergelijk de drivers met degene die\n
+   voor de eenheid is gespecificeerd.
+1003:
+Ongeldige eenheid\n
+Beschrijving\reden:\n
+- De voor het signaal %s\n
+  gespecificeerde eenheid is niet in\n
+  de eenheidsectie gespecificeerd\n
+\t\n
+Controlelijst:\n
+1. Verander de naam van de eenheid\n
+2. Voeg een nieuwe eenheid toe aan de\n
+   eenhedenlijst
+1004:
+Ongeldige signaallengte\n
+Beschrijving\reden:\n
+- De lengte van het digitale signaal\n
+  %s moet 1 zijn\n
+\t\n
+Controlelijst:\n
+1. Verander de lengte in 1 of\n
+   verwijder de instructie.
+1005:
+Filtertijd ongeldig\n
+Beschrijving\reden:\n
+- Signaal %s: de passieve filtertijd\n
+  moet 0 zijn of %d - %d ms\n
+\t\n
+Controlelijst:\n
+1. Verander de filtertijd
+1006:
+Filtertijd ongeldig\n
+Beschrijving\reden:\n
+- Signaal %s: de actieve filtertijd\n
+  moet 0 zijn of %d - %d ms\n
+\t\n
+Controlelijst:\n
+1. Verander de filtertijd
+1007:
+Logische waarde buiten het bereik\n
+Beschrijving\reden:\n
+- Signaal %s: logisch max is kleiner\n
+  of gelijk aan het logische min\n
+\t\n
+Controlelijst:\n
+1. Corrigeer de waarden zodat max\n
+   groter is dan min
+1008:
+Fysische waarde buiten bereik\n
+Beschrijving\reden:\n
+- Signaal %s: fysisch max is kleiner\n
+  of gelijk aan fysisch min\n
+\t\n
+Controlelijst:\n
+1. Corrigeer de waarden zodat max\n
+   groter is dan min
+1009:
+Ongeldig type\n
+Beschrijving\reden:\n
+- Signaal %s: het signaaltype is\n
+  ongeldig\n
+\t\n
+Controlelijst:\n
+1. Verander het type
+1010:
+Groep buiten het bereik\n
+Beschrijving\reden:\n
+- Signaal %s: het fysische\n
+  signaalnummer + lengte -1 is > %d\n
+\t\n
+Controlelijst:\n
+1. Verander het fysische signaalnummer\n
+2. Verander de lengte
+1011:
+Driver niet ondersteund\n
+Beschrijving\reden:\n
+- De driver %d wordt niet\n
+  ondersteund\n
+\t\n
+Contolelijst:\n
+1. Verander de naam van de driver
+1012:
+Geheugen-overloop\n
+Beschrijving\reden:\n
+- Kaart %s: Te veel kaarten voor\n
+  het gespecificeerde driver type.\n
+\t\n
+Controlelijst:\n
+1. Verander het aantal kaarten voor\n
+   de driver tijdens de driver\n
+   configuratie.
+1013:
+Onjuist kaarttype\n
+Beschrijving\reden:\n
+- Onjuist kaarttype gekoppeld aan\n
+  adres %d\n
+\t\n
+Controlelijst:\n
+1. Controleer het kaarttype op het\n
+   gegeven adres
+1014:
+Kaart ontbreekt\n
+Beschrijving\reden:\n
+- Aan het gegeven adres %d\n
+  is geen kaart gekoppeld\n
+\t\n
+Controlelijst:\n
+1. Plaats een kaart in het slot\n
+2. Verander het kaartadres
+1015:
+Overloop van digitale ingangen\n
+Beschrijving\reden:\n
+- Het aantal digitale ingangskanalen\n
+  op kaart %d is groter\n
+  dan %d\n
+\t\n
+Controlelijst:\n
+1. Verminder het aantal digitale\n
+   ingangen.
+1016:
+Overloop van digitale uitgangen\n
+Beschrijving\reden:\n
+- Het aantal digitale uitgangen op\n
+  kaart %d is groter\n
+ dan %d\n
+\t\n
+Controlelijst:\n
+1. Verminder het aantal digitale\n
+   uitgangen
+1017:
+Geen activeringssignaal\n
+Beschrijving\reden:\n
+- Activeringssignaal voor\n
+  kruisreferentie ontbreekt\n
+\t\n
+Controlelijst:\n
+1. Er moet een activeringssignaal\n
+   worden gegeven
+1018:
+Overloop van het activeringssignaal\n
+Beschrijving\reden:\n
+- Te groot aantal activeringssignalen\n
+  voor de kruisreferentie\n
+\t\n
+Controlelijst:\n
+1. Er mag slechts een\n
+   activeringssignaal gegeven worden
+1019:
+Signaaldefinitie ontbreekt\n
+Beschrijving\reden:\n
+- Het signaal: %s, voor de\n
+  kruisreferentie is niet gedefinieerd\n
+\t\n
+Controlelijst:\n
+1. U moet de signaalnaam in de\n
+   signaalsectie bepalen
+1020:
+Geen resultaatsignaal\n
+Beschrijving\reden:\n
+- Resultaatsignaal ontbreekt\n
+\t\n
+Controlelijst:\n
+1. Er moet minstens een\n
+   resultaatsignaal worden gegeven
+1021:
+Duplicate kruisverbindingen\n
+Beschrijving\reden:\n
+- Het signaal: %s, verschijnt zowel\n
+  als VAN en als NAAR.\n
+\t\n
+Controlelijst:\n
+1. Hetzelfde signaal kan niet worden\n
+   gegeven voor zowel VAN als NAAR
+1022:
+Fysisch max te groot\n
+Beschrijving\reden:\n
+- Signaal: %s\n
+- De fysische max waarde > %d\n
+\t\n
+Controlelijst:\n
+1. Verander de waarde in de\n
+   configuratie
+1023:
+Fysisch min te laag\n
+Beschrijving\reden:\n
+- Signaal: %s\n
+- De fysische min waarde < %d\n
+\t\n
+Controlelijst:\n
+1. Verander de waarde in de\n
+   configuratie.
+1024:
+Fysiche waarde te groot\n
+Beschrijving\reden:\n
+- Signaal: %s\n
+- Huidige waarde = %d >\n
+  Maxwaarde = %d\n
+- Waarde wordt op Maxwaarde ingesteld\n
+\t\n
+Controlellijst:\n
+1. Verander de fysische max waarde in\n
+   de configuratie
+1025:
+Fysiche waarde te laag\n
+Beschrijving\reden:\n
+- Signaal: %s\n
+- Huidige waarde = %d <\n
+  Minwaarde = %d\n
+- Waarde wordt op Minwaarde ingesteld\n
+\t\n
+Controlelijst:\n
+1. Verander de fysische min. waarde in\n
+   de configuratie
+1026:
+Logische waarde te groot\n
+Beschrijving\reden:\n
+- Signaal: %s\n
+- Huidige waarde %d < Maxwaarde %d\n
+- Waarde wordt ingesteld op Maxwaarde\n
+\t\n
+Controlelijst:\n
+1. Verander de logische max waarde in\n
+   de configuratie
+1027:
+Logische waarde te laag\n
+Beschrijving\reden:\n
+- Signaal: %s\n
+- Huidige waarde %d < Minwaarde %d\n
+- Waarde wordt ingesteld op Minwaarde\n
+\t\n
+Controlelijst:\n
+1. Verander de logische min. waarde in\n
+   de configuratie
+1028:
+Config. buiten de grenzen.\n
+Beschrijving\reden:\n
+- Het RIO starting quarter en rack\n
+  size zijn buiten de grenzen voor\n
+  kaart %s.\n
+\t\n
+Controlelijst:\n
+1. Voor starting quarter 0 moet de\n
+   rack size kleiner zijn dan 4.
+1029:
+Config. buiten de grenzen.\n
+Beschrijving\reden:\n
+- Het RIO starting quarter en rack\n
+  size zijn buiten de grenzen voor\n
+  kaart %s.\n
+\t\n
+Controlelijst:\n
+1. Voor starting quarter 1 moet de\n
+   rack size kleiner zijn dan 3.
+1030:
+Config. buiten de grenzen.\n
+Beschrijving\reden:\n
+- Het RIO starting quarter en rack\n
+  size zijn buiten de grenzen voor\n
+  kaart %s.\n
+\t\n
+Controlelijst:\n
+1. Voor starting quarter 2 moet de\n
+   rack size kleiner zijn dan 2.
+1031:
+Config. buiten de grenzen.\n
+Beschrijving\reden:\n
+- Het RIO starting quarter en rack\n
+  size zijn buiten de grenzen voor\n
+  kaart %s.\n
+\t\n
+Controlelijst:\n
+1. Voor starting quarter 3 moet de\n
+   rack size 0 zijn.
+1032:
+Communicatie storing\n
+Beschrijving\reden:\n
+- De RIO kaart heeft het contact\n
+  verloren met de PLC op het\n
+  adres %d\n
+\t\n
+Controle lijst:\n
+1. Controleer de communicatie kabel\n
+   met de PLC\n
+2. Controleer of de PLC aangeschakeld\n
+   is.
+1033:
+Digtale ingang buiten bereik\n
+Beschrijving\reden:\n
+- Het aantal digitale ingangen is\n
+  buiten het bereik op kaartadres %d\n
+  max aantal ingangen is %d\n
+\t\n
+Controle lijst:\n
+1. Verander de configuratie van\n
+   de kaart.
+1034:
+Digtale uitgang buiten bereik\n
+Beschrijving\reden:\n
+- Het aantal digitale uitgangen is\n
+  buiten het bereik op kaartadres %d\n
+  max aantal uitgangen is %d\n
+\t\n
+Controle lijst:\n
+1. Verander de configuratie van\n
+   de kaart.
+1035:
+Starting quarter buiten bereik\n
+Beschrijving\reden:\n
+- Het starting quarter is buiten het\n
+  bereik voor kaart %s\n
+\t\n
+Controle lijst:\n
+1. Starting quarter moet een waarde\n
+   hebben tussen 0 en 3.\n
+   Verander het config bestand
+1036:
+Naam buiten bereik\n
+Beschrijving\reden:\n
+- Het aantal karakters in de naam\n
+  %s\n
+  is groter dan %d of de naam\n
+  ontbreekt\n
+\t\n
+Controle lijst:\n
+1. Geef een nieuwe naam die binnen de\n
+   limieten valt.
+1037:
+Fout in een IO kruisverbinding\n
+Beschrijving\reden:\n
+- Het signaal %s komt zowel voor als\n
+  VAN en als NAAR in de zelfde\n
+  ketting.\n
+\t\n
+Controle lijst:\n
+1. Corrigeer de configuratie voor de\n
+   kruisverbindingen waaraan het\n
+   hierboven genoemde signaal is\n
+   verbonden.
+1038:
+IO kruisverbindingsniveau te diep\n
+Beschrijving\reden:\n
+- Het niveau van kruisverbindingen in\n
+  dezelfde ketting is te diep.\n
+  Eerste signaal naam: %s\n
+\t\n
+Controle lijst:\n
+- Verminder het aantal\n
+  kruisverbindings niveau's
+1039:
+Max instanties buiten bereik\n
+Beschrijving\reden:\n
+- Het max aantal instanties voor\n
+  driver %s is buiten\n
+  het bereik.\n
+\t\n
+Controle lijst:\n
+1. Zorg ervoor dat het aantal\n
+   instanties groter is dan 0 echter\n
+   niet groter dan het aantal IO\n
+   slots.
+1040:
+RIO link adress buiten bereik\n
+Beschrijving\reden:\n
+- Het RIO link adress voor kaart\n
+  %s is buiten het bereik.\n
+\t\n
+Controle lijst:\n
+1. Zorg ervoor dat het RIO link adress\n
+   groter is dan 0 en kleiner is\n
+   dan 64.
+1041:
+Overloop analoge uitgangen\n
+Beschrijving\reden:\n
+- Aantal analoge uitgangen voor\n
+  kaart %s is groter dan %d.\n
+\t\n
+Controle lijst:\n
+1. Verminder het aantal analoge\n
+   uitgangen.
+1042:
+Oveloop analoge ingangen\n
+Beschrijving\reden:\n
+- Aantal anloge ingangen voor\n
+  kaart %s is groter dan %d.\n
+\t\n
+Controle lijst:\n
+1. Verminder het aantal analoge\n
+   ingangen.
+1043:
+Signaal type fout\n
+Beschrijving\reden:\n
+- Het gespecificeerde type voor\n
+  signaal %s  kan niet verbonden\n
+  worden met de gespecificeerde kaart\n
+\t\n
+Controle lijst:\n
+1. Selecteer een ander type.\n
+2. Selecteer een andere kaart.
+1044:
+Overloop fysisch signaal\n
+Beschrijving\reden:\n
+- Het bereik van phsig, of de lengte,\n
+  of phsig en de lengte voor signaal\n
+  %s is groter dan %d\n
+\t\n
+Controle lijst:\n
+1. Verander het fysische signaal\n
+   nummer\n
+2. Verander de lengte
+1045:
+Filter specificatie fout\n
+Beschrijving\reden:\n
+- Signaal %s : Er kan geen filter\n
+  tijd gespecificeerd worden voor dit\n
+  type signaal.\n
+\t\n
+Controle lijst:\n
+1. Zet de filter tijd op 0 of\n
+   verwijder de instructie.
+1046:
+Schalings fout\n
+Beschrijving\reden:\n
+- Signaal %s: Schaling kan niet\n
+  uitgevoerd worden\n
+\t\n
+Controle lijst:\n
+1. Verwijder de schalings instructies
+1049:
+Parameter inversie fout\n
+Beschrijving\reden:\n
+- Signaal %s : Dit type signaal kan\n
+  niet geinverteerd worden.\n
+\t\n
+Controle lijst:\n
+1. Alleen digitale signalen kunnen\n
+   geinverteerd worden.
+1050:
+Kruissignaal niet digitaal\n
+Beschijving\reden:\n
+- Signaal %s: Is geen digitaal\n
+  signaal\n
+\t\n
+Controle lijst:\n
+1. Alleen digitale signalen kunnen\n
+   kruis verbindingen zijn.
+1051:
+Link adress niet oktaal.\n
+Beschrijving\reden:\n
+- Signaal %s: Het RIO adres is niet\n
+  in oktale vorm.\n
+\t\n
+Controle lijst:\n
+1. Geef het adres opnieuw oktaal in.
+1052:
+Kruisverbindingstabel vol.\n
+Beschrijving\reden:\n
+- Het totaal aantal verschillende VAN\n
+  signalen opgeteld bij het totaal\n
+  aantal NAAR signalen moet kleiner\n
+  zijn dan %d\n
+\t\n
+Controle lijst:\n
+1. Verminder het aantal signalen.
+1053:
+RIO verbinding afwezig\n
+Beschrijving\reden:\n
+- Kan geen toegang krijgen tot de RIO\n
+  kaart omdat de verbinding afwezig is\n
+\t\n
+Controle lijst:\n
+1. Controleer de communicatie kabel\n
+   naar de PLC.\n
+2. Controleer of de PLC aangeschakeld\n
+   is.
+1054:
+Onjuist signaal type\n
+Beschrijving\Reden:\n
+- Signaal %s:\n
+  Het signaal type is onjuist\n
+\t\n
+Controle lijst:\n
+1. Verander het type
+1055:
+Ongeldige signaal naam\n
+Beschrijving\Reden:\n
+- Symbool %s: is  niet gedfinieerd\n
+\t\n
+Controle lijst:\n
+1. Verander de hierboven genoemde\n
+   signaal naam
+1056:
+Power fail restore full\n
+Description\Reason:\n
+- Symbol %s: could not be setup for\n
+  power failure restore.\n
+  The table for power fail is full.\n
+\t\n
+Check list:\n
+1. Increase the table size in\n
+   startup file.\n
+2. Remove some other signal from restore\n
+   list.
+1057:
+DSQC319 kaart ontbreekt\n
+Beschrijving\Reden:\n
+- Geen kaart van het type DSQC319\n
+  aanwezig in het slot %d\n
+\t\n
+Controle lijst:\n
+1. Plaats een kaart in het\n
+   bovengenoemde slot.\n
+2. Verander het adres van de kaart
+1058:
+Geen kontakt met Can node\n
+Beschrijving\Reden:\n
+- Geen kontakt met Can node verbonden\n
+  aan adres %d\n
+\t\n
+Controle lijst:\n
+1. Controleer het node adres op alle\n
+   Can modules aangesloten op de Can\n
+   bus\n
+2. Verander het node adres
+1059:
+Fout tijdens configureren Can node\n
+Beschrijving\Reden:\n
+- Fout  tijdens configureren van de\n
+  Can node aangesloten op node\n
+  adres %d\n
+\t\n
+Controle lijst:\n
+1. Corrigeer de configuratie  van de\n
+   Can node op het gegeven adres.
+1060:
+DSQC319 Interne fout\n
+Beschrijving\Reden:\n
+- De DSQC319 kaart aangesloten op\n
+  het adres %d geeft een\n
+  interne fout\n
+\t\n
+Controle lijst:\n
+1. Controleer of  de Can bus correct\n
+   werkt\n
+2. Controleer of de DSQC319 correct\n
+   werkt
+1061:
+Can bus fout\n
+Beschrijving\Reden:\n
+- Abnormaal optredende fouten op de\n
+  Can bus aangesloten op de DSQC319\n
+  op adres %d\n
+\t\n
+Controle lijst:\n
+1. Controleer de communicatiekabel\n
+   met de Can bus
+1062:
+DSQC319 Ontvangst buffer vol\n
+Beschrijving\Reden:\n
+- Ontvangst buffer vol op de kaart\n
+  aangeslolten op adres %d.\n
+  Boodschappen kunnen verloren gaan\n
+\t\n
+Controle lijst:\n
+1. Reduceer het aantal nodes op de\n
+   Can bus.
+1063:
+Can boodschap verloren\n
+Beschrijving\Reden:\n
+- Can boodschappen verloren op de\n
+  kaart aangesloten op adres %d.\n
+\t\n
+Controle lijst:\n
+1. Reduceer het aantal nodes op de\n
+   Can bus.
+1064:
+IOC heeft fout gegenereerd\n
+Beschrijving\Reden:\n
+- IOC Stuurt een fout naar de DSQC260\n
+  kaart op adres %d.\n
+\t\n
+Controle lijst:\n
+1. Controleer de IOC.
+1065:
+Fout generereerd door de DSQC260\n
+Beschrijving\Reden:\n
+- DSQC260 kaart op adres %d\n
+  genereerd een fout.\n
+\t\n
+Controle lijst:\n
+1. Controleer de DSQC260 kaart
+1066:
+InterBus-S nonactief\n
+Beschrijving\Reden:\n
+- InterBus-S aangesloten op de\n
+  DSQC260 kaart op adres %d\n
+  nonaktief.\n
+\t\n
+Controle lijst:\n
+1. controleer de InterBus-S nodes.
+1067:
+InterBus-S niet aangesloten\n
+Beschrijving\Reden:\n
+- InterBus-S verbonden met de\n
+  DSQC260 kaart op adres %d\n
+  niet aangesloten of IBS master in\n
+  reset modus.\n
+\t\n
+Controle lijst:\n
+1. Controleer de InterBus-S nodes.\n
+2. Controleer de InterBus-S master.
+1068:
+IOC OK\n
+Beschrijving\Reden:\n
+- IOC fout geweest, nu echter OK.\n
+  Fout boodschap was doorgestuurd naar\n
+  de DSQC260 kaart op adres %d.\n
+\t\n
+Controle lijst:\n
+1. Onderneem geen aktie.
+1069:
+DSQC260 OK\n
+Beschrijving\Reden:\n
+- DSQC260 kaart op adres %d\n
+  fout geweest, nu echter OK.\n
+\t\n
+Controle lijst:\n
+1. Onderneem geen aktie.
+1070:
+InterBus-S aktief\n
+Beschrijving\Reden:\n
+- InterBus-S aangesloten op de DSQC260\n
+  kaart op adres %d nonaktief geweest\n
+  nu echter OK.\n
+\t\n
+Controle lijst:\n
+1. Onderneem geen aktie
+1071:
+InterBus-S aangesloten\n
+Beschrijving\Reden:\n
+- InterBus-S verbonden met de DSQC260\n
+  aangesloten op adres %d\n
+  is niet aangesloten geweest of IBS\n
+  master in reset mode, nu echter OK.\n
+\t\n
+Controle lijst:\n
+1. Onderneem geen aktie
+1072:
+Geen save set on signaal\n
+Beschrijving\Reden:\n
+- Signaal %s\n
+  heeft het Store attribuut niet op YES\n
+\t\n
+Controle lijst:\n
+1. Set het Store attribuut.
+1073:
+Contact established with Can node\n
+Description\Reason:\n
+- Contact established with Can node\n
+  connected at node address %d\n
+\t\n
+Check list:\n
+1. Do nothing.
+1074:
+Config. out of range\n
+Description\Reason:\n
+- The IBS starting quarter and rack\n
+  size is out of range for\n
+  board %s\n
+\t\n
+Check list:\n
+1. For starting quarter 1 rack size\n
+   must be less than 5
+1075:
+Access error from IO\n
+Description\Reason:\n
+- Cannot Read or Write from/to IO\n
+  board at address %d\n
+\t\n
+Check list:\n
+1. Check/change the IO module
+1076:
+Comm error from rtp1\n
+Description\Reason:\n
+- No response from the\n
+  serial line\n
+\t\n
+Check list:\n
+1. Check the device or connection
+1077:
+Comm error from rtp1\n
+Description\Reason:\n
+- Not possible to deliver\n
+  the received message\n
+\t\n
+Check list:\n
+1. Check the communication flow
+1078:
+Comm error from rtp1\n
+Description\Reason:\n
+- The response from the device\n
+  has a non valid frame sequence\n
+\t\n
+Check list:\n
+1. Check for noise on the serial\n
+   line
+1079:
+Pulsing group output\n
+Description\Reason:\n
+- Pulsing group output not allowed.\n
+\t\n
+Check list:\n
+1. ---
+1080:
+Driver table full.\n
+Description\Reason:\n
+- The number of drivers\n
+  must not exceed %d\n
+\t\n
+Check list:\n
+1. Reduce the number of drivers.\n
+2. Increase the number of drivers\n
+   allowed.
+1081:
+Physical table full.\n
+Description\Reason:\n
+- The number of physical signals\n
+  must not exceed %d\n
+\t\n
+Check list:\n
+1. Reduce the number of physical\n
+   signals.\n
+2. Increase the number of phs allowed.
+1082:
+Signal table full.\n
+Description\Reason:\n
+- The number of user defined signals\n
+  must not exceed %d\n
+\t\n
+Check list:\n
+1. Reduce the number of signals.\n
+2. Increase the number of signals\n
+   allowed.
+1083:
+Symbol table full.\n
+Description\Reason:\n
+- The number of symbols\n
+  must not exceed %d\n
+\t\n
+Check list:\n
+1. Reduce the number of symbols.\n
+2. Increase the number of symbols\n
+   allowed.
+1084:
+Triggr table full.\n
+Description\Reason:\n
+- The number of Subcribed signals\n
+  must not exceed %d\n
+\t\n
+Check list:\n
+1. Reduce the number of Subcribed\n
+   signals.\n
+2. Increase the number of Subcribtions\n
+   allowed.
+1085:
+Unit table full.\n
+Description\Reason:\n
+- The number of boards\n
+  must not exceed %d\n
+\t\n
+Check list:\n
+1. Reduce the number of dfined boards.\n
+2. Increase the number of boards\n
+   allowed.
+1086:
+Com. OK with RIO\n
+Description\Reason:\n
+- Contact established with RIO node\n
+  connected at node address %d\n
+\t\n
+Check list:\n
+1. Do nothing.
+1094:
+Too many cross-actors def\n
+Description\Reason:\n
+- The cross-connection has too\n
+  many "From" signals : %s\n
+\t\n
+Check list:\n
+1. Check the cross configuration.
+1095:
+Too long cross-actor str\n
+Description\Reason:\n
+- The "From" part in the\n
+  cross-string4493\n
+  is too long : %s\n
+\t\n
+Check list:\n
+1. Check the cross configuration.
+1096:
+PLC in programming mode\n
+Description\Reason:\n
+- Can't access the board due to\n
+  the PLC in programming mode\n
+  or the RIO is configured\n
+  incorrectly.\n
+\t\n
+Check list:\n
+1. PLC in programming mode\n
+2. Check RIO configuration
+1097:
+Parameter store error\n
+Description\Reason:\n
+- Signal %s: This type of signal\n
+ can't have store option.\n
+\t\n
+Check list:\n
+1. Only digital signals can have store.
+1098:
+Contact NFS server lost\n
+Description\Reason:\n
+- The contact with the NFS server\n
+   '%s' was lost.\n
+\t\n
+Check list:\n
+1. Check the NFS server.\n
+2. Check the network connection.\n
+3. Check the configuration.
+1099:
+Contact trusted NFS lost\n
+Description\Reason:\n
+- The contact with the trusted\n
+  NFS server '%s'\n
+  was lost.\n
+\t\n
+Check list:\n
+1. Check the NFS server.\n
+2. Check the network connection.\n
+3. Check the configuration.
+1100:
+Contact NFS server establ\n
+Description\Reason:\n
+- The contact with the NFS server\n
+  '%s' was established\n
+\t\n
+Check list:

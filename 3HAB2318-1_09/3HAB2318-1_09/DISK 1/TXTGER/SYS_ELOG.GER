@@ -1,0 +1,559 @@
+22::
+0:
+System
+1:
+Sicherheitskreis offen\n
+\n
+\t\n
+
+2:
+NOT-AUS\n
+\n
+\t\n
+
+3:
+Arbeitsbereich_Ende\n
+\n
+\t\n
+
+6:
+Sicherheitshalt Automatik\n
+\n
+\t\n
+
+7:
+Sicherheitshalt Einricht.\n
+\n
+\t\n
+
+8:
+Allg. Sicherheitshalt\n
+\n
+\t\n
+
+9:
+Sicherheitskreis Fehler\n
+Konflikt Zweikanaligkeit.\n
+\t\n
+Wenn die rote -ERR- LED auf der\n
+Systemkarte leuchtet, LEDs des\n
+Sicherheitskreises kontrollieren.
+10:
+NOT-AUS aktiv\n
+NOT-AUS Rückstellen notwendig.\n
+MOTOR-AUS Taste verwenden.\n
+\t\n
+
+12:
+System Fehler\n
+Fataler System Fehler.\n
+Warm Start ist notwendig.\n
+\t\n
+Hauptschalter aus- und einschalten,\n
+wenn der -soft warm start- ignoriert\n
+wird oder nicht erreichbar ist.
+20:
+Timeout Sicherheitskreis\n
+Timeout Zweikanaligkeit\n
+Die notwendige Bestätigung bei einer\n
+Zustandsänderung im zweikanaligen\n
+Sicherheitskreis erfolgte nicht in der\n
+erwarteten Zeit.\n
+\t\n
+Wenn die rote -ERR- LED auf der\n
+Systemkarte leuchtet, LEDs des\n
+Sicherheitskreises kontrollieren.\n
+MOTOREN AUS Taste erneut\n
+betätigen.
+21:
+Geschwindigkeit Fehler\n
+Die Signale des Betriebsartenwahl-\n
+schalters und das Geschwindigkeits-\n
+signal stimmen nicht überein.\n
+\t\n
+
+22:
+Betriebsartenwahlschalter Fehler\n
+Die Signale des Betriebsartenwahl-\n
+schalters stimmen nicht (Meldung\n
+verschiedener/keiner Betriebsart).\n
+\t\n
+
+24:
+Timeout Sicherheitskreis\n
+Timeout Zweikanaligkeit\n
+\t\n
+Die notwendige Bestätigung bei einer\n
+Zustandsänderung im zweikanaligen\n
+Sicherheitskreis erfolgte nicht in der\n
+erwarteten Zeit.
+25:
+Stop_Befehl Timeout\n
+Ein Stop wurde ausgeführt, ohne\n
+die notwendige Bestätigung inner-\n
+halb der erwarteten Zeit.\n
+\t\n
+
+26:
+Run control status fault\n
+Status conflict between runchain relays\n
+and run control.\n
+The error occurs if the enabling device\n
+is pressed in Auto mode and Motors On.\n
+In this situation this is normal.\n
+\t\n
+Replace the system board if the error\n
+occurs in any other situation.
+30:
+Achse nicht kommutiert\n
+Eine oder mehrere Achsen mit\n
+interner Treiberstufe sind\n
+nicht kommutiert.\n
+\t\n
+
+31:
+Achse nicht kalibriert\n
+Eine oder mehrere Achsen mit\n
+absolutem/relativem Meßsystem\n
+sind nicht kalibriert.\n
+\t\n
+
+32:
+Umdr._Zähler nicht akt.\n
+Eine oder mehrere Achsen mit absolutem\n
+Meßsystem sind nicht synchronisiert.\n
+\n
+Roboter in Grundstellung bringen und\n
+Umdr._Zähler aktualisieren.\n
+\t\n
+
+33:
+Achse nicht synchronisiert\n
+Eine oder mehrere Achsen mit relativem\n
+Meßsystem sind nicht synchronisiert.\n
+\n
+MOTOREN EIN und alle mechanischen\n
+Einheiten in der Liste synchronisieren.\n
+\t\n
+
+40:
+Halt_Stop\n
+\n
+\t\n
+
+41:
+Motor 1-6 Überlast\n
+Ein/mehrere Motoren haben Übertempertur.\n
+Motoren abkühlen lassen vor erneutem\n
+Einschalten der Motoren.\n
+Dieser Fehler tritt sonst nach 15 Sek.\n
+im Zustand MotorenEin erneut auf.\n
+\t\n
+Ansicht -Sicherheit- im E/A Fenster\n
+wählen und warten bis Signal OLM1\n
+gleich 0 ist, bevor die Motoren erneut\n
+einschaltet werden.
+42:
+Motor 7-x Überlast\n
+Ein/mehrere Motoren haben Übertempertur.\n
+Motoren abkühlen lassen vor erneutem\n
+Einschalten der Motoren.\n
+Dieser Fehler tritt sonst nach 15 Sek.\n
+im Zustand MotorenEin erneut auf.\n
+\t\n
+Ansicht -Sicherheit- im E/A Fenster\n
+wählen und warten bis Signal OLM1\n
+gleich 0 ist, bevor die Motoren erneut\n
+einschaltet werden.
+50:
+Unzulässige Anweisung\n
+In dieser Betriebsart unzulässig.\n
+\t\n
+
+51:
+Unzulässige Anweisung\n
+Unzulässig wenn der -client- nicht\n
+überwacht (Programm/Bewegung).\n
+\t\n
+
+52:
+Unzulässige Anweisung\n
+In diesem Steuerungszustand\n
+unzulässig.\n
+\t\n
+
+53:
+Unzulässige Anweisung\n
+In diesem Manipulatorzustand\n
+unzulässig.\n
+\t\n
+
+54:
+Unzulässige Anweisung\n
+Während der Programmabarbeitung\n
+unzulässig.\n
+\t\n
+
+60:
+Unzulässige Anweisung\n
+In Automatikbetrieb unzulässig.\n
+\t\n
+
+61:
+Unzulässige Anweisung\n
+Beim Wechsel in Automatik\n
+unzulässig.\n
+\t\n
+
+62:
+Unzulässige Anweisung\n
+In Einrichtbetrieb unzulässig.\n
+\t\n
+
+63:
+Unzulässige Anweisung\n
+In Einrichtbetrieb 100% unzulässig.\n
+\t\n
+
+64:
+Unzulässige Anweisung\n
+Beim Wechsel in Einrichten 100%\n
+unzulässig.\n
+\t\n
+
+70:
+Unzulässige Anweisung\n
+In MOTOREN EIN unzulässig.\n
+\t\n
+
+71:
+Unzulässige Anweisung\n
+Beim Wechsel in MOTOREN EIN\n
+unzulässig.\n
+\t\n
+
+72:
+Unzulässige Anweisung\n
+In MOTOREN AUS unzulässig.\n
+\t\n
+
+73:
+Unzulässige Anweisung\n
+Beim Wechsel in MOTOREN AUS\n
+unzulässig.\n
+\t\n
+
+74:
+Unzulässige Anweisung\n
+In Sicherheitshalt unzulässig.\n
+\t\n
+
+75:
+Unzulässige Anweisung\n
+In NOT-AUS unzulässig.\n
+\t\n
+Rücksetzen NOT-AUS notwendig.\n
+MOTOREN-AUS Taste verwenden.
+76:
+Unzulässige Anweisung\n
+Bei Systemfehler unzulässig.\n
+\n
+Fataler System Fehler\n
+Warm Start ist notwendig.\n
+\t\n
+Hauptschalter aus- und einschalten,\n
+wenn der -soft warm start- ignoriert\n
+wird oder nicht erreichbar ist.
+80:
+Unzulässige Anweisung\n
+Unzulässig, wenn Achse nicht\n
+kommutiert ist.\n
+\t\n
+
+81:
+Unzulässige Anweisung\n
+Unzulässig, wenn Achse\n
+nicht kalibriert ist.\n
+\t\n
+
+82:
+Unzulässige Anweisung\n
+Unzulässig, wenn Umdr.Zähler der Achse\n
+nicht aktualisiert ist.\n
+\t\n
+
+83:
+Unzulässige Anweisung\n
+Unzulässig, wenn Achse nicht\n
+synchronisiert ist.\n
+\t\n
+
+100:
+Prog.Gerät(xxx) Kontrolle\n
+Ein Prog.Gerät Applikation wird\n
+von der angeforderten Resource\n
+kontrolliert (Programm/Bewegung).\n
+\t\n
+
+101:
+Prog.Gerät(prg) Kontrolle\n
+Das Fenster -Programm- wird vom\n
+-program server- kontrolliert.\n
+Zum Fenster -Produktion- wechseln\n
+und Anweisung erneut ausführen.\n
+\t\n
+
+102:
+Prog.Gerät(Steuerknüppel)\n
+Der Steuerknüppel des Prog.Gerätes\n
+wird vom -motion server- kontrolliert.\n
+Steuerknüppel loslassen und die\n
+Anweisung erneut ausführen.\n
+\t\n
+
+111:
+Prog.Gerät(prg) Kontrolle\n
+Das Fenster -Programm- wird vom\n
+-program server- kontrolliert.\n
+Zum Fenster -Produktion- wechseln\n
+und Anweisung erneut ausführen.\n
+\t\n
+
+112:
+Pgm (1) Kontrolle\n
+Der -program server- (1) wird vom\n
+-motion server- kontrolliert.\n
+Programm stoppen und Anweisung\n
+erneut ausführen.\n
+\t\n
+
+113:
+Pgm (2) Kontrolle\n
+Der -program server- (2) wird vom\n
+-motion server- kontrolliert.\n
+Programm stoppen und Anweisung\n
+erneut ausführen.\n
+\t\n
+
+114:
+Pgm (3) Kontrolle\n
+Der -program server- (3) wird vom\n
+-motion server- kontrolliert.\n
+Programm stoppen und Anweisung\n
+erneut ausführen.\n
+\t\n
+
+115:
+Pgm (4) Kontrolle\n
+Der -program server- (4) wird vom\n
+-motion server- kontrolliert.\n
+Programm stoppen und Anweisung\n
+erneut ausführen.\n
+\t\n
+
+116:
+Pgm (5) Kontrolle\n
+Der -program server- (5) wird vom\n
+-motion server- kontrolliert.\n
+Programm stoppen und Anweisung\n
+erneut ausführen.\n
+\t\n
+
+120:
+System EA Kontrolle\n
+\n
+\t\n
+
+125:
+Client %s Kontrolle\n
+Der spezifizierte -client- wird\n
+von der angeforderten Resource\n
+kontrolliert (Programm/Bewegung).\n
+\t\n
+
+130:
+Zu wenig Speicher für cfg\n
+\n
+\t\n
+
+131:
+Datei kann nicht\n
+gelesen werden.\n
+\t\n
+
+132:
+Param. nicht gespeichert\n
+Parameter können nicht gespeichert\n
+werden. Wahrscheinlich ist die Diskette\n
+schreibgeschützt oder es ist nicht\n
+genügen freier Speicher vorhanden.\n
+\t\n
+Diskette kontrollieren ob schreib-\n
+geschützt oder ob genügend freier\n
+Speicher vorhanden ist.
+133:
+Prog.Task kann nicht\n
+modifiziert werden.\n
+\t\n
+
+134:
+Falsche Version\n
+Beschreibung/Ursache:\n
+Die cfg Version ist falsch in Datei\n
+%s.\n
+Die Software ist für die\n
+Version %s.\n
+\t\n
+Die Version der Konfiguration ändern.
+140:
+MOTOREN EIN unzulässig\n
+MOTOREN EIN via System EA\n
+unzulässig.\n
+\t\n
+
+141:
+MOTOREN AUS unzulässig\n
+MOTOREN AUS via System EA\n
+unzulässig.\n
+\t\n
+
+142:
+Start unzulässig\n
+Start/Neustart des Programms\n
+via System EA unzulässig.\n
+\t\n
+
+143:
+Start haupt unzulässig\n
+Start haupt des Hauptprogramms\n
+via System EA unzulässig.\n
+\t\n
+
+144:
+Stop unzulässig\n
+Stop des Programms\n
+via System EA unzulässig.\n
+\t\n
+
+145:
+Stop Zyklus unzulässig\n
+Stop Zyklus des Programms\n
+via System EA unzulässig.\n
+\t\n
+
+146:
+Man Interrupt unzulässig\n
+Manual Interrupt des Programms\n
+via System EA unzulässig.\n
+\t\n
+
+147:
+LadenStart unzulässig\n
+LadenStart des Programms\n
+via System EA unzulässig.\n
+\t\n
+
+148:
+Rückstellen unzulässig\n
+Rückstellen des NOT-Aus\n
+via System EA unzulässig.\n
+\t\n
+
+149:
+Reset Fehler unzulässig\n
+Reset von Fehler im Prog.ablauf\n
+via System EA unzulässig.\n
+\t\n
+
+150:
+Synchron. unzulässig\n
+Synchronisieren einer mech. Einheit\n
+via System EA unzulässig.\n
+\t\n
+
+151:
+Falscher Signalname\n
+Signalname nicht möglich\n
+für -Sysio-.\n
+Der Signalname nicht in der\n
+cfg-Datei für -Sysio-.\n
+\t\n
+
+152:
+Zu viele Einschränkungen\n
+Für Aktion (Signal) in -Sysio- sind\n
+keine Einschränkungen gesetzt.\n
+Die Anzahl der Einschränkungen\n
+(Signale) für eine Aktion in der\n
+cfg-Datei für -Sysio- ist zu groß.\n
+\t\n
+
+153:
+MotEinStart abgelehnt\n
+MotEinStart/Neustart des Programms\n
+via System EA nicht zulässig.\n
+\t\n
+
+154:
+StopInstr abgelehnt\n
+Stop des Programms nach Abarbeitung\n
+der aktuellen Instruktion\n
+via System EA nicht zulässig.\n
+\t\n
+
+160:
+Konfiguration Fehler\n
+Das System Modul %!%s in Task\n
+%s hat keine entsprechende\n
+Spezifikation in der Konfiguration\n
+für "Task Module"\n
+\t\n
+In den Systemparametern\n
+-Param- "Steuerung" -Typ-\n
+"Task Module" wählen und\n
+dieses System Modul hinzufügen.
+161:
+Pfad nicht gefunden\n
+Das System Modul %!%s in Task\n
+%s hat eine entsprechende\n
+Spezifikation in der Konfiguration\n
+für "Task Module", die auf einen\n
+nicht vorhandenen Pfad verweist.\n
+\t\n
+In den Systemparametern\n
+-Param- "Steuerung" -Typ-\n
+"Task Module" wählen und den Pfad\n
+für dieses System Modul ändern.
+162:
+Schreiben Fehler\n
+Ein Schreibfehler ist aufgetreten als\n
+das System versuchte das System Modul\n
+%!%s in Task %s zu schreiben\n
+oder das Speichermedium ist voll.\n
+\t\n
+In den Systemparametern\n
+-Param- "Steuerung" -Typ-\n
+"Task Module" wählen und den Pfad\n
+für dieses System Modul ändern.
+163:
+Änd. Konfig. fehlgeschl.\n
+Einige Anwender Routinen geändert\n
+aber nicht gespeichert.\n
+\t\n
+Speichern und erneuten Neustart.
+164:
+Änd. Konfig. fehlgeschl.\n
+Einige System Module sind nicht\n
+gespeichert.\n
+\t\n
+Fehlerbeschreibung in früheren\n
+Meldungen lesen.\n
+Erneuten Neustart.
+165:
+PZ verloren\n
+Neustart von der aktuellen Position\n
+ist nicht länger möglich.\n
+Das Programm muß vom Anfang\n
+gestartet werden.\n
+\t\n
+

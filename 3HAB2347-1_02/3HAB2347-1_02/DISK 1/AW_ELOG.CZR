@@ -1,0 +1,719 @@
+
+
+64::
+0:
+Svareni obloukem
+1:
+Kontrola plynu\n
+\n
+\t\n
+Zkontrolujte svareci zarizeni.
+2:
+Kontrola vody\n
+\n
+\t\n
+Zkontrolujte svareci zarizeni.
+3:
+Kontrola oblouku\n
+\n
+\t\n
+Zkontrolujte svareci zarizeni.
+4:
+Kontrola napeti\n
+\n
+\t\n
+Zkontrolujte svareci zarizeni.
+5:
+Kontrola proudu\n
+\n
+\t\n
+Zkontrolujte svareci zarizeni.
+6:
+Kontrola podavani dratu\n
+\n
+\t\n
+Zkontrolujte svareci zarizeni.
+7:
+Kontrola dratu\n
+\n
+\t\n
+Zkontrolujte svareci zarizeni.
+8:
+Zapaleni oblouku selhalo\n
+\n
+\t\n
+Zkontrolujte svareci zarizeni.
+9:
+Chyba prenosu programu\n
+\n
+\t\n
+Definujte strobovaci vstup\n
+programovani svaru
+10:
+Chyba prenosu programu\n
+\n
+\t\n
+Port casoveho programu byl zaneprazdnen\n
+predchozim prenosem.
+11:
+Proces zastaven\n
+\n
+\t\n
+Proces zastaven digitalnim vstupem.
+12:
+Vypln oblouku nezapalena\n
+\n
+\t\n
+Zkontrolujte svareci zarizeni.
+13:
+Kontrola horaku\n
+\n
+\t\n
+Zkontrolujte svareci zarizeni.
+1000:
+Chyba vzoru propletani\n
+Chyba typu interpolace propletani\n
+[Geometricka = 0, Rychla = 1]\n
+\t\n
+Nastavte parametry propletani
+1001:
+Chyba vzoru propletani\n
+Chyba tvaru vzoru propletani\n
+[Bez tvaru = 0, Tvar sem-tam    = 1]\n
+[V-tvar  = 2, Tvar trojuhelnika = 3]\n
+\t\n
+Nastavte parametry propletani
+1002:
+Chyba vzoru propletani\n
+Chyba delky cyklu vzoru propletani\n
+(0 - 1) [m]\n
+\t\n
+Nastavte parametry propletani
+1003:
+Chyba vzoru propletani\n
+Chyba casu cyklu vzoru propletani\n
+(0 - 100) [s]\n
+\t\n
+Nastavte parametry propletani
+1004:
+Chyba vzoru propletani\n
+Chyba sirky vzoru propletani\n
+(0 - 1) [m]\n
+\t\n
+Nastavte parametry propletani
+1005:
+Chyba vzoru propletani\n
+Chyba vysky vzoru propletani\n
+(0 - 1) [m]\n
+\t\n
+Nastavte parametry propletani
+1006:
+Chyba vzoru propletani\n
+Chyba leve vydrze vzoru propletani\n
+(0 - 1) [m]\n
+\t\n
+Nastavte parametry propletani
+1007:
+Chyba vzoru propletani\n
+Chyba stredni vydrze vzoru propletani\n
+(0 - 1) [m]\n
+\t\n
+Nastavte parametry propletani
+1008:
+Chyba vzoru propletani\n
+Chyba prave vydrze vzoru propletani\n
+(0 - 1) [m]\n
+\t\n
+Nastavte parametry propletani
+1009:
+Chyba vzoru propletani\n
+Chyba sesikmeni vzoru propletani\n
+(-1 - 1) [m]\n
+\t\n
+Nastavte parametry propletani
+1010:
+Chyba vzoru propletani\n
+Chyba smeroveho uhlu vzoru propletani\n
+(-PI/2 - PI/2) [rad]\n
+\t\n
+Nastavte parametry propletani
+1011:
+Chyba vzoru propletani\n
+Chyba uhlu sklonu vzoru propletani\n
+(-PI/2 - PI/2) [rad]\n
+\t\n
+Nastavte parametry propletani
+1012:
+Chyba vzoru propletani\n
+Chyba uhlu rotace vzoru propletani\n
+(-PI/2 - PI/2) [rad]\n
+\t\n
+Nastavte parametry propletani
+1013:
+Chyba vzoru propletani\n
+Chyba horizontalni odchylky\n
+vzoru propletani\n
+(-1 - 1) [m]\n
+\t\n
+Nastavte parametry propletani
+1014:
+Chyba vzoru propletani\n
+Chyba vertikalni odchylky\n
+vzoru propletani\n
+(-1 - 1) [m]\n
+\t\n
+Nastavte parametry propletani
+1015:
+Chyba vzoru propletani\n
+Leva chyba synchronizacni podminky\n
+vzoru propletani\n
+(0 - 100) [%]\n
+\t\n
+Nastavte parametry propletani
+1016:
+Chyba vzoru propletani\n
+Prava chyba synchronizacni podminky\n
+vzoru propletani\n
+(0 - 100) [%]\n
+\t\n
+Nastavte parametry propletani
+1017:
+Chyba vzoru propletani\n
+Zakazana kombinace sesikmeni a tvaru\n
+Sesikmeni dovoleno jen pro tvar sem-tam\n
+\t\n
+Nastavte parametry propletani
+1018:
+Chyba vzoru propletani\n
+Zakazana kombinace sesikmeni a sirky\n
+Sesikmeni musi byt mensi\n
+nez polovina sirky\n
+\t\n
+Nastavte parametry propletani
+1019:
+Chyba vzoru propletani\n
+Zakazana kombinace vydrzi a delky cyklu\n
+Vydrze musi byt mensi nez delka cyklu\n
+Sklon rampy (amplituda/delka) je omezen\n
+\t\n
+Nastavte parametry propletani
+3000:
+Chyba konfigur. zarizeni\n
+\n
+\t\n
+Konfigurace AW a EIO nesouhlasi
+4000:
+Chyba vedeni svaru\n
+\n
+\t\n
+Zkontrolujte parametry vedeni svaru\n
+a zarizeni
+5000:
+Chyba bezesve konfigurace\n
+Neznamy parametr ve zdroji napajeni\n
+\t\n
+Zkontrolujte soubor bezesve konfigurace
+5001:
+Chyba bezesve konfigurace\n
+Pouzit neplatny identifikator jednotky\n
+\t\n
+Zkontrolujte soubor bezesve konfigurace
+5002:
+Chyba bezesve konfigurace\n
+Pouzita neplatna delka prenosu\n
+\t\n
+Zkontrolujte soubor bezesve konfigurace
+5003:
+Chyba bezesve konfigurace\n
+Pouzit neplatny identifikator vyberu\n
+\t\n
+Zkontrolujte soubor bezesve konfigurace
+5004:
+Chyba bezesve konfigurace\n
+Bezesve systemy s ruznymi jednotkami\n
+\n
+\t\n
+Zkontrolujte soubor bezesve konfigurace
+5005:
+Chyba bezesve konfigurace\n
+Nejsou pouzity vubec zadne jednotky\n
+\t\n
+Zkontrolujte soubor bezesve konfigurace
+5006:
+Chyba bezesve konfigurace\n
+Prilis mnoho ladicich parametru\n
+\t\n
+Zkontrolujte soubor bezesve konfigurace
+6000:
+Chyba stopy\n
+\n
+\t\n
+Zkontrolujte definici kloubu
+6001:
+Chyba zacatku stopy\n
+\n
+\t\n
+Zkontrolujte definici kloubu
+6002:
+Chyba kor max drahy stopy\n
+\n
+\t\n
+Zkontrolujte definici kloubu
+7001:
+Chyba svareciho zarizeni\n
+Pri zapnuti zjistena chyba kontrolniho\n
+souctu EPROM v jednotce Welddata.\n
+\t\n
+EPROM v jednotce Welddata je vadna.\n
+Provoz s touto chybou ma nepredvidatelny\n
+vysledek.\n
+Vymente EPROM.
+7002:
+Chyba svareciho zarizeni\n
+Pri zapnuti zjistena chyba cteni/zapisu\n
+vnitrni RAM v jednotce Welddata.\n
+\t\n
+Pri testu cteni/zapisu nejmene jedna\n
+pametova bunka vnitrni pameti\n
+mikroprocesoru selhala. Provoz s touto\n
+chybou ma nepredvidatelny vysledek.\n
+Vymente jednotku Welddata.
+7003:
+Chyba svareciho zarizeni\n
+Pri zapnuti zjistena chyba cteni/zapisu\n
+vnejsi RAM v jednotce Welddata.\n
+\t\n
+Pri testu cteni/zapisu selhala nejmene\n
+jedna pametova bunka vnejsi pameti\n
+mikroprocesoru. Provoz s touto chybou ma\n
+nepredvidatelny vysledek. Vymente\n
+jednotku Welddata.
+7004:
+Chyba svareciho zarizeni\n
+Stejnosmerne napajeni pro 5 V regulator\n
+v jednotce Welddata je bez napeti.\n
+\t\n
+Naznacuje problem v napajeni, ale funkce\n
+pravdepodobne neni dotcena. Zkontrolujte\n
+privod napajeni do jednotky Welddata.
+7012:
+Chyba svareciho zarizeni\n
+Radic CAN vnitrni sbernice jednotky\n
+Welddata je ve stavu VYSTRAHY.\n
+\t\n
+Nekolikrat zmente data nebo vynulujte\n
+svareci zarizeni hlavnim vypinacem.\n
+Kdyz se chyba neodstrani, zkontrolujte\n
+pripojeni sbernice a/nebo vymente\n
+jednotku Welddata.
+7013:
+Chyba svareciho zarizeni\n
+Radic CAN vnejsi sbernice jednotky\n
+Welddata je ve stavu VYSTRAHY.\n
+\t\n
+Nekolikrat zmente data nebo vynulujte\n
+svareci zarizeni hlavnim vypinacem.\n
+Kdyz se chyba neodstrani, zkontrolujte\n
+pripojeni sbernice a/nebo vymente\n
+jednotku Welddata.
+7014:
+Chyba svareciho zarizeni\n
+Radic CAN vnitrni sbernice jednotky\n
+Welddata je ve stavu SBERNICE-ODPOJENA.\n
+\t\n
+Vynulujte svareci zarizeni hlavnim\n
+vypinacem. Kdyz se chyba neodstrani,\n
+zkontrolujte pripojeni sbernice a/nebo\n
+vymente jednotku Welddata.
+7015:
+Chyba svareciho zarizeni\n
+Jednotka Welddata zjistila ztratu\n
+prijate zpravy vnitrniho CAN\n
+(byla prepsana pozdejsi zpravou).\n
+\t\n
+Vynulujte svareci zarizeni hlavnim\n
+vypinacem.
+7016:
+Chyba svareciho zarizeni\n
+Jednotka Welddata zjistila ztratu\n
+prijate zpravy vnejsiho CAN\n
+(byla prepsana pozdejsi zpravou).\n
+\t\n
+Vynulujte svareci zarizeni hlavnim\n
+vypinacem.
+7017:
+Chyba svareciho zarizeni\n
+Jednotka Welddata ztratila spojeni\n
+s jednotkou podavani dratu.\n
+\t\n
+Zkontrolujte spojovaci kabel mezi\n
+jednotkou Welddata a ridici deskou\n
+podavani dratu, zkontrolujte napajeni\n
+ridici desky podavani dratu.
+7018:
+Chyba svareciho zarizeni\n
+Jednotka Welddata ztratila spojeni\n
+s jednotkou Olivia.\n
+\t\n
+Zkontrolujte spojovaci kabel mezi\n
+jednotkou Welddata a jednotkou Olivia,\n
+zkontrolujte napajeni jednotky Olivia
+7019:
+Chyba svareciho zarizeni\n
+Pri zapnuti v jednotce Welddata zjistena\n
+porucha hodnoty dat energeticky\n
+nezavisle RAM.\n
+Chyba kontrolniho souctu.\n
+\t\n
+Zpusobeno asi nizkym napetim baterie\n
+zalohovani pameti. Svareci zarizeni se\n
+znovu nastavi do standardniho stavu.\n
+Data v jednotce Welddata budou ztracena.\n
+Provoz je mozny bez omezeni.
+7020:
+Chyba svareciho zarizeni\n
+Pri zapnuti v jednotce Welddata zjistena\n
+porucha hodnoty dat energeticky\n
+nezavisle RAM.\n
+Neciselny nastavovaci parametr je mimo\n
+rozsah.\n
+\t\n
+Svareci zarizeni se znovu nastavi do\n
+standardniho stavu. Data v jednotce\n
+Welddata budou ztracena. Provoz je mozny\n
+bez omezeni.
+7021:
+Chyba svareciho zarizeni\n
+Pri zapnuti v jednotce Welddata zjistena\n
+neplatna kombinace neciselnych\n
+nastavovacich parametru.\n
+\t\n
+Svareci zarizeni se znovu nastavi do\n
+standardniho stavu. Data v jednotce\n
+Welddata budou ztracena. Vynulujte\n
+svareci zarizeni hlavnim vypinacem.
+7022:
+Chyba svareciho zarizeni\n
+V jednotce Welddata doslo k preteceni\n
+prenosove vyrovnavaci pameti sbernice\n
+CAN (vnejsi).\n
+\t\n
+Jednotka Welddata neni schopna prenaset\n
+data pozadovanou rychlosti. Pricinou\n
+muze byt abnormalni zatizeni sbernice.\n
+Vynulujte svareci zarizeni hlavnim\n
+vypinacem.
+7023:
+Chyba svareciho zarizeni\n
+V jednotce Welddata doslo k preteceni\n
+prijmove vyrovnavaci pameti sbernice\n
+CAN (vnejsi).\n
+\t\n
+Jednotka Welddata neni schopna zpracovat\n
+prijate zpravy pozadovanou rychlosti.\n
+Vynulujte svareci zarizeni hlavnim\n
+vypinacem.
+7024:
+Chyba svareciho zarizeni\n
+Segmentovana zprava, prijata jednotkou\n
+Welddata, nema segmenty serazeny\n
+v ciselnem poradi.\n
+\t\n
+Casti segmentovane zpravy nebyly prijaty\n
+ve spravnem poradi. Preneseny blok dat\n
+svareni byl chybne prijat. Vynulujte\n
+svareci zarizeni hlavnim vypinacem.
+7025:
+Chyba svareciho zarizeni\n
+Neslucitelny format bloku svarecich dat.\n
+Jednotka Welddata prijala data, ktera\n
+jsou ulozena v jine verzi programu\n
+s jinou verzi formatu.\n
+\t\n
+Najdete data se spravnou verzi, nebo\n
+zadejte nova data.
+7026:
+Chyba svareciho zarizeni\n
+Chyba vykonavani programu.\n
+Dohlizeci program v jednotce Welddata se\n
+aktivoval.\n
+\t\n
+Vynulujte svareci zarizeni\n
+hlavnim vypinacem.\n
+
+7027:
+Chyba svareciho zarizeni\n
+Nedokumentovana chyba jednotky Welddata.\n
+\t\n
+Pozadavek na dalsi informace\n
+od ESAB/ABB.
+7028:
+Chyba svareciho zarizeni\n
+Nedokumentovana chyba jednotky Welddata.\n
+\t\n
+Pozadavek na dalsi informace\n
+od ESAB/ABB.
+7029:
+Chyba svareciho zarizeni\n
+Nedokumentovana chyba jednotky Welddata.\n
+\t\n
+Pozadavek na dalsi informace\n
+od ESAB/ABB.
+7201:
+Chyba svareciho zarizeni\n
+Chyba kontrolniho souctu v EPROM ridici\n
+jednotky napajeciho zdroje.\n
+\t\n
+EPROM v ridici jednotce napajeciho\n
+zdroje je vadna. Provoz s touto chybou\n
+ma nepredvidatelny vysledek.\n
+Vymente EPROM.
+7202:
+Chyba svareciho zarizeni.\n
+Pri zapnuti zjistena chyba cteni/zapisu\n
+vnitrni RAM v ridici jednotce napajeciho\n
+zdroje.\n
+\t\n
+Pri testu cteni/zapisu selhala nejmene\n
+jedna pametova bunka vnitrni pameti\n
+mikroprocesoru. Provoz s touto chybou ma\n
+nepredvidatelny vysledek. Vymente ridici\n
+jednotku napajeciho zdroje.
+7204:
+Chyba svareciho zarizeni\n
+Stejnosmerne napajeni pro 5 V regulator\n
+v ridici jednotce napajeciho zdroje\n
+je bez napeti.\n
+\t\n
+Naznacuje problem v napajeni, ale funkce\n
+pravdepodobne neni dotcena. Zkontrolujte\n
+privod napajeni do ridici jednotky\n
+napajeciho zdroje.
+7205:
+Chyba svareciho zarizeni\n
+Vysoke napeti sbernice stejnosmerneho\n
+invertoru. Invertor se technickymi\n
+prostredky vypne do doby poklesu napeti\n
+na normalni.\n
+\t\n
+Muze zpusobovat vysoka jalova slozka\n
+nebo prechodove jevy v siti, svareni\n
+je mozne znovu spustit jakmile napeti\n
+klesne pod danou mez.
+7206:
+Chyba svareciho zarizeni\n
+Teplota chladice napajeciho zdroje je\n
+prilis vysoka. Invertor bude vypnut\n
+dokud teplotni spinac opet nesepne.\n
+\t\n
+Ujistete se, ze proud chladiciho vzduchu\n
+prochazejici chladicem napajeciho zdroje\n
+neomezuje zadna prekazka. Pockejte dokud\n
+teplotni spinac nesepne.
+7207:
+Chyba svareciho zarizeni\n
+Velky proud v obvode invertoru. Muze\n
+byt zpusoben vadou soucasti.\n
+\t\n
+Vynulujte svareci zarizeni hlavnim\n
+vypinacem. Zkontrolujte, zda napajeci\n
+zdroj bez prikazu ke spusteni neodebira\n
+abnormalne velky proud. Jestlize ano:\n
+je zde vadna soucast.
+7208:
+Chyba svareciho zarizeni\n
+Napajeci napeti 15VC desky tistenych\n
+spoju v ridici jednotce napajeciho\n
+zdroje je prilis vysoke nebo nizke.\n
+\t\n
+Vymente ridici jednotku napajeciho\n
+zdroje.
+7209:
+Chyba svareciho zarizeni\n
+Napajeci napeti -15V desky tistenych\n
+spoju v ridici jednotce napajeciho\n
+zdroje je prilis vysoke nebo nizke.\n
+\t\n
+Vymente ridici jednotku\n
+napajeciho zdroje.
+7210:
+Chyba svareciho zarizeni\n
+Napajeci napeti 15VB desky tistenych\n
+spoju v ridici jednotce napajeciho\n
+zdroje je prilis vysoke nebo nizke.\n
+\t\n
+Vymente ridici jednotku\n
+napajeciho zdroje.
+7211:
+Chyba svareciho zarizeni\n
+Dlohodoby rozdil mezi pozadovanou\n
+a skutecnou hodnotou svareciho proudu.\n
+\t\n
+Problem technickych prostredku vykonneho\n
+clenu proudoveho systemu\n
+(ridici deska napajeciho zdroje nebo\n
+blok invertoru) nebo abnormalni podminky\n
+zatizeni (= spatny svar).
+7212:
+Chyba svareciho zarizeni.\n
+Komunikacni porucha vnitrniho CAN.\n
+Obvody CAN na ridici jednotce napajeciho\n
+zdroje jsou ve stavu VYSTRAHY.\n
+\t\n
+Nekolikrat zmente data, nebo vynulujte\n
+svareci zarizeni hlavnim vypinacem. Kdyz\n
+se chyba neodstrani, zkontrolujte\n
+pripojeni sbernice a/nebo vymente ridici\n
+jednotku napajeciho zdroje.
+7215:
+Chyba svareciho zarizeni\n
+Ridici jednotka napajeciho zdroje\n
+zjistila ztratu prijate zpravy vnitrniho\n
+CAN (byla prepsana pozdejsi zpravou).\n
+\t\n
+Vynulujte svareci zarizeni hlavnim\n
+vypinacem.
+7226:
+Chyba svareciho zarizeni\n
+Chyba vykonavani programu.\n
+Dohlizeci program v ridici jednotce\n
+napajeciho zdroje se aktivoval.\n
+\t\n
+Vynulujte svareci zarizeni\n
+hlavnim vypinacem.
+7227:
+Chyba svareciho zarizeni\n
+Nedokumentovana chyba ridici jednotky\n
+napajeciho zdroje.\n
+\t\n
+Pozadavek na dalsi informace\n
+od ESAB/ABB.
+7228:
+Chyba svareciho zarizeni\n
+Nedokumentovana chyba ridici jednotky\n
+napajeciho zdroje.\n
+\t\n
+Pozadavek na dalsi informace\n
+od ESAB/ABB.
+7229:
+Chyba svareciho zarizeni\n
+Nedokumentovana chyba ridici jednotky\n
+napajeciho zdroje.\n
+\t\n
+Pozadavek na dalsi informace\n
+od ESAB/ABB.
+7301:
+Chyba svareciho zarizeni\n
+Pri zapnuti zjistena chyba kontrolniho\n
+souctu EPROM v jednotce podavani dratu.\n
+\t\n
+EPROM v jednotce podavani dratu je\n
+vadna. Provoz s touto chybou ma\n
+nepredvidatelny vysledek.\n
+Vymente EPROM.
+7302:
+Chyba svareciho zarizeni\n
+Pri zapnuti zjistena chyba cteni/zapisu\n
+vnitrni RAM jednotky podavani dratu.\n
+\t\n
+Pri testu cteni/zapisu nejmene jedna\n
+pametova bunka vnitrni pameti\n
+mikroprocesoru selhala. Provoz s touto\n
+chybou ma nepredvidatelny vysledek.\n
+Vymente jednotku podavani dratu.
+7304:
+Chyba svareciho zarizeni\n
+Stejnosmerne napajeni pro 5 V regulator\n
+v jednotce podavani dratu je bez napeti.\n
+\t\n
+Naznacuje problem v napajeni, ale funkce\n
+pravdepodobne neni dotcena. Zkontrolujte\n
+privod napajeni do jednotky podavani\n
+dratu.
+7308:
+Chyba svareciho zarizeni\n
+Napajeci napeti 15V desky tistenych\n
+spoju v jednotce podavani dratu\n
+je prilis vysoke nebo nizke.\n
+\t\n
+Vymente jednotku podavani dratu.
+7309:
+Chyba svareciho zarizeni\n
+Napajeci napeti 24VC desky tistenych\n
+spoju v podavani dratu je prilis vysoke\n
+nebo nizke.\n
+\t\n
+Vymente jednotku podavani dratu.
+7311:
+Chyba svareciho zarizeni\n
+Dlouhodoby rozdil mezi pozadovanou\n
+a skutecnou rychlosti podavani dratu.\n
+\t\n
+Problem technickych prostredku vykonneho\n
+clenu systemu podavani dratu, nebo\n
+pokles napeti stridaveho napajeni 42V.
+7312:
+Chyba svareciho zarizeni\n
+Komunikacni porucha vnitrniho CAN.\n
+Obvody CAN na jednotce podavani dratu\n
+jsou ve stavu VYSTRAHY.\n
+\t\n
+Nekolikrat zmente rychlost podavani\n
+dratu, nebo vynulujte svareci zarizeni\n
+hlavnim vypinacem. Kdyz chyba nezmizi,\n
+zkontrolujte pripojeni sbernice a/nebo\n
+vymente jednotku podavani dratu.
+7315:
+Chyba svareciho zarizeni\n
+Jednotka podavani dratu zjistila ztratu\n
+prijate zpravy vnitrniho CAN\n
+(byla prepsana pozdejsi zpravou).\n
+\t\n
+Vynulujte svareci zarizeni hlavnim\n
+vypinacem.
+7326:
+Chyba svareciho zarizeni\n
+Chyba vykonavani programu.\n
+Dohlizeci program v jednotce podavani\n
+dratu se aktivoval.\n
+\t\n
+Vynulujte svareci zarizeni hlavnim\n
+vypinacem.\n
+
+7327:
+Chyba svareciho zarizeni\n
+Nedokumentovana chyba jednotky\n
+podavani dratu.\n
+\t\n
+Pozadavek na dalsi informace\n
+od ESAB/ABB.
+7328:
+Chyba svareciho zarizeni\n
+Nedokumentovana chyba jednotky\n
+podavani dratu.\n
+\t\n
+Pozadavek na dalsi informace\n
+od ESAB/ABB.
+7329:
+Chyba svareciho zarizeni\n
+Nedokumentovana chyba jednotky\n
+podavani dratu.\n
+\t\n
+Pozadavek na dalsi informace\n
+od ESAB/ABB.
+7500:
+Chyba otevirani programu\n
+Nazev souboru neni znam\n
+\t\n
+
+8000:
+Porucha kom vnej CAN\n
+Prilis mnoho pozadavku bez odezvy\n
+\t\n
+Zkontrolujte konfiguraci komunikace
+9000:
+Installation error\n
+External axes are not allowed in this\n
+type of robot configuration\n
+\t\n
+Remove mechanical units

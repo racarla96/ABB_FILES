@@ -1,0 +1,953 @@
+23::
+0:
+Materiel
+1203:
+Erreur disquette\n
+Disquette defectueuse ou non formatee\n
+\t\n
+1. Reessayer\n
+2. Changer la disquette
+1206:
+Erreur disquette\n
+Disquette defectueuse ou erreur interne\n
+\t\n
+1. Reessayer\n
+2. Changer la disquette\n
+3. Redemarrer le systeme
+1207:
+Erreur disquette\n
+Pas de disquette ou lecteur non pret\n
+\t\n
+1. Reessayer
+1210:
+Erreur disquette\n
+Format non valide\n
+\t\n
+1. Changer la disquette
+1211:
+Erreur disquette\n
+Erreur de transfert de donnees avec\n
+la disquette\n
+\t\n
+1. Reessayer\n
+2. Changer la disquette\n
+3. Redemarrer le systeme
+1214:
+Erreur disquette\n
+Le transfert de donnees est interrompu\n
+\t\n
+1. Reessayer\n
+2. Redemarrer le systeme
+1215:
+Erreur disquette\n
+Commande interne non valide\n
+\t\n
+1. Reessayer\n
+2. Redemarrer le systeme
+1216:
+Erreur disquette\n
+La disquette a ete changee pendant le\n
+transfert\n
+\t\n
+1. Reessayer\n
+2. Redemarrer le systeme
+1217:
+Erreur disquette\n
+Defaut disquette ou lecteur\n
+\t\n
+1. Reessayer\n
+2. Changer la disquette\n
+3. Redemarrer le systeme
+1219:
+Erreur disquette\n
+Lecteur de disquette non pret\n
+\t\n
+1. Reessayer\n
+2. Redemarrer systeme
+1220:
+Erreur disquette\n
+Disquette defectueuse ou erreur interne\n
+\t\n
+1. Reessayer\n
+2. Changer la disquette\n
+3. Redemarrer le systeme
+1221:
+Erreur disquette\n
+Erreur de donnees\n
+\t\n
+1. Reessayer\n
+2. Changer la disquette\n
+3. Redemarrer le systeme
+1222:
+Erreur disquette\n
+Erreur interne - Overrun\n
+\t\n
+1. Reessayer\n
+2. Redemarrer le systeme
+1223:
+Erreur disquette\n
+Disquette defectueuse ou erreur interne\n
+\t\n
+1. Reessayer\n
+2. Changer la disquette\n
+3. Redemarrer le systeme
+1224:
+Erreur disquette\n
+Disquette protegee en ecriture\n
+\t\n
+1. Retirer la protection en ecriture
+1225:
+Erreur disquette\n
+Disquette defectueuse: Adresse manquante\n
+\t\n
+1. Changer la disquette
+1226:
+Erreur disquette\n
+Donnees erronees sur disquette\n
+\t\n
+1. Changer la disquette
+1227:
+Erreur disquette\n
+Disquette defectueuse - Secteur manquant\n
+\t\n
+1. Changer la disquette
+1228:
+Erreur disquette\n
+Disquette defectueuse - Mauvais secteur\n
+\t\n
+1. Changer la disquette
+1229:
+Erreur disquette\n
+Disquette defectueuse - Mauvaise adresse\n
+dans les donnees\n
+\t\n
+1. Changer la disquette
+1605:
+Erreur memoire cpu E/S\n
+\n
+\t\n
+Remplacer la carte commande robot
+1606:
+Erreur memoire cpu E/S\n
+\n
+\t\n
+Remplacer la carte commande robot
+1607:
+Erreur memoire cpu E/S\n
+\n
+\t\n
+Remplacer la carte commande robot
+1608:
+Erreur checksum cpu E/S\n
+\n
+\t\n
+Remplacer la carte commande robot
+2118:
+MC RESET ERROR.\n
+Main computer running in spite\n
+of RESET command.\n
+\t\n
+Replace main computer board
+2301:
+Err. mem. cpu principal\n
+\n
+\t\n
+Remplacer la carte commande principale
+2302:
+Err. mem. cpu principal\n
+\n
+\t\n
+Remplacer la carte commande principale
+2303:
+Err. mem. cpu principal\n
+\n
+\t\n
+Remplacer la carte commande principale
+2305:
+Erreur carte ext. memoire\n
+\n
+\t\n
+Remplacer la carte d'extension memoire
+1401:
+Erreur DMA\n
+Erreur de transfert DMA sur le cpu robot\n
+\t\n
+Remplacer la carte de commande robot
+1402:
+Erreur DMA\n
+Erreur de transfert DMA sur le cpu robot\n
+\t\n
+Remplacer la carte de commande robot
+1403:
+Erreur DMA\n
+Erreur de transfert DMA sur le cpu robot\n
+\t\n
+Remplacer la carte de commande robot
+1404:
+Erreur DMA\n
+Erreur de transfert DMA sur le cpu robot\n
+\t\n
+Remplacer la carte de commande robot
+1408:
+Erreur cpu axes\n
+\n
+\t\n
+Remplacer la carte de commande robot
+1409:
+Erreur cpu robot\n
+\n
+\t\n
+Remplacer la carte de commande robot
+1410:
+Erreur cpu axes\n
+\n
+\t\n
+Remplacer la carte de commande robot
+1411:
+Erreur cpu axes\n
+\n
+\t\n
+Remplacer la carte de commande robot
+1414:
+Erreur cpu principal\n
+\n
+\t\n
+1. Changer la carte commande principale\n
+2. Changer la carte de commande robot
+1415:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte commande principale
+1418:
+Erreur transfert DMA\n
+Erreur de transfert DMA dans le cpu\n
+robot\n
+\t\n
+Changer la carte de commande robot
+1419:
+Erreur transfert DMA\n
+Erreur de transfert DMA dans le cpu\n
+robot\n
+\t\n
+Changer la carte de commande robot
+1420:
+Erreur transfert DMA\n
+Erreur de transfert DMA dans le cpu\n
+robot\n
+\t\n
+Changer la carte de commande robot
+1114:
+Erreur de bus\n
+Erreur de bus lors d'un acces LED sur la\n
+carte de commande principale\n
+\t\n
+1. Changer la carte commande principale\n
+2. Changer la carte commande robot
+1501:
+Tension batterie faible\n
+La tension de la batterie 1 est\n
+trop faible\n
+\t\n
+Changer la batterie 1
+1502:
+Tension batterie faible\n
+La tension de la batterie 2 est\n
+trop faible\n
+\t\n
+Changer la batterie 2
+1503:
+Tension batterie faible\n
+La tension des deux batteries est trop\n
+faible\n
+\t\n
+Changer les batteries
+1505:
+Defaut circuit batteries\n
+\n
+\t\n
+Remplacer la carte de commande robot
+3301:
+Erreur cpu axes\n
+\n
+\t\n
+Changer la carte de commande robot
+3302:
+Erreur cpu axes\n
+Impossible de desactiver le signal\n
+SYSFAIL du bus VME\n
+\t\n
+Changer la carte de commande robot
+3303:
+Erreur cpu axes\n
+Impossible d'activer le signal\n
+SYSFAIL du bus VME\n
+\t\n
+Changer la carte de commande robot
+3304:
+Erreur cpu axes\n
+\n
+\t\n
+Changer la carte de commande robot
+3305:
+Erreur memoire cpu axes\n
+\n
+\t\n
+Changer la carte de commande robot
+3308:
+Erreur cpu axes\n
+\n
+\t\n
+Changer la carte de commande robot
+3309:
+Erreur cpu axes\n
+\n
+\t\n
+Changer la carte de commande robot
+3310:
+Erreur cpu axes\n
+\n
+\t\n
+Changer la carte de commande robot
+3311:
+Erreur cpu axes\n
+Erreur sur le retour de la consigne\n
+courant\n
+\t\n
+Changer la carte de commande robot
+3312:
+Erreur cpu axes\n
+Erreur sur signal RUNNING/DRVFLT\n
+\t\n
+1. Changer la carte de commande robot\n
+2. Verifier les cartes variateurs
+3314:
+Erreur cpu axes\n
+\n
+\t\n
+Changer la carte de commande robot
+3315:
+Erreur cpu axes\n
+\n
+\t\n
+Changer la carte de commande robot
+3316:
+Erreur com. cpu axes\n
+Erreur controleur axes sur retour de\n
+communication\n
+\t\n
+Changer la carte de commande robot
+3320:
+Erreur cpu axes.\n
+Erreur remontee par cpu axes\n
+\t\n
+Changer la carte de commande robot
+3321:
+Erreur cpu axes.\n
+Vecteur VME incorrect genere lors des\n
+tests\n
+\t\n
+Changer la carte de commande robot
+4001:
+Erreur Bus\n
+Erreur Bus inattendue pendant un test\n
+VME\n
+\t\n
+Verifier les cartes sur le bus VME
+4002:
+Erreur Bus\n
+Reponse inattendue pendant un test VME\n
+\t\n
+Verifier les cartes sur le bus VME
+4003:
+Erreur VME\n
+Le signal VME SYSFAIL ne peut etre\n
+desactive.\n
+\t\n
+1.Remplacer les cartes VME.\n
+2.Remplacer le fond de panier VME.\n
+3.Remplacer la carte de termination VME,\n
+  si elle existe.
+7002:
+Err execution DSQC306\n
+Le logiciel de la carte de commande\n
+principale n'est pas charge ou ne\n
+s'execute pas\n
+\t\n
+
+7003:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7004:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7005:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7006:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7007:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7008:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7009:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7010:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7011:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7012:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7013:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7014:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7015:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7016:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7017:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7018:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7019:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7020:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7021:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7022:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7023:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7024:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7025:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7026:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7027:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7028:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7029:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7030:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7031:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7032:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7033:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7034:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7035:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7036:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7037:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7038:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7039:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7040:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7041:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7042:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7043:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7044:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7045:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7046:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7047:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7048:
+Erreur cpu principal\n
+\n
+\t\n
+Changer la carte de commande principale
+7049:
+Err. commande contacteur\n
+Le contacteur de la station %s\n
+ou le contacteur de supervision ou le\n
+contacteur auxiliaire n'a pu etre\n
+active\n
+\t\n
+Redemarrer le systeme\n
+Verifier le contacteur, les contacteurs\n
+supervision et auxiliaire. Verifier les\n
+signaux de sortie et d'entree du contac-\n
+teur. Remplacer la carte systeme
+1701:
+Overrun liaison serie\n
+Erreur overrun sur le canal serie %.f\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1702:
+Overrun canal serie 2\n
+\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1706:
+Erreur parite liais serie\n
+Erreur de parite sur le canal %.f de la\n
+liaison serie\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1707:
+Erreur parite canal 2\n
+Erreur de parite sur la liaison serie\n
+canal 2\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1711:
+Erreur de trame\n
+Erreur de trame sur la liaison serie\n
+canal %.f\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1712:
+Erreur trame canal 2\n
+Erreur de trame sur la liaison serie\n
+canal 2\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1716:
+Erreur canal\n
+Erreur sur la liaison serie canal %.f\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1730:
+Erreur timer %.f\n
+\n
+\t\n
+Changer la carte de commande robot
+1733:
+Erreur canal serie %.f\n
+Les donnees recues sont differentes des\n
+donnees transmises\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1734:
+Erreur canal serie 2\n
+Les donnees recues sont differentes des\n
+donnees transmises\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1738:
+Erreur timer ou compteur\n
+Erreur sur timer ou compteur %.f\n
+\t\n
+Changer la carte de commande robot
+1742:
+Erreur canal serie 2\n
+Erreur de handshake\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1746:
+Erreur canal serie %.f\n
+Erreur de handshake\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1747:
+Erreur canal serie %.f\n
+Erreur interruption\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+2235:
+Erreur trans DMA (MC-AXC)\n
+L'asic R4 de la carte cde principale\n
+signale une erreur DMA\n
+\t\n
+1.Remplacer la carte commande principale\n
+2.Redemarrer; si l'erreur persiste:\n
+3.Remplacer la carte commande robot
+2244:
+Err. timeout DMA (MC-AXC)\n
+Transfert DMA non pret dans le temps\n
+imparti\n
+\t\n
+1.Verifier le bus VME.\n
+2.Remplacer la carte commande principale\n
+3.ou Remplacer la carte commande robot
+2246:
+Erreur trans. DMA MC-AXC)\n
+Le flag DMA pret de l'asic R4 de la\n
+carte commande principale n'est pas\n
+active\n
+\t\n
+1.Remplacer la carte commande principale
+2247:
+Erreur boite a lettre 1\n
+Interruption erreur de la boite a\n
+lettre 1 du cpu E/S\n
+\t\n
+Changer la carte de commande robot
+2248:
+Erreur boite a lettre 2\n
+Interruption erreur de la boite a\n
+lettre 2 du cpu E/S\n
+\t\n
+Changer la carte de commande robot
+2254:
+Err. carte cde principale\n
+La carte commande principale ne peut\n
+activer le signal VME SYSFAIL.\n
+\t\n
+1.Changer la carte commande principale
+2255:
+Err. carte cde principale\n
+La carte commande principale ne peut\n
+desactiver le signal VME SYSFAIL.\n
+\t\n
+1.Changer la carte commande principale
+2256:
+Erreur trans DMA (MC-AXC)\n
+Echec du test de pattern dans la memoire\n
+AXC\n
+\t\n
+1.Changer la carte commande principale
+2257:
+Erreur trans DMA (MC-AXC)\n
+Echec du test de pattern dans la memoire\n
+cde principale\n
+\t\n
+1.Changer la carte commande principale
+1108:
+Erreur canal serie\n
+Erreur de liaison serie canal %.f\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1115:
+Erreur canal serie 1\n
+Donnees recues differentes des donnees\n
+transmises\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1116:
+Debordement canal serie 1\n
+\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1117:
+Erreur parite canal 1\n
+\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1118:
+Erreur trame canal 1\n
+\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1119:
+Erreur bruit canal 1\n
+\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1130:
+Erreur de port\n
+\n
+\t\n
+Changer la carte de commande robot
+1131:
+SYSRESET non commande.\n
+\n
+\t\n
+Changer les cartes du bus VME.\n
+1. Verifier la carte de commande robot.\n
+2. Verifier les autres cartes du bus VME\n
+3. Verifier le fond de panier.
+1132:
+Erreur canal serie 2\n
+Donnees recues differentes des donnees\n
+transmises\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1133:
+Debordement canal serie 2\n
+\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1134:
+Erreur parite canal 2\n
+\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1135:
+Erreur trame canal 2\n
+\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1136:
+Erreur bruit canal 2\n
+\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1147:
+Erreur carte cde E/S\n
+La carte de commande E/S ne peut activer\n
+le signal VME SYSFAIL.\n
+\t\n
+1.Remplacer la carte de commande E/S.
+1148:
+Erreur carte cde E/S\n
+La carte de commande E/S ne peut\n
+desactiver le signal VME SYSFAIL.\n
+\t\n
+1.Remplacer la carte de commande E/S.
+3150:
+Interr. erreur cpu axes\n
+La cpu axes est arrete suite a\n
+une interruption materielle due a une\n
+interruption erreur\n
+\t\n
+Recharger le systeme\n
+Changer la carte de commande robot
+3158:
+Defaut horloge cpu axes\n
+Defaut de l'horloge du cpu axes\n
+Le cpu principal ne repond pas a une\n
+demande\n
+\t\n
+Recharger le systeme\n
+Changer la carte de commande principale
+3159:
+Alarme vitesse manuelle\n
+La vitesse de l'axe connecte au\n
+canal %.f depasse le maximum autorise\n
+en mode manuel\n
+\t\n
+Verifier la definition de la charge\n
+Verifier les parametres du controleur\n
+des axes externes\n
+Verifier les singularites du robot\n
+Changer le variateur
+3201:
+Erreur lecture cpu axes\n
+Erreur de lecture du driver du cpu axes\n
+Le nombre d'octets emis par le driver\n
+du cpu axes est incorrect.\n
+\t\n
+Verifier la configuration systeme\n
+Recharger le systeme\n
+Changer la carte commande robot
+3202:
+Erreur ecriture cpu axes\n
+Erreur d'ecriture vers le driver du cpu\n
+axes. Le nombre d'octets emis par le\n
+driver du cpu axes est incorrect.\n
+\t\n
+Verifier la configuration systeme\n
+Recharger le systeme\n
+Changer la carte commande robot
+3203:
+Erreur cpu E/S axes\n
+Erreur dans le controleur\n
+d'entrees/sorties vers le driver du cpu\n
+axes\n
+Defaut d'execution des commandes du\n
+contrleur déntrees/sorties\n
+\t\n
+Relancer le systeme\n
+Recharger le systeme\n
+Changer la carte commande robot
+3210:
+Erreur retour position\n
+Defaut d'acquisition du retour de\n
+position sur l'axe %.f\n
+\t\n
+Recharger le systeme\n
+Changer la carte de commande principale
+3211:
+Erreur commande position\n
+Impossible d'executer la commande de\n
+position dans le temps prevu\n
+\t\n
+Recharger le systeme\n
+Verifier le niveau de bruit sur les\n
+connexions d'entreee/sortie
+3212:
+Erreur timeout sur DMA\n
+Defaut d'acces du DMA du cpu principal\n
+vers le cpu axes\n
+\t\n
+Recharger le systeme\n
+Changer la carte de commande principale\n
+et la carte de commande robot
+3213:
+Erreur operation DMA\n
+Defaut d'acces du DMA de la carte du cpu\n
+principal vers le cpu axes\n
+\t\n
+Recharger le systeme\n
+Changer la carte de commande principale\n
+et la carte commande robot
+3220:
+Defaut cpu axes\n
+Le code d'erreur transmis par le cpu\n
+axes indique un defaut materiel\n
+\t\n
+Relancer le systeme\n
+Changer la carte de commande robot

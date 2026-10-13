@@ -1,0 +1,102 @@
+22::
+1:
+\n
+\n
+\t\n
+
+2:
+Arret d'urgence\n
+\n
+\t\n
+
+3:
+Securite butee\n
+\n
+\t\n
+
+6:
+Securite circuit Auto.\n
+\n
+\t\n
+
+7:
+Securite circuit Manuel\n
+\n
+\t\n
+
+8:
+Securite circuit General\n
+\n
+\t\n
+
+9:
+Incoherence securites\n
+Les deux canaux sont\n
+dans des etats differents\n
+\t\n
+Localiser le defaut avec les voyants\n
+de la carte systeme si la lampe\n
+rouge ERR est allumee.
+20:
+Timeout chaine securite\n
+Timeout sur la lecture de l'etat\n
+des deux canaux de la chaine de\n
+securite.\n
+\t\n
+Localiser le defaut avec les voyants de\n
+la carte systeme si la lampe rouge ERR\n
+est allumee. Nécessite peut-être une\n
+nouvelle demande de mise sous puissance.\n
+Vérifier le contact température transfo.
+21:
+Conflit vitesse/mode\n
+Les signaux du selecteur de mode\n
+et les signaux de vitesse sont\n
+en conflit.\n
+\t\n
+
+22:
+Erreur cle de mode\n
+Les signaux du selecteur de mode\n
+sont incoherents (pas ou plusieurs\n
+indications de mode).\n
+\t\n
+
+25:
+Timeout ordre Stop\n
+Une commande d'arret a ete executee\n
+par defaut alors qu'aucun acquittement\n
+n'a ete recu dans les delais.\n
+\t\n
+
+26:
+Defaut controle exec.\n
+Etats incoherents entre la chaine de\n
+securite et le controle d'execution.\n
+\t\n
+Remplacer la carte systeme.
+40:
+Arret freine\n
+\n
+\t\n
+
+41:
+Surcharge moteur 1-6\n
+Un ou plusieurs moteurs surchauffent.\n
+Attendre le refroidissement avant de\n
+remettre sous puissance sinon un nouveau\n
+defaut apparaitra apres 15 secondes.\n
+\t\n
+Voir les securites dans la fenetre IO et\n
+attendre que le signal OLM1 soit a 0\n
+avant de remettre sous puissance.
+42:
+Surcharge moteur 7-x\n
+Un ou plusieurs moteurs surchauffent.\n
+Attendre le refroidissement avant de\n
+remettre sous puissance sinon un nouveau\n
+defaut apparaitra apres 15 secondes.\n
+\t\n
+Voir les securites dans la fenetre IO et\n
+attendre que le signal OLM7 soit a 0\n
+avant de remettre sous puissance.

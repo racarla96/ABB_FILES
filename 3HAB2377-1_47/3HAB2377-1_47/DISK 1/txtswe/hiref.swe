@@ -1,0 +1,375 @@
+16::
+0:
+Verktygskoordinater Definition
+1:
+Verktyg
+2:
+Metod
+3:
+Punkt                 Status
+4:
+(Beskr.)
+5:
+Läge
+6:
+Avbryt
+7:
+OK
+8:
+Verktygskoordinater Beskrivning
+9:
+Position från/till
+10:
+Verktygsberäkning Resultat
+11:
+TCP
+12:
+Beräkningslogg
+13:
+Fil...
+14:
+Välj en positionslista
+15:
+Listnamn
+16:
+Välj en verktygsdefinitionsmetod!
+17:
+Metod information
+18:
+Metod namn
+19:
+-
+20:
+Modifierad
+21:
+Pos Från
+22:
+Metod
+23:
+Medelfel
+24:
+Max fel
+25:
+Spara beräkningslogg till fil
+26:
+Quaternion 1
+27:
+Quaternion 2
+28:
+Quaternion 3
+29:
+Quaternion 4
+30:
+Visar positionslistor av typ
+31:
+(OK)
+32:
+
+33:
+Ingen
+34:
+Verktyget kunde inte hittas.\n
+\n
+Tryck Enter för att fortsätta
+35:
+Wobj variabel kunde inte hittas.\n
+\n
+ <Tryck Enter för att fortsätta>
+36:
+Pose variabel kunde inte hittas.\n
+\n
+ <Tryck Enter för att fortsätta>
+37:
+Kan inte använda verktyget.\n
+Joggningsverktyget måste\n
+vara av typen bestående.\n
+\n
+ <Tryck Enter för att fortsätta>
+38:
+Kan inte använda detta objekt.\n
+Arbetsobjektet för joggning\n
+måste vara av typen bestående.\n
+\n
+ <Tryck Enter för att fortsätta>
+39:
+Kartesisk X
+40:
+(Ny)
+41:
+(Radera)
+42:
+Def.
+43:
+Kartesisk Y
+44:
+Kartesisk Z
+45:
+Orbit Anv.koord. Definition
+46:
+Orbit Anv.koord. Beräkningsresultat
+47:
+Välj en definitionsmetod!
+48:
+Enhet
+49:
+Robot bas.koord. Definition
+50:
+Robot bas.koord. Beräkningsresultat
+51:
+Sätt referenspunkt
+52:
+(Läge)
+53:
+Ange globala koordinater\n
+för den fixa referenspunkten.
+54:
+Linjär axel Anv.koord. Definition
+55:
+Linjär axel Anv.koord.Resultat
+56:
+Roterande axel Anv.koord. Definition
+57:
+Roterande axel Anv.koord. Resultat
+58:
+Åkbana bas.koord. Definition
+59:
+Åkbana bas.koord. Beräkningsresultat
+60:
+Sätt...
+61:
+Förflyttningsmetod
+62:
+X
+63:
+Y
+64:
+Z
+65:
+Skriver över parametrar!\n
+Existerande parameterar\n
+kommer att skrivas över.\n
+\n
+OK att fortsätta?
+66:
+Mekanisk enhet Axel Definition.
+67:
+Mekanisk enhet Axel Beräkningsresultat
+69:
+Axel
+100:
+Arbetsobjektets koordinater Definition
+101:
+Arbetsobjektets koordinater Beskrivning
+102:
+Arbetsobjekt Beräkningsresultat
+103:
+Välj en positionslista
+104:
+Objekt
+105:
+Anv. metod
+106:
+Objekt metod
+107:
+Välj en objekt metod
+108:
+Välj en användar metod
+109:
+Anv. pos från/till
+110:
+Objekt pos från/till
+111:
+Anv
+112:
+Obj
+113:
+Koordinerat anv.koord.system
+200:
+Programförskjutning Definition
+201:
+Programförskjutning Beskrivning
+202:
+Programförskjutning Beräkningsresultat
+203:
+Välj en positionslista
+204:
+Förskj
+205:
+Orig
+206:
+Antal punkter
+207:
+Välj ny metod
+500:
+n punkter (n=%d)
+501:
+Ursprunglig punkt
+502:
+Förflyttad punkt
+503:
+Punkt
+504:
+Negativ X
+505:
+Positiv X
+506:
+Positiv Y
+507:
+4 punkter
+508:
+Bas.koord. orientering samma som\n
+det globala koord.systemet.
+509:
+TCP-punkt 1
+510:
+TCP-punkt 2
+511:
+TCP-punkt 3
+512:
+TCP-punkt 4
+513:
+TCP-punkt 5
+514:
+TCP-punkt 6
+515:
+TCP-punkt 7
+516:
+TCP-punkt 8
+517:
+TCP-punkt 9
+518:
+TCP-punkt 10
+519:
+Förlängningspunkt X
+520:
+Förlängningspunkt Z
+521:
+4 punkters XZ
+522:
+X och Z förlängning används för att\n
+definiera orienteringen.
+523:
+4 punkters TCP
+524:
+Orienteringen kommer att sammanfalla\n
+med robotens monteringsfläns.
+525:
+5 punkters TCP & Z
+526:
+X och Y riktningen kommer att vara\n
+så nära handledens som möjligt.
+527:
+6 punkters TCP & XZ
+528:
+Arbetspunkten och verktygets\n
+riktningar definieras.
+529:
+3 punkter
+530:
+Tre punkter används. Två på\n
+x-axeln och en på y-axeln.
+531:
+Användar
+532:
+Objekt
+533:
+Tre punkter används. Två på\n
+x-axeln och en på y-axeln.
+534:
+4 p TCP ORIENT EJ SATT
+535:
+Verktygets orientering kommer ej\n
+att ändras.
+536:
+Ingen ändring
+537:
+Användarkoordinatsystemet\n
+kommer inte att ändras
+538:
+Objektkoordinatsystemet\n
+kommer inte att ändras.
+539:
+Koordinatsystemen kommer inte att ändras.
+550:
+Stationärt verktyg Definition
+551:
+Använt vektyg
+552:
+Definition av stationärt verktyg\n
+kan inte göras då roboten\n
+håller i verktyget.\n
+\n
+ <Tryck enter för att fortsätta>
+553:
+Orienteringen kommer att bli samma\n
+som för världskoordinatsystemet.
+600:
+Spegling av rutin
+601:
+Rutin att spegla
+602:
+Nytt rutinnamn
+603:
+Arbetsobjekt
+604:
+Spegelplan
+605:
+Speglingsaxel
+606:
+X
+607:
+Y
+608:
+Val av arbetsobjekt
+609:
+Ge namn på den nya rutinen
+610:
+Välj arbetsobjekt från listan
+611:
+Välj spegelplan från listan nedan
+612:
+Ej ändrad
+613:
+Var god vänta!\n
+\n
+Utför spegling av en rutin.
+614:
+Spegling ej utförd.\n
+Speglingsrutinens namn\n
+används redan.
+615:
+Kan inte utföra definitionen\n
+Datat är deklarerat i en modul\n
+som är skrivskyddad.\n
+\n
+ <Tryck Enter för att fortsätta>
+616:
+Kalibrering av ett arbetsobjekt\n
+med koordinerat anv.koord.system\n
+kan inte utföras.\n
+\n
+ <Tryck Enter för att fortsätta>
+617:
+Kalibrering av ett arbetsobjekt\n
+som hålles av roboten\n
+kan inte utföras.\n
+\n
+ <Tryck Enter för att fortsätta>
+618:
+Kalibrering av ett arbetsobjekt\n
+vid användning av stationärt\n
+verktyg kan inte utföras.\n
+\n
+ <Tryck Enter för att fortsätta>
+619:
+Kalibrering av ett koordinerat\n
+arbetsobjekt som hålls av\n
+roboten kan inte utföras.\n
+\n
+ <Tryck Enter för att fortsätta>
+620:
+Kalibrering kan inte utföras.\n
+En mekanisk enhet måste väljas\n
+för ett koordinerat arbetsobjekt\n
+\n
+ <Tryck Enter för att fortsätta>

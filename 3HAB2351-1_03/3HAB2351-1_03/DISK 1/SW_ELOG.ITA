@@ -1,0 +1,46 @@
+73::
+0:
+Sald a punti
+1:
+Err sist sald a punti\n
+Definiz processo sald a punti errata\n
+\t\n
+Modificare definizione SwInit
+2:
+Err sist sald a punti\n
+Parametro %s\n
+\t\n
+
+3:
+SwStart Timeout negativo\n
+\n
+\t\n
+
+4:
+SwInit Interrupt negativo\n
+\n
+\t\n
+
+5:
+ProcId. Il motivo e':\n
+-ProcId non corrisponde al valore\n
+ definito in SwInit\n
+ Il processo sald a punti e' stato\n
+ cancellato.\n
+\t\n
+
+6:
+Spot weld comm. error\n
+Motivo : %s\n
+\t\n
+
+7:
+Risposta troppo lenta\n
+\n
+\t\n
+
+8:
+Colleg. BOSCH non dispon.\n
+\n
+\t\n
+

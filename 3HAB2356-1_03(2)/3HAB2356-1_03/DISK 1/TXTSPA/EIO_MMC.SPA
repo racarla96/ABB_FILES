@@ -1,0 +1,201 @@
+17::
+0:
+Señales E/S
+1:
+Señales Usuario
+2:
+Sistema
+3:
+Grupos
+4:
+Nombre Señal
+5:
+Nombre unidad
+6:
+Tipo de Señal
+7:
+Numero de Señal
+8:
+Señal de Inicio
+9:
+Long. del grupo
+10:
+DI
+11:
+DO
+12:
+Seguridad
+13:
+Nombre unidad
+14:
+Tipo de unidad
+15:
+Unidad Bus
+16:
+Entradas Dig.
+17:
+Salidas Dig.
+18:
+Tarjetas E/S
+19:
+Nombre      Unidad      Tipo       Señal
+20:
+Nombre      Unidad     Long      Señ.Fis
+21:
+Tipo de unidad
+22:
+Nombre      Tipo        Bus    Direccion
+23:
+GI
+24:
+GO
+25:
+Entradas de Sistema
+26:
+Salidas de Sistema
+27:
+Nombre
+28:
+Accion
+29:
+Estado
+30:
+MotorOn
+31:
+MotorOff
+32:
+CycleOn
+33:
+MotorOn
+34:
+MotorOff
+35:
+Start
+36:
+StartMain
+37:
+Stop
+38:
+StopCycle
+39:
+Interrupt
+40:
+LoadStart
+41:
+Argumento
+42:
+Nombre      Accion
+43:
+Nombre      Estado
+44:
+-
+45:
+A
+46:
+De
+47:
+Enlace E/S
+48:
+Desde       A
+49:
+Entradas Analogicas
+50:
+Salidas Analogicas
+51:
+Direccion
+52:
+AO
+53:
+AI
+54:
+ResetEstop
+55:
+EmStop
+56:
+AutoOn
+57:
+RunchOk
+58:
+TCPSpeed
+59:
+Max Logico
+60:
+Max Fisico
+61:
+Min Logico
+62:
+Min Fisico
+63:
+Filtro Pasivo
+64:
+Filtro Activo
+65:
+Invertida
+67:
+SI
+68:
+NO
+69:
+Direc.Nodo RIO (octal)
+70:
+Baudios RIO
+71:
+Grupo inicial RIO
+72:
+Tamaño rack RIO
+73:
+Ultimo rack RIO
+74:
+57.6 kB
+75:
+115 kB
+76:
+230 kB
+77:
+0
+78:
+2
+79:
+4
+80:
+6
+81:
+1/4
+82:
+1/2
+83:
+3/4
+84:
+LLENO
+85:
+Error
+86:
+SincExtAx
+87:
+BAS
+88:
+VME
+89:
+SIM
+90:
+ResetError
+91:
+CAN
+92:
+Direccion Slot
+93:
+Memoriza
+94:
+MotOnState
+95:
+MotOffState
+96:
+PFError
+97:
+MotOnStart
+98:
+StopInstr
+99:
+SysReset
+100:
+Tamaño rack IBS

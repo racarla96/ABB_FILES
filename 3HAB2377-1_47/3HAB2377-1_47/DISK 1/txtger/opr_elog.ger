@@ -1,0 +1,582 @@
+21::
+0:
+Betriebszustand
+2:
+Programm Reset\n
+Die Task %!%!%s hat\n
+den StartZeiger verändert.\n
+\t\n
+
+5:
+Programm gestoppt\n
+Die Task %!%!%s hat\n
+gestoppt. Die Ursache ist\n
+%s\n
+\t\n
+
+500:
+Ein externer oder interner Stop\n
+nach der aktuellen Instruktion.
+501:
+Die Task hat eine EXIT-Instruktion\n
+erreicht.
+502:
+Die Task ist fertig.
+503:
+Die Task ist fertig mit dem Schritt.
+504:
+Die Task hat eine Break-Instruktion\n
+erreicht.
+505:
+Ein externer oder interner Stop.
+506:
+Ein Fehler ist aufgetreten.
+507:
+Kann nicht weiter als Anfang der\n
+Instruktionsliste rückwärts abarbeiten.
+508:
+Kann nicht weiter als diese\n
+Instruktion rückwärts abarbeiten.
+509:
+the event routine for RESET or POWER_ON\n
+is ready.
+7:
+Programm gestartet\n
+Die Task %!%!%s hat\n
+die Abarbeitung gestartet.\n
+%s\n
+\t\n
+
+8:
+Programm erneut gestartet\n
+Die Task %!%!%s hat die\n
+Abarbeitung erneut gestartet.\n
+%s\n
+\t\n
+
+701:
+Der Urheber ist das Fenster -Program-.
+702:
+Der Urheber ist das Fenster -Produktion-.
+703:
+Der Urheber ist unbekannt
+704:
+Der Urheber ist ein externer Client.
+9:
+Arbeitsspeicher voll.\n
+Kein Speicher mehr für neue RAPID\n
+Instruktionen oder Daten vorhanden.\n
+Die Task ist %!%!%s\n
+\t\n
+Programm speichern und danach\n
+Neustart ausführen.
+10:
+MOTOREN AUS Zustand\n
+\n
+\t\n
+
+11:
+MOTOREN EIN Zustand\n
+\n
+\t\n
+
+12:
+Sicherheitshalt\n
+Sicherheitskreis durch Sicherheits-\n
+halt Signale geöffnet, mit Ausnahme\n
+des NOT-AUS.\n
+\t\n
+Sicherheitskreis schließen. Der Kreis\n
+kann geöffnet sein durch:\n
+Trittplatten, Lichtschranken, Abschalt-\n
+sicherung Handflansch, Servoschalter\n
+oder eine andere Sicherheitseinrichtung.
+13:
+NOT-AUS Zustand\n
+Sicherheitskreis durch NOT-AUS\n
+geöffnet.\n
+Rücksetzen NOT-AUS notwendig.\n
+MOTOREN-AUS Taste verwenden.\n
+\t\n
+
+14:
+System Fehler\n
+Fataler System Fehler.\n
+Warmstart des Systems notwendig.\n
+\t\n
+
+15:
+Einrichten angewählt\n
+\n
+\t\n
+
+16:
+Automatik angewählt\n
+\n
+\t\n
+
+17:
+Automatik bestätigt\n
+\n
+\t\n
+
+18:
+Einrichten 100% angewählt\n
+Einrichten mit voller Geschwindigkeit\n
+angewählt.\n
+\t\n
+
+19:
+Einrichten 100% bestätigt\n
+Einrichten mit voller Geschwindigkeit\n
+bestätigt.\n
+\t\n
+
+20:
+Fehler bei Abarbeitung\n
+Die Programmabarbeitung hat einen\n
+spontanen Fehlerzustand erreicht.\n
+\t\n
+
+21:
+Reset Fehler Abarbeitung\n
+Die Programmabarbeitung hat einen\n
+spontanen Fehlerzustand verlassen.\n
+\t\n
+
+22:
+Warten auf Tippbetrieb\n
+Warten auf die Betätigung der ent-\n
+sprechenden Taste auf dem\n
+Programmiergerät (Tippbetrieb).\n
+\t\n
+
+23:
+Timeout Tippbetrieb\n
+Die Betätigung der entsprechenden\n
+Taste auf dem Programmiergerät\n
+(Tippbetrieb) muß innerhalb einer\n
+bestimmten Zeit erfolgen.\n
+\t\n
+
+30:
+Alle Achsen kommutiert\n
+\n
+\t\n
+
+31:
+Alle Achsen kalibriert\n
+\n
+\t\n
+
+32:
+Alle Umdr._Zähler aktual.\n
+\n
+\t\n
+
+33:
+Alle Achsen synchron.\n
+\n
+\t\n
+
+34:
+Achse nicht kommutiert\n
+\n
+\t\n
+
+35:
+Achse nicht kalibriert\n
+\n
+\t\n
+
+36:
+Umdr._Zähler nicht akt.\n
+\n
+\t\n
+
+37:
+Achse nicht synchron.\n
+\n
+\t\n
+
+40:
+Programm geladen.\n
+Die Task %!%!%s hat\n
+ein Programm geladen.\n
+Der freie Speicher war  %i Bytes\n
+vor dieser Operation und\n
+%i Bytes danach.\n
+\t\n
+
+41:
+Programm gelöscht\n
+Die Task %!%!%s hat ein\n
+Programm gelöscht.\n
+\t\n
+
+43:
+Restart fehlgeschlagen.\n
+Die Task %!%!%s\n
+kann nicht neu starten.\n
+\t\n
+
+44:
+ProgrammZeiger aktual.\n
+Die Task %!%!%s\n
+kann die Position des PZ\n
+geändert haben.\n
+\t\n
+
+45:
+System neu gestartet\n
+Ein bereits installiertes System\n
+wurde neu gestartet.\n
+\t\n
+
+4501:
+ordered warmstart.
+4502:
+it has been switched off.
+46:
+Neustart nach Kaltstart\n
+Erster Neustart nach der Installation\n
+des Systems.\n
+\t\n
+
+47:
+Background Task %s\n
+Background Task kann\n
+%s nicht starten.\n
+\t\n
+
+4701:
+Task is leer.
+4702:
+Falscher Zustand.
+4703:
+PZ kann nicht auf haupt Routine\n
+gesetzt werden.
+4704:
+Abarbeitungsmodus kann nicht\n
+gesetzt werden.
+4705:
+Start Anweisung fehlgeschlagen.
+4706:
+Wegen eines Syntaxfehlers
+48:
+Background Task gestoppt\n
+Die Task %s hat\n
+ohne Grund gestoppt.\n
+%s\n
+\t\n
+
+49:
+Geschützter Bereich\n
+Netzfehler in der Mitte von\n
+geschütztem Bereich der\n
+Task %!%s\n
+%s\n
+\t\n
+
+4901:
+Das System versucht sich selbst\n
+zu helfen.
+4902:
+Ein anstehender Fehler wurde aus\n
+der Warteschlange entfernt.
+4903:
+Eine anstehende EXIT-Instruktion\n
+wurde aus der Warteschlange entfernt.
+4904:
+Dies kann zu einem weiteren\n
+Programmzyklus führen.
+4905:
+Die Task wird von der haupt Routine neu\n
+gestartet.
+4906:
+Alle Tasks werden zurücksetzt\n
+und das Programm geht verloren.
+4907:
+Programm speichern und danach\n
+Warmstart des Systems ausführen.
+50:
+Abarbeitung abgebrochen\n
+Der Neustart wird die Abarbeitung\n
+beenden in task %!%.16s von\n
+%s\n
+\t\n
+%s
+5001:
+Motoren Ein System Ereignis Routine
+5002:
+Stop System Ereignis Routine
+5003:
+Not-Aus System Ereignis Routine
+5004:
+Start System Ereignis Routine
+5005:
+Neustart System Ereignis Routine
+5006:
+Reset System Ereignis Routine
+5007:
+Interne System Ereignis Routine
+5008:
+Anwender Routine
+51:
+Ereignis Routine Fehler\n
+Die Task %!%s konnte die\n
+spez. System Ereignis Routine\n
+%s nicht starten.\n
+Routine ist unbekannt oder kann nicht\n
+mit dem Ereignis verbunden werden.\n
+\t\n
+%s\n
+Die Routine in ein System Modul\n
+einfügen oder Programm korrigieren.
+52:
+Wiederanfahren gestartet\n
+Eine Wiederanfahrbewegung wurde\n
+gestartet.\n
+\t\n
+
+53:
+Wiederanfahren fertig\n
+Die Wiederanfahrbewegung ist fertig.\n
+\t\n
+
+54:
+Wiederanfahr unmöglich\n
+Wiederanfahren der Bahn nicht möglich.\n
+Wiederanfahren wurde schon angefordert.\n
+\t\n
+Während einer bereits gestarteten\n
+Wiederanfahrbewegung wurde eine neue\n
+Wiederanfahrbewegung angefordert.\n
+Die Anzahl der Startbefehle von\n
+z.B. dem E/A System reduzieren.
+60:
+Test Sicherheitskreis\n
+Der Sicherheitskreis wird beim\n
+Einschalten immer getestet.\n
+Bei einem Fehler erfolgt eine\n
+entsprechende Fehlermeldung.\n
+\t\n
+Bei fehlerhaftem Test des Sicherheits-\n
+kreises erfolgt die Fehlermeldung\n
+"Timeout Sicherheitskreis"
+70:
+Backup Schritt fertig\n
+Backup %!%s ist fertig.\n
+\t\n
+
+7000:
+Schritt -Vorbereitung Backup-
+7001:
+Schritt -Konfiguration Backup-
+7002:
+des Systems
+71:
+Backup Fehler\n
+Fehler während Backup\n
+ %!%!%s\n
+%s\n
+\t\n
+%s\n
+
+7100:
+Schritt -Vorbereitung Backup-
+7101:
+Schritt -Konfiguration Backup-
+7102:
+Schritt -Task Backup-
+72:
+Restore Schritt fertig\n
+%!%s\n
+ist fertig.\n
+\t\n
+
+7200:
+Schritt -Vorbereitung Restore-
+7201:
+Schritt -Konfiguration Restore-
+7202:
+Restore von Task
+7203:
+Restore des Systems
+73:
+Restore Fehler\n
+Fehler während Restore\n
+von %!%!%s\n
+%s\n
+\t\n
+%s\n
+
+7260:
+Einzelheit kann nicht gelöscht werden.
+7261:
+Speichermedium voll
+7262:
+Unbekannte Task
+7263:
+Mindestens ein Modulname ist zu lang.
+7264:
+Schreibfehler
+7265:
+Aktuelles System entspricht nicht\n
+dem Backup.
+7266:
+Fehler beim Zurückladen der\n
+Konfigurationsparameter.
+7267:
+Fehler beim Zurückladen der\n
+Konfigurationsparameter.
+7268:
+Systemversion entspricht\n
+nicht dem Backup.
+7269:
+Dem Verzeichnis fehlt mindestens\n
+ein notwendiges Unterverzeichnis.
+7270:
+
+7271:
+Die Struktur ist zu tief
+7272:
+Fehler beim Screiben der\n
+Konfigurationsparameter.
+7273:
+Fehler beim Lesen der\n
+Konfigurationsparameter.
+7274:
+Fehler beim Schreiben\n
+des Backup.
+7275:
+Verzeichnis kann nicht\n
+angelegt werden.
+7276:
+Das Verzeichnis ist nicht vorhanden.
+7277:
+Dem Verzeichnis fehlt mindestens\n
+ein notwendiges Unterverzeichnis.
+7278:
+Das Verzeichnis beinhaltet\n
+Unterverzeichnisse die angelegt\n
+werden sollen.
+7279:
+
+7300:
+Schritt -Vorbereitung-
+7301:
+Schritt -Konfiguration-
+7302:
+Schritt -Konfiguration Task-
+7303:
+Schritt -Anwender Task-
+74:
+NFS Server in Betrieb\n
+Die Verbindung zum NFS Server\n
+'%s' steht.\n
+Alle gemounteten Platten dieses Servers\n
+stehen jetzt zur Verfügung.\n
+\t\n
+
+75:
+NFS Server außer Betrieb\n
+Die Verbindung zum NFS Server\n
+'%s' wurde abgebrochen.\n
+Alle gemounteten Platten dieses Servers\n
+stehen nicht mehr zur Verfügung.\n
+\t\n
+
+80:
+Background Task %s\n
+In der Background Task ist eine ältere\n
+Version eines Moduls installiert als in\n
+der Quelle.\n
+%s\n
+\t\n
+Das System mit einem P-START\n
+neu starten, um die neuere Version\n
+zu installieren.
+81:
+Background Task %s\n
+Beim Laden einer neueren Version\n
+eines Moduls ist ein Fehler aufge-\n
+treten. Die Quelle des Moduls ist\n
+%s\n
+\t\n
+Siehe vorhergehende Meldung bezüglich\n
+der Ursache.\n
+Das System mit einem P-START\n
+neu starten, um die neuere Version\n
+zu installieren.
+82:
+RAPID Task Überwachung\n
+Task %s arbeitet nicht.\n
+Das System wird in den Zustand\n
+SysFehler gesetzt. Jetzt kann in den\n
+Betriebszustand MOTOREN EIN\n
+geändert werden.\n
+\t\n
+%s\n
+Siehe vorhergehende Meldung bezüglich\n
+der Ursache.\n
+Neustart des Systems um den\n
+Fehlerstatus zurückzusetzen.
+83:
+RAPID Task Überwachung\n
+Task %s arbeitet nicht.\n
+Das System wird in den Betriebszustand\n
+MOTOREN AUS zurückgesetzt.\n
+%s\n
+\t\n
+Siehe vorhergehende Meldung bezüglich\n
+der Ursache.
+84:
+RAPID Task Überwachung\n
+Task %s arbeitet nicht.\n
+Die Main Task stoppt ebenfalls.\n
+%s\n
+\t\n
+Siehe vorhergehende Meldung bezüglich\n
+der Ursache.
+88:
+Restart unmöglich\n
+Restart nicht möglich von der\n
+aktuellen Programmposition.\n
+Der Programmzeiger muss bevor Restart\n
+bewegt werden.\n
+\t\n
+Das System ist im SysFehler Zustand\n
+gewesen oder die Programmabarbeitung\n
+ist blockiert.
+89:
+P-Start ist angefordert.\n
+%s\n
+\t\n
+
+8901:
+Vom System wurde ein P-Start\n
+angefordert.
+8902:
+Während der Konfiguration wurde ein\n
+P-Start manuell oder automatisch\n
+angefordert.
+8903:
+Von einer E/A Einheit wurde ein\n
+P-Start angefordert.
+90:
+P-Start ausgeführt\n
+Ein angeforderter P-Start wurde\n
+ausgeführt.\n
+Alle Tasks werden zurücksetzt\n
+und das Programm geht verloren.\n
+\t\n
+
+91:
+(Neu)start nicht möglich\n
+(Neu)start ist nicht möglich, da der\n
+Kontakt zu dem mit TrustLevel 3 konfi-\n
+gurierten E/A Modul %s\n
+verloren gegangen ist.\n
+\t\n
+

@@ -1,0 +1,165 @@
+Revision 1.11  1996/12/12  07:33:00  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+5::
+0:
+Mvto. manual
+1:
+Alinear...
+2:
+El alineamento se inicia al mover\n
+el joystick.
+3:
+
+4:
+La herramienta se alineara a lo largo\n
+del eje coordenadas "%s".
+5:
+
+6:
+
+7:
+Unidad:
+8:
+Mvto:
+9:
+Grupo:
+10:
+Coord:
+11:
+Herram:
+12:
+WObj:
+13:
+Incremento:
+14:
+Seleccionar dato deseado de la lista:
+15:
+Mvto manual
+16:
+Pos Robot:
+17:
+
+18:
+
+19:
+Lineal
+20:
+Reorientar
+21:
+Eje a Eje
+22:
+x y z
+23:
+Motor
+24:
+Mundo
+25:
+Base
+26:
+Herram
+27:
+WObj
+28:
+
+29:
+
+30:
+
+31:
+
+32:
+
+33:
+
+34:
+2 1 3
+35:
+5 4 6
+36:
+4 5 6
+37:
+Posicion:
+38:
+Externo:
+39:
+Fino
+40:
+Medio
+41:
+Grande
+42:
+Mundo
+43:
+Base
+44:
+Herramienta
+45:
+WObj
+46:
+1 2 3
+47:
+No
+48:
+Fino
+49:
+Medio
+50:
+Grande
+51:
+1
+52:
+2
+53:
+El robot no se puede\n
+mover manualmente\n
+si ejecuta programa.
+54:
+No se puede mover\n
+manualmente estando\n
+en modo automatico
+55:
+Nuevo
+56:
+Cambiar
+57:
+Definir
+58:
+Usuario
+59:
+Usuar.
+60:
+Tipo movimiento
+61:
+Incrementos...
+62:
+Incrementos definidos por usuario
+63:
+Cambiar los valores de los incrementos\n
+variables de mov.manual utilizados por\n
+los distintos tipos de movimiento.
+64:
+Lineal:
+65:
+Ejes robot:
+66:
+Reorientacion:
+67:
+Ejes externos:
+68:
+Valor
+69:
+Igual a incr. medio
+70:
+Limites
+71:
+mm
+72:
+deg
+73:
+Bloq. palanca:
+74:
+Ninguno
+75:
+Ninguno

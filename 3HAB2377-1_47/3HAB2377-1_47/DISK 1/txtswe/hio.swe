@@ -1,0 +1,255 @@
+Revision 1.11  1996/12/12  07:36:15  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+4::
+0:
+
+1:
+Ingångar/Utgångar
+2:
+Invert:
+3:
+Grupper
+4:
+Vanligast
+5:
+
+6:
+
+7:
+Namn:
+8:
+Värde:
+9:
+Typ:
+10:
+
+11:
+Buss:
+12:
+Öppna
+13:
+Stäng
+14:
+Sätt
+15:
+Återställ
+16:
+1
+17:
+0
+18:
+Arkiv
+19:
+Skriv ut...
+20:
+Inställningar...
+21:
+Redigera
+22:
+Alias Digital Out
+23:
+Alias Analog
+24:
+Gå till...
+25:
+Gå till början
+26:
+Gå till slutet
+27:
+(Sök...)
+28:
+Visa
+29:
+Vanligast
+30:
+I/O Enhet
+31:
+Digitala in
+32:
+Digitala ut
+33:
+Analoga
+34:
+Alias Digital In
+35:
+Grupper
+36:
+Alias All signals
+37:
+Alla signaler
+38:
+Alias Groups
+39:
+Säkerhet
+40:
+
+41:
+
+42:
+
+43:
+Adress:
+44:
+I/O Enhet:
+45:
+Signal:
+46:
+
+47:
+Signal egenskap:
+48:
+Status
+49:
+I/O Enheter
+50:
+OK
+51:
+Sigstatus
+52:
+Avbryt
+53:
+Result
+54:
+Inkl
+55:
+Exkl
+56:
+Gå till rad!
+57:
+Ange radnummer
+58:
+Ändra
+59:
+Namn        Värde        Typ
+60:
+Buss Adr     Namn         Typ
+61:
+Vanligast      Namn         Typ
+62:
+Namn        Värde        Signaler
+63:
+Nr  Värde    I/O Enhet     Signal
+64:
+Grupp:
+65:
+Signal       Värde        Namn
+66:
+Upp
+67:
+Flytta
+68:
+Def
+69:
+             Namn        Typ
+70:
+Resultat Vanligast
+71:
+Definition Vanligast
+72:
+Av
+73:
+På
+74:
+Falsk
+75:
+Sann
+76:
+Passiv
+77:
+Aktiv
+78:
+Låg
+79:
+Hög
+80:
+Enhetstyp:
+81:
+
+82:
+
+83:
+Inga signaler
+84:
+Tryck Enter för att fortsätta
+85:
+Inga signaler knutna till enheten
+86:
+Ange värde för I/O-grupp
+87:
+Begränsning: Minimum
+88:
+         Maximum
+89:
+Datainmatning för Ingångar/Utgångar
+90:
+Ange värde för analog signal
+91:
+Ingångar/Utgångar Utskrift
+92:
+Skriv ut
+93:
+Skriv till fil     :
+94:
+Lägg till signalinf:
+95:
+Data att skriva ut
+96:
+Skriv In/Ut till fil:
+97:
+Skriver ut !
+98:
+   Avbryt med Enter
+99:
+Tryck Enter för att fortsätta
+100:
+Skrivare upptagen\n
+\n
+Försök igen senare
+101:
+Kan inte skriva p g a för många\n
+utskriftsjobb i kö\n
+\n
+Försök igen senare
+102:
+Kan inte skriva p g a att\n
+skrivarporten ej är definierad\n
+i systemparametrarna.
+103:
+Ej tillräckligt minne på enheten\n
+använd vid utskrift (normalt\n
+%.9s). Behöver %d byte\n
+Tag först bort några filer
+104:
+  Upptagen\n
+\n
+  Var god vänta
+105:
+ Kan inte skapa/skriva till fil:\n
+\n
+
+106:
+Filen finns redan\n
+
+107:
+Startsignal
+108:
+Kan ej inkludera signalen!\n
+Den 'mest använda' listan kan\n
+bara innehålla %d signaler.
+109:
+Kan ej ändra värde på grupp!\n
+\n
+Den valda gruppen innehåller\n
+signaler laddade som interna.
+110:
+Special
+111:
+IO Bussar
+112:
+Bus
+113:
+Omstart
+114:
+IO bussar

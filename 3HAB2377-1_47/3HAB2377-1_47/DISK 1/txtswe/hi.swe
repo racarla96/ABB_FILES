@@ -1,0 +1,280 @@
+Revision 1.12  1996/12/12  07:47:37  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+1::
+0:
+
+1:
+Lösenord
+2:
+Service
+3:
+Programmerare
+4:
+Andra fönster
+5:
+"%s" lösenord krävs\n
+för att kunna fortsätta.
+6:
+Operatör
+7:
+Aktivera
+8:
+ProgEllerServ
+9:
+Disken ändrad!\n
+Innehållet på disken har\n
+ändrats sedan senaste läsning.\n
+\n
+Läs om innehållet?
+10:
+Arkiv
+11:
+Redigera
+12:
+Visa
+13:
+Special
+14:
+Ångra
+15:
+Klipp ut
+16:
+Kopiera
+17:
+Klistra in
+18:
+Sök...
+19:
+Gå till...
+20:
+Gå till första
+21:
+Gå till sista
+22:
+Nästa Sida
+23:
+Föregående Sida
+24:
+Öppna...
+25:
+Spara som...
+26:
+Skriv ut...
+27:
+Inställningar...
+28:
+OK
+29:
+Avbryt
+30:
+Text
+31:
+Ja
+32:
+Nej
+33:
+Addera
+34:
+Göm
+35:
+Ta bort
+36:
+Ta fram
+37:
+Enhet
+38:
+Uppåt
+39:
+Öppna
+40:
+Text...
+41:
+789456123-0.ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ+<>*/,= :_[](){}%?"
+42:
+789456123-0.abcdefghijklmnopqrstuvwxyzåäö+<>*/,= :_[](){}%?"
+43:
+a->A
+44:
+A->a
+45:
+Info
+46:
+Ange Namn!
+47:
+Namn:
+48:
+Massminnesenhet=
+49:
+Ny Kat
+50:
+Ange Katalognamn!
+51:
+Gemensam
+52:
+Intern
+53:
+Varning!
+54:
+Tryck Enter för att fortsätta!
+55:
+mm
+56:
+gra
+57:
+789456123_0_ABCDEFGHIJKLMNOPQRSTUVWXYZ_
+58:
+Klipp
+59:
+Kopiera
+60:
+Klistra
+61:
+Starta
+62:
+Framåt
+63:
+Bakåt
+64:
+Kont
+65:
+Cykel
+66:
+Stegvis
+67:
+Kontinuerlig
+68:
+Cykel
+69:
+Stegvis
+70:
+Osynkroniserad
+71:
+789456123_0_ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ_
+72:
+789456123_0_abcdefghijklmnopqrstuvwxyzåäö_
+73:
+Ett namn måste starta med en\n
+bokstav, t ex ABB eller abb.\n
+\n
+\n
+Tryck på Enter för att fortsätta!
+74:
+Parametrar
+75:
+Program
+76:
+Programmodul
+77:
+Systemmodul
+78:
+Fellogg
+79:
+Logg
+80:
+Katalog
+81:
+Gå upp en nivå
+82:
+Tom volym
+83:
+Okänd
+84:
+Funktion
+85:
+Användarnivå
+86:
+Bekräfta
+87:
+Funktion    Använd.nivå Bekräfta
+88:
+Ej på banan!\n
+Roboten har körts efter\n
+programstopp.\n
+Ska roboten gå tillbaka till\n
+banan vid start?
+89:
+Nej
+90:
+Ja
+91:
+Modul
+92:
+Läs om
+93:
+Programmet Körs.
+94:
+Skriv ut fil
+95:
+Väntar!\n
+Programmet används för tillfället\n
+av någon annan.
+96:
+Konv. Program
+97:
+Konv. Prog.modul
+98:
+Konv. Sys.modul
+99:
+Programmerbara knappar
+100:
+Knapp   Typ   Anslutning
+101:
+Knapp
+102:
+Typ
+103:
+Anslutning
+104:
+Knapp tryckt
+105:
+Ingen
+106:
+Ingång
+107:
+Utgång
+108:
+Avbrott
+109:
+Växla
+110:
+Sätt 0
+111:
+Sätt 1
+112:
+Tryck / Släpp
+113:
+Puls
+114:
+Större än 0 men mindre än maxlast
+115:
+Välj
+116:
+Inst. dialog
+117:
+                    Inst. Aktuell
+118:
+Inst.
+119:
+Inga data
+120:
+Info
+121:
+Position
+122:
+Robtarget:=
+123:
+o_
+124:
+PÅ
+125:
+Av
+126:
+Arcitec data
+127:
+\n
+Vänta!\n
+Läser från enhet...!
+128:
+Tillåt i Auto

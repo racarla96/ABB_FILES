@@ -1,0 +1,133 @@
+55::
+0:
+Class rlcom
+1:
+iodev
+2:
+Object
+3:
+File
+4:
+Read
+5:
+Write
+6:
+Append
+7:
+Bin
+8:
+String
+9:
+Num
+10:
+Pos
+11:
+Orient
+12:
+Bool
+13:
+NoNewLine
+14:
+Time
+15:
+Buffer
+16:
+NChar
+17:
+FK1
+18:
+FK2
+19:
+FK3
+20:
+FK4
+21:
+FK5
+22:
+Open
+23:
+TPReadStr
+24:
+ReadStr
+25:
+ReadBin
+26:
+ReadNum
+27:
+TPReadNum
+28:
+TPReadFK
+29:
+Close
+30:
+Write
+31:
+WriteBin
+32:
+TPWrite
+33:
+TPErase
+34:
+IODevice
+35:
+errnum
+36:
+switch
+37:
+pos
+38:
+orient
+39:
+bool
+40:
+num
+41:
+string
+42:
+Answer
+43:
+MaxTime
+44:
+DIBreak
+45:
+signaldi
+46:
+Can not open
+47:
+RAISE CODE:
+48:
+Not open
+49:
+Not a ascii file
+50:
+Not a binary file
+51:
+Could not access the file
+52:
+The parameter %s in
+53:
+is not an array.
+54:
+The output buffer must be specified as an array of num
+55:
+is specified as a negative value.
+56:
+The parameter must be set positive.
+57:
+Could not access the
+58:
+time event generator.
+59:
+signal event generator.
+60:
+A timeout interrupt the execution of
+61:
+A digital input interrupt the execution of
+62:
+BreakFlag
+63:
+TP_Read_Num
+64:
+TP_Read_FK
+65:
+The received data was not of a numeric type

@@ -1,0 +1,498 @@
+23::
+1125:
+Fel i seriekanal 7\n
+Mottaget data ej lika som sänt data\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1126:
+Fullt m. data i ser.kan 7\n
+\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1127:
+Paritetsfel på ser. kan 7\n
+\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1128:
+Överf. fel på kanal 7\n
+\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1129:
+Störn. fel i seriekanal 7\n
+\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1405:
+Axeldatorprogram saknas\n
+Prom innehåller inte axelprogram\n
+\t\n
+Byt prom på robotdatorn
+1406:
+Minnesfel\n
+Minnesfel i axeldatorn\n
+\t\n
+Byt robotdatorkortet
+1407:
+Axeldator fel\n
+\n
+\t\n
+Kontrollera om signalen DRVFLT-N\n
+är ansluten\n
+Byt robotdatorkortet
+1416:
+Fel i bandatorn\n
+\n
+\t\n
+Byt bandatorkort
+1417:
+Fel i bandatorn\n
+\n
+\t\n
+Byt bandatorkort
+1421:
+Fel i I/O datorn\n
+\n
+\t\n
+Byt robotdatorkort
+1601:
+Fel i HI PROM checksumman\n
+Checksumman %.f skulle ha varit: %.f\n
+\t\n
+Byt prom eller robotdator
+1602:
+Fel i LOW PROM checksum:\n
+Checksumman %.f skulle ha varit: %.f\n
+\t\n
+Byt prom eller robotdator
+1603:
+Fel i PROM checksumman:\n
+Checksumman %.f skulle ha varit: %.f\n
+\t\n
+Byt prom eller robotdator
+1703:
+Fullt av data i ser.kan 3\n
+\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1704:
+Fullt av data i ser.kan 5\n
+\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1705:
+Fullt av data i ser.kan 8\n
+\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1708:
+Paritets fel på kanal 3\n
+Paritetsfel på seriekanal 3\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1709:
+Paritets fel på kanal 5\n
+Paritetsfel på seriekanal 5\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1710:
+Paritets fel på kanal 8\n
+Paritetsfel på seriekanal 8\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1713:
+Överföringsfel på kanal 3\n
+Överföringsfel på seriekanal 3\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1714:
+Överföringsfel på kanal 5\n
+Överföringsfel på seriekanal 5\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1715:
+Överföringsfel på kanal 8\n
+Överföringsfel på seriekanal 8\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1735:
+Fel i seriekanal 3\n
+Mottaget data ej lika som sänt data\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1736:
+Fel i seriekanal 5\n
+Mottaget data ej lika som sänt data\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1737:
+Fel i seriekanal 8\n
+Mottaget data ej lika som sänt data\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1743:
+Fel i serie kanal 3\n
+Handskaknings fel\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1744:
+Fel i serie kanal 5\n
+Handskaknings fel\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1745:
+Fel i serie kanal 8\n
+Handskaknings fel\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+3101:
+X resolverfel\n
+Fel i resolversignal X på\n
+kanal %.f.\n
+X signalen är mindre än brusnivån.\n
+\t\n
+Kontrollera resolver och resolver-\n
+anslutningar. Byt ut seriemätkort.
+3102:
+Y resolverfel\n
+Fel i resolversignal Y på\n
+kanal %.f.\n
+Y signalen är mindre än brusnivån.\n
+\t\n
+Kontrollera resolver och resolver-\n
+anslutningar. Byt ut seriemätkort.
+3103:
+X eller Y resolverfel\n
+Fel i resolversignal X eller Y på\n
+kanal %.f.\n
+Kvadratsumman av X och Y signalen är\n
+för hög.\n
+\t\n
+Kontrollera resolver och resolver-\n
+anslutningar. Byt ut seriemätkort.
+3104:
+X eller Y resolverfel\n
+Fel i resolversignal X eller Y på\n
+kanal %.f.\n
+X och Y signalen är mindre än brusnivån.\n
+\t\n
+Kontrollera resolver och resolver-\n
+anslutningar. Byt ut seriemätkort.
+3105:
+Resolver matningsfel\n
+Fel i matningssignalen till resolvrar.\n
+\t\n
+Kontrollera reolveranslutningar.\n
+Byt ut  axelkort.
+3106:
+Drivdon offsetfel\n
+Drivdonets offset är för hög för\n
+kanal %.f.\n
+\t\n
+Gör en omstart.\n
+Byt drivdon.
+3107:
+Felaktig likriktartyp\n
+Likriktaren stämmer inte överens med\n
+konfigurationen.\n
+\t\n
+Kontrollera/modifiera systemkonfig.
+3108:
+Felaktig drivdonstyp\n
+Fyskisk drivdonstyp för kanal %.f\n
+stämmer inte överens med konfigurationen\n
+\t\n
+Kontrollera/modifiera system-\n
+konfigurationsfilerna.\n
+Byt drivdon.
+3148:
+Axeldator fel\n
+Axeldatorn stoppades med\n
+hårdvaruavbrott p g a diverse fel.\n
+\t\n
+Kontrollera systemkonfigureringen\n
+Ladda in styrprogrammet igen\n
+Byt ut robotdatorkortet.
+3151:
+Axeldator fel\n
+Axeldatorn stoppades med\n
+hårdvaruavbrott pga utdata overflow-fel.\n
+\t\n
+Ladda in styrprogrammet igen\n
+Byt ut robotdatorkortet.
+3152:
+Drivdonsfel\n
+Axeldatorn stoppades med\n
+hårdvaruavbrott p g a drivdonsfel.\n
+\t\n
+Kontrollera systemkonfigureringen\n
+Ladda in styrprogrammet igen\n
+Byt ut drivdon
+3153:
+Axeldator fel\n
+Axeldatorn stoppades med hårdvaru-\n
+avbrott p g a tackometer registerfel.\n
+\t\n
+Kontrollera systemkonfigureringen\n
+Ladda in styrprogrammet igen\n
+Byt ut drivdon
+3154:
+Axeldator fel\n
+Axeldatorn stoppades med\n
+hårdvaruavbrott p g a X, Y registerfel.\n
+\t\n
+Starta om systemet och\n
+kontrollera synkroniseringen.\n
+Ladda in styrprogrammet igen
+3155:
+Axeldator fel\n
+Axeldatorn stoppades med\n
+hårdvaruavbrott p g a ringregister-fel.\n
+\t\n
+Starta om systemet och\n
+kontrollra varvräknare.\n
+Ladda in styrprogrammet igen
+3156:
+Överföringsfel\n
+Ingen kontakt med seriemätsystemet\n
+Axeldatorn stoppades pga överförings-\n
+timeout.\n
+\t\n
+Kontrollera anslutningar från styrskåpet\n
+till roboten och på seriemätkortet\n
+Byt ut seriemätkortet eller\n
+robotdatorkortet.
+3157:
+Överföringsfel\n
+Axeldatorn upptäckte fel\n
+vid överföring till/från seriemät-\n
+systemet.\n
+\t\n
+Kontrollera anslutningar till seriemät-\n
+systemet. Kontrollera om det finns hög\n
+elektromagnetisk störning kring någon\n
+kabel som går till roboten. Byt ut\n
+seriemätkortet eller robotdatorkort
+3306:
+Drivdons byglingstest\n
+Fel i drivdons byglingstest\n
+\t\n
+--
+3307:
+Drivdons byglingstest\n
+Fel i drevdons byglingstest\n
+\t\n
+--
+3313:
+Kom.byglings fel\n
+Extern axel kommunikationsbyglingsfel\n
+\t\n
+--
+3317:
+Ax.datafel kom.fel bygl.\n
+\n
+\t\n
+Byt robotdatorkort
+7001:
+Kontaktor aktiveringsfel\n
+MOTOR ON- kontaktor aktiverades inte\n
+\t\n
+1. Återstarta systemet\n
+2. Kolla transformatorns temp.brytare\n
+3. Kolla/byt kontaktorer(M.on/AUX)\n
+4. Byt övervakn.kontaktor KM3 eller\n
+   systemkortet.
+8001:
+Batteriet tomt\n
+Seriemätkortets %.f batteri har tömts\n
+sedan sista spänningsfrånslag\n
+\t\n
+Kontrollera batterispänning vid poweroff\n
+efter 18 timmars laddning vid power on.\n
+Kontrollera batterianslutningen till\n
+seriemätkortet.\n
+Sätt tillbaka batteriet.
+8010:
+Seriekort ej hittat\n
+Seriemätkort %.f ej hittat\n
+\t\n
+Kontrollera systemkonfigureringen\n
+Kontrollera anslutningar till seriemät-\n
+systemet. Byt ut seriemätkortet
+8011:
+Data överföringsfel\n
+Fel vid överföring av data till/från\n
+seriemätkort %.f\n
+\t\n
+Kontrollera anslutningar till seriemät-\n
+systemet. Kontrollera om det finns hög\n
+elektromagnetisk störning kring någon\n
+kabel som går till roboten. Byt ut\n
+mätkort eller robotdator.
+8012:
+Seriellt offsett X fel\n
+Offset fel i X signal på\n
+seriemätkort %.f\n
+\t\n
+Byt ut seriemätkortet
+8013:
+Seriellt offsett Y fel\n
+Offset fel i Y signal på\n
+seriemätkort %.f\n
+\t\n
+Byt ut seriemätkortet
+8014:
+Seriellt linjäritets fel\n
+Linjäritets fel på X-Y signal, olikhet\n
+på seriemätkort %.f\n
+-Systemet fungerar med varning\n
+-Systemet fungerar inte med fel\n
+\t\n
+Byt ut seriemätkortet
+8015:
+Seriellt linjäritetsfel X\n
+Linjäritets fel på X signalen\n
+på seriemätkort %.f\n
+\t\n
+Byt ut seriemätkortet
+8016:
+Seriellt linjäritetsfel Y\n
+Linjäritets fel på Y signalen\n
+på seriemätkort %.f\n
+\t\n
+Byt ut seriemätkortet
+8017:
+Parallell Komm. fel\n
+Kommunikations fel till\n
+axelkort\n
+\t\n
+Kontrollera anslutningar till\n
+axelkortet\n
+Kontrollera systemkonfigureringen
+8018:
+Parallell offset AD X\n
+X signal offset överskrider\n
+tolerans på axelkortet\n
+\t\n
+Byt ut axelkortet.
+8019:
+Parallell offset AD Y\n
+Y signal offset överskrider\n
+tolerans på axelkortet\n
+\t\n
+Byt ut axelkortet.
+8020:
+Parallell offset DA fel\n
+Offset överskrider toleransfel\n
+D/A konverterare på kanal %.f\n
+på axelkortet\n
+\t\n
+Använd annan mätkanal\n
+Byt ut axelkortet
+8021:
+Parallell linjärit. DA-AD\n
+Linjäritetsfel i D/A - A/D konverterare\n
+på kanal %.f på axelkort\n
+\t\n
+Byt ut axelkort
+8022:
+Konfigurations fel\n
+Fel i konfigureringen av mätsystem\n
+på kanal %.f\n
+\t\n
+Kontrollera/ändra systemkonfigureringens\n
+parametrar
+9001:
+Drivsystem fel\n
+Likriktare ej ansluten\n
+\t\n
+Sätt in likriktare\n
+Byt Likriktare
+9002:
+Drivsystem fel\n
+Likriktare uppstarts status fel\n
+\t\n
+Starta om systemet\n
+Byt likriktare
+9003:
+Drivsystem fel\n
+Likriktarspänning för hög\n
+\t\n
+Kontrollera anslutning till\n
+shunt- motstånd.\n
+Byt likriktare
+9004:
+Drivsystem fel\n
+Likriktarspänning ej tillåten\n
+\t\n
+Kontrollera spänning från\n
+motor on- kontakter.\n
+Byt likriktare
+9005:
+Drivsystem fel\n
+Likriktare temperatur för hög\n
+\t\n
+Kontrollera kylfläkt eller\n
+luftkonditionerare.\n
+Kontrollera AC- spänning likriktare.\n
+Ändra användar- program.\n
+Byt likriktare
+9006:
+Drivsystem fel\n
+Shunt temperatur för hög\n
+\t\n
+För mycket inbromsning.\n
+Ändra användarprogram.\n
+Kontrollera AC- spänning likriktare.\n
+Byt likriktare
+9007:
+Drivsystem fel\n
++- 15V utanför gränsen\n
+\t\n
+Kontrollera +/- 15V matning.\n
+Byt likriktare
+9008:
+Drivsystem fel\n
+Låg ström fel på kort %.f\n
+\t\n
+Kontrollera kablarna\n
+Kontrollera att rörelseparametern\n
+Spänning tolerans_min stämmer med\n
+verkliga spänningen\n
+Byt drivdon
+9009:
+Drivsystem fel\n
+Strömen för hög på kort %.f\n
+\t\n
+Kontrollera om motor eller\n
+motorkrets är kortsluten.\n
+Kontrollera/byt drivdon
+9010:
+Drivsystem fel\n
+Temperaturen för hög på kort %.f\n
+\t\n
+Kontrollera kylfläkt eller\n
+luftkonditionering.\n
+Ändra användarprogram.\n
+Kontrollera/byt drivdon.

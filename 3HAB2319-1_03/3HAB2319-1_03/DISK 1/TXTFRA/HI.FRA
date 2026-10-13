@@ -1,0 +1,246 @@
+
+
+1::
+0:
+
+1:
+Entrer Mot de Passe
+2:
+Maintenance
+3:
+Programmeur
+4:
+Autres fenetres
+5:
+"%s" Mot de Passe\n
+necessaire pour continuer.
+6:
+Operateur
+7:
+Lancer
+8:
+ProgOuMaint
+9:
+Le support a Change!\n
+Le contenu du support a ete\n
+change depuis le dernier\n
+acces.\n
+Relire le contenu?
+10:
+Fichier
+11:
+Edition
+12:
+Voir
+13:
+Special
+14:
+Annuler
+15:
+Couper
+16:
+Copier
+17:
+Coller
+18:
+Chercher...
+19:
+Aller a...
+20:
+Debut fichier
+21:
+Fin fichier
+22:
+Page suivante
+23:
+Page precedente
+24:
+Ouvrir...
+25:
+Sauvegarder sous...
+26:
+Imprimer...
+27:
+Preferences...
+28:
+OK
+29:
+Annuler
+30:
+Text
+31:
+Oui
+32:
+Non
+33:
+Ajouter
+34:
+Cacher
+35:
+Suppr
+36:
+Voir
+37:
+Unite
+38:
+Preced.
+39:
+Ouvrir
+40:
+Text...
+41:
+789456123-0.ABCDEFGHIJKLMNOPQRSTUVWXYZ+-<>*/,?=& :_[](){}%&" 
+42:
+789456123-0.abcdefghijklmnopqrstuvwxyz+-<>*/,?=& :_[](){}%&" 
+43:
+a->A
+44:
+A->a
+45:
+Info
+46:
+Entrer un nom!
+47:
+Nom:
+48:
+Unite de disque=
+49:
+Nouv Rep
+50:
+Entrer un nom de repertoire!
+51:
+Commune
+52:
+Interne
+53:
+Attention!
+54:
+Tapez Retour pour continuer!
+55:
+mm
+56:
+Deg
+57:
+789456123_0_ABCDEFGHIJKLMNOPQRSTUVWXYZ_ 
+58:
+Couper
+59:
+Copier
+60:
+Coller
+61:
+Exec.
+62:
+InstAV
+63:
+InstARR
+64:
+Cont
+65:
+Cycle
+66:
+Instr
+67:
+Continue
+68:
+Cycle
+69:
+Instruction
+70:
+Non Synchronise
+71:
+789456123_0_ABCDEFGHIJKLMNOPQRSTUVWXYZ_ 
+72:
+789456123_0_abcdefghijklmnopqrstuvwxyz_ 
+73:
+Un nom doit obligatoirement\n
+commencer par une lettre.\n
+\n
+\n
+Tapez Ret. pour continuer!
+74:
+Parametres
+75:
+Programme
+76:
+Module
+77:
+Systeme
+78:
+Archive Erreur
+79:
+Archive
+80:
+Repertoire
+81:
+Niveau superieur
+82:
+Volume vide
+83:
+Inconnu
+84:
+Fonction
+85:
+Niveau Utilisateur
+86:
+Confirmer
+87:
+Fonction    Niveau Util Confirmer
+88:
+Hors trajet!\n
+Le robot a ete bouge apres\n
+l'arret du programme.\n
+Retour du robot sur le\n
+trajet au redemarrage?
+89:
+Non
+90:
+Oui
+91:
+main
+92:
+Relire
+94:
+Imprimer Fichier
+95:
+Attendez!\n
+Le serveur de programme est\n
+utilise par un autre client.
+96:
+Conv Programme
+97:
+Conv Progr Mod
+98:
+Conv System Mod
+99:
+Touches Programmables
+100:
+Touche      Type        Connexion
+101:
+Touche
+102:
+Type
+103:
+Connexion
+104:
+Touche enfoncee
+105:
+Inexistant
+106:
+Entree
+107:
+Sortie
+108:
+Interrupt
+109:
+Bascule
+110:
+Set 0
+111:
+Set 1
+112:
+Appui/Rel.
+113:
+Pulse
+114:
+Sup. a 0 mais inf. a charge max

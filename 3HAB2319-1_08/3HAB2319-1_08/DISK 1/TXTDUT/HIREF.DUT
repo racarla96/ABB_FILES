@@ -1,0 +1,365 @@
+16::
+0:
+Tool-coordinaten bepaling
+1:
+Tool
+2:
+Methode
+3:
+Positie               Status
+4:
+(Desc.)
+5:
+ModPos
+6:
+Annul
+7:
+OK
+8:
+Tool-coordinaten beschrijving
+9:
+Positie van/naar
+10:
+Tool-berekenings resultaat
+11:
+TCP
+12:
+Berekeningslog
+13:
+Bestand...
+14:
+Selecteer een positie-array
+15:
+Array-naam
+16:
+Selecteer een tool-definitiemethode!
+17:
+Methode info
+18:
+Methodenaam
+19:
+-
+20:
+Gewijzigd
+21:
+Pos van
+22:
+Methode
+23:
+Gemiddelde fout
+24:
+Max fout
+25:
+Bewaar berekeningslog als
+26:
+Quaternion 1
+27:
+Quaternion 2
+28:
+Quaternion 3
+29:
+Quaternion 4
+30:
+Tonen positie-arrays van het type
+31:
+(OK)
+32:
+
+33:
+Geen
+34:
+Tool-variabele niet gevonden!\n
+\n
+  <     Druk op Enter!     >
+35:
+Wobj-variable niet gevonden!\n
+\n
+  <     Druk op Enter!     >
+36:
+Posevariabele niet gevonden\n
+\n
+  <     Druk op Enter!     >
+37:
+Kon jogging-tool niet gebruiken!\n
+Het jogging-tool moet van het\n
+persistente type zijn.\n
+\n
+  <     Druk op Enter!     >
+38:
+Kon jogging-wobj niet gebruiken!\n
+Het jogging-wobj moet van het\n
+persistente type zijn.\n
+\n
+  <     Druk op Enter!     >
+39:
+kartesisch X
+40:
+(Nieuw)
+41:
+(Verw)
+42:
+Bepaald
+43:
+Kartesisch Y
+44:
+Kartesisch Z
+45:
+Orbit gebruikers frame definitie
+46:
+Resultaat orbit gebr. frame calc
+47:
+Selecteer een definitie methode
+48:
+Unit
+49:
+Robot basis frame definitie
+50:
+Resultaat robot basis frame calculatie
+51:
+Set referentie punt
+52:
+(ModPos)
+53:
+Gelieve de wereld coordinaten te\n
+geven voor het vaste referentiepunt
+54:
+Enkelvoudig lin gebr. frame definitie
+55:
+Resultaat enkelv. lin gebr. frame calc
+56:
+Enkelvoudig rot gebr. frame definitie
+57:
+Resultaat enklev. rot gebr. frame calc
+58:
+Track Basis Frame Definitie
+59:
+Resultaat Track Basis Frame Calculatie
+60:
+Set...
+61:
+Veplaatste methode
+62:
+X
+63:
+Y
+64:
+Z
+65:
+Parameters worden overschreven!\n
+Bestaande parameters zullen\n
+overschreven worden.\n
+\n
+OK om verder te gaan?
+66:
+Mechanische unit as definitie
+67:
+Mechanische unit as calc resultaat
+69:
+As
+100:
+Werkobjectcoordinaten definitie
+101:
+Werkobjectcoordinaten beschrijving
+102:
+Resultaat van de werkobjectberekening
+103:
+Selecteer een positie-array
+104:
+WObj
+105:
+Gebruikersmethode
+106:
+Objectmethode
+107:
+Selecteer een objectmethode
+108:
+Selecteer een gebruikersmethode
+109:
+Gebruikerspos van/naar
+110:
+Objectpos van/naar
+111:
+Gebruiker
+112:
+Obj
+200:
+Verplaatsing van framedefinitie
+201:
+Verplaatsing van framebeschrijving
+202:
+Verplaatsing frameberekeningsresultaat
+203:
+Selecteer een positie-array
+204:
+Disp
+205:
+Orig
+206:
+Aantal punten
+207:
+Selecteer nieuwe methode
+500:
+n punten (n=%d)
+501:
+Initieel punt
+502:
+Verplaatst punt
+503:
+Punt
+504:
+Negative X
+505:
+Positive X
+506:
+Positive Y
+507:
+4 punten
+508:
+De orientatie van het basis frame\n
+is gelijk aan de orientatie van het\n
+wereld coordinaten systeem.
+509:
+Naderings punt 1
+510:
+Naderings punt 2
+511:
+Naderings punt 3
+512:
+Naderings punt 4
+513:
+Naderings punt 5
+514:
+Naderings punt 6
+515:
+Naderings punt 7
+516:
+Naderings punt 8
+517:
+Naderings punt 9
+518:
+Naderings punt 10
+519:
+Verlengingspunt X
+520:
+Verlengingspunt Z
+521:
+4 punten XZ
+522:
+X en Z verlenging gebruikt om de\n
+orientatie van het basis frame te\n
+definieren.
+523:
+4 punts TCP
+524:
+De orientatie zal het zelfde zijn als\n
+die van de montageflens van de robot.
+525:
+5 punts TCP & Z
+526:
+De X en Y richting zullen zo dicht\n
+mogelijk bij de pols coordinaten\n
+liggen.
+527:
+6 punts TCP & XZ
+528:
+Het TCP en alle tool richtingen\n
+zijn gedefinieerd
+529:
+3 punts
+530:
+Drie punten worden gebruikt, twee op\n
+de X-as en 1 op de Y-as
+531:
+Gebruiker
+532:
+Object
+533:
+Drie object punten worden gebruikt\n
+Twee op de X-as en 1 op de Y-as
+534:
+4 p TCP ORIENT NIET GESET
+535:
+Het orientatie component van de\n
+tool blijf onveranderd
+536:
+No change
+537:
+De definitie van het user coordinaten\n
+systeem blijft onveranderd.
+538:
+De definitie van het object coordinaten\n
+systeem blijft onveranderd.
+539:
+Er worden geen veranderingen aangebracht\n
+in de definities van de coord. systemen.
+550:
+Stationairy Tool Coordinaten Definitie
+551:
+Gebr. Tool
+552:
+Definitie van stationaire\n
+tool is niet mogelijk indien de\n
+robot de tool hanteerd.\n
+\n
+  < Druk op Enter >
+600:
+Spiegelen van een routine
+601:
+Te spiegelen routine
+602:
+Nieuwe routine naam
+603:
+Werk object
+604:
+Spiegel frame
+605:
+Spiegel as
+606:
+X
+607:
+Y
+608:
+Frame selectie
+609:
+Geef naam nieuwe routine
+610:
+Selecteer een werk object frame\n
+van de hieronder gegeven lijst
+611:
+Selecteer een spiegel frame van\n
+de hieronder gegeven lijst
+612:
+Niet veranderd
+613:
+Even geduld A.u.b.\n
+\n
+geselecteerde routine wordt\n
+gespiegeld.
+614:
+Spiegeling niet uitgevoerd.\n
+De naam van de te spiegelen\n
+routine bestaat reeds.
+615:
+Kan definitie niet uitvoeren!\n
+De  variable is gedeclareerd\n
+in een Read-only module.\n
+\n
+      < Druk op Enter >
+616:
+Callibratie van een Work  Object\n
+binnen een gecoordineerd user\n
+frame wordt niet ondersteund.\n
+\n
+  < Druk op Enter >
+617:
+Callibratie van een work object\n
+gehanteerd door de robot is\n
+niet mogelijk.\n
+\n
+  < Druk op Enter >
+618:
+Callibratie van een work object\n
+dat gebruik maakt van een stat.\n
+TCP is niet mogelijk.\n
+\n
+  < Druk op Enter >

@@ -1,0 +1,12 @@
+58::
+58:
+Les 2 parametres doivent etre >= 0
+59:
+Les 2 parametres doivent etre > 0 et\n
+<= 100
+60:
+Erreur quaternion
+62:
+L'axe ne doit pas etre inferieur a 0
+63:
+Erreur SDB

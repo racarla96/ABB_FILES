@@ -1,0 +1,453 @@
+when pressing fine calibration changed
+ion may cause shift in program positions
+Revision 1.12  1998/09/18  06:43:19  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+ion
+Revision 1.11  1996/12/12  07:41:52  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+8::
+0:
+Servizio
+1:
+Registro
+2:
+Calibration
+3:
+
+4:
+Salva registri come.
+5:
+Calibrazione
+6:
+Commutazione
+7:
+Calib
+8:
+(Calibraz. Manuale...)
+9:
+Calibraz...
+10:
+Aggiorn. Counter Resolver...
+11:
+(Visualiz. Posiz. Misurata...)
+12:
+Sovrascrittura del registro!\n
+Il registro esistente sara'\n
+riscritto.\n
+\n
+OK per continuare?
+13:
+Unita'          Stato
+14:
+   Asse       Stato
+15:
+Controllo esterno
+16:
+Per calibrare, inser. assi e premere OK.
+17:
+Incl
+18:
+Escl
+19:
+Tutti
+20:
+Sincronizzato
+21:
+Non sincronizzato
+22:
+Non Calibrato
+23:
+Counter Res. non agg.
+24:
+Calibrato
+25:
+Counter Resolver agg.
+26:
+La calibrazione sara' aggiornata\n
+con i valori dati.\n
+Impossibile annullare in seguito!\n
+\n
+OK per continuare ?
+27:
+La calibrazione per tutti gli assi\n
+segnati sara' effettuata.\n
+Impossibile annullare in seguito!\n
+\n
+OK per continuare?
+28:
+I Counter Resolver per gli assi\n
+segnati saranno aggiornati.\n
+Impossibile annullare in seguito!\n
+\n
+OK per continuare?
+29:
+Nessun asse incluso.\n
+\n
+\n
+Premere Invio per\n
+provare nuovamente!
+30:
+Processo Calibraz. iniziato!\n
+\n
+Pronto tra poco...
+31:
+Non Commutato
+32:
+Stato Iniz.
+33:
+Com
+34:
+(Commutaz. Manuale...)
+35:
+Commutaz...
+36:
+\n
+Salvataggio reg. nel file...
+37:
+Per commutare, inser. assi e premere OK.
+38:
+La commutazione sara' agg.\n
+con i valori dati.\n
+Impos. annullare in seguito!\n
+\n
+OK per continuare?
+39:
+La commutazione sara' modif. per\n
+tutti gli assi segnati.\n
+Impossibile annullare in seguito!\n
+\n
+OK per continuare?
+40:
+Commutato
+41:
+Nessun asse inserito\n
+\n
+\n
+Premere Invio per\n
+provare nuovamente!
+42:
+Processo Commutaz. iniziato!\n
+\n
+Pronto tra poco...
+43:
+Alcuni assi non sono\n
+commutati. Selezionare\n
+Commutazione dal menu\n
+Vista.\n
+Premere Invio per proseguire!
+44:
+Data e ora...
+45:
+Data:
+46:
+Ora:
+47:
+<
+48:
+>
+49:
+Info sistema...
+50:
+Messag
+51:
+Nome              #   Ultimo
+52:
+Messaggi
+53:
+Cancella Registro
+54:
+Cancella Tutti Registri
+55:
+Special
+56:
+Reg
+57:
+Messaggio                Data
+58:
+Nessun messaggio!
+59:
+Aggiorn
+60:
+Agg. reg. su comando
+61:
+Agg. reg. su Evento
+62:
+Tutti i messaggi nel registro %s\n
+saranno cancellati.\n
+\n
+OK per continuare ?
+63:
+Tutti i messaggi in tutti registri\n
+saranno cancellati.\n
+\n
+OK per continuare ?
+64:
+Salva %s reg. messaggi come!
+65:
+ELOG
+66:
+%s reg. messaggi\n
+Salvati il: %s\n
+
+67:
+Vai alla Linea!
+68:
+Linea:=
+69:
+Errore:
+70:
+Riavvio...
+71:
+Comando di Riavvio!\n
+Vuoi riavviare il\n
+controllo?\n
+\n
+OK per continuare?
+72:
+Stato:
+73:
+Attenzione:
+74:
+Salva Reg. messaggi come!
+75:
+Definiz. Sist. di Riferim.
+76:
+Unita'            Tipo
+77:
+Selez. l'unita' per la quale si\n
+vuole defin. un sist. di rifer.\n
+Le unita' dove e' possibile def.\n
+sono visualizzate nell'elenco.
+78:
+Def...
+79:
+Robot IRB1400
+80:
+Robot IRB1400
+81:
+Robot IRB2400
+82:
+Robot IRB2400
+83:
+Robot IRB3400
+84:
+Robot IRB6400
+85:
+Robot IRBPAL
+86:
+Orbit 160B_1
+87:
+Orbit 160B_2
+88:
+Portale
+89:
+Slitta
+90:
+Posizione esterna
+91:
+Rotazione utensile
+92:
+Rotazione libera
+93:
+Sist.Rif.Base...
+94:
+Impos. salvare reg.!\n
+Spazio su disco insuffic. o\n
+disco protetto da scrittura.\n
+\n
+Premere Invio per riprovare!
+95:
+Non utiliz.
+96:
+Definizione di due assi
+97:
+Selezionare unita' per la quale\n
+effettuare definizione degli assi.\n
+Sono elencate solo\n
+le unita' con due assi.
+98:
+Def...
+99:
+Definizione due assi...
+100:
+(Def)
+101:
+Nessuna unita' valida disponibile.
+102:
+Argomenti
+103:
+Selezionare un argomento e premere Enter
+104:
+Robot IRB4400
+105:
+Robot IRB540_FLX
+106:
+Robot IRB5400_HLW
+107:
+Nastro rotante
+108:
+Capacita' memoria
+109:
+Stato task
+110:
+ID Sistema
+111:
+ID Prodotto
+112:
+Tipo robot
+113:
+uninit
+114:
+pronto
+115:
+in esecuz
+116:
+fermo
+117:
+non defin.
+118:
+Aggiorn.
+119:
+Task
+120:
+Free
+121:
+Totale
+122:
+Stato task
+123:
+Dispositivo
+124:
+Risorse di programma
+125:
+Massimo numero di variabili PERS:
+126:
+Totale memoria programma:
+127:
+Non disponibile
+128:
+Salva tutti reg come
+129:
+Salva tutti messaggi come...
+130:
+ELOG_ALL
+131:
+\n
+Salvataggio di tutti\n
+i registri su file...
+132:
+Tutti messaggi registri\n
+Data salvataggio: %s
+133:
+%s messaggi registri
+134:
+Backup...
+135:
+Restore...
+136:
+
+137:
+Salva tutti i moduli e i parametri\n
+di sistema nella directory destinazione
+138:
+Backup
+139:
+Restore di moduli e parametri sistema\n
+dal direttorio origine selezionato.\n
+Necessario warm start dopo Restore
+140:
+Restore
+141:
+Seleziona o crea direttorio di Backup
+142:
+Seleziona direttorio backup per restore
+143:
+BAK
+144:
+Impossibile creare direttorio\n
+Seleziona un altro nome o percorso!
+145:
+Premere Invio per selez. direttorio
+146:
+Direttorio non vuoto!\n
+Seleziona un altro direttorio\n
+o usa FileManager per\n
+cancellare contenuto.
+147:
+Autorizza Restore
+148:
+Restore
+149:
+Attendere, prego!\n
+Esecuzione backup\n
+Salvataggio parametri sistema.
+150:
+Attendere, prego!\n
+Esecuzione backup\n
+Salvataggio moduli...
+151:
+Attendere, prego!\n
+Esecuzione restore\n
+Caricamento parametri sistema.
+152:
+Attendere, prego!\n
+Esecuzione restore\n
+Caricamento moduli...
+153:
+Attendere, prego!\n
+\n
+Esecuzione warm start.
+154:
+Restore cancellera' tutti i moduli e i\n
+parametri di sistema presenti. I moduli\n
+specificati nei parametri di sistema\n
+saranno sovrascritti.
+155:
+Direttorio e' vuoto!\n
+Seleziona un altro direttorio!
+156:
+Direttorio inesistente!\n
+Seleziona un altro direttorio!
+157:
+Il backup e' terminato.
+158:
+Calibrazione\n
+Posizionare robot in posizione\n
+calibrazione, secondo il manuale.\n
+Questa operazione potrebbe causare uno\n
+spostamento attuali posizioni programma.
+160:
+Direttorio di destinazione:
+161:
+Direttorio origine:
+162:
+Includi registri:
+163:
+Autorizza Restore
+164:
+Restore
+165:
+ID Sistema
+166:
+ID Prodotti
+167:
+Tipo Robot
+168:
+Backup incompatibile con il sisetma
+169:
+Backup:
+170:
+Corrente:
+171:
+Confermare Restore?
+172:
+Memoria programma disponibile:
+173:
+Backup non possibile causa\n
+esecuzione del task main.\n
+Arrestare il task main e\n
+riprovare il backup.

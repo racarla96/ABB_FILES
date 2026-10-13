@@ -1,0 +1,928 @@
+23::
+0:
+Hardware
+1203:
+Errore floppy disk\n
+Disco guasto o non inizializzato\n
+\t\n
+1. Ripetere il tentativo\n
+2. Sostituire il disco
+1206:
+Errore floppy disk\n
+Disco guasto o errore interno\n
+\t\n
+1. Ripetere il tentativo\n
+2. Sostituire il disco\n
+3. Inizializzare il sistema
+1207:
+Errore Floppy Disk\n
+Floppy disk mancante o non pronto\n
+\t\n
+1. Ripetere il tentativo
+1210:
+Errore floppy disk\n
+Formato non corretto\n
+\t\n
+1. Sostituire il disco
+1211:
+Errore floppy disk\n
+Errore trasf. dati da/per disco\n
+\t\n
+1. Ripetere il tentativo\n
+2. Sostituire il disco\n
+3. Inizializzare il sistema
+1214:
+Errore floppy disk\n
+Trasferimento dati interrotto\n
+\t\n
+1. Ripetere il tentativo\n
+2. Inizializzare il sistema
+1215:
+Errore floppy disk\n
+Comando interno non valido\n
+\t\n
+1. Ripetere il tentativo\n
+2. Inizializzare il sistema
+1216:
+Errore floppy disk\n
+Rimosso disco durante trasf. dati\n
+\t\n
+1. Ripetere il tentativo\n
+2. Inizializzare il sistema
+1217:
+Errore floppy disk\n
+Disco o drive guasto\n
+\t\n
+1. Ripetere il tentativo\n
+2. Sostituire il disco\n
+3. Inizializzare il sistema
+1219:
+Errore floppy disk\n
+Drive non pronto\n
+\t\n
+1. Ripetere il tentativo\n
+2. Inizializzare il sistema
+1220:
+Errore floppy disk\n
+Disco guasto o errore interno\n
+\t\n
+1. Ripetere il tentativo\n
+2. Sostituire il disco\n
+3. Inizializzare il sistema
+1221:
+Errore floppy disk\n
+Errore dati\n
+\t\n
+1. Ripetere il tentativo\n
+2. Sostituire il disco\n
+3. Inizializzare il sistema
+1222:
+Errore floppy disk\n
+Errore interno - Overrun\n
+\t\n
+1. Ripetere il tentativo\n
+2. Inizializzare il sistema
+1223:
+Errore floppy disk\n
+Disco guasto o errore interno\n
+\t\n
+1. Ripetere il tentativo\n
+2. Sostituire il disco\n
+3. Inizializzare il sistema
+1224:
+Errore floppy disk\n
+Disco protetto in scrittura\n
+\t\n
+1. Rimuovere la protezione
+1225:
+Errore floppy disk\n
+Disco guasto - Indirizzo mancante\n
+\t\n
+1. Sostituire il disco
+1226:
+Errore floppy disk\n
+Dati non corretti su disco\n
+\t\n
+1. Sostituire il disco
+1227:
+Errore floppy disk\n
+Disco Guasto - Cilindro mancante\n
+\t\n
+1. Sostituire il disco
+1228:
+Errore floppy disk\n
+Disco Guasto - Cilindro difettoso\n
+\t\n
+1. Sostituire il disco
+1229:
+Errore floppy disk\n
+Disco Guasto - Errato indirizz. dati\n
+\t\n
+1. Sostituire il disco
+1605:
+Errore mem. I/O computer\n
+\n
+\t\n
+Sostituire scheda robot computer
+1606:
+Errore mem. I/O computer\n
+\n
+\t\n
+Sostituire scheda robot computer
+1607:
+Errore mem. I/O computer\n
+\n
+\t\n
+Sostituire scheda robot computer
+1608:
+Errore checksum I/O comp.\n
+\n
+\t\n
+Sostituire scheda robot computer
+2118:
+MC RESET ERROR.\n
+Main computer running in spite\n
+of RESET command.\n
+\t\n
+Replace main computer board
+2301:
+Errore MAIN COMPUTER\n
+\n
+\t\n
+Sostituire scheda main computer
+2302:
+Errore MAIN COMPUTER\n
+\n
+\t\n
+Sostituire scheda main computer
+2303:
+Errore MAIN COMPUTER\n
+\n
+\t\n
+Sostituire scheda main computer
+2305:
+Errore MEMORIA ESTESA\n
+\n
+\t\n
+Sostituire scheda espansione memoria
+1401:
+Errore DMA\n
+Errore trasf. DMA in ROBOT COMPUTER\n
+\t\n
+Sostituire scheda robot computer
+1402:
+Errore DMA\n
+Errore trasf. DMA in ROBOT COMPUTER\n
+\t\n
+Sostituire scheda robot computer
+1403:
+Errore DMA\n
+Errore trasf. DMA in ROBOT COMPUTER\n
+\t\n
+Sostituire scheda robot computer
+1404:
+Errore DMA\n
+Errore trasf. DMA in ROBOT COMPUTER\n
+\t\n
+Sostituire scheda robot computer
+1408:
+Errore AXIS COMPUTER\n
+\n
+\t\n
+Sostituire scheda robot computer
+1409:
+Errore ROBOT COMPUTER\n
+\n
+\t\n
+Sostituire scheda robot computer
+1410:
+Errore AXIS COMPUTER\n
+\n
+\t\n
+Sostituire scheda robot computer
+1411:
+Errore AXIS COMPUTER\n
+\n
+\t\n
+Sostituire scheda robot computer
+1414:
+Errore MAIN COMPUTER\n
+\n
+\t\n
+1. Sostituire la scheda main computer\n
+2. Sostituire la scheda robot computer
+1415:
+Errore MAIN COMPUTER\n
+\n
+\t\n
+Sostituire scheda main computer
+1418:
+Errore trasf. DMA\n
+Errore trasf. DMA nel ROBOT computer\n
+\t\n
+Sostituire scheda robot computer
+1419:
+Errore trasf. DMA\n
+Errore trasf. DMA nel ROBOT computer\n
+\t\n
+Sostituire scheda robot computer
+1420:
+Errore trasf. DMA\n
+Errore trasf. DMA nel ROBOT computer\n
+\t\n
+Sostituire scheda robot computer
+1114:
+Errore di bus\n
+Errore accesso bus/MAIN computer\n
+\t\n
+1. Sostituire scheda main computer\n
+2. Sostituire scheda robot computer
+1501:
+Tensione batteria bassa\n
+Tensione batteria 1 troppo bassa\n
+\t\n
+Sostituire batteria 1
+1502:
+Tensione batteria bassa\n
+Tensione batteria 2 troppo bassa\n
+\t\n
+Sostituire batteria 2
+1503:
+Tensione batterie basse\n
+Tensione insufficiente\n
+su entrambe le batterie\n
+\t\n
+Sostituire le batterie
+1505:
+Errore circuito batterie\n
+\n
+\t\n
+Sostituire scheda computer robot
+3301:
+Errore AXIS computer\n
+\n
+\t\n
+Sostituire scheda computer robot
+3302:
+Errore computer assi\n
+Computer assi non e' stato in grado\n
+di disattivare il segnale VME SYSFAIL\n
+\t\n
+Sostituire scheda computer robot
+3303:
+Errore computer assi\n
+Computer assi non e' stato in grado\n
+di attivare il segnale VME SYSFAIL\n
+\t\n
+Sostituire scheda robot computer
+3304:
+Errore AXIS computer\n
+\n
+\t\n
+Sostituire scheda robot computer
+3305:
+Err. memoria AXIS comp.\n
+\n
+\t\n
+Sostituire scheda robot computer
+3308:
+Errore AXIS computer\n
+\n
+\t\n
+Sostituire scheda robot computer
+3309:
+Errore AXIS computer\n
+\n
+\t\n
+Sostituire scheda robot computer
+3310:
+Errore AXIS computer\n
+\n
+\t\n
+Sostituire scheda robot computer
+3311:
+Axis computer\n
+Errore loopback rif. corrente\n
+\t\n
+Sostituire scheda robot computer
+3312:
+Errore AXIS computer\n
+Errore segnale RUNNING/DRVFLT\n
+\t\n
+1. Sostituire scheda robot computer\n
+2. Verificare unita' drive
+3314:
+Errore AXIS computer\n
+\n
+\t\n
+Sostituire scheda robot computer
+3315:
+Errore AXIS computer\n
+\n
+\t\n
+Sostituire scheda robot computer
+3316:
+Errore AXIS computer\n
+Errore comunicazione\n
+axis computer\n
+\t\n
+Sostituire scheda robot computer
+3320:
+Errore computer assi.\n
+Errore riportato da computer assi\n
+\t\n
+Sostituire scheda computer robot
+3321:
+Errore computer assi.\n
+Vettore VME errato generato al test\n
+\t\n
+Sostituire scheda computer robot
+4001:
+Errore bus\n
+Errore bus inatteso durante test VME\n
+\t\n
+Controllare schede VME
+4002:
+Errore bus\n
+Risposta inattesa durante test VME\n
+\t\n
+Controllare schede VME
+4003:
+Errore VME\n
+Il segnale VME SYSFAIL non puo'\n
+essere disattivato.\n
+\t\n
+1.Sostituire schede VME\n
+2.Sostituire\n
+3.Sostituire scheda VME terminale,\n
+  se presente
+7002:
+DSQC306 guasta\n
+Software non caricato\n
+su main computer.\n
+\t\n
+
+7003:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7004:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7005:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7006:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7007:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7008:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7009:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7010:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7011:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7012:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7013:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7014:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7015:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7016:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7017:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7018:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7019:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7020:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7021:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7022:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7023:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7024:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7025:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7026:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7027:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7028:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7029:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7030:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7031:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7032:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7033:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7034:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7035:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7036:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7037:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7038:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7039:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7040:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7041:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7042:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7043:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7044:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7045:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7046:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7047:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7048:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7049:
+Errore attivaz. contatt.\n
+Contattore di stazione %s o\n
+contattore Supervisory o contatt.\n
+ausiliario non attivato.\n
+\t\n
+Riavviare il sistema.\n
+Controllare contatt. o contatt.\n
+Supervisory o ausiliario. Controllare\n
+output del contatt. o input da contatt.\n
+Sostituire scheda sistema.
+1701:
+Overrun canale seriale\n
+Errore di Overrun\n
+canale seriale %.f\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire scheda robot computer
+1702:
+Err. canale seriale 2\n
+\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire scheda robot computer
+1706:
+Err. parita' canale\n
+Errore parita' canale seriale %.f\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire scheda robot computer
+1707:
+Err. parita' canale 2\n
+Errore parita' canale seriale 2\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire scheda robot computer
+1711:
+Errore riferimento\n
+Errore rifer. canale seriale %.f\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire scheda robot computer
+1712:
+Errore canale 2\n
+Errore rifer. canale seriale 2\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire scheda robot computer
+1716:
+Errore canale\n
+Errore canale seriale %.f\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire scheda robot computer
+1730:
+Errore Timer %.f\n
+\n
+\t\n
+2. Sostituire scheda robot computer
+1733:
+Err. can. seriale %.f\n
+I dati ricevuti non sono identici a\n
+quelli trasmessi.\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire scheda robot computer
+1734:
+Err. canale seriale 2\n
+I dati ricevuti non sono identici a\n
+quelli trasmessi\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire scheda robot computer
+1738:
+Errore Timer o Counter\n
+Errore Timer o Counter  %.f\n
+\t\n
+Sostituire scheda robot computer
+1742:
+Err. canale seriale 2\n
+Errore handshake\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire scheda robot computer
+1746:
+Err. can. seriale %.f\n
+Errore handshake\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire scheda robot computer
+1747:
+Err. can. seriale %.f\n
+Errore interrupt\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire scheda robot computer
+2235:
+Errore trans DMA (MC-AXC)\n
+MC asic R4 indica errore interno DMA\n
+\t\n
+1.Sostituire la scheda main computer\n
+2.Riavviare il sistema,\n
+  se l'errore permane :\n
+3.Sostituire la scheda robot computer
+2244:
+Err. timeout DMA (MC-AXC)\n
+Trasferimento DMA non completato nel\n
+tempo richiesto\n
+\t\n
+1.Verificare bus VME.\n
+2.Sostituire la scheda main computer o\n
+3.Sostituire la scheda robot computer
+2246:
+Err trasfer. DMA (MC-AXC)\n
+MC asic R4 flag di DMA pronto non\n
+attivato\n
+\t\n
+1.Sostituire la scheda main computer
+2247:
+Err. inter. mailbox 1\n
+Errore interrupt mailbox 1\n
+su I/O computer\n
+\t\n
+Sostituire scheda robot computer
+2248:
+Err. inter. mailbox 2\n
+Errore interrupt mailbox 2\n
+su I/O computer\n
+\t\n
+Sostituire scheda robot computer
+2254:
+Errore main computer\n
+La scheda main computer non riesce ad\n
+attivare il segnale VME SYSFAIL.\n
+\t\n
+1.Sostituire la scheda main computer.
+2255:
+Errore main computer\n
+La scheda main computer non riesce a\n
+disattivare il segnale VME SYSFAIL.\n
+\t\n
+1.Sostituire la scheda main computer
+2256:
+Err trasf. DMA (MC-AXC)\n
+Test negativo su pattern in memoria AXC\n
+\t\n
+1.Sostituire la scheda main computer
+2257:
+Err trafer. DMA (MC-AXC)\n
+Test negativo su pattern in memoria AXC\n
+\t\n
+1.Sostituire la scheda main computer
+1108:
+Errore canale seriale\n
+Errore in canale seriale %.f\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1115:
+Err. canale seriale 1\n
+I dati ricevuti non sono identici a\n
+quelli trasmessi\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1116:
+Overflow can. ser. 1\n
+\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1117:
+Err. parita' canale 1\n
+\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1118:
+Err. rifer. canale 1\n
+\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1119:
+Disturbi su canale 1\n
+\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1130:
+Errore Porta\n
+\n
+\t\n
+Sostituire scheda robot computer
+1131:
+SYSRESET non eseguito\n
+\n
+\t\n
+Sostituire le schede su bus VME.\n
+1. Verif. Robot computer.\n
+2. Verif. le altre schede su bus VME.\n
+3. Verif. backplane.
+1132:
+Err. canale seriale n. 2\n
+I dati ricevuti differiscono da quelli\n
+trasmessi.\n
+\t\n
+1. Verificare i parametri di comunicaz.\n
+2. Sostituire la scheda robot computer
+1133:
+Overflow canale seriale 2\n
+\n
+\t\n
+1. Verificare parametri comunicazione\n
+2. Sostituire scheda robot computer
+1134:
+Err. di parita' su can. 2\n
+\n
+\t\n
+1. Verificare i parametri di comunicaz.\n
+2. Sostituire la scheda robot computer
+1135:
+Errore frame su canale 2\n
+\n
+\t\n
+1. Verificare parametri di comunicaz.\n
+2. Sostituire la scheda robot computer
+1136:
+Errore di rumore canale 2\n
+\n
+\t\n
+1. Verificare parametri di comunicaz.\n
+2. Sostituire la scheda robot computer
+1147:
+Errore computer IO\n
+L'IO computer non riesce ad attivare il\n
+segnale VME SYSFAIL\n
+\t\n
+1.Sostituire l'IO computer
+1148:
+Errore computer IO\n
+L'IO computer non riesce a disattivare\n
+il segnale VME SYSFAIL.\n
+\t\n
+1.Sostituire l'IO computer
+3150:
+Errore Int AXIS computer\n
+Computer assi bloccato con un\n
+interrupt hardware causato da un\n
+errore interrupt\n
+\t\n
+Ricaricare il sistema\n
+Sostituire scheda robot computer
+3158:
+Errore clock AXIS comp\n
+Errore unita' clock del computer assi\n
+Main computer non risponde richieste\n
+\t\n
+Ricaricare il sistema\n
+Sostituire la scheda main computer
+3159:
+Attenz - vel. Modo Man.\n
+L'asse %.f ha superato la velocita'\n
+max consentita in modo Manuale\n
+\t\n
+Verif. la corretta definizione massa\n
+Verif. parametri del contr. assi est.\n
+Verificare i punti sing. del robot.\n
+Sostituire l'unita' drive.
+3201:
+Err. lett. AXIS comp.\n
+Errore di lettura dall'unita' AXIS\n
+computer. Computer assi non ritorna\n
+un corretto numero di bytes.\n
+\t\n
+Verificare la configurazione sistema\n
+Ricaricare il sistema\n
+Sostituire scheda robot computer
+3202:
+Err. scritt. AXIS comp\n
+Err. di scrittura nell'unita' AXIS\n
+computer. Computer assi non ritorna\n
+un corretto numero di bytes.\n
+\t\n
+Verificare la configurazione sistema\n
+Ricaricare il sistema\n
+Sostituire scheda robot computer
+3203:
+Errore ioctl AXIS comp\n
+Errore ioctl AXIS computer.\n
+Errore nell'eseguire il comando ioctl\n
+\t\n
+Riavviare il sistema\n
+Ricaricare il sistema\n
+Sostituire scheda robot computer
+3210:
+Errore posiz. Feedback\n
+Errore generato in lettura feedback\n
+di posizione sull'asse %.f.\n
+\t\n
+Ricaricare il sistema\n
+Sostituire la scheda main computer
+3211:
+Probl. contr. posizione\n
+Non possibile completare il controllo\n
+di posizione nel tempo consentito.\n
+\t\n
+Ricaricare il sistema\n
+Verificare il livello di rumore sulle\n
+connessioni di I/O
+3212:
+Errore Timeout DMA\n
+Interrotto accesso DMA dalla main\n
+computer al computer assi.\n
+\t\n
+Ricaricare il sistema\n
+Sostituire la scheda main\n
+computer o il computer assi
+3213:
+Errore Operazione DMA\n
+Azione Controllo DMA interrotta dalla\n
+main computer al computer assi.\n
+\t\n
+Ricaricare il sistema\n
+Sostituire la scheda main\n
+computer o il computer assi.
+3220:
+Errore AXIS computer\n
+L'AXIS computer ha segnalato un\n
+codice di errore indicante un\n
+guasto hardware.\n
+\t\n
+Ricaricare il sistema\n
+Sostituire scheda robot computer

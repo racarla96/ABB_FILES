@@ -1,0 +1,49 @@
+73::
+0:
+Punktschweiﬂen
+1:
+PunktschweiﬂSystem Fehler\n
+Punktschweiﬂ Prozeﬂ nicht bereit.\n
+\t\n
+Prozeﬂstatus, definiert durch -SwInit-,\n
+auf bereit setzen.
+2:
+PunktschweiﬂSystem Fehler\n
+Parameter %s\n
+\t\n
+
+3:
+SwStart Timeout negativ\n
+\n
+\t\n
+
+4:
+SwInit Interrupt negativ\n
+\n
+\t\n
+
+5:
+Prozeﬂ_ID\n
+Prozeﬂ_lD Ursache:\n
+- Prozeﬂ_ID entspricht nicht dem Wert\n
+  von SwInit.\n
+- Der Punktschweiﬂ Prozeﬂ wurde\n
+  abgebrochen.\n
+\t\n
+
+6:
+Punktschweiﬂ Komm. Fehler\n
+Ursache: %s\n
+\t\n
+
+7:
+Antwort poll rate\n
+Antwort niedriger als Pollingrate.\n
+\t\n
+
+8:
+Verbindung zu BOSCH\n
+Keine Verbindung zur BOSCH Steuerung\n
+verf¸gbar.\n
+\t\n
+

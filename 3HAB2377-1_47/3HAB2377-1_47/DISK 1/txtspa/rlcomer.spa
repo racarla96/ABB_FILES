@@ -1,0 +1,49 @@
+55::
+46:
+No puedo abrir
+47:
+CODIGO RAISE:
+48:
+No abierto
+49:
+No es archivo ascii
+50:
+No es archivo binario
+51:
+No pude acceder al archivo
+52:
+El parametro %s en
+53:
+no es una matriz.
+54:
+El buffer de salida se debe especificar\n
+como matriz de num
+55:
+esta especificado como valor negativo.
+56:
+El parametro debe hacerse positivo.
+57:
+No puedo acceder el
+58:
+generador de eventos de tiempo.
+59:
+generador de eventos de señales.
+60:
+Exceso tiempo interrumpio ejecucion de
+61:
+Entrada digital interrumpio ejecucion de
+65:
+Datos recibidos no son tipo numerico
+67:
+String demasiado largo
+68:
+Demasiadas peticiones lectura pendientes
+76:
+El elemento del buffer %i en
+77:
+esta fuera de 0-255.
+78:
+Todos los elementos del buffer deben\n
+tener el valor entre 0-255
+80:
+esta fuera de la matriz.

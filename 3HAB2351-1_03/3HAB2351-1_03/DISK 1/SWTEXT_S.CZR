@@ -1,0 +1,51 @@
+%%%
+  VERSION: 1
+  LANGUAGE: ENGLISH
+%%%
+
+MODULE SWTEXT (SYSMODULE, NOVIEW)
+
+! ----------------
+! $Revision: 1.1 $ 
+! ----------------
+
+ !***************
+ ! Global data  *
+ !***************
+ 
+ !Function key texts (max 7 char)
+ CONST string swfktx1 := "Provoz";
+ CONST string swfktx2 := "Preskocit";
+ CONST string swfktx3 := "Prevarit";
+ CONST string swfktx4 := "Zkusit znovu";
+ CONST string swfktx9 := "Preruseni";
+ 
+ !Info texts (max 40 char) 
+ CONST string swtx1 := "Provozni rutina pripravena";
+
+ !system error messages
+ CONST string sw001_s := "SWSYS01: Preruseni nelegalni kontroly";
+ CONST string sw002_s := "SWSYS02: Preruseni nelegalniho procesu";
+ CONST string sw003_s := "SWSYS03: Vnitrni chyba, Neplatne cislo chyby";
+
+ !Error message header (max 24 char)  
+ CONST string sw001_h := "sw001: Neplatna spotdata";
+ CONST string sw002_h := "sw002: Neplatna spotdata";
+ CONST string sw003_h := "sw003: Neplatna spotdata";  
+ CONST string sw004_h := "sw004: Chyba pistole";
+ CONST string sw005_h := "sw005: Chyba pistole";
+ CONST string sw006_h := "sw006: Chyba svaru";
+ CONST string sw007_h := "sw007: Neplatna hodnota";
+ CONST string sw008_h := "sw008: Chyba predvareni";
+ CONST string sw009_h := "sw009: Chyba dovareni";
+
+ !Error message reason (max 40 char)  
+ CONST string sw001_r := "Neplatne prog_no v spotdata"; 
+ CONST string sw002_r := "Neplatne tip_no v spotdata";
+ CONST string sw003_r := "Neplatny gun_pressure v spotdata";
+ CONST string sw004_r := "Tlak pistole nedosazen";
+ CONST string sw005_r := "Prodleva rozevreni pistole";
+ CONST string sw006_r := "Prodleva weld_ready";
+ CONST string sw007_r := "Neplatna hodnota dat: sw_parity"; 
+ENDMODULE
+

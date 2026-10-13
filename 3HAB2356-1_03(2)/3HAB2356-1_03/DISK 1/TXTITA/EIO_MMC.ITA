@@ -1,0 +1,201 @@
+17::
+0:
+Segnali IO
+1:
+Segnali Utente
+2:
+Sistema
+3:
+Porte Digitali
+4:
+Nome Segnale
+5:
+Nome Scheda
+6:
+Tipo Segnale
+7:
+Numero Segnale
+8:
+Segnale Start
+9:
+Lunghez. Porta
+10:
+DI
+11:
+DO
+12:
+Sicurezza
+13:
+Nome Scheda
+14:
+Tipo Scheda
+15:
+Bus
+16:
+Input Digitali
+17:
+Output Digitali
+18:
+Schede IO
+19:
+Nome        Scheda      Tipo      Segn
+20:
+Nome       Scheda      Lungh    SegnFis
+21:
+Tipo Scheda
+22:
+Nome       Scheda      Bus    Indirizzo
+23:
+GI
+24:
+GO
+25:
+Input Sistema
+26:
+Output Sistema
+27:
+Nome
+28:
+Azione
+29:
+Stato
+30:
+MotorOn
+31:
+MotorOff
+32:
+CycleOn
+33:
+MotorOn
+34:
+MotorOff
+35:
+Start
+36:
+StartMain
+37:
+Stop
+38:
+StopCycle
+39:
+Interrupt
+40:
+LoadStart
+41:
+Argomento
+42:
+Nome        Azione
+43:
+Nome        Stato
+44:
+-
+45:
+A
+46:
+Da
+47:
+Connessioni Incroc
+48:
+Da          A
+49:
+Input Analogici
+50:
+Output Analogici
+51:
+Indirizzo
+52:
+AO
+53:
+AI
+54:
+ResetEStop
+55:
+EmStop
+56:
+AutoOn
+57:
+RunchOK
+58:
+VelocTCP
+59:
+Max Logico
+60:
+Max Fisico
+61:
+Min Logico
+62:
+Min Fisico
+63:
+Filtro Passivo
+64:
+Filtro Attivo
+65:
+Invertito
+67:
+SI
+68:
+NO
+69:
+RIO Addr(octal)
+70:
+RIO Baud Rate
+71:
+RIO Start Group
+72:
+RIO dimens. rack
+73:
+RIO ultimo rack
+74:
+57.6 kB
+75:
+115 kB
+76:
+230 kB
+77:
+0
+78:
+2
+79:
+4
+80:
+6
+81:
+1/4
+82:
+1/2
+83:
+3/4
+84:
+FULL
+85:
+Errore
+86:
+SincAsEst
+87:
+BAS
+88:
+VME
+89:
+SIM
+90:
+ResetError
+91:
+CAN
+92:
+Ind Slot
+93:
+Memoriz
+94:
+StatoMotOn
+95:
+StatoMotOff
+96:
+ErrorePF
+97:
+StartMotOn
+98:
+StopIstruz
+99:
+ResetSist
+100:
+IBS dimens.Rack

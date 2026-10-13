@@ -1,0 +1,183 @@
+26::
+0:
+Operatör
+1:
+%s saknas\n
+Verktyg %s används inte\n
+i aktuellt program.\n
+Kanske för att den är borttagen\n
+eller odefinierad.\n
+\t\n
+Ändra till ett annat verktyg i\n
+Joggnings-fönstret.
+2:
+%s saknas\n
+Arbetsobjekt %s används inte\n
+i aktuellt program.\n
+Kanske för att den är borttagen\n
+eller odefinierad.\n
+\t\n
+Ändra till ett annat arbetsobjekt i\n
+Joggnings-fönstret.
+3:
+Katalog ej skapad!\n
+Katalogen %s kan inte skapas.\n
+troligtvis för att katalogen redan finns\n
+eller för att disken är skrivskyddad.\n
+\t\n
+Kontrollera om katalogen finns eller\n
+om disken är skrivskyddad.\n
+Finns det tillräckligt med diskutrymme?.
+4:
+Robot Hold förväxling!\n
+Använt verktyg och arbetsobjekt\n
+kan inte samtidigt hålla verktyget\n
+eller vara stationärt.\n
+\t\n
+Kontrollera komponenten robhold\n
+i använt verktyg och arbetsobjekt.
+5:
+%s saknas!\n
+Arbetsobjektet %s innehåller\n
+en koordinerad mekanisk enhet\n
+som inte finns.\n
+\t\n
+Kontrollera komponenten mekanisk enhet\n
+för arbetsobjektet.
+6:
+%s Anv.koord.system!\n
+Arbetsobjektet %s innehåller\n
+en koordinerad mekanisk enhet\n
+som inte har något användar-\n
+koordinatsystem.\n
+\t\n
+Kontrollera komponenten mekanisk enhet\n
+för arbetsobjektet.
+7:
+Joggning ej tillåten!\n
+Kan ej utföra joggning i detta tillstånd\n
+\t\n
+Släpp styrspaken och hålldonet och\n
+försök igen.\n
+Kontrollera också aktiv mekanisk enhet.
+8:
+Vertygsvikt odefinierad!\n
+Joggning kan inte urföras eftersom\n
+verktyget har en odefinierad vikt\n
+\t\n
+Ange verktygets vikt i tooldata\n
+för angivet verktyg.
+9:
+Roboten ej synkroniserad\n
+Roboten eller externa axlar\n
+är osynkroniserade.\n
+\t\n
+Synkronisera roboten eller externa axlarna
+10:
+Orienteringsfel\n
+Orientering i %s är onormaliserad.\n
+\t\n
+Kontrollera orienterings värdet.
+11:
+Parameterfel\n
+Laddning av parametrar i\n
+%s\n
+kan inte fullföljas.\n
+För orsak, se\n
+%s\n
+\t\n
+Kopiera filen\n
+%s\n
+till en diskett och utred orsaken\n
+Använd en text editor
+12:
+Inga parametrar laddade\n
+Det finns inga parametrar i\n
+%s\n
+\t\n
+Kontrollera filen\n
+%s\n
+Använd en text editor
+13:
+Joggning ej tillåtet\n
+Joggning av mekaniskaenheten\n
+är inte möjligt.\n
+Enheten är inte aktiverad\n
+\t\n
+Aktivera mekaniska enheten.
+14:
+Disken är full !\n
+Ingen information är sparad i\n
+ändrings loggen om parameter\n
+ändringen beroende på att disken\n
+är full.\n
+\t\n
+Försök att ta bort några filer\n
+eller organisera om disken.
+15:
+PP kan inte flyttas!\n
+PP kan in´te flyttas till rutin\n
+´%s´därför att den har\n
+parametrar.\n
+\t\n
+Gör en rutin som anropar ´%s´\n
+eller ta bort parametrarna.
+16:
+PP kan inte flyttas!\n
+PP kan inte flyttas till rutin\n
+´%s´eftersom denna finns i\n
+en modul av typ NOSTEPIN.\n
+\t\n
+Flytta rutinen till en annan modul\n
+eller ta bort NOSTEPIN- attributet
+17:
+PGM- TELLBACK kod %d\n
+\t\n
+Var vänlig kontakta närmaste ABB-kontor.
+18:
+RAPID Syntax- fel!\n
+Programmet kan inte laddas p g a\n
+syntaktiska fel.\n
+\t\n
+En RAPID Syntax Checker för PC kan\n
+användas för att upptäcka felet.\n
+Filen PGMCPL1.LOG på roboten ramdisk\n
+innehåller också information om felet.
+19:
+Fel indata!\n
+Komponenten ´%s´ i datatyp\n
+´%s´är inte korrekt.\n
+Tillåtna gränsvärden är\n
+%s!\n
+\t\n
+Kontrollera data och ange korrekta\n
+värden
+20:
+PP kan inte flyttas!\n
+PP kan inte flyttas till rutin\n
+´%s´eftersom denna är en\n
+arbetsrutin.\n
+\t\n
+Ändra definitionen för rutinen\n
+´%s´till procedur.
+21:
+Cannot show items!\n
+The number of selected items exceeds the\n
+current memory limit specified for this\n
+configuration. The items can thus not\n
+be shown.\n
+\t\n
+Reduce the number of data or\n
+change the configuration to a memory\n
+board with more memory.
+22:
+Cannot show all items!\n
+Only %d variables (out of %d) will be\n
+listed.\n
+All variables cannot be shown because\n
+the current memory limit specified for\n
+this configuration will be exceeded.\n
+\t\n
+Reduce the number of data or\n
+change the configuration to a memory\n
+board with more memory.

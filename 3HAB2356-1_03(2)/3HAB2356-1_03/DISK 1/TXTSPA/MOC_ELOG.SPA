@@ -1,0 +1,753 @@
+25::
+0:
+Movimiento
+1:
+Error grave mvto.\n
+No es posible seguir con control mvto\n
+\t\n
+Arrancar el sistema de nuevo
+21:
+Error posicion eje\n
+Posicion actual de eje %s\n
+esta muy alejada de la posicion\n
+ordenada\n
+\t\n
+Comprobar parametros ajuste, fuerzas\n
+externas o hardware.
+22:
+Tension DC-link demasiado\n
+baja\n
+\t\n
+Comprobar tension del contactor de\n
+Motor On. Reemplazar DC-link.
+23:
+Error Parar/Rearrancar\n
+Se hizo la parada cuando habia muchas\n
+instrucciones de posicion en cola.\n
+No es posible reiniciar\n
+\t\n
+Comprobar el numero de instrucciones\n
+move con concurrencia. Mover el punto\n
+de arranque e iniciar un nuevo mvto.
+24:
+Fallo en punto de paso.\n
+Punto de paso ejecutado como punto\n
+de parada debido retraso de tiempo.\n
+\t\n
+Comprobar el numero de instrucciones\n
+entre las instrucciones move.
+25:
+Rearranque lejos trayect.\n
+\n
+\t\n
+Mover a trayectoria original.
+26:
+Error singularidad o zona\n
+1 Robot proximo a singularidad\n
+2 Error zona de paso de MoveL a MoveJ\n
+\t\n
+1 Usar el joystick para alejarlo\n
+  de la singularidad o ejecutar un\n
+  programa con coordenadas de ejes\n
+2 Usar punto fino o modificar pos.
+27:
+Eje fuera de rango\n
+Eje %s fuera del area de trabajo\n
+\t\n
+Usar el joystick para mover el eje a su\n
+area de trabajo.
+28:
+Mvto manual dir. erronea\n
+Eje %s fuera del area de trabajo\n
+\t\n
+Utilizar el joystick para mover el eje\n
+en direccion opuesta.
+29:
+Robot fuera de limites\n
+El robot ha llegado al limite de\n
+configuracion del paralelogramo de\n
+transmision.\n
+\t\n
+Utilizar el joystick para colocar el eje\n
+en el area de trabajo nuevamente.
+30:
+Robot fuera de limites\n
+Se movio robot en direccion equivocada\n
+con paralelogramo fuera area de trabajo.\n
+\t\n
+Utilizar el joystick para mover el eje\n
+en direccion opuesta.
+31:
+Orden no permitida.\n
+Con MOTORS ON no se pueden cambiar\n
+los parametros del sistema.\n
+\t\n
+Cambiar a MOTORS OFF.
+32:
+Error orden calibracion\n
+Se intento hacer una calibracion\n
+estando con MOTORS ON.\n
+\t\n
+Cambiar a MOTORS OFF.
+33:
+Error orden conmutacion\n
+Se intento hacer una conmutacion\n
+estando con MOTORS ON.\n
+\t\n
+Cambiar a MOTORS OFF.
+35:
+Error de sincronizacion\n
+Se intento hacer una sincronizacion\n
+estando con MOTORS ON.\n
+\t\n
+Cambiar a MOTORS OFF.
+36:
+Reinicio correcto imposib\n
+El rearranque no es posible. La parada\n
+ha ocurrido con muchos puntos de paso\n
+proximos. Al rearrancar el robot se\n
+movera a un punto demasiado adelante\n
+en el programa.\n
+\t\n
+Reducir el numero de puntos proximos.\n
+Incrementer la distancia entre ellos o\n
+reducir la velocidad.
+37:
+Orden MOTORS ON ignorada\n
+Orden MOTORS ON ignorada porque\n
+no se ha confirmado el paso previo\n
+\t\n
+Ordene MOTORS ON de nuevo.
+41:
+Robot muy proximo a\n
+una singularidad\n
+\t\n
+Al ejecutar un programa, usar SingArea\n
+o coordenadas tipo joint.\n
+En mvto.manual, usar eje a eje.
+42:
+Error de sistema\n
+\n
+\t\n
+Aumentar la distancia entre puntos\n
+proximos y/o disminuir velocidad y/o\n
+cambiar valor aceleraciones.
+50:
+Posicion Fuera de area\n
+Posicion de eje IRB %.f\n
+fuera de area de trabajo.\n
+\t\n
+Comprobar el work object.\n
+Comprobar area trabajo del eje.\n
+Mover en coordenada eje a eje.
+52:
+Error en velocidad de eje\n
+La velocidad actual de eje %s es\n
+alta en relacion a la velocidad ordenada\n
+\t\n
+1 Comprobar parametros de servo, fuerzas\n
+  externas en el eje y hardware\n
+2 Reducir velociada programada
+53:
+Error contador de vueltas\n
+Demasiada diferencia entre contador de\n
+carta medida serie y el valor esperado\n
+en el computador robot para\n
+el eje %s.\n
+\t\n
+Actualizar contador de vueltas.\n
+Cambiar carta medida serie.
+55:
+Error carga de un eje\n
+Par actual en eje %s es demasiado alto.\n
+Puede estar causado por datos de carga\n
+incorrectos, acelerac. muy alta, fuerzas\n
+externas altas, baja temperatura o error\n
+hardware.\n
+\t\n
+1 Comprobar datos de carga\n
+2 Reducir aceleracion o velocidad\n
+3 Comprobar hardware
+56:
+Error colision de un eje\n
+Par actual en el eje %s es\n
+superior al ordenado a velocidad\n
+baja o nula.\n
+\t\n
+Puede ser debido a un jam error(el brazo\n
+se ha bloqueado) o error de hardware.
+57:
+Error de sinc. de un eje\n
+La posicion del eje %s tras un\n
+fallo de alimentacion esta muy lejos\n
+de la posicion antes del fallo.\n
+\t\n
+Actualizar los contadores de\n
+vueltas de nuevo.
+58:
+Error sist. coord. herram\n
+La direccion z del sistema de\n
+coordenadas de la herramienta es casi\n
+paralelo a la direccion de la\n
+trayectoria\n
+\t\n
+Cambiar sistema de coordenadas de herra-\n
+mienta, para conseguir una desviacion\n
+minima entre z y trayectoria de 3 grados
+59:
+Error base de coordenadas\n
+Incorrecta definicion de herra-\n
+mienta fija del robot.\n
+\t\n
+Comprobar herramienta y datos de base.
+60:
+Error base de coordenadas\n
+Incorrecta definicion de herra-\n
+mienta fija del robot.\n
+\t\n
+Comprobar herramienta y datos de base.
+61:
+Error base de coordenadas\n
+Incorrecta definicion de herra-\n
+mienta fija del robot.\n
+\t\n
+Comprobar herramienta y datos de base.
+62:
+Error programa de circulo\n
+Las posiciones inicial y final del\n
+circulo estan muy proximas entre si.\n
+\t\n
+
+63:
+Error programa de circulo\n
+La posicion del circulo esta muy proxima\n
+a la posicion inicial o final.\n
+\t\n
+
+65:
+Error cinematico\n
+El destino del movimiento queda fuera\n
+del area de trabajo del robot o esta\n
+cerca de un punto singular.\n
+\t\n
+Cambiar el punto de destino.
+66:
+Robot no activo\n
+Intento de movimiento coordinado o\n
+calculo de posicion de robot %s\n
+desactivado.\n
+\t\n
+Activarlo via tecla de unidad a mover,\n
+ventana de mov.manual o programa.\n
+Comprobar work objet y programa
+67:
+Unidad no activa\n
+Intento de movimiento coordinado o\n
+calculo de posicion de unidad %s\n
+desactivada.\n
+\t\n
+Activarla via tecla de unidad a mover,\n
+ventana de mov.manual o programa.\n
+Comprobar work objet y programa
+76:
+Error definir orientacion\n
+Orientacion definida incorrectamente\n
+\t\n
+Hacer una normalizacion precisa de\n
+los cuaterniones.
+78:
+Posiciones muy proximas.\n
+Se han programado de modo consecutivo\n
+demasiadas posiciones muy proximas.\n
+\t\n
+Aumentar la distancia entre posiciones\n
+consecutivas muy proximas.
+79:
+Oscilacion de muñeca\n
+imposible.\n
+\t\n
+Usar una amplitud de oscilacion menor o\n
+un TCP mas grande.
+80:
+Posicion no compatible.\n
+Posicion no alcanzable con la\n
+configuracion del robot dada.\n
+\t\n
+Modificar la posicion del robot\n
+en el programa
+82:
+Limite de deceleracion\n
+Calculo del tiempo de deceleracion del\n
+eje excede el limite interno para este\n
+movimiento.\n
+No continuar sin eliminar las causas\n
+de este error. Ver Info\n
+\t\n
+Reducir vel., usar ptos finos e incr.\n
+parametros AccSet. Compr. deceleracion\n
+de ejes externos y nivel de ruido en\n
+conexiones ES. Incr resolucion dinamica,\n
+resol. trayectoria y std_servo_que_time.
+83:
+Vel. disminuida por sist.\n
+La velocidad ha sido disminuida por el\n
+sistema por limitaciones dinamicas.\n
+\t\n
+Disminuir la velocidad y/o no utilizar\n
+posiciones proximas a alta velocidad y/o\n
+aumentar aceleracion si es menor de 100%
+85:
+Demasiadas bases usuario.\n
+Se han definido mas de una base de\n
+usuario en unidad mecanica %s\n
+\t\n
+Borrar una base de coordenadas o\n
+definir una unidad mecanica mas.
+86:
+Error calculo sigularidad\n
+Singularidad de la muneca muy\n
+proxima con respecto a la resolucion\n
+numerica del eje 4 de IRB.\n
+\t\n
+Cambiar unos incrementos la posicion\n
+de destino.
+87:
+Problemas de sigularidad.\n
+Singularidad de la muneca muy\n
+proxima con respecto a la resolucion\n
+numerica del eje 6 de IRB.\n
+\t\n
+Cambiar unos incrementos la posicion\n
+de destino.
+88:
+No se puede reiniciar.\n
+La trayectoria no se puede reiniciar\n
+debido a un error anterior.\n
+\t\n
+Mover el punto de inicio e iniciar\n
+un nuevo movimiento.
+89:
+Decrem. frec. oscilacion\n
+La longitud del periodo de ondulacion o\n
+el periodo de tiempo son muy cortos\n
+\t\n
+Incrementar longitud de periodo o\n
+incrementar tiempode periodo.
+91:
+Rearranque imposible\n
+El cambio de estado de la unidad hace\n
+el rearranque imposible\n
+\t\n
+Mover el puntero de programa e iniciar\n
+un nuevo movimiento
+92:
+Error com. comput. ejes\n
+Respuesta incorrecta de computador ejes\n
+\t\n
+Comprobar parametros de movimoento\n
+Comprobar hardware comp. ejes
+93:
+Carga demasiado elevada\n
+La masa de la carga definida es muy alta\n
+\n
+\n
+\n
+\n
+
+94:
+Ajuste servo no posible\n
+El ajuste de servo de este eje\n
+no esta implementado\n
+\t\n
+
+95:
+No puedo acceder a eje\n
+No puedo acceder a eje externo\n
+Comprobar configuracion y activacion\n
+de ejes externos\n
+\t\n
+
+100:
+Error de manipulador\n
+Hay mas errores de configuracion o\n
+errores numericos en ambito de mvto.\n
+\t\n
+Corregir valores previos y probar
+101:
+Error de config. manip.\n
+'%s' no disponible para\n
+el param. '%s'\n
+en tipo '%s' denominado\n
+'%s'.\n
+\t\n
+Usar otro.\n
+Para nombres internos, ver moc_chk.log.
+102:
+Error de config. manip.\n
+'%s' usado en\n
+parametro '%s' en\n
+tipo '%s' denominado\n
+'%s' no\n
+definido.\n
+\t\n
+Usar otro del definido o\n
+definir el utilizado\n
+Para nombres internos, ver moc_chk.log.
+103:
+Error num. en manipulador\n
+Orientacion definida por quaterniones\n
+incluido '%s' en\n
+el tipo '%s' denominado\n
+'%s' no esta\n
+normalizado.(SQRSUM =1)\n
+\t\n
+Comprobar cuaterniones y/o\n
+recalcularlos.\n
+Para nombres internos, ver moc_chk.log.
+104:
+Error num. en manipulador\n
+Parametro '%s' en\n
+tipo '%s' denominado\n
+'%s' no es es'%s'.\n
+\t\n
+Comprobar valor\n
+Para nombres internos, ver moc_chk.log.
+128:
+Error manipulador\n
+Finalizado comprobacion topico para\n
+manipulador por a errores anteriores\n
+\t\n
+Corregir errores notificados y ejecutar\n
+la comprobacion de nuevo.
+130:
+Fallo de sincronizacion\n
+Fallo de sincronizacion\n
+para eje %s\n
+\t\n
+Hacer nueva sincronizacion.\n
+Reiniciar sistema.
+131:
+Fallo de calibracion\n
+Fallo de calibracion\n
+para eje %s\n
+\t\n
+Hacer nueva calibracion.\n
+Reiniciar sistema.
+132:
+Fallo de conmutacion\n
+Fallo de conmutacion\n
+para eje %s\n
+\t\n
+Hacer nueva conmutacion.\n
+Reiniciar sistema.
+133:
+Error señal test\n
+No hay señales test disponibles\n
+para el robot master\n
+\t\n
+
+134:
+Advertencia vector corr.\n
+Calculo vector correccion del sensor\n
+ha fallado debido a error anterior\n
+\t\n
+
+135:
+SoftAct imposible\n
+No se puede activar soft servo.\n
+\t\n
+
+136:
+SoftAct imposible\n
+No se puede modificar soft servo\n
+mientras esta en rampa\n
+\t\n
+
+137:
+Punto fino insertado\n
+Punto de paso cambiado a fino\n
+Demasiadas instrucciones Move\n
+consecutivas sin punto fino\n
+\t\n
+
+138:
+Pto comprob. brazo fuera\n
+El robot ha alcanzado el limite para el\n
+punto comprobacion brazo\n
+\t\n
+Usar joystick para mover el eje de\n
+nuevo al area de trabajo
+139:
+Pto comprob. brazo fuera\n
+Mvto manual en direccion erronea con el\n
+punto comprobacion brazo fuera de area\n
+\t\n
+Usar joystick para mover el eje en\n
+direccion opuesta
+140:
+Carga demasiado grande\n
+Carga pesada a causado exceso de limite\n
+de par estatico en eje %s\n
+\t\n
+Comprobar y reducir carga del brazo\n
+y/o muñeca\n
+Reducir area de trabajo del eje para\n
+disminuir par estatico de la gravedad
+141:
+Error vel. o mvto manual\n
+1. Robot muy cerca de singularidad\n
+2. Error de mvto manual\n
+3. Error de velocidad elevada\n
+\t\n
+1. Apartarse de punto singular o ejecu-\n
+   tar el programa en coordenadas eje\n
+2. Probar de nuevo\n
+3. Reducir velocidad de programa
+142:
+Error config. manipulador\n
+Fallo de configuracion de manipulador.\n
+\t\n
+Comprobar valores de parametros en\n
+Parametros de sistema: Manipulador.
+143:
+Error config. ejes robot\n
+Configuracion actual no es la misma\n
+que la configuracion ordenada y/o la\n
+reorientacion de eje 4/6 es muy grande.\n
+\t\n
+Usar SingArea_Wrist o ConfL_Off\n
+o modificar posicion o insertar punto\n
+intermedio.
+144:
+Frame desp. poco definido\n
+Frame despl. de calibracion indefinido\n
+1. TCP erroneo\n
+2. Ptos. ref. imprecisos\n
+3. Ptos. ref. poco separados\n
+\t\n
+Si el error estimado no es aceptable:\n
+1. Verificar que el TCP es correcto.\n
+2. Probar mas de tres puntos ref.\n
+3. Cuidar el posicionamiento del robot\n
+   en los ptos. de ref.
+145:
+Limitacion cinematica\n
+No obtengo solucion\n
+1. Un segmento largo\n
+2. Posicion cerca de singularidad\n
+3. Eje fuera de rango\n
+4. Posicion fuera de alcance\n
+1. Insertar punto intermedio para\n
+   reducir longitud del segmento\n
+2. Usar MoveAbsJ\n
+3-4. Comprobar area de trabajo\n\t
+146:
+Limitacion restart\n
+Punto de paso ejecutado como punto fino\n
+El restart de fallo alimentacion no es\n
+posible cerca de un punto fino.\n
+\t\n
+Usar punto fino en la instr. Move antes\n
+de RestoPath, ActUnit, Wait o Stop\n
+para hacer posible el restart.
+147:
+Fallo restart\n
+Fallo de reconstruccion de trayectoria\n
+\t\n
+Mover a punto inicial y arrancar\n
+un nuevo movimiento.
+148:
+MOC_WRONG_MAIN_ISR_TYPE\n
+Error al intentar llamar una rutina de\n
+interrupcion inexistente en el comput.\n
+principal desde el comput. ejes.\n
+\t\n
+
+149:
+MOC_SCHED_QUEUE_FULL\n
+Error cuando el planificador de cola del\n
+computador ejes esta lleno.\n
+\t\n
+
+150:
+MOC_WRONG_CMD_TYPE\n
+Error al recibir el computador de\n
+ejes una orden del computador principal\n
+que no esta soportada.\n
+\t\n
+
+151:
+MOC_MAILBOX1_ERROR\n
+El controlador del comp. ejes\n
+no puede generar una nueva interrupcion\n
+de buzon 1 debido a una interrupcion\n
+previa ejecutada incorrectamente.\n
+\t\n
+
+152:
+MOC_MAILBOX2_ERROR\n
+El controlador del comp. ejes\n
+no puede generar una nueva interrupcion\n
+de buzon 2 debido a una interrupcion\n
+previa ejecutada incorrectamente.\n
+\t\n
+
+153:
+Orden no permitida\n
+La instruccion u orden dada no\n
+esta permitida debido a que el programa\n
+robot se estaba ejcutando en modo hold.\n
+\t\n
+Modificar programa o parar ejecucion\n
+antes de ejecutar la orden.
+154:
+Orden no permitida\n
+Interpolacion SingArea/Wrist no\n
+soportada para robot IRB6400C.\n
+\t\n
+Cambiar instruccion SINGAREA\WRIST con\n
+SINGAREA\OFF.
+155:
+Fallo restart\n
+No es posible restar la instr. Move\n
+antes de RestoPath, ActUnit, Wait o\n
+instr Stop\n
+\t\n
+Eliminar de programa ADVERTENCIA MOV.\n
+50146 limitacion Restart, cambiando\n
+la instr. Move a punto fino.\n
+Mover a punto inicial y arrancar\n
+un nuevo movimiento.
+156:
+Error eje independiente\n
+Eje %s no esta configurado como eje\n
+independiente.\n
+\t\n
+Modificar el programa o configurar el\n
+eje como eje independiente.
+157:
+Advert. vector corr.\n
+Calculos de correccion de vector X han\n
+fallado debido a un error previo.\n
+\t\n
+
+158:
+Falta sensor de proceso\n
+Falta sensor de proceso durante la\n
+inicualizacion.\n
+Sensor de proceso denominado %s\n
+no se puede encontrar o inicializar.\n
+\n
+\t\n
+Comprobar nombre de proceso en movim. y\n
+archivos de configuracion de proceso.
+159:
+No hay sensor de proceso\n
+Intento de coordinar movimiento o\n
+calcular posicion de single %s\n
+sin sensor de proceso.\n
+\t\n
+Comprobar nombre de proceso en movim. y\n
+archivos de configuracion de proceso.
+160:
+No puedo alcanzar pos.\n
+Posicion programada de eje independiente\n
+%s fuera de area de trabajo y no\n
+se puede alcanzar por ello.\n
+\t\n
+Cambiar posicion.\n
+Comprobar los limites de area trabajo\n
+del eje.\n
+Comprobar work object usado.
+161:
+Robot esta cerca de\n
+una sigularidad. Esta area tiene\n
+limitaciones cinematicas.\n
+\t\n
+Durante mvto.manual, usar eje a eje.\n
+Durante ejecucion de programa, usar\n
+MoveAbsJ.
+162:
+Error posicion interno\n
+Error caused por limitacion\n
+numerica interna\n
+\t\n
+Reiniciar eje independiente.\n
+Reducir area de trabajo si es extendida.\n
+Borrar o separar puntos proximos.
+163:
+Ajustes pos externos\n
+Ajustes de pos externos muy grandes.\n
+Vel. TCP, vel. orientacion, o vel. de\n
+posicion externa exceden las capacidades\n
+permitidas del robot.\n
+\t\n
+1. Reducir velocidades TCP y orientacion\n
+   programadas\n
+2. Modificar la trayectoria\n
+3. WaitWObj cerca de sync\n
+4. Ejecutar en AUTO
+164:
+Error desactivacion indp.\n
+Error de descativacion independiente\n
+La desactivacion de una unidad mecanica\n
+no se puede hacer si esta en modo inde-\n
+pendiente.\n
+\t\n
+
+165:
+Max distancia Convey\n
+Posicion conveyor de %5.3f metros\n
+excede la distancia maxima de seguridad\n
+configurada para el conveyor\n
+\t\n
+Comprobar configuracion conveyor.\n
+Comprobar minima distancia posible para\n
+la posicion del conveyor.
+166:
+Sobrepas. pos. Convey\n
+Sobrepasamiento de posicion de conveyor\n
+mientras se sigue al objeto. El work\n
+object se fue fuera de area de trabajo.\n
+\t\n
+Incrementar velocidad programada.\n
+Cambiar reduccion de medida para\n
+incrementar rango de seguimiento.\n
+Reducir velocidad de conveyor.
+167:
+Advertencia: nuevo sinc\n
+Advertencia: se ha recibido una nueva\n
+señal de sinc con objeto mientras el\n
+conveyor estaba activo y el programa\n
+ejecutandose.\n
+\t\n
+
+168:
+Nuevo sinc objeto\n
+Recibida nueva señal de sinc a objeto\n
+mientras el conveyor estaba siguiendo\n
+el objeto anterior. No puedo seguir dos\n
+objetos simultaneamente.\n
+\t\n
+Reducir velocidad de conveyor.\n
+Incrementar velocidad programada.
+169:
+Fallo coordinacion\n
+Fallo de coordinacion con la posicion\n
+externa. Esto es debido a error previo,\n
+o uso incorrecto de DeactUnit, DropWObj\n
+durante movimiento coordinado.\n
+\t\n
+
+178:
+Movimiento no optimo\n
+Movimiento no optimo\n
+Requiere par demasiado alto\n
+Se necesita ajuste manual de aceleracion\n
+o velocidad.\n
+\t\n
+Reducir aceleracion (AccSet 50 100) en\n
+este movimiento, restituir despues\n
+(AccSet 100 100). Optimizar prestaciones\n
+buscando aceleracion max 50-99.\n
+Como alernativa, reducir velocidad.

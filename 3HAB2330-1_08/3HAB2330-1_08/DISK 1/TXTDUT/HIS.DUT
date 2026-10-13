@@ -1,0 +1,277 @@
+Revision 1.8  1995/04/21  13:29:57  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.7  1994/08/19  10:48:07  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+8::
+0:
+Service
+1:
+Log
+2:
+
+3:
+
+4:
+
+5:
+Calibratie
+6:
+Commutatie
+7:
+Calib
+8:
+(Manueel calibreren...)
+9:
+Calibreren...
+10:
+Bijwerken omw teller...
+11:
+(Toon gemeten positie...)
+12:
+Log wordt overschreven!\n
+De bestaande log zal\n
+overschreven worden.\n
+\n
+OK om verder te gaan?
+13:
+Eenheid         Status
+14:
+   As         Status
+15:
+
+16:
+Om te calibreren, voeg assen toe\n
+en druk op OK.
+17:
+Incl
+18:
+Excl
+19:
+Alle
+20:
+Gesynchroniseerd
+21:
+Niet gesynchroniseerd
+22:
+Niet gecalibreerd
+23:
+Omw.teller niet bijgewerkt
+24:
+Gecalibreerd
+25:
+Omw.teller bijgewerkt
+26:
+De calibratie zal worden bijgewerkt\n
+met ingangswaarden.\n
+Dit kan niet ongedaan worden gemaakt!\n
+\n
+OK om verder te gaan?
+27:
+De calibratie voor alle gemarkeerde\n
+assen zal worden veranderd.\n
+Dit kan niet ongedaan worden gemaakt!\n
+\n
+OK om verder te gaan?
+28:
+De omw.teller voor alle gemarkeerde\n
+assen zal worden bijgewerkt.\n
+Dit kan niet ongedaan worden gemaakt!\n
+\n
+OK om verder te gaan?
+29:
+Er is geen as toegevoegd.\n
+\n
+\n
+\n
+Druk op Enter voor een nieuwe poging!
+30:
+Calibratieproces gestart!\n
+\n
+Nog even geduld...
+31:
+Niet gecommuteerd
+32:
+Initiele status
+33:
+Com
+34:
+(Manueel commuteren...)
+35:
+Commuteren...
+36:
+\n
+Opslaan van de log...
+37:
+Om te commuteren, voeg assen toe\n
+en druk op OK.
+38:
+De communtatie zal worden bijgewerkt\n
+met ingangswaarden.\n
+Dit kan niet ongedaan worden gemaakt!\n
+\n
+OK om verder te gaan?
+39:
+De commutatie voor alle gemarkeerde\n
+assen zal worden veranderd.\n
+Kan niet ongedaan worden gemaakt!\n
+\n
+OK om verder te gaan?
+40:
+Gecommuteerd
+41:
+Er is geen as toegevoegd\n
+\n
+\n
+\n
+Druk op Enter voor een nieuwe poging!
+42:
+Commutatieproces gestart!\n
+\n
+Nog even geduld...
+43:
+Sommige mechanische eenheden\n
+werden niet gecommuteerd.\n
+Selecteer "Commutatie" in\n
+het Inkijken-menu.\n
+        Druk op Enter!
+44:
+Datum & tijd...
+45:
+Datum:
+46:
+Tijd:
+47:
+<
+48:
+>
+50:
+Mld
+51:
+Naam
+52:
+Meldingen
+53:
+Log wissen
+54:
+Alle logs wissen
+55:
+Speciaal
+56:
+Logs
+57:
+Melding                  Datum
+58:
+Geen melding te tonen!
+59:
+Bijwerken
+60:
+Bijwerken log op commando
+61:
+Bijwerken log volgens evenement
+62:
+Alle meldingen in log %s\n
+zullen worden gewist.\n
+\n
+OK om verder te gaan?
+63:
+Alle meldingen in alle logs\n
+zullen worden gewist.\n
+\n
+OK om verder te gaan?
+64:
+Opslaan logmeldingen %s als!
+65:
+ELOG
+66:
+%s logmeldingen\n
+Datum waarop werd opgeslagen: %s\n
+
+67:
+Ga naar regel!
+68:
+Regel:=
+69:
+Fout:
+70:
+Herstart...
+71:
+Herstartcommando!\n
+Wenst u de besturing\n
+opnieuw te starten.\n
+\n
+OK om verder te gaan?
+72:
+Status:
+73:
+Waarschuwing:
+74:
+Logmeldingen opslaan als!
+75:
+Frame definitie
+76:
+Eenheid             Type
+77:
+Selecteer een eenheid waarvoor een\n
+frame gedefinieerd moet worden.\n
+Alleen de eenheden waarvoor een\n
+frame gedefinieerd kan worden,\n
+worden in de lijst getoond.
+78:
+Def...
+79:
+Robot IRB 1400
+80:
+Robot IRB 1400
+81:
+Robot IRB 2400
+82:
+Robot IRB 2400
+83:
+Robot IRB 3400
+84:
+Robot IRB 6400
+85:
+Robot IRBPAL
+86:
+Orbit 160 B_1
+87:
+Orbit 160 B_2
+88:
+Portaal
+89:
+Track
+90:
+Transportband
+91:
+Rotatie tool
+92:
+Vrij roterend
+93:
+BasisFrame...
+94:
+Kan de log niet opslaan!\n
+Niet genoeg ruimte op de disk\n
+ofwel is de disk beveiligd\n
+tegen overschrijven.\n
+        Druk op Enter!
+95:
+Niet gebruikt
+96:
+Twee assen definitie
+97:
+Selecteer een unit waarvoor een\n
+een definitie uitgevoerd moet\n
+worden. Alleen geldige twee assige\n
+units worden in de lijst getoond.
+98:
+Def...
+99:
+Twee assen definitie...
+100:
+(Def)
+101:
+Er zijn geen geldige units voorhanden.

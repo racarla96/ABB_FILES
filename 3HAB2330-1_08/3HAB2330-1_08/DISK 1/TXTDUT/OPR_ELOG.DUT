@@ -1,0 +1,249 @@
+21::
+0:
+Operationeel
+2:
+Programma reset\n
+De taak %!%!%s is\n
+teruggezet op z'n startpunt.\n
+\t\n
+
+5:
+Programma gestopt\n
+De taak %!%!%s is\n
+gestopt. De code van de oorzaak\n
+is %s\n
+\t\n
+
+500:
+an external or internal stop after current\n
+instruction has occurred.
+501:
+Een externe of interne stop is\n
+opgetreden na de huidege instructie.
+502:
+De taak is klaar
+503:
+De taak is klaar na deze stap
+504:
+De taak heeft een break sinstructie\n
+bereikt.
+505:
+Er is een interne of externe stop\n
+opgetreden.
+506:
+Er is een fout opgetreden
+507:
+Kan geen instructie achterwaarts\n
+uitvoeren voor het begin van de\n
+instructie lijst.
+508:
+Kan geen instructie achterwaatrs\n
+uitvoeren voor dezeinstructie.
+7:
+Programma gestart\n
+De taak %!%!%s heeft\n
+de uitvoer gestart.\n
+%s\n
+\t\n
+
+8:
+Programma is herstart\n
+De taak %!%!%s heeft\n
+de uitvoer herstart.\n
+%s\n
+\t\n
+
+701:
+Is afkomstig van het programma venster.
+702:
+Is afkomstig van het productie venster.
+703:
+De afkomst is onbekend.
+704:
+Is afkomstig van een externe klant
+9:
+Werkgeheugen vol\n
+Er is geen geheugen over voor nieuwe\n
+RAPID instructies of data.\n
+De taak is %.!%!%s.\n
+\t\n
+Sla het programma op en herstart
+10:
+Motoren uit-status\n
+\t\n
+
+11:
+Motoren aan-status\n
+\t\n
+
+12:
+Bewaking stop-status\n
+Runchain geopend door een\n
+veiligheidsfunctie echter\n
+niet door een noodstop.\n
+\t\n
+
+13:
+Noodstopstatus\n
+Runchain geopend door een noodstop\n
+Noodstop reset is vereist.\n
+Druk op de MOTORS UIT knop.\n
+\t\n
+
+14:
+Systeemstoringstatus\n
+Fatale niet herstelbare systeemfout.\n
+Systeeminitialisatie is vereist.\n
+\t\n
+
+15:
+Manuele modus geselecteerd\n
+\t\n
+
+16:
+Automatische modus gevraagd\n
+\t\n
+
+17:
+Automatische modus bevestigd\n
+\t\n
+
+18:
+Manuele modus volle snelheid\n
+gevraagd\n
+\t\n
+
+19:
+Manuele modus volle snelheid\n
+bevestigd\n
+\t\n
+
+20:
+Uitvoer fout status\n
+\t\n
+
+21:
+Uitvoer fout reset\n
+\t\n
+
+22:
+Hold to run wacht\n
+\t\n
+
+23:
+Hold to run timeout\n
+\t\n
+
+30:
+Alle assen gecommuteerd\n
+\t\n
+
+31:
+Alle assen gecalibreerd\n
+\t\n
+
+32:
+Alle omw.tellers bijgewerkt\n
+\t\n
+
+33:
+Alle assen gesynchroniseerd\n
+\t\n
+
+34:
+Assen niet gecommuteerd\n
+\t\n
+
+35:
+Assen niet gecalibreerd\n
+\t\n
+
+36:
+Omw.teller niet bijgewerkt\n
+\t\n
+
+37:
+As niet gesynchroniseerd\n
+\t\n
+
+40:
+Programma geladen\n
+De taak %!%!%s\n
+heeft een programma geladen.\n
+De vrije ruimte was %i bytes voor\n
+het laden en %i bytes na het laden.\n
+\t\n
+
+41:
+Programma gewist\n
+De taak %!%!%s\n
+heeft een programma gewist.\n
+\t\n
+
+43:
+Herstart mislukt\n
+De taak %!%!%s\n
+kan de programma-server\n
+niet herstarten\n
+\t\n
+
+44:
+Programma Pointer bijgewerkt\n
+De taak %!%!%s\n
+kan de PP positie veranderd hebben.\n
+\t\n
+
+45:
+Systeem is opnieuw opgestart\n
+\t\n
+
+46:
+System opnieuw opgestart in de koude\n
+start modus\n
+\t\n
+
+47:
+Achtergrond taak %s\n
+wil niet opstarten\n
+%s\n
+\t\n
+
+4701:
+Taak is leeg
+4702:
+Onjuiste status
+4703:
+Kan PP niet in main routine plaatsen
+4704:
+Kan de uitvoer modus niet bepalen
+4705:
+Start opdracht mislukt
+48:
+Achtergrond taak gestopt\n
+De taak %s is gestopt\n
+zonder reden\n
+%s\n
+\t\n
+
+49:
+Beschermd gebied niet gereed\n
+Een spannings uitval is opgetreden in\n
+het midden van een beschermd gebied\n
+voor de taak %!%s\n
+%s\n
+\t\n
+
+4901:
+Het systeem probeert zich te hestellen
+4902:
+Een aanhoudende fout is uit de rij\n
+verwijderd
+4903:
+Een aanhoudende exit is uit de rij\n
+verwijderd
+4904:
+Dit kan een extra programma cyclus tot\n
+gevolg hebben
+4905:
+De taak zal vanaf de main routine\n
+herstart worden

@@ -1,0 +1,252 @@
+Revision 1.9  1995/04/21  13:28:26  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.8  1994/08/19  10:46:38  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+1::
+0:
+
+1:
+Ins Codice Accesso!
+2:
+Servizio
+3:
+Programmatore
+4:
+Altre finestre
+5:
+Codice Accesso richiesto "%s"\n
+per poter continuare.
+6:
+Operatore
+7:
+Esec.
+8:
+ProgOrServ
+9:
+Disco sostituito!\n
+Il contenuto del disco e'\n
+diverso da ultima lettura.\n
+\n
+Rileggere il contenuto ?
+10:
+File
+11:
+Modif
+12:
+Vista
+13:
+Special
+14:
+Annulla
+15:
+Taglia
+16:
+Copia
+17:
+Incolla
+18:
+Ricerca...
+19:
+Vai a...
+20:
+Vai all'inizio
+21:
+Vai alla fine
+22:
+Pag. Succ.
+23:
+Pag. Prec.
+24:
+Apri...
+25:
+Salva come...
+26:
+Stampa...
+27:
+Preferenze...
+28:
+OK
+29:
+Annulla
+30:
+Testo
+31:
+Si
+32:
+No
+33:
+Aggiung
+34:
+Nascon
+35:
+Rimuov
+36:
+Mostra
+37:
+Unita'
+38:
+Su
+39:
+Apri
+40:
+Testo...
+41:
+789456123-0.ABCDEFGHIJKLMNOPQRSTUVWXYZ+-<>*/,?=! :_[](){}%&"
+42:
+789456123-0.abcdefghijklmnopqrstuvwxyz+-<>*/,?=! :_[](){}%&"
+43:
+a->A
+44:
+A->a
+45:
+Info
+46:
+Inserire nome!
+47:
+Nome:
+48:
+Unita' Mem. Massa=
+49:
+NuovoDir
+50:
+Inser. Nome Direttorio!
+51:
+Comuni
+52:
+Interno
+53:
+Attenzione
+54:
+Premere Invio per proseguire!
+55:
+mm
+56:
+Grd
+57:
+789456123_0_ABCDEFGHIJKLMNOPQRSTUVWXYZ_
+58:
+Taglia
+59:
+Copia
+60:
+Incolla
+61:
+Start
+62:
+SUCC
+63:
+PREC
+64:
+Cont
+65:
+Ciclo
+66:
+Istr
+67:
+Continuo
+68:
+Ciclo
+69:
+Istruzione
+70:
+Non sincronizzato
+71:
+789456123_0_ABCDEFGHIJKLMNOPQRSTUVWXYZ_
+72:
+789456123_0_abcdefghijklmnopqrstuvwxyz_
+73:
+Un nome deve cominciare con\n
+una lettera, es. ABB o abb.\n
+\n
+\n
+Premere Invio per proseguire!
+74:
+Parametri
+75:
+Programma
+76:
+Modulo Program
+77:
+Modulo Sistema
+78:
+Registro Errori
+79:
+Registro
+80:
+Direttorio
+81:
+Sali un livello
+82:
+Volume vuoto
+83:
+Sconosciuto
+84:
+Funzione
+85:
+Livello Utente
+86:
+Conferma
+87:
+Funzione    Livello Ut. Conferma
+88:
+Fuori traiettoria!\n
+Il robot e' stato spostato\n
+dall'ultimo arresto.\n
+Deve recuperare la\n
+traiettoria ?
+89:
+No
+90:
+Si
+91:
+main
+92:
+Rileggi
+94:
+Stampa File
+95:
+Attendere!\n
+Progr. in esecuz.\n
+con un altro utente.
+96:
+Prog. Conv.
+97:
+Mod Prog Conv
+98:
+Mod Sist Conv
+99:
+Tasti Programmab.
+100:
+Tasto     Tipo       Collegam
+101:
+Tasto
+102:
+Tipo
+103:
+Collegamento
+104:
+Tasto premuto
+105:
+Nessuno
+106:
+Input
+107:
+Output
+108:
+Interrupt
+109:
+Toggle
+110:
+Set 0
+111:
+Set 1
+112:
+Premi/Ril.
+113:
+Impulso
+114:
+Maggiore di 0 minore del carico max

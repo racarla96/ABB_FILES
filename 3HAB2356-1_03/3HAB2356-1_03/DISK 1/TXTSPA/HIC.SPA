@@ -1,0 +1,292 @@
+Revision 1.9  1995/12/15  14:07:37  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.8  1995/04/21  13:26:56  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.7  1994/08/19  10:45:05  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+7::
+0:
+Parametros sistema
+1:
+ Temas              Fecha cambio
+2:
+Temas
+3:
+Tipos
+4:
+Todos temas
+5:
+Parametros           Info
+6:
+Añadir
+7:
+Cargando Parametros!\n
+\n
+Listo en unos momentos...
+8:
+Cambiar codigos acceso...
+9:
+Texto
+10:
+Guardando Parametros!\n
+\n
+Listo en unos momentos...
+11:
+Cargados nuevos parametros!\n
+\n
+Sistema se reinicializa con\n
+Reiniciar del menu Archivo\n
+
+12:
+Ir a...
+13:
+Ir al Inicio
+14:
+Ir al Final
+15:
+(Buscar...)
+16:
+El cambio de codigos de acceso afecta\n
+su acceso al sistema!\n
+\n
+Asegurese de no cambiar involuntaria-\n
+mente los codigos de acceso.
+17:
+Cambio codigo acceso
+18:
+Selecc. linea
+19:
+Entrar linea
+20:
+Entrar codigo acceso antiguo antes de\n
+cambiar a un nuevo codigo.
+21:
+Entrada Numero
+22:
+Entrar texto de
+23:
+Entrar valor numerico de
+24:
+Cargar Parametros Guardados...
+25:
+Guardar todo como...
+26:
+Guardar como...
+27:
+(Imprimir...)
+28:
+Reiniciar...
+29:
+Limites: Minimo
+30:
+         Maximo
+31:
+Protegido contra escritura.\n
+No se puede cambiar!\n
+\n
+Pulsar Entrar para continuar!
+32:
+Perdida de datos debida a error interno!
+33:
+\n
+No se han cargado parametros!\n
+\n
+Usar menu Archivo para cargar
+34:
+No hay parametros!
+35:
+Borrar
+36:
+(Borrar)
+37:
+No hay parametros!\n
+\n
+Pulsar Entrar para continuar!
+38:
+Mostrar Registro Cambios...
+39:
+Cargar Parametros Salvados!
+40:
+Selecc. Directorio o Archivo a cargar.
+41:
+Guardar todos los Parametros!
+42:
+Seleccionar el directorio para guardar.
+43:
+Antiguo
+44:
+Parametros Guardados!\n
+\n
+\n
+Pulsar Entrar para continuar!
+45:
+SYSPAR
+46:
+\n
+Cargados los nuevos parametros!\n
+\n
+Usar el menu Archivo para Reiniciar.
+47:
+No se han cargado parametros!\n
+No hay param. en directorio\n
+o en archivo seleccionados.\n
+\n
+Pulsar Entrar para continuar.
+48:
+Lista de seleccion (Nombre)
+49:
+Lista de seleccion (Tabla)
+50:
+Definir nombre!\n
+El nombre del parametro\n
+debe ser un nombre unico.\n
+\n
+Pulsar Entrar para continuar.
+51:
+SE DEBE REINICIAR!\n
+Se han cambiado parametros que\n
+obligan a reiniciar sistema.\n
+\n
+Pulsar Entrar para continuar.
+52:
+Guardar Parametros como!
+53:
+Sustituyendo Parametros!\n
+Los parametros existentes\n
+seran sustituidos.\n
+\n
+OK para Continuar?
+54:
+Advertencia!
+55:
+Registro de Cambios
+56:
+Transacciones de registro de cambios
+57:
+carg.par:
+58:
+guar.par:
+59:
+aña.inst:
+60:
+bor.inst:
+61:
+cam.inst:
+62:
+camb.atr:
+63:
+reinicia:
+64:
+Comando Reiniciar!\n
+Desea reiniciar\n
+el control?\n
+\n
+OK para continuar?
+65:
+Parametro obligatorio!\n
+Se debe definir el parametro\n
+con un valor.\n
+\n
+Pulsar Entrar para continuar.
+66:
+Conflicto de nombres!\n
+Se debe definir nombre unico\n
+para este parametro.\n
+\n
+Pulsar Entrar para continuar.
+67:
+Registro de cambios vacio!
+68:
+Añadir Nuevos Parametros...
+69:
+Añadir Nuevos Parametros...
+70:
+Nuevo
+71:
+Sin "Codigo acceso"
+72:
+"Codigo acceso" antiguo de\n
+servicio no es correcto\n
+\n
+Pulsar Entrar para\n
+intentar de nuevo!
+73:
+"Codigo acceso" antiguo de\n
+programador no es correcto\n
+\n
+Pulsar Entrar para\n
+intentar de nuevo!
+74:
+Codigo acceso para %s\n
+%s actualizado!\n
+\n
+\n
+Pulsar Entrar para continuar!
+75:
+Autorizar parametros sistema
+76:
+Codigo camb.
+77:
+Borrar Inst
+78:
+Borrado de parametro, no se puede\n
+volver atras! Asegurese de no hacerlo\n
+involuntariamente\n
+\n
+OK para borrar?
+79:
+
+80:
+Info
+81:
+No puedo mostrar info de\n
+parametro porque ha pulsado\n
+info demasiadas veces.\n
+\n
+Pulsar Entrar para continuar!
+82:
+No puedo mostrar info de\n
+parametro porque no esta\n
+disponible\n
+\n
+Pulsar Entrar para continuar!
+83:
+Comprobar parametros
+84:
+Compruebo parametros sistema.\n
+\n
+Se esta realizando el test\n
+de consistencia de los\n
+parametros del topico\n
+%s\n
+Puede tardar algun tiempo...
+85:
+Felicidades!\n
+Los parametros del topico\n
+%s\n
+son consistentes y tiene la\n
+forma correcta.
+86:
+< Pulsar Entrar para continuar >
+87:
+La comprobacion del topico\n
+%s\n
+no se puede realizar.\n
+No existe ningun metodo para\n
+este topico.
+88:
+Los parametros no se\n
+pueden modificar con\n
+el programa en marcha\n
+Parar el programa!
+89:
+Los parametros no se\n
+pueden modificar en\n
+modo automatico.\n
+Pasar a manual!

@@ -1,0 +1,185 @@
+26::
+0:
+Operador
+1:
+%s falta\n
+Herram. %s no se usa\n
+en programa actual.\n
+Quizas se ha borrado o no\n
+ha sido definido.\n
+\t\n
+Cambiar a otra herram. usando\n
+la ventana mov. manuales
+2:
+%s falta\n
+Wobj %s no se usa\n
+en programa actual.\n
+Quizas se ha borrado o no\n
+ha sido definido.\n
+\t\n
+Cambiar a otro Wobj usando\n
+la ventana mov. manuales
+3:
+Directorio no creado!\n
+El directorio %s no se pudo crear.\n
+Probablemente, el directorio ya\n
+existe o el disco esta protegido.\n
+\t\n
+Comprobar si existe el directorio\n
+o si el disco esta protegido esctritura\n
+Comprobar tambien espacio libre en disco
+4:
+Error def. cogido en robot\n
+El Tool y wobj usados no pueden ambos\n
+estar cogidos por el robot o ser fijos al\n
+mismo tiempo.\n
+\t\n
+Comprobar el componenete robhold\n
+del tool y wobj utilizados.
+5:
+%s no existe\n
+El wobj %s contiene una unidad\n
+mecanica coordinada que no\n
+se puede encontrar.\n
+\t\n
+Comprobar el componente de unidad\n
+mecanica del wobj.
+6:
+%s Base de usuario!\n
+El wobj %s contiene una unidad\n
+mecanica coordinada que no\n
+tiene base usuario definida.\n
+\t\n
+Comprobar el componente de unidad\n
+mecanica del wobj.
+7:
+Mvto.manual no permitido\n
+Mvto.manual no es posible en este modo.\n
+\t\n
+Soltar palanca y dispositivo de\n
+seguridad y repetir.\n
+Comprobar unidad mecanica activa.
+8:
+Masa de tool no definida\n
+No se puede mover manualmente si tool\n
+tiene la masa indefinida\n
+\t\n
+Entrar valor de masa en los datos de\n
+herramienta de tool
+9:
+Robot no sincronizado!\n
+El robot o un eje externo\n
+no estan sincronizados\n
+\t\n
+Sincronizar robot o ejes externos.
+10:
+Error de orientacion!\n
+Orientacion en %s no normalizada\n
+\t\n
+Comprobar valor de orientacion.
+11:
+Errores en parametros!\n
+Carga de parametros en\n
+%s\n
+no se completo\n
+Ver el motivo en\n
+%s\n
+\t\n
+Copiar el archivo\n
+%s\n
+a un floppy y mirar el motivo\n
+con un editor de textos!
+12:
+No hay parametros cargados!\n
+No hay parametros en\n
+%s\n
+\t\n
+Comprobar archivo\n
+%s\n
+con un editor de textos!
+13:
+Mvto.manual no permitido\n
+Mvto.manual de unidad mecanica\n
+no es posible.\n
+Unidad no activada\n
+\t\n
+Activar la unidad mecanica.
+14:
+Disco lleno!\n
+No se ha salvado el registro de cambios\n
+debido al cambio de parametros por no\n
+existir espacio en el disco\n
+\t\n
+Intente borrar archivos o\n
+reorganice su disco.
+15:
+No puedo situar PP!\n
+El PP no se puede situar en rutina\n
+'%s' porque tiene parametros.\n
+\t\n
+Hacer una llamada a rutina '%s' o\n
+borre los parametros.
+16:
+No puedo situar PP!\n
+El PP no se puede situar en rutina\n
+'%s' porque reside en un\n
+modulo con atributo\n
+NOSTEPIN.\n
+\t\n
+Copiar la rutina '%s' a\n
+otro modulo o cambiar el\n
+atributo del modulo.
+17:
+Codigo PGM_TELLBACK %d\n
+\n
+\t\n
+No se dispone de mas informacion.
+18:
+Error sintactico RAPID!\n
+No se pudo cargar el programa\n
+debido a error(es) sintactico(s).\n
+\t\n
+Se puede usar un corrector de sintaxis\n
+para PC o QuickTeach para detectar los\n
+errores. El archivo PGMCPL1.LOG en el\n
+disco RAM interno tiene la informacion\n
+sobre los errores.
+19:
+Error entrada datos!\n
+El componente '%s' en dato\n
+tipo '%s' no es correcto.\n
+Los limites son:\n
+%s!\n
+\t\n
+Comprobar datos y entrar los\n
+valores correctos.
+20:
+No puedo situar PP!\n
+El PP no se puede situar en rutina\n
+'%s' porque esta definida\n
+como rutina trap.\n
+\t\n
+Cambiar la definicion de la\n
+rutina '%s'\n
+a 'Procedure'.
+21:
+No puedo mostrar objetos\n
+El numero de objetos seleccionados\n
+excede el limite memoria especificado\n
+para esta configuracion. Por ello no\n
+se pueden mostrar objetos.\n
+\t\n
+Reducir numero de datos o\n
+cambiar configuracion de memoria\n
+a carta con mas memoria.
+22:
+Cannot show all items!\n
+Only %d variables (out of %d) will be\n
+listed.\n
+All variables cannot be shown because\n
+the current memory limit specified for\n
+this configuration will be exceeded.\n
+\t\n
+Reduce the number of data or\n
+change the configuration to a memory\n
+board with more memory.

@@ -1,0 +1,203 @@
+17::
+0:
+E/A Signale
+1:
+Anwender Signale
+2:
+System
+3:
+Gruppen
+4:
+Signal Name
+5:
+Einheit Name
+6:
+Signal Typ
+7:
+Signal Nummer
+8:
+Start Signal
+9:
+Gruppe Länge
+10:
+DI
+11:
+DO
+12:
+Sicherheit
+13:
+Einheit Name
+14:
+Einheit Typ
+15:
+Einheit Bus
+16:
+Dig. Eingänge
+17:
+Dig. Ausgänge
+18:
+E/A Karten
+19:
+Name        Einheit     Typ       Signal
+20:
+Name        Einheit    Länge  phys.Sig
+21:
+Einheit Typ
+22:
+Name        Typ         Bus      Adresse
+23:
+GI
+24:
+GO
+25:
+System Eingänge
+26:
+System Ausgänge
+27:
+Name
+28:
+Aktion
+29:
+Status
+30:
+Motoren_Ein
+31:
+Motoren_Aus
+32:
+Prog._läuft
+33:
+Motoren_Ein
+34:
+Motoren_Aus
+35:
+Start
+36:
+Start_haupt
+37:
+Stop
+38:
+Stop_Zyklus
+39:
+Interrupt
+40:
+Lade_Start
+41:
+Argument
+42:
+Name        Aktion
+43:
+Name        Status
+44:
+-
+45:
+zu
+46:
+von
+47:
+Querverbindung
+48:
+von         zu
+49:
+Analoge Eingänge
+50:
+Analoge Ausgänge
+51:
+Adresse
+52:
+AO
+53:
+AI
+54:
+RückstNot-Aus
+55:
+Not-Aus
+56:
+Auto_Ein
+57:
+Motoren_Ein_OK
+58:
+TCP_Geschw
+59:
+Logisch Max.
+60:
+Physikalisch Max.
+61:
+Logisch Min.
+62:
+Physikalisch Min.
+63:
+Filter Passiv
+64:
+Filter Aktiv
+65:
+Invertiert
+67:
+JA
+68:
+NEIN
+69:
+RIO Adresse (octal)
+70:
+RIO Baudrate
+71:
+RIO Startgruppe
+72:
+RIO Rackgröße
+73:
+RIO Letztes Rack
+74:
+57.6 kB
+75:
+115 kB
+76:
+230 kB
+77:
+0
+78:
+2
+79:
+4
+80:
+6
+81:
+1/4
+82:
+1/2
+83:
+3/4
+84:
+FULL
+85:
+Fehler
+86:
+Sync_extAchs
+87:
+BAS
+88:
+VME
+89:
+SIM
+90:
+RückstFehler
+91:
+CAN
+92:
+Einschub Adresse
+93:
+Speichern
+94:
+MotEinStatus
+95:
+MotAusStatus
+96:
+Netz_Fehler
+97:
+MotEinStart
+98:
+StopInstr
+99:
+SysReset
+100:
+OK_Fehlerdialog
+101:
+IBS Rackgröße

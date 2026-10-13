@@ -1,0 +1,48 @@
+73::
+0:
+Sold. Puntos
+1:
+Error soldadura puntos\n
+El proceso de soldadura no esta\n
+desocupado\n
+\t\n
+Situar el estado del proceso definido\n
+en SwInit a desocupado (idle)
+2:
+Error soldadura puntos\n
+Parametro %s\n
+\t\n
+
+3:
+Exceso tmpo SwStart neg.\n
+\n
+\t\n
+
+4:
+Interrupcion SwInit neg.\n
+\n
+\t\n
+
+5:
+ProcId. Motivo puede ser:\n
+-ProcId no corresponde al valor\n
+ dado en SwInit\n
+-El proceso de soldadura puntos\n
+ se ha cancelado\n
+\t\n
+
+6:
+Error com. sold. puntos\n
+Motivo: %s\n
+\t\n
+
+7:
+Respuesta muy lenta\n
+\n
+\t\n
+
+8:
+Conexion BOSCH no dispon.\n
+\n
+\t\n
+

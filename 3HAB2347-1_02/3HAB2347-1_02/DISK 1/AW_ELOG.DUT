@@ -1,0 +1,697 @@
+
+
+64::
+0:
+Booglassen
+1:
+Gas supervisie\n
+\n
+\t\n
+Controleer de las apparatuur.
+2:
+Water supervisie\n
+\n
+\t\n
+Controleer de las apparatuur.
+3:
+Boog supervisie\n
+\n
+\t\n
+Controleer de las apparatuur.
+4:
+Voltage supervisie\n
+\n
+\t\n
+Controleer de las apparatuur.
+5:
+Stroom supervisie\n
+\n
+\t\n
+Controleer de las apparatuur.
+6:
+Draadaanvoer supervisie\n
+\n
+\t\n
+Controleer de las apparatuur.
+7:
+Draad uitsteek supervisie\n
+\n
+\t\n
+Controleer de las apparatuur.
+8:
+Vlamboog niet ontstoken\n
+\n
+\t\n
+Controleer de las apparatuur.
+9:
+Schema overdrachts fout\n
+\n
+\t\n
+Definieer een las schema strobe input
+10:
+Schema overdrachts fout\n
+\n
+\t\n
+De las schema poort is nog bezig met\n
+de vorige overdracht.
+11:
+Proces gestopt\n
+\n
+\t\n
+Proces gestopt door digitale input.
+12:
+Boog bij vullen niet aan\n
+\n
+\t\n
+Controleer de las apparatuur.
+13:
+Toorts supervisie\n
+\n
+\t\n
+Controleer de las apparatuur.
+1000:
+Pendel patroon fout\n
+Pendel interpolatie type fout\n
+[Geometrisch = 0, Snel = 1]\n
+\t\n
+Pas pendel parameters aan
+1001:
+Pendel patroon fout\n
+Pendel patroon profiel fout\n
+[Geen profiel=0, Zig-zag         =1]\n
+[V-profiel   =2, Driehoek profiel=3]\n
+\t\n
+Pas pendel parameters aan
+1002:
+Pendel patroon fout\n
+Pendel patroon cyclus lengte fout\n
+(0 - 1) [m]\n
+\t\n
+Pas pendel parameters aan
+1003:
+Pendel patroon fout\n
+Pendel patroon cyclustijd fout\n
+(0 - 100) [s]\n
+\t\n
+Pas pendel parameters aan
+1004:
+Pendel patroon fout\n
+Pendel patroon breedte fout\n
+(0 - 1) [m]\n
+\t\n
+Pas pendel parameters aan
+1005:
+Pendel patroon fout\n
+Pendel patroon hoogte fout\n
+(0 - 1) [m]\n
+\t\n
+Pas pendel parameters aan
+1006:
+Pendel patroon fout\n
+Linker pendel patroon pauze fout\n
+(0 - 1) [m]\n
+\t\n
+Pas pendel parameters aan
+1007:
+Pendel patroon fout\n
+Midden pendel patroon pauze fout\n
+(0 - 1) [m]\n
+\t\n
+Pas pendel parameters aan
+1008:
+Pendel patroon fout\n
+Rechter pendel patroon pauze fout\n
+(0 - 1) [m]\n
+\t\n
+Pas pendel parameters aan
+1009:
+Pendel patroon fout\n
+Pendel patroon bias fout\n
+(-1 - 1) [m]\n
+\t\n
+Pas pendel parameters aan
+1010:
+Pendel patroon fout\n
+Pendel patroon richtingshoek fout\n
+(-PI/2 - PI/2) [rad]\n
+\t\n
+Pas pendel parameters aan
+1011:
+Pendel patroon fout\n
+Pendel patroon kantelhoek fout\n
+(-PI/2 - PI/2) [rad]\n
+\t\n
+Pas pendel parameters aan
+1012:
+Pendel patroon fout\n
+Pendel patroon rotatiehoek fout\n
+(-PI/2 - PI/2) [rad]\n
+\t\n
+Pas pendel parameters aan
+1013:
+Pendel patroon fout\n
+Pendel patroon horizontaleoffset fout\n
+(-1 - 1) [m]\n
+\t\n
+Pas pendel parameters aan
+1014:
+Pendel patroon fout\n
+Pendel patroon verticaleoffset fout\n
+(-1 - 1) [m]\n
+\t\n
+Pas pendel parameters aan
+1015:
+Pendel patroon fout\n
+Pendel patroon linker sync voorw. fout\n
+(0 - 100) [%]\n
+\t\n
+Pas pendel parameters aan
+1016:
+Pendel patroon fout\n
+Pendel patroon rechter sync voorw fout\n
+(0 - 100) [%]\n
+\t\n
+Pas pendel parameters aan
+1017:
+Pendel patroon fout\n
+Verboden combinatie van bias en profiel\n
+Bias alleen toegestaan bij Zig-zag prof.\n
+\t\n
+Pas pendel parameters aan
+1018:
+Pendel patroon fout\n
+Verboden combinatie van bias en breedte\n
+Bias moet kleiner zijn dan halve breedte\n
+\t\n
+Pas pendel parameters aan
+1019:
+Pendel patroon fout\n
+Verboden combinatie van pauzes en\n
+cyclus lengte. Pauzes moeten kleiner\n
+zijn dan cyclus lengte. Aanloop hoek\n
+(uitslag/lengte) is beperkt.\n
+\t\n
+Pas pendel parameters aan
+3000:
+Apparatuur config. fout\n
+\n
+\t\n
+AW en EIO config. stemmen niet overeen
+4000:
+Weldguide fout\n
+\n
+\t\n
+Controleer weldguide parameters\n
+en apparatuur
+5000:
+Seamless Config fout\n
+Onbekende parameter in\n
+Stroom bron\n
+\t\n
+Controleer Seamless configuratie file
+5001:
+Seamless Config fout\n
+Ongeldige unit_id gebruikt\n
+\t\n
+Controleer Seamless configuratie file
+5002:
+Seamless Config fout\n
+Ongeldige transmissie\n
+lengte gebruikt\n
+\t\n
+Controleer Seamless configuratie file
+5003:
+Seamless Config fout\n
+Ongeldige selection_id gebruikt\n
+\t\n
+Controleer Seamless configuratie file
+5004:
+Seamless Config fout\n
+Seamless systemen met\n
+verschillende eenheden\n
+\t\n
+Controleer Seamless configuratie file
+5005:
+Seamless Config fout\n
+Totaal geen eenheden gebruikt\n
+\t\n
+Controleer Seamless configuratie file
+5006:
+Seamless Config fout\n
+Te veel bijstel parameters\n
+\t\n
+Controleer Seamless configuratie file
+6000:
+Track fout\n
+\n
+\t\n
+Controleer arm definitie
+6001:
+Track start fout\n
+\n
+\t\n
+Controleer arm definitie
+6002:
+Track max pad corr fout\n
+\n
+\t\n
+Controleer arm definitie
+7001:
+Lasapparatuur fout\n
+EPROM checksum fout in Welddata Unit\n
+geconstateerd bij opstarten.\n
+\t\n
+EPROM in Welddata Unit is defect.\n
+Doorgaan met deze fout kan een\n
+onverwacht resultaat geven.\n
+Vervang EPROM.
+7002:
+Las apparatuur fout\n
+Interne RAM read/write fout in Welddata\n
+Unit geconstateerd bij opstarten.\n
+\t\n
+Tenminste 1 geheugen plaats in interne\n
+microprocessor is niet door read/write\n
+test gekomen. Doorgaan met deze fout\n
+kan een onverwacht resultaat geven.\n
+Vervang Welddata Unit.
+7003:
+Lasapparatuur fout\n
+Externe RAM read/write fout in Welddata\n
+Unit geconstateerd bij opstarten.\n
+\t\n
+Tenminste 1 geheugen plaats in externe\n
+microprocessor is niet door read/write\n
+test gekomen. Doorgaan met deze fout\n
+kan een onverwacht resultaat geven.\n
+Vervang Welddata Unit.
+7004:
+Lasapparatuur fout\n
+DC voltage voor de 5 Volt voeding van\n
+regulator in Welddata Unit is te laag.\n
+\t\n
+Dit geeft aan dat er een probleem is in\n
+de voedings unit maar de functie is mis-\n
+schien niet beinvloed. Controleer de\n
+binnenkomende voeding van Welddata Unit
+7012:
+Lasapparatuur fout\n
+Welddata Unit CAN-controller tbv\n
+interne bus is in WARNING status\n
+\t\n
+Verander data verschillende keren of\n
+reset lasapparatuur dmv hoofdschak.\n
+Als de fout niet verdwijnt, controleer\n
+bus verbinding en/of vervang de\n
+Welddata Unit.
+7013:
+Lasapparatuur fout\n
+Welddata Unit CAN-controller tbv\n
+externe bus is in WARNING status.\n
+\t\n
+Verander data verschillende keren of\n
+reset lasapparatuur dmv hoofdschak.\n
+Als de fout niet verdwijnt, controleer\n
+bus verbinding en/of vervang de\n
+Welddata Unit.
+7014:
+Lasapparatuur fout\n
+Welddata Unit CAN-controller tbv\n
+interne bus is in BUS-OFF status.\n
+\t\n
+Reset lasapparatuur dmv hoofdschak.\n
+Als de fout niet verdwijnt, controleer\n
+bus verbinding en/of vervang de\n
+Welddata Unit.
+7015:
+Lasapparatuur fout\n
+Welddata Unit heeft ontdekt dan ontv.\n
+intern CAN bericht verloren is gegaan\n
+(Overschreven door nieuw bericht).\n
+\t\n
+Reset lasapparatuur door middel van\n
+hoofdschakelaar.
+7016:
+Lasapparatuur fout\n
+Welddata Unit heeft ondekt dan ontvangen\n
+intern CAN bericht verloren is gegaan\n
+(Overschreven door nieuw bericht).\n
+\t\n
+Reset lasapparatuur door middel van\n
+hoofdschakelaar.
+7017:
+Lasapparatuur fout\n
+Welddata Unit heeft verbinding\n
+verloren met draadaanvoerunit.\n
+\t\n
+Contrl. verbindingskabel tussen Welddata\n
+Unit en draadaanv controle bord, contrl\n
+voeding naar draadaanvoer controle bord.
+7018:
+Lasapparatuur fout\n
+Welddata Unit heeft verbinding\n
+verloren met Olivia Unit.\n
+\t\n
+Controleer verbindingskabel tussen\n
+Welddata Unit en Olivia Unit,\n
+controleer voeding naar Olivia Unit.
+7019:
+Lasapparatuur fout\n
+Niet-Permanent RAM data waarde fout\n
+geconstateerd in Welddata Unit tijdens\n
+opstarten. Checksum fout.\n
+\t\n
+Waarschijnlijk veroorzaakt door lege\n
+backup batterij. Lasapparatuur zal\n
+worden terug gezet in basis instelling.\n
+Data in Welddata Unit zijn verloren.\n
+Mogelijk doorgaan zonder beperkingen.
+7020:
+Lasapparatuur fout\n
+Niet-Permanent RAM data waarde fout\n
+geconstateerd in Welddata Unit\n
+tijdens opstarten. Alfa-numerieke\n
+instellings param. buiten tolerantie\n
+\t\n
+Lasapparatuur zal worden terug gezet\n
+in basis instelling. Data in Welddata\n
+Unit zijn verloren. Mogelijk doorgaan\n
+zonder beperkingen.
+7021:
+Lasapparatuur fout\n
+Ongeldige combinatie van alfa-numerieke\n
+instellingsparameters in Welddata Unit\n
+geconstateerd tijdens opstarten.\n
+\t\n
+Lasapparatuur zal worden terug gezet\n
+in basis instelling. Data in Welddata\n
+Unit zijn verloren. Reset lasapparatuur\n
+dmv hoofdschakelaar.
+7022:
+Lasapparatuur fout\n
+CAN-bus (extern) zend buffer\n
+overflow in Welddata Unit.\n
+\t\n
+Welddata Unit kan data niet verzenden\n
+op vereiste snelheid. Dit kan worden\n
+veroorzaakt door een te grote belasting\n
+van de bus. Reset lasapparatuur dmv\n
+hoofdschakelaar.
+7023:
+Lasapparatuur fout\n
+CAN-bus (extern) ontvangst buffer\n
+overflow in Welddata Unit.\n
+\t\n
+Welddata Unit kan ontvangen data niet\n
+op vereiste snelheid bewerken.\n
+Reset lasapparatuur dmv\n
+hoofdschakelaar.
+7024:
+Lasapparatuur fout\n
+De Welddata Unit heeft gefragmenteerd\n
+bericht ontvangen waarvan de fragmenten\n
+niet op numerieke volgorde waren.\n
+\t\n
+Gedeelten van een gefragmenteerd bericht\n
+zijn niet op volgorde ontvangen. Een\n
+weld data block overdracht is fout\n
+ontvangen. Reset lasapparatuur dmv\n
+de hoofdschakelaar.
+7025:
+Lasapparatuur fout\n
+Niet gelijkwaardig formaat van weld data\n
+block. Welddata Unit ontving data die is\n
+opgeslagen in een ander programma versie\n
+met een ander format.\n
+\t\n
+Zoek data met correcte versie of geef\n
+nieuwe data in.
+7026:
+Lasapparatuur fout\n
+Programma fout.\n
+"Watch Dog" in Welddata Unit\n
+programma geactiveerd.\n
+\t\n
+Reset lasapparatuur dmv\n
+hoofdschakelaar.
+7027:
+Lasapparatuur fout\n
+Onbekende fout in Welddata Unit.\n
+\t\n
+Vraag ABB/ESAB om aanvullende\n
+informatie.
+7028:
+Lasapparatuur fout\n
+Onbekende fout in Welddata Unit.\n
+\t\n
+Vraag ABB/ESAB om aanvullende\n
+informatie.
+7029:
+Lasapparatuur fout\n
+Onbekende fout in Welddata Unit.\n
+\t\n
+Vraag ABB/ESAB om aanvullende\n
+informatie.
+7201:
+Lasapparatuur fout\n
+EPROM checksum fout in Stroombron\n
+Controle Unit.\n
+\t\n
+EPROM in Stroombron Controle Unit is\n
+defect. Doorgaan met deze fout kan een\n
+onverwacht resultaat geven.\n
+Vervang EPROM.
+7202:
+Lasapparatuur fout.\n
+Interne RAM lees/schrijf fout in\n
+Stroombron Controle Unit gedetecteerd\n
+tijdens opstarten.\n
+\t\n
+Tenminste 1 geheugen plaats in interne\n
+microprocessor geheugen is defect.\n
+Doorgaan met deze fout kan een\n
+onverwacht resultaat hebben.\n
+Vervang Stroombron Controle Unit.
+7204:
+Lasapparatuur fout\n
+5V DC voedings spanning voor regulator\n
+in Stroombron Controle Unit is te laag.\n
+\t\n
+Dit geeft aan dat er een probleem is in\n
+de voedingsunit maar dat dit misschien\n
+geen invloed heeft de functie. Contrl.\n
+de voeding naar Stroombron Controle Unit
+7205:
+Lasapparatuur fout\n
+DC inverter bus voltage is te hoog.\n
+Hardware stopt tot dat inverter voltage\n
+weer normaal is.\n
+\t\n
+Oorzaak misschien hoge net-impedantie of\n
+afwijkingen. Het is mogelijk om het\n
+lassen te herstarten als het voltage\n
+zakt onder de limietwaarde.
+7206:
+Lasapparatuur fout\n
+Temperatuur in koelblok van stroombron\n
+is te hoog. Inverter stopt tot dat de\n
+temp. schakelaar opnieuw gesloten is.\n
+\t\n
+Controleer of de luchtstroom door de\n
+stroombron voldoende is om deze\n
+genoeg te koelen. Wacht tot dat de\n
+temp. schakelaar opnieuw gesloten is.
+7207:
+Lasapparatuur fout\n
+Hoge stroom in inverter circuit. Mis-\n
+schien veroozaakt door defect component\n
+\t\n
+Reset lasapparatuur dmv hoofdschakelaar.\n
+Controleer of de stroombron niet onnodig\n
+veel stroom gebruikt zonder te lassen.\n
+Als dit het geval is, duidt dit op een\n
+defect component.
+7208:
+Lasapparatuur fout\n
+De 15V DC voedingsspanning naar stroom-\n
+bron controle unit is te hoog of te laag\n
+\t\n
+Vervang Stroombron Controle Unit.
+7209:
+Lasapparatuur fout\n
+De 15V DC voedingsspanning naar stroom-\n
+bron controle unit is te hoog of te laag\n
+\t\n
+Vervang Stroombron Controle Unit.
+7210:
+Lasapparatuur fout\n
+De 15V DC voedingsspanning naar stroom-\n
+bron controle unit is te hoog of te laag\n
+\t\n
+Vervang Stroombron Controle Unit.
+7211:
+Lasapparatuur fout\n
+Gedurende geruime tijd verschil tussen\n
+gevraagde en actuele lasstroom.\n
+\t\n
+Hardware probleem in stroom servosysteem\n
+(stroombron controle bord of inverter\n
+blokkering) of abnormale belastings\n
+condities (= slecht lassen).
+7212:
+Lasapparatuur fout.\n
+Interne CAN communicatie fout CAN\n
+circuits in stroombron controle unit\n
+is in WARNING status.\n
+\t\n
+Verander data verschillende keren of\n
+reset lasapparatuur dmv hoofdschak.\n
+Als de fout niet verdwijnt, controleer\n
+bus verbinding en/of vervang de Stroom\n
+Bron Controle Unit.
+7215:
+Lasapparatuur fout\n
+In Stroombron Controle Unit is ontvangen\n
+intern CAN bericht verloren is gegaan\n
+(overschreven door nieuw bericht).\n
+\t\n
+Reset lasapparatuur dmv\n
+hoofdschakelaar.
+7226:
+Lasapparatuur fout\n
+Programma fout.\n
+"Watch Dog" in Stroombron Controle Unit\n
+programma geactiveerd.\n
+\t\n
+Reset Lasapparatuur dmv\n
+hoofdschakelaar.
+7227:
+Lasapparatuur fout\n
+Onbekende Stroombron Controle Unit\n
+fout.\n
+\t\n
+Vraag ABB/ESAB om aanvullende\n
+informatie.
+7228:
+Lasapparatuur fout\n
+Onbekende Stroombron Controle Unit\n
+fout.\n
+\t\n
+Vraag ABB/ESAB om aanvullende\n
+informatie.
+7229:
+Lasapparatuur fout\n
+Onbekende Stroombron Controle Unit\n
+fout.\n
+\t\n
+Vraag ABB/ESAB om aanvullende\n
+informatie.
+7301:
+Lasapparatuur fout\n
+EPROM checksum fout in draadaanvoer unit\n
+geconstateerd tijdens opstarten.\n
+\t\n
+EPROM in draadaanvoer unit is fout.\n
+Doorgaan met deze fout kan een\n
+onverwacht resultaat geven.\n
+Vervang EPROM.
+7302:
+Lasapparatuur fout\n
+Interne RAM lees/schrijf fout in\n
+draadaanvoer unit tijdens opstarten.\n
+\t\n
+Tenminste 1 geheugen plaats in interne\n
+microprocessor is niet door read/write\n
+test gekomen. Doorgaan met deze fout\n
+kan een onverwacht resultaat geven.\n
+Vervang Draadaanvoer Unit.
+7304:
+Lasapparatuur fout\n
+5V DC voedingsspanning in Draadaanvoer\n
+Unit is te laag.\n
+\t\n
+Dit geeft aan dat er een probleem is met\n
+de voedings unit maar dat dit de functie\n
+niet beinvloedt. Controleer de voedings-\n
+spanning naar Draadaanvoer unit
+7308:
+Lasapparatuur fout\n
+15V voedingsspanning voor Draadaanvoer\n
+Unit te hoog of te laag.\n
+\t\n
+Vervang Draadaanvoer Unit.
+7309:
+Lasapparatuur fout\n
+24V voedingsspanning voor Draadaanvoer\n
+Unit te hoog of te laag.\n
+\t\n
+Vervang draadaanvoer Unit.
+7311:
+Lasapparatuur fout\n
+Gedurende geruime tijd verschil tussen\n
+gevraagde en actuele draadaanvoer.\n
+\t\n
+Hardware probleem in draadaanvoer\n
+servo systeem of spannings val in\n
+42V AC voeding.
+7312:
+Lasapparatuur fout\n
+Interne CAN communicatie fout, CAN\n
+circuits in Draadaanvoer Unit is in\n
+WARNING status.\n
+\t\n
+Verander draadaanvoer snelh. verschil-\n
+lende malen of reset lasapparatuur dmv\n
+hoofdschakelaar. Als fout niet verdwijnt\n
+controleer de bus verbindingen en/of\n
+vervang de Draadaanvoer Unit.
+7315:
+Lasapparatuur fout\n
+Draadaanvoer Unit heeft ontdekt dat\n
+ontvangen intern CAN bericht verloren\n
+is (overschreven door nieuw bericht).\n
+\t\n
+Reset lasapparatuur dmv\n
+hoofdschakelaar.
+7326:
+Lasapparatuur fout\n
+Programma fout.\n
+"Watch Dog" in Draadaanvoer Unit\n
+programma geactiveerd.\n
+\t\n
+Reset lasapparatuur dmv\n
+hoofdschakelaar.
+7327:
+Lasapparatuur fout\n
+Onbekende Draadaanvoer Unit fout.\n
+\t\n
+Vraag ABB/ESAB om aanvullende\n
+informatie.
+7328:
+Lasapparatuur fout\n
+Onbekende Draadaanvoer Unit fout.\n
+\t\n
+Vraag ABB/ESAB om aanvullende\n
+informatie.
+7329:
+Lasapparatuur fout\n
+Onbekende Draadaanvoer Unit fout.\n
+\t\n
+Vraag ABB/ESAB om aanvullende\n
+informatie.
+7500:
+Open bestand fout\n
+Onbekende bestands naam\n
+\t\n
+
+8000:
+Ext CAN com fout\n
+Te veel aanvragen zonder antwoord\n
+\t\n
+Contrl communicatie configuratie
+9000:
+Installation error\n
+External axes are not allowed in this\n
+type of robot configuration\n
+\t\n
+Remove mechanical units

@@ -1,0 +1,123 @@
+30::
+0:
+Radic
+1:
+Zabezpeceni
+2:
+Funkce
+3:
+Activni
+4:
+ANO
+5:
+NE
+6:
+Funkce     Aktivni
+7:
+Pridrz pro beh
+8:
+ZAPNOUT
+9:
+SPUSTIT
+10:
+ZASTAVIT
+11:
+QSTOP
+12:
+ZNOVU SPUSTIT
+13:
+VYNULOVAT
+14:
+Rutiny udalosti
+15:
+Udalost     Rutina      Uloha
+16:
+Udalost
+17:
+Rutina
+18:
+Ulohy
+19:
+Uloha
+20:
+Prog
+21:
+Uloha v popredi
+22:
+Typ
+23:
+Hlavni vstup
+24:
+NORMALNI
+25:
+STATICKY
+26:
+SEMISTATICKY
+27:
+Uloha       Prog        Typ
+28:
+Uloha
+29:
+Moduly ulohy
+30:
+Soubor
+31:
+Uloha       Soubor
+32:
+Znovu ziskat vzdalenosti
+33:
+Rezim
+34:
+Tcp_dist
+35:
+Tcp_rot
+36:
+Ext_dist
+37:
+Ext_rot
+38:
+Rezim       Tcp-dist    Tcp-rot
+39:
+RUCNI
+40:
+AUTO
+41:
+BindRef
+42:
+Vel. zasob. [%]
+43:
++
+44:
+-
+45:
+Ulozeni
+46:
+Zaveden
+47:
+Vestaven
+48:
+Systemove ruzne
+49:
+Funkce
+50:
+Hodnota
+51:
+Funkce      Hodnota
+52:
+MemTask0[%]
+53:
+SimMenu
+54:
+Zadne dalsi funkce
+55:
+Prumer. stala
+56:
+Zdroj textu
+57:
+Velikost [bytu]
+58:
+Nespecifikovano
+59:
+ANO
+60:
+NE

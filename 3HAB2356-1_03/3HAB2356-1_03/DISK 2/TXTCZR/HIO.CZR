@@ -1,0 +1,246 @@
+Revision 1.9  1995/12/15  13:57:29  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.8  1995/04/21  13:17:47  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.7  1994/08/19  09:46:00  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+4::
+0:
+
+1:
+Vstupy/Vystupy
+2:
+Invert:
+3:
+Skupiny
+4:
+Nejbeznejsi
+5:
+
+6:
+
+7:
+Nazev:
+8:
+Hodnota:
+9:
+Typ:
+10:
+
+11:
+Sbernice:
+12:
+Otevrit
+13:
+Zavrit
+14:
+Nastav
+15:
+Vynulov
+16:
+1
+17:
+0
+18:
+Soubor
+19:
+Tisk...
+20:
+Preference...
+21:
+Upravy
+22:
+
+23:
+
+24:
+Prejit na...
+25:
+Prejit na zacatek
+26:
+Prejit na konec
+27:
+
+28:
+Prohliz
+29:
+Nejbeznejsi
+30:
+Desky
+31:
+Digitalni vstupy
+32:
+Digitalni vystupy
+33:
+Analogove
+34:
+
+35:
+Skupiny
+36:
+
+37:
+Vsechny signaly
+38:
+
+39:
+Zabezpeceni
+40:
+
+41:
+
+42:
+
+43:
+Adresa:
+44:
+Deska:
+45:
+Signal:
+46:
+
+47:
+Atributy signalu:
+48:
+Stav
+49:
+Desky
+50:
+OK
+51:
+Stav signalu
+52:
+Zrusit
+53:
+Vysled
+54:
+Zahrn
+55:
+Vylouc
+56:
+Prejit na radek!
+57:
+Zadejte radek
+58:
+Zmena
+59:
+Nazev        Hodnota      Typ
+60:
+Adr sber     Nazev        Typ
+61:
+Nejbeznejsi  Nazev        Typ
+62:
+Nazev        Hodnota      Signaly
+63:
+Zadna hodnota  Deska         Signal
+64:
+Skupina:
+65:
+Signal       Hodnota      Nazev
+66:
+Nahoru
+67:
+Dolu
+68:
+Nastav
+69:
+             Nazev        Typ
+70:
+Nejbeznejsi vysledek
+71:
+Nejbeznej. nastaveni
+72:
+Vyp
+73:
+Zap
+74:
+NE
+75:
+ANO
+76:
+Pasivni
+77:
+Aktivni
+78:
+Nizky
+79:
+Vysoky
+80:
+Typ desky:
+81:
+Nahoru
+82:
+
+83:
+Zadne signaly
+84:
+Pokracujte stiskem Enter
+85:
+Zadny sign map k jednotce
+86:
+Zadej hodnotu V/V skupiny
+87:
+Meze: Minimalni
+88:
+        Maximalni
+89:
+Datovy vstup Vstupu/Vystupu
+90:
+Zadejte hodnotu pro analogovy signal
+91:
+Tisk Vstupu/Vystupu
+92:
+Tisk
+93:
+Tisk jen do souboru:
+94:
+Pridej info signalu:
+95:
+Data k tisku
+96:
+Tisk Vstupu/Vystupu do soub.:
+97:
+Probiha tisk !
+98:
+   Zruste stiskem Enter
+99:
+ Pokracujte stiskem Enter
+100:
+Tiskarna je obsazena\n
+\n
+Zkuste znovu kdyz je tiskarna\n
+pripravena
+101:
+Nelze tisknout, protoze je\n
+ve fronte prilis mnoho praci\n
+\n
+Zkuste znovu pozdeji
+102:
+Nelze tisknout, protoze tiskarna\n
+neni v systemovych parametrech\n
+konfigurovana\n
+
+103:
+Na jednotce pouzite k tisku neni\n
+dostatek prostoru (obvykle\n
+%.9s). Potrebuje %d bytu.\n
+Presunte/smazte nektere soubory.
+104:
+  Zaneprazdnen\n
+ \n
+  Prosim cekejte
+105:
+ Nelze vytvorit/psat do souboru:\n
+\n
+
+106:
+ Soubor jiz existuje\n
+
+107:
+Signal spusteni

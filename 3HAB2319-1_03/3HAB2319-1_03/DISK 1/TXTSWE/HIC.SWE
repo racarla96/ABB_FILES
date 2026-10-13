@@ -1,0 +1,262 @@
+7::
+0:
+Systemparametrar
+1:
+ Område           Ändringsdatum
+2:
+Område
+3:
+Typer
+4:
+Alla områden
+5:
+Parametrar           Info
+6:
+Addera
+7:
+Parametrar laddas in.\n
+\n
+Strax klart...
+8:
+Ändra lösenord...
+9:
+Text
+10:
+Parametrar sparas.\n
+\n
+Strax klart...
+11:
+Nya parametrar lästa.\n
+\n
+Roboten återstartas med\n
+kommandot Arkiv:Omstart\n
+
+12:
+Gå till...
+13:
+Gå till första
+14:
+Gå till sista
+15:
+(Sök...)
+16:
+En ändring av lösenord kommer att\n
+begränsa tillträdet till roboten!\n
+\n
+Kontrollera att du inte ändrar något\n
+lösenord oavsiktligt.
+17:
+Ändra lösenord!
+18:
+Val av rad
+19:
+Ange radnummer
+20:
+Ange det gamla lösenordet innan\n
+lösenordet ändras.
+21:
+Ingång nummer
+22:
+Mata in textsträng för
+23:
+Ange numeriskt värde för
+24:
+Ladda sparade parametrar...
+25:
+Spara allt som...
+26:
+Spara som...
+27:
+(Skriv ut...)
+28:
+Omstart...
+29:
+Gränser: Lägsta 
+30:
+         Högsta
+31:
+Skrivskyddad parameter.\n
+Kan inte ändras!\n
+\n
+Tryck Enter för att fortsätta!
+32:
+Internt fel orsakar förlorade data!
+33:
+\n
+Inga parametrar inlästa.\n
+\n
+Läs in parametar via Arkiv-menyn.
+34:
+Inga parametrar att visa!
+35:
+Radera
+36:
+(Radera)
+37:
+Inga parametrar att visa!\n
+\n
+Tryck Enter för att fortsätta!
+38:
+Visa ändringslogg...
+39:
+Ladda sparade parametrar!
+40:
+Markera en katalog eller fil att ladda.
+41:
+Spara alla parametrar!
+42:
+Markera en katalog att spara till.
+43:
+Gammalt
+44:
+Parametrar sparade!\n
+\n
+\n
+Tryck Enter för att fortsätta!
+45:
+SYSPAR
+46:
+\n
+Nya parametrar inlästa!\n
+\n
+Använd Arkiv-menyn för att\n
+göra en omstart.
+47:
+Inga parametrar inlästa!\n
+Parametrar saknas i angiven \n
+katalog eller parameterfil.\n
+\n
+Tryck Enter för att fortsätta!
+48:
+Vallista (namngivna exempel)
+49:
+Vallista (tabell)
+50:
+Definiera namn!\n
+Du måste ange ett unikt namn\n
+för parametern.\n
+\n
+Tryck Enter för att fortsätta!
+51:
+OMSTART KRÄVS!\n
+Parametrar har ändrats \n
+som kräver en omstart.\n
+\n
+Tryck Enter för att fortsätta!
+52:
+Spara parametrar som!
+53:
+Skriver över parametrar!\n
+Nuvarande parametrar kommer att\n
+skrivas över\n
+\n
+OK att fortsätta?
+54:
+Varning!
+55:
+Ändringslogg
+56:
+Ändringslogg - transaktioner
+57:
+ladd par:
+58:
+spar par:
+59:
+add inst:
+60:
+rad inst:
+61:
+änd inst:
+62:
+änd attr:
+63:
+omstart:
+64:
+Omstart!\n
+Vill du starta om?\n
+\n
+OK att fortsätta?
+65:
+Obligatorisk parameter!\n
+Du måste ange ett värde för\n
+denna parameter.\n
+\n
+Tryck Enter för att fortsätta.
+66:
+Namnkonflikt!\n
+Du måste ange ett unikt namn\n
+för denna parameter.\n
+\n
+Tryck Enter för att fortsätta!
+67:
+Ändringslogg är tom!
+68:
+Lägg till nya parametrar...
+69:
+Lägg till nya parametrar!
+70:
+Nytt
+71:
+Inget lösenord
+72:
+Gammalt lösenord för Service\n
+är ej korrekt.\n
+\n
+\n
+Tryck Enter och försök igen!
+73:
+Gammalt lösenord för \n
+Programmerare är ej korrekt.\n
+\n
+\n
+Tryck Enter och försök igen!
+74:
+Lösenord för %s\n
+%s uppdaterat!\n
+\n
+\n
+Tryck Enter för att fortsätta!
+75:
+Lösenord Systemparametrar
+76:
+Ändra lösenord
+77:
+Radera Inst
+78:
+Radera en parameter kan inte ångras!\n
+\n
+OK att radera?
+79:
+
+80:
+Info
+*	  attributes links, i.e an attribute referencing data from
+81:
+Kan inte visa info för\n
+parameter p g a att för många\n
+"Info" har tryckts.\n
+\n
+Tryck Enter för att fortsätta!
+*	  attribute link, i.e an attribute referencing data from
+82:
+Kan inte visa info för\n
+parametern p g a att den\n
+inte är tillgänglig.\n
+\n
+Tryck Enter för att fortsätta.
+83:
+Kontrollera parametrar
+84:
+Kontrollerar systemparametrar...\n
+\n
+85:
+Allt bra!\n
+Systemparametrar i området\n
+%s\n
+stämmer överens med varandra.
+86:
+Tryck Enter för att fortsätta
+87:
+Parameterkontroll för området\n
+%s\n
+kan inte utföras för detta område

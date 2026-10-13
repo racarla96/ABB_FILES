@@ -1,0 +1,653 @@
+33::
+1:
+Manipolatore
+2:
+Unita' Movim
+3:
+Nome
+4:
+Nome
+5:
+Versione
+6:
+Attiv freno
+7:
+Risoluz. velocita'
+8:
+Risoluz dinamica
+9:
+0.33
+10:
+0.50
+11:
+0.67
+12:
+0.83
+13:
+1.00
+14:
+Risoluz traiett
+15:
+Lungh tempo
+16:
+Lungh coda
+17:
+Temp min cab
+18:
+Temp max cab
+19:
+Temp min robot
+20:
+Temp max robot
+21:
+Nome
+22:
+Unita' meccanica
+23:
+Nome
+24:
+Nome
+25:
+Util abilit run
+26:
+Util attiv relay
+27:
+Util freno relay
+28:
+Util robot
+29:
+Util single 1
+30:
+Util single 2
+31:
+Util single 3
+32:
+Util single 4
+33:
+Util single 5
+34:
+Util single 6
+35:
+User frame mosso da
+36:
+Stato di Stand-by
+37:
+Si
+38:
+No
+39:
+Offset vel iniziale
+40:
+Si
+41:
+No
+42:
+Attiv all'accensione
+43:
+Si
+44:
+No
+45:
+Disat non consentita.
+46:
+Si
+47:
+No
+48:
+Relay
+49:
+Nome
+50:
+Nome
+51:
+Segnale Output
+52:
+Segnale Input
+53:
+Input invertito
+54:
+Si
+55:
+No
+56:
+Tempo di ritardo
+57:
+Robot
+58:
+Nome        Tipo        Assi
+59:
+Nome
+60:
+Util tipo robot
+61:
+Util giunto 1
+62:
+Util giunto 2
+63:
+Util giunto 3
+64:
+Util giunto 4
+65:
+Util giunto 5
+66:
+Util giunto 6
+67:
+Base frame x
+68:
+Base frame y
+69:
+Base frame z
+70:
+Base frame u0
+71:
+Base frame u1
+72:
+Base frame u2
+73:
+Base frame u3
+74:
+Base frame mosso da
+75:
+Single
+76:
+Nome       Tipo        Giunto
+77:
+Nome
+78:
+Util single tipo
+79:
+Util Giunto
+80:
+M94 coord single
+81:
+No
+82:
+Si
+83:
+Base frame x
+84:
+Base frame y
+85:
+Base frame z
+86:
+Base frame u0
+87:
+Base frame u1
+88:
+Base frame u2
+89:
+Base frame u3
+90:
+Coord base frame
+91:
+Single tipo
+92:
+Nome
+93:
+Meccaniche
+94:
+TRACK
+95:
+CONVEYOR
+96:
+TOOL_ROT
+97:
+FREE_ROT
+98:
+Giunto
+99:
+Giunti
+100:
+Nome
+101:
+Asse logico
+102:
+Util canale axc
+103:
+Util Asse
+104:
+Util freno
+105:
+Util supervisione
+106:
+Util filtro axc
+107:
+Util drive system
+108:
+Contr tipo m non calib
+109:
+UCCM0
+110:
+Contr master non calib
+111:
+Contr tipo master
+112:
+UCCM0
+113:
+LCM0
+114:
+FFWCM0
+115:
+FFWCM1
+116:
+FFWCM2
+117:
+FFWCM3
+118:
+Contr norm master
+119:
+Canale axc
+120:
+Nome
+121:
+Nome
+122:
+Canale di misura
+123:
+Misuraz hardware
+124:
+Non def
+125:
+Seriale
+126:
+Par rel
+127:
+Par ass
+128:
+Rotaz contraria
+129:
+Normale
+130:
+Contrario
+131:
+Asse
+132:
+Nome        Tipo
+133:
+Nome
+134:
+Util asse tipo
+135:
+Util check point
+136:
+Util carico asse
+137:
+Mov rotativo
+138:
+Si
+139:
+No
+140:
+Rot. centro_x
+141:
+Rot. centro_y
+142:
+Rot. centro_y
+143:
+Rotazione Asse(u0)
+144:
+Rotazione Asse(u1)
+145:
+Rotazione Asse(u2)
+146:
+Rotazione Asse(u3)
+147:
+Trasm Riduttore
+148:
+Rap ridut alto
+149:
+Rap ridut basso
+150:
+Limite asse posit
+151:
+Limite asse negat
+152:
+Posiz calibrazione
+153:
+Acceleraz nominale
+154:
+Deceleraz nominale
+155:
+Rap deriv acc nom
+156:
+Rap deriv acc nom
+157:
+Trasm Inerzia
+158:
+Check point asse
+159:
+Nome
+160:
+Nome
+161:
+Tipo check
+162:
+Posizione
+163:
+Nessuno
+164:
+Posizione x
+165:
+Posizione y
+166:
+Posizione z
+167:
+Carico Asse
+168:
+Nome
+169:
+Nome
+170:
+Lunghezza
+171:
+Massa
+172:
+Centro massa x
+173:
+Centro massa y
+174:
+Centro massa z
+175:
+Inerzia x
+176:
+Inerzia y
+177:
+Inerzia z
+178:
+Freno
+179:
+Nome
+180:
+Nome
+181:
+Contr offs lim vel
+182:
+Contr ritardo off
+183:
+Ritardo contr freno
+184:
+Coppia Freno
+185:
+Rampa freno lim vel
+186:
+Util tipo freno
+187:
+Tipo Freno
+188:
+Nome
+189:
+Nome
+190:
+Inerzia
+191:
+Supervisione
+192:
+Nome          Tipo
+193:
+Nome
+194:
+Util tipo supervisione
+195:
+Pos superv Power up
+196:
+On
+197:
+Off
+198:
+Contat Supervis
+199:
+On
+200:
+Off
+201:
+Pos supervisione
+202:
+On
+203:
+Off
+204:
+Supervis Veloc
+205:
+On
+206:
+Off
+207:
+Supervis Carico
+208:
+On
+209:
+Off
+210:
+Superv Anomalie
+211:
+On
+212:
+Off
+213:
+In pos consent
+214:
+Vel zero (%)
+215:
+Tipo Supervisione
+216:
+Nome
+217:
+Nome
+218:
+Dyn pwr up pos lim
+219:
+Tempo max sovrac
+220:
+Max tempo anom
+221:
+Teach max vel main
+222:
+Teach norm vel main
+223:
+Teach max vel dsp
+224:
+Drive system
+225:
+Drive systems
+226:
+Nome
+227:
+Esterno
+228:
+Si
+229:
+No
+230:
+Util Mains
+231:
+Util Trafo
+232:
+Util DC - link
+233:
+Util drive unit
+234:
+Trasf corrente f
+235:
+Util cavo
+236:
+Util motore
+237:
+Thermal duty cycle
+238:
+Stress duty cycle
+239:
+Riduttore
+240:
+Mains
+241:
+Mains
+242:
+Nome
+243:
+Mains min toller
+244:
+Mains max toller
+245:
+Trafo
+246:
+Trafo
+247:
+Nome
+248:
+Util trafo tipo
+249:
+Potenza max
+250:
+Aumento temp amb
+251:
+Power Thermal
+252:
+Trafo Tipo
+253:
+Tipo
+254:
+Nome
+255:
+Tensione second
+256:
+DC link
+257:
+Nome     Tipo
+258:
+Nome
+259:
+Tipo
+260:
+Drive unit
+261:
+Nome     Tipo
+262:
+Nome
+263:
+Util tipo drive unit
+264:
+i_max
+265:
+Tipo Drive unit
+266:
+Nome     Tipo
+267:
+Nome
+268:
+Tipo
+269:
+Corrente cost
+270:
+Veloc cost
+271:
+Vel max offs
+272:
+Cavo
+273:
+Cavi
+274:
+Nome
+275:
+Util tipo cavo
+276:
+Lungh
+277:
+Motore
+278:
+Nome     Tipo
+279:
+Nome
+280:
+Util tipo motore
+281:
+Offs commutaz
+282:
+Offs commut valido
+283:
+Si
+284:
+No
+285:
+Offset calibrazione
+286:
+Offs calib valido
+287:
+Si
+288:
+No
+289:
+Tipo Motore
+290:
+Nome
+291:
+Nome
+292:
+Coppia polare
+293:
+ke (V / rad / s)
+294:
+Corrente max (A rms)
+295:
+Thermal duty cycle
+296:
+Thermal duty cycles
+297:
+Nome
+298:
+Val medio coppia 0
+299:
+Stress duty cycle
+300:
+Stress duty cycles
+301:
+Nome
+302:
+Veloc max ass
+303:
+Coppia max ass
+304:
+Riduttore
+305:
+Riduttore
+306:
+Nome
+307:
+Uncal ctrl master 0
+308:
+Nome
+309:
+Nome
+310:
+Kp, guad pos
+311:
+Kv, guad vel
+312:
+Ti I-time vel
+313:
+Vel max non cal
+314:
+Acc max non cal
+315:
+Dec max non cal
+316:
+Lag ctrl master 0
+317:
+Nome
+318:
+Nome
+319:
+Kp, guad pos
+320:
+Kv, guad vel
+321:
+Ti I-time vel
+322:
+Notch filter attivo
+323:
+Si
+324:
+No
+325:
+Notch filter freq
+326:
+Notch filter amp

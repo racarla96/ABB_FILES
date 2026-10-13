@@ -1,0 +1,294 @@
+Revision 1.9  1995/12/15  14:07:37  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.8  1995/04/21  13:26:56  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.7  1994/08/19  10:45:05  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+7::
+0:
+Systeemparameters
+1:
+Onderwerp           Nieuwe datum
+2:
+Onderwerp
+3:
+Types
+4:
+Alle onderwerpen
+5:
+Parameters           Info
+6:
+Toevoegen
+7:
+Parameters worden geladen!\n
+\n
+Even geduld a.u.b....
+8:
+Verander Pass Code!
+9:
+Tekst
+10:
+Parameters worden\n
+opgeslagen!\n
+\n
+Even geduld a.u.b....
+11:
+Nieuwe parameters geladen!\n
+\n
+Het systeem opnieuw opstarten\n
+met commando Herstart uit\n
+menu Bestand
+12:
+Ganaar...
+13:
+Ganaar begin
+14:
+Ganaar einde
+15:
+(Zoek...)
+16:
+Het veranderen van de Pass Code\n
+heeft invloed op uw toegang tot\n
+het systeem. Zorg ervoor dat u\n
+niet per ongeluk een van de\n
+Pass Codes veranderd.
+17:
+Verander Pass Code!
+18:
+Regelselectie
+19:
+Voer regel # in
+20:
+Voer de oude Pass Code in\n
+voordat de nieuwe Pass\n
+Code gewijzigd kan worden
+21:
+Invoer nummer
+22:
+Voer de tekst-string in voor
+23:
+Voer de numerieke waarde in voor
+24:
+Laden van opgeslagen parameters...
+25:
+Alle opslaan als...
+26:
+Opslaan als...
+27:
+(Afdrukken...)
+28:
+Herstart...
+29:
+Limieten: Minimum
+30:
+        Maximum
+31:
+Tegen overschrijven beveiligde\n
+parameter.\n
+Kan niet worden veranderd!\n
+\n
+Druk op Enter!
+32:
+Verlies van data wegens interne fout!
+33:
+\n
+Geen parameters geladen!\n
+\n
+Gebruik het menu Bestand te laden.
+34:
+Kan geen parameters tonen!
+35:
+Verwijder
+36:
+(Verwijder)
+37:
+Kan geen parameters tonen!\n
+\n
+Druk op Enter!
+38:
+Toon wijzigingen in log...
+39:
+De opgeslagen parameters laden!
+40:
+Selecteer de te laden dir of bestand
+41:
+Alle parameters opslaan!
+42:
+Selecteer dir om in op te slaan.
+43:
+Oud
+44:
+Parameters opgeslagen!\n
+\n
+\n
+Druk op Enter!
+45:
+SYSPAR
+46:
+\n
+De nieuwe parameters zijn geladen!\n
+\n
+Gebruik menu Bestand voor herstart.
+47:
+Geen parameters geladen!\n
+Geen parameters in het geselecteerde\n
+parameter bestand of de directory.\n
+\n
+Druk op Enter!
+48:
+Keuzelijst (Benoemde instantie)
+49:
+Keuzelijst (Tabel)
+50:
+Definieer de naam!\n
+U moet een unieke naam\n
+definieren als naam voor\n
+de parameter.\n
+        Druk op Enter!
+51:
+HERSTART VEREIST!\n
+De parameters zijn gewijzigd,\n
+dit vereist een herstart.\n
+\n
+        Druk op Enter!
+52:
+Sla de parameters op als!
+53:
+Overschrijven van parameters!\n
+De bestaande parameters zullen\n
+worden overschreven.\n
+\n
+OK om door te gaan?
+54:
+Waarschuwing!
+55:
+Wijzig log
+56:
+Wijzig log transacties
+57:
+laad par:
+58:
+par opsl:
+59:
+toev ins:
+60:
+ins verw:
+61:
+wijz ins:
+62:
+wijz att:
+63:
+herst:
+64:
+Herstart commando!\n
+Wilt U de besturing\n
+herstarten?\n
+\n
+OK om door te gaan?
+65:
+Verplichte parameter!\n
+Deze parameter moet een\n
+getalswaarde hebben.\n
+\n
+        Druk op Enter!
+66:
+Naam conflict!\n
+U moet een unieke naam\n
+definieren voor deze\n
+parameter.\n
+        Druk op Enter!
+67:
+Wijzigings log is leeg!
+68:
+Nieuwe parameters toevoegen...
+69:
+Toevoegen nieuwe parameters!
+70:
+Nieuw
+71:
+Geen "Pass Code"
+72:
+Oude "Pass Code" voor\n
+service niet correct.\n
+\n
+\n
+Druk op Enter!
+73:
+Oude "Pass Code" voor de\n
+programmeur niet correct.\n
+\n
+\n
+Druk op Enter!
+74:
+Pass Code voor %s\n
+%s aangepast!\n
+\n
+\n
+Druk op Enter!
+75:
+Autorisatie systeemparameters
+76:
+Verander Code
+77:
+Verwijder Inst
+78:
+Het verwijderen van een parameter\n
+kan niet ongedaan gemaakt worden.\n
+Zorg ervoor dat u niet per ongeluk\n
+een parameter verwijderd.\n
+OK om te verwijderen?
+79:
+
+80:
+Info
+81:
+Kan geen info tonen voor\n
+parameter omdat deze niet\n
+beschikbaar is.\n
+\n
+Druk op Enter!
+82:
+Kan geen info over\n
+parameter tonen omdat deze\n
+het niet beschikbaar is.\n
+\n
+Druk op Enter!
+83:
+Controleer parameters
+84:
+Controle systeem parameters...\n
+\n
+De controle op de inhoud van de\n
+systeem parameters in topic\n
+%s\n
+wordt nu uitgevoerd.
+85:
+Gefeliciteerd!\n
+De systeem parameters in topic\n
+%s\n
+zijn consistent en\n
+hebben de juiste vorm.
+86:
+  < Druk op Enter >
+87:
+De parameter controle van topic\n
+%s\n
+kan niet worden uitgevoerd.\n
+Er is geen methode beschikbaar\n
+voor deze topic.
+88:
+Het wijzigen van parameters\n
+kan niet worden uitgevoerd\n
+als er een programma loopt.\n
+Stop het programma!
+89:
+Parameters kunnen niet\n
+gewijzigd worden in\n
+automatische mode.\n
+Schakel naar manueel!

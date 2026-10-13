@@ -1,0 +1,165 @@
+14::
+0:
+Inga objekt
+1: 
+Platshållare
+2:
+Slut
+3:
+Moduldeklaration
+4:
+Konstant datadeklaration
+5:
+Variabel datadeklaration
+6:
+Bestående datadeklaration
+7:
+Funktionsdeklaration
+8:
+Procedursdeklaration
+9:
+Avbrottsdeklaration
+10:
+Obligatorisk parameter
+11:
+Valbar parameter
+12:
+Alternativ parameter
+13:
+Label
+14:
+Return
+15:
+Raise
+16:
+Retry
+17:
+TryNext
+18:
+Connect
+19:
+Exit
+20:
+Goto
+21:
+Tilldelning (:=)
+22:
+IF  
+23:
+Compact IF
+24:
+WHILE
+25:
+FOR 
+26:
+TEST
+27:
+Proceduranrop
+28:
+Elseif 
+29:
+Case 
+30:
+Obligatoriskt argument
+31:
+Valbart argument
+32:
+Konstant uttryck
+33:
+Uttryck
+34:
+Literal
+35:
+Variabel
+36:
+Objektnamn
+37:
+Objektnamn
+38:
+Värdetyp
+39:
+Datatyp
+40:
+Dimension
+41:
+Kommentar
+42:
+
+43:
+
+44:
+
+45:
+
+46:
+
+47:
+
+48:
+
+49:
+
+50:
+No child
+51:
+Slut
+52:
+Modulattribut System
+53:
+Modulattribut Nostepin
+54:
+Modulattribut Viewonly
+55:
+Modulattribut Readonly
+56:
+Objektnamn
+57:
+Data deklarationslista
+58:
+Rutin deklarationslista
+59:
+Lokal
+60:
+Typ
+61:
+Uttryck lista
+62:
+Uttryck
+63:
+Parameterdeklaration
+64:
+Instruktionslista
+65:
+Bakåt instruktionslista
+66:
+ELSE
+67:
+Parametermod Variabel
+68:
+Parametermod Bestående
+69:
+Parametermod INOUT
+70:
+Dimensioner
+71:
+Referens till objektnamn
+72:
+Variabel-referens
+73:
+Instruktionslista
+74:
+Instruktion
+75:
+ELSEIF
+76:
+Från
+77:
+Till
+78:
+Steg
+79:
+Case lista
+80:
+Uttryck
+81:
+Argumentlista

@@ -1,0 +1,77 @@
+15::
+1:
+The object is declared\n
+in a read only module\n
+and cannot be modified.
+2:
+The object is declared\n
+in a view only module\n
+and cannot be modified.
+3:
+Name not allowed! It must\n
+begin with a letter and no\n
+reserved words are allowed.
+4:
+Execution direction cannot\n
+be changed within a\n
+complex instruction.
+5:
+Not allowed to change\n
+execution direction\n
+within this routine.
+6:
+RAPID syntax error(s).\n
+Error(s) in program.
+7:
+Cannot execute past first\n
+instruction in a block\n
+or a routine.
+8:
+Cannot set PP to required\n
+position. Try with another\n
+position.
+9:
+The object is declared in a\n
+noview module and can't be\n
+changed, saved or printed.
+10:
+Routine declared in a \n
+noview module. The routine\n
+content cannot be shown.
+11:
+Local datatype not defined \n
+in choosen module.  \n
+Change module or datatype.
+12:
+Persistent data may not \n
+be declared local. \n
+Change type or scope.
+13:
+Too long program instr.\n
+were truncated when the\n
+file/view was generated.
+14:
+Cannot perform undo.\n
+Context for undo operation\n
+is lost.
+15:
+Total array size to big.\n
+Reduce dimension size.
+16:
+Cannot show array data.\n
+Reduce dimenson size\n
+in an offline editor.
+17:
+Cannot create new data of\n
+datatype switch. Use only\n
+as routine parameter.
+18:
+To long value for pendant.\n
+Please view and edit data\n
+of this datatype offline.
+19:
+To many components for\n
+pendant. Please view and\n
+edit this data offline.
+
+

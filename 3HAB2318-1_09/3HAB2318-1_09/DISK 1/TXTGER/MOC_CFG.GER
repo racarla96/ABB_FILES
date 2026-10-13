@@ -1,0 +1,653 @@
+33::
+1:
+Manipulator
+2:
+Bewegungs System
+3:
+Name
+4:
+Name
+5:
+Version
+6:
+Bremse_Ein Zeit
+7:
+Geschw. Auflösung
+8:
+Dynamik Auflösung
+9:
+0.33
+10:
+0.50
+11:
+0.67
+12:
+0.83
+13:
+1.00
+14:
+Bahn Auflösung
+15:
+Pufferzeit
+16:
+Pufferlänge
+17:
+Min Temp. Steuerung
+18:
+Max Temp. Steuerung
+19:
+Min Temp. Roboter
+20:
+Max Temp. Roboter
+21:
+Name
+22:
+Mech. Einheit
+23:
+Name
+24:
+Name
+25:
+Verw. run_enable
+26:
+Verw. Aktiv_Relais
+27:
+Verw. Brems_Relais
+28:
+Verw. Roboter
+29:
+Verw. Single 1
+30:
+Verw. Single 2
+31:
+Verw. Single 3
+32:
+Verw. Single 4
+33:
+Verw. Single 5
+34:
+Verw. Single 6
+35:
+Anw_Koord bwgt durch
+36:
+Motoren_Aus Status
+37:
+Ja
+38:
+Nein
+39:
+Geschw_Offs Einst.
+40:
+Ja
+41:
+Nein
+42:
+Aktiv nach StartUp
+43:
+Ja
+44:
+Nein
+45:
+Deaktiv. unzulässig
+46:
+Ja
+47:
+Nein
+48:
+Relais
+49:
+Name
+50:
+Name
+51:
+Ausgang Signal
+52:
+Eingang Signal
+53:
+Invert. Eingang
+54:
+Ja
+55:
+Nein
+56:
+Verzög._Zeit
+57:
+Roboter
+58:
+Name        Typ         Achsen
+59:
+Name
+60:
+Verw. Roboter Typ
+61:
+Verw. Achse 1
+62:
+Verw. Achse 2
+63:
+Verw. Achse 3
+64:
+Verw. Achse 4
+65:
+Verw. Achse 5
+66:
+Verw. Achse 6
+67:
+Basis_Koord x
+68:
+Basis_Koord y
+69:
+Basis_Koord z
+70:
+Basis_Koord u0
+71:
+Basis_Koord u1
+72:
+Basis_Koord u2
+73:
+Basis_Koord u3
+74:
+Basis_Koord bewegt
+75:
+Single
+76:
+Name        Typ         Achse
+77:
+Name
+78:
+Verw. Single Typ
+79:
+Verw. Achse
+80:
+M94 Single_Koord
+81:
+Ja
+82:
+Nein
+83:
+Basis_Koord x
+84:
+Basis_Koord y
+85:
+Basis_Koord z
+86:
+Basis_Koord u0
+87:
+Basis_Koord u1
+88:
+Basis_Koord u2
+89:
+Basis_Koord u3
+90:
+Basis_Koord koord.
+91:
+Single Typ
+92:
+Name
+93:
+Mechanik
+94:
+VERFAHRACHSE
+95:
+FÖRDERER
+96:
+WERKZEUG_ROT
+97:
+FREI_ROT
+98:
+Achse
+99:
+Achsen
+100:
+Name
+101:
+Logische Achse
+102:
+Verw. axc_Kanal
+103:
+Verw. Arm
+104:
+Verw. Bremse
+105:
+Verw. Überwachung
+106:
+Verw. axc_Filter
+107:
+Verw. Servosystem
+108:
+Unkal. Kontr_Ma Typ
+109:
+UCCM0
+110:
+Unkal. Kontr_Master
+111:
+Kontr_Master Typ
+112:
+UCCM0
+113:
+LCM0
+114:
+FFWCM0
+115:
+FFWCM1
+116:
+FFWCM2
+117:
+FFWCM3
+118:
+Norm. Kontr_Master
+119:
+Axc_Kanal
+120:
+Name
+121:
+Name
+122:
+Meßkanal
+123:
+Meß-Hardware
+124:
+nicht definiert
+125:
+seriell
+126:
+par. relativ
+127:
+par. absolut
+128:
+Umgekehrte Rotation
+129:
+normal
+130:
+umgekehrt
+131:
+Arm
+132:
+Name        Typ
+133:
+Name
+134:
+Verw. Arm Typ
+135:
+Verw. Kontr.Punkt
+136:
+Verw. Arm Last
+137:
+Rotat. Bewegung
+138:
+Ja
+139:
+Nein
+140:
+Rot. Zentr_x Achse
+141:
+Rot. Zentr_y Achse
+142:
+Rot. Zentr_z Achse
+143:
+Rotation Achse (u0)
+144:
+Rotation Achse (u1)
+145:
+Rotation Achse (u2)
+146:
+Rotation Achse (u3)
+147:
+Getriebe Verhältnis
+148:
+Getriebe hoch
+149:
+Getriebe niedrig
+150:
++ Achsgrenze
+151:
+- Achsgrenze
+152:
+Kalibrier Position
+153:
+Nom. Beschleunigung
+154:
+Nom. Verzögerung
+155:
+Nom. Fkt Bschl_Ändr
+156:
+Nom. Fkt Verzög_Ändr
+157:
+Antrieb Moment
+158:
+Arm Kontr.Punkt
+159:
+Name
+160:
+Name
+161:
+Kontrolle Typ
+162:
+Position
+163:
+Keine
+164:
+Position x
+165:
+Position y
+166:
+Position z
+167:
+Arm Last
+168:
+Name
+169:
+Name
+170:
+Länge
+171:
+Masse
+172:
+Masse Schwerpkt x
+173:
+Masse Schwerpkt y
+174:
+Masse Schwerpkt z
+175:
+Moment x
+176:
+Moment y
+177:
+Moment z
+178:
+Bremse
+179:
+Name
+180:
+Name
+181:
+GeschwLim_Kontr aus
+182:
+Verzög_Kontr aus
+183:
+BremsVerz_Kontr ein
+184:
+Brems_Drehmoment
+185:
+Brems_Rmp_Gschw_Lim
+186:
+Verw. Bremse Typ
+187:
+Bremse Typ
+188:
+Name
+189:
+Name
+190:
+Trägheit
+191:
+Überwachung
+192:
+Name        Typ
+193:
+Name
+194:
+Verw. Überwach Typ
+195:
+Einschalt_Pos_Überw
+196:
+Ein
+197:
+Aus
+198:
+Umdr.Zähl_Überwach
+199:
+Ein
+200:
+Aus
+201:
+Pos_Überwachung
+202:
+Ein
+203:
+Aus
+204:
+Geschw_Überwachung
+205:
+Ein
+206:
+Aus
+207:
+Last_Überwachung
+208:
+Ein
+209:
+Aus
+210:
+Block._Überwach
+211:
+Ein
+212:
+Aus
+213:
+InPos_Bereich
+214:
+Null_Geschw ( % )
+215:
+Überwachung Typ
+216:
+Name
+217:
+Name
+218:
+Dyn Einsch_Pos_Lim
+219:
+Max Überlast_Zeit
+220:
+Max Block_Zeit
+221:
+Max Prog_Geschw.
+222:
+Norm Prog_Geschw.
+223:
+Max Prog_Geschw dsp
+224:
+Servosystem
+225:
+Treiberstufen
+226:
+Name
+227:
+Extern
+228:
+Ja
+229:
+Nein
+230:
+Verw. Netz
+231:
+Verw. Trafo
+232:
+Verw.Gleichrichter
+233:
+Verw. Treiberstufe
+234:
+Strom_Übertr_Faktor
+235:
+Verw. Kabel
+236:
+Verw. Motor
+237:
+Therm. Betriebszeit
+238:
+Leist. Betriebszeit
+239:
+Getriebe
+240:
+Netz
+241:
+Netz
+242:
+Name
+243:
+Netz Toleranz min.
+244:
+Netz Toleranz max.
+245:
+Trafo
+246:
+Trafo
+247:
+Name
+248:
+Verw. Trafo Typ
+249:
+Leistung max.
+250:
+Anstieg Umgeb_Temp.
+251:
+Leistung therm.
+252:
+Trafo Typ
+253:
+Typ
+254:
+Name
+255:
+Sekundär Spannung
+256:
+Gleichrichter
+257:
+Name        Typ
+258:
+Name
+259:
+Typ
+260:
+Treiberstufe
+261:
+Name        Typ
+262:
+Name
+263:
+Verw. Treiberst.Typ
+264:
+i_max
+265:
+Treiberstufe Typ
+266:
+Name        Typ
+267:
+Name
+268:
+Typ
+269:
+Strom_Konstante
+270:
+Geschw_Konstante
+271:
+Max Geschw_Offset
+272:
+Kabel
+273:
+Kabel
+274:
+Name
+275:
+Verw. Kabel Typ
+276:
+Länge
+277:
+Motor
+278:
+Name        Typ
+279:
+Name
+280:
+Verw. Motor Typ
+281:
+Kommut. Offset
+282:
+Komm. Offset gültig
+283:
+Ja
+284:
+Nein
+285:
+Kalib. Offset
+286:
+Kalib. Offset gültig
+287:
+Ja
+288:
+Nein
+289:
+Motor Typ
+290:
+Name
+291:
+Name
+292:
+Polpaare
+293:
+ke (V/rad/s)
+294:
+Max Strom (A rms)
+295:
+Therm. Betr.zeit
+296:
+Therm. Betr.zeiten
+297:
+Name
+298:
+Durchschn. Drehmom_0
+299:
+Leist. Betr.zeit
+300:
+Leist. Betr.zeiten
+301:
+Name
+302:
+Geschw absolut max.
+303:
+Moment absolut max.
+304:
+Getriebe
+305:
+Getriebe
+306:
+Name
+307:
+Unkal. Ktrl_Master_0
+308:
+Name
+309:
+Name
+310:
+Kp-Fakt Pos_Schl
+311:
+Kv-Fakt Gschw_Schl
+312:
+Ti I-Zeit Gschw_Schl
+313:
+Geschw max. unkal.
+314:
+Beschl max. unkal.
+315:
+Verzög max. unkal.
+316:
+Lag Ktrl_Master_0
+317:
+Name
+318:
+Name
+319:
+Kp-Fakt Pos_Schl
+320:
+Kv-Fakt Gschw_Schl
+321:
+Ti I-Zeit Gschw_Schl
+322:
+Notch_Filter aktiv
+323:
+Ja
+324:
+Nein
+325:
+Notch_Filterfreq.
+326:
+Notch_Filterbreite

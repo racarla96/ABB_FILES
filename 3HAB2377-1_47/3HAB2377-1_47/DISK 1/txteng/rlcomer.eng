@@ -1,0 +1,72 @@
+55::
+
+46:
+Can not open
+
+47:
+RAISE CODE:
+
+48:
+Not open
+
+49:
+Not a ascii file
+
+50:
+Not a binary file
+
+51:
+Could not access the file
+
+52:
+The parameter %s in
+
+53:
+is not an array.
+
+54:
+The output buffer must be specified as an array of num
+
+55:
+is specified as a negative value.
+
+56:
+The parameter must be set positive.
+
+57:
+Could not access the
+
+58:
+time event generator.
+
+59:
+signal event generator.
+
+60:
+A timeout interrupt the execution of
+
+61:
+A digital input interrupt the execution of
+
+65:
+Received data not numeric type
+
+67:
+String too long
+
+68:
+Too many pending read requests
+
+76:
+The buffer element %i in
+
+77:
+is outside 0-255.
+
+78:
+All elements in the buffer must have the value 0-255
+
+80:
+is outside the array.
+
+

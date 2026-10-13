@@ -1,0 +1,256 @@
+Revision 1.7  1995/04/21  13:25:09  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.6  1994/08/19  10:42:49  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+10::
+0:
+File Manager
+1:
+Nome       Tipo            Data
+2:
+Vai alla linea
+3:
+Linea corrente
+4:
+Su
+5:
+Annulla
+6:
+OK
+7:
+File
+8:
+Modif
+9:
+Vista
+10:
+Opzioni
+11:
+Nuovo Direttorio...
+12:
+Cambia Nome...
+13:
+Copia...
+14:
+Sposta...
+15:
+Cancella...
+16:
+Stampa Diret...
+17:
+Vai a...
+18:
+Vai all'inizio
+19:
+Vai alla fine
+20:
+Inizializ...
+21:
+
+22:
+Inizializza
+23:
+Iniz. volume nell'unita'
+24:
+Nuovo nome del volume
+25:
+
+26:
+Nuovo Direttorio
+27:
+Crea Direttorio
+28:
+Cambia Nome
+29:
+Vecchio nome diret.
+30:
+Nuovo nome diret.
+31:
+Vecchio nome file
+32:
+Nuovo nome file
+33:
+Cancella
+34:
+Cancella Diret.
+35:
+Cancella file
+36:
+Stampa Direttorio
+37:
+Dati da stampare
+38:
+Direttorio corrente
+39:
+Direttorio completo
+40:
+Copia
+41:
+A
+42:
+Sposta
+43:
+Info
+44:
+Nome
+45:
+Tipo
+46:
+Grandez. in byte
+47:
+Data
+48:
+Ora
+49:
+Premere Invio per proseguire
+50:
+Impossibile copiare il file
+51:
+Funzione non disponibile
+52:
+Impossibile creare direttorio
+53:
+Nome gia' utilizzato
+54:
+
+55:
+Impossibile leggere direttorio
+56:
+Impos. modif. nome diret.
+57:
+Impos. modif. nome file
+58:
+Impos. cancellare diret
+59:
+Impos. cancellare file
+60:
+Unita'
+61:
+Nome               Tipo
+62:
+In
+63:
+Impos. copiare diret
+64:
+Impos. spost. diret.
+65:
+Impos. spost. file
+66:
+Direttorio non vuoto
+67:
+Inizializzaz. impossibile
+68:
+...
+69:
+NOME DIR
+70:
+Testo
+71:
+
+72:
+
+73:
+
+74:
+
+75:
+Impossibile eseguire
+76:
+Nessun volume nell'unita' sel
+77:
+Impos. spost. tra unita'
+78:
+Prego attendere
+79:
+Inizializ. volume...
+80:
+Disco difet o mancante
+81:
+Stampa File...
+82:
+Stampa solo al File
+83:
+File da stamp.
+84:
+Stampa File
+85:
+Stampa Direttorio al File
+86:
+In stampa!
+87:
+   Per Cancel. premere Invio
+88:
+La stampante e' gia' impegnata\n
+\n
+Riprovare quando sara' pronta
+89:
+Impossibile stampare causa\n
+coda piena\n
+Riprovare piu' tardi
+90:
+Impossib. stampare causa errata\n
+definiz. della porta PRINTER\n
+nei parametri di sistema.
+91:
+Impos. accedere al file spec.:
+92:
+La stampa richiesta e' stata\n
+cancellata causa la perdita del\n
+comando durante la prec. stampa.
+93:
+File non poss. stampare
+94:
+"A" -dir e' parte di "DA"-dir
+95:
+Convert. Rapid...
+96:
+Convert. Rapid
+97:
+File da convertire:
+98:
+File da Salvare:
+99:
+Convert
+100:
+File da Salvare:
+101:
+ File gia' esistente
+102:
+ Impossibile Convertire File\n
+ specificato.\n
+ \n
+ Tipo di file non valido
+103:
+ File da Convertire:
+104:
+Con Funzione:
+105:
+Agg. Info Tipo Rapid
+106:
+Util. Info Tipo Rapid
+107:
+ \n
+ Convers. Rapid non eseguita
+108:
+  Impegnato\n
+  \n
+  \n
+  Prego attendere
+109:
+ Impossibile convertire\n
+ \n
+ Combinaz. tipo di file\n
+ e funz. non valida
+110:
+ \n
+ File di destinaz. gia' esistente !\n
+ \n
+ Sovrascrivere ?
+111:
+"DA" e "A" sono identici
+112:
+Troppi sottodirettori

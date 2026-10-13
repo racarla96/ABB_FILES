@@ -1,0 +1,253 @@
+71::
+0:
+Obl sv
+1:
+Ladeni svaru...
+2:
+Ladeni propl...
+3:
+(Ladeni svu)
+4:
+(Ladeni stopy)
+5:
+Zablokovani...
+6:
+Zablokovat
+7:
+Uvolnit
+8:
+Zrusit
+9:
+OK
+10:
+Blokovani obl svar
+11:
+Pro zablok procesu stisk Zablokovat
+12:
+Pro uvolneni procesu stisk Uvolnit
+13:
+Zablokovan
+14:
+Proces
+15:
+x
+16:
+
+17:
+Svareni
+18:
+Proplet.
+19:
+Stopov.
+20:
+Svar
+21:
+Proplet
+22:
+Stopa
+23:
+Lad. obl svar
+24:
+Zmenit soucasnou hodnotu
+25:
+Data svareni
+26:
+Ladeni
+27:
+Soucasne
+28:
+Vyberte data
+29:
+Pocat. >
+30:
+Stisk >
+31:
+-
+32:
++
+33:
+Obratit
+34:
+Lad. propl obl svar
+35:
+Data propletani
+36:
+Aktual.
+37:
+Aktualizovat pocatecni data
+38:
+Pocatek
+39:
+Ladeni soucasne
+40:
+aw_inhibit
+41:
+svareni zablokovano
+42:
+propletani zablokovano
+43:
+stopa zablokovana
+44:
+data svu
+45:
+data svareni
+46:
+data propletani
+47:
+Ruc pod dratu...
+48:
+Plyn Zap/Vyp...
+49:
+Ruc pod dratu obl sv
+50:
+Pro podavani vpred stisknete Vpred
+51:
+Pro stazeni zpet stisknete Vzad
+52:
+Pod dratu pokracuje tak dlouho jak
+53:
+funkcni klavesa je stisknuta.
+54:
+Vpred
+55:
+Vzad
+56:
+(Uvolni)
+60:
+bool
+61:
+Vyb sys obl svar...
+62:
+System:
+63:
+Prirustky...
+64:
+Prir ladeni obl svar
+65:
+Napeti:
+66:
+Vzdalenost:
+67:
+Podavani dratu:
+68:
+Rychlost svareni:
+69:
+Vybrat sys obl svar
+70:
+curr_aw_data
+71:
+curr_system_no
+72:
+curr_weld
+73:
+curr_weld_type
+74:
+curr_seam
+75:
+curr_seam_type
+76:
+curr_weave
+77:
+curr_weave_type
+78:
+retezec
+80:
+Rucni Zap/Vyp plynu
+81:
+Pro aktivaci stisknete Plyn zap
+82:
+Plyn je zapnut tak dlouho jak
+83:
+Funkcni klavesa je stisknuta.
+84:
+Plyn z
+86:
+ 
+87:
+awproc_id
+88:
+ipm_id
+89:
+user_data
+100:
+Snimac oblouk svareni Zap/Vyp
+101:
+Pro aktivaci snimace stisknete Zap
+102:
+Pro odstaveni snimace stisknete Vyp
+103:
+Zap
+104:
+(Zap)
+105:
+Vyp
+106:
+(Vyp)
+107:
+Y:
+108:
+Z:
+109:
+Mez.:
+110:
+*****
+111:
+Souradnice snimace
+112:
+Kloub:
+113:
+Chyba snimace\n
+\n
+   Chyba komunikace
+114:
+Chyba snimace\n
+\n
+   Vseobecna chyba
+115:
+Chyba snimace\n
+\n
+   Snimac je zaneprazdnen
+116:
+Chyba snimace\n
+\n
+   Neznamy prikaz
+117:
+Chyba snimace\n
+\n
+   Nelegalni cislo promenne
+118:
+Chyba snimace\n
+\n
+   Vnejsi poplach
+119:
+Chyba snimace\n
+\n
+   Chyba kamery
+120:
+Chyba snimace\n
+\n
+   Chyba teploty
+121:
+Chyba snimace\n
+\n
+   Hodnota mimo rozsah
+122:
+Chyba snimace\n
+\n
+   Chyba kontroly kamery
+123:
+OK
+124:
+Snimac...
+125:
+(Snimac)
+126:
+Souradnice robotu
+127:
+Kalibrace:
+140:
+Hodn. mereni...
+141:
+Hodnoty mereni
+142:
+        Soucasne

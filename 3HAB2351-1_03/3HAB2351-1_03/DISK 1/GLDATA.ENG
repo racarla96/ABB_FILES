@@ -1,0 +1,221 @@
+###################################################################
+#
+# gldata.eng  -  Class gldata english text description file  
+#
+# $Revision: 1.2 $
+#
+# DESCRIPTION:
+#
+#  ReaL text description file
+# 
+# DEFINITION AND TRANSLATION RULES
+# 
+# This file refer to following type of top object in the Robust (ARL)
+# Reference Manual: INSTRUCTION, FUNCTION or DATA TYPE
+#
+# Following general rules for ARL Identifiers must applies for translation to
+# native language of all text objects:
+# - Maximum general length of text object 16 characters
+# - Characters means letters, digits or underscore _ (According ISO 8859-1)
+# - The first character in an text object must be a letter
+# - All characters are significant
+# - Text object differing only in the use of corresponding upper and lower
+#   case letters are considered the same
+#
+# Type of text objects to translate:
+# (1) Name of INSTRUCTION:
+#     - Max. 9 characters (Instruction Plock List) 
+#     - Upper case letter for the first letter in one word. The rest of the word
+#       in lower case letters. Normal abbreviation of several words.
+#     - E.g. MoveL for Move Linear
+# (2) Name of FUNCTION:
+#     - Max. 9 characters. (Instruction Plock List)
+#       Need for shorter for expression context.
+#     - Upper case letter for the first letter in the word. The rest of the word
+#       in lower case letters. Normal abbreviation of several words.
+#     - E.g. ReadNum for Read Numerical
+# 
+# (3) Name of REQUIRED PARAMETER:
+#     - Max. 12 characters (Instruction Form)
+#     - Upper case letter for the first letter in the word. The rest of the word
+#       in lower case letters.
+#     - E.g. Speed
+#
+# (4) Name of OPTION PARAMETER:
+#     - Must be short (in the program list)
+#     - Upper case letter for the first letter in the word. The rest of the word
+#       in lower case letters.
+#     - E.g. WObj for Work Object
+#
+# (5) Name of SWITCH PARAMETER:
+#     - Must be short (in the program list)
+#     - Upper case letter for the first letter in the word. The rest of the word
+#       in lower case letters.
+#     - E.g. Conc for Concurrent
+#
+# (6) Name of DATA TYPE:
+#     - Can be fairly long (not in the visible program list)
+#     - Only lower case letters
+#     - E.g. robtarget for robot target
+#
+# (7) Name of DATA COMPONENT:
+#     - Must be short (in the program list)
+#     - Only lower case letters
+#     - E.g. robconf for robot configuration
+#
+# MODIFICATIONS:
+#
+# $Log: gldata.eng,v $
+# Revision 1.2  1995/11/15  09:51:07  akol
+# A new data component added: ggun_no
+#
+# Revision 1.1  1995/09/27  13:10:02  akol
+# Initial revision
+#
+#
+#
+#
+# Copyright (c) ABB Robotics AB 1991  All rights reserved
+#
+############################################################################## 
+#
+# Text resource number = 84
+# NOTE: Should be changed to -1 with new load method to class tx 
+84::
+#
+# Reference to system internal ReaL-class (do not translate)
+0:
+gldata
+# Type of top object  : DATA TYPE
+# Ref. to top object  : num
+# Type of text object : DATA TYPE
+# Full name.......... :
+# Note............... : Reference to already installed type name.
+1:
+num
+# Type of top object  : DATA TYPE
+# Ref. to top object  : ggundata
+# Type of text object : DATA TYPE 
+# Full name.......... : GLUEGUN DATA
+# Note............... : 
+2:
+ggundata
+# Type of top object  : DATA TYPE
+# Ref. to top object  : ggundata
+# Type of text object : DATA COMPONENT 
+# Full name.......... : ggun number
+# Note............... : 
+3:
+ggun_no
+# Type of top object  : DATA TYPE
+# Ref. to top object  : ggundata
+# Type of text object : DATA COMPONENT 
+# Full name.......... : glue on time
+# Note............... : 
+4:
+gl_on_time
+# Type of top object  : DATA TYPE
+# Ref. to top object  : ggundata
+# Type of text object : DATA COMPONENT 
+# Full name.......... : glue off time
+# Note............... : 
+5:
+gl_off_time
+# Type of top object  : DATA TYPE
+# Ref. to top object  : ggundata
+# Type of text object : DATA COMPONENT 
+# Full name.......... : flow1 type
+# Note............... : 
+6:
+fl1_type
+# Type of top object  : DATA TYPE
+# Ref. to top object  : ggundata
+# Type of text object : DATA COMPONENT 
+# Full name.......... : flow1 on time
+# Note............... : 
+7:
+fl1_on_time
+# Type of top object  : DATA TYPE
+# Ref. to top object  : ggundata
+# Type of text object : DATA COMPONENT 
+# Full name.......... : flow1 time
+# Note............... : 
+8:
+fl1_time
+# Type of top object  : DATA TYPE
+# Ref. to top object  : ggundata
+# Type of text object : DATA COMPONENT 
+# Full name.......... : flow1 off time
+# Note............... : 
+9:
+fl1_off_time
+# Type of top object  : DATA TYPE
+# Ref. to top object  : ggundata
+# Type of text object : DATA COMPONENT 
+# Full name.......... : flow1 delay
+# Note............... : 
+10:
+fl1_delay
+# Type of top object  : DATA TYPE
+# Ref. to top object  : ggundata
+# Type of text object : DATA COMPONENT 
+# Full name.......... : flow1 reference speed
+# Note............... : 
+11:
+fl1_refspeed
+# Type of top object  : DATA TYPE
+# Ref. to top object  : ggundata
+# Type of text object : DATA COMPONENT 
+# Full name.......... : flow2 type
+# Note............... : 
+12:
+fl2_type
+# Type of top object  : DATA TYPE
+# Ref. to top object  : ggundata
+# Type of text object : DATA COMPONENT 
+# Full name.......... : flow2 on time
+# Note............... : 
+13:
+fl2_on_time
+# Type of top object  : DATA TYPE
+# Ref. to top object  : ggundata
+# Type of text object : DATA COMPONENT 
+# Full name.......... : flow2 time
+# Note............... : 
+14:
+fl2_time
+# Type of top object  : DATA TYPE
+# Ref. to top object  : ggundata
+# Type of text object : DATA COMPONENT 
+# Full name.......... : flow2 off time
+# Note............... : 
+15:
+fl2_off_time
+# Type of top object  : DATA TYPE
+# Ref. to top object  : ggundata
+# Type of text object : DATA COMPONENT 
+# Full name.......... : flow2 delay
+# Note............... : 
+16:
+fl2_delay
+# Type of top object  : DATA TYPE
+# Ref. to top object  : ggundata
+# Type of text object : DATA COMPONENT 
+# Full name.......... : flow2 reference speed
+# Note............... : 
+17:
+fl2_refspeed
+# Type of top object  : 
+# Ref. to top object  : 
+# Type of text object :  
+# Full name.......... : 
+# Note............... : 
+18:
+free_for_use
+# End of file
+
+
+
+
+
+

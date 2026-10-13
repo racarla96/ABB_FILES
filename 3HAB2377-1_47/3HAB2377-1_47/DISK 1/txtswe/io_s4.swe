@@ -1,0 +1,270 @@
+27::
+1011:
+Enhetstyp supportas ej.\n
+Beskrivning\Orsak:\n
+- Enhetstypen %s är inte supportad\n
+\t\n
+Checklista:\n
+1. Byt namn på Enhetstypen
+1012:
+Minnet fullt\n
+Beskrivning\Orsak:\n
+- Kort %s: För många kort\n
+  för specificerad enhetstyp.\n
+\t\n
+Checklista:\n
+1. Ändra antal kort för enhetstypen\n
+   i konfigurationen.
+1013:
+Felaktig kortttyp\n
+Beskrivning\Orsak:\n
+- Felaktig korttyp ansluten till\n
+  adress %d\n
+\t\n
+Checklista:\n
+1. Kontrollera korttypen för angiven\n
+   adress.\n
+
+1014:
+Kort saknas\n
+Beskrivning\Orsak:\n
+- Inget kort anslutet till given\n
+  adress %d\n
+\t\n
+Checklista:\n
+1. Anslut ett kort\n
+2. Ändra kortadressen
+1028:
+För många Konfig.\n
+Beskrivning\Orsak:\n
+- RIO startkvartil och rack storlek\n
+- är utanför tillåtet värde för kort %s\n
+\t\n
+Checklista:\n
+1. För startkvartil 0 måste rack\n
+   storleken vara mindre än 4.
+1029:
+För många Konfig.\n
+Beskrivning\Orsak:\n
+- RIO startkvartil och rack storlek\n
+- är utanför tillåtet värde för kort %s\n
+\t\n
+Checklista:\n
+1. För startkvartil 1 måste rack\n
+   storleken vara mindre än 3.
+1030:
+För många Konfig.\n
+Beskrivning\Orsak:\n
+- RIO startkvartil och rack storlek\n
+- är utanför tillåtet värde för kort %s\n
+\t\n
+Checklista:\n
+1. För startkvartil 2 måste rack\n
+   storleken vara mindre än 2.
+1031:
+För många Konfig.\n
+Beskrivning\Orsak:\n
+- RIO startkvartil och rack storlek\n
+- är utanför tillåtet värde för kort %s\n
+\t\n
+Checklista:\n
+1. För startkvartil 3 måste rack\n
+   storleken vara 0.
+1032:
+Kommunikationsfel\n
+Beskrivning\Orsak:\n
+- RIO kortet har tappat kommunikationen\n
+  med PLCn på kort adress %d\n
+\t\n
+Checklista:\n
+1. Kontrollera komm. kabeln till PLCn.\n
+2. Kontrollera att PLCn är avslagen.\n
+3. Kontrollera RIO Baud Rate.\n
+4. Kontrollera RIO Adress o Start Grupp.
+1035:
+För många startkvartiler\n
+Beskrivning\Orsak:\n
+- startkvartilerna är för många\n
+  för kort %s\n
+\t\n
+Checklista:\n
+1. Startkvartilen måste vara mellan\n
+   0 och 3 ändra konfigureringen.
+1039:
+För många kort.\n
+Beskrivning\Orsak:\n
+- Max antal kort för enhetstypen\n
+- %s är för många\n
+\t\n
+Checklista:\n
+1. Kontrollera att antal kort är fler än\n
+   0, och ej fler än antal IO platser.
+1040:
+För många RIOlänk adr.\n
+Beskrivning\Orsak:\n
+- RIO länk adressen för kort %s\n
+- är för många\n
+\t\n
+Checklista:\n
+1. Kontrollera att RIO länk adressen\n
+   är större än 0, och mindre än 64.
+1051:
+Länk adress ej oktal.\n
+Beskrivning\Orsak:\n
+- Signal %s.RIO adressen är inte av\n
+  oktal form\n
+\t\n
+Checklista:\n
+1. Skriv in en ny adress i oktal form.
+1057:
+DSQC319 Kort saknas\n
+Beskrivning\Orsak:\n
+- Inget kort av typ DSQC319\n
+  anslutet till adress %d\n
+\t\n
+Checklista:\n
+1. Anslut ett kort till kortplatsen.\n
+2. Ändra kortets adress.
+1060:
+DSQC319 internt fel.\n
+Beskrivning\Orsak:\n
+- DSQC319-kortet som är\n
+  anslutet till adress %d\n
+  har ett internt fel.\n
+\t\n
+Checklista:\n
+1. Kontrollera att CAN-bussen fungerar.\n
+2. Kontrollera att DSQC319 fungerar.
+1062:
+D319 Inbuffert full.\n
+Beskrivning\Orsak:\n
+- Inbufferten är full på kortet som är\n
+  anslutet på adress %d.\n
+  Meddelanden kan gå förlorade.\n
+\t\n
+Checklista:\n
+1. Reducera antalet noder på Can-bussen.
+1063:
+Can-meddelande förlorat\n
+Beskrivning\Orsak:\n
+- Can-meddelande har tappats på kortet\n
+  som är anslutet till adress %d.\n
+\t\n
+Checklista:\n
+1. Reducera antalet noder på Can-bussen.
+1064:
+IOC-genererat fel.\n
+Beskrivning\Orsak:\n
+- IOC signalerar fel till DSQC260-kortet\n
+  på adress %d.\n
+\t\n
+Checklista:\n
+1. Kontrollera IOCn.
+1065:
+DSQC260-genererat fel\n
+Beskrivning\Orsak:\n
+- DSQC260-kortet på adress %d\n
+  signalerar ett fel.\n
+\t\n
+Checklista:\n
+1. Kontrollera DSQC260-kortet.
+1066:
+InterBus-S inaktiv.\n
+Beskrivning\Orsak:\n
+- InterBus-S ansluten till DSQC260-\n
+  kortet på adress %d är inaktiv.\n
+\t\n
+Checklista:\n
+1. Kontrollera InterBus-S noderna.
+1067:
+InterBus-S ej inkopplad\n
+Beskrivning\Orsak:\n
+- InterBus-S ansluten till\n
+  DSQC260-kortet på addr. %d\n
+  är ej inkopplat eller IBS-master  är\n
+  i återställnings-tillstånd.\n
+\t\n
+Checklista:\n
+1. Kontrollera InterBus-S noderna.\n
+2. Kontrollera InterBus-S mastern.
+1068:
+IOC OK\n
+Beskrivning\Orsak:\n
+- IOC tidigare felaktig, nu OK.\n
+  Felmeddelande sändes till DSQC260-\n
+  kortet på adress %d\n
+\t\n
+Checklista:\n
+1. Ingen åtgärd behövs.
+1069:
+DSQC260 OK.\n
+Beskrivning\Orsak:\n
+- DSQC260-kortet på adress %d\n
+  var tidigare felaktigt, nu OK.\n
+\t\n
+Checklista:\n
+1. Ingen åtgärd behövs.
+1070:
+InteBus-S aktiv.\n
+Beskrivning\Orsak:\n
+- InterBus-S ansluten till DSQC260-\n
+  kortet på adress %d var tidigare\n
+  inaktivt, nu OK.\n
+\t\n
+Checklista:\n
+1.  Ingen åtgärd behövs.
+1071:
+InterBus-S inkopplad.\n
+Beskrivning\Orsak:\n
+- InterBus-S ansluten till DSQC260-\n
+  kortet på adress %d var tidigare\n
+  ej inkopplat, nu OK.\n
+\t\n
+Checklista:\n
+1. Ingen åtgärd behövs.
+1075:
+Ingångsfel från IO\n
+Beskrivning/Orsak:\n
+- Kan inte läsa eller skriva från/till\n
+  IOkort p g a kommunikationsfel\n
+\t\n
+Checklista:\n
+1. Kontrollera kom.felsrapport\n
+   för orsak.
+1086:
+Data OK med RIO\n
+Beskrivning/Orsak:\n
+- Kontakt upprättad med RIO-noden\n
+  ansluten vid nod-adress %d.\n
+\t\n
+Checklista:\n
+1. Ingen åtgärd behövs.
+1087:
+Can bus OK\n
+Beskrivning/Orsak:\n
+- Kontakt etablerad på Can bus\n
+  kopplad till DSQC319 på\n
+  adress %d\n
+\t\n
+Checklista:\n
+1. Gör ingenting.
+1096:
+PLC i programeringsläge\n
+Beskrivning/Orsak:\n
+- Kan inte komma åt kortet p g a att\n
+  PLCn är i programeringsläge eller\n
+  så är RIO-kortet felkonfigurerat.\n
+\t\n
+Checklista:\n
+1. PLCn i programeringsläge\n
+2. Kontrollera RIO konfigurationen
+1151:
+Canbus-fel\n
+Beskrivning/Orsak:\n
+- Onormalt antal fel på Canbussen\n
+  kopplad till DSQC319\n
+  på adress %d\n
+\t\n
+Checklista:\n
+1. Kontrollera kommunikationskabeln\n
+   till Canbussen.

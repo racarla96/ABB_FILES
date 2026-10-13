@@ -1,0 +1,361 @@
+16::
+0:
+Definizione Coord Tool
+1:
+Tool
+2:
+Metodo
+3:
+Punto                  Stato
+4:
+(Desc.)
+5:
+ModPos
+6:
+Annulla
+7:
+OK
+8:
+Descrizione Coordinate Tool
+9:
+Posizione da / a
+10:
+Risultato Calcolo Tool
+11:
+TCP
+12:
+Registro calcolo
+13:
+File...
+14:
+Selez. una posiz. matrice
+15:
+Nome matrice
+16:
+Selez. un metodo per definiz. TCP!
+17:
+Info sul metodo
+18:
+Nome Metodo
+19:
+-
+20:
+Modificato
+21:
+Da Posiz.
+22:
+Metodo
+23:
+Errore medio
+24:
+Errore Max
+25:
+Salvare reg. calcolo nel file
+26:
+Quaternione 1
+27:
+Quaternione 2
+28:
+Quaternione 3
+29:
+Quaternione 4
+30:
+Visualiz. posiz. matrice del tipo
+31:
+(OK)
+32:
+
+33:
+Nessuna
+34:
+Var. Tool non trovata!\n
+\n
+    < Premere Invio >
+35:
+Var. Wobj non trovata!\n
+\n
+    < Premere Invio >
+36:
+Var. Pose non trovata!\n
+\n
+    < Premere Invio >
+37:
+Impos. utiliz. MovMan tool!\n
+MovMan tool deve essere\n
+del tipo persistente.\n
+\n
+    < Premere Invio >
+38:
+Impos. utiliz. MovMan wobj!\n
+MovMan wobj deve essere\n
+del tipo persistente.\n
+\n
+    < Premere Invio >
+39:
+Cartesiano X
+40:
+(Nuovo)
+41:
+(Canc)
+42:
+Definiz
+43:
+Cartesiano Y
+44:
+Cartesiano Z
+45:
+Definiz. sist.rif. utente Orbit
+46:
+Risult. Calcol. sist.rif. utente Orbit
+47:
+Selez. metodo di definizione!
+48:
+Unita'
+49:
+Definiz. sist.rif. Base Robot
+50:
+Risult. Calcol. sist.rif. Base Robot
+51:
+Definiz. Punto di Riferimento
+52:
+(ModPos)
+53:
+Prego, definire le coord. world\n
+per punto di riferimento.
+54:
+Definiz. sist.rif. utente Sing. Lin.
+55:
+Risul. calcol sist.rif. ut. Sing. Lin.
+56:
+Definiz. sist.rif. utente Sing. Rot.
+57:
+Risult. Calcol. sist.rif.ut. Sing. Rot.
+58:
+Definiz. sist.rif. Base Slitta
+59:
+Risul. Calcol. sist.rif. Base Slitta
+60:
+Def...
+61:
+Metodo mov.
+62:
+X
+63:
+Y
+64:
+Z
+65:
+Sovrascrittura di parametri!\n
+I parametri esistenti saranno\n
+riscritti.\n
+OK per continuare?
+66:
+Definizione assi unita' meccanica
+67:
+Risultato calc assi unita' meccanica
+69:
+Assi
+100:
+Definizione Coord Work Object
+101:
+Descrizione Coord Work Object
+102:
+Risultato calcolo Work Object
+103:
+Selezionare una pos. matrice
+104:
+WObj
+105:
+Metodo user
+106:
+Metodo Obj
+107:
+Selezionare metodo object
+108:
+Selezionare metodo user
+109:
+Pos User da/a
+110:
+Pos Object da/a
+111:
+user
+112:
+Obj
+200:
+Definizione Spost. sist.rif.
+201:
+Descrizione Spost. sist.rif.
+202:
+Risultato Calc. Spost. sist.rif.
+203:
+Selezionare una posizione matrice
+204:
+Spostam
+205:
+Orig
+206:
+Numero di punti
+207:
+Selezionare nuovo metodo
+500:
+n punti (n=%d)
+501:
+Punto iniziale
+502:
+Punto modif.
+503:
+Punto
+504:
+X Negativa
+505:
+X Positiva
+506:
+Y Positiva
+507:
+4 punti
+508:
+L'orientamento del sist.rif. base e'\n
+lo stesso del sist. di coord. world.
+509:
+Punto 1
+510:
+Punto 2
+511:
+Punto 3
+512:
+Punto 4
+513:
+Punto 5
+514:
+Punto 6
+515:
+Punto 7
+516:
+Punto 8
+517:
+Punto 9
+518:
+Punto 10
+519:
+Punto prolung. X
+520:
+Punto prolung. Z
+521:
+4 punti XZ
+522:
+Prolung. X e Z utilizzati per def.\n
+l'orientamento del sist.rif. base.
+523:
+4 punti TCP
+524:
+L'orientamento sara' lo stesso\n
+della flangia del robot.
+525:
+5 punti TCP & Z
+526:
+Direz. X e Y devono essere il piu'\n
+coincidente poss. alle coord. polso
+527:
+6 punti TCP & XZ
+528:
+Il TCP e tutte le direzioni utensile\n
+sono definite.
+529:
+3 punti
+530:
+3 punti user sono utilizzati:\n
+2 sull'asse X e 1 sull'asse Y.
+531:
+User
+532:
+Object
+533:
+3 punti object sono utilizzati:\n
+2 sull'asse X e 1 sull' asse Y.
+534:
+4 p NO DEF ORIENT TCP
+535:
+L' orientamento utensile non\n
+sara' modificato.
+536:
+Nessun cambiamento
+537:
+La definizione del sistema coord\n
+user non sara' modificato.
+538:
+La definizione del sistema coord\n
+object non sara' modificato.
+539:
+Nessun cambiamento della definizione\n
+dei sistemi di coord sara'effettuato.
+550:
+Definizione coord tool stazionario
+551:
+Tool usato
+552:
+Definizione coord tool staz\n
+non e' possibile quando\n
+robot tiene utensile.\n
+\n
+Premere invio per proseguire
+600:
+Copia speculare di Sotprog
+601:
+Sotprog da copiare speculare
+602:
+Nuovo nome Sotprog
+603:
+Work object
+604:
+Sist.rif. specul.
+605:
+Asse speculare
+606:
+X
+607:
+Y
+608:
+Selez. sist.rif.
+609:
+Defin. nome di nuovo sotprog
+610:
+Selez. sist.rif. work object\n
+dalla lista seguente.
+611:
+Selez. un sistema di rifer.\n
+speculare dalla lista seguente.
+612:
+Non modificato
+613:
+Prego attendere!\n
+\n
+Esecuz. di copia speculare\n
+in corso nel sotprog selez.
+614:
+Copia spec. non eseguita.\n
+Nome del sotprog da copiare\n
+gia' esistente.
+615:
+Impossibile eseguire defin. !\n
+Variabile dichiarata in un\n
+modulo di sola lettura.\n
+\n
+    < Premere Invio >
+616:
+Calibrazione di work object\n
+con sist.rif. user coordinato\n
+non e' possibile.\n
+\n
+    < Premere Invio >
+617:
+Calibrazione di work object\n
+tenuto dal robot\n
+non e' possibile.\n
+\n
+    < Premere Invio >
+618:
+Calibrazione di work object\n
+usando un TCP stazionario\n
+non e' possibile.\n
+\n
+    < Premere Invio >

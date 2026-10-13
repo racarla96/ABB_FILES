@@ -1,0 +1,286 @@
+27::
+1011:
+Treiber nicht unterstützt\n
+Beschreibung\Ursache:\n
+- Der Treiber %s wird nicht\n
+  unterstützt.\n
+\t\n
+Kontrolle:\n
+1. Namen des Treibers ändern.
+1012:
+Speicherüberlauf\n
+Beschreibung\Ursache:\n
+- Karte %s: Zu viele Karten für\n
+  den spezifizierten Treibertyp.\n
+\t\n
+Kontrolle:\n
+1. Anzahl der Karten für den Treiber\n
+   in der Treiberkonfiguration ändern.
+1013:
+Falscher Kartentyp\n
+Beschreibung\Ursache:\n
+- Falscher Kartentyp verbunden\n
+  mit Adresse %d.\n
+\t\n
+Kontrolle:\n
+1. Kartentyp und Adresse kontrollieren.
+1014:
+Karte fehlt\n
+Beschreibung\Ursache:\n
+- Keine Karte angeschlossen bei\n
+  angegebener Adresse %d.\n
+\t\n
+Kontrolle:\n
+1. Karte in Rack einstecken.\n
+2. Adresse der Karte ändern.
+1028:
+Konfiguration unzulässig\n
+Beschreibung\Ursache:\n
+- Der SPS starting quarter und\n
+  rack size ist unzulässig für\n
+  die Karte %s.\n
+\t\n
+Kontrolle:\n
+1. Für starting quarter 0 muß\n
+   rack size kleiner als 4 sein.
+1029:
+Konfiguration unzulässig\n
+Beschreibung\Ursache:\n
+- Der SPS starting quarter und\n
+  rack size ist unzulässig für\n
+  die Karte %s.\n
+\t\n
+Kontrolle:\n
+1. Für starting quarter 1 muß\n
+   rack size kleiner als 3 sein.
+1030:
+Konfiguration unzulässig\n
+Beschreibung\Ursache:\n
+- Der SPS starting quarter und\n
+  rack size ist unzulässig für\n
+  die Karte %s.\n
+\t\n
+Kontrolle:\n
+1. Für starting quarter 2 muß\n
+   rack size kleiner als 2 sein.
+1031:
+Konfiguration unzulässig\n
+Beschreibung\Ursache:\n
+- Der SPS starting quarter und\n
+  rack size ist unzulässig für\n
+  die Karte %s.\n
+\t\n
+Kontrolle:\n
+1. Für starting quarter 3 muß\n
+   rack size kleiner als 0 sein.
+1032:
+Kommunikations Fehler\n
+Beschreibung\Ursache:\n
+- RIO Karte an Karten-\n
+  addresse %d hat die\n
+  Kommunikation mit der\n
+  SPS verloren.\n
+\t\n
+Kontrolle:\n
+1. Kabel zum SPS kontrollieren.\n
+2. Stromvers. der SPS kontrollieren.\n
+3. RIO Baudrate kontrollieren.\n
+4. RIO Adr. und Startgr. kontrollieren.
+1035:
+Starting quarter unzul.\n
+Beschreibung\Ursache:\n
+- Der starting quarter ist\n
+  unzulässig für Karte %s.\n
+\t\n
+Kontrolle:\n
+1. Der starting quarter muß innerhalb\n
+   der Werte 0 bis 3 sein.\n
+   Konfiguration ändern.
+1039:
+Anzahl Kartentyp unzul.\n
+Beschreibung\Ursache:\n
+- Die max. Anzahl des Kartentyps\n
+  für Treiber %s ist unzulässig.\n
+\t\n
+Kontrolle:\n
+1. Anzahl des Kartentyps ist größer\n
+   als 0, aber nicht größer als die\n
+   Anzahl der Steckplätze.
+1040:
+SPS link address unzul.\n
+Beschreibung\Ursache:\n
+- Die SPS link address für Karte\n
+  %s ist unzulässig.\n
+\t\n
+Kontrolle:\n
+1. Die SPS link address muß\n
+   größer 0 und kleiner 64 sein.
+1051:
+Link address nicht oktal\n
+Beschreibung\Ursache:\n
+- Signal %s: Die SPS address ist nicht\n
+  in oktaler Form.\n
+\t\n
+Kontrolle:\n
+1. Neue Adresse in oktaler Form\n
+   eingeben.
+1057:
+DSQC319 Karte fehlt\n
+Beschreibung\Ursache:\n
+- Keine Karte vom Typ DSQC319\n
+  angeschlossen an Adresse %d.\n
+\t\n
+Kontrolle:\n
+1. Karte in Einschub stecken.\n
+2. Kartenadresse ändern.
+1060:
+DSQC319 Interner Fehler\n
+Beschreibung\Ursache:\n
+- Die Karte DSQC319\n
+  an der Adresse %d hat\n
+  einen internen Fehler.\n
+\t\n
+Kontrolle:\n
+1. Kontrolle der Funktion des CAN Bus.\n
+2. Kontrolle der DSQC319.
+1062:
+DSQC319 Speicher voll\n
+Beschreibung\Ursache:\n
+- Empfangsspeicher ist voll für\n
+  die Karte an Adresse %d.\n
+  Meldungen können verloren sein.\n
+\t\n
+Kontrolle:\n
+1. Anzahl der Knoten am CAN Bus\n
+   reduzieren.
+1063:
+CAN Meldung verloren\n
+Beschreibung\Ursache:\n
+- CAN Meldung verloren für\n
+  die Karte an Adresse %d.\n
+\t\n
+Kontrolle:\n
+1. Anzahl der Knoten am CAN Bus\n
+   reduzieren.
+1064:
+IOC gener. Fehler\n
+Beschreibung\Ursache:\n
+- IOC Signalfehler an Karte DSQC260\n
+  an Adresse %d.\n
+\t\n
+Kontrolle:\n
+1. IOC kontrollieren.
+1065:
+DSQC260 gener. Fehler\n
+Beschreibung\Ursache:\n
+- Signalfehler an Karte DSQC260\n
+  an Adresse %d.\n
+\t\n
+Kontrolle:\n
+1. Karte DSQC260 kontrollieren.
+1066:
+InterBus-S inaktiv\n
+Beschreibung\Ursache:\n
+- InterBus-S inaktiv an Karte DSQC260\n
+  an Adresse %d.\n
+\t\n
+Kontrolle:\n
+1. InterBus-S Knoten kontrollieren.
+1067:
+InterBus-S nicht angeschl\n
+Beschreibung\Ursache:\n
+- InterBus-S an Karte DSQC260\n
+  an Adresse %d.\n
+  nicht angeschlossn oder IBS master\n
+  im Resetmodus.\n
+\t\n
+Kontrolle:\n
+1. InterBus-S Knoten kontrollieren.\n
+2. InterBus-S Master kontrollieren.
+1068:
+IOC OK\n
+Beschreibung\Ursache:\n
+- Vorheriger Fehler IOC, jetzt OK.\n
+  Fehlermeldung gesendet an Karte\n
+  DSQC260 an Adresse %d.\n
+\t\n
+Kontrolle:\n
+1. Keine Aktion notwendig.
+1069:
+DSQC260 OK\n
+Beschreibung\Ursache:\n
+- Vorheriger Fehler Karte DSQC260\n
+  an Adresse %d, jetzt OK\n
+\t\n
+Kontrolle:\n
+1. Keine Aktion notwendig.
+1070:
+InterBus-S aktiv\n
+Beschreibung\Ursache:\n
+- InterBus-S an Karte DSQC260\n
+  an Adresse %d vorher inaktiv,\n
+  jetzt OK.\n
+\t\n
+Kontrolle:\n
+1. Keine Aktion notwendig.
+1071:
+InterBus-S angeschlossen\n
+Beschreibung\Ursache:\n
+- InterBus-S an Karte DSQC260\n
+  an Adresse %d vorher nicht\n
+  angeschlossen oder IBS master\n
+  im Resetmodus, jetzt OK.\n
+\t\n
+Kontrolle:\n
+1. Keine Aktion notwendig.
+1075:
+Zugriffsfehler von E/A\n
+Beschreibung\Ursache:\n
+- Lesen/Schreiben von Signal %s\n
+  unmöglich. Kommunikation\n
+  unterbrochen.\n
+\t\n
+Kontrolle:\n
+1. com.fail Report wegen der\n
+   Ursache kontrollieren.
+1086:
+Kom. OK mit RIO\n
+Beschreibung\Ursache:\n
+- Kontakt hergestellt mit RIO Knoten\n
+  an Knotenadresse %d\n
+\t\n
+Kontrolle:\n
+1. Keine Aktion notwendig.
+1087:
+Can Bus OK\n
+Beschreibung\Ursache:\n
+- Kontakt hergestellt auf Can Bus,\n
+  angeschlossen an DSQC319 an\n
+  Adresse %d\n
+Kontrolle:\n
+1. Keine Aktion notwendig.\n
+\n
+\t\n
+
+1096:
+SPS im Prog. Modus\n
+Beschreibung\Ursache:\n
+- Kein Zugriff auf Karte da\n
+  SPS im Programmiermodus\n
+  oder falsch konfiguriert.\n
+\t\n
+Kontrolle:\n
+1. SPS im Programmiermodus\n
+2. Konfiguration SPS kontrollieren
+1151:
+CAN Bus Fehler\n
+Beschreibung\Ursache:\n
+- Abnormale Häufigkeit von Fehlern\n
+  auf dem CAN Bus an der DSQC319\n
+  an Adresse %d.\n
+Kontrolle:\n
+1. Kommunikationskabel zum  CAN Bus\n
+   kontrollieren.\n
+\n
+\t\n
+

@@ -1,0 +1,41 @@
+59::
+0:
+rlsys
+1:
+clock
+2:
+ClkReset
+3:
+ClkStart
+4:
+ClkStop
+5:
+ClkRead
+6:
+Clock
+7:
+CDate
+8:
+CTime
+9:
+GetTime
+10:
+WDay
+11:
+Hour
+12:
+Min
+13:
+Sec
+14:
+num
+15:
+string
+16:
+switch
+17:
+Stop watch overflow.
+18:
+Can't convert date.
+19:
+rtc get time failed.

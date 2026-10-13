@@ -1,0 +1,254 @@
+Revision 1.11  1996/12/12  07:36:15  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+4::
+0:
+
+1:
+Entradas/Salidas
+2:
+Invertir:
+3:
+Grupos
+4:
+Mas Comunes
+5:
+
+6:
+
+7:
+Nombre:
+8:
+Valor:
+9:
+Tipo:
+10:
+
+11:
+Bus:
+12:
+Abrir
+13:
+Cerrar
+14:
+Activar
+15:
+Desacti
+16:
+1
+17:
+0
+18:
+Archivo
+19:
+Imprimir...
+20:
+Preferencias...
+21:
+Editar
+22:
+Alias Salidas Digitales
+23:
+Alias Analogicas
+24:
+Ir a...
+25:
+Ir al Inicio
+26:
+Ir al Final
+27:
+AliasES
+28:
+Ver
+29:
+Mas Comunes
+30:
+Unidades E/S
+31:
+Entradas Digitales
+32:
+Salidas Digitales
+33:
+E/S Analogicas
+34:
+Alias Entradas Digitales
+35:
+Grupos E/S
+36:
+Alias All signals
+37:
+Todas las señales
+38:
+Alias Grupos
+39:
+Seguridad
+40:
+
+41:
+
+42:
+
+43:
+Direccion:
+44:
+Unidad E/S:
+45:
+Señal:
+46:
+
+47:
+Atributos de señal:
+48:
+Estado
+49:
+Unidades E/S
+50:
+OK
+51:
+EstSeñal
+52:
+Cancela
+53:
+Result
+54:
+Incl
+55:
+Excl
+56:
+Ir a la Linea!
+57:
+Entrar Linea
+58:
+Cambiar
+59:
+Nombre       Valor        Tipo
+60:
+Direcc Bus   Nombre       Tipo
+61:
+Mas Comunes  Nombre       Tipo
+62:
+Nombre       Valor        Señales
+63:
+No  Valor    Unidad E/S    Señal
+64:
+Grupo:
+65:
+Señal        Valor        Nombre
+66:
+Arriba
+67:
+Mover
+68:
+Config
+69:
+             Nombre       Tipo
+70:
+Resultado Mas Comun
+71:
+Config Mas Comun
+72:
+Off
+73:
+On
+74:
+Falso
+75:
+Verdad
+76:
+Pasivo
+77:
+Activo
+78:
+Bajo
+79:
+Alto
+80:
+Unidad tipo:
+81:
+
+82:
+
+83:
+Sin señales
+84:
+Pulsar Entrar para continuar
+85:
+Sin señales mapeadas
+86:
+Entrar valor de grupo E/S
+87:
+Limites: Minimo
+88:
+         Maximo
+89:
+Entrada de datos para E/S
+90:
+Valor de Señal Analogica
+91:
+Impresion Entradas/Salidas
+92:
+Imprim
+93:
+Imprimir a archivo :
+94:
+Añadir info señal  :
+95:
+Datos a imprimir
+96:
+Imprimir E/S a archivo:
+97:
+Imprimiendo!
+98:
+Para cancelar pulse Entrar
+99:
+Pulse Entrar para continuar
+100:
+Impresora ocupada\n
+\n
+Intentelo cuando este lista
+101:
+No puedo imprimir porque hay\n
+muchos trabajos en cola\n
+\n
+Intentelo despues
+102:
+No puedo imprimir porque la\n
+impresora no esta configurada\n
+en los parametros de sistema
+103:
+Espacio insuficiente en unidad\n
+usada imprimiendo (normalmente\n
+%9s) Necesito %d\n
+bytes. Borrar algun archivo
+104:
+  Trabajando\n
+\n
+  Espere por favor
+105:
+ No puedo crear/escribir al\n
+ archivo
+106:
+ Archivo ya existe\n
+
+107:
+Señal inicial
+108:
+No puedo incluir señal!\n
+La lista de mas comunes solo\n
+puede contener %d señales
+109:
+No puedo cambiar val.de grupo!\n
+\n
+El grupo seleccionado contiene\n
+señales cargadas como internas
+110:
+Especi.
+111:
+Buses E/S
+112:
+Bus
+113:
+Reinic
+114:
+Buses E/S

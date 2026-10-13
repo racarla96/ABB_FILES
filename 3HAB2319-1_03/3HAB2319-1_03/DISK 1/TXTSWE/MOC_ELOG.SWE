@@ -1,0 +1,595 @@
+25::
+0:
+Rörelse
+1:
+Allvarligt rörelsefel\n
+Ej möjligt att fortsätta rörelsen\n
+\t\n
+Gör en omstart
+21:
+Axelpositions-fel\n
+Aktuell position för axel %s\n
+för långt ifrån den beordrade\n
+positionen\n
+\t\n
+Kontrollera servo-parametrarna, yttre\n
+krafter eller hårdvaran
+22:
+För låg likriktarspänning\n
+\t\n
+Kontrollera spänningen från\n
+Motorer Till kontaktorerna\n
+Byt likriktare
+23:
+Stopp-/Återstartsfel\n
+Stoppet gjordes när för många rörelse\n
+instruktioner låg i kö för körning.\n
+Återstart ej möjlig\n
+\t\n
+Kontrollera antalet rörelseinstruktioner\n
+med argumentet \Conc.Flytta startpekaren\n
+och starta en ny rörelse.
+24:
+Hörnbanefel\n
+En passerpunkt kördes som en\n
+stoppunkt p g a tidsfördröjning.\n
+\t\n
+Kontrollera antalet instruktioner \n
+mellan rörelseinstruktionerna.
+25:
+Hörnbanefel\n
+En passerpunkt kördes som en\n
+stoppunkt p g a tidsfördröjning.\n
+\t\n
+Kontrollera antalet instruktioner \n
+mellan rörelseinstruktionerna.
+26:
+Singularitet eller zonfel\n
+1 Roboten för nära singulära punkten\n
+2 MoveL till MoveJ hörn zon fel\n
+\t\n
+1 Använd styrspaken för att köra iväg\n
+  från singulära punkten eller kör ett \n
+  program i  robotkoordinater.\n
+2 Använd finpunkter eller modifiera\n
+  punkten
+27:
+AXEL utanför arbetsområde\n
+AXEL %d är utanför arbetsområdet\n
+\t\n
+Använd styrspaken för att köra axeln\n
+in i arbetsområdet
+28:
+Joggning i fel riktning\n
+AXEL %d är utanför arbetsområdet\n
+\t\n
+Använd syrspaken för att köra axeln\n
+i motsatt riktning.
+29:
+Roboten utanför sin gräns\n
+Roboten har nått konfigurations-\n
+gränsen för överföringsparallellogrammen\n
+\t\n
+Använd styrspaken för att köra tillbaka\n
+berörda axlar in i arbetsområdet igen.
+30:
+Roboten utanför sin gräns\n
+Joggning har utförts i fel riktning när\n
+parallellogrammen var utanför\n
+arbetsområdet.\n
+\t\n
+Använd styrspaken för att köra axeln\n
+i motsatt riktning.
+31:
+Ej tillåtet kommando.\n
+Systemparametrar kan inte\n
+ändras i MOTORER TILL\n
+\t\n
+Byt till MOTORER FRÅN.
+32:
+Kalibrering ej tillåten\n
+Ett försök har gjorts att kalibrera\n
+i MOTORER TILL.\n
+\t\n
+Byt till MOTORER FRÅN.
+33:
+Kommutering ej tillåten\n
+Ett försök har gjorts att kommutera i\n
+MOTORER TILL.\n
+\t\n
+Byt till MOTORER FRÅN.
+35:
+synkronisering ej tillåten\n
+Ett försök har gjorts att synkronisera\n
+i MOTORER TILL.\n
+\t\n
+Byt till MOTORER FRÅN.
+36:
+Korrekt återgång omöjligt\n
+Korrekt återgång omöjligt. Ett stopp\n
+inträffade med för många närliggande\n
+hörnbanor. Efter återstart vill roboten\n
+gå till en pos längre fram i programmet.\n
+\t\n
+Reducera antalet närliggande positioner,\n
+förläng avståndet mellan positionerna\n
+eller reducera hastigheten.
+37:
+MOTORER TILL ignoreras\n
+MOTORER TILL ignoreras för att\n
+föregående stopp ej är bekräftat.\n
+\t\n
+Beordra MOTORER TILL igen.
+41:
+Roboten är för nära\n
+singulära punkten.\n
+\t\n
+Om programkörning, använd SingArea\n
+instruktionen eller robotkoordinater.\n
+Vid joggning använd robotkoordinater.
+42:
+Systemfel\n
+\t\n
+Öka avståndet mellan täta positioner\n
+och/eller minska hastigheten och/eller\n
+byt accelerationsvärde
+50:
+Pos utanför arbetsområdet\n
+Position för IRB axel %.f\n
+är utanför arbetsområdet.\n
+\t\n
+Kontrollera arbetsobjektet.\n
+Kontrollera arbetsområdet för axeln.\n
+Kör axeln i robotkoordinater.
+52:
+Axel-hastighetsfel\n
+Hastigheten för axel %s är för hög\n
+relativt den beodrade hastigheten\n
+\t\n
+1 Kontrollera servo-param., externa\n
+  krafter på axeln eller hårdvaran\n
+2 Reducera programerad hastighet.
+53:
+Varvräknarfel\n
+För stor skillnad mellan värdet i\n
+seriemätkortet och beräknat värde i\n
+axeldatorn för axel %s\n
+\t\n
+Uppdatera varvräknaren\n
+Byt seriemätkort
+55:
+Axel lastfel\n
+Aktuellt moment på axel %d är högre än\n
+beordrat\n
+\t\n
+Kontrollera verktygets lastdata och\n
+hårdvara, samt acceleration.\n
+1. Kontrollera last data\n
+2. Kontrollera hårdvara\n
+3. Minska accelerationen
+56:
+Axel kollisions fel\n
+Aktuellt moment på axel %d är högre än\n
+beordrat vid låg eller stillastående\n
+hastighet.\n
+\t\n
+Kan vara förorsakat av att roboten har \n
+kört fast eller hårdvarufel.
+57:
+Axel synkfel\n
+Positionen för axel %s efter nät-\n
+bortfallet är för långt ifrån positionen\n
+som var före nätbortfallet.\n
+\t\n
+Gör en ny uppdatering av varvräknaren.
+58:
+Verktygs koord. sys fel\n
+Verktygets Z-riktn. är nästan paralellt\n
+med banriktningen.\n
+\t\n
+Ändra verktygskoordinatsystemet så\n
+att det blir minst 3 graders avvikelse \n
+mellan Z-rikningen och banriktningen.
+59:
+Koordinatfel\n
+Definitionen av  verktyg är ej korrekt\n
+\t\n
+Kontrollera verktygs och objekt data.
+60:
+Koordinatfel\n
+Definitionen av  verktyg är ej korrekt\n
+\t\n
+Kontrollera verktygs och objekt data.
+61:
+Koordinatfel\n
+Definitionen av  verktyg är ej korrekt\n
+\t\n
+Kontrollera verktygs och objekt data.
+62:
+Cirkel programmeringsfel\n
+Start och slutpunkt för\n
+cirkeln ligger för nära varann.
+63:
+Cirkel programmeringsfel\n
+Cirkel positionen är för nära\n
+start eller slutpunkten av cirkeln.
+65:
+Utanför arbetsområdet\n
+Slutpunkten för rörelsen är utanför\n
+robotens arbetsområde eller för \n
+näre singularitet.\n
+\t\n
+Flytta slutpunkten.
+66:
+Robot inte aktiv\n
+Försök har gjorts att koordinera rörelse\n
+eller att läsa en pos. från en ej\n
+aktiv robot %s.\n
+\t\n
+Aktivera enhet via rörelse enhet\n
+sedan Jogging fönstret, eller\n
+i programmet.\n
+Kontrollera arbetsobjekt och program.
+67:
+Enhet ej aktiv\n
+Försök har gjorts att koordinera\n
+rörelse eller räkna ut position från\n
+ej aktiv enhet %s\n
+\t\n
+Aktivera enhet via rörelse enhet\n
+sedan Jogging fönstret, eller\n
+i programmet.\n
+Kontrollera arbetsobjekt och program.
+76:
+Ori-definitionsfel\n
+\t\n
+Gör en nogrann normalisering av\n
+quaternion-elementen.
+78:
+För täta positioner\n
+För många närliggande possitioner\n
+efter varandra.\n
+\t\n
+Öka avståndet mellan närliggande\n
+positioner
+79:
+Handledspendling omöjlig.\n
+\t\n
+Använd mindre pendlingsamplitud\n
+eller större TCP.
+80:
+Position ej kompatibel.\n
+Positionen ej tillgänglig för\n
+denna robotkonfigureringen.\n
+\t\n
+Ändra positionen i programmet.
+82:
+Inbromsnings begränsning\n
+Beräkning av axel inbromsnings tiden\n
+överskrider intern gräns för denna\n
+rörelse\n
+Fortsätt inte förän felet är tillrättat\n
+\t\n
+Kontrollera inbromsningen för ext. axlar\n
+Kontrollera störnivån på I/O anslutningar\n
+Öka ban upplösningen, kö längden.\n
+Minska program hastigheten och eller\n
+öka AccSet parametrarna (om under 100%).
+83:
+Hastighet minskad.\n
+Hastigheten har minskats av systemet\n
+beroende på dynamiska skäl\n
+\t\n
+Minska hastigheten och/eller använd inte\n
+närliggande positioner vid hög hastighet\n
+och/eller öka accelerationen\n
+(om under 100%).
+85:
+För många användar koordinat system.\n
+För mek_enhet %s har mer än ett\n
+användar koordinat system definerats.\n
+\t\n
+Ta bort ett användar koordinat system\n
+eller definera en till mek_enhet.
+86:
+Singularitetsproblem.\n
+För nära handledssingularitet\n
+p g a numerisk utväxling av axel 4\n
+på IRB\n
+\t\n
+Flytta slutpunkten några inkrement.
+87:
+Singularitetsproblem.\n
+För nära handledssingularitet\n
+p g a numerisk utväxling av axel 6\n
+på IRB\n
+\t\n
+Flytta slutpunkten några inkrement.
+88:
+Återstart ej möjlig.\n
+Banan är ej möjlig att återstarta\n
+på grund av ett föregående fel.\n
+\t\n
+Flytta startpunkten\n
+och starta en ny rörelse.
+89:
+Pendlingsfrekvensen är minskad.\n
+Pendlingens periodlängd eller\n
+periodtiden är för kort\n
+\t\n
+Öka periodlängden eller\n
+öka periodtiden.
+91:
+Återstart ej möjligt.\n
+Byte av enhets tillstånd gjorde\n
+återstart omöjligt.\n
+\t\n
+Flytta startpunkten och starta\n
+en ny rörelse.
+92:
+Axel dator kommunikations fel\n
+Ej korrekt svar från axel datorn\n
+\t\n
+Kontrollera rörelse parametrar.\n
+Kontrollera axel datorns hårdvara.
+93:
+För hög last\n
+Definierad last för hög
+94:
+Servotrimning ej möjlig.\n
+Trimningen är inte utförd för\n
+specificerad AXEL.
+95:
+Åtkomst nekad extern axel.\n
+Kontrollera konfiguration och \n
+aktivering av extern axel.
+100:
+Manipulatorfel.\n
+Det finns fler konfigurations eller numeriska\n
+fel i rörelse domänen.\n
+\t\n
+Korrigera felen och prova igen.
+101:
+Manipulatorfel.\n
+'%s' är inte tillgänglig för\n
+parameter '%s' i typ '%s'\n
+med namn '%s'.\n
+\t\n
+Använd en annan\n
+För interna namn, se moc_chk.log
+102:
+Manipulatorfel.\n
+'%s' används av parametern\n
+'%s' i typ '%s' med namn\n
+'%s' är inte definerad.\n
+\t\n
+Använd en annan eller definiera en ny.\n
+För interna namn, se moc_chk.log
+103:
+Numeriskt param. fel\n
+Orienteringen definerad av parametern\n
+'%s' i typ '%s' med namn\n
+'%s' är inte normaliserad.\n
+\t\n
+Räkna om orienteringen.\n
+Kvadratsumman ska vara 1.\n
+För interna namn, se moc_chk.log
+104:
+Numeriskt param.fel\n
+Parametern ´%s´\n
+i typen ´%s´med namn\n
+´%s´ är inte ´%s´.\n
+\t\n
+Kontrollera värdet.
+128:
+Manipulatorfel\n
+Avslutar parameterkontrollen\n
+p g a tidigare fel.\n
+\t\n
+Korrigera tidigare fel och gör om\n
+kontrollen.
+130:
+Synkroniserings fel\n
+för axel %.s\n
+\t\n
+Synkronisera om.\n
+Gör en omstart av systemet.
+131:
+Kallibrerings fel\n
+för axel %.s.\n
+\t\n
+Kalibrera om.\n
+Gör en omstart systemet.
+132:
+Kommuterings fel\n
+för axel %.s.\n
+\t\n
+Kommutera om.\n
+Gör en omstart av systemet.
+133:
+Test signal fel\n
+Ingen test signal är tillgänglig\n
+för roboten.\n
+\t
+134:
+Korr. vektor varning\n
+Sensor korrektions vektors beräkning\n
+felade beroende på föregående fel.\n
+\t
+135:
+Mjuk servo fel\n
+Mjuk servo kan inte aktiveras
+136:
+Mjuk servo fel\n
+Mjuk servo kan inte modifieras\n
+under rampning.\n
+\t
+137:
+Fin punkt insatt\n
+Hörnbana är ändrad till finpunkt\n
+För många på varandra följande\n
+rörelse instruktioner utan finpunkter.\n
+\t
+138:
+Armkontrollpunkt utanför\n
+Roboten har nått gränsen för\n
+Armkontrollpunkten\n
+\t\n
+Använd joysticken för att köra in\n
+inblandad axel till arbetsområdet igen
+139:
+Armkontrollpunkt utanför\n
+Joggning utfördes i fel riktning\n
+när armkontrollpunkten var utanför\n
+arbetsområdet.\n
+\t\n
+Använd joystcken för att köra axeln\n
+i motsatt riktning.
+140:
+För tung hanteringsvikt\n
+Tung hanteringsvikt orsakade\n
+statisk moment att lösa ut på\n
+axel %s\n
+\t\n
+Kontrollera och reducera\n
+hanteringsvikten för arm och eller\n
+handleden.\n
+Minska axelns arbetsområde för att\n
+reducera statiskt moment på grund av\n
+gravitation.
+141:
+Hast, Zon eller Jogg fel\n
+1. Roboten för nära singulära punkten\n
+2. MoveL till MoveJ hörnzon fel\n
+3. Jogging fel\n
+4. Hög hastighets fel\n
+\t\n
+1. Undvik singularitet eller kör\n
+   programmet i robotkoordinater\n
+2. Använd finpunkter eller modifiera\n
+   positionen\n
+3. Försök igen\n
+4. Reducera programmerad hastighet
+142:
+Manipulators konfig. fel\n
+Konfig. av manipulator misslyckades.\n
+\t\n
+Kontrollera parametrar hittas under\n
+Systemparametrar: Manipulator.
+143:
+Robotaxlars konfig. fel\n
+Verklig konfiguration är inte samma\n
+som beordrad konfiguration.\n
+\t\n
+Använd SingArea_Wrist eller ConfL_Off\n
+eller ange position
+144:
+Ramförskjutn osäker.\n
+Kalibrering av ramförskjutn osäker\n
+1. Fel TCP\n
+2. Ref. punkter felaktiga\n
+3. Ref. punkter illa placerade\n
+\t\n
+Om uppaskattat fel är oacceptabelt:\n
+1. Kontrollera att rätt TCP används:\n
+2. Pröva fler än 3 ref.punkter.\n
+3. Var försiktig vid inställning av robot\n
+   efter ref.punkter.
+145:
+Kinetisk begränsning.\n
+Ingen lösning funnen, möjligen på grund\n
+av långt segment eller robot i en \n
+konfiguration med dålig rörelseförut-\n
+sättning\n
+\t\n
+Lägg in en mellanliggande punkt för att minska\n
+längden på segmentet.
+146:
+ Återstartbegränsning\n
+Hörnbana utförd som stoppunkt.\n
+Återstart efter kraftavbrott omöjligt\n
+nära stoppunkten.\n
+\t\n
+Använd finepoint i Move-instr före\n
+RestoPath,ActUnit,Wait eller Stop-instr\n
+för att möjliggöra återstart efter kraft-\n
+avbrott.
+147:
+Återstart efter kraftavbrott misslyckat\n
+Återskapande av banan misslyckat\n
+\t\n
+Flytta startpunkten och starta\n
+en ny rörelse.
+148:
+MOC_WRONG_MAIN_ISR_TYPE\n
+Fel vid försök att kontakta en ej \n
+existerande avbrottsrutin i huvuddatorn\n
+från axeldatorn.\n
+\t
+149:
+MOC_SCHED_QUEUE_FULL\n
+Fel när programkön i\n
+axeldatorn är full.\n
+\t
+150:
+MOC_WRONG_CMD_TYPE\n
+Fel när axeldatorn har\n
+mottagit ett kommando från huvud-\n
+datorn som inte är bekräftat.\n
+\t
+151:
+MOC_MAILBOX1_ERROR\n
+Axeldatorns drivare misslyckades med\n
+att generera ett nytt mailbox1 avbrott\n
+eftersom det tidigare avbrottet inte\n
+blivit riktigt omhändertaget.\n
+\t
+152:
+MOC_MAILBOX2_ERROR\n
+Axeldatorns drivare misslyckades med\n
+att generera ett nytt mailbox2 avbrott\n
+eftersom det tidigare avbrottet inte\n
+blivit riktigt omhändertaget.\n
+\t
+153:
+Kommando inte tillåtet\n
+Den givna instruktionen, eller kommandot\n
+var otillåten eftersom robotprogrammet\n
+var verkställande i ett hold-läge.\n
+\t\n
+Modifiera program- eller stopprogram-\n
+utförandet innan kommandot sänds.
+155:
+Återstart efter kraftavbrott misslyckat\n
+Omöjligt att återstarta Move-instr\n
+före RestoPath, ActUnit, Wait eller\n
+Stop-instr\n
+\t\n
+Gör programmet fritt från MOTION WARNING\n
+50146 Återstartbegränsning, genom att\n
+ändra Move-instr till finepoint\n
+Flytta startpunkten och starta\n
+en ny rörelse.\n
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

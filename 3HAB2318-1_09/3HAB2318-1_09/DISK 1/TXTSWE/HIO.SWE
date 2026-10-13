@@ -1,0 +1,240 @@
+Revision 1.8  1995/04/21  13:17:47  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.7  1994/08/19  09:46:00  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+4::
+0:
+
+1:
+Ingångar/Utgångar
+2:
+Invert:
+3:
+Grupper
+4:
+Vanligast
+5:
+
+6:
+
+7:
+Namn:
+8:
+Värde:
+9:
+Typ:
+10:
+
+11:
+Buss:
+12:
+Öppna
+13:
+Stäng
+14:
+Sätt
+15:
+Återställ
+16:
+1
+17:
+0
+18:
+Arkiv
+19:
+Skriv ut...
+20:
+Inställningar...
+21:
+Redigera
+22:
+
+23:
+
+24:
+Gå till...
+25:
+Gå till början
+26:
+Gå till slutet
+27:
+(Sök...)
+28:
+Visa
+29:
+Vanligast
+30:
+Kort
+31:
+Digitala in
+32:
+Digitala ut
+33:
+Analoga
+34:
+
+35:
+Grupper
+36:
+
+37:
+Alla signaler
+38:
+
+39:
+Säkerhet
+40:
+
+41:
+
+42:
+
+43:
+Adress:
+44:
+Kort:
+45:
+Signal:
+46:
+
+47:
+Signal egenskap:
+48:
+Status
+49:
+Kort
+50:
+OK
+51:
+Sigstatus
+52:
+Avbryt
+53:
+Result
+54:
+Inkl
+55:
+Exkl
+56:
+Gå till rad!
+57:
+Ange radnummer
+58:
+Ändra
+59:
+Namn        Värde        Typ
+60:
+Buss Adr     Namn         Typ
+61:
+Vanligast      Namn         Typ
+62:
+Namn        Värde        Signaler
+63:
+Nr   Värde    Kort           Signal
+64:
+Grupp:
+65:
+Signal       Värde        Namn
+66:
+Upp
+67:
+Ner
+68:
+Def
+69:
+             Namn        Typ
+70:
+Resultat Vanligast
+71:
+Definition Vanligast
+72:
+Av
+73:
+På
+74:
+Falsk
+75:
+Sann
+76:
+Passiv
+77:
+Aktiv
+78:
+Låg
+79:
+Hög
+80:
+Korttyp:
+81:
+Upp
+82:
+
+83:
+Inga signaler
+84:
+Tryck Enter för att fortsätta
+85:
+Inga signaler knutna till enheten
+86:
+Ange värde för I/O-grupp
+87:
+Begränsning: Minimum
+88:
+             Maximum
+89:
+Datainmatning för Ingångar/Utgångar
+90:
+Ange värde för analog signal
+91:
+Ingångar/Utgångar Utskrift
+92:
+Skriv ut
+93:
+Skriv till fil     :
+94:
+Lägg till signalinf:
+95:
+Data att skriva ut
+96:
+Skriv In/Ut till fil:
+97:
+Skriver ut !
+98:
+   Avbryt med Enter
+99:
+Tryck Enter för att fortsätta
+100:
+Skrivare upptagen\n
+\n
+Försök igen senare
+101:
+Kan inte skriva p g a för många\n
+utskriftsjobb i kö\n
+\n
+Försök igen senare
+102:
+Kan inte skriva p g a att\n
+skrivarporten ej är definierad\n
+i systemparametrarna.
+103:
+Ej tillräckligt minne på enheten\n
+använd vid utskrift (normalt\n
+%.9s). Behöver %d byte\n
+Tag först bort några filer
+104:
+  Upptagen\n
+  \n
+  Var god vänta
+105:
+ Kan inte skapa/skriva till fil:\n
+\n
+
+106:
+Filen finns redan\n
+
+107:
+Startsignal

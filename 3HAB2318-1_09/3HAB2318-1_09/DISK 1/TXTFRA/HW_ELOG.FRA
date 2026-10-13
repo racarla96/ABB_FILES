@@ -1,0 +1,1336 @@
+23::
+0:
+Materiel
+1203:
+Erreur disquette\n
+Disquette defectueuse ou non formatee\n
+\t\n
+1. Reessayer\n
+2. Changer la disquette
+1206:
+Erreur disquette\n
+Disquette defectueuse ou erreur interne\n
+\t\n
+1. Reessayer\n
+2. Changer la disquette\n
+3. Redemarrer le systeme
+1210:
+Erreur disquette\n
+Format non valide\n
+\t\n
+1. Changer la disquette
+1211:
+Erreur disquette\n
+Erreur de transfert de donnees avec\n
+la disquette\n
+\t\n
+1. Reessayer\n
+2. Changer la disquette\n
+3. Redemarrer le systeme
+1214:
+Erreur disquette\n
+Le transfert de donnees est interrompu\n
+\t\n
+1. Reessayer\n
+2. Redemarrer le systeme
+1215:
+Erreur disquette\n
+Commande interne invalide\n
+\t\n
+1. Reessayer\n
+2. Redemarrer le systeme
+1216:
+Erreur disquette\n
+La disquette a ete deplacee pendant le\n
+transfert\n
+\t\n
+1. Reessayer\n
+2. Redemarrer le systeme
+1217:
+Erreur disquette\n
+Defaut disquette ou lecteur\n
+\t\n
+1. Reessayer\n
+2. Changer la disquette\n
+3. Redemarrer le systeme
+1219:
+Erreur disquette\n
+Lecteur de disquette non pret\n
+\t\n
+1. Reessayer\n
+2. Redemarrer systeme
+1220:
+Erreur disquette\n
+Disquette defectueuse ou erreur interne\n
+\t\n
+1. Reessayer\n
+2. Changer la disquette\n
+3. Redemarrer le systeme
+1221:
+Erreur disquette\n
+Erreur de donnees\n
+\t\n
+1. Reessayer\n
+2. Changer la disquette\n
+3. Redemarrer le systeme
+1222:
+Erreur disquette\n
+Erreur interne - Overrun\n
+\t\n
+1. Reessayer\n
+2. Redemarrer le systeme
+1223:
+Erreur disquette\n
+Disquette defectueuse ou erreur interne\n
+\t\n
+1. Reessayer\n
+2. Changer la disquette\n
+3. Redemarrer le systeme
+1224:
+Erreur disquette\n
+Disquette protegee en ecriture\n
+\t\n
+1. Retirer la protection en ecriture
+1225:
+Erreur disquette\n
+Disquette defectueuse - Manque adresse\n
+\t\n
+1. Changer la disquette
+1226:
+Erreur disquette\n
+Donnees erronees sur disquette\n
+\t\n
+1. Changer la disquette
+1227:
+Erreur disquette\n
+Disquette defectueuse - Manque cylindre\n
+\t\n
+1. Changer la disquette
+1228:
+Erreur disquette\n
+Disquette defectueuse - Mauvais cylindre\n
+\t\n
+1. Changer la disquette
+1229:
+Erreur disquette\n
+Disquette defectueuse - Mauvaise adresse\n
+dans les donnees\n
+\t\n
+1. Changer la disquette
+1601:
+Erreur PROM haute\n
+La checksum est: %.f\n
+et devrait etre: %.f\n
+\t\n
+Remplacer les proms ou\n
+la carte controle robot
+1602:
+Erreur PROM basse\n
+La checksum est: %.f\n
+et devrait etre: %.f\n
+\t\n
+Remplacer les proms ou\n
+la carte controle robot
+1603:
+Erreur PROM\n
+La checksum est: %.f\n
+et devrait etre: %.f\n
+\t\n
+Remplacer les proms ou\n
+la carte controle robot
+1605:
+Erreur memoire calc. E/S\n
+Erreur memoire sur le calculateur E/S\n
+\t\n
+Remplacer la carte commande robot
+1606:
+Erreur memoire calc. E/S\n
+Erreur memoire sur le calculateur E/S\n
+\t\n
+Remplacer la carte commande robot
+1607:
+Erreur memoire calc. E/S\n
+Erreur memoire sur le calculateur E/S\n
+\t\n
+Remplacer la carte commande robot
+1608:
+Erreur checksum calc. E/S\n
+\n
+\t\n
+Remplacer la carte commande robot
+2301:
+Erreur memoire carte CP\n
+Erreur memoire sur la carte de commande\n
+principale\n
+\t\n
+Remplacer la carte commande principale
+2302:
+Erreur memoire carte CP\n
+Erreur memoire sur la carte de commande\n
+principale\n
+\t\n
+Remplacer la carte commande principale
+2303:
+Erreur memoire carte CP\n
+Erreur memoire sur la carte de commande\n
+principale\n
+\t\n
+Remplacer la carte commande principale
+2305:
+Erreur carte ext mem\n
+Erreur sur la carte d'extension memoire\n
+\t\n
+Remplacer la carte d'extension memoire
+1401:
+Erreur DMA\n
+Erreur de transfert DMA sur la carte de\n
+commande robot\n
+\t\n
+Remplacer la carte de commande robot
+1402:
+Erreur DMA\n
+Erreur de transfert DMA sur la carte de\n
+commande robot\n
+\t\n
+Remplacer la carte de commande robot
+1403:
+Erreur DMA\n
+Erreur de transfert DMA sur la carte de\n
+commande robot\n
+\t\n
+Remplacer la carte de commande robot
+1404:
+Erreur DMA\n
+Erreur de transfert DMA sur la carte de\n
+commande robot\n
+\t\n
+Remplacer la carte de commande robot
+1405:
+Programme axes manquant\n
+Prom sans programme axes\n
+\t\n
+Remplacer les proms sur la carte de\n
+commande robot
+1406:
+Erreur memoire\n
+Erreur memoire sur la carte\n
+de commande robot\n
+\t\n
+Remplacer la carte de commande robot
+1407:
+Erreur cpu axes\n
+\n
+\t\n
+Verifier si signal DRVFLT-N connecte\n
+Remplacer la carte de commande robot
+1408:
+Erreur cpu axes\n
+\n
+\t\n
+Remplacerla carte de commande robot
+1409:
+Erreur cpu robot\n
+\n
+\t\n
+Remplacer la carte de commande robot
+1410:
+Erreur cpu axes\n
+\n
+\t\n
+Remplacer la carte de commande robot
+1411:
+Erreur cpu axes\n
+\n
+\t\n
+Remplacer la carte de commande robot
+1414:
+Erreur carte CP\n
+Erreur carte de commande principale\n
+\t\n
+1. Changer la carte commande principale\n
+2. Changer la carte de commande robot
+1415:
+Erreur carte CP\n
+Erreur carte de commande principale\n
+\t\n
+Changer la carte commande principale
+1416:
+Erreur Path computer\n
+\n
+\t\n
+Changer la carte path computer
+1417:
+Erreur Path computer\n
+\n
+\t\n
+Changer la carte path computer
+1418:
+Erreur transfert DMA\n
+Erreur de transfert DMA carte\n
+commande robot\n
+\t\n
+Changer la carte de commande robot
+1419:
+Erreur transfert DMA\n
+Erreur de transfert DMA carte\n
+commande robot\n
+\t\n
+Changer la carte de commande robot
+1420:
+Erreur transfert DMA\n
+Erreur de transfert DMA carte\n
+commande robot\n
+\t\n
+Changer la carte de commande robot
+1421:
+Erreur cpu E/S\n
+\n
+\t\n
+Changer la carte de commande robot
+1114:
+Erreur de bus\n
+Erreur de bus lors d'un acces LED sur la\n
+carte de commande principale\n
+\t\n
+1. Changer la carte commande principale\n
+2. Changer la carte commande robot
+1501:
+Tension batterie faible\n
+La tension de la batterie 1 est\n
+trop faible\n
+\t\n
+Changer la batterie 1
+1502:
+Tension batterie faible\n
+La tension de la batterie 2 est\n
+trop faible\n
+\t\n
+Changer la batterie 2
+1503:
+Tension batterie faible\n
+La tension des deux batteries est trop\n
+faible\n
+\t\n
+Changer les batteries
+3301:
+Erreur cpu axes\n
+\n
+\t\n
+Changer la carte de commande robot
+3302:
+Erreur cpu axes\n
+\n
+\t\n
+Changer la carte de commande robot
+3303:
+Erreur cpu axes\n
+\n
+\t\n
+Changer la carte de commande robot
+3304:
+Erreur cpu axes\n
+\n
+\t\n
+Changer la carte de commande robot
+3305:
+Erreur memoire cpu axes\n
+\n
+\t\n
+Changer la carte de commande robot
+3306:
+Err cavalier variateur\n
+Erreur dans le test des cavaliers des\n
+variateurs\n
+\t\n
+
+3307:
+Err cavalier variateur\n
+Erreur dans le test des cavaliers des\n
+variateurs\n
+\t\n
+
+3308:
+Erreur cpu axes\n
+\n
+\t\n
+Changer la carte de controle robot
+3309:
+Erreur cpu axes\n
+\n
+\t\n
+Changer la carte de controle robot
+3310:
+Erreur cpu axes\n
+\n
+\t\n
+Changer la carte de controle robot
+3311:
+Erreur cpu axes\n
+Erreur sur le retour de la consigne\n
+courant\n
+\t\n
+Changer la carte de commande robot
+3312:
+Erreur cpu axes\n
+Erreur sur signal RUNNING/DRVFLT\n
+\t\n
+1. Changer la carte de commande robot\n
+2. Verifier les cartes variateurs
+3313:
+Erreur axes externes\n
+Erreur sur cavaliers de communication\n
+des axes externes\n
+\t\n
+
+3314:
+Erreur cpu axes\n
+\n
+\t\n
+Changer la carte de commande robot
+3315:
+Erreur cpu axes\n
+\n
+\t\n
+Changer la carte de commande robot
+3316:
+Erreur cpu axes\n
+Erreur en retour de communication\n
+\t\n
+Changer la carte de commande robot
+3317:
+Erreur cpu axes\n
+Erreur sur cavaliers de communication\n
+\t\n
+Changer la carte de commande robot
+7001:
+Erreur commande contact.\n
+Le contacteur de mise sous puissance\n
+moteur n'est pas active ou le signal de\n
+mise sous puissance n'est pas distribue\n
+par le contacteur auxiliaire\n
+\t\n
+Relancer le systeme\n
+Changer le contacteur de mise\n
+sous puissance, ou le contacteur\n
+auxiliaire\n
+Changer la carte de commande robot
+7002:
+Err execution DSQC306\n
+Le logiciel de la carte de commande\n
+principale n'est pas charge ou ne\n
+s'execute pas\n
+\t\n
+
+7003:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7004:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7005:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7006:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7007:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7008:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7009:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7010:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7011:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7012:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7013:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7014:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7015:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7016:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7017:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7018:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7019:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7020:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7021:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7022:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7023:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7024:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7025:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7026:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7027:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7028:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7029:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7030:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7031:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7032:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7033:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7034:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7035:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7036:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7037:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7038:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7039:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7040:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7041:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7042:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7043:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7044:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7045:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7046:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7047:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+7048:
+Erreur carte CP\n
+\n
+\t\n
+Changer la carte de commande principale
+1701:
+Erreur canal serie %.f\n
+Erreur overrun sur la liaison serie\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1702:
+Erreur canal serie 2\n
+Erreur overrun sur la liaison serie\n
+canal 2\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1703:
+Erreur canal serie 3\n
+Erreur overrun sur la liaison serie\n
+canal 3\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1704:
+Erreur canal serie 5\n
+Erreur overrun sur la liaison serie\n
+canal 5\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1705:
+Erreur canal serie 8\n
+Erreur overrun sur la liaison serie\n
+canal 8\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1706:
+Erreur canal serie %.f\n
+Erreur de parite sur la liaison serie\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1707:
+Erreur canal serie 2\n
+Erreur de parite sur la liaison serie\n
+canal 2\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1708:
+Erreur canal serie 3\n
+Erreur de parite sur la liaison serie\n
+canal 3\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1709:
+Erreur canal serie 5\n
+Erreur de parite sur la liaison serie\n
+canal 5\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1710:
+Erreur canal serie 8\n
+Erreur de parite sur la liaison serie\n
+canal 8\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1711:
+Erreur canal serie %.f\n
+Erreur de trame sur la liaison serie\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1712:
+Erreur canal serie 2\n
+Erreur de trame sur la liaison serie\n
+canal 2\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1713:
+Erreur canal serie 3\n
+Erreur de trame sur la liaison serie\n
+canal 3\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1714:
+Erreur canal serie 5\n
+Erreur de trame sur la liaison serie\n
+canal 5\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1715:
+Erreur canal serie 8\n
+Erreur de trame sur la liaison serie\n
+canal 8\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1716:
+Erreur canal serie %.f\n
+Erreur sur la liaison serie\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1730:
+Erreur timer %.f\n
+\n
+\t\n
+Changer la carte de commande robot
+1733:
+Erreur canal serie %.f\n
+Les donnees recues sont differentes des\n
+donnees transmises\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1734:
+Erreur canal serie 2\n
+Les donnees recues sont differentes des\n
+donnees transmises sur le canal 2\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1735:
+Erreur canal serie 3\n
+Les donnees recues sont differentes des\n
+donnees transmises sur le canal 3\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1736:
+Erreur canal serie 5\n
+Les donnees recues sont differentes des\n
+donnees transmises sur le canal 5\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1737:
+Erreur canal serie 8\n
+Les donnees recues sont differentes des\n
+donnees transmises sur le canal 8\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1738:
+Erreur timer/compteur\n
+Erreur sur timer ou compteur %.f\n
+\t\n
+Changer la carte de commande robot
+1742:
+Erreur canal serie 2\n
+Erreur de handshake\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1743:
+Erreur canal serie 3\n
+Erreur de handshake\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1744:
+Erreur canal serie 5\n
+Erreur de handshake\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1745:
+Erreur canal serie 8\n
+Erreur de handshake\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1746:
+Erreur canal serie %.f\n
+Erreur de handshake\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1747:
+Erreur canal serie %.f\n
+Erreur interruption\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+2247:
+Erreur boite a lettre 1\n
+Interruption erreur de la boite a\n
+lettre 1 du cpu E/S\n
+\t\n
+Changer la carte de commande robot
+2248:
+Erreur boite a lettre 2\n
+Interruption erreur de la boite a\n
+lettre 2 du cpu E/S\n
+\t\n
+Changer la carte de commande robot
+1108:
+Erreur canal serie %.f\n
+\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1115:
+Erreur canal serie 1\n
+Les donnees recues sont differentes des\n
+donnees transmises sur le canal 1\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1116:
+Erreur canal serie 1\n
+Erreur debordement sur le canal serie 1\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1117:
+Erreur canal serie 1\n
+Erreur de parite sur le canal serie 1\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1118:
+Erreur canal serie 1\n
+Erreur de trame sur le canal serie 1\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1119:
+Erreur canal serie 1\n
+Erreur due au bruit sur le canal serie 1\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1125:
+Erreur canal serie 7\n
+Les donnees recues sont differentes des\n
+donnees transmises sur le canal 7\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1126:
+Erreur canal serie 7\n
+Erreur debordement sur canal serie 7\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1127:
+Erreur canal serie 7\n
+Erreur de parite sur canal serie 7\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1128:
+Erreur canal serie 7\n
+Erreur de trame sur canal serie 7\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1129:
+Erreur canal serie 7\n
+Erreur due au bruit sur canal serie 7\n
+\t\n
+1. Verifier les parametres communication\n
+2. Changer la carte de commande robot
+1130:
+Erreur de port\n
+\n
+\t\n
+Changer la carte de commande robot
+3201:
+Erreur lecture cpu axes\n
+Erreur de lecture du driver du cpu axes\n
+Le nombre d'octets emis par le driver\n
+du cpu axes est incorrect.\n
+\t\n
+Verifier la configuration systeme\n
+Recharger le systeme\n
+Verifier/changer la carte commande robot
+3202:
+Erreur ecriture cpu axes\n
+Erreur d'ecriture vers le driver du cpu\n
+axes. Le nombre d'octets emis par le\n
+driver du cpu axes est incorrect.\n
+\t\n
+Verifier la configuration systeme\n
+Recharger le systeme\n
+Verifier/changer la carte commande robot
+3203:
+Erreur control. E/S axes\n
+Erreur dans le controleur\n
+d'entrees/sorties vers le driver du cpu\n
+axes\n
+Defaut d'execution des commandes\n
+\t\n
+Relancer le systeme\n
+Recharger le systeme\n
+Verifier/changer la carte commande robot
+3220:
+Defaut cpu axes\n
+Le code d'erreur transmis par le cpu\n
+axes indique un defaut materiel du DSP\n
+\t\n
+Relancer le systeme\n
+Changer la carte de commande robot
+8001:
+Batterie dechargee\n
+La batterie de sauvegarde de la carte\n
+mesure serie %.f est dechargee depuis\n
+la derniere coupure secteur ou\n
+redemarrage\n
+\t\n
+Verifier la batterie hors puissance\n
+apres 18 heures de chargement sous\n
+puissance. Verifier les batteries de\n
+la carte mesure serie\n
+Changer la batterie
+3101:
+Erreur X resolveur\n
+Defaut sur le signal X du resolveur\n
+du canal %.f\n
+Le signal X est plus faible que le bruit\n
+\t\n
+Verifier le resolveur et ses connexions.\n
+Changer la carte mesure serie et/ou\n
+parallele
+3102:
+Erreur Y resolveur\n
+Defaut sur le signal Y du resolveur\n
+du canal %.f\n
+Le signal Y est plus faible que le bruit\n
+\t\n
+Verifier le resolveur et ses connexions.\n
+Changer la carte mesure serie et/ou\n
+parallele
+3103:
+Erreur X ou Y resolveur\n
+Defaut sur le signal X ou Y du\n
+resolveur du canal %.f\n
+La somme des carres de X et Y\n
+depasse le maximum\n
+\t\n
+Verifier le resolveur et ses connexions.\n
+Changer la carte mesure\n
+serie et/ou parallele
+3104:
+Erreur X et Y resolveur\n
+Defaut sur les signaux X et Y du\n
+resolveur du canal %.f\n
+Les signaux X et Y sont plus faible\n
+que le bruit\n
+\t\n
+Verifier le resolveur et ses connexions.\n
+Changer la carte mesure\n
+serie et/ou parallele
+3105:
+Erreur refer. resolveur\n
+Defaut du signal de reference des\n
+resolveurs\n
+\t\n
+Changer la carte de mesure\n
+parallele
+3106:
+Erreur offset variateur\n
+L'offset variateur depasse le maximum\n
+sur le canal %.f\n
+\t\n
+Relancer le systeme\n
+Changer le variateur
+3107:
+Type redresseur incorrect\n
+Le type du redresseur ne correspond\n
+pas a la configuration\n
+\t\n
+Verifier/modifier la configuration\n
+systeme
+3108:
+Type variateur incorrect\n
+Le type de variateur du canal %.f\n
+ne correspond pas a la configuration\n
+\t\n
+Verifier/modifier la config. systeme\n
+Changer le variateur
+3148:
+Erreur cpu axes\n
+La cpu axes est arrete suite a\n
+une interruption materielle due a une\n
+erreur diverse\n
+\t\n
+Verifier la configuration systeme\n
+Recharger le systeme\n
+Changer la carte de commande robot
+3150:
+Interr. erreur cpu axes\n
+La cpu axes est arrete suite a\n
+une interruption materielle due a une\n
+interruption erreur\n
+\t\n
+Recharger le systeme\n
+Changer la carte de commande robot
+3151:
+Debordement sortie axes\n
+La carte axes est arrete\n
+suite a une interruption materielle\n
+due a une erreur debordement sur sortie\n
+\t\n
+Recharger le systeme\n
+Changer la carte de commande robot
+3152:
+Cpu axes variateur\n
+Le DSP de la carte axes est arrete\n
+suite a une interruption materielle\n
+due a une erreur variateur\n
+\t\n
+Verifier la configuration systeme\n
+Recharger le systeme\n
+Changer le variateur
+3153:
+Debordement vitesse axes\n
+La carte axes est arrete\n
+suite a une interruption debordement\n
+du registre vitesse\n
+\t\n
+Verifier la configuration systeme\n
+et redemarrer le systeme\n
+Recharger le systeme\n
+Changer le variateur
+3154:
+Debordement XY axes\n
+La carte axes est arrete\n
+suite a une interruption materielle due\n
+a un debordement du registre X, Y\n
+\t\n
+Redemarrer le systeme et verifier la\n
+synchronisation\n
+Recharger le systeme
+3155:
+Debordement RC axes\n
+La carte axes est arrete\n
+suite a une interruption materielle\n
+due au debordement du registre\n
+du ring controller\n
+\t\n
+Redemarrer le systeme et verifier les\n
+rev. compteurs\n
+Recharger le systeme
+3156:
+Erreur de transmission\n
+Plus de contact avec le systeme de\n
+mesure serie. La carte\n
+axes est arrete suite a un timeout\n
+de transmission\n
+\t\n
+Verifier les connexions entre l'armoire\n
+et le robot et la ou les carte(s) de\n
+mesure serie.\n
+Changer la carte de mesure serie ou la\n
+carte de commande robot
+3157:
+Erreur de transmission\n
+La carte axes a detecte un\n
+defaut de communication avec le\n
+controleur du systeme de mesure\n
+\t\n
+Verifier les connexions et cables du\n
+systeme de mesure serie. Verif blindage\n
+Chercher sur le cable allant vers robot\n
+cause pert. electromagn. Changer carte\n
+mesure serie ou carte de commande robot
+3158:
+Defaut horloge\n
+Defaut de l'horloge du cpu axes\n
+Le cpu principal ne repond pas a une\n
+demande\n
+\t\n
+Recharger le systeme\n
+Changer la carte de commande principale
+3159:
+vitesse apprentissage\n
+La vitesse de l'axe connecte au\n
+canal %.f depasse le maximum autorise\n
+en mode apprentissage\n
+\t\n
+Verifier la definition de la charge\n
+Verifier les parametres du controleur\n
+des axes externes\n
+Verifier les singularites du robot\n
+Changer le variateur
+3210:
+Erreur retour position\n
+Defaut d'acquisition du retour de\n
+position sur l'axe %.f\n
+\t\n
+Recharger le systeme\n
+Changer la carte de commande principale
+3211:
+Erreur controle position\n
+Impossible d'executer le controle de\n
+position dans le temps prevu\n
+\t\n
+Recharger le systeme
+3212:
+Erreur timeout sur DMA\n
+Defaut d'acces du DMA de la carte de\n
+commande principale vers le cpu axes\n
+\t\n
+Recharger le systeme\n
+Changer la carte de commande principale\n
+et la carte de commande robot
+3213:
+Erreur operation DMA\n
+Defaut d'acces du DMA de la carte de\n
+commande principale vers le cpu axes\n
+\t\n
+Recharger le systeme\n
+Changer la carte de commande principale\n
+et la carte commande robot
+8010:
+Pas de carte mesure serie\n
+La carte de mesure %.f n'est pas trouvee\n
+\t\n
+Verifier les parametres de\n
+configuration systeme\n
+Verifier les connexions et cables\n
+vers le systeme de mesure serie\n
+Changer la carte de mesure serie
+8011:
+Erreur transmis. donnees\n
+Defaut de transmission des donnees\n
+de/vers la carte de mesure serie %.f\n
+\t\n
+Verifier les connexions et cables du\n
+systeme de mesure serie. Verif blindage\n
+Chercher sur le cable allant vers robot\n
+cause pert. electromagn. Changer carte\n
+mesure serie ou carte de commande robot
+8012:
+Erreur offset X serie\n
+Erreur offset du signal X sur la carte\n
+de mesure serie %.f\n
+\t\n
+Changer la carte de mesure serie
+8013:
+Erreur offset Y serie\n
+Erreur offset du signal Y sur la carte\n
+de mesure serie %.f\n
+\t\n
+Changer la carte de mesure serie
+8014:
+Erreur de linearite serie\n
+Erreur de linearite du signal\n
+differentiel X-Y sur la carte de\n
+mesure serie %.f\n
+- Le systeme peut fonctionner si alarme\n
+- Le systeme ne fonctionne pas si erreur\n
+\t\n
+Changer la carte de mesure serie
+8015:
+Erreur linearite X serie\n
+Erreur de linearite du signal X sur la\n
+carte de mesure serie %.f\n
+\t\n
+Changer la carte de mesure serie
+8016:
+Erreur linearite Y serie\n
+Erreur de linearite du signal Y sur la\n
+carte de mesure serie %.f\n
+\t\n
+Changer la carte de mesure serie
+8017:
+Erreur comm parallele\n
+Erreur de communication avec la carte\n
+mesure parallele\n
+\t\n
+Verifier les connexions sur la carte de\n
+mesure parallele\n
+Verifier la configuration systeme
+8018:
+Erreur offset X parallele\n
+L'offset signal X depasse la tolerance\n
+sur la carte de mesure parallele\n
+\t\n
+Changer la carte de mesure parallele
+8019:
+Erreur offset Y parallele\n
+L'offset signal Y depasse la tolerance\n
+sur la carte de mesure parallele\n
+\t\n
+Changer la carte de mesure parallele
+8020:
+Erreur offset DA parallel\n
+L'offset du convertisseur D/A depasse\n
+la tolerance sur le canal %.f de la\n
+carte de mesure parallele\n
+\t\n
+Changer la carte de mesure parallele\n
+Utiliser un canal de mesure different
+8021:
+Linearite DA-AD parallele\n
+Erreur de linearite des convertisseurs\n
+D/A et A/D sur le canal %.f de la carte\n
+de mesure parallele\n
+\t\n
+Changer la carte de mesure parallele
+8022:
+Erreur de configuration\n
+Erreur de configuration du systeme de\n
+mesure du canal %.f\n
+\t\n
+Verifier/changer les parametres de la\n
+configuration systeme
+9001:
+Erreur variateur\n
+Le redresseur n'est pas connecte\n
+Status: UNIT\n
+\t\n
+Changer le redresseur
+9002:
+Erreur variateur\n
+Defaut status redresseur a la mise sous\n
+puissance, toutes les erreurs sont a 1\n
+Status: POWER_UP-N\n
+\t\n
+Changer le redresseur
+9003:
+Erreur variateur\n
+Tension continue trop elevee\n
+Status: DC_LINK-N\n
+\t\n
+Changer le redresseur
+9004:
+Erreur variateur\n
+La tension continue n'est pas valide\n
+Status: AC-N\n
+\t\n
+Changer le redresseur
+9005:
+Erreur variateur\n
+Temperature du redresseur trop elevee\n
+Status: T_RECT-N\n
+\t\n
+Changer le redresseur
+9006:
+Erreur variateur\n
+Temperature shunt trop haute\n
+Status: T_SHUNT-N\n
+\t\n
+Changer le redresseur
+9007:
+Erreur variateur\n
++- 15V hors limite\n
+Status: U_15V_OK\n
+\t\n
+Changer le redresseur
+9008:
+Erreur variateur\n
+Defaut controle courant sur carte %.f\n
+Status: CONTROL-N\n
+\t\n
+Verifier/changer le variateur\n
+Verifier les cables moteur\n
+Verifier que le parametre alimentation\n
+mini correspond a la realite
+9009:
+Erreur variateur\n
+Courant trop important sur carte %.f\n
+\t\n
+Verifier si le moteur ou le circuit\n
+moteur est en court circuit.\n
+Verifier/remplacer le variateur
+9010:
+Erreur variateur\n
+Temperature trop haute sur la carte %.f\n
+Status: TEMP-N\n
+\t\n
+Verifier la ventilation ou la\n
+climatisation\n
+Modifier le programme\n
+Verifier/Remplacer le variateur

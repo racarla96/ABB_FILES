@@ -1,0 +1,1849 @@
+24::
+0:
+Program
+1:
+Argument error\n
+Task %s: More than one\n
+occurence of same optional parameter\n
+\t\n
+Make sure that the same optional\n
+parameter is not specified more\n
+than once in the same routine call.
+2:
+Argument error\n
+Task %s: Excluding\n
+arguments must have conditional value\n
+\t\n
+Arguments may not be specified for more\n
+than one parameter from a list of\n
+parameters that exclude each other\n
+unless all values are conditional\n
+argument values.
+3:
+Argument error\n
+Task %s: Expecting\n
+required argument\n
+\t\n
+Check that the arguments are specified\n
+in the same order as the parameters for\n
+the routine being called.
+4:
+Argument error\n
+Task %s: Argument for REF\n
+parameter is not data reference\n
+\t\n
+Make sure the argument expression is\n
+just a data or parameter reference.
+5:
+Argument error\n
+Task %s: Argument for\n
+'INOUT' parameter is not variable or\n
+persistent reference or is read only\n
+\t\n
+Make sure the argument expression is\n
+just a variable, persistent, variable\n
+parameter or persistent parameter\n
+reference. The variable or persistent\n
+may not be read only.
+6:
+Argument error\n
+Task %s: Missing optional\n
+argument value\n
+\t\n
+Only 'switch' parameters may be\n
+specified by name only. Optional\n
+parameters of other types must be\n
+assigned a value. Add a value.
+7:
+Argument error\n
+Task %s: Optional argument\n
+at wrong place in argument\n
+list\n
+\t\n
+Check that the arguments are specified\n
+in the same order as the parameters for\n
+the routine being called.
+8:
+Argument error\n
+Task %s: Reference to\n
+optional parameter in required argument\n
+\t\n
+An argument corresponding to an optional\n
+parameter must be specified with a\n
+leading '\' character. Change the\n
+required argument into an optional.
+9:
+Argument error\n
+Task %s: Reference to\n
+required parameter in conditional\n
+argument value\n
+\t\n
+A conditional value for an optional\n
+parameter must refer an optional\n
+parameter in the calling routine.\n
+Change the conditional value.
+10:
+Argument error\n
+Task %s: Reference to\n
+required parameter in optional argument\n
+\t\n
+An argument corresponding to a required\n
+parameter must not be specified with the\n
+leading '\' character. Change the\n
+optional argument into a reguired.
+11:
+Argument error\n
+Task %s: Named required\n
+argument at wrong place in argument list\n
+\t\n
+Check that the arguments are specified\n
+in the same order as the parameters for\n
+the routine being called.
+12:
+Argument error\n
+Task %s: 'switch' argument\n
+cannot have a value\n
+\t\n
+An argument corresponding to a 'switch'\n
+parameter may not be assigned a value.\n
+Remove the value.
+13:
+Argument error\n
+Task %s: Too few arguments\n
+in routine call\n
+\t\n
+A routine call must supply values for\n
+all required parameters of the routine\n
+being called. Add more arguments to fit\n
+the parameter list.
+14:
+Argument error\n
+Task %s: Too many\n
+arguments in routine call\n
+\t\n
+Remove arguments so that no arguments\n
+are supplied in excess to those defined\n
+by the parameter list of the called\n
+routine.
+15:
+Data declaration error\n
+Task %s: Array dimension\n
+must be > 0\n
+\t\n
+Array dimensions must be positive.\n
+Change the dimension expression.
+16:
+Data declaration error\n
+Task %s: Too many\n
+dimensions in array definition\n
+\t\n
+An array may have at most 3 dimensions.\n
+Rewrite the program so that no more than\n
+3 dimensions are needed.
+17:
+Type error\n
+Task %s: Indexed data is\n
+not of array type\n
+\t\n
+Only data that have been declared to be\n
+arrays may be indexed. Remove the index\n
+or indices, or declare the data to be an\n
+array.
+18:
+Type error\n
+Task %s: Data is not of\n
+record type\n
+\t\n
+Components are only available for data\n
+of record type. Check the type and name\n
+of the referenced data.
+19:
+Limit error\n
+Task %s: Error when\n
+creating sdb entry\n
+\t\n
+An error occurred when the persistent\n
+was to be inserted into the shared\n
+database. Probably the database is full.
+20:
+Data declaration error\n
+Task %s: Expression not\n
+constant expression\n
+\t\n
+Expressions contained within data\n
+declarations must be constant\n
+expressions. Make sure the expression\n
+does not contain any variable or\n
+persistent reference, or function call.
+21:
+Instruction error\n
+Task %s: RETURN from\n
+function must have an expression\n
+\t\n
+A RETURN instruction within a function\n
+must specify a function value to be\n
+returned. Add a value expression.
+22:
+Type error\n
+Task %s: Illegal\n
+combination of operand types for '*'\n
+operator\n
+\t\n
+The allowed type combinations for the\n
+two operands of the '*' operator are\n
+'num'*'num', 'num'*'pos', 'pos'*'num',\n
+'pos'*'pos' and 'orient'*'orient'. Check\n
+the types of the operands.
+23:
+Instruction error\n
+Task %s: Cannot transfer\n
+control into another instruction list\n
+\t\n
+Make sure that the label is located in\n
+the same instruction list as the GOTO\n
+instruction, at the same or an outer\n
+level. It is not possible to jump into\n
+a program flow instruction.
+24:
+Type error\n
+Task %s: Illegal type for\n
+left operand of binary '+' or '-'\n
+operator\n
+\t\n
+The allowed types for the operands of\n
+the '+' operator are 'num', 'pos' and\n
+'string', for the '-' operator 'num' and\n
+'pos'. Check the type of the operand.
+25:
+Type error\n
+Task %s: Illegal type for\n
+operand of unary '+' or '-' operator\n
+\t\n
+The allowed types for the operands of\n
+the '+' and '-' operators are 'num' and\n
+'pos'. Check the type of the operand.
+26:
+Type error\n
+Task %s: Illegal type for\n
+right operand of binary '+' or '-'\n
+operator\n
+\t\n
+The allowed types for the operands of\n
+the '+' operator are 'num', 'pos' and\n
+'string', for the '-' operator 'num' and\n
+'pos'. Check the type of the operand.
+27:
+Type error\n
+Task %s: Illegal type for\n
+left operand of '/', 'DIV' or 'MOD'\n
+operator\n
+\t\n
+The only allowed type for the operands\n
+of the '/', 'DIV' and 'MOD' operators\n
+is 'num'. Check the type of the operand.
+28:
+Type error\n
+Task %s: Illegal type for\n
+right operand of '/', 'DIV' or 'MOD'\n
+operator\n
+\t\n
+The only allowed type for the operands\n
+of the '/', 'DIV' and 'MOD' operators\n
+is 'num'. Check the type of the operand.
+29:
+Type error\n
+Task %s: Illegal type for\n
+left operand of '<', '<=', '>' or '>='\n
+operator\n
+\t\n
+The only allowed type for the operands\n
+of the '<', '<=', '>' and '>=' operators\n
+is 'num'. Check the type of the operand.
+30:
+Type error\n
+Task %s: Illegal type for\n
+right operand of '<', '<=', '>' or '>='\n
+operator\n
+\t\n
+The only allowed type for the operands\n
+of the '<', '<=', '>' and '>=' operators\n
+is 'num'. Check the type of the operand.
+31:
+Type error\n
+Task %s: Illegal type for\n
+left operand of '*' operator\n
+\t\n
+The allowed types for the operands of\n
+the '*' operator are 'num', 'pos' and\n
+'orient'. Check the type of the operand.
+32:
+Type error\n
+Task %s: Illegal type for\n
+right operand of '*' operator\n
+\t\n
+The allowed types for the operands of\n
+the '*' operator are 'num', 'pos' and\n
+'orient'. Check the type of the operand.
+33:
+Type error\n
+Task %s: Illegal type for\n
+operand of 'NOT' operator\n
+\t\n
+The only allowed type for the operand of\n
+the 'NOT' operator is 'bool'. Check the\n
+type of the operand.
+34:
+Type error\n
+Task %s: Illegal type for\n
+left operand of 'OR', 'XOR' or 'AND'\n
+operator\n
+\t\n
+The only allowed type for the operands\n
+of the 'OR', 'XOR' and "AND' operator is\n
+'bool'. Check the type of the operand.
+35:
+Type error\n
+Task %s: Illegal type for\n
+right operand of 'OR', 'XOR' or 'AND'\n
+operator\n
+\t\n
+The only allowed type for the operands\n
+of the 'OR', 'XOR' and "AND' operator is\n
+'bool'. Check the type of the operand.
+36:
+Type error\n
+Task %s: Incorrect number\n
+of indices in index list\n
+\t\n
+Make sure that the number of indices in\n
+the index list is the same as the number\n
+of dimensions of the indexed data array.
+37:
+Data declaration error\n
+Task %s: LOCAL illegal in\n
+routine constant declaration\n
+\t\n
+Only program data declarations may have\n
+the LOCAL attribute. Remove the LOCAL\n
+attribute or move the declaration\n
+outside of the routine.
+38:
+Data declaration error\n
+Task %s: LOCAL illegal in\n
+routine variable declaration\n
+\t\n
+Only program data declarations may have\n
+the LOCAL attribute. Remove the LOCAL\n
+attribute or move the declaration\n
+outside of the routine.
+39:
+Name error\n
+Task %s: Constant name\n
+ambiguous\n
+\t\n
+Routine data must have names that are\n
+unique within the routine. Program data\n
+must have names that are unique within\n
+the module. Rename the data or change\n
+the conflicting name.
+40:
+Name error\n
+Task %s: Global constant\n
+name ambiguous\n
+\t\n
+Global data must have names that are\n
+unique among all the global data, global\n
+routines and modules in the entire task\n
+program. Rename the data or change the\n
+conflicting name.
+41:
+Name error\n
+Task %s: Global persistent\n
+name ambiguous\n
+\t\n
+Global data must have names that are\n
+unique among all the global data, global\n
+routines and modules in the entire task\n
+program. Rename the data or change the\n
+conflicting name.
+42:
+Name error\n
+Task %s: Global routine\n
+name ambiguous\n
+\t\n
+Global routines must have names that are\n
+unique among all the global data, global\n
+routines and modules in the entire task\n
+program. Rename the routine or change\n
+the conflicting name.
+43:
+Name error\n
+Task %s: Global variable\n
+name ambiguous\n
+\t\n
+Global data must have names that are\n
+unique among all the global data, global\n
+routines and modules in the entire task\n
+program. Rename the data or change the\n
+conflicting name.
+44:
+Name error\n
+Task %s: Label name\n
+ambiguous\n
+\t\n
+Labels must have names that are unique\n
+within the routine. Rename the label or\n
+change the conflicting name.
+45:
+Name error\n
+Task %s: Module name\n
+ambiguous\n
+\t\n
+Modules must have names that are unique\n
+among all the global data, global\n
+routines and modules in the entire task\n
+program. Rename the module or change the\n
+conflicting name.
+46:
+Name error\n
+Task %s: Parameter name\n
+ambiguous\n
+\t\n
+Parameters must have names that are\n
+unique within the routine. Rename the\n
+parameter or change the conflicting\n
+name.
+47:
+Name error\n
+Task %s: Persistent name\n
+ambiguous\n
+\t\n
+Program data must have names that are\n
+unique within the module. Rename the\n
+data or change the conflicting name.
+48:
+Name error\n
+Task %s: Routine name\n
+ambiguous\n
+\t\n
+Routines must have names that are unique\n
+within the module. Rename the routine or\n
+change the conflicting name.
+49:
+Name error\n
+Task %s: Variable name\n
+ambiguous\n
+\t\n
+Routine data must have names that are\n
+unique within the routine. Program data\n
+must have names that are unique within\n
+the module. Rename the data or change\n
+the conflicting name.
+50:
+Type error\n
+Task %s: Operand types for\n
+binary '+' or '-' operator not equal\n
+\t\n
+The two operands of the '+' and '-'\n
+operators must have equal type. Check\n
+the operand types.
+51:
+Type error\n
+Task %s: Operand types for\n
+'=' or '<>' operator not equal\n
+\t\n
+The two operands of the '=' and '<>'\n
+operators must have equal type. Check\n
+the operand types.
+52:
+Instruction error\n
+Task %s: RETURN with\n
+expression only allowed in function\n
+\t\n
+In a procedure or trap the RETURN\n
+instruction must not specify a return\n
+value expression. Remove the expression.
+53:
+Instruction error\n
+Task %s: RAISE in error\n
+handler must not have an expression\n
+\t\n
+A RAISE instruction within an error\n
+handler can only be used to propagate\n
+the current error, and may therefore not\n
+specify an error number. Remove the\n
+error number expression.
+54:
+Type error\n
+Task %s: Different\n
+dimension of array type and aggregate\n
+\t\n
+Make sure that the number of expressions\n
+in the aggregate is the same as the\n
+dimension of the data array.
+55:
+Type error\n
+Task %s: Assignment target\n
+must have value or semi-value type\n
+\t\n
+The type, of the data to be assigned a\n
+value, must be a value or semi-value\n
+type. Data of non-value types may only\n
+be set by special type specific\n
+predefined instructions or functions.
+56:
+Type error\n
+Task %s: Type for left\n
+operand of '=' or '<>' operator not\n
+value or semi-value type\n
+\t\n
+The '=' and '<>' operators may only be\n
+applied to expressions of value or semi-\n
+value type. If comparisons are to be\n
+made, special type specific predefined\n
+functions are needed.
+57:
+TYpe error\n
+Task %s: Type for right\n
+operand of '=' or '<>' operator not\n
+value or semi-value type\n
+\t\n
+The '=' and '<>' operators may only be\n
+applied to expressions of value or semi-\n
+value type. If comparisons are to be\n
+made, special type specific predefined\n
+functions are needed.
+58:
+Type error\n
+Task %s: TEST expression\n
+not of value or semi-value type\n
+\t\n
+The TEST instruction may only be applied\n
+to an expression of value or semi-value\n
+type. If comparisons are to be made,\n
+special type specific predefined\n
+functions are needed.
+59:
+Data declaration error\n
+Task %s: Place holder for\n
+value expression not allowed in\n
+definition of named constant\n
+\t\n
+Complete the data declaration or change\n
+the data name to a place holder.
+60:
+Data declaration error\n
+Task %s: Place holder for\n
+array dimension not allowed in\n
+definition of named constant or variable\n
+\t\n
+Complete the data declaration or change\n
+the data name to a place holder.
+61:
+Routine declaration error\n
+Task %s: Place holder for\n
+parameter array dimensions not allowed\n
+in definition of named routine\n
+\t\n
+Complete the parameter declaration or\n
+change the routine name to a place\n
+holder.
+62:
+Name error\n
+Task %s: Place holder for\n
+parameter name not allowed in definition\n
+of named routine\n 
+\t\n
+Complete the routine declaration or\n
+change the routine name to a place\n
+holder.
+63:
+Data declaration error\n
+Task %s: Place holder for\n
+initial value expression not allowed in\n
+definition of named persistent\n
+\t\n
+Complete the data declaration or change\n
+the data name to a place holder.
+64:
+Routine declaration error\n
+Task %s: Place holder for\n
+parameter not allowed in definition of\n
+named routine\n
+\t\n
+Complete the parameter declaration,\n
+remove the place holder or change the\n
+routine name to a place holder.
+65:
+Reference error\n
+Task %s: Place holder for\n
+type not allowed in definition of named\n
+data or routine\n
+\t\n
+Complete the data or routine declaration\n
+or change the data or routine name to a\n
+place holder.
+66:
+Data declaration error\n
+Task %s: Place holder for\n
+initial value expression not allowed in\n
+definition of named variable\n
+\t\n
+Complete the data declaration or change\n
+the data name to a place holder.
+67:
+Type error\n
+Task %s: Too few\n
+components in record aggregate\n
+\t\n
+Make sure that the number of expressions\n
+in the aggregate is the same as the\n
+number of components in the record type.
+68:
+Type error\n
+Task %s: Too many\n
+components in record aggregate\n
+\t\n
+Make sure that the number of expressions\n
+in the aggregate is the same as the\n
+number of components in the record type.
+69:
+Reference error\n
+Task %s: Data reference is\n
+ambiguous\n
+\t\n
+At least one other object sharing the\n
+same name as the referred data is\n
+visible from this program position. Make\n
+sure that all object names fulfill the\n
+naming rules regarding uniqueness.
+70:
+Reference error\n
+Task %s: Function\n
+reference is ambiguous\n
+\t\n
+At least one other object sharing the\n
+same name as the referred function is\n
+visible from this program position. Make\n
+sure that all object names fulfill the\n
+naming rules regarding uniqueness.
+71:
+Reference error\n
+Task %s: Label reference\n
+is ambiguous\n
+\t\n
+At least one other object sharing the\n
+same name as the referred label is\n
+visible from this program position. Make\n
+sure that all object names fulfill the\n
+naming rules regarding uniqueness.
+72:
+Reference error\n
+Task %s: Procedure\n
+reference is ambiguous\n
+\t\n
+At least one other object sharing the\n
+same name as the referred procedure is\n
+visible from this program position. Make\n
+sure that all object names fulfill the\n
+naming rules regarding uniqueness.
+73:
+Reference error\n
+Task %s: Trap reference is\n
+ambiguous\n
+\t\n
+At least one other object sharing the\n
+same name as the referred trap is\n
+visible from this program position. Make\n
+sure that all object names fulfill the\n
+naming rules regarding uniqueness.
+74:
+Reference error\n
+Task %s: Not entire data\n
+reference\n
+\t\n
+The specified name identifies an object\n
+other than data. Check if the desired\n
+data is hidden by some other object with\n
+the same name.
+75:
+Reference error\n
+Task %s: Not function\n
+reference\n
+\t\n
+The specified name identifies an object\n
+other than a function. Check if the\n
+desired function is hidden by some other\n
+object with the same name.
+76:
+Reference error\n
+Task %s: Not label\n
+reference\n
+\t\n
+The specified name identifies an object\n
+other than a label. Check if the desired\n
+label is hidden by some other object\n
+with the same name.
+77:
+Reference error\n
+Task %s: Not optional\n
+parameter reference in conditional\n
+argument value\n
+\t\n
+The specified name identifies an object\n
+other than an optional parameter. Change\n
+the name to refer to an optional\n
+parameter.
+78:
+Reference error\n
+Task %s: Not optional\n
+parameter reference\n
+\t\n
+The specified name identifies an object\n
+other than an optional parameter. Change\n
+the name to refer to an optional\n
+parameter.
+79:
+Reference error\n
+Task %s: Not procedure\n
+reference\n
+\t\n
+The specified name identifies an object\n
+other than a procedure. Check if the\n
+desired procedure is hidden by some\n
+other object with the same name.
+80:
+Reference error\n
+Task %s: Not required\n
+parameter reference\n
+\t\n
+The specified name identifies an object\n
+other than a required parameter. Change\n
+the name to refer to a required\n
+parameter.
+81:
+Reference error\n
+Task %s: Not trap\n
+reference\n
+\t\n
+The specified name identifies an object\n
+other than a trap. Check if the desired\n
+trap is hidden by some other object with\n
+the same name.
+82:
+Reference error\n
+Task %s: Not type name\n
+\t\n
+The specified name identifies an object\n
+other than a type. Check if the desired\n
+type is hidden by some other object with\n
+the same name.
+83:
+Type error\n
+Task %s: Not value type\n
+\t\n
+Only variables which lack initial value,\n
+and 'VAR' mode parameters may be of\n
+semi-value or non-value type.
+84:
+Reference error\n
+Task %s: Reference to\n
+unknown entire data\n
+\t\n
+No data (or other object) with the\n
+specified name is visible from this\n
+program position.
+85:
+Reference error\n
+Task %s: Reference to\n
+unknown function\n
+\t\n
+No function (or other object) with the\n
+specified name is visible from this\n
+program position.
+86:
+Reference error\n
+Task %s: Reference to\n
+unknown label\n
+\t\n
+The routine contains no label (or other\n 
+object) with the specified name.
+87:
+Reference error\n
+Task %s: Reference to\n
+unknown optional parameter\n
+\t\n
+The called routine contains no optional\n
+parameter (or other object) with the\n
+specified name.
+88:
+Reference error\n
+Task %s: Reference to\n
+unknown procedure\n
+\t\n
+No procedure (or other object) with the\n
+specified name is visible from this\n
+program position.
+89:
+Reference error\n
+Task %s: Reference to\n
+unknown record component\n
+\t\n
+The record type contains no record\n
+component with the specified name.
+90:
+Reference error\n
+Task %s: Reference to\n
+unknown required parameter\n
+\t\n
+The called routine contains no required\n
+parameter (or other object) with the\n
+specified name.
+91:
+Reference error\n
+Task %s: Reference to\n
+unknown trap\n
+\t\n
+No trap (or other object) with the\n
+specified name is visible from this\n
+program position.
+92:
+Reference error\n
+Task %s: Unknown type name\n
+\t\n
+No data type (or other object) with the\n
+specified name is visible from this\n
+program position.
+93:
+Instruction error\n
+Task %s: Assignment target\n
+is read only\n
+\t\n
+The data to be assigned a value may not\n
+be a constant, read only variable or\n
+read only persistent.
+94:
+Data declaration error\n
+Task %s: Persistent\n
+declaration not allowed in routine\n
+\t\n
+Persistents may only be declared at\n
+module level. Move the persistent\n
+declaration from the routine.
+95:
+Instruction error\n
+Task %s: RAISE without\n
+expression only allowed in error handler\n
+\t\n
+Add an error number expression to the\n
+RAISE instruction.
+96:
+Instruction error\n
+Task %s: RETRY only\n
+allowed in error handler\n
+\t\n
+The RETRY instruction may only be used\n
+in error handlers. Remove it.
+97:
+Instruction error\n
+Task %s: TRYNEXT only\n
+allowed in error handler\n
+\t\n
+The TRYNEXT instruction may only be used\n
+in error handlers. Remove it.
+98:
+Parameter error\n
+Task %s: 'switch'\n
+parameter must have transfer mode IN\n
+\t\n
+Remove the parameter transfer mode\n
+specifier. If IN transfer mode is not\n
+sufficient, change the data type of the\n
+parameter.
+99:
+Parameter error\n
+Task %s: 'switch'\n
+parameter cannot be dimensioned\n
+\t\n
+Remove the array dimension\n
+specification, or change the data type\n
+of the parameter.
+100:
+Parameter error\n
+Task %s: 'switch' only\n
+allowed for optional parameter\n
+\t\n
+Change the parameter into an optional\n
+parameter, or change the data type of\n
+the parameter. If the object is not a\n
+parameter, change the data type.
+101:
+Type error\n
+Task %s: Type mismatch\n
+\t\n
+The expression is not of the expected\n
+data type.
+102:
+Type error\n
+Task %s: Type mismatch of\n
+aggregate\n
+\t\n
+The aggregate does not match the\n
+expected data type.
+103:
+Type error\n
+Task %s: Persistent type\n
+mismatch\n
+\t\n
+There is already a persistent data with\n
+the same name but with another data\n
+type. Rename the persistent, or change\n
+its data type.
+104:
+Data declaration error\n
+Task %s: Cannot determine\n
+array dimensions (circular constant\n
+references ?)\n
+\t\n
+Check that any referred constants are\n
+correctly defined. If so, the program is\n
+too complex. Try to rewrite the\n
+declarations.
+105:
+Data declaration error\n
+Task %s: Cannot determine\n
+type of constant value (circular\n
+constant references ?)\n
+\t\n
+Check that any referred constants are\n
+correctly defined. If so, the program is\n
+too complex. Try to rewrite the\n
+declarations.
+106:
+Data declaration error\n
+Task %s: Cannot evaluate\n
+constant value expression (circular\n
+constant references ?)\n
+\t\n
+Check that any referred constants are\n
+correctly defined. If so, the program is\n
+too complex. Try to rewrite the\n
+declarations.
+107:
+Data declaration error\n
+Task %s: Cannot determine\n
+type of variable value (circular\n
+constant references?)\n
+\t\n
+Check that any referred constants are\n
+correctly defined. If so, the program is\n
+too complex. Try to rewrite the\n
+declarations.
+108:
+Type error\n
+Task %s: Unknown aggregate\n
+type\n
+\t\n
+An aggregate may not be used in this\n
+position since there is no expected data\n
+type. Declare data with the desired data\n
+type and aggregate value. Use the name\n
+of the data instead of the aggregate.
+121:
+Argument error\n
+Task %s: Argument for\n
+'PERS' parameter is not persistent\n
+reference or is read only\n
+\t\n
+Make sure the argument expression is\n
+just a persistent or persistent\n
+parameter reference. The persistent may\n
+not be read only.
+122:
+Argument error\n
+Task %s: Argument for\n
+'VAR' parameter is not variable\n
+reference or is read only\n
+\t\n
+Make sure the argument expression is\n
+just a variable or variable parameter\n
+reference. The variable may not be read\n
+only.
+123:
+Instruction error\n
+Task %s: Interrupt number\n
+is not static variable reference or is\n
+read only\n
+\t\n
+Make sure the interrupt number is just\n
+a variable or variable parameter\n
+reference. The variable must be\n
+static. The variable may not be read\n
+only.
+124:
+Value error\n
+Task %s: Integer value too\n
+large\n
+\t\n
+The value of the expression must be an\n
+integer value. The current value is\n
+outside the integer range.
+125:
+Value error\n
+Task %s: Not integer value\n
+\t\n
+The value of the expression must be an\n
+exact integer value. The current value\n
+has a fraction part.
+141:
+Argument error\n
+Task %s: Duplicated\n
+present conditional argument\n
+\t\n
+More than one present conditional\n
+argument for the same parameter
+142:
+Value error\n
+Task %s: Division by zero\n
+\t\n
+Cannot divide by 0. Rewrite the program\n
+so that the divide operation is not\n
+executed when the divisor is 0.
+143:
+Limit error\n
+Task %s: Exceeded maximum\n
+number of allowed RETRYs\n
+\t\n
+The error correction performed before\n
+the RETRY instruction is executed, is\n
+probably not enough to cure the error.\n
+Check the error handler.
+144:
+Instruction error\n
+Task %s: Attempt to\n
+execute place holder\n
+\t\n
+Remove the place holder or the\n
+instruction containing it, or make the\n
+instruction complete. Then continue\n
+execution.
+145:
+Limit error\n
+Task %s: Execution stack\n
+overflow\n
+\t\n
+The program is too complex to execute.\n
+Probably the program contains recursive\n
+routines.
+146:
+Execution error\n
+Task %s: Fatal runtime\n
+error\n
+\t\n
+A fatal runtime error has occurred.\n
+Fatal runtime errors causes immediate\n
+termination of execution. See previous\n
+message for the actual cause.
+147:
+Execution error\n
+Task %s: Function does not\n
+return any value\n
+\t\n
+The end of the function has been reached\n
+without a RETURN instruction being\n
+executed. Add a RETURN instruction\n
+specifying a function return value.
+148:
+Value error\n
+Task %s: Illegal\n
+orientation value\n
+\t\n
+Attempt to use illegal orientation\n
+(quaternian) value
+149:
+Value error\n
+Task %s: Illegal error\n
+number in RAISE\n
+\t\n
+Only error numbers in the range 1-99 is\n
+allowed in the RAISE instruction.
+150:
+Execution error\n
+Task %s: Illegal return\n
+code from ReaL routine\n
+\t\n
+This is always caused by an internal\n
+error in the ReaL routine.
+151:
+Limit error\n
+Task %s: No more interrupt\n
+number available\n
+\t\n
+There is a limited number of interrupt\n
+numbers available. Rewrite the program\n
+to use fewer interrupt numbers. This\n
+message may also occur as a consequence\n
+of a system error.
+152:
+Value error\n
+Task %s: Negative operand\n
+not allowed\n
+\t\n
+The 'MOD' operator only allows non\n
+negative operands. Change the program\n
+to make sure that the operator is not\n
+applied to negative values.
+153:
+Type error\n
+Task %s: Conformant array\n
+dimension incompatible\n
+\t\n
+The array is not of the expected size.\n
+Array assignment may only be performed\n
+on arrays of identical size.
+154:
+Reference error\n
+Task %s: Optional\n
+parameter not present\n
+\t\n
+The value of a non present optional\n
+parameter may not be referred. Use the\n
+predefined function 'Present' to check\n
+the presence of the parameter before\n
+using its value.
+155:
+Value error\n
+Task %s: Array index out\n
+of bounds\n
+\t\n
+The array index value violates the\n
+declared size of the array.
+156:
+Limit error\n
+Task %s: Runtime stack\n
+overflow\n
+\t\n
+The program is too complex to execute.\n
+Probably the program contains recursive\n
+routines.
+157:
+Value error\n
+Task %s: String too long\n
+\t\n
+Concatenated string value exceeds the\n
+maximum allowed length. Rewrite the\n
+program to use strings of lesser length.
+158:
+Execution error\n
+Task %s: Unhandeled\n
+non-fatal runtime error %i\n
+\t\n
+A non-fatal runtime error has occurred\n
+but was not handeled by any ERROR\n
+clause. See previous message for the\n
+actual cause.
+159:
+Execution error\n
+Task %s: Unhandeled raise\n
+error %i\n
+\t\n
+An error was raised by a RAISE\n
+instruction but was not handeled by any\n
+ERROR clause.
+160:
+Execution error\n
+Task %s: Unhandeled\n
+non-fatal runtime error\n
+\t\n
+A non-fatal runtime error has occurred\n
+but was not handeled by any ERROR\n
+clause.
+161:
+Execution error\n
+Task %s: Variable and trap\n
+routine already connected\n
+\t\n
+It is not legal to connect a specific\n
+variable with a specific trap routine\n
+more than once.
+162:
+Execution error\n
+Task %s: Execution aborted\n
+\t\n
+Execution was aborted due to a fatal\n
+error.
+163:
+Execution error\n
+Task %s: Execution could\n
+not be restarted\n
+\t\n
+Execution could not be continued after\n
+power failure. Restart the program.
+171:
+Value error\n
+Task %s: Array dimension\n
+out of range\n
+\t\n
+The value of the 'DimNo' parameter of\n
+the 'Dim' function must be in the range\n
+1-3.
+172:
+Type error\n
+Task %s: Data is not an\n
+array\n
+\t\n
+The 'ArrPar' parameter of the 'Dim'\n
+function must be an array.
+173:
+Value error\n
+Task %s: Unknown interrupt\n
+number\n
+\t\n
+Check that the specified interrupt\n
+variable has been initialized by\n
+CONNECT, and that the interrupt has been\n
+defined using the ISignalDI or other\n
+interrupt definition instruction.
+201:
+Name error\n
+Task %s: Ambiguous symbol\n
+name\n
+\t\n
+Installed objects must have names that\n
+are unique. Rename the object or change\n
+the conflicting name.
+202:
+Limit error\n
+Task %s: Error when\n
+creating sdb entry\n
+\t\n
+An error occurred when the persistent\n
+was to be inserted into the shared\n
+database. Probably the database is full.
+203:
+Type definition error\n
+Task %s: Alias of alias\n
+not allowed\n
+\t\n
+Is is not possible to define an alias\n
+type equal to another alias type.\n
+Instead, define two alias types equal to\n
+the same atomic or record type.
+204:
+Symbol definition error\n
+Task %s: 'ANYTYPE#'\n
+parameter cannot be dimensioned\n
+\t\n
+Remove the dimension specification.\n
+'ANYTYPE#' includes array types.
+205:
+Symbol definition error\n
+Task %s: 'ANYTYPE#' only\n
+allowed for parameter\n
+\t\n
+Use another type.
+206:
+Parameter error\n
+Task %s: 'alt' must not be\n
+set for first optional parameter in\n
+alternatives list\n
+\t\n
+Make sure that only the second and\n
+following in each list of excluding\n
+optional parameters are marked as\n
+alternatives.
+207:
+Parameter error\n
+Task %s: REF mode\n
+parameter cannot be dimensioned\n
+\t\n
+Remove the array dimension\n
+specification, or change the mode of the\n
+parameter.
+208:
+Parameter error\n
+Task %s: 'switch'\n
+parameter can not be dimensioned\n
+\t\n
+Remove the array dimension\n
+specification, or change the data type\n
+of the parameter.
+209:
+Parameter error\n
+Task %s: 'switch'\n
+parameter must have transfer mode IN\n
+\t\n
+Remove the parameter transfer mode\n
+specifier. If IN transfer mode is not\n
+sufficient, change the data type of the\n
+parameter.
+210:
+Symbol definition error\n
+Task %s: 'switch' only\n
+allowed for optional parameter\n
+\t\n
+Change the parameter into an optional\n
+parameter, or change the data type of\n
+the parameter. If the object is not a\n
+parameter, change the data type.
+211:
+Type definition error\n
+Task %s: Value type class\n
+must be one of PGM_SYMVALTYP_VAL,\n
+_SEMIVAL, _NONVAL or _NONE\n
+\t\n
+Change the value type class.
+212:
+Data declaration error\n
+Task %s: Too many array\n
+dimensions\n
+\t\n
+An array may have at most 3 dimensions.
+213:
+Name error\n
+Task %s: Symbol name must\n
+be a RAPID identifier excluding reserved\n
+words\n
+\t\n
+The names of installed objects,\n
+including parameters and components,\n
+must be legal RAPID identifiers not\n
+equal to any of the reserved words of\n
+the RAPID language. Change the name.\n
+
+214:
+Symbol definition error\n
+Task %s: Missing C\n
+function\n
+\t\n
+A C-function that executes the ReaL\n
+function being defined, must be\n
+specified.\n
+
+215:
+Symbol definition error\n
+Task %s: Missing value\n
+initialization function\n
+\t\n
+A value initialization function must be\n
+specified.
+216:
+Reference error\n
+Task %s: Not a data type\n
+name\n
+\t\n
+The specified name identifies an object\n
+other than a type.
+217:
+Reference error\n
+Task %s: Not a value data\n
+type\n
+\t\n
+Only record components, alias types,\n
+variables and 'VAR' mode parameters may\n
+be of semi-value or non-value type.
+218:
+Symbol definition error\n
+Task %s: Missing value\n
+conversion function\n
+\t\n
+A value conversion function must be\n
+specified for a semi-value type.
+219:
+Type definition error\n
+Task %s: Private type can\n
+only be semi-value or non-value type\n
+\t\n
+Change the value type class.
+220:
+Type definition error\n
+Task %s: Private type size\n
+must be multiple of 4\n
+\t\n
+All RAPID types must have a size that is\n
+a multiple of four. Change the specified\n
+type size.
+221:
+Type error\n
+Task %s: Persistent type\n
+mismatch\n
+\t\n
+There is already a persistent data with\n
+the same name but with another data\n
+type. Rename the persistent, or change\n
+its data type.
+222:
+Reference error\n
+Task %s: Unknown data type\n
+name\n
+\t\n
+There is no data type (or other object)\n
+with the specified name.
+223:
+Parameter error\n
+Task %s: Unknown parameter\n
+transfer mode\n
+\t\n
+The specified parameter transfer mode is\n
+not one of IN, 'VAR', 'PERS', 'INOUT' or\n
+REF. Use corresponding PGM_SYMPARMOD_x.
+224:
+Symbol definition error\n
+Task %s: No such symbol\n
+definition type\n
+\t\n
+The symbol definition type tag does not\n
+specifiy one of the allowed symbol\n
+types (PGM_SYMDEF_x).
+301:
+I/O error\n
+Task %s: Permission denied\n
+\t\n
+
+302:
+I/O error\n
+Task %s: No such file or\n
+directory\n
+\t\n
+
+303:
+I/O error\n
+Task %s: No space left on\n
+device\n
+\t\n
+
+304:
+I/O error\n
+Task %s: Can't access the file\n
+%!\n
+\t\n
+One of:\n
+ Permission denied (write protected)\n
+ No such file or directory\n
+ No space left on device
+501:
+Timeout\n
+%s\n
+%s\n
+\t
+502:
+Digital input break\n
+%s\n
+%s\n
+\t
+503:
+Reference error\n
+Device descriptor is \n
+%s\n
+\t
+504:
+Parameter error\n
+%s\n
+\t\n
+%s
+505:
+File access error\n
+%s\n
+\t
+506:
+System access error \n
+%s\n
+\t
+507:
+Limit error \n
+%s\n
+\t
+508:
+Wrong orientation value in \n
+%s\n
+\t
+509:
+Search warning\n
+%s\n
+Before performing next search,\n
+make sure that TCP is moved back\n
+to the start position of the\n
+search path.\n
+\t\n
+If no repositioning is done, before\n
+restart of circular search, movement\n
+that can cause damage might occur.
+510:
+Security warning\n
+The move instruction can't restart\n 
+due to security problem. \n
+Try to move the PP \n
+\t
+511:
+Parameter error\n
+The parameter %s in %s \n
+is specifed as a negative value\n
+\t\n
+The parameter must be set positive.
+512:
+Missing external axis value\n
+Some active external axis have\n 
+incorrect or no ordervalue.\n
+Reprogram the position. \n
+\t
+513:
+Mechanical unit error\n
+Not possible to activate or\n 
+deactivate mechanical unit.\n
+\t
+514:
+Execution error\n
+Too far from path to perform\n
+StartMove of the interrupted\n
+movement.\n
+\t\n
+Position the robot to the\n
+interrupted position in the program.
+515:
+Type error\n
+Task %s: Illegal data type\n
+of argument for parameter %s\n
+\t
+516:
+Value error\n
+Task %s: Illegal value of\n
+argument for parameter %s\n
+\t
+517:
+Search error\n
+%s\n
+No search hit or more than 1 search\n
+hit during stepwise forward execution.\n
+The search instruction is ready and\n
+next instruction can be executed.\n
+\t\n
+Note that no position has been returned\n
+from the search instruction.
+600:
+Argument error\n
+No \WObj specified\n
+for movement with stationary TCP.\n
+\t\n
+Add argument \WObj\n
+for actual work object.\n
+If not movement with stationary TCP,\n
+change argument Tool to \n
+"robot holds the tool".
+601:
+Argument error\n
+Undefined if robot holds the tool\n
+or the work object.\n
+\t\n
+Check if mismatch between\n
+argument Tool and argument \WObj\n 
+for data component robhold.
+602:
+Argument error\n
+Argument %s has\n
+at least one data component\n
+with negative value.\n
+\t\n
+Set all data components\n
+in argument %s\n
+to positive values.
+603:
+Argument error\n
+Argument %s has\n
+not allowed negative value.\n
+\t\n
+Set argument %s to positive.
+604:
+Argument error\n
+Argument Tool has undefined\n
+load of the tool.\n
+\t\n
+Define the actual load of the tool\n
+before use of the tool for jogging\n
+or program movement.
+605:
+Argument error\n
+Argument Tool has negative\n
+load of the tool.\n
+\t\n
+Define the correct load of the tool\n
+before use of the tool for jogging\n
+or program movement.
+606:
+Argument error\n
+Argument Tool has at least\n
+one inertia data component\n
+with negative value.\n
+\t\n
+Define all inertia data components\n
+(ix, iy or iz) to actual\n
+positive values.
+607:
+Execution error\n
+Not allowed to change run mode\n
+from forward to backward or vice versa\n
+during running a circular movement.\n
+\t\n
+If possible, select the original run\n
+mode and press start to continue the\n
+stopped circular movement. If not\n
+possible, move robot and program pointer\n
+for a new start.
+608:
+Argument error\n
+Orientation definition error\n
+in %s.\n
+\t\n
+All used orientations must be normalized\n
+i.e. the sum of the quaternion elements\n
+squares must equal 1.
+609:
+Argument error\n
+Argument \WObj specifies a mechanical\n
+unit with too long name.\n
+\t\n
+Use max. 16 characters to specify the\n
+name of a mechanical coordinated unit.
+610:
+Argument error\n
+Argument \WObj specifies a mechanical\n
+unit name, which is not activated\n
+or unknown in the system.\n
+\t\n
+The mechanical unit name defined in\n
+\WObj must correspond to the name\n
+earlier defined in the system\n
+parameters and must be activated.
+611:
+Execution error\n
+Not allowed to step backwards\n
+with actual instruction.\n
+\t\n
+Not allowed to step backwards in\n
+a circular movement, if the endpoint\n
+of the circular movement is defined\n
+with another tool and/or work object.
+612:
+Argument error\n
+No argument programmed for\n
+the name of the output signal.\n
+\t\n
+Possible to set one position fix IO\n
+such as digital, group of digitals\n
+or analog output signal during the\n
+robot movement.
+613:
+Argument error\n
+Optional argument %s\n
+can only be combined with\n
+output signal argument %s.\n
+\t
+614:
+Argument error\n
+Argument %s\n
+is not 0 or 1.\n
+\t\n
+Digital output signals can only be\n
+set to 0 or 1.
+615:
+Argument error\n
+Argument %s\n
+is not an integer value.\n
+\t\n
+Digital group of output signals\n 
+can only have an integer value.
+616:
+Argument error\n
+Argument %s\n
+is outside allowed limits.\n
+\t\n
+Used group of digital output signals\n
+can only be set within 0 to %s\n
+according configuration in\n
+the system parameters.
+617:
+Argument error\n
+Argument %s\n
+is outside allowed limits.\n
+\t\n
+Used analog output signals can only be\n
+set within %s to %s\n
+according configuration in\n
+the system parameters.
+618:
+Argument error\n
+Argument %s\n
+contains an illegal interrupt number.\n
+\t\n
+Input interrupt number is illegal\n
+because it has not been allocated by\n
+the instruction CONNECT.\n
+CONNECT do allocation and connection of\n
+interrupt number to trap routine.
+619:
+Argument error\n
+Argument %s\n
+contains an interrupt number, which\n
+is already in use for other purpose.\n
+\t\n
+Before reuse of an interrupt variabel\n
+again in the program, cancel old\n
+interrupt generation and interrupt\n
+number with instruction IDelete.
+622:
+Argument error\n
+The value of argument Time in ITimer\n
+is too low for cyclic interrupts.\n
+\t
+623:
+Argument error\n
+The value of argument Time in ITimer\n
+is too low for single interrupts.\n
+\t
+631:
+Instruction error\n
+Too many move instructions in\n
+sequence with concurrent RAPID\n
+program execution.\n
+\t\n
+Edit the program to max. 5 MoveX \Conc\n
+in sequence on the basic\n
+execution level of the program.
+632:
+Instruction error\n
+No move instructions with concurrent\n
+RAPID program execution are allowed\n
+within the StorePath-RestoPath part of\n
+the program.\n
+\t\n
+Edit the program so it does not\n
+contain any MoveX \Conc instructions\n
+within the StorePath-RestoPath part of\n
+the program.
+633:
+Reference error\n
+Trigg parameter no %s reference to\n
+undefined trigg data.\n
+\t\n
+Define trigg data by executing\n
+instruction TriggIO or TriggInt\n
+before TriggL, TriggC or TriggJ.
+634:
+Reference error\n
+Signal reference in parameter %s\n
+contains unknown signal for the robot.\n
+\t\n
+All signals should be defined in the\n
+system parameters and should not be\n
+defined in the RAPID program.
+635:
+Reference error\n
+Argument reference in parameter %s\n
+is not a entire persistent variable.\n
+\t\n
+Not possible to use record component or\n
+array element in argument %s.\n
+Only possible to use entire persistent\n
+variables for Tool, WObj or Load\n
+in any motion instructions.
+636:
+Sensor error\n
+No measurement from sensor.\n
+\t\n
+Requested data is not available.
+637:
+Sensor error\n
+Not ready yet.\n
+\t\n
+Requested function is not ready yet .
+638:
+Sensor error\n
+General error.\n
+\t\n
+Genaral error has occurred which is not\n
+specifically connected to the requested\n
+action. Read the block "Error log" if\n
+the function is available.
+639:
+Sensor error\n
+Sensor busy, try later.\n
+\t\n
+The sensor is busy with an other\n
+function.
+640:
+Sensor error\n
+Unknown command.\n
+\t\n
+The function requested from the sensor\n
+is unknown.
+641:
+Sensor error\n
+Illegal variable or block number.\n
+\t\n
+Requested variable or block is not\n
+defined in the sensor.
+642:
+Sensor error\n
+External alarm.\n
+\t\n
+Alarm from external equipment.
+643:
+Sensor error\n
+Camera alarm.\n
+\t\n
+Some error has been detected in\n
+the camera. Run Camcheck to test if the\n
+camera is OK.
+644:
+Sensor error\n
+Temperature alarm.\n
+\t\n
+The camera is overheated it needs more\n
+cooling air and/or water.
+645:
+Sensor error\n
+Value out of range.\n
+\t\n
+The value of the data sent to the\n
+sensor is out of range.
+646:
+Sensor error\n
+Camera check failed.\n
+\t\n
+The CAMCHECK function failed. The\n
+camera is broken. Send it for repair.
+647:
+Sensor error\n
+Communication time out.\n
+\t\n
+Increase the time out time and check\n
+the connections to the sensor.
+648:
+Search error\n
+Not possibe to do StorePath while\n
+searching on basic path level.\n
+\t\n
+If using program with robot movement\n
+in TRAP, then such interrupt must be\n
+deactivated during any searching.\n
+E.g. ISleep - SearchL - IWatch
+649:
+Path limit error\n
+%s already done.\n
+\t\n
+Instruction %s must first be\n
+executed, before a new %s can\n
+be done.
+700:
+Syntax error\n
+Task %s: Syntax error\n
+%s\n
+\t
+701:
+Program memory full\n
+The task %s, has only\n
+%i free bytes in its\n
+user space\n
+\t\n
+Remove some other module and try\n
+again.
+

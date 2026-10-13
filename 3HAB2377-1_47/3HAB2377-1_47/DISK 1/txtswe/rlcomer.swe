@@ -1,0 +1,47 @@
+55::
+46:
+Kan ej öppna
+47:
+RAISE CODE:
+48:
+Ej öppen
+49:
+Ej en ASCII-fil
+50:
+Ej en binärfil
+51:
+Kan ej komma åt filen
+52:
+Parametern %s i
+53:
+är ingen array.
+54:
+Ut-bufferten måste vara en array av num.
+55:
+är specificerad som ett negativt värde.
+56:
+Parametern måste vara positivt.
+57:
+Kan ej komma åt
+58:
+tidshändelse-generator.
+59:
+signalhändelse-generator.
+60:
+En Timeout avbröt exekveringen av
+61:
+En digital ingång avbröt exekveringen av
+65:
+Mottagen data ej av numerisk typ.
+67:
+För lång sträng
+68:
+För många oavslutade läs-begäran.
+76:
+Buffertelement %i i
+77:
+är utanför 0-255.
+78:
+Alla element i bufferten ska vara 0-255
+80:
+är utanför arrayen.

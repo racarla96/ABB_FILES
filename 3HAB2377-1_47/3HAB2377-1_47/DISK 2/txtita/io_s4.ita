@@ -1,0 +1,280 @@
+27::
+1011:
+Tipo unita' non riconosc.\n
+Descriz.\Motivo:\n
+- Tipo unita' %s non e' riconosciuta\n
+\t\n
+Elenco verifiche:\n
+1. Modificare il nome del tipo unita'
+1012:
+Memoria in overflow\n
+Descriz.\Motivo:\n
+- Scheda %s: Troppe schede per\n
+  il tipo specificato\n
+\t\n
+Elenco verifiche:\n
+1. Modif. il numero di schede\n
+   nella configurazione del tipo unita'.
+1013:
+Tipo di scheda errata\n
+Descriz.\Motivo:\n
+- Scheda errata colleg.\n
+  all'indiriz. %d\n
+\t\n
+Elenco verifiche:\n
+1. Verif. tipo scheda all'indirizzo\n
+   specificato
+1014:
+Scheda mancante\n
+Descriz.\Motivo:\n
+- Nessuna scheda collegata\n
+  all'indirizzo %d\n
+\t\n
+Elenco verifiche:\n
+1. Collegare una scheda\n
+2. Modif. l'indirizzo della scheda
+1028:
+Config. fuori dai limiti\n
+Descriz.\Motivo:\n
+- RIO starting quarter e rack size\n
+  fuori dai limiti imposti\n
+  per la scheda %s\n
+\t\n
+Elenco verifiche:\n
+1. Il valore da inserire deve\n
+    essere minore di 4
+1029:
+Config. fuori dai limiti\n
+Descriz.\Motivo:\n
+- RIO starting quarter e rack size\n
+  fuori dai limiti imposti per la\n
+  scheda %s\n
+\t\n
+Elenco verifiche:\n
+1. Il valore da inserire deve\n
+   essere minore di 3
+1030:
+Config. fuori dai limiti\n
+Descriz.\Motivo:\n
+- RIO starting quarter e rack size\n
+  fuori dai limiti imposti\n
+  per la scheda %s\n
+\t\n
+Elenco verifiche:\n
+1. Il valore da inserire deve\n
+   essere minore di 2
+1031:
+Config. fuori dai limiti\n
+Descriz.\Motivo:\n
+- RIO starting quarter e rack size\n
+  fuori dai limiti imposti\n
+  per la scheda %s\n
+\t\n
+Elenco verifiche:\n
+1. Il valore da inserire deve\n
+   essere 0
+1032:
+Comunicaz. non eseguita\n
+Descriz.\Motivo:\n
+- La scheda RIO ha perso comunicaz.\n
+  con PLC all'indirizzo scheda %d\n
+\t\n
+Elenco verifiche:\n
+1. Verif. cavo comunicaz. verso PLC\n
+2. Verificare se il PLC e' spento\n
+3. Verificare RIO Baud Rate\n
+4. Verif. Indirizzo RIO e Start Group
+1035:
+Limite starting quarter\n
+Descriz.\Motivo:\n
+- Lo starting quarter e' fuori dai\n
+  limiti per la scheda %s\n
+\t\n
+Elenco verifiche:\n
+1. Lo starting quarter deve avere un\n
+   valore compreso tra 0 e 3. Modif.\n
+   la configurazione del file.
+1039:
+Max ident. fuori limite\n
+Descriz.\Motivo:\n
+- Il numero max di identif. per\n
+- tipo unita': %s  fuori dai limiti.\n
+\t\n
+Elenco verifiche:\n
+1. Verificare che il nr di identif.\n
+   sia maggiore di 0 e minore o\n
+   uguale del nr di pos. I/O.
+1040:
+Colleg. RIO fuori lim.\n
+Descriz.\Motivo:\n
+- L'indirizzo coll. RIO per la scheda\n
+  %s e' fuori dai limiti.\n
+\t\n
+Elenco verifiche:\n
+1. Assicurarsi che indir. colleg. RIO\n
+   sia maggiore di 0 e minore di 64.
+1051:
+Indir. coll. non octal.\n
+Descriz.\Motivo:\n
+- Segnale %s: indirizzo RIO non e'\n
+  del tipo octal\n
+\t\n
+Elenco verifiche:\n
+1. Inserire nuovo indirizzo del tipo\n
+   octal.
+1057:
+Scheda DSQC319 mancante\n
+Descriz.\Motivo:\n
+- Nessuna scheda DSQC319\n
+  collegata all'indirizzo %d\n
+\t\n
+Elenco verifiche:\n
+1. Collegare scheda nella sua posizione\n
+2. Cambiare indirizzo scheda
+1060:
+Errore interno DSQC319\n
+Descriz.\Motivo:\n
+- La scheda DSQC319\n
+  collegata all'indirizzo %d\n
+  ha un errore interno\n
+\t\n
+Elenco verifiche:\n
+1. Verificare funzionamento bus CAN\n
+2. Verificare se DSQC319 funziona\n
+   correttamente
+1062:
+Buffer D319 pieno\n
+Descriz.\Motivo:\n
+- Buffer di ricevimento pieno scheda\n
+  collegata all'indirizzo %d.\n
+  Messaggi possono essere persi\n
+\t\n
+Elenco verifiche:\n
+1. Ridurre numero di nodi sul CAN bus.
+1063:
+Perdita messaggio CAN\n
+Descriz.\Motivo:\n
+- Messaggio CAN perso sulla scheda\n
+  collegata all'indirizzo %d.\n
+\t\n
+Elenco verifiche:\n
+1. Ridurre numero di nodi sul CAN bus.
+1064:
+Errore generato da IOC\n
+Descriz.\Motivo:\n
+- Errore dei segnali IOC a\n
+  scheda DSQC260 all'indirizzo %d.\n
+\t\n
+Elenco verifiche:\n
+1. Verificare IOC
+1065:
+Errore di DSQC260\n
+Descriz.\Motivo:\n
+- Errore dei segnali della\n
+  scheda DSQC260 all'indirizzo %d\n
+\t\n
+Elenco verifiche:\n
+1. Verificare scheda DSQC260.
+1066:
+InterBus-S non attivo\n
+Descriz.\Motivo:\n
+- InterBus-S collegato a\n
+  scheda DSQC260 all'indirizzo %d\n
+  non attivo.\n
+\t\n
+Elenco verifiche:\n
+1. Verif. nodi di InterBus-S.
+1067:
+InterBus-S non colleg\n
+Descriz.\Motivo:\n
+- InterBus-S collegato a\n
+  scheda DSQC260 all'indirizzo %d\n
+  non collegato oppure IBS master\n
+  in modalita' reset.\n
+\t\n
+Elenco verifiche:\n
+1. Verificare nodi di InterBus-S.\n
+2. Verificare master di InterBus-S.
+1068:
+IOC OK\n
+Descriz.\Motivo:\n
+- IOC prima guasto, adesso e' OK.\n
+  Messaggio di errore mandato a\n
+  scheda DSQC260 all'indirizzo %d.\n
+\t\n
+Elenco verifiche:\n
+1. Tutto OK.
+1069:
+DSQC260 OK\n
+Descriz.\Motivo:\n
+- Scheda DSQC260 all'indirizzo %d\n
+  prima guasta, adesso OK.\n
+\t\n
+Elenco verifiche:\n
+1. Tutto OK.
+1070:
+InterBus-S attivo\n
+Descriz.\Motivo:\n
+- InterBus-S collegato a\n
+  DSQC260 all'indirizzo %d\n
+  prima inattivo, adesso e' OK.\n
+\t\n
+Elenco verifiche:\n
+1. Tutto OK.
+1071:
+InterBus-S collegato\n
+Descriz.\Motivo:\n
+- InterBus-S collegato a\n
+  DSQC260 all'indirizzo %d\n
+  in precedenza non collegato al master\n
+  IBS in modalita' reset, adesso e' OK.\n
+\t\n
+Elenco verifiche:\n
+1. Tutto OK.
+1075:
+Errore accesso IO\n
+Descriz.\Motivo:\n
+- Impossib. comunicare da/a scheda I/O\n
+  per interruzione delle comunicazioni\n
+\t\n
+Elenco verifiche:\n
+1. Verificare il report degli errori\n
+   per individuare il motivo
+1086:
+Com. OK con RIO\n
+Descrizione\Motivo:\n
+- Colleg. RIO stabilito al nodo\n
+  indirizzo %d\n
+\t\n
+Check list:\n
+1. Tutto OK.
+1087:
+Can bus OK\n
+Descrizione/Motivo:\n
+- Contatto stabilito sul Can bus\n
+  connesso a DSQC319\n
+  all'indirizzo %d\n
+\t\n
+Check list:\n
+1. Non fare nulla
+1096:
+PLC in modo programmaz.\n
+Descrizione\Motivo:\n
+- Accesso negato alla scheda causa il\n
+  PLC in modalita' programmaz. o\n
+  con configurazione RIO non\n
+  corretta.\n
+\t\n
+Elenco verifiche:\n
+1. PLC in modalita' programmazione\n
+2. Verificare la configurazione RIO
+1151:
+Errore Can bus\n
+descrizione/Motivo:\n
+- Insolito verificarsi di errori\n
+  sul Can bus connesso a DSQC319\n
+  all'indirizzo %d\n
+\t\n
+Check list:\n
+1. Controllare il cavo di comunicazione\n
+   verso il Can bus

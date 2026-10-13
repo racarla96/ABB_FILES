@@ -1,0 +1,240 @@
+Revision 1.8  1995/04/21  13:17:47  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.7  1994/08/19  09:46:00  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+4::
+0:
+
+1:
+Ingangen/uitgangen
+2:
+Inverteer:
+3:
+Groepen
+4:
+Meest gebruikt
+5:
+
+6:
+
+7:
+Naam:
+8:
+Waarde:
+9:
+Type:
+10:
+
+11:
+Bus:
+12:
+Openen
+13:
+Sluiten
+14:
+Set
+15:
+Reset
+16:
+1
+17:
+0
+18:
+Bestand
+19:
+Afdrukken...
+20:
+Voorkeuren...
+21:
+Opmaak
+22:
+
+23:
+
+24:
+Ga naar...
+25:
+Ga naar begin
+26:
+Ga naar einde
+27:
+
+28:
+Inkijken
+29:
+Meest gebruikt
+30:
+Kaarten
+31:
+Digitaal in
+32:
+Digitaal uit
+33:
+Analoog
+34:
+
+35:
+Groepen
+36:
+
+37:
+Alle signalen
+38:
+
+39:
+Veiligheid
+40:
+
+41:
+
+42:
+
+43:
+Adres:
+44:
+Kaart:
+45:
+Signaal:
+46:
+
+47:
+Signaalattributen:
+48:
+Status
+49:
+Kaarten
+50:
+OK
+51:
+Sigstatus
+52:
+Annuleer
+53:
+Resultaat
+54:
+Incl
+55:
+Excl
+56:
+Ga naar regel!
+57:
+Voer regel in
+58:
+Wijzig
+59:
+Naam         Waarde       Type
+60:
+Busadr       Naam         Type
+61:
+Meest gebr.  Naam         Type
+62:
+Naam         Waarde       Signalen
+63:
+Geen waarde  Kaart         Signaal
+64:
+Groep:
+65:
+Signaal      Waarde       Naam
+66:
+Omhoog
+67:
+Omlaag
+68:
+Instelling
+69:
+             Naam         Type
+70:
+Resultaat meest gebruikte
+71:
+Instelling meest gebruikte
+72:
+Uit
+73:
+Aan
+74:
+Onwaar
+75:
+Waar
+76:
+Passief
+77:
+Actief
+78:
+Laag
+79:
+Hoog
+80:
+Kaarttype:
+81:
+Omhoog
+82:
+
+83:
+Geen signalen
+84:
+        Druk op Enter!
+85:
+Geen signalen naar eenheid
+86:
+Geef waarde voor IO-groep
+87:
+Limieten: Minimum
+88:
+          Maximum
+89:
+Data invoer voor In-/uitgangen
+90:
+Voer waarde analoog signaal in
+91:
+Afdrukken In-/Uitgangen
+92:
+Afdrukken
+93:
+Afdruk alleen naar bestand :
+94:
+Toevoegen signaal info :
+95:
+Af te drukken data
+96:
+Afdruk In-/Uitgangen naar bestand:
+97:
+Afdruk bezig!
+98:
+Druk Enter om te annuleren
+99:
+ Druk op Enter
+100:
+Printer is bezig\n
+\n
+Probeer opnieuw als de printer\n
+klaar is
+101:
+Kan niet afdrukken omdat er\n
+te veel opdrachten wachten\n
+\n
+Probeer het later opnieuw
+102:
+Kan niet afdrukken omdat de\n
+printer niet gedefinieerd is\n
+in de systeem parameters
+103:
+Niet voldoende vrije ruimte in de\n
+eenheid die voor het afdrukken\n
+gebruikt wordt (meestal %.9s).\n
+Er zijn %d bytes nodig Verplaats\n
+/verwijder enkele bestanden.
+104:
+ Bezig\n
+ \n
+ Even geduld A.U.B.
+105:
+Kan bestand :\n
+niet creeren/schrijven
+106:
+ Bestand bestaat reeds
+107:
+Start signaal

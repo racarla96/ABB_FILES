@@ -1,0 +1,212 @@
+
+21::
+0:
+Operationnel
+2:
+Reset du programme\n
+La tache %!%!%s\n
+a ete redemarre a son\n
+point de depart.\n
+\t
+5:
+Programme arrete\n
+La tache %!%!%s\n
+est stoppe. La raison est que\n
+%s\n
+\t
+500:
+un stop interne ou externe est apparu\n
+apres l'instruction courante.
+501:
+la tache a atteint une instruction de\n
+sortie.
+502:
+Tache prete
+503:
+Tache prete pour cette etape
+504:
+la tache a atteint une instruction\n
+break.
+505:
+un stop interne ou externe est apparu.
+506:
+une erreur est apparue.
+507:
+Impossible d'executer en arriere du\n
+debut de la liste d'instructions.
+508:
+Impossible d'executer en arriere de\n
+cette instruction.
+7:
+Programme lance\n
+La tache %!%!%s\n
+est lance en execution.\n
+%s\n
+\t
+8:
+Programme relance\n
+La tache %!%!%s\n
+est relance en execution.\n
+%s\n
+\t
+701:
+L'initiateur est la fenetre programme.
+702:
+L'initiateur est la fenetre production.
+703:
+L'initiateur est inconnu.
+704:
+L'initiateur est un client externe.
+9:
+Memoire de travail pleine\n
+Plus de memoire pour de nouvelles\n
+instructions ou donnees RAPID.\n
+La tache est %!%!%s\n
+\t\n
+Sauver le programme et relancer.
+10:
+Moteurs hors puissance\n
+\t
+11:
+Moteurs sous puissance\n
+\t
+12:
+Arret de securite\n
+Un contact (hors AU) est ouvert dans\n
+la chaine de securite.\n
+\t
+13:
+Arret d'urgence\n
+Chaine de securite ouverte sur un AU.\n
+Acquitter l'AU.\n
+Utiliser le bouton "motors off".\n
+\t
+14:
+Arret du systeme\n
+Erreur fatale incontournable.\n
+Redemarrage a chaud necessaire.\n
+\t
+15:
+Mode Manuel selectionne\n
+\t
+16:
+Passer en Automatique\n
+\t
+17:
+Mode automatique confirme\n
+\t
+18:
+Passer en manuel 100%\n
+\t
+19:
+Mode manuel 100% confirme\n
+\t
+20:
+Erreur d'execution\n
+\t
+21:
+Erreur d'execution\n
+acquittee\n
+\t
+22:
+Attente de\n
+"Maintien en cours de fonctionnement"\n
+\t
+23:
+Time out durant\n
+"Maintien en cours de fonctionnement"\n
+\t
+30:
+Axes commutes\n
+\t
+31:
+Axes etalonnes\n
+\t
+32:
+Compteurs reinitialises\n
+\t
+33:
+Axes synchronises\n
+\t
+34:
+Axe non commute\n
+\t
+35:
+Axe non etalonne\n
+\t
+36:
+Compteur non reinitialise\n
+\t
+37:
+Axe non synchronise\n
+\t
+40:
+La tache %!%!%s a\n
+charge un programme. La memoire\n
+utilisateur libre etait de %i\n
+octets avant cette operation et de\n
+%i octets apres.\n
+\t
+41:
+Programme supprime\n
+La tache %!%!%s a\n
+supprime un programme.\n
+\t
+43:
+Restart failed\n
+La tache %!%!%s ne\n
+peut pas redemarrer.\n
+\t
+44:
+Pointeur de programme\n
+remis a jour\n
+La tache %!%!%s peut\n
+avoir change la position du\n
+pointeur de programme\n
+\t
+45:
+System redemarre\n
+\t
+46:
+System redemarre en\n
+mode froid.\n
+\t
+47:
+La tache en background\n
+%s\n
+refuse de demarrer\n
+%s\n
+\t
+4701:
+Tache vide
+4702:
+Etat mauvais
+4703:
+Impossible de mettre PC sur routine main
+4704:
+Impossible de passer en mode execution
+4705:
+Erreur suite a l'ordre de demarrage
+48:
+Tache de fond arrete\n
+La tache %s s'est\n
+arrete sans raison\n
+%s\n
+\t
+49:
+Aire protect. non finie\n
+Un arret de la puissance est survenu\n
+pendant la mise en place d'une aire de\n
+protection pour la tache %!%s\n
+%s\n
+\t
+4901:
+Le systeme essaye de se reparer
+4902:
+Erreur en attente supprimee de la file
+4903:
+Sortie en attente supprimee de la file
+4904:
+Du a un cycle de progr. supplementaire
+4905:
+La tache va redemarrer a la routine main

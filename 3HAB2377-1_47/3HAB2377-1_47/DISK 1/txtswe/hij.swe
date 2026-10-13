@@ -1,0 +1,165 @@
+Revision 1.11  1996/12/12  07:33:00  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+5::
+0:
+Joggning
+1:
+Rikta...
+2:
+Uppriktningen startas genom att röra\n
+styrspaken.
+3:
+Lås axel...
+4:
+Verktyget kommer att riktas längs en\n
+axel i koordinatsystemet "%s".
+5:
+
+6:
+
+7:
+Enhet:
+8:
+Rörelse:
+9:
+Grupp:
+10:
+Koord:
+11:
+Verktyg:
+12:
+Objekt:
+13:
+Inkrementell:
+14:
+Välj önskat data i listan:
+15:
+Joggning
+16:
+Robot Pos:
+17:
+
+18:
+
+19:
+Linjär
+20:
+Omorient
+21:
+Axelvis
+22:
+x y z
+23:
+Motor
+24:
+Global
+25:
+Bas
+26:
+Verktyg
+27:
+Objekt
+28:
+
+29:
+
+30:
+
+31:
+
+32:
+
+33:
+
+34:
+2 1 3
+35:
+5 4 6
+36:
+4 5 6
+37:
+Position:
+38:
+Externa:
+39:
+Liten
+40:
+Medium
+41:
+Stor
+42:
+Global
+43:
+Bas
+44:
+Verktyg
+45:
+Objekt
+46:
+1 2 3
+47:
+Nej
+48:
+Liten
+49:
+Medium
+50:
+Stor
+51:
+1
+52:
+2
+53:
+Joggning kan inte\n
+utföras vid\n
+programkörning.
+54:
+Joggning kan inte\n
+utföras i\n
+automatiskt körsätt.
+55:
+Nytt
+56:
+Ändra
+57:
+Def.
+58:
+AnvDef
+59:
+AnvDef
+60:
+Rörelsetyp
+61:
+Inkrement...
+62:
+Användar-definierade inkrement
+63:
+Ändra variabla jog-inkrement värden för\n
+de olika rörelsetyperna.\n
+
+64:
+Linjär:
+65:
+Robotaxlar:
+66:
+Omorientering:
+67:
+Externa axlar:
+68:
+Värde
+69:
+Samma som medium inkr.
+70:
+Gränser
+71:
+mm
+72:
+grd
+73:
+Joystick-lås:
+74:
+Inga
+75:
+Inga

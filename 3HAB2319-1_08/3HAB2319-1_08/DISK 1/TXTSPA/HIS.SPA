@@ -1,0 +1,273 @@
+Revision 1.8  1995/04/21  13:29:57  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.7  1994/08/19  10:48:07  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+8::
+0:
+Servicio
+1:
+Registro
+2:
+
+3:
+
+4:
+
+5:
+Calibracion
+6:
+Conmutacion
+7:
+Calib
+8:
+(Calibrar Manualmente...)
+9:
+Calibrar...
+10:
+Actualizar Cont.Rev...
+11:
+(Ver Posicion Medida...)
+12:
+Sustituyendo registro!\n
+Registro existente sera\n
+sustituido.\n
+\n
+OK para continuar?
+13:
+Unidad          Estado
+14:
+   Eje        Estado
+15:
+
+16:
+Para calibrar, incluir ejes y pulsar OK.
+17:
+Incl
+18:
+Excl
+19:
+Todos
+20:
+Sincronizado
+21:
+No sincronizado
+22:
+No Calibrado
+23:
+Cont.Rev no actualizado
+24:
+Calibrado
+25:
+Cont.Rev actualizado
+26:
+La Calibracion se actualizara con\n
+los valores entrados.\n
+No se puede volver atras.\n
+\n
+OK para continuar?
+27:
+Se modificara la calibracion de\n
+todos los ejes seleccionados.\n
+No se puede volver atras.\n
+\n
+OK para continuar?
+28:
+Se actualizara el Cont.Rev de\n
+todos los ejes seleccionados.\n
+No se puede volver atras.\n
+\n
+OK para continuar?
+29:
+No se han seleccionado ejes.\n
+\n
+\n
+\n
+Pulsar Entrar para reintentar!
+30:
+Iniciado proceso de calib.\n
+\n
+Listo en unos segundos...
+31:
+No Conmutado
+32:
+Estado inicial
+33:
+Com
+34:
+(Conmutar Manualmente...)
+35:
+Conmutar...
+36:
+\n
+Guardando regs. a archivo...
+37:
+Para conmutar, incluir ejes y pulsar OK.
+38:
+La Conmutacion se actualizara con\n
+los valores entrados.\n
+No se puede volver atras.\n
+\n
+OK para continuar?
+39:
+Se cambiara la conmutacion de los\n
+ejes seleccionados.\n
+No se puede volver atras.\n
+\n
+OK para continuar?
+40:
+Conmutado
+41:
+No se han seleccionado ejes.\n
+\n
+\n
+\n
+Pulsar Entrar para reintentar!
+42:
+Iniciado proceso Conmutacion!\n
+\n
+Listo en unos segundos...
+43:
+No se han conmutado algunas\n
+unidades. Seleccionar\n
+"Conmutacion" desde el\n
+menu Ver.\n
+Pulsar Entrar para continuar!
+44:
+Fecha y Hora..
+45:
+Fecha:
+46:
+Hora:
+47:
+<
+48:
+>
+50:
+Msjes
+51:
+Nombre
+52:
+Mensajes
+53:
+Borrar Registro
+54:
+Borrar todos los Registros
+55:
+Especial
+56:
+Regtrs
+57:
+Mensaje                  Fecha
+58:
+No hay mensajes!
+59:
+Renovar
+60:
+Renovar Registro por Comando
+61:
+Renovar Registro por Evento
+62:
+Los mensajes en registro %s\n
+se borraran.\n
+\n
+OK para continuar?
+63:
+Todos los mensajes en todos los\n
+registros se borraran.\n
+\n
+Ok para continuar?
+64:
+Guardar mensaje registro %s como!
+65:
+ELOG
+66:
+Mensajes de registro %s\n
+Fecha de grabacion: %s
+67:
+Ir a la Linea!
+68:
+Linea:=
+69:
+Error:
+70:
+Reiniciar...
+71:
+Comando Reiniciar!\n
+Desea reiniciar el\n
+control?\n
+\n
+OK para continuar?
+72:
+Estado
+73:
+Advertencia
+74:
+Guardar registro mensajes como!
+75:
+Definicion Frame
+76:
+Unidad              Tipo
+77:
+Seleccionar unidad sobre la que\n
+realiza el frame. Las unidades\n
+donde es posible definir el frame\n
+se muestran en la lista.
+78:
+Def...
+79:
+Robot IRB1400
+80:
+Robot IRB1400
+81:
+Robot IRB2400
+82:
+Robot IRB2400
+83:
+Robot IRB3400
+84:
+Robot IRB6400
+85:
+Robot IRBPAL
+86:
+Orbit 160B_1
+87:
+Orbit 160B_2
+88:
+Gantry
+89:
+Track
+90:
+Conveyor
+91:
+Rotacion Herramienta
+92:
+Rotacion libre
+93:
+BaseFrame...
+94:
+No puedo salvar registro!\n
+No hay espacio en disco o el\n
+disco esta protegido.\n
+\n
+Pulsar Entrar para reintentar
+95:
+No usado
+96:
+Definicion de dos ejes
+97:
+Seleccionar unidad a la cual se\n
+debe realizar la definicion de\n
+ejes. La lista solo muestra\n
+unidades de dos ejes validas.
+98:
+Def...
+99:
+Definicion de dos ejes
+100:
+(Def)
+101:
+No hay unidades validas disponibles

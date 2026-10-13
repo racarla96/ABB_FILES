@@ -1,0 +1,103 @@
+22::
+1:
+Enable-slinga öppen\n
+\n
+\t\n
+
+2:
+Nödstopp\n
+\n
+\t\n
+
+3:
+Gränsläges stopp\n
+\n
+\t\n
+
+6:
+Auto stopp\n
+\n
+\t\n
+
+7:
+Manuellt stopp\n
+\n
+\t\n
+
+8:
+Allmänt stopp\n
+\n
+\t\n
+
+9:
+Statusfel Driftkedjan\n
+Olika status på de två kanalerna.\n
+\t\n
+Kontrollera lysdioderna på system\n
+kortet när röda ERR dioden lyser för\n
+att se var felet är.
+20:
+Timeout i driftskedjan\n
+Avbrott i två-kanaligheten.\n
+Bekräftelsen på att två kanaligheten\n
+är OK kom ej inom rätt tid\n
+\t\n
+Kontrollera lysdioderna på systemkortet\n
+när röda ERR dioden lyser för att se var\n
+felet är.Du kanske måste beordra Motorer\n
+Till igen för att ERR dioden skall lysa.\n
+Kolla transformatorn temp.brytare.
+21:
+Nyckel hastighetsfel\n
+Körsättsväljar signalen och\n
+hastighets signalen är i konflikt.\n
+\t\n
+
+22:
+Nyckelstatusfel\n
+Körsättsväljar signalen är\n
+i konflikt (Ex. flera sätt eller\n
+inget sätt indikeras).\n
+\t\n
+
+25:
+Stopp-order timeout\n
+Beordrat stopp utfördes\n
+som ett forcerat skydds stopp\n
+när ingen bekräftelse kom\n
+inom förväntad tid.\n
+\t\n
+
+26:
+Statusfel körkontroll\n
+Statuskonflikt mellan körslingans\n
+relä och körkontroll.\n
+\t\n
+Byt systemkort.
+40:
+Hold stopp\n
+\n
+\t\n
+
+41:
+Motor 1-6 överlastad\n
+En eller flera motorer är överhettade.\n
+Se till att motorerna kyls ner\n
+innan order om Motorer Till ges igen.\n
+Annars kommer felet att återkomma\n
+efter 15 sek i tillstånd Motor Till.\n
+\t\n
+Visa Safety i I/O.fönstret och vänta\n
+tills signalen OLM1 är lika med 0 innan\n
+order om tillstånd Motor Till ges.
+42:
+Motor 7-x överbelastad\n
+En eller flera motorer är överhettade.\n
+Se till att motorerna kyls ner\n
+innan order om Motorer Till ges igen.\n
+Annars kommer felet att återkomma\n
+efter 15 sek i tillstånd Motor Till.\n
+\t\n
+Visa Safety i I/O.fönstret och vänta\n
+tills signalen OLM7 är lika med 0 innan\n
+order om tillstånd Motor Till ges.

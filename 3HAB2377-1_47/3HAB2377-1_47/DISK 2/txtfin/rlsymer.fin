@@ -1,0 +1,58 @@
+RLSYM::
+
+
+101:
+The symbol %s is of\n
+type %s not the expected\n
+type %s. 
+
+102:
+The symbol %s is\n
+read-only.\n
+RAISE CODE: ERR_SYM_ACCESS=%d
+
+103:
+The symbol %s not found.\n
+RAISE CODE: ERR_SYM_ACCESS=%d
+
+104:
+Ambiguous symbol %s.
+
+105:
+Search error for\n
+the symbol %s.
+
+106:
+The symbol %s\n
+is not a readable object.\n
+RAISE CODE: ERR_SYM_ACCESS=%d
+
+107:
+Unknown module name %s\n
+
+108:
+Ambiguous module name %s\n
+
+109:
+Ambiguous routine name %s\n
+
+110:
+Unknown routine name %s\n
+
+111:
+Object of the type %s\n
+could not be searched for\n
+
+112:
+The symbol %s is\n
+not accessable in this\n
+scope.\n
+RAISE CODE: ERR_SYM_ACCESS=%d
+
+113:
+In the instruction %s\n
+The parameter %s\n
+can't be used without\n
+the parameter %s
+
+

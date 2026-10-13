@@ -1,0 +1,127 @@
+80::
+0:
+Kommunikation
+1:
+Seriekanal
+2:
+Namn
+3:
+Data hast
+4:
+Paritet
+5:
+Antal bitar
+6:
+Antal stoppbitar
+7:
+Protokoll
+8:
+Lokal adress
+9:
+Fjärradress
+10:
+7
+11:
+8
+12:
+1
+13:
+2
+14:
+SLIP
+15:
+XONXOFF
+16:
+Inget
+17:
+300
+18:
+600
+19:
+1200
+20:
+2400
+21:
+4800
+22:
+9600
+23:
+19200
+24:
+38400
+25:
+ingen
+26:
+udda
+27:
+jämn
+28:
+ignore
+29:
+Namn     Kanal       Datahast.
+30:
+Kanal
+31:
+Fysiska kanaler
+32:
+Transmissionsprotokoll
+33:
+Applikationsprotokoll
+34:
+Typ
+35:
+Fys.Kanal
+36:
+PortNr
+37:
+Namn        Typ         Kanal
+38:
+Namn        Typ         Fys.kanal
+39:
+Namn        Typ         Trans Prot.
+40:
+Trans Prot.
+41:
+Skicka start-up meddel
+42:
+TRUE
+43:
+FALSE
+44:
+på
+45:
+av
+46:
+RTS/CTS Control
+47:
+Server Address
+48:
+Montera alla
+49:
+Trusted
+50:
+Lokal Path
+51:
+Server Path
+52:
+User ID
+53:
+Group ID
+54:
+Ja
+55:
+Nej
+56:
+Visa på P-Lådan
+57:
+Gateway
+58:
+Subnet mask
+59:
+Duplex
+60:
+Full
+61:
+Half
+62:
+Enable SUBSCW

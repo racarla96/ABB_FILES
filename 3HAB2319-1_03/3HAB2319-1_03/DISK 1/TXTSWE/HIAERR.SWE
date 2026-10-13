@@ -1,0 +1,322 @@
+15::
+0:
+Felmeddelande
+1:
+Alternative child present
+2:
+Alternativ parameter finns
+3:
+Tvetydigt datanamn
+4:
+Tvetydigt modulnamn
+5:
+Tvetydigt procedurnamn
+6:
+Tvetydigt rutindatanamn
+7:
+Tvetydigt rutinnamn
+8:
+Tvetydigt symbolnamn
+9:
+Argument är ej länkat
+10:
+RAPID fel
+11:
+RAPID fatalt fel
+12:
+RAPID syntaxfel \n
+Fel i programmet
+13:
+Atomärt objekt
+14:
+Kan inte stega
+15:
+Child is not an object
+16:
+Child not present
+17:
+Child present
+18:
+Kolumn utanför fönstret
+19:
+Tom buffert
+20:
+Empty child
+21:
+Tomt fönster
+22:
+Felet kan inte visas
+23:
+Felet ej i fönstret
+24:
+Felet utanför fönstret
+25:
+Filen ej funnen
+26:
+Kan inte nå filen
+27:
+Ej funnet i fönstret
+28:
+Frame not in view port 
+29:
+Frame not in window
+30:
+Frame out of window
+31:
+Syntaxfel i huvudet
+32:
+Minnet fullt
+33:
+Otillåtet alt. nr
+34:
+Otillåtet com. nr
+35:
+Otillåten datatyp
+36:
+Otillåten dimension
+37:
+Otillåtet objekt
+38:
+Otillåtet param nr
+39:
+Otillåtet pgm tillstånd
+40:
+Otillåtet task tillstånd
+41:
+Otillåten värdelängd
+42:
+Otillåten värdeoffset
+43:
+Otillåten värdedel
+44:
+Otillåten view port size
+45:
+Datanamn
+46:
+Rutinnamn
+47:
+Intern kö full
+48:
+IO fel. \n
+Ej tillräckligt minne?
+49:
+Tangenter ej definierade
+50:
+Radbuffert full
+51:
+Rad ej utskriven
+52:
+Rad utanför displayen
+53:
+markering ej satt
+54:
+Felaktigt buffertobjekt
+55:
+Felaktig platshållar-buffert
+56:
+Objekt deklarerat i\n
+"Read only" modul\n
+Objektet kan inte ändras
+57:
+Objekt deklarerat i\n
+Objektet kan inte ändras
+58:
+Namn ej funnet
+59:
+Ingen bakåtdel
+60:
+Ingen markör
+61:
+Inget fel
+62:
+Ingen felhanterare
+63:
+Inga fler objekt
+64:
+Inga objekt
+65:
+Inget objekt-platshållare
+66:
+Inget objektvärde
+67:
+Ingen programpekare
+68:
+Inget sådant alternativ
+69:
+Ingen dådan buffert
+70:
+Inget sådant namn
+71:
+Inget sådant ins
+72:
+Inget sådant språk
+73:
+Ingen sådan markering
+74:
+Ingen sådan parameter
+75:
+Ingen sådan postkomponent
+76:
+Ej ett RAPID com
+77:
+Namn ej tillåtet! (Namn\n
+måste börja med en bokstav,\n
+inga reserverade ord etc...)
+78:
+Ej RAPID tangent
+79:
+Redan tillbaka
+80:
+Ej aktuell RAPID version
+81:
+Ej datanamn
+82:
+Ej for-namn
+83:
+Ej heap-objekt
+84:
+Ej list-objekt
+85:
+Ej modulnamn
+86:
+Ej objekt child
+87:
+Ej pararm less
+88:
+Ej param namn
+89:
+Ej procedurnamn
+90:
+Ej rutinnamn
+91:
+Ej realversion
+92:
+Ej postnamn
+93:
+Ej rutinanrop
+94:
+Ej rutinnamn
+95:
+Ej stackobjekt
+96:
+Ej värdeobjekt
+97:
+Ej view port objekt
+98:
+Ej fönster
+99:
+Objekt ej synligt
+100:
+Objekt ej i fönstret
+101:
+Objekt ej i listan
+102:
+Objekt ej platshållare
+103:
+Objekt utanför fönstret
+104:
+Valbar parameter finns\n
+ej i denna "frame"
+105:
+Utanför fönstret
+106:
+param ej länkad
+107:
+param finns ej
+108:
+param finns
+109:
+Remove built-in
+110:
+Required child
+111:
+Required place holder
+112:
+Obligatorisk parameter
+113:
+Sätt konstant
+114:
+Sätt bestående
+115:
+Stack ej full
+116:
+Symbol defnitionsfel
+117:
+Översatt symbol är \n
+inte unik eller är ett\n
+reserverat ord
+118:
+Till klippbuffert
+119:
+Okänt datanamn
+120:
+Okänt for-namn
+121:
+Okänt modulnamn
+122:
+Okänt namn
+123:
+Okänt paremeternamn
+124:
+Okänt procedurnamn
+125:
+Okänt rutindatanamn
+126:
+Okänt postnamn
+127:
+Okänt rutinnamn
+128:
+Okänt symbolnamn
+129:
+Viewport buff full
+130:
+Def. fel
+131:
+Ingen nästa instruction
+132:
+Ingen föregående instr.
+133:
+Struktur instruktion
+134:
+Ej tillräckligt ned minne\n
+på programkörnings-stacken
+135:
+Ej tillräckligt minne på\n
+runtime-stacken
+136:
+Körsätt kan inte ändras\n
+inom en komplex instr.
+137:
+I user
+138:
+Kolumn utanför uttryck  
+139:
+Uttryckets pos är full 
+140:
+Inget uttryck
+141:
+Ingen sådan vy
+142:
+Ej vrf uttryck
+143:
+Ej typnamn
+144:
+Out buff
+145:
+Okänt typnamn
+146:
+exec int
+147:
+Intlist full
+148:
+Okänt avbrottsnummer
+149:
+intno not con
+150:
+avbrottsnummer använt
+151:
+avbrottsnummer ej använt
+152:
+Ej tillåtet ändra \n
+kör-riktning inom \n
+denna rutin.

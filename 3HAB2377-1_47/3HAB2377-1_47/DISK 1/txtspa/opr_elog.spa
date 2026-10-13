@@ -1,0 +1,557 @@
+21::
+0:
+Operacional
+2:
+Reset programa\n
+La tarea %!%!%s se ha\n
+llevado a su punto inicial.\n
+\t\n
+
+5:
+Programa parado\n
+La tarea %!%!%s ha\n
+parado. La razon es que\n
+%s\n
+\t\n
+
+500:
+ha ocurrido una parada interna o externa\n
+despues de la instruccion actual.
+501:
+la tarea ha alcanzado una instruccion\n
+exit.
+502:
+la tarea esta lista.
+503:
+la tarea esta lista con este paso.
+504:
+la tarea ha alcanzado una instruccion\n
+break.
+505:
+ha ocurrido una parada interna o externa
+506:
+ha ocurrido un error.
+507:
+no puedo ejecutar atras pasado el\n
+inicio de la lista de instrucciones.
+508:
+no puedo ejecutar atras pasada esta\n
+instruccion.
+509:
+the event routine for RESET or POWER_ON\n
+is ready.
+7:
+Programa arrancado\n
+La tarea %!%!%s ha\n
+iniciado la ejecucion.\n
+%s\n
+\t\n
+
+8:
+Programa rearrancado\n
+La tarea %!%!%s ha\n
+reiniciado la ejecucion.\n
+%s\n
+\t\n
+
+701:
+El originador es la ventana programa
+702:
+El originador es la ventana produccion
+703:
+El originador es desconocido
+704:
+El originador es un cliente externo
+9:
+Memoria trabajo llena\n
+No hay memoria disponible para\n
+instrucciones o datos RAPID.\n
+La tarea es %!%!%s\n
+\t\n
+Guardar el programa y\n
+y luego reiniciarlo.
+10:
+Motores en OFF\n
+\n
+\t\n
+
+11:
+Motores en ON\n
+\n
+\t\n
+
+12:
+Parada de seguridad\n
+La cadena RUN abierta por dispositivo\n
+de seguridad, excepto parada emergencia\n
+\t\n
+
+13:
+Parada emergencia activa\n
+La cadena RUN abierta por parada de\n
+emergencia. Necesita resetear emergencia\n
+Usar el boton mottors off\n
+\t\n
+
+14:
+Estado error sistema\n
+Error de sistema no recuperable.\n
+Se requiere reiniciar el sistema.\n
+\t\n
+
+15:
+Seleccionado modo manual\n
+\n
+\t\n
+
+16:
+Solicitado modo automat.\n
+\n
+\t\n
+
+17:
+Modo automat. confirmado\n
+\n
+\t\n
+
+18:
+Modo manual 100% solicitado\n
+Se solicita modo manual 100%\n
+\t\n
+
+19:
+Modo manual 100% confirmado\n
+Confirmado modo manual 100%\n
+\t\n
+
+20:
+Estado error ejecucion\n
+La ejecucion de programa ha alcanzado\n
+un estado de error espontaneo\n
+\t\n
+
+21:
+Reset error ejecucion\n
+El programa ha salido del estado de\n
+error espontaneo\n
+\t\n
+
+22:
+Esperando func. sost.\n
+Esperando que se apriete el boton\n
+funcionamiento sostenido en unidad de\n
+programacion\n
+\t\n
+
+23:
+Exceso tiempo func. sost.\n
+El boton func. sostenido debe pulsarse\n
+en la unidad de programacion dentro de\n
+un limite de tiempo\n
+\t\n
+
+30:
+Todos ejes conmutados\n
+\n
+\t\n
+
+31:
+Todos ejes calibrados\n
+\n
+\t\n
+
+32:
+Todos cont.rev. actualiz\n
+\n
+\t\n
+
+33:
+Todos ejes sincronizados\n
+\n
+\t\n
+
+34:
+Eje no conmutado\n
+\n
+\t\n
+
+35:
+Eje no calibrado\n
+\n
+\t\n
+
+36:
+Cnt.Rv. no actualizado\n
+\n
+\t\n
+
+37:
+Eje no sincronizado\n
+\n
+\t\n
+
+40:
+Programa cargado\n
+La tarea %!%!%s ha\n
+cargado un programa o modulo de programa\n
+El espacio libre era %i bytes\n
+antes de esta operacion y de\n
+%i bytes despues.\n
+\t\n
+
+41:
+Programa borrado\n
+La tarea %!%!%s ha\n
+borrado un programa\n
+\t\n
+
+43:
+Fallo de reinicio\n
+La tarea %!%!%s\n
+no puede reiniciar\n
+\t\n
+
+44:
+PP actualizado\n
+La tarea %!%!%s\n
+puede haber cambiado la pos. del PP.\n
+\t\n
+
+45:
+Sistema reiniciado\n
+Se ha reiniciado un sistema ya\n
+instalado.\n
+\t\n
+
+4501:
+ordered warmstart.
+4502:
+it has been switched off.
+46:
+Sistema reiniciado en\n
+modo frio\n
+Primer arranque despues de instalacion\n
+\t\n
+
+47:
+Tarea en segundo plano %s\n
+rechaza arrancar\n
+%s\n
+\t\n
+
+4701:
+Tarea vacia
+4702:
+Estado erroneo
+4703:
+No puedo situar PC en rutina main
+4704:
+No puedo fijar modo de ejecucion
+4705:
+La orden de arranque ha fallado
+4706:
+Debido a error de sintaxis
+48:
+Tarea secund. ha parado\n
+La tarea %s ha parado sin razon\n
+%s\n
+\t\n
+
+49:
+Area proteg. no acabada\n
+Un fallo alim. ha ocurrido en\n
+medio de una zona protegida de\n
+la tarea %!%s\n
+%s\n
+\t\n
+%s
+4901:
+El sistema trata de recuperarse
+4902:
+Error pendiente borrado de la cola
+4903:
+Exit pendiente borrado de la cola
+4904:
+Puede provocar ciclo de programa\n
+adicional
+4905:
+La tarea se reiniciara desde la\n
+rutina principal
+4906:
+Siguiente arranque sistema reseteara\n
+todas tareas y perdera el programa usrio
+4907:
+Intentar salvar el programa y volver a\n
+arrancar el sistema
+50:
+Ejecucion cancelada\n
+El reinicio anulara la ejecucion en\n
+tarea %!%.16s de\n
+%s\n
+\t\n
+%s
+5001:
+Rutina de evento dar tension a sistema
+5002:
+Rutina de evento parada sistema
+5003:
+Rutina de evento parada emergencia
+5004:
+Rutina de evento arranque sistema
+5005:
+Rutina de evento rearranque sistema
+5006:
+Rutina de evento reset sistema
+5007:
+Rutina de evento interna de sistema
+5008:
+Rutina usuario
+51:
+Eror rutina evento\n
+La tarea %!%s no puede arrancar\n
+la rutina evento sistema especificada\n
+%s\n
+La rutina es desconocida para el sistema\n
+o no se puede encadenar.\n
+\t\n
+Insertar la rutina en un modulo\n
+de sistema o corregir el programa.
+52:
+Arranque recuperacion\n
+Se ha iniciado un movimiento de\n
+recuperacion\n
+\t\n
+
+53:
+Recuperacion lista\n
+El movimiento de recuperacion esta listo\n
+\t\n
+
+54:
+Regain rejected\n
+Regain on path not possible one client\n
+has already order it.\n
+\t\n
+A new regain movement is ordered during\n
+an already started regain movement.\n
+Reduce the number of start order from\n
+e.g system I/O
+60:
+Test cadena enable\n
+La cadena de enable se comprueba siempre\n
+en la puesta en marcha. Si el test falla\n
+aparecera un mensaje de error respecto\n
+a enable.\n
+\t\n
+Si el test de cadena de anable falla\n
+durante el arranque, el error asociado\n
+que aparecera sera "Sobrepasamiento de\n
+tiempo de cadena enable"
+70:
+Paso Salvaguarda listo\n
+La salvaguarda %!%s ha\n
+terminado.\n
+\t\n
+
+7000:
+paso prepar. salvaguarda
+7001:
+paso conf. salvaguarda
+7002:
+del sistema
+71:
+Error de salvaguarda\n
+Error durante salvaguarda\n
+de %!%!%s\n
+%s\n
+\t\n
+%s\n
+
+7100:
+paso prepar. salvaguarda
+7101:
+paso conf. salvaguarda
+7102:
+paso salvaguarda de tarea
+72:
+Paso recuperacion listo\n
+La recuperacion %!%s\n
+ha terminado.\n
+\t\n
+
+7200:
+paso preparacion
+7201:
+paso configuracion
+7202:
+de tarea
+7203:
+de sistema
+73:
+Error de recuperacion\n
+Error durante la recuperacion\n
+de %!%!%s\n
+%s\n
+\t\n
+%s\n
+
+7260:
+Item imposible de borrar
+7261:
+Medio almacenamiento lleno
+7262:
+Tarea desconocida
+7263:
+Por lo menos un nombre mod es demasiado\n
+largo.
+7264:
+Error escritura
+7265:
+El sistema actual no coincide con la\n
+salvaguarda
+7266:
+Error recuperando los parametros de\n
+configuracion
+7267:
+Error recuperando los parametros de\n
+configuracion
+7268:
+La version del sistema no coincide con\n
+la salvaguarda
+7269:
+El directorio carece por lo menos de un\n
+item necesario
+7270:
+
+7271:
+La estructura es demasiado profunda
+7272:
+Error escribiendo los parametros de\n
+configuracion
+7273:
+Error leyendo los parametros de\n
+configuracion
+7274:
+Error mientras escribia la salvaguarda
+7275:
+No se pudo crear el directorio
+7276:
+El directorio no existe
+7277:
+El directorio carece por lo menos de un\n
+item necesario
+7278:
+El directorio contiene items que se\n
+deben crear
+7279:
+
+7300:
+paso preparacion
+7301:
+paso configuracion
+7302:
+paso configuracion de tarea
+7303:
+paso tarea usuario
+74:
+Servidor NFS activo\n
+La conexion al servidor NFS\n
+'%s' esta trabajando.\n
+Todos los dispositivos montados remotos\n
+a este servidor estan disponibles ahora.\n
+\t\n
+
+75:
+Servidor NFS desactivado\n
+La conexion al servidor NFS\n
+'%s' se ha perdido.\n
+Todos los dispositivos montados remotos\n
+a este servidor no estan disponibles.\n
+\t\n
+
+80:
+Tarea background %s\n
+tiene una version de un modulo instalado\n
+mas antigua que el origen\n
+%s\n
+\t\n
+Reiniciar el sistema con un P-START\n
+para instalar la version mas moderna.
+81:
+Tarea background %s\n
+ha fallado al cargar una nueva version\n
+del modulo. El modulo origen es\n
+%s\n
+\t\n
+Ver mensaje previo para el motivo\n
+O reiniciar el sistema con un P-START\n
+para cargar la nueva version
+82:
+RAPID Task supervision\n
+Task %s is not running\n
+the system will be set in SysFail\n
+state. It's now impossible to change\n
+to motors on\n
+%s\n
+\t\n
+See previous messages for the cause\n
+Restart the system to reset the\n
+error state
+83:
+RAPID Task supervision\n
+Task %s is not running\n
+the system will be set in motors off\n
+state.\n
+%s\n
+\t\n
+See previous messages for the cause\n
+ 
+84:
+RAPID Task supervision\n
+Task %s is not running\n
+the main task will also stop\n
+%s\n
+\t\n
+See previous messages for the cause\n
+
+88:
+Restart not possible\n
+Restart is not possible from the\n
+current program position.\n
+The Program Pointer must be moved\n
+before restart.\n
+\t\n
+Reason:\n
+The system has been in system\n
+failure state  or\n
+the program execution is blocked.\n
+ 
+89:
+A P-Start is ordered\n
+%s\n
+\t\n
+
+8901:
+The P-Start has been ordered from\n
+the system.
+8902:
+The P-Start has been ordered manually or\n
+automatically during a configuration.
+8903:
+The P-Start has been ordered from\n
+I/O unit.
+90:
+P-Start done\n
+An ordered P-Start is done.\n
+All tasks are reset\n
+and all user programs are lost.\n
+\t\n
+
+91:
+(Re)start not possible\n
+(Re)start is not possible due to lost\n
+contact with IO module\n
+%s configured with\n
+trustlevel 3.\n
+\t\n
+

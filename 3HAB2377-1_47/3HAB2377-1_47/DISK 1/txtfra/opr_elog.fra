@@ -1,0 +1,536 @@
+21::
+0:
+Operationnel
+2:
+RAZ du programme\n
+La tache %!%!%s\n
+a ete redemarre a son\n
+point de depart.\n
+\t\n
+
+5:
+Programme arrete\n
+La tache %!%!%s\n
+est arretee. La raison est\n
+%s\n
+\t\n
+
+500:
+un stop interne ou externe est apparu
+501:
+la tache a atteint une instruction de
+502:
+Tache prete
+503:
+Tache prete pour cette etape
+504:
+la tache a atteint une instruction
+505:
+un stop interne ou externe est apparu.
+506:
+une erreur est apparue.
+507:
+Premiere instruction. Execution arriere
+508:
+Execution arriere impossible depuis
+509:
+La routine evenement pour RESET ou
+7:
+Programme lance\n
+La tache %!%!%s\n
+est lancee en execution.\n
+%s\n
+\t\n
+
+8:
+Programme relance\n
+La tache %!%!%s\n
+est relancee en execution.\n
+%s\n
+\t\n
+
+701:
+L'initiateur est la fenetre programme.
+702:
+L'initiateur est la fenetre production.
+703:
+L'initiateur est inconnu.
+704:
+L'initiateur est un client externe.
+9:
+Memoire de travail pleine\n
+Plus de memoire pour de nouvelles\n
+instructions ou donnees RAPID.\n
+La tache est %!%!%s\n
+\t\n
+Sauver le programme et relancer.
+10:
+Hors Puissance\n
+\n
+\t\n
+
+11:
+Sous Puissance\n
+\n
+\t\n
+
+12:
+Arret de securite\n
+Un contact (hors AU) est ouvert dans\n
+la chaine de securite.\n
+\t\n
+Refermer la chaine de securite; elle\n
+peut etre rompue par (si utilise):\n
+Portillon, barriere immaterielle, ou\n
+tout autre dispositif connecte dans la\n
+chaine de securite.
+13:
+Arret d'urgence\n
+Chaine de securite ouverte par un AU.\n
+Acquitter l'AU.\n
+Utiliser le bouton "motors off".\n
+\t\n
+
+14:
+Arret du systeme\n
+Erreur fatale incontournable.\n
+Redemarrage a chaud necessaire.\n
+\t\n
+
+15:
+Mode Manuel selectionne\n
+\n
+\t\n
+
+16:
+Passer en Automatique\n
+\n
+\t\n
+
+17:
+Mode automatique confirme\n
+\n
+\t\n
+
+18:
+Passer en manuel 100%\n
+Passer en manuel 100%\n
+\t\n
+
+19:
+Mode manuel 100% confirme\n
+Mode manuel 100% confirme\n
+\t\n
+
+20:
+Erreur d'execution\n
+Le programme a trouve une erreur\n
+spontanee.\n
+\t\n
+
+21:
+RAZ erreur d'execution\n
+Le programme a quitte son\n
+etat d'erreur spontanee\n
+\t\n
+
+22:
+Maintenir touche Exec.\n
+Maintenir la touche Exec. enfoncee sur\n
+l'unite de programmation\n
+\t\n
+
+23:
+Time Exec. maintenu.\n
+La touche Exec. doit etre enfoncee\n
+avant un certain delai\n
+\t\n
+
+30:
+Axes commutes\n
+\n
+\t\n
+
+31:
+Axes etalonnes\n
+\n
+\t\n
+
+32:
+Compteurs reinitialises\n
+\n
+\t\n
+
+33:
+Axes synchronises\n
+\n
+\t\n
+
+34:
+Axe non commute\n
+\n
+\t\n
+
+35:
+Axe non etalonne\n
+\n
+\t\n
+
+36:
+Compteur non reinitialise\n
+\n
+\t\n
+
+37:
+Axe non synchronise\n
+\n
+\t\n
+
+40:
+Programme charge\n
+La tache %!%!%s a charge un programme.\n
+La memoire utilisateur libre etait\n
+de %i octets avant cette operation\n
+et de %i octets apres.\n
+\t\n
+
+41:
+Programme supprime\n
+La tache %!%!%s a supprime un programme\n
+\t\n
+
+43:
+Probleme au redemarrage\n
+La tache %!%!%s ne peut pas redemarrer.\n
+\t\n
+
+44:
+Pointeur reinitialise\n
+La tache %!%!%s peut avoir change la\n
+position du pointeur de programme\n
+\t\n
+
+45:
+System redemarre\n
+Un systeme deja installe a ete\n
+redemarre\n
+\t\n
+
+4501:
+ordered warmstart.
+4502:
+it has been switched off.
+46:
+System redemarre a froid\n
+Premier demarrage apres installation\n
+\t\n
+
+47:
+La tache de fond %s\n
+refuse de demarrer\n
+%s\n
+\t\n
+
+4701:
+Tache vide
+4702:
+Mauvais etat
+4703:
+Impossible de forcer PC sur la routine
+4704:
+Impossible de passer en mode execution
+4705:
+Probleme sur ordre de demarrage
+4706:
+A cause d'une erreur de syntaxe
+48:
+Tache de fond arrete\n
+La tache %s s'est arretee sans raison %s\n
+\t\n
+
+49:
+Zone protegee non finie\n
+Un arret de la puissance est survenu\n
+au milieu d'une zone protegee\n
+pour la tache %!%s\n
+%s\n
+\t\n
+%s
+4901:
+Le systeme essaye de se reparer
+4902:
+Erreur en attente supprimee de la queue
+4903:
+Sortie en attente supprimee de la queue
+4904:
+Peut resulter d'un cycle de programme
+4905:
+La tache va redemarrer de la routine
+4906:
+RAZ des taches sur le prochain demarrage
+4907:
+Essayer de sauvegarder les programmes et
+50:
+Execution abandonnee.\n
+Le redemarrage arretera l'execution\n
+de la tache %!%.16s d'un\n
+%s\n
+\t\n
+%s
+5001:
+Routine de lancement du systeme.
+5002:
+Routine d'arret du systeme
+5003:
+Routine d'arret d'urgence.
+5004:
+Routine de demarrage du systeme.
+5005:
+Routine de redemarrage du systeme.
+5006:
+Routine de RAZ du systeme.
+5007:
+Routine interne au systeme.
+5008:
+Routine utilisateur.
+51:
+Erreur Routine evenement\n
+La tache %!%s n'a pas pu\n
+activer la routine systeme specifiee\n
+%s\n
+Cette routine est inconnue, ou comporte\n
+des erreurs.\n
+\t\n
+Inserer la routine dans un module\n
+systeme ou corriger le programme.\n
+
+52:
+Reprise du demarrage.\n
+Une reprise du mouvement a redemarre.\n
+\t\n
+
+53:
+Reprise prete.\n
+La reprise du mouvement est prete.\n
+\t\n
+
+54:
+Regain rejected\n
+Regain on path not possible one client\n
+has already order it.\n
+\t\n
+A new regain movement is ordered during\n
+an already started regain movement.\n
+Reduce the number of start order from\n
+e.g system I/O
+60:
+Test chaine "enable"\n
+La chaine "enable" est toujours testee\n
+au demarrage. Un message est envoye si\n
+ce test est mauvais.\n
+\t\n
+Si le test de la chaine "enable" est\n
+mauvais, le message suivant apparaitra\n
+"Timeout chaine enable"\n
+
+70:
+Etape sauvegarde terminee\n
+La sauvegarde %!%s est terminee\n
+\t\n
+
+7000:
+preparation sauvegarde
+7001:
+sauvegarde configuration
+7002:
+du systeme
+71:
+Erreur sauvegarde\n
+Erreur pendant la sauvegarde\n
+de %!%!%s\n
+\t\n
+
+7100:
+preparation sauvegarde
+7101:
+sauvegarde configuration
+7102:
+sauvegarde des taches
+72:
+Restauration terminee\n
+La restauration %!%s\n
+est terminee\n
+\t\n
+
+7200:
+preparation
+7201:
+configuration
+7202:
+des taches
+7203:
+du systeme
+73:
+Erreur restauration\n
+Erreur pendant la restauration\n
+de %!%!%s\n
+%s\n
+\t\n
+%s
+7260:
+Element impossible a detruire
+7261:
+Media de stockage plein
+7262:
+Tache inconnue
+7263:
+nom module trop long
+7264:
+Erreur d'ecriture
+7265:
+Incompatibilite systeme courant et\n
+sauvegarde
+7266:
+Erreur restauration configuration
+7267:
+Erreur restauration configuration
+7268:
+La version du systeme ne correspond pas\n
+a celle de la sauvegarde
+7269:
+Il manque un element
+7270:
+
+7271:
+Structure trop complexe
+7272:
+Erreur d'ecriture des parametres de\n
+configuration
+7273:
+Erreur de lecture des parametres de\n
+configuration
+7274:
+Erreur pdt ecriture sauvegarde
+7275:
+Imposs. creer repertoire
+7276:
+Repertoire inexistant
+7277:
+Il manque un element
+7278:
+Le repertoire contient des elements\n
+a creer
+7279:
+
+7300:
+preparation
+7301:
+configuration
+7302:
+configuration des taches
+7303:
+tache utilisateur
+74:
+Demarrage serveur NFS\n
+La connexion au serveur NFS\n
+'%s' fonctionne.\n
+Les peripheriques montes a distance\n
+depuis ce serveur sont disponibles.\n
+\t\n
+
+75:
+Arret serveur NFS\n
+La connexion au serveur NFS\n
+'%s' a ete perdue.\n
+Les peripheriques montes a distance\n
+depuis ce serveur sont indisponibles.\n
+\t\n
+
+80:
+La tache de fond %s\n
+a une version de module installe\n
+plus ancienne que le source\n
+%s\n
+\t\n
+Redemarrer le systeme avec un P-START\n
+pour installer la version plus recente\n
+
+81:
+La tache de fond %s\n
+n'a pu charger une nouvelle version d'un\n
+module. Le source de ce module est\n
+%s\n
+\t\n
+Voir les messages precedents\n
+Redemarrer le systeme avec un P-START\n
+pour installer la version plus recente\n
+
+82:
+RAPID Task supervision\n
+Task %s is not running\n
+the system will be set in SysFail\n
+state. It's now impossible to change\n
+to motors on\n
+%s\n
+\t\n
+See previous messages for the cause\n
+Restart the system to reset the\n
+error state
+83:
+RAPID Task supervision\n
+Task %s is not running\n
+the system will be set in motors off\n
+state.\n
+%s\n
+\t\n
+See previous messages for the cause\n
+ 
+84:
+RAPID Task supervision\n
+Task %s is not running\n
+the main task will also stop\n
+%s\n
+\t\n
+See previous messages for the cause\n
+
+88:
+Restart not possible\n
+Restart is not possible from the\n
+current program position.\n
+The Program Pointer must be moved\n
+before restart.\n
+\t\n
+Reason:\n
+The system has been in system\n
+failure state  or\n
+the program execution is blocked.\n
+ 
+89:
+A P-Start is ordered\n
+%s\n
+\t\n
+
+8901:
+The P-Start has been ordered from\n
+the system.
+8902:
+The P-Start has been ordered manually or\n
+automatically during a configuration.
+8903:
+The P-Start has been ordered from\n
+I/O unit.
+90:
+P-Start done\n
+An ordered P-Start is done.\n
+All tasks are reset\n
+and all user programs are lost.\n
+\t\n
+
+91:
+(Re)start not possible\n
+(Re)start is not possible due to lost\n
+contact with IO module\n
+%s configured with\n
+trustlevel 3.\n
+\t\n
+

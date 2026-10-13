@@ -1,0 +1,963 @@
+23::
+0:
+Hardware
+1203:
+Floppy Disk Fehler\n
+Defekte FloppyDisk oder nicht formatiert\n
+\t\n
+1. Versuch wiederholen\n
+2. Diskette austauschen
+1206:
+Floppy Disk Fehler\n
+Defekte Floppy Disk oder interner Fehler\n
+\t\n
+1. Versuch wiederholen\n
+2. Diskette austauschen\n
+3. Neustart des Systems
+1207:
+Floppy Disk Fehler\n
+Keine Floppy Disk oder\n
+Diskette nicht fertig.\n
+\t\n
+1. Versuch wiederholen
+1210:
+Floppy Disk Fehler\n
+Ungültiges Format\n
+\t\n
+1. Diskette austauschen
+1211:
+Floppy Disk Fehler\n
+Fehler bei Datenübertragung\n
+zu/von Diskette\n
+\t\n
+1. Versuch wiederholen\n
+2. Diskette austauschen\n
+3. Neustart des Systems
+1214:
+Floppy Disk Fehler\n
+Datenübertragung unterbrochen\n
+\t\n
+1. Versuch wiederholen\n
+2. Neustart des Systems
+1215:
+Floppy Disk Fehler\n
+Interner Befehl ungültig\n
+\t\n
+1. Versuch wiederholen\n
+2. Neustart des Systems
+1216:
+Floppy Disk Fehler\n
+Floppy Disk wurde während der\n
+Datenübertragung entfernt\n
+\t\n
+1. Versuch wiederholen\n
+2. Neustart des Systems
+1217:
+Floppy Disk Fehler\n
+Defekte Floppy Disk oder Laufwerk\n
+\t\n
+1. Versuch wiederholen\n
+2. Diskette austauschen\n
+3. Neustart des Systems
+1219:
+Floppy Disk Fehler\n
+Laufwerk nicht bereit\n
+\t\n
+1. Versuch wiederholen\n
+2. Neustart des Systems
+1220:
+Floppy Disk Fehler\n
+Defekte Floppy Disk oder\n
+interner Fehler\n
+\t\n
+1. Versuch wiederholen\n
+2. Diskette austauschen\n
+3. Neustart des Systems
+1221:
+Floppy Disk Fehler\n
+Datenfehler\n
+\t\n
+1. Versuch wiederholen\n
+2. Diskette austauschen\n
+3. Neustart des Systems
+1222:
+Floppy Disk Fehler\n
+Interner Fehler - Überlauf\n
+\t\n
+1. Versuch wiederholen\n
+2. Neustart des Systems
+1223:
+Defekte Floppy Disk\n
+oder interner Fehler\n
+\t\n
+1. Versuch wiederholen\n
+2. Diskette austauschen\n
+3. Neustart des Systems
+1224:
+Floppy Disk Fehler\n
+Floppy Disk schreibgeschützt\n
+\t\n
+1. Schreibschutz entfernen
+1225:
+Floppy Disk Fehler\n
+Defekte Diskette, Adressmarke fehlt\n
+\t\n
+1. Diskette austauschen
+1226:
+Floppy Disk Fehler\n
+Falsche Daten auf der Diskette\n
+\t\n
+1. Diskette austauschen
+1227:
+Floppy Disk Fehler\n
+Defekte Diskette - Zylinder fehlt\n
+\t\n
+1. Diskette austauschen
+1228:
+Floppy Disk Fehler\n
+Defekte Diskette - Zylinder defekt\n
+\t\n
+1. Diskette austauschen
+1229:
+Floppy Disk Fehler\n
+Defekte Diskette, Addressmarke\n
+in Daten defekt\n
+\t\n
+1. Diskette austauschen
+1605:
+Speicherfehler EA-Comp.\n
+\n
+\t\n
+Robotcomputer austauschen
+1606:
+Speicherfehler EA-Comp.\n
+\n
+\t\n
+Robotcomputer austauschen
+1607:
+Speicherfehler EA-Comp.\n
+\n
+\t\n
+Robotcomputer austauschen
+1608:
+Checksum Fehler EA-Comp.\n
+\n
+\t\n
+Robotcomputer austauschen
+2118:
+MC RESET ERROR.\n
+Main computer running in spite\n
+of RESET command.\n
+\t\n
+Replace main computer board
+2301:
+Speicherfehler Hauptcomp.\n
+\n
+\t\n
+Hauptcomputer austauschen
+2302:
+Speicherfehler Hauptcomp.\n
+\n
+\t\n
+Hauptcomputer austauschen
+2303:
+Speicherfehler Hauptcomp.\n
+\n
+\t\n
+Hauptcomputer austauschen
+2305:
+Speichererw. Typ Fehler\n
+\n
+\t\n
+Speichererweiterung austauschen
+1401:
+DMA Fehler\n
+DMA Übertragungsfehler im\n
+Robotcomputer\n
+\t\n
+Robotcomputer austauschen
+1402:
+DMA Fehler\n
+DMA Übertragungsfehler im\n
+Robotcomputer\n
+\t\n
+Robotcomputer austauschen
+1403:
+DMA Fehler\n
+DMA Übertragungsfehler im\n
+Robotcomputer\n
+\t\n
+Robotcomputer austauschen
+1404:
+DMA Fehler\n
+DMA Übertragungsfehler im\n
+Robotcomputer\n
+\t\n
+Robotcomputer austauschen
+1408:
+Achscomputer Fehler\n
+\n
+\t\n
+Robotcomputer austauschen
+1409:
+Robotcomputer Fehler\n
+\n
+\t\n
+Robotcomputer austauschen
+1410:
+Achscomputer Fehler\n
+\n
+\t\n
+Robotcomputer austauschen
+1411:
+Achscomputer Fehler\n
+\n
+\t\n
+Robotcomputer austauschen
+1414:
+Hauptcomputer Fehler\n
+\n
+\t\n
+1. Hauptcomputer austauschen\n
+2. Robotcomputer austauschen
+1415:
+Hauptcomputer Fehler\n
+\n
+\t\n
+Hauptcomputer austauschen
+1418:
+DMA Übertragung Fehler\n
+DMA Übertragungsfehler im\n
+Robotcomputer\n
+\t\n
+Robotcomputer austauschen
+1419:
+DMA Übertragung Fehler\n
+DMA Übertragungsfehler im\n
+Robotcomputer\n
+\t\n
+Robotcomputer austauschen
+1420:
+DMA Übertragung Fehler\n
+DMA Übertragungsfehler im\n
+Robotcomputer\n
+\t\n
+Robotcomputer austauschen
+1114:
+Bus Fehler\n
+Bus Fehler bei Zugriff auf LED\n
+auf dem Hauptcomputer.\n
+\t\n
+1. Hauptcomputer austauschen.\n
+2. Robotcomputer austauschen.
+1501:
+Batteriespannung niedrig\n
+Batteriespannung zu niedrig an\n
+Batterie 1.\n
+\t\n
+Batterie 1 austauschen.
+1502:
+Batteriespannung niedrig\n
+Batteriespannung zu niedrig an\n
+Batterie 2.\n
+\t\n
+Batterie 2 austauschen.
+1503:
+Batteriespannung niedrig\n
+Batteriespannung an beiden Batterien\n
+zu niedrig.\n
+\t\n
+Batterien austauschen.
+1505:
+Batteriekreis Fehler\n
+\n
+\t\n
+Robotcomputer austauschen
+3301:
+Fehler im Achscomputer\n
+\n
+\t\n
+Robotcomputer austauschen
+3302:
+Fehler im Achscomputer\n
+\n
+\t\n
+Robotcomputer austauschen
+3303:
+Fehler im Achscomputer\n
+\n
+\t\n
+Robotcomputer austauschen
+3304:
+Fehler im Achscomputer\n
+\n
+\t\n
+Robotcomputer austauschen
+3305:
+Speicher Achscomp. Fehler\n
+\n
+\t\n
+Robotcomputer austauschen
+3308:
+Fehler im Achscomputer\n
+\n
+\t\n
+Robotcomputer austauschen
+3309:
+Fehler im Achscomputer\n
+\n
+\t\n
+Robotcomputer austauschen
+3310:
+Fehler im Achscomputer\n
+\n
+\t\n
+Robotcomputer austauschen
+3311:
+Achscomputer\n
+Fehler im Strom Referenz Kreis.\n
+\t\n
+Robotcomputer austauschen
+3312:
+Fehler im Achscomputer\n
+Fehler bei Signal RUNNING/DRVFLT.\n
+\t\n
+1. Robotcomputer austauschen\n
+2. Treiberstufen kontrollieren
+3314:
+Fehler im Achscomputer\n
+\n
+\t\n
+Robotcomputer austauschen
+3315:
+Fehler im Achscomputer\n
+\n
+\t\n
+Robotcomputer austauschen
+3316:
+Fehler im Achscomputer\n
+Fehler im Achscomputer\n
+Loopback Komm. Fehler\n
+\t\n
+Robotcomputer austauschen
+3320:
+Fehler im Achscomputer\n
+Fehlermeldung vom Achscomputer.\n
+\t\n
+Robotcomputer austauschen
+3321:
+Fehler im Achscomputer\n
+Falscher VME-Vektor beim Test erzeugt.\n
+\t\n
+Robotcomputer austauschen
+4001:
+Bus Fehler\n
+Unerwarteter Fehler auf dem Bus\n
+während eines VME-Test.\n
+\t\n
+VME Steckkarten kontrollieren.
+4002:
+Bus Fehler\n
+Unerwarteter Antwort vom Bus\n
+während eines VME-Test.\n
+\t\n
+VME Steckkarten kontrollieren.
+4003:
+VME Fehler\n
+VME Signal SYSFAIL kann nicht\n
+deaktiviert werden.\n
+\t\n
+1. VME-Karten austauschen.\n
+2. VME Backplane austauschen.\n
+3. VME Abschlußkarte austauschen,\n
+   wenn vorhanden.
+7002:
+DSQC306 läuft nicht\n
+Hauptcomputer Software nicht geladen\n
+oder läuft nicht.\n
+\t\n
+
+7003:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7004:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7005:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7006:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7007:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7008:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7009:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7010:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7011:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7012:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7013:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7014:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7015:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7016:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7017:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7018:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7019:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7020:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7021:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7022:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7023:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7024:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7025:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7026:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7027:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7028:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7029:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7030:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7031:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7032:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7033:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7034:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7035:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7036:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7037:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7038:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7039:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7040:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7041:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7042:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7043:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7044:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7045:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7046:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7047:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7048:
+Fehler im Hauptcomputer\n
+\n
+\t\n
+Hauptcomputer austauschen
+7049:
+Schütz aktiv. Fehler\n
+Schütz für Station %s oder\n
+übergeordnetes Schütz oder anderes\n
+Schütz aktiviert nicht oder ist nicht\n
+versorgt.\n
+\t\n
+Neustart des Systems.\n
+Schütz oder übergeordnetes Schütz\n
+kontrollieren. Digitalen Ausgang zum\n
+Schütz oder dig. Eingang vom Schütz\n
+kontrollieren. Systemkarte austauschen.
+1701:
+Serieller Kanal Überlauf\n
+Serieller Kanal %.f Fehler Überlauf\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1702:
+Serieller Kanal 2\n
+Fehler Überlauf\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1706:
+Kanal Parität Fehler\n
+Serieller Kanal %.f Paritätsfehler\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1707:
+Kanal 2 Parität Fehler\n
+Serieller Kanal 2 Paritätsfehler\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1711:
+Übertragungsfehler\n
+Serieller Kanal %.f Übertragungsfehler\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1712:
+Kanal2 Übertragungsfehler\n
+Serieller Kanal 2 Übertragungsfehler\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1716:
+Kanal Fehler\n
+Serieller Kanal %.f Fehler\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1730:
+Timer %.f Fehler\n
+\n
+\t\n
+Robotcomputer austauschen
+1733:
+Serieller Kanal %.f Fehler\n
+Empfangene Daten entsprechen nicht\n
+den gesendete Daten.\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1734:
+Serieller Kanal 2 Fehler\n
+Empfangene Daten entsprechen nicht\n
+den gesendete Daten.\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1738:
+Timer / Zähler Fehler\n
+Timer / Zähler %.f Fehler\n
+\t\n
+Robotcomputer austauschen
+1742:
+Serieller Kanal 2 Fehler\n
+Handshake Fehler\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1746:
+Serieller Kanal %.f Fehler\n
+Handshake Fehler\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1747:
+Serieller Kanal %.f Fehler\n
+Interrupt Fehler\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+2235:
+DMA trans. error(MC-AXC)\n
+MC asic R4 reports internal DMA error\n
+\t\n
+1.Replace Main computer board\n
+2.Restart system, if error remains :\n
+3.Replace Robot computer board
+2244:
+DMA timeout err.(MC-AXC)\n
+DMA transfer not ready within time\n
+limits\n
+\t\n
+1.Check VME bus.\n
+2.Replace Main computer board or\n
+3.Replace Robot computer board
+2246:
+DMA trans. error(MC-AXC)\n
+MC asic R4 DMA ready flag not\n
+activated\n
+\t\n
+1.Replace Main computer board
+2247:
+Mailbox1 Interrupt Fehler\n
+Mailbox 1 Interruptfehler auf\n
+EA-Computer.\n
+\t\n
+Robotcomputer austauschen
+2248:
+Mailbox2 Interrupt Fehler\n
+Mailbox 2 Interruptfehler auf\n
+EA-Computer.\n
+\t\n
+Robotcomputer austauschen
+2254:
+Main computer error\n
+Main computer is not able to activate\n
+VME signal SYSFAIL.\n
+\t\n
+1.Replace Main computer board.
+2255:
+Main computer error\n
+Main computer is not able to\n
+deactivate VME signal SYSFAIL.\n
+\t\n
+1.Replace Main computer board.
+2256:
+DMA transf. error(MC-AXC)\n
+Test of pattern in AXC memory failed\n
+\t\n
+1.Replace Main computer board
+2257:
+DMA transf. error(MC-AXC)\n
+Test of pattern in MC memory failed\n
+\t\n
+1.Replace Main computer board
+1108:
+Serieller Kanal Fehler\n
+Fehler auf seriellem Kanal %.f\n
+\t\n
+1. Kommunikations Parameter\n
+   kontrollieren.\n
+2. Robotcomputer austauschen.
+1115:
+Serieller Kanal 1 Fehler\n
+Empfangene Daten entsprechen nicht\n
+den gesendete Daten.\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1116:
+Überlauf seriellen Kanal1\n
+seriellen Kanal 1\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1117:
+Kanal 1 Parität Fehler\n
+\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1118:
+Kanal1 Übertragungsfehler\n
+\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1119:
+Kanal 1 Störungen/Fehler\n
+\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1130:
+Port Fehler\n
+\n
+\t\n
+Robotcomputer austauschen
+1131:
+SYSRESET keine Funktion\n
+\n
+\t\n
+VME Buskarte austauschen\n
+1. Robotcomputer kontrollieren\n
+2. Andere VME Buskarten kontrollieren\n
+3. Backplane kontrollieren
+1132:
+Fehler ser. Kanal 2\n
+Empfangene Daten entsprechen nicht\n
+den übertragenen Daten.\n
+\t\n
+1. Parameter -Kommunikation-\n
+   kontrollieren.\n
+2. Robotcomputer austauschen.
+1133:
+Überlauf ser. Kanal 2\n
+\n
+\t\n
+1. Parameter -Kommunikation-\n
+   kontrollieren.\n
+2. Robotcomputer austauschen.
+1134:
+Paritätsfehler Kanal 2\n
+\n
+\t\n
+1. Parameter -Kommunikation-\n
+   kontrollieren.\n
+2. Robotcomputer austauschen.
+1135:
+Protokollfehler Kanal 2\n
+\n
+\t\n
+1. Parameter -Kommunikation-\n
+   kontrollieren.\n
+2. Robotcomputer austauschen.
+1136:
+Störungen Kanal 2\n
+\n
+\t\n
+1. Parameter -Kommunikation-\n
+   kontrollieren.\n
+2. Robotcomputer austauschen.
+1147:
+IO computer error\n
+IO computer is not able to activate\n
+VME signal SYSFAIL.\n
+\t\n
+1.Replace IO computer board.
+1148:
+IO computer error\n
+IO computer is not able to\n
+deactivate VME signal SYSFAIL.\n
+\t\n
+1.Replace IO computer board.
+3150:
+Int. Achscomputer Fehler\n
+Achscomputer gestoppt durch\n
+HW Interrupt wegen Interrupt Fehler.\n
+\t\n
+System neu booten\n
+Robotcomputer austauschen
+3158:
+Achscomp. Takt Treiber\n
+Fehler Taktrate Treiber Achscomputer.\n
+Hauptcomputer antwortet nicht auf\n
+Anfragen.\n
+\t\n
+System neu booten\n
+Hauptcomputer austauschen
+3159:
+Einricht. Geschw. Warnung\n
+Max. Geschwindigkeit im Einrichtbetrieb\n
+überschritten für Achse/Kanal %.f.\n
+\t\n
+Kontrolle Massendefinition der Last.\n
+Kontrolle der Parameter ext. Achsen.\n
+Kontrolle auf Singularität.\n
+Kontrolle/Austausch Treiberstufe.
+3201:
+Lesefehler Achscomp.\n
+Fehler beim Lesen des Achscomputer.\n
+Der Achscomputer hat keine korrekten\n
+Daten zurückgegeben.\n
+\t\n
+Systemkonfiguration kontrollieren\n
+System neu booten\n
+Robotcomputer austauschen
+3202:
+Schreibfehler Achscomp.\n
+Fehler beim Schreiben des Achscomputer.\n
+Der Achscomputer hat keine korrekten\n
+Daten zurückgegeben.\n
+\t\n
+Systemkonfiguration kontrollieren\n
+System neu booten\n
+Robotcomputer austauschen
+3203:
+Ein-/Aus Fehler Achscomp.\n
+Fehler im Treiber des Achscomputers.\n
+\t\n
+Restart des Systems\n
+System neu booten\n
+Robotcomputer austauschen
+3210:
+Feedback Position Fehler\n
+Fehler beim Lesen des Feedback\n
+der Achse %.f.\n
+\t\n
+System neu booten\n
+Hauptcomputer austauschen
+3211:
+Positionssteuerung Fehler\n
+Positionssteuerung kann nicht in der\n
+zulässigen Zeit erfolgen.\n
+\t\n
+System neu booten.\n
+E/A Verbindungen auf Störungen\n
+kontrollieren.
+3212:
+DMA Timeout Fehler\n
+Fehler bei DMA Zugriff von Haupt-\n
+computer zum Achscomputer.\n
+\t\n
+System neu booten.\n
+Hauptcomputer und Achscomputer\n
+austauschen.
+3213:
+DMA Operation Fehler\n
+Fehler bei DMA Operation vom Haupt-\n
+computer zum Achscomputer.\n
+\t\n
+System neu booten.\n
+Hauptcomputer und Achscomputer\n
+austauschen.
+3220:
+Achscomputer Fehler\n
+Achscomputer hat Fehlercode über\n
+Hardwarefehler zurückgemeldet.\n
+\t\n
+System neu booten\n
+Robotcomputer austauschen

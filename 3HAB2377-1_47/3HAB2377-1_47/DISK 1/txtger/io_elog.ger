@@ -1,0 +1,935 @@
+27::
+0:
+E/A & Kommunikation
+1000:
+Bus Name ungültig\n
+Beschreibung\Ursache:\n
+- Treiber %s: hat\n
+  ungültigen -Bus- Namen\n
+\t\n
+Kontrolle:\n
+1. -Bus- Name für den Treiber ändern.
+1001:
+Identische Adressen\n
+Beschreibung\Ursache:\n
+- Gleiche Adresse für %s und %s.\n
+\t\n
+Kontrolle:\n
+1. Adresse kontrollieren.\n
+2. Bus kontrollieren.
+1002:
+Ungültiger Treiber\n
+Beschreibung\Ursache:\n
+- Einheit %s: hat nicht spez. Treiber.\n
+\t\n
+Kontrolle:\n
+1. Treiber gegen den für die Einheit\n
+   spezifizierten kontrollieren .
+1003:
+Ungültige Einheit\n
+Beschreibung\Ursache:\n
+- Die für das Signal spez. Einheit %s\n
+  ist nicht in der Auswahl Liste der\n
+  Einheiten spezifiziert.\n
+\t\n
+Kontrolle:\n
+1. Name der Einheit ändern.\n
+2. Neue Einheit zur Auswahl Liste\n
+    hinzufügen.
+1004:
+Ungültige Signallänge\n
+Beschreibung\Ursache:\n
+- Die Länge des dig. Signals %s\n
+  muß 1 sein.\n
+\t\n
+Kontrolle:\n
+1. Länge des Signals auf 1 ändern\n
+   oder entfernen.
+1005:
+Ungültige Filterzeit\n
+Beschreibung\Ursache:\n
+- Signal %s: Die Zeit für Filter Passiv\n
+  sollte 0 oder %d - %d ms sein.\n
+\t\n
+Kontrolle:\n
+1. Filterzeit ändern.
+1006:
+Ungültige Filterzeit\n
+Beschreibung\Ursache:\n
+- Signal %s: Die Zeit für Filter Aktiv\n
+  sollte 0 oder %d - %d ms sein.\n
+\t\n
+Kontrolle:\n
+1. Filterzeit ändern.
+1007:
+Logischer Wert unzulässig\n
+Beschreibung\Ursache:\n
+- Signal %s: Logisch Max. ist\n
+  <  oder = Logisch Min.\n
+\t\n
+Kontrolle:\n
+1. Werte korrigieren.
+1008:
+Phys. Wert unzulässig\n
+Beschreibung\Ursache:\n
+- Signal %s: Phys. Max. ist\n
+  < oder = Phys. Min.\n
+\t\n
+Kontrolle:\n
+1. Werte korrigieren.
+1009:
+Typ ungültig\n
+Beschreibung\Ursache:\n
+- Signal %s: Der Typ des Signals\n
+  ist ungültig.\n
+\t\n
+Kontrolle:\n
+1. Typ ändern.
+1010:
+Signal außerhalb Bereich\n
+Beschreibung\Ursache:\n
+- Signal %s: Phys.Signalnr.\n
+  + Länge -1 dürfen nicht die max. phys.\n
+  Anzahl der Signale für die Einheit\n
+  überschreiten. Max. Wert = %d\n
+\t\n
+Kontrolle:\n
+1. Phys. Signalnummer ändern.\n
+2. Länge ändern.
+1015:
+Überlauf dig. Eingänge\n
+Beschreibung\Ursache:\n
+- Anzahl der dig. Eingänge für\n
+  Karte %s ist größer als %d.\n
+\t\n
+Kontrolle:\n
+1. Anzahl der Eingänge reduzieren.
+1016:
+Überlauf dig. Ausgänge\n
+Beschreibung\Ursache:\n
+- Anzahl der dig. Ausgänge für\n
+  Karte %s ist größer\n
+  als %d.\n
+\t\n
+Kontrolle:\n
+1. Anzahl der Ausgänge reduzieren.
+1017:
+Kein aktives Signal\n
+Beschreibung\Ursache:\n
+- Aktives Signal für Querverbindung\n
+  fehlt.\n
+\t\n
+Kontrolle:\n
+1. Ein aktives Signal muß gegeben sein.
+1018:
+Überlauf aktives Signal\n
+Beschreibung\Ursache:\n
+-Anzahl der aktiven Signale für\n
+ Querverbindung zu groß.\n
+\t\n
+Kontrolle:\n
+1. Nur ein aktives Signal darf\n
+    vorhanden sein.
+1019:
+Fehlende Signaldefinition\n
+Beschreibung\Ursache:\n
+- Das Signal: %s für die\n
+  Querverbindung ist nicht definiert.\n
+\t\n
+Kontrolle:\n
+1. Signalname in der Signal Auswahl\n
+   definieren.
+1020:
+Kein Ziel_Signal\n
+Beschreibung\Ursache:\n
+- Fehlendes Ziel_Signal.\n
+\t\n
+Kontrolle:\n
+1. Mindestens ein Ziel_Signal\n
+    muß vorhanden sein.
+1021:
+Identische Signale in\n
+Querverbindung.\n
+Beschreibung\Ursache:\n
+- Das Signal: %s, erscheint als\n
+  -von- und -zu- .\n
+\t\n
+Kontrolle:\n
+1. Das gleiche Signal kann nicht für\n
+    -von- und -zu- verwendet werden.
+1022:
+Phys. max. Wert zu groß\n
+Beschreibung\Ursache:\n
+- Signal: %s\n
+  Der phys. max. Wert > %.3f\n
+\t\n
+Kontrolle:\n
+1. Wert in Konfiguration ändern.
+1023:
+Phys. min. Wert zu klein\n
+Beschreibung\Ursache:\n
+- Signal: %s\n
+  Der phys. min. Wert < %.3f\n
+\t\n
+Kontrolle:\n
+1. Wert in Konfiguration ändern.
+1024:
+Phys. Wert zu groß\n
+Beschreibung\Ursache:\n
+- Signal: %s\n
+  Aktueller Wert = %d > max. Wert = %d.\n
+  Wert = max. Wert setzen.\n
+\t\n
+Kontrolle:\n
+1. Phys. max. Wert in der\n
+   Konfiguration ändern.
+1025:
+Phys. Wert zu klein\n
+Beschreibung\Ursache:\n
+- Signal: %s\n
+  Aktueller Wert = %d < min. Wert = %d.\n
+  Wert = min. Wert setzen.\n
+\t\n
+Kontrolle:\n
+1. Phys. min. Wert in der\n
+   Konfiguration ändern.
+1026:
+Logischer Wert zu groß\n
+Beschreibung\Ursache:\n
+- Signal: %s\n
+  Aktueller Wert = %d > max. Wert = %d.\n
+  Wert = max. Wert setzen.\n
+\t\n
+Kontrolle:\n
+1. Logischen max. Wert in der\n
+   Konfiguration ändern.
+1027:
+Logischer Wert zu klein\n
+Beschreibung\Ursache:\n
+- Signal: %s\n
+  Aktueller Wert = %d < min. Wert = %d.\n
+  Wert = min. Wert setzen.\n
+\t\n
+Kontrolle:\n
+1. Logischen min. Wert in der\n
+   Konfiguration ändern.
+1033:
+Dig. Eingang unzulässig\n
+Beschreibung\Ursache:\n
+- Die Anzahl der dig. Eingänge ist\n
+  unzulässig für Kartenaddresse %d\n
+  Max. Eingänge %d.\n
+\t\n
+Kontrolle:\n
+1. Konfiguration ändern.
+1034:
+Dig. Ausgang unzulässig\n
+Beschreibung\Ursache:\n
+- Die Anzahl der dig. Ausgänge ist\n
+  unzulässig für Kartenaddresse %d.\n
+  Max. Ausgänge %d.\n
+\t\n
+Kontrolle:\n
+1. Konfiguration ändern.
+1036:
+Name unzulässig\n
+Beschreibung\Ursache:\n
+- Die Anzahl der Zeichen\n
+  im Namen %s\n
+  ist größer als %d Zeichen\n
+  oder der Name fehlt.\n
+\t\n
+Kontrolle:\n
+1. Neuen Namen vergeben.
+1037:
+E/A Querverbindung Fehler\n
+Beschreibung\Ursache:\n
+- Das Signal %s erscheint bei\n
+  -von- und -bis-\n
+  in der gleichen Verbindung.\n
+\t\n
+Kontrolle:\n
+1. Konfiguration der Querverbindung\n
+   ändern.
+1038:
+E/A Querverbindungstiefe\n
+Beschreibung\Ursache:\n
+- Die Querverbindung ist zu tief.\n
+  Erstes Signal Name: %s\n
+\t\n
+Kontrolle:\n
+1. Querverbindungstiefe ändern.
+1041:
+Analog Ausgang Überlauf\n
+Beschreibung\Ursache:\n
+- Anzahl der analog Ausgänge für\n
+  Karte %s ist größer als %d.\n
+\t\n
+Kontrolle:\n
+1. Die Anzahl der analog Ausgänge\n
+   reduzieren.
+1042:
+Analog Eingang Überlauf\n
+Beschreibung\Ursache:\n
+- Anzahl der analog Eingänge für\n
+  Karte %s ist größer als %d.\n
+\t\n
+Kontrolle:\n
+1. Die Anzahl der analog Eingänge\n
+   reduzieren.
+1043:
+Signaltyp Fehler\n
+Beschreibung\Ursache:\n
+- Der spezifizierte Typ für Signal %s\n
+  ist unzulässig für die spez. Karte.\n
+\t\n
+Kontrolle:\n
+1. Anderen Typ wählen.\n
+2. Andere Karte wählen.
+1044:
+Phys. Signal Überlauf\n
+Beschreibung\Ursache:\n
+- Die Anzahl der Phys., oder Länge,\n
+  oder Phys. und Länge für Signal %s\n
+  ist größer als %d.\n
+\t\n
+Kontrolle:\n
+1. Phys. Signal Nummer ändern.\n
+2. Länge ändern.
+1045:
+Filter Spezif. Fehler\n
+Beschreibung\Ursache:\n
+- Signal %s : Für diesen Typ Signal\n
+  kann keine Filterzeit spez. werden.\n
+\t\n
+Kontrolle:\n
+1. Filterzeit auf 0 setzen oder\n
+   entfernen.
+1046:
+Skalierungs Fehler\n
+Beschreibung\Ursache:\n
+- Signal %s: Keine Skalierung möglich.\n
+\t\n
+Kontrolle:\n
+1. Skalierung entfernen.
+1049:
+Parameter Invert Fehler\n
+Beschreibung\Ursache:\n
+- Signal %s: Dieser Typ von Signal\n
+  kann nicht invertiert werden.\n
+\t\n
+Kontrolle:\n
+1. Nur digitale Signale können\n
+   invertiert werden.
+1050:
+Quersignal nicht digital\n
+Beschreibung\Ursache:\n
+- Signal %s: Kein digitales Signal.\n
+\t\n
+Kontrolle:\n
+1. Nur digitale Signale können\n
+   querverbunden werden.
+1052:
+Querver. Tabelle voll\n
+Beschreibung\Ursache:\n
+- Die Summe der -von- Signale\n
+  addiert mit der Summe der\n
+  -zu- Signale darf größer sein\n
+  als %d.\n
+\t\n
+Kontrolle:\n
+1. Anzahl der Signale reduzieren.
+1053:
+SPS Verbindung Fehler\n
+Beschreibung\Ursache:\n
+- Kein Zugriff auf SPS Karte, da die\n
+  Kommunikation mit SPS fehlerhaft.\n
+\t\n
+Kontrolle:\n
+1. Kabel zum SPS ?\n
+2. SPS eingeschaltet ?
+1054:
+Falscher Signaltyp\n
+Beschreibung\Ursache:\n
+- Signal %s:\n
+  Der Typ des Signals ist falsch.\n
+\t\n
+Kontrolle:\n
+1. Typ ändern.
+1055:
+Ungültiger Signalname\n
+Beschreibung\Ursache:\n
+- Symbol %s: ist nicht definiert.\n
+\t\n
+Kontrolle:\n
+1. Namen ändern.
+1056:
+Netzfehler Speicher voll\n
+Beschreibung\Ursache:\n
+- Symbol %s: für Netzfehler Speicher\n
+  kann nicht gesetzt.\n
+  Tabelle für Netzfehler ist voll.\n
+\t\n
+Kontrolle:\n
+1. Tabellengröße Startupdatei\n
+   vergrößern.\n
+2. Einige andere Signale aus der\n
+   Speicherliste entfernen.
+1058:
+Kein Kontakt E/A Einheit\n
+Beschreibung\Ursache:\n
+- Kein Kontakt mit E/A Einheit %s\n
+  am Bus %s.\n
+\t\n
+Kontrolle:\n
+1. Adressen aller E/A Einheiten am\n
+   entsprechenden Bus kontrollieren.\n
+2. Adresse ändern.
+1059:
+Konfig. CAN Knoten Fehler\n
+Beschreibung\Ursache:\n
+- Fehler bei der Konfiguration des\n
+  CAN Knoten an Knotenadresse %d.\n
+\t\n
+Kontrolle:\n
+1. Konfiguration des CAN Knoten an\n
+   der entsprechenden Knotenadresse\n
+   ändern.
+1061:
+CAN Bus Fehler\n
+Beschreibung\Ursache:\n
+- Anormale Anzahl von Fehlern\n
+  am Bus %s festgestellt.\n
+\t\n
+Kontrolle:\n
+1. Bus kontrollieren.\n
+2. Neustart des Systems.
+1072:
+Signal n. sicher gesetzt\n
+Beschreibung\Ursache:\n
+- Signal %s\n
+  hat das Store Attribut nicht auf\n
+  YES gesetzt.\n
+\t\n
+Kontrolle:\n
+1. Store Attribut setzen.
+1073:
+Fehler auf E/A Bus\n
+Beschreibung\Ursache:\n
+- Anormale Anzahl von Fehlern\n
+  auf E/A Bus festgestellt.\n
+  Der Stecker für externe CAN E/A\n
+  wurde abgeschaltet.\n
+\t\n
+Kontrolle:\n
+1. Busabschluß kontrollieren.\n
+2. E/A Bus auf Kurzschluß kontrollieren.\n
+3. Neustart des Systems.
+1074:
+Konfiguration fehlerhaft\n
+Beschreibung\Ursache:\n
+- Der IBS starting quarter und rack\n
+  size ist außerhalb des Wertebereichs\n
+  für Karte %s.\n
+\t\n
+Kontrolle:\n
+1. Für starting quarter 1 muß rack size\n
+   kleiner als 5 sein.
+1076:
+Komm. Fehler von rtp1\n
+Beschreibung\Ursache:\n
+- Keine Antwort von der\n
+  seriellen Verbindung.\n
+\t\n
+Kontrolle:\n
+1. Gerät oder Verbindung kontrollieren.
+1077:
+Komm. Fehler von rtp1\n
+Beschreibung\Ursache:\n
+- Empfangene Daten können nicht\n
+  weiter geschickt werden.\n
+\t\n
+Kontrolle:\n
+1. Kommunikationsfluß kontrollieren.
+1078:
+Komm. Fehler von rtp1\n
+Beschreibung\Ursache:\n
+- Die Antwort von dem Gerät hat\n
+  keine gültige Zeichenfolge.\n
+\t\n
+Kontrolle:\n
+1. Kontrolle der seriellen Verbindung\n
+   auf Störungen.
+1079:
+Puls. Ausgangsgruppe\n
+Beschreibung\Ursache:\n
+- Pulsen einer Gruppe von Ausgängen\n
+  ist unzulässig.\n
+\t\n
+Kontrolle:\n
+1. ---
+1080:
+Tabelle Treiber voll\n
+Beschreibung\Ursache:\n
+- Die Anzahl der Treiber darf\n
+  %d nicht überschreiten.\n
+\t\n
+Kontrolle:\n
+1. Anzahl der Treiber reduzieren.\n
+2. Anzahl der zulässigen Treiber\n
+   erhöhen.
+1081:
+Phys. Tabelle voll\n
+Beschreibung\Ursache:\n
+- Die Anzahl der phys. Signale darf\n
+  %d nicht überschreiten.\n
+\t\n
+Kontrolle:\n
+1. Anzahl der phys. Signale reduzieren.\n
+2. Anzahl der zulässigen phys. Signale\n
+   erhöhen.
+1082:
+Tabelle Signale voll\n
+Beschreibung\Ursache:\n
+- Die Anzahl der definierten Signale\n
+  + der Bedienfeldsignale darf\n
+  %d nicht überschreiten.\n
+\t\n
+Kontrolle:\n
+1. Anzahl der definierten Signale\n
+   reduzieren.\n
+2. Anzahl der zulässigen definierten\n
+   Signale erhöhen.
+1083:
+Tabelle Symbole voll\n
+Beschreibung\Ursache:\n
+- Die Anzahl der Symbole\n
+  darf %d nicht überschreiten.\n
+\t\n
+Kontrolle:\n
+1. Anzahl der Symbole reduzieren.\n
+2. Anzahl der zulässigen Symbole\n
+   erhöhen.
+1084:
+Tabelle Triggr voll\n
+Beschreibung\Ursache:\n
+- Die Anzahl der bezeichneten Signale\n
+  darf %d nicht überschreiten.\n
+\t\n
+Kontrolle:\n
+1. Anzahl der bezeichneten Signale\n
+   reduzieren.\n
+2. Anzahl der zulässigen bezeichneten\n
+   Signale erhöhen.
+1085:
+Tabelle Einheiten voll\n
+Beschreibung\Ursache:\n
+- Die Anzahl der Karten darf\n
+  %d nicht überschreiten.\n
+\t\n
+Kontrolle:\n
+1. Anzahl der definierten Karten\n
+   reduzieren.\n
+2. Anzahl der zulässigen definierten\n
+   Karten erhöhen.
+1094:
+Zu viele Querverbind.\n
+Beschreibung\Ursache:\n
+- Die Querverbindung hat zu viele\n
+  "von" Signals : %s\n
+\t\n
+Kontrolle:\n
+1. Querverbindung kontrollieren.
+1095:
+Zu langer Querverb. str\n
+Beschreibung\Ursache:\n
+- Der "von" Teil im Querverb. string\n
+  ist zu lang: %s\n
+\t\n
+Kontrolle:\n
+1. Querverbindung kontrollieren.
+1097:
+Parameter Speicherfehler\n
+Beschreibung\Ursache:\n
+- Signal %s: Dieser Typ von Signal\n
+  kann keine Option -speichern- haben.\n
+\t\n
+Kontrolle:\n
+1. Nur digitale Signale können\n
+   -speichernd sein.
+1098:
+Kontakt verl. NFS Server\n
+Beschreibung\Ursache:\n
+- Der Kontakt zum NFS Server\n
+   '%s' ist abgebrochen.\n
+\t\n
+Kontrolle:\n
+1. NFS Server kontrollieren.\n
+2. Netzwerkverbindung kontrollieren.\n
+3. Konfiguration kontrollieren.
+1099:
+Kontakt verl. NFS Server\n
+Beschreibung\Ursache:\n
+- Der Kontakt zum NFS Server\n
+   '%s' ist abgebrochen.\n
+\t\n
+Kontrolle:\n
+1. NFS Server kontrollieren.\n
+2. Netzwerkverbindung kontrollieren.\n
+3. Konfiguration kontrollieren.
+1101:
+Unbekannter Busname\n
+Beschreibung\Ursache:\n
+- Karte%s: Unbekannter\n
+  Busname %s\n
+\t\n
+Kontrolle:\n
+1. Namen des Bus für die Karte in der\n
+   Einheit Typ Konfiguration ändern.
+1102:
+DeviceNet inkompatibel\n
+Beschreibung\Ursache:\n
+- Knoten %d:\n
+  Interne Info:\n
+  %s,%d\n
+  (%s)\n
+\t\n
+Kontrolle:\n
+1. Knoten vom Bus trennen\n
+2. Verbindung mit ABB aufnehmen.
+1103:
+Fehler auf E/A Bus\n
+Beschreibung\Ursache:\n
+- Anormale Anzahl von Fehlern\n
+  am Bus %s festgestellt.\n
+  Der Stecker für den Roboter CAN E/A\n
+  wurde abgeschaltet.\n
+\t\n
+Kontrolle:\n
+1. Busabschluß kontrollieren.\n
+2. E/A Bus auf Kurzschluß kontrollieren.\n
+3. Neustart des Systems.
+1104:
+Fehler auf E/A Bus\n
+Beschreibung\Ursache:\n
+- Anormale Anzahl von Fehlern\n
+  am Bus %s festgestellt.\n
+  Die Stecker für externe CAN E/A und\n
+  Roboter CAN E/A  wurden abgeschaltet.\n
+\t\n
+Kontrolle:\n
+1. Busabschluß kontrollieren.\n
+2. E/A Bus auf Kurzschluß kontrollieren.\n
+3. Neustart des Systems.
+1113:
+IBS Anwend.befehl Fehler\n
+Beschreibung\Ursache:\n
+- Warnung wegen: %d\n
+\t\n
+Kontrolle:\n
+1. InterBus-S Konfiguration\n
+   entsprechend dem Fehlercode\n
+   kontrollieren.
+1114:
+Ungültige IP Adresse\n
+Beschreibung\Ursache:\n
+'%s' ist keine gültige IP Adresse.\n
+\t\n
+Kontrolle:\n
+1. Konfiguration der Kommunikation\n
+   kontrollieren.
+1115:
+Ungültige Subnet Mask\n
+Beschreibung\Ursache:\n
+'%s' ist keine gültige Subnet Mask\n
+\t\n
+Kontrolle:\n
+1. Konfiguration der Kommunikation\n
+   kontrollieren.
+1117:
+Batterieüberwachung\n
+Beschreibung\Ursache:\n
+Die Batteriekapazität = %d\n
+\t\n
+
+1118:
+Batterieüberwach. Status\n
+Beschreibung\Ursache:\n
+Die Batterieüberwachung ist in einem\n
+falschen Zustand.\n
+Der Zustand ist = %s\n
+\t\n
+
+1119:
+E/A-Einheit Tabelle voll\n
+Beschreibung\Ursache:\n
+- Max. Anzahl von E/A-Einheiten\n
+  vom Typ %s überschritten.\n
+  Max. = %d\n
+\t\n
+Kontrolle:\n
+1. Anzahl der E/A-Einheiten reduzieren.
+1120:
+RAP Option nicht inst.\n
+Beschreibung\Ursache:\n
+- Die Option RAP Kommunikation muß\n
+  zur Konfiguration von RAP oder zum\n
+  Verwenden von SCWrite installiert\n
+  sein.\n
+\t\n
+Kontrolle:\n
+1. Das System neu booten und die Option\n
+   RAP Kommunikation installieren.
+1121:
+RAP Start-Up Fehler\n
+Beschreibung\Ursache:\n
+- Die Initialisierung von RAP ist\n
+  fehlgeschlagen.\n
+\t\n
+Kontrolle:\n
+1. Beschreibung im internen Log\n
+   kontrollieren.
+1122:
+Falsche IP Adresse\n
+Beschreibung\Ursache:\n
+- Die Adresse'%s'\n
+  im Protokoll '%s'\n
+  ist keine richtige IP Adresse.\n
+\t\n
+Kontrolle:\n
+1. Adresse ändern.
+1123:
+Kein passendes Protokoll\n
+Beschreibung\Ursache:\n
+Das Übertragungsprotokoll '%s'\n
+beschr. im Anwendungsprotokoll '%s'\n
+konnte nicht gefunden werden.\n
+\t\n
+Kontrolle:\n
+1. Übertragungsprotokoll ändern.
+1124:
+Falsches Protokoll für NFS\n
+Beschreibung\Ursache:\n
+Das Übertragungsprotokoll  für\n
+das NFS Protokoll '%s' muß\n
+TCP/IP sein.\n
+\t\n
+Kontrolle:\n
+1. Übertragungsprotokoll ändern.
+1125:
+Mount Erlaubnis verw.\n
+Beschreibung\Ursache:\n
+Erlaubnis wurde verweigert\n
+das Verzeichnis '%s'\n
+auf dem Server '%s'\n
+einzurichten.\n
+\t\n
+Kontrolle:\n
+1. Anwender- oder Gruppen ID ändern.
+1126:
+Verzeichnis nicht export.\n
+Beschreibung\Ursache:\n
+Einrichten Verzeichnis '%s'\n
+als '%s' fehlgeschlagen, da\n
+nicht auf  Server '%s' vorhanden.\n
+Protokoll: '%s'.\n
+\t\n
+Kontrolle:\n
+1. Verzeichnis erst auf den Server\n
+   exportieren.\n
+
+1127:
+ID's sind nicht gleich\n
+Beschreibung\Ursache:\n
+Die Anwender- und Gruppen ID's\n
+müssen für alle -Remote Disks- den\n
+gleichen Wert haben.\n
+\t\n
+Kontrolle:
+1128:
+Ethernet Opt. nicht inst.\n
+Beschreibung\Ursache:\n
+- Die Option Ethernet Services wurde\n
+  nicht installiert für den Zugriff auf\n
+  -Remote Mounted Disks-\n
+\t\n
+Kontrolle:\n
+1. Das System neu booten und die Option\n
+   Ethernet Services installieren.
+1129:
+Zu viele -Remote Disks-\n
+Beschreibung\Ursache:\n
+Die maximale Anzahl von -Remote\n
+Mounted Disks- ist '%d'.\n
+\t\n
+Kontrolle:\n
+1. Anzahl der -Remote Mounted Disks-\n
+   reduzieren.
+1130:
+Zu viele -Remote Server-\n
+Beschreibung\Ursache:\n
+Die maximale Anzahl von Servern für\n
+-Remote Mounted Disks- ist '%d'.\n
+\t\n
+Kontrolle:\n
+1. Anzahl der Servers reduzieren.
+1131:
+Could not mount directory\n
+Beschreibung\Ursache:\n
+Einrichten Verzeichnis '%s'\n
+auf  dem Computer '%s'\n
+ist fehlgeschlagen.\n
+Protokoll: '%s'.\n
+\t\n
+Kontrolle:\n
+1. NFS Server-Setup kontrollieren.
+1132:
+Batterieüberwachung block.\n
+Beschreibung\Ursache:\n
+Die Batterieüberwachung ist wegen\n
+Netz Ein/Aus blockiert.\n
+Wird freigegeben %s\n
+\t\n
+Kontrolle:
+1133:
+Batterie nicht geladen\n
+Beschreibung\Ursache:\n
+Die Batterie ist nicht geladen nach\n
+der ersten Kontrolle des Ladestatus.\n
+\t\n
+Kontrolle:\n
+1. Kontrolle ob das -batlow Signal-\n
+   an die DSQC347 angeschlossen ist.\n
+2. Batterieanschlüsse kontrollieren.\n
+3. Batterie kontrollieren.
+1137:
+Fehlercode von Einheit\n
+Beschreibung\Ursache:\n
+Folgender Fehler wurde zurückgegeben:\n
+%s\n
+\t\n
+Kontrolle:\n
+1. Konfiguration -Einheit-\n
+   kontrollieren.
+1139:
+Zugriff Fehler von EA\n
+Beschreibung\Ursache:\n
+- Kann Signal %s\n
+  nicht Schreiben/Lesen wegen\n
+  Kommunikationsfehler.\n
+\t\n
+Kontrolle:\n
+1. Kontrolle des Reports:\n
+    'No contact with I/O unit'\n
+   wegen der Ursache.
+1140:
+Parameter akt high Fehler\n
+Beschreibung\Ursache:\n
+- Signal %s:\n
+  Dieser Typ von Signal kann nicht\n
+  auf -aktiv high- gesetzt werden.\n
+\t\n
+Kontrolle:\n
+1. Nur Ausgangssignale können auf\n
+   -aktiv high- gesetzt werden.
+1141:
+Anfangswert aus Bereich\n
+Beschreibung\Ursache:\n
+- Der Anfangswert für das\n
+  Signal %s\n
+  ist ausherhalb des Bereichs.\n
+\t\n
+Kontrolle:\n
+1. Anfangswert in der Konfiguration\n
+   ändern.
+1142:
+Param. Anfangswert Fehler\n
+Beschreibung\Ursache:\n
+- Signal %s:\n
+  Diesem Typ von Signal kann kein\n
+  Anfangswert zugewiesen werden.\n
+\t\n
+Kontrolle:\n
+1. Nur Ausgangssignalen können\n
+   Anfangswert zugewiesen werden.
+1143:
+CTS/RTS unzulässig\n
+Beschreibung\Ursache:\n
+- Serieller Kanal %s:\n
+  kann die Option RTS/CTS.\n
+  nicht haben.\n
+\t\n
+Kontrolle:\n
+1. Option aus der Konfiguration\n
+   entfernen.
+1146:
+Subscribe Fehler\n
+Beschreibung\Ursache:\n
+- maxlimit ist kleiner als minlimit\n
+  maxlimit = %f minlimit = %f.\n
+\t\n
+Kontrolle:\n
+1. Korrektur durchführen und erneuter\n
+   Versuch.
+1153:
+Can't access parameter\n
+Description\Reason:\n
+- Unit %s has parameters\n
+  that can't be edited from\n
+  the teach pendant.\n
+\t\n
+Check list:\n
+1. Save the EIO configuration to\n
+   a file\n
+2. Use a text editor to change\n
+   the parameters
+1156:
+IPC queue full\n
+Description\Reason:\n
+- The ipc queue was full,\n
+  when sending to trap routine.\n
+  errno = %x\n
+\t\n
+Check list:\n
+1. Restart the system
+1157:
+Invalid app type\n
+Description\Reason:\n
+- Com Unit %s: has an unspecified\n
+  Com app type named: %s.\n
+\t\n
+Check list:\n
+1.Check the Com app type against\n
+  the one specified for the Com app
+1159:
+Signal Access illegal\n
+Description\Reason:\n
+- Signal %s:\n
+  The number of characters in\n
+  Access %s\n
+  is greater than %d or name missing.\n
+\t\n
+Check list:\n
+1. Give a new Access that fits within\n
+   the limits.
+1160:
+Access level illegal\n
+Description\Reason:\n
+- Signal %s:\n
+  Access level %s in\n
+  group %s is illegal.\n
+- Legal choices all/man/auto/none.\n
+\t\n
+Check list:\n
+1. Give a new access level for group\n
+   that fits.
+1161:
+Access name not found\n
+Description\Reason:\n
+- Signal %s:\n
+  The Access name %s\n
+  not found in EIO_USER_ACCESS.\n
+\t\n
+Check list:\n
+1. Define %s in EIO_USER_ACCESS\n
+   or change Access name.

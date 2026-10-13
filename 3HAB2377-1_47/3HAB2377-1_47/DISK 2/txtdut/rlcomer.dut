@@ -1,0 +1,47 @@
+55::
+46:
+Kan niet openen
+47:
+RAISE CODE:
+48:
+Niet open
+49:
+Geen ASCII bestand
+50:
+Geen binair bestand
+51:
+Geen toegang tot bestand
+52:
+De parameter %s in
+53:
+is geen array.
+54:
+Output buffer moet array van num zijn
+55:
+is opgegeven als een negatieve waarde.
+56:
+De parameter moet positief zijn.
+57:
+Bestand niet toegankelijk
+58:
+tijd event generator.
+59:
+signaal event generator.
+60:
+Een timeout onderbreekt uitvoering van
+61:
+Digitale input onderbreekt uitv. van
+65:
+Ontvangen data is niet numeriek
+67:
+String te lang
+68:
+Te veel lees verzoeken
+76:
+Het buffer element %i in
+77:
+valt buiten 0-255.
+78:
+Alle elementen in de buffer moeten liggen tussen 0-255
+80:
+is buiten het array.

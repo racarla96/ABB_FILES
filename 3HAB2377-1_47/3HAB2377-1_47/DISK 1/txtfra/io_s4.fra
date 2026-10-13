@@ -1,0 +1,283 @@
+27::
+1011:
+Type d'unite non supporte\n
+Description\Cause:\n
+- Le type d'unite %s n'est pas\n
+  supporte\n
+\t\n
+Verification\Correction:\n
+1. Changer le nom du type d'unite
+1012:
+Memoire saturee\n
+Description\Cause:\n
+- Carte %s : trop de cartes\n
+  du type specifie\n
+\t\n
+Verification\Correction:\n
+1. Changer le nombre de cartes pour ce\n
+ Pilote a la configuration des pilotes
+1013:
+Type de carte errone\n
+Description\Cause:\n
+- Mauvais type de carte connectee\n
+ a l adresse %d\n
+\t\n
+Verification\Correction:\n
+1. Verifier le type de carte\n
+ a cette adresse
+1014:
+Carte manquante\n
+Description\Cause:\n
+- Pas de carte a cette adresse\n
+%d\n
+\t\n
+Verification\Correction:\n
+1. Connecter une carte a cette adresse\n
+2. Changer l'adresse de la carte.
+1028:
+Conf automate inv\n
+Description\Cause:\n
+- La partition de debut et la taille\n
+  du rack sont invalides\n
+  pour la carte %s\n
+\t\n
+Verification\Correction:\n
+1. Pour la partition 0\n
+   la taille du rack doit etre < a 4
+1029:
+Conf automate inv\n
+Description\Cause:\n
+- La partition Un  et la taille\n
+  du rack sont invalides\n
+  pour la carte %s\n
+\t\n
+Verification\Correction:\n
+1. Pour la partition 1\n
+   la taille du rack doit etre < a 3
+1030:
+Conf automate inv\n
+Description\Cause:\n
+- La partition Deux et la taille\n
+  du rack sont invalides\n
+  pour la carte %s\n
+\t\n
+Verification\Correction:\n
+1. Pour la partition 2\n
+   la taille du rack doit etre < a 2
+1031:
+Conf automate inv\n
+Description\Cause:\n
+- La partition Trois et la taille\n
+  du rack sont invalides\n
+  pour la carte %s\n
+\t\n
+Verification\Correction:\n
+1. Pour la partition 3\n
+   la taille du rack doit etre 0
+1032:
+Erreur de communication\n
+Description\Cause:\n
+- La communication entre la carte E/S\n
+ deportee (RIO) et l automate est inter-\n
+ rompue a l adresse carte %d\n
+\t\n
+Verification\Correction:\n
+1. Verifiez le cable comm. automate\n
+2. Verifier automate hors tension\n
+3. Verifier vitesse transmission RIO\n
+4. Verifier adr. RIO et groupe debut
+1035:
+Premier quart incorrect\n
+Description\Cause:\n
+- Le premier quart est\n
+ en dehors de la carte %s\n
+\t\n
+Verification\Correction:\n
+1. le premier quart doit etre\n
+ compris entre 0 et 3\n
+ reconfigurer
+1039:
+Nombre de lien inv\n
+Description\Cause:\n
+- Le nombre max de liens\n
+pour l'unite %s\n
+est en dehors des bornes\n
+\t\n
+Verification\Correction:\n
+1.S assurer que le nombre de liens\n
+ est > 0 et <= au nombre de slots E/S
+1040:
+Adr de lien E/S inv\n
+Description\Cause:\n
+-L adresse pour la carte %s\n
+ est hors zone\n
+\t\n
+Verification\Correction:\n
+1.L adresse doit etre comprise\n
+ entre 1 et 63
+1051:
+Format d adresse errone\n
+Description\Cause:\n
+- Signal %s:l adresse de RIO\n
+ n est pas en octal\n
+\t\n
+Verification\Correction:\n
+1.Renseigner l adresse sous\n
+ forme octal
+1057:
+Carte DSQC319 absente\n
+Description\Cause:\n
+- Pas de carte du type DSQC319\n
+  connectee a l'adresse %d\n
+\t\n
+Verification\Correction:\n
+1. Connecter une carte\n
+2. Changer l'adresse de la carte
+1060:
+Erreur carte DSQC319\n
+Description\Cause:\n
+- La carte DSQC319\n
+  d'adresse %d\n
+  est en erreur\n
+\t\n
+Verification\Correction:\n
+1. Verifier le bus CAN\n
+2. S'assurer que la carte DSQC319\n
+   n'est pas en defaut
+1062:
+D319 Tampon recept plein\n
+Description\Cause:\n
+- Tampon de reception plein\n
+  sur la carte d'adresse %d.\n
+  des messages peuvent\n
+  etre perdus\n
+\t\n
+Verification\Correction:\n
+1. Reduire le nombre de noeuds sur Can.
+1063:
+Message Can perdu\n
+Description\Cause:\n
+- message Can perdu\n
+  sur la carte d'adresse %d.\n
+\t\n
+Verification\Correction:\n
+1. Reduire le nombre de noeuds sur Can.
+1064:
+Erreur com IOC-IBS\n
+Description\Cause:\n
+- IOC signale une erreur sur la\n
+  DSQC260 d'adresse %d\n
+\t\n
+Verification\Correction:\n
+1. Verifier la carte IOC.
+1065:
+Erreur sur carte DSQC260\n
+Description\Cause:\n
+- la carte DSQC260 d'adresse %d\n
+  signale une erreur.\n
+\t\n
+Verification\Correction:\n
+1. Verifier la carte DSQC260.
+1066:
+InterBus-S inactif\n
+Description\Cause:\n
+- InterBus-S connecte a la carte\n
+  DSQC260 d'adresse %d\n
+  est inactif.\n
+\t\n
+Verification\Correction:\n
+1. Controler les noeuds InterBus-S.
+1067:
+InterBus-S non connecte\n
+Description\Cause:\n
+- InterBus-S attache a la carte\n
+  DSQC260 d'adresse %d\n
+  n'est pas connecte ou le maitre IBS\n
+  est en mode reset.\n
+\t\n
+Verification\Correction:\n
+1. Controler les noeuds InterBus-S.\n
+2. Controler le maitre InterBus-S.
+1068:
+IOC OK\n
+Description\Cause:\n
+- IOC n'est plus en erreur.\n
+  le message d'erreur a ete envoye a\n
+  la carte DSQC260 d'adresse %d\n
+\t\n
+Verification\Correction:\n
+1. Ne rien faire
+1069:
+DSQC260 OK\n
+Description\Cause:\n
+- La carte DSQC260 d'adresse %d\n
+  n'est plus en erreur.\n
+\t\n
+Verification\Correction:\n
+1. Ne rien faire.
+1070:
+InterBus-S reprise\n
+Description\Cause:\n
+- InterBus-S connecte a\n
+  la carte DSQC260 d'adresse %d\n
+  n'est plus inactif.\n
+\t\n
+Verification\Correction:\n
+1. Ne rien faire.
+1071:
+InterBus-S connecte\n
+Description\Cause:\n
+- InterBus-S attache a\n
+  la carte DSQC260 d'adresse %d\n
+  n'est plus deconnecte ou le maitre IBS\n
+  n'est plus en mode reset.\n
+\t\n
+Verification\Correction:\n
+1. Ne rien faire.
+1075:
+Erreur acces E/S\n
+Description\Cause:\n
+- Ecriture/Lecture impossible\n
+  signal %s\n
+  suite a pb communication\n
+\t\n
+Verification\Correction:\n
+1. Se reporter au message de detection\n
+   d'erreur de communication
+1086:
+Comm etablie avec RIO\n
+Description\Cause:\n
+- Communication etablie avec\n
+  la carte RIO connectee\n
+  a l adress %d\n
+\t\n
+Verification\Correction:\n
+1. Aucune.
+1087:
+Bus can OK\n
+Description\Cause:\n
+- Contact etabli avec le Bus Can\n
+  connecte a la DSQC319 a\n
+  l'adresse %d\n
+\t\n
+Verification:\n
+1. Aucune.
+1096:
+Automate en mode Prog\n
+Description\Cause:\n
+- Acces a l'automate impossible car\n
+  l'automate est en cours de programma-\n
+  tion ou la config RIO est mauvaise\n
+\t\n
+Verification\Correction:\n
+1. Automate en mode programme\n
+2. Verifier la configuration RIO
+1151:
+Erreur bus Can\n
+Description\Cause:\n
+- Taux anormal d'erreurs sur le Bus Can\n
+  connecte a la DSQC319 a l'adresse %d\n
+\t\n
+Verification:\n
+1. Cable de communication vers le\n
+   bus Can

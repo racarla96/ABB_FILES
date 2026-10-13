@@ -1,0 +1,159 @@
+
+14::
+0:
+Kein Objekt
+1: 
+Platzhalter
+2:
+Ende
+3:
+Modul Deklaration
+4:
+Konstante Daten Deklaration
+5:
+Variable Daten Deklaration
+6:
+Speichernde Daten Deklaration
+7:
+Funktion Deklaration
+8:
+Prozedur Deklaration
+9:
+Interrupt Deklaration
+10:
+Benötigter Parameter
+11:
+Zusätzlicher Parameter
+12:
+Alternativer Parameter
+13:
+Label
+14:
+Return
+15:
+Raise
+16:
+Retry
+17:
+Nächste
+18:
+Connect
+19:
+Exit
+20:
+Goto
+21:
+Zuweisung
+22:
+IF  
+23:
+Compact IF
+24:
+WHILE
+25:
+FOR 
+26:
+TEST
+27:
+Aufruf von
+28:
+Elseif
+29:
+Case
+30:
+Notwendiges Argument
+31:
+Zusätzliches Argument
+32:
+Konstante Ausdruck
+33:
+Ausdruck
+34:
+Literal
+35:
+Variable
+36:
+Objektname
+37:
+Objektname
+38:
+Wertetyp
+39:
+Datentyp
+40:
+Dimension
+41:
+Kommentar
+42:
+43:
+44:
+45:
+46:
+47:
+48:
+49:
+50:
+Kein child
+51:
+Ende
+52:
+Systemmodul Attribute
+53:
+N_SCHRITTWEISE Modulattribut
+54:
+NUR_ANSICHT Modulattribut
+55:
+NUR_LESEN Modulattribute
+56:
+Objektname
+57:
+Daten Deklaration Liste
+58:
+Routinen Deklaration Liste
+59:
+Lokal
+60:
+Typ
+61:
+Ausdruck Liste
+62:
+Ausdruck
+63:
+Parameter Deklaration
+64:
+Sonst
+65:
+Rückw Instr. Liste
+66:
+ELSE
+67:
+Modus Variable Parameter
+68:
+Modus Speichernde Parameter
+69:
+Modus InOut Parameter
+70:
+Dimensionen
+71:
+Objektname Referenz
+72:
+Variablen Referenz
+73:
+Instr. Liste
+74:
+Instruktion
+75:
+ELSEIF
+76:
+Von
+77:
+Bis
+78:
+Schritt
+79:
+Fall Liste
+80:
+Ausdrücke
+81:
+Argumente Liste
+

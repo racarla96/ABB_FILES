@@ -1,0 +1,41 @@
+54::
+27:
+protege en ecriture
+28:
+invalide pour operation d'ecriture\n
+de sortie logique
+29:
+invalide pour operation d'ecriture\n
+de sortie analogique
+30:
+invalide pour operation de lecture\n
+de d'E/S logique
+31:
+invalide pour operation de lecture\n
+de d'E/S analogique
+42:
+invalide pour alias
+43:
+Ne peut acceder
+44:
+generateur d'evenement tempo.
+46:
+Impossible de lire le signal.\n
+
+47:
+Impossible d'écrire le signal.\n
+
+48:
+Erreur de configuration pour le signal.\n
+
+49:
+Vérifier la configuration des signaux\n
+d'E/S et les définitions d'alias.
+50:
+Impossible de lire le signal\n
+%s unité %s.\n
+
+51:
+Impossible d'écrire le signal\n
+%s unité %s.\n
+

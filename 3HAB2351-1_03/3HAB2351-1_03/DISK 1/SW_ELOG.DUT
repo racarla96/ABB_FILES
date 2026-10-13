@@ -1,0 +1,47 @@
+73::
+0:
+Puntlassen
+1:
+Puntlassen systeem fout\n
+Puntlas proces niet gereed\n
+\t\n
+Zet de proces status met behulp van\n
+SwInit op gereed
+2:
+Puntlas systeem fout\n
+Parameter %s\n
+\t\n
+
+3:
+SwStart Timeout negatief\n
+\n
+\t\n
+
+4:
+SwInit Interrupt negatief\n
+\n
+\t\n
+
+5:
+ProcId. De reden is:\n
+-ProcId komt niet overeen met de\n
+ waarde van SwInit\n
+-Het puntlasproces is\n
+ afgebroken\n
+\t\n
+
+6:
+Puntlas comm. fout\n
+Reden: %s\n
+\t\n
+
+7:
+Antw. langzamer dan Poll Rate\n
+\n
+\t\n
+
+8:
+Geen verdere BOSCH aansl. beschikb.\n
+\n
+\t\n
+

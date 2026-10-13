@@ -1,0 +1,27 @@
+72::
+100:
+De parameter %.16s\n
+komt niet overeen met enig geladen\n
+tekst bestand.
+101:
+Controleer of het tekst bestand\n
+(correct) geinstalleerd is.
+102:
+Er is geen geldig data object voor de\n
+inparameter %s van de\n
+instructie %s.
+103:
+Contr. of er een juist data object is.
+104:
+De SHELL-RAPID gebruikers fout nummer\n
+%.16s moet globaal\n
+gedeclareerd zijn.
+105:
+Controleer de errnum declaratie.
+106:
+Opslaan van het nieuwe fout nummer\n
+%.16s mislukt. De initiele\n
+waarde moet zijn -1 of het oude nummer.
+107:
+Controleer de initiele waarde van de\n
+nieuwe errnum variabele.

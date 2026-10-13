@@ -1,0 +1,28 @@
+15::
+1:
+Objeto declarado en un\n
+modulo tipo SoloLectura\n
+y no es modificable.
+2:
+Objeto declarado en un\n
+modulo tipo SoloVer\n
+y no es modificable.
+3:
+Nombre no permitido!\n
+El nombre debe empezar con\n
+letra y no ser reservado.
+4:
+No se puede cambiar direccion\n
+ejecucion dentro instruccion\n
+compleja.
+5:
+No permitido cambio de\n
+direccion dentro de\n
+esta rutina.
+6:
+Error(es) sintactico RAPID\n
+Error en programa.
+7:
+No puedo ejecutar pasada\n
+la primera instruccion del\n
+bloque o la rutina.

@@ -1,0 +1,22 @@
+90::
+0:
+Class rlload
+1:
+Load
+2:
+UnLoad
+3:
+FilePath
+4:
+File
+5:
+string
+6:
+switch
+7:
+bool
+8:
+num
+9:
+errnum
+

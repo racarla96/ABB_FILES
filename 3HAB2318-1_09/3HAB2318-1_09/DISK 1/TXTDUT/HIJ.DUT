@@ -1,0 +1,132 @@
+Revision 1.8  1995/04/21  13:18:52  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.7  1994/08/19  09:47:02  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+5::
+0:
+Joggen
+1:
+Uitlijnen...
+2:
+Het uitlijnen wordt gestart door\n
+de joystick te bewegen
+3:
+
+4:
+De Tool wordt uitlijnd parallel\n
+aan de %s as van het coordinaten\n
+systeem
+5:
+
+6:
+
+7:
+Eenheid:
+8:
+Beweging:
+9:
+Groep:
+10:
+Coord:
+11:
+Tool:
+12:
+WObj:
+13:
+Incrementeel:
+14:
+Selecteer gewenste data in lijst:
+15:
+Joggen
+16:
+Robot pos:
+17:
+
+18:
+
+19:
+Lineair
+20:
+Herorient.
+21:
+Assen
+22:
+x y z
+23:
+Motor
+24:
+Wereld
+25:
+Basis
+26:
+Tool
+27:
+WObj
+28:
+
+29:
+
+30:
+
+31:
+
+32:
+
+33:
+
+34:
+2 1 3
+35:
+5 4 6
+36:
+4 5 6
+37:
+Robothoeken:
+38:
+Extern:
+39:
+Klein
+40:
+Medium
+41:
+Groot
+42:
+Wereld
+43:
+Basis
+44:
+Tool
+45:
+WObj
+46:
+1 2 3
+47:
+Nee
+48:
+Klein
+49:
+Medium
+50:
+Groot
+51:
+1
+52:
+2
+53:
+Joggen kan niet worden\n
+gebruikt wanneer een\n
+prog wordt uitgevoerd.
+54:
+Joggen kan niet worden\n
+gebruikt in de\n
+automatische modus.
+55:
+Nieuw
+56:
+Wijzig
+57:
+Def.

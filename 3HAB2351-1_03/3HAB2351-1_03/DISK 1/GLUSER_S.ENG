@@ -1,0 +1,66 @@
+%%%
+  VERSION: 1
+  LANGUAGE: ENGLISH
+%%%
+MODULE GLUSER (SYSMODULE)
+
+!* Global data  *
+
+CONST num gl_fl1_ovr := 100;
+CONST num gl_fl2_ovr := 100;
+CONST num gl_fl1_ref := 1000;
+CONST num gl_fl2_ref := 1000;
+CONST bool gl_sim_glue := FALSE;
+PERS ggundata ggun1 := [1,0,0,2,0,0,0,0,1000,2,0,0,0,0,1000];
+
+!* User event routines: *
+
+!* Procedure gl_preglue *
+
+PROC gl_preglue()
+! User defined code:
+ENDPROC
+
+!* Procedure gl_postglue *
+
+PROC gl_postglue()
+! User defined code:
+ENDPROC
+
+!* Procedure gl_err_actions *
+
+PROC gl_err_actions()
+! User defined code:
+ENDPROC
+
+!* Procedure gl_power_on *
+
+PROC gl_power_on()
+! User defined code:
+ENDPROC
+
+!* Procedure gl_start *
+
+PROC gl_start()
+! User defined code:
+ENDPROC
+
+!* Procedure gl_restart *
+
+PROC gl_restart()
+! User defined code:
+ENDPROC
+
+!* Procedure gl_stop *
+
+PROC gl_stop()
+! User defined code:
+ENDPROC 
+
+!* Procedure gl_qstop *
+
+PROC gl_qstop()
+! User defined code:
+ENDPROC
+
+ENDMODULE

@@ -1,0 +1,152 @@
+ on main routine.
+Revision 1.9  1996/12/12  07:37:49  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+9::
+0:
+Production
+10:
+Fichier
+11:
+Editer
+12:
+Voir
+20:
+Charger Programme...
+21:
+Lancement programme impossible
+22:
+Preferences...
+23:
+Aller a Ligne...
+24:
+Debut programme
+25:
+Info
+26:
+Position
+27:
+Dialogue Operateur
+50:
+Annuler
+51:
+OK
+80:
+Programme
+82:
+Donnees
+83:
+Preferences
+84:
+Valeur Donnee
+85:
+Aller a Ligne
+86:
+Selectionner un programme a charger
+87:
+Production Info
+88:
+Production Position
+100:
+Nom Program.
+101:
+Etat
+102:
+Vitesse:=
+103:
+%
+104:
+Mode Exec:=
+105:
+Routine
+106:
+
+107:
+Aller a Ligne
+108:
+Execution instruction RAPID
+109:
+Routine courante
+110:
+100%
+111:
+Pas de programme RAPID charge
+112:
+*
+130:
+Changement de sens interdit.
+131:
+Demarrer au debut.
+132:
+Routine sans instruction.
+133:
+Non charge
+134:
+Pret
+135:
+Stoppe
+136:
+Execution
+137:
+mm/s
+138:
+-%
+139:
+25%
+140:
+
+141:
++%
+142:
+Oui
+143:
+Non
+144:
+     Voulez-vous continuer ?
+145:
+Depart depuis le debut
+146:
+cause perte du contexte programme.
+147:
+Avertissement
+148:
+>>
+149:
+Charge
+150:
+Indefini
+151:
+Stop apparu pendant recouvre.
+200:
+<Tapez Retour pour continuer>
+201:
+Lie
+202:
+Chargement prog. impossible
+203:
+Suppression prog. impossible
+204:
+
+205:
+Chargement prog. impossible
+206:
+Selection doit etre un Prog.
+207:
+Erreur dans le programme!
+208:
+Visualisation Prog. impossible
+209:
+Visu. instr. RAPID impossible.
+210:
+\n
+Patientez!\n
+Chargement en cours...
+211:
+Hors de la memoire.
+212:
+Pas executable
+213:
+Ne peut executer ce programme
+214:
+Routine main non trouvee

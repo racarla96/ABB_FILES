@@ -1,0 +1,37 @@
+54::
+27:
+schreibgeschützt
+28:
+ungültig für digitale Schreiboperation
+29:
+ungültig für analoge Schreiboperation
+30:
+ungültig für digitale Leseoperation
+31:
+ungültig für analoge Leseoperation
+42:
+ungültig für eine Aliasoperation
+43:
+Kein zugriff auf
+44:
+-time event- Generator.
+46:
+E/A Signal nicht lesbar.\n
+
+47:
+E/A Signal nicht schreibbar.\n
+
+48:
+Konfigurationsfehler für E/A Signal.\n
+
+49:
+E/A Signal-Konfigurtion oder\n
+Alias-Definition kontrollieren.
+50:
+E/A Signal nicht lesbar\n
+%s in Einheit %s.\n
+
+51:
+E/A Signal nicht schreibbar\n
+%s in Einheit %s.\n
+

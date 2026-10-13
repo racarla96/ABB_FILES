@@ -1,0 +1,648 @@
+25::
+0:
+Beweging
+1:
+Ernstige bewegingsfout\n
+Niet mogelijk om de bewegings\n
+besturing voort te zetten\n
+\t\n
+Het systeem opnieuw opstarten
+21:
+Fout in de gewrichtspositie\n
+Werkelijke positie van gewricht %s\n
+te ver van de gewenste positie\n
+\t\n
+Controleer de servoafstelling,\n
+externe krachten of de hardware.
+22:
+DC-verbindingsspanning te laag\n
+\t\n
+Controleer de spanning van de Motoren\n
+Aan relais.\n
+Vervang de DC-verbinding.\n
+
+23:
+Stop-/herstart-fout\n
+Er is gestopt doordat te veel\n
+bewegingsinstructies op uitvoering\n
+wachten. Een herstart is niet\n
+mogelijk\n
+\t\n
+Controleer het aantal gelijktijdige\n
+bewegingsinstructies. Verplaats het\n
+startpunt en start een nieuwe\n
+beweging.
+24:
+Storing van hoekpad\n
+Een hoekpad werd uitgevoerd als\n
+een stoppunt ten gevolge van\n
+tijdvertraging.\n
+\t\n
+Controleer het aantal instructies\n
+tussen de beweeginstructies.
+25:
+Herstart te ver van het pad\n
+\t\n
+Keer terug naar het pad.\n
+
+26:
+Singulariteits- of zone fout\n
+1 Robot te dicht bij een singulier\n
+  punt\n
+2 MoveL en MoveJ corner zone fout\n
+\t\n
+1 Gebruik de joystick om het singuliere\n
+  punt te verlaten of start een\n
+  programma met gewrichtscoordinaten.\n
+2 Gebruik een fine punt of wijzig de\n
+  positie
+27:
+As buiten werkbereik\n
+As %s is buiten het werkbereik.\n
+\t\n
+Gebruik de joystick om de as binnen\n
+het werkbereik te brengen
+28:
+Joggen in verkeerde richting\n
+As %s is buiten het werkbereik.\n
+\t\n
+Gebruik de joystick om de as in de\n
+tegengestelde richting te bewegen.
+29:
+Robot buiten zijn limieten\n
+De robot heeft de configuratielimiet\n
+voor de parallellogramtransmissie\n
+bereikt.\n
+\t\n
+Gebruik de joystick om de betrokken\n
+as opnieuw binnen het werkgebied te\n
+brengen.
+30:
+Robot buiten zijn limieten\n
+Er is in de verkeerde richting gejogd\n
+terwijl het parallellogram buiten het\n
+werkgebied was\n
+\t\n
+Gebruik de joystick om de as in\n
+de tegengestelde richting te\n
+verplaatsen.
+31:
+Commando niet toegelaten.\n
+Systeemparameters kunnen niet worden\n
+veranderd in de MOTOREN AAN-status.\n
+\t\n
+Schakel de robot naar MOTOREN UIT.
+32:
+Calibratiecommandofout\n
+In de MOTOREN AAN-status werd een\n
+calibratiepoging uitgevoerd.\n
+\t\n
+Schakel de robot naar MOTOREN UIT.
+33:
+Commutatiecommandofout\n
+In de MOTOREN AAN-status werd een\n
+commutatiepoging uitgevoerd.\n
+\t\n
+Schakel de robot naar MOTOREN UIT.
+35:
+Synchronisatiefout\n
+In de MOTOREN AAN-status werd een\n
+synchronisatiepoging uitgevoerd.\n
+\t\n
+Schakel de robot naar MOTOREN UIT.
+36:
+Correcte herstart onmogelijk\n
+Correcte herstart onmogelijk. er is\n
+een stop opgetreden bij veel dicht\n
+bij elkaar gelegen punten met corner\n
+zones. Bij een herstart zal de robot\n
+naar een verder gelegen punt bewegen.\n
+\t\n
+Reduceer het aantal dicht bij elkaar\n
+gelegen posities, vergroot de afstand\n
+de posities of verlaag de snelheid.
+37:
+MOTOREN AAN opdracht gewijgerd\n
+MOTOREN AAN opdracht gewijgerd omdat\n
+de vorige stop nog niet bevestigd is.\n
+\t\n
+Geef opnieuw een MOTOREN AAN\n
+opdracht.
+41:
+Robot in een singulier punt\n
+De robot is te dicht bij een\n
+singulier punt.\n
+\t\n
+Gebruik de SingArea instructie of\n
+gewrichtsinterpolatie tijdens de\n
+uitvoering van het programma.\n
+Gebruik gewrichtsinterpolatie tijdens\n
+het joggen.
+42:
+Systeemfout\n
+\t\n
+Vergroot de afstand tussen dichtbij\n
+elkaar gelegen posities en/of verlaag\n
+de snelheid en/of verander de\n
+acceleratie.\n
+
+50:
+Positie buiten bereik\n
+De positie voor robot as %.f is\n
+buiten het werkgebied.\n
+\t\n
+Controleer het werkobject.\n
+Controleer het werkgebied van de as.\n
+Beweeg de as in gewrichtscoordinaten.
+52:
+Fout in assnelheid\n
+De werkelijke snelheid van as %s\n
+is te hoog ten opzichte van de\n
+gevraagde snelheid\n
+\t\n
+1 Controleer de servoparameters,\n
+  externe krachten op de as en de\n
+  hardware.\n
+2 Reduceer de geprogrammeerde\n
+  snelheid.
+53:
+Fout in de omwentelingenteller\n
+Te groot verschil tussen de teller\n
+van de seriele meetkaart en de\n
+door de computer verwachte waarde\n
+voor as %s\n
+\t\n
+Werk de omwentelingen tellers bij.\n
+Vervang de seriele meetkaart.
+55:
+As belastings fout\n
+Werkelijk koppel op as %s is\n
+hoger dan gevraagd.\n
+\t\n
+Kan veroorzaakt worden door onjuiste\n
+load data, hw fout of een te hoge acc\n
+1. Controleer load data\n
+2. Controleer hardware\n
+3. Reduceer acceleratie
+56:
+As botsings fout\n
+Werkelijk koppel op as %s is\n
+hoger dan gevraagd bij lage of\n
+nul snelheid.\n
+\t\n
+Kan veroorzaakt worden doordat de\n
+as geblokkeerd is of door een\n
+hardware-fout.
+57:
+Fout in assynchronisatie\n
+De positie van as %s na een\n
+spannings- onderbreking is te\n
+ver van de positie voor de\n
+spanningsonderbreking.\n
+\t\n
+Werk de omwentelingenteller opnieuw\n
+bij.
+58:
+Fout in het tool-coordinatensysteem\n
+De z-richting van het tool-\n
+coordinaten-systeem loopt bijna\n
+parallel aan de baanrichting.\n
+\t\n
+Verander het tool-coordinatensysteem\n
+zodat er een verschil van ten minste\n
+3 graden bestaat tussen de z-richting\n
+en de baanrichting.
+59:
+Frame-fout\n
+De definitie van de aan de robot\n
+bevestigde tool is niet juist.\n
+\t\n
+Controleer de tool- en de objectdata.
+60:
+Frame-fout\n
+De definitie van de aan de robot\n
+bevestigde tool is niet juist.\n
+\t\n
+Controleer de tool- en de objectdata.
+61:
+Frame-fout\n
+De definitie van de aan de robot\n
+bevestigde tool is niet juist.\n
+\t\n
+Controleer de tool- en de objectdata.
+62:
+Cirkel programmeer fout\n
+De begin- en eindposities van de\n
+cirkel liggen te dicht bij elkaar.\n
+\t\n
+
+63:
+Cirkel programmeer fout\n
+De cirkelpositie ligt te dicht bij de\n
+begin- of eindpositie van de cirkel.\n
+\t\n
+
+65:
+Kinematische fout\n
+Het eindpunt van de beweging ligt\n
+buiten het werkbereik van de robot of\n
+ligt te dicht bij een singulier punt.\n
+\t\n
+Verander de eindpunt.
+66:
+Robot niet aktief\n
+Er wordt getracht een beweging te\n
+coordineren of een positie uit te\n
+rekenen van de gedeactiveerde\n
+robot %s.\n
+\t\n
+Activeer de robot via het de\n
+bewegingseenheid toets, gevolgd\n
+door jogging venster of het programma.\n
+Controleer het werkobject en het\n
+programma.
+67:
+Eenheid niet aktief\n
+Er wordt getracht een beweging te\n
+coordineren of een positie uit te\n
+rekenen van de gedeactiveerde\n
+eenassige eenheid %s.\n
+\t\n
+Activeer de robot via het de bewegings\n
+eenheid toets, gevolgd door jogging\n
+venster of het programma.\n
+Controleer het werkobject en het\n
+programma.
+76:
+Orientatie definitie fout\n
+De orientatie is onjuist gedefinieerd.\n
+\t\n
+Voer een nauwkeurige normalisatie uit\n
+van de quaternion-elementen.
+78:
+Te veel posities dicht bij elkaar\n
+Te veel opeenvolgende liggen te dicht\n
+bij elkaar\n
+\t\n
+Vergroot de afstand tussen de\n
+posities.
+79:
+Polspendelen niet mogelijk.\n
+\t\n
+Gebruik een kleinere pendelamplitude\n
+of een groter TCP.\n
+
+80:
+Positie niet compatibel.\n
+Positie kan niet bereikt worden vanuit\n
+de actuele robot configuratie\n
+\t\n
+Wijzig de robot positie in het\n
+programma.
+82:
+Deceleratie limiet\n
+Calculatie van de gewrichts\n
+deceleratie-tijd overschrijd de\n
+interne limieten.\n
+Ga niet verder zonder de oorzaak\n
+van de fout te verhelpen. Zie check\n
+\t\n
+Controleer de decel. van ext. assen\n
+Controleer het ruis niveau van I/O\n
+verbindingen. Verhoog baan resolutie,\n
+rij lengte. Verlaag prog. snelh. en/of\n
+verhoog AccSet param (indien <100%)
+83:
+Het systeem heeft de snelheid verlaagd.\n
+Ten gevolge van dynamische\n
+beperkingen heeft het systeem de\n
+snelheid verlaagd.\n
+\t\n
+Verlaag de snelheid en/of gebruik bij\n
+hoge snelheid geen dicht bij elkaar\n
+gelegen posities en/of verhoog de\n
+acceleratie (indien minder dan 100%).
+85:
+Te veel gebruikersframes.\n
+Voor mech_unit %s is meer\n
+dan een gebruikersframe gedefinieerd.\n
+\t\n
+Neem een gebruikersframe weg of\n
+definieer nog een mech_unit.
+86:
+Fout in de singulariteitsberekening\n
+Te dicht bij polssingulariteit met\n
+betrekking tot numerieke resolutie\n
+voor as 4.\n
+\t\n
+Verander de eindpositie met enkele\n
+incrementen.
+87:
+Singulariteitsproblemen.\n
+Te dicht bij polssingulariteit met\n
+betrekking tot numerieke resolutie\n
+voor as 6.\n
+\t\n
+Verander de eindpositie met enkele\n
+incrementen.
+88:
+Herstart niet mogelijk.\n
+Ten gevolge van een vorige fout kan\n
+de baan niet opnieuw worden gestart.\n
+\t\n
+Verplaats het startpunt van het\n
+programma en start een nieuwe\n
+beweging.
+89:
+Verlaagde pendelfrequentie\n
+De pendelperiodelengte of de\n
+periodetijd is te kort.\n
+\t\n
+Verhoog de pendellengte of verlaag\n
+de periodetijd.
+91:
+Herstart niet langer mogelijk.\n
+Een verandering in de status van de\n
+eenheid maakt de programma herstart\n
+onmogelijk.\n
+\t\n
+Verplaats de programma pointer en\n
+een nieuwe beweging.
+92:
+Axis computer communicatie fout\n
+Onjuiste terugmelding van de\n
+axiscomputer.\n
+\t\n
+Controleer de bewegings configuratie\n
+parameters.\n
+Controleer de axiscomputer hardware.
+93:
+Belasting te groot.\n
+De gedefinieerde belasting is te\n
+groot.\n
+
+94:
+Servo-afregeling niet mogelijk.\n
+Afregeling is niet geimplementeerd\n
+voor de gespecificeerde as.\n
+\t\n
+
+95:
+Geen toegang tot externe as.\n
+Controleer de configuratie en\n
+activatie van de externe as.\n
+\t\n
+
+100:
+Manipulator fout.\n
+Er zijn meer configuratie of\n
+numerische fouten in het bewegings\n
+domein.\n
+\t\n
+Corrigeer de vorige en probeer het\n
+opnieuw.
+101:
+Manipulator config fout.\n
+'%s' is niet vrij voor\n
+de param '%s'\n
+in de type '%s' met naam\n
+'%s'.\n
+\t\n
+Gebruik een andere.\n
+Voor interne namen, zie moc_chk.log.
+102:
+Manipulator config fout.\n
+'%s' gebruikt in de\n
+param '%s' in\n
+het type '%s' met naam\n
+'%s' is niet\n
+gedefinieerd.\n
+\t\n
+Gebruik een andere die gedefinieerd is\n
+of definieerd de gebruikte.
+103:
+Numerieke fout in manipulator.\n
+De orientatie gedefinieerd door\n
+quarternions inclusief '%s'\n
+in het type '%s' met naam\n
+'%s' is niet\n
+genormaliseerd. (SQRSUM = 1)\n
+\t\n
+Controleer de quarternions en/of\n
+hercalculeer ze.\n
+Voor interne namen, zie moc_elog.log.
+104:
+Numerieke fout in manipulator.\n
+De parameter '%s'\n
+in het type '%s'met naam\n
+'%s' is niet '%s'.\n
+\t\n
+Controleer de waarde.\n
+Voor interne namen, zie moc_elog.log.
+128:
+Manipulator fout\n
+Afbreken van de topic controleer voor\n
+manipulator ten gevolge van eerdere\n
+fouten.\n
+\t\n
+Corrigeer de gerapporteerde fouten en\n
+start de topic opnieuw.
+130:
+Synchronisatie mislukt\n
+Synchronisatie mislukt voor\n
+as %s\n
+\t\n
+Synchroniseer opnieuw.\n
+Herstart het systeem.
+131:
+Calibratie mislukt\n
+Calibratie mislukt voor\n
+as %s\n
+\t\n
+Callibreer opnieuw.\n
+Herstart het systeem.
+132:
+Commutatie mislukt\n
+Commutatie mislukt voor\n
+as %s\n
+\t\n
+Commuteer opnieuw.\n
+Herstart het systeem.
+133:
+Test signaal fout.\n
+Er zijn geen testsignalen beschikbaar\n
+voor de master robot.\n
+\t\n
+
+134:
+Waarschuwing corectie vector.\n
+Calculatie sensor correctie vector\n
+mislukt vanwege een vorige fout.\n
+\t\n
+
+135:
+SoftAct niet mogelijk.\n
+Het is niet mogelijk Soft servo te\n
+activeren.\n
+\t\n
+
+136:
+SoftAct niet mogelijk.\n
+Het is niet mogelijk Soft servo te\n
+veranderen tijdens aanloop.\n
+\t\n
+
+137:
+Fine punt toegevoegd.\n
+Corner zone is veranderd naar een\n
+fine punt. Te veel opeenvolgende\n
+Move instructies zonder fine punt.\n
+\t\n
+
+138:
+Arm controle punt buiten limiet.\n
+De robot heeft de limiet voor het arm\n
+controle punt bereikt.\n
+\t\n
+Gebruik de joystick om de betrokken as\n
+binnen het werkgebied van de robot te\n
+bewegen.
+139:
+Arm controle punt buiten limiet.\n
+Jog uitgevoerd in de verkeerde\n
+richting terwijl het controle punt\n
+buiten het werkgebied ligt.\n
+\t\n
+Gebruik de joystick om de as in de\n
+tegengestelde richting te bewegen.
+140:
+Belasting te groot\n
+Een te zware belasting veroorzaakt\n
+een overschrijding van het maximale\n
+statische koppel van as %s.\n
+\t\n
+Controleer en verlaag de belasting\n
+van de pols en/of de arm.\n
+Reduceer het werkgebied van de as om\n
+het statische koppel te verminderen.
+141:
+Snelheids, zone of jog fout\n
+1. Te dicht bij een singulier punt.\n
+2. MoveL of MoveJ corner zone fout\n
+3. Jogging fout\n
+4. Fout op hoge snelheid\n
+\t\n
+1. Beweeg van het singuliere punt af of\n
+   voer het prog. in gewr. coord. uit\n
+2. Gebruik een fine punt of een Modpos\n
+3. Probeer opnieuw\n
+4. Reduceer de geprogrammeerde snelheid
+142:
+Manipulator config. fout\n
+Manipulator configuratie mislukt.\n
+\t\n
+Controleer de parameter waarden in de\n
+Systeem parameters: Manipulator.
+143:
+Robot assen config. fout\n
+De huidige configuratie is niet\n
+dezelfde als de opgedragen\n
+configuratie.\n
+\t\n
+Gebruik SiongArea_Wrist of Confl_Off\n
+of wijzig de positie.
+144:
+Onzekerheid in displ. frame.\n
+Onzekerheid in de callibratie van het\n
+displ. frame.\n
+1. Onjuist TCP\n
+2. Ref. punten onnauwkeurig\n
+3. Slechte afstand tussen ref. punten\n
+\t\n
+Indien de geschatte fout niet\n
+acceptabel is:\n
+1. Controleer het gebruikte TCP\n
+2. Probeer met meer dan 3 ref. punten\n
+3. Bepaal de Ref. punten nauwekeuriger
+145:
+Kinematische beperking.\n
+Geen oplossing verkregen, waarschijnljk\n
+door een lang segment of door de robot\n
+in een configuratie met een slechte\n
+bewegings voorwaarde.\n
+\t\n
+Voeg een tussen punt toe om de segment\n
+lengte te verkleinen.
+146:
+Herstart beperking\n
+Corner path uitgevoerd als stop punt.\n
+Herstart na spannings uitval niet\n
+mogelijk dicht bij een stop punt.\n
+\t\n
+Gebruik een Finepoint in de Move-instr\n
+voorafgaande aan de RestoPath, ActUnit,\n
+Wait of  Stop-instr om een herstart na\n
+spannings uitval mogelijk te maken.
+147:
+Herstart na spanningsuitval mislukt\n
+Her-aanmaak van de baan  mislukt\n
+\t\n
+Verplaats het startpunt en start een\n
+nieuwe beweging.
+148:
+MOC_WRONG_MAIN_ISR_TYPE\n
+Fout tijdens het aanroepen van een\n
+niet bestaande interrupt routine in de\n
+main computer vanuit de as computer.\n
+\t\n
+
+149:
+MOC_SCHED_QUEUE_FULL\n
+Fout als de planningslijst van de as\n
+computer vol is.\n
+\t\n
+
+150:
+MOC_WRONG_CMD_TYPE\n
+Fout bij de onvangst, in de as\n
+computer, van een niet ondersteund\n
+commando vanaf de main computer.\n
+\t\n
+
+151:
+MOC_MAILBOX1_ERROR\n
+De as computer driver is er niet in\n
+geslaagd een nieuwe mailbox 1 interrupt\n
+aan te maken omdat de vorige interrupt\n
+niet correct afgehandeld is.\n
+\t\n
+
+152:
+MOC_MAILBOX2_ERROR\n
+De as computer driver is er niet in\n
+geslaagd een nieuwe mailbox 2 interrupt\n
+aan te maken omdat de vorige interrupt\n
+niet correct afgehandeld is.\n
+\t\n
+
+153:
+Commando niet toegestaan\n
+De gegeven instructie of commando, was\n
+niet toegestaan omdat de robot\n
+programma uitvoer actief was in de\n
+Hold status.\n
+\t\n
+Wijzig het programma of stop de\n
+programma uitvoer alvorens het\n
+commando te gebruiken.
+155:
+Herstart na spannings uitval mislukt\n
+Niet mogelijk een Move instructie te\n
+herstarten voor een RestoPath, ActUnit,\n
+Wait of een Stop-instructie\n
+\t\n
+Zorg ervoor de BEWEGINGS WAARSCHUWING\n
+50146 Herstart beperking niet optreedt\n
+door de Move-instr te veranderen in\n
+een finepoint. Verplaats het startpunt\n
+en start een nieuwe beweging.

@@ -1,0 +1,11 @@
+58::
+58:
+Beide Parameters müssen >= 0
+59:
+Beide Parameters müssen > 0 und <= 100
+60:
+Quaternion Fehler
+62:
+Achse darf nicht kleiner 0 sein
+63:
+SDB Fehler

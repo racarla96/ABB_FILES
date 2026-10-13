@@ -1,0 +1,201 @@
+17::
+0:
+Vst/Vyst signaly
+1:
+Uzivatelske signaly
+2:
+System
+3:
+Skupiny
+4:
+Nazev signalu
+5:
+Nazev jednotky
+6:
+Typ signalu
+7:
+Cislo signalu
+8:
+Signal startu
+9:
+Delka skupiny
+10:
+Digit. vstup
+11:
+Digit. vystup
+12:
+Zabezpeceni
+13:
+Nazev jednotky
+14:
+Typ jednotky
+15:
+Sbernice jednotky
+16:
+Digitalni vstupy
+17:
+Digitalni vystupy
+18:
+Vst/Vyst desky
+19:
+Nazev      Jednotka     Typ         Sig
+20:
+Nazev      Jednotka     Delka      Fsig
+21:
+Typ jednotky
+22:
+Nazev        Typ     Sbernice    Adresa
+23:
+Vst skupiny
+24:
+Vyst skupiny
+25:
+Vstupy systemu
+26:
+Vystupy systemu
+27:
+Nazev
+28:
+Akce
+29:
+Stav
+30:
+Motor zap
+31:
+Motor vyp
+32:
+Cyklus zap
+33:
+Motor zap
+34:
+Motor vyp
+35:
+Spustit
+36:
+Spust hlavni
+37:
+Zastavit
+38:
+Zastav cyklus
+39:
+Preruseni
+40:
+LoadStart
+41:
+Argument
+42:
+Nazev       Akce
+43:
+Nazev       Stav
+44:
+-
+45:
+Do
+46:
+Ze
+47:
+Propojeni
+48:
+Ze          Do
+49:
+Analogove vstupy
+50:
+Analogove vystupy
+51:
+Adresa
+52:
+Analog vystup
+53:
+Analog vstup
+54:
+ResetEstop
+55:
+EmStop
+56:
+AutoOn
+57:
+RunchOk
+58:
+Rychlost TCP
+59:
+Logicky Max
+60:
+Fyzicky Max
+61:
+Logicky Min
+62:
+Fyzicky Min
+63:
+Filtr pasivni
+64:
+Filtr aktivni
+65:
+Invertovany
+67:
+ANO
+68:
+NE
+69:
+Adresa RIO (oktal)
+70:
+Prenosova rychlost RIO
+71:
+Spousteci skupina RIO
+72:
+Velikost ramu RIO
+73:
+Posledni ram RIO
+74:
+57,6 kB
+75:
+115 kB
+76:
+230 kB
+77:
+0
+78:
+2
+79:
+4
+80:
+6
+81:
+1/4
+82:
+1/2
+83:
+3/4
+84:
+PLNY
+85:
+Chyba
+86:
+SyncExtAx
+87:
+BAS
+88:
+VME
+89:
+SIM
+90:
+Nulovat chybu
+91:
+CAN
+92:
+Adresa slotu
+93:
+Ulozit
+94:
+Stav Mot zap
+95:
+Stav Mot vyp
+96:
+PFError
+97:
+MotOnStart
+98:
+StopInstr
+99:
+SysReset
+100:
+Velikost ramu IBS

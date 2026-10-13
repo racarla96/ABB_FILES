@@ -1,0 +1,594 @@
+22::
+0:
+Sistema
+1:
+Cadena enable abierta\n
+\n
+\t\n
+
+2:
+Parada emergencia\n
+\n
+\t\n
+
+3:
+Parada limite\n
+\n
+\t\n
+
+6:
+Parada Auto\n
+\n
+\t\n
+
+7:
+Parada manual\n
+\n
+\t\n
+
+8:
+Parada gral.\n
+\n
+\t\n
+
+9:
+Fallo en cadena Run\n
+Conflicto en estado de los dos canales\n
+\t\n
+Comprobar leds en carta sistema\n
+cuando luzca el led rojo ERR para\n
+situar el fallo
+10:
+Parada emergencia activa\n
+Se requiere rearme de parada emer-\n
+gencia. Usar boton motores OFF.\n
+\t\n
+
+12:
+Fallo sistema activo\n
+Error de sistema no recuperable.\n
+Se requiere rearrancar el sistema.\n
+\t\n
+Desconectar y conectar interruptor\n
+principal si el Reinicio por soft se\n
+ignora o no es posible alcanzarlo.
+20:
+Exceso tiempo cadena Run\n
+Lmte tiempo estado de los dos canales\n
+\n
+El reconocimiento del cambio de estado\n
+de las dos cadenas de run no se recibio\n
+dentro del tiempo previsto\n
+\t\n
+Comprobar leds en carta sistema\n
+cuando luzca el led rojo ERR para\n
+situar el fallo\n
+Quiza deba volver a ordenar Motors On\n
+para encender el led ERR de nuevo.
+21:
+Fallo llave y velocidad\n
+Conflicto entre señales de seleccion\n
+modo funcionamiento y señal velocidad\n
+\t\n
+
+22:
+Fallo de llave modo func\n
+Señales del selector de modo func. en\n
+conflicto (se indican varios modos\n
+o ningun modo)\n
+\t\n
+
+24:
+Tmpo. exesivo cadena Run\n
+Exceso tiempo estado de los dos canales\n
+\t\n
+El reconocimiento del cambio de estado\n
+de las dos cadenas de run no se recibio\n
+dentro del tiempo previsto
+25:
+Tiempo exced. orden stop\n
+El stop ordenado se ha ejecutado\n
+como parada seguridad por no recibir\n
+confirmacion dentro del tiempo previsto\n
+\t\n
+
+26:
+Fallo de estado Run control\n
+Conflicto entre estado de cadena reles\n
+de run y el control run\n
+Este error ocurre si el dispositivo de\n
+habilitacion se pulsa en modo Auto y\n
+Motores On. En este caso es normal.\n
+\t\n
+Cambiar carta de sistema si el error\n
+aparece en cualquier otro caso.
+30:
+Eje no conmutado\n
+Uno o mas ejes internos no\n
+estan conmutados.\n
+\t\n
+
+31:
+Eje no calibrado\n
+Uno o mas ejes medida absoluta/relativa\n
+no estan calibrados\n
+\t\n
+
+32:
+Cont.rev. no actualizado\n
+Uno o mas ejes medida absoluta\n
+no estan sincronizados\n
+\n
+Mover el robot a marcas y actualizar\n
+los contadores de vueltas\n
+\t\n
+
+33:
+Eje no sincronizado\n
+Uno o mas ejes medida relativa\n
+no estan sincronizados\n
+\n
+Ordenar Motors On y sincronizar todas\n
+las unidades mecanicas de la lista\n
+\t\n
+
+40:
+Hold stop\n
+\n
+\t\n
+
+41:
+Sobrecarga motores 1-6\n
+Uno o mas motores sobrecalentados.\n
+Asegurarse que los motores se enfrian\n
+antes de ordenar Motors On. Sino, este\n
+mensaje se repetira a los 15 seg.\n
+de tener Motores On.\n
+\t\n
+Mirar carta seguridades en ventana ES y\n
+esperar que la señal OLM1 sea 0 antes de\n
+ordenar otra vez Motors On
+42:
+Sobrecarga motores 7-x\n
+Uno o mas motores sobrecalentados.\n
+Asegurarse que los motores se enfrian\n
+antes de ordenar Motors On. Sino, este\n
+mensaje se repetira a los 15 seg.\n
+de tener Motores On.\n
+\t\n
+Mirar carta seguridades en ventana ES y\n
+esperar que la señal OLM7 sea 0 antes\n
+de ordenar otra vez Motors On.
+50:
+Orden no permitida\n
+No permitida en este modo de funcmto\n
+\t\n
+
+51:
+Orden no permitida\n
+No permitido si cliente no tiene control\n
+del recurso (programa/mvto.)\n
+\t\n
+
+52:
+Orden no permitida\n
+No permitida en este estado en armario\n
+\t\n
+
+53:
+Orden no permitida\n
+No permitida en este estado en manip.\n
+\t\n
+
+54:
+Orden no permitida\n
+No permitida con programa arrancado.\n
+\t\n
+
+60:
+Orden no permitida\n
+No permitida en modo Auto.\n
+\t\n
+
+61:
+Orden no permitida\n
+No permitida al cambiar a modo Auto.\n
+\t\n
+
+62:
+Orden no permitida\n
+No permitida en modo Manual.\n
+\t\n
+
+63:
+Orden no permitida\n
+No permitida modo manual velocidad 100%\n
+\t\n
+
+64:
+Orden no permitida\n
+No permitida al cambiar a modo manual\n
+velocidad 100%\n
+\t\n
+
+70:
+Orden no permitida\n
+No permitida en estado Motors On\n
+\t\n
+
+71:
+Orden no permitida\n
+No permitida cambiando a\n
+estado Motors On\n
+\t\n
+
+72:
+Orden no permitida\n
+No permitida en estado Motors Off\n
+\t\n
+
+73:
+Orden no permitida\n
+No permitida cambiando a\n
+estado Motors Off\n
+\t\n
+
+74:
+Orden no permitida\n
+No permitida en estado parada de trabajo\n
+\t\n
+
+75:
+Orden no permitida\n
+No permitida en parada de emergencia\n
+\n
+Se requiere reset de parada emerg.\n
+Usar el boton de motors off.\n
+\t\n
+
+76:
+Orden no permitida\n
+No permitida en estado error sistema\n
+\n
+Error sistema fatal no recuperable\n
+Se requiere reinicio de sistema\n
+\t\n
+Desconectar y conectar interruptor\n
+principal si el Reinicio por soft se\n
+ignora o no es posible alcanzarlo.
+80:
+Orden no permitida\n
+No permitida si eje no esta conmutado\n
+\t\n
+
+81:
+Orden no permitida\n
+No permitida si eje no esta calibrado\n
+\t\n
+
+82:
+Orden no permitida\n
+No permitida si contador vueltas del\n
+eje no esta actualizado\n
+\t\n
+
+83:
+Orden no permitida\n
+No permitida si los ejes no estan\n
+sincronizados\n
+\t\n
+
+92:
+Orden no permitida\n
+No permitida en estado de\n
+bloqueo de arranque en ES sistema\n
+\t\n
+
+100:
+Unidad Prog. tiene ctrl\n
+Una aplicacion de unidad programacion\n
+tiene el control del recurso solicitado\n
+(programa / mvto)\n
+\t\n
+
+101:
+U. Prog. (prg) tiene ctrl\n
+La ventana de programacion de unidad\n
+programacion tiene el foco y controla\n
+el servidor de programas.\n
+Cambiar a ventana de produccion y\n
+ejecutar de nuevo la orden\n
+\t\n
+
+102:
+U.Prog.(joystick) en ctrl\n
+El joystick de la unidad programacion\n
+controla el servidor de movimiento.\n
+Soltar el joystick y\n
+ejecutar de nuevo la orden\n
+\t\n
+
+111:
+U. Prog. (prg) tiene ctrl\n
+La ventana de programacion de unidad\n
+programacion tiene el foco y controla\n
+el servidor de programas.\n
+Cambiar a ventana de produccion y\n
+ejecutar de nuevo la orden\n
+\t\n
+
+112:
+Programa 1 tiene ctrl\n
+El servidor de programas (1)\n
+controla al servidor de movimiento.\n
+Parar el programa y\n
+ejecutar de nuevo la orden\n
+\t\n
+
+113:
+Programa 2 tiene ctrl\n
+El servidor de programas (2)\n
+controla al servidor de movimiento.\n
+Parar el programa y\n
+ejecutar de nuevo la orden\n
+\t\n
+
+114:
+Programa 3 tiene ctrl\n
+El servidor de programas (3)\n
+controla al servidor de movimiento.\n
+Parar el programa y\n
+ejecutar de nuevo la orden\n
+\t\n
+
+115:
+Programa 4 tiene ctrl\n
+El servidor de programas (4)\n
+controla al servidor de movimiento.\n
+Parar el programa y\n
+ejecutar de nuevo la orden\n
+\t\n
+
+116:
+Programa 5 tiene ctrl\n
+El servidor de programas (5)\n
+controla al servidor de movimiento.\n
+Parar el programa y\n
+ejecutar de nuevo la orden\n
+\t\n
+
+120:
+E/S sistema tiene ctrl\n
+\n
+\t\n
+
+125:
+Cliente %s en ctrl\n
+El cliente mostrado tiene el\n
+control del recurso solicitado\n
+(programa/mvimiento)\n
+\t\n
+
+130:
+Memoria llena en cfg\n
+\n
+\t\n
+
+131:
+No puedo leer archivo\n
+\n
+\t\n
+
+132:
+Parametros no guardados\n
+No puedo guardar parametros.\n
+Probablemente, el disco esta protegido\n
+o no hay espacio disponible.\n
+\t\n
+Comprobar si esta protegido o si el\n
+espacio es suficiente.
+133:
+No puedo modif. instancia\n
+Descripcion/motivo:\n
+No puedo reemplazar instancia linea %d\n
+en archivo %s\n
+\t\n
+La instancia esta protegida de escritura
+134:
+Version erronea\n
+Descripcion/motivo:\n
+La version cfg es erronea en archivo\n
+%s\n
+El software eata hecho para\n
+version %s\n
+\t\n
+Cambiar version de dominio cfg.
+135:
+Linea demasiado larga\n
+Descripcion/motivo:\n
+Linea %d > %d caracteres\n
+\t\n
+Reducir el numero de caracteres
+136:
+Attr fuera de rango\n
+Descripcion/motivo:\n
+Attributo %s fuera de rango\n
+en linea %d\n
+\t\n
+Cambiar valor de atributo.
+137:
+Nombre inst duplicado\n
+Descripcion/motivo:\n
+Nombre duplicado en linea %d\n
+de archivo %s\n
+\t\n
+Cambiar el nombre.
+140:
+Motors On rechazado\n
+Motors On via E/S sistema\n
+no permitido\n
+\t\n
+
+141:
+Motors Off rechazado\n
+Motors Off via E/S sistema\n
+no permitido\n
+\t\n
+
+142:
+Inicio rechazado\n
+Inicio/reinicio prg via E/S sistema\n
+no permitido\n
+\t\n
+
+143:
+Inicio main rechazado\n
+Inicio prg main via E/S sistema\n
+no permitido\n
+\t\n
+
+144:
+Paro rechazado\n
+Paro prg via E/S sistema\n
+no permitido\n
+\t\n
+
+145:
+Paro ciclo rechazado\n
+Paro ciclo via E/S sistema\n
+no permitido\n
+\t\n
+
+146:
+Interrup man rechazada\n
+Interrupcion manual del programa via\n
+E/S sistema no permitida\n
+\t\n
+
+147:
+Carga e inicio rechazados\n
+Carga e inicio de programa via E/S\n
+sistema no permitido.\n
+Se debe definir nombre de archivo de\n
+programa a cargar (incluida unidad de\n
+almacenamiento)\n
+\t\n
+
+148:
+Confirmacion rechazada\n
+Confirmacion reset parada emergencia\n
+via E/S sistema no permitida\n
+\t\n
+
+149:
+Reset errores rechazado\n
+Reset error ejecucion programa\n
+via E/S sistema no permitido\n
+\t\n
+
+150:
+Sincronizacion rechazada\n
+Sincronizacion de unidad mecanica\n
+via E/S sistema no permitida\n
+\t\n
+
+151:
+Nombre señal erronea\n
+No es posible suscribir el nombre\n
+de la señal en los Sysio.\n
+Posiblemente, el nombre de la señal\n
+no esta en archivo-cfg de Sysio.\n
+\t\n
+
+152:
+Demasiadas restricciones\n
+No hay restricciones definidas para\n
+una accion (señal) en Sysio\n
+El numero total de restricciones\n
+(señales) para una accion en archivo\n
+cfg de Sysio es demasiado alto.\n
+\t\n
+
+153:
+Mot. On, Inicio rechazado\n
+Mot. On, Inicio/reinicio de programa\n
+via E/S sistema no permitida\n
+\t\n
+
+154:
+Parada instr. rechazada\n
+Parada de instruccion de programa\n
+via E/S sistema no permitida\n
+\t\n
+
+155:
+Argumento indefinido\n
+SyncExtAx nombre unidad mecanica\n
+no esta definido\n
+\t\n
+
+156:
+Argumento indefinido\n
+Nombre rutina interrupcion\n
+no esta definido\n
+\t\n
+
+157:
+Argumento indefinido\n
+LoadStart nombre programa\n
+no definido\n
+\t\n
+
+160:
+No en configuracion\n
+El modulo sistema %!%s en tarea\n
+%s no tiene la correspondiente\n
+especificacion en la configuracion\n
+de "Modulos de tareas"\n
+\t\n
+Ver "Modulos de tareas" en menu\n
+"Parametros de sistema" y añadir item\n
+para este modulo de sistema
+161:
+Ruta no hallada\n
+El modulo de sistema %!%s en tarea\n
+%s tiene la correspondiente\n
+especificacion en configuracion de\n
+"Modulos de tarea" que apuntan a una\n
+ruta de archivo no existente\n
+\t\n
+Ver "Modulos de tarea" en menu de\n
+"Parametros de sistema" y cambiar ruta\n
+del item para este modulo de sistema
+162:
+Error escritura\n
+Ha ocurrido error de escritura al\n
+guardar modulo sistema %!%.14s\n
+en %.37s\n
+en tarea %.16s.\n
+O el sistema de archivos esta lleno.\n
+\t\n
+Ver "Modulos de tarea" en menu de\n
+"Parametros de sistema" y cambiar ruta\n
+del item para este modulo de sistema
+163:
+Fallo reconfig.\n
+Algunas rutinas usuario cambiadas\n
+pero no guardadas\n
+\t\n
+Guardar y arrancar sistema de nuevo
+164:
+Fallo reconfig.\n
+Aun hay algun modulo de sistema\n
+no guardado\n
+\t\n
+Leer descripciones de error de\n
+mensajes previos\n
+Intentar arrancar sistema de nuevo
+165:
+PP perdido!\n
+No es posible rearrancar desde la\n
+posicion actual. El programa se debe\n
+arrancar desde el inicio.\n
+\t\n
+

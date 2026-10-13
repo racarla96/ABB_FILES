@@ -1,0 +1,192 @@
+26::
+0:
+Bediener
+1:
+%s fehlt\n
+Werkzeug %s wird im aktuellen\n
+Programm nicht verwendet.\n
+Vielleicht wurde es gelöscht\n
+oder es ist nicht definiert.\n
+\t\n
+Anderes Werkzeug im Fenster\n
+-Bewegen- wählen.
+2:
+%s fehlt\n
+WerkObjekt %s wird im aktuellen\n
+Programm nicht verwendet.\n
+Vielleicht wurde es gelöscht\n
+oder es ist nicht definiert.\n
+\t\n
+Anderes WerkObjekt im Fenster\n
+-Bewegen- wählen.
+3:
+Verzeichn. nicht erstellt\n
+Das Verzeichnis %s kann nicht\n
+erstellt werden. Vielleicht existiert\n
+das Verzeichnis schon oder die\n
+Diskette ist schreibgeschützt.\n
+\t\n
+Kontrolle, ob Verzeichnis auf Diskette\n
+vorhanden oder die Diskette\n
+schreibgeschützt ist.\n
+Kontrolle, ob genügend Speicherplatz\n
+vorhanden ist.
+4:
+Unzul. -robhold- Defin.\n
+Das verwendete Werkzeug und\n
+das verwendete WerkObjekt können\n
+nicht gleichzeitig am Roboter oder\n
+als stationär definiert sein.\n
+\t\n
+Kontrolle der -robhold- Komponente\n
+des verwendeten Werkzeugs und\n
+des WerkObjektes.
+5:
+%s fehlt\n
+Das WerkObjekt %s beinhaltet\n
+eine koord. mechanische Einheit, \n
+die nicht gefunden werden kann.\n
+\t\n
+Kontrolle der mech. Einheit Komponente\n
+des verwendeten WerkObjektes.
+6:
+%s AnwenderKoord.\n
+Das WerkObjekt %s beinhaltet\n
+eine koord. mechanische Einheit, \n
+die kein defin. -AnwenderKoord- hat.\n
+\t\n
+Kontrolle der mech. Einheit Komponente\n
+des verwendeten WerkObjektes.
+7:
+Bewegen unzulässig\n
+Bewegen kann in diesem Modus\n
+nicht ausgeführt werden.\n
+\t\n
+Steuerknüppel und Zustimmungs-\n
+schalter freigeben und wiederholen.\n
+Kontrolle aktive mech. Einheit.
+8:
+-Tool mass- undefiniert\n
+Bewegen kann nicht ausgeführt werden,\n
+wenn das verwendete Werkzeug eine\n
+undefinierte Masse hat.\n
+\t\n
+Wert für die Masse in die -tooldata-\n
+des verwendeten Werkzeugs eingeben.
+9:
+Unsysnch. Roboter\n
+Manipulator oder externe Achsen\n
+sind unsynchronisiert.\n
+\t\n
+Manipulator oder externe Achsen\n
+synchronisieren.
+10:
+Orientierung Fehler\n
+Orientierung in %s ist falsch.\n
+\t\n
+Wert für Orientierung kontrollieren.
+11:
+Parameter Fehler\n
+Laden von Parametern in\n
+%s\n
+kann nicht ausgeführt werden.\n
+Als Ursache, siehe\n
+%s\n
+\t\n
+Kopieren der Datei\n
+%s\n
+auf Diskette und Beheben der Ursache\n
+mit einem normalen Texteditor.
+12:
+Keine Parameter geladen\n
+Keine Parameter in\n
+%s\n
+\t\n
+Kontrolle der Datei\n
+%s\n
+mit einem normalen Texteditor.
+13:
+Bewegen unzulässig\n
+Bewegen der mechanischen Einheit\n
+ist nicht möglich.\n
+Einheit ist nicht aktiviert.\n
+\t\n
+Mechanische Einheit aktivieren.
+14:
+RAMdisk ist voll\n
+Keine Infos über Parameteränderungen\n
+im Log Änderungen gespeichert.\n
+Kein freier Platz auf der RAMdisk.\n
+\t\n
+Dateien löschen oder RAMdisk\n
+neu organisieren.
+15:
+PZ nicht setzbar!\n
+PZ nicht setzbar auf Routine\n
+'%s', da diese Parameter hat.\n
+\t\n
+Erzeuge Routine, die '%s' aufruft\n
+oder die Parameter entfernen.
+16:
+PZ nicht setzbar!\n
+PZ nicht setzbar auf Routine\n
+'%s', da sich diese in einem\n
+Modul befindet, welches das\n
+Modulattribut -NOSTEPIN- hat.\n
+\t\n
+Kopieren der Routine '%s' in\n
+ein anderes Modul oder das\n
+Modulattribut ändern.
+17:
+PGM_TELLBACK Code %d\n
+\n
+\t\n
+Keine weiteren Infos verfügbar.
+18:
+RAPID Syntaxfehler!\n
+Das Programm kann wegen Fehler in der\n
+Syntax nicht geladen werden.\n
+\t\n
+Das RAPID Syntax Check Programm für PC\n
+oder QuickTeach zur Fehlererkennung\n
+verwenden. Die Datei PGMCPL1.LOG\n
+auf der internen RAMdisk beinhaltet\n
+Informationen über den/die Fehler.
+19:
+Daten Eingabe Fehler!\n
+Die Komponente '%s' im\n
+Datentyp '%s' ist nicht korrekt.\n
+Die Grenze ist\n
+%s!\n
+\t\n
+Daten kontrollieren und den\n
+korrekten Wert eingeben.
+20:
+PZ nicht setzbar!\n
+PZ nicht setzbar auf Routine\n
+'%s', da diese als\n
+Interruptroutine definiert ist.\n
+\t\n
+Definition der Routine\n
+'%s' ändern\n
+auf 'Prozedur'.
+21:
+Punkte nicht anzeigbar!\n
+Die Anzahl der ausgewählten Punkte\n
+überschreitet die akt. Speichergrenze\n
+für diese Konfiguration. Die Punkte\n
+sind deshalb nicht anzeigbar.\n
+\t\n
+Die Anzahl der Punkte reduzieren\n
+oder die Konfiguration ändern\n
+und größer Speicherkarte verwenden.
+22:
+Kann nicht alles anzeigen!\n
+Nur %d Variable (von %d) werden\n
+aufgelistet.\n
+Es können nicht alle Variablen angezeigt\n
+werden, da die aktuelle Speichergrenze\n
+dieser Konfiguration überschritten wird.\n
+\t\n
+Die Anzahl der Daten reduzieren oder\n
+größere Speicherkarte verwenden.

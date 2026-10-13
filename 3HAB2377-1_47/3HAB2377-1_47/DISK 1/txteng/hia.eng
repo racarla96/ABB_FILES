@@ -1,0 +1,977 @@
+Revision 1.13  1996/12/12  07:23:09  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+3::
+0:
+Program Editor
+1:
+Option
+2:
+IPL1
+3:
+IPL2
+4:
+Test
+5:
+Routine
+6:
+Data
+7:
+Module List...
+8:
+Save Module
+9:
+Save Module as...
+10:
+
+11:
+Save Program
+12:
+Save Program as...
+13:
+Use IPL (Instruction\n
+Pick List) to insert a\n
+new instruction!
+14:
+Change Selected
+15:
+Mark
+16:
+Unmark
+17:
+Instr.
+18:
+Program Instr
+19:
+Program Test
+20:
+Routines
+21:
+Data
+22:
+Data Types
+23:
+Test
+24:
+Modules
+25:
+< Press ENTER to proceed >
+26:
+Move Cursor to PP
+27:
+Move PP to Main
+28:
+Move PP to Routine...
+29:
+Various
+30:
+Motion&Process
+31:
+Prog. Flow
+32:
+Common
+33:
+Motion Settings
+34:
+Interrupts
+35:
+IO
+36:
+Communicate
+37:
+Prog. DataTypes
+38:
+Error Recovery
+39:
+System&Time
+40:
+Event Log
+41:
+Program
+42:
+Move PP to Cursor
+43:
+Set BreakPoint
+44:
+Delete BreakPoint
+45:
+BreakPoints...
+46:
+Simulate...
+47:
+In System
+48:
+
+49:
+In Module
+50:
+Data
+51:
+Declaration...
+52:
+Duplicate...
+53:
+New Routine...
+54:
+Types
+55:
+In Routine
+56:
+New...
+57:
+Value
+58:
+ModPos
+59:
+Instr
+60:
+Test
+61:
+IPLshow
+62:
+-%
+63:
++%
+64:
+Start
+65:
+Sim
+66:
+Displ
+67:
+New
+68:
+Decl
+69:
+Dupl
+70:
+Var
+71:
+Func
+72:
+Mirror...
+73:
+Reverse Copy...
+74:
+Most Common 1
+75:
+Most Common 2
+76:
+\n
+Please wait!\n
+Sorting symbols ...
+77:
+Replace can not be undone.\n
+Leave the Search & Replace\n
+dialog by pressing OK.
+78:
+Choosen module has no\n
+routines. The previous\n
+settings are choosen.
+79:
+Call Routine...
+80:
+Would you like to run this\n
+routine once again?
+81:
+Speed:=
+82:
+Running:=
+83:
+
+84:
+
+85:
+
+86:
+Name             Value
+87:
+Name             Type
+88:
+Datatype             Global/Local
+89:
+
+90:
+Mathematics
+91:
+Program Run
+92:
+Name             Value    Local Module
+93:
+Name             Type            Module
+94:
+(ModPos)
+95:
+Data
+96:
+Func
+97:
+No objects
+98:
+Wrong Syntax
+99:
+This is not a Program or a\n
+Program Module.\n
+Try another one!
+100:
+Numbers not allowed,\n
+use predefined data
+101:
+Next
+102:
+Program Routines
+103:
+Program Data
+104:
+OptArg
+105:
+(Info)
+106:
+Proc
+107:
+Local
+108:
+Global
+109:
+Name:=
+110:
+Scope:=
+111:
+Type:=
+112:
+Data Type:
+113:
+Incorrect data decl.\n
+Check name and value
+114:
+Const
+115:
+Change
+116:
+No Program to show.\n
+\n
+Use the menu File to open or\n
+to create a new Program
+117:
+Datatype:=
+118:
+Label
+119:
+Insert before:
+120:
+Name           Datatype    Req Alt. Mode
+121:
+Skip
+122:
+Trap
+123:
+
+124:
+Selected object\n
+has no value!
+
+125:
+25%
+126:
+100%
+127:
+
+128:
+Current Data Value
+129:
+Routine Definition
+130:
+Routine Declaration
+131:
+Routine Duplication
+132:
+Data Definition
+133:
+Data Declaration
+134:
+Data Duplication
+135:
+TRUE
+136:
+FALSE
+137:
+Initial Data Value
+138:
+Init. Value:=
+139:
+New Initial Data Value
+140:
+main
+141:
+First
+142:
+Second
+143:
+Third
+144:
+IPLhide
+145:
+Routine Data
+146:
+Num Data
+147:
+Value...
+148:
+Used Types
+149:
+All Types
+150:
+Types
+151:
+Module
+152:
+Program Modules
+153:
+Up
+154:
+Module Definition
+155:
+Module Declaration
+156:
+Program Module
+157:
+System Module
+158:
+Program
+159:
+System
+160:
+Current Instruction
+161:
+Instruction Arguments
+162:
+Only one statement is\n
+allowed in Compact IF
+163:
+More
+164:
+(OptArg)
+165:
+Pers
+166:
+Data is of "No Value" type\n
+and cannot have a value
+167:
+Object already exists\n
+Change name
+168:
+Name not allowed. It is\n
+a reserved word or object\n
+exists. Change name.
+
+169:
+
+170:
+Which routine?\n
+Use View:Routines
+171:
+No main routine exists
+172:
+Command failed
+173:
+Contents in buffer doesn't\n
+fit.\n
+Wrong type of place holder
+174:
+
+175:
+Program Pointer (PP)\n
+cannot be set!\n
+Wrong state
+176:
+Cursor is moved to\n
+Program Pointer (PP)
+177:
+Data is a "Read Only"\n
+and cannot be changed.
+178:
+No new signals can be made.\n
+Use predefined.
+179:
+System data!\n
+Data declaration cannot\n
+be reached.
+180:
+Function Argument
+181:
+Instruction Argument
+182:
+Expression
+183:
+Select Procedure
+184:
+Must be a data
+185:
+Wrong Syntax\n
+Value not allowed
+186:
+Move
+187:
+No program routine is\n
+selected
+188:
+The IPL is full!\n
+Instruction could not be\n
+included
+189:
+Program has been saved.
+190:
+Name                      Type
+191:
+Main Routine
+192:
+Select a Program or a Module
+193:
+Save Module as:
+194:
+Save Program as:
+195:
+Cursor must be in same\n
+routine part as the PP!
+196:
+Result
+197:
+Incl.
+198:
+Excl.
+199:
+Default data Global/Local 
+200:
+SetUp
+201:
+Most Common Result
+202:
+Most Common SetUp
+203:
+Procedure
+204:
+Function
+205:
+Trap
+206:
+Variable
+207:
+Constant
+208:
+Persistent
+209:
+IF
+210:
+WHILE
+211:
+FOR
+212:
+TEST
+213:
+GOTO
+214:
+ProcCall
+215:
+Label
+216:
+:=
+217:
+RETURN
+218:
+RAISE
+219:
+CONNECT
+220:
+EXIT
+221:
+RETRY
+222:
+TRYNEXT
+223:
+Compact IF
+224:
+Comment
+225:
+
+226:
+Selected Routine
+227:
+Value
+228:
+Literal Value
+229:
+-
+230:
+.
+231:
+  In
+232:
+routine
+233:
+module
+234:
+param
+235:
+No Alt.
+236:
+First
+237:
+Tail
+238:
+Select datatype:
+239:
+Error Handler
+240:
+ERROR handler
+241:
+
+242:
+Select
+243:
+(No)
+244:
+Limit for Mark movement\n
+is reached
+245:
+Check Program
+246:
+Go to selected position...
+247:
+Program is OK!
+248:
+A parameter cannot have\n
+the same name as an other\n
+parameter!
+249:
+Select number of\n
+dimensions for array.\n
+Press Enter.
+250:
+TRUE
+251:
+FALSE
+252:
+ AND
+253:
+ XOR
+254:
+ OR
+255:
+ NOT
+256:
+ DIV
+257:
+ MOD
+258:
+
+259:
+
+260:
+
+261:
+No parameters are allowed\n
+for a trap routine
+262:
+Close Program
+263:
+Backward Handler
+264:
+wobj0
+265:
+Tool or Wobj in the\n
+instruction is not the\n
+same as used for jogging!
+266:
+Define Coord.
+267:
+Array dimension declaration
+268:
+New Array
+269:
+Array
+270:
+Dimension:=
+271:
+Dimension          Size
+272:
+Array Current Data Value
+273:
+Array Init Data Value
+274:
+Add Error Handler
+275:
+Remove Error Handler
+276:
+No error handler exists\n
+for this routine!\n
+Use Routine:Add...
+278:
+all data
+279:
+Executing!
+280:
+Module has been saved.
+281:
+You must have a program\n
+to access system or\n
+program modules.
+282:
+Array structures cannot\n
+yet be handled!.
+283:
+ModPos OK!\n
+Program Pointer (PP) is\n
+moved to next instruction
+284:
+Do You want to delete:
+285:
+Do You want to cut:
+286:
+Add Backward Handler
+287:
+Remove Backward Handler
+288:
+No Backward handler exists\n
+for this routine!\n
+Use Routine:Add...
+289:
+BACKWARD handler
+290:
+InOut
+291:
+\n
+Do you want to save the old program\n
+%s\n
+before replacing it with\n
+%s?
+292:
+Object cannot be deleted\n
+in this window!!!\n
+Use View:...
+293:
+Content
+294:
+Insert
+295:
+Preferences
+296:
+Most Common 3
+297:
+Expression is too long for\n
+online editing. It can be\n
+edited offline or by parts.
+298:
+This operation will destroy\n
+the calling hierarchy.\n
+Continue?
+299:
+Overwriting Program!\n
+Existing Program will be\n
+overwritten.\n
+\n
+OK to continue?
+300:
+Service
+301:
+i
+302:
+Motion Set Adv
+303:
+Motion Adv
+304:
+Ext. Computer
+305:
+Multi Tasking
+306:
+RAPID support
+307:
+Authorize Program
+308:
+Delete Instr
+309:
+Delete Obj
+310:
+Cursor doesn't coincide with\n
+Program Pointer (PP)!!\n
+Start Program from:
+311:
+Cursor
+312:
+  PP
+313:
+Conf. Start
+314:
+\n
+Please wait!\n
+Loading program ...!
+315:
+\n
+Please wait!\n
+Loading module ...!
+316:
+\n
+Please wait!\n
+Saving program ...!
+317:
+\n
+Please wait!\n
+Saving module ...!
+318:
+The module '%s'\n
+already exists!\n
+\n
+Do you want to replace it?
+319:
+No Routines
+320:
+No Data
+321:
+No Parameters
+322:
+.prg
+323:
+.PRG
+324:
+.mod
+325:
+.MOD
+326:
+.sys
+327:
+.SYS
+328:
+Stop Instruction
+329:
+StopInst
+330:
+Program window cannot\n
+be used in automatic\n
+mode.\n
+Switch back to Manual Mode!
+331:
+NB: The robot is moving\n
+to the selected position!!
+332:
+Start robot movement towards\n
+selected position
+333:
+Simulating
+334:
+Select simulation options
+335:
+Allow execution in MOTORS OFF
+336:
+System Data
+337:
+User Data
+338:
+Marked Area
+339:
+Work memory full!\n
+\n
+Use the menu File to Save\n
+the Program.\n
+Save must be done!
+340:
+Mod Pos not allowed on\n
+a Position declared\n
+as a Variable.
+341:
+Loop Variable!\n
+Can only be reached\n
+from the FOR-instruction.
+342:
+Hide IPL
+343:
+Show IPL
+344:
+More
+345:
+In Module:
+346:
+Select Module:
+347:
+in
+348:
+Data Def.
+349:
+Used
+350:
+All
+351:
+Instructions
+352:
+
+353:
+Modify Position
+354:
+Type
+355:
+
+356:
+Not used
+357:
+ModPos
+358:
+LModPos
+359:
+Max Trans
+360:
+Max Rot
+361:
+Max External Trans
+362:
+Max External Rot
+363:
+Mode
+364:
+Abs
+365:
+Rel
+366:
+Current position not within\n
+limits according to the\n
+Limit ModPos function.
+367:
+Current position name\n
+is too long for the\n
+Limit ModPos function.
+368:
+Limit ModPos is active\n
+but it is not possible\n
+to create data.
+369:
+Limit ModPos error!
+370:
+Tuning In Auto
+371:
+At least one of the removed\n
+arguments contains instruc-\n
+tions that will be lost.\n
+Continue?
+372:
+\n
+Do you want to save the old program\n
+%s\n
+before creating a new program?
+373:
+\n
+The system module '%s'\n
+is changed but not saved!\n
+\n
+Do you want to save the system module?
+374:
+The following system modules have been\n
+changed but are not saved,\n
+%s\n
+\n
+Do you want to save the system modules?
+375:
+Edit Program
+376:
+present
+377:
+Do You want to enter the Program?
+378:
+array
+
+379:
+If Auto
+380:
+Required Userlevel
+381:
+LModPos
+382:
+As Is
+383:
+As Edit
+384:
+No Req
+385:
+Routines
+386:
+In Routine
+387:
+In Module
+388:
+In System
+389:
+Program module pretty printing.
+390:
+Print
+391:
+Print Only to File :
+392:
+To Print
+393:
+Print Program to File:
+394:
+Printing !
+395:
+   To Cancel Press Enter
+396:
+ Press Enter to Continue
+397:
+Printer is Busy\n
+\n
+Try again when printer is ready!
+398:
+Cannot Print because too many\n
+print job queued\n
+\n
+Try again later!
+399:
+Cannot Print because\n
+Printer Device not configured\n
+in System Parameters.
+400:
+Not enough free space on unit\n
+used when printing (usually\n
+%.9s). Needs %d bytes\n
+Please Move/Delete some files.
+401:
+  Busy\n
+  \n
+  Wait Please
+402:
+ Cannot create/write to file:\n
+\n
+
+403:
+ File already exist
+404:
+ Program
+405:
+Program Run Info
+406:
+Program Run Position
+407:
+Do You want to close:
+408:
+Robtarget programming rule
+409:
+Current:
+410:
+Automatic name sequence
+411:
+Dialog with next robtarget selected
+412:
+Dialog with * selected
+413:
+Are you sure you want to\n
+modify the position?
+414:
+ModPos
+415:
+(Rule: Latest +)
+416:
+(Rule: *)
+417:
+Select Unit:
+418:
+Undo
+419:
+Delete
+420:
+New Instr

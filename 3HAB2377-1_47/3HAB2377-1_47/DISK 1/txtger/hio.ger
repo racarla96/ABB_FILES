@@ -1,0 +1,256 @@
+Revision 1.11  1996/12/12  07:36:15  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+4::
+0:
+
+1:
+Eingänge/Ausgänge
+2:
+Invert:
+3:
+Gruppen
+4:
+Ausgewählte
+5:
+
+6:
+
+7:
+Name:
+8:
+Wert:
+9:
+Typ:
+10:
+
+11:
+Bus:
+12:
+Öffnen
+13:
+Schließ
+14:
+Setzen
+15:
+Löschen
+16:
+1
+17:
+0
+18:
+Datei
+19:
+Drucken...
+20:
+Voreinstellungen...
+21:
+Bearb.
+22:
+Alias Dig. Ausgänge
+23:
+Alias Analoge
+24:
+Gehe zu...
+25:
+Gehe zum Anfang
+26:
+Gehe zum Ende
+27:
+AliasEA
+28:
+ Ansicht
+29:
+Ausgewählte
+30:
+E/A Einheiten
+31:
+Dig. Eingänge
+32:
+Dig. Ausgänge
+33:
+Analoge
+34:
+Alias Dig. Eingänge
+35:
+Gruppen
+36:
+Alias Alle Signale
+37:
+Alle Signale
+38:
+Alias Gruppen
+39:
+Sicherheit
+40:
+
+41:
+
+42:
+
+43:
+Adresse:
+44:
+E/A Einheit:
+45:
+Signal:
+46:
+
+47:
+Signaleigenschaften:
+48:
+ Zustand
+49:
+E/A Einheiten
+50:
+ OK
+51:
+Signalzustand
+52:
+ Abbruch
+53:
+Auswahl
+54:
+inkl.
+55:
+exkl.
+56:
+Gehe zu Zeile
+57:
+Zeilennummer
+58:
+Ändern
+59:
+Name         Wert         Typ
+60:
+Bus Addr     Name         Typ
+61:
+Auswahlliste Name         Typ
+62:
+Name         Wert          Signale
+63:
+Nr  Wert     E/A Einheit  Signal
+64:
+Gruppe:
+65:
+Signal       Wert         Name
+66:
+ Aufwts
+67:
+ Bewege
+68:
+Setzen
+69:
+             Name         Typ
+70:
+Auswahl: Ausgewählte Signale
+71:
+Setzen: Ausgewählte Signale
+72:
+Aus
+73:
+Ein
+74:
+Nein
+75:
+Ja
+76:
+Passiv
+77:
+Aktiv
+78:
+Low
+79:
+High
+80:
+Einheit Typ:
+81:
+
+82:
+
+83:
+Keine Signale
+84:
+Weiter mit ENTER
+85:
+Keine Signale zugeordnet
+86:
+Wert für E/A Gruppe eingeben
+87:
+Grenzen: Minimum
+88:
+         Maximum
+89:
+Dateneingabe für Ausgangszustand
+90:
+Wert für analoges Signal eingeben
+91:
+Ein-/Ausgänge Drucken
+92:
+ Drucken
+93:
+Drucken in Datei:
+94:
+Signalinfo hinzu   :
+95:
+Daten zu drucken
+96:
+Ein-/Ausgänge drucken in Datei:
+97:
+Druckt !
+98:
+   Abbruch mit ENTER
+99:
+ Weiter mit ENTER
+100:
+Drucker ist beschäftigt.\n
+\n
+Neuer Versuch wenn Drucker fertig.
+101:
+Drucken unmöglich.\n
+Zu viele Aufträge gespeichert.\n
+\n
+Neuer Versuch später.
+102:
+Drucken unmöglich.\n
+Drucker in den Systemparametern\n
+nicht konfiguriert.
+103:
+Nicht genügend freier Platz auf\n
+verw. Medium zum Drucken (üblich\n
+%.9s). Benötigt %d Bytes.\n
+Bitte einige Dateien löschen.
+104:
+Beschäftigt\n
+\n
+Bitte warten.
+105:
+Erzeugen/Schreiben in Datei\n
+unmöglich:\n
+
+106:
+Datei schon vorhanden\n
+
+107:
+Startsignal
+108:
+Signal ist nicht zufügbar!\n
+Die Ansicht -Ausgewählte-\n
+darf nur %d Signale\n
+beinhalten.
+109:
+Gruppenwert nicht änderbar!\n
+\n
+Die ausgewählte Gruppe\n
+beinhaltet interne Signale.
+110:
+Spezial
+111:
+E/A Busse
+112:
+Bus
+113:
+Neustart
+114:
+E/A Busse

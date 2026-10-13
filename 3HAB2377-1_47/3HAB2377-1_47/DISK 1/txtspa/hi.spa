@@ -1,0 +1,280 @@
+Revision 1.12  1996/12/12  07:47:37  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+1::
+0:
+
+1:
+Entrar codigo paso!
+2:
+Servicio
+3:
+Programador
+4:
+Otras ventanas
+5:
+"%s" requiere codigo de\n
+acceso para poder continuar.
+6:
+Operador
+7:
+Arrancar
+8:
+ProgOServ
+9:
+Disco cambiado!\n
+El contenido del disco ha\n
+cambiado desde la ultima\n
+lectura.\n
+Releer el contenido?
+10:
+Archivo
+11:
+Editar
+12:
+Ver
+13:
+Espec.
+14:
+Deshacer
+15:
+Cortar
+16:
+Copiar
+17:
+Pegar
+18:
+Buscar...
+19:
+Ir a...
+20:
+Ir al Inicio
+21:
+Ir al Final
+22:
+Pagina Siguiente
+23:
+Pagina Anterior
+24:
+Cargar...
+25:
+Guardar como...
+26:
+Imprimir
+27:
+Preferencias...
+28:
+OK
+29:
+Cancela
+30:
+Texto
+31:
+Si
+32:
+No
+33:
+Añadir
+34:
+Ocultar
+35:
+Borrar
+36:
+Mostrar
+37:
+Unidad
+38:
+Arriba
+39:
+Cargar
+40:
+Texto..
+41:
+789456123-0.ABCDEFGHIJKLMNOPQRSTUVWXYZ+'<>*/,?=& :_[](){}%\"
+42:
+789456123-0.abcdefghijklmnopqrstuvwxyz+'<>*/,?=& :_[](){}%\"
+43:
+a->A
+44:
+A->a
+45:
+Info
+46:
+Entrar Nombre!
+47:
+Nombre:
+48:
+Unidad almacen.=
+49:
+DirNuev
+50:
+Entrar Nombre de Directorio!
+51:
+Comun
+52:
+Interno
+53:
+Advertencia!
+54:
+Pulsar Entrar para continuar!
+55:
+mm
+56:
+Deg
+57:
+789456123_0_ABCDEFGHIJKLMNOPQRSTUVWXYZ_
+58:
+Cortar
+59:
+Copiar
+60:
+Pegar
+61:
+Arranca
+62:
+Adelant
+63:
+Atras
+64:
+Cont
+65:
+Ciclo
+66:
+Instr
+67:
+Continuo
+68:
+Ciclo
+69:
+Instruccion
+70:
+No Sincronizado
+71:
+789456123_0_ABCDEFGHIJKLMNOPQRSTUVWXYZÑÇ_
+72:
+789456123_0_abcdefghijklmnopqrstuvwxyzñç_
+73:
+Un nombre debe empezar con\n
+Una letra, p.ej. ABB o abb.\n
+\n
+\n
+Pulsar Entrar para continuar!
+74:
+Parametros
+75:
+Programa
+76:
+Modulo programa
+77:
+Modulo sistema
+78:
+Registro errores
+79:
+Log
+80:
+Directorio
+81:
+Subir nivel
+82:
+Volumen vacio
+83:
+Desconocido
+84:
+Funcion
+85:
+Nivel de usuario
+86:
+Confirmar
+87:
+Funcion     Nivel usrio Confirmar
+88:
+No en trayectoria!\n
+El robot se ha movido despues\n
+de un paro programa.\n
+Debe volver el robot a camino\n
+original al arrancar?
+89:
+No
+90:
+Si
+91:
+Modulo
+92:
+Releer
+93:
+Programa en ejecucion
+94:
+Arch. impresion
+95:
+Esperando!\n
+El servidor de programas esta\n
+ocupado por otro cliente.
+96:
+Programa Conv
+97:
+Mod.Progr.Conv
+98:
+Mod.Sistema Conv
+99:
+Teclas programables
+100:
+Tecla       Tipo        Conexion
+101:
+Tecla
+102:
+Tipo
+103:
+Conexion
+104:
+Tecla pulsada
+105:
+Ninguna
+106:
+Entrada
+107:
+Salida
+108:
+Interrupcion
+109:
+Inversor
+110:
+Activar 0
+111:
+Activar 1
+112:
+Pulsar/Sol.
+113:
+Pulso
+114:
+mayor que 0 pero menor que carga max.
+115:
+Selecccion
+116:
+Dialogo ajustes
+117:
+                    Ajuste  Actual
+118:
+Ajust.
+119:
+Sin Datos
+120:
+Info
+121:
+Posicion
+122:
+Robtarget:=
+123:
+o_
+124:
+On
+125:
+Off
+126:
+Datos Arcitec
+127:
+\n
+Por favor espere!\n
+Leyendo de la unidad...!
+128:
+Permite en Auto

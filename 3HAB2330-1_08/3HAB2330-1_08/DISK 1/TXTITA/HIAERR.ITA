@@ -1,0 +1,27 @@
+15::
+1:
+Oggetto non modificabile\n
+perche' dichiarato in\n
+modulo solo lettura.
+2:
+Oggetto non modificabile\n
+perche' dichiarato in\n
+modulo solo lettura.
+3:
+Nome non accettabile!\n
+Deve cominciare con una\n
+lettera !
+4:
+Direz esecuz non\n
+modificabile con istruz\n
+complessa.
+5:
+Direz esecuz non\n
+modificabile in questo\n
+sottoprogramma.
+6:
+Errore sintassi Rapid.\n
+Errori nel programma.
+7:
+Errore esecuzione\n
+programma.

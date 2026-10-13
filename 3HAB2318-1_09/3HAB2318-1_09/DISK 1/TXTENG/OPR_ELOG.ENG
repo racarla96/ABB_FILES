@@ -1,0 +1,203 @@
+21::
+0:
+Operational
+2:
+Program reset\n
+The task %!%!%s has\n
+been rewound to its start point.\n
+\t
+5:
+Program stopped\n
+The task %!%!%s has\n
+stopped. The reason is that\n
+%s\n
+\t
+500:
+an external or internal stop after current\n
+instruction has occurred.
+501:
+the task has reached an exit instruction.
+502:
+the task is ready.
+503:
+the task is ready with this step.
+504:
+the task has reached a break instruction.
+505:
+an external or internal stop has occurred.
+506:
+an error has occurred.
+507:
+Cannot execute backward past beginning\n
+of instruction list.
+508:
+Cannot execute backward past this\n
+instruction.
+7:
+Program started\n
+The task %!%!%s has\n
+start to execute. \n
+%s\n
+\t
+8:
+Program restarted\n
+The task %!%!%s has\n
+restart to execute.\n 
+%s\n
+\t
+701:
+The originator is the program window.
+702:
+The originator is the production window.
+703:
+The originator is unknown.
+704:
+The originator is an extern client.
+9:
+Work memory full\n
+No memory left for new RAPID\n
+instructions or data.\n
+The task is %!%!%s \n
+\t\n
+Save the program and then\n
+restart.
+10:
+Motors off state\n
+\t
+11:
+Motors on state\n
+\t
+12:
+Guard stop state\n
+Runchain opened by any safety guard\n
+except the emergency stop.\n
+\t
+13:
+Emergency stop state\n
+Runchain opened by emergency stop.\n
+Em stop reset is required.\n
+Use the motors off button.\n
+\t
+14:
+System failure state\n
+Fatal non recoverable system error.\n
+Warm start is required.\n
+\t
+15:
+Manual mode selected\n
+\t
+16:
+Automatic mode requested\n
+\t
+17:
+Automatic mode confirmed\n
+\t
+18:
+Manual mode FS requested\n
+\t
+19:
+Manual mode FS confirmed\n
+\t
+20:
+Execution error state\n
+\t
+21:
+Execution error reset\n
+\t
+22:
+Hold to run waiting\n
+\t
+23:
+Hold to run timeout\n
+\t
+30:
+All axes commutated \n
+\t
+31:
+All axes calibrated \n
+\t
+32:
+All rev counters updated\n
+\t
+33:
+All axes synchronized\n
+\t
+34:
+Axis not commutated\n
+\t
+35:
+Axis not calibrated\n
+\t
+36:
+Rev counter not updated\n
+\t
+37:
+Axis not synchronized\n
+\t
+40:
+Program loaded\n
+The task %!%!%s has\n
+loaded a program.\n
+The free user space was %i bytes\n
+before this operation and\n
+%i bytes after.\n
+\t
+41:
+Program erased\n
+The task %!%!%s has\n
+erased a program.\n
+\t
+43:
+Restart failed\n
+The task %!%!%s\n
+can't restart\n
+\t
+44:
+Program Pointer updated\n
+The task %!%!%s\n
+could have changed the PP pos.\n
+\t
+45:
+System restarted \n
+\t
+46:
+System restarted in cold\n
+mode\n
+\t
+47:
+Background task %s\n
+refuse to start\n
+%s\n
+\t
+4701:
+Task is empty
+4702:
+Wrong state
+4703:
+Can't set PC to the main rout
+4704:
+Can't set the execution mode
+4705:
+The start order failed
+48:
+Background task did stop\n
+The task %s stoped without reason\n
+%s\n
+\t
+49:
+Protected area not finish\n
+A power fail did occur in the\n
+middle of a protected area for\n
+the task %!%s\n
+%s\n
+\t
+4901:
+The system is trying to selfheal
+4902:
+A pending error is removed from the queue
+4903:
+A pending exit is removed from the queue
+4904:
+This may result in an extra program cycle
+4905:
+The task will be restarted from the main routine

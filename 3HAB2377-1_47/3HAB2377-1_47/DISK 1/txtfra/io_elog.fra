@@ -1,0 +1,918 @@
+27::
+0:
+E/S & Communication
+1000:
+Nom du bus invalide\n
+Description\Cause:\n
+- l'unite %s: a un nom\n
+  de bus invalide\n
+\t\n
+Verification\Remede:\n
+1. Changer le nom de bus pour cette\n
+   unite
+1001:
+Adresse deja utilisee\n
+Description\Cause:\n
+- unite %s et %s a la meme adresse\n
+\t\n
+Verification\Correction:\n
+1. Verifier l adresse\n
+2. Verifier le bus
+1002:
+Type unite invalide\n
+Description\Cause:\n
+- L' unite %s a un\n
+  type d'unite inconnu: %s.\n
+\t\n
+Verification\Correction:\n
+1.Verifier le type d'unite par rapport\n
+  a celui specifie pour l unite
+1003:
+Unite invalide\n
+Description\Cause:\n
+- L unite specifiee pour le signal %s\n
+  n est pas dans la liste des unites\n
+\t\n
+Verification\Correction:\n
+1. Changer le nom de l unite\n
+2. Rajouter l unite dans la liste
+1004:
+Long. du signal invalide\n
+Description\Cause:\n
+- La longueur du signal %s\n
+ doit etre de 1\n
+\t\n
+Verification\Correction:\n
+1. changer la longueur ou supprimer\n
+la declaration
+1005:
+Filtre niveau bas errone\n
+Description\Cause:\n
+- Signal %s : Le temps du filtre\n
+ doit etre 0 ou %d - %d ms\n
+\t\n
+Verification\Correction:\n
+1. Changer le temps du filtre
+1006:
+Filtre niveau haut errone\n
+Description\Cause:\n
+- Signal %s : Le temps du filtre\n
+ doit etre 0 ou %d - %d ms\n
+\t\n
+Verification\Correction:\n
+1. Changer le temps du filtre
+1007:
+Val. logique hors borne\n
+Description\Cause:\n
+- Signal %s : Max logique inferieur\n
+  ou egal au Min\n
+\t\n
+Verification\Correction:\n
+1. Corriger les bornes
+1008:
+Val. physique hors borne\n
+Description\Cause:\n
+-Signal %s : Max physique <= Min\n
+\t\n
+Verification\Correction:\n
+1. Corriger les bornes
+1009:
+Type de signal invalide\n
+Description\Cause:\n
+- Signal %s : ce type est invalide\n
+\t\n
+Verification\Correction:\n
+1. Changer le type
+1010:
+Longueur signal invalide\n
+Description\Cause:\n
+- Signal %s: le numero physique\n
+  plus la longueur -1 depasse le nombre\n
+  max de signaux physiques pour l'unite.\n
+  Valeur max = %d\n
+\t\n
+Verification\Correction:\n
+1.Changer le nombre de signaux physiques\n
+2.Changer la longueur
+1015:
+Trop d entrees logiques\n
+Description\Cause:\n
+- Le nombre d entrees pour la carte\n
+  %s est plus\n
+  grand que %d\n
+\t\n
+Verification\Correction:\n
+1.Reduire le nombre d entrees
+1016:
+Trop de sorties logiques\n
+Description\Cause:\n
+- Le nombre de sorties pour la carte\n
+ %s est plus\n
+ grand que %d\n
+\t\n
+Verification\Correction:\n
+1.Reduire le nombre de sorties
+1017:
+Signal source non defini\n
+Description\Cause:\n
+- un rebouclage doit avoir\n
+ un signal source\n
+\t\n
+Verification\Correction:\n
+1. Definir une source
+1018:
+Plus d un signal source\n
+Description\Cause:\n
+- Un seul signal source\n
+par rebouclage\n
+\t\n
+Verification\Correction:\n
+1.Ne garder qu un signal
+1019:
+Signal non defini\n
+Description\Cause:\n
+- Le signal: %s,de rebouclage\n
+  est inconnu\n
+\t\n
+Verification\Correction:\n
+1. Definir ce nom dans la\n
+ section signal
+1020:
+Pas de signal resultant\n
+Description\Cause:\n
+- Un rebouclage doit avoir au moins\n
+ un signal resultant\n
+\t\n
+Verification\Correction:\n
+1. definir un signal resultant
+1021:
+Signaux dupliques\n
+Description\Cause:\n
+- Le signal: %s, est declare comme\n
+ source et resultant du rebouclage\n
+\t\n
+Verification\Correction:\n
+1.Le meme signal ne peut etre declare\n
+comme source et resultant\n
+d un rebouclage
+1022:
+Max physique trop grand\n
+Description\Cause:\n
+- Signal: %s\n
+- Valeur physique max > %.3f\n
+\t\n
+Verification\Correction:\n
+1. Changer cette valeur en configuration
+1023:
+Min physique trop petit\n
+Description\Cause:\n
+- Signal: %s\n
+- Valeur physique min < %.3f\n
+\t\n
+Verification\Correction:\n
+1. Changer cette valeur en configuration
+1024:
+Valeur phys. trop grande\n
+Description\Cause:\n
+- Signal: %s\n
+  Valeur courante =%d > Valeur max= %d\n
+  Valeur bornee au max\n
+\t\n
+Verification\Correction:\n
+1. Changer la valeur physique max\n
+   en configuration
+1025:
+Valeur phys. trop petite\n
+Description\Cause:\n
+- Signal: %s\n
+  Valeur courante =%d < Valeur min= %d\n
+  Valeur bornee au min\n
+\t\n
+Verification\Correction:\n
+1. Changer la valeur physique min\n
+   en configuration
+1026:
+Valeur logiq. trop grande\n
+Description\Cause:\n
+- Signal: %s\n
+  Valeur courante =%d > Valeur max= %d\n
+  Valeur bornee au max\n
+\t\n
+Verification\Correction:\n
+1. Changer la valeur logique max\n
+   en configuration
+1027:
+Valeur logiq. trop petite\n
+Description\Cause:\n
+- Signal: %s\n
+  Valeur courante =%d < Valeur min= %d\n
+  Valeur bornee au min\n
+\t\n
+Verification\Correction:\n
+1. Changer la valeur logique min\n
+   en configuration
+1033:
+Nbr entrees log inv\n
+Description\Cause:\n
+- Le nombre d entrees logiques\n
+ est trop grand pour la carte %d\n
+ le max autorise est %d\n
+\t\n
+Verification\Correction:\n
+1. Reconfigurer cette carte
+1034:
+Nbr sorties log inv\n
+Description\Cause:\n
+- Le nombre de sorties logiques\n
+ est trop grand pour la carte %d\n
+ le max autorise est %d\n
+\t\n
+Verification\Correction:\n
+1. Reconfigurer cette carte
+1036:
+Nom trop long\n
+Description\Cause:\n
+- Le nombre de caracteres dans\n
+ le nom %s est > %d caracteres\n
+\t\n
+Verification\Correction:\n
+1.Trouver un nouveau nom
+1037:
+Chaine rebouclage inv\n
+Description\Cause:\n
+- Le signal %s apparait comme\n
+ source et resultant dans la chaine\n
+\t\n
+Verification\Correction:\n
+1. Corriger la config de la chaine\n
+  ou ce signal apparait
+1038:
+Rebouclage trop profond\n
+Description\Cause:\n
+- Le rebouclage dans la chaine est trop\n
+ profond. Premier signal: %s\n
+\t\n
+Verification\Correction:\n
+1.Reduire le rebouclage
+1041:
+Trop de sorties analog\n
+Description\Cause:\n
+- Le nombre de sorties pour cette\n
+ carte, %s est superieur a %d\n
+\t\n
+Verification\Correction:\n
+1. Reduire le nombre de sorties
+1042:
+Trop d entrees analog\n
+Description\Cause:\n
+- Le nombre d entrees pour cette\n
+ carte, %s est superieur a %d\n
+\t\n
+Verification\Correction:\n
+1. Reduire le nombre d entrees
+1043:
+Type de signal incorrect\n
+Description\Cause:\n
+- Le type specifie pour\n
+ le signal %s ne peut convenir\n
+ a ce type de carte\n
+\t\n
+Verification\Correction:\n
+1.Corriger le type de signal\n
+2.Corriger le type de carte
+1044:
+Signal phys. inv\n
+Description\Cause:\n
+- Le numero ou la taille ou\n
+ le numero et la taille pour le\n
+ signal %s est > %d\n
+\t\n
+Verification\Correction:\n
+1. Changer le numero du signal\n
+2. Changer sa taille
+1045:
+Filtre inadapte\n
+Description\Cause:\n
+- \Signal : %s la declaration\n
+ d un filtre ne convient pas a\n
+ ce type de signal\n
+\t\n
+Verification\Correction:\n
+1. Mettre a zero le filtrage ou\n
+ supprimer l instruction
+1046:
+Erreur mise a l echelle\n
+Description\Cause:\n
+- Signal %s: mise a l echelle\n
+ ne peut etre faite\n
+\t\n
+Verification\Correction:\n
+1. Supprimer la mise a l echelle
+1049:
+Erreur param. inversion\n
+Description\Cause:\n
+- Signal %s: Ce type de signal\n
+ ne peut etre inverse\n
+\t\n
+Verification\Correction:\n
+1.Seuls les signaux logiques peuvent\n
+etre inverses
+1050:
+Sig. de rebouclage inval.\n
+Description\Cause:\n
+- Signal %s: doit etre de type\n
+ logique\n
+\t\n
+Verification\Correction:\n
+1. Seuls les signaux logiques\n
+ peuvent etre reboucles
+1052:
+Table de reboucl. pleine\n
+Description\Cause:\n
+- Le total des signaux source\n
+  avec celui des signaux destination\n
+  ne peut exceder %d\n
+\t\n
+Verification\Correction:\n
+1. Reduire le nombre de signaux
+1053:
+Perte connexion Automate\n
+Description\Cause:\n
+-Communication  E/S deportee et PLC\n
+interrompue\n
+\t\n
+Verification\Correction:\n
+1. Verifier  le cable\n
+2. Verifier que l automate\n
+ est ss tension
+1054:
+Type de signal errone\n
+Description\Cause:\n
+- Signal %s:\n
+  Le type de signal est incorrect\n
+\t\n
+Verification\Correction:\n
+1. Changer le type
+1055:
+Signal inconnu\n
+Description\Cause:\n
+- Symbole %s: non defini\n
+\t\n
+Verification\Correction:\n
+1. Changer le nom du symbole
+1056:
+Liste de restaur. pleine\n
+Description\Cause:\n
+- Symbol %s: ne pourra etre\n
+  restaure en cas de coupure secteur\n
+  La liste est pleine.\n
+\t\n
+Verification\Correction:\n
+1. Augmenter la taille de la liste dans\n
+   le fichier de demarrage.\n
+2. Supprimer des signaux de la liste
+1058:
+Perte contact unite E/S\n
+Description\Cause:\n
+- Perte de contact avec l'unite E/S:\n
+  %s\n
+  sur le bus: %s\n
+\t\n
+Verification\Correction:\n
+1. Verifier les adresses de tous\n
+   les unites E/S sur le bus\n
+2. Changer l'adresse
+1059:
+Erreur de config CAN\n
+Description\Cause:\n
+- Erreur en configurant\n
+  le noeud d'adresse %d\n
+\t\n
+Verification\Correction:\n
+1. Corriger la configuration
+1061:
+Erreur bus E/S\n
+Description\Cause:\n
+- Taux d'erreur anormal sur le bus\n
+  %s\n
+\t\n
+Verification\Correction:\n
+1. Verifier le bus.\n
+2. Relancer le Systeme.
+1072:
+Pas d'attr. restaure\n
+Description\Cause:\n
+- le signal %s\n
+  n'a pas positionne a OUI l'attribut\n
+  Restaure.\n
+\t\n
+Verification\Correction:\n
+1. Positionner l'attribut Store.
+1073:
+Erreur bus E/S\n
+Description\Cause:\n
+- Taux d'erreur anormal sur le bus\n
+  %s\n
+  Le connecteur E/S CAN Externe\n
+  a ete debranche\n
+\t\n
+Verification\Correction:\n
+1. Verifier les terminateurs de bus.\n
+2. Verifier court-circuit sur bus E/S.\n
+3. Relancer le systeme.
+1074:
+IBS Config. invalide\n
+Description\Cause:\n
+- Le de mots IBS est trop grand\n
+  pour la carte %s\n
+\t\n
+Verification\Correction:\n
+1. Le nombre de mot doit etre < 5\n
+
+1076:
+Erreur de com sur RTP1\n
+Description\Cause:\n
+- Pas de reponse sur la\n
+  liaison serie\n
+\t\n
+Verification\Correction:\n
+1. Verifier la liaison ou\n
+   l'appareil connecte
+1077:
+Erreur de com sur RTP1\n
+Description\Cause:\n
+- Le message recu ne peut etre\n
+  envoye au destinataire\n
+\t\n
+Verification\Correction:\n
+1. Verifier le bavardage sur la ligne
+1078:
+Erreur de com sur RTP1\n
+Description\Cause:\n
+- La reponse recue est invalide\n
+\t\n
+Verification\Cause:\n
+1. La ligne est bruitee\n
+2. Les connexions sont intermittentes\n
+3. L'appareil connecte ne respecte pas\n
+   le protocole RTP1
+1079:
+Creneau sur sorties num\n
+Description\Cause:\n
+- Les demades de creneaux sur les\n
+  sorties numeriques ne sont pas\n
+  autorisees.\n
+\t\n
+Verification\Correction:\n
+1. ---
+1080:
+Liste des unites pleine.\n
+Description\Cause:\n
+- Le nombre d'unites\n
+  doit etre < %d\n
+\t\n
+Verification\Correction:\n
+1. Reduire le nombre d'unites.\n
+2. Augmenter le nombre max autorise\n
+
+1081:
+Trop de signaux.\n
+Description\Cause:\n
+- Le nombre de signaux doit etre < %d\n
+\t\n
+Verification\Correction:\n
+1. Reduire le nombre de signaux\n
+2. Augmenter le nombre max permis.
+1082:
+Trop de signaux.\n
+Description\Cause:\n
+- La somme des nombres de signaux utili-\n
+  sateur et de signaux systeme ne peut\n
+  depasser %d\n
+\t\n
+Verification\Correction:\n
+1. Reduire le nombre de signaux\n
+2. Augmenter le nombre max permis.
+1083:
+Trop de symboles.\n
+Description\Cause:\n
+- Le nombre de symboles\n
+  doit etre < %d\n
+\t\n
+Verification\Correction:\n
+1. Reduire le nombre de symboles\n
+2. Augmenter le nombre max permis.\n
+
+1084:
+Trop de declenchements.\n
+Description\Cause:\n
+- Le nombre de declenchements\n
+  doit etre < %d\n
+\t\n
+Verification\Correction:\n
+1. Reduire le nombre de symboles\n
+2. Augmenter le nombre max permis.\n
+
+1085:
+Trop d'unites.\n
+Description\Cause:\n
+- Le nombre de cartes\n
+  doit etre < %d\n
+\t\n
+Verification\Correction:\n
+1. Reduire le nombre de cartes definies\n
+2. Augmenter le nombre maximal de cartes\n
+   permis.\n
+
+1094:
+Trop de rebouclages\n
+Description\Cause:\n
+- Le rebouclage a trop de signaux\n
+  source : %s\n
+\t\n
+Verification\Correction:\n
+1. Corriger le rebouclage.
+1095:
+Chaine reboucl invalide\n
+Description\Cause:\n
+- La partie "From" de la chaine de\n
+  rebouclage est trop longue:\n
+  %s\n
+\t\n
+Verification\Correction:\n
+1. Corriger le rebouclage.
+1097:
+Attrib Restaur invalide\n
+Description\Cause:\n
+- Le Signal %s: ce type de signal\n
+  ne peut avoir l'attribut\n
+  de restauration.\n
+\t\n
+Verification\Correction:\n
+1. Seuls les sorties digitales peuvent\n
+   posseder cet attribut.
+1098:
+Pb serveur NFS\n
+Description\Cause:\n
+- Le contact avec le serveur NFS\n
+   '%s' a ete perdu.\n
+\t\n
+Verification\Correction:\n
+1. Verifier le serveur NFS.\n
+2. Verifier la connexion reseau.\n
+3. Verifier la configuration.
+1099:
+Pb serveur NFS securise\n
+Description\Cause:\n
+- Le contact avec le serveur NFS\n
+  securise '%s'\n
+  a ete perdu.\n
+\t\n
+Verification\Correction:\n
+1. Verifier le serveur NFS.\n
+2. Verifier la connexion reseau.\n
+3. Verifier la configuration.
+1101:
+Nom de bus inconnu.\n
+Description\Cause:\n
+- Carte %s: nom de\n
+  bus %s inconnu\n
+\t\n
+Verification\Correction:\n
+1. Changer le nom du bus pour la carte\n
+   dans la configuration du type d'unite
+1102:
+Incompatibilite DeviceNet\n
+Verification\Correction:\n
+- Noeud %d:\n
+  Info interne:\n
+  %s,%d\n
+  (%s)\n
+\t\n
+Verification\Correction:\n
+1. Deconnecter le noeud du bus\n
+2. Contacter ABB.
+1103:
+Erreur bus E/S\n
+Description\Cause:\n
+- Taux d'erreur anormal sur le bus\n
+  %s\n
+  Le connecteur E/S CAN Robot\n
+  a ete debranche\n
+\t\n
+Verification\Correction:\n
+1. Verifier les terminateurs de bus.\n
+2. Verifier court-circuit sur bus E/S.\n
+3. Relancer le systeme.
+1104:
+Erreur bus E/S\n
+Description\Cause:\n
+- Taux d'erreur anormal sur le bus\n
+  %s\n
+  Les connecteurs E/S CAN externe et\n
+  E/S CAN Robot ont ete debranches\n
+\t\n
+Verification\Correction:\n
+1. Verifier les terminateurs de bus.\n
+2. Verifier court-circuit sur bus E/S.\n
+3. Relancer le systeme.
+1113:
+Def. cde utilisateur IBS\n
+Description\Cause:\n
+- Avertissement : %d\n
+\t\n
+Verification\Correction:\n
+1. Verifier la configuration InterBus-S\n
+   selon le code d'erreur ci-dessus.
+1114:
+Adresse IP invalide\n
+Description\Cause:\n
+'%s' n'est pas une adresse\n
+IP valide\n
+\t\n
+Verification\Correction:\n
+1.Verifier la configuration de la\n
+  communication.
+1115:
+Masque sous-reseau inval.\n
+Description\Cause:\n
+'%s' n'est pas un masque de\n
+sous reseau valide\n
+\t\n
+Verification\Correction:\n
+1.Verifier la configuration de la\n
+  communication.
+1117:
+Capacite pile\n
+Description\Cause:\n
+Capacite de la pile = %d\n
+\t\n
+Verification\Correction:
+1118:
+Supervision pile\n
+Description\Cause:\n
+La supervision de pile est dans un\n
+mauvais etat.\n
+L'etat est = %s\n
+\t\n
+Verification\Correction:
+1119:
+Table d'unites E/S pleine\n
+Description\Cause:\n
+- Depassement du nombre max d'unites de\n
+  type %s.\n
+  Max = %d\n
+\t\n
+Verification\Correction:\n
+1. Reduire le nombre d'unites d'E/S.
+1120:
+Option RAP non installee.\n
+Description\Cause:\n
+- L'option de communication RAP doit\n
+  avoir installee avant de configurer\n
+  de RAP ou d'utiliser l'instruction\n
+  SCWrite.\n
+\t\n
+Verification\Correction:\n
+1. Rebooter et installer l'option\n
+   de communication RAP.
+1121:
+Echec demarrage RAP.\n
+Description\Cause:\n
+- Probleme lors de l'initialization\n
+  de RAP.\n
+\t\n
+Verification\Correction:\n
+1. Voir les archives internes.
+1122:
+Adresse IP incorrecte.\n
+Description\Cause:\n
+- L'adresse '%s'\n
+  du protocole '%s'\n
+  n'est pas une adresse IP correcte.\n
+\t\n
+Verification\Correction:\n
+1. Modifier l'adresse.
+1123:
+Pas de prot. de transm.\n
+Description\Cause:\n
+Le protocole de transmission '%s'\n
+donne pour le protocole application\n
+'%s' est inconnu.\n
+\t\n
+Verification\Correction:\n
+1. Modifier le protocole de transmission
+1124:
+Prot transm NFS incorrect\n
+Description\Cause:\n
+Le protocole de transmission pour le\n
+protocole NFS '%s' doit etre\n
+TCP/IP.\n
+\t\n
+Verification\Correction:\n
+1. Modifier le protocole de transmission
+1125:
+Permission mount refusee\n
+Description\Cause:\n
+Permission refusee de monter\n
+le repertoire '%s'\n
+sur le serveur '%s'.\n
+\t\n
+Verification\Correction:\n
+1. Modifier l'id utilisateur ou groupe.
+1126:
+Repertoire non exporte\n
+Description\Cause:\n
+La tentative de monter le repertoire\n
+'%s'comme '%s'\n
+a echoue car il n'est pas exporte sur le\n
+serveur '%s'. Protocole: '%s'.\n
+\t\n
+Verification\Correction:\n
+1. Exporter le repertoire sur le serveur
+1127:
+Identif. differents\n
+Description\Cause:\n
+Les identificateurs utilisateur et\n
+groupe doivent etre identiques pour tous\n
+les disques distants\n
+\t\n
+Verification\Correction:
+1128:
+Option Ethernet non inst.\n
+Description\Cause:\n
+- L'option Services Ethernet doit etre\n
+  installee pour monter des disques\n
+  distants\n
+\t\n
+Verification\Correction:\n
+1. Rebooter et installer l'option\n
+   Services Ethernet.
+1129:
+Trop de disques distants\n
+Description\Cause:\n
+Le nombre max de disques distants montes\n
+est '%d'.\n
+\t\n
+Verification\Correction:\n
+1. Reduire le nombre de disques distants\n
+   montes.
+1130:
+Trop de serveurs distants\n
+Description\Cause:\n
+Le nombre max de serveur permettant de\n
+monter des disques distants est '%d'.\n
+\t\n
+Verification\Correction:\n
+1. Reduire le nombre de serveurs
+1131:
+Imposs. monter repertoire\n
+Description\Cause:\n
+La tentative de monter le repertore\n
+'%s'sur lórdinateur '%s'\n
+a echoue. Protocole: '%s'.\n
+\t\n
+Verification\Correction:\n
+1. Verifier la configuration du serveur
+1132:
+Supervision pile bloquee\n
+Description\Cause:\n
+La supervision des piles est bloquee\n
+suite a mise hors/sous tension.\n
+Reprendra %s\n
+\t\n
+Verification\Correction:
+1133:
+Pile non chargee\n
+Description\Cause:\n
+La pile n'est pas chargee apres le\n
+premier etage de chargement.\n
+\t\n
+Verification\Correction:\n
+1. Verifier que le signal 'batlow' est\n
+   connecte a la DSQC347.\n
+2. Verifier les connexions de la pile\n
+3. Verifier la pile.
+1137:
+Code d'erreur de l'unite\n
+Description\Cause:\n
+L'erreur suivante a ete retournee:\n
+%s\n
+\t\n
+Verification\Correction:\n
+1. Verifier la configuration de l'unite.
+1139:
+Erreur acces d'E/S\n
+Description\Cause:\n
+- Ne peut acceder au signal %s\n
+  suite a un probleme de communication.\n
+\t\n
+Verification\Correction:\n
+1. Voir la raison dans le message\n
+   d'erreur:\n
+  'Perte contact avec unite E/S'.
+1140:
+Erreur actif etat haut\n
+Description\Cause:\n
+- Signal %s: ce type de signal\n
+  ne peut etre actif a l'etat haut\n
+\t\n
+Verification\Correction:\n
+1. Seuls les signaux de sortie peuvent\n
+   etre actifs a l'etat haut
+1141:
+Val par defaut hors lim.\n
+Description\Cause:\n
+- La valeur par defaut pour le\n
+  signal %s est hors des limites\n
+\t\n
+Verification\Correction:\n
+1.Modifier cette valeur en configuration
+1142:
+Erreur valeur par defaut\n
+Description\Cause:\n
+- Signal %s: ce type de signal ne peut\n
+  avoir de valeur par defaut\n
+\t\n
+Verification\Correction:\n
+1. Seuls les signaux de sortie peuvent\n
+   avoir une valeur par defaut
+1143:
+CTS/RTS interdit\n
+Description\Cause:\n
+- Le canal serie %s:\n
+  ne peut avoir l'option RTS/CTS.\n
+\t\n
+Verification\Correction:\n
+1. Supprimer cette option de la\n
+   configuration.
+1146:
+Erreur abonnement\n
+Description\Cause:\n
+- limite max inferieure a limite min\n
+  limit max = %f limit min = %f.\n
+\t\n
+Verification:\n
+1. Corriger et re-essayer
+1153:
+Can't access parameter\n
+Description\Reason:\n
+- Unit %s has parameters\n
+  that can't be edited from\n
+  the teach pendant.\n
+\t\n
+Check list:\n
+1. Save the EIO configuration to\n
+   a file\n
+2. Use a text editor to change\n
+   the parameters
+1156:
+IPC queue full\n
+Description\Reason:\n
+- The ipc queue was full,\n
+  when sending to trap routine.\n
+  errno = %x\n
+\t\n
+Check list:\n
+1. Restart the system
+1157:
+Invalid app type\n
+Description\Reason:\n
+- Com Unit %s: has an unspecified\n
+  Com app type named: %s.\n
+\t\n
+Check list:\n
+1.Check the Com app type against\n
+  the one specified for the Com app
+1159:
+Signal Access illegal\n
+Description\Reason:\n
+- Signal %s:\n
+  The number of characters in\n
+  Access %s\n
+  is greater than %d or name missing.\n
+\t\n
+Check list:\n
+1. Give a new Access that fits within\n
+   the limits.
+1160:
+Access level illegal\n
+Description\Reason:\n
+- Signal %s:\n
+  Access level %s in\n
+  group %s is illegal.\n
+- Legal choices all/man/auto/none.\n
+\t\n
+Check list:\n
+1. Give a new access level for group\n
+   that fits.
+1161:
+Access name not found\n
+Description\Reason:\n
+- Signal %s:\n
+  The Access name %s\n
+  not found in EIO_USER_ACCESS.\n
+\t\n
+Check list:\n
+1. Define %s in EIO_USER_ACCESS\n
+   or change Access name.

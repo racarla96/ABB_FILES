@@ -1,0 +1,248 @@
+10::
+0:
+Filhanteraren
+1:
+Namn       Typ             Datum
+2:
+Gå till rad
+3:
+Aktuell rad
+4:
+Uppåt
+5:
+Avbryt
+6:
+OK
+7:
+Arkiv
+8:
+Redigera
+9:
+Visa
+10:
+Option
+11:
+Skapa katalog...
+12:
+Byt namn...
+13:
+Kopiera...
+14:
+Flytta...
+15:
+Radera...
+16:
+Skriv ut katalog...
+17:
+Gå till...
+18:
+Gå till första
+19:
+Gå till sista
+20:
+Formatera...
+21:
+
+22:
+Formatera
+23:
+Formatera volym i enhet
+24:
+Nytt namn på volymen
+25:
+
+26:
+Skapa katalog
+27:
+Skapa katalog med namn
+28:
+Byt namn
+29:
+Gammalt katalognamn
+30:
+Nytt katalognamn
+31:
+Gammalt filnamn
+32:
+Nytt filnamn
+33:
+Radera
+34:
+Radera katalog
+35:
+Radera fil
+36:
+Skriv ut katalog
+37:
+Data att skriva 
+38:
+Aktuell katalog
+39:
+Katalog-träd
+40:
+Kopiera
+41:
+Till
+42:
+Flytta
+43:
+Info
+44:
+Namn
+45:
+Typ
+46:
+Storlek i bytes
+47:
+Datum
+48:
+Tid
+49:
+Tryck Enter för att fortsätta
+50:
+Kan inte kopiera fil
+51:
+Funktionen ej implementerad
+52:
+Kan inte skapa katalog
+53:
+Namnet finns redan
+54:
+
+55:
+Kan inte läsa katalogen
+56:
+Kan inte byta namn på katalog
+57:
+Kan inte byta namn på filen
+58:
+Kan inte radera katalog
+59:
+Kan inte radera filen
+60:
+Enhet
+61:
+Namn               Typ
+62:
+På
+63:
+Kan inte kopiera katalog
+64:
+Kan inte flytta katalog
+65:
+Kan inte flytta filen
+66:
+Katalogen är ej tom
+67:
+Kunde ej formatera volymen
+68:
+...
+69:
+KATNAMN
+70:
+Textinmatning
+71:
+
+72:
+
+73:
+
+74:
+
+75:
+Kan inte utföra kommandot
+76:
+Ingen volym i markerad enhet
+77:
+Kan inte flytta mellan enheter
+78:
+Var vänlig vänta
+79:
+Formaterar volym...
+80:
+Tom eller felaktig diskett
+81:
+Skriv ut fil...
+82:
+Skriv ut till fil
+83:
+Fil att skriva
+84:
+Skriv ut fil
+85:
+Skriv katalog till fil:
+86:
+Skriver ut!
+87:
+   Avbryt med Enter
+88:
+Skrivaren är upptagen.\n
+\n
+Försök igen då skrivaren är klar.
+89:
+Kan inte skriva ut p g a att för \n
+många utskriftsorder är köade\n
+\n
+Försök igen senare
+90:
+Kan inte skriva ut p g a skrivarutgången\n
+ej är angiven i systemparametrarna.
+91:
+Kan inte nå angiven fil:
+92:
+Utskriften avbruten p g a att filen\n
+inte kunde nås under pågående\n
+utskrift.
+93:
+Ej en skrivbar fil
+94:
+"Till"-kat. är del av "Från"-kat.
+95:
+RAPID konverterare...
+96:
+RAPID konverterare
+97:
+Fil att konvertera:
+98:
+Fil att lagra till:
+99:
+Konvert
+100:
+Fil att lagra till:
+101:
+ Filen finns redan
+102:
+ Kan inte konvertera angiven\n
+ fil.\n
+\n
+ Ej tillåten filtyp.
+103:
+Fil att konvertera:
+104:
+Med funktion:
+105:
+Lägg till RAPID typ-info
+106:
+Använd RAPID typ-info
+107:
+\n
+ Fel vid RAPID-konvertering 
+108:
+ Upptagen.\n
+\n
+\n
+ Var god vänta!
+109:
+ Kan inte konvertera.\n
+\n
+ Otillåten kombination av\n
+ filtyp och funktion
+110:
+\n
+ Filen existerar redan!\n
+\n
+ Ska den skrivas över?
+111:
+"Till" och "Från" är identiska
+112:
+För många underkatalog-nivåer

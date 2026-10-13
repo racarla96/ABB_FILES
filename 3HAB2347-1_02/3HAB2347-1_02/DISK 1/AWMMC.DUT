@@ -1,0 +1,253 @@
+71::
+0:
+Booglassen
+1:
+Lassen Bijst...
+2:
+Pendelen Bijst..
+3:
+(Boog Bijst.)
+4:
+(Volgen Bijst.)
+5:
+Blokkeren...
+6:
+Blokkeer
+7:
+Vrijgeven
+8:
+Breek Af
+9:
+OK
+10:
+AW Blokkering
+11:
+Om proces te blokkeren, druk Blokkeer
+12:
+Om proces vrij te geven, druk Vrijgeven
+13:
+Geblokkeerd
+14:
+Proces
+15:
+x
+16:
+
+17:
+Lassen
+18:
+Pendelen
+19:
+Volgen
+20:
+Las
+21:
+Pendel
+22:
+Volg
+23:
+AW Lassen Bijst.
+24:
+Verander huidige waarde
+25:
+Lasdata
+26:
+Bijst.
+27:
+Huidig
+28:
+Selecteer data
+29:
+Org. >
+30:
+Huid.>
+31:
+-
+32:
++
+33:
+Terug
+34:
+AW Pendelen Bijst.
+35:
+Pendeldata
+36:
+Bijst.
+37:
+Bijst. org. waarde
+38:
+Origineel
+39:
+Bijst.  Huidig
+40:
+aw_inhibit
+41:
+weldBlocked
+42:
+weaveBlocked
+43:
+trackBlocked
+44:
+seamdata
+45:
+welddata
+46:
+weavedata
+47:
+Handm. draadaanv..
+48:
+Gas aan/uit..
+49:
+AW Handm Draadaanv
+50:
+Om draad vooruit, druk VrUit
+51:
+Om draad achteruit, druk AchtUit
+52:
+Manueel draadaanvoer gaat zolang als
+53:
+de functie toets is ingedrukt.
+54:
+VrUit
+55:
+AchtUit
+56:
+(Vrijgev)
+60:
+bool
+61:
+Select. AW systeem
+62:
+Systeem:
+63:
+Incrementen..
+64:
+AW Bijst. incrementen
+65:
+Voltage:
+66:
+Afstand:
+67:
+Draadaanv:
+68:
+Las snelheid:
+69:
+Select. AW systeem
+70:
+curr_aw_data
+71:
+curr_system_no
+72:
+curr_weld
+73:
+curr_weld_type
+74:
+curr_seam
+75:
+curr_seam_type
+76:
+curr_weave
+77:
+curr_weave_type
+78:
+string
+80:
+AW Maneel Gas Aan/Uit
+81:
+Om te activeren, druk Gas aan
+82:
+Het gas is aan zolang als
+83:
+de functie toets is ingedrukt.
+84:
+Gas aan
+86:
+ 
+87:
+awproc_id
+88:
+ipm_id
+89:
+user_data
+100:
+AW Maneel Sensor Aan/Uit
+101:
+Om sensor te act. druk Aan
+102:
+Om sensor uit te zetten, druk Uit
+103:
+Aan
+104:
+(Aan)
+105:
+Uit
+106:
+(Uit)
+107:
+Y:
+108:
+Z:
+109:
+Afst:
+110:
+*****
+111:
+Sensor coordinaten
+112:
+Arm:
+113:
+Sensor fout\n
+\n
+   Communicatie fout
+114:
+Sensor fout\n
+\n
+   Algemene fout
+115:
+Sensor fout\n
+\n
+   Sensor bezig
+116:
+Sensor fout\n
+\n
+   Onbekend commando
+117:
+Sensor fout\n
+\n
+   Illegaal variabele nummer
+118:
+Sensor fout\n
+\n
+   Extern alarm
+119:
+Sensor fout\n
+\n
+   Camera fout
+120:
+Sensor fout\n
+\n
+   Temperatuur fout
+121:
+Sensor fout\n
+\n
+   Waarde buiten tol.
+122:
+Sensor fout\n
+\n
+   Camera contrl. fout
+123:
+OK
+124:
+Sensor...
+125:
+(Sensor)
+126:
+Robot coordinaten
+127:
+Calibratie:
+140:
+Gem. waarden...
+141:
+Meet waarden
+142:
+        Huidig

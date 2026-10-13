@@ -1,0 +1,256 @@
+Revision 1.10  1996/12/12  07:30:40  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+10::
+0:
+FileManager
+1:
+Name       Type            Date
+2:
+Go to line
+3:
+Current line
+4:
+Up
+5:
+Cancel
+6:
+OK
+7:
+File
+8:
+Edit
+9:
+View
+10:
+Options
+11:
+New Directory...
+12:
+Rename...
+13:
+Copy...
+14:
+Move...
+15:
+Delete...
+16:
+Print Directory...
+17:
+Goto...
+18:
+Goto Top
+19:
+Goto Bottom
+20:
+Format...
+21:
+
+22:
+Format
+23:
+Format volume in unit
+24:
+New name of volume
+25:
+
+26:
+New Directory
+27:
+Create directory named
+28:
+Rename
+29:
+Old directory name
+30:
+New directory name
+31:
+Old file name
+32:
+New file name
+33:
+Delete
+34:
+Delete directory
+35:
+Delete file
+36:
+Print Directory
+37:
+Data to Print
+38:
+Current Directory
+39:
+Directory Tree
+40:
+Copy
+41:
+To
+42:
+Move
+43:
+Info
+44:
+Name
+45:
+Type
+46:
+Size in bytes
+47:
+Date
+48:
+Time
+49:
+Press Enter to Continue
+50:
+Can't copy file
+51:
+Function not implemented
+52:
+Can't create directory
+53:
+Name already exists
+54:
+
+55:
+Can't read directory
+56:
+Can't rename directory
+57:
+Can't rename file
+58:
+Can't delete directory
+59:
+Can't delete file
+60:
+Unit
+61:
+
+62:
+At
+63:
+Can't copy directory
+64:
+Can't move directory
+65:
+Can't move file
+66:
+Directory not empty
+67:
+Couldn't format volume
+68:
+...
+69:
+DIRNAME
+70:
+Text input
+71:
+
+72:
+
+73:
+Copying file...
+74:
+Moving file...
+75:
+Can't perform action
+76:
+No volume in selected unit
+77:
+Can't move between units
+78:
+Please wait
+79:
+Formatting volume...
+80:
+Empty or Bad Disk
+81:
+Print File...
+82:
+Print Only to File
+83:
+File to Print
+84:
+Print File
+85:
+Print Directory to File:
+86:
+Printing !
+87:
+   To Cancel Press Enter
+88:
+Printer is Busy\n
+\n
+Try again when printer is ready
+89:
+Cannot Print because too many\n
+print job queued\n
+\n
+Try again later
+90:
+Cannot Print because\n
+Printer Device not configured\n
+in System Parameters
+91:
+Cannot access specified file:
+92:
+Print job canceled because the\n
+access to specified file was\n
+lost during print.
+93:
+Not a Printable File
+94:
+"To"-dir is part of "From"-dir
+95:
+Rapid Converters...
+96:
+Rapid Converters
+97:
+File to Convert:
+98:
+File to Save to:
+99:
+Convert
+100:
+File to Save to:
+101:
+ File already exist
+102:
+ Cannot Convert Specified\n
+ File.\n
+ \n
+ Illegal file type
+103:
+ File to Convert:
+104:
+With Function:
+105:
+Add Rapid Type Info
+106:
+Use Rapid Type Info
+107:
+ \n
+ Rapid Conversion failed
+108:
+  Busy\n
+  \n
+  \n
+  Wait Please
+109:
+ Cannot convert\n
+ \n
+ Illegal combination of\n
+ file type and function
+110:
+ \n
+ Destination File Already Exists !\n
+ \n
+ Overwrite ?
+111:
+"To" and "From" are identical
+112:
+Too many sub-directory levels
+113:
+The disk is probably full or\n
+write protected.

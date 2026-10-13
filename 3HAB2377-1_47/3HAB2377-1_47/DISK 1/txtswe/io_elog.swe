@@ -1,0 +1,906 @@
+27::
+0:
+IO & Kommunikation
+1000:
+Otillåtet bussnamn\n
+Beskrivning\Orsak:\n
+- Enhetstyp %s: har\n
+  felaktigt bussnamn\n
+\t\n
+Checklista:\n
+1. Ändra bussnamn för enhetstypen
+1001:
+Duplicerad adress\n
+Beskrivning\Orsak:\n
+- Samma adress för enhet %s och %s\n
+\t\n
+Checklista:\n
+1. Kontrollera adressen\n
+2. Kontrollera bussen
+1002:
+Otillåten enhetstyp\n
+Beskrivning\Orsak:\n
+- Enhet %s: har en ospecificerad\n
+  enhetstyp: %s.\n
+\t\n
+Checklista:\n
+1.Kontrollera enhetstypen mot den\n
+  som är specificerad för enheten.
+1003:
+Otillåten enhet\n
+Beskrivning\Orsak:\n
+- Enheten angiven för signal %s\n
+  är ospecificerad i enhetssektionen\n
+\t\n
+Checklista:\n
+1. Ändra namnet på enheten\n
+2. Lägg till en ny enhet till\n
+enhetslistan
+1004:
+Otillåten signallängd\n
+Beskrivning\Orsak:\n
+- Längden för signal %s måste vara 1\n
+\t\n
+Checklista:\n
+1. Ändra längden till 1 eller ta bort\n
+   uppgiften.
+1005:
+Otillåten filtertid\n
+Beskrivning\Orsak:\n
+- Signal %s: Passiv filtertid\n
+  ska vara 0 eller %d - %d ms\n
+\t\n
+Checklista:\n
+1. Ändra filtertiden
+1006:
+Otillåten filtertid\n
+Beskrivning\Orsak:\n
+- Signal %s: Aktiv filtertid\n
+  ska vara 0 eller %d - %d ms\n
+\t\n
+Checklista:\n
+1. Ändra filtertiden
+1007:
+För många logiska värden\n
+Beskrivning\Orsak:\n
+- Signal %s: Logiskt max\n
+  är mindre än eller lika med\n
+  logiskt min\n
+\t\n
+Checklista:\n
+1. Korrigera värdena så att max är\n
+större än min
+1008:
+För många fys. värden\n
+Beskrivning\Orsak:\n
+- Signal %s: Fysiskt max\n
+  är mindre än eller lika med\n
+  fysiskt min\n
+\t\n
+Checklista:\n
+1. Korrigera värdena så att max är\n
+större än min
+1009:
+Otillåten typ\n
+Beskrivning\Orsak:\n
+- Signal %s: Signalens typ är otillåten\n
+\t\n
+Checklista:\n
+1. Ändra typen
+1010:
+Signal utanför området\n
+Beskrivning\Orsak:\n
+- Signal %s: Fysiskt\n
+  signalnummer + längd - 1 är större\n
+  än max värdet: &d\n
+\t\n
+Checklista:\n
+1. Ändra fysiskt signalnummer\n
+2. Ändra längden
+1015:
+För många Digital In\n
+Beskrivning\Orsak:\n
+- Antalet Digital IN kanaler på\n
+  kort %s är större\n
+än %d\n
+\t\n
+Checklista:\n
+1. Reducera antalet Digitala Ingångar
+1016:
+För många Digital Ut\n
+Beskrivning\Orsak:\n
+- Antalet Digitala Ut kanaler på\n
+  kort %s är större\n
+  än %d\n
+\t\n
+Checklista:\n
+1. Reducera antalet Digitala Utgångar
+1017:
+Ingen aktiv signal\n
+Beskrivning\Orsak:\n
+- Aktiv signal för korskoppling saknas\n
+\t\n
+Checklista:\n
+1. Ange aktiv signal
+1018:
+För många aktiva signaler\n
+Beskrivning\Orsak:\n
+- För många aktiva signaler för kors-\n
+koppling\n
+\t\n
+Checklista:\n
+1. Enbart en aktiv signal får anges
+1019:
+Signaldefinition saknas\n
+Beskrivning\Orsak:\n
+- Signalen %s för\n
+  korskoppling är ej definierad\n
+\t\n
+Checklista:\n
+1. Definiera signalnamnet i signal\n
+sektionen
+1020:
+Ingen resultat signal\n
+Beskrivning\Orsak:\n
+- Resultat-signal saknas\n
+\t\n
+Checklista:\n
+1. Minst en resultat-signal måste anges.
+1021:
+Duplicerad korskoppling\n
+Beskrivning\Orsak:\n
+- Signalen %s är både FRÅN och TILL\n
+\t\n
+Checklista:\n
+1. Samma signal kan inte ges för både\n
+   FRÅN och TILL
+1022:
+Fysiskt max för högt\n
+Beskrivning\Orsak:\n
+- Signal %s\n
+- Fysiskt max värde > %.3f\n
+\t\n
+Checklista:\n
+1. Ändra värdet i konfigurationen
+1023:
+Fysiskt min för lågt\n
+Beskrivning\Orsak:\n
+- Signal %s\n
+- Fysiskt min värde < %.3f\n
+\t\n
+Checklista:\n
+1. Ändra värdet i konfigurationen
+1024:
+Fysiskt värde för högt\n
+Beskrivning\Orsak:\n
+- Signal %s\n
+- Aktuellt värde = %d > Maxvärde = %d\n
+- Värdet är satt till maxvärdet\n
+\t\n
+Checklista:\n
+1. Ändra fysiska maxvärdet i\n
+    konfigurationen
+1025:
+Fysiskt värde för lågt\n
+Beskrivning\Orsak:\n
+- Signal %s\n
+- Aktuellt värde = %d < Minvärde = %d\n
+- Värdet är satt till minvärdet\n
+\t\n
+Checklista:\n
+1. Ändra fysiska minvärdet i\n
+    konfigurationen
+1026:
+Logiskt värde för högt\n
+Beskrivning\Orsak:\n
+- Signal %s\n
+- Aktuellt värde = %d > Maxvärde = %d\n
+- Värdet är satt till maxvärdet\n
+\t\n
+Checklista:\n
+1. Ändra logiska maxvärdet i\n
+    konfigurationen
+1027:
+Logiskt värde för lågt\n
+Beskrivning\Orsak:\n
+- Signal %s\n
+- Aktuellt värde = %d < Minvärde = %d\n
+- Värdet är satt till minvärdet\n
+\t\n
+Checklista:\n
+1. Ändra logiska minvärdet i\n
+    konfigurationen
+1033:
+För många Digitala In\n
+Beskrivning\Orsak:\n
+- Antalet Digitala ingångar är för\n
+  många på kort adress %d\n
+  max antal är %d\n
+\t\n
+Checklista:\n
+1. Ändra konfigureringen för kortet
+1034:
+För många Digitala Ut\n
+Beskrivning\Orsak:\n
+- Antalet Digitala utgångar är för\n
+  många på kort adress %d\n
+  max antal är %d\n
+\t\n
+Checklista:\n
+1. Ändra konfigureringen för kortet
+1036:
+Ej giltigt namn\n
+Beskrivning\Orsak:\n
+- Antal tecken i namnet\n
+- %s\n
+- är fler än %d tecken eller\n
+- namnet saknas\n
+\t\n
+Checklista:\n
+1. Ge ett nytt namn med\n
+   färre tecken.
+1037:
+IO korskopplings fel\n
+Beskrivning\Orsak:\n
+- Signalen %s är både FRÅN och TILL\n
+  i samma kedja\n
+\t\n
+Checklista:\n
+1. Ändra konfiguration för\n
+   korskopplingen där signalen över\n
+   är inkopplad.
+1038:
+IO korsdjup för hög\n
+Beskrivning\Orsak:\n
+- Kors kopplingen i samma kedja\n
+är för djup. Första signal namn:\n
+- %s\n
+\t\n
+Checklista:\n
+1. Gör korskopplingen mindre djup.
+1041:
+För många Analoga Ut\n
+Beskrivning\Orsak:\n
+- Antalet Analoga utgångar\n
+  för kort %s är fler än %d.\n
+\t\n
+Checklista:\n
+1. Reducera antalet Analoga utgångar.
+1042:
+För många Analoga In\n
+Beskrivning\Orsak:\n
+- Antalet Analoga Ingångar\n
+  för kort %s är fler än %d.\n
+\t\n
+Checklista:\n
+1. Reducera antalet Analoga ingångar.
+1043:
+Signal fel\n
+Beskrivning\Orsak:\n
+- Typen för specificerad signal %s\n
+kan inte anslutas till specificerat kort\n
+\t\n
+Checklista:\n
+1. Byt till en annan typ.\n
+2. Byt till ett annat kort.
+1044:
+Fysiskt signal fel\n
+Beskrivning\Orsak:\n
+- Antalet och eller längden av\n
+  signalen %s är större än %d\n
+\t\n
+Checklista:\n
+1. Ändra fysiskt signal nummer\n
+2. Ändra längden
+1045:
+Filter spec. fel\n
+Beskrivning\Orsak:\n
+- Signal %s : Ingen\n
+  filter tid kan specificeras för denna\n
+  typ av signal\n
+\t\n
+Checklista:\n
+1. Sätt filter tiden till 0 eller ta\n
+   bort instuktionen.
+1046:
+Skalnings fel\n
+Beskrivning\Orsak:\n
+- Signal %s: Ingen skalning kan göras.\n
+\t\n
+Checklista:\n
+1. Ta bort skalningen.
+1049:
+Param. inverterings fel\n
+Beskrivning\Orsak:\n
+- Signal %s: Den här\n
+  typen av signal kan inte inverteras\n
+\t\n
+Checklista:\n
+1. Endast digitala signaler kan\n
+   inverteras.
+1050:
+Korssignal ej digital.\n
+Beskrivning\Orsak:\n
+- Signal %s: är inte en digital signal\n
+\t\n
+Cecklista:\n
+1. Endast digitala signaler kan\n
+   korskopplas.
+1052:
+Korstabell full.\n
+Beskrivning\Orsak:\n
+- Summan av annorlunda FRÅN signaler\n
+  adderad med den totala summan av\n
+  TILL signaler får inte överstiga %d\n
+\t\n
+Checklista:\n
+1. Reducera antalet signaler.\n
+2. Öka antalet tillåtna\n
+   korsanslutningar.
+1053:
+Ingen RIO kommunikation\n
+Beskrivning\Orsak:\n
+- Ingen åtkomst med kortet beroende\n
+  på att kommunikationen är nere\n
+\t\n
+Checklista:\n
+1. Kontrollera kommunikations kabeln\n
+   till kortet\n
+2. Kontrollera om kortet är avslaget
+1054:
+Fel signaltyp\n
+Beskrivning\Orsak:\n
+- Signal %s:\n
+  Fel signaltyp.\n
+\t\n
+Checklista:\n
+1. Ändra typen.
+1055:
+Felaktigt signalnamn\n
+Beskrivning\Orsak:\n
+- Symbol %s är ej definierad\n
+\t\n
+Checklista:\n
+1. Ändra ovanstående symbolnamn
+1056:
+PF Återstart misslyckades\n
+Beskrivning/Orsak:\n
+- Symbol %s: kunde inte initieras för\n
+  återställande av strömavbrott.\n
+  Tabellen för PF är full.\n
+\t\n
+Checklista:\n
+1. Öka tabellstorleken i uppstartsfilen.\n
+2. Avlägsna några andra signaler från\n
+   återställningslistan.
+1058:
+Ingen kontakt, I/O-enhet\n
+Beskrivning\Orsak:\n
+- Ingen kontakt med I/O-enhet: %s\n
+  på buss: %s\n
+\t\n
+Checklista:\n
+1. Kontrollera adresserna på alla\n
+   I/O-enheter som är anslutna till\n
+   bussen.\n
+2. Ändra adressen.
+1059:
+Konfig.fel Can-nod.\n
+Beskrivning\Orsak:\n
+- Fel vid konfigurering av Can-nod\n
+  ansluten till nod-adress %d\n
+\t\n
+Checklista:\n
+1. Korrigera konfigurationen för Can-\n
+   noden på given adress.
+1061:
+I/O-bussfel\n
+Beskrivning\Orsak:\n
+- Onormala feltakt på buss %s\n
+  har upptäckts.\n
+\t\n
+Checklista:\n
+1. Kontrollera bussen.\n
+2. Varmstarta.
+1072:
+Inget sparande vid signal\n
+Beskrivning\Orsak:\n
+- Signal %s har ej satt\n
+  Spara attributet till JA.\n
+\t\n
+Checklista:\n
+1. Sätt Spara attributet.
+1073:
+Fel på I/O-bussen.\n
+Beskrivning/Orsak:\n
+- Onormal feltakt har upptäckts på\n
+  %s bussen.\n
+  Konnektorn för External CAN I/O\n
+  måste stängas av.\n
+\t\n
+Checklista:\n
+1. Kontrollera buss-avslutare.\n
+2. Kontrollera kortslutning på I/O-buss.\n
+3. Varmstarta.
+1074:
+För många Konfig.\n
+Beskrivning/Orsak:\n
+- IBS startkvartil och rack-storlek\n
+  är utanför tillåtet värde för kort %s.\n
+\t\n
+Checklista:\n
+1. För startkvartilen 1 måste rack-\n
+   storleken vara mindre än 5.
+1076:
+Komm. fel från rtp1\n
+Beskrivning/Orsak:\n
+- Ingen respons från den\n
+  seriella linjen.\n
+\t\n
+Checklista:\n
+1. Kontrollera enheten eller\n
+   anslutningen.
+1077:
+Komm. fel från rtp1\n
+Beskrivning/Orsak:\n
+- Det mottagna meddelandet\n
+  kan inte levereras.\n
+\t\n
+Checklista:\n
+1. Kontrollera kommunikationsflödet.
+1078:
+Komm. fel från rtp1\n
+Beskrivning/Orsak:\n
+- Responsen från enheten har\n
+  en ogiltig ramordning.\n
+\t\n
+Checklista:\n
+1. Kontrollera den seriella linjen\n
+   för störningar
+1079:
+Pulserande grupputgång\n
+Beskrivning/Orsak:\n
+- Pulserande grupputgång ej\n
+  tillåten.\n
+\t\n
+Checklista:\n
+1. ---
+1080:
+enhetstyp-tabell är full.\n
+Beskrivning/Orsak:\n
+- Antal enhetstyper får ej\n
+  överstiga %d.\n
+\t\n
+Checklista:\n
+1. Reducera antalet enhetstyper.\n
+2. Öka antalet tillåtna typer
+1081:
+Fysisk tabell full.\n
+Beskrivning/Orsak:\n
+- Antal fysiska signaler får ej\n
+  överstiga %d.\n
+\t\n
+Checklista:\n
+1. Reducera antalet fysiska signaler.\n
+2. Öka antalet tillåtna fysiska\n
+   signaler.
+1082:
+Signal tabell full.\n
+Beskrivning/Orsak:\n
+- Antalet användar definierade signaler\n
+  plus panel-signaler får ej\n
+  överstiga %d.\n
+\t\n
+Checklista:\n
+1. Reducera antalet signaler.\n
+2. Öka antalet tillåtna signaler.
+1083:
+Symbol tabell full.\n
+Beskrivning/Orsak:\n
+- Antalet symboler får ej\n
+  överstiga %d.\n
+\t\n
+Checklista:\n
+1. Reducera antalet symboler.\n
+2. Öka antalet tillåtna symboler.
+1084:
+Triggr tabell full.\n
+Beskrivning/Orsak:\n
+- Antalet Undertecknade signaler\n
+  får ej överstiga %d.\n
+\t\n
+Checklista:\n
+1. Reducera antalet Undertecknade\n
+   signaler.\n
+2. Öka antalet tillåtna Undertecknanden.
+1085:
+Enhetstabell full.\n
+Beskrivning/Orsak:\n
+- Antalet kort får ej\n
+  överstiga %d.\n
+\t\n
+Checklista:\n
+1. Reducera antalet definierade kort.\n
+2. Öka antalet tillåtna kort.
+1094:
+För många korsaktörer def\n
+Beskrivning/Orsak:\n
+- Korskopplingen har för många\n
+  "Från" signaler : %s.\n
+\t\n
+Checklista:\n
+1. Kontrollera kors konfigurationen.
+1095:
+För lång korsaktör-sträng\n
+Beskrivning/Orsak:\n
+- "Från" delen i kors-strängen\n
+  är för lång : %s.\n
+\t\n
+Checklista:\n
+1. Kontrollera kors konfigurationen.
+1097:
+Parameter-lagringsfel\n
+Beskrivning/Orsak:\n
+- Signal %s: Denna typ av signal\n
+  kan inte ha lagringsmöjlighet.\n
+\t\n
+Checklista:\n
+1. Bara digitala signaler kan lagras.
+1098:
+NFS server förlorad.\n
+Beskrivning/Orsak:\n
+- Kontakten med NFS servern\n
+  '%s' har förlorats.\n
+\t\n
+Checklista:\n
+1. Kontrollera NFS-servern.\n
+2. Kontrollera nätverkskoppling.\n
+3. Kontrollera konfigurering.
+1099:
+Trusted NFS serv förlorad\n
+Beskrivning/Orsak:\n
+- Kontakten med Trusted NFS server\n
+  '%s' har förlorats.\n
+\t\n
+Checklista:\n
+1. Kontrollera NFS-servern.\n
+2. Kontrollera nätverkskoppling.\n
+3. Kontrollera konfigurering.
+1101:
+Okänt bussnamn.\n
+Beskrivning/Orsak:\n
+- Kort %s:\n
+  Okänt bussnamn %s\n
+\t\n
+Checklista:\n
+1. Ändra bussnamnet för kortet i\n
+   enhetstyp konfigurationen.
+1102:
+DeviceNet inkompatibelt\n
+Beskrivning/Orsak:\n
+- Nod %d:\n
+  Internt info:\n
+  %s,%d\n
+  (%s)\n
+\t\n
+Checklista:\n
+1. Koppla bort noden från bussen.\n
+2. Kontakta ABB.
+1103:
+Fel på I/O-bussen\n
+Beskrivning/Orsak:\n
+- Onormal felfrekvens har upptäckts på\n
+  %s bussen.\n
+  Anslutningen för Robot CAN I/O\n
+  har stängts av.\n
+\t\n
+Checklista:\n
+1. Kontrollera buss-avslutare.\n
+2. Kontrollera I/O-bussen, kortslutning.\n
+3. Varmstarta.
+1104:
+Fel på I/O-bussen\n
+Beskrivning/Orsak:\n
+- Onormal felfrekvens har upptäckts på\n
+  %s bussen.\n
+Anslutningarna för Extern CAN I/O och\n
+Robot CAN I/O har stängts av.\n
+\t\n
+Checklista:\n
+1. Kontrollera buss-avslutare..\n
+2. Kontrollera I/O-bussen, kortslutning\n
+3. Varmstarta.
+1113:
+IBS kommando misslyckades\n
+Beskrivning/Orsak:\n
+- Varning p g a: %d\n
+\t\n
+Checklista:\n
+1. Kontrollera InterBus-S konfiguration\n
+   enligt ovanstående felkod..
+1114:
+Ogiltig IP adress\n
+Beskrivning/Orsak:\n
+'%s' är inte en giltig IP adress\n
+\t\n
+Checklista:\n
+1.Kontrollera komunikations-konfig.
+1115:
+Ogiltig subnet mask\n
+Beskrivning/Orsak:\n
+'%s' är inte en giltig subnet mask\n
+\t\n
+Checklista:\n
+1. Kontrollera kommunikations-konfig.
+1117:
+Batteriövervakning res.\n
+Beskrivning/Orsak:\n
+Batteriets kapacitet = %d\n
+\t\n
+Checklista:
+1118:
+Tillstånd batteriövervak.\n
+Beskrivning/Orsak:\n
+Batteriövervakningen är i fel tillstånd.\n
+Tillståndet är = %s\n
+\t\n
+Checklista:
+1119:
+IO-enhetstabell är full.\n
+Beskrivning/Orsak:\n
+- Maximalt antal IO-enheter av\n
+  typen %s har överskridits.\n
+  Max = %d\n
+\t\n
+Checklista:\n
+1. Reducera antalet IO-enheter.
+1120:
+RAP-option ej installerad\n
+Beskrivning/Orsak:\n
+- Optionen för RAP-kommunikation måste\n
+  vara inladdad för att konfigurera RAP\n
+  eller använda SCWrite.\n
+\t\n
+Checklista:\n
+1. Boota om roboten med optionen för\n
+   RAP-kommunikation.
+1121:
+RAP startup misslyckades.\n
+Beskrivning/Orsak:\n
+- Initialiseringen av RAP misslyckades.\n
+\t\n
+Checklista:\n
+1. Kontrollera Intern-loggen\n
+   för beskrivning.
+1122:
+Felaktig IP adress.\n
+Beskrivning/Orsak:\n
+- Adressen '%s'\n
+  i protokollet '%s'\n
+  är inte en korrekt IP adress.\n
+\t\n
+Checklista:\n
+1. Ändra adressen.
+1123:
+Inget matchande protokoll\n
+Beskrivning/Orsak:\n
+Överförings-protokollet '%s'\n
+till applikationsprotokoll '%s'\n
+kunde inte hittas.\n
+\t\n
+Checklista:\n
+1. Ändra överförings-protokoll.
+1124:
+Fel protokoll för NFS.\n
+Beskrivning/Orsak:\n
+Överförings-protokollet för\n
+NFS-protokollet '%s' måste\n
+vara 'TCP/IP'.\n
+\t\n
+Checklista:\n
+1. Ändra överförings-protokoll.
+1125:
+Monterings-tillsånd nekat\n
+Beskrivning/Orsak:\n
+Tillsånd nekades att montera\n
+katalogen '%s'\n
+på servern '%s'.\n
+\t\n
+Checklista:\n
+1. Ändra User eller Group ID.
+1126:
+Katalogen ej exporterad\n
+Montering av katalogen '%s'\n
+som '%s' misslyckades\n
+eftersom den inte är exporterad på\n
+server-dator '%s'.\n
+Protokoll: '%s'.\n
+\t\n
+Checklista:\n
+Exportera katalogen på server-datorn.\n
+
+1127:
+Inte samma ID\n
+Beskrivning/Orsak:\n
+User och Group ID måste ha samma\n
+värde för alla remote diskar.\n
+\t\n
+Checklista:
+1128:
+Ethernet option ej inst.\n
+Beskrivning/Orsak:\n
+- Optionen Ethernet Services måste vara\n
+  installerad för Remote diskar.\n
+\t\n
+Checklista:\n
+1. Boota om med optionen\n
+   Ethernet Services.
+1129:
+För många remote diskkar.\n
+Beskrivning/Orsak:\n
+Max antal remote monterade\n
+diskar är '%d'.\n
+\t\n
+Checklista:\n
+1. Reducera antalet remote monterade\n
+   diskar.
+1130:
+För många remote servrar\n
+Beskrivning/Orsak:\n
+Max antal servrar för remote monterade\n
+diskar är '%d'.\n
+\t\n
+Checklista:\n
+1. Reducera antalet servrar.
+1131:
+Kunde ej montera katalog\n
+Beskrivning/Orsak:\n
+Montering av katalogen '%s'\n
+på datorn '%s' misslyckades.\n
+Protokoll: '%s'.\n
+\t\n
+Checklista:\n
+1. Kontrollera setup av NFS-servrar.
+1132:
+Batteriövervakning låst\n
+Beskrivning/Orsak:\n
+Batteriövervakningen är låst eftersom\n
+ett power Av/På utförs.\n
+Kommer att släppas %s.\n
+\t\n
+Checklista:
+1133:
+Batteriet ej laddat.\n
+Beskrivning/Orsak:\n
+Batteriet har inte laddats efter\n
+första laddnings-tillståndet.\n
+\t\n
+Checklista:\n
+1. Kontrollera att batlow-signalen är\n
+   kopplad till DSQC347.\n
+2. Kontrollera batterianslutningar.\n
+3. Kontrollera batteriet.
+1137:
+Felkod från enhet.\n
+Beskrivning/Orsak:\n
+Följande fel returnerades:\n
+%s\n
+\t\n
+Checklista:\n
+1. Kontrollera param.konfig. av enheten
+1139:
+Access-fel från IO\n
+Beskrivning/Orsak:\n
+- Kan inte läsa eller skriva\n
+  signalen %s\n
+  p g a kommunikationen är nere.\n
+\t\n
+Checklista:\n
+1. Kontrollera varför i meddelandet,\n
+   'Ingen kontakt, I/O-enhet'\n
+ 
+1140:
+Parameterfel active high\n
+Beskrivning/Orsak:\n
+- Signal %s: Denna typ av signal kan\n
+  inte sättas till active high.\n
+\t\n
+Checklista:\n
+1. Endast utsignaler kan sättas\n
+   till active high.
+1141:
+grundvärde utanför område\n
+Beskrivning/Orsak:\n
+- Grundvärdet för\n
+  signalen %s\n
+  är utanför sitt område.\n
+\t\n
+Checklista:\n
+1.Ändra grundvärdet i konfigurationen.
+1142:
+Parameterfel\n
+Beskrivning/Orsak:\n
+- Signal %s: Denna typ av signaler kan\n
+  inte tilldelas ett grundvärde.\n
+\t\n
+Checklista:\n
+1. Endast utsignaler kan tilldelas\n
+   ett grundvärde.
+1143:
+CTS/RTS ej tillåtet\n
+Beskrivning/Orsak:\n
+- Seriekanal %s:\n
+  kan inte ha tillvalet RTS/CTS.\n
+\t\n
+Checklista:\n
+1. Ta bort tillvalet från konfiguration.
+1146:
+Prenumerationsfel\n
+Beskrivning/Orsak:\n
+- maxgräns är lägre än mingräns\n
+  maxgräns = %f mingräns = %f.\n
+\t\n
+Checklista:\n
+1. Korrigera och försök igen
+1153:
+Can't access parameter\n
+Description\Reason:\n
+- Unit %s has parameters\n
+  that can't be edited from\n
+  the teach pendant.\n
+\t\n
+Check list:\n
+1. Save the EIO configuration to\n
+   a file\n
+2. Use a text editor to change\n
+   the parameters
+1156:
+IPC queue full\n
+Description\Reason:\n
+- The ipc queue was full,\n
+  when sending to trap routine.\n
+  errno = %x\n
+\t\n
+Check list:\n
+1. Restart the system
+1157:
+Invalid app type\n
+Description\Reason:\n
+- Com Unit %s: has an unspecified\n
+  Com app type named: %s.\n
+\t\n
+Check list:\n
+1.Check the Com app type against\n
+  the one specified for the Com app
+1159:
+Signal Access illegal\n
+Description\Reason:\n
+- Signal %s:\n
+  The number of characters in\n
+  Access %s\n
+  is greater than %d or name missing.\n
+\t\n
+Check list:\n
+1. Give a new Access that fits within\n
+   the limits.
+1160:
+Access level illegal\n
+Description\Reason:\n
+- Signal %s:\n
+  Access level %s in\n
+  group %s is illegal.\n
+- Legal choices all/man/auto/none.\n
+\t\n
+Check list:\n
+1. Give a new access level for group\n
+   that fits.
+1161:
+Access name not found\n
+Description\Reason:\n
+- Signal %s:\n
+  The Access name %s\n
+  not found in EIO_USER_ACCESS.\n
+\t\n
+Check list:\n
+1. Define %s in EIO_USER_ACCESS\n
+   or change Access name.

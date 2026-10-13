@@ -1,0 +1,282 @@
+Revision 1.8  1995/04/21  13:26:56  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.7  1994/08/19  10:45:05  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+7::
+0:
+Systemparameter
+1:
+Parameter          geändert am
+2:
+Param
+3:
+ Typen
+4:
+Alle Parameter
+5:
+Parameter            Info
+6:
+Hinzu
+7:
+Parameter werden geladen!\n
+\n
+Fertig in einigen Sekunden...
+8:
+Passworte ändern...
+9:
+Text
+10:
+Parameter werden gespeichert!\n
+\n
+Fertig in einigen Sekunden...
+11:
+Neue Parameter sind geladen!\n
+\n
+Aktivieren der Parameter\n
+mit dem Befehl Neustart\n
+im Menü -Datei-.
+12:
+Gehe zu...
+13:
+Gehe zum Anfang
+14:
+Gehe zum Ende
+15:
+(Suchen...)
+16:
+Eine Änderung der Passworte beeinflußt\n
+Ihren Zugriff zum System!\n
+\n
+Änderung der Passworte\n
+kontrollieren !
+17:
+Änderung Passwort!
+18:
+Zeilenanwahl
+19:
+Zeilennummer #
+20:
+Geben Sie das alte Passwort ein,\n
+bevor Sie ein neues Passwort\n
+festlegen.
+21:
+Eingang Nummer
+22:
+Text eingeben für
+23:
+Zahlenwert eingeben für
+24:
+Laden gespeich. Parameter...
+25:
+Alles speichern unter...
+26:
+Speichern unter...
+27:
+(Drucken...)
+28:
+Neustart...
+29:
+Grenzen: Minimum
+30:
+         Maximum
+31:
+Schreibgeschützter Parameter.\n
+Kann nicht geändert werden!\n
+\n
+Weiter mit ENTER!
+32:
+Datenverlust durch internen Fehler!
+33:
+\n
+Keine Parameter geladen!\n
+\n
+Laden der Parameter\n
+mit dem Befehl Laden\n
+im Menü -Datei-
+34:
+Parameter fehlen!
+35:
+Lösche
+36:
+(Lösche)
+37:
+Parameter fehlen!\n
+\n
+Weiter mit ENTER!
+38:
+Zeige Log Änderungen...
+39:
+Laden gespeich. Parameter!
+40:
+Verzeichnis oder Datei zum\n
+Laden auswählen.
+41:
+Alle Parameter speichern!
+42:
+Verzeichnis zum Speichern unter\n
+auswählen.
+43:
+Alt
+44:
+Parameter gespeichert!\n
+\n
+\n
+Weiter mit ENTER!
+45:
+SYSPAR
+46:
+\n
+Neue Parameter sind geladen!\n
+\n
+Aktivieren der Parameter\n
+mit dem Befehl Neustart\n
+im Menü -Datei-.
+47:
+Keine Parameter geladen!\n
+Keine Parameter im gewählten\n
+Verzeichnis oder in der\n
+gewählten Datei.\n
+Weiter mit ENTER!
+48:
+Auswahl Liste (nach Namen)
+49:
+Auswahl Liste (Tabelle)
+50:
+Name definieren!\n
+Einmaligen Namen für den\n
+Parameter definieren.\n
+\n
+Weiter mit ENTER!
+51:
+NEUSTART NOTWENDIG!\n
+Geänderte Parameter werden\n
+durch Neustart aktiviert.\n
+\n
+Weiter mit ENTER!
+52:
+Parameter speichern unter!
+53:
+Parameter überschreiben!\n
+Vorhandene Parameter\n
+werden überschrieben.\n
+\n
+Weiter mit OK ?
+54:
+Warnung!
+55:
+Log Änderungen
+56:
+Aktionen im Log Änderungen
+57:
+geladen:
+58:
+gespeich:
+59:
+hinzu:
+60:
+gelöscht:
+61:
+geändert:
+62:
+geändert:
+63:
+neustart:
+64:
+Neustart ist angewählt!\n
+Soll die Steuerung neu \n
+gestartet werden ?\n
+\n
+Weiter mit OK ?
+65:
+Notwendiger Parameter!\n
+Dieser Parameter muß mit\n
+einem Wert definiert sein.\n
+\n
+Weiter mit ENTER!
+66:
+Konflikt bei der Namensvergabe!\n
+Einmaligen Namen für diesen\n
+Parameter definieren.\n
+\n
+Weiter mit ENTER!
+67:
+Log Änderungen ist leer!
+68:
+Zuladen neuer Parameter...
+69:
+Zuladen neuer Parameter!
+70:
+Neu
+71:
+Kein "Passwort"
+72:
+Altes "Passwort" für Service\n
+ist nicht korrekt.\n
+\n
+Weiter mit ENTER
+73:
+Altes "Passwort" für Programm\n
+ist nicht korrekt.\n
+\n
+Weiter mit ENTER
+74:
+Passwort für %s\n
+%s erneuert!\n
+\n
+\n
+Weiter mit ENTER !
+75:
+Zugriff Systemparameter
+76:
+Änd. Passw.
+77:
+Lösche Inst
+78:
+Löschen eines Parameters kann nicht\n
+rückgängig gemacht werden!\n
+Löschen von Parametern kontrollieren.\n
+\n
+Löschen OK?
+79:
+
+80:
+Info
+81:
+Infomation für Parameter\n
+kann nicht gezeigt werden.\n
+Zu oft "Info" gedrückt.\n
+\n
+Weiter mit ENTER !
+82:
+Infomation für Parameter\n
+kann nicht gezeigt werden.\n
+Information nicht verfügbar.\n
+\n
+Weiter mit ENTER !
+83:
+Parameter kontrollieren
+84:
+Kontrolle Systemparameter...\n
+\n
+Kontrolle auf Übereinstimmung\n
+der Systemparameter -Param-\n
+%s\n
+wird jetzt durchgeführt.\n
+Dies dauert einige Zeit ...
+85:
+Herzlichen Glückwunsch !\n
+Systemparameter unter -Param-\n
+%s\n
+stimmen überein.
+86:
+  <  Weiter mit ENTER  >
+87:
+Kontrolle der Parameter -Param-\n
+%s\n
+kann nicht durchgeführt werden.\n
+Es ist keine Methode für diese\n
+Parameter verfügbar.

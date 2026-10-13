@@ -1,0 +1,338 @@
+
+37::
+
+0:
+Arc Weld
+
+1:
+
+2:
+Arc Weld System
+
+3:
+Name
+
+4:
+name
+
+5:
+units
+
+6:
+functions
+
+7:
+equipment
+
+8:
+Arc Weld Unit
+
+9:
+Name
+
+10:
+name
+
+11:
+speed
+
+12:
+length
+
+13:
+wire feed
+
+14:
+Arc Weld Function
+
+15:
+Name
+
+16:
+name
+
+17:
+restart distance
+
+18:
+no of retries
+
+19:
+scrape
+
+20:
+scrape width
+
+21:
+scrape direction
+
+22:
+preheating
+
+23:
+weave
+
+24:
+weave sync
+
+25:
+crater fill
+
+26:
+fill weave
+
+27:
+burnback
+
+28:
+rollback
+
+29:
+override
+
+30:
+Arc Weld Equipment
+
+31:
+Name
+
+32:
+name
+
+33:
+manual wirefeed
+
+34:
+weld inhibit
+
+35:
+weave inhibit
+
+36:
+arc supervision
+
+37:
+ign timeout
+
+38:
+volt supervision
+
+39:
+water supervision
+
+40:
+wire supervision
+
+41:
+gas supervision
+
+42:
+arc weld status
+
+43:
+gas supervision
+
+44:
+gas control
+
+45:
+power control
+
+46:
+arc preset time
+
+47:
+wirefeed
+
+48:
+wirefeed backward
+
+49:
+weave sync left
+
+50:
+weave sync right
+
+51:
+weldschedule port
+
+52:
+
+53:
+schedule port type
+
+54:
+weld voltage
+
+55:
+
+56:
+voltage adjust
+
+57:
+
+58:
+wire feed
+
+59:
+
+60:
+current adjust
+
+61:
+
+62:
+restart
+
+63:
+regain speed
+
+64:
+scrape cycle time
+
+65:
+stop process
+
+66:
+call subroutine
+
+67:
+restart
+
+68:
+arc ok delay
+
+69:
+current supervision
+
+70:
+wirestick status
+
+71:
+schedule strobe
+
+72:
+process stopped
+
+73:
+supervision arc
+
+74:
+supervision voltage
+
+75:
+supervision current
+
+76:
+supervision water
+
+77:
+supervision gas
+
+78:
+supervision wirefeed
+
+79:
+cm/min
+
+80:
+mm/s
+
+81:
+ipm
+
+82:
+mm
+
+83:
+inch
+
+84:
+m/min
+
+85:
+mm/s
+
+86:
+ipm
+
+87:
+On
+
+88:
+Off
+
+89:
+Binary
+
+90:
+Pulse
+
+91:
+weldguide
+
+92:
+wg ready
+
+93:
+wg track
+
+94:
+wg left sync
+
+95:
+wg right sync
+
+96:
+wg height corr
+
+97:
+wg side corr
+
+98:
+wg data valid
+
+99:
+wg data ack
+
+100:
+wg inhib
+
+101:
+Arc Weld Weldguide
+
+102:
+weldguide
+
+103:
+Name
+
+104:
+name
+
+105:
+precond
+
+106:
+superv inhibit
+
+107:
+auto inhib
+108:
+track
+109:
+V
+
+110:
+torch supervision
+
+111:
+supervision torch
+
+112:
+CAN
+
+113:
+opt ignition scrape
+114:
+ignition data

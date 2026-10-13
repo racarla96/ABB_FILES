@@ -1,0 +1,555 @@
+21::
+0:
+Operativita'
+2:
+Reset programma\n
+Il task %!%!%s e' stato\n
+resettato.\n
+\t\n
+
+5:
+Esec. prog interrotta\n
+Il prog %!%!%s e' stato\n
+interrotto. Il motivo e' %s\n
+\t\n
+
+500:
+Interruzzione a causa di uno stop\n
+interno o esterno dopo l'istruzione\n
+corrente.
+501:
+La task ha eseg. un'istruz. EXIT
+502:
+Task pronta.
+503:
+Task pronta con livello desiderato.
+504:
+La task ha eseg. un'istruzione Break.
+505:
+stop interno o esterno attivato.
+506:
+riscontrato errore.
+507:
+Impossibile eseguire istruzioni al\n
+contrario essendo all'inizio del progr.
+508:
+Impossibile eseguire istruzioni al\n
+contrario da questa istruzione.
+509:
+the event routine for RESET or POWER_ON\n
+is ready.
+7:
+Programma in esecuzione\n
+Iniziata L'esecuzione\n
+della task %!%!%s.\n
+%s\n
+\t\n
+
+8:
+Programma riavviato\n
+Eseg. Riavvio\n
+della task %!%!%s.\n
+%s\n
+\t\n
+
+701:
+L'origine e' la finestra di programmaz.
+702:
+L'origine e' la finestra di produzione.
+703:
+L'origine e' sconosciuta.
+704:
+L'origine e' un client esterno.
+9:
+Area programma piena\n
+Memoria non disponibile\n
+per nuove istruz o dati RAPID.\n
+La task e' %!%!%s\n
+\t\n
+Salvare il programma e riavviarlo.
+10:
+Stato Motori disinseriti\n
+\n
+\t\n
+
+11:
+Stato Motori inseriti\n
+\n
+\t\n
+
+12:
+Stato stop di sicurezza\n
+Catena emergenze aperta da un qualsiasi\n
+micro di sicurezza escluso lo stop\n
+di emergenza.\n
+\t\n
+
+13:
+Stato di emergenza\n
+Catena di Run aperta da una emergenza.\n
+Necessario un reset dell'emergenza,\n
+premendo il pulsante di Motors On.\n
+\t\n
+
+14:
+Stato di errore sistema\n
+Errore sistema non recuperabile.\n
+Necessario warm start.\n
+\t\n
+
+15:
+Modo Manuale selezionato\n
+\n
+\t\n
+
+16:
+Necessario modo Auto\n
+\n
+\t\n
+
+17:
+Confermato modo Auto\n
+\n
+\t\n
+
+18:
+Necess. modo Man. V100%\n
+Richiesto modo manuale V100%\n
+\t\n
+
+19:
+Conferm. modo man. V100%\n
+Confermato modo manuale V100%\n
+\t\n
+
+20:
+Errore esecuzione\n
+L'esecuzione programma ha generato\n
+un errore spontaneo.\n
+\t\n
+
+21:
+Resettare errore esecuz.\n
+L'esecuzione programma ha riscontrato\n
+un errore spontaneo.\n
+\t\n
+
+22:
+In attesa di Hold to Run\n
+In attesa che il tasto Hold to Run\n
+sulla unita' di programmazione venga\n
+premuto.\n
+\t\n
+
+23:
+Timeout Hold to Run\n
+Il tasto di Hold to Run deve essere\n
+premuto nel tempo limite.\n
+\t\n
+
+30:
+Assi commutati\n
+\n
+\t\n
+
+31:
+Assi calibrati\n
+\n
+\t\n
+
+32:
+Counters aggiornati\n
+\n
+\t\n
+
+33:
+Assi sincronizzati\n
+\n
+\t\n
+
+34:
+Assi non commutati\n
+\n
+\t\n
+
+35:
+Assi non calibrati\n
+\n
+\t\n
+
+36:
+Counters non aggiornati\n
+\n
+\t\n
+
+37:
+Assi non sincronizzati\n
+\n
+\t\n
+
+40:
+Programma caricato\n
+La task %!%!%s ha\n
+caricato un programma o un modulo.\n
+L'area libera era di %i bytes\n
+prima dell'operazione e di\n
+%i bytes dopo.\n
+\t\n
+
+41:
+Programma cancellato\n
+La task %!%!%s ha\n
+cancellato un programma.\n
+\t\n
+
+43:
+Riavvio non eseguito\n
+La task %!%!%s\n
+non puo' essere riavviata.\n
+\t\n
+
+44:
+Aggiornato Puntat. Progr.\n
+La task %!%!%s\n
+potrebbe avere modificato la posizione\n
+del Puntatore Porgramma.\n
+\t\n
+
+45:
+Sistema riavviato\n
+Il sistema gia' installato\n
+e' stato riavviato.\n
+\t\n
+
+4501:
+ordered warmstart.
+4502:
+it has been switched off.
+46:
+Sistema riavviato in Cold\n
+start\n
+Primo avvio dopo l'installazione.\n
+\t\n
+
+47:
+Esec. task background %s\n
+non eseguita\n
+%s\n
+\t\n
+
+4701:
+Task vuota
+4702:
+Errore di stato
+4703:
+Impossib. def. PC alla main rout
+4704:
+Impossib. definire il modo di esecuz.
+4705:
+Comando di start non eseguito
+4706:
+causa errore di sintassi
+48:
+Background task bloccata\n
+La task %s bloccata senza motivo\n
+%s\n
+\t\n
+
+49:
+Area protetta non termin.\n
+Guasto alimentaz. riscontrato nel\n
+mezzo di un area protetta per\n
+la task %!%s\n
+%s\n
+\t\n
+%s
+4901:
+Il sistema sta tentando di ripristinarsi
+4902:
+Un errore e' stato tolto\n
+dalla coda
+4903:
+Un uscita e' stata rimossa\n
+dalla coda
+4904:
+Questo potrebbe risultare in un\n
+extra ciclo programma
+4905:
+La task sara' riavviata dal\n
+sotprog principale
+4906:
+Un succ. warm start resettera' tutte le\n
+task e il progr. cliente verra' perso
+4907:
+Provare a salvare il programma ed\n
+eseguire un warm start del sistema\n
+
+50:
+Esecuzione cancellata\n
+Il riavvio azzerera' l'esecuzione\n
+nella task %!%.16s di un\n
+%s\n
+\t\n
+%s
+5001:
+Sotprog evento Power On sistema
+5002:
+Sotprog evento Stop sistema
+5003:
+Sotprog evento Emergency Stop sistema
+5004:
+Sotprog evento Start sistema
+5005:
+Sotprog evento Restart sistema
+5006:
+Sotprog evento Reset sistema
+5007:
+Sotprog evento Internal sistema
+5008:
+Sotprog User
+51:
+Errore sottprog. evento\n
+La task %!%s potrebbe non riavviare\n
+lo specificato sottprog evento di sist.\n
+%s\n
+La routine e' sconosciuta al sistema o\n
+non linkabile.\n
+\t\n
+Inserire il sottoprogramma in un modulo\n
+di sistema o correggere il programma.
+52:
+Recupero esecuzione\n
+Recupero mov. eseguito\n
+\t\n
+
+53:
+Recupero pronto\n
+Recupero movimento pronto\n
+\t\n
+
+54:
+Regain rejected\n
+Regain on path not possible one client\n
+has already order it.\n
+\t\n
+A new regain movement is ordered during\n
+an already started regain movement.\n
+Reduce the number of start order from\n
+e.g system I/O
+60:
+Test catena enable\n
+La catena di enable e' sempre\n
+controllata all'avvio. Se il test ha\n
+riscontrato un errore il sistema genera\n
+un messaggio.\n
+\t\n
+Se la catena di enable all'avvio ha\n
+riscontrato un errore, apparira' un\n
+messaggio del tipo\n
+"Enable chain timeout"\n
+
+70:
+Backup pronto\n
+Il backup %!%s e' pronto\n
+\t\n
+
+7000:
+Preparazione backup
+7001:
+Configurazione backup
+7002:
+del sistema
+71:
+Errore backup\n
+Errore nel corso del backup\n
+di %!%!%s\n
+%s\n
+\t\n
+%s\n
+
+7100:
+Preparazione backup
+7101:
+Configurazione backup
+7102:
+Backup task
+72:
+Restore pronto\n
+Il restore %!%s\n
+e' pronto\n
+\t\n
+
+7200:
+Preparazione
+7201:
+Configurazione
+7202:
+del task
+7203:
+del sistema
+73:
+Errore restore\n
+Errore durante il restore\n
+di %!%!%s\n
+%s\n
+\t\n
+%s\n
+
+7260:
+Oggetto impossibile da cancellare
+7261:
+Supporto di memoria pieno
+7262:
+Task sconosciuto
+7263:
+Almeo un modname e' troppo lungo
+7264:
+Errore di scrittura
+7265:
+Il sistema corrente non corrisponde\n
+a quello del backup
+7266:
+Errore durante il restore dei parametri\n
+di configurazione
+7267:
+Errore durante il restore dei parametri\n
+di configurazione
+7268:
+La versione del sistema non corrisponde\n
+a quella del backup\n
+
+7269:
+Manca almeno uno dei componenti\n
+necessari alla directory
+7270:
+
+7271:
+Struttura troppo annidata
+7272:
+Errore in scrittura parametri di config.
+7273:
+Errore in lettura parametri di config.
+7274:
+Errore durante la lettura del backup
+7275:
+La directory non puo' essere creata
+7276:
+La directory non esiste
+7277:
+Manca almeno uno dei componenti\n
+necessari alla directory
+7278:
+La directory contiene dei componenti\n
+che devono essere creati
+7279:
+
+7300:
+Preparazione
+7301:
+Configurazione
+7302:
+Configurazione task
+7303:
+Task utente
+74:
+Server NFS operativo\n
+La connessione al server NFS\n
+'%s' e' operativa.\n
+Tutti i dispositivi remoti accessibili\n
+tramite server sono ora disponibili.\n
+\t\n
+
+75:
+Server NFS non operativo\n
+La connessione al server NFS\n
+'%s' e' persa.\n
+Tutti i dispositivi collegati tramite\n
+server non sono più disponibili.\n
+\t\n
+
+80:
+Il task in background %s\n
+ha una versione piu' vecchia di un\n
+modulo installato rispetto al sorgente\n
+%s\n
+\t\n
+Riavviare il sistema con un P-START\n
+per installare la versione piu' recente
+81:
+Il task in background %s\n
+non e' riuscito a caricare una versione\n
+piu' aggiornata del modulo.\n
+TLa sorgente del modulo e' %s\n
+\t\n
+Vedere messaggi precedenti per la causa\n
+o riavviare il sistema con un P-START\n
+per caricare la nuova versione.
+82:
+RAPID Task supervision\n
+Task %s is not running\n
+the system will be set in SysFail\n
+state. It's now impossible to change\n
+to motors on\n
+%s\n
+\t\n
+See previous messages for the cause\n
+Restart the system to reset the\n
+error state
+83:
+RAPID Task supervision\n
+Task %s is not running\n
+the system will be set in motors off\n
+state.\n
+%s\n
+\t\n
+See previous messages for the cause\n
+ 
+84:
+RAPID Task supervision\n
+Task %s is not running\n
+the main task will also stop\n
+%s\n
+\t\n
+See previous messages for the cause\n
+
+88:
+Restart not possible\n
+Restart is not possible from the\n
+current program position.\n
+The Program Pointer must be moved\n
+before restart.\n
+\t\n
+Reason:\n
+The system has been in system\n
+failure state  or\n
+the program execution is blocked.\n
+ 
+89:
+A P-Start is ordered\n
+%s\n
+\t\n
+
+8901:
+The P-Start has been ordered from\n
+the system.
+8902:
+The P-Start has been ordered manually or\n
+automatically during a configuration.
+8903:
+The P-Start has been ordered from\n
+I/O unit.
+90:
+P-Start done\n
+An ordered P-Start is done.\n
+All tasks are reset\n
+and all user programs are lost.\n
+\t\n
+
+91:
+(Re)start not possible\n
+(Re)start is not possible due to lost\n
+contact with IO module\n
+%s configured with\n
+trustlevel 3.\n
+\t\n
+

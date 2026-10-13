@@ -1,0 +1,328 @@
+Revision 1.9  1995/12/15  14:10:54  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.8  1995/04/21  13:29:57  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.7  1994/08/19  10:48:07  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+8::
+0:
+Provoz
+1:
+Protokoly
+2:
+
+3:
+
+4:
+
+5:
+Kalibrace
+6:
+Komutace
+7:
+Kalibr
+8:
+(Kalibrovat rucne...)
+9:
+Kalibrovat...
+10:
+Aktualizovat zpetny citac...
+11:
+(Ukazat zmerenou pozici...)
+12:
+Prepisovani protokolu!\n
+Stavajici protokol se prepise.\n
+\n
+OK a pokracovat?
+13:
+Jednotka        Stav
+14:
+   Osa        Stav
+15:
+Vnejsi rizeni
+16:
+Pro kalibraci zahrnte osy a stiskn. OK.
+17:
+Zahrn.
+18:
+Vylouc
+19:
+Vsechny
+20:
+Synchronizovana
+21:
+Nesynchronizovana
+22:
+Nekalibrovana
+23:
+Zpet citac neni aktual.
+24:
+Kalibrovana
+25:
+Zpet citac aktualizovan
+26:
+Kalibrace bude aktualizovana vstupnimi\n
+hodnotami.\n
+Nelze vratit zpet!\n
+\n
+OK a pokracovat?
+27:
+Kalibrace vsech oznacenych os se zmeni.\n
+\n
+Nelze vratit zpet!\n
+\n
+OK a pokracovat?
+28:
+Zpetny citac pro vsechny oznacene osy\n
+bude aktualizovan.\n
+Nelze vratit zpet!\n
+\n
+OK a pokracovat?
+29:
+Neni zahrnuta zadna osa.\n
+\n
+\n
+\n
+Stiskem Enter zkuste znovu!
+30:
+Proces kalibrace zacal!\n
+\n
+Pripraven behem par sekund...
+31:
+Nekomutovana
+32:
+Pocatecni stav
+33:
+Komut
+34:
+(Komutovat rucne...)
+35:
+Komutovat...
+36:
+\n
+Uklada protokol do souboru...
+37:
+Pro komutaci zahrnte osy a stisknete OK.
+38:
+Komutace bude aktualizovana vstupnimi\n
+hodnotami.\n
+Nelze vratit zpet!\n
+\n
+OK a pokracovat?
+39:
+Komutace pro vsechny oznacene osy se\n
+zmeni.\n
+Nelze vratit zpet!\n
+\n
+OK a pokracovat?
+40:
+Komutovana
+41:
+Neni zahrnuta zadna osa\n
+\n
+\n
+\n
+Stiskem Enter zkuste znovu!
+42:
+Proces komutace zacal!\n
+\n
+Pripraven behem par sekund...
+43:
+Nektere mechanicke jednotky\n
+nejsou komutovany. Vyberte si\n
+"Komutace" v menu Prohlizeni.\n
+\n
+Stisknete Enter a jdete dal!
+44:
+Datum a cas...
+45:
+Datum:
+46:
+Cas:
+47:
+<
+48:
+>
+49:
+Systemove informace...
+50:
+Zprava
+51:
+Nazev                #     Posledni
+52:
+Zpravy
+53:
+Smazat protokol
+54:
+Smazat vsechny protokoly
+55:
+Special
+56:
+Protok
+57:
+Zprava                   Datum
+58:
+Zadna zprava k zobrazeni!
+59:
+Aktual
+60:
+Aktualizovat protokol pri prikazu
+61:
+Aktualizovat protokol pri udalosti
+62:
+Vsechny zpravy v protokolu %s\n
+budou smazany.\n
+\n
+OK a pokracovat?
+63:
+Vsechny zpravy ve vsech protokolech\n
+budou smazany.\n
+\n
+OK a pokracovat?
+64:
+Ulozit %s protokolove zpravy jako!
+65:
+ELOG
+66:
+%s protokolove zpravy\n
+Datum ulozeni: %s\n
+
+67:
+Prejdete na radek!
+68:
+Radek:=
+69:
+Chyba:
+70:
+Opakovane spusteni...
+71:
+Prikaz opakovaneho spusteni!\n
+Chcete znovu spustit rizeni ?\n
+\n
+OK kdyz chcete pokracovat.
+72:
+Stav:
+73:
+Vystraha:
+74:
+Ulozte zpravy protokolu jako!
+75:
+Definice ramce
+76:
+Jednotka            Typ
+77:
+Vyberte si jednotku, jejiz ramec\n
+by se mel definovat.\n
+V seznamu jsou jen ty jednotky,\n
+pro ktere lze ramec definovat.
+78:
+Def...
+79:
+Robot IRB1400
+80:
+Robot IRB1400
+81:
+Robot IRB2400
+82:
+Robot IRB2400
+83:
+Robot IRB3400
+84:
+Robot IRB6400
+85:
+Robot IRBPAL
+86:
+Trajektorie 160B_1
+87:
+Trajektorie 160B_2
+88:
+Portal
+89:
+Stopa
+90:
+Vnejsi poloha
+91:
+Rotacni nastroj
+92:
+Volny rotacni
+93:
+Zakladni ramec...
+94:
+Nelze ulozit protokol!\n
+Na disku neni dost mista, nebo\n
+je disk chranen proti prepisu.\n
+\n
+Sisknete Enter a zkuste znovu!
+95:
+Nepouzivane
+96:
+Definice dvou os
+97:
+Vyberte si jednotku, jejiz osa\n
+by se mela definovat.\n
+V seznamu jsou uvedeny pouze\n
+platne dvouose jednotky.
+98:
+Def...
+99:
+Definice dvou os...
+100:
+(Def)
+101:
+Nejsou k dispozici platne jednotky.
+102:
+Temata
+103:
+Vyberte tema a stisknete Enter
+104:
+Robot IRB4400
+105:
+Robot IRB540_FLX
+106:
+Robot IRB5400_HLW
+108:
+Kapacita pameti
+109:
+Stav ulohy
+110:
+Identifikace systemu
+111:
+Identifikace vyrobku
+112:
+Typ robota
+113:
+neinicial
+114:
+pripraven
+115:
+vykonava
+116:
+zastaveno
+117:
+nedefin
+118:
+Aktualiz
+119:
+Uloha
+120:
+Volny
+121:
+Celkem
+122:
+Stav ulohy
+123:
+Zarizeni
+124:
+Programove zdroje
+125:
+Max pocet stalych promennych :
+126:
+Celkova pamet pred konfig ulohy:
+127:
+Neni k dispozici

@@ -1,0 +1,602 @@
+22::
+0:
+Systeem
+10:
+Noodstop status actief\n
+Noodstop reset is vereist.\n
+Druk de MOTOREN-UIT toets.\n
+\t\n
+
+11:
+Em stop state active\n
+Em stop reset is required.\n
+First release the Em stop button\n
+and then press the panel button.\n
+\t\n
+
+12:
+Sys. storingsstat. actief\n
+Fatale niet herstelbare systeemfout.\n
+Systeeminitialisatie is vereist.\n
+\t\n
+Schakel de netspanning af en aan\n
+indien de software herstart niet meer\n
+gebruikt kan worden.
+24:
+Vrijgaveketting time-out\n
+Tweekanaalsstatus time-out.\n
+\t\n
+De bevestiging voor de tweekanaals\n
+status verandering werd niet op tijd\n
+ontvangen.
+30:
+As niet gecommuteerd\n
+Een of meerdere assen met interne\n
+aandrijf kaarten zijn niet gecommuteerd.\n
+\t\n
+
+31:
+As niet gecalibreerd\n
+Een of meerdere assen met een absoluut\n
+of relatief meetsysteem zijn niet\n
+gecallibeerd.\n
+\t\n
+
+32:
+Omw. teller niet bijgew.\n
+Een of meerdere assen met een absoluut\n
+meetsysteem zijn niet gesynchroniseerd.\n
+\n
+Beweeg de robot naar de home positie\n
+en werk de omwentelingen tellers bij.\n
+\t\n
+
+33:
+As niet gesynchroniseerd\n
+Een of meerdere assen met een relatief\n
+meetsysteem zijn niet gesynchroniseerd.\n
+\n
+Schakel de motoren aan en synchroniseer\n
+alle mechanische eenheden in de lijst.\n
+\t\n
+
+50:
+Commando niet toegestaan\n
+Niet toegestaan in deze werkingsmodus.\n
+\t\n
+
+51:
+Commando niet toegestaan\n
+Niet toegestaan wanneer de klant geen\n
+beschikking heeft over de bron\n
+(programma/beweging).\n
+\t\n
+
+52:
+Commando niet toegestaan\n
+Niet toegestaan in deze\n
+besturingskast status.\n
+\t\n
+
+53:
+Commando niet toegestaan\n
+Niet toegestaan in deze\n
+manipulator status.\n
+\t\n
+
+54:
+Commando niet toegestaan\n
+Niet toegestaan als de programma\n
+uitvoer actief is.\n
+\t\n
+
+60:
+Commando niet toegestaan\n
+Niet toegestaan in Auto modus.\n
+\t\n
+
+61:
+Commando niet toegestaan\n
+Niet toegestaan tijdens het\n
+omschakelen naar de auto modus.\n
+\t\n
+
+62:
+Commando niet toegestaan\n
+Niet toegestaan in de manuele modus.\n
+\t\n
+
+63:
+Commando niet toegestaan\n
+Niet toegestaan in de manueel volle\n
+snelheid modus.\n
+\t\n
+
+64:
+Commando niet toegestaan\n
+Niet toegestaan tijdens het veranderen\n
+van Manuele naar de manueel volle\n
+snelheid modus.\n
+\t\n
+
+70:
+Commando niet toegestaan\n
+Niet toegestaan in Motoren-Aan status.\n
+\t\n
+
+71:
+Commando niet toegestaan\n
+Niet toegestaan tijdens het omschakelen\n
+naar de Motoren-Aan status.\n
+\t\n
+
+72:
+Commando niet toegestaan\n
+Niet toegestaan in Motoren-Uit status.\n
+\t\n
+
+73:
+Commando niet toegestaan\n
+Niet toegestaan tijdens het omschakelen\n
+naar de Motoren-Uit status.\n
+\t\n
+
+74:
+Commando niet toegestaan\n
+Niet toegestaan tijdens bewakingsstop.\n
+\t\n
+
+75:
+Commando niet toegestaan\n
+Niet toegestaan tijdens een noodstop.\n
+\n
+Noodstop-reset is vereist.\n
+Druk de Motoren-Uit schakelaar.\n
+\t\n
+
+76:
+Commando niet toegestaan\n
+Niet toegestaan tijdens systeem storing\n
+\n
+Fatale niet herstelbare systeemfout.\n
+Systeeminitialisatie is vereist.\n
+\t\n
+Schakel de netspanning Uit en Aan,\n
+indien de software herstart niet\n
+meer gebruikt kan worden.
+80:
+Commando niet toegestaan\n
+Niet toegestaan als een as niet\n
+gecommuteerd is.\n
+\t\n
+
+81:
+Commando niet toegestaan\n
+Niet toegestaan als een as niet\n
+gecallibeerd is.\n
+\t\n
+
+82:
+Commando niet toegestaan\n
+Niet toegestaan als een omwentelingen\n
+teller niet is bijgewerkt.\n
+\t\n
+
+83:
+Commando niet toegestaan\n
+Niet toegestaan als een as niet\n
+gesynchroniseerd is.\n
+\t\n
+
+92:
+Commando niet toegestaan\n
+Niet toegestaan als de systeem\n
+IO start geblokkeerd is.\n
+\t\n
+
+100:
+Prog. eenheid in ctrl\n
+De programmeereenheid applicatie\n
+bestuurd de gewenste optie\n
+(programma/beweging)\n
+\t\n
+
+101:
+Prog. eenheid in ctrl\n
+Het programmeervenster van de\n
+programmeereenheid is actief en\n
+bestuurd de programma-server.\n
+Ga naar het produktievenster\n
+en voer het commando opnieuw uit.\n
+\t\n
+
+102:
+Joystick in ctrl.\n
+De joystick op de programmeereenheid\n
+bestuurd de bewegings-server.\n
+Laat de joystick los en voer het\n
+commando opnieuw uit.\n
+\t\n
+
+111:
+Prog. eenheid in ctrl\n
+Het programmeervenster van de\n
+programmeereenheid is actief en\n
+bestuurd de programma-server.\n
+Ga naar het produktievenster en\n
+voer het commando opnieuw uit.\n
+\t\n
+
+112:
+Programma (1) in ctrl\n
+De programma-server (1) bestuurd\n
+de bewegings-server.\n
+Stop het programma en voer\n
+het commando opnieuw uit.\n
+\t\n
+
+113:
+Programma (2) in ctrl\n
+De programma-server (2) bestuurd\n
+de bewegings-server.\n
+Stop het programma en voer het\n
+commando opnieuw uit.\n
+\t\n
+
+114:
+Programma (3) in ctrl\n
+De programma-server (3) bestuurd\n
+de bewegings-server.\n
+Stop het programma en voer het\n
+commando opnieuw uit.\n
+\t\n
+
+115:
+Programma (4) in ctrl\n
+De programma-server (4) bestuurd\n
+de bewegings-server.\n
+Stop het programma en voer het\n
+commando opnieuw uit.\n
+\t\n
+
+116:
+Programma (5) in ctrl\n
+De programma-server (5) bestuurd\n
+de bewegings-server.\n
+Stop het programma en voer het\n
+commando opnieuw uit.\n
+\t\n
+
+120:
+Systeem IO in ctrl\n
+\n
+\t\n
+
+125:
+Klant %s in ctrl\n
+De gespecificeerde klant\n
+bestuurd de gevraagde bron\n
+(programma/beweging)\n
+\t\n
+
+130:
+Geheugen vol in cfg\n
+\n
+\t\n
+
+131:
+Kan bestand niet lezen\n
+\n
+\t\n
+
+132:
+Param. niet opgeslagen\n
+De parameters kunnen niet opgeslagen\n
+worden. Waarschijnlijk omdat de disk\n
+tegen overschrijven beveiligd is of\n
+omdat er niet voldoende ruimte is.\n
+\t\n
+Controleer of disk tegen overschrijven\n
+beveiligd is of dat er voldoende ruimte\n
+aanwezig is.
+133:
+Inst. niet te wijzigen\n
+Beschrijving/Reden:\n
+Instantie in regel %d kan niet verv.\n
+worden (bestand %s)\n
+\t\n
+Instantie is tegen overschr. beveiligd
+134:
+Onjuiste versie\n
+Beschrijving/Reden:\n
+De cfg domein versie is onjuist in het\n
+bestand %s\n
+De software is gemaakt voor\n
+versie %s\n
+\t\n
+Verander de versie van het cfg domein.
+135:
+Regel te lang\n
+Beschrijving/Reden:\n
+Regel %d > %d karakters\n
+\t\n
+Verminder het aantal karakters.
+136:
+Attr. buiten tol.\n
+Beschrijving/Reden:\n
+Attribuut %s is buiten tolerantie\n
+in regel %d\n
+\t\n
+Wijzig de waarde van het attribuut.
+137:
+Dubbele inst. naam\n
+Beschrijving/Reden:\n
+Dubbele naam in regel %d\n
+van bestand %s\n
+\t\n
+Wijzig de naam.
+140:
+Motoren-Aan gewijgerd.\n
+Motoren-Aan via systeem IO\n
+niet toegestaan.\n
+\t\n
+
+141:
+Motoren-Uit gewijgerd.\n
+Motoren-Uit via systeem IO\n
+niet toegestaan.\n
+\t\n
+
+142:
+Start gewijgerd.\n
+Start/Herstart van het programma via\n
+systeem IO niet toegestaan.\n
+\t\n
+
+143:
+Start Main gewijgerd.\n
+Start Main van het programma via\n
+systeem IO niet toegestaan.\n
+\t\n
+
+144:
+Stop gewijgerd.\n
+Stop van het programma via\n
+systeem IO niet toegestaan.\n
+\t\n
+
+145:
+Cyclus stop gewijgerd.\n
+Stop van het programma na een cyclus via\n
+systeem IO niet toegestaan.\n
+\t\n
+
+146:
+Man. interrupt gewijgerd.\n
+Manuele interrupt van het programma\n
+via systeem IO niet toegestaan.\n
+\t\n
+
+147:
+Laden en Start gewijgerd.\n
+Laden en starten van een programma\n
+via syteem IO niet toegestaan.\n
+Het te laden programmabestand\n
+(inclusief geheugenunit) moet worden\n
+gedefinieerd.\n
+\t\n
+
+148:
+Bevestiging gewijgerd.\n
+Reset Noodstop bevestiging via\n
+systeem IO niet toegestaan.\n
+\t\n
+
+149:
+Fout Reset gewijgerd.\n
+Programmauitvoeringsfout reset via\n
+systeem IO niet toegestaan.\n
+\t\n
+
+150:
+Synchroniseren gewijgerd.\n
+Synchroniseren van een mechanische\n
+eenheid via systeem IO niet toegestaan.\n
+\t\n
+
+151:
+Onjuiste signaal naam.\n
+Het is niet mogelijk een signaalnaam\n
+voor Sysio te beschreven. Het is\n
+mogelijk dat de signaal naam niet\n
+voorkomt in het cfg-bestand voor Sysio.\n
+\t\n
+
+152:
+Te veel beperkingen.\n
+Er zijn geen beperkingen gegeven\n
+voor een actie (signaal) in Sysio.\n
+Het aantal beperkingen (signalen) voor\n
+een actie in cfg-bestand voor Sysio\n
+is te groot.\n
+\t\n
+
+153:
+Mot.Aan, Start geweigerd.\n
+Motoren-Aan, Start/Herstart van het\n
+programma via Syteem IO niet toegestaan.\n
+\t\n
+
+154:
+Stop instr. geweigerd.\n
+Stoppen van de programma uitvoer via\n
+Systeem IO niet toegestaan.\n
+\t\n
+
+155:
+Ongedefinieerd argument\n
+SyncExtAx mechanical_unit_name\n
+is niet gedefinieerd\n
+\t\n
+
+156:
+Ongedefinieerd argument\n
+Interrupt routine_name\n
+is niet gedefinieerd\n
+\t\n
+
+157:
+Ongedefinieerd argument\n
+LoadStart program_name\n
+is niet gedefinieerd\n
+\t\n
+
+158:
+Geen System Input signaal\n
+Een System Input is toegewezen aan een\n
+signaal wat niet bestaat.\n
+\t\n
+
+159:
+Geen System Output sign.\n
+Een System Output is toegewezen aan een\n
+signaal wat niet bestaat.\n
+\t\n
+
+160:
+Niet in de configuratie\n
+De systeem module %!%s in taak\n
+%s heeft geen\n
+overeenkomstige specificatie in de\n
+configuratie voor "Taak modules"\n
+\t\n
+Controleer "Taak modules" in het\n
+"Systeem Parameter" menu en voeg het\n
+item voor deze systeem module toe.
+161:
+Pad niet gevonden\n
+De systeem module %!%s in taak\n
+%s heeft een overeenkomstige\n
+specificatie in de configuratie voor de\n
+"Taak modules" welke een niet bestaand\n
+pad aanwijst.\n
+\t\n
+Controleer "Taak modules" in het\n
+"Systeem parameter" menu en voeg het\n
+item voor deze systeem module toe.
+162:
+Schrijf fout\n
+Er is een schrijffout opgetreden tijdens\n
+opslaan van syst. module %!%.14s\n
+op %.37s\n
+in taak $.16s. Of het\n
+bestands systeem is vol.\n
+\t\n
+Controleer "Taak modules" in het\n
+"Systeem parameters" menu en wijzig\n
+het pad voor deze systeem module.
+163:
+Herconfig mislukt\n
+Enkele gebruikers routines zijn\n
+veranderd maar niet opgeslagen.\n
+\t\n
+Sla het op, probeer een nieuwe herstart.
+164:
+Herconfig mislukt\n
+Er zijn nog enkele niet opgeslagen\n
+systeem modules aanwezig.\n
+\t\n
+Lees de fout beschrijvingen van enkele\n
+eerder opgetreden meldingen.\n
+Probeer een nieuwe herstart.
+165:
+PP verloren!\n
+Herstart is niet langer mogelijk\n
+vanuit de huidige positie. Het programma\n
+moet vanaf het begin gestart worden.\n
+\t\n
+
+166:
+Module wordt niet bewaard\n
+De module %!%.14s\n
+is ouder dan de bron\n
+op %.37s\n
+in taak %.16s.\n
+\t\n
+
+167:
+Niet bewaarde module\n
+De module %!%.14s\n
+is veranderd maar niet bewaard\n
+in taak %.16s.\n
+\t\n
+
+170:
+SYS_STOP\n
+Programmabeweging gestopt op het pad.\n
+\t\n
+
+171:
+SYS_HALT\n
+Programma en beweging is gestopt\n
+met motors uit.\n
+\t\n
+
+172:
+SYS_FAIL\n
+Systeem fout, herstart het systeem\n
+\t\n
+
+175:
+Programmeereenheid fout\n
+Programmeereenheid heeft kontakt\n
+verloren, dit zal een Guard Stop-\n
+status teweeg brengen\n
+\t\n
+
+180:
+Systeem IO beperking\n
+Systeem IO beperkingen zijn aktief\n
+voor andere klanten, bijvoorbeeld de\n
+programmeereenheid of de computer-\n
+verbinding\n
+\t\n
+Motoren aan is geblokkeerd door de sys-\n
+teemIO MotorOff.\n
+Programma start is geblokkeerd door de\n
+systeem IO-stop, StopCycle of StopInstr.
+261:
+Teksten zijn te lang\n
+Beschrijving/Reden:\n
+- Elog Berichtnummer %d:\n
+  Totale tekstlengte %d >\n
+  %d karakters\n
+\t\n
+Kontrolelijst:\n
+1. Verminder de totale tekstlengte
+270:
+Toegangsfout\n
+Paneelmodule toegangsfout\n
+\t\n
+Kontroleer de EIO-configuratie\n
+bestanden.
+280:
+Konflikt in symbolen\n
+Het signaal %s ingegeven in de IO kon-\n
+figuratie is in konflikt met een ander\n
+programmasymbool met dezelfde naam.\n
+Dit heeft als gevolg dat dit signaal\n
+niet toegekend zal worden aan variabele.\n
+\t\n
+Hernoem dit signaal\n
+in de IO-konfiguratie.
+313:
+SoftStop\n
+SoftStop is opgetreden op\n
+kanaal %.0f.\n
+\t\n
+Noodstop knop is gedrukt met SoftStop\n
+geactiveerd. dit open de runchain.\n
+Reset de Noodstop knop en druk op de\n
+panel knop!\n
+

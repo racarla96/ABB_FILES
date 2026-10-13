@@ -1,0 +1,253 @@
+71::
+0:
+SaldArc
+1:
+Reg. Saldat...
+2:
+Reg. Pendol...
+3:
+(Reg. Giunto)
+4:
+(Reg. Inseg.)
+5:
+Inibizione...
+6:
+Inibire
+7:
+Riprist
+8:
+Annulla
+9:
+OK
+10:
+AW Inibizione
+11:
+Per inib. un proc. premere Inibire
+12:
+Per ripr. un proc. premere Riprist.
+13:
+Inibito
+14:
+Processo
+15:
+x
+16:
+ 
+17:
+Saldatur
+18:
+Pendolam
+19:
+Inseguim
+20:
+Saldatur
+21:
+Pendolaz
+22:
+Inseguim
+23:
+AW Regol Sald.
+24:
+Cambia valore attuale
+25:
+Dati sald.
+26:
+Regolaz.
+27:
+Attuale
+28:
+Seleziona il dato
+29:
+Origine >
+30:
+Attuale >
+31:
+-
+32:
++
+33:
+Ritorno
+34:
+AW Regolaz. Pend.
+35:
+Dati Pendolam.
+36:
+Aggior.
+37:
+Aggior. valori iniziali
+38:
+Origine
+39:
+Regolaz. Attuale
+40:
+aw_inhibit
+41:
+saldatInibita
+42:
+pendolInibito
+43:
+InsegInibito
+44:
+seamdata
+45:
+welddata
+46:
+weavedata
+47:
+Avanz. Filo man.
+48:
+Gas on/off
+49:
+AW Avanz. Filo man.
+50:
+Per avanz. filo, premere Avanti
+51:
+Per riavvolgere filo, premere Ind
+52:
+L'avanz. del filo continua finche'
+53:
+il tasto funzione e' premuto.
+54:
+Avanti
+55:
+Ind
+56:
+(Ripr.)
+60:
+bool
+61:
+Selez. Sistema AW...
+62:
+Sistema:
+63:
+Incrementi...
+64:
+AW Reg. incrementi
+65:
+Tensione:
+66:
+Distanza:
+67:
+Avanz. filo:
+68:
+Velocita' sald.:
+69:
+Selezione Sistema AW
+70:
+curr_aw_data
+71:
+curr_system_nr
+72:
+curr_weld
+73:
+curr_weld_type
+74:
+curr_seam
+75:
+curr_seam_type
+76:
+curr_weave
+77:
+curr_weave_type
+78:
+string
+80:
+AW Gas Man. On/Off
+81:
+Per attivare, premere Gas on
+82:
+Il gas uscira' finche'
+83:
+il tasto funzione e' premuto.
+84:
+Gas on
+86:
+ 
+87:
+awproc_id
+88:
+ipm_id
+89:
+user_data
+100:
+AW Sensore Manuale On/Off
+101:
+Per attivare sensore, premere On
+102:
+Per disattiv sensore, premere Off
+103:
+On
+104:
+(On)
+105:
+Off
+106:
+(Off)
+107:
+Y:
+108:
+Z:
+109:
+Gap:
+110:
+*****
+111:
+Coord Sensore
+112:
+Giunto:
+113:
+Errore Sensore\n
+\n
+   Errore comunicazione
+114:
+Errore Sensore\n
+\n
+   Errore generale
+115:
+Errore Sensore\n
+\n
+   Sensore impegnato
+116:
+Errore Sensore\n
+\n
+   Comando sconosciuto
+117:
+Errore Sensore\n
+\n
+   Numero variabile illegale
+118:
+Errore Sensore\n
+\n
+   Allarme esterno
+119:
+Errore Sensore\n
+\n
+   Errore camera
+120:
+Errore Sensore\n
+\n
+   Errore temperatura
+121:
+Errore Sensore\n
+\n
+   Valore fuori scala
+122:
+Errore Sensore\n
+\n
+   Errore controllo camera
+123:
+OK
+124:
+Sensore...
+125:
+(Sensore)
+126:
+Coordinate Robot
+127:
+Calibraz:
+140:
+Valori calc...
+141:
+Valori calcolati
+142:
+        Presente

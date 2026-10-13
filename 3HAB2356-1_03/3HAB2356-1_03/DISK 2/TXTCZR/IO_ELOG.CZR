@@ -1,0 +1,788 @@
+27::
+0:
+V/V a komunikace
+1000:
+Nazev sbern. neni platny\n
+Popis\Duvod:\n
+- Ovladac %s: ma neplatny nazev sbernice\n
+\t\n
+Seznam kontrol:\n
+1. Zmente nazev sbernice pro ovladac
+1001:
+Zdvojena adresa\n
+Popis\Duvod:\n
+- Stejna adresa pro jednotku %s a %s\n
+\t\n
+Seznam kontrol:\n
+1.Zkontrolujte adresu\n
+2.Zkontrolujte sbernici
+1002:
+Neplatny ovladac\n
+Popis\Duvod:\n
+- Jednotka %s: ma nespecifik. ovladac\n
+\t\n
+Seznam kontrol:\n
+1.Zkontrolujte ovladace proti ovladaci\n
+  specifikovanemu pro jednotku
+1003:
+Neplatna jednotka\n
+Popis\Duvod:\n
+- Jednotka specifikovana pro signal %s\n
+  neni v sekci jednotky specifikovana\n
+\t\n
+Seznam kontrol:\n
+1.Zmente nazev jednotky\n
+2.Na seznam jednotek pridejte novou jedn
+1004:
+Neplatna delka signalu\n
+Popis\Duvod:\n
+- Delka digitalniho signalu\n
+  %s musi byt 1\n
+\t\n
+Seznam kontrol:\n
+1.Zmente delku na 1 nebo odstrante\n
+  prikaz.
+1005:
+Neplatny cas filtru\n
+Popis\Duvod:\n
+- Signal %s: Cas pasivniho filtru\n
+  by mel byt 0 nebo %d - %d ms\n
+\t\n
+Seznam kontrol:\n
+1.Zmente cas filtru
+1006:
+Neplatny cas filtru\n
+Popis\Duvod:\n
+- Signal %s: Cas aktivniho filtru\n
+  by mel byt 0 nebo %d - %d ms\n
+\t\n
+Seznam kontrol:\n
+1.Zmente cas filtru
+1007:
+Logic. hodn. mimo rozsah\n
+Popis\Duvod:\n
+- Signal %s: logicke max je mensi nebo\n
+  rovne logickemu min\n
+\t\n
+Seznam kontrol:\n
+1.Opravte hodnoty, aby max bylo vetsi\n
+  nez min
+1008:
+Fyz. hodn. mimo rozsah\n
+Popis\Duvod:\n
+- Signal %s: fyzicke max je mensi nebo\n
+  rovne fyzickemu min\n
+\t\n
+Seznam kontrol:\n
+1.Opravte hodnoty, aby max bylo vetsi\n
+  nez min
+1009:
+Neplatny typ\n
+Popis\Duvod:\n
+- Signal %s: typ signalu\n
+  neni platny\n
+\t\n
+Seznam kontrol:\n
+1.Zmente typ
+1010:
+Signal mimo rozsah\n
+Popis\Duvod:\n
+- Signal %s: cislo fyzickeho signalu\n
+  + delka -1 je > %d\n
+\t\n
+Seznam kontrol:\n
+1.Zmente cislo fyzickeho signalu\n
+2.Zmente delku
+1011:
+Ovladac neni podporovan\n
+Popis\Duvod:\n
+- Ovladac %s neni podporovan\n
+\t\n
+Seznam kontrol:\n
+1. Zmente nazev ovladace
+1012:
+Preteceni pameti\n
+Popis\Duvod:\n
+- Deska %s: prilis mnoho desek\n
+  pro specifikovany typ ovladace\n
+\t\n
+Seznam kontrol:\n
+1. Zmente pocet desek pro ovladac\n
+   v konfiguraci ovladace
+1013:
+Chybny typ desky\n
+Popis\Duvod:\n
+- Chybny typ desky pripojene\n
+  k adrese %d\n
+\t\n
+Seznam kontrol:\n
+1. Zkontrolujte typ desky na dane adrese
+1014:
+Deska chybi\n
+Popis\Duvod:\n
+- K dane adrese %d neni pripojena zadna\n
+  deska\n
+\t\n
+Seznam kontrol:\n
+1. Zapojte desku do slotu\n
+2. Zmente adresu desky
+1015:
+Preteceni digital. vstupu\n
+Popis\Duvod:\n
+- Pocet digitalnich vstupnich kanalu\n
+  pro desku %s je vetsi\n
+  nez %d\n
+\t\n
+Seznam kontrol:\n
+1. Snizte pocet digitalnich vstupu
+1016:
+Preteceni digit. vystupu\n
+Popis\Duvod:\n
+- Pocet digitalnich vystupnich signalu\n
+  pro desku %s je vetsi\n
+  nez %d\n
+\t\n
+Seznam kontrol:\n
+1. Snizte pocet digitalnich vystupu
+1017:
+Zadny aktivacni signal\n
+Popis\Duvod:\n
+- Chybi aktivacni signal pro propojeni\n
+\t\n
+Seznam kontrol:\n
+1. Musi byt zadan jeden aktivacni signal
+1018:
+Preteceni aktiv. signalu\n
+Popis\Duvod:\n
+-Pocet aktivacnich signalu pro\n
+ propojeni je prilis velky\n
+\t\n
+Seznam kontrol:\n
+1. Musi byt zadan pouze jeden aktivacni\n
+   signal
+1019:
+Chybi definice signalu\n
+Popis\Duvod:\n
+-Signal: %s, v krizi neni definovan\n
+\t\n
+Seznam kontrol:\n
+1. Definujte nazev signalu\n
+   v sekci signalu
+1020:
+Zadny signal vysledku\n
+Popis\Duvod:\n
+- Chybi signal vysledku\n
+\t\n
+Seznam kontrol:\n
+1. Musi byt zadan alespon jeden signal\n
+   vysledku
+1021:
+Zdvojene krizove signaly\n
+Popis\Duvod:\n
+- Signal: %s, existuje jako OD\n
+  i jako DO.\n
+\t\n
+Seznam kontrol:\n
+1. Pro OD a pro DO nelze zadat stejny\n
+   signal
+1022:
+Fyz. max je prilis vysoke\n
+Popis\Duvod:\n
+- Signal: %s\n
+- Fyzicka max hodnota > %d\n
+\t\n
+Seznam kontrol:\n
+1. Zmente hodnotu v konfiguraci
+1023:
+Fyz. min je prilis nizke\n
+Popis\Duvod:\n
+- Signal: %s\n
+- Fyzicka min hodnota < %d\n
+\t\n
+Seznam kontrol:\n
+1. Zmente hodnotu v konfiguraci
+1024:
+Fyz. hodn. prilis vysoka\n
+Popis\Duvod:\n
+- Signal: %s\n
+- Soucasna hodnota = %d > Maxhodn = %d\n
+- Hodnota nastavena na Maxhodn\n
+\t\n
+Seznam kontrol:\n
+1. Zmente fyzickou max hodnotu\n
+   v konfiguraci
+1025:
+Fyz. hodnota prilis nizka\n
+Popis\Duvod:\n
+- Signal: %s\n
+- Soucasna hodnota = %d < Minhodn = %d\n
+- Hodnota nastavena na Minhodn\n
+\t\n
+Seznam kontrol:\n
+1. Zmente fyzickou min hodnotu\n
+   v konfiguraci
+1026:
+Log. hodn. prilis vysoka\n
+Popis\Duvod:\n
+- Signal: %s\n
+- Soucasna hodnota = %d > Maxhodn = %d\n
+- Hodnota nastavena na Maxhodn\n
+\t\n
+Seznam kontrol:\n
+1. Zmente logickou max hodnotu\n
+   v konfiguraci
+1027:
+Log. hodnota prilis nizka\n
+Popis\Duvod:\n
+- Signal: %s\n
+- Soucasna hodnota = %d < Minhodn = %d\n
+- Hodnota nastavena na Minhodn\n
+\t\n
+Seznam kontrol:\n
+1. Zmente logickou min hodnotu\n
+   v konfiguraci
+1028:
+Konfigurace mimo rozsah\n
+Popis\Duvod:\n
+- Pocatecni kvadrant RIO a velikost\n
+  ramu jsou pro desku %s mimo rozsah\n
+\t\n
+Seznam kontrol:\n
+1. Velikost ramu musi byt pro pocatecni\n
+   kvadrant 0 mensi nez 4
+1029:
+Konfigurace mimo rozsah\n
+Popis\Duvod:\n
+- Pocatecni kvadrant RIO a velikost\n
+  ramu jsou pro desku %s mimo rozsah\n
+\t\n
+Seznam kontrol:\n
+1. Velikost ramu musi byt pro pocatecni\n
+   kvadrant 1 mensi nez 3
+1030:
+Konfigurace mimo rozsah\n
+Popis\Duvod:\n
+- Pocatecni kvadrant RIO a velikost\n
+  ramu jsou pro desku %s mimo rozsah\n
+\t\n
+Seznam kontrol:\n
+1. Velikost ramu pro pocatecni\n
+   kvadrant 2 musi byt mensi nez 2\n
+
+1031:
+Konfigurace mimo rozsah\n
+Popis\Duvod:\n
+- Pocatecni kvadrant RIO a velikost\n
+  ramu jsou pro desku %s mimo rozsah\n
+\t\n
+Seznam kontrol:\n
+1. Velikost ramu pro pocatecni\n
+   kvadrant 3 musi byt 0
+1032:
+Porucha komunikace\n
+Popis\Duvod:\n
+- Deska RIO ztratila komunikaci\n
+  s PLC na desce\n
+  s adresou %d\n
+\t\n
+Seznam kontrol:\n
+1. Zkontrolujte komunikacni kabel k PLC\n
+2. Zkontrolujte, jestli PLC neni vypnuty
+1033:
+Digit. vstup mimo rozsah\n
+Popis\Duvod:\n
+- Pocet digitalnich vstupu je mimo\n
+  rozsah desky s adresou %d\n
+  max pocet vstupu je %d\n
+\t\n
+Seznam kontrol:\n
+1. Zmente konfiguraci pro tuto desku
+1034:
+Digit. vystup mimo rozsah\n
+Popis\Duvod:\n
+- Pocet digitalnich vystupu je mimo\n
+  rozsah desky s adresou %d\n
+  max pocet vystupu je %d\n
+\t\n
+Seznam kontrol:\n
+1. Zmente konfiguraci pro tuto desku
+1035:
+Pocat. kvadr. mimo rozsah\n
+Popis\Duvod:\n
+- Pocatecni kvadrant je pro desku %s\n
+  mimo rozsah\n
+\t\n
+Seznam kontrol:\n
+1. Pocatecni kvadrant musi byt v mezich\n
+   hodnot 0 az 3. Zmente konfiguracni\n
+   soubor.
+1036:
+Nazev mimo rozsah\n
+Popis\Duvod:\n
+- Pocet znaku v nazvu %s je vetsi\n
+  nez %d znaku, nebo\n
+  nazev chybi.\n
+\t\n
+Seznam kontrol:\n
+1. Zadejte novy nazev, odpovidajici\n
+   temto mezim.
+1037:
+Porucha propojeni V/V\n
+Popis\Duvod:\n
+- Signal %s existuje v OD i v DO\n
+  ve stejnem retezu\n
+\t\n
+Seznam kontrol:\n
+1. Opravte konfiguraci propojeni, kde je\n
+   pripojen shora zmineny signal.
+1038:
+Propojeni V/V je moc hlub\n
+Popis\Duvod:\n
+- Propojeni ve stejnem retezu\n
+  je prilis hluboko.\n
+- Nazev prvniho signalu: %s\n
+\t\n
+Seznam kontrol:\n
+1. Snizte hloubku propojeni.
+1039:
+Max instance mimo rozsah\n
+Popis\Duvod:\n
+- Max pocet instanci pro\n
+  ovladac %s je mimo rozsah.\n
+\t\n
+Seznam kontrol:\n
+1. Ujistete se, ze pocet\n
+   instanci je vetsi nez 0,\n
+   a ne vetsi pocet V/V slotu.
+1040:
+Spoj adr RIO mimo rozsah\n
+Popis\Duvod:\n
+- Spojovaci adresa RIO pro desku\n
+  %s je mimo rozsah.\n
+\t\n
+Seznam kontrol:\n
+1. Ujistete se, ze spojovaci adresa RIO\n
+   je vetsi nez 0 a mensi nez 64.
+1041:
+Preteceni analog. vystupu\n
+Popis\Duvod:\n
+- Pocet analogovych vystupu pro\n
+  desku %s je vetsi nez %d.\n
+\t\n
+Seznam kontrol:\n
+1. Snizte pocet analogovych vystupu.
+1042:
+Preteceni analog. vstupu\n
+Popis\Duvod:\n
+- Pocet analogovych vstupu pro\n
+  desku %s je vetsi nez %d.\n
+\t\n
+Seznam kontrol:\n
+1. Snizte pocet analogovych vstupu.
+1043:
+Chyba typu signalu\n
+Popis\Duvod:\n
+- Typ specifikovany pro signal %s\n
+  nelze ke specifikovane desce pripojit\n
+\t\n
+Seznam kontrol:\n
+1. Zmenta na jiny typ.\n
+2. Zmente na jinou desku.
+1044:
+Preteceni fyzick. signalu\n
+Popis\Duvod:\n
+- Rozah fyz. signalu, nebo delka, nebo\n
+  fyz. signal a delka pro signal %s je\n
+  vetsi nez %d\n
+\t\n
+Seznam kontrol:\n
+1. Zmente cislo fyzickeho signalu.\n
+2. Zmente delku.
+1045:
+Chyba specifikace filtru\n
+Popis\Duvod:\n
+- Signal %s : pro tento typ signalu\n
+  nelze specifikovat zadny cas filtru.\n
+\t\n
+Seznam kontrol:\n
+1. Nastavte cas filtru na 0\n
+   nebo odstrante prikaz.
+1046:
+Chyba zmeny meritka\n
+Popis\Duvod:\n
+- Signal %s: nelze provadet zadnou\n
+  zmenu meritka.\n
+\t\n
+Seznam kontrol:\n
+1. Odstrante prikazy zmeny meritka.
+1049:
+Chyba inverse parametru\n
+Popis\Duvod:\n
+- Signal %s: tento typ signalu\n
+  nelze invertovat.\n
+\t\n
+Seznam kontrol:\n
+1. Invertovat lze pouze digitalni\n
+   signaly.
+1050:
+Signal propoj neni digit\n
+Popis\Duvod:\n
+- Signal %s: neni digitalni signal\n
+\t\n
+Seznam kontrol:\n
+1. Propojovat lze pouze digitalni\n
+   signaly.
+1051:
+Adr spojeni neni oktalova\n
+Popis\Duvod:\n
+- Signal %s: RIO adresa neni v oktalovem\n
+  tvaru\n
+\t\n
+Seznam kontrol:\n
+1. Zadejte novou adresu v oktalovem\n
+   tvaru.
+1052:
+Krizova tabulka plna\n
+Popis\Duvod:\n
+- Celkovy pocet signalu OD secteny\n
+  s celkovym poctem signalu DO\n
+  nesmi prekrocit %d\n
+\t\n
+Seznam kontrol:\n
+1. Snizte pocet signalu.\n
+2. Zvyste pocet dovolenych propojeni.
+1053:
+Spojeni s desk. nefunguje\n
+Popis\Duvod:\n
+- Pristup k desce nelze zridit, protoze\n
+  komunikace nefunguje\n
+\t\n
+Seznam kontrol:\n
+1. Zkontrolujte komunikacni kabel\n
+   k desce\n
+2. Zkontrolujte, zda deska neni vypnuta
+1054:
+Chybny typ signalu\n
+Popis\Duvod:\n
+- Signal %s:\n
+  Typ signalu je chybny\n
+\t\n
+Seznam kontrol:\n
+1. Zmente typ
+1055:
+Neplatny nazev signalu\n
+Popis\Duvod:\n
+- Symbol %s: neni definovan\n
+\t\n
+Seznam kontrol:\n
+1. Zmente nazev vyse uvedeneho symbolu
+1056:
+Obnov. poruch napaj. plne\n
+Popis\Duvod:\n
+- Symbol %s: nastaveni nebylo mozne\n
+  pro obnovovani napajeni po vypadku.\n
+  Tabulka poruch napajeni je plna.\n
+\t\n
+Seznam kontrol:\n
+1. Zvetsete tabulku ve spoustecim\n
+   souboru.\n
+2. Ze seznamu obnoveni odstrante\n
+   nektere signaly.
+1057:
+Deska DSQC319 chybi\n
+Popis\Duvod:\n
+- Zadna deska typu DSQC319\n
+  neni k adrese %d pripojena\n
+\t\n
+Seznam kontrol:\n
+1. Zapojte desku do slotu\n
+2. Zmente adresu desky
+1058:
+Zadny kontakt s uzlem Can\n
+Popis\Duvod:\n
+- Zadny kontakt s uzlem Can\n
+  pripojenym k adrese uzlu %d\n
+\t\n
+Seznam kontrol:\n
+1. Zkontrolujte adresy uzlu na vsech can\n
+   modulech pripojenych ke sbernici can\n
+2. Zmente adresu uzlu
+1059:
+Chyba konfig. uzlu Can\n
+Popis\Duvod:\n
+- Chyba pri konfiguraci uzlu Can\n
+  pripojeneho k adrese uzlu %d\n
+\t\n
+Seznam kontrol:\n
+1. Opravte konfiguraci pro\n
+   uzel Can na dane adrese.
+1060:
+Vnitrni chyba DSQC319\n
+Popis\Duvod:\n
+- Deska DSQC319 pripojena\n
+  k adrese %d\n
+  ma vnitrni chybu\n
+\t\n
+Seznam kontrol:\n
+1. Zkontrolujte spravnou funkci\n
+   sbernice CAN\n
+2. Zkontrolujte spravnou funkci DSQC319
+1061:
+Chyba sbernice Can\n
+Popis\Duvod:\n
+- Abnormalni vyskyt chyb\n
+  na sbernici Can pripojene k DSQC319\n
+  na adrese %d\n
+\t\n
+Seznam kontrol:\n
+1. Zkontrolujte komunikacni kabel\n
+   ke sbernici Can
+1062:
+Vst. vyr. pamet D319 plna\n
+Popis\Duvod:\n
+- Vstupni vyrovnavaci pamet na desce\n
+  pripojene k adrese %d je plna.\n
+  Mohou byt ztraceny zpravy\n
+\t\n
+Seznam kontrol:\n
+1. Snizte pocet uzlu na sbernici Can.
+1063:
+Zprava Can ztracena\n
+Popis\Duvod:\n
+- Zprava Can na desce pripojene\n
+  k adrese %d je ztracena.\n
+\t\n
+Seznam kontrol:\n
+1. Snizte pocet uzlu na sbernici Can.
+1064:
+Porucha generovana IOC\n
+Popis\Duvod:\n
+- Porucha signalu IOC na desce\n
+  dsqc260 na adrese %d.\n
+\t\n
+Seznam kontrol:\n
+1. Zkontrolujte IOC.
+1065:
+Porucha generov. DSQC260\n
+Popis\Duvod:\n
+- Deska DSQC260 na adrese %d\n
+  signalizuje poruchu.\n
+\t\n
+Seznam kontrol:\n
+1. Zkontrolujte desku dsqc260.
+1066:
+InterBus-S neni cinna\n
+Popis\Duvod:\n
+- InterBus-S pripojena k desce\n
+  dsqc260 na adrese %d\n
+  neni aktivni.\n
+\t\n
+Seznam kontrol:\n
+1. Zkontrolujte uzly InterBus-S.
+1067:
+InterBus-S odpojena\n
+Popis\Duvod:\n
+- InterBus-S pripojena na desku\n
+  dsqc260 na adrese %d\n
+  neni pripojena, nebo nadrizeny IBS\n
+  je v rezimu nulovani.\n
+\t\n
+Seznam kontrol:\n
+1. Zkontrolujte uzly InterBus-S.\n
+2. Zkontrolujte nadrizeny InterBus-S.
+1068:
+IOC OK\n
+Popis\Duvod:\n
+- IOC mel poruchu, nyni je OK.\n
+  Poruchova zprava zaslana na desku\n
+  dsqc260 na adrese %d.\n
+\t\n
+Seznam kontrol:\n
+1. Neni treba nic delat.
+1069:
+DSQC260 OK\n
+Popis\Duvod:\n
+- Deska DSQC260 na adrese %d\n
+  mela poruchu, nyni je OK.\n
+\t\n
+Seznam kontrol:\n
+1. Neni treba nic delat.
+1070:
+InterBus-S je aktivni\n
+Popis\Duvod:\n
+- InterBus-S pripojena na desku\n
+  dsqc260 na adrese %d\n
+  nebyla aktivni, nyni je OK.\n
+\t\n
+Seznam kontrol:\n
+1. Neni treba nic delat.
+1071:
+InterBus-S pripojena\n
+Popis\Duvod:\n
+- InterBus-S pripojena na desku\n
+  dsqc260 na adrese %d\n
+  nebyla pripojena, nebo nadrizeny IBS\n
+  byl v rezimu nulovani, nyni je OK.\n
+\t\n
+Seznam kontrol:\n
+1. Neni treba nic delat.
+1072:
+Zadne ulozeni pri signalu\n
+Popis\Duvod:\n
+- Signal %s\n
+  nenastavil atribut Ulozit na ANO\n
+\t\n
+Seznam kontrol:\n
+1. Nastavit atribut Ulozit.
+1073:
+Zrizen kont. s uzlem Can\n
+Popis\Duvod:\n
+- Kontakt zrizen s uzlem Can, pripojenym\n
+  k adrese uzlu %d\n
+\t\n
+Seznam kontrol:\n
+1. Neni treba nic delat.
+1074:
+Konfigurace mimo rozsah\n
+Popis\Duvod:\n
+- Pocatecni kvadrant IBS a velikost ramu\n
+  jsou pro desku %s mimo rozsah\n
+\t\n
+Seznam kontrol:\n
+1. Pro pocatecni kvadrant 1 musi byt\n
+   velikost ramu mensi nez 5
+1075:
+Chyba pristupu z V/V\n
+Popis\Duvod:\n
+- Nelze cist nebo psat z/na V/V desku,\n
+  protoze komunikace nefunguje\n
+\t\n
+Seznam kontrol:\n
+1. Zkontrolujte duvod ve zprave\n
+   o poruse komunikace
+1076:
+Chyba komunikace od rtp1\n
+Popis\Duvod:\n
+- Tato seriova linka nema zadnou odezvu\n
+\t\n
+Seznam kontrol:\n
+1. Zkontrolujte zarizeni nebo pripojeni
+1077:
+Chyba komunikace od rtp1\n
+Popis\Duvod:\n
+- Nelze dorucit prijatou zpravu\n
+\t\n
+Seznam kontrol:\n
+1. Zkontrolujte komunikacni tok
+1078:
+Chyba komunikace od rtp1\n
+Popis\Duvod:\n
+- Odezva zarizeni ma sekvenci neplatneho\n
+  zarizeni\n
+\t\n
+Seznam kontrol:\n
+1. Zkontrolujte sum na seriove lince
+1079:
+Vystup pulsujici skupiny\n
+Popis\Duvod:\n
+- Vystup pulsujici skupiny neni dovolen.\n
+\t\n
+Seznam kontrol:\n
+1. ---
+1080:
+Tabulka ovladace je plna.\n
+Popis\Duvod:\n
+- Pocet ovladacu nesmi prekrocit %d\n
+\t\n
+Seznam kontrol:\n
+1. Omezte pocet ovladacu.\n
+2. Zvyste pocet dovolenych ovladacu.
+1081:
+Fyzicka tabulka je plna.\n
+Popis\Duvod:\n
+- Pocet fyzickych signalu\n
+  nesmi prekrocit %d\n
+\t\n
+Seznam kontrol:\n
+1. Snizte pocet fyzickych signalu.\n
+2. Zvyste pocet dovolenych fyz. signalu.
+1082:
+Tabulka signalu je plna.\n
+Popis\Duvod:\n
+- Pocet uzivatelem definovanych signalu\n
+  nesmi prekrocit %d\n
+\t\n
+Seznam kontrol:\n
+1. Snizte pocet signalu.\n
+2. Zvyste pocet dovolenych signalu.
+1083:
+Tabulka symbolu je plna.\n
+Popis\Duvod:\n
+- Pocet symbolu\n
+  nesmi prekrocit %d\n
+\t\n
+Seznam kontrol:\n
+1. Snizte pocet symbolu.\n
+2. Zvyste pocet dovolenych symbolu.
+1084:
+Tabulka spousteni plna\n
+Popis\Duvod:\n
+- Pocet ucastnickych signalu\n
+  nesmi prekrocit %d\n
+\t\n
+Seznam kontrol:\n
+1. Snizte pocet ucastnickych signalu.\n
+2. Zvyste pocet dovolenych ucastnickych\n
+   signalu.
+1085:
+Tabulka jednotek je plna.\n
+Popis\Duvod:\n
+- Pocet desek\n
+  nesmi prekrocit %d\n
+\t\n
+Seznam kontrol:\n
+1. Snizte pocet definovanych desek.\n
+2. Zvyste pocet dovolenych desek.
+1086:
+Komunikace s RIO je OK\n
+Popis\Duvod:\n
+- Kontakt zrizen s uzlem RIO\n
+  pripojenym k adrese uzlu %d\n
+\t\n
+Seznam kontrol:\n
+1. Neni treba nic delat.
+1094:
+Mnoho def. ucast. propoj.\n
+Popis\Duvod:\n
+- Propojeni ma prilis mnoho\n
+  signalu "Od" : %s\n
+\t\n
+Seznam kontrol:\n
+1. Zkontrolujte konfiguraci propojeni.
+1095:
+Dlouhy ret. ucast. propoj\n
+Popis\Duvod:\n
+- Cast "Od" v retezci ucastniku\n
+  propojeni je prilis dlouha : %s\n
+\t\n
+Seznam kontrol:\n
+1. Zkontrolujte konfiguraci propojeni.
+1096:
+PLC v rezimu programovani\n
+Popis\Duvod:\n
+- K desce neni pristup, protoze\n
+  PLC je v rezimu programovani,\n
+  nebo ma nespravnou konfiguraci.\n
+\t\n
+Seznam kontrol:\n
+1. PLC je v rezimu programovani\n
+2. Zkontrolujte konfiguraci PLC
+1097:
+Chyba ukladani parametru\n
+Popis\Duvod:\n
+- Signal %s: tento typ signalu\n
+  nemuze mit moznost ulozeni.\n
+\t\n
+Seznam kontrol:\n
+1. Moznost ulozeni maji jen digitalni\n
+   signaly.

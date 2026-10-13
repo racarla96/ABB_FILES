@@ -1,0 +1,380 @@
+16::
+0:
+Definition coordonnees d'Outil
+1:
+Outil
+2:
+Methode
+3:
+Point                  Etat
+4:
+(Desc.)
+5:
+ModPos
+6:
+Annuler
+7:
+OK
+8:
+Description Coordonnees d'Outil
+9:
+Position a traiter
+10:
+Resultat calcul coordonnees d'Outil
+11:
+CDO
+12:
+Archive Resultat Calculs
+13:
+Fic...
+14:
+Selectionner un tableau de positions
+15:
+Nom du tableau de position
+16:
+Selectionner methode definition Outil!
+17:
+Info methode
+18:
+Nom methode
+19:
+-
+20:
+Modifiee
+21:
+Pos issue de
+22:
+Methode
+23:
+Erreur moyenne
+24:
+Erreur maximale
+25:
+Sauver archive calcul dans un fichier
+26:
+Quaternion 1
+27:
+Quaternion 2
+28:
+Quaternion 3
+29:
+Quaternion 4
+30:
+Affichage tableau position de type
+31:
+(OK)
+32:
+
+33:
+Non utilise
+34:
+Variable outil non trouve!\n
+\n
+<Tapez Retour pour continuer>
+35:
+Variable objet non trouve!\n
+\n
+  <Tapez Retour pour continuer>
+36:
+Variable Pose non trouve!\n
+\n
+  <Tapez Retour pour continuer>
+37:
+Impossible d'utiliser l'outil\n
+d'apprentissage!\n
+L'outil doit etre du type\n
+persistant.\n
+  <Tapez Retour pour continuer>
+38:
+Impossible d'utiliser le repere\n
+d'apprentissage!\n
+Le repere doit etre du type\n
+persistant.\n
+  <Tapez Retour pour continuer>
+39:
+Cartesien X
+40:
+(nouv.)
+41:
+(Eff.)
+42:
+Defines
+43:
+Cartesien Y
+44:
+Cartesien Z
+45:
+Definition du repere utilisateur Orbit
+46:
+Resultat de calcul du repere util. Orbit
+47:
+Selectionnez une methode de definition!
+48:
+Unite
+49:
+Definition du repere base Robot
+50:
+Resultat de calcul du repere base Robot
+51:
+Definition du Point de Reference
+52:
+(ModPos)
+53:
+Entrez les coordonnees dans\n
+referentiel world du point de\n
+reference fixe.
+54:
+Definition d'axe du rep. Utilisateur
+55:
+Result. de calc. axe du rep. Utilisateur
+56:
+Definition de rotation rep. Utilisateur
+57:
+Result. de calc. rot du rep. Utilisateur
+58:
+Definition du repere suivi
+59:
+Result. de calc. du repere suivi
+60:
+Def...
+61:
+Methode en mouvement
+62:
+X
+63:
+Y
+64:
+Z
+65:
+Re-ecriture Parametres!\n
+Les parametres existants\n
+seront re-ecrits.\n
+\n
+OK pour continuer?
+66:
+Definition unite mecanique axes
+67:
+Resultat calcul unite mecanique axes
+69:
+Axe
+100:
+Definition Coordonnees du Repere Objet
+101:
+Description Coordonnees du Repere Objet
+102:
+Resultat calcul coordonnees Repere Objet
+103:
+Selectionner un tableau de positions
+104:
+RepPiece
+105:
+Methode
+106:
+Methode Obj.
+107:
+Selectionner methode definition Objet
+108:
+Selectionner methode Utilisateur
+109:
+Position Utilisateur
+110:
+Position Objet
+111:
+Util
+112:
+Obj
+113:
+Repere utilisateur coordonne
+200:
+Definition du Deplacement de Repere
+201:
+Description du Deplacement de Repere
+202:
+Resultat calcul du Deplacement de Repere
+203:
+Selectionner un tableau de positions
+204:
+Deplacement
+205:
+Orig
+206:
+Nombre de points
+207:
+Selectionnez nouvelle methode
+500:
+n points (n=%d)
+501:
+Point Initial
+502:
+Point deplace
+503:
+Point
+504:
+X Negatif
+505:
+X Positif
+506:
+Y Positif
+507:
+4 points
+508:
+L'orientation du referentiel de base\n
+est la meme que celle du ref. univers.
+509:
+Point d'approche 1
+510:
+Point d'approche 2
+511:
+Point d'approche 3
+512:
+Point d'approche 4
+513:
+Point d'approche 5
+514:
+Point d'approche 6
+515:
+Point d'approche 7
+516:
+Point d'approche 8
+517:
+Point d'approche 9
+518:
+Point d'approche 10
+519:
+Vecteur directeur X
+520:
+Vecteur directeur Z
+521:
+4 points XZ
+522:
+Vecteurs directeurs X et Z\n
+definissent l'orient. du ref. de base.
+523:
+4 points CDO
+524:
+L'orientation sera la meme que celle\n
+du plateau terminal.
+525:
+5 points CDO & Z
+526:
+Les axes X et Y seront aussi pres que\n
+possible des axes poignet.
+527:
+6 points CDO & XZ
+528:
+Le CDO et toutes les directions\n
+outil sont definies.
+529:
+3 points
+530:
+Trois points utilisateurs necessaires.\n
+Deux pour l'axe X et un pour l'axe Y.
+531:
+Utilisateur
+532:
+Objet
+533:
+Trois points Objet necessaires.\n
+Deux pour l'axe X et un pour l'axe Y.
+534:
+4 p CDO ORIENT NON DEF
+535:
+Les composantes d'orientation\n
+resteront inchangees.
+536:
+Pas de changement
+537:
+La definition du systeme de coordonnees\n
+utilisateur ne sera pas affecte.
+538:
+La definition du systeme de coordonnees\n
+objet ne sera pas affecte.
+539:
+Aucun changement ne sera fait sur les\n
+definitions du systeme de coordonnees.
+550:
+Definition des coordonnees outil fixe
+551:
+Outil util.
+552:
+Definition des coordonnees\n
+outil fixe impossible lorsque\n
+le robot porte l'outil.\n
+\n
+  <Tapez Retour pour continuer>
+553:
+L'orientation sera la meme que celle du\n
+referentiel atelier (world).
+600:
+Mirroir d'une routine
+601:
+routine vers mirroir
+602:
+Nouveau nom de routine
+603:
+Repere objet
+604:
+Ref. mirroir
+605:
+axe mirroir
+606:
+X
+607:
+Y
+608:
+Selection du referentiel
+609:
+Entrez un nouveau nom de routine
+610:
+Selectionnez un ref. objet\n
+dans la liste suivante.
+611:
+Selectionnez un ref. mirroir\n
+dans la liste suivante.
+612:
+Inchange
+613:
+Patientez SVP!\n
+\n
+Realisation de la fonction\n
+mirroir sur la routine.
+614:
+Fonction mirroir non realisee\n
+Le nom de la routine mirroir\n
+existe deja.
+615:
+Definition impossible!\n
+La variable est declaree dans\n
+un module en lecture seule.\n
+\n
+  <Tapez Retour pour continuer>
+616:
+Calibrat. d'un repere objet\n
+pilote impossible.\n
+\n
+\n
+  <Tapez Retour pour continuer>
+617:
+Calibrat. d'un repere objet\n
+porte par le robot impossible.\n
+\n
+\n
+  <Tapez Retour pour continuer>
+618:
+Calibrat. d'un repere objet\n
+avec un repere outil fixe\n
+impossible.\n
+\n
+  <Tapez Retour pour continuer>
+619:
+Calibrat. d'un repere objet\n
+coordonne porte par le robot\n
+impossible.\n
+\n
+  <Tapez Retour pour continuer>
+620:
+Calibration impossible.\n
+Choisir une unite mecanique pour\n
+le repere objet coordonne.\n
+\n
+  <Tapez Retour pour continuer>

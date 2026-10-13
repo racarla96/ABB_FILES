@@ -1,0 +1,550 @@
+21::
+0:
+Operationeel
+2:
+Programma reset\n
+De taak %!%!%s is\n
+teruggezet op z'n startpunt.\n
+\t\n
+
+5:
+Programma gestopt\n
+De taak %!%!%s is\n
+gestopt. De oorzaak is\n
+%s\n
+\t\n
+
+500:
+een externe of interne stop is
+501:
+de taak heeft een EXIT
+502:
+de taak is klaar.
+503:
+de taak is klaar met deze stap
+504:
+de taak heeft een BREAK
+505:
+een interne of externe
+506:
+een fout is opgetreden
+507:
+Kan geen instr. achterwaarts uitvoeren
+508:
+Kan geen instructie achterwaarts
+509:
+de event routine voor RESET of POWER_ON
+7:
+Programma gestart\n
+De taak %!%!%s heeft\n
+de uitvoer gestart.\n
+%s\n
+\t\n
+
+8:
+Programma is herstart\n
+De taak %!%!%s heeft\n
+de uitvoer herstart.\n
+%s\n
+\t\n
+
+701:
+Is afkomstig van het programma venster.
+702:
+Is afkomstig van het produktie venster.
+703:
+De afkomst is onbekend.
+704:
+Is afkomstig van een externe klant.
+9:
+Werkgeheugen vol\n
+Geen geheugen over voor nieuwe\n
+RAPID instructies of data.\n
+De taak is %!%!%s\n
+\t\n
+Sla het programma op en\n
+herstart.
+10:
+Motoren-Uit status\n
+\n
+\t\n
+
+11:
+Motoren-Aan status\n
+\n
+\t\n
+
+12:
+Bewaking-Stop status\n
+Run-ketting geopend door een veiligheids\n
+functie echter niet door een noodstop.\n
+\t\n
+
+13:
+Noodstop status\n
+Run-ketting geopend door een noodstop.\n
+Noodstop reset is vereist.\n
+Druk op de MOTORS UIT knop.\n
+\t\n
+
+14:
+Systeemstoring status\n
+Fatale niet herstelbare systeemfout.\n
+Systeeminitialisatie is vereist.\n
+\t\n
+
+15:
+Manuele modus geselect.\n
+\n
+\t\n
+
+16:
+Auto modus gevraagd\n
+\n
+\t\n
+
+17:
+Auto modus bevestigd\n
+\n
+\t\n
+
+18:
+Man. modus volle snelheid\n
+Man. modus volle snelheid gevraagd\n
+\t\n
+
+19:
+Man. modus volle snelheid\n
+Man. modus op volle snelheid bevestigd\n
+\t\n
+
+20:
+Uitvoer fout status\n
+Het programma heeft spontaan een\n
+fout status bereikt\n
+\t\n
+
+21:
+Uitvoer fout reset\n
+Het programma heeft spontaan de\n
+fout status verlaten\n
+\t\n
+
+22:
+Hold-To-Run wacht\n
+Het wachten is op het indrukken van\n
+Hold To Run knop op programmeereenheid\n
+\t\n
+
+23:
+Hold-To-Run timeout\n
+De Hold To Run knop op de programmeer\n
+eenheid moet binnen een bepaalde tijd\n
+worden ingedrukt.\n
+\t\n
+
+30:
+Alle assen gecommuteerd\n
+\n
+\t\n
+
+31:
+Alle assen gecalibreerd\n
+\n
+\t\n
+
+32:
+Alle omw. tellers bijgew.\n
+\n
+\t\n
+
+33:
+Alle assen gesynchr.\n
+\n
+\t\n
+
+34:
+Assen niet gecommuteerd\n
+\n
+\t\n
+
+35:
+Assen niet gecalibreerd\n
+\n
+\t\n
+
+36:
+Omw. teller niet bijgew.\n
+\n
+\t\n
+
+37:
+As niet gesynchroniseerd\n
+\n
+\t\n
+
+40:
+Programma geladen\n
+De taak %!%!%s\n
+heeft een programma (module) geladen.\n
+De vrije ruimte was %i bytes\n
+voor het laden, en na het laden\n
+%i bytes.\n
+\t\n
+
+41:
+Programma gewist\n
+De taak %!%!%s\n
+heeft een programma gewist.\n
+\t\n
+
+43:
+Herstart mislukt\n
+De taak %!%!%s\n
+kan niet herstarten\n
+\t\n
+
+44:
+Programma Pointer bijgew.\n
+De taak %!%!%s\n
+kan de PP positie veranderd hebben.\n
+\t\n
+
+45:
+Systeem is herstart\n
+Een reeds geinstalleerd systeem\n
+is herstart.\n
+\t\n
+
+4501:
+ordered warmstart.
+4502:
+it has been switched off.
+46:
+Systeem herstart in koude\n
+modus\n
+Eerste start na initialisatie.\n
+\t\n
+
+47:
+Achtergrond taak %s\n
+wil niet opstarten\n
+%s\n
+\t\n
+
+4701:
+Taak is leeg
+4702:
+Onjuiste status
+4703:
+Kan PP niet in MAIN rout plaatsen
+4704:
+Kan de uitvoer modus niet bepalen
+4705:
+Start opdracht mislukt
+4706:
+Door een syntax fout
+48:
+Achtergrond taak gestopt\n
+De taak %s is gestopt zonder reden\n
+%s\n
+\t\n
+
+49:
+Beschermd gebied n. klaar\n
+Een spanningsuitval is opgetreden in\n
+het midden van een beschermd gebied\n
+voor de taak %!%s\n
+%s\n
+\t\n
+
+4901:
+Systeem probeert te herstellen
+4902:
+Een aanhoudende fout
+4903:
+Een aanhoudende EXIT
+4904:
+Dit kan een extra programma\n
+cyclus tot gevlog hebben
+4905:
+De taak zal vanaf de Main routine\n
+opnieuw gestart worden.
+4906:
+De warme start zal alle taken resetten,\n
+alle gebruikersprogrammas gaan verloren
+4907:
+Probeer om het gebruikers programma op\n
+te slaan en maak een warme start.
+50:
+Uitvoering gestopt\n
+De herstart zal uitvoering wissen\n
+in taak %!%.16s van een\n
+%s\n
+\t\n
+
+5001:
+Power-On systeem event routine
+5002:
+Stop systeem event routine
+5003:
+Noodstop systeem event routine
+5004:
+Start systeem event routine
+5005:
+Herstart systeem event routine
+5006:
+Reset systeem event routine
+5007:
+Interne systeem event routine
+5008:
+User routine
+51:
+Onbekende event routine\n
+De taak %!%s kan de opgegeven\n
+systeem event routine niet starten,\n
+%s\n
+\t\n
+Voeg de routine toe aan een systeem\n
+module.
+52:
+Herstel gestart\n
+Een herstelbeweging is gestart\n
+\t\n
+
+53:
+Herstel is klaar\n
+De herstelbeweging is klaar\n
+\t\n
+
+54:
+Regain rejected\n
+Regain on path not possible one client\n
+has already order it.\n
+\t\n
+A new regain movement is ordered during\n
+an already started regain movement.\n
+Reduce the number of start order from\n
+e.g system I/O
+60:
+Test activeringsketting\n
+Activeringsketting wordt altijd getest\n
+tijdens opstarten. Als er fout wordt\n
+geconstateerd zal een fout mbt active-\n
+ringsketting worden weergegeven.\n
+\t\n
+Als aan de activeringsketting tijdens\n
+opstarten een fout wordt geconstateerd\n
+zal de gerelateerde fout "activerings\n
+ketting timeout" zijn.\n
+
+70:
+Backup stap klaar\n
+De backup %!%s is klaar\n
+\t\n
+
+7000:
+stap voorbereiding backup
+7001:
+stap configuratie backup
+7002:
+van het systeem
+71:
+Backup fout\n
+Fout tijdens backup\n
+van %!%!%s\n
+%s\n
+\t\n
+%s\n
+
+7100:
+stap voorbereiding backup
+7101:
+stap configuratie backup
+7102:
+stap taak backup
+72:
+Restore stap klaar\n
+De restore %!%s\n
+is klaar\n
+\t\n
+
+7200:
+stap voorbereiding
+7201:
+stap configuratie
+7202:
+van taak
+7203:
+van systeem
+73:
+Restore fout\n
+Fout tijdens de restore\n
+van %!%!%s\n
+%s\n
+\t\n
+%s\n
+
+7260:
+Niet mogelijk om item te verwijderen
+7261:
+Opslag media vol
+7262:
+Onbekende taak
+7263:
+Tenminse 1 van de gebruikte module-\n
+namen is te lang.
+7264:
+Schrijffout
+7265:
+Er is ongelijkheid tussen het huidige\n
+systeem en het reserve systeem.
+7266:
+Fout in het terugzetten van de\n
+konfiguratie-parameters
+7267:
+Fout in terugzetten van de\n
+konfiguratie-parameters
+7268:
+De systeemversie is niet gelijk aan\n
+die van het reservesysteem
+7269:
+De directory heeft tenminste 1 post\n
+te weinig
+7270:
+
+7271:
+De struktuur gaat te diep
+7272:
+Fout tijdens schrijven van\n
+konfiguratie parameters
+7273:
+Fout tijdens lezen van de\n
+konfiguratie parameters
+7274:
+Fout tijdens schrijven naar de\n
+reserve
+7275:
+Directory kan niet gemaakt worden
+7276:
+De directory bestaat niet
+7277:
+De directory tenminste 1 post\n
+te weinig
+7278:
+De directory heeft posten\n
+dit gemaakt moeten worden
+7279:
+
+7300:
+stap voorbereiding
+7301:
+stap konfiguratie
+7302:
+stap taak konfiguratie
+7303:
+stap gebruikerstaak
+74:
+NFS server is aktief\n
+De verbinding naar de NFS server\n
+'%s' werkt goed.\n
+Alle op afstand geinstalleerde apparaten\n
+zijn nu beschikbaar.\n
+\t\n
+
+75:
+NFS server is niet aktief\n
+De verbinding naar de NFS server\n
+'%s' is verbroken.\n
+Alle op afstand geinstalleerde apparaten\n
+zijn nu niet beschikbaar.\n
+\t\n
+
+80:
+Achtergrondtaak %s\n
+heeft een oudere module-versie\n
+geinstalleerd dan de bron\n
+%s\n
+\t\n
+Herstart het robotsysteem met een\n
+P-START om een nieuwere versie te\n
+installeren
+81:
+Achtergrond taak %s\n
+mislukt om een nieuwere module-versie te\n
+laden. De bron van de module is\n
+%s\n
+\t\n
+Zie voorgaande berichten voor de oorzaak\n
+hiervan. Of herstart het robotsysteem\n
+met een P-START om een nieuwere versie\n
+te laden.
+82:
+RAPID Taak supervisie\n
+Taak %s loopt niet, het systeem wordt in\n
+'SysFail' satus gezet. Het is nu onmoge-\n
+lijk om de motoren in te schakelen.\n
+%s\n
+\t\n
+Zie voorgaande berichten voor de oorzaak\n
+hiervan. Herstart het robotsysteem om\n
+deze fout-status op te heffen.
+83:
+RAPID Taak supervisie\n
+Taak %s loopt niet. De motoren worden\n
+uitgezet en het zal niet mogelijk zijn\n
+deze weer in te schakelen.\n
+%s\n
+\t\n
+Zie voorgaande berichten voor de oorzaak\n
+hiervan\n
+ 
+84:
+RAPID Taak supervisie\n
+Taak %s loopt niet, de hoofdtaak\n
+zal ook gestopt worden\n
+%s\n
+\t\n
+Zie voorgaande berichten voor de oorzaak\n
+hiervan
+88:
+Restart not possible\n
+Restart is not possible from the\n
+current program position.\n
+The Program Pointer must be moved\n
+before restart.\n
+\t\n
+Reason:\n
+The system has been in system\n
+failure state  or\n
+the program execution is blocked.\n
+ 
+89:
+A P-Start is ordered\n
+%s\n
+\t\n
+
+8901:
+The P-Start has been ordered from\n
+the system.
+8902:
+The P-Start has been ordered manually or\n
+automatically during a configuration.
+8903:
+The P-Start has been ordered from\n
+I/O unit.
+90:
+P-Start done\n
+An ordered P-Start is done.\n
+All tasks are reset\n
+and all user programs are lost.\n
+\t\n
+
+91:
+(Re)start not possible\n
+(Re)start is not possible due to lost\n
+contact with IO module\n
+%s configured with\n
+trustlevel 3.\n
+\t\n
+

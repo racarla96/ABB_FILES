@@ -1,0 +1,205 @@
+21::
+0:
+Statusändring
+2:
+Programmet nollställt\n
+Programpekaren för programmet\n
+%!%!%s har flyttats till början.\n
+\t
+5:
+Programmet stoppat\n
+Programmet %!%!%s har\n
+stoppat. orsaken är att\n
+%s\n
+\t
+500:
+Ett externt eller internt stopp\n
+efter aktuell instruktion har inträffat.
+501:
+Programmet har nått en EXIT instruktion
+502:
+Programmet är klart
+503:
+Programmet är klart med det här steget
+504:
+Programmet har nått en Break-instruktion
+505:
+Ett externt eller internt stopp har\n
+uppstått
+506:
+ett fel har uppstått
+507:
+Kan inte köra bakåt förbi första\n
+instruktionen
+508:
+Kan inte köra bakåt förbi denna\n
+instruktion
+7:
+Program startat\n
+Programmet %!%!%s har\n
+startats.\n
+%s\n
+\t
+8:
+Program återstartat\n
+Programmet %!%!%s har\n
+återstartats.\n
+s\n
+\t
+701:
+Detta är gjort från programfönstret.
+702:
+Detta är gjort från produktionsfönstret.
+703:
+Vem som har gjort detta är okänt.
+704:
+Detta har skett från extern utrustning.
+9:
+Programminnet fullt\n
+Fullt minne i programmet\n
+%!%!%s\n
+\t\n
+Spara programmet och återstarta det.
+10:
+Motorer från tillstånd\n
+\t
+11:
+Motorer till tillstånd\n
+\t
+12:
+Skyddsstopps tillstånd\n
+Driftkedjan öppnad av något säkerhets-\n
+skydd förutom nödstoppet.\n
+\t
+13:
+Nödstopps tillstånd\n
+Driftkedjan öppnad av nödstoppet\n
+Nödstopps återställning är nödvändigt\n
+Tryck Motorer Från.\n
+\t
+14:
+Systemfels tillstånd\n
+Går ej att återställa.\n
+Gör en omstart.\n
+\t
+15:
+Manuellt körsätt valt.\n
+\t
+16:
+Automatiskt körsätt begärt.\n
+\t
+17:
+Automatiskt körsätt bekräftat.\n
+\t
+18:
+Manuellt körsätt med FH begärt.\n
+\t
+19:
+Manuellt körsätt med FH bekräftat.\n
+\t
+20:
+Programkörningsfel tillstånd.\n
+\t
+21:
+Programkörningsfel återställt.\n
+\t
+22:
+Väntar på Håll- för- drift.\n
+\t
+23:
+Håll- för- drift timeout.\n
+\t
+30:
+Alla axlar kommuterade\n
+\t
+31:
+Alla axlar kallibrerade\n
+\t
+32:
+Alla varvräknare uppdaterade\n
+\t
+33:
+Alla axlar synkroniserade\n
+\t
+34:
+Axlar ej kommuterade\n
+\t
+35:
+Axlar ej kalibrerade\n
+\t
+36:
+Varvräknare ej uppdaterade\n
+\t
+37:
+Axlar ej synkroniserade\n
+\t
+40:
+Program laddat\n
+Ett program har laddats till\n
+%!%!%s.\n
+Ledigt användarminne var%i byte\n
+före denna operation och\n
+%i byte efter.\n
+\t
+41:
+Program raderat\n
+Ett program har tagits bort i\n
+%!%!%s.\n
+\t
+43:
+Fel vid återstart\n
+Programmet %!%!%s\n
+kan inte återstartas.\n
+\t
+44:
+Programpekare uppdaterad\n
+Programmet %!%!%s\n
+kan ha flyttat programpekaren.\n
+\t
+45:
+Systemet återstartat\n
+\t
+46:
+Kallstart av systemet\n
+\t
+47:
+Bakgrundsprogram %s\n
+kan inte startas.\n
+%s\n
+\t
+4701:
+Programmet är tomt.
+4702:
+Felaktigt tillstånd.
+4703:
+Kan inte sätta PP till huvudrutin.
+4704:
+Kan inte sätta programkörningssätt.
+4705:
+Start-ordern felade.
+48:
+Bakgrundsprogram stoppat\n
+Programmet % stoppat\n
+utan orsak.\n
+%s\n
+\t
+49:
+Kritisk del ej avslutad\n
+Ett spänningsbortfall inträffade\n
+i mitten av en kritisk del för\n
+programmet %!%s\n
+%s\n
+\t
+4901:
+Systemet försöker att självläka.
+4902:
+Ett väntande fel tas bort från kön.
+4903:
+Ett väntande avslut tas bort från kön.
+4904:
+Detta kan leda till en extra program-\n
+cykel.
+4905:
+Programmet kommer att\n
+startas från början.
+

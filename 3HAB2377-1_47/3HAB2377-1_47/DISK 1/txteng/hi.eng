@@ -1,0 +1,280 @@
+Revision 1.12  1996/12/12  07:47:37  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+1::
+0:
+
+1:
+Pass Code Input!
+2:
+Service
+3:
+Programmer
+4:
+Other Windows
+5:
+"%s" Pass Code required\n
+to be able to continue.
+6:
+Operator
+7:
+Launch
+8:
+ProgOrServ
+9:
+Disk Changed!\n
+The contents of the disk has\n
+been changed since last read.\n
+\n
+Reread the contents?
+10:
+File
+11:
+Edit
+12:
+View
+13:
+Special
+14:
+Undo
+15:
+Cut
+16:
+Copy
+17:
+Paste
+18:
+Search...
+19:
+Goto...
+20:
+Goto Top
+21:
+Goto Bottom
+22:
+Next Page
+23:
+Previous Page
+24:
+Open...
+25:
+Save as...
+26:
+Print...
+27:
+Preferences...
+28:
+OK
+29:
+Cancel
+30:
+Text
+31:
+Yes
+32:
+No
+33:
+Add
+34:
+Hide
+35:
+Remove
+36:
+Show
+37:
+Unit
+38:
+Up
+39:
+Open
+40:
+Text...
+41:
+789456123-0.ABCDEFGHIJKLMNOPQRSTUVWXYZ+'<>*/,?=& :_[](){}%\"
+42:
+789456123-0.abcdefghijklmnopqrstuvwxyz+'<>*/,?=& :_[](){}%\"
+43:
+a->A
+44:
+A->a
+45:
+Info
+46:
+Enter Name!
+47:
+Name:
+48:
+Massmemory Unit=
+49:
+New Dir
+50:
+Enter Directory Name!
+51:
+Common
+52:
+Internal
+53:
+Warning!
+54:
+Press Enter to Proceed!
+55:
+mm
+56:
+Deg
+57:
+789456123_0_ABCDEFGHIJKLMNOPQRSTUVWXYZ_ 
+58:
+Cut
+59:
+Copy
+60:
+Paste
+61:
+Start
+62:
+FWD
+63:
+BWD
+64:
+Cont
+65:
+Cycle
+66:
+Instr
+67:
+Continuous
+68:
+Cycle
+69:
+Instruction
+70:
+Unsynchronized
+71:
+789456123_0_ABCDEFGHIJKLMNOPQRSTUVWXYZ_ 
+72:
+789456123_0_abcdefghijklmnopqrstuvwxyz_ 
+73:
+A name must start with a\n
+letter, e.g. ABB or abb.\n
+\n
+\n
+Press Enter to Proceed!
+74:
+Parameters
+75:
+Program
+76:
+Program Module
+77:
+System Module
+78:
+Error Log
+79:
+Log
+80:
+Directory
+81:
+Go up one level
+82:
+Empty volume
+83:
+Unknown
+84:
+Function
+85:
+User Level
+86:
+Confirm
+87:
+Function    User Level  Confirm
+88:
+Not on path!\n
+Robot has been moved after\n
+program stop.\n
+Should the robot return to\n
+the path on Start?
+89:
+No
+90:
+Yes
+91:
+Module
+92:
+Reread
+93:
+Program Executing
+94:
+Print File
+95:
+Waiting!\n
+Program server already in use\n
+by other client.
+96:
+Conv Program
+97:
+Conv Progr Mod
+98:
+Conv System Mod
+99:
+Programmable Keys
+100:
+Key         Type        Connection
+101:
+Key
+102:
+Type
+103:
+Connection
+104:
+Key Pressed
+105:
+None
+106:
+Input
+107:
+Output
+108:
+Interrupt
+109:
+Toggle
+110:
+Set 0
+111:
+Set 1
+112:
+Press/Rel.
+113:
+Pulse
+114:
+greater than 0 but less than max load
+115:
+Select
+116:
+Tuning dialog
+117:
+                    Tuning  Present
+118:
+Tune
+119:
+No Data
+120:
+Info
+121:
+Position
+122:
+Robtarget:=
+123:
+o_   
+124:
+On
+125:
+Off
+126:
+Arcitec data
+127:
+\n
+Please Wait!\n
+Reading from Unit...!
+128:
+Allow in Auto

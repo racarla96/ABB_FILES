@@ -1,0 +1,199 @@
+26::
+0:
+Operateur
+1:
+%s manquant\n
+Le referentiel outil %s ne\n
+peut pas etre utilise dans le\n
+programme courant.\n
+Soit il a ete efface.\n
+Soit il n'a pas ete defini.\n
+\t\n
+Selectionnez un autre referentiel\n
+outil dans la fenetre de pilotage\n
+manuel.
+2:
+%s manquant\n
+Le referentiel objet %s ne\n
+peut pas etre utilise dans le\n
+programme courant.\n
+Soit il a ete efface.\n
+Soit il n'a pas ete defini.\n
+\t\n
+Selectionnez un autre referentiel\n
+objet dans la fenetre de pilotage\n
+manuel.
+3:
+Repertoire non cree!\n
+Le repertoire %s\n
+ne peut pas etre cree.\n
+Le repertoire existe deja ou le disque\n
+est protege contre l'ecriture\n
+\t\n
+Verifier si le repertoire existe ou\n
+si le disque est protege contre\n
+l'ecriture, ou si la place disponible\n
+sur le disque est suffisante
+4:
+Confusion refer. robots\n
+Les referentiels outil et objet\n
+courants ne peuvent pas simultanement\n
+etre portes par le robot ou etre fixes\n
+\t\n
+Verifier la composante robhold des\n
+referentiels outil et objet courants
+5:
+%s manquant!\n
+Le referentiel objet %s contient\n
+une unite mecanique coordonnee\n
+qui n'existe pas.\n
+\t\n
+Verifier la composante de l'unite\n
+mecanique dans le referentiel objet.
+6:
+%s refer util.!\n
+Le referentiel objet %s\n
+contient une unite mecanique\n
+qui n'a pas de referentiel.\n
+utilisateur defini.\n
+\t\n
+Verifier la composante de l'unite\n
+mecanique dans le referentiel objet.
+7:
+Commande manu interdite!\n
+La commande manuelle est interdite dans\n
+ce mode\n
+\t\n
+Lacher le joystick et la gachette\n
+et recommencez.\n
+Verifier egalement l'unite mecanique.
+8:
+Masse outil indefinie!\n
+La commande manuelle ne peut etre\n
+autorisee si l'outil courant a une\n
+masse indefinie.\n
+\t\n
+Entrer une valeur pour la masse dans\n
+les parametres du referentiel outil.
+9:
+Robot desynchronise!\n
+Le robot ou l'axe externe est\n
+desynchronise.\n
+\t\n
+Resynchronize le robot ou l'axe externe.
+10:
+Erreur d'orientation!\n
+L'orientation dans %s n'est pas.\n
+normalisee.\n
+\t\n
+Verifie la valeur de l'orientation.
+11:
+Err. Charg. parametres!\n
+Le chargement des parametres dans\n
+%s\n
+ne peut pas etre realisee.\n
+Pour les causes, voir\n
+%s\n
+\t\n
+Copier le fichier\n
+%s\n
+sur disquette et examine les causes\n
+a l'aide d'un editeur de texte\n
+quelconque
+12:
+Pas de parametres!\n
+Il n'y a pas de parametres dans\n
+%s\n
+\t\n
+Verifier le fichier\n
+%s\n
+a l'aide d'un editeur de texte\n
+quelconque!
+13:
+Commande manu interdite!\n
+La commande manuelle d'une unite\n
+mecanique n'est pas possible\n
+L'unite n'est pas activee\n
+\t\n
+Activer l'unite mecanique.
+14:
+Disque plein !\n
+Aucune information sauvegardee dans\n
+l'archive sur le changement des\n
+parametres, car il n'y a plus de place\n
+disponible sur le disque.\n
+\t\n
+Essayer de supprimer des fichiers ou\n
+reorganiser votre disque.
+15:
+Impossible de changer PP\n
+Le pointeur programme ne peut etre\n
+positionne sur la routine '%s'\n
+car elle a des parametres.\n
+\t\n
+Creer une routine qui appelle '%s'\n
+ou supprimer les parametres.
+16:
+Impossible de changer PP\n
+Le pointeur programme ne peut etre\n
+positionne sur la routine '%s'\n
+car elle est dans un module qui a un\n
+attribut NOSTEPIN.\n
+\t\n
+Copier la routine '%s' dans\n
+un autre module ou change l'attribut du\n
+module.
+17:
+PGM_TELLBACK code %d\n
+\n
+\t\n
+Pas d'information supplementaire.
+18:
+Erreur de syntaxe RAPID\n
+Le programme ne peut etre charge car il\n
+a une ou des erreurs de syntaxe.\n
+\t\n
+Un programme de detection des erreurs de\n
+syntaxe ou QuickTeach peut etre utilise\n
+pour detecter les erreurs. Le fichier\n
+PGMCPL1.LOG sur le RAM disque interne\n
+contient informations sur les erreurs.
+19:
+Erreur saisie de donnees\n
+Le composant '%s' de type de\n
+donnee '%s' est incorrect\n
+Les limites sont :\n
+%s!\n
+\t\n
+iVerifier les donnees et entrer la\n
+valeur correcte.
+20:
+Impossible de changer PP\n
+Le pointeur programme ne peut etre\n
+positionne sur la routine '%s'\n
+car elle est definie comme une\n
+routine de piege (TRAP routine).\n
+\t\n
+Changer la definition de cette\n
+routine '%s' en 'Procedure'
+21:
+Erreur affichage article\n
+Le nombre d'articles selectionne excede\n
+la limite de memoire courante pour cette\n
+configuration. Les article ne peuvent\n
+donc etre affiches.\n
+\t\n
+ireduire le nombre de donnees ou changer\n
+la configuration de la carte memoire\n
+avec plus de memoire.
+22:
+Cannot show all items!\n
+Only %d variables (out of %d) will be\n
+listed.\n
+All variables cannot be shown because\n
+the current memory limit specified for\n
+this configuration will be exceeded.\n
+\t\n
+Reduce the number of data or\n
+change the configuration to a memory\n
+board with more memory.

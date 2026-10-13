@@ -1,0 +1,2713 @@
+24::
+0:
+Programma
+1:
+Errore argomento\n
+Task %.16s: stesso parametro\n
+opzionale utilizzato piu' di una volta\n
+%.16s\n
+\t\n
+Accertarsi che lo stesso parametro\n
+opzionale non sia stato utiliz. piu'\n
+di una volta nello stesso sotprog.
+2:
+Errore argomento\n
+Task %.16s: argomenti esclusi\n
+devono avere valore condizionale\n
+(%.16s ha valore)\n
+\t\n
+Gli argomenti non devono essere\n
+specificati per piu' di un param. da\n
+una lista di param. che esclude ogni\n
+altro a meno che i valori siano\n
+valori di argomenti condizionali.
+3:
+Errore argomento\n
+Task %.16s: fornire argomento\n
+per parametro richiesto %.16s\n
+\t\n
+Verificare che gli argomenti siano\n
+specificati nello stesso ordine dei\n
+parametri per i sotprog chiamati.
+4:
+Errore argomento\n
+Task %.16s: argomento per\n
+parametro REF %.16s\n
+non e' un dato di riferimento\n
+\t\n
+Verificare che l'espressione\n
+dell'argomento sia solo un dato o un\n
+parametro di riferimento.
+5:
+Errore argomento\n
+Task %.16s: l'argomento per\n
+parametro INOUT %.16s non\n
+e' una variabile o un dato persistente\n
+o e' di sola lettura\n
+\t\n
+Verificare che l'argomento sia una\n
+variabile, persistente,un parametro\n
+variabile o un riferimento di param.\n
+persistente e che non sia scrivibile.\n
+Non usare () intorno all'argomento.
+6:
+Errore argomento\n
+Task %.16s: manca valore\n
+argomento opzionale per\n
+parametro %.16s\n
+\t\n
+Solo i parametri 'switch' sono\n
+specificati con il nome. Parametri\n
+opzionali di altro tipo devono avere\n
+un valore. Aggiungerlo.
+7:
+Errore argomento\n
+Task %.16s: argomento\n
+opzionale %.16s in posiz.\n
+non corretta nella lista argomenti\n
+\t\n
+Verificare che gli argomenti siano\n
+specificati nello stesso ordine come\n
+i parametri definiti del sotprog\n
+in oggetto.
+8:
+Errore argomento\n
+Task %.16s: riferimento ad\n
+un parametro opzionale %.16s\n
+nell'argomento richesto\n
+\t\n
+Un argomento relativo ad un parametro\n
+opzionale deve essere specificato con\n
+un carattere '\'. Modif. l'argomento\n
+in opzionale.
+9:
+Errore argomento\n
+Task %.16s: riferimento\n
+al parametro richiesto %.16s\n
+con valore argomento condizionale\n
+\t\n
+Un valore condizionale per un param.\n
+opzionale deve riferire un parametro\n
+opzionale nel sotprog chiamato.\n
+Modificare il valore condizionale.
+10:
+Errore argomento\n
+Task %.16s: riferimento al\n
+parametro richiesto %.16s\n
+nell'argomento opzionale.\n
+\t\n
+Un argomento relativo al parametro\n
+richiesto non deve essere specificato\n
+con il carattere '\'. Modificare\n
+l'argomento opzionale in un necessario.
+11:
+Errore argomento\n
+Task %.16s: argomento\n
+richiesto %.16s in posizione\n
+non corretta nella lista argomenti\n
+\t\n
+Verificare che gli argomenti siano\n
+specificati nello stesso ordine come\n
+i parametri definiti del sotprog\n
+in oggetto.
+12:
+Errore argomento\n
+Task %.16s: argomento\n
+%.16s di tipo 'switch'\n
+non puo' avere valore\n
+\t\n
+Ad un argomento relativo ad un param.\n
+di tipo 'switch' non puo' essere\n
+assegnato un valore.\n
+Togliere il valore.
+13:
+Errore argomento\n
+Task %.16s: mancano\n
+argomenti nella chiamata del\n
+sotprog %.16s\n
+\t\n
+Una chiamata del sotprog deve dare\n
+valori per tutti i parametri richiesti\n
+del sotprog in oggetto. Aggiungere\n
+gli argomenti necessari.
+14:
+Errore argomento\n
+Task %.16s: troppi\n
+argomenti nella chiamata del\n
+sotprog %.16s\n
+\t\n
+Eliminare gli argomenti in eccesso\n
+nella lista parametri del sotprog\n
+chiamato.
+15:
+Errore dichiaraz. dato\n
+Task %.16s: la dimensione\n
+della matrice deve essere > 0\n
+(valore h' %i)\n
+\t\n
+La dimensione della matrice deve avere\n
+valore positivo.\n
+Modificare la sua dimensione.
+16:
+Errore dichiaraz. dato\n
+Task %.16s: troppe\n
+dimensioni nella definizione della\n
+matrice\n
+\t\n
+Una matrice non puo' avere piu' di 3\n
+dimensioni. Correggere il programma.
+17:
+Errore di tipo\n
+Task %.16s: il dato indice\n
+%.18s %.18s\n
+non e' del tipo matrice\n
+\t\n
+Solo i dati che sono stati dichiarati\n
+per essere matrice possono essere\n
+indicati. Rimuovere l'indice o gli\n
+indici o dichiarare il dato per\n
+essere matrice.
+18:
+Errore di tipo\n
+Task %.16s: il dato\n
+%.18s %.18s\n
+non e' del tipo record\n
+\t\n
+I componenti sono solo disponibili per\n
+dati di tipo record. Verificare tipo\n
+e nome del dato di riferimento.
+19:
+Errore di limite\n
+Task %.16s: Errore nella\n
+creazione della variabile persistente\n
+(codice err. interno %i)\n
+%.16s\n
+\t\n
+Un errore e' avvenuto nell'inserimento\n
+di un persist. nel database condiviso.\n
+Il database e' probabilmente pieno.\n
+Rif. parametri di sistema AveragePers.
+20:
+Errore dichiaraz. dato\n
+Task %.16s: espressione\n
+non di tipo costante\n
+(%.16s non e' costante)\n
+\t\n
+L'espressione contenuta nella\n
+dichiarazione del dato deve essere di\n
+tipo costante. Verificare che non\n
+contenga riferimenti a variabili,\n
+persistenti o chiamate di funzioni.
+21:
+Errore di istruzione\n
+Task %.16s: RETURN da\n
+funzione deve avere una espressione\n
+\t\n
+l'istruzione RETURN all'interno della\n
+funzione deve ritornare un valore.\n
+Aggiungere il valore.
+22:
+Errore di tipo\n
+Task %.16s: combinazione\n
+non corretta di tipi di operandi\n
+%.18s e %.18s\n
+per operatori '*'\n
+\t\n
+Le combinazioni consentite per i due\n
+operandi dell'operatore '*' sono\n
+'num'*'num', 'num'*'pos', 'pos'*'num'\n
+'pos'*'pos' e 'orient'*'orient'.\n
+Verificare i tipi di operandi.
+23:
+Errore di istruzione\n
+Task %.16s: flusso\n
+programma non trasferibile ad un\n
+altro programma\n
+\t\n
+Verificare che la LABEL sia inserita\n
+nello stesso programma dell'istruzione\n
+GOTO. Non e' possibile saltare in una\n
+istruzione di flusso programma.
+24:
+Errore  di tipo\n
+Task %.16s: operando\n
+sinistro di tipo illegale\n
+%.18s per\n
+l'operatore binario '+' o '-'\n
+\t\n
+I tipi di operando consentiti per\n
+l'operatore '+' sono 'num', 'pos' e\n
+'string', per l'operatore '-' sono\n
+'num' e 'pos'. Verificare il tipo\n
+di operandi.
+25:
+Errore di tipo\n
+Task %.16s: operando\n
+di tipo illegale %.18s\n
+per l'operatore '+' o '-'\n
+\t\n
+I tipi di operando consentiti per\n
+gli operatori '+' e '-' sono 'num' e\n
+'pos'. Verificare il tipo di operandi.
+26:
+Errore di tipo\n
+Task %.16s: operando\n
+destro di tipo illegale\n
+%.18s per l'operatore\n
+binario '+' o '-'\n
+\t\n
+I tipi di operando consentiti per\n
+l'operatore '+' sono 'num', 'pos' e\n
+'string', per l'operatore '-' sono\n
+'num' e 'pos'. Verificare il tipo di\n
+operandi.
+27:
+Errore di tipo\n
+Task %.16s: operando\n
+sinistro di tipo illegale\n
+%.18s per l'operatore\n
+'/', 'DIV', o 'MOD'\n
+\t\n
+Il tipo di operando consentito per\n
+gli operatori '/', 'DIV' e 'MOD'\n
+e' 'num'. Verificare il tipo di\n
+operandi.
+28:
+Errore di tipo\n
+Task %.16s: operando\n
+destro di tipo illegale\n
+%.18s per l'operatore\n
+'/', 'DIV', o 'MOD'\n
+\t\n
+Il tipo di operando consentito per\n
+gli operatori '/', 'DIV' e 'MOD'\n
+e' 'num'. Verificare il tipo di\n
+operandi.
+29:
+Errore di tipo\n
+Task %.16s: operando\n
+sinistro di tipo illegale\n
+%.18s per l'operatore\n
+'<', '<=', '>' o '>='\n
+\t\n
+Il tipo di operando consentito per\n
+gli operatori '<', '<=', '>' e '>='\n
+e' 'num'. Verificare il tipo di\n
+operandi.
+30:
+Errore di tipo\n
+Task %.16s: operando\n
+destro di tipo illegale\n
+%.18s per l'operatore\n
+'<', '<=', '>' o '>='\n
+\t\n
+Il tipo di operando consentito per\n
+Gli operatori '<', '<=', '>' e '>='\n
+e' 'num'. Verificare il tipo di\n
+operandi.
+31:
+Errore di tipo\n
+Task %.16s: operando\n
+sinistro di tipo illegale\n
+%.18s per\n
+l'operatore '*'\n
+\t\n
+I tipi di operando consentiti per\n
+l'operatore '*' sono 'num', 'pos',\n
+e 'orient'. Verificare il tipo di\n
+operandi.
+32:
+Errore di tipo\n
+Task %.16s: operando\n
+destro di tipo illegale\n
+%.18s per\n
+l'operatore '*'\n
+\t\n
+I tipi di operando consentiti per\n
+l'operatore '*' sono 'num', 'pos',\n
+e 'orient'. Verificare il tipo di\n
+operandi.
+33:
+Errore di tipo\n
+Task %.16s: operando\n
+dell'operatore 'NOT' di tipo illegale\n
+%.18s\n
+\t\n
+Con l'operatore 'NOT' sono consentiti\n
+solo gli operandi di tipo 'bool'.\n
+Verificare il tipo di operandi.
+34:
+Errore di tipo\n
+Task %.16s: tipo\n
+illegale %.18s per\n
+l'operando sinistro dell'operatore\n
+'OR', 'XOR' o 'AND'\n
+\t\n
+Con l'operatore 'OR', 'XOR', o 'AND'\n
+sono consentiti solo gli operandi\n
+di tipo 'bool'. Verificare il tipo\n
+di operandi.
+35:
+Errore di tipo\n
+Task %.16s: tipo\n
+illegale %.18s per\n
+l'operando destro dell'operatore\n
+'OR', 'XOR' o 'AND'\n
+\t\n
+Con l'operatore 'OR', 'XOR', o 'AND'\n
+sono consentiti solo gli operandi\n
+di tipo 'bool'. Verificare il tipo\n
+di operandi.
+36:
+Errore di tipo\n
+Task %.16s: numero\n
+errato di indici nell'elenco per la\n
+matrice %.18s con\n
+dimensione(i) %i\n
+\t\n
+Assicurarsi che il nr degli indici\n
+nell'elenco e' lo stesso numero delle\n
+dimensioni del dato indice matrice.
+37:
+Errore dichiaraz. dato\n
+Task %.16s: dichiaraz.\n
+LOCALE non consentita di una costante\n
+\t\n
+Solo i dati di programma possono\n
+avere una dichiarazione LOCALE.\n
+Eliminare l'attributo LOCALE o spost.\n
+la dichiarazione fuori dal sotprog.
+38:
+Errore dichiaraz. dato\n
+Task %.16s: dichiaraz.\n
+LOCALE non consentita di una variabile\n
+\t\n
+Solo i dati di programma possono\n
+avere una dichiarazione LOCALE.\n
+Eliminare l'attributo LOCALE o spost.\n
+la dichiarazione fuori dal sotprog.
+39:
+Errore di nome\n
+Task %.16s: nome\n
+costante %.16s ambiguo\n
+\t\n
+Due dati con lo stesso nome non\n
+possono coesistere all'interno\n
+di un sotprog (se dichiarati nel\n
+sotprog) o all'interno di un\n
+modulo (se dichiarati nel programma).
+40:
+Errore di nome\n
+Task %.16s: nome\n
+costante globale %.16s\n
+ambiguo\n
+\t\n
+I nomi dei dati globali devono\n
+essere unici all'interno di tutto\n
+il programma. Cambiare nome al dato.
+41:
+Errore di nome\n
+Task %.16s: nome\n
+globale persistente %.16s\n
+ambiguo\n
+\t\n
+I nomi dei dati globali devono\n
+essere unici all'interno di tutto\n
+il programma. Cambiare nome al dato.
+42:
+Errore di nome\n
+Task %.16s: nome\n
+sotprog globale %.16s\n
+ambiguo\n
+\t\n
+I nomi dei sotprog globali devono\n
+essere unici all'interno di tutto il\n
+programma. Cambiare nome al sotprg.
+43:
+Errore di nome\n
+Task %.16s: nome\n
+variabile globale %.16s\n
+ambiguo\n
+\t\n
+I nomi dei dati globali devono\n
+essere unici all'interno di tutto\n
+il programma. Cambiare nome al dato.
+44:
+Errore di nome\n
+Task %.16s: nome label\n
+%.16s ambiguo\n
+\t\n
+I nomi delle label devono\n
+essere unici all'interno di un\n
+sottoprogramma. Cambiare nome label.
+45:
+Errore di nome\n
+Task %.16s: nome modulo\n
+%.16s ambiguo\n
+\t\n
+I nomi dei moduli devono\n
+essere unici all'interno del\n
+programma. Cambiare nome al modulo.
+46:
+Errore di nome\n
+Task %.16s: nome\n
+parametro %.16s ambiguo\n
+\t\n
+I nomi dei parametri devono\n
+essere unici all'interno di un\n
+sottoprogramma. Cambiare nome al\n
+parametro.
+47:
+Errore di nome\n
+Task %.16s: nome\n
+variabile persistente %.16s\n
+ambiguo\n
+\t\n
+I nomi dei dati devono\n
+essere unici all'interno di un\n
+modulo. Cambiare nome al dato.
+48:
+Errore di nome\n
+Task %.16s: nome sotprog\n
+%.16s ambiguo\n
+\t\n
+I nomi dei sotprog devono\n
+essere unici all'interno di un\n
+modulo. Cambiare nome al sotprog.
+49:
+Errore di nome\n
+Task %.16s: nome\n
+variabile %.16s ambiguo\n
+\t\n
+Due dati con lo stesso nome non\n
+possono coesistere all'interno\n
+di un sotprog (se dichiarati nel\n
+sotprog) o all'interno di un\n
+modulo (se dichiarati nel programma).
+50:
+Errore di tipo\n
+Task %.16s: operandi\n
+%.18s e %.18s\n
+di tipo diverso per operatore\n
+binario '+' o '-'\n
+\t\n
+I due operandi per gli operatori '+'\n
+e '-' devono essere dello stesso tipo.\n
+Verificare il tipo di operando.
+51:
+Errore di tipo\n
+Task %.16s: operandi\n
+%.18s e %.18s\n
+per operatori '=' o '<>' non\n
+dello stesso tipo\n
+\t\n
+Con gli operatori '=' e '<>'\n
+gli operandi devono essere dello\n
+stesso tipo. Verificare il tipo\n
+degli operandi.
+52:
+Errore di istruzione\n
+Task %.16s: l'istruzione\n
+RETURN con espressione si puo'\n
+utilizzare solo nelle funzioni\n
+\t\n
+Togliere l'espressione all'istruzione\n
+RETURN.
+53:
+Errore di istruzione\n
+Task %.16s: l'istr. RAISE\n
+non deve avere espressione nel\n
+sotprog per gestione errori\n
+\t\n
+Eliminare l'espressione\n
+dall'istruzione RAISE.
+54:
+Errore di tipo\n
+Task %.16s: dimensioni\n
+non compatibili tra tipo di\n
+matrice (%i) ed aggregato (%i)\n
+\t\n
+Assicurarsi che il numero di\n
+espressioni negli aggregati sia\n
+uguale al numero delle\n
+dimensioni della matrice.
+55:
+Errore di tipo\n
+Task %.16s: un target\n
+%.18s deve avere tipo\n
+valore o semi-valore\n
+\t\n
+I dati a cui bisogna assegnare\n
+un valore sono del tipo 'valore'\n
+o semi-valore. Gli altri dati possono\n
+essere settati solo da istruzioni\n
+predefinite o funzioni specifiche.
+56:
+Errore di tipo\n
+Task %.16s: operando\n
+sinistro %.18s\n
+dell'operatore '=' o '<>' non\n
+di tipo val. o semi-val.\n
+\t\n
+Gli operatori '=' e '<>' possono\n
+essere utilizzati solo in espressioni\n
+di tipo val. o semi-val. Altrimenti\n
+sono necessarie funz. predefinite\n
+specifiche.
+57:
+Errore di tipo\n
+Task %.16s: operando\n
+destro %.18s\n
+dell'operatore '=' o '<>' non\n
+di tipo val. o semi-val.\n
+\t\n
+Gli operatori '=' e '<>' possono\n
+essere utilizzati solo in espressioni\n
+di tipo val. o semi-val. Altrimenti\n
+sono necessarie funz. predefinite\n
+specifiche.
+58:
+Errore di tipo\n
+Task %.16s: l'espressione\n
+TEST %.18s non e' di\n
+tipo valore o semi-valore\n
+\t\n
+L'istruzione TEST puo' essere\n
+solamente associata ad un'espressione\n
+di tipo val. o semi-val. Altrimenti\n
+sono necessarie funz. predefinite\n
+specifiche.
+59:
+Errore dichiaraz. dato\n
+Task %.16s: nome\n
+fittizio di espressione non consentito\n
+nella definizione di una costante\n
+\t\n
+Completare la dichiarazione del dato\n
+o modificare il nome del dato.
+60:
+Errore dichiar. sotprog\n
+Task %.16s: nome\n
+fittizio per dimensione matrice non\n
+consentito nella definizione\n
+di una costante o variabile\n
+\t\n
+Completare la dichiarazione del dato\n
+o modificare il nome del dato.
+61:
+Errore dichiar. sotprog\n
+Task %.16s: nome\n
+fittizio per parametro dimensione\n
+matrice non consentito\n
+nella definizione di un sotprog\n
+\t\n
+Completare la dichiarazione del\n
+parametro o modificare il none del\n
+sotprog in un nome fittizio.
+62:
+Errore di nome\n
+Task %.16s: impossibile\n
+utilizzare un nome fittizio per un\n
+parametro nella definizione del\n
+nome di un sotprog.\n
+\t\n
+Completare la dichiarazione del sotprog\n
+o modificare il nome in un nome\n
+fittizio.
+63:
+Errore dichiaraz. dato\n
+Task %.16s: impossibile\n
+utilizzare nome fittizio per un valore\n
+iniziale espressione nella definizione\n
+del nome di una variabile persistente.\n
+\t\n
+Completare la dichiarazione del dato\n
+o modificare il nome in un nome\n
+fittizio.
+64:
+Errore dichiar. sotprog\n
+Task %.16s: impossibile\n
+utilizzare nome fittizio per un\n
+parametro nella definizione del nome\n
+di un sotprog.\n
+\t\n
+Completare la dichiarazione parametro\n
+eliminando il nome fittizio o\n
+cambiare il nome del sotprog\n
+in un nome fittizio.
+65:
+Errore di riferimento\n
+Task %.16s: nome\n
+fittizio per tipo non consentito\n
+nella definizione del nome di\n
+un dato o di un sotprog.\n
+\t\n
+Completare la dichiarazione del dato\n
+o del sotprog o cambiare il nome del\n
+del dato o sotprog in un nome fittizio.
+66:
+Errore dichiaraz. dato\n
+Task %.16s: impossibile\n
+utilizzare un nome fittizio per un\n
+valore iniziale espressione nella\n
+definizione del nome di una variabile\n
+\t\n
+Completare la dichiarazione del dato\n
+o modificare il nome del dato in un\n
+nome fittizio.
+67:
+Errore di tipo\n
+Task %.16s: pochi\n
+componenti nell'aggregato record\n
+%.18s\n
+\t\n
+Assicurarsi che il numero di espressioni\n
+nell'aggregato sia uguale al numero\n
+di componenti per il tipo di record.
+68:
+Errore di tipo\n
+Task %.16s: troppi\n
+componenti nell'aggregato record\n
+%.18s\n
+\t\n
+Assicurarsi che il numero di espressioni\n
+nell'aggregato sia uguale al numero\n
+di componenti per il tipo di record.
+69:
+Errore di riferimento\n
+Task %.16s: dato di\n
+riferimento %.16s ambiguo\n
+\t\n
+Da questo punto del programma\n
+e' visibile che almeno un altro\n
+oggetto ha lo stesso nome del dato\n
+a cui si fa riferimento. Verificare\n
+i nomi degli oggetti.
+70:
+Errore di riferimento\n
+Task %.16s: funzione\n
+di riferimento %.16s\n
+ambigua\n
+\t\n
+Da questo punto del programma\n
+e' visibile che un oggetto ha lo\n
+stesso nome della funz. a cui si fa\n
+riferimento. Verificare i nomi\n
+degli oggetti.
+71:
+Errore di riferimento\n
+Task %.16s: label di\n
+riferimento %.16s\n
+ambiguo\n
+\t\n
+Da questo punto del programma\n
+e' visibile che un oggetto ha lo\n
+stesso nome della label a cui si fa\n
+riferimento. Verificare i nomi\n
+degli oggetti.
+72:
+Errore di riferimento\n
+Task %.16s: procedura\n
+di riferimento %.16s\n
+ambigua\n
+\t\n
+Da questo punto del programma\n
+e' visibile che un oggetto ha lo\n
+stesso nome della procedura a cui\n
+si fa riferimento. Verificare i nomi\n
+degli oggetti.
+73:
+Errore di riferimento\n
+Task %.16s: trap di\n
+riferimento %.16s\n
+ambigua\n
+\t\n
+Da questo punto del programma\n
+e' visibile che un oggetto ha lo\n
+stesso nome della trap a cui si fa\n
+riferimento. Verificare i nomi\n
+degli oggetti.
+74:
+Errore di riferimento\n
+Task %.16s: dato di\n
+riferimento %.16s\n
+non intero\n
+\t\n
+Il nome specificato indica un\n
+oggetto anziche' un dato.\n
+Verificare che il dato desiderato\n
+non sia nascosto da un oggetto\n
+con lo stesso nome.
+75:
+Errore di riferimento\n
+Task %.16s: nessun\n
+riferimento a funzione %.16s\n
+\t\n
+Il nome specificato indica un\n
+oggetto anziche' una funzione.\n
+Verificare che la funzione desiderata\n
+non sia nascosta da un oggetto\n
+con lo stesso nome.
+76:
+Errore di riferimento\n
+Task %.16s: nessun\n
+riferimento a label %.16s\n
+\t\n
+Il nome specificato indica un\n
+oggetto anziche' una funzione.\n
+Verificare che la label desiderata\n
+non sia nascosta da un oggetto\n
+con lo stesso nome.
+77:
+Errore di riferimento\n
+Task %.16s: nessun\n
+riferimento a parametro\n
+opzionale %.16s per\n
+argomento con valore condizionale\n
+\t\n
+Il nome specificato indica un oggetto\n
+anziche' un parametro opzionale.\n
+Cambiare il nome di riferimento\n
+al parametro opzionale.
+78:
+Errore di riferimento\n
+Task %.16s: nessun\n
+riferimento a parametro opzionale\n
+%.16s\n
+\t\n
+Il nome specificato indica un oggetto\n
+anziche' un parametro opzionale.\n
+Cambiare il nome di riferimento\n
+al parametro opzionale.
+79:
+Errore di riferimento\n
+Task %s: nessun\n
+riferimento a procedura\n
+%.16s\n
+\t\n
+Il nome specificato indica un oggetto\n
+anziche' una procedura. Verificare che\n
+la procedura desiderata non sia\n
+nascosta da un oggetto con lo\n
+stesso nome.
+80:
+Errore di riferimento\n
+Task %.16s: riferimento\n
+a parametro %.16s non\n
+richiesto\n
+\t\n
+Il nome specificato identifica un\n
+oggetto anziche' un parametro richiesto.\n
+Cambiare il nome per far riferimento\n
+al parametro richiesto.
+81:
+Errore di riferimento\n
+Task %.16s: nessun\n
+riferimento a trap %.16s\n
+\t\n
+Il nome specif. identifica un oggetto\n
+anziche' una trap. Verificare che\n
+la trap desiderata non sia nascosta\n
+da un oggetto con lo stesso nome.
+82:
+Errore di riferimento\n
+Task %.16s: nessun\n
+nome tipo %.16s\n
+\t\n
+Il nome specificato identifica\n
+un oggetto anziche' un tipo.\n
+Verificare che il tipo desiderato non\n
+sia nascosto da un oggetto con\n
+lo stesso nome.
+83:
+Errore di tipo\n
+Task %.16s: nessun\n
+valore tipo %.16s\n
+\t\n
+Solo una variabile puo' non avere\n
+un valore di inizializ. ed il\n
+parametro modo 'VAR' deve\n
+essere tipo semi-val. o non-val.
+86:
+Errore di riferimento\n
+Task %.16s: riferimento\n
+a label sconosciuta %.16s\n
+\t\n
+Il sottoprogramma non contiene\n
+label (o altri oggetti) con il\n
+nome specificato.
+87:
+Errore di riferimento\n
+Task %.16s: riferimento\n
+ad un parametro opzionale\n
+%.16s sconosciuto\n
+\t\n
+Il sotprog chiamato non contiene\n
+un parametro opzionale (o altri\n
+oggetti) con il nome specificato.
+89:
+Errore di riferimento\n
+Task %.16s: riferimento\n
+ad un componente record\n
+%.16s sconosciuto\n
+\t\n
+Il tipo di record non contiene un\n
+componente con il nome specificato.
+90:
+Errore di riferimento\n
+Task %.16s: riferimento\n
+a parametro richiesto %.16s\n
+sconosciuto\n
+\t\n
+Il sotprog non contiene\n
+parametri richiesti (o altri oggetti)\n
+con il nome specificato.
+92:
+Errore di riferimento\n
+Task %.16s: nome tipo\n
+%.16s sconosciuto\n
+\t\n
+Nessun tipo di dato (o altri oggetti)\n
+con il nome specificato e' visibile\n
+da questo punto del programma.
+93:
+Errore istruzione\n
+Task %.16s: assegnazione\n
+target in solo lettura\n
+\t\n
+Il dato a cui deve essere assegnato\n
+un valore non deve essere una\n
+costante; solo lettura variabile\n
+o persistente.
+94:
+Errore di dichiaraz. dato\n
+Task %.16s: dichiaraz.\n
+dato persistente non consentita\n
+nel sotprog\n
+\t\n
+Un dato persistente puo' essere\n
+dichiarato solo in un modulo.\n
+Spostare la dichiarazione del dato\n
+persistente dal sotprog.
+95:
+Errore istruzione\n
+Task %.16s: istruzione\n
+RAISE senza espressione consentita\n
+solo nella gestione errori\n
+\t\n
+Aggiungere un'espressione con numero\n
+errore nell'istruzione RAISE.
+96:
+Errore istruzione\n
+Task %.16s: istruzione\n
+RETRY consentita solo nella\n
+gestione errori\n
+\t\n
+L'istruzione RETRY puo' essere\n
+solamente utilizzata nel sotprog\n
+gestione errori. Cancellare\n
+l'istruzione.
+97:
+Errore istruzione\n
+Task %.16s: utilizzare\n
+TRYNEXT solo nella gestione errori\n
+\t\n
+L'istruzione TRYNEXT deve essere\n
+utilizzata solo in gestione errori.\n
+Cancellarla.
+98:
+Errore Parametro\n
+Task %.16s: il param.\n
+'switch' deve essere trasferito\n
+in modo IN\n
+\t\n
+Eliminare il modo trasfer. parametro\n
+specificato. Se modo trasf. IN non e'\n
+sufficiente, modif. tipo di dato del\n
+parametro.
+99:
+Errore Parametro\n
+Task %.16s: parametro\n
+'switch' non dimensionabile\n
+\t\n
+Eliminare la dimensione matrice\n
+specificata, o modificare il tipo\n
+di dato del parametro.
+100:
+Errore Parametro\n
+Task %.16s: 'switch'\n
+solo consentito per parametro\n
+opzionale\n
+\t\n
+Cambiare il parametro in param. opz.\n
+o modif. il tipo di dato del param.\n
+Se l'oggetto non e' un parametro,\n
+modificare il tipo di dato.
+101:
+Errore di tipo\n
+Task %.16s: Incongruenza\n
+di tipo tra il tipo %.18s\n
+ed il tipo %.18s\n
+\n
+\t\n
+L'espressione non e' del tipo di dato\n
+previsto.
+102:
+Errore di tipo\n
+Task %.16s: tipo di\n
+incongruenza dell'aggregato,\n
+tipo desiderato %.18s\n
+\t\n
+Gli aggregati non sono adatti\n
+per il tipo di dato desiderato.
+103:
+Errore di tipo\n
+Task %.16s: incongr.\n
+di un dato di tipo persistente\n
+%.18s e %.16s\n
+\t\n
+Nome del dato persistente avente lo\n
+stesso nome di un altro tipo di dato.\n
+Modificare il nome del dato o il tipo\n
+di dato.
+104:
+Errore dichiaraz. dato\n
+Task %.16s: non e'\n
+possibile determinare le dimensioni\n
+della matrice (riferimento a costante\n
+circolare?)\n
+\t\n
+Verificare che le costanti a cui si\n
+fa riferimento siano correttamente\n
+definite. Se cosi' fosse\n
+il programma e' troppo complesso.\n
+Provare a riscrivere le dichiarazioni.
+105:
+Errore dichiaraz. dato\n
+Task %.16s: non e'\n
+possibile determinare il valore della\n
+costante (riferimento a costante\n
+circolare?)\n
+\t\n
+Verificare che le costanti a cui si\n
+fa riferimento siano correttamente\n
+definite. Se cosi' fosse il programma\n
+e' troppo complesso. Provare a\n
+riscrivere le dichiarazioni.
+106:
+Errore dichiaraz. dato\n
+Task %.16s: non e'\n
+possibile determinare il valore della\n
+costante (riferimento a costante\n
+circolare?)\n
+\t\n
+Verificare che le costanti a cui si\n
+fa riferimento siano correttamente\n
+definite. Se cosi' fosse il prog e'\n
+troppo complesso. Provare a\n
+riscrivere le dichiarazioni.
+107:
+Errore dichiaraz. dato\n
+Task %.16s: non e'\n
+possibile determinare il valore della\n
+variabile (riferimento a costante\n
+circolare?)\n
+\t\n
+Verificare che le costanti a cui si fa\n
+riferimento siano correttamente\n
+definite. Se cosi' fosse il programma\n
+e' troppo complesso.\n
+Provare a riscrivere le dichiarazioni.
+108:
+Errore di tipo\n
+Task %.16s: tipo\n
+aggregato sconosciuto\n
+\t\n
+Un aggregato non puo' essere utilizzato\n
+in questo punto finche' non e' atteso\n
+un tipo di dato. Dichiarare il tipo\n
+di dato con relativo valore aggregato.\n
+Utilizzare il nome del dato.
+109:
+Errore di definiz. tipo\n
+Task %.16s: impossibile\n
+determinare il tipo di componente\n
+record %.16s\n
+(definizione di tipo circolare?)\n
+\t\n
+Verificare che il tipo di componente\n
+sia correttamente definito. Se cosi',\n
+una definiz. circolare, il tipo di un\n
+componente non deve riferirsi al suo\n
+tipo di record.
+110:
+Errore di riferimento\n
+Task %.16s: nome del\n
+record %.16s ambiguo\n
+\t\n
+Almeno un altro oggetto con lo stesso\n
+nome del record a cui si fa riferimento\n
+e' visibile da questo punto del progr.\n
+Verificare i nomi degli oggetti.
+111:
+Errore di nome\n
+Task %.16s: nome\n
+record globale %.16s\n
+ambiguo\n
+\t\n
+I tipi globali devono avere nomi che\n
+sono unici all'interno di tutto il\n
+programma. Modificare il nome.\n
+
+112:
+Errore di riferimento\n
+Task %.16s: nome aggiunt.\n
+%.16s ambiguo\n
+\t\n
+Almeno un altro oggetto con lo stesso\n
+nome a cui si fa riferimento\n
+e' visibile da questo punto del progr.\n
+Verificare i nomi degli oggetti.
+113:
+Errore di nome\n
+Task %.16s: nome\n
+globale aggiuntivo\n
+%.16s ambiguo\n
+\t\n
+I tipi globali non devono avere nomi\n
+simili tra dati, sotprog e moduli\n
+all'interno del programma.\n
+Modificare il nome.
+114:
+Errore di definiz. tipo\n
+Task %.16s: riferimento\n
+del nome aggiunt. %.16s\n
+e' del tipo aggiunt.\n
+\t\n
+Verificare che il tipo di componente\n
+sia correttamente definito. Se cosi',\n
+puo' essere una definizione circolare,\n
+il tipo di componente non puo'\n
+riferirsi al suo tipo di record.
+115:
+Errore di definiz. tipo\n
+Task %.16s: impossibile\n
+determinare il tipo del nome aggiunt.\n
+%.16s (definiz. tipo\n
+circolare?)\n
+\t\n
+Verificare che il tipo di nome agg.\n
+sia correttamente definito. Se cosi',\n
+potrebbe essere una definiz. circolare,\n
+il tipo del nome agg. non deve rifer.\n
+a un record che lo utlizza come comp.
+116:
+Errore di riferimento\n
+Task %.16s: nome\n
+componente record %.16s\n
+ambiguo\n
+\t\n
+Almeno un altro oggetto con lo stesso\n
+nome del componente a cui si fa\n
+riferimento e' visibile da questo\n
+punto del programma.\n
+Verificare i nomi degli oggetti.
+117:
+Errore di definiz. tipo\n
+Task %.16s: nome\n
+fittizio del componente record non\n
+consentito nella definizione del\n
+record\n
+\t\n
+Completare la definzione o modificare\n
+il nome del dato.
+118:
+Non autorizzato\n
+Task %.16s: La funzione:\n
+I tipi di dati definiti dall'utente\n
+non sono supportati in questo sistema\n
+\t\n
+Installare l'opzione Funzioni di\n
+Sviluppo nel sistema
+119:
+Errore di riferimento\n
+Task %.16s:\n
+Impossibile usare il tipo semi-valore\n
+%.16s per componenti\n
+di record\n
+\t\n
+
+120:
+Errore di riferimento\n
+Task %.16s: Rif. non permesso\n
+per installare il task in oggetto\n
+%.16s da oggetto condiviso\n
+\t\n
+Installare l'oggetto rif. condiviso, o\n
+installare l'oggetto/archivio rif. ReaL\n
+o il modulo RAPID in ogni task\n
+(non condiviso).
+141:
+Errore di argomento\n
+Task %.16s: argomento\n
+del parametro 'PERS' %.16s\n
+non e' persistente o e' di solo lettura\n
+\t\n
+Verificare che l'espressione dell'arg.\n
+sia persistente o rifer. a parametro\n
+persistente e che sia scrivibile.\n
+Non usare () intorno all'argomento.\n
+
+142:
+Errore di argomento\n
+Task %.16s: argomento\n
+per il parametro 'VAR' %.16s\n
+non e' rifer. a variabile o e' di\n
+solo lettura\n
+\t\n
+Verificare che l'espressione dell'arg.\n
+sia variabile o rifer. a parametro\n
+variabile e che sia scrivibile.\n
+Non utilizzare () intorno all'argomento
+157:
+Errore di istruzione\n
+Task %.16s:numero\n
+di interrupt non ha riferimento a una\n
+variabile statica, è condiviso o in\n
+sola lettura\n
+\t\n
+Verificare che il numero di interrupt\n
+sia solo una variabile o riferimento\n
+a param. variabile. La variabile deve\n
+essere statica e non condivisa\n
+Non può essere in sola lettura.
+158:
+Errore di valore\n
+Task %.16s: valore\n
+intero %G troppo grande\n
+\t\n
+Il valore dell'espressione deve essere\n
+intero e non al di fuori dei suoi\n
+limiti.
+159:
+Errore di valore\n
+Task %.16s: %G non\n
+valore intero\n
+\t\n
+Il valore dell'espressione deve avere\n
+un valore intero. Non deve avere\n
+una frazione.
+165:
+Errore di riferimento\n
+Task %.16s: riferimento\n
+a un dato intero %.16s\n
+sconosciuto\n
+\t\n
+Nessun dato (o altro oggetto) con il\n
+nome specificato e' visibile da\n
+questa posizione del programma.
+166:
+Errore di riferimento\n
+Task %.16s: riferimento\n
+a funzione %.16s\n
+sconosciuta\n
+\t\n
+Nessuna funzione (o altro oggetto) con\n
+il nome specificato e' visibile da\n
+questa posizione del programma.
+168:
+Errore di riferimento\n
+Task %.16s: riferimento\n
+a procedura %.16s\n
+sconosciuta\n
+\t\n
+Nessuna procedura (o altro oggetto) con\n
+il nome specificato e' visibile da\n
+questa posizione del programma.
+170:
+Errore di riferimento\n
+Task %.16s: riferimento\n
+a trap %.16s\n
+sconosciuta\n
+\t\n
+Nessuna trap (o altro oggetto) con\n
+il nome specificato e' visibile da\n
+questa posizione del programma.
+191:
+Errore di istruzione\n
+Task %.16s: variabile e\n
+sotprog trap gia' connesse\n
+\t\n
+Tentativo di legare una variabile ad\n
+un sotprog trap gia' connesse.
+192:
+Errore di argomento\n
+Task %.16s: %.16s\n
+e' il secondo argomento condizionale\n
+presente per parametri esclusivi\n
+\t\n
+Gli argomenti non devono essere\n
+presenti in piu' di un parametro da\n
+una lista parametri che ne esclude\n
+un altro.
+193:
+Errore di esecuzione\n
+Task %.16s: errore %i\n
+nel richiamo di una procedura\n
+\t\n
+Errore nella richiamo di una\n
+procedura. Vedere il precedente\n
+messaggio per la causa attuale.
+194:
+Errore di valore\n
+Task %.16s: divisione\n
+per zero\n
+\t\n
+Impossibile dividere per zero.\n
+Riscrivere il programma in modo che\n
+l'operazione di divisione non viene\n
+eseguita quando il divisore e' zero.
+195:
+Errore di limite\n
+Task %.16s: eccedente\n
+numero massimo %i di RETRY\n
+consentiti\n
+\t\n
+Correzione dell'errore eseguita prima\n
+dell'istruzione RETRY probabilmente\n
+non e' sufficiente a ripristinare\n
+l'errore. Verificare la gestione\n
+errori.
+196:
+Errore di istruzione\n
+Task %.16s: tentativo\n
+di eseguire un nome fittizio\n
+\t\n
+Togliere il nome fittizio o l'istruz.\n
+che lo contiene oppure completare\n
+l'istruzione. Quindi continuare\n
+l'esecuzione.
+197:
+Errore di esecuzione\n
+Task %.16s: la funzione\n
+non ritorna alcun valore\n
+\t\n
+La fine di una funzione e' stata\n
+raggiunta senza l'esecuzione della\n
+istruzione RETURN. Aggiungere RETURN\n
+specificando un valore di ritorno\n
+della funzione.
+198:
+Errore di valore\n
+Task %.16s: valore\n
+orientamento\n
+%.40s\n
+non corretto\n
+\t\n
+Tentativo di utilizzare un valore non\n
+corretto di orientamento (quaternioni).
+199:
+Errore di valore\n
+Task %.16s: numero di\n
+errore %i non corretto\n
+nell'istruzione RAISE\n
+\t\n
+Sono consentiti nell'istruzione RAISE\n
+solo i numeri di errore compresi\n
+tra 1-99.
+200:
+Errore di limite\n
+Task %.16s: numero di\n
+interrupt non piu' disponibili\n
+\t\n
+I numeri di interrupt disponibili sono\n
+limitati. Riscrivere il programma o\n
+ridurre gli interrupt. Questo messaggio\n
+puo' anche verificarsi come conseguenza\n
+di un errore sistema.
+201:
+Errore di valore\n
+Task %.16s: operando\n
+negativo %i non consentito\n
+\t\n
+L'operatore 'MOD' consente solo\n
+operandi non negativi.\n
+Modificare il programma.
+202:
+Errore di tipo\n
+Task %.16s: dimensioni\n
+%i e %i del numero dimensione\n
+matrice %i sono incompatibili.\n
+\t\n
+La matrice non e' della grandezza\n
+desiderata. L'assegnazione a matrice\n
+puo' solo essere fatta con matrici di\n
+forma identica.\n
+
+203:
+Errore di riferimento\n
+Task %.16s: parametro\n
+opzionale %.16s non\n
+presente\n
+\t\n
+Il valore di un parametro opzionale\n
+non presente puo' non essere riferito.\n
+Scegliere la funzione 'Present' per\n
+controllare la presenza del parametro\n
+prima di utilizzare il suo valore.
+204:
+Errore di valore\n
+Task %.16s: l'indice\n
+matrice %i per il numero\n
+dimensione %i\n
+fuori limite (1-%i)\n
+\t\n
+Il valore indice matrice non e'\n
+positivo oppure eccede la grandezza\n
+dichiarata della matrice.
+205:
+Errore di valore\n
+Task %.16s: stringa\n
+troppo lunga\n
+\t\n
+Il valore della stringa supera la\n
+lunghezza massima consentita.\n
+Riscrivere il programma.
+206:
+Interrupt queue full\n
+Task %.16s:\n
+To many interrupts occured while\n
+executing a trap routine. Probably\n
+cause, to slow Trap routine or/and too\n
+many subsequently interrupts.\n
+\t\n
+Proposal:\n
+1. Minimize execution time in the Trap\n
+   routine.\n
+2. Disable interrupts while executing\n
+   a Trap routine (ISleep\IWatch).
+221:
+Errore di esecuzione\n
+Task %.16s: esecuzione\n
+negata\n
+\t\n
+L'esecuzione e' stata negata causa\n
+un errore fatale.
+222:
+Errore di limite\n
+Task %.16s: esecuzione\n
+in overflow\n
+\t\n
+Il programma e' troppo complesso per\n
+essere eseguito.\n
+
+223:
+Errore di esecuzione\n
+Task %.16s: errore\n
+fatale runtime\n
+\t\n
+Verificatosi errore fatale.\n
+Gli errori fatali runtime causano una\n
+immediata fine dell'esecuzione.
+224:
+Errore di esecuzione\n
+Task %.16s: codice di\n
+ritorno %i dal sotprog ReaL\n
+non corretto\n
+\t\n
+Questo e' sempre causato da un\n
+errore interno nel sotprog ReaL.
+225:
+Errore di esecuzione\n
+Task %.16s: l'esecuz.\n
+non puo' essere riavviata\n
+\t\n
+L'esecuzione non puo' essere continuata\n
+dopo la mancanza di alimentazione.\n
+Riavviare il programma.
+226:
+Errore di nome\n
+Task %.16s: nome proc.\n
+%.40s\n
+non e' un identificatore RAPID\n
+escludendo le parole riservate\n
+\t\n
+Il nome procedura deve essere un\n
+corretto identificatore RAPID diverso\n
+dalle parole riservate del linguaggio\n
+RAPID. Modificare il nome\n
+dell'espressione.
+227:
+Errore di limite\n
+Task %.16s: Runtime\n
+in overflow\n
+\t\n
+Il programma e' troppo complesso per\n
+essere eseguito.
+228:
+Errore di esecuzione\n
+Task %.16s: errore\n
+runtime non fatale %i\n
+non gestibile\n
+\t\n
+Un errore runtime non fatale si e'\n
+verificato, ma non era gestibile da\n
+alcuna clausola ERROR. Vedere il\n
+precedente messaggio per la causa\n
+attuale.
+229:
+Errore di esecuzione\n
+Task %.16s: errore\n
+%i raise non gestibile\n
+\t\n
+Errore incrementato dall'istruzione\n
+RAISE, ma non gestibile da alcuna\n
+clausola ERROR.
+230:
+Errore di esecuzione\n
+Task %.16s: errore\n
+runtime non fatale\n
+\t\n
+Un errore runtime non fatale si e'\n
+verificato, ma non era gestibile da\n
+alcuna clausola ERROR.
+241:
+Errore di valore\n
+Task %.16s: numero\n
+dimensione matrice %G\n
+fuori limite (1-%i)\n
+\t\n
+Il valore del parametro 'DimNo' della\n
+funzione 'Dim' deve avere valore intero\n
+nei limiti specificati.
+242:
+Errore di tipo\n
+Task %.16s: il dato\n
+non e' una matrice\n
+\t\n
+Il parametro 'DatObj' della funzione\n
+'Dim' deve essere una matrice.
+243:
+Errore di valore\n
+Task %.16s: numero\n
+di interrupt sconosciuto\n
+\t\n
+Verificare che la variabile interrupt\n
+specificata sia stata inizializzata\n
+con CONNECT e l'interrupt definito\n
+utilizzando le istruz. di definizione\n
+interrupt ISignalDI o altre.
+251:
+Errore di nome\n
+Task %.16s: nome\n
+simbolo %.16s\n
+ambiguo\n
+\t\n
+Gli oggetti inseriti devono avere nomi\n
+unici. Modificare il nome.
+252:
+Errore di limite\n
+Task %.16s: errore\n
+%i nella creazione di sdb\n
+per %.16s\n
+\t\n
+Errore verificatosi nell'inserimento\n
+di un dato persistente in un database.\n
+Probabilmente il database e' pieno.
+253:
+Errore di definiz. tipo\n
+Task %.16s: pseudonimo\n
+%.16s del pseudonimo\n
+%.16s non consentito\n
+\t\n
+Non e' possibile defin. uno pseudonimo\n
+di tipo uguale ad un altro tipo di\n
+pseudonimo. Invece definire due\n
+pseudonimi di tipo uguale allo stesso\n
+tipo di record o atomico.
+254:
+Errore di defin. simbolo\n
+Task %.16s: parametro\n
+'ANYTYPE#' %.16s\n
+non puo' essere dimensionato.\n
+\t\n
+Eliminare la specif. della dimensione.\n
+'ANYTYPE#' include i tipi di matrice.
+255:
+Errore di defin. simbolo\n
+Task %.16s: 'ANYTYPE#'\n
+consentito solo per parametro\n
+(non per %.16s)\n
+\t\n
+Utilizzare un altro tipo.
+256:
+Errore parametro\n
+Task %.16s: 'alt' non\n
+deve essere definito come primo\n
+parametro opzionale %.16s\n
+nella lista alternativi\n
+\t\n
+Verificare che solo il secondo e i\n
+successivi nella lista dei parametri\n
+opzionali esclusivi siano definiti\n
+come alternativi.
+257:
+Errore parametro\n
+Task %.16s: parametro\n
+modo REF %.16s non puo'\n
+essere dimensionato\n
+\t\n
+Eliminare la specifica della\n
+dimensione matrice o modificare il\n
+modo del parametro.
+258:
+Errore parametro\n
+Task %.16s: parametro\n
+'switch' %.16s non puo'\n
+essere dimensionato\n
+\t\n
+Eliminare la specifica della\n
+dimensione matrice o modificare il tipo\n
+di dato del parametro.\n
+
+259:
+Errore parametro\n
+Task %.16s: parametro\n
+'switch' %.16s deve\n
+avere modo trasferim. IN (valore %i\n
+specificato)\n
+\t\n
+Eliminare il modo trasferim. del\n
+parametro. Se modo transfer IN non e'\n
+sufficiente, modificare il tipo di\n
+dato del parametro.
+260:
+Errore di defin. simbolo\n
+Task %.16s: 'switch' e'\n
+solo consentito per parametro\n
+opzionale\n
+(non per %.16s)\n
+\t\n
+Modificare il parametro in un parametro\n
+opzionale o il tipo di dato del\n
+parametro. Se l'oggetto non e' un\n
+parametro, modificare il tipo di dato.
+261:
+Errore di defin. tipo\n
+Task %.16s: il tipo di\n
+classe del valore %.16s\n
+deve essere uno dei seguenti\n
+REAL_SYMVALTYP_VAL, _SEMIVAL, _NONVAL o\n
+_NONE (valore %i specificato)\n
+\t\n
+Modificare il tipo di classe del\n
+valore.
+262:
+Errore di dichiar. dato\n
+Task %.16s: troppe\n
+dimensioni matrice per\n
+%.16s (valore %i\n
+specificato)\n
+\t\n
+Una matrice puo' avere 3 dimensioni.
+263:
+Errore di nome\n
+Task %.16s: il nome\n
+del simbolo\n
+%.40s\n
+non e' un identificatore RAPID\n
+escludendo le parole riservate.\n
+\t\n
+I nomi degli oggetti inseriti,\n
+comprendenti parametri e componenti,\n
+devono essere identificatori RAPID\n
+diversi dalle parole riservate del\n
+linguaggio RAPID. Modificare il nome.
+264:
+Errore di defin. simbolo\n
+Task %.16s: funzione\n
+C inesistente per %.16s\n
+\t\n
+Una funzione C, che esegue una funzione\n
+definita ReaL, deve essere specificata.
+265:
+Errore di defin. simbolo\n
+Task %.16s: funzione\n
+valore di inizializzazione\n
+inesistente per %.16s\n
+\t\n
+Specificare funzione valore di\n
+inizializzazione.
+266:
+Errore di riferimento\n
+Task %.16s: %.16s\n
+non e' un nome tipo dato (oggetto\n
+%.16s)\n
+\t\n
+Il nome specificato identifica un\n
+oggetto anziche' un tipo.
+267:
+Errore di riferimento\n
+Task %.16s: %.16s\n
+non e' tipo dato valore (oggetto\n
+%.16s)\n
+\t\n
+Solo i componenti record, tipo\n
+pseudonimi, variabili e parametri modo\n
+'VAR' devono essere del tipo\n
+semi-valore o non valore.
+268:
+Errore di defin. simbolo\n
+Task %.16s: funzione\n
+conversione valore inesistente\n
+per %.16s\n
+\t\n
+Una funzione conversione valore deve\n
+essere specificata per un tipo\n
+semi-valore.
+269:
+Errore di defin. simbolo\n
+Task %.16s: memoria non\n
+sufficiente per valori del dato\n
+%.16s\n
+\t\n
+Necessaria piu' memoria.
+270:
+Errore di definiz. tipo\n
+Task %.16s: tipo privato\n
+%.16s puo' essere solo\n
+del tipo semi-valore o non valore\n
+(valore %i specificato)\n
+\t\n
+Modificare la classe del tipo valore.
+271:
+Errore di definiz. tipo\n
+Task %.16s: la grandezza\n
+del tipo privato %.16s\n
+deve essere multipla di 4\n
+(valore %i specificato)\n
+\t\n
+Tutti i tipi RAPID devono avere una\n
+grandezza che e' multipla di 4.\n
+Modificarla.
+272:
+Errore di tipo\n
+Task %.16s: incongruenza\n
+tipo persistente\n
+per %.16s\n
+\t\n
+Esiste gia' un dato persistente avente\n
+lo stesso nome di un altro tipo di\n
+dato. Modificare il persistente o il\n
+suo tipo di dato.
+273:
+Errore di riferimento\n
+Task %.16s: nome tipo\n
+dato %.16s sconosciuto\n
+per %.16s\n
+\t\n
+Non esiste tipo dato (o altri oggetti)\n
+con il nome specificato.
+274:
+Errore parametro\n
+Task %.16s: modo %i\n
+trasfer. parametri sconosciuto\n
+per %.16s\n
+\t\n
+Il modo trasfer. parametri specificato\n
+non e' del tipo IN, 'VAR', 'PERS',\n
+'INOUT' or REF.\n
+Utilizzare il  corrispondente\n
+REAL_SYMPARMOD_x.
+275:
+Errore di defin. simbolo\n
+Task %.16s: tipo defin.\n
+simbolo %i sconosciuto\n
+\t\n
+Il tipo di definizione simbolo tag\n
+non specifica uno dei tipi di\n
+simbolo consentiti (REAL_SYMDEF_x).
+276:
+Errore definiz. simbolo\n
+Task %.16s: La funzione\n
+di inizializzazione non puo' essere\n
+specificata per la variable condivisa\n
+%.16s con valore nei task\n
+\t\n
+Rimuovere la funzione di inizializzaz.\n
+installare la variabile in tutti i task\n
+o renderne condiviso il valore\n
+
+301:
+I/O error\n
+Task %.16s: Permission denied\n
+(file name\n
+%.39s)\n
+\t\n
+
+302:
+Errore I/O\n
+Task %.16s: nessun file\n
+o direttorio specificato (nome file\n
+%.39s)\n
+\t\n
+
+303:
+Errore I/O\n
+Task %.16s: spazio non\n
+sufficiente (nome file\n
+%.39s)\n
+\t\n
+
+304:
+Errore I/O\n
+Task %.16s: errore I/O\n
+%! (nome file\n
+%.39s)\n
+\t\n
+
+321:
+Errore overlay\n
+Task %.16s: modulo\n
+%.16s attivo\n
+\t\n
+Un modulo contenente sotprog o dati\n
+che sono ancora attivi non possono\n
+essere cancellati.
+322:
+Errore overlay\n
+Task %.16s: errore di\n
+sintassi RAPID nel file\n
+%.39s\n
+\t\n
+Il file sorgente da caricare contiene\n
+errori di sintassi RAPID. Correggere\n
+il file. Gli errori di sintassi sono\n
+registrati in un file separato.\n
+
+323:
+Errore overlay\n
+Task %.16s: errore di\n
+sintassi nel file header\n
+%.39s\n
+\t\n
+Il file sorgente da caricare contiene\n
+errori di sintassi nel file header.\n
+Correggere il file sorgente.\n
+Gli errori di sintassi sono registrati\n
+in un file separato.
+324:
+Errore overlay\n
+Task %.16s: parole\n
+chiave non definite nella lingua\n
+locale (file\n
+%.39s)\n
+\t\n
+Non e' possibile caricare codici\n
+sorgenti RAPID nella lingua locale\n
+specificata nel file header.
+325:
+Errore overlay\n
+Task %.16s: spazio\n
+non sufficiente\n
+\t\n
+Spazio di memoria non sufficiente.
+326:
+Errore overlay\n
+Task %.16s: parser stack\n
+pieno(file\n
+%.39s)\n
+\t\n
+Porogramma troppo complesso da\n
+caricare.
+327:
+Errore overlay\n
+Task %.16s: versione\n
+RAPID non aggiornata (file\n
+%.39s)\n
+\t\n
+Impossibile caricare codice sorgente\n
+RAPID della versione specificata\n
+nel file header.
+351:
+Errore locazione memoria\n
+Task %.16s: errore\n
+nella locazione dati.\n
+Utilizzare lista lineare.\n
+\t\n
+
+352:
+Errore locazione memoria\n
+Task %.16s: errore\n
+nell'aggiornamento espressioni\n
+persistenti. Mantenere la precedente.\n
+\t\n
+
+501:
+Timeout\n
+%s\n
+%s\n
+\t\n
+
+502:
+Inter. input digitale\n
+%s\n
+%s\n
+\t\n
+
+503:
+Errore di riferimento\n
+Il dispositivo descrit.\n
+e' %s\n
+\t\n
+
+504:
+Errore Parametro\n
+%s\n
+\t\n
+%s
+505:
+Errore accesso file\n
+%s\n
+%s\n
+\t\n
+
+506:
+Errore accesso al sistema\n
+%s\n
+%s\n
+\t\n
+
+507:
+Errore di limite\n
+%s\n
+\t\n
+
+508:
+Valore orient. non corr.\n
+in %s\n
+\t\n
+
+509:
+Avviso per Ricerca\n
+%s\n
+Assicurarsi che il TCP sia\n
+stato spostato al punto iniziale\n
+del tratto di ricerca, prima di\n
+eseguirla nuovamente.\n
+\t\n
+Se non viene eseguito nessun\n
+riposizionamento, il robot potrebbe\n
+causare dei danni.
+510:
+Avviso di sicurezza\n
+L'istruz. di movim. non puo' essere\n
+riavviata per problemi di sicurezza.\n
+Provare a muovere il PP.\n
+\t\n
+
+511:
+Errore Parametro\n
+Il parametro %.16s\n
+in %.16s e' specificato\n
+con un valore negativo\n
+\t\n
+Il parametro deve essere positivo.
+512:
+Valore asse est. mancante\n
+Alcuni assi esterni attivi\n
+hanno un valore non corretto.\n
+Riprogrammare il posizionamento.\n
+\t\n
+
+513:
+Errore unita' meccanica\n
+Impossibile attivare o disattivare\n
+l'unita' meccanica.\n
+\t\n
+
+514:
+Errore esecuzione\n
+Impossibile recuperare il percorso\n
+utilizzando l'istruzione StartMove\n
+essendo il robot troppo lontano.\n
+\t\n
+Partire dall'inizio del movimento\n
+interrotto nel programma.
+515:
+Errore di tipo\n
+Task %s: tipo di dato non corretto\n
+dell'argomento per il parametro\n
+%s\n
+\t\n
+
+516:
+Errore di valore\n
+Task %s: valore non corretto\n
+dell'argomento per il parametro\n
+%s\n
+\t\n
+
+517:
+Errore di ricerca\n
+%s\n
+Ricerca non avvenuta o piu' tentativi\n
+eseguiti durante l'esecuz. passo-passo.\n
+L'istruzione successiva puo' essere\n
+eseguita.\n
+\t\n
+Assicurarsi che nessuna posizione sia\n
+stata letta dall' istruz. di ricerca.
+518:
+Errore di tipo\n
+%s\n
+%s\n
+\t\n
+%s
+600:
+Errore argomento\n
+Specificare \WObj mancante per movim.\n
+con TCP esterno.\n
+\t\n
+Aggiung. argomento \WObj per il\n
+work object utilizzato.\n
+Se non viene utilizzato il TCP esterno\n
+modificare l'argomento Tool in\n
+"robot holds the tool".
+601:
+Errore argomento\n
+Non definito se il robot porta\n
+il tool o il work object.\n
+\t\n
+Verificare l'incongruenza per il\n
+dato robothold tra argomento Tool\n
+ed argomento \ WObj.
+602:
+Errore argomento\n
+L'argomento %s ha\n
+almeno un dato con valore\n
+negativo.\n
+\t\n
+Modificare i dati dell'argomento\n
+%s affinche' siano\n
+tutti positivi.
+603:
+Errore argomento\n
+Impossibile dare all'argomento\n
+%s un valore negativo.\n
+\t\n
+Definire positivo\n
+l'argomento %s.
+604:
+Errore argomento\n
+Massa utensile non definita\n
+nell'argomento Tool.\n
+\t\n
+Definire la massa utensile prima di\n
+attivarlo per movim. manuale o prog.\n
+di movimento.
+605:
+Errore argomento\n
+Valore massa utensile negativo\n
+nell'argomento Tool.\n
+\t\n
+Definire un corretto valore del tool\n
+prima di attivarlo per movim. manuale\n
+o prog. di movimento.
+606:
+Errore argomento\n
+L'argomento Tool ha almeno un dato\n
+di inerzia con valore negativo.\n
+\t\n
+Definire tutti i dati di inerzia\n
+(ix, iy o iz) con valori positivi.
+607:
+Errore esecuzione\n
+Impossibile modif. modalita' di\n
+esecuzione SUCC/PREC o viceversa\n
+durante interpolazione circolare.\n
+\t\n
+Se possibile, selezionare l'originale\n
+modalita' di esecuzione e continuare\n
+l'interpolaz. circolare interrotta.\n
+Altrimenti spostare il robot e il PP\n
+per un nuovo Start.
+608:
+Errore argomento\n
+Errore definizione orientamento\n
+in %s.\n
+\t\n
+Verificare orientamenti utilizzati\n
+La somma dei quadrati dei singoli\n
+elementi deve essere uguale ad 1.
+609:
+Errore argomento\n
+L'argomento \WObj specifica un'unita'\n
+meccanica con nome troppo lungo.\n
+\t\n
+Max lunghezza nome 16 caratteri.
+610:
+Errore argomento\n
+L'argomento \WObj specifica un'unita'\n
+meccanica non attivata o non\n
+riconosciuta dal sistema.\n
+\t\n
+Il nome dell'unita' meccanica, che deve\n
+essere attivata, definito in \WObj,\n
+deve corrispondere ad un nome definito\n
+nei parametri di sistema.
+611:
+Errore esecuzione\n
+Impossibile eseguire all'indietro\n
+questa istruzione di movimento.\n
+\t\n
+L'esecuzione all'indietro di un\n
+movimento ad un punto definito con un\n
+differente tool o work object puo'\n
+risultare in un percorso errato.
+612:
+Errore argomento\n
+Nessun argomento programmato per\n
+il nome del segnale output.\n
+\t\n
+Possibile definire una pos. fix IO\n
+come digitale, gruppo digitale\n
+o output analogico durante il\n
+movimento del robot.
+613:
+Errore argomento\n
+Un argomento opzionale %s\n
+puo' essere solo in combinazione con\n
+argomento %s segnale output.\n
+\t\n
+
+614:
+Errore argomento\n
+L'argomento %s\n
+non e' 0 o 1.\n
+\t\n
+I segnali output digitali possono\n
+essere solo 0 o 1.
+615:
+Errore argomento\n
+L'argomento %s\n
+non e' un valore intero.\n
+\t\n
+Porta digitale o segnali digitali,\n
+identity processo o selettore processo\n
+possono avere solamente valori interi.
+616:
+Errore argomento\n
+L'argomento %s e' fuori\n
+dai limiti consentiti.\n
+\t\n
+Segnali gruppo output digitali\n
+possono avere un valore da 0 a %s\n
+facendo riferimento alla loro config.\n
+nei parametri di sitema.
+617:
+Errore argomento\n
+L'argomento %s e' fuori\n
+dai limiti consentiti.\n
+\t\n
+Segnali output analogici utilizzati\n
+possono avere valore da %s\n
+a %s facendo riferimento\n
+alla loro configurazione nei\n
+parametri di sitema.
+618:
+Errore argomento\n
+L'argomento %s contiene\n
+un numero interrupt non consentito.\n
+\t\n
+Il numero di input interrupt non e'\n
+consentito perche' non inserito\n
+nell'istruzione CONNECT.\n
+L'istruzione CONNECT collega il\n
+segnale interrupt con il sotprog trap.
+619:
+Errore argomento\n
+L'argomento %s contiene\n
+un numero di interrupt gia' utilizzato\n
+\t\n
+Prima di riutilizzare una variabile\n
+interrupt nel programma,\n
+cancellare la precedente\n
+con l'istruzione IDelete.
+622:
+Errore argomento\n
+Il valore dell'arg. Time in ITimer\n
+ha valore troppo basso\n
+per interrupts ciclici.\n
+\t\n
+
+623:
+Errore argomento\n
+Il valore dell'arg. Time in ITimer ha\n
+valore troppo basso per\n
+interrupts singoli.\n
+\t\n
+
+631:
+Errore istruzione\n
+Troppe istruzioni di movimento\n
+in sequenza con esecuzione programma\n
+'Concurrent'.\n
+\t\n
+Modificare il programma;\n
+e' possibile utilizzare al max nr 5\n
+MoveX con argomento Conc.
+632:
+Errore istruzione\n
+Non e' possibile utiliz. istruzioni di\n
+movimento con argomento Conc con\n
+istruzioni StorePath-RestoPath nel\n
+programma.\n
+\t\n
+Modificare il programma, cancellando\n
+le istruzioni MoveX con argomento\n
+Conc dove vi sono le istruzioni\n
+StorePath -RestoPath.
+633:
+Errore di riferimento\n
+Parametro Trigg nr %s fa riferimento\n
+ad un dato trigg non definito.\n
+\t\n
+Definire il dato trigg da inserire\n
+nelle istruzioni TriggIO, TriggInt,\n
+TriggEquip o TriggSpeed\n
+prima di TriggL, TriggC o TriggJ.
+634:
+Errore di riferimento\n
+Il segnale di riferimento nel\n
+parametro %s non e'\n
+riconosciuto dal robot.\n
+\t\n
+Tutti i segnali devono essere\n
+definiti nei parametri di sistema\n
+e non durante la scrittura\n
+del programma.
+635:
+Errore di riferimento\n
+L'argomento di riferimento nel param.\n
+%s non e' variabile intera\n
+persistente.\n
+\t\n
+Non e' possibile utilizzare componente\n
+record o elemento matrice nell'argom.\n
+%s. Utilizzare nelle istruzioni di\n
+movimento solo variabili intere pers.\n
+per Tool, WObj o Load.
+636:
+Errore sensore\n
+Nessuna misura dal sensore.\n
+\t\n
+Il dato richiesto non e' disponibile.
+637:
+Errore sensore\n
+Lettura non pronta.\n
+\t\n
+La funzione richiesta non e' ancora\n
+pronta.
+638:
+Errore sensore\n
+Errore generale.\n
+\t\n
+Si e' verificato un errore generale il\n
+quale non e'specificatamente collegato\n
+all'azione richiesta. Leggere 'Error\n
+log' se la funzione e' disponibile.
+639:
+Errore sensore\n
+Sensore impegnato, riprovare.\n
+\t\n
+Il sensore e' impegnato in un altra\n
+funzione.
+640:
+Errore sensore\n
+Comando non riconosciuto.\n
+\t\n
+La funzione richiesta dal sensore non\n
+e' stata riconosciuta.
+641:
+Errore sensore\n
+Variabile o numero di blocco\n
+non corretto.\n
+\t\n
+La variabile o il blocco richiesto non\n
+sono definiti nel sensore.
+642:
+Errore sensore\n
+Allarme esterno\n
+\t\n
+Allarme dall'apparecchiatura esterna.
+643:
+Errore sensore\n
+Allarme telecamera\n
+\t\n
+Alcuni errori sono stati riscontrati\n
+nella telecamera. Eseguire Camcheck\n
+per verificare se la telecamera e' OK.
+644:
+Errore sensore\n
+Allarme di temperatura\n
+\t\n
+La telecamera si e' surriscaldata per\n
+cui necessita maggior raffredamento.
+645:
+Errore sensore\n
+Valore fuori limite.\n
+\t\n
+Il valore del dato trasferito al\n
+sensore e' fuori limite.
+646:
+Errore sensore\n
+Errore verifica telecamera.\n
+\t\n
+La funzione Camcheck ha riscontrato\n
+che la telecamera e' guasta.\n
+Sostituirla.
+647:
+Errore sensore\n
+Comunicazione fuori tempo max.\n
+\t\n
+Aumentare il tempo limite e verificare\n
+le connessioni al sensore.
+648:
+Errore di ricerca\n
+Non e' possibile eseguire StorePath\n
+mentre si e' in ricerca.\n
+\t\n
+Gli interrupts devono essere\n
+disattivati durante la ricerca, se si\n
+utilizzano programmi con posizioni\n
+nei sotprog TRAP.\n
+Es. ISleep - SearchL - IWatch
+649:
+Errore limite percorso\n
+%s gia' eseguito\n
+\t\n
+L'istruzione %s deve essere\n
+eseguita prima che una nuova\n
+%s possa essere fatta.
+650:
+Errata combin. parametri\n
+I parametri opzionali e switches\n
+non sono utilizzati nella corretta\n
+combinazione.\n
+\t\n
+Nessun parametro opzionale e switch\n
+mantiene il vecchio sistema di coord.\n
+Lo switch Old ha la stessa funzione.\n
+RefPos o RefNum devono essere definiti\n
+con Short, Succ o Prec.
+651:
+Utilzz. input numerici\n
+Utilizzare input numerici per la\n
+posizione invece di un robtarget.\n
+\t\n
+La posizione non puo' essere definita\n
+con un robtarget per assi robot.\n
+Utilizzare il parametro opzionale\n
+per input numerici di posizione.
+652:
+Asse in movimento\n
+Un asse robot, un asse esterno o\n
+un asse indipendente si sta muovendo.\n
+\t\n
+Tutti gli assi, robot o esterni o\n
+indipendenti devono ancora fermarsi.\n
+Utilizzare MoveL con argomento Fine per\n
+assi robot ed esterni e IndRMove per\n
+assi indipendenti.
+653:
+Switch non disponibile\n
+Uno dei parametri switch %s\n
+o %s deve essere definito.\n
+\t\n
+
+654:
+Asse non attivo\n
+L'asse non e' attivato o\n
+non e' stato definito.\n
+\t\n
+L'unita' meccanica deve essere attivata\n
+e l'asse definito, prima che questa\n
+istruzione sia eseguita e un robtarget\n
+memorizzato.
+655:
+Asse non indipendente\n
+L'asse non e' in modo indipendente.\n
+\t\n
+E' possibile avere lo stato solo\n
+da un asse indipendente.
+656:
+Errore di esecuzione\n
+Non e' possibile definire una nuova\n
+scala valori per il segnale AO.\n
+\t\n
+Il processo interno, che controlla\n
+l'uscita per il segnale AO, e' per\n
+qualche ragione sconosciuta 'bloccato'.
+657:
+Errore di esecuzione\n
+L'uscita del segnale AO non e' piu'\n
+proporzionale alla velocita' del TCP.\n
+Le ragioni potrebbero essere le\n
+seguenti:\n
+\t\n
+- Util. di MoveX tra istruz. Triggx\n
+- Nessuna defin. di TriggSpeed nella\n
+  istruz. TriggX\n
+- Il valore ScaleLag e' troppo piccolo\n
+  in relazione al robot servo lag.
+658:
+Errore parametro\n
+Il parametro %s puo' solo essere\n
+utilizzato se il parametro %s\n
+e' maggiore di zero.\n
+\t\n
+Il parametro %s ha effetto solo\n
+nel primo TriggX, in una sequenza di\n
+diversi TriggX, che controllano il\n
+segnale AO proporzionale alla\n
+velocita'.
+659:
+Undefined load\n
+WARNING: Argument %.16s has\n
+undefined load (mass equal to 0 kg).\n
+IMPORTANT TO DEFINE CORRECT LOAD to\n
+avoid mechanical damages of the robot\n
+and to get good motion performance.\n
+\t\n
+Define the actual load for the tool\n
+or the grip load before program\n
+movement or jogging.
+660:
+Carico non definito\n
+WARNING: Per %.16s\n
+non è definito il baricentro del carico\n
+E' IMPORTANTE UNA DEFINIZIONE CORRETTA\n
+DEL CARICO per evitare danni meccanici\n
+al robot ed ottenere buone prestazioni.\n
+\t\n
+Definire correttamente il baricentro\n
+del carico prima di eseguire un\n
+programma o muovere il robot in manuale\n
+(cog.x, cog.y e cog.z non possono essere\n
+tutti posti a 0 mm contemporaneamente).
+661:
+Errore di ricerca\n
+Il segnale %.16s\n
+per l'istruzione di SearchX e' gia'\n
+alto prima che la ricerca cominci.\n
+\t\n
+
+662:
+Tipo worldzone non valido\n
+L'opzione \%.16s deve essere\n
+associata alla worldzone\n
+%.16s\n
+\t\n
+Per fare uso dell'opzione \Temp,\n
+il tipo di dato deve essere wztemporary\n
+nella WorldZone.\n
+Per fare uso dell'opzione \Stat, il tipo\n
+di dato deve essere wzstationary.
+663:
+World zone non usata\n
+L'argomento '%.16s'\n
+dell'istruzione %.16s\n
+deve riferisi a una worldzone definita\n
+e attivata con un'istruzione\n
+WZLimSup o WZDOSet\n
+\t\n
+
+664:
+World zone gia' in uso\n
+La worldzone '%.16s'\n
+e' gia' stata definita ed attivata.\n
+Una world zone puo' essere definita\n
+una volta sola.\n
+\t\n
+Usare una worldzone con un altro nome.
+665:
+Troppe world zone\n
+Impossibile aggiungere la world\n
+zone %.16s.\n
+L'elenco delle world zone e' completo\n
+\t\n
+
+666:
+World zone illegali\n
+La worldzone '%.16s' e'\n
+definita localmente nella procedura\n
+corrente o nel corrente modulo\n
+\t\n
+E' possibile utilizzare solo un\n
+argomento world zone di tipo intero\n
+e globale.
+667:
+World zone illegali\n
+Task %.16s:\n
+La worldzone %.16s\n
+non ha riferimento a un dato intero.\n
+\t\n
+E' possibile utilizzare solo un\n
+argomento world zone di tipo intero\n
+e globale.
+668:
+shapedata non utilizzato\n
+L'argomento '%.16s'\n
+nell'istruzione %.16s deve\n
+deve riferirsi a shapedata\n
+gia' definiti.\n
+\t\n
+Un dato shapedata si usa per memorizzare\n
+una definizione di volume. Dve essere\n
+definito da WZBoxDef, WZSphDef o\n
+WZCylDef prima di essere usato da\n
+WZLimSup o WZDOSet.
+669:
+Errata definiz. di volume\n
+Il dato shapedata nell'istruzione\n
+%.16s non definisce\n
+un volume valido.\n
+\t\n
+Verificare la precedente definizione\n
+di volume.
+670:
+World zone non valida\n
+L'indice dell'argomento della world zone\n
+%.16s in %.16s\n
+non e' un indice valido definito per\n
+mezzo di WZLimSup o WZDOSet.\n
+\t\n
+
+671:
+Uso errato di world zone\n
+Task %.16s:\n
+'%.16s'\n
+l'argomento per %.16s\n
+deve essere una world zone tempoarnea.\n
+\t\n
+
+672:
+World zone gia' usata\n
+Non e' possibile aggiungere la world\n
+zone %.16s. Un'altra\n
+world zone con lo stesso nome e' gia'\n
+stata definita nel sistema.\n
+\t\n
+
+673:
+I/O access error\n
+The signal given in parameter\n
+%s is write protected\n
+for RAPID access.\n
+\t\n
+Select other user signal or\n
+change the access mode for the signal
+674:
+I/O access error\n
+The signal given in parameter\n
+%s is not write protected\n
+for user access from TP or RAPID.\n
+\t\n
+Change the access mode to system type\n
+for the signal in the I/O\n
+configuration.
+675:
+Errore esecuzione\n
+Il cambiamento di esecuzione programma\n
+da Succ. a Prec. o viceversa non è\n
+consentito durante l'esecuzione di una\n
+trap routine.\n
+\t\n
+Se possibile, selezionare l'esecuzione\n
+impostata e premere start\n
+per continuare.
+700:
+Errore di sintassi\n
+Task %s: errore di sintassi\n
+%s\n
+\t\n
+
+701:
+Memoria programmi piena\n
+La task %s ha solo %i bites\n
+liberi nell'area utente.\n
+\t\n
+Cancellare alcuni moduli e riprovare.
+702:
+File non trovato\n
+%s\n
+Il percorso file o il nome file sono\n
+errati oppure il file non esiste.\n
+\n
+\n
+
+703:
+Errore caricam. prog.\n
+%s\n
+Il modulo programma non puo' essere\n
+caricato.\n
+\t\n
+Il modulo programma ha alcuni errori.
+704:
+Errore scaric. prog.\n
+%s\n
+Il modulo progr. non puo' essere scaric.\n
+Le ragioni potrebbero essere:\n
+- Modulo non caricato con istr. Load\n
+- Percor. file diverso utiliz. in Load\n
+\t\n
+Il modulo programma e' stato caricato\n
+con l'istruzione Load.\n
+Il percorso file e il nome devono\n
+essere gli stessi nelle istruzioni di\n
+Load e UnLoad.
+705:
+Errore di sintassi\n
+Task %s: errore sintassi\n
+%s\n
+\t\n
+Altri errori sintassi seguiranno
+706:
+Errore caric. programma\n
+Il modulo programma e' gia' stato\n
+caricato.\n
+\t\n
+Il nome del modulo in testa al file\n
+%s\n
+gia' esiste nella memoria programma.
+707:
+Nome mod. I/O non valido\n
+Task %s:\n
+Il nome di modulo I/O\n
+%.40s\n
+non esiste o non può essere disabilitat.\n
+\t\n
+Il nome di modulo I/O e' scritto male,\n
+non e' definito o non puo' essere disab.
+708:
+Modulo I/O non abilitato\n
+Task %s:\n
+Il modulo I/O\n
+%.40s\n
+non e' stato abilitato.\n
+\t\n
+Il massimo tempo di attesa è troppo\n
+breve. Aumentare il tempo di attesa o\n
+riprovare.
+709:
+Modulo I/O non disabilit.\n
+Task %s:\n
+Il modulo I/O\n
+%.40s\n
+non e' stato disabilitato.\n
+\t\n
+Il massimo tempo di attesa è troppo\n
+breve. Aumentare il tempo di attesa o\n
+riprovare.
+710:
+Errore di argomento\n
+Task %.16s: Errore di\n
+argomento da %.16s !\n
+L'argomento e' un valore di espressione,\n
+non e' presente o e' di tipo opzionale.\n
+\t\n
+Cambiare il parametro\n
+(%.16s)\n
+con un valore valido.
+711:
+Errore su tipo Alias\n
+Task %s:\n
+I tipi di dato per gli argomenti\n
+FromSignal e ToSignal devono essere gli\n
+stessi e del tipo signalxx.\n
+(signalai/ao, signaldi/do, signalgi/go)\n
+\t\n
+Modificare il tipo\n
+in uno valido.
+712:
+Errore routine evento\n
+Task %s: Troppe routine evento\n
+la routine %s, non verra'\n
+eseguita. Un massimo di 4 routine\n
+puo' essere specificato per ogni evento.\n
+\t\n
+Sono state definite routine annidate\n
+l'una nell'altra per lo stesso evento.
+713:
+Errore definizione alias\n
+Task %s:\n
+Un segnale di tipo 'from' deve essere\n
+definito nel sistema di I/O. Un segnale\n
+di tipo 'to' non deve esserlo, dovrebbe\n
+essere solo definito come variabile.\n
+\t\n
+
+714:
+Errore di argomento\n
+Errore di definizione di orientamento\n
+in %s.\n
+\t\n
+Questa e' probabilmente una posizione\n
+"dummy" definita fuori linea (manca la\n
+definizione dell'orientamento),\n
+necessita un MODPOS.
+715:
+Chiamata IOEnable interr.\n
+Task %s:\n
+La chiamata al modulo di I/O\n
+%.40s\n
+e' stata interrotta.\n
+\t\n
+Un IOEnable o IODisable sono stati\n
+eseguiti da un'altro task. Riprovare.
+730:
+Errore I/O\n
+Task %.16s:\n
+%s\n
+\t\n
+%s
+738:
+I/O error\n
+Unable to access the I/O signal\n
+%.16s unit %.16s.\n
+Impossible to restart.\n
+\t\n
+The connection with the I/O module is\n
+broken. Reestablish the connection\n
+with the I/O unit. To make it possible\n
+to restart the program move PP to a\n
+safe restart position.
+754:
+I/O error\n
+Unable to access the I/O signal\n
+%.16s unit %.16s.\n
+\t\n
+The connection with the I/O module is\n
+broken. Reestablish the connection\n
+with the I/O unit.
+900:
+Discr. App. Err. Sistema\n
+%s\n
+\t\n
+%s
+901:
+Discr. App. Messaggio Sys\n
+WARNING: E' stato impostato un nuovo\n
+processo o applicazione\n
+Un riavvio e' richiesto per installare\n
+una nuova configurazione\n
+\t\n
+%s
+902:
+Applicazione discr.\n
+Task %s:\n
+Errore da %.16s. Impossibile\n
+trovare il processo %.16s.\n
+\t\n
+Verificare il processo/i installato.

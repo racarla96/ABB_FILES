@@ -1,0 +1,913 @@
+33::
+1:
+Manipulator
+2:
+Bewegungssystem
+3:
+Name
+4:
+Name
+5:
+Version
+6:
+Bremse_Ein Zeit
+7:
+Geschw. Auflösung
+8:
+Dynamik Auflösung
+9:
+0.33
+10:
+0.50
+11:
+0.67
+12:
+0.83
+13:
+1.00
+14:
+Bahn Auflösung
+15:
+Puffer Zeit
+16:
+Pufferlänge
+17:
+Min Temp. Steuerung
+18:
+Max Temp. Steuerung
+19:
+Min Temp. Roboter
+20:
+Max Temp. Roboter
+21:
+Name
+22:
+Mechanische Einheit
+23:
+Name
+24:
+Name
+25:
+Verw. run_enable
+26:
+Verw. Aktiv_Relais
+27:
+Verw. Brems_Relais
+28:
+Verw. Roboter
+29:
+Verw. Single 1
+30:
+Verw. Single 2
+31:
+Verw. Single 3
+32:
+Verw. Single 4
+33:
+Verw. Single 5
+34:
+Verw. Single 6
+35:
+Anw_Koord bwgt durch
+36:
+Motoren_Aus Status
+37:
+Ja
+38:
+Nein
+39:
+Geschw_Offs StartUp
+40:
+Ja
+41:
+Nein
+42:
+Aktiv nach StartUp
+43:
+Ja
+44:
+Nein
+45:
+Deaktiv. unzulässig
+46:
+Ja
+47:
+Nein
+48:
+Relais
+49:
+Name
+50:
+Name
+51:
+Ausgang Signal
+52:
+Eingang Signal
+53:
+Invert. Eingang
+54:
+Ja
+55:
+Nein
+56:
+Block. Üwach. Zeit
+57:
+Roboter
+58:
+Name        Typ         Achsen
+59:
+Name
+60:
+Verw. Roboter Typ
+61:
+Verw. Achse 1
+62:
+Verw. Achse 2
+63:
+Verw. Achse 3
+64:
+Verw. Achse 4
+65:
+Verw. Achse 5
+66:
+Verw. Achse 6
+67:
+Basis_Koord x
+68:
+Basis_Koord y
+69:
+Basis_Koord z
+70:
+Basis_Koord q1
+71:
+Basis_Koord q2
+72:
+Basis_Koord q3
+73:
+Basis_Koord q4
+74:
+Basis_Koord bewegt
+75:
+Single
+76:
+Name        Typ         Achse
+77:
+Name
+78:
+Verw. Single Typ
+79:
+Verw. Achse
+80:
+M94 Single Koord
+81:
+Nein
+82:
+Ja
+83:
+Basis_Koord x
+84:
+Basis_Koord y
+85:
+Basis_Koord z
+86:
+Basis_Koord q1
+87:
+Basis_Koord q2
+88:
+Basis_Koord q3
+89:
+Basis_Koord q4
+90:
+Basis_Koord koord.
+91:
+Single Typ
+92:
+Name
+93:
+Mechaniken
+94:
+VERFAHRACHSE
+95:
+EXT_POS
+96:
+WERKZEUG_ROT
+97:
+FREI_ROT
+98:
+Achse
+99:
+Name
+100:
+Name
+101:
+Logische Achse
+102:
+Verw. axc_Kanal
+103:
+Verw. Arm
+104:
+Verw. Bremse
+105:
+Verw. Überwachung
+106:
+Verw. axc_Filter
+107:
+Verw. Servosystem
+108:
+Unkal. Kontr_Ma Typ
+109:
+UCCM0
+110:
+Unkal. Kontr_Master
+111:
+Kontr_Master Typ
+112:
+UCCM0
+113:
+LCM0
+114:
+FFWCM0
+115:
+FFWCM1
+116:
+FFWCM2
+117:
+FFWCM3
+118:
+Norm. Kontr_Master
+119:
+Axc_Kanal
+120:
+Name
+121:
+Name
+122:
+Meßkanal
+123:
+Meßhardware
+124:
+nicht definiert
+125:
+Seriell
+126:
+Par. relativ
+127:
+Par. absolut
+128:
+Umgekehrte Rotation
+129:
+Normal
+130:
+Umgekehrt
+131:
+Arm
+132:
+Name        Typ
+133:
+Name
+134:
+Verw. Arm Typ
+135:
+Verw. Kontr.punkt
+136:
+Verw. Arm Last
+137:
+Rotat. Bewegung
+138:
+Ja
+139:
+Nein
+140:
+Rot. Zentr_x Achse
+141:
+Rot. Zentr_y Achse
+142:
+Rot. Zentr_z Achse
+143:
+Rotation Achse (u0)
+144:
+Rotation Achse (u1)
+145:
+Rotation Achse (u2)
+146:
+Rotation Achse (u3)
+147:
+Getriebeverhältnis
+148:
+Getriebe hoch
+149:
+Getriebe niedrig
+150:
++ Achsgrenze
+151:
+- Achsgrenze
+152:
+Kalibrierposition
+153:
+Nom. Beschleunigung
+154:
+Nom. Verzögerung
+155:
+Nom. Fkt Bschl.ändr
+156:
+Nom. Fkt Verzög.ändr
+157:
+Antrieb Trägheit
+158:
+Arm Kontr.punkt
+159:
+Name
+160:
+Name
+161:
+Kontrolle Typ
+162:
+Position
+163:
+Keine
+164:
+Position x
+165:
+Position y
+166:
+Position z
+167:
+Arm Last
+168:
+Name
+169:
+Name
+170:
+Länge
+171:
+Masse
+172:
+Masse Schwerpunkt x
+173:
+Masse Schwerpunkt y
+174:
+Masse Schwerpunkt z
+175:
+Trägheit x
+176:
+Trägheit y
+177:
+Trägheit z
+178:
+Bremse
+179:
+Name
+180:
+Name
+181:
+GeschwLim Kontr aus
+182:
+VerzögKontr aus
+183:
+BremsVerzKontr ein
+184:
+Bremsmoment
+185:
+Bremsrampe GschwLim
+186:
+Verw. Bremse Typ
+187:
+Bremse Typ
+188:
+Name
+189:
+Name
+190:
+Trägheit
+191:
+Überwachung
+192:
+Name        Typ
+193:
+Name
+194:
+Verw. Überwach Typ
+195:
+EinschaltPos Üwach
+196:
+Ein
+197:
+Aus
+198:
+Umdr.zähl Überwach
+199:
+Ein
+200:
+Aus
+201:
+Pos Überwachung
+202:
+Ein
+203:
+Aus
+204:
+Geschw Überwachung
+205:
+Ein
+206:
+Aus
+207:
+Last Überwachung
+208:
+Ein
+209:
+Aus
+210:
+Block Überwachung
+211:
+Ein
+212:
+Aus
+213:
+InPosBereich
+214:
+NullGeschw ( % )
+215:
+Überwachung Typ
+216:
+Name
+217:
+Name
+218:
+Dyn Einsch PosLim
+219:
+Max Überlastzeit
+220:
+Max Blockzeit
+221:
+Max ProgGeschw haupt
+222:
+Norm ProgGeschw ndr
+223:
+Max ProgGeschw dsp
+224:
+Servosystem
+225:
+Servosysteme
+226:
+Name
+227:
+Extern
+228:
+Ja
+229:
+Nein
+230:
+Verw. Netz
+231:
+Verw. Trafo
+232:
+Verw. Gleichrichter
+233:
+Verw. Treiberstufe
+234:
+Stromübertr Faktor
+235:
+Verw. Kabel
+236:
+Verw. Motor
+237:
+Therm. Betr.zeit
+238:
+Therm. Betr.zeiten
+239:
+Getriebe
+240:
+Netz
+241:
+Netz
+242:
+Name
+243:
+Netztoleranz min.
+244:
+Netztoleranz max.
+245:
+Trafo
+246:
+Trafo
+247:
+Name
+248:
+Verw. Trafo Typ
+249:
+Leistung max.
+250:
+Anstieg UmgebungTemp
+251:
+Leistung therm.
+252:
+Trafo Typ
+253:
+Typ
+254:
+Name
+255:
+Sekundärspannung
+256:
+Gleichrichter
+257:
+Name        Typ
+258:
+Name
+259:
+Typ
+260:
+Treiberstufe
+261:
+Name      Typ
+262:
+Name
+263:
+Verw. Treiberst. Typ
+264:
+i_max
+265:
+Treiberstufe Typ
+266:
+Name      Typ
+267:
+Name
+268:
+Typ
+269:
+Strom_Konstante
+270:
+Geschw_Konstante
+271:
+Max Geschw_Offset
+272:
+Kabel
+273:
+Kabel
+274:
+Name
+275:
+Verw. Kabel Typ
+276:
+Länge
+277:
+Motor
+278:
+Name        Typ
+279:
+Name
+280:
+Verw. Motor Typ
+281:
+Kommut. Offset
+282:
+Komm. Offset gültig
+283:
+Ja
+284:
+Nein
+285:
+Kalib. Offset
+286:
+Kalib. Offset gültig
+287:
+Ja
+288:
+Nein
+289:
+Motor Typ
+290:
+Name
+291:
+Name
+292:
+Polpaare
+293:
+ke  ( V/rad/s )
+294:
+Max Strom (A rms)
+295:
+Therm. Betr.zeit
+296:
+Therm. Betr.zeiten
+297:
+Name
+298:
+Durchschn. Drehmom_0
+299:
+Leist. Betr.zeit
+300:
+Leist. Betr.zeiten
+301:
+Name
+302:
+Geschw abs. max.
+303:
+Moment abs. max.
+304:
+Getriebe
+305:
+Getriebe
+306:
+Name
+307:
+Unkal. Ktrl_Master_0
+308:
+Name
+309:
+Name
+310:
+Kp-Fakt Pos_Schl
+311:
+Kv-Fakt Gschw_Schl
+312:
+Ti I-Zeit Gschw_Schl
+313:
+Geschw max. unkal.
+314:
+Beschl max. unkal.
+315:
+Verzög max. unkal.
+316:
+Lag Ktrl_Master_0
+317:
+Name
+318:
+Name
+319:
+Kp-Fakt Pos_Schl
+320:
+Kv-Fakt Gschw_Schl
+321:
+Ti I-Zeit Gschw_Schl
+322:
+NotchFilter aktiv
+323:
+Ja
+324:
+Nein
+325:
+NotchFilterfrequenz
+326:
+NotchFilterbreite
+327:
+Prozessaktual. Zeit
+328:
+EXT_POS
+329:
+Ext Prozeßname
+330:
+Unabhängige Achse
+331:
+Ein
+332:
+Aus
+333:
++ Achsgr unabh Achse
+334:
+- Achsgr unabh Achse
+335:
+BlockÜwach Trimmfakt
+336:
+LastÜwach Trimmfakt
+337:
+GschwÜwach Trimmfakt
+338:
+PosÜwach Trimmfakt
+339:
+Sync Geschw. hoch
+340:
+Sync Geschw. niedrig
+341:
+Nom MomBer ndr Gschw
+342:
+Nom MomBer hoh Gschw
+343:
+Nom Eingriff MomBer
+344:
+Abs. Bremsmoment
+345:
+Schwerkraft Beta
+346:
+EXT_CTL
+347:
+Einfluß forc. Kntr
+348:
+Ja
+349:
+Nein
+350:
+Forc. Pos Limit ein
+351:
+Forc. Pos Limit aus
+352:
+Max AutoGschw Üw lim
+353:
+ForcÜwach aktiv
+354:
+Ja
+355:
+Nein
+356:
+Forc. Faktor für Kp
+357:
+Forc. Faktor für Ki
+358:
+Anstiegszeit für Kp
+359:
+NotchAutomodus
+360:
+Ja
+361:
+Nein
+362:
+Auto keine PendFreq
+363:
+Auto min Frequenz
+364:
+Auto max rel Ändr.
+365:
+Vorgriff Zeit
+366:
+Ereign. Vorsetz Zeit
+367:
+Max Netz_Aus Geschw.
+368:
+CPU Ausgleich
+369:
+In akt Verzög Zeit
+370:
+In deakt Verzg Zeit
+371:
+Lin BewegRichtung
+372:
+Orient BewegRichtung
+373:
+Achsen BewegRichtung
+374:
+Single BewegRichtung
+375:
+Upper coupled joint bound 2
+376:
+Lower coupled joint bound 2
+377:
+Ext. konst. Moment
+378:
+Ext. prop. Moment
+379:
+Ext. Moment 0 Winkel
+380:
+Feedforward Modus
+381:
+Nein
+382:
+Geschw
+383:
+Moment
+384:
+Bandbreite
+385:
+Df
+386:
+Dw
+387:
+Verzög.
+388:
+Trägh.
+389:
+Linear Bewegen
+390:
+Name
+391:
+Name
+392:
+Welt unten
+393:
+Welt drehen
+394:
+Welt seite
+395:
+Basis unten
+396:
+Basis drehen
+397:
+Basis seite
+398:
+Werkzg unten
+399:
+Werkzg drehen
+400:
+Werkzg seite
+401:
+Wobj unten
+402:
+Wobj drehen
+403:
+Wobj seite
+404:
+StatWzg Welt unten
+405:
+StatWzg Welt drehen
+406:
+StatWzg Welt seite
+407:
+StatWzg Basis unten
+408:
+StatWzg Basis drehen
+409:
+StatWzg Basis seite
+410:
+StatWzg Wzg unten
+411:
+StatWzg Wzg drehen
+412:
+StatWzg Wzg seite
+413:
+StatWzg Wobj unten
+414:
+StatWzg Wobj drehen
+415:
+StatWzg Wobj seite
+416:
+Reorient Bewegen
+417:
+Name
+418:
+Name
+419:
+Welt unten
+420:
+Welt drehen
+421:
+Welt seite
+422:
+Basis unten
+423:
+Basis drehen
+424:
+Basis seite
+425:
+Werkzg unten
+426:
+Werkzg drehen
+427:
+Werkzg seite
+428:
+Wobj unten
+429:
+Wobj drehen
+430:
+Wobj seite
+431:
+StatWzg Welt unten
+432:
+StatWzg Welt drehen
+433:
+StatWzg Welt seite
+434:
+StatWzg Basis unten
+435:
+StatWzg Basis drehen
+436:
+StatWzg Basis seite
+437:
+StatWzg Wzg unten
+438:
+StatWzg Wzg drehen
+439:
+StatWzg Wzg seite
+440:
+StatWzg Wobj unten
+441:
+StatWzg Wobj drehen
+442:
+StatWzg Wobj seite
+443:
+Achse bewegen
+444:
+Name
+445:
+Name
+446:
+Group 1 unten
+447:
+Gruppe 1 drehen
+448:
+Gruppe 1 seite
+449:
+Gruppe 2 unten
+450:
+Gruppe 2 drehen
+451:
+Gruppe 2 seite
+452:
+Single bewegen
+453:
+Name
+454:
+Name
+455:
+Single
+456:
+Verw. optStop BetrZt

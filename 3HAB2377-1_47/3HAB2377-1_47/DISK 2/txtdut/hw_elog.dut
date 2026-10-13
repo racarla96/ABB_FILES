@@ -1,0 +1,955 @@
+23::
+0:
+Hardware
+1203:
+Floppy disk fout\n
+Slechte diskette of diskette\n
+niet geformatteerd.\n
+\t\n
+1. Probeer het opnieuw\n
+2. Gebruik een nieuwe diskette
+1206:
+Floppy disk fout\n
+Slechte diskette of interne fout\n
+\t\n
+1. Probeer het opnieuw\n
+2. Gebruik een nieuwe diskette\n
+3. Herstart het systeem
+1207:
+Floppy Disk Error\n
+No floppy disk or disk not ready\n
+\t\n
+1. Repeat attempt
+1210:
+Floppy disk fout\n
+Ongeldig formaat\n
+\t\n
+1. Gebruik een nieuwe diskette
+1211:
+Floppy disk fout\n
+Data overdracht van/naar diskette\n
+\t\n
+1. Probeer het opnieuw\n
+2. Gebruik een nieuwe diskette\n
+3. Herstart het systeem
+1214:
+Floppy disk fout\n
+Data overdracht is onderbroken\n
+\t\n
+1. Probeer het opnieuw\n
+2. Herstart het systeem
+1215:
+Floppy disk fout\n
+Intern commando ongeldig\n
+\t\n
+1. Probeer het opnieuw\n
+2. Herstart het systeem
+1216:
+Floppy disk fout\n
+Diskette is verplaatst tijdens data\n
+overdracht\n
+\t\n
+1. Probeer het opnieuw\n
+2. Herstart het systeem
+1217:
+Floppy disk fout\n
+Slechte diskette of disk drive\n
+\t\n
+1. Probeer het opnieuw\n
+2. Gebruik een nieuwe diskette\n
+3. Herstart het systeem
+1219:
+Floppy disk fout\n
+Disk drive niet gereed\n
+\t\n
+1. Probeer het opnieuw\n
+2. Herstart het systeem
+1220:
+Floppy disk fout\n
+Slechte diskette of interne fout\n
+\t\n
+1. Probeer het opnieuw\n
+2. Gebruik een nieuwe diskette\n
+3. Herstart het systeem
+1221:
+Floppy disk fout\n
+Data fout\n
+\t\n
+1. Probeer het opnieuw\n
+2. Gebruik een nieuwe diskette\n
+3. Herstart het systeem
+1222:
+Floppy disk fout\n
+Interne fout - Overrun\n
+\t\n
+1. Probeer het opnieuw\n
+2. Herstart het systeem
+1223:
+Floppy disk fout\n
+Slechte diskette of interne fout\n
+\t\n
+1. Probeer het opnieuw\n
+2. Gebruik een nieuwe diskette\n
+3. Herstart het systeem
+1224:
+Floppy disk fout\n
+Diskette tegen overschrijven\n
+beveiligd\n
+\t\n
+1. Verwijder de overschrijf-\n
+   beveiliging
+1225:
+Floppy disk fout\n
+Slechte diskette - Adresmarkering\n
+ontbreekt\n
+\t\n
+1. Gebruik een nieuwe\n
+   diskette
+1226:
+Floppy disk fout\n
+Slechte data op de diskette\n
+\t\n
+1. Gebruik een nieuwe diskette
+1227:
+Floppy disk fout\n
+Slechte diskette - Cylinder\n
+ontbreekt\n
+\t\n
+1. Gebruik een nieuwe diskette
+1228:
+Floppy disk fout\n
+Slechte diskette - Slechte\n
+cilinder\n
+\t\n
+1. Gebruik een nieuwe diskette
+1229:
+Floppy disk fout\n
+Slechte diskette - Slechte adres\n
+markering in de data\n
+\t\n
+1. Gebruik een nieuwe diskette
+1605:
+Geheugen fout in IO comp.\n
+\n
+\t\n
+Vervang het robot computer bord
+1606:
+Geheugen fout in IO comp.\n
+\n
+\t\n
+Vervang het robot computer bord
+1607:
+Geheugen fout in IO comp.\n
+\n
+\t\n
+Vervang het robot computer bord
+1608:
+Checksum fout IO-comp.\n
+\n
+\t\n
+Vervang het robot computer bord
+2118:
+MC RESET ERROR.\n
+Main computer running in spite\n
+of RESET command.\n
+\t\n
+Replace main computer board
+2301:
+Geheugen fout MAIN COMP.\n
+\n
+\t\n
+Vervang het main computer bord
+2302:
+Geheugen fout MAIN COMP.\n
+\n
+\t\n
+Vervang het main computer bord
+2303:
+Geheugen fout MAIN COMP.\n
+\n
+\t\n
+Vervang het main computer bord
+2305:
+Type fout MEMORY EXPANS.\n
+\n
+\t\n
+Vervang het geheugen uitbr. bord
+1401:
+DMA fout\n
+DMA overdrachts fout in ROBOT COMP.\n
+\t\n
+Vervang het robot computer bord
+1402:
+DMA fout\n
+DMA overdrachts fout in ROBOT COMP.\n
+\t\n
+Vervang het robot computer bord
+1403:
+DMA fout\n
+DMA overdrachts fout in ROBOT COMP.\n
+\t\n
+Vervang het robot computer bord
+1404:
+DMA fout\n
+DMA overdrachts fout in ROBOT COMP.\n
+\t\n
+Vervang het robot computer bord
+1408:
+Fout in axis computer\n
+\n
+\t\n
+Vervang het robot computer bord
+1409:
+Fout in robot computer\n
+\n
+\t\n
+Vervang het robot computer bord
+1410:
+Fout in axis computer\n
+\n
+\t\n
+Vervang het robot computer bord
+1411:
+Fout in axis computer\n
+\n
+\t\n
+Vervang het robot computer bord
+1414:
+Fout in main computer\n
+\n
+\t\n
+1. Vervang het main computer bord\n
+2. Vervang het robot computer bord
+1415:
+Fout in main computer\n
+\n
+\t\n
+Vervang het main computer bord
+1418:
+DMA overdrachts fout\n
+DMA overdrachts fout in ROBOT COMP.\n
+\t\n
+Vervang het robot computer bord
+1419:
+DMA overdrachts fout\n
+DMA overdrachts fout in ROBOT COMP.\n
+\t\n
+Vervang het robot computer bord
+1420:
+DMA overdrachts fout\n
+DMA overdrachts fout in ROBOT COMP.\n
+\t\n
+Vervang het robot computer bord
+1114:
+Bus fout\n
+Bus fout tijdens het aansturen\n
+van de LED op de main computer\n
+\t\n
+1. Vervang het main computer bord\n
+2. Vervang het robot computer bord
+1501:
+Batterij spanning te laag\n
+Spanning van batterij 1\n
+te laag\n
+\t\n
+Vervang batterij 1
+1502:
+Batterij spanning te laag\n
+Spanning van batterij 2\n
+te laag\n
+\t\n
+Vervang batterij 2
+1503:
+Batterij spanning te laag\n
+Batterij spanning van beide\n
+batterijen te laag\n
+\t\n
+Vervang batterijen
+1505:
+Battery cirquit error\n
+\n
+\t\n
+Replace robot computer board
+3301:
+Fout in de axis computer\n
+\n
+\t\n
+Vervang het robot computer bord
+3302:
+Fout in axis computer\n
+\n
+\t\n
+Vervang het robot computer bord
+3303:
+Fout in axis computer\n
+\n
+\t\n
+Vervang het robot computer bord
+3304:
+Fout in axis computer\n
+\n
+\t\n
+Vervang het robot computer bord
+3305:
+Fout in axiscomp geheugen\n
+\n
+\t\n
+Vervang het robot computer bord
+3308:
+Fout in axis computer\n
+\n
+\t\n
+Vervang het robot computer bord
+3309:
+Fout in axis computer\n
+\n
+\t\n
+Vervang het robot computer bord
+3310:
+Fout in axis computer\n
+\n
+\t\n
+Vervang het robot computer bord
+3311:
+As computer\n
+Stroom ref. terugkoppelings fout\n
+\t\n
+Vervang het robot computer bord
+3312:
+Fout in axis computer\n
+RUNNING/DRVFLT signaal fout\n
+\t\n
+1. Vervang het robot computer bord\n
+2. Controleer de aandrijvings kaarten
+3314:
+Fout in de axis computer\n
+\n
+\t\n
+Vervang het robot computer bord
+3315:
+Fout in de axis computer\n
+\n
+\t\n
+Vervang het robot computer bord
+3316:
+Loopb comm fout axiscomp\n
+Loopback comm. fout in\n
+axis computer\n
+\t\n
+Vervang het robot computer bord.
+3320:
+As computer fout.\n
+Fout gemeld door As computer\n
+\t\n
+Vervang robot computer bord
+3321:
+As computer fout.\n
+Foute VME-vector ontstaan tijdens test\n
+\t\n
+Vervang robot computer bord
+4001:
+Bus fout\n
+Onverwachtte fout tijdens een VME-test\n
+\t\n
+Controleer VME borden
+4002:
+Bus fout\n
+Onverwacht antwoord tijdens een VME-test\n
+\t\n
+Controleer VME borden
+4003:
+VME fout\n
+VME signaal SYSFAIL kan niet worden\n
+gedeactiveerd.\n
+\t\n
+1.Vervang VME-borden\n
+2.Vervang VME backplane.\n
+3.Vervang VME termination bord,\n
+  indien aanwezig.
+7002:
+DSQC306 niet actief\n
+Main computer software niet geladen\n
+of niet actief\n
+\t\n
+
+7003:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7004:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7005:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7006:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7007:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7008:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7009:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7010:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7011:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7012:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7013:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7014:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7015:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7016:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7017:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7018:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7019:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7020:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7021:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7022:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7023:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7024:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7025:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7026:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7027:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7028:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7029:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7030:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7031:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7032:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7033:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7034:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7035:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7036:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7037:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7038:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7039:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7040:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7041:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7042:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7043:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7044:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7045:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7046:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7047:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7048:
+Fout in de main computer\n
+\n
+\t\n
+Vervang het main computer bord
+7049:
+Activerings relais fout\n
+Relais voor station %s of\n
+Supervisie relais of extra relais is\n
+niet actief of bekrachtigd.\n
+\t\n
+Herstart het systeem\n
+Controleer relais, supervisie relais of\n
+extra relais. Controleer digital output\n
+naar relais of digital input van relais.\n
+Vervang system board
+1701:
+Serieel kanaal overrun\n
+Overrun fout op serieel kanaal %.f\n
+\t\n
+1. Controleer de communicatie\n
+   parameters\n
+2. Vervang het robot computer bord
+1702:
+Overrunfout serieel kan 2\n
+\n
+\t\n
+1. Controleer de communicatie\n
+   parameters\n
+2. Vervang het robot computer bord
+1706:
+Pariteits fout\n
+Pariteits fout op serieel kanaal %.f\n
+\t\n
+1. Controleer de communicatie\n
+   parameters\n
+2. Vervang het robot computer bord
+1707:
+Pariteitsfout kanaal 2\n
+Pariteits fout op serieel kanaal 2\n
+\t\n
+1. Controleer de communicatie\n
+   parameters\n
+2. Vervang het robot computer bord
+1711:
+Framing fout\n
+Framing fout op serieel kanaal %.f\n
+\t\n
+1. Controleer de communicatie\n
+   parameters\n
+2. Vervang het robot computer bord
+1712:
+Framing fout kanaal 2\n
+Framing fout op serieel kanaal 2\n
+\t\n
+1. Controleer de communicatie\n
+   parameters\n
+2. Vervang het robot computer bord
+1716:
+Kanaal fout\n
+Fout op serieel kanaal %.f\n
+\t\n
+1. Controleer de communicatie\n
+   parameters\n
+2. Vervang het robot computer bord
+1730:
+Fout in timer %.f\n
+\n
+\t\n
+2. Vervang het robot computer bord
+1733:
+Fout op serieel kanaal %.f\n
+Ontvangen data niet gelijk aan de\n
+verzonden data\n
+\t\n
+1. Controleer de communicatie\n
+   parameters\n
+2. Vervang het robot computer bord
+1734:
+Fout op serieel kanaal 2\n
+Ontvangen data niet gelijk aan de\n
+verzonden data\n
+\t\n
+1. Controleer de communicatie\n
+   parameters\n
+2. Vervang het robot computer bord
+1738:
+Timer of teller fout\n
+Fout in timer of teller %.f\n
+\t\n
+Vervang het robot computer bord
+1742:
+Fout op serieel kanaal 2\n
+Handshake fout\n
+\t\n
+1. Controleer de communicatie\n
+   parameters\n
+2. Vervang het robot computer bord
+1746:
+Fout op serieel kanaal %.f\n
+Handshake fout\n
+\t\n
+1. Controleer de communicatie\n
+   parameters\n
+2. Vervang het robot computer bord
+1747:
+Fout op serieel kanaal %.f\n
+Onderbrekings fout\n
+\t\n
+1. Controleer de communicatie\n
+   parameters\n
+2. Vervang het robot computer bord
+2235:
+DMA trans. fout(MC-AXC)\n
+MC asic R4 meldt interne DMA fout\n
+\t\n
+1.Vervang Main computer bord\n
+2.Herstart systeem, als fout blijft :\n
+3.Vervang Robot computer bord
+2244:
+DMA timeout fout (MC-AXC)\n
+DMA transfer niet gereed in de\n
+vastgestelde tijd.\n
+\t\n
+1.Controleer VME bus\n
+2.Vervang Main computer bord of\n
+3.Vervang Robot computer bord
+2246:
+DMA trans. fout(MC-AXC)\n
+MC asic R4 DMA klaar vlag niet\n
+geactiveerd\n
+\t\n
+1.Vervang Main computer bord
+2247:
+Mailbox 1 interrupt fout\n
+Mailbox 1 interrupt fout in\n
+de IO computer\n
+\t\n
+Vervang het robot computer bord
+2248:
+Mailbox 2 interrupt fout\n
+Mailbox 2 interrupt fout in\n
+de IO computer\n
+\t\n
+Vervang het robot computer bord
+2254:
+Main computer error\n
+Main computer is not able to activate\n
+VME signal SYSFAIL.\n
+\t\n
+1.Replace Main computer board.
+2255:
+Main computer fout\n
+Main computer is niet in staat om het\n
+VME signaal SYSFAIL te deactiveren.\n
+\t\n
+1.Vervang Main computer bord.
+2256:
+DMA transf. fout(MC-AXC)\n
+Test van patroon in AXC geheugen mislukt\n
+\t\n
+1.Vervang Main computer bord
+2257:
+DMA transf. fout(MC-AXC)\n
+Test van patroon in MC geheugen mislukt\n
+\t\n
+1.Vervang Main computer board
+1108:
+Fout op serieel kanaal\n
+Fout op serieel kanaal %.f\n
+\t\n
+1. Controleer de communicatie\n
+   parameters\n
+2. Vervang het robot computer bord
+1115:
+Fout op serieel kanaal 1\n
+Ontvangen data niet gelijk aan\n
+verzonden data\n
+\t\n
+1. Controleer de communicatie\n
+   parameters\n
+2. Vervang het robot computer bord
+1116:
+Overflow fout op kanaal 1\n
+\n
+\t\n
+1. Controleer de communicatie\n
+   parameters\n
+2. Vervang het robot computer bord
+1117:
+Pariteits fout kanaal 1\n
+\n
+\t\n
+1. Controleer de communicatie\n
+   parameters\n
+2. Vervang het robot computer bord
+1118:
+Framing fout op kanaal 1\n
+\n
+\t\n
+1. Controleer de communicatie\n
+   parameters\n
+2. Vervang het robot computer bord
+1119:
+Ruis fout op kanaal 1\n
+\n
+\t\n
+1. Controleer de communicatie\n
+   parameters\n
+2. Vervang het robot computer bord
+1130:
+Poort fout\n
+\n
+\t\n
+Vervang het robot computer bord
+1131:
+SYSRESET niet bediend\n
+\n
+\t\n
+Vervang VME-bus borden.\n
+1. Controleer robot computer.\n
+2. Controleer andere VME-bus borden.\n
+3. Controleer backplane.
+1132:
+Fout in serieel kanaal 2\n
+Ontvangen data niet gelijk aan verzonden\n
+data\n
+\t\n
+1. Controleer communicatie parameters\n
+2. Vervang robot computer bord
+1133:
+Overflow serieel kanaal 2\n
+\n
+\t\n
+1. Controleer communicatie parameters\n
+2. Vervang robot computer bord
+1134:
+Pariteits fout kanaal 2\n
+\n
+\t\n
+1. Controleer communicatie parameters\n
+2. Vervang robot computer bord
+1135:
+Framing fout kanaal 2\n
+\n
+\t\n
+1. Controleer communicatie parameters\n
+2. Vervang robot computer bord
+1136:
+Ruis fout kanaal 2\n
+\n
+\t\n
+1. Controleer communicatie parameters\n
+2. Vervang robot computer bord
+1147:
+IO computer fout\n
+IO computer is niet instaat om het VME\n
+signaal SYSFAIL te activeren.\n
+\t\n
+1.Vervang IO computer bord.
+1148:
+IO computer fout\n
+IO computer is niet instaat om het VME\n
+signaal SYSFAIL te deactiveren.\n
+\t\n
+1.Vervang IO computer bord.
+3150:
+Int fout in axiscomputer\n
+Axiscomputer werd gestopt door een\n
+hw-onderbreking veroorzaakt door\n
+een onderbrekings-fout.\n
+\t\n
+Laad de systeem software opnieuw\n
+Vervang het robot computer bord.
+3158:
+Axiscomp drijverklok fout\n
+Storing in drijverklok van axiscomp.\n
+Main computer reageert niet op\n
+een aanvraag.\n
+\t\n
+Laad de systeemsoftware opnieuw\n
+Vervang het main computer bord
+3159:
+Snelh waarsch manueelmode\n
+Snelheid in manuele modus voor de arm\n
+aangesloten op axc kanaal %.f heeft\n
+het toegelaten max overschreden.\n
+\t\n
+Controleer of de juiste massa gedefie-\n
+nieerd is. Controleer de parameters\n
+van externe assen.\n
+Controleer of de robot singulier is\n
+Vervang het aandrijfbord.
+3201:
+Axis cpu Leesfout\n
+Fout bij het lezen vanuit axis computer\n
+driver. Axis computer driver stuurde\n
+niet het juiste aantal bytes terug.\n
+\t\n
+Controleer de systeem configuratie\n
+Laad de systeem software opnieuw.\n
+Vervang het robot computer bord.
+3202:
+Axis cpu Schrijffout\n
+Fout bij schrijven naar de axis computer\n
+drijver. Axis computer drijver stuurde\n
+niet het juist aantal bytes terug.\n
+\t\n
+Controleer de systeem configuratie\n
+Laad de systeem software opnieuw\n
+Vervang het robot computer bord.
+3203:
+Axis cpu ioctl-fout\n
+Fout bij ioctl naar de axis\n
+computer drijver.\n
+Kan ioctl commando niet uitvoeren\n
+\t\n
+Start het systeem opnieuw\n
+Laad de systeem software opnieuw\n
+Vervang het robot computer bord.
+3210:
+Positie terugkoppelfout\n
+Drijver heeft de teruggekoppelde positie\n
+van arm %.f niet gelezen\n
+\t\n
+Herstart het systeem\n
+Vervang het main computer bord
+3211:
+Onderrun van pos. contr.\n
+De positiecontrole kan niet worden\n
+uitgevoerd in de toegestane tijd\n
+\t\n
+Laad de systeem software opnieuw
+3212:
+DMA-Timeout fout\n
+DMA-toegang van hoofdcomp naar de axis\n
+computer werd niet gerealiseerd.\n
+\t\n
+Laad de systeem software opnieuw\n
+Vervang het main computer bord en\n
+het axis computer bord
+3213:
+DMA-operatiefout\n
+DMA besturing van maincomputer naar\n
+axiscomputer werd niet gerealiseerd\n
+\t\n
+Laad de systeemsoftware opnieuw\n
+Vervang het main computer bord en\n
+het axis computer bord
+3220:
+Storing in de axis comp.\n
+Er is een fout in de axis computer\n
+die op een hardwarestoring wijst.\n
+\t\n
+Laad de systeem software opnieuw\n
+Vervang het robot computer bord

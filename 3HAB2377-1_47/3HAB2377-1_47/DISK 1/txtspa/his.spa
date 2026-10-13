@@ -1,0 +1,451 @@
+when pressing fine calibration changed
+ion may cause shift in program positions
+Revision 1.12  1998/09/18  06:43:19  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+ion
+Revision 1.11  1996/12/12  07:41:52  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+8::
+0:
+Servicio
+1:
+Registro
+2:
+Calibracion
+3:
+
+4:
+Guardar regstr. como
+5:
+Calibracion
+6:
+Conmutacion
+7:
+Calib
+8:
+(Calibrar Manualmente...)
+9:
+Calibrado fino...
+10:
+Actualizar Cont.Rev...
+11:
+(Ver Posicion Medida...)
+12:
+Sustituyendo registro!\n
+Registro existente sera\n
+sustituido.\n
+\n
+OK para continuar?
+13:
+Unidad          Estado
+14:
+   Eje        Estado
+15:
+Control externo
+16:
+Para calibrar, incluir ejes y pulsar OK.
+17:
+Incl
+18:
+Excl
+19:
+Todos
+20:
+Sincronizado
+21:
+No sincronizado
+22:
+No Calibrado
+23:
+Cont.Rev no actualizado
+24:
+Calibrado
+25:
+Cont.Rev actualizado
+26:
+La Calibracion se actualizara con\n
+los valores entrados.\n
+No se puede volver atras.\n
+\n
+OK para continuar?
+27:
+Se modificara la calibracion de\n
+todos los ejes seleccionados.\n
+No se puede volver atras.\n
+\n
+OK para continuar?
+28:
+Se actualizara el Cont.Rev de\n
+todos los ejes seleccionados.\n
+No se puede volver atras.\n
+\n
+OK para continuar?
+29:
+No se han seleccionado ejes.\n
+\n
+\n
+\n
+Pulsar Entrar para reintentar!
+30:
+Iniciado proceso de calib.\n
+\n
+Listo en unos segundos...
+31:
+No Conmutado
+32:
+Estado inicial
+33:
+Com
+34:
+(Conmutar Manualmente...)
+35:
+Conmutar...
+36:
+\n
+Guardando regs. a archivo...
+37:
+Para conmutar, incluir ejes y pulsar OK.
+38:
+La Conmutacion se actualizara con\n
+los valores entrados.\n
+No se puede volver atras.\n
+\n
+OK para continuar?
+39:
+Se cambiara la conmutacion de los\n
+ejes seleccionados.\n
+No se puede volver atras.\n
+\n
+OK para continuar?
+40:
+Conmutado
+41:
+No se han seleccionado ejes.\n
+\n
+\n
+\n
+Pulsar Entrar para reintentar!
+42:
+Iniciado proceso Conmutacion!\n
+\n
+Listo en unos segundos...
+43:
+No se han conmutado algunas\n
+unidades. Seleccionar\n
+"Conmutacion" desde el\n
+menu Ver.\n
+Pulsar Entrar para continuar!
+44:
+Fecha y Hora..
+45:
+Fecha:
+46:
+Hora:
+47:
+<
+48:
+>
+49:
+Info sistema...
+50:
+Msjes
+51:
+Nombre               #     Ultimo
+52:
+Mensajes
+53:
+Borrar Registro
+54:
+Borrar todos los Registros
+55:
+Espec.
+56:
+Regtrs
+57:
+Mensaje                  Fecha
+58:
+No hay mensajes!
+59:
+Renovar
+60:
+Renovar Registro por Comando
+61:
+Renovar Registro por Evento
+62:
+Los mensajes en registro %s\n
+se borraran.\n
+\n
+OK para continuar?
+63:
+Todos los mensajes en todos los\n
+registros se borraran.\n
+\n
+Ok para continuar?
+64:
+Guardar mensaje registro %s como!
+65:
+ELOG
+66:
+Mensajes de registro %s\n
+Fecha de grabacion: %s
+67:
+Ir a la Linea!
+68:
+Linea:=
+69:
+Error:
+70:
+Reiniciar...
+71:
+Comando Reiniciar!\n
+Desea reiniciar el\n
+control?\n
+\n
+OK para continuar?
+72:
+Estado:
+73:
+Advertencia:
+74:
+Guardar registro mensajes como!
+75:
+Definicion Frame
+76:
+Unidad              Tipo
+77:
+Seleccionar unidad sobre la que\n
+realiza el frame. Las unidades\n
+donde es posible definir el frame\n
+se muestran en la lista.
+78:
+Def...
+79:
+Robot IRB1400
+80:
+Robot IRB1400
+81:
+Robot IRB2400
+82:
+Robot IRB2400
+83:
+Robot IRB3400
+84:
+Robot IRB6400
+85:
+Robot IRBPAL
+86:
+Orbit 160B_1
+87:
+Orbit 160B_2
+88:
+Gantry
+89:
+Track
+90:
+Posicion externa
+91:
+Rotacion Herramienta
+92:
+Rotacion libre
+93:
+BaseFrame...
+94:
+No puedo salvar registro!\n
+No hay espacio en disco o el\n
+disco esta protegido.\n
+\n
+Pulsar Entrar para reintentar
+95:
+No usado
+96:
+Definicion de dos ejes
+97:
+Seleccionar unidad a la cual se\n
+debe realizar la definicion de\n
+ejes. La lista solo muestra\n
+unidades de dos ejes validas.
+98:
+Def...
+99:
+Definicion de dos ejes
+100:
+(Def)
+101:
+No hay unidades validas disponibles
+102:
+Topicos
+103:
+Seleccionar topico y pulsar Entrar
+104:
+Robot IRB4400
+105:
+Robot IRB540_FLX
+106:
+Robot IRB5400_HLW
+107:
+Conveyor giratorio
+108:
+Capacidad almacenamiento
+109:
+Estado de tarea
+110:
+ID Sistema
+111:
+ID Producto
+112:
+Tipo Robot
+113:
+noinic
+114:
+lista
+115:
+ejecutando
+116:
+parada
+117:
+nodefinida
+118:
+Actualiza
+119:
+Tarea
+120:
+Libre
+121:
+Total
+122:
+Estado de tareas
+123:
+Dispositivo
+124:
+Recursos de programa
+125:
+Numero max. de variables PERS:
+126:
+Memoria total de programa:
+127:
+No disponible
+128:
+Guardar regs como...
+129:
+Guardar todos los mensajes regs. como!
+130:
+ELOG_ALL
+131:
+\n
+Guardando los regs a archivo..
+132:
+Todos los registros de error\n
+Guardado en fecha: %s
+133:
+Registro de mensajes %s
+134:
+Salvaguardar...
+135:
+Recuperar...
+136:
+
+137:
+Guarda todos los modulos y parametros de\n
+sistema al directorio destino.
+138:
+Salvaguardar
+139:
+Recupera modulos y parametros de sistema\n
+del directorio origen especificado.\n
+Despues se realiza reinicio de sistema.
+140:
+Recuperar
+141:
+Seleccionar/crear directorio para salvar
+142:
+Seleccionar directorio donde recuperar
+143:
+BAK
+144:
+No puedo crear directorio\n
+Seleccionar otro nombre o camino!
+145:
+Pulse ENTRAR para seleccionar directorio
+146:
+El directorio no esta vacio!\n
+Seleccionar otro directorio o\n
+use administrador de archivos\n
+para borrar el contenido.
+147:
+Autorizar Recuperar
+148:
+Recuperar
+149:
+Espere por favor, salvaguarda\n
+esta ejecutandose.\n
+Guardando parametros sistema..
+150:
+Espere por favor, salvaguarda\n
+esta ejecutandose.\n
+Guardando modulos...
+151:
+Espere por favor, recuperacion\n
+ejecutandose.\n
+Cargando parametros sistema...
+152:
+Espere por favor, recuperacion\n
+ejecutandose.\n
+Cargando modulos...
+153:
+Espere por favor.\n
+Rearrancando el sistema.
+154:
+Recuperar borrara todos los modulos y\n
+parametros de sistema. Los modulos\n
+especificados en los parametros de\n
+sistema se sobreescribiran.
+155:
+El directorio esta vacio!\n
+Seleccionar otro directorio.
+156:
+El directorio no existe!\n
+Seleccionar otro directorio.
+157:
+La salvaguarda ha finalizado.
+158:
+Calibracion fina\n
+Colocar el robot en posicion de\n
+calibracion, segun el manual.\n
+Esta operacion puede desplazar las\n
+posiciones del programa actual.
+160:
+Directorio destino:
+161:
+Directorio origen:
+162:
+Incluir registros:
+163:
+Autorizar recuperacion
+164:
+Recuperar
+165:
+Ident. sistema
+166:
+Ident. Productos
+167:
+Tipo Robot
+168:
+No coincide lo actual y la salvaguarda
+169:
+Salvagda:
+170:
+Actual:
+171:
+Recuperar de cualquier forma?
+172:
+Memoria programa disponible:
+173:
+Salvaguarda no es posible por\n
+la ejecucion de la tarea main.\n
+Por favor, parar la tarea main\n
+e intentar salvaguardar de\n
+nuevo.

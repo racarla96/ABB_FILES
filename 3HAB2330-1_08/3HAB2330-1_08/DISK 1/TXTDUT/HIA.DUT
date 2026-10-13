@@ -1,0 +1,936 @@
+Revision 1.10  1995/04/21  13:13:03  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.9  1994/08/19  09:40:30  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+3::
+0:
+Programma-opmaak
+1:
+Optie
+2:
+IPL1
+3:
+IPL2
+4:
+Test
+5:
+Routine
+6:
+Data
+7:
+Modulelijst...
+8:
+Module opslaan
+9:
+Module opslaan als...
+10:
+
+11:
+Programma opslaan
+12:
+Programma opslaan als...
+13:
+Gebruik IPL (Instruction\n
+Pick List) om een nieuwe\n
+instructie toe te voegen!
+14:
+Wijzig geselecteerde
+15:
+Markeer
+16:
+Verwijder markering
+17:
+Instr.
+18:
+Programma Instr
+19:
+Programma Test
+20:
+Routines
+21:
+Data
+22:
+Datatypes
+23:
+Test
+24:
+Modules
+25:
+< Druk op ENTER >
+26:
+Verplaats cursor naar PP
+27:
+Verplaats PP naar Main
+28:
+Verplaats PP naar Routine
+29:
+Diverse
+30:
+Beweging&Proces
+31:
+Prog. afloop
+32:
+Gemeenschappelijk
+33:
+Bewegings instellingen
+34:
+Interrupts
+35:
+IO
+36:
+Communiceren
+37:
+Prog. data types
+38:
+Foutherstelling
+39:
+Systeem&Tijd
+40:
+Evenementen log
+41:
+Programma
+42:
+Verplaars PP naar cursor
+43:
+BreekPunt instellen
+44:
+BreekPunt verwijderen
+45:
+BreekPunten...
+46:
+Simuleren...
+47:
+In Systeem
+48:
+switch
+49:
+In module
+50:
+Data
+51:
+Declaratie...
+52:
+Dupliceren...
+53:
+Nieuwe routine...
+54:
+Types
+55:
+In routine
+56:
+Nieuw...
+57:
+Waarde
+58:
+ModPos
+59:
+Instr
+60:
+Test
+61:
+ToonIPL
+62:
+-%
+63:
++%
+64:
+Start
+65:
+Sim
+66:
+Verpl.
+67:
+Nieuw
+68:
+Decl
+69:
+Dupl
+70:
+Var
+71:
+Func
+72:
+Spiegel...
+73:
+Kopie omkeren...
+74:
+Meest voorkomende 1
+75:
+Meest voorkomende 2
+76:
+
+77:
+
+78:
+
+79:
+tooldata
+80:
+wobjdata
+81:
+Snelheid:=
+82:
+Prog uitvoer:=
+83:
+
+84:
+
+85:
+
+86:
+Naam             Waarde
+87:
+Naam              Type
+88:
+
+89:
+
+90:
+Wiskundig
+91:
+Programma uitvoer
+92:
+Naam             Waarde      Module
+93:
+Naam             Type        Module
+94:
+(ModPos)
+95:
+Data
+96:
+Func
+97:
+Geen objecten
+98:
+Foutieve syntaxis
+99:
+Dit is geen programma of\n
+een programmamodule.\n
+Probeer een andere!
+100:
+Ongeldige nummers,\n
+gebruik voorgedefinieerde\n
+data
+101:
+Volgende
+102:
+Programmaroutines
+103:
+Programmadata
+104:
+OptArg
+105:
+(Info)
+106:
+Proc
+107:
+Lokaal
+108:
+Globaal
+109:
+Naam:=
+110:
+Scoop:=
+111:
+Type:=
+112:
+Datatype:
+113:
+Onjuiste datadeclaratie\n
+Controleer naam en waarde
+114:
+Const
+115:
+Wijzig
+116:
+Kan geen programma tonen.\n
+Gebruik het menu Bestand om\n
+om een nieuw programma te\n
+openen of aan te maken.
+117:
+Datatype:=
+118:
+Label
+119:
+Invoegen voor:
+120:
+Naam         Datatype   Ver. Alt. Modus
+121:
+Oversl
+122:
+Trap
+123:
+
+124:
+Geselecteerd object\n
+heeft geen waarde!
+125:
+25%
+126:
+100%
+127:
+Operator
+128:
+Huidige datawaarde
+129:
+Routinedefinitie
+130:
+Routinedeclaratie
+131:
+Routineduplicatie
+132:
+Datadefinitie
+133:
+Datadeclaratie
+134:
+Dataduplicatie
+135:
+WAAR
+136:
+ONWAAR
+137:
+Initiele datawaarde
+138:
+Init. waarde:=
+139:
+Nieuwe init datawaarde
+140:
+main
+141:
+robtarget
+142:
+bool
+143:
+num
+144:
+VerbIPL
+145:
+Routinedata
+146:
+Num data
+147:
+Waarde...
+148:
+Gebruikte types
+149:
+Alle types
+150:
+Types
+151:
+Module
+152:
+Programmamodules
+153:
+omhoog
+154:
+Moduledefinitie
+155:
+Moduledeclaratie
+156:
+Programmamodule
+157:
+Systeemmodule
+158:
+Programma
+159:
+Systeem
+160:
+Huidige instructie
+161:
+Instructieargumenten
+162:
+Slechts een statement is\n
+toegestaan in Compact IF
+163:
+Meer
+164:
+(OptArg)
+165:
+Pers
+166:
+Data is van het type\n
+zonder waarde en kunnen\n
+geen waarde hebben.
+167:
+Object bestaat reeds\n
+Wijzig de naam
+168:
+
+169:
+
+170:
+Welke routine?\n
+Gebruik Inkijken:Routines
+171:
+Er bestaat geen mainroutine
+172:
+Commando mislukt
+173:
+Bufferinhoud past niet.\n
+\n
+Verkeerd type positiehouder
+174:
+
+175:
+Programma Pointer (PP)\n
+kan niet worden geset!\n
+Onjuiste status
+176:
+De cursor wordt verplaatst\n
+naar de programma Pointer\n
+(PP)
+177:
+Data zijn "Read Only"\n
+en kunnen niet worden\n
+veranderd.
+178:
+Nieuwe signalen kunnen\n
+niet worden aangemaakt.\n
+Gebruik voorgedefinieerde.
+179:
+Systeemdata!\n
+Datadeclaratie kan niet\n
+worden bereikt.
+180:
+Functieargument
+181:
+Instructieargument
+182:
+Expressie
+183:
+Selecteer procedure
+184:
+Moet data zijn
+185:
+Foutieve syntaxis\n
+Waarde niet toegestaan
+186:
+Verpl
+187:
+Geen programmaroutine\n
+geselecteerd
+188:
+De IPL is vol!\n
+De routine kon niet worden\n
+toegevoegd.
+189:
+Programma is opgeslagen.
+190:
+Naam                      Type
+191:
+Mainroutine
+192:
+Selecteer een programma\n
+of een module
+193:
+Module opslaan als:
+194:
+Programma opslaan als:
+195:
+Cursor moet zich in\n
+hetzelfde routinedeel\n
+bevinden als de PP.
+196:
+Result
+197:
+Incl.
+198:
+Excl.
+199:
+
+200:
+Bepaal
+201:
+Resultaat meest voorkomende
+202:
+Bepaal meest voorkomende
+203:
+Procedure
+204:
+Functie
+205:
+Trap
+206:
+Variabele
+207:
+Constante
+208:
+Persistente
+209:
+IF
+210:
+WHILE
+211:
+FOR
+212:
+TEST
+213:
+GOTO
+214:
+ProcCall
+215:
+Label
+216:
+:=
+217:
+RETURN
+218:
+RAISE
+219:
+CONNECT
+220:
+EXIT
+221:
+RETRY
+222:
+TRYNEXT
+223:
+Compact IF
+224:
+Comment
+225:
+FREE Voorbehouden voor pallet
+226:
+Geselecteerde routine
+227:
+Waarde
+228:
+Literale waarde
+229:
+-
+230:
+.
+231:
+  In
+232:
+routine
+233:
+module
+234:
+param
+235:
+No Alt.
+236:
+Eerst
+237:
+Laatst
+238:
+Selecteer datatype:
+239:
+Foutafhandeling
+240:
+FOUT afhandeling
+241:
+
+242:
+Selecteer
+243:
+(Nee)
+244:
+De limiet voor de Markeer\n
+beweging is bereikt
+245:
+Controleer programma
+246:
+Ga naar de geselecteerde positie...
+247:
+Programma is OK!
+248:
+Een parameter kan niet\n
+dezelfde naam hebben als\n
+een andere parameter!
+249:
+string
+250:
+WAAR
+251:
+ONWAAR
+252:
+ AND
+253:
+ XOR
+254:
+ OR
+255:
+ NOT
+256:
+ DIV
+257:
+ MOD
+258:
+
+259:
+
+260:
+
+261:
+Er zijn geen parameters\n
+toegelaten voor een\n
+trap-routine
+262:
+Prog. afsluiten
+263:
+Achterw. afhandeling
+264:
+wobj0
+265:
+Tool of Wobj in de instr.\n
+is niet dezelfde als\n
+gebruikt voor het joggen!
+266:
+Bepaal coord.
+267:
+pose
+268:
+signalai
+269:
+signalao
+270:
+signaldi
+271:
+signaldo
+272:
+signalgi
+273:
+signalgo
+274:
+Voeg foutafhandeling toe
+275:
+Verwijder foutafhandeling
+276:
+Er bestaat geen foutafh.\n
+voor deze routine!\n
+Gebruik routine:Toevoegen...
+277:
+Programmageheugen bijna\n
+vol! Sla het programma op\n
+of neem andere maatregelen.
+278:
+alle data
+279:
+Afloop actief!
+280:
+De module is opgeslagen.
+281:
+Creeer\Open een programma\n
+om toegang te krijgen tot\n
+systeemmodules
+282:
+Array-structuren kunnen\n
+nog niet worden behandeld!.
+283:
+ModPos OK!\n
+Programma Pointer (PP)\n
+wordt verplaatst naar de\n
+volgende instructie.
+284:
+Wilt u verwijderen :
+285:
+Wilt u knippen :
+286:
+Toevoegen achterwaarts afh
+287:
+verwijderen achterwaarts afh
+288:
+Achterwaarts afh bestaat\n
+niet voor deze routine!\n
+Gebruik Routine:Toevoegen...
+289:
+ACHTERWAARTS afhandeling
+290:
+InOut
+291:
+\n
+Wilt u het oude programma\n
+%s\n
+opslaan alvorens het te vervangen door\n
+%s?
+292:
+Object kan niet verwijderd\n
+worden in dit venster!!!\n
+Gebruik Inkijken:...
+293:
+Inhoud
+294:
+Invoegen
+295:
+Voorkeuren
+296:
+Meest voorkomende 3
+297:
+pos
+298:
+orient
+299:
+Prog wordt overschreven!\n
+Het bestaande programma\n
+wordt overschreven.\n
+\n
+Ok om verder te gaan?
+300:
+Service
+301:
+i
+302:
+Bewegings Set Adv
+303:
+Bewegings Adv
+304:
+Ext. Computer
+305:
+Multi Tasking
+306:
+RAPID ondersteuning
+307:
+Programma autoriseren
+308:
+Verw. instr.
+309:
+Verw. obj.
+310:
+Cursur komt niet overeen\n
+met Prog Pointer (PP)!!\n
+Start programma vanaf:
+311:
+Cursor
+312:
+  PP
+313:
+Conf. Start
+314:
+Even geduld\n
+Prog. wordt geladen!
+315:
+Even geduld\n
+Module wordt geladen!
+316:
+Even geduld\n
+Prog. wordt opgeslagen!
+317:
+Even geduld\n
+Module wordt opgeslagen!
+318:
+Module %s\n
+bestaat reeds in\n
+\n
+Wilt u het vervangen
+319:
+Geen Routines
+320:
+Geen Data
+321:
+Geen Parameters
+322:
+.prg
+323:
+.PRG
+324:
+.mod
+325:
+.MOD
+326:
+.sys
+327:
+.SYS
+328:
+Stop instructie
+329:
+StopInst
+330:
+Programma venster kan niet\n
+in de automatische modus\n
+gebruikt worden.\n
+Schakel naar manuele modus
+331:
+NB: De robot beweegt naar\n
+de geselecteerde positie!!
+332:
+Start de beweging naar\n
+de geselecteerde positie.
+333:
+Simuleren
+334:
+Selecteer simulatie opties
+335:
+Afloop in MOTOREN UIT toestaan
+336:
+Systeem data
+337:
+Gebruikers data
+338:
+Gemarkeerd gebied
+339:
+Werkgeheugen vol!!.\n
+\n
+Gebruik het menu Bestand om\n
+het programma op te slaan.\n
+Prog moet opgeslagen worden!
+340:
+ModPos niet toegestaan\n
+op een positie die als\n
+variabele gedeclareerd is.
+341:
+Lus variable!\n
+Is alleen toegangkelijk\n
+vanaf de FOR-instructie.
+342:
+Verb.IPL
+343:
+Toon IPL
+344:
+Meer
+345:
+In Module:
+346:
+Selecteer Module:
+347:
+in
+348:
+Data Def.
+349:
+Gebr.
+350:
+Alle
+351:
+Instructies
+352:
+GEBRUIKER
+353:
+Wijzig Positie
+354:
+Type
+355:
+
+356:
+Niet gebruikt
+357:
+ModPos
+358:
+LModPos
+359:
+Max Trans
+360:
+Max Rot
+361:
+Max Externe Trans
+362:
+Max Externe Rot
+363:
+Mode
+364:
+Abs
+365:
+Rel
+366:
+Huidige positie niet binnen\n
+de limieten overeenkomstig\n
+de Limiet ModPos functie.
+367:
+Huidige positie naam\n
+is te lang voor de\n
+Limiet ModPos functie.
+368:
+Limiet ModPos is aktief\n
+maar het is niet mogelijk\n
+om data aan te maken.
+369:
+Limiet ModPos fout!
+370:
+o_robtarget
+371:
+o_
+372:
+Wilt u het oude programma\n
+%s\n
+opslaan alvorens een nieuw progrramma\n
+aan te maken?
+373:
+\n
+De systeem module '%s'\n
+is veranderd maar niet opgeslagen\n
+\n
+Wilt u de systeem module opslaan?
+374:
+De volgende systeem modules zijn\n
+veranderd maar niet opgeslagen\n
+%s\n
+\n
+Wilt u de systeem modules opslaan?
+375:
+Programma opmaken
+376:
+aanwezig
+377:
+Wilt u het op te maken prog. oproepen?:
+378:
+array
+379:
+Indien Auto
+380:
+Vereist gebr.nivo
+381:
+LModPos
+382:
+Als Is
+383:
+Als Opmaak
+384:
+Geen vereist
+385:
+Routines
+386:
+In Routine
+387:
+In Module
+388:
+In Systeem
+389:
+Programma afdrukken
+390:
+Afdruk
+391:
+Afdruk naar bestand:
+392:
+Af te drukken
+393:
+Prog. afdruk naar bestand:
+394:
+Afdruk bezig!
+395:
+Afbreken : Druk Enter
+396:
+Doorgaan : Druk Enter
+397:
+Printer is bezig\n
+\n
+Probeer opnieuw als de printer\n
+klaar is!
+398:
+Kan niet afdrukken omdat er te\n
+veel opdrachten wachten\n
+\n
+Probeer het later opnieuw!
+399:
+Kan niet afdrukken omdat\n
+de printer niet in de systeem\n
+parameters gedefinieerd is.
+400:
+Niet voldoende ruimte op de\n
+unit vrij om af te drukken\n
+(meestal %.9s). %d bytes\n
+nodig. Verwijder enkele best.
+401:
+ Bezig\n
+\n
+ Even wachten A.U.B.
+402:
+   Kan bestand niet\n
+   lezen/schrijven
+403:
+ Bestand bestaat reeds
+404:
+ Programma

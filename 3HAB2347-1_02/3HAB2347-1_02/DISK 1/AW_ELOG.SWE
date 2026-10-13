@@ -1,0 +1,729 @@
+
+
+64::
+0:
+Bågsvetsning
+1:
+Gasövervakning\n
+\n
+\t\n
+Kontrollera svetsutrustningen.\n
+
+2:
+Vattenövervakning\n
+\n
+\t\n
+Kontrollera svetsutrustningen.\n
+
+3:
+Bågövervakning\n
+\n
+\t\n
+Kontrollera svetsutrustningen.\n
+
+4:
+Spänningsövervakning\n
+\n
+\t\n
+Kontrollera svetsutrustningen.\n
+
+5:
+Strömövervakning\n
+\n
+\t\n
+Kontrollera svetsutrustningen.\n
+
+6:
+Trådmatningsövervakning\n
+\n
+\t\n
+Kontrollera svetsutrustningen.\n
+
+7:
+Trådövervakning\n
+\n
+\t\n
+Kontrollera svetsutrustningen.\n
+
+8:
+Bågen tändes inte\n
+\n
+\t\n
+Kontrollera svetsutrustningen.\n
+
+9:
+Fel överföring svetsprog\n
+\n
+\t\n
+Definiera ingång för program strobe.\n
+
+10:
+Fel överföring svetsprog\n
+\n
+\t\n
+Programporten var upptagen med\n
+föregående överföring.\n
+
+11:
+Process stoppad\n
+\n
+\t\n
+Processen stoppades av en digital\n
+ingång.\n
+
+12:
+Bågen tändes inte\n
+\n
+\t\n
+Kontrollera svetsutrustningen.
+13:
+Svetsövervakning\n
+\n
+\t\n
+Kontrollera svetsutrustningen.
+1000:
+Fel i pendlingsmönster\n
+Fel interpolationstyp för pendling\n
+[Geometrisk = 0, Snabb = 1]\n
+\t\n
+Justera pendlingsparametrar
+1001:
+Fel i pendlingsmönster\n
+Fel form på pendlingsmönstret\n
+[Ingen = 0, Zig-zag     = 1]\n
+[V-formad  = 2, Triangulär = 3]\n
+\t\n
+Justera pendlingsparametrar
+1002:
+Fel i pendlingsmönster\n
+Fel cykellängd för pendling\n
+[(0 - 1) [m]\n
+\t\n
+Justera pendlingsparametrar
+1003:
+Fel i pendlingsmönster\n
+Fel cykeltid för pendling\n
+[(0 - 100) [s]\n
+\t\n
+Justera pendlingsparametrar
+1004:
+Fel i pendlingsmönster\n
+Fel mönsterbredd för pendling\n
+[(0 - 1) [m]\n
+\t\n
+Justera pendlingsparametrar
+1005:
+Fel i pendlingsmönster\n
+Fel mönsterhöjd för pendling\n
+[(0 - 1) [m]\n
+\t\n
+Justera pendlingsparametrar
+1006:
+Fel i pendlingsmönster\n
+Fel dwell vänster för pendling\n
+[(0 - 1) [m]\n
+\t\n
+Justera pendlingsparametrar
+1007:
+Fel i pendlingsmönster\n
+Fel dwell centrum för pendling\n
+[(0 - 1) [m]\n
+\t\n
+Justera pendlingsparametrar
+1008:
+Fel i pendlingsmönster\n
+Fel dwell höger för pendling\n
+[(0 - 1) [m]\n
+\t\n
+Justera pendlingsparametrar
+1009:
+Fel i pendlingsmönster\n
+Fel bias för pendling\n
+[(-1 - 1) [m]\n
+\t\n
+Justera pendlingsparametrar
+1010:
+Fel i pendlingsmönster\n
+Fel riktningsvinkel för pendling\n
+(-PI/2 - PI/2) [rad]\n
+\t\n
+Justera pendlingsparametrar
+1011:
+Fel i pendlingsmönster\n
+Fel vridningsvinkel för pendling\n
+(-PI/2 - PI/2) [rad]\n
+\t\n
+Justera pendlingsparametrar
+1012:
+Fel i pendlingsmönster\n
+Fel rotationsvinkel för pendling\n
+(-PI/2 - PI/2) [rad]\n
+\t\n
+Justera pendlingsparametrar
+1013:
+Fel i pendlingsmönster\n
+Fel horisontell offset för pendling\n
+(-1 - 1) [rad]\n
+\t\n
+Justera pendlingsparametrar
+1014:
+Fel i pendlingsmönster\n
+Fel vertikal offset för pendling\n
+(-1 - 1) [rad]\n
+\t\n
+Justera pendlingsparametrar
+1015:
+Fel i pendlingsmönster\n
+Fel synkvillkor vänster för pendling\n
+(0 - 100) [%]\n
+\t\n
+Justera pendlingsparametrar
+1016:
+Fel i pendlingsmönster\n
+Fel synkvillkor höger för pendling\n
+(0 - 100) [%]\n
+\t\n
+Justera pendlingsparametrar
+1017:
+Fel i pendlingsmönster\n
+Felaktig kombination av bias och form\n
+Bias enbart tillåten för zig-zag\n
+pendling.\n
+\t\n
+Justera pendlingsparametrar
+1018:
+Fel i pendlingsmönster\n
+Felaktig kombination av bias och bredd\n
+Bias måste vara mindre än halva bredden.\n
+\t\n
+Justera pendlingsparametrar
+1019:
+Fel i pendlingsmönster\n
+Felaktig kombination av dwell och\n
+cykellängd.\n
+Dwell måste vara mindre än cykellängden.\n
+Ramplutningen är begränsad.\n
+\t\n
+Justera pendlingsparametrar
+3000:
+Fel i utrustning konfig.\n
+\n
+\t\n
+AW och EIO konfig. överensstämmer ej.\n
+
+4000:
+Weldguide fel\n
+\n
+\t\n
+Kontrollera weldguide parametrarna\n
+och utrustningen\n
+
+5000:
+Seamless konfig. fel\n
+Okänd parameter i kraftkällan\n
+\t\n
+Kontrollera Seamless konfig. fil\n
+
+5001:
+Seamless konfig. fel\n
+Ogiltig enhet_id använd\n
+\t\n
+Kontrollera Seamless konfig. fil\n
+
+5002:
+Seamless konfig. fel\n
+Ogiltig överföringslängd använd\n
+\t\n
+Kontrollera Seamless konfig. fil\n
+
+5003:
+Seamless konfig. fel\n
+Ogiltigt val_id använt\n
+\t\n
+Kontrollera Seamless konfig. fil\n
+
+5004:
+Seamless konfig. fel\n
+Seamless system med annorlunda enheter\n
+\t\n
+Kontrollera Seamless konfig. fil\n
+
+5005:
+Seamless konfig. fel\n
+Inga enheter använda\n
+\t\n
+Kontrollera Seamless konfig. fil\n
+
+5006:
+Seamless konfig. fel\n
+För många inställningsparametrar\n
+\t\n
+Kontrollera Seamless konfig. fil
+6000:
+Följningsfel\n
+\n
+\t\n
+Kontrollera axeldefinitioner.\n
+
+6001:
+Fel i följningsstart\n
+\n
+\t\n
+Kontrollera axeldefinition.\n
+
+6002:
+Max bankorrektionsfel\n
+\n
+\t\n
+Kontrollera axeldefinitioner.\n
+
+7001:
+Svetsutrustningsfel\n
+EPROM kontrollsumma fel i Welddata Unit,\n
+upptäckt vid start.\n
+\t\n
+EPROM i Welddata Unit är felaktig.\n
+Körning med detta fel ger oförutsägbart\n
+resultat. Växla EPROM.
+7002:
+Svetsutrustningsfel\n
+Intern RAM läs/skriv fel i Welddata Unit\n
+upptäckt vid start.\n
+\t\n
+Minst en minnescell i det interna\n
+mikroprocessorminnet misslyckades i\n
+läs/skriv testet. Körning med detta fel\n
+ger ett oförutsägbart resultat.\n
+Återställ Welddata Unit.
+7003:
+Svetsutrustningsfel\n
+Extern RAM läs/skriv fel i Welddata Unit\n
+upptäckt vid start.\n
+\t\n
+Minst en minnescell i det externa\n
+mikroprocessorminnet misslyckades i\n
+läs/skriv testet. Körning med detta fel\n
+ger ett oförutsägbart resultat.\n
+Återställ Welddata Unit.
+7004:
+Svetsutrustningsfel\n
+DC matarspänning för 5 Voltsregulatorn\n
+i Welddata Unit har varit avstängd.\n
+\t\n
+Indikerar att det är ett problem med\n
+strömtillförsel men funktionen är\n
+antagligen inte påverkad. Kontrollera\n
+inkommande strömtillförsel till\n
+Welddata Unit.
+7012:
+Svetsutrustningsfel\n
+Welddata Unit CAN-kontroller för\n
+intern buss är i VARNINGstillstånd.\n
+\t\n
+Byt data flera gånger eller återställ\n
+svetsutrustningen med strömbrytaren.\n
+Om felet inte försvinner, kontrollera\n
+buss anslutningarna och/eller växla\n
+Welddata Unit.
+7013:
+Svetsutrustningsfel\n
+Welddata Unit CAN-kontroller för\n
+extern buss är i VARNINGstillstånd.\n
+\t\n
+Byt data flera gånger eller återställ\n
+svetsutrustningen med strömbrytaren.\n
+Om felet inte försvinner, kontrollera\n
+buss anslutningar och/eller växla\n
+Welddata Unit.
+7014:
+Svetsutrustningsfel\n
+Welddata Unit CAN-kontroller för\n
+intern buss är i BUS-OFF tillstånd.\n
+\t\n
+Återställ svetsutrstningen med ström-\n
+brytaren. Om felet inte försvinner,\n
+kontrollera buss anslutningarna\n
+och/eller växla Welddata Unit.
+7015:
+Svetsutrustningsfel\n
+Welddata Unit har upptäckt att ett mot-\n
+taget internt CAN meddelande har\n
+försvunnit (Överskrivet av ett senare\n
+meddelande).\n
+\t\n
+Återställ svetsutrustningen med\n
+strömbrytaren.
+7016:
+Svetstrustningsfel\n
+Welddata Unit har upptäckt att ett mot-\n
+taget externt CAN meddelande har\n
+försvunnit (Överskrivet av ett senare\n
+meddelande).\n
+\t\n
+Återställ svetsutrustningen med\n
+strömbrytaren.
+7017:
+Svetsutrustningsfel\n
+Welddata Unit förlorade kontakten med\n
+Wirefeed Unit.\n
+\t\n
+Kontrollera anslutningen mellan\n
+Welddata Unit och trådmatarkontrollen,\n
+kontrollera strömförsörjningen till\n
+trådmatarkontrollen.
+7018:
+Svetsutrustningsfel\n
+Welddata Unit har förlorat kontakten\n
+Olivia Unit.\n
+\t\n
+Kontrollera anslutningskabeln mellan\n
+Welddata Unit och Olivia unit,\n
+kontrollera strömförsörjning till\n
+Olivia Unit.
+7019:
+Svetsutrustningsfel\n
+Ett ickeflyktigt RAM datavärdesbrist\n
+upptäckt i Welddata Unit vid uppstart.\n
+Kontrollsummafel.\n
+\t\n
+Antagligen orsakat av backupminnets låga\n
+batterispänning. Svetsutrustningen\n
+kommer att återgå till ett starttill-\n
+stånd. Data i Welddata Unit försvinner.\n
+Kan komma att köra utan begränsningar.
+7020:
+Svetsutrustningsfel\n
+Ett ickeflyktigt RAM datavärdesbrist\n
+upptäckt i Welddata Unit vid uppstart.\n
+Ickenumeriska fastställda\n
+parametrar för stora.\n
+\t\n
+Svetsutrustningen kommer att återgå till\n
+ett starttillstånd. Data i Welddata Unit\n
+försvinner. Kan komma att köra utan\n
+begränsningar.
+7021:
+Svetsutrustningsfel\n
+Ogiltiga kombinationer av icke-numeriska\n
+fastställda parametrar i Welddata Unit\n
+upptäcktes vid uppstart.\n
+\t\n
+Svetsutrustningen kommer att återgå till\n
+ett starttillstånd. Data i Welddata\n
+Unit kommer att försvinna. Återställ\n
+svetsutrustningen med strömbrytaren.
+7022:
+Svetsutrustningsfel\n
+CAN-bussens (extern) överföringsbuffert\n
+överfull i Welddata Unit.\n
+\t\n
+Welddata Unit kan inte överföra data i\n
+önskad takt. Kan orsakas av onormal\n
+ockupation på bussen. Återställ svets-\n
+utrustningen med strömbrytaren.
+7023:
+Svetsutrustningsfel\n
+CAN-bussens (externa) mottagningsbuffert\n
+överfull i Welddata Unit.\n
+\t\n
+Welddata Unit kan inte behandla mottagna\n
+meddelanden i önskad takt. Återställ\n
+svetsutrustningen med strömbrytaren.
+7024:
+Svetsutrustningsfel\n
+Fragmenten inte i nummerordning när\n
+Welddata Unit tog emot ett fragmenterat\n
+meddelande.\n
+\t\n
+Delar av ett fragmenterat meddelande\n
+mottogs inte i rätt ordning. En svets-\n
+datablock överföring har blivit\n
+felaktigt mottagen. Återställ svets-\n
+utrustningen med strömbrytaren.
+7025:
+Svetsutrustningsfel\n
+Inkompatibelt format i svetsdatablocket.\n
+Welddata Unit mottog data som är\n
+förvarat i en annan programversion med\n
+ett annat format.\n
+\t\n
+Hitta ett data med korrekt version eller\n
+skriv in nytt data.
+7026:
+Svetsutrustningsfel\n
+Programkörningsfel.\n
+Watch dog i Welddata Unit programet\n
+aktiverad.\n
+\t\n
+Återställ svetsutrustningen\n
+med strömbrytaren.\n
+
+7027:
+Svetsutrustningsfel\n
+Odokumenterat Welddata Unit fel.\n
+\t\n
+Begär ytterligare information av\n
+ESAB/ABB.
+7028:
+Svetsutrustningsfel\n
+Odokumenterat Welddata Unit fel.\n
+\t\n
+Begär ytterligare information av\n
+ESAB/ABB.
+7029:
+Svetsutrustningsfel\n
+Odokumenterat Welddata Unit fel.\n
+\t\n
+Begär ytterligare information av\n
+ESAB/ABB.
+7201:
+Svetsutrustningsfel\n
+EPROM kontrollsummafel i Powersource\n
+Control Unit.\n
+\t\n
+EPROM i Powersource Control Unit är\n
+felaktig. Körning med detta fel ger\n
+oförutsägbart resultat.\n
+Återställ EPROM.
+7202:
+Svetsutrustningsfel\n
+Internt RAM läs/skriv fel i\n
+Powersorce Control Unit upptäckt vid\n
+uppstart.\n
+\t\n
+Minst en minnescell i det interna mikro-\n
+processorminnet misslyckades i läs/skriv\n
+testet. Körning med detta fel ger ett\n
+oförutsägbart resultat. Återställ\n
+Powersource Control Unit.
+7204:
+Svetsutrustningsfel\n
+DC matarspänning till 5 Voltsregulatorn\n
+i Powersource Control Unit har varit\n
+avstängd.\n
+\t\n
+Indikerar att det är ett problem med\n
+strömtillförseln men funktionen påverkas\n
+antagligen inte. Kontrollera inkommande\n
+strömtillförsel till Powersorce Control\n
+Unit.
+7205:
+Svetsutrustningsfel\n
+Hög DC inverterarbuss-spänning.\n
+Hårdvaran kommer att stänga av\n
+inverteraren tills att spänningen blir\n
+normal.\n
+\t\n
+Kan orsakas av hög huvudimpedans eller\n
+transient, möjligt att omstarta\n
+svetsning när spänningen har sjunkit\n
+under gränsen.
+7206:
+Svetstrustningsfel\n
+För hög temperatur i kraftkällans\n
+kylare. Inverteraren är avstängd\n
+tills att temperatur brytaren är stängd\n
+igen.\n
+\t\n
+Säkerställ att det inte finns något\n
+hinder som reducerar kylluften som\n
+passerar genom kylaren i kraftkällan.\n
+Vänta tills att temperaturbrytaren är\n
+stängd.
+7207:
+Svetsutrstningsfel\n
+Hög ström i inverteringskretsen.\n
+Kan orsakas av komponentavbrott.\n
+\t\n
+Återställ svetsutrustningen med ström-\n
+brytaren. Kontrollera att kraftkällan\n
+inte konsumerar onormalt mycket ström\n
+utan startkommando. Om så är fallet:\n
+är det ett komponentavbrott.
+7208:
+Svetsutrustningsfel\n
+PCB matarspänning 15VC på Powersource\n
+Control Unit  för hög eller för låg.\n
+\t\n
+Återställ Powersource Control Unit.
+7209:
+Svetsutrustningsfel\n
+PCB matarspänning -15V på Powersource\n
+Control Unit för hög eller för låg.\n
+\t\n
+Återställ Powersource Control Unit.
+7210:
+Svetsutrustningsfel\n
+PCB matarspänning 15VB på Powersource\n
+Control Unit för hög eller för låg.\n
+\t\n
+Återställ Powersource Control Unit.
+7211:
+Svetsutrustningsfel\n
+Stor differens mellan begärt och\n
+verkligt svetsströmsvärde.\n
+\t\n
+Hårdvaru problem i strömservosystemet\n
+(Kraftkällans kontroll eller\n
+inverterings blocket) eller onormala\n
+laddningsförhållanden (=dålig\n
+svetsning).
+7212:
+Svetsutrustningsfel.\n
+Internt CAN kommunikationsstopp CAN\n
+kretsarna i Powersource Control Unit\n
+är i VARNINGsläge.\n
+\t\n
+Byt data flera gånger eller återställ\n
+svetsutrustningen med strömbrytaren. Om\n
+felet inte försvinner, kontrollera buss-\n
+anslutningarna och/eller byt Powersource\n
+Control Unit.
+7215:
+Svetsutrustningsfel\n
+Powersource Control Unit har upptäckt\n
+att ett mottaget internt CAN meddelande\n
+försvunnit (överskrivet av ett senare\n
+meddelande).\n
+\t\n
+Återställ svetsutrustningen med\n
+strömbrytaren.
+7226:
+Svetsutrustningsfel\n
+Programkörningsfel.\n
+Watch dog i Powersource Control Unit\n
+programet aktiverad.\n
+\t\n
+Återställ svetsutrustningen med\n
+strömbrytaren.
+7227:
+Svetsutrustningsfel\n
+Odokumenterat Powersource Control Unit\n
+fel.\n
+\t\n
+Begär ytterligare information av\n
+ESAB/ABB.
+7228:
+Svetsutrustningsfel\n
+Odokumenterat Powersource Control Unit\n
+fel.\n
+\t\n
+Begär ytterligare information av\n
+ESAB/ABB.
+7229:
+Svetsutrustningsfel\n
+Odokumenterat Powersource Control Unit\n
+fel.\n
+\t\n
+Begär ytterligare information av\n
+ESAB/ABB.
+7301:
+Svetsutrustningsfel\n
+EPROM kontrollsummafel i Wirefeed unit\n
+upptäckt vid uppstart.\n
+\t\n
+EPROM i Wirefeed unit är felaktigt.\n
+Körning med detta fel ger ett\n
+oförutsägbart resultat.\n
+Växla EPROM.
+7302:
+Svetsutrustningsfel\n
+Internt RAM läs/skrivfel i\n
+Wirefeed Unit upptäckt vid uppstart.\n
+\t\n
+Minst en minnescell i det interna mikro-\n
+processorminnet misslyckades i läs/skriv\n
+testet. Körning med detta fel ger ett\n
+oförutsägbart resultat.\n
+Återställ Wirefeed Unit.
+7304:
+Svetsutrustningsfel\n
+DC matarspänning för 5 Volt regulatorn\n
+i Wirefeed Unit har varit avstängd.\n
+\t\n
+Indikerar att det är ett problem med\n
+krafttillförseln men funktionen påverkas\n
+antagligen inte. Kontrollera inkommande\n
+krafttillförsel till Wirefeed Unit.
+7308:
+Svetsutrustningsfel\n
+PCB matarspänning 15V på Wirefeed Unit\n
+för hög eller för låg.\n
+\t\n
+Återställ Wirefeed Unit.
+7309:
+Svetstrustningsfel\n
+PCB matarspänning 24V på Wirefeed Unit\n
+för hög eller för låg.\n
+\t\n
+Återställ Wirefeed Unit.
+7311:
+Svetstrustningdfel\n
+Stor differans mellan begärd och\n
+verklig trådmatarhastighet.\n
+\t\n
+Hårdvaruproblem i trådmatarservo-\n
+systemet eller spänningsfall i 42 V\n
+AC utrstningen.
+7312:
+Svetsutrstningsfel\n
+Internt CAN kommunikationsstopp,\n
+CAN kretsarna i Wirefeed Unit är i\n
+VARNINGsläge.\n
+\t\n
+Ändra trådmatarhastigheten flera gånger\n
+eller återställ svetstrustningen med\n
+strömbrytaren. Om felet inte försvinner\n
+kontrollera buss anslutningarna\n
+och/eller växla Wirefeed Unit.
+7315:
+Svetsutrustningsfel\n
+Wirefeed Unit har upptäckt att ett\n
+mottaget internt CAN meddelande försvann\n
+(överskrivet av ett senare meddelande).\n
+\t\n
+Återställ svetsutrustningen med\n
+strömbrytaren.
+7326:
+Svetsutrustningsfel\n
+Programkörningsfel.\n
+Watch dog i Wirefeed Unit programet\n
+aktiverad.\n
+\t\n
+Återställ svetsutrustningen med\n
+strömbrytaren.
+7327:
+Svetsutrustningsfel\n
+Odokumenterat Wirefeed Unit fel.\n
+\t\n
+Begär ytterligare information av\n
+ESAB/ABB.
+7328:
+Svetsutrustningsfel\n
+Odokumenterat Wirefeed Unit fel.\n
+\t\n
+Begär ytterligare information av\n
+ESAB/ABB.
+7329:
+Svetsutrustningsfel\n
+Odokumenterat Wirefeed Unit fel.\n
+\t\n
+Begär ytterligare information av\n
+ESAB/ABB.
+7500:
+Filöppnarfel\n
+Fil namn okänt\n
+\t\n
+
+8000:
+Ext CAN com stopp\n
+För många förfrågningar utan respons\n
+\t\n
+Kontrollera kommunikations\n
+konfigurationen
+9000:
+Installation error\n
+External axes are not allowed in this\n
+type of robot configuration\n
+\t\n
+Remove mechanical units

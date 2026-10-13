@@ -1,0 +1,415 @@
+14::
+100:
+Kein Objekt
+200:
+Platzhalter
+300:
+Ende
+400:
+Modul Deklaration
+401:
+System Modul Attribut
+402:
+N_SCHRITTWEISE Modulattribut
+403:
+NUR_ANSICHT Modulattribut
+404:
+NUR_LESEN Modulattribute
+405:
+Objektname
+406:
+Daten Deklaration Liste
+407:
+Routinen Deklaration Liste
+408:
+End
+500:
+Konstante Daten Deklaration
+501:
+Lokal
+502:
+Typ
+503:
+Objektname
+504:
+Ausdruck Liste
+505:
+Ausdruck
+600:
+Variable Daten Deklaration
+601:
+Lokal
+602:
+Typ
+603:
+Objektname
+604:
+Ausdruck Liste
+605:
+Ausdruck
+700:
+Speichernde Daten Deklaration
+701:
+Lokal
+702:
+Typ
+703:
+Objektname
+704:
+Ausdruck Liste
+705:
+Ausdruck
+800:
+Funktion Deklaration
+801:
+Lokal
+802:
+Typ
+803:
+Objektname
+804:
+Parameter Deklaration
+805:
+Daten Deklaration Liste
+806:
+Ausdruck Liste
+807:
+ELSE
+808:
+Ende
+900:
+Prozedur Deklaration
+901:
+Lokal
+902:
+Objektname
+903:
+Parameter Deklaration
+904:
+Daten Deklaration Liste
+905:
+Ausdruck Liste
+906:
+Rückw Instr. Liste
+907:
+ELSE
+908:
+Ende
+1000:
+Interrupt Deklaration
+1001:
+Lokal
+1002:
+Objektname
+1003:
+Daten Deklaration Liste
+1004:
+Ausdruck Liste
+1005:
+ELSE
+1006:
+Ende
+1100:
+Notwendiger Parameter
+1101:
+Variable Parameter Modus
+1102:
+Speichernde Parameter Modus
+1103:
+Inout Parameter Modus
+1104:
+Typ
+1105:
+Objektname
+1106:
+Dimension
+1200:
+Optioneller Parameter
+1201:
+Parameter Deklaration
+1300:
+Alternativer Parameter
+1301:
+Variable Parameter Modus
+1302:
+Speichernde Parameter Modus
+1303:
+Inout Parameter Modus
+1304:
+Typ
+1305:
+Objektname
+1306:
+Dimension
+1400:
+Label
+1401:
+Objektname
+1500:
+Return
+1501:
+Ausdruck
+1600:
+Raise
+1601:
+Ausdruck
+1700:
+Retry
+1800:
+Connect
+1801:
+Variable Referenz
+1802:
+Objektname Referenz
+1900:
+Exit
+2000:
+Goto
+2001:
+Objektname Referenz
+2100:
+Zuweisung
+2101:
+Variable Referenz
+2102:
+Ausdruck
+2200:
+IF
+2201:
+Ausdruck
+2202:
+Instr. Liste
+2203:
+ELSEIF
+2204:
+ELSE
+2205:
+Ende
+2300:
+Compact IF
+2301:
+Instruktion
+2302:
+Sonst
+2400:
+WHILE
+2401:
+Ausdruck
+2402:
+Sonst
+2403:
+Ende
+2500:
+FOR
+2501:
+Objektname
+2502:
+Von
+2503:
+Bis
+2504:
+Schritt
+2505:
+Sonst
+2506:
+Ende
+2600:
+TEST
+2601:
+Ausdruck
+2602:
+Fall Liste
+2603:
+Sonst
+2604:
+Ende
+2700:
+Procedure call
+2701:
+Objektname Referenz
+2702:
+Argument Liste
+2800:
+Elseif
+2801:
+Instruktion
+2802:
+Sonst
+2900:
+Case
+2901:
+Instruktion
+2902:
+Sonst
+3000:
+Notwendiges Argument
+3001:
+Objektname Referenz
+3002:
+Ausdruck
+3100:
+Optionelles Argument
+3101:
+Variable Referenz
+3102:
+Ausdruck
+3103:
+Variable Referenz
+3200:
+Konstante Ausdruck
+3300:
+Ausdruck
+3400:
+Literal
+3500:
+Variable
+3600:
+Objektname
+3700:
+Objektname
+3800:
+Wertetyp
+3900:
+Datentyp
+4000:
+Dimension
+4100:
+Comment
+4200:
+Try Next
+10000:
+PGM_PHR_NONE
+10100:
+PGM_PHR_DDN
+10101:
+Konstant Deklaration
+10102:
+Variable Deklaration
+10103:
+Speichernde Deklaration
+10104:
+Comment
+10200:
+PGM_PHR_RDN
+10201:
+Funktion Deklaration
+10202:
+Prozedur Deklaration
+10203:
+Interrupt Deklaration
+10204:
+Comment
+10300:
+PGM_PHR_PAR
+10301:
+Notwendiger Parameter
+10302:
+Optioneller Parameter
+10400:
+PGM_PHR_ALT
+10401:
+Alternativer Parameter
+10500:
+PGM_PHR_SMT
+10501:
+Label
+10502:
+Return
+10503:
+Raise
+10504:
+Retry
+10505:
+Connect
+10506:
+Exit
+10507:
+Goto
+10508:
+Assignment
+10509:
+IF
+10510:
+Compact IF
+10511:
+WHILE
+10512:
+FOR
+10513:
+TEST
+10514:
+Procedure call
+10515:
+Comment
+10516:
+Try Next
+10600:
+PGM_PHR_SSMT
+10601:
+Return
+10602:
+Raise
+10603:
+Retry
+10604:
+Connect
+10605:
+Exit
+10606:
+Goto
+10607:
+Assignment
+10608:
+Procedure call
+10609:
+Try Next
+10700:
+PGM_PHR_EIT
+10701:
+Elseif
+10800:
+PGM_PHR_CSE
+10801:
+Case
+10900:
+PGM_PHR_ARG
+10901:
+Notwendiges Argument
+10902:
+Optionelles Argument
+11000:
+PGM_PHR_CEXP
+11001:
+Konstante Ausdruck
+11100:
+PGM_PHR_EXP
+11101:
+Ausdruck
+11200:
+PGM_PHR_LEXP
+11201:
+Literal
+11300:
+PGM_PHR_VRF
+11301:
+
+11400:
+PGM_PHR_NAM
+11401:
+
+11500:
+PGM_PHR_REF
+11501:
+
+11600:
+PGM_PHR_VALTYP
+11601:
+Wertetyp
+11700:
+PGM_PHR_DATTYP
+11701:
+Datentyp
+11800:
+PGM_PHR_DIM
+11801:
+Dimension

@@ -1,0 +1,157 @@
+14::
+0:
+Pas d'objet
+1:
+Substitut
+2:
+Fin
+3:
+Declaration du module
+4:
+Declaration des Constantes
+5:
+Declaration des Variables
+6:
+Declaration des donnees persistentes
+7:
+Declaration de fonction
+8:
+Declaration de procedure
+9:
+Declaration de Trap
+10:
+Parametre necessaire
+11:
+Parametre optionnel
+12:
+Parametre Alternatif
+13:
+Label
+14:
+Retour
+15:
+Augmenter
+16:
+Re-essayer
+17:
+Essai suivant
+18:
+Connecter
+19:
+Exit
+20:
+Goto
+21:
+Assignment
+22:
+IF
+23:
+Compact IF
+24:
+WHILE
+25:
+FOR
+26:
+TEST
+27:
+Procedure call
+28:
+Elseif
+29:
+Case
+30:
+Argument necessaire
+31:
+Argument optionnel
+32:
+Expression constante
+33:
+Expression
+34:
+Literal
+35:
+Variable
+36:
+Nom d'objet
+37:
+Nom d'objet
+38:
+Type valeur
+39:
+Type donnee
+40:
+Dimension
+41:
+Commentaire
+42:
+43:
+44:
+45:
+46:
+47:
+48:
+49:
+50:
+No child
+51:
+Fin
+52:
+Attributs du module systeme
+53:
+Attribut de module Nostepin
+54:
+Attribut de module Viewonly
+55:
+Attribut de module Readonly
+56:
+Nom d'objet
+57:
+Liste de declaration des donnees
+58:
+Liste de declaration des routines
+59:
+Local
+60:
+Type
+61:
+Liste d'expressions
+62:
+Expression
+63:
+Declaration des parametres
+64:
+Liste d'instructions
+65:
+Liste d'instruction inverse
+66:
+ELSE
+67:
+Mode de parametre variable
+68:
+Mode de parametre persistant
+69:
+Mode de parametre Inout
+70:
+Dimensions
+71:
+Nom de reference de l'objet
+72:
+Variable de reference
+73:
+Liste d'instructions
+74:
+Instruction
+75:
+ELSEIF
+76:
+De
+77:
+A
+78:
+Pas
+79:
+Liste des cas
+80:
+Expressions
+81:
+Liste des arguments

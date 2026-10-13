@@ -1,0 +1,593 @@
+22::
+0:
+System
+10:
+Nödstopp aktivt\n
+Nödstopp måste återställas.\n
+Tryck på panel-knappen\n
+\t\n
+
+11:
+Nödstopp aktivt\n
+Nödstopp måste återställas.\n
+Släpp först på nödstoppsknappen,\n
+tryck sedan på panelknappen.\n
+\t\n
+
+12:
+Systemfel har uppstått\n
+Går ej att återställa.\n
+Gör en omstart av roboten.\n
+\t\n
+Stäng av och på huvud\n
+strömbrytaren om det ej går att\n
+göra en omstart från p-lådan.
+24:
+Statusfel Enablekedjan\n
+Olika status på de två kanalerna.\n
+\t\n
+Bekräftelsen på tvåkanaligheten för\n
+Enablekedjan kom ej innom rätt tid.
+30:
+Axel ej kommuterad\n
+En eller flera axlar med internt\n
+drivdon är ej kommuterade.\n
+\t\n
+
+31:
+Axel ej kalibrerad\n
+En eller flera absolut/relativ\n
+mätande axlar är ej kalibrerade.\n
+\t\n
+
+32:
+Varväknare ej uppdaterad\n
+En eller flera absolutmätande\n
+axlar är ej synkroniserade.\n
+\n
+Flytta roboten till utgångsposition\n
+och uppdatera varvräknarna.\n
+\t\n
+
+33:
+Axel ej synkroniserad\n
+En eller flera relativmätande\n
+axlar är ej synkroniserade.\n
+\n
+Beordra Motorer Till och synkronisera\n
+alla mekaniska enheter i listan.\n
+\t\n
+
+50:
+Ej tillåtet kommando\n
+Kommandot kan ej utföras\n
+i detta körsätt.\n
+\t\n
+
+51:
+Ej tillåtet kommando\n
+En annan process använder resurser\n
+som är nödvändiga för detta kommando\n
+(program/rörelse).\n
+\t\n
+
+52:
+Ej tillåtet kommando\n
+Styrsystemets tillstånd är ej korrekt.\n
+\t\n
+
+53:
+Ej tillåtet kommando\n
+Manipulatorns tillstånd är ej korrekt.\n
+\t\n
+
+54:
+Ej tillåtet kommando\n
+Programkörning pågår.\n
+\t\n
+
+60:
+Ej tillåtet kommando\n
+Otillåtet kommando i automatiskt körsätt\n
+\t\n
+
+61:
+Ej tillåtet kommando\n
+Byte till automatiskt körsätt otillåtet.\n
+\t\n
+
+62:
+Ej tillåtet kommando\n
+Kommandot ej tillåtet i manuellt körsätt\n
+med reducerad hastighet.\n
+\t\n
+
+63:
+Ej tillåtet kommando\n
+Kommandot ej tillåtet i manuellt körsätt\n
+med full hastighet.\n
+\t\n
+
+64:
+Ej tillåtet kommando\n
+Byte till manuellt körsätt med full\n
+hastighet ej tillåtet.\n
+\t\n
+
+70:
+Ej tillåtet kommando\n
+Kommandot kan ej utföras\n
+i MOTORER TILL.\n
+\t\n
+
+71:
+Ej tillåtet kommando\n
+Byte till Motorer Till\n
+ej tillåtet.\n
+\t\n
+
+72:
+Ej tillåtet kommando\n
+Kommandot kan ej utföras\n
+i MOTORER FRÅN.\n
+\t\n
+
+73:
+Ej tillåtet kommando\n
+Byte till Motorer Från\n
+ej tillåtet.\n
+\t\n
+
+74:
+Ej tillåtet kommando\n
+Kommandot kan ej utföras\n
+då skyddsstopp är aktivt.\n
+\t\n
+
+75:
+Ej tillåtet kommando\n
+Kommandot kan ej utföras vid nödstopp.\n
+\n
+Nödstoppsåterställning nödvändig\n
+Tryck på panelknappen.\n
+\t\n
+
+76:
+Ej tillåtet kommando\n
+Kommandot kan ej utföras vid systemfel.\n
+Går ej att återställa.\n
+Gör en omstart.\n
+\t\n
+Stäng av och på huvud\n
+strömbrytaren om det ej går att\n
+göra en omstart från p-lådan.
+80:
+Ej tillåtet kommando\n
+Ej tillåtet när någon axel.\n
+inte är kommuterad.\n
+\t\n
+
+81:
+Ej tillåtet kommando\n
+Ej tillåtet när någon axel.\n
+inte är kalibrerad.\n
+\t\n
+
+82:
+Ej tillåtet kommando\n
+Ej tillåtet när någon varvräknare\n
+inte är uppdaterad.\n
+\t\n
+
+83:
+Ej tillåtet kommando\n
+Ej tillåtet när någon axel inte\n
+är synkroniserad.\n
+\t\n
+
+92:
+Ej tillåtet kommando\n
+Ej tillåtet i läge\n
+System IO Start Blockerat.\n
+\t\n
+
+100:
+Progenhet i kontroll\n
+Programmeringsenheten\n
+har kontroll över begärd\n
+kommando (program/rörelse)\n
+\t\n
+
+101:
+Progenhet (prg) i kontr\n
+Programmeringsenhetens program\n
+fönster har fokus och har kontroll\n
+över program servern.\n
+Byt till produktionsfönstret\n
+och utför kommandot igen.\n
+\t\n
+
+102:
+Progenhet (joyst.)i kontr\n
+Programmeringsenhetens joystick\n
+har kontroll över rörelse servern.\n
+Släpp joysticken och utför kommandot\n
+igen.\n
+\t\n
+
+111:
+Progenhet (prg) i kontr\n
+Programmeringsenhetens program\n
+fönster har fokus och har kontroll\n
+över program servern.\n
+Byt till produktionsfönstret\n
+och utför kommandot igen.\n
+\t\n
+
+112:
+Pgm (1) i kontr\n
+Program servern (1) har\n
+kontroll över rörelse servern.\n
+Stoppa programmet och utför\n
+kommandot igen.\n
+\t\n
+
+113:
+Pgm (2) i kontr\n
+Program servern (2) har\n
+kontroll över rörelse servern.\n
+Stoppa programmet och utför\n
+kommandot igen.\n
+\t\n
+
+114:
+Pgm (3) i kontr\n
+Program servern (3) har\n
+kontroll över rörelse servern.\n
+Stoppa programmet och utför\n
+kommandot igen.\n
+\t\n
+
+115:
+Pgm (4) i kontr\n
+Program servern (4) har\n
+kontroll över rörelse servern.\n
+Stoppa programmet och utför\n
+kommandot igen.\n
+\t\n
+
+116:
+Pgm (5) i kontr\n
+Program servern (5) har\n
+kontroll över rörelse servern.\n
+Stoppa programmet och utför\n
+kommandot igen.\n
+\t\n
+
+120:
+System IO i kontr.\n
+\n
+\t\n
+
+125:
+Klient %s har kontr\n
+Specificerad klient har\n
+kontroll över begärd resurs\n
+(program/rörelse)\n
+\t\n
+
+130:
+Slut på minne i cfg\n
+\n
+\t\n
+
+131:
+Kan inte läsa fil\n
+\n
+\t\n
+
+132:
+Parametrar ej sparade\n
+Parametrar kan ej sparas.\n
+Troligtvis för att disken är full\n
+eller skrivskyddad.\n
+\t\n
+Kontrollera om disketten är full\n
+eller skrivskyddad
+133:
+Kan inte modifiera ex.\n
+Beskrivning/Orsak:\n
+Kan inte återställa exempel i rad %d\n
+i fil %s\n
+\t\n
+Exemplet är skrivskyddat.
+134:
+Felaktig version\n
+Beskrivning/Orsak:\n
+Kfg domän version är fel i fil %s\n
+Mjukvaran är gjord för %s\n
+\t\n
+Ändra versionen på konfig. domänen.
+135:
+Linje för lång\n
+Beskrivning/Orsak:\n
+Linje %d > %d egenskaper\n
+\t\n
+Minska antalet egenskaper.
+136:
+Attr utanför området\n
+Beskrivning/Orsak:\n
+Attributet %s är utanför området\n
+i linje %d\n
+\t\n
+Ändra attributets värde.
+137:
+Duplicera inst namn\n
+Beskrivning/Orsak:\n
+Duplicera namnet i linje %d\n
+I fil %s\n
+\t\n
+Ändra namnet.
+140:
+Motorer Till ej tillåtet\n
+Motorer Till via System IO\n
+ej tillåtet.\n
+\t\n
+
+141:
+Motorer Från ej tillåtet\n
+Motorer Från via System IO\n
+ej tillåtet.\n
+\t\n
+
+142:
+Start ej tillåtet\n
+Start/återstart av program via\n
+System IO ej tillåtet.\n
+\t\n
+
+143:
+Start main ej tillåtet\n
+Start av main program via System IO\n
+ej tillåtet.\n
+\t\n
+
+144:
+Stopp ej tillåtet\n
+Stopp av program via System IO\n
+ej tillåtet.\n
+\t\n
+
+145:
+Stopp cykel ej tillåtet\n
+Stopp av program cykel via System IO\n
+ej tillåtet.\n
+\t\n
+
+146:
+Man avbrott ej tillåtet\n
+Manuellt avbrott av program via\n
+System IO ej tillåtet.\n
+\t\n
+
+147:
+Ladda & start ej tillåtet\n
+Ladda och starta programet via\n
+System IO är ej tillåtet.\n
+Programfilnamnet (inkl. mass memory\n
+enheten) som ska laddas måste\n
+definieras.\n
+\t\n
+
+148:
+Bekräftelse ej tillåtet\n
+Nödstopps återställnings bekräftelse\n
+via System IO är ej tillåtet\n
+\t\n
+
+149:
+Fel återställ ej tillåtet\n
+Programkörningsfels återställning\n
+via System IO ej tillåtet\n
+\t\n
+
+150:
+Synkronisering otillåten\n
+Synkronisering av mekanisk enhet\n
+via system IO ej tillåtet.\n
+\t\n
+
+151:
+Felaktigt signal namn\n
+Signalnamn ej tillåtet\n
+för en Sysio.\n
+Signalnamnet kanske inte finns\n
+i kfg-filen för Sysio.\n
+\t\n
+
+152:
+För många begränsningar\n
+För en funktion (signal) i\n
+Sysio, inga begränsningar är satta\n
+Totala antalet begränsningar (signaler)\n
+för en funktion i system parametrarna\n
+för Sysio är för många.\n
+\t\n
+
+153:
+Mot.på, Start ej tillåtet\n
+Motorer På, Start/återstart av program\n
+via System IO ej tillåtet.\n
+\t\n
+
+154:
+Stopp instr. ej tillåtet.\n
+Stopp av programinstruktion via\n
+System IO ej tillåtet.\n
+\t\n
+
+155:
+Odefinierat argument\n
+SyncExtAx mechanical_unit_name\n
+är inte definierat.\n
+\t\n
+
+156:
+Odefinierat argument\n
+Interrupt routine_name\n
+är inte definierat.\n
+\t\n
+
+157:
+Odefinierat argument\n
+LoadStart program_name\n
+är inte definierat.\n
+\t\n
+
+158:
+Ingen System-Ing.signal\n
+En SystemIngång har deklarerats till\n
+en signal som inte existerar.\n
+\t\n
+
+159:
+Ingen System-Utg.signal\n
+En SystemUtgång har deklarerats till\n
+en signal som inte existerar.\n
+\t\n
+
+160:
+Ej i konfiguration\n
+Systemmodulen %!%s i uppgift\n
+%s har ingen motsvarande\n
+specifikation i konfigurationen\n
+för "Task Modules"\n
+\t\n
+Se "Task modules" i System-\n
+parametermenyn och lägg till ett objekt\n
+för den här systemmodulen
+161:
+Bana ej funnen\n
+Systemmodulen %!%s i uppgift\n
+%s har en motsvarande\n
+specifikation i konfigurationen\n
+för "Task Modules" som pekar ut\n
+en ej existerande filväg\n
+\t\n
+Se "Task Modules" i system-\n
+parametermenyn och ändra vägen\n
+i objektet för den här systemmodulen
+162:
+Skriv fel\n
+Ett skrivfel uppstår när systemet för-\n
+söker spara systemmodulen %!%.14s\n
+vid%.37s\n
+i uppgift %.16s. Eller\n
+så var systemmodulen full.\n
+\t\n
+Se "Task Modules" i system-\n
+parametermenyn och ändra väg\n
+i objektet för den här systemmodulen
+163:
+Rekonfig misslyckad\n
+någon/några användarrutin/er ändrades\n
+men sparades inte. Se tidigare varningar\n
+i loggen.\n
+\t\n
+Spara den och pröva en annan systemstart
+164:
+Rekonfig misslyckad\n
+Det finns fortfarande någon osparad\n
+systemmodul\n
+\t\n
+Läs felbeskrivningar i tidigare\n
+meddelanden. Pröva en annan systemstart
+165:
+PP försvunnen!\n
+Återstart är inte längre möjlig från\n
+nuvarande position. Programmet måste\n
+startas från början.\n
+\t\n
+
+166:
+Vägrar att spara modul.\n
+Modulen %!%.14s\n
+är äldre än källan\n
+på %.37s\n
+i task %.16s.\n
+\n
+\t\n
+
+167:
+Ej sparad modul\n
+Modulen %!%.14s\n
+är ändrad men inte sparad\n
+i task %.16s.\n
+\t\n
+
+170:
+SYS_STOP\n
+Programmkörning stoppad längs banan.\n
+\t\n
+
+171:
+SYS_HALT\n
+Program och rörelse stoppad med\n
+motorer av.\n
+\t\n
+
+172:
+SYS_FAIL\n
+Systemfel, återstarta systemet.\n
+\t\n
+
+175:
+P-lådefel\n
+P-lådan har förlorat kontakten.\n
+Detta kommer att generera ett Guard Stop\n
+\t\n
+
+180:
+System-IO restriktion\n
+System-IO restriktioner är aktiva för\n
+andra klienter, ex. p-låda eller\n
+datorlänk.\n
+\t\n
+Motor on är restriktionerad av SystemIO\n
+MotorOff.\n
+Program start är restritionerad av\n
+SystemIO Stop, StopCycle eller StopInstr
+261:
+För långa strängar.\n
+Beskrivning\Orsak:\n
+- Elog-meddelande nummer %d:\n
+  Total Stränglängd %d >\n
+  %d tecken.\n
+\t\n
+Checklista:\n
+1. Reducera den totala stränglängden.
+270:
+Åtkomstfel.\n
+Panelmodul accessfel.\n
+\t\n
+Undersök EIO-konfig. filen.
+280:
+Symbolkonflikt\n
+Signalen %s definierad i the IO-\n
+konfigurationen i konflikt med en annan\n
+programsymbol med samma namn.\n
+Pga detta kommer signalen inte att\n
+mappas till en programvariabel.\n
+\t\n
+Döp om signalen i\n
+I/O-konfigurationen.
+313:
+SoftStop\n
+SoftStop har upptäckts på\n
+kanal %.0f.\n
+\t\n
+Nödstopp har tryckts med SoftStop\n
+aktiverat. Detta kommer att öppna\n
+runchain. Se till att Nödstoppet har\n
+återställts.\n
+

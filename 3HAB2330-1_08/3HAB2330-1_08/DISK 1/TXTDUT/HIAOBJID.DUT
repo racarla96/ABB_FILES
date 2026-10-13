@@ -1,0 +1,157 @@
+14::
+0:
+Geen object
+1:
+Positiehouder
+2:
+Einde
+3:
+Moduledeclaratie
+4:
+Constante data declaratie
+5:
+Variabele data declaratie
+6:
+Persistente data declaratie
+7:
+Functiedeclaratie
+8:
+Proceduredeclaratie
+9:
+Trap-declaratie
+10:
+Vereiste parameter
+11:
+Optionele parameter
+12:
+Alternatieve parameter
+13:
+Label
+14:
+Return
+15:
+Raise
+16:
+Retry
+17:
+Try Next
+18:
+Connect
+19:
+Exit
+20:
+Goto
+21:
+Assignment
+22:
+IF
+23:
+Compact IF
+24:
+WHILE
+25:
+FOR
+26:
+TEST
+27:
+Procedure call
+28:
+Elseif
+29:
+Case
+30:
+Vereist argument
+31:
+Optioneel argument
+32:
+Constante expressie
+33:
+Expressie
+34:
+Literaal
+35:
+Variabele
+36:
+Objectnaam
+37:
+Objectnaam
+38:
+Waarde type
+39:
+Datatype
+40:
+Dimensie
+41:
+Commentaar
+42:
+43:
+44:
+45:
+46:
+47:
+48:
+49:
+50:
+Geen kind
+51:
+Einde
+52:
+Attribuut van systeemmodule
+53:
+Attribuut van nostepin-module
+54:
+Attribuut van viewonly-module
+55:
+Attribuut van readonly-module
+56:
+Objectnaam
+57:
+Datadeclaratielijst
+58:
+Routinedeclaratielijst
+59:
+Lokaal
+60:
+Type
+61:
+Expressielijst
+62:
+Expressie
+63:
+Parameterdeclaratie
+64:
+Statement-lijst
+65:
+Achterw-statementlijst
+66:
+ELSE
+67:
+Variabele parametermodus
+68:
+Persistente parametermodus
+69:
+Inuit parametermodus
+70:
+Dimensies
+71:
+Objectnaam-referentie
+72:
+Variabele referentie
+73:
+Statement-lijst
+74:
+Statement
+75:
+ELSEIF
+76:
+From
+77:
+To
+78:
+Step
+79:
+Case-lijst
+80:
+Expressies
+81:
+Argumentenlijst

@@ -1,0 +1,23 @@
+%%%
+  VERSION: 1
+  LANGUAGE: ENGLISH
+%%%
+
+MODULE GLTEXT (SYSMODULE, NOSTEPIN, READONLY)
+
+! ----------------
+! $Revision: 1.1 $
+! ----------------
+!-------------------------------
+! Translated in Dutch 27-09-1996
+!-------------------------------
+
+ !****************
+ ! Globale data  *
+ !****************
+ !Fout messages: header (max 24 char), reason (max 40 char), reason (max 40 char)
+ CONST string stErrMess{25,3}:=[["gl01: Lijm Start Fout","Niet mogelijk lijmen te starten zonder","ON argument."],["gl02: Lijm Data Fout","Waarde voor globale fl1 overschrijven","is buiten limieten."],["gl03: Lijm Data Fout","Waarde voor globale fl2 overschrijven","is buiten limieten."],["gl04: Lijm Data Fout","Waarde voor gl_on_time in ggundata","is buiten limieten."],["gl05: Lijm Data Fout","Waarde voor gl_off_time in ggundata","is buiten limieten."],["gl06: Lijm Data Fout","Waarde voor fl1_on_time in ggundata","is buiten limieten."],["gl07: Lijm Data Fout","Waarde voor fl1_time in ggundata","is buiten limieten."],["gl08: Lijm Data Fout","Waarde voor fl1_off_time in ggundata","is buiten limieten."],["gl09: Lijm Data Fout","Waarde voor fl2_on_time in ggundata","is buiten limieten."],["gl10: Lijm Data Fout","Waarde voor fl2_time in ggundata","is buiten limieten."],["gl11: Lijm Data Fout","Waarde voor fl2_off_time in ggundata","is buiten limieten."],["gl12: Lijm Data Fout","Waarde voor fl1_type in ggundata","is buiten limieten."],["gl13: Lijm Data Fout","Waarde voor fl2_type in ggundata","is buiten limieten."],["gl14: Lijm Start Fout","Het is niet mogelijk om lijmen 2 maal","te starten"],["gl15: Lijm Fout","Gecalculeerde waarde voor analoog","signaal 1 is te hoog."],["gl16: Lijm Fout","Gecalculeerde waarde voor analoog","signaal 2 is te hoog."],["gl17: Lijm Einde Fout","Het is niet mogelijk lijmen te stoppen","zonder te starten."],["gl18: Onverwachte Stop","Gestopt tijdens lijmen.",""],["gl19: Lijm Data Fout","Waarde voor fl1_delay in ggundata","is buiten limieten."],["gl20: Lijm Data Fout","Waarde voor fl2_delay in ggundata","is buiten limieten."],["gl21: Lijm Data Fout","Waarde voor fl1_refspeed in ggundata","is buiten limieten."],["gl22: Lijm Data Fout","Waarde voor fl2_refspeed in ggundata","is buiten limieten."],["gl23: Lijm Data Fout","Waarde voor ggun_no in ggundata","is buiten limieten."],["gl24: Lijm Data Fout","Het veranderen van lijm pistool tijdens","lijmen is niet toegestaan."],["gl25: Unbekende Fout","Er is een onbekende fout opgetreden","tijdens lijmen."]];
+ !Fout message reason (max 40 char)
+ CONST string stErrCont:="Lijmen wordt gestrt op volgende ON instr"; 
+ 
+ENDMODULE

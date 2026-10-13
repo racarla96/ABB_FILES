@@ -1,0 +1,199 @@
+17::
+0:
+IO Signals
+1:
+User Signals
+2:
+System
+3:
+Groups
+4:
+Signal Name
+5:
+Unit Name
+6:
+Signal Type
+7:
+Signal Number
+8:
+Start Signal
+9:
+Group Length
+10:
+DI
+11:
+DO
+12:
+Safety
+13:
+Unit Name
+14:
+Unit Type
+15:
+Unit Bus
+16:
+Digital Inputs
+17:
+Digital Outputs
+18:
+IO Boards
+19:
+Name        Unit        Type        Sig
+20:
+Name        Unit        Len        Phsig
+21:
+Unit type
+22:
+Name        Type        Bus      Address
+23:
+GI
+24:
+GO
+25:
+System Inputs
+26:
+System Outputs
+27:
+Name
+28:
+Action
+29:
+Status
+30:
+MotorOn
+31:
+MotorOff
+32:
+CycleOn
+33:
+MotorOn
+34:
+MotorOff
+35:
+Start
+36:
+StartMain
+37:
+Stop
+38:
+StopCycle
+39:
+Interrupt
+40:
+LoadStart
+41:
+Argument
+42:
+Name        Action
+43:
+Name        Status
+44:
+-
+45:
+To
+46:
+From
+47:
+Cross connections
+48:
+From        To
+49:
+Analog Inputs
+50:
+Analog Outputs
+51:
+Address
+52:
+AO
+53:
+AI
+54:
+ResetEstop
+55:
+EmStop
+56:
+AutoOn
+57:
+RunchOk
+58:
+TCPSpeed
+59:
+Logical Max
+60:
+Physical Max
+61:
+Logical Min
+62:
+Physical Min
+63:
+Filter Passive
+64:
+Filter Active
+65:
+Inverted
+67:
+YES
+68:
+NO
+69:
+RIO Addr (octal)
+70:
+RIO Baud Rate
+71:
+RIO Start Group
+72:
+RIO Rack size
+73:
+RIO Last rack
+74:
+57.6 kB
+75:
+115 kB
+76:
+230 kB
+77:
+0
+78:
+2
+79:
+4
+80:
+6
+81:
+1/4
+82:
+1/2
+83:
+3/4
+84:
+FULL
+85:
+Error
+86:
+SyncExtAx
+87:
+BAS
+88:
+VME
+89:
+SIM
+90:
+ResetError
+91:
+CAN
+92:
+Slot Addr
+93:
+Store
+94:
+MotOnState
+95:
+MotOffState
+96:
+PFError
+97:
+MotOnStart
+98:
+StopInstr
+99:
+SysReset

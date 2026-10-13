@@ -1,0 +1,913 @@
+33::
+1:
+Manipulator
+2:
+Motion system
+3:
+Name
+4:
+Name
+5:
+Version
+6:
+Brake on time
+7:
+Speed resolution
+8:
+Dynamic resolution
+9:
+0.33
+10:
+0.50
+11:
+0.67
+12:
+0.83
+13:
+1.00
+14:
+Path resolution
+15:
+Queue time
+16:
+Queue length
+17:
+Min temp cabinet
+18:
+Max temp cabinet
+19:
+Min temp robot
+20:
+Max temp robot
+21:
+Name
+22:
+Mechanical unit
+23:
+Name
+24:
+Name
+25:
+Use run enable
+26:
+Use act relay
+27:
+Use brake relay
+28:
+Use robot
+29:
+Use single 1
+30:
+Use single 2
+31:
+Use single 3
+32:
+Use single 4
+33:
+Use single 5
+34:
+Use single 6
+35:
+User frame moved by
+36:
+Stand by state
+37:
+Yes
+38:
+No
+39:
+Spd offset at start
+40:
+Yes
+41:
+No
+42:
+Activate at start up
+43:
+Yes
+44:
+No
+45:
+Do not allow deact.
+46:
+Yes
+47:
+No
+48:
+Relay
+49:
+Name
+50:
+Name
+51:
+Output signal
+52:
+Input signal
+53:
+Inverted input
+54:
+Yes
+55:
+No
+56:
+Inhibit supervision time
+57:
+Robot
+58:
+Name        Type        Joints
+59:
+Name
+60:
+Use robot type
+61:
+Use joint 1
+62:
+Use joint 2
+63:
+Use joint 3
+64:
+Use joint 4
+65:
+Use joint 5
+66:
+Use joint 6
+67:
+Base frame x
+68:
+Base frame y
+69:
+Base frame z
+70:
+Base frame q1
+71:
+Base frame q2
+72:
+Base frame q3
+73:
+Base frame q4
+74:
+Base frame moved by
+75:
+Single
+76:
+Name        Type        Joint
+77:
+Name
+78:
+Use single type
+79:
+Use joint
+80:
+M94 single coord
+81:
+No
+82:
+Yes
+83:
+Base frame x
+84:
+Base frame y
+85:
+Base frame z
+86:
+Base frame q1
+87:
+Base frame q2
+88:
+Base frame q3
+89:
+Base frame q4
+90:
+Base frame coord
+91:
+Single type
+92:
+Name
+93:
+Mechanics
+94:
+TRACK
+95:
+Teach mode max speed
+96:
+TOOL_ROT
+97:
+FREE_ROT
+98:
+Joint
+99:
+Joints
+100:
+Name
+101:
+Logical axis
+102:
+Use axc channel
+103:
+Use arm
+104:
+Use brake
+105:
+Use supervision
+106:
+Use axc filter
+107:
+Use drive system
+108:
+Uncal control m type
+109:
+UCCM0
+110:
+Uncal control master
+111:
+Control master type
+112:
+UCCM0
+113:
+LCM0
+114:
+FFWCM0
+115:
+FFWCM1
+116:
+FFWCM2
+117:
+FFWCM3
+118:
+Norm control master
+119:
+Axc channel
+120:
+Name
+121:
+Name
+122:
+Measurement channel
+123:
+Measurement hardware
+124:
+Not def
+125:
+Serial
+126:
+Par. rel
+127:
+Par. abs
+128:
+Reversed rotation
+129:
+Normal
+130:
+Reversed
+131:
+Arm
+132:
+Name        Type
+133:
+Name
+134:
+Use arm type
+135:
+Use check point
+136:
+Use arm load
+137:
+Rotating move
+138:
+Yes
+139:
+No
+140:
+Rot. centre_x of axis
+141:
+Rot. centre_y of axis
+142:
+Rot. centre_y of axis
+143:
+Rotation of axis (u0)
+144:
+Rotation of axis (u1)
+145:
+Rotation of axis (u2)
+146:
+Rotation of axis (u3)
+147:
+Transm gear ratio
+148:
+Transm gear high
+149:
+Transm gear low
+150:
+Upper joint bound
+151:
+Lower joint bound
+152:
+Calibration position
+153:
+Nominal acceleration
+154:
+Nominal deceleration
+155:
+Nom acc derivate ratio
+156:
+Nom dec derivate ratio
+157:
+Transm inertia
+158:
+Arm check point
+159:
+Name
+160:
+Name
+161:
+Checktype
+162:
+Position
+163:
+None
+164:
+Position x
+165:
+Position y
+166:
+Position z
+167:
+Arm load
+168:
+Name
+169:
+Name
+170:
+Length
+171:
+Mass
+172:
+Mass centre x
+173:
+Mass centre y
+174:
+Mass centre z
+175:
+Inertia x
+176:
+Inertia y
+177:
+Inertia z
+178:
+Brake
+179:
+Name
+180:
+Name
+181:
+Ctrl off spd lim
+182:
+Control off delay
+183:
+Brake ctrl on delay
+184:
+Brake torque
+185:
+Brake ramp spd lim
+186:
+Use brake type
+187:
+Brake type
+188:
+Name
+189:
+Name
+190:
+Inertia
+191:
+Supervision
+192:
+Name        Type
+193:
+Name
+194:
+Use supervision type
+195:
+Power up pos superv
+196:
+On
+197:
+Off
+198:
+Counter supervision
+199:
+On
+200:
+Off
+201:
+Pos supervision
+202:
+On
+203:
+Off
+204:
+Speed supervision
+205:
+On
+206:
+Off
+207:
+Load supervision
+208:
+On
+209:
+Off
+210:
+Jam supervision
+211:
+On
+212:
+Off
+213:
+In position range
+214:
+Zero speed ( % )
+215:
+Supervision Type
+216:
+Name
+217:
+Name
+218:
+Dyn pwr up pos lim
+219:
+Max overload time
+220:
+Max jam time
+221:
+Teach max sp main
+222:
+Teach norm low spd
+223:
+Teach max sp dsp
+224:
+Drive system
+225:
+Drive systems
+226:
+Name
+227:
+External
+228:
+Yes
+229:
+No
+230:
+Use mains
+231:
+Use trafo
+232:
+Use DC-link
+233:
+Use drive unit
+234:
+Current transfer f
+235:
+Use cable
+236:
+Use motor
+237:
+Thermal duty cycle
+238:
+Stress duty cycle
+239:
+Gear box
+240:
+Mains
+241:
+Mains
+242:
+Name
+243:
+Mains tolerance min
+244:
+Mains tolerance max
+245:
+Trafo
+246:
+Trafo
+247:
+Name
+248:
+Use trafo type
+249:
+Power max
+250:
+Temp ambient rise
+251:
+Power thermal
+252:
+Trafo type
+253:
+Type
+254:
+Name
+255:
+Secondary voltage
+256:
+DC link
+257:
+Name        Type
+258:
+Name
+259:
+Type
+260:
+Drive unit
+261:
+Name      Type
+262:
+Name
+263:
+Use drive unit type
+264:
+i_max
+265:
+Drive unit type
+266:
+Name      Type
+267:
+Name
+268:
+Type
+269:
+Current constant
+270:
+Speed constant
+271:
+Max speed offset
+272:
+Cable
+273:
+Cables
+274:
+Name
+275:
+Use cable type
+276:
+Length
+277:
+Motor
+278:
+Name        Type
+279:
+Name
+280:
+Use motor type
+281:
+Commutator offset
+282:
+Com offset valid
+283:
+Yes
+284:
+No
+285:
+Calibration offset
+286:
+Cal offset valid
+287:
+Yes
+288:
+No
+289:
+Motor type
+290:
+Name
+291:
+Name
+292:
+Pole pairs
+293:
+ke  ( V/rad/s )
+294:
+Max Current (A rms)
+295:
+Thermal duty cycle
+296:
+Thermal duty cycles
+297:
+Name
+298:
+Average torque 0
+299:
+Stress duty cycle
+300:
+Stress duty cycles
+301:
+Name
+302:
+Speed abs. max
+303:
+Torque abs. max
+304:
+Gear box
+305:
+Gear box
+306:
+Name
+307:
+Uncal ctrl master 0
+308:
+Name
+309:
+Name
+310:
+Kp, gain pos loop
+311:
+Kv, gain speed loop
+312:
+Ti I-time speed loop
+313:
+Speed max uncal
+314:
+Acc max uncal
+315:
+Dec max uncal
+316:
+Lag ctrl master 0
+317:
+Name
+318:
+Name
+319:
+Kp, gain pos loop
+320:
+Kv, gain speed loop
+321:
+Ti I-time speed loop
+322:
+Notch filter active
+323:
+Yes
+324:
+No
+325:
+Notch filter frequency
+326:
+Notch filter width
+327:
+Process update time
+328:
+EXT_POS
+329:
+Ext process name
+330:
+Independent joint
+331:
+On
+332:
+Off
+333:
+Upper independent joint bound
+334:
+Lower indep joint lim
+335:
+Jam sup trim factor
+336:
+Load sup trim factor
+337:
+Speed sup trim factor
+338:
+Pos sup trim factor
+339:
+Sync speed high
+340:
+Sync speed low
+341:
+Nom torque margin for low speeds
+342:
+Nom torque margin for high speeds
+343:
+Nom cutin point for torque margin
+344:
+Absolute brake torque
+345:
+Gravity beta
+346:
+EXT_CTL
+347:
+Affects forced ctrl
+348:
+Yes
+349:
+No
+350:
+Forced on pos limit
+351:
+Forced off pos limit
+352:
+Auto max spd sup lim
+353:
+Forced control active
+354:
+Yes
+355:
+No
+356:
+Forced factor for Kp
+357:
+Forced factor for Ki
+358:
+Rise time for Kp
+359:
+Notch auto mode
+360:
+Yes
+361:
+No
+362:
+Auto no weave freq
+363:
+Auto min freq
+364:
+Auto max rel change
+365:
+Prefetch time
+366:
+Event preset time
+367:
+Max power down speed.
+368:
+CPU equalization
+369:
+In active delay time
+370:
+In deactive delay time
+371:
+Linear jog dir
+372:
+Reorient jog dir
+373:
+Joint jog dir
+374:
+Single jog dir
+375:
+Upper coupled joint bound 2
+376:
+Lower coupled joint bound 2
+377:
+Ext const torque
+378:
+Ext prop torque
+379:
+Ext torq zero angle
+380:
+Feedforward mode
+381:
+No
+382:
+Spd
+383:
+Trq
+384:
+Bandwidth
+385:
+Df
+386:
+Dw
+387:
+Delay
+388:
+Inertia
+389:
+Linear jog
+390:
+Name
+391:
+Name
+392:
+World down
+393:
+World rot
+394:
+World side
+395:
+Base down
+396:
+Base rot
+397:
+Base side
+398:
+Tool down
+399:
+Tool rot
+400:
+Tool side
+401:
+Wobj down
+402:
+Wobj rot
+403:
+Wobj side
+404:
+St tool world down
+405:
+St tool world rot
+406:
+St tool world side
+407:
+St tool base down
+408:
+St tool base rot
+409:
+St tool base side
+410:
+St tool tool down
+411:
+St tool tool rot
+412:
+St tool tool side
+413:
+St tool wobj down
+414:
+St tool wobj rot
+415:
+St tool wobj side
+416:
+Reorient jog
+417:
+Name
+418:
+Name
+419:
+World down
+420:
+World rot
+421:
+World side
+422:
+Base down
+423:
+Base rot
+424:
+Base side
+425:
+Tool down
+426:
+Tool rot
+427:
+Tool side
+428:
+Wobj down
+429:
+Wobj rot
+430:
+Wobj side
+431:
+St tool world down
+432:
+St tool world rot
+433:
+St tool world side
+434:
+St tool base down
+435:
+St tool base rot
+436:
+St tool base side
+437:
+St tool tool down
+438:
+St tool tool rot
+439:
+St tool tool side
+440:
+St tool wobj down
+441:
+St tool wobj rot
+442:
+St tool wobj side
+443:
+Joint jog
+444:
+Name
+445:
+Name
+446:
+Group 1 down
+447:
+Group 1 rot
+448:
+Group 1 side
+449:
+Group 2 down
+450:
+Group 2 rot
+451:
+Group 2 side
+452:
+Single jog
+453:
+Name
+454:
+Name
+455:
+Single
+456:
+Use opt. stop duty c.

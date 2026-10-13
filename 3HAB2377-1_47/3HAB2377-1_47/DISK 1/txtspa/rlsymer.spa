@@ -1,0 +1,42 @@
+RLSYM::
+101:
+El simbolo %s es del\n
+tipo %s pero esperaba\n
+tipo %s.
+102:
+El simbolo %s es\n
+solo lectura.\n
+CODIGO RAISE: ERR_SYM_ACCESS=%d
+103:
+Simbolo %s no hallado.\n
+CODIGO RAISE: ERR_SYM_ACCESS=%d
+104:
+Simbolo ambiguo %s.
+105:
+Error de busqueda\n
+del simbolo %s.
+106:
+El simbolo %s es del\n
+no es un objeto legible.\n
+CODIGO RAISE: ERR_SYM_ACCESS=%d
+107:
+Nombre modulo desconocido %s
+108:
+Nombre de modulo ambiguo %s
+109:
+Nombre de rutina ambigua %s
+110:
+Nombre de rutina desconocido
+111:
+Objeto del tipo %s\n
+no se pudo buscar
+112:
+El simbolo %s no\n
+es accesible desde este\n
+alcance.\n
+RAISE CODE: ERR_SYM_ACCESS=%d
+113:
+En la instruccion %s\n
+El parametro %s\n
+no se puede usar sin\n
+el parametro %s

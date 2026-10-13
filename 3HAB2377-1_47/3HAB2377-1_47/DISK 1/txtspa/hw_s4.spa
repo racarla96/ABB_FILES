@@ -1,0 +1,503 @@
+23::
+1125:
+Error canal serie 7\n
+Datos recibidos no iguales a datos\n
+transmitidos\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1126:
+Sobrepasam. canal serie 7\n
+\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1127:
+Error paridad canal 7\n
+\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1128:
+Error secuencia canal 7\n
+\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1129:
+Error ruido canal 7\n
+\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1405:
+Falta programa de ejes\n
+Prom no incluye programa de ejes\n
+\t\n
+Cambiar proms carta computador robot
+1406:
+Error de memoria\n
+Error de memoria en computador de ejes\n
+\t\n
+Cambiar carta computador robot
+1407:
+Error computador de ejes\n
+\n
+\t\n
+Comprobar conexion de la señal DRVFLT-N\n
+Cambiar la carta computador robot
+1416:
+Error comput. trayectoria\n
+\n
+\t\n
+Cambiar carta computador trayectoria
+1417:
+Error comput. trayectoria\n
+\n
+\t\n
+Cambiar carta computador trayectoria
+1421:
+Error en COMPUTADOR ES\n
+\n
+\t\n
+Cambiar carta computador robot
+1601:
+Error HI PROM checksum:\n
+Checksum %.f deberia ser: %.f\n
+\t\n
+Cambiar proms o computador robot
+1602:
+Error LOW PROM checksum:\n
+Checksum %.f deberia ser: %.f\n
+\t\n
+Cambiar proms o computador robot
+1603:
+Error PROM checksum:\n
+Checksum %.f deberia ser: %.f\n
+\t\n
+Cambiar proms o computador robot
+1703:
+Sobrepasam. canal serie 3\n
+\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1704:
+Sobrepasam. canal serie 5\n
+\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1705:
+Sobrepasam. canal serie 8\n
+\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1708:
+Error paridad canal 3\n
+Error paridad canal serie 3\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1709:
+Error paridad canal 5\n
+Error paridad canal serie 5\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1710:
+Error paridad canal 8\n
+Error paridad canal serie 8\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1713:
+Error secuencia canal 3\n
+Error secuencia canal serie 3\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1714:
+Error secuencia canal 5\n
+Error secuencia canal serie 5\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1715:
+Error secuencia canal 8\n
+Error secuencia canal serie 8\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1735:
+Error canal serie 3\n
+Datos recibidos no iguales a datos\n
+transmitidos\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1736:
+Error canal serie 5\n
+Datos recibidos no iguales a datos\n
+transmitidos\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1737:
+Error canal serie 8\n
+Datos recibidos no iguales a datos\n
+transmitidos\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1743:
+Error canal serie 3\n
+Error de handshake\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1744:
+Error canal serie 5\n
+Error de handshake\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1745:
+Error canal serie 8\n
+Error de handshake\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+3101:
+Error resolver X\n
+Fallo señal X de resolver en\n
+canal %.f\n
+Señal X menor que valor de ruido\n
+\t\n
+Comprobar resolver y conexiones\n
+Cambiar carta medida
+3102:
+Error resolver Y\n
+Fallo señal Y de resolver en\n
+canal %.f\n
+Señal Y menor que valor de ruido\n
+\t\n
+Comprobar resolver y conexiones\n
+Cambiar carta medida
+3103:
+Error resolver X o Y\n
+Fallo señal X o Y de resolver en\n
+canal %.f\n
+Suma de cuadrados X e Y excede maximo\n
+\t\n
+Comprobar resolver y conexiones\n
+Cambiar carta medida
+3104:
+Error resolver X e Y\n
+Fallo señal X e Y de resolver en\n
+canal %.f\n
+Señales X, Y menores que valor de ruido\n
+\t\n
+Comprobar resolver y conexiones\n
+Cambiar carta medida
+3105:
+Error excitacion resolver\n
+Fallo de señal excitacion a resolver\n
+\t\n
+Comprobar conexiones resolver\n
+Cambiar carta de ejes
+3106:
+Error offset unidad acc.\n
+Offset de unidad accionamiento excede\n
+maximo en canal %.f\n
+\t\n
+Reiniciar el sistema\n
+Cambiar unidad accionamiento
+3107:
+Tipo rectif. incorrecto\n
+Tipo fisico de rectificador no\n
+coincide con configuracion\n
+\t\n
+Comprobar/modificar configuracion
+3108:
+Tipo unidad acc. incorr.\n
+Tipo fisico de unidad accionamiento no\n
+coincide con configuracion\n
+\t\n
+Comprobar/modificar configuracion\n
+Cambiar unidad accionamiento
+3148:
+Error en computador ejes\n
+Computador ejes se paro por una\n
+interrupcion hw debido a error indeterm\n
+\t\n
+Comprobar configuracion del sistema\n
+Cargar sistema de nuevo\n
+Cambiar carta computador robot
+3151:
+Sobrep. salida comp. ejes\n
+Computador ejes se paro con una\n
+interrupcion hw por sobrepasamineto\n
+en la salida\n
+\t\n
+Cargar sistema de nuevo\n
+Cambiar carta computador robot
+3152:
+Unidad acc. comput. ejes\n
+Computador ejes se paro con interr.\n
+hw por error en unidad accionamiento\n
+\t\n
+Comprobar configuracion del sistema\n
+Cargar sistema de nuevo\n
+Cambiar unidad accionamiento
+3153:
+Sobrep. conmut. taco ejes\n
+Computador ejes se paro con interr.\n
+hw por sobrepasamiento en registro de\n
+tacometro\n
+\t\n
+Comprobar configuracion del sistema y\n
+reiniciar el sistema\n
+Cargar sistema de nuevo\n
+Cambiar unidad accionamiento
+3154:
+Sobrepasam. XY de ejes\n
+Computador ejes se paro con\n
+interrupcion hw por sobrepasamiento en\n
+registro X,Y\n
+\t\n
+Reiniciar el sistema y comprobar\n
+sincronizacion\n
+Cargar sistema de nuevo
+3155:
+Sobrepasam. RC comp. ejes\n
+Computador ejes se paro con interr.\n
+hw por sobrepasamiento en registro\n
+del controlador de anillo\n
+\t\n
+Reiniciar sist. y comprobar cont. rev.\n
+Cargar sistema de nuevo
+3156:
+Error transmision\n
+Sin contacto con sistema medida serie\n
+Computador ejes se ha parado por un\n
+exceso de tiempo de transmision\n
+\t\n
+Comprobar conexiones de cabina\n
+a robot y de carta(s) de medida serie\n
+Cambiar carta medida serie o\n
+carta computador robot
+3157:
+Error transmision\n
+Computador ejes ha detectado un\n
+fallo de transmision de/a el sistema\n
+de medida serie\n
+\t\n
+Comprobar conexiones/cables del sistema\n
+de medida serie. Comprobar apantallado\n
+Comprobar fuertes ruidos electromag-\n
+neticos a lo largo del cable\n
+Cambiar carta medida o carta computador
+3306:
+Test jumper unidad accio.\n
+Error en test jumper unidad acc.\n
+\n
+\t\n
+--
+3307:
+Test jumper unidad accio.\n
+Error en test jumper unidad acc.\n
+\n
+\t\n
+--
+3313:
+Error jumper comunicacion\n
+Error jumper comunicacion eje ext.\n
+\t\n
+--
+3317:
+Error com JUMPER comp eje\n
+\n
+\t\n
+Cambiar carta computador robot
+7001:
+Error activac. contactor\n
+Contactor Motor On no se activo o\n
+no recibio energia.\n
+\t\n
+Reiniciar el sistema\n
+Compobar switch temp. en trafo princ\n
+Comprob./cambiar contactor(M.On/AUX)\n
+Cambiar contactor de supervision KM3\n
+o carta de sistema
+8001:
+Bateria backup agotada\n
+Bateria backup agotada en carta\n
+de medida serie %.f\n
+desde la ultima desconexion\n
+o reinicio.\n
+\t\n
+Comprobar tension de bateria al\n
+desconectar despues de 18 horas de\n
+recarga con tension. Comprobar conexion\n
+de baterias con carta serie\n
+Cambiar bateria
+8010:
+Carta serie no hallada\n
+Carta medida serie %.f no encontrada\n
+\t\n
+Comprobar parametros configuracion\n
+Comprobar conexiones y cables al\n
+sistema de medida serie\n
+Cambiar carta medida serie
+8011:
+Error transmision datos\n
+Fallo en transmision datos de/hacia\n
+carta medida serie %.f\n
+\t\n
+Comprobar conexiones y cables a sistema\n
+de medida serie. Comprobar apantallado\n
+Comprobar interferencias electro-\n
+magneticas excesivas en el cable\n
+Cambiar carta medida o computador robot
+8012:
+Error Offset X en serie\n
+Error de offset en señal X en carta\n
+medida serie %.f\n
+\t\n
+Cambiar carta medida serie
+8013:
+Error Offset Y en serie\n
+Error de offset en señal Y en carta\n
+medida serie %.f\n
+\t\n
+Cambiar carta medida serie
+8014:
+Error linealidad serie\n
+Error linealidad en diferencia señales\n
+X-Y en carta medida serie %.f\n
+- Sistema aun puede funcionar si\n
+  es una advertencia\n
+- Sistema no funciona si es un error\n
+\t\n
+Cambiar carta medida serie
+8015:
+Error linealidad X serie\n
+Error linealidad en señal X\n
+en carta medida serie %.f\n
+\t\n
+Cambiar carta medida serie
+8016:
+Error linealidad Y serie\n
+Error linealidad en señal Y\n
+en carta medida serie %.f\n
+\t\n
+Cambiar carta medida serie
+8017:
+Error comunic paralelo\n
+Error comunicacion a carta ejes\n
+\t\n
+Comprobar conexiones carta ejes.\n
+Comprobar configuracion sistema
+8018:
+Offset AD paralelo X\n
+Error de offset en señal X excede\n
+tolerancia en carta ejes\n
+\t\n
+Cambiar carta ejes
+8019:
+Offset AD paralelo Y\n
+Error de offset en señal Y excede\n
+tolerancia en carta ejes\n
+\t\n
+Cambiar carta ejes
+8020:
+Error Offset DA paralelo\n
+Offset excede la tolerancia conversor\n
+D/A en canal %.f en carta de ejes\n
+\t\n
+Usar otro canal de medida\n
+Cambiar carta ejes
+8021:
+Error linealidad DA-AD\n
+Error linealidad en conversor AD y DA\n
+en canal %.f en carta ejes\n
+\t\n
+Cambiar carta ejes
+8022:
+Error de configuracion\n
+Error de configuracion del sistema de\n
+medida en canal %.f\n
+\t\n
+Cambiar/Comprobar parametros de\n
+configuracion sistema
+9001:
+Error sist. accionamiento\n
+DC-link no conectado\n
+\t\n
+Insertar DC-link\n
+Cambiar el DC-link
+9002:
+Error sist. accionamiento\n
+DC-link estado erroneo POWER-UP\n
+\t\n
+Reiniciar sistema\n
+Cambiar el DC-link
+9003:
+Error sist. accionamiento\n
+Voltaje DC-link demasiado elevado\n
+\t\n
+Comprobar conexion resistencia shunt\n
+Cambiar el DC-link
+9004:
+Error sist. accionamiento\n
+Voltaje DC-link no valido\n
+\t\n
+Comprobar tension contactor Motor On\n
+Cambiar el DC-link
+9005:
+Error sist. accionamiento\n
+Temperatura DC-link muy alta\n
+\t\n
+Comprobar ventiladores o aire acond.\n
+Comprobar tension alterna al DC-link\n
+Modificar programa de usuario\n
+Cambiar el DC-link
+9006:
+Error sist. accionamiento\n
+Temperatura shunt muy alta\n
+\t\n
+Demasiada deceleracion\n
+Modificar programa de usuario\n
+Comprobar tension alterna al DC-link\n
+Cambiar el DC-link
+9007:
+Error sist. accionamiento\n
++- 15V fuera de limites\n
+\t\n
+Comprobar alimentacion +/- 15V\n
+Cambiar el DC-link
+9008:
+Error sist. accionamiento\n
+Error corriente baja en carta %.f\n
+\t\n
+Comprobar hilos cortados\n
+Comprobar si el parametro Tension alim.\n
+tiene la tolerancia minima que corres-\n
+ponde a la tension real\n
+Cambiar/Comprobar carta accionamiento
+9009:
+Error sist. accionamiento\n
+Corriente muy elevada en carta %.f\n
+\t\n
+Comprobar si el motor o el circuito al\n
+motor esta en cortocircuito\n
+Cambiar/Comprobar carta accionamiento
+9010:
+Error sist. accionamiento\n
+Temperatura muy elevada en carta %.f\n
+\t\n
+Comprobar ventiladores o aire acond.\n
+Modificar programa de usuario\n
+Cambiar/Comprobar carta accionamiento

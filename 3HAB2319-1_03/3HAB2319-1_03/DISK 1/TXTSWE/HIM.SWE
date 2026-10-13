@@ -1,0 +1,65 @@
+2::
+0:
+
+1:
+Välkommen till
+2:
+ABB Robotics Products AB
+3:
+Kontroll
+4:
+Logg
+5:
+Fel
+6:
+Avbryt byt körsätt\n
+\n
+\n
+Vrid körsättsväljaren\n
+tillbaka till MANUELLT
+7:
+Byte av körsätt
+8:
+Körsätt har blivit ändrat från\n
+MANUELLT till AUTO
+9:
+Körsätt har blivit ändrat från\n
+MANUELLT till MANUELLT FULL HASTIGHET
+10:
+Var vänlig, bekräfta det med att trycka \n
+OK.\n
+\n
+(Om du avbryter måste körsättsväljaren\n
+vridas tillbaka till MANUELLT)
+11:
+Håll- För- Drift!\n
+\n
+Väntar på att knappen \n
+för Håll- för- drift trycks in.
+12:
+
+13:
+
+14:
+
+15:
+
+16:
+Status
+17:
+\n
+Följande enheter är\n
+inte synkroniserade.\n
+För synkronisering,\n
+tryck Synk (i MOTORER TILL).
+18:
+Osynkroniserade enheter!
+19:
+Enhet           Status
+20:
+Synkronisering %s \n
+\n
+\n
+Snart klar!
+21:
+Synk

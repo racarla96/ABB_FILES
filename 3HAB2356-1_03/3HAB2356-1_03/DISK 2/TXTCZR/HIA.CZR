@@ -1,0 +1,950 @@
+Revision 1.11  1995/12/15  13:29:18  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.10  1995/04/21  13:13:03  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.9  1994/08/19  09:40:30  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+3::
+0:
+Programovy editor
+1:
+Volby
+2:
+IPL1
+3:
+IPL2
+4:
+Test
+5:
+Rutina
+6:
+Data
+7:
+Seznam modulu...
+8:
+Ulozit modul
+9:
+Ulozit modul jako...
+10:
+
+11:
+Ulozit program
+12:
+Ulozit program jako...
+13:
+Pouzit IPL (Seznam\n
+instrukci) pro vlozeni\n
+nove instrukce!
+14:
+Zmenit vybrany
+15:
+Oznacit
+16:
+Odstranit znaceni
+17:
+Instrukce
+18:
+Instrukce progr
+19:
+Test programu
+20:
+Rutiny
+21:
+Data
+22:
+Typy dat
+23:
+Test
+24:
+Moduly
+25:
+< Pokracuj stiskem ENTER >
+26:
+Kurzor premistete na PP
+27:
+Premistete PP na hlavni
+28:
+Premistete PP na rutinu...
+29:
+Ruzne
+30:
+Pohyb a proces
+31:
+Prubeh programu
+32:
+Spolecne
+33:
+Nastaveni pohybu
+34:
+Preruseni
+35:
+Vstup/výstup
+36:
+Komunikovat
+37:
+Progr. typy dat
+38:
+Zotaveni z chyby
+39:
+System a cas
+40:
+Protokol udalosti
+41:
+Program
+42:
+Premistit PP na kurzor
+43:
+Nastavit bod preruseni
+44:
+Smazat bod preruseni
+45:
+Body preruseni...
+46:
+Simulovat...
+47:
+V systemu
+48:
+prepinac
+49:
+V modulu
+50:
+Data
+51:
+Deklarace...
+52:
+Zdvojit...
+53:
+Nova rutina...
+54:
+Typy
+55:
+V rutine
+56:
+Nova...
+57:
+Hodnota
+58:
+ModPos
+59:
+Instr
+60:
+Test
+61:
+UkazIPL
+62:
+-%
+63:
++%
+64:
+Start
+65:
+Simul
+66:
+Zobraz
+67:
+Nova
+68:
+Deklar
+69:
+Zdvoj
+70:
+Promen
+71:
+Funkce
+72:
+Zrcadleni...
+73:
+Obracena kopie...
+74:
+Nejbeznejsi 1
+75:
+Nejbeznejsi 2
+76:
+\n
+Prosim pockejte!\n
+Symboly trideni ...
+77:
+Odstraneni nelze vratit.\n
+Opustte dialog Vyhledat\n
+a vymenit stiskem OK.
+78:
+Zvoleny modul nema rutiny.\n
+Zvolena predchozi\n
+nastaveni.
+79:
+
+80:
+
+81:
+Rychlost:=
+82:
+Beh:=
+83:
+
+84:
+
+85:
+
+86:
+Nazev            Hodnota
+87:
+Nazev            Typ
+88:
+
+89:
+
+90:
+Matematika
+91:
+Beh programu
+92:
+Nazev            Hodnota         Modul
+93:
+Nazev            Typ             Modul
+94:
+(ModPos)
+95:
+Data
+96:
+Funkce
+97:
+Zadne objekty
+98:
+Chybna syntaxe
+99:
+Toto neni program ani\n
+nodul programu.\n
+Zkus jiny!
+100:
+Cisla nejsou dovolena,\n
+pouzij preddefinovana data
+101:
+Dalsi
+102:
+Rutiny programu
+103:
+Data programu
+104:
+VolArg
+105:
+(Infor)
+106:
+Postup
+107:
+Mistni
+108:
+Celkovy
+109:
+Nazev:=
+110:
+Rozsah:=
+111:
+Typ:=
+112:
+Typ dat:
+113:
+Nespravna deklarace dat\n
+Zkontroluj nazev a hodnotu
+114:
+Konst
+115:
+Zmenit
+116:
+Zadny program k zobrazeni.\n
+\n
+K otevreni programu nebo\n
+vytvoreni noveho programu\n
+pouzijte menu Soubor
+117:
+Typdat:=
+118:
+Navesti
+119:
+Vlozit pred:
+120:
+Nazev         Typ dat   Pozad. alt.rezim
+121:
+Preskoc
+122:
+PodSkok
+123:
+
+124:
+Vybrany objekt\n
+nema hodnotu!
+125:
+25%
+126:
+100%
+127:
+
+128:
+Hodnota soucasnych dat
+129:
+Definice rutiny
+130:
+Deklarace rutiny
+131:
+Zdvojeni rutiny
+132:
+Definice dat
+133:
+Deklarace dat
+134:
+Zdvojeni dat
+135:
+ANO
+136:
+NE
+137:
+Pocatecni hodnota dat
+138:
+Pocatec. hodn.:=
+139:
+Nova pocatec. hodnota dat
+140:
+hlavni
+141:
+
+142:
+
+143:
+
+144:
+ZakrIPL
+145:
+Data rutiny
+146:
+Ciselna data
+147:
+Hodnota...
+148:
+Pouzite typy
+149:
+Vsechny typy
+150:
+Typy
+151:
+Modul
+152:
+Moduly programu
+153:
+Nahoru
+154:
+Definice modulu
+155:
+Deklarace modulu
+156:
+Modul programu
+157:
+Modul systemu
+158:
+Program
+159:
+System
+160:
+Soucasna instrukce
+161:
+Argumenty instrukce
+162:
+V kompaktnim IF je dovolen\n
+pouze jeden prikaz
+163:
+Vice
+164:
+(VolArg)
+165:
+Stala
+166:
+Data jsou typu\n
+"Zadna hodnota" a nemohou\n
+mit hodnotu
+167:
+Objekt jiz existuje\n
+Zmente nazev
+168:
+
+169:
+
+170:
+Ktera rutina?\n
+Pouzijte Prohlizet:Rutiny
+171:
+Zadna hlavni rutina\n
+neexistuje
+172:
+Prikaz selhal
+173:
+Obsah vyrovnavaci pameti\n
+neni v poradku.\n
+Chybny typ drzitele mista
+174:
+
+175:
+Ukazatel programu (PP)\n
+nelze nastavovat!\n
+Chybny stav
+176:
+Kurzor je premisten na\n
+ukazatel programu (PP)
+177:
+Data jsou "Jen pro cteni"\n
+a nemohou se menit.
+178:
+Nelze vytvorit zadne\n
+nove signaly.\n
+Pouzijte preddefinovane.
+179:
+Systemova data!\n
+Deklarace dat nelze\n
+dosahnout.
+180:
+Argument funkce
+181:
+Argument instrukce
+182:
+Vyraz
+183:
+Vyberte si proceduru
+184:
+Musí byt data
+185:
+Chybna syntaxe\n
+Hodnota neni dovolena
+186:
+Premist
+187:
+Neni vybrana zadna\n
+rutina programu
+188:
+IPL je plny!\n
+Instrukce nemohla byt\n
+zahrnuta
+189:
+Program je ulozen.
+190:
+Nazev                     Typ
+191:
+Hlavni rutina
+192:
+Vyberte si program nebo modul
+193:
+Uloz modul jako:
+194:
+Uloz progr jako:
+195:
+Kurzor musi byt ve stejne\n
+casti rutiny jako PP!
+196:
+Vysled
+197:
+Vcetne
+198:
+Vylucne
+199:
+
+200:
+Nastav
+201:
+Nejbeznejsi vysledek
+202:
+Nejbeznejsi nastaven
+203:
+Procedura
+204:
+Funkce
+205:
+Podmineny skok
+206:
+Promenna
+207:
+Konstanta
+208:
+Stala hodnota
+209:
+IF
+210:
+WHILE
+211:
+FOR
+212:
+TEST
+213:
+GOTO
+214:
+Volani proc
+215:
+Navesti
+216:
+:=
+217:
+RETURN
+218:
+RAISE
+219:
+CONNECT
+220:
+EXIT
+221:
+RETRY
+222:
+TRYNEXT
+223:
+Kompaktni IF
+224:
+Poznamka
+225:
+
+226:
+Vybrana rutina
+227:
+Hodnota
+228:
+Doslovna hodnota
+229:
+-
+230:
+.
+231:
+  In
+232:
+rutina
+233:
+modul
+234:
+parametr
+235:
+Bez alt
+236:
+Prvni
+237:
+Pripona
+238:
+Vyberte si typ dat:
+239:
+Rutina zpracovani chyb
+240:
+Rutina pro zpracovani CHYB
+241:
+
+242:
+Vybrat
+243:
+(Ne)
+244:
+Meze presunu znacky\n
+dosazeny
+245:
+Zkontrolujte program
+246:
+Prejdete na vybranou pozici...
+247:
+Program je OK!
+248:
+Parametr nemuze mit\n
+stejny nazev jako jiny\n
+parametr!
+249:
+
+250:
+ANO
+251:
+NE
+252:
+ AND
+253:
+ XOR
+254:
+ OR
+255:
+ NOT
+256:
+ DIV
+257:
+ MOD
+258:
+
+259:
+
+260:
+
+261:
+Pro rutinu podmineneho\n
+skoku nejsou dovoleny\n
+zadne parametry
+262:
+Uzavrete program
+263:
+Zpracovani chyb zpet
+264:
+wobj0
+265:
+Nastroj ci pracovni objekt\n
+v instrukci neni stejny\n
+jako pro pomaly pohyb!
+266:
+Definujte souradnice
+267:
+
+268:
+
+269:
+
+270:
+
+271:
+
+272:
+
+273:
+
+274:
+Pridat rutinu zpracovani chyb
+275:
+Odstranit rutinu zpracovani chyb
+276:
+Pro tuto rutinu neexistuje\n
+zadne zpracovani chyb!\n
+Pouzijte Rutina:Pridat...
+278:
+vsechna data
+279:
+Vykonavani!
+280:
+Modul je ulozen.
+281:
+Vytvorte/otevrete program\n
+pristupu systemovych modulu\n
+Nektere jsou jiz zavedeny!
+282:
+Struktury pole jeste nelze\n
+zpracovat!.
+283:
+Pozice modulu je OK!\n
+Ukazatel programu (PP) se\n
+premistil k dalsi instrukci
+284:
+Chcete smazat:
+285:
+Chcete vyriznout:
+286:
+Pridat zpetne zpracovani chyb
+287:
+Vyjmout zpetne zpracovani chyb
+288:
+Pro tuto rutinu neexistuje\n
+zpetne zpracovani chyb!\n
+Pouzijte Rutina:Pridat...
+289:
+ZPETNE zpracovani chyb
+290:
+VstVyst
+291:
+\n
+Chcete ulozit stary program\n
+%s\n
+pred jeho nahrazenim\n
+%s?
+292:
+Objekt nelze v tomto okne\n
+smazat!!!\n
+Pouzijte Prohlizet:...
+293:
+Obsah
+294:
+Vlozit
+295:
+Preference
+296:
+Nejbeznejsi 3
+297:
+Vyraz je prilis dlouhy pro\n
+upravy online. Upravovat se\n
+da offline nebo po castech.
+298:
+
+299:
+Prepisovani programu!\n
+Existujici program bude prepsan.\n
+\n
+OK a pokracovat?
+300:
+Provoz
+301:
+i
+302:
+Motion Set Adv
+303:
+Motion Adv
+304:
+Vnejsi pocitac
+305:
+Multitasking
+306:
+Podpora RAPID
+307:
+Autorizujte program
+308:
+Instr Smazat
+309:
+Smazat Obj
+310:
+Kurzor a ukazatel programu\n
+(PP) se neshoduji!!\n
+Spustte program od:
+311:
+Kurzor
+312:
+  PP
+313:
+Conf. Start
+314:
+\n
+Prosim cekejte!\n
+Zavadim program ...!
+315:
+\n
+Prosim cekejte!\n
+Zavadim modul ...!
+316:
+\n
+Prosim cekejte!\n
+Ukladam program ...!
+317:
+\n
+Prosim cekejte!\n
+Ukladam modul ...!
+318:
+Modul '%s'\n
+jiz existuje!\n
+\n
+Chcete ho vymenit?
+319:
+Zadne rutiny
+320:
+Zadna data
+321:
+Zadne parametry
+322:
+.prg
+323:
+.PRG
+324:
+.mod
+325:
+.MOD
+326:
+.sys
+327:
+.SYS
+328:
+Instrukce Stop
+329:
+InstStop
+330:
+Okno programu nelze pouzit\n
+v automatickem rezimu.\n
+Prepnete zpet do rucniho\n
+rezimu!
+331:
+Pozn.: Robot se pohybuje\n
+do zvolene polohy!!
+332:
+Spustte pohyb robotu smerem\n
+k vybrane poloze
+333:
+Simulace
+334:
+Vyberte si volby simulace
+335:
+Dovolte vykonavani ve stavu MOTORY VYP
+336:
+Systemova data
+337:
+Uzivatelska data
+338:
+Oznacena oblast
+339:
+Pracovni pamet plna!\n
+\n
+Pouzijte menu Soubor a program\n
+ulozte.\n
+Ulozeni se musi provest!
+340:
+Mod Pos neni dovolena\n
+v poloze deklarovane\n
+jako promenna.
+341:
+Promenna ve smycce!\n
+Je dosazitelna  pouze\n
+z instrukce FOR.
+342:
+Zakryt IPL
+343:
+Ukazat IPL
+344:
+Vice
+345:
+V modulu:
+346:
+Vyberte si modul:
+347:
+v
+348:
+Defin dat
+349:
+Pouzit
+350:
+Vse
+351:
+Instrukce
+352:
+
+353:
+Modifikujte pozici
+354:
+Typ
+355:
+
+356:
+Neni pouzit
+357:
+ModPos
+358:
+LModPos
+359:
+Maximalni premisteni
+360:
+Maximalni otaceni
+361:
+Max vnej premisteni
+362:
+Max vnejsi otaceni
+363:
+Rezim
+364:
+Abs
+365:
+Rel
+366:
+Soucasna pozice neni\n
+v mezich podle funkce\n
+Meze ModPos.
+367:
+Nazev soucasne pozice\n
+je pro funkci Meze ModPos\n
+prilis dlouhy.
+368:
+Funkce Meze ModPos je\n
+aktivni, ale nelze vytvaret\n
+data.
+369:
+Chyba funkce Meze ModPos!
+370:
+Automaticke vyladeni
+371:
+
+372:
+\n
+Chcete ulozit stary program\n
+%s\n
+pred vytvorenim noveho programu?
+373:
+\n
+Systemovy modul '%s'\n
+se zmenil, ale neni ulozen!\n
+\n
+Chcete tento systemovy modul ulozit?
+374:
+Nasledujici systemove moduly se zmenily,\n
+ale nejsou ulozeny,\n
+%s\n
+\n
+Chcete tyto systemove moduly ulozit?
+375:
+Upr program
+376:
+pritomny
+377:
+Chcete do programu vstoupit?
+378:
+pole
+379:
+If Auto
+380:
+Pozadovana uroven uz
+381:
+LModPos
+382:
+As Is
+383:
+As Edit
+384:
+No Req
+385:
+Rutiny
+386:
+V rutine
+387:
+V modulu
+388:
+V systemu
+389:
+Programovy modul pekne tiskne.
+390:
+Tisk
+391:
+Tisk jen do souboru:
+392:
+Tisknout
+393:
+Tisknout program do souboru:
+394:
+Probiha tisk!
+395:
+   Pro zruseni stisknete Enter
+396:
+ Stisknete Enter a pokracujte
+397:
+Tiskarna je obsazena\n
+\n
+Zkuste znovu kdyz je tiskarna\n
+pripravena!
+398:
+Nelze tisknout, protoze je\n
+ve fronte prilis mnoho praci\n
+\n
+Zkuste pozdeji znovu!
+399:
+Nelze tisknout, protoze tiskarna\n
+neni v systemovych parametrech\n
+konfigurovana.
+400:
+Na jednotce pouzite k tisku neni\n
+dostatek prostoru (obvykle\n
+%.9s). Potrebuje %d bytu.\n
+Presunte/smazte nektere soubory.
+401:
+  Zaneprazdnen\n
+ \n
+  Prosim cekejte
+402:
+ Nelze vytvorit/psat do souboru:\n
+\n
+
+403:
+ Soubor jiz existuje
+404:
+ Program
+405:
+Info o behu programu
+406:
+Pozice behu programu
+407:
+Chcete uzavrit:

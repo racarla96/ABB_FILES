@@ -1,0 +1,133 @@
+Revision 1.8  1995/04/21  13:18:52  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.7  1994/08/19  09:47:02  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+5::
+0:
+Bewegen
+1:
+Ausrichten...
+2:
+Starten von Ausrichten durch\n
+Auslenken des Steuerknüppels.
+3:
+
+4:
+Das Werkzeug wird ausgerichtet entlang\n
+einer Koordinatenachse von "%s".
+5:
+
+6:
+
+7:
+was:
+8:
+wie:
+9:
+Gruppe:
+10:
+Koordsys:
+11:
+Werkzeug:
+12:
+Werkobj.:
+13:
+inkrementell:
+14:
+Gewünschte Daten aus der Liste wählen:
+15:
+Bewegen
+16:
+Roboterpos.:
+17:
+
+18:
+
+19:
+linear
+20:
+orientieren
+21:
+Achsen
+22:
+x y z
+23:
+Motor
+24:
+Welt
+25:
+Basis
+26:
+Werkzg
+27:
+ WObjekt
+28:
+
+29:
+
+30:
+
+31:
+
+32:
+
+33:
+
+34:
+2 1 3
+35:
+5 4 6
+36:
+4 5 6
+37:
+Achswinkel:
+38:
+Ext. Achsen:
+39:
+Klein
+40:
+Mittel
+41:
+Groß
+42:
+Welt
+43:
+Basis
+44:
+Werkzg
+45:
+ WObjekt
+46:
+1 2 3
+47:
+Nein
+48:
+Klein
+49:
+Mittel
+50:
+Groß
+51:
+1
+52:
+2
+53:
+Manuelles Bewegen ist\n
+verriegelt!\n
+\n
+Zur Zeit wird ein Programm\n
+abgearbeitet.
+54:
+Manuelles Bewegen\n
+nicht möglich in\n
+Automatik.
+55:
+Neu
+56:
+Ändern
+57:
+Defin

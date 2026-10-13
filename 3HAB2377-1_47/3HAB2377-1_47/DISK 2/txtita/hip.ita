@@ -1,0 +1,152 @@
+ on main routine.
+Revision 1.9  1996/12/12  07:37:49  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+9::
+0:
+Produzione
+10:
+File
+11:
+Modif
+12:
+Vista
+20:
+Carica Programma...
+21:
+Impossibile esecuz. programma
+22:
+Preferenze...
+23:
+Vai a...
+24:
+Parti dall'inizio
+25:
+Info
+26:
+Posizione
+27:
+Input / Output Operatore
+50:
+Annulla
+51:
+OK
+80:
+Programma
+82:
+Dati
+83:
+Preferenze
+84:
+Valore Dati
+85:
+Vai alla Linea
+86:
+Selez. un programma da caricare
+87:
+Info Produzione
+88:
+Posizione Produzione
+100:
+Nome progr
+101:
+Stato
+102:
+Velocita':=
+103:
+%
+104:
+Modo operativo
+105:
+Sottoprogramma
+106:
+
+107:
+Vai alla linea
+108:
+Istruzione RAPID in esecuzione
+109:
+Sotprog corrente
+110:
+100%
+111:
+Nessun programma RAPID caricato
+112:
+*
+130:
+Cambio direz. non consentito.
+131:
+Richiesto Parti dall'inizio
+132:
+Nessuna istr. nel sottoprog.
+133:
+Non Caricato
+134:
+Pronto
+135:
+Interrotto
+136:
+Esecuzione
+137:
+mm/s
+138:
+-%
+139:
+25%
+140:
+
+141:
++%
+142:
+Si
+143:
+No
+144:
+     Vuoi proseguire ?
+145:
+La partenza dall'inizio causa
+146:
+la perdita posiz. ciclo attuale.
+147:
+Attenzione
+148:
+>>
+149:
+Caricato
+150:
+Indefinito
+151:
+Stop avvenuto durante recupero
+200:
+< Premere Invio per cont. >
+201:
+Collegato
+202:
+Impos. caric. prog
+203:
+Richiesto caric. prog
+204:
+
+205:
+Impos. caric. prog
+206:
+Il tipo deve essere un prog
+207:
+Probabile errore nel prog !
+208:
+Visualiz. prog non consentita
+209:
+Impos. visualiz. istr. RAPID
+210:
+\n
+Aspettare, prego!\n
+Caricamento programma!
+211:
+Fuori memoria.
+212:
+Non eseguibile
+213:
+Programma non eseguibile.
+214:
+Main routine non trovata.

@@ -1,0 +1,2545 @@
+24::
+0:
+Programm
+1:
+Argument Fehler\n
+Task %.16s:\n
+Mehr als einmaliges Benutzen des\n
+gleichen zusätzlichen Parameters\n
+%.16s\n
+\t\n
+Jeder zusätzliche Parameter darf nur\n
+einmal in der gleichen Routine benutzt\n
+werden.
+2:
+Argument Fehler\n
+Task %.16s:\n
+Ausschließende Argumente müssen\n
+bedingte Werte haben.\n
+(%.16s hat Wert)\n
+\t\n
+Argumente dürfen nicht spezifiziert\n
+sein für mehr als einen Parameter aus\n
+einer Liste von Parametern, wenn nicht\n
+alle Werte bedingte Argumentwerte sind.
+3:
+Argument Fehler\n
+Task %.16s:\n
+Erwartetes Argument für notwendigen\n
+Parameter %.16s,\n
+gefunden zusätzliches Argument.\n
+%.16s\n
+\t\n
+Kontrolle, ob die Argumente in der\n
+gleichen Art spezifiziert sind, wie\n
+in der aufgerufenen Routine.
+4:
+Argument Fehler\n
+Task %.16s:\n
+Argument für REF Parameter\n
+%.16s\n
+ist keine Datenreferenz.\n
+\t\n
+Ausdruck des Arguments muß Datum oder\n
+Parameterreferenz sein.
+5:
+Argument Fehler\n
+Task %.16s:\n
+Argument für 'INOUT' Parameter\n
+%.16s\n
+ist nicht variabel oder speichernd\n
+oder vom Typ -Nur_Lesen-.\n
+\t\n
+Ausdruck des Arguments muß variabel,\n
+speichernd, variabler Parameter oder\n
+speichernder Parameter sein.\n
+Variable oder Speichernde dürfen nicht\n
+vom Typ -Nur_Lesen- sein.
+6:
+Argument Fehler\n
+Task %.16s:\n
+Fehlender Wert für zus. Argument\n
+für Parameter %.16s\n
+\t\n
+Nur -schalt- Parameter kann durch\n
+seinen Namen spezifiziert werden.\n
+Den anderen Typen muß ein Wert\n
+zugewiesen sein. Wert zuweisen.
+7:
+Argument Fehler\n
+Task %.16s:\n
+Zusätzliches Argument\n
+%.16s\n
+am falschen Platz in der Argument Liste.\n
+\t\n
+Kontrolle, ob die Argumente in der\n
+gleichen Reihenfolge spezifiziert\n
+sind, wie für die aufgerufene Routine.
+8:
+Argument Fehler\n
+Task %.16s:\n
+Referenz zu zus. Parameter\n
+%.16s\n
+im notwendigen Argument.\n
+\t\n
+Ein Argument zu einem zusätzlichen\n
+Parameter muß mit dem Zeichen "\"\n
+beginnen.\n
+Ändern des Arguments in "zusätzlich".
+9:
+Argument Fehler\n
+Task %.16s:\n
+Referenz zu einem notw. Parameter\n
+%.16s\n
+in bedingtem Argumentwert.\n
+\t\n
+Ein bedingter Wert eines zusätzlichen\n
+Parameters muß einem zusätzlichen\n
+Parameter in der aufgerufenen Routine\n
+entsprechen. Bedingten Wert ändern.
+10:
+Argument Fehler\n
+Task %.16s:\n
+Referenz zu notw. Parameter\n
+%.16s\n
+im zusätzlichen Argument.\n
+\t\n
+Ein Argument zu einem notwendigen\n
+Parameter muß mit dem Zeichen "\"\n
+beginnen.\n
+Ändern des Arguments in "notwendig".
+11:
+Argument Fehler\n
+Task %.16s:\n
+Das benannte notw. Argument\n
+%.16s\n
+steht an falscher Stelle in der\n
+Argument Liste.\n
+\t\n
+Kontrolle, ob die Argumente in der\n
+gleichen Reihenfolge spezifiziert sind,\n
+wie für die aufgerufene Routine.
+12:
+Argument Fehler\n
+Task %.16s:\n
+-schalt- Argument\n
+%.16s\n
+darf keinen Wert haben.\n
+\t\n
+Einem Argument eines -schalt- Parameter\n
+darf kein Wert zugewiesen sein.\n
+Wert entfernen.
+13:
+Argument Fehler\n
+Task %.16s:\n
+Zu wenig Argumente im Routinenaufruf\n
+%.16s\n
+\t\n
+Ein Routinenaufruf muß Werte für alle\n
+notwendigen Parameter der aufgerufenen\n
+Routine enthalten.\n
+Mehr Argumente hinzufügen.
+14:
+Argument Fehler\n
+Task %.16s:\n
+Zu viele Argumente im Routinenaufruf\n
+%.16s\n
+\t\n
+Ein Routinenaufruf darf nicht mehr\n
+Werte enthalten, als notwendige\n
+Parameter der aufgerufenen Routine.
+15:
+Daten Deklaration Fehler\n
+Task %.16s:\n
+Dimension eines Datenfeldes muß größer\n
+als 0 sein.\n
+\t\n
+Dimension eines Datenfeldes muß positiv\n
+sein.\n
+Ausdruck für Dimension ändern.
+16:
+Daten Deklaration Fehler\n
+Task %.16s:\n
+Dimension in der Definition des Daten-\n
+feldes zu groß.\n
+\t\n
+Ein Datenfeld darf höchstens die\n
+Dimension 3 haben.\n
+Programm so ändern, daß höchstens\n
+die Dimension 3 benötigt wird.
+17:
+Typ Fehler\n
+Task %.16s:\n
+Indiziertes Datum\n
+%.18s %.18s\n
+ist nicht vom Typ -Datenfeld-.\n
+\t\n
+Nur als Datenfeld deklarierte Daten\n
+dürfen Index haben.\n
+Index entfernen oder Deklaration des\n
+Datenfeldes ändern.
+18:
+Typ Fehler\n
+Task %.16s:\n
+Datum\n
+%.18s %.18s\n
+ist kein zusammengesetztes\n
+Datenelement.\n
+\t\n
+Einzelelemente gibt es nur bei zu-\n
+sammengesetzten Daten.\n
+Name und Typ des entsprechenden\n
+Datums kontrollieren.
+19:
+Begrenzung Fehler\n
+Task %.16s:\n
+Fehler %i beim Zugriff auf die\n
+gemeinsame Datenbank für\n
+%.16s\n
+\t\n
+Fehler beim Einfügen einer Speichernden\n
+in gemeinsame Datenbank.\n
+Wahrscheinlich ist gemeinsame Datenbank\n
+voll.
+20:
+Daten Deklaration Fehler\n
+Task %.16s:\n
+Nur Konstante im Ausdruck zulässig\n
+(%.16s ist keine Konstante)\n
+\t\n
+Ausdrücke in Datendeklarationen müssen\n
+Konstante sein. Variable, Speichernde\n
+oder Aufruf von Funktionen sind\n
+unzulässig.
+21:
+Instruktion Fehler\n
+Task %.16s:\n
+RETURN aus der Funktion benötigt einen\n
+Ausdruck.\n
+\t\n
+Eine RETURN Instruktion in einer\n
+Funktion muß den Wert spezifizieren,\n
+der zurückgegeben wird.\n
+Ausdruck hinzufügen.
+22:
+Typ Fehler\n
+Task %.16s:\n
+Illegale Kombination von Operanden für\n
+%.18s und\n
+%.18s für '*' Rechnung.\n
+\t\n
+Die zulässigen Kombinationen für die\n
+ '*' Rechnung sind:\n
+'num'*'num', 'num'*'pos', 'pos'*'num',\n
+'pos'*'pos' und 'orient'*'orient'.\n
+Typen der Operanden kontrollieren.
+23:
+Instruktion Fehler\n
+Task %.16s:\n
+Programmablauf kann nicht an diese\n
+Stelle des Programms wechseln.\n
+\t\n
+Marke und GOTO-Instruktion müssen\n
+sich in der gleichen "Tiefe" in der\n
+Instruktionsliste befinden.\n
+Nicht in Programmablauf-\n
+Instruktionen hineinspringen.
+24:
+Typ Fehler\n
+Task %.16s:\n
+Illegaler Typ\n
+%.18s\n
+des linken Operanden bei\n
+binärer '+' oder '-' Rechnung.\n
+\t\n
+Der zulässige Typ ist für '+' Rechnung:\n
+'num', 'pos' und 'string'.\n
+Der zulässige Typ ist für '-' Rechnung:\n
+'num' und 'pos'.\n
+Typen der Operanden kontrollieren.
+25:
+Typ Fehler\n
+Task %.16s:\n
+Illegaler Typ\n
+%.18s\n
+des Operanden bei\n
+arthm. +' oder '-' Rechnung.\n
+\t\n
+Die zulässigen Typen für '+' und '-'\n
+Rechnung sind: 'num' und 'pos'.\n
+Typen der Operanden kontrollieren.
+26:
+Typ Fehler\n
+Task %.16s:\n
+Illegaler Typ\n
+%.18s\n
+des rechten Operanden bei\n
+binärer '+' oder '-' Rechnung.\n
+\t\n
+Der zulässige Typ ist für '+' Rechnung:\n
+'num', 'pos' und 'string'.\n
+Der zulässige Typ ist für '-' Rechnung:\n
+'num' und 'pos'.\n
+Typen der Operanden kontrollieren.
+27:
+Typ Fehler\n
+Task %.16s:\n
+Illegaler Typ\n
+%.18s\n
+des linken Operanden bei\n
+'/', 'DIV' oder 'MOD' Rechnung.\n
+\t\n
+Zulässiger Operand bei\n
+'/', 'DIV' oder 'MOD' Rechnung\n
+ist nur der Typ 'num'.\n
+Typ des Operanden kontrollieren.
+28:
+Typ Fehler\n
+Task %.16s:\n
+Illegaler Typ\n
+%.18s\n
+des rechten Operanden bei\n
+'/', 'DIV' oder 'MOD' Rechnung.\n
+\t\n
+Zulässiger Operand bei\n
+'/', 'DIV' oder 'MOD' Rechnung\n
+ist nur der Typ 'num'.\n
+Typ des Operanden kontrollieren.
+29:
+Typ Fehler\n
+Task %.16s:\n
+Illegaler Typ\n
+%.18s\n
+des linken Operanden bei\n
+ '<', '<=', '>' oder '>=' Rechnung.\n
+\t\n
+Zulässiger Operand bei\n
+ '<', '<=', '>' oder '>=' Rechnung\n
+ist nur der Typ 'num'.\n
+Typ des Operanden kontrollieren.
+30:
+Typ Fehler\n
+Task %.16s:\n
+Illegaler Typ\n
+%.18s\n
+des rechten Operanden bei\n
+ '<', '<=', '>' oder '>=' Rechnung.\n
+\t\n
+Zulässiger Operand bei\n
+ '<', '<=', '>' oder '>=' Rechnung\n
+ist nur der Typ 'num'.\n
+Typ des Operanden kontrollieren.
+31:
+Typ Fehler\n
+Task %.16s:\n
+Illegaler Typ\n
+%.18s\n
+des linken Operanden bei\n
+'*' Rechnung.\n
+\t\n
+Zulässige Operanden bei\n
+'*' Rechnung\n
+sind 'num', 'pos' und 'orient'.\n
+Typen der Operanden kontrollieren.
+32:
+Typ Fehler\n
+Task %.16s:\n
+Illegaler Typ\n
+%.18s\n
+des rechten Operanden bei\n
+'*' Rechnung.\n
+\t\n
+Zulässige Operanden bei '*' Rechnung\n
+sind 'num', 'pos' und 'orient'.\n
+Typen der Operanden kontrollieren.
+33:
+Typ Fehler\n
+Task %.16s:\n
+Illegaler Type\n
+%.18s\n
+des Operanden einer\n
+ 'NOT' Rechnung.\n
+\t\n
+Zulässig ist nur der Typ 'bool'.\n
+Typ des Operanden kontrollieren.
+34:
+Typ Fehler\n
+Task %.16s:\n
+Illegaler Typ\n
+%.18s\n
+des linken Operanden bei\n
+'OR', 'XOR' oder 'AND' Rechnung.\n
+\t\n
+Zulässig ist nur der Typ 'bool'.\n
+Typ des Operanden kontrollieren.
+35:
+Typ Fehler\n
+Task %.16s:\n
+Illegaler Typ\n
+%.18s\n
+des rechten Operanden bei\n
+'OR', 'XOR' oder 'AND' Rechnung.\n
+\t\n
+Zulässig ist nur der Typ 'bool'.\n
+Typ des Operanden kontrollieren.
+36:
+Typ Fehler\n
+Task %.16s:\n
+Falsche Anzahl von Indizes in der\n
+Indexliste des Datenfeldes\n
+%.18s mit %i Dimension(en)\n
+\t\n
+Die Anzahl der Indizes in der Indexliste\n
+muß mit der Dimension des Datenfeldes\n
+übereinstimmen.
+37:
+Daten Deklaration Fehler\n
+Task %.16s:\n
+Bei Routinendeklaration -konstant-\n
+ist LOKAL unzulässig.\n
+\t\n
+Nur Programmdaten können LOKAL sein.\n
+Attribut LOKAL entfernen oder\n
+Deklaration außerhalb der Routine\n
+vornehmen.
+38:
+Daten Deklaration Fehler\n
+Task %.16s:\n
+Bei Routinendeklaration -variabel-\n
+ist LOKAL unzulässig.\n
+\t\n
+Nur Programmdaten können LOKAL sein.\n
+Attribut LOKAL entfernen oder\n
+Deklaration außerhalb der Routine\n
+vornehmen.
+39:
+Name Fehler\n
+Task %.16s:\n
+Name der Konstanten\n
+%.16s\n
+schon vorhanden.\n
+\t\n
+Routinendaten müssen innerhalb der\n
+Routine einmalig sein. Programmdaten\n
+müssen innerhalb des Moduls einmalig\n
+sein.\n
+Den entsprechenden Name ändern.
+40:
+Name Fehler\n
+Task %.16s:\n
+Name der globalen Konstanten\n
+%.16s\n
+schon vorhanden.\n
+\t\n
+Namen globaler Daten müssen einmalig\n
+sein.\n
+Den entsprechenden Name ändern.
+41:
+Name Fehler\n
+Task %.16s:\n
+Name der globalen Speichernden\n
+%.16s\n
+schon vorhanden.\n
+\t\n
+Namen globaler Daten müssen einmalig\n
+sein.\n
+Den entsprechenden Name ändern.
+42:
+Name Fehler\n
+Task %.16s:\n
+Name der globalen Routine\n
+%.16s\n
+schon vorhanden.\n
+\t\n
+Namen globaler Routinen müssen\n
+einmalig sein.\n
+Den entsprechenden Name ändern.
+43:
+Name Fehler\n
+Task %.16s:\n
+Name der globalen Variablen\n
+%.16s\n
+schon vorhanden.\n
+\t\n
+Namen globaler Daten müssen einmalig\n
+sein.\n
+Den entsprechenden Name ändern.
+44:
+Name Fehler\n
+Task %.16s:\n
+Name der Marke\n
+%.16s\n
+schon vorhanden.\n
+\t\n
+Namen von Marken innerhalb einer\n
+Routine müssen einmalig sein.\n
+Den entsprechenden Name ändern.
+45:
+Name Fehler\n
+Task %.16s:\n
+Name des Moduls\n
+%.16s\n
+schon vorhanden.\n
+\t\n
+Name des Moduls muß einmalig sein.\n
+Den entsprechenden Name ändern.
+46:
+Name Fehler\n
+Task %.16s:\n
+Name de Parameters\n
+%.16s\n
+schon vorhanden.\n
+\t\n
+Namen von Parametern innerhalb einer\n
+Routine müssen einmalig sein.\n
+Den entsprechenden Name ändern.
+47:
+Name Fehler\n
+Task %.16s:\n
+Name der Speichernden\n
+%.16s\n
+schon vorhanden.\n
+\t\n
+Namen müssen innerhalb eines Moduls\n
+einmalig sein.\n
+Den entsprechenden Name ändern.
+48:
+Name Fehler\n
+Task %.16s:\n
+Name der Routine\n
+%.16s\n
+schon vorhanden.\n
+\t\n
+Name der Routine innerhalb des Moduls\n
+muß einmalig sein.\n
+Den entsprechenden Name ändern.
+49:
+Name Fehler\n
+Task %.16s:\n
+Name der Variablen\n
+%.16s\n
+schon vorhanden.\n
+\t\n
+Routinendaten müssen innerhalb der\n
+Routine einmalig sein. Programmdaten\n
+müssen innerhalb des Moduls einmalig\n
+sein.\n
+Den entsprechenden Name ändern.
+50:
+Typ Fehler\n
+Task %.16s:\n
+Die Typen der Operanden\n
+%.18s und\n
+%.18s für binäre '+' oder '-'\n
+Rechnung sind nicht gleich.\n
+\t\n
+Die beiden Operanden müssen vom\n
+gleichen Typ sein.\n
+Typen der Operanden kontrollieren.
+51:
+Typ Fehler\n
+Task %.16s:\n
+Die Typen der Operanden\n
+%.18s und\n
+%.18s der  '=' oder '<>'\n
+Operation sind nicht gleich.\n
+\t\n
+Die beiden Operanden müssen vom\n
+gleichen Typ sein.\n
+Typen der Operanden kontrollieren.
+52:
+Instruktion Fehler\n
+Task %.16s:\n
+RETURN mit Ausdruck ist nur in einer\n
+Funktion zulässig.\n
+\t\n
+In einer Prozedur oder Interrupt Routine\n
+darf RETURN keinen Ausdruck enthalten.\n
+Ausdruck entfernen.
+53:
+Instruktion Fehler\n
+Task %.16s:\n
+RAISE in der Fehlerbehandlung darf\n
+keinen Ausdruck haben.\n
+\t\n
+Eine RAISE Instruktion verwendet immer\n
+nur den aktuellen Fehler.\n
+Ausdruck für Fehlernummer entfernen.
+54:
+Typ Fehler\n
+Task %.16s:\n
+Unterschiedliche Dimension von\n
+Datenfeld (%i) und Aggregat (%i).\n
+\t\n
+Die Anzahl der Ausdrücke in einem\n
+Aggregat muß identisch sein mit der\n
+Dimension des Datenfeldes.
+55:
+Typ Fehler\n
+Task %.16s:\n
+Das Ziel der Zuweisung\n
+%.18s\n
+muß vom Typ -Wert-\n
+oder -semi Wert- sein.\n
+\t\n
+Der Typ der Daten, denen ein Wert zuge-\n
+wiesen werden soll, muß ein -semi Wert-\n
+Typ sein. Daten vom Typ -kein Wert-\n
+dürfen von spez. Typen, spez. vordef.\n
+Instr. oder Funkt. gesetzt werden.
+56:
+Typ Fehler\n
+Task %.16s:\n
+Der Typ %.18s\n
+des linken Operanden einer\n
+'=' oder '<>' Rechnung ist nicht\n
+vom Typ -Wert- oder -semi Wert-.\n
+\t\n
+Die '=' und '<>' Operanden dürfen nur\n
+Ausdrücken von -Wert- oder -semi Wert-\n
+Typen zugewiesen werden.\n
+Bei Vergleichen werden spez. Typen\n
+oder spez. vordef. Funktionen benötigt.
+57:
+Typ Fehler\n
+Task %.16s:\n
+Der Typ %.18s\n
+des rechten Operanden einer\n
+'=' oder '<>' Rechnung ist nicht vom\n
+Typ -Wert- oder -semi Wert-.\n
+\t\n
+Die '=' und '<>' Operanden dürfen nur\n
+Ausdrücken von -Wert- oder -semi Wert-\n
+Typen zugewiesen werden.\n
+Bei Vergleichen werden spez. Typen\n
+oder spez. vordef. Funktionen benötigt.
+58:
+Typ Fehler\n
+Task %.16s:\n
+TEST Ausdruck\n
+%.18s\n
+nicht vom Typ -Wert- oder -semi Wert-.\n
+\t\n
+Die TEST Instruktion darf nur Aus-\n
+drücken von -Wert- oder -semi Wert-\n
+Typen zugewiesen werden.\n
+Bei Vergleichen werden spez. Typen\n
+oder spez. vordef. Funktionen benötigt.
+59:
+Daten Deklaration Fehler\n
+Task %.16s:\n
+Platzhalter für Wert in der Definition\n
+der benannten Konstanten unzulässig.\n
+\t\n
+Datendeklaration vervollständigen oder\n
+Datennamen gegen Platzhalter\n
+austauschen.
+60:
+Daten Deklaration Fehler\n
+Task %.16s:\n
+Platzhalter für Datenfelddimension in\n
+der Definition der benannten Konstanten\n
+oder Variablen unzulässig.\n
+\t\n
+Datendeklaration vervollständigen oder\n
+Datennamen gegen Platzhalter aus-\n
+tauschen.
+61:
+Routinen Deklar. Fehler\n
+Task %.16s:\n
+Platzhalter für Parameter der\n
+Datenfelddimension in der\n
+Definition der benannten Routine\n
+unzulässig.\n
+\t\n
+Parameterdeklaration vervollständigen\n
+oder Routinenamen gegen Platzhalter\n
+austauschen.
+62:
+Name Fehler\n
+Task %.16s:\n
+Platzhalter für Parameternamen in der\n
+Definition der benannten Routine\n
+unzulässig.\n
+\t\n
+Routinendeklaration vervollständigen\n
+oder Routinenamen gegen Platzhalter\n
+austauschen.
+63:
+Daten Deklaration Fehler\n
+Task %.16s:\n
+Platzhalter für Anfangswert in der\n
+Definition der benannten Speichernden\n
+unzulässig.\n
+\t\n
+Datendeklaration vervollständigen oder\n
+Datennamen gegen Platzhalter\n
+austauschen.
+64:
+Routinedeklaration Fehler\n
+Task %.16s:\n
+Platzhalter für Parameter in der\n
+Definition der benannten Routine\n
+unzulässig.\n
+\t\n
+Parameterdeklaration vervollständigen,\n
+Platzhalter entfernen oder Routinen-\n
+namen gegen Platzhalter austauschen.
+65:
+Referenz Fehler\n
+Task %.16s:\n
+Platzhalter für Typ in der Definition\n
+der benannten Routine unzulässig.\n
+\t\n
+Daten- oder Routinendeklaration\n
+vervollständigen oder Daten- oder\n
+Routinennamen gegen Platzhalter\n
+austauschen.
+66:
+Daten Deklaration Fehler\n
+Task %.16s:\n
+Platzhalter für Anfangswert in der\n
+Definition der benannten Variablen\n
+unzulässig.\n
+\t\n
+Datendeklaration vervollständigen oder\n
+Datennamen gegen Platzhalter\n
+austauschen.
+67:
+Typ Fehler\n
+Task %.16s:\n
+Zu wenig Komponenten im zusammen-\n
+gesetzten Aggregat vom Typ\n
+%.18s\n
+\t\n
+Die Anzahl der Ausdrücke im Aggregat\n
+muß mit der Anzahl der Komponenten\n
+in dem zusammengesetzten Typ\n
+übereinstimmen.
+68:
+Typ Fehler\n
+Task %.16s:\n
+Zu viele Komponenten im zusammen-\n
+gesetzten Aggregat vom Typ\n
+%.18s\n
+\t\n
+Die Anzahl der Ausdrücke im Aggregat\n
+muß mit der Anzahl der Komponenten\n
+in dem zusammengesetzten Typ\n
+übereinstimmen.
+69:
+Referenz Fehler\n
+Task %.16s:\n
+Referenz der Daten\n
+%.16s\n
+ist unbestimmt.\n
+\t\n
+Es gibt mindestens ein Element mit dem\n
+gleichen Namen wie das entsprechende\n
+Datum.\n
+Namen ändern.
+70:
+Referenz Fehler\n
+Task %.16s:\n
+Referenz der Funktion\n
+%.16s\n
+ist unbestimmt.\n
+\t\n
+Es gibt mindestens ein Element mit dem\n
+gleichen Namen wie die entsprechende\n
+Funktion.\n
+Namen ändern.
+71:
+Referenz Fehler\n
+Task %.16s:\n
+Referenz der Marke\n
+%.16s\n
+ist unbestimmt.\n
+\t\n
+Es gibt mindestens ein Element mit dem\n
+gleichen Namen wie die entsprechende\n
+Marke.\n
+Namen ändern.
+72:
+Referenz Fehler\n
+Task %.16s:\n
+Referenz der Prozedur\n
+%.16s\n
+ist unbestimmt.\n
+\t\n
+Es gibt mindestens ein Element mit dem\n
+gleichen Namen wie die entsprechende\n
+Prozedur.\n
+Namen ändern.
+73:
+Referenz Fehler\n
+Task %.16s:\n
+Referenz des Interrupt\n
+%.16s\n
+ist unbestimmt.\n
+\t\n
+Es gibt mindestens ein Element mit dem\n
+gleichen Namen wie den entsprechenden\n
+Interrupt.\n
+Namen ändern.
+74:
+Referenz Fehler\n
+Task %.16s: %.16s\n
+Keine vollständige Datenreferenz .\n
+\t\n
+Der Name kennzeichnet ein Objekt, das\n
+keine Daten sind.\n
+Kontrolle ob die gewünschten Daten\n
+durch ein anderes Objekt mit gleichem\n
+Namen verdeckt wird.
+75:
+Referenz Fehler\n
+Task %.16s: %.16s\n
+Keine Referenz auf Funktion.\n
+\t\n
+Der Name kennzeichnet ein Objekt, das\n
+keine Funktion ist.\n
+Kontrolle ob die gewünschte Funktion\n
+durch ein anderes Objekt mit gleichem\n
+Namen verdeckt wird.
+76:
+Referenz Fehler\n
+Task %.16s: %.16s\n
+Keine Referenz auf Marke.\n
+\t\n
+Der Name kennzeichnet ein Objekt, das\n
+keine Marke ist.\n
+Kontrolle ob die gewünschte Marke\n
+durch ein anderes Objekt mit gleichem\n
+Namen verdeckt wird.
+77:
+Referenz Fehler\n
+Task %.16s: %.16s\n
+Keine Referenz auf zusätzlichen\n
+Parameter in bedingtem Argumentwert.\n
+\t\n
+Der Name kennzeichnet ein Objekt, das\n
+keine zusätzlichen Parameter ist.\n
+Name ändern.
+78:
+Referenz Fehler\n
+Task %.16s: %.16s\n
+Keine Referenz auf zusätzlichen\n
+Parameter.\n
+\t\n
+Der Name kennzeichnet ein Objekt, das\n
+keine zusätzlichen Parameter ist.\n
+Name ändern.
+79:
+Referenz Fehler\n
+Task %.16s: %.16s\n
+Keine Referenz auf Prozedur.\n
+\t\n
+Der Name kennzeichnet ein Objekt, das\n
+keine Prozedur ist.\n
+Kontrolle ob die gewünschte Prozedur\n
+durch ein anderes Objekt mit gleichem\n
+Namen verdeckt wird.
+80:
+Referenz Fehler\n
+Task %.16s: %.16s\n
+Keine Referenz auf notwendigen\n
+Parameter.\n
+\t\n
+Der Name kennzeichnet ein Objekt, das\n
+keine notwendiger Parameter ist.\n
+Name ändern.
+81:
+Referenz Fehler\n
+Task %.16s: %.16s\n
+Keine Referenz auf Interrupt.\n
+\t\n
+Der Name kennzeichnet ein Objekt, das\n
+kein Interrupt ist.\n
+Kontrolle ob der gewünschte Interrupt\n
+durch ein anderes Objekt mit gleichem\n
+Namen verdeckt wird.
+82:
+Referenz Fehler\n
+Task %.16s: %.16s\n
+Keine Referenz auf Typnamen.\n
+\t\n
+Der Name kennzeichnet ein Objekt, das\n
+kein Typ ist.\n
+Kontrolle ob der gewünschte Typ durch\n
+ein anderes Objekt mit gleichem Namen\n
+verdeckt wird.
+83:
+Typ Fehler\n
+Task %.16s: %.16s\n
+ist -nicht Wert- Typ.\n
+\t\n
+Nur Variable mit fehlendem Anfangswert\n
+und 'VAR' Modus Parameter können\n
+vom Typ -semi Wert- oder -nicht Wert-\n
+sein.
+86:
+Referenz Fehler\n
+Task %.16s:\n
+Referenz verweist auf eine unbekannte\n
+Marke %.16s.\n
+\t\n
+Die Routine beinhaltet keine Marke\n
+(oder anders Objekt) mit dem\n
+entsprechenden Namen.
+87:
+Referenz Fehler\n
+Task %.16s:\n
+Referenz verweist auf einen\n
+unbekannten zus. Parameter\n
+%.16s\n
+\t\n
+Die aufgerufene Routine beinhaltet\n
+keinen zusätzlichen Parameter\n
+(oder anders Objekt) mit dem\n
+entsprechenden Namen.
+89:
+Referenz Fehler\n
+Task %.16s:\n
+Referenz verweist auf eine unbekannte\n
+Komponente %.16s\n
+eines zusammengesetzten\n
+Datenelementes.\n
+\t\n
+Der zusammengesetzte Typ enthält keine\n
+Komponente mit dem entsprechenden Namen.
+90:
+Referenz Fehler\n
+Task %.16s:\n
+Referenz verweist auf einen unbekannten\n
+notwendigen Parameter\n
+%.16s\n
+\t\n
+Die aufgerufene Routine beinhaltet\n
+keinen notwendigen Parameter\n
+(oder anders Objekt) mit dem\n
+entsprechenden Namen.
+92:
+Referenz Fehler\n
+Task %.16s:\n
+Referenz verweist auf einen unbekannten\n
+Datentyp\n
+%.16s\n
+\t\n
+Kein Datentyp (oder anders Objekt) mit\n
+dem entsprechenden Namen vorhanden.
+93:
+Fehler Instruktion\n
+Task %.16s:\n
+Zuweisungsziel ist vom Typ\n
+-NUR_LESEN-\n
+\t\n
+Das Datum, dem ein Wert zugewiesen\n
+werden soll, darf keine Konstante,\n
+Variable oder Speichernde vom Typ\n
+-NUR_LESEN- sein.
+94:
+Fehler Daten Deklaration\n
+Task %.16s:\n
+Deklaration als -Speichernde- in der\n
+Routine unzulässig.\n
+\t\n
+Deklaration als -Speichernde- sollte nur\n
+auf Modulebene erfolgen.\n
+Deklaration der -Speichernden- aus der\n
+Routine entfernen.
+95:
+Fehler Instruktion\n
+Task %.16s:\n
+RAISE ohne Ausdruck nur in der\n
+Fehlerbehandlung zulässig.\n
+\t\n
+Ausdruck für Fehlernummer der\n
+RAISE Instruktion hinzufügen.
+96:
+Fehler Instruktion\n
+Task %.16s:\n
+RETRY nur in der Fehlerbehandlung\n
+zulässig.\n
+\t\n
+Die RETRY Instruktion darf nur in der\n
+Fehlerbehandlung verwendet werden.\n
+Instruktion entfernen.
+97:
+Instruktion Fehler\n
+Task %.16s:\n
+TRYNEXT nur in Fehlerbehandlung\n
+zulässig.\n
+\t\n
+Die TRYNEXT Instruktion darf nur in der\n
+Fehlerbehandlung verwendet werden.\n
+Instruktion entfernen.
+98:
+Parameter Fehler\n
+Task %.16s:\n
+'switch' Parameter muß Übergabemodus\n
+IN haben.\n
+\t\n
+Kennzeichnung des Übergabemodus\n
+entfernen.\n
+Wenn der Übergabemodus -IN- nicht\n
+ausreichend ist, Datentyp des\n
+Parameters ändern.
+99:
+Parameter Fehler\n
+Task %.16s:\n
+'schalt' Parameter hat keine Dimension.\n
+\t\n
+Dimension für Datenfeld entfernen oder\n
+Datentyp des Parameters ändern.
+100:
+Parameter Fehler\n
+Task %.16s:\n
+'schalt' nur zulässig für zusätzlichen\n
+Parameter.\n
+\t\n
+Parameter in -zusätzlich- Parameter\n
+der Datentyp des Parameters ändern.\n
+Wenn das Objekt kein Parameter ist,\n
+Datentyp ändern.
+101:
+Typ Fehler\n
+Task %.16s:\n
+Typkonflikt bei erwartetem\n
+Typ %.18s und\n
+Typ %.18s\n
+\t\n
+Der Ausdruck entspricht nicht dem\n
+erwarteten Datentyp.
+102:
+Typ Fehler\n
+Task %.16s:\n
+Konflikt bei Typ des Aggregats,\n
+erwarteter Typ\n
+%.18s\n
+\t\n
+Das Aggregat entspricht nicht dem\n
+erwarteten Datentyp.
+103:
+Typ Fehler\n
+Task %.16s:\n
+Speichernde\n
+%.18s %.16s\n
+Typkonflikt\n
+\t\n
+Es existiert bereits ein speich. Datum\n
+mit dem Namen aber mit anderem Daten-\n
+typ. Speichernde umbenennen oder\n
+Datentyp ändern.
+104:
+Daten Deklaration Fehler\n
+Task %.16s:\n
+Bestimmung Datenfeld Dimension nicht\n
+möglich.\n
+(Zirkularer Bezug?)\n
+\t\n
+Kontrolle aller verwendeten Konstanten.\n
+Wenn das Programm zu komplex ist,\n
+Deklarationen ändern.
+105:
+Daten Deklaration Fehler\n
+Task %.16s:\n
+Bestimmung Typ  von Wert der Konstanten\n
+nicht möglich.\n
+(Zirkularer Bezug?)\n
+\t\n
+Kontrolle aller verwendeten Konstanten.\n
+Wenn das Programm zu komplex ist,\n
+Deklarationen ändern.
+106:
+Daten Deklaration Fehler\n
+Task %.16s:\n
+Bestimmung Wert der Konstanten nicht\n
+möglich.\n
+(Zirkularer Bezug?)\n
+\t\n
+Kontrolle aller verwendeten Konstanten.\n
+Wenn das Programm zu komplex ist,\n
+Deklarationen ändern.
+107:
+Daten Deklaration Fehler\n
+Task %.16s:\n
+Bestimmung Typ von Wert der Variablen\n
+nicht möglich.\n
+(Zirkularer Bezug?)\n
+\t\n
+Kontrolle aller verwendeten Konstanten.\n
+Wenn das Programm zu komplex ist,\n
+Deklarationen ändern.
+108:
+Typ Fehler\n
+Task %.16s:\n
+Unbekannter Typ von Aggregat.\n
+\t\n
+An dieser Stelle darf kein Aggregat\n
+verwendet werde, da kein erwarteter\n
+Datentyp. Datum mit Datentyp und\n
+Aggregatwert deklarieren. Name des\n
+Datums statt Aggregat verwenden.
+109:
+Typ Definition Fehler\n
+Task %.16s:\n
+Komponente in zusammengesetzten\n
+Datentyp %.16s\n
+kann nicht bestimmt werden\n
+(Zirkulardefinition ?)\n
+\t\n
+Datentyp der Komponente des zusammen-\n
+gesetzten Datentyps kontrollieren.\n
+Wenn OK, Zirkulardefinition. Typ einer\n
+Komponente kann sich nicht auf eigenen\n
+zusammengesetzten Datentyp beziehen.
+110:
+Referenz Fehler\n
+Task %.16s:\n
+Name des zusammengesetzten\n
+Datentyp %.16s\n
+ist schon vorhanden\n
+\t\n
+Mindestens ein anderes Objekt hat den\n
+gleichen Namen wie der entsprechende\n
+zusammengesetzten Datentyp.\n
+Den entsprechenden Name ändern.
+111:
+Name Fehler\n
+Task %.16s:\n
+Name des globalen zusammengesetzten\n
+Datentyp %.16s\n
+ist schon vorhanden\n
+\t\n
+Globale Typen müssen einmalige Namen\n
+innerhalb aller globaler Typen, Daten,\n
+globaler Routinen und Module im\n
+Programm haben.\n
+Den entsprechenden Name ändern.
+112:
+Referenz Fehler\n
+Task %.16s:\n
+Alias Name\n
+%.16s\n
+ist schon vorhanden\n
+\t\n
+Mindestens ein anderes Objekt hat den\n
+gleichen Namen wie der entsprechende\n
+Alias Name.\n
+Den entsprechenden Name ändern.
+113:
+Name Fehler\n
+Task %.16s:\n
+Globaler Alias Name\n
+%.16s\n
+ist schon vorhanden\n
+\t\n
+Globale Typen müssen einmalige Namen\n
+innerhalb aller globaler Typen, Daten,\n
+globaler Routinen und Module im\n
+Programm haben.\n
+Den entsprechenden Alias Name ändern.
+114:
+Typ Definition Fehler\n
+Task %.16s:\n
+Typ Referenz von Alias Name\n
+%.16s\n
+ist ein Alias Typ\n
+\t\n
+Datentyp der Komponente kontrollieren.\n
+Wenn OK, Zirkulardefinition.\n
+Typ einer Komponente kann sich nicht\n
+auf eigenen zusammengesetzten Datentyp\n
+beziehen.
+115:
+Typ Definition Fehler\n
+Task %.16s:\n
+Typ des Alias %.16s\n
+kann nicht bestimmt werden\n
+(Zirkulardefinition ?)\n
+\t\n
+Typ des Alias kontrollieren.\n
+Wenn OK, Zirkulardefinition.\n
+Typ einer Komponente kann sich nicht\n
+auf eigenen zusammengesetzten Datentyp\n
+beziehen.
+116:
+Referenz Fehler\n
+Task %.16s:\n
+Name der Komponente\n
+%.16s\n
+im zusammengesetzten Datentyp\n
+ist schon vorhanden\n
+\t\n
+Mindestens ein anderes Objekt hat den\n
+gleichen Namen wie der entsprechende\n
+zusammengesetzten Datentyp.\n
+Den entsprechenden Name ändern.
+117:
+Typ Definition Fehler\n
+Task %.16s:\n
+Platzhalter für Komponente in der\n
+Definition des entsprechenden\n
+zusammengesetzten Datentyp ist\n
+unzulässig.\n
+\t\n
+Definition vervollständigen oder\n
+Datenname in Platzhalter ändern.
+118:
+Kein Zugriff\n
+Task %.16s:\n
+Die Option\n
+-Anwenderdefinierte Datentypen-\n
+ist in diesem System nicht installiert\n
+\t\n
+
+141:
+Argument Fehler\n
+Task %.16s:\n
+Argument für\n
+'SPEICH' Parameter %.16s\n
+ist nicht speichernd oder ist vom Typ\n
+-nur_lesen-.\n
+\t\n
+Der Ausdruck des Arguments muß\n
+speichernd oder ein speich. Parameter\n
+sein.\n
+Die Speichernde darf nicht vom Typ\n
+-nur_lesen- sein.
+142:
+Argument Fehler\n
+Task %.16s:\n
+Argument für\n
+'VAR' Parameter %.16s\n
+ist nicht variabel oder ist vom Typ\n
+-nur_lesen-.\n
+\t\n
+Der Ausdruck des Arguments muß\n
+variabel oder ein variabler Parameter\n
+sein.\n
+Die Variable darf nicht vom Typ\n
+-nur_lesen- sein.
+157:
+Instruktion Fehler\n
+Task %.16s:\n
+Interruptnummer ist keine statische\n
+Variabel oder ist vom Typ -nur_lesen-.\n
+\t\n
+Interruptnummer muß variabel oder ein\n
+variabler Parameter sein. Die Variable\n
+muß statisch sein. Die Variable darf\n
+nicht vom Typ -nur_lesen- sein.
+158:
+Wert Fehler\n
+Task %.16s:\n
+Integer Wert\n
+%G\n
+zu groß\n
+\t\n
+Der Wert des Ausdrucks muß ein\n
+integer Wert sein.\n
+Der aktuelle Wert ist zu groß.
+159:
+Wert Fehler\n
+Task %.16s:\n
+%G\n
+ist kein integer Wert.\n
+\t\n
+Der Wert des Ausdrucks muß ein\n
+integer Wert sein.\n
+Der aktuelle Wert ist nicht ganzzahlig.
+165:
+Referenz Fehler\n
+Task %.16s:\n
+Referenz auf unbekanntes\n
+Datum %.16s\n
+\t\n
+Daten (oder anderes Objekt) mit dem\n
+spezifizierten Namen nicht vorhanden.
+166:
+Referenz Fehler\n
+Task %.16s:\n
+Referenz auf unbekannte\n
+Funktion %.16s\n
+\t\n
+Funktion (oder anderes Objekt) mit dem\n
+spezifizierten Namen nicht vorhanden.
+168:
+Referenz Fehler\n
+Task %.16s:\n
+Referenz auf unbekannte\n
+Prozedur %.16s\n
+\t\n
+Prozedur (oder anderes Objekt) mit dem\n
+spezifizierten Namen nicht vorhanden.
+170:
+Referenz Fehler\n
+Task %.16s:\n
+Referenz auf unbekannten\n
+Interrupt %.16s\n
+\t\n
+Interrupt (oder anderes Objekt) mit dem\n
+spezifizierten Namen nicht vorhanden.
+191:
+Instruktion Fehler\n
+Task %.16s:\n
+Variable und Interruptroutine sind\n
+bereits miteinander verbunden\n
+\t\n
+Eine bestimmte Variable darf mit\n
+einer bestimmten Interruptroutine\n
+nur einmal verbunden werden.
+192:
+Argument Fehler\n
+Task %.16s:\n
+%.16s\n
+ist zweites vorhandenes, bedingtes\n
+Argument für ausschließende Parameter\n
+\t\n
+Argumente dürfen nicht vorhanden sein\n
+für mehr als einen Parameter von Liste\n
+sich ausschließenden Parameter.
+193:
+Abarbeitung Fehler\n
+Task %.16s:\n
+Fehler %i\n
+bei letztem Prozeduraufruf zur\n
+Herstellung einer Verbindung\n
+\t\n
+Fehler in der Instruktion zum Prozedur-\n
+aufruf. Siehe vorhergehende Meldung\n
+für die aktuelle Ursache.
+194:
+Wert Fehler\n
+Task %.16s:\n
+Division durch Null\n
+\t\n
+Division durch Null unmöglich.\n
+Programm kontrollieren.\n
+Divisor darf nicht Null sein.
+195:
+Begrenzung Fehler\n
+Task %.16s:\n
+Anzahl der zulässigen RETRY über-\n
+schritten.\n
+\t\n
+Die Maßnahmen zur Fehlerbeseitigung\n
+vor Abarbeitung der RETRY Instruktion\n
+sind wahrscheinlich nicht ausreichend\n
+um den Fehler zu beheben.\n
+Fehlerbehandlung kontrollieren.
+196:
+Instruktion Fehler\n
+Task %.16s:\n
+Platzhalter ist nicht ausführbar.\n
+\t\n
+Platzhalter oder Instruktion mit\n
+Platzhalter entfernen, Instruktion\n
+vervollständigen.\n
+Abarbeitung fortsetzen.
+197:
+Abarbeitung Fehler\n
+Task %.16s:\n
+Funktion gibt keinen Wert zurück.\n
+\t\n
+In der Funktion fehlt die RETURN\n
+Instruktion.\n
+RETURN Instruktion mit zurückzu-\n
+gegebenden Wert einfügen.
+198:
+Wert Fehler\n
+Task %.16s:\n
+Unzulässiger Wert für Orientierung\n
+%.40s\n
+\t\n
+Es wurde versucht, einen unzulässigen\n
+Wert für die Orientierung (Quarternion)\n
+zu verwenden.
+199:
+Wert Fehler\n
+Task %.16s:\n
+Unzulässige Fehlernummer\n
+%i in RAISE\n
+\t\n
+Nur Fehlernummern im Wertebereich 1-99\n
+sind in der RAISE Instruktion zulässig.
+200:
+Begrenzung Fehler\n
+Task %.16s:\n
+Keine weiteren Interruptnummern\n
+verfügbar.\n
+\t\n
+Es steht nur eine begrenzte Anzahl von\n
+Interruptnummern zur Verfügung. Programm\n
+umschreiben und frühere Interruptnummer\n
+verwenden. Die Ursache der Meldung kann\n
+auch ein vorheriger Systemfehler sein.
+201:
+Wert Fehler\n
+Task %.16s:\n
+Negativer Operand\n
+%i unzulässig\n
+\t\n
+'MOD' Rechnung nur mit positiven\n
+Operanden.\n
+Programm kontrollieren.
+202:
+Typ Fehler\n
+Task %.16s:\n
+Dimension %i\n
+und %i der Datenfeld\n
+Dimension Nummer %i\n
+nicht kompatibel.\n
+\t\n
+Das Datenfeld hat nicht die erwartete\n
+Größe. Zuweisung des Datenfeldes ist\n
+nur bei gleicher Größe möglich.
+203:
+Referenz Fehler\n
+Task %.16s:\n
+Zusätzlicher Parameter\n
+%.16s\n
+ist nicht vorhanden\n
+\t\n
+Fehler bei Bezug auf zus. Parameter.\n
+Funktion -Present- verwenden, um\n
+das Vorhandensein des Parameters\n
+vor der Verwendung des Wertes zu\n
+kontrollieren.
+204:
+Wert Fehler\n
+Task %.16s:\n
+Index des Datenfeldes %i\n
+für Dimension Nummer %i\n
+ist zu groß (1-%i)\n
+\t\n
+Wert des Index kontrollieren.
+205:
+Wert Fehler\n
+Task %.16s:\n
+String zu lang.\n
+\t\n
+Verwendeter String ist zu lang.\n
+Programm ändern, so daß kürzere\n
+Strings verwendet werden können.
+221:
+Abarbeitung Fehler\n
+Task %.16s:\n
+Abarbeitung abgebrochen\n
+\t\n
+Die Abarbeitung wurde auf Grund eines\n
+fatalen Ablauffehler abgebrochen.
+222:
+Begrenzung Fehler\n
+Task %.16s:\n
+Laufzeit Stack Überlauf.\n
+\t\n
+Das Programm ist zu komplex.\n
+Wahrscheinlich enthält das Programm\n
+Routinen, die sich selbst aufrufen.
+223:
+Abarbeitung Fehler\n
+Task %.16s:\n
+Fataler Laufzeitfehler\n
+\t\n
+Ein fataler Laufzeitfehler hat sich\n
+ereignet. Fatale Laufzeitfehler\n
+bewirken einen sofortigen Abbruch\n
+der Abarbeitung. Siehe vorhergehende\n
+Meldung für aktuelle Ursache.
+224:
+Abarbeitung Fehler\n
+Task %.16s:\n
+Unzulässiger Rückgabewert\n
+%i von der ReaL Routine.\n
+\t\n
+Dies wird immer durch einen internen\n
+Fehler in der ReaL Routine verursacht.
+225:
+Abarbeitung Fehler\n
+Task %.16s:\n
+Abarbeitung kann nicht neu\n
+gestartet werden\n
+\t\n
+Die Abarbeitung kann nach einem\n
+Netzausfall nicht fortgesetzt werden.\n
+Starten sie das Programm neu.
+226:
+Name Fehler\n
+Task %.16s:\n
+Name der Prozedur\n
+%.40s\n
+wird nicht als RAPID Name erkannt.\n
+Reservierte Worte ausgeschlossen.\n
+\t\n
+Der Name der Prozedur muß als ein\n
+zulässiger RAPID Name erkannt werden.\n
+Der Name darf keinem reservierten Worte\n
+der RAPID Sprache entsprechen.\n
+Namen ändern.
+227:
+Begrenzung Fehler\n
+Task %.16s:\n
+Laufzeit Stack Überlauf.\n
+\t\n
+Das Programm ist zu komplex.\n
+Wahrscheinlich enthält das Programm\n
+Routinen, die sich selbst aufrufen.
+228:
+Abarbeitung Fehler\n
+Task %.16s:\n
+Unbearbeiteter, -nicht fataler-\n
+Laufzeitfehler %i.\n
+\t\n
+Ein -nicht fataler- Ablauffehler hat\n
+sich ereignet, wurde aber durch\n
+keine Fehlerbehandlung bearbeitet.\n
+Siehe vorhergehende Meldung für\n
+aktuelle Ursache.
+229:
+Abarbeitung Fehler\n
+Task %.16s:\n
+Unbearbeiteter\n
+RAISE Fehler %i.\n
+\t\n
+Ein Fehler wurde mit der RAISE\n
+Instruktion weitergegeben, aber\n
+durch keine Fehlerbehandlung\n
+bearbeitet.
+230:
+Abarbeitung Fehler\n
+Task %.16s:\n
+Unbearbeiteter, -nicht fataler-\n
+Laufzeitfehler.\n
+\t\n
+Ein -nicht fataler- Ablauffehler hat\n
+sich ereignet, wurde aber durch\n
+keine Fehlerbehandlung bearbeitet.
+241:
+Wert Fehler\n
+Task %.16s:\n
+Datenfeld Dimension\n
+%G zu groß (1-%i)\n
+\t\n
+Der Wert des 'DimNo' Parameters\n
+der 'Dim' Funktion muß ganzzahlig\n
+und im Bereich von 1 - 3 sein.
+242:
+Typ Fehler\n
+Task %.16s:\n
+Datum ist kein Datenfeld.\n
+\t\n
+Der 'DatObj' Parameter der 'Dim'\n
+Funktion muß ein Datenfeld sein.
+243:
+Wert Fehler\n
+Task %.16s:\n
+Unbekannte Interruptnummer.\n
+\t\n
+Kontrolle, ob die Interrupt Variable\n
+durch eine CONNECT Anweisung gesetzt\n
+ist.\n
+Definition von ISignalDI oder andere\n
+Interruptdefinition kontrollieren.
+251:
+Name Fehler\n
+Task %.16s:\n
+Name %.16s\n
+ist nicht einmalig.\n
+\t\n
+Die Namen der Objekte müssen einmalig\n
+sein.\n
+Das entsprechende Objekt umbenennen\n
+oder Namen ändern.
+252:
+Begrenzung Fehler\n
+Task %.16s:\n
+Fehler %i beim Zugriff\n
+auf die gemeinsame Datenbank.\n
+für %.16s\n
+\t\n
+Fehler beim Einfügen einer Speichernden\n
+in gemeinsame Datenbank.\n
+Wahrscheinlich ist gemeinsame Datenbank\n
+voll.
+253:
+Typ Definition Fehler\n
+Task %.16s:\n
+Alias %.16s\n
+von Alias %.16s\n
+ist unzulässig.\n
+\t\n
+Definition eines Alias Typ gleich einem\n
+anderen Alias Typ ist unzulässig.\n
+Zwei Alias definieren, die dem selben\n
+atomic oder record Typ entsprechen.
+254:
+Symbol Definition Fehler\n
+Task %.16s:\n
+'ANYTYPE#' Parameter\n
+%.16s\n
+nicht dimensionierbar.\n
+\t\n
+Spezifikation der Dimension entfernen.\n
+'ANYTYPE#' beinhaltet Datenfeld Typen.
+255:
+Symbol Definition Fehler\n
+Task %.16s:\n
+'ANYTYPE#' nur für Parameter zulässig.\n
+(nicht für %.16s)\n
+\t\n
+Anderen Typ verwenden.
+256:
+Parameter Fehler\n
+Task %.16s:\n
+'alt' darf nicht für den ersten\n
+zusätzlichen Parameter\n
+%.16s in der\n
+alternativen Liste gesetzt werden.\n
+\t\n
+Nur der zweite und weitere in jeder\n
+Liste von ausschließenden, zusätz-\n
+lichen Parametern darf als alternativ\n
+markiert sein.
+257:
+Parameter Fehler\n
+Task %.16s:\n
+'REF' Parameter\n
+%.16s\n
+kann nicht dimensioniert werden.\n
+\t\n
+Dimensionierung entfernen oder Modus\n
+des Parameters ändern.
+258:
+Parameter Fehler\n
+Task %.16s:\n
+'schalt' Parameter\n
+%.16s\n
+kann nicht dimensioniert werden.\n
+\t\n
+Dimensionierung entfernen oder\n
+Datentyp des Parameters ändern.
+259:
+Parameter Fehler\n
+Task %.16s:\n
+'schalt' Parameter\n
+%.16s\n
+muß Übergabemodus -IN- haben.\n
+(spezifizierter Wert %i)\n
+\t\n
+Parameter Übergabemodus entfernen.\n
+Wenn -IN- Übergabemodus nicht aus-\n
+reichend ist, Datentyp des Parameters\n
+ändern.
+260:
+Symbol Definition Fehler\n
+Task %.16s:\n
+'schalt' nur für zusätzlichen Parameter\n
+zulässig (nicht für %.16s)\n
+\t\n
+Parameter in -zusätzlichen- Parameter\n
+ändern oder Datentyp des Parameters\n
+ändern. Wenn das Objekt kein Parameter\n
+ist, Datentyp ändern.
+261:
+Type Definition Fehler\n
+Task %.16s: Wertetyp für\n
+%.16s\n
+muß einer vom Typ\n
+REAL_SYMVALTYP_VAL,_SEMIVAL,_NONVAL oder\n
+_NONE (spezifizierter Wert %i)\n
+\t\n
+Wertetyp ändern.
+262:
+Daten Deklaration Fehler\n
+Task %.16s:\n
+Datenfeld Dimension für\n
+%.16s zu groß\n
+(spezifizierter Wert %i)\n
+\t\n
+Ein Datenfeld darf nur maximal von der\n
+Dimensionen 3 sein.
+263:
+Name Fehler\n
+Task %.16s:\n
+Symbolname\n
+%.40s\n
+muß als RAPID Name erkennbar sein,\n
+reservierte Worte ausgeschlossen.\n
+\t\n
+Der Name von Objekten, inklusive\n
+Parameter und Komponenten, muß als\n
+zulässiger RAPID Name erkennbar sein,\n
+darf aber keinem reservierten Wort\n
+entsprechen. Name ändern.
+264:
+Symbol Definition Fehler\n
+Task %.16s:\n
+Fehlende C Funktion.\n
+für %.16s\n
+\t\n
+Eine C-Funktion, welche die definierte\n
+ReaL Funktion abarbeitet, muß\n
+spezifiziert sein.
+265:
+Symbol Definition Fehler\n
+Task %.16s:\n
+Fehlende Wert-Initial. Funktion für\n
+%.16s\n
+\t\n
+Ein Werte-Initialisierungs-Funktion\n
+muß spezifiziert sein.
+266:
+Referenz Fehler\n
+Task %.16s:\n
+%.16s\n
+ist kein Name für Datentyp.\n
+(Objekt %.16s)\n
+\t\n
+Der Name kennzeichnet ein Objekt,\n
+das kein Typ ist.
+267:
+Referenz Fehler\n
+Task %.16s:\n
+%.16s\n
+ist kein Datentyp Wert.\n
+(Objekt %.16s)\n
+\t\n
+Nur zusammenges. Komponenten,\n
+Alias Typen, Variable und VAR-Modus\n
+Parameter dürfen vom Typ -semi-value-\n
+oder -non-value- sein.
+268:
+Symbol Definition Fehler\n
+Task %.16s:\n
+Fehlender Wert Konvert. Funktion.\n
+für %.16s\n
+\t\n
+Eine wertkonvert. Funktion muß für\n
+einen -semi-value- Typ spezifiziert\n
+sein.
+269:
+Typ Definition Fehler\n
+Task %.16s:\n
+Nicht genügend Speicher für\n
+den Wert der Daten\n
+%.16s\n
+\t\n
+Es wird mehr Speicher benötigt.
+270:
+Typ Definition Fehler\n
+Task %.16s:\n
+-Privat- Typ\n
+%.16s\n
+kann nur -semi-value- oder -non-value-\n
+Typ sein (spezifizierter Wert %i)\n
+\t\n
+Wertetyp ändern.
+271:
+Typ Definition Fehler\n
+Task %.16s:\n
+Privat Typ\n
+%.16s\n
+Größe muß vielfaches von 4 sein.\n
+(spezifizierter Wert %i)\n
+\t\n
+Alle RAPID Typen müssen eine Größe\n
+haben, die ein vielfaches von 4 ist.\n
+Spezifizierte Typgröße ändern.
+272:
+Typ Fehler\n
+Task %.16s:\n
+Konflikt bei Typ Speichernde\n
+für %.16s\n
+\t\n
+Es gibt bereits eine Speichernde mit\n
+dem gleichen Namen aber von einem\n
+anderen Datentyp.\n
+Speichernde umbenennen oder den\n
+Datentyp ändern.
+273:
+Referenz Fehler\n
+Task %.16s:\n
+Unbekannter Name für Datentyp\n
+%.16s für %.16s\n
+\t\n
+Datentyp (oder anderes Objekt) mit\n
+diesem Namen nicht vorhanden.
+274:
+Parameter Fehler\n
+Task %.16s:\n
+Unbekannter Parameter Übergabemodus\n
+%i für %.16s\n
+\t\n
+Der spezifizierte Parameter Übergabe-\n
+modus ist nicht IN, 'VAR', 'SPEICH',\n
+'INOUT' oder REF.\n
+Verwende PGM_SYMPARMOD_x.
+275:
+Symbol Definition Fehler\n
+Task %.16s:\n
+Typ Symboldefinition\n
+%i\n
+unzulässig.\n
+\t\n
+Der Typ der Symboldefinition\n
+entspricht nicht den zulässigen\n
+Symboltypen (PGM_SYMDEF_x).
+301:
+E/A Fehler\n
+Task %.16s:\n
+Zugriff verweigert\n
+(Dateiname %.39s)\n
+\t\n
+
+302:
+E/A Fehler\n
+Task %.16s:\n
+Keine solche Datei/Verzeichnis\n
+vorhanden.\n
+(Dateiname %.39s)\n
+\t\n
+
+303:
+E/A Fehler\n
+Task %.16s:\n
+Kein Platz mehr auf der Einheit.\n
+(Dateiname %.39s)\n
+\t\n
+
+304:
+E/A Fehler\n
+Task %.16s:\n
+E/A Fehler %!\n
+(Dateiname %.39s)\n
+\t\n
+
+321:
+Overlay Fehler\n
+Task %.16s:\n
+Module %.16s\n
+ist aktiv\n
+\t\n
+Ein Modul, das aktive Routinen oder\n
+Daten beinhaltet, kann nicht gelöscht\n
+werden. Instruktion -Lösche- entfernen\n
+oder an anderer Stelle im Programm\n
+verschieben.
+322:
+Overlay Fehler\n
+Task %.16s:\n
+RAPID Syntaxfehler in Datei\n
+%.39s\n
+\t\n
+Die zu ladende Datei beinhaltet\n
+RAPID Syntaxfehler. Datei korrigieren.\n
+Die Syntaxfehler sind in einer\n
+separaten Datei aufgezeichnet.
+323:
+Overlay Fehler\n
+Task %.16s:\n
+Syntaxfehler im Kopf von Datei\n
+%.39s\n
+\t\n
+Die zu ladende Datei beinhaltet\n
+RAPID Syntaxfehler im Kopf der Datei.\n
+Datei korrigieren.\n
+Die Syntaxfehler sind in einer\n
+separaten Datei aufgezeichnet.
+324:
+Overlay Fehler\n
+Task %.16s:\n
+Keywords nicht definiert in\n
+der spezifizierten Sprache (Datei\n
+%.39s)\n
+\t\n
+RAPID Source Code kann nicht in der\n
+spezifizierten nationalen Sprache\n
+geladen werden.
+325:
+Overlay Fehler\n
+Task %.16s:\n
+Nicht genug heap Speicher\n
+verfügbar\n
+\t\n
+Es steht nicht mehr genügend\n
+Speicher zur Verfügung.
+326:
+Overlay Fehler\n
+Task %.16s:\n
+Parser Stack voll (Datei\n
+%.39s)\n
+\t\n
+Das Programm ist zu komplex\n
+um geladen zu werden.
+327:
+Overlay Fehler\n
+Task %.16s:\n
+Nicht aktuelle RAPID Version\n
+(Datei %.39s)\n
+\t\n
+Der RAPID Source Code der im Kopf\n
+der Datei spezifizierten Version\n
+kann nicht geladen werden.
+351:
+Speicherzuordnung Fehler\n
+Task %.16s:\n
+Fehler bei Zuordnung der\n
+Verweistabelle.\n
+Benutze lineare Liste\n
+\t\n
+
+352:
+Speicherzuordnung Fehler\n
+Task %.16s:\n
+Fehler bei Aktualisierung von\n
+-Speich- Ausdruck.\n
+Verwende alte\n
+\t\n
+
+501:
+Timeout\n
+%s\n
+%s\n
+\t\n
+
+502:
+Digitaler Eingang Abbruch\n
+%s\n
+%s\n
+\t\n
+
+503:
+Referenz Fehler\n
+Einheit Beschreibung ist\n
+%s\n
+\t\n
+
+504:
+Parameter Fehler\n
+%s\n
+\t\n
+%s
+505:
+Datei Zugriff Fehler\n
+%s\n
+\t\n
+
+506:
+System Zugriff Fehler\n
+%s\n
+\t\n
+
+507:
+Begrenzung Fehler\n
+%s\n
+\t\n
+
+508:
+Falscher Wert Orient.\n
+in %s.\n
+\t\n
+
+509:
+Suchen Warnung\n
+%s.\n
+Vor dem nächsten Suchen den TCP zurück\n
+zur Startpos. der Suchstrecke bewegen.\n
+\t\n
+Wird keine neue Positionierung vor dem\n
+Neustart einer -SearchC- Instruktion\n
+durchgeführt, können nachfolgende\n
+Bewegungen zu Schäden führen.
+510:
+Sicherheit Warnung\n
+Die Bewegung Instruktion kann nicht\n
+gestartet werden.\n
+ProgrammZeiger setzen.\n
+\t\n
+
+511:
+Parameter Fehler\n
+Der Parameter %s in %s\n
+ist als ein negativer Wert spezifiziert.\n
+\t\n
+Der Parameter muß auf positiv gesetzt\n
+werden.
+512:
+Fehlender Wert ext. Achse\n
+Einige externe Achsen haben falsche\n
+oder keine Werte.\n
+Position neu programmieren.\n
+\t\n
+
+513:
+Mech. Einheit Fehler\n
+Mechanische Einheit kann nicht\n
+aktiviert oder deaktiviert werden.\n
+\t\n
+
+514:
+Abarbeitung Fehler\n
+Zu weit von der Bahn entfernt, um\n
+StartMove der unterbrochenen\n
+Positionierung auszuführen.\n
+\t\n
+Manipulator zur Stelle der unter-\n
+brochenen Positionierung bewegen.
+515:
+Typ Fehler\n
+Task %.16s:\n
+Illegaler Datentyp für das\n
+Argument des Parameters %s.\n
+\t\n
+
+516:
+Wert Fehler\n
+Task %s:\n
+Illegaler Wert für das\n
+Argument des Parameters %s.\n
+\t\n
+
+517:
+Suchen Fehler\n
+%s\n
+Kein Suchresultat oder mehr als\n
+1 Resultat während der schrittweisen\n
+Abarbeitung. Instruktion ist fertig und\n
+nächste kann abgearbeitet werden.\n
+\t\n
+Beachten, daß keine Position von der\n
+Suchen Instruktion zurückgegeben\n
+wurde.
+518:
+Typ Fehler\n
+%s\n
+%s\n
+\t\n
+%s
+600:
+Argument Fehler\n
+Kein \WObj definiert für Bewegungen\n
+mit stationärem TCP.\n
+\t\n
+Argument \WObj für aktuelles\n
+Werkobjekt hinzufügen.\n
+Bei Bewegungen ohne stationären TCP,\n
+Argument -tool- ändern auf\n
+"robhold = TRUE".
+601:
+Argument Fehler\n
+Undefiniert wenn der Roboter das\n
+Werkzeug oder das WerkObjekt hält.\n
+\t\n
+Argument -tool- und -\WObj- der Daten-\n
+komponente -robhold- kontrollieren.
+602:
+Argument Fehler\n
+Argument %s hat\n
+mindestens eine Datenkomponente\n
+mit negativem Wert.\n
+\t\n
+Alle Datenkomponenten im Argument\n
+%s\n
+auf positiven Wert setzen.
+603:
+Argument Fehler\n
+Argument %s hat\n
+unzulässigen negativen Wert.\n
+\t\n
+Argument %s\n
+auf positiven Wert setzen.
+604:
+Argument Fehler\n
+Argument -tool- hat undefinierte\n
+Last des Werkzeugs (tool).\n
+\t\n
+Aktuelle Last des Werkzeugs definieren,\n
+bevor es zum Bewegen oder im Programm\n
+verwendet wird.
+605:
+Argument Fehler\n
+Argument -tool- hat negative\n
+Last des Werkzeugs (tool).\n
+\t\n
+Korrekte Last des Werkzeugs definieren,\n
+bevor es zum Bewegen oder im Programm\n
+verwendet wird.
+606:
+Argument Fehler\n
+Argument -tool- hat mindestens eine\n
+Komponente des Drehmoments mit\n
+negativem Wert.\n
+\t\n
+Alle Komponente des Drehmoments\n
+(ix, iy und iz) mit positiven Werten\n
+definieren.
+607:
+Abarbeitung Fehler\n
+Änderung des Abarbeitungsmodus von\n
+-Vorwärts- nach -Rückwärts- oder umge-\n
+kehrt bei Bogenbewegung unzulässig.\n
+\t\n
+Wenn möglich, ursprünglichen Modus\n
+wählen und Start der unterbrochenen\n
+Bogenbewegung.\n
+Wenn nicht möglich, Manipulator und\n
+ProgrammZeiger für neuen Start bewegen.
+608:
+Argument Fehler\n
+Fehler Orientierungsdefinition\n
+in %s.\n
+\t\n
+Alle verwendeten Orientierungen müssen\n
+normalisiert sein, d.h. die Summe des\n
+Quadrates der Quarternionen-Elemente\n
+muß gleich 1 sein.
+609:
+Argument Fehler\n
+Argument \WObj spezifiziert eine\n
+mechanische Einheit mit einem zu\n
+langen Namen.\n
+\t\n
+Max. 16 Zeichen zur Spezifikation\n
+des Namens der mechanischen Einheit\n
+verwenden.
+610:
+Argument Fehler\n
+Argument \WObj spezifiziert eine\n
+mechanische Einheit, die nicht\n
+aktiviert oder im System unbekannt ist.\n
+\t\n
+Der Name der mechanischen Einheit in\n
+\WObj muß dem Namen entsprechen, der\n
+früher in den Systemparametern definiert\n
+wurde und die Einheit muß aktiv sein.
+611:
+Abarbeitung Fehler\n
+Rückwärts Abarbeitung mit aktueller\n
+Instruktion unzulässig.\n
+\t\n
+Rückwärts Abarbeitung in Bogenbewegung\n
+unzulässig, wenn der Endpunkt der Bogen-\n
+bewegung mit einem anderen Werkzeug\n
+und/oder WerkObjekt definiert ist.
+612:
+Argument Fehler\n
+Kein Argument für den Namen des\n
+Ausgangssignals programmiert.\n
+\t\n
+Während der Bewegung kann ein raum-\n
+fester Ausgang, wie z.B. digitaler\n
+Ausgang, Gruppe von digitalen oder\n
+analogen Signal gesetzt werden.
+613:
+Argument Fehler\n
+Zusätzliches Argument %s\n
+kann nur kombiniert werden mit\n
+Ausgangssignal Argument %s.\n
+\t\n
+
+614:
+Argument Fehler\n
+Argument %s\n
+ist nicht 0 oder 1.\n
+\t\n
+Digitale Ausgangssignale können nur\n
+auf 0 oder 1 gesetzt werden.
+615:
+Argument Fehler\n
+Argument %s\n
+ist kein integer Wert.\n
+\t\n
+Digitale Gruppen von Ausgangssignalen\n
+können nur einen integer Wert haben.
+616:
+Argument Fehler\n
+Argument %s\n
+ist außerhalb der zulässigen Grenzen.\n
+\t\n
+Verwendete Gruppen von Ausgangssignalen\n
+können nur entsprechend der Konfi-\n
+guration in den Systemparametern auf\n
+Werte zwischen 0 und %s gesetzt werden.
+617:
+Argument Fehler\n
+Argument %s\n
+ist außerhalb der zulässigen Grenzen.\n
+\t\n
+Verwendete analoge Ausgangssignale\n
+können nur entsprechend der\n
+Konfiguration in den Systemparametern\n
+auf Werte zwischen %s und %s\n
+gesetzt werden.
+618:
+Argument Fehler\n
+Argument %s\n
+beinhaltet unzulässige Interruptnummer.\n
+\t\n
+Eingang Interruptnummer ist unzulässig,\n
+da sie nicht mit VERBINDE Instruktion\n
+zugewiesen wurde.\n
+VERBINDE verbindet die Interruptnummer\n
+mit der Interrupt Routine.
+619:
+Argument Fehler\n
+Argument %s\n
+beinhaltet eine Interruptnummer,\n
+die bereits für einen anderen Zweck\n
+verwendet wird.\n
+\t\n
+Vor der erneuten Verwendung einer\n
+Interrupt Variablen im Programm,\n
+alte Interrupt Erzeugung und -nummer\n
+mit Instruktion -ILösche- abbrechen.
+622:
+Argument Fehler\n
+Der Wert des Argument Zeit in -ITimer-\n
+ist zu klein für zyklische Interrupts.\n
+\t\n
+
+623:
+Argument Fehler\n
+Der Wert des Argument Zeit in -ITimer-\n
+ist zu klein für einmalige Interrupts.\n
+\t\n
+
+631:
+Instruktion Fehler\n
+Zu viele Bewegung-Instruktionen in\n
+Folge mit gleichzeitiger Abarbeitung\n
+eines RAPID Programms.\n
+\t\n
+Programm verändern auf max. 5\n
+MoveX \Conc Instruktionen in Folge,\n
+in der Basis Abarbeitungsebene des\n
+Programms.
+632:
+Instruktion Fehler\n
+Keine Bewegung Instruktionen in Folge\n
+mit gleichzeitiger Abarbeitung eines\n
+RAPID Programms zulässig in einem\n
+-StorePath-RestoPath-Teil des Programms.\n
+\t\n
+Programm verändern, so daß sich keine\n
+5 MoveX \Conc Instruktionen in Folge im\n
+-StorePath-RestoPath-Teil des\n
+Programmes befinden.
+633:
+Referenz Fehler\n
+Triggerparameter Nr. %s bezieht sich\n
+auf undefinierte Triggerdaten.\n
+\t\n
+Triggerdaten durch Abarbeitung von\n
+Instruktion TriggEA, TriggInt,\n
+TriggEquip oder TriggSpeed\n
+definieren bevor TriggL, TriggC\n
+oder TriggJ verwendet wird.
+634:
+Referenz Fehler\n
+Signalreferenz in Parameter %s\n
+beinhaltet unbekanntes Signal für\n
+den Roboter.\n
+\t\n
+Alle Signale sollten in den System-\n
+parametern definiert sein und nicht\n
+in einem RAPID Programm definiert\n
+werden.
+635:
+Referenz Fehler\n
+Argumentreferenz im Parameter %s\n
+ist keine vollständige speichernde\n
+Variable.\n
+\t\n
+Es ist nicht möglich Recordkomponenten\n
+oder Datenfeldelemente im Argument %s\n
+zu verwenden. Nur vollständige speich.\n
+Variablen für Tool, WObj oder Load\n
+in Bewegungsinstruktionen verwenden.
+636:
+Sensor Fehler\n
+Keine Messung vom Sensor.\n
+\t\n
+Die angeforderten Daten sind nicht\n
+verfügbar.
+637:
+Sensor Fehler\n
+Noch nicht fertig.\n
+\t\n
+Die angeforderte Funktion ist noch\n
+nicht fertig.
+638:
+Sensor Fehler\n
+Allgemeiner Fehler.\n
+\t\n
+Es ist ein allgemeiner Fehler aufge-\n
+treten, der nicht mit der angeforderten\n
+Aktion speziell verbunden ist.\n
+Den Block "Fehler log" lesen, wenn die\n
+Funktion verfügbar ist.
+639:
+Sensor Fehler\n
+Sensor beschäftigt, später nochmal\n
+versuchen.\n
+\t\n
+Der Sensor ist mit einer anderen\n
+Funktion beschäftigt.
+640:
+Sensor Fehler\n
+Unbekannter Befehl.\n
+\t\n
+Die vom Sensor angeforderte Funktion\n
+ist unbekannt.
+641:
+Sensor Fehler\n
+Illegale Variable oder Blocknummer.\n
+\t\n
+Angeforderte Variable oder Blocknummer\n
+ist im Sensor nicht definiert.
+642:
+Sensor Fehler\n
+Externer Alarm.\n
+\t\n
+Alarm von einer externen Einrichtung.
+643:
+Sensor Fehler\n
+Kameraalarm.\n
+\t\n
+In der Kamera wurden einige Fehler\n
+festgestellt. Kammeratest durchführen\n
+um festzustellen, ob die Kamera OK ist.
+644:
+Sensor Fehler\n
+Temperaturalarm.\n
+\t\n
+Die Kamera ist zu warm und benötigt\n
+mehr Kühlluft oder Wasser.
+645:
+Sensor Fehler\n
+Wert außerhalb Bereich.\n
+\t\n
+Der Wert, der zum Sensor gesendeten\n
+Daten, ist außerhalb des Bereichs.
+646:
+Sensor Fehler\n
+Kamerakontrolle fehlgeschlagen.\n
+\t\n
+Die CAMCHECK Funktion ist fehl-\n
+geschlagen.\n
+Kamera ist beschädigt.\n
+Kamera zur Reparatur einschicken.
+647:
+Sensor Fehler\n
+Kommunikation Timeout.\n
+\t\n
+Zeit für Timeout vergrößern und die\n
+Verbindungen zum Sensor kontrollieren.
+648:
+Suchen Fehler\n
+Während eines Suchvorgangs auf\n
+der Standardbahnebene ist es\n
+nicht möglich, -StorePath- auszu-\n
+führen.\n
+\t\n
+In Programmen mit Roboterbewegungen\n
+in der Interruptroutine muß der\n
+Interrupt während Suchbewegungen\n
+deaktiviert sein,\n
+z.B. ISleep - SearchL - IWatch.
+649:
+Bahngrenze Fehler\n
+%s bereits ausgeführt.\n
+\t\n
+Instruktion %s muß erst\n
+abgearbeitet werden,\n
+bevor eine neue %s\n
+ausgeführt werden kann.
+650:
+Falsche Param Kombinat.\n
+Zusätzliche Parameter und -schalt-\n
+werden nicht in korrekter Kombination\n
+verwendet.\n
+\t\n
+Kein zusätzliche Parameter und kein\n
+-schalt- in alter korrekter Kombination.\n
+Schalt -Alt- hat die gleiche Funktion.\n
+RefPos oder RefNum muß mit\n
+Short, Fwd oder Bwd definiert werden.
+651:
+Verwende num. Eingabe\n
+Verwende numerischen Eingabe für\n
+die Position statt eines robtarget.\n
+\t\n
+Die Position kann mit einem robtarget\n
+für die Roboterachsen definiert werden.\n
+Verwende zusätzlichen Parameter für\n
+die numerischen Eingabe der Position.
+652:
+Achsenbewegung\n
+Eine Manipulatorachse, eine externe\n
+Achse oder eine unabhängige Achse\n
+bewegt sich.\n
+\t\n
+Alle Manipulatorachsen, externe Achsen,\n
+und unabhängige Achsen müssen\n
+stillstehen. Verwende Argument -fine-\n
+für Manipulator- und externe Achsen\n
+und IndRMove für unabhängige Achsen.
+653:
+-Schalt- fehlt\n
+Einer der -schalt- Parameter %s\n
+oder %s muß definiert sein.\n
+\t\n
+
+654:
+Achse ist nicht aktiv\n
+Die Achse ist nicht aktiv oder\n
+sie ist nicht definiert.\n
+\t\n
+Die mechanische Einheit muß aktiviert\n
+und die Achse definiert sein bevor\n
+diese Instruktion abgearbeitet und ein\n
+ -robtarget- gespeichert wird.
+655:
+Achse nicht unabhängig\n
+Die Achse befindet sich nicht im\n
+Modus -unabhängig-.\n
+\t\n
+Den Status einer Achse erhält man\n
+nur im Modus -unabhängig-.
+656:
+Abarbeitung Fehler\n
+Neuer Skalierungswert für\n
+AO Signal kann nicht gesetzt\n
+werden.\n
+\t\n
+Der interne Prozeß, der den Ausgang\n
+des AO Signals steuert, arbeitet aus\n
+unbekannten Gründen nicht mehr.
+657:
+Abarbeitung Fehler\n
+Der Ausgang des AO Signals ist\n
+nicht mehr proportional zur\n
+TCP-Geschwindigkeit.\n
+Die Ursache kann sein:\n
+\t\n
+- Verwendung von MoveX zwischen TriggX\n
+- Kein Setup von TriggSpeed in der ver-\n
+  wendeten TriggX Instruktion\n
+- Verwendeter ScaleLag ist zu schmal\n
+  in Relation zum akt. Robot Servo Lag.
+658:
+Parameter Fehler\n
+Parameter %s\n
+kann nur verwendet werden, wenn\n
+Parameter %s\n
+größer als Null ist.\n
+\t\n
+Parameter %s\n
+hat nur einen Einfluß, wenn die erste\n
+TriggX, in einer Folge von weiteren\n
+TriggX, das geschw. proportionale\n
+AO Signal kontrolliert.
+659:
+Undefined load\n
+WARNING: Argument %.16s has\n
+undefined load (mass equal to 0 kg).\n
+IMPORTANT TO DEFINE CORRECT LOAD to\n
+avoid mechanical damages of the robot\n
+and to get good motion performance.\n
+\t\n
+Define the actual load for the tool\n
+or the grip load before program\n
+movement or jogging.
+660:
+Undefined load\n
+WARNING: Argument %.16s has\n
+undefined load centre of gravity.\n
+IMPORTANT TO DEFINE CORRECT LOAD to\n
+avoid mechanical damages of the robot\n
+and to get good motion performance.\n
+\t\n
+Define the actual centre of gravity\n
+for the tool load or the grip load\n
+before program movement or jogging\n
+(cog.x, cog.y and cog.z can not be\n
+0 mm at the same time).
+670:
+Execution error\n
+Not allowed to change run mode\n
+from forward to backward or vice versa\n
+during running a invisible trap routine.\n
+\t\n
+If possible, select the original run\n
+mode and press start to continue the\n
+If not possible, move robot and\n
+program pointer for a new start.
+700:
+Syntaxfehler\n
+Task %s:\n
+Syntaxfehler\n
+%s\n
+\t\n
+
+701:
+Programmspeicher voll\n
+Die Task %s hat nur\n
+%i freie Bytes im\n
+Anwenderspeicher.\n
+\t\n
+Einige Module entfernen\n
+und erneut versuchen.
+702:
+Datei nicht gefunden\n
+%s\n
+Der Dateipfad oder der Dateiname\n
+ist falsch oder die Datei ist nicht\n
+vorhanden.\n
+\n
+
+703:
+Load Fehler\n
+%s\n
+Das Programm Modul konnte nicht\n
+geladen werden.\n
+\t\n
+Das Programm Modul hat einige Fehler.
+704:
+UnLoad Fehler\n
+%s\n
+Programm Modul konnte nicht gelöscht\n
+werden.Die Ursache kann sein:\n
+- Module nicht geladen mit Instr. Load\n
+- Nicht gleicher Dateipfad wie für Load\n
+\t\n
+Programm Modul muß mit der Instruktion\n
+Load geladen sein.\n
+Der Dateipfad und Name muß gleich sein\n
+für die Instruktionen UnLoad und Load.
+705:
+Syntaxfehler\n
+Task %s:\n
+Syntaxfehler\n
+%s\n
+\t\n
+Es folgen noch weitere Syntaxfehler.
+706:
+Load Fehler\n
+Das Programm Modul ist bereits\n
+geladen.\n
+\t\n
+Der Modulname im Kopf der Datei\n
+%s\n
+ist im Programmspeicher bereits\n
+vorhanden.
+712:
+Event routine error\n
+Task %s: Too many event routines\n
+the routine %s, will not be\n
+executed. Maximum 4 routines\n
+could be specified for each event\n
+\t\n
+Encapslulate the routine in one of\n
+the others that are specified for\n
+the save event.

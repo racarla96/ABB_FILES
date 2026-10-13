@@ -1,0 +1,1999 @@
+24::
+0:
+Programma
+1:
+Argumentfout\n
+Taak %s: Dezelfde optionele\n
+parameter komt meer dan eens voor\n
+\t\n
+Controleer of dezelfde optionele\n
+parameter in dezelfde routine-\n
+aanroep niet meer dan eens werd\n
+gespecificeerd.
+2:
+Argumentfout\n
+Taak %s: Uitsluitende\n
+argumenten moeten een voorwaardelijke\n
+waarde hebben\n
+\t\n
+Argumenten mogen niet worden\n
+gespecificeerd voor meer dan een\n
+parameter uit een lijst parameters die\n
+elkaar uitsluiten, tenzij alle waarden\n
+voorwaardelijke argumentwaarden zijn.
+3:
+Argumentfout\n
+Taak %s: Het vereiste\n
+argument wordt verwacht\n
+\t\n
+Controleer of de argumenten in dezelfde\n
+volgorde gespecificeerd zijn als de\n
+parameters voor de aangeroepen routine.
+4:
+Argumentfout\n
+Taak %s:  Argument voor REF\n
+parameter is geen datareferentie\n
+\t\n
+Zorg ervoor dat de argument expressie\n
+alleen een data of een parameter\n
+referentie is.
+5:
+Argumentfout\n
+Taak %s: Argument voor\n
+'INOUT' parameter is geen variabele of\n
+de persistente referentie kan read-only\n
+zijn\n
+\t\n
+Zorg ervoor dat de argument expressie\n
+alleen een variabele, persistent,\n
+variabele parameter of een persistente\n
+parameter is. De variabele of\n
+persistent mag niet read-only zijn.
+6:
+Argumentfout\n
+Taak %s:  Optionele\n
+argument waarde ontbreekt.\n
+\t\n
+Alleen 'switch' parameters mogen\n
+alleen bij naam gespecificeerd worden.\n
+Aan optionele parameters van andere\n
+types moet een waarde toegekend\n
+worden. Voeg een waarde toe.
+7:
+Argument fout\n
+Taak %s: Optioneel argument\n
+op de verkeerde plaats in de\n
+argumentenlijst.\n
+\t\n
+Controleer of de argumenten in de\n
+zelfde volgorde gespecificeerd zijn als\n
+de parameters van de aangeroepen\n
+routine.
+8:
+Argumentfout\n
+Taak %s: Verwijzing naar\n
+een optionele parameter in een vereist\n
+argument\n
+\t\n
+Een argument dat overeenkomt met een\n
+vereiste parameter moet worden\n
+gespecificeerd door het voorafgaande\n
+'\'-teken. Verander het vereiste\n
+argument in een optioneel argument.
+9:
+Argumentfout\n
+Taak %s: Referentie naar\n
+vereiste parameter in conditionele\n
+argument waarde.\n
+\t\n
+Een conditionele waarde voor een\n
+optionele parameter moet refereren naar\n
+een optionele parameter in de\n
+aanroepende routine. Verander de\n
+conditionele waarde.
+10:
+Taak %s: Verwijzing naar\n
+een vereiste parameter in een optioneel\n
+argument\n
+\t\n
+Een argument dat overeenkomt met een\n
+vereiste parameter moet worden\n
+gespecificeerd door het voorafgaande\n
+'\'-teken. Verander het optionele\n
+argument in een vereist argument.
+11:
+Argumentfout\n
+Taak %s: Benoemd vereist\n
+argument op de verkeerde positie in\n
+de argumenten lijst.\n
+\t\n
+Controleer of de argumenten in dezelfde\n
+volgorde gespecificeerd zijn als de\n
+parameters van de aangeroepen routine.
+12:
+Argumentfout\n
+Taak %s: 'switch' argument\n
+kan geen waarde bevatten.\n
+\t\n
+Aan een argument dat overeenkomt met\n
+een 'switch' parameter mag geen gwaarde\n
+toegekend zijn. Verwijder de waarde.
+13:
+Argumentfout\n
+Taak %s: Te weinig\n
+argumenten  in de routine aanroep.\n
+\t\n
+Een routineaanroep moet waarden geven\n
+aan alle vereiste parameters van de\n
+aangeroepen routine. Voeg argumenten\n
+toe totdat de parameterlijst\n
+overeenkomt.
+14:
+Argumentfout\n
+Taak %s: Te veel\n
+argumenten  in de routine aanroep.\n
+\t\n
+Verwijder argumenten totdat het data\n
+aantal argumenten overeenkomt met dat\n
+van de parameter lijst van de\n
+aangeroepen routine.
+15:
+Datadeclaratiefout\n
+Taak %s: Array-dimensie\n
+moet > 0 zijn\n
+\t\n
+Array-dimensies moeten positief zijn.\n
+Verander de dimensie-expressie.
+16:
+Datadeclaratiefout\n
+Taak %s: Te veel\n
+dimensies in de array-definitie\n
+\t\n
+Een array mag ten hoogste 3 dimensies\n
+hebben. Herschrijf het programma\n
+zodanig dat niet meer dan 3 dimensies\n
+nodig zijn.
+17:
+Typefout\n
+Taak %s: De geindexeerde\n
+data zijn niet van het array-type\n
+\t\n
+Alleen data die als arrays worden\n
+gedeclareerd mogen geindexeerd worden.\n
+Verwijder de index of indexen, of\n
+declareer de data als een array.
+18:
+Typefout\n
+Taak %s: De data zijn\n
+ niet van het record-type\n
+\t\n
+Er zijn alleen componenten beschikbaar\n
+voor data van het record-type.\n
+Controleer het type en de naam van\n
+de referentiedata.
+19:
+Limietfout\n
+Taak %s: Fout bij het\n
+aanmaken van sdb invoer\n
+\t\n
+Er is een fout opgetreden bij het\n
+invoegen van de persistente in het\n
+gemeenschappelijke databestand.\n
+Waarschijnlijk is het databestand\n
+vol.
+20:
+Datadeclaratiefout\n
+Taak %s: Expressie\n
+is geen constante expressie\n
+\t\n
+Expressies in datadeclaraties moeten\n
+constante expressies zijn. Zorg ervoor\n
+dat de expressie geen enkele variabele\n
+noch een persistente verwijzing noch\n
+een functie-aanroep bevat.
+21:
+Instructiefout\n
+Taak %s: RETURN-instructie\n
+ in een functie moet een expressie\n
+ hebben\n
+\t\n
+Een RETURN-instructie binnen een\n
+functie moet een functiewaarde bevatten\n
+die moet worden geretourneerd.\n
+Voeg een waarde-expressie toe.
+22:
+Typefout\n
+Taak %s: Ongeldige combinatie\n
+van operandtypes voor '*'-operator\n
+\t\n
+De toegelaten combinatie types voor de\n
+twee operanden van de '*'-operator zijn\n
+'num'*'num', 'num'*'pos', 'pos'*'num',\n
+'pos'*'pos' en 'orient'*'orient'.\n
+Controleer het type van de operanden.
+23:
+Instructiefout\n
+Taak %s: Kan de\n
+besturing naar een andere\n
+ instructielijst niet overdragen\n
+\t\n
+Zorg ervoor dat het label in dezelfde\n
+instructielijst zit als de GOTO-\n
+instructie, op hetzelfde of een extern\n
+niveau. Het is onmogelijk om naar een\n
+programma-flow-instructie te springen.
+24:
+Typefout\n
+Taak %s: Ongeldig type\n
+voor linker operand van binaire '+' of\n
+ '-'-operator\n
+\t\n
+De toegelaten types voor de operanden\n
+van de '+'-operator zijn 'num', 'pos'\n
+en 'string', voor de '-'-operator 'num'\n
+en 'pos'. Controleer het operandtype.
+25:
+Typefout\n
+Taak %s: Ongeldig type\n
+voor de operand van monadische operator\n
+'+' of '-'-operator\n
+\t\n
+De toegelaten types voor de operanden\n
+van de '+' en '-'-operators zijn 'num'\n
+en 'pos'. Controleer het operandtype.
+26:
+Typefout\n
+Taak %s: Ongeldig type\n
+voor de rechter operand van binaire\n
+'+' or '-'-operator\n
+\t\n
+De toegelaten types voor de operanden\n
+van de '+'-operator zijn 'num', 'pos'\n
+en 'string', voor de '-'-operator 'num'\n
+en 'pos'. Controleer het operandtype.
+27:
+Typefout\n
+Taak %s: Ongeldig type\n
+voor de linker operand van '/', 'DIV'\n
+of 'MOD'-operator\n
+\t\n
+Het enige toegelaten type voor de\n
+operanden van de '/', 'DIV' en\n
+'MOD'-operatoren is 'num'. Controleer\n
+het operandtype.
+28:
+Typefout\n
+Taak %s: Ongeldig type\n
+voor de rechter operand van '/', 'DIV'\n
+of 'MOD'-operator\n
+\t\n
+Het enige toegelaten type voor de\n
+operanden van de '/', 'DIV' en\n
+'MOD'-operatoren is 'num'. Controleer\n
+het operandtype.
+29:
+Typefout\n
+Taak %s: Ongeldig type\n
+voor de linker operand van '<', '<=',\n
+'>' or '>='-operator\n
+\t\n
+Het enige toegelaten type voor de\n
+operanden van de '<', '<=', '>' en\n
+'>='-operatoren is 'num'. Controleer\n
+het operandtype.
+30:
+Typefout\n
+Taak %s: Ongeldig type\n
+voor de rechter operand van '<', '<=',\n
+'>' or '>='-operator\n
+\t\n
+Het enige toegelaten type voor de\n
+operanden van de '<', '<=', '>' en\n
+'>='-operatoren is 'num'. Controleer\n
+het operandtype.
+31:
+Typefout\n
+Taak %s: Ongeldig type\n
+voor de linker operand van '*' operator\n
+\t\n
+De toegelaten types voor de operanden\n
+van de '*'-operator zijn 'num', 'pos'\n
+en 'orient'. Controleer het\n
+operandtype.
+32:
+Typefout\n
+Taak %s: Ongeldig type\n
+voor de rechter operand van '*'\n
+operator\n
+\t\n
+De toegelaten types voor de operanden\n
+van de '*'-operator zijn 'num', 'pos'\n
+en 'orient'. Controleer het\n
+operandtype.
+33:
+Typefout\n
+Taak %s: Ongeldig type\n
+voor de operand van 'NOT'- operator\n
+\t\n
+Het enige toegelaten type voor de\n
+operand van de 'NOT'-operator is\n
+'bool'. Controleer het operandtype.
+34:
+Typefout\n
+Taak %s: Ongeldig type\n
+voor de linker operand van 'OR', 'XOR'\n
+of 'AND'-operator\n
+\t\n
+Het enige toegelaten type voor de\n
+operanden van de 'OR', 'XOR' en\n
+'AND'-operator is 'bool'. Controleer\n
+het operandtype.
+35:
+Typefout\n
+Taak %s: Ongeldig type\n
+voor de linker operand van 'OR', 'XOR'\n
+of 'AND'-operator\n
+\t\n
+Het enige toegelaten type voor de\n
+operanden van de 'OR', 'XOR' en\n
+'AND'-operator is 'bool'. Controleer\n
+het operandtype.
+36:
+Typefout\n
+Taak %s: Foutief aantal\n
+indexen in de indexlijst\n
+\t\n
+Zorg ervoor dat het aantal indexen in\n
+de indexlijst hetzelfde is als het\n
+aantal dimensies van het geindexeerd\n
+data-array.
+37:
+Datadeclaratiefout\n
+Taak %s: LOCAL ongeldig\n
+in de declaratie van routineconstante\n
+\t\n
+Alleen declaraties van programmadata\n
+mogen het LOCAL-attribuut hebben.\n
+Verwijder het LOCAL- attribuut of\n
+verplaats de declaratie buiten de\n
+routine.
+38:
+Datadeclaratiefout\n
+Taak %s: LOCAL ongeldig\n
+in de declaratie van routinevariabele\n
+\t\n
+Alleen declaraties van programmadata\n
+mogen het LOCAL-attribuut hebben.\n
+Verwijder het LOCAL-attribuut of\n
+verplaats de declaratie buiten de\n
+routine.
+39:
+Benamingsfout\n
+Taak %s: Duplicaatnaam\n
+van een constante\n
+\t\n
+Routinedata moeten een naam hebben\n
+die uniek is binnen de routine.\n
+Programmadata moeten een naam hebben\n
+die uniek is binnen de module.\n
+Wijzig de duplicate benaming.
+40:
+Benamingsfout\n
+Taak %s: Duplicaatnaam\n
+van een globale constante\n
+\t\n
+Globale data moeten namen hebben\n
+die uniek zijn tussen alle globale\n
+data, globale routines en modules in\n
+het gehele applicatieprogramma\n
+Wijzig de duplicate benaming.
+41:
+Benamingsfout\n
+Taak %s: Duplicaatnaam\n
+van een globale persistente\n
+\t\n
+Globale data moeten namen hebben\n
+die uniek zijn tussen alle globale\n
+data, globale routines en modules in\n
+het gehele applicatieprogramma.\n
+Wijzig de duplicate benaming.
+42:
+Benamingsfout\n
+Taak %s: Duplicaatnaam\n
+van een globale routine\n
+\t\n
+Globale routines moeten namen hebben\n
+die uniek zijn tussen alle globale\n
+data, globale routines en modules\n
+in het gehele applicatieprogramma.\n
+Wijzig de duplicate benaming.
+43:
+Benamingsfout\n
+Taak %s: Duplicaatnaam\n
+van een globale variabele\n
+\t\n
+Globale data moeten namen hebben\n
+die uniek zijn tussen alle globale\n
+data, globale routines en modules in\n
+het gehele applicatieprogramma.\n
+Wijzig de duplicate benaming.
+44:
+Benamingsfout\n
+Taak %s: Duplicaatnaam\n
+van een label\n
+\t\n
+Labels moeten namen hebben die\n
+uniek zijn binnen de routine. Wijzig de\n
+duplicate benaming.
+45:
+Benamingsfout\n
+Taak %s: Duplicaatnaam\n
+van een module\n
+\t\n
+Modules moeten namen hebben die\n
+uniek zijn tussen alle globale data,\n
+globale routines en modules in het\n
+gehele applicatieprogramma. Wijzig de\n
+duplicate benaming.
+46:
+Benamingsfout\n
+Taak %s: Duplicaatnaam\n
+van een parameter\n
+\t\n
+Parameters moeten namen hebben\n
+die uniek zijn binnen de routine.\n
+Wijzig de duplicate benaming.
+47:
+Benamingsfout\n
+Taak %s: Duplicaatnaam\n
+van een persistente\n
+\t\n
+Programmadata moeten  namen hebben\n
+die uniek zijn binnen de module.\n
+Wijzig de duplicate benaming.
+48:
+Benamingsfout\n
+Taak %s: Duplicaatnaam\n
+van een routine\n
+\t\n
+Routines moeten namen hebben die\n
+uniek zijn binnen de module. Wijzig de\n
+duplicate benaming.
+49:
+Benamingsfout\n
+Taak %s: Duplicaatnaam\n
+van een variabele\n
+\t\n
+Routinedata moeten namen hebben\n
+die uniek zijn binnen de routine.\n
+Programmadata moeten namen\n
+hebben die uniek zijn binnen de module.\n
+Wijzig de duplicate benaming.
+50:
+Typefout\n
+Taak %s: Operandtypes\n
+voor binaire '+' of '-' operator niet\n
+gelijk\n
+\t\n
+De twee operanden van de '+' en '-'\n
+operatoren moeten van hetzelfde type\n
+zijn. Controleer de operandtypes.
+51:
+Typefout\n
+Taak %s: Operandtypes\n
+voor '=' of '<>'-operator niet gelijk\n
+\t\n
+De twee operanden van de '=' en '<>'\n
+operatoren moeten van hetzelfde type\n
+zijn. Controleer de operandtypes.
+52:
+Instructiefout\n
+Taak %s: RETURN\n
+met expressie alleen toegelaten in\n
+een functie\n
+\t\n
+In een procedure of trap mag de\n
+RETURN-instructie geen return-waarde\n
+-expressie te bevatten. Verwijder de\n
+expressie.
+53:
+Instructiefout\n
+Taak %s: RAISE in\n
+foutafhandelaar mag geen expressie\n
+hebben\n
+\t\n
+Een RAISE-instructie binnen een fout-\n
+afhandelaar kan alleen worden gebruikt\n
+om de huidige fout aan te geven en mag\n
+daarom geen foutcode bevatten.\n
+verwijder de expressie van de foutcode.
+54:
+Typefout\n
+Taak %s: Verschillende\n
+dimensies van array-type en aggregaat\n
+\t\n
+Zorg ervoor dat het aantal expressies\n
+in het aggregaat hetzelfde is als de\n
+dimensie van het data-array.
+55:
+Typefout\n
+Taak %s: Het doel van\n
+de toekenning moet een numeriek of\n
+semi-numeriek type zijn.\n
+\t\n
+Het type data waaraan een waarde moet\n
+worden toegekend moet een (semi)numeriek\n
+type zijn. Alleen data die behoren tot\n
+niet-numerieke types mogen door speciale\n
+instructies of functies worden behandeld
+56:
+Typefout\n
+Taak %s: Type voor de\n
+linker operand van '=' of '<>' operator\n
+van het niet- numerieke of\n
+semi-numeriek type\n
+\t\n
+De '=' en '<>'-operatoren mogen alleen\n
+op expressies van het (semi)numerieke\n
+type worden toegepast. Voor het maken\n
+van vergelijkingen met niet-numerieke\n
+type zijn speciale functies nodig.
+57:
+Typefout\n
+Taak %s: Type voor de\n
+rechter operand van '=' of '<>'operator\n
+van het niet- numerieke of\n
+semi-numerieke type\n
+\t\n
+De '=' en '<>'-operatoren mogen alleen\n
+op expressies van het (semi)numerieke\n
+type worden toegepast. Voor het maken\n
+van vergelijkingen met niet-numerieke\n
+type zijn speciale functies nodig.
+58:
+Typefout\n
+Taak %s: TEST-expressie\n
+niet van het numerieke of\n
+semi-numerieke type\n
+\t\n
+De TEST-instructie mag alleen op\n
+expressies van het (semi)numerieke type\n
+worden toegepast. Voor het maken van\n
+vergelijkingen met niet-numerieke type\n
+zijn speciale functies nodig.
+59:
+Datadeclaratiefout\n
+Taak %s: Positiehouder\n
+voor de waarde-expressie is niet\n
+toegelaten in de definitie van de\n
+benoemde constante\n
+\t\n
+Vul de datadeclaratie aan of verander\n
+de datanaam in een positiehouder.
+60:
+Datadeclaratiefout\n
+Taak %s: Positiehouder\n
+voor array-dimensie is niet toegelaten\n
+in de definitie van de benoemde\n
+constante of variabele.\n
+\t\n
+Vul de datadeclaratie aan of verander\n
+de datanaam in een positiehouder.
+61:
+Routinedeclaratiefout\n
+Taak %s: Positiehouder\n
+voor de dimensies van het parameter-\n
+array niet toegelaten in de definitie\n
+van de benoemde routine\n
+\t\n
+Vul de parameterdeclaratie aan of\n
+verander de routinenaam in een\n
+positiehouder.
+62:
+Benamingsfout\n
+Taak %s: Positiehouder\n
+voor de parameternaam niet toegelaten\n
+in de definitie van de benoemde\n
+routine.\n
+\t\n
+Vul de routinedeclaratie aan of\n
+verander de routinenaam in een\n
+positiehouder.
+63:
+Datadeclaratiefout\n
+Taak %s: Positiehouder\n
+voor de expressie van de initiele\n
+waarde niet toegelaten in de definitie\n
+van de benoemde persistente\n
+\t\n
+Vul de datadeclaratie aan of verander\n
+de datanaam in een positiehouder.
+64:
+Routinedeclaratiefout\n
+Taak %s: Positiehouder\n
+voor de parameter niet toegelaten in\n
+de definitie van de benoemde routine.\n
+\t\n
+Vul de parameterdeclaratie aan,\n
+verwijder de positiehouder of verander\n
+de routinenaam in een positiehouder.
+65:
+Referentiefout\n
+Taak %s: Positiehouder\n
+voor het type niet toegelaten in de\n
+definitie van de benoemde data of\n
+routine\n
+\t\n
+Vul de data- of de routinedeclaratie\n
+aan of verander de naam van de data\n
+of de routine in een positiehouder.
+66:
+Datadeclaratiefout\n
+Taak %s: Positiehouder\n
+voor de expressie van de initiele\n
+waarde niet toegelaten in de definitie\n
+van de benoemde variabele\n
+\t\n
+Vul de datadeclaratie aan of verander\n
+de datanaam in een positiehouder.
+67:
+Typefout\n
+Taak %s: Te weinig\n
+componenten in een record-aggregaat\n
+\t\n
+Zorg ervoor dat het aantal expressies\n
+in het aggregaat hetzelfde is als het\n
+aantal componenten in het record-type.
+68:
+Typefout\n
+Taak %s: Te veel\n
+componenten in record-aggregaat\n
+\t\n
+Zorg ervoor dat het aantal expressies\n
+in het aggregaat hetzelfde is als het\n
+aantal componenten in het record-type.
+69:
+Referentiefout\n
+Taak %s: Duplicate\n
+datareferentie.\n
+\t\n
+Ten minste een ander object dat\n
+dezelfde naam heeft als de data\n
+waarnaar wordt verwezen, is zichtbaar\n
+vanuit deze programmapositie. Zorg\n
+ervoor dat alle objectnamen uniek zijn.
+70:
+Referentiefout\n
+Taak %s: Duplicate\n
+functiereferentie\n
+\t\n
+Ten minste een ander object met\n
+dezelfde naam als de functie waarnaar\n
+wordt verwezen, is zichtbaar vanuit\n
+deze programmapositie. Zorg ervoor\n
+dat alle objectnamen uniek zijn.
+71:
+Referentiefout\n
+Taak %s: Duplicate\n
+labelreferentie.\n
+\t\n
+Ten minste een ander object met\n
+dezelfde naam als het label waarnaar\n
+wordt verwezen, is zichtbaar vanuit\n
+deze programmapositie. Zorg ervoor\n
+dat alle objectnamen uniek zijn.
+72:
+Referentiefout\n
+Taak %s: Duplicate\n
+procedurereferentie.\n
+\t\n
+Ten minste een ander object met\n
+dezelfde naam als de procedure\n
+waarnaar wordt verwezen, is zichtbaar\n
+vanuit deze programmapositie. Zorg\n
+ervoor dat alle objectnamen uniek zijn.
+73:
+Referentiefout\n
+Taak %s: Duplicate\n
+trap-referentie.\n
+\t\n
+Ten minste een ander object met\n
+dezelfde naam als de trap waarnaar\n
+wordt verwezen, is zichtbaar vanuit\n
+deze programmapositie. Zorg ervoor\n
+dat alle objectnamen uniek zijn.
+74:
+Referentiefout\n
+Taak %s: Onvolledige\n
+datareferentie\n
+\t\n
+De gespecificeerde naam identificeert\n
+een ander object dan data. Controleer\n
+of de vereiste data verborgen wordt\n
+door een ander object met dezelfde\n
+naam.
+75:
+Referentiefout\n
+Taak %s: Geen\n
+functiereferentie\n
+\t\n
+De gespecificeerde naam identificeert\n
+een ander object dan een functie.\n
+Controleer of de vereiste functie\n
+verborgen wordt door een ander object\n
+met dezelfde naam.
+76:
+Referentiefout\n
+Taak %s: Geen\n
+labelreferentie\n
+\t\n
+De gespecificeerde naam identificeert\n
+een ander object dan een label.\n
+Controleer of het vereiste label\n
+verborgen wordt door een ander object\n
+met dezelfde naam.
+77:
+Referentiefout\n
+Taak %s: Geen\n
+referentie voor optionele parameter in\n
+de voorwaardelijke argumentwaarde\n
+\t\n
+De gespecificeerde naam identificeert\n
+een ander object dan een optionele\n
+parameter. Verander de naam zodat wel\n
+verwezen wordt naar een optionele\n
+parameter.
+78:
+Referentiefout\n
+Taak %s: Geen\n
+referentie voor optionele parameter\n
+\t\n
+De gespecificeerde naam identificeert\n
+een ander object dan een label.\n
+Controleer of het vereiste label\n
+verborgen wordt door een ander object\n
+met dezelfde naam.
+79:
+Referentiefout\n
+Taak %s: Geen\n
+procedurereferentie\n
+\t\n
+De gespecificeerde naam identificeert\n
+een ander object dan een procedure.\n
+Controleer of het vereiste label\n
+verborgen wordt door een ander object\n
+met dezelfde naam.
+80:
+Referentiefout\n
+Taak %s: Geen\n
+vereiste parameterreferentie\n
+\t\n
+De gespecificeerde naam identificeert\n
+een ander object dan een vereiste\n
+parameter. Verander de benaming zodat\n
+wel verwezen wordt naar een vereiste\n
+parameter.
+81:
+Referentiefout\n
+Taak %s: Geen\n
+trap-referentie\n
+\t\n
+De gespecificeerde naam identificeert\n
+een ander object dan een trap.\n
+Controleer of de vereiste trap\n
+verborgen wordt door een ander object\n
+met dezelfde naam.
+82:
+Referentiefout\n
+Taak %s: Geen typenaam\n
+\t\n
+De gespecificeerde naam identificeert\n
+een ander object dan een type.\n
+Controleer of het vereiste type\n
+verborgen wordt door een ander object\n
+met dezelfde naam.
+83:
+Typefout\n
+Taak %s: Niet-numeriek type\n
+\t\n
+Alleen variabelen die geen initiele\n
+waarde hebben, en 'VAR'-modusparameters\n
+mogen van het semi-numerieke of het\n
+niet-numerieke type zijn.
+84:
+Referentiefout\n
+Taak %s: Referentie\n
+naar onbekende volledige data\n
+\t\n
+Vanuit deze programmapositie zijn geen\n
+data (of andere objecten) met de\n
+gespecificeerde naam zichtbaar.
+85:
+Referentiefout\n
+Taak %s: Referentie\n
+naar een onbekende functie\n
+\t\n
+Vanuit deze programmapositie is geen\n
+functie (of een ander object) met de\n
+gespecificeerde naam zichtbaar.
+86:
+Referentiefout\n
+Taak %s: Referentie\n
+naar een onbekend label\n
+\t\n
+De routine bevat geen label (of een\n
+ander object) met de gespecificeerde\n
+naam.
+87:
+Referentiefout\n
+Taak %s: Referentie\n
+naar een onbekende optionele parameter\n
+\t\n
+De aangeroepen routine bevat geen\n
+optionele parameter (of een ander\n
+object) met de gespecificeerde naam.
+88:
+Referentiefout\n
+Taak %s: Referentie\n
+naar een onbekende procedure\n
+\t\n
+Vanuit deze programmapositie is geen\n
+procedure (of ander object) met de\n
+gespecificeerde naam zichtbaar.
+89:
+Referentiefout\n
+Taak %s: Referentie\n
+naar een onbekende record-component\n
+\t\n
+Het record-type bevat geen record-\n
+component met de gespecificeerde naam.
+90:
+Referentiefout\n
+Taak %s: Referentie\n
+naar een onbekende vereiste parameter\n
+\t\n
+De aangeroepen routine bevat geen\n
+vereiste parameter (of ander object)\n
+met de gespecificeerde naam.
+91:
+Referentiefout\n
+Taak %s: Referentie\n
+naar een onbekende trap\n
+\t\n
+Vanuit deze programmapositie is geen\n
+trap (of ander object) met de\n
+gespecificeerde naam zichtbaar.
+92:
+Referentiefout\n
+Taak %s: Onbekende\n
+typenaam\n
+\t\n
+Vanuit deze programmapositie is geen\n
+datatype (of ander object) met de\n
+gespecificeerde naam zichtbaar.
+93:
+Instructiefout\n
+Taak %s: Het\n
+toekenningsdoel is read-only\n
+\t\n
+De data waaraan een waarde moet worden\n
+toegekend, mogen geen constante, read\n
+only variabelen of read only\n
+persistente zijn.
+94:
+Datadeclaratiefout\n
+Taak %s: Declaratie\n
+van een persistent niet toegelaten in\n
+de routine\n
+\t\n
+Persistenten mogen enkel op\n
+moduleniveau worden gedeclareerd.\n
+Verwijder de persistente declaratie\n
+uit de routine.
+95:
+Instructiefout\n
+Taak %s: RAISE\n
+zonder expressie is alleen toegelaten\n
+in de foutenafhandelaar\n
+\t\n
+Voeg een foutnummerexpressie toe aan\n
+de RAISE-instructie.
+96:
+Instructiefout\n
+Taak %s: RETRY\n
+is alleen toegelaten in de\n
+foutenafhandelaar\n
+\t\n
+De RETRY-instructie mag alleen in de\n
+foutenafhandelaar worden gebruikt.\n
+Verwijder de RETRY-instructie.
+97:
+Instructie fout\n
+Taak %s: TRYNEXT\n
+alleen toegestaan in foutenafhandelaar\n
+\t\n
+De TRYNEXT instructiemag alleen\n
+gebruikt worden in foutenafhandelaars\n
+Verwijder het.
+98:
+Parameterfout\n
+Taak %s: 'switch'-parameter\n
+moet een overdrachtsmodus IN hebben\n
+\t\n
+Verwijder de beschrijving van de\n
+parameter-overdrachtsmodus. Indien\n
+de IN-overdrachtsmodus niet volstaat,\n
+verander het datatype van de\n
+parameter.
+99:
+Parameterfout\n
+Taak %s: 'switch'-parameter\n
+kan niet worden gedimensioneerd\n
+\t\n
+Verwijder de specificatie van de\n
+array-dimensie, of verander het\n
+datatype van de parameter.
+100:
+Parameterfout\n
+Taak %s: 'switch' alleen\n
+toegelaten als optionele parameter\n
+\t\n
+Verander de parameter in een optionele\n
+parameter, of verander het datatype\n
+van de parameter. Als het object geen\n
+parameter is, verander dan het data\n
+type.
+101:
+Typefout\n
+Taak %s: Onjuist type\n
+\t\n
+De expressie behoort niet tot het\n
+verwachtte datatype.
+102:
+Typefout\n
+Taak %s: Aggregaattype\n
+overeenkomst fout\n
+\t\n
+Het aggregaat komt niet overeen met\n
+het verwachtte datatype.
+103:
+Typefout\n
+Taak %s: Pesistenttype\n
+overeenkomst fout\n
+\t\n
+Er is reeds een persitente data met\n
+de zelfde naam maar met een ander\n
+datatype . Herbenoem de persistente\n
+of verander het data type.
+104:
+Datadeclaratiefout\n
+Taak %s: Kan de\n
+array-dimensies niet bepalen\n
+(circulaire constante referenties?)\n
+\t\n
+Controleer of constanten, waarnaar\n
+wordt verwezen, juist gespecificeerd\n
+zijn. Indien ja, is het programma te\n
+complex. Probeer de declaraties te\n
+herschrijven.
+105:
+Datadeclaratiefout\n
+Taak %s: Kan het\n
+type van de constantewaarde niet\n
+bepalen. (circulaire constante\n
+referenties?)\n
+\t\n
+Controleer of constanten, waarnaar\n
+wordt verwezen, juist gespecificeerd\n
+zijn. Indien ja, is het programma te\n
+complex. Probeer de declaraties te\n
+herschrijven.
+106:
+Datadeclaratiefout\n
+Taak %s: Kan de\n
+expressie van de waarde van de\n
+constante niet evalueren (circulaire\n
+constante referenties?)\n
+\t\n
+Controleer of constanten, waarnaar\n
+wordt verwezen, juist gespecificeerd\n
+zijn. Indien ja, is het programma te\n
+complex. Probeer de declaraties te\n
+herschrijven.
+107:
+Datadeclaratiefout\n
+Taak %s: Kan het\n
+type van de waarde van de variabele\n
+niet bepalen (circulaire constante\n
+referenties?)\n
+\t\n
+Controleer of constanten, waarnaar\n
+wordt verwezen, juist gespecificeerd\n
+zijn. Indien ja, is het programma te\n
+complex. Probeer de declaraties te\n
+herschrijven.
+108:
+Type Fout\n
+Taak %s: Onbekend aggregaat\n
+type\n
+\t\n
+Een aggregaat mag niet op deze positie\n
+gebruikt worden omdat er geen verwacht\n
+data type is. Declareer data van het\n
+gewenste type en aggregaat waarde.\n
+Gebruik de datanaam i.p.v. het aggregaat
+121:
+Argumentfout\n
+Taak %s: Argument\n
+voor 'PERS'-parameter is geen\n
+volledige persistente referentie\n
+of is read only\n
+\t\n
+Zorg ervoor dat de argumentexpressie\n
+een gehele persistente of een gehele\n
+persistente parameterreferentie is. De\n
+persistente mag niet read only zijn.
+122:
+Argumentfout\n
+Taak %s: Argument\n
+voor 'VAR'-parameter is geen\n
+variabelereferentie of is read only\n
+\t\n
+Zorg ervoor dat de argumentexpressie\n
+een variabele of een variabele\n
+parameterreferentie is. De variabele\n
+mag niet read-only zijn.
+123:
+Instructiefout\n
+Taak %s: Interrupt nummer\n
+is geen statische variable referentie\n
+of is read only\n
+\t\n
+Zorg ervoor dat het interrupt nummer\n
+alleen een variabele of een variabele\n
+parameter referentie is. De variabele\n
+moet statisch zijn en mag niet read\n
+only zijn.
+124:
+Waardefout\n
+Taak %s: Integer\n
+waarde te hoog\n
+\t\n
+De waarde van de expressie moet een\n
+integer waarde zijn. De huidige waarde\n
+valt buiten het integer bereik.
+125:
+Waardefout\n
+Taak %s: Geen\n
+integer waarde\n
+\t\n
+De waarde van de expressie moet een\n
+exacte integer getal zijn. Het huidige\n
+getal bevat decimalen.
+141:
+Argumentfout\n
+Taak %s: Duplicaat\n
+huidig contioneel argument\n
+\t\n
+Meer dan een huidig conditioneel\n
+argument voor dezelfde parameter
+142:
+Waardefout\n
+Taak %s: Deling door nul\n
+\t\n
+Kan niet delen door 0. Herschrijf het\n
+programma zodat de deelbewerking niet\n
+wordt uitgevoerd wanneer de deler 0 is.
+143:
+Limietfout\n
+Taak %s: Het maximum\n
+aantal toegelaten RETRY's is\n
+overschreden.\n
+\t\n
+De foutcorrectie die wordt uitgevoerd\n
+voor de RETRY-instructie, is\n
+waarschijnlijk niet voldoende om de\n
+fout te verhelpen. Controleer de\n
+foutenafhandelaar.
+144:
+Instructiefout\n
+Taak %s: Poging\n
+om een positiehouder uit te voeren\n
+\t\n
+Verwijder de positiehouder of de\n
+instructie die deze houder bevat, of\n
+vul de instructie aan. Ga daarna verder\n
+met de programma afloop.
+145:
+Limietfout\n
+Taak %s: Overloop\n
+van de afloopstapel\n
+\t\n
+Het programma is te complex om te\n
+worden uitgevoerd. Waarschijnlijk\n
+bevat het programma recursieve\n
+routines.
+146:
+Afloopfout\n
+Taak %s: Fatale afloop fout\n
+\t\n
+Er is een fatale afloop fout opgetreden\n
+een fatale afloop fout veroorzaakt\n
+het direct afbreken van programma\n
+afloop. Zie de vorige foutmelding voor\n
+de oorzaakt van deze fout.
+147:
+Afloop fout\n
+Taak %s: De functie\n
+stuurt geen waarde terug\n
+\t\n
+Het einde van de functie werd bereikt,\n
+maar er werd geen RETURN-instructie\n
+uitgevoerd. Voeg een RETURN-instructie\n
+toe, waarin een functie-retourwaarde\n
+wordt gespecificeerd.
+148:
+Waardefout\n
+Taak %s: Ongeldige\n
+orientatie waarde\n
+\t\n
+Er wordt getracht een ongeldige\n
+orientatie (quarternion) waarde te\n
+te gebruiken.
+149:
+Waardefout\n
+Taak %s: Ongeldig\n
+fout nummer in RAISE instructie.\n
+\t\n
+Alleen fout nummer van 1 - 99 zijn\n
+toegestaan in de RAISE instructie.
+150:
+Afloopfout\n
+Taak %s: Ongeldige\n
+retour code van ReaL routine\n
+\t\n
+Dit wordt altijd veroorzaakt door\n
+een interne fout in een ReaL routine.
+151:
+Limiet fout\n
+Taak %s: Geen interrupt\n
+nummer meer beschikbaar\n
+\t\n
+Er is een beperkt aantal interrupt\n
+nummers beschikbaar. Herschrijf het\n
+programma en gebruik minder interrupts.\n
+Deze fout kan ook optreden als gevolg\n
+van een syteem fout.
+152:
+Waardefout\n
+Taak %s:Negatieve\n
+operand niet toegestaan\n
+\t\n
+De 'MOD'-operator laat alleen positieve\n
+operanden toe. Verander het programma\n
+zodanig dat de operator niet op\n
+negatieve waarden wordt toegepast.
+153:
+Typefout\n
+Taak %s: Gelijkvormige\n
+array-dimensie niet compatibel\n
+\t\n
+Het array heeft niet de verwachte\n
+omvang. De array-toekenning mag alleen\n
+uitgevoerd worden op array's van\n
+dezelfde omvang.
+154:
+Referentiefout\n
+Taak %s: Optionele\n
+parameter niet aanwezig\n
+\t\n
+Er mag niet worden verwezen naar de\n
+waarde van een niet-aanwezige optionele\n
+parameter. Gebruik de functie 'Present'\n
+om de aanwezigheid van de parameter te\n
+controleren.
+155:
+Waardefout\n
+Taak %s: Array-index\n
+valt buiten de grenzen\n
+\t\n
+De waarde van de array-index\n
+overschrijdt de gedeclareerde dimensie\n
+van het array.
+156:
+Limietfout\n
+Taak %s: Overloop\n
+van de afloopstapel\n
+\t\n
+Het programma is te complex om te\n
+worden uitgevoerd. Waarschijnlijk\n
+bevat het programma recursieve\n
+routines.
+157:
+Waardefout\n
+Taak %s: String te lang\n
+\t\n
+De samengevoegde string-waarde\n
+overschrijdt de maximaal toegelaten\n
+lengte. Herschrijf het programma en\n
+gebruik kortere strings.
+158:
+Afloop fout\n
+Taak %s: Onafgehandelde\n
+niet-fatale uitvoerfout %.i.\n
+\t\n
+Een niet-fatale uitvoerfout is\n
+opgetreden maar is niet afgehandeld\n
+door een 'ERROR' clausus. Zie de vorige\n
+melding voor de werkelijke oorzaak.
+159:
+Afloopfout\n
+Taak %s: Onafgehandelde\n
+raise fout %i\n
+\t\n
+Er was een fout gegenereerd door de\n
+RAISE maar deze werd niet afgehandeld\n
+door een ERROR clausus.
+160:
+Afloop fout\n
+Taak %s: Onafgehandelde\n
+niet-fatale uitvoerfout\n
+\t\n
+Een niet-fatale uitvoerfout is\n
+opgetreden maar is niet afgehandeld\n
+door een 'ERROR' clausus.
+161:
+Afloop fout\n
+Taak %s: Variable en trap\n
+routine reeds verbonden\n
+\t\n
+Het is niet toegestaan om meerdere\n
+malen een specifieke variable met een\n
+specifieke trap routine te verbinden.
+162:
+Afloop fout\n
+Taak %s: Executie afgebroken\n
+\t\n
+De executie is afgebroken ten gevolge\n
+van een fatale fout.
+163:
+Afloop fout\n
+Taak %s: Executie kon\n
+niet herstart worden\n
+\t\n
+Executie kon niet vervolgd worden na\n
+een spannings uitval. Herstart het\n
+programma.
+171:
+Waardefout\n
+Taak %s: De array-dimensie\n
+valt buiten de grenzen.\n
+\t\n
+De waarde van de 'DimNo'-parameter\n
+van de 'Dim'-functie moet binnen het\n
+bereik 1-3 vallen.
+172:
+Typefout\n
+Taak %s: De data\n
+is geen array\n
+\t\n
+De 'ArrPar'-parameter van de 'Dim'-\n
+functie moet een array zijn.
+173:
+Waardefout\n
+Taak %s: Onbekend\n
+interrupt-nummer\n
+\t\n
+Controleer of de gedef interrupt\n
+variabele geinitialiseerd is door\n
+CONNECT, en of de interrupt gedef\n
+is met ISignalDI of een andere\n
+interrupt definierende instructie.
+201:
+Benamingsfout\n
+Taak %s: Duplicate\n
+symboolnaam\n
+\t\n
+Geinstalleerde objecten moeten namen\n
+hebben die uniek zijn. Hernoem het\n
+object of verander de duplicate\n
+benaming.
+202:
+Limietfout\n
+Taak %s: Fout\n
+tijdens het aanmaken van de sdb invoer\n
+\t\n
+Er is een fout opgetreden tijdens het\n
+invoegen van een persistente in de\n
+gemeenschappelijke database.\n
+Waarschijnlijk is de database vol.
+203:
+Type definitie fout\n
+Taak %s: Alias van\n
+alias niet toegestaan.\n
+\t\n
+Het is niet mogelijk een alias type\n
+gelijk aan een ander alias type te\n
+definieren. Definieer twee alias types\n
+die gelijk zijn aan hetzelfde\n
+atomische of record type.
+204:
+Symbool definitie fout\n
+Taak %s: 'ANYTYPE#'\n
+parameter kan niet worden\n
+gedimensioneerd.\n
+\t\n
+Verwijder de dimensie specificatie.\n
+'ANYTYPE#' bevat array types.
+205:
+Symbool definitie fout\n
+Taak %s: 'ANYTYPE#'\n
+alleen toegestaan als parameter.\n
+\t\n
+Gebruik een ander type.
+206:
+Parameterfout\n
+Taak %s: 'alt' mag niet\n
+worden geladen voor de eerste optionele\n
+parameter in een alternatievenlijst\n
+\t\n
+Zorg ervoor dat alleen de tweede en\n
+volgende in elke lijst van uitsluitende\n
+optionele parameters gemarkeerd worden\n
+als alternatieven.
+207:
+Taak %s: REF modus\n
+parameter kan niet worden\n
+gedimensioneerd.\n
+\t\n
+Verwijder de array dimensie\n
+specificatie, of verander de modus van\n
+de parameter.
+208:
+Parameterfout\n
+Taak %s: 'switch'\n
+parameter kan niet worden\n
+gedimensioneerd\n
+\t\n
+Verwijder de array dimensie\n
+specificatie, of verander het data\n
+type van de parameter.
+209:
+Parameterfout\n
+Taak %s: 'switch'-parameter\n
+moet de overdrachtmodus IN hebben\n
+\t\n
+Verwijder de aanduiding van de\n
+parameteroverdrachtmodus. Indien de\n
+IN-overdrachtmodus niet volstaat,\n
+verander het datatype van de\n
+parameter.
+210:
+Symbool definitie fout\n
+Taak %s: 'switch' alleen\n
+toegestaan als optionele parameter.\n
+\t\n
+Verander de parameter in een optionele\n
+parameter,of verander het data type\n
+van de parameter. Als het object geen\n
+parameter is, verander dan het data\n
+type.
+211:
+Type definitie fout\n
+Taak %s: Waarde type\n
+classificatie moet een van de\n
+ PGM_SYMVALTYP_VAL, _SEMIVAL, _NONVAL\n
+of _NONE zijn.\n
+\t\n
+Verander de waarde type classificatie.
+212:
+Datadeclaratiefout\n
+Taak %s: Te veel\n
+array-dimensies\n
+\t\n
+Een array mag ten hoogste 3 dimensies\n
+hebben.
+213:
+Naamfout\n
+Taak %s: Symboolnaam\n
+moet een RAPID-aanduiding zijn, met\n
+uitsluiting van gereserveerde woorden\n
+\t\n
+De namen van geinstalleerde objecten,\n
+inclusief parameters en componenten,\n
+moeten geldige RAPID-aanduidingen zijn\n
+die niet gelijk zijn aan de\n
+gereserveerde woorden van de RAPID-taal.
+214:
+Symbool definitie fout\n
+Taak %s: Ontbrekende\n
+C functie\n
+\t\n
+Een C functie die een ReaL functie\n
+uitvoerd, die gedefinieerd wordt, moet\n
+worden gespecificeerd.
+215:
+Symbool definitie fout\n
+Taak %s: Waarde\n
+initialisatie functie ontbreekt\n
+\t\n
+Een waarde initialistie functie moet\n
+gespecificeerd worden.
+216:
+Referentie fout\n
+Taak %s: Geen datatype naam\n
+\t\n
+De gespecificeerde naam identificeerd\n
+een object in plaats van een type.
+217:
+Referentie fout\n
+Taak %s: Geen waarde\n
+datatype\n
+\t\n
+Alleen record componenten, alias\n
+types, variabelen en 'VAR' mode\n
+parameters mogen van het semi numerieke\n
+of het niet numerieke type zijn.
+218:
+Symbool definitie fout\n
+Taak %s: Waarde\n
+conversie functie ontreekt\n
+\t\n
+Een waarde conversie functie moet\n
+gespecificeerd worden voor een\n
+semi-numeriek type.
+219:
+Type definitie fout\n
+Taak %s Prive type\n
+kan alleen een semi-numeriek of niet\n
+numeriek type zijn\n
+\t\n
+Verander de klassificatie van het\n
+numerieke type.
+220:
+Type definitie fout\n
+Taak %s: De prive type\n
+grootte moet een veelvoud van 4 zijn\n
+\t\n
+De grootte van alle RAPID types moet\n
+een veelvoud van 4 zijn. Verander de\n
+grootte van het gespecificeerde type.
+221:
+Typefout\n
+Taak %s: Onjuiste persistent\n
+type overeenkomst\n
+\t\n
+Er is reeds een persistente datamet de\n
+zelfde naam maar van een ander\n
+datatype. Herbenoem de persistente of\n
+verander het datatype.
+222:
+Referentie fout\n
+Taak %s: Onbekende\n
+data type naam\n
+\t\n
+Er bestaat geen data type (of een\n
+ander object) met de gespecificeerde\n
+naam.
+223:
+Parameterfout\n
+Taak %s: Onbekende\n
+parameter overdrachtsmodus\n
+\t\n
+De De gespecificeerde parameter\n
+overdrachtsmodus is geen IN, 'VAR',\n
+'PERS', 'INOUT' of REF. Gebruik de\n
+overeenkomende PGM_SYMPARMOD_x.
+224:
+Symbool definitie fout\n
+Taak %s: Symbool\n
+definitie type bestaat niet\n
+\t\n
+De symbool type definitie specificeerd\n
+geen van de toegestane symbool types\n
+(PGM_SYMDEF_x).
+301:
+I/O fout\n
+Taak %s: Toelating geweigerd\n
+\t\n
+
+302:
+I/O fout\n
+Taak %s: Geen dergelijk\n
+bestand of directory\n
+\t\n
+
+303:
+I/O fout\n
+Taak %s: Geen ruimte over\n
+op het apparaat\n
+\t\n
+
+304:
+I/O fout\n
+Taak %s: Kan geen toegang\n
+tot het bestand %! krijgen\n
+\t\n
+Oorzaak.\n
+Toegang geweigerd (tegen overschrijven\n
+  beveiligd)\n
+Geen dergelijk bestand of directory\n
+Geen ruimte over op het apparaat
+501:
+Timeout\n
+%s\n
+%s\n
+\t\n
+
+502:
+Onderbreking digitale ingang\n
+%s\n
+%s\n
+\t\n
+
+503:
+Referentie fout\n
+Apparaatbeschrijving is\n
+%s\n
+\t\n
+
+504:
+Parameter fout\n
+%s\n
+\t\n
+%s
+505:
+Bestandtoegangsfout\n
+%s\n
+\t\n
+
+506:
+Systeemtoegangsfout\n
+%s\n
+\t\n
+
+507:
+Limiet fout\n
+%s\n
+\t\n
+
+508:
+Onjuiste orientatiewaarde in\n
+%s\n
+\t\n
+
+509:
+Zoek waarschuwing\n
+%s\n
+Zorg ervoor dat het TCP terug bewogen\n
+is naar de start positie van het te\n
+zoeken pad alvorens de volgende zoek\n
+beweging te starten\n
+\t\n
+Indien de herpositionering niet\n
+voor de herstart uitgevoerd wordt, kan\n
+er een beweging gemaakt worden die\n
+schade kan veroorzaken.
+510:
+Veiligheidswaarschuwing\n
+De 'MOVE' instructie kan vanwege een\n
+veiligheidsprobleem niet worden\n
+gestart Probeer de PP te verplaatsen.\n
+\t\n
+
+511:
+Parameter fout\n
+De parameter %s in %s\n
+is gespecificeerd als als een negative\n
+waarde\n
+\t\n
+De parameter moet positief gemaakt\n
+worden.
+512:
+Externe as parameterwaarde ontbreekt\n
+Een active externe as heeft een\n
+onjuiste waarde of mist een opdracht.\n
+Herprogrammeer de positie.\n
+\t\n
+
+513:
+Fout in de mechanische eenheid\n
+De mechanische eenheid kan niet\n
+geactiveerd of gedeactiveerd worden.\n
+\t\n
+
+514:
+Afloop fout\n
+Afwijking van de baan te groot om een\n
+StartMove van de afgebroken instructie\n
+uit te voeren.\n
+\t\n
+
+515:
+Type fout\n
+Taak %s: Ongeldig data type\n
+voor het parameter argument %s\n
+\t\n
+
+516:
+Waarde fout\n
+Taak %s: Ongeldige waarde voor\n
+parameter argument %s\n
+\t\n
+
+517:
+Zoek fout\n
+%s\n
+Geen object of meerdere objecten\n
+gevonden gedurende de voorwaartse\n
+stapsgewijze programma uitvoer. De\n
+search instructie klaar.\n
+\t\n
+Let op! Er is geen positie informatie\n
+geretourneerd door de search\n
+ instructie
+600:
+Argument fout\n
+Geen \WObj gespecificeerd\n
+voor een beweging met een stationair\n
+TCP\n
+\t\n
+Voeg het argument \WObj\n
+toe voor het actuele werk object\n
+Voor een beweging zonder stationair\n
+TCP moet het argument Tool veranderd\n
+worden in "Robot houd de tool"
+601:
+Argument fout\n
+Niet gedefinieerd indien de robot de\n
+tool of het werk object vasthoud.\n
+\t\n
+Controleer op een onjuiste overeenkomst\n
+tussen het argument Tool en het\n
+argument \WObj voor het data component\n
+robhold.
+602:
+Argument fout\n
+Argument %s heeft\n
+ten minste een data component met een\n
+negative waarde.\n
+\t\n
+Verander alle data componenten van\n
+het argument %s\n
+in positieve waarden.
+603:
+Argument fout\n
+Argument %s heeft\n
+een niet toegestane negatieve waarde\n
+\t\n
+Maak het argument %s positief.
+604:
+Argument fout\n
+Het argumnet Tool heeft een niet\n
+gedefinieerde belasting.\n
+\t\n
+Definieer de actuele belasting van de\n
+Tool alvorens de tool te gebruiken\n
+voor het joggen of het uitvoeren van\n
+geprogrammeerde bewegingen.
+605:
+Argument fout\n
+Er is een negative belasting\n
+gespecificeerd voor het argument Tool.\n
+\t\n
+Definieer de juiste belasting van de\n
+Tool alvorens de tool te gebruiken\n
+voor het joggen of het uitvoeren van\n
+geprogrammeerde bewegingen.
+606:
+Argument fout\n
+Het argument Tool bevat ten minste een\n
+massatraagheids datacomponent met een\n
+negative waarde.\n
+\t\n
+Definieer alle massatraagheids\n
+datacomponenten (ix, iy en iz) als\n
+correcte positive waarden.
+607:
+Afloop fout\n
+Het is niet toegestaan om de programma\n
+uitvoer modus te veranderen van\n
+voorwaarts naar achterwaarts en vice\n
+versa tijdens de uitvoering van een\n
+circulaire beweging.\n
+\t\n
+Selecteer, indien mogelijk, de\n
+originele programma uitvoer modi druk\n
+op start om de beweging te vervolgen.\n
+Indien niet mogelijk verplaats dan de\n
+robot en de PP voor een nieuwe start.
+608:
+Argument fout\n
+Orientatie definitie fout\n
+in %s\n
+\t\n
+Alle gebruikte orientaties moeten\n
+worden genormaliseerd. D.w.z. de som\n
+van de kwadraten van alle quarternions\n
+moet 1 zijn.
+609:
+Argument fout\n
+Het argument \WObj specificeerd een\n
+mechanische eenheid met een te lange\n
+naam.\n
+\t\n
+Er kunnen maximaal 16 karakters\n
+gebruikt worden om de naam van een\n
+gecoordineerde mechanische eenheid\n
+te specificeren.
+610:
+Argument fout\n
+Het argument \WObj specificeerd een\n
+mechanische eenheid die niet\n
+geactiveerd is of onbekend is in het\n
+systeem.\n
+\t\n
+De naam van de mechanische eenheid\n
+die gedefinieerd is in \WObj moet\n
+actief zijn en overeenkomen met de\n
+naam die eerder gedefinieerd is in\n
+de parameters.
+611:
+Afloop fout\n
+Het is niet toegestaan om achterwaarts\n
+te stappen in de actuele instructie\n
+\t\n
+Het is niet toegestaan achterwaarts te\n
+stappen in een circulaire beweging,\n
+indien het eindpunt van de cirkel\n
+gedefinieerd is met een andere Tool of\n
+werk object.
+612:
+Argument fout\n
+Geen argument geprogrammerd als naam\n
+voor het uitgangs signaal.\n
+\t\n
+Het is mogelijk om een positie\n
+afhankelijke IO te setten zoals een\n
+digitale uitgang, een groep van\n
+digitale uitgangen of een analoge\n
+uitgang tijdens een robot beweging.
+613:
+Argument fout\n
+Optioneel argument %s\n
+kan alleen gekombineerd worden met het\n
+argument van het uitgangs\n
+signaal %s\n
+\t\n
+
+614:
+Argument fout\n
+Het argument %s\n
+is geen 0 of 1.\n
+\t\n
+Digitale uitgangs signalen kunnen\n
+alleen 0 of 1 gemaakt worden.
+615:
+Argument fout\n
+het argument %s\n
+is geen integer getal.\n
+\t\n
+Een groep van digitale uitgangs\n
+signalen kan alleen een integer\n
+waarde bevatten.
+616:
+Argument fout\n
+Het argument %s\n
+ligt buiten de toegestane grenzen.\n
+\t\n
+De gebruikte groep van digitale\n
+uitgangen kan alleen een waarde\n
+bevatten tussen 0 en %s overeenkomstig\n
+de configuratie in de systeem\n
+parameters.
+617:
+Argument fout\n
+Het argument %s\n
+ligt buiten de toegestane grenzen.\n
+\t\n
+De gebruikte analoge uitgangs signalen\n
+kunnen alleen een waarde bevatten\n
+tussen %s en %s overeenkomstig\n
+de configuratie in de systeem\n
+parameters.
+618:
+Argument fout\n
+Het argument %s\n
+bevat een ongeldig interrupt nummer\n
+\t\n
+Het interrupt nummer is ongeldig omdat\n
+het niet gealloceerd is door de\n
+CONNECT instructie. De CONNECT\n
+instructie alloceerd de interrupt en\n
+verbind deze met een TRAP routine.
+619:
+Argument fout\n
+Het argument %s\n
+bevat een interrupt die reeds voor een\n
+ander doel gebruikt wordt.\n
+\t\n
+Voordat een interrupt nummer\n
+hergebruikt kan worden in het\n
+programma moet het oude interrupt\n
+nummer eerst verwijderd worden met\n
+de IDelete instructie.
+622:
+Argument fout\n
+De waarde van het argument Time in\n
+ITimer is te klein voor cyclische\n
+Tinterrupts.\n
+\t\n
+
+623:
+Argument fout\n
+De waarde van het argument Time in\n
+ITimer is te klein voor enkelvoudige\n
+interrupts.\n
+\t\n
+
+631:
+Instructie fout\n
+Te veel opeenvolgende bewegings-\n
+instructies met Concurrent RAPID\n
+programma afloop.\n
+\t\n
+Edit het programma zodat max. 5\n
+opeenvolgende MoveX \Conc instructies\n
+aanwezig zijn op het basis programma\n
+afloop niveau.
+632:
+Instructie fout\n
+Het is niet toegestaan om\n
+gelijktijdige RAPID programma afloop\n
+te gebruiken met het StorePath-\n
+RestoPath deel van het programma.\n
+\t\n
+Edit het programma zodanig dat er geen\n
+MoveX \Conc instructies voorkomen\n
+binnen het StorePath-RestoPath deel\n
+van het programma.
+633:
+Referentie fout\n
+Trigg parameter nr. %s referentie\n
+naar ongedefinieerde trigg data.\n
+\t\n
+Definieer trigg data door het\n
+uitvoeren van de instructie TriggIO\n
+or TriggInt voor de TriggL, TriggC of\n
+TriggJ.
+634:
+Referentie fout\n
+Signaal referentie in parameter %s\n
+bevat een voor de robot onbekend\n
+signaal.\n
+\t\n
+Alle signalen moeten gedefinieerd\n
+worden in de parameters en niet in het\n
+R APID programma.
+635:
+Referentie fout\n
+Argument referentie parameter %s\n
+is geen gehele persistente variable.\n
+\t\n
+Het is niet mogelijk een reord\n
+component of een array element te\n
+gebruiken. Het is alleen mogelijk een\n
+gehele persistenten te gebruiken voor\n
+Tool, Wobj of Load in een beweging.
+636:
+Sensor fout\n
+Geen meetdata van de sensor.\n
+\t\n
+De gevraagde data zijn niet\n
+beschikbaar.
+637:
+Sensor fout\n
+Nog niet gereed.\n
+\t\n
+De gevraagde functie is nog niet\n
+gereed.
+638:
+Sensor fout\n
+Algemene fout.\n
+\t\n
+Er is een algemene fout opgetreden\n
+die niet specifiek verbonden is met de\n
+gevraagde actie. Lees, indien deze\n
+functie aanwezig is, het bok\n
+" Error log"
+639:
+Sensor fout\n
+Sensor bezig, Probeer het later\n
+opnieuw.\n
+\t\n
+De sensor is bezig met een andere\n
+functie.
+640:
+Sensor fout\n
+Onbekend commando.\n
+\t\n
+De van de sensor gevraagde functie\n
+is onbekend.
+641:
+Sensor fout\n
+Ongeldige variabele of blok nummer.\n
+\t\n
+De gevraagde variabele of blok is niet\n
+in de sensor gedefinieerd.
+642:
+Sensor fout\n
+Extern alarm.\n
+\t\n
+Alarm van de externe apparatuur.
+643:
+Sensor fout\n
+Kamera alarm.\n
+ \t\n
+Er is een fout gedetecteerd in de\n
+kamera. Start Cam check om te\n
+controleren of de kamera in orde is.\n
+\t\n
+
+644:
+Sensor fout\n
+Temperatuur alarm.\n
+\t\n
+De kamera is oververhit. Er is meer\n
+koel-lucht en/of -water nodig.
+645:
+Sensor fout\n
+Waarde buiten de grenzen\n
+\t\n
+De waarde van de data die naar\n
+de sensor gestuurd zijn, zijn buiten de\n
+grenzen.
+646:
+Sensor fout\n
+Kamera check niet geslaagd.\n
+\t\n
+De CAMCHECK functie is niet geslaagd.\n
+De kamera is defect, laat het\n
+repareren.
+647:
+Sensor fout\n
+Communicatie timeout.\n
+\t\n
+Verhoog de timeout tijd en controleer\n
+de verbindingen met de sensor.
+648:
+Zoek fout\n
+Het is niet mogelijk een StorePath uit\n
+te voeren tijdens het zoeken op het\n
+basis baan nivo.\n
+\t\n
+Wanneer er een programma gebruikt wordt\n
+met in de TRAP routine een beweging,\n
+dan moet deze interrupt gedeactiveerd\n
+worden tijdens het zoeken.\n
+M.b.v. Isleep - SearchL - Iwatch.
+649:
+Baan limiet fout\n
+%s reeds uitgevoerd.\n
+\t\n
+De instructie %s moet eerst\n
+uitgevoerd worden voordat een\n
+nieuwe %s gedaan kan worden.
+700:
+Syntaxis fout\n
+Taak %s: Syntaxis fout.\n
+%s\n
+\t\n
+
+701:
+Programma geheugen vol\n
+De taak %s, heeft slechts\n
+%i bytes vrij in het\n
+gebruikers geheugen\n
+\t\n
+Verwijder een andere module en\n
+probeer het opnieuw.

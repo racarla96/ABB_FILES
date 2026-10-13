@@ -1,0 +1,76 @@
+ne parameter.
+ine parameter.
+15::
+1:
+Oggetto non modificabile\n
+perche' dichiarato in\n
+modulo sola lettura.
+2:
+Oggetto non modificabile\n
+perche' dichiarato in\n
+modulo solo lettura.
+3:
+Nome non accettabile!\n
+Deve cominciare con una\n
+lettera e no parole ris.!
+4:
+Direz esecuz non\n
+modificabile all'interno\n
+di un'istruz complessa.
+5:
+Direz esecuz non\n
+modificabile in questo\n
+sottoprogramma.
+6:
+Errore sintassi Rapid.\n
+Errori nel programma.
+7:
+Errore esecuzione\n
+programma.
+8:
+PP non puo' essere spostato\n
+nella posizione richiesta\n
+Provare un'altra posizione
+9:
+Oggetto dich in modulo\n
+protetto: non puo' essere\n
+modif., salvato o stampato
+10:
+Sottoprog dich. in modulo\n
+protetto: il contenuto non\n
+puo' essere visualizzato.
+11:
+Tipo dati locale non\n
+definito in modulo selez.\n
+Cambia modulo o tipo dati
+12:
+Dati Persistent non possono\n
+essere dich. locali.\n
+Cambia tipo o dich.
+13:
+Istruz prog. troppo lunghe\n
+sono state tagliate quando\n
+file/view e' stato creato.
+14:
+Impossibile eseguire\n
+operazione ANNULLA.\n
+
+15:
+Dimens. array troppo lunga\n
+Ridurre lunghezza.
+16:
+Impossibile mostrare dati\n
+array. Ridurre dimensione\n
+con editor offline.
+17:
+Impossibile creare nuovi\n
+dati di tipo switch. Usarli\n
+solo come param. di proc.
+18:
+To long value for pendant.\n
+Please view and edit data\n
+of this datatype offline.
+19:
+To many components for\n
+pendant. Please view and\n
+edit this data offline.

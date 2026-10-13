@@ -1,0 +1,157 @@
+14::
+0:
+Nessun Oggetto
+1:
+Nome fittizio
+2:
+Fine
+3:
+Dichiarazione modulo
+4:
+Dichiarazione dato costante
+5:
+Dichiarazione dato variabile
+6:
+Dichiarazione dato persistente
+7:
+Dichiarazione funzione
+8:
+Dichiarazione procedura
+9:
+Dichiarazione trap
+10:
+Parametro richiesto
+11:
+Parametro opzionale
+12:
+Parametro alternativo
+13:
+Label
+14:
+Return
+15:
+Raise
+16:
+Retry
+17:
+Try Next
+18:
+Connect
+19:
+Exit
+20:
+Goto
+21:
+Assignment
+22:
+IF
+23:
+Compact IF
+24:
+WHILE
+25:
+FOR
+26:
+TEST
+27:
+Richiamo procedura
+28:
+Elseif
+29:
+Case
+30:
+Argomento richiesto
+31:
+Argomento opzionale
+32:
+Espressione costante
+33:
+Espressione
+34:
+Letterale
+35:
+Variabile
+36:
+Nome oggetto
+37:
+Nome oggetto
+38:
+Tipo valore
+39:
+Tipo dato
+40:
+Dimensione
+41:
+Commento
+42:
+43:
+44:
+45:
+46:
+47:
+48:
+49:
+50:
+Nessun figlio
+51:
+Fine
+52:
+Attributo modulo sistema
+53:
+Attributo modulo
+54:
+Attributo mod. solo visione
+55:
+Attributo mod. solo lett.
+56:
+Nome oggetto
+57:
+Elenco dich. dati
+58:
+Elenco dich. sotprog
+59:
+Locale
+60:
+Tipo
+61:
+Elenco espressioni
+62:
+Espressione
+63:
+Dichiarazione parametro
+64:
+Elenco istruzioni
+65:
+Elenco istruz. preced.
+66:
+ELSE
+67:
+Modo parametro variabile
+68:
+Modo parametro persistente
+69:
+Modo parametro Inout
+70:
+Dimensioni
+71:
+Nome ogg. di riferimento
+72:
+Variabile di riferimento
+73:
+Elenco istruzioni
+74:
+Istruzione
+75:
+ELSEIF
+76:
+Da
+77:
+A
+78:
+Step
+79:
+Elenco Case
+80:
+Espressioni
+81:
+Elenco argomenti

@@ -1,0 +1,604 @@
+22::
+0:
+System
+10:
+NOT-AUS aktiv\n
+NOT-AUS Rückstellen notwendig.\n
+MOTOR-EIN Taste betätigen.\n
+\t\n
+
+11:
+NOT-AUS aktiv\n
+NOT-AUS Rückstellen notwendig.\n
+Zuerst die NOT-AUS Taste freigeben und\n
+dann die MOTOREN-EIN Taste betätigen.\n
+\t\n
+
+12:
+System Fehler\n
+Fataler System Fehler.\n
+Warm Start ist notwendig.\n
+\t\n
+Hauptschalter aus- und einschalten,\n
+wenn der -soft warm start- ignoriert\n
+wird oder nicht erreichbar ist.
+24:
+Timeout Sicherheitskreis\n
+Timeout Zweikanaligkeit\n
+\t\n
+Die notwendige Bestätigung bei einer\n
+Zustandsänderung im zweikanaligen\n
+Sicherheitskreis erfolgte nicht in der\n
+erwarteten Zeit.
+30:
+Achse nicht kommutiert\n
+Eine oder mehrere Achsen mit\n
+interner Treiberstufe sind\n
+nicht kommutiert.\n
+\t\n
+
+31:
+Achse nicht kalibriert\n
+Eine oder mehrere Achsen mit\n
+absolutem/relativem Meßsystem\n
+sind nicht kalibriert.\n
+\t\n
+
+32:
+Umdr._Zähler nicht akt.\n
+Eine oder mehrere Achsen mit absolutem\n
+Meßsystem sind nicht synchronisiert.\n
+\n
+Roboter in Kalibrierstellung bringen\n
+und Umdr._Zähler aktualisieren.\n
+\t\n
+
+33:
+Achse nicht synchron.\n
+Eine oder mehrere Achsen mit relativem\n
+Meßsystem sind nicht synchronisiert.\n
+\n
+MOTOREN EIN und alle mechanischen\n
+Einheiten in der Liste synchronisieren.\n
+\t\n
+
+50:
+Unzulässige Anweisung\n
+In dieser Betriebsart unzulässig.\n
+\t\n
+
+51:
+Unzulässige Anweisung\n
+Unzulässig wenn der -client- die\n
+Resource (Programm/Bewegung)\n
+nicht überwacht.\n
+\t\n
+
+52:
+Unzulässige Anweisung\n
+In diesem Steuerungszustand\n
+unzulässig.\n
+\t\n
+
+53:
+Unzulässige Anweisung\n
+In diesem Manipulatorzustand\n
+unzulässig.\n
+\t\n
+
+54:
+Unzulässige Anweisung\n
+Während der Programmabarbeitung\n
+unzulässig.\n
+\t\n
+
+60:
+Unzulässige Anweisung\n
+In Automatikbetrieb unzulässig.\n
+\t\n
+
+61:
+Unzulässige Anweisung\n
+Beim Wechsel in Automatik\n
+unzulässig.\n
+\t\n
+
+62:
+Unzulässige Anweisung\n
+In Einrichtbetrieb unzulässig.\n
+\t\n
+
+63:
+Unzulässige Anweisung\n
+In Einrichtbetrieb 100% unzulässig.\n
+\t\n
+
+64:
+Unzulässige Anweisung\n
+Beim Wechsel in Einrichten 100%\n
+unzulässig.\n
+\t\n
+
+70:
+Unzulässige Anweisung\n
+In MOTOREN EIN unzulässig.\n
+\t\n
+
+71:
+Unzulässige Anweisung\n
+Beim Wechsel in MOTOREN EIN\n
+unzulässig.\n
+\t\n
+
+72:
+Unzulässige Anweisung\n
+In MOTOREN AUS unzulässig.\n
+\t\n
+
+73:
+Unzulässige Anweisung\n
+Beim Wechsel in MOTOREN AUS\n
+unzulässig.\n
+\t\n
+
+74:
+Unzulässige Anweisung\n
+In Sicherheitshalt unzulässig.\n
+\t\n
+
+75:
+Unzulässige Anweisung\n
+In NOT-AUS unzulässig.\n
+\t\n
+Rücksetzen NOT-AUS notwendig.\n
+MOTOREN-EIN Taste betätigen.
+76:
+Unzulässige Anweisung\n
+Bei Systemfehler unzulässig.\n
+\n
+Fataler System Fehler\n
+Warm Start ist notwendig.\n
+\t\n
+Hauptschalter aus- und einschalten,\n
+wenn der -soft warm start- ignoriert\n
+wird oder nicht erreichbar ist.
+80:
+Unzulässige Anweisung\n
+Unzulässig, wenn Achse nicht\n
+kommutiert ist.\n
+\t\n
+
+81:
+Unzulässige Anweisung\n
+Unzulässig, wenn Achse\n
+nicht kalibriert ist.\n
+\t\n
+
+82:
+Unzulässige Anweisung\n
+Unzulässig, wenn Umdr.Zähler der Achse\n
+nicht aktualisiert ist.\n
+\t\n
+
+83:
+Unzulässige Anweisung\n
+Unzulässig, wenn Achse nicht\n
+synchronisiert ist.\n
+\t\n
+
+92:
+Unzulässige Anweisung\n
+Unzulässig im Zustand\n
+System E/A Start blockiert.\n
+\t\n
+
+100:
+Prog.Gerät Kontrolle\n
+Eine Prog.Gerät Applikation wird\n
+von der angeforderten Resource\n
+kontrolliert (Programm/Bewegung).\n
+\t\n
+
+101:
+Prog.Gerät(prg) Kontrolle\n
+Das Fenster -Programm- wird vom\n
+-program server- kontrolliert.\n
+Zum Fenster -Produktion- wechseln\n
+und Anweisung erneut ausführen.\n
+\t\n
+
+102:
+Prog.Gerät(Steuerknüppel)\n
+Der Steuerknüppel des Prog.Gerätes\n
+wird vom -motion server- kontrolliert.\n
+Steuerknüppel loslassen und die\n
+Anweisung erneut ausführen.\n
+\t\n
+
+111:
+Prog.Gerät(prg) Kontrolle\n
+Das Fenster -Programm- wird vom\n
+-program server- kontrolliert.\n
+Zum Fenster -Produktion- wechseln\n
+und Anweisung erneut ausführen.\n
+\t\n
+
+112:
+Programm 1 Kontrolle\n
+Der -program server- 1 wird vom\n
+-motion server- kontrolliert.\n
+Programm stoppen und Anweisung\n
+erneut ausführen.\n
+\t\n
+
+113:
+Programm 2 Kontrolle\n
+Der -program server- 2 wird vom\n
+-motion server- kontrolliert.\n
+Programm stoppen und Anweisung\n
+erneut ausführen.\n
+\t\n
+
+114:
+Programm 3 Kontrolle\n
+Der -program server- 3 wird vom\n
+-motion server- kontrolliert.\n
+Programm stoppen und Anweisung\n
+erneut ausführen.\n
+\t\n
+
+115:
+Programm 4 Kontrolle\n
+Der -program server- 4 wird vom\n
+-motion server- kontrolliert.\n
+Programm stoppen und Anweisung\n
+erneut ausführen.\n
+\t\n
+
+116:
+Programm 5 Kontrolle\n
+Der -program server- 5 wird vom\n
+-motion server- kontrolliert.\n
+Programm stoppen und Anweisung\n
+erneut ausführen.\n
+\t\n
+
+120:
+System EA Kontrolle\n
+\n
+\t\n
+
+125:
+Client %s Kontrolle\n
+Der spezifizierte -client- wird\n
+von der angeforderten Resource\n
+kontrolliert (Programm/Bewegung).\n
+\t\n
+
+130:
+Zu wenig Speicher für cfg\n
+\n
+\t\n
+
+131:
+Datei nicht lesbar\n
+\n
+\t\n
+
+132:
+Param. nicht gespeichert\n
+Parameter können nicht gespeichert\n
+werden. Wahrscheinlich ist die Diskette\n
+schreibgeschützt oder es ist nicht\n
+genügen freier Speicher vorhanden.\n
+\t\n
+Diskette kontrollieren ob schreib-\n
+geschützt oder ob genügend freier\n
+Speicher vorhanden ist.
+133:
+Instance nicht änderbar\n
+Beschreibung/Ursache:\n
+Instance in Zeile %d in Datei %s\n
+nicht ersetzbar.\n
+\t\n
+Die Instance ist schreibgeschützt.
+134:
+Falsche Version\n
+Beschreibung/Ursache:\n
+Die cfg Version ist falsch in Datei\n
+%s.\n
+Die Software ist für die\n
+Version %s gemacht.\n
+\t\n
+Die Version der Konfiguration ändern.
+135:
+Zeile zu lang\n
+Beschreibung/Ursache:\n
+Zeile %d > %d Zeichen\n
+\t\n
+Anzahl der Zeichen reduzieren.
+136:
+Attribut außer Bereich\n
+Beschreibung/Ursache:\n
+Attribut %s ist außerhalb Bereich\n
+in Zeile %d\n
+\t\n
+Wert des Attributs ändern.
+137:
+Duplizierter Inst Name\n
+Beschreibung/Ursache:\n
+Duplizierter Name in Zeile %d\n
+von Datei %s\n
+\t\n
+Namen ändern.
+140:
+MOTOREN EIN unzulässig\n
+MOTOREN EIN via System EA\n
+unzulässig.\n
+\t\n
+
+141:
+MOTOREN AUS unzulässig\n
+MOTOREN AUS via System EA\n
+unzulässig.\n
+\t\n
+
+142:
+Start unzulässig\n
+Start/Neustart des Programms\n
+via System EA unzulässig.\n
+\t\n
+
+143:
+Start haupt unzulässig\n
+Start haupt des Hauptprogramms\n
+via System EA unzulässig.\n
+\t\n
+
+144:
+Stop unzulässig\n
+Stop des Programms\n
+via System EA unzulässig.\n
+\t\n
+
+145:
+Stop Zyklus unzulässig\n
+Stop Zyklus des Programms\n
+via System EA unzulässig.\n
+\t\n
+
+146:
+Man Interrupt unzulässig\n
+Manueller Interrupt des Programms\n
+via System EA unzulässig.\n
+\t\n
+
+147:
+LadenStart unzulässig\n
+LadenStart des Programms\n
+via System EA unzulässig.\n
+\t\n
+
+148:
+Rückstellen unzulässig\n
+Rückstellen des NOT-Aus\n
+via System EA unzulässig.\n
+\t\n
+
+149:
+Reset Fehler unzulässig\n
+Reset von Fehler im Prog.ablauf\n
+via System EA unzulässig.\n
+\t\n
+
+150:
+Synchron. unzulässig\n
+Synchronisieren einer mech. Einheit\n
+via System EA unzulässig.\n
+\t\n
+
+151:
+Falscher Signalname\n
+Signalname nicht möglich\n
+für -Sys EA-.\n
+Der Signalname ist nicht in der\n
+cfg-Datei für -Sys EA-.\n
+\t\n
+
+152:
+Zu viele Einschränkungen\n
+Für Aktion (Signal) in -Sys EA- sind\n
+keine Einschränkungen gesetzt.\n
+Die Anzahl der Einschränkungen\n
+(Signale) für eine Aktion in der\n
+cfg-Datei für -Sys EA- ist zu groß.\n
+\t\n
+
+153:
+MotEinStart unzulässig\n
+MotEinStart/Neustart des Programms\n
+via System EA unzulässig.\n
+\t\n
+
+154:
+StopInstr unzulässig\n
+Stop des Programms nach Abarbeitung\n
+der aktuellen Instruktion\n
+via System EA unzulässig.\n
+\t\n
+
+155:
+Undefiniertes Argument\n
+-SyncExtAx- Name der mech. Einheit\n
+ist nicht definiert.\n
+\t\n
+
+156:
+Undefiniertes Argument\n
+-Interrupt- Name der Routine\n
+ist nicht definiert.\n
+\t\n
+
+157:
+Undefiniertes Argument\n
+-LoadStart- Name des Programms\n
+ist nicht definiert.\n
+\t\n
+
+158:
+Kein Systemeingang\n
+Ein Systemeingang wurde für ein\n
+nicht vorhandenes Signal deklariert.\n
+\t\n
+
+159:
+Kein Systemausgang\n
+Ein Systemausgang wurde für ein\n
+nicht vorhandenes Signal deklariert.\n
+\t\n
+
+160:
+Konfiguration Fehler\n
+Das System Modul %!%s in Task\n
+%s hat keine entsprechende\n
+Spezifikation in der Konfiguration\n
+für "Task Module"\n
+\t\n
+Systemparameter Ansicht\n
+-Param- "Steuerung" -Typ-\n
+"Task Module" wählen und\n
+dieses System Modul hinzufügen.
+161:
+Pfad nicht gefunden\n
+Das System Modul %!%s in Task\n
+%s hat eine entsprechende\n
+Spezifikation in der Konfiguration\n
+für "Task Module", die auf einen\n
+nicht vorhandenen Pfad verweist.\n
+\t\n
+Systemparameter Ansicht\n
+-Param- "Steuerung" -Typ-\n
+"Task Module" wählen und den Pfad\n
+für dieses System Modul ändern.
+162:
+Schreiben Fehler\n
+Ein Schreibfehler ist aufgetreten als\n
+das System versuchte das System Modul\n
+ %!%. bei %.37s in Task %.16s zu\n
+schreiben oder das Speichermedium\n
+ist voll.\n
+\t\n
+Systemparameter Ansicht\n
+-Param- "Steuerung" -Typ-\n
+"Task Module" wählen und den Pfad\n
+für dieses System Modul ändern.
+163:
+Konfig.ändr. fehlgeschl.\n
+Ein(ige) Anwender Modul(e) geändert\n
+aber nicht gespeichert. Siehe vorher-\n
+gehened, gespeicherte Fehlermeldungen\n
+im Fehlerlog.\n
+\t\n
+Die Module speichern, die durch vorher-\n
+gehened Fehlermeldungen spezifiziert\n
+wurden. Erneuten Neustart durchführen.
+164:
+Änd. Konfig. fehlgeschl.\n
+Einige System Module sind nicht\n
+gespeichert.\n
+\t\n
+Fehlerbeschreibung in früheren\n
+Meldungen lesen.\n
+Erneuten Neustart.
+165:
+PZ verloren\n
+Neustart von der aktuellen Position\n
+ist nicht länger möglich.\n
+Das Programm muß vom Anfang\n
+gestartet werden.\n
+\t\n
+
+166:
+Speichern Modul abgelehnt\n
+Das Modul %!%.14s\n
+ist älter als die Quelle\n
+in %.37s\n
+in Task %.16s.\n
+\t\n
+
+167:
+Ungespeichertes Modul\n
+Das Modul %!%.14s\n
+ist geändert aber nicht gespeichert\n
+in Task %.16s.\n
+\t\n
+
+170:
+SYS_STOP\n
+Programmierte Bewegung auf der Bahn\n
+gestoppt.\n
+\t\n
+
+171:
+SYS_HALT\n
+Programm und Bewegung gestoppt\n
+mit Motoren aus.\n
+\t\n
+
+172:
+SYS_FAIL\n
+Systemfehler, System neu starten.\n
+\t\n
+
+175:
+Programmiergerät Fehler\n
+Programmiergerät hat den Kontakt\n
+mit der Steuerung verloren.\n
+Dies führt zu einem Sicherheitsstop.\n
+\t\n
+
+180:
+System EA Restriktion\n
+System EA Restriktionen sind für\n
+andere Clients, z.B. Programmiergerät\n
+oder Computerlink aktiv.\n
+\t\n
+Motoren_Ein ist eingeschränkt durch\n
+System EA Motoren_Aus.\n
+Programmstart ist eingeschränkt durch\n
+System EA Stop, Stop_Zyklus oder\n
+StopInstr.
+261:
+Strings zu lang\n
+Beschreibung/Ursache:\n
+- Elog Meldung Nr. %d:\n
+  Stringlänge %d >\n
+  %d Zeichen\n
+\t\n
+Kontrolle:\n
+1. Stringlänge reduzieren.
+270:
+Zugriff Fehler\n
+Fehler beim Zugriff auf Panel Board.\n
+\t\n
+E/A Konfiguration kontrollieren.
+280:
+Symbolkonflikt\n
+Das Signal %s definiert in der EA\n
+Konfiguration widerspricht einem anderen\n
+Programmsymbol mit gleichem Namen.\n
+Dadurch wird das Signal nicht mit einer\n
+Programmvariablen verbunden.\n
+\t\n
+Das Signal in der  EA-Konfiguration\n
+umbenennen.
+313:
+SoftStop\n
+SoftStop festgestellt auf\n
+Kanal %.0f.\n
+\t\n
+Not-Aus wurde betätigt mit aktiviertem\n
+SoftStop. Der Motoren-Ein-Kreis ist\n
+offen. Sicherstellen das Not-Aus-Taste\n
+zurückgestellt ist und Motoren-Ein-Taste\n
+betätigen.

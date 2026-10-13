@@ -1,0 +1,106 @@
+22::
+1:
+Catena sicurezze aperta\n
+\n
+\t\n
+
+2:
+Stop Emergenza\n
+\n
+\t\n
+
+3:
+Stop fine corsa\n
+\n
+\t\n
+
+6:
+Stop modo autom.\n
+\n
+\t\n
+
+7:
+Stop modo manuale\n
+\n
+\t\n
+
+8:
+Stop modo gener.\n
+\n
+\t\n
+
+9:
+Errore catena Run\n
+Errore di stato sul doppio canale.\n
+\t\n
+Controllare i led sulla scheda di\n
+sistema ed individuare dove e'\n
+situato l'errore (led rosso ERR).\n
+
+20:
+Timeout stato catena Run\n
+Timeout stato doppio canale.\n
+\n
+Non ricevuto, entro tempo limite,\n
+conferma del cambiamento stato catena\n
+run a due canali.\n
+\t\n
+Controllare i led su scheda di sistema\n
+ed individuare dove e' situato l'errore\n
+(led rosso ERR). Per far accendere il\n
+led ERR attivarei motori. Verificare\n
+switch temp. nel trasformatore princ.
+21:
+Errore modo operativo.\n
+Non c'e' corrispondenza tra il modo\n
+operativo selez. e la veloc. robot.\n
+\t\n
+
+22:
+Errore modo operativo\n
+Modo oper. selez. non riconosciuto\n
+(piu' di uno o nessuno indicato).\n
+\t\n
+
+25:
+Timeout attivaz. Stop\n
+Comando di Stop attivato\n
+ma non riconosciuto nel\n
+tempo limite.\n
+\t\n
+
+26:
+Errore di stato di Run\n
+Conflitto di stato\n
+tra relays catena di emergenza\n
+e controllo avvio.\n
+\n
+\t\n
+Sostituire la scheda di sistema.
+40:
+Stop Hold\n
+\n
+\t\n
+
+41:
+Sovraccarico motori 1-6\n
+Uno o piu' motori in sovraccarico\n
+Aspettare qualche secondo prima\n
+di attivare ancora i motori.\n
+L'errore potrebbe ripetersi 15 s\n
+dopo attivazione motori.\n
+\t\n
+Controllare nella finestra IO\n
+valore del segnale OLM1; deve essere\n
+= 0 prima di attivare i motori.
+42:
+Sovraccarico motori 7-x\n
+Uno o piu' motori in sovraccarico\n
+Aspettare qualche secondo prima\n
+di attivare ancora i motori.\n
+L'errore potrebbe ripetersi 15 s\n
+dopo attivaz. motori.\n
+\t\n
+Controllare nella finestra IO\n
+valore del segnale OLM7; deve essere\n
+= 0 prima di attivare i motori.

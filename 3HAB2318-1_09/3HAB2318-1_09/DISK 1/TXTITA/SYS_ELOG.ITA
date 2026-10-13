@@ -1,0 +1,543 @@
+22::
+0:
+Sistema
+1:
+Aperta Enable\n
+\n
+\t\n
+
+2:
+Stop Emergenza\n
+\n
+\t\n
+
+3:
+Stop fine corsa\n
+\n
+\t\n
+
+6:
+Stop modo autom.\n
+\n
+\t\n
+
+7:
+Stop modo manuale\n
+\n
+\t\n
+
+8:
+Stop modo gener.\n
+\n
+\t\n
+
+9:
+Errore catena Run\n
+Errore di stato sul doppio canale.\n
+\t\n
+Controllare i led sulla scheda di\n
+sistema ed individuare dove e'\n
+situato l'errore (led rosso ERR).\n
+
+10:
+Stop emerg attivo\n
+Richiesto reset Stop Emergenza\n
+Utiliz pulsante MotorOff.\n
+\t\n
+
+12:
+Sistema in errore\n
+Errore di sistema non recuperabile.\n
+Necessario Warm Start.\n
+\t\n
+Agire sull'interruttore principale\n
+se il comando Riavvio non viene\n
+eseguito correttamente.
+20:
+Timeout catena Run\n
+Timeout stato doppio canale.\n
+\n
+La variazione dello stato di una\n
+delle due catene di Run non e'\n
+stata ricevuta nel tempo limite.\n
+\t\n
+Controllare i led sulla scheda di\n
+sistema ed individuare dove e'\n
+situato l'errore (led rosso ERR).\n
+Per far accendere il led ERR bisogna\n
+attivare i motori.
+21:
+Errore modo operativo.\n
+Non c'e' corrispondenza tra il modo\n
+operativo selez. e la veloc. robot.\n
+\t\n
+
+22:
+Errore modo operativo\n
+Modo oper. selez. non riconosciuto\n
+(piu' di uno o nessuno indicato).\n
+\t\n
+
+24:
+Timeout catena Enable\n
+Timeout stato doppio canale.\n
+\t\n
+La variazione dello stato di una\n
+delle due catene di Enable non e'\n
+stata ricevuta nel tempo limite.
+25:
+Timeout attivaz. Stop\n
+Comando di Stop attivato\n
+ma non riconosciuto nel\n
+tempo limite.\n
+\t\n
+
+26:
+Run control status fault\n
+Status conflict between runchain relays\n
+and run control.\n
+The error occurs if the enabling device\n
+is pressed in Auto mode and Motors On.\n
+In this situation this is normal.\n
+\t\n
+Replace the system board if the error\n
+occurs in any other situation.
+30:
+Assi non commutati\n
+Uno o piu' assi interni non\n
+sono commutati.\n
+\t\n
+
+31:
+Assi non calibrati\n
+Uno o piu' assi assoluti/relativi\n
+non sono calibrati.\n
+\t\n
+
+32:
+Counter non aggiornati\n
+Uno o piu' assi robot non\n
+sono calibrati.\n
+\n
+Portare il robot nella posizione di\n
+calibraz. ed aggiornare i Counter.\n
+\t\n
+
+33:
+Assi non sincronizzati\n
+Uno o piu' assi esterni non\n
+sono sincronizzati.\n
+\n
+Attivare i motori e sincronizzare\n
+tutte le unita' meccaniche visualiz.\n
+\t\n
+
+40:
+Stop Hold\n
+\n
+\t\n
+
+41:
+Sovrac motori 1-6\n
+Uno o piu' motori in sovraccarico\n
+Aspettare qualche secondo prima\n
+di attivare ancora i Motori.\n
+L'errore potrebbe ripetersi 15 s\n
+dopo attivaz. motori.\n
+\t\n
+Controllare nella finestra IO\n
+valore del segnale OLM1; deve essere\n
+= 0 prima di attivare i motori.
+42:
+Sovrac motori 7-x\n
+Uno o piu' motori in sovraccarico\n
+Aspettare qualche secondo prima\n
+di attivare ancora i Motori.\n
+L'errore potrebbe ripetersi 15 s\n
+dopo attivaz. motori.\n
+\t\n
+Controllare nella finestra IO\n
+valore del segnale OLM7; deve essere\n
+= 0 prima di attivare i motori.
+50:
+Operaz. non consentita\n
+Selez. un diverso modo operativo.\n
+\t\n
+
+51:
+Operaz. non consentita\n
+Il client non ha il contr. richiesto\n
+(programma/movimento).\n
+\t\n
+
+52:
+Operaz. non consentita\n
+Modif. stato controllore.\n
+\t\n
+
+53:
+Operaz. non consentita\n
+Modif. stato manipolatore.\n
+\t\n
+
+54:
+Operaz. non consentita\n
+Programma in esecuzione.\n
+\t\n
+
+60:
+Operaz. non consentita\n
+Modo Operativo in Auto.\n
+\t\n
+
+61:
+Operaz. non consentita\n
+Cambio modo operativo in Auto.\n
+\t\n
+
+62:
+Operaz. non consentita\n
+Modo Operativo in Manuale < 250.\n
+\t\n
+
+63:
+Operaz. non consentita\n
+Modo Operativo in Manuale 100%.\n
+\t\n
+
+64:
+Operaz. non consentita\n
+Cambio modo operativo in\n
+Manuale 100%.\n
+\t\n
+
+70:
+Operaz. non consentita\n
+Motori inseriti.\n
+\t\n
+
+71:
+Operaz. non consentita\n
+Non consentito durante cambio\n
+a stato Motori inseriti.\n
+\t\n
+
+72:
+Operaz. non consentita\n
+Motori disinseriti.\n
+\t\n
+
+73:
+Operaz. non consentita\n
+Non consentito durante cambio\n
+a stato Motori disinseriti.\n
+\t\n
+
+74:
+Operaz. non consentita\n
+Stop Sicurezza attivato.\n
+\t\n
+
+75:
+Operaz. non consentita\n
+Stop Emergenza attivato.\n
+\n
+Richiesto reset emergenza.\n
+Util. pulsante motori disinseriti.\n
+\t\n
+
+76:
+Operaz. non consentita\n
+Sistema in errore.\n
+\n
+Errore di sistema non recuperabile.\n
+Inizializzare il robot.\n
+\t\n
+Agire sull'interruttore principale\n
+se il comando Riavvio non viene\n
+correttamente eseguito.
+80:
+Operaz. non consentita\n
+Assi non commutati.\n
+\t\n
+
+81:
+Operaz. non consentita\n
+Assi non calibrati.\n
+\t\n
+
+82:
+Operaz. non consentita\n
+Counter resolver non\n
+aggiornati.\n
+\t\n
+
+83:
+Operaz. non consentita\n
+Assi non\n
+sincronizzati.\n
+\t\n
+
+100:
+Unit. prog in ctrl\n
+Una applicazione con unita' di\n
+program. e' in controllo della\n
+risorsa (programma/movimento)\n
+\t\n
+
+101:
+Unit. prog (prg) ctrl\n
+La finestra programma dell'unita'\n
+di program. e' attiva ed e' in\n
+controllo del programma.\n
+Entrare nella finestra produzione\n
+e ripetere il comando.\n
+\t\n
+
+102:
+Joystick in ctrl\n
+Il Joystick e' attivo ed e' in\n
+controllo movimento.\n
+Rilasciare il Joystick e riprovare\n
+nuovamente.\n
+\t\n
+
+111:
+Unita' prog(prg) ctrl\n
+La finetra programma della unita'\n
+di program. e' attiva ed e' in\n
+controllo del programma.\n
+Entrare nella finestra produzione\n
+e ripetere il comando.\n
+\t\n
+
+112:
+Pgm (1) in ctrl\n
+Impossibile muovere il robot con il\n
+joystick con finestra in modo Start.\n
+Fermare l'esecuzione del programma\n
+e ripetere il comando.\n
+\t\n
+
+113:
+Pgm (2) in ctrl\n
+Impossibile muovere il robot con il\n
+joystick con finestra in modo Start.\n
+Fermare l'esecuzione del programma\n
+e ripetere il comando.\n
+\t\n
+
+114:
+Pgm (3) in ctrl\n
+Impossibile muovere il robot con il\n
+joystick con finestra in modo Start.\n
+Fermare l'esecuzione del programma\n
+e ripetere il comando.\n
+\t\n
+
+115:
+Pgm (4) in ctrl\n
+Impossibile muovere il robot con il\n
+joystick con finestra in modo Start.\n
+Fermare l'esecuzione del programma\n
+e ripetere il comando.\n
+\t\n
+
+116:
+Pgm (5) in ctrl\n
+Impossibile muovere il robot con il\n
+joystick con finestra in modo Start.\n
+Fermare l'esecuzione del programma\n
+e ripetere il comando.\n
+\t\n
+
+120:
+Sistema I/O in ctrl\n
+\n
+\t\n
+
+125:
+Client %s in ctrl\n
+Client specif. e' in\n
+ctrl ricerca\n
+richiesta ( prog\mov)\n
+\t\n
+
+130:
+Fuori memoria in cfg\n
+\n
+\t\n
+
+131:
+Impos. leggere il file\n
+\n
+\t\n
+
+132:
+Parametri non salvati\n
+Impossibile salvare parametri.\n
+Disco protetto oppure spazio su\n
+disco insufficiente.\n
+\t\n
+Verificare o cambiare disco\n
+se risulta essere danneggiato.
+133:
+Impos. modif. identif.\n
+\n
+\t\n
+
+134:
+Versione errata\n
+Descrizione\Motivo:\n
+Nel file %s versione config\n
+errata\n
+Configurazione software\n
+%s\n
+\t\n
+Cambiare versione configurazione.
+140:
+MotorOn non accettato.\n
+Motor On via IO di sistema\n
+Non consentito.\n
+\t\n
+
+141:
+MotorOff non accettato\n
+Motor Off via IO di sistema\n
+Non consentito.\n
+\t\n
+
+142:
+Start non accettato.\n
+Start via IO di sistema\n
+Non consentito.\n
+\t\n
+
+143:
+Start Main non accett.\n
+Start Main via IO di sistema\n
+Non consentito.\n
+\t\n
+
+144:
+Stop non accettato.\n
+Stop via IO di sistema\n
+Non consentito.\n
+\t\n
+
+145:
+Stop Cycle non accett.\n
+Stop Cycle via IO di sistema\n
+Non consentito.\n
+\t\n
+
+146:
+Interrupt  non accett.\n
+Man Interrupt via IO di sistema\n
+Non consentito.\n
+\t\n
+
+147:
+Start non accett.\n
+Caricam. e start via IO di sistema\n
+Non consentiti.\n
+\t\n
+
+148:
+Conferma non accettata\n
+Conf. Reset Stop Emerg. via\n
+IO di sistema non consentita.\n
+\t\n
+
+149:
+Ripr. non accettato.\n
+Esecuz. riprist. errore prg via\n
+IO di sistema non consentito.\n
+\t\n
+
+150:
+Sincroniz. non accett.\n
+Sincronizzaz. di unita' meccanica\n
+via IO di sistema non consentita.\n
+\t\n
+
+151:
+Errore nome segnale.\n
+Impossibile usare nome segnale\n
+per parametri IO.\n
+Il nome del segn. non deve essere\n
+nel file di cfg IO.\n
+\t\n
+
+152:
+Troppe restrizioni.\n
+Non ci sono restrizioni per un'azione\n
+(segnale) nei param. Sysio.\n
+Numero di restrizioni nel file di\n
+cfg per param. Sysio troppo alto.\n
+\t\n
+
+153:
+Mot.On, Start negato.\n
+Motor On, Start/riavvio del prog\n
+via system IO non consentito.\n
+\t\n
+
+154:
+Stop Istruz negato.\n
+Interruz del prog\n
+via system IO non consentito.\n
+\t\n
+
+160:
+Config errata\n
+Il modulo di sistema %!%s nel task\n
+%s non ha le corrispondenti\n
+specifiche della configurazione\n
+per "Moduli Task"\n
+\t\n
+Visualiz "Moduli Task" mei Parametri\n
+di Sistema e modificare la config.\n
+relativa al modulo in oggetto.
+161:
+Perc file non valido\n
+Il modulo di sistema %!%s nel task\n
+%s non ha le corrispondenti\n
+specifiche della configurazione\n
+per "Moduli Task"; fa riferimento\n
+ad un percorso file inesistente\n
+\t\n
+Visualiz "Moduli Task" mei Parametri\n
+di Sistema e modificare il percorso\n
+file relativo al modulo in oggetto.
+162:
+Errore scrittura\n
+Errore scrittura durante tentativo\n
+di salvare modulo di sistema %!%s\n
+nel task %s. Oppure spazio\n
+insufficiente\n
+\t\n
+Visualiz. "Moduli Task" nei Parametri\n
+di Sistema e eseguira opportuna\n
+modifica.
+163:
+Riconfiguraz negata\n
+Alcuni sottoprog modificati non\n
+sono stati salvati\n
+\t\n
+Salvare i sottoprog e riprovare
+164:
+Riconfiguraz negata\n
+Alcuni moduli di sistema non sono\n
+stati ancora salvati\n
+\t\n
+Leggere le descrizioni degli errori\n
+dei messaggi precedenti.\n
+Riprovare ad eseguire comando Start
+165:
+Pos punt indef !\n
+Impossibile continuare esecuzione del\n
+programma dalla posizione attuale.\n
+Ricominciare dall'inizio del main.\n
+\t\n
+

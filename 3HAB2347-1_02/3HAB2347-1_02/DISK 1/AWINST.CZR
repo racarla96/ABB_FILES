@@ -1,0 +1,232 @@
+
+37::
+0:
+Obloukove svar
+1:
+
+2:
+System obl svar
+3:
+Nazev
+4:
+nazev
+5:
+jednotky
+6:
+funkce
+7:
+zarizeni
+8:
+Jednotka oblouk svar
+9:
+Nazev
+10:
+nazev
+11:
+rychlost
+12:
+delka
+13:
+podavani dratu
+14:
+Funkce obl svarovani
+15:
+Nazev
+16:
+nazev
+17:
+vzdalen opak startu
+18:
+pocet opakovani
+19:
+skrabka
+20:
+sirka skrabky
+21:
+smer skrabky
+22:
+predehrev
+23:
+propletani
+24:
+synchron propletani
+25:
+vypln krateru
+26:
+propletani vyplne
+27:
+zpetne horeni
+28:
+natoceni zpet
+29:
+prejet
+30:
+Zarizeni obl svareni
+31:
+Nazev
+32:
+nazev
+33:
+rucni podavani dratu
+34:
+povrch uprava svaru
+35:
+povrch upr propletan
+36:
+kontrola oblouku
+37:
+prodleva zapaleni
+38:
+kontrola napeti
+39:
+kontrola vody
+40:
+kontrola dratu
+41:
+kontrola plynu
+42:
+stav oblouk svareni
+43:
+kontrola plynu
+44:
+regulace plynu
+45:
+regulace vykonu
+46:
+cas prednast oblouku
+47:
+podavani dratu
+48:
+podavani dratu zpet
+49:
+synch proplet vlevo
+50:
+synch proplet vpravo
+51:
+port casovani svaru
+52:
+
+53:
+typ portu casovani
+54:
+svareci napeti
+55:
+
+56:
+nastaveni napeti
+57:
+
+58:
+podavani dratu
+59:
+
+60:
+nastaveni proudu
+61:
+
+62:
+opakovany start
+63:
+ziskat znovu rychl
+64:
+doba cyklu shrnovani
+65:
+zastavit proces
+66:
+volat subrutinu
+67:
+opakovat start
+68:
+zpozdeni oblouku ok
+69:
+kontrola proudu
+70:
+stav dratu
+71:
+strob casoveho progr
+72:
+proces zastaven
+73:
+kontrolni oblouk
+74:
+kontrolni napeti
+75:
+kontrolni proud
+76:
+kontrolni voda
+77:
+kontrolni plyn
+78:
+kontrol podav dratu
+79:
+cm/min
+80:
+mm/s
+81:
+palc/min
+82:
+mm
+83:
+palcu
+84:
+m/min
+85:
+mm/s
+86:
+palc/min
+87:
+Zap
+88:
+Vyp
+89:
+Binarni
+90:
+Impulz
+91:
+vedeni svaru
+92:
+vedeni svaru priprav
+93:
+stopa vedeni svaru
+94:
+leva syn ved svaru
+95:
+prava syn ved svaru
+96:
+kor vysky ved svaru
+97:
+kor strany ved svaru
+98:
+data ved svaru platn
+99:
+potvrz dat ved svaru
+100:
+povrch upr ved svaru
+101:
+Vedeni oblouk svaru
+102:
+vedeni svaru
+103:
+Nazev
+104:
+nazev
+105:
+predbezna podminka
+106:
+kontrolni povrch upr
+107:
+auto povrch uprava
+108:
+
+109:
+V
+110:
+kontrola horaku
+111:
+kontrolni horak
+112:
+CAN
+113:
+skrabka volit zapal
+114:
+data zapalovani

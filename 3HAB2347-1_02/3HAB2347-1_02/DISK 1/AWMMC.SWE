@@ -1,0 +1,253 @@
+71::
+0:
+Bågsvetsning
+1:
+Svets trimning...
+2:
+Pendling trimning...
+3:
+Fog trimning...
+4:
+(Följning trimning)
+5:
+Blockering...
+6:
+Block
+7:
+Släpp
+8:
+Avbryt
+9:
+OK
+10:
+Bågsvetsblockering
+11:
+Tryck på Block för att blockera
+12:
+Tryck på Släpp för att frisläppa
+13:
+Blockerad
+14:
+Process
+15:
+x
+16:
+
+17:
+Svets
+18:
+Pendling
+19:
+Följning
+20:
+Svets
+21:
+Pendling
+22:
+Följning
+23:
+Svetstrimning
+24:
+Ändra aktuellt värde
+25:
+Welddata
+26:
+Trimning
+27:
+Aktuellt
+28:
+Markera data
+29:
+Urspr >
+30:
+Aktuell>
+31:
+-
+32:
++
+33:
+Återta
+34:
+Pendling trimning
+35:
+Weavedata
+36:
+Uppdat
+37:
+Uppdatera ursprungligt värde
+38:
+Ursprung
+39:
+Trimning Aktuell
+40:
+aw_inhibit
+41:
+weldBlocked
+42:
+weaveBlocked
+43:
+trackBlocked
+44:
+seamdata
+45:
+welddata
+46:
+weavedata
+47:
+Manuell trådmatning...
+48:
+Gas på/av...
+49:
+Manuell trådmatning
+50:
+Mata framåt; Tryck på Framåt
+51:
+Mata bakåt; Tryck på Bakåt
+52:
+Trådmatning pågår så länge som
+53:
+funktionstangenten trycks ner.
+54:
+Framåt
+55:
+Bakåt
+56:
+(Släpp)
+60:
+bool
+61:
+Välj Bågsvetssystem...
+62:
+System:
+63:
+Inkrement...
+64:
+Trimningsinkrement
+65:
+Spänning:
+66:
+Avstånd:
+67:
+Trådmatning:
+68:
+Svetshastighet:
+69:
+Välj bågsvetssystem
+70:
+curr_aw_data
+71:
+curr_system_nr
+72:
+curr_weld
+73:
+curr_weld_type
+74:
+curr_seam
+75:
+curr_seam_type
+76:
+curr_weave
+77:
+curr_weave_type
+78:
+string
+80:
+Manuell gas Av/På
+81:
+Tryck på Gas på för att aktivera
+82:
+Gasen är på så länge som
+83:
+funktionstangenten trycks ner.
+84:
+Gas på
+86:
+ 
+87:
+awproc_id
+88:
+ipm_id
+89:
+user_data
+100:
+AW Manuell Sensor Av/På
+101:
+För att aktivera sensor, tryck På
+102:
+För att avaktivera sensor, tryck Av
+103:
+På
+104:
+(På)
+105:
+Av
+106:
+(Av)
+107:
+Y:
+108:
+Z:
+109:
+Spalt:
+110:
+*****
+111:
+Sensor koordinater
+112:
+Axel:
+113:
+Sensor fel\n
+\n
+   Kommunikations fel
+114:
+sensor fel\n
+\n
+   Allmänt fel
+115:
+Sensor fel\n
+\n
+   Sensor upptagen
+116:
+Sensor fel\n
+\n
+   Okänt kommando
+117:
+Sensor fel\n
+\n
+   Otillåtet variabel-nr.
+118:
+Sensor fel\n
+\n
+   Externt larm
+119:
+Sensor fel\n
+\n
+   Kamera fel
+120:
+Sensor fel\n
+\n
+   Temperatur fel
+121:
+Sensor fel\n
+\n
+   Värde utanför område
+122:
+Sensor fel\n
+\n
+   Kamera kontroll fel
+123:
+OK
+124:
+Sensor...
+125:
+(Sensor)
+126:
+Robot Koordinater
+127:
+Kalibrering:
+140:
+Meas. values...
+141:
+Measurement values
+142:
+        Present

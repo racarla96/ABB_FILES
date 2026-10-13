@@ -1,0 +1,257 @@
+Revision 1.10  1996/12/12  07:30:40  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+10::
+0:
+Administr. Archivos
+1:
+Nombre     Tipo            Fecha
+2:
+Ir a la linea
+3:
+Linea actual
+4:
+Anter.
+5:
+Cancela
+6:
+OK
+7:
+Archivo
+8:
+Editar
+9:
+Ver
+10:
+Opcion.
+11:
+Crear Directorio...
+12:
+Renombrar...
+13:
+Copiar...
+14:
+Mover...
+15:
+Borrar...
+16:
+Imprimir Directorio...
+17:
+Ir a la linea...
+18:
+Ir al Inicio
+19:
+Ir al Final
+20:
+Formatear...
+21:
+
+22:
+Formatear
+23:
+Formatear en unidad
+24:
+Nuevo nombre de volum.
+25:
+
+26:
+Nuevo Directorio
+27:
+Crear dir. con nombre
+28:
+Renombrar
+29:
+Antiguo nombre dir
+30:
+Nuevo nombre dir
+31:
+Antiguo nom. arch.
+32:
+Nuevo nombre arch.
+33:
+Borrar
+34:
+Borrar directorio
+35:
+Borrar archivo
+36:
+Imprimir directorio
+37:
+Datos a imprimir
+38:
+Directorio actual
+39:
+Arbol directorio
+40:
+Copiar
+41:
+Como
+42:
+Mover
+43:
+Info
+44:
+Nombre
+45:
+Tipo
+46:
+Tamaño en bytes
+47:
+Fecha
+48:
+Hora
+49:
+Pulsar Entrar para continuar
+50:
+No se puede copiar archivo
+51:
+Funcion no implementada
+52:
+No se puede crear directorio
+53:
+El nombre ya existe
+54:
+
+55:
+No puedo leer directorio
+56:
+No puedo renombrar directorio
+57:
+No puedo renombrar archivo
+58:
+No puedo borrar directorio
+59:
+No puedo borrar archivo
+60:
+Unidad
+61:
+Nombre             Tipo
+62:
+En
+63:
+No puedo copiar directorio
+64:
+No puedo mover directorio
+65:
+No puedo mover archivo
+66:
+Directorio no vacio
+67:
+No se puede formatear
+68:
+...
+69:
+DIRNAME
+70:
+Entrar texto
+71:
+
+72:
+
+73:
+Copiando archivo...
+74:
+Moviendo archivo...
+75:
+No se puede hacer
+76:
+No hay volumen en unidad
+77:
+Imposible mover entre unidades
+78:
+Espere por favor
+79:
+Formateando volumen...
+80:
+Vacio o disco defectuoso
+81:
+Imprimir archivo...
+82:
+Imprimir solo a arch
+83:
+Archivo a impr.
+84:
+Imprimir archivo
+85:
+Impr. directorio a archivo:
+86:
+Imprimiendo!
+87:
+Para cancelar pulse Entrar
+88:
+Impresora ocupada\n
+\n
+Intertarlo si impresora lista
+89:
+No puedo imprimir. Muchos\n
+trabajos en cola\n
+\n
+Intentelo mas tarde
+90:
+No puedo imprimir. Impresora\n
+no configurada en los\n
+parametros de sistema
+91:
+No hay acceso archivo especif.
+92:
+Impresion cancelada por\n
+perdida de acceso al archivo\n
+durante la impresion
+93:
+No es un archivo imprimible
+94:
+Dir. "A" es parte de Dir "De"
+95:
+Conversores Rapid...
+96:
+Conversores Rapid
+97:
+Archivo a convertir:
+98:
+Guardar en archivo:
+99:
+Convert
+100:
+Guardar en archivo:
+101:
+ Archivo ya existe
+102:
+ No puedo convertir archivo\n
+ especificado\n
+\n
+ Tipo archivo ilegal\n
+
+103:
+ Archivo a convertir:
+104:
+Con funcion:
+105:
+Añadir info de tipo Rapid
+106:
+Usar info de tipo Rapid
+107:
+\n
+ Fallo de conversion Rapid
+108:
+  Ocupado\n
+\n
+\n
+  Espere por favor
+109:
+ No puedo convertir\n
+\n
+ Combinacion ilegal de tipo\n
+ de archivo y funcion
+110:
+\n
+ Archivo destino ya existe !\n
+\n
+ Sustituir?
+111:
+"A" y "De" son identicos
+112:
+Muchos niveles subdirectorios
+113:
+El disco esta probablemente\n
+lleno o protegido de escritura

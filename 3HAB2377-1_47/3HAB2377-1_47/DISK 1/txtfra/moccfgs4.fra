@@ -1,0 +1,913 @@
+33::
+1:
+Manipulateur
+2:
+Syst Mouvement
+3:
+Nom
+4:
+Nom
+5:
+Version
+6:
+Tempo frein arret
+7:
+Resolution vitesse
+8:
+Resolution Dynamique
+9:
+0.33
+10:
+0.50
+11:
+0.67
+12:
+0.83
+13:
+1.00
+14:
+Resolution traj
+15:
+Temps de file
+16:
+Taille de file
+17:
+Temp. min armoire
+18:
+Temp. max armoire
+19:
+Temp. min robot
+20:
+Temp. max robot
+21:
+Nom
+22:
+Unite mecanique
+23:
+Nom
+24:
+Nom
+25:
+Utilise run enable
+26:
+Utilise relais activ
+27:
+Utilise relais frein
+28:
+Utilise robot
+29:
+Utilise axe seul 1
+30:
+Utilise axe seul 2
+31:
+Utilise axe seul 3
+32:
+Utilise axe seul 4
+33:
+Utilise axe seul 5
+34:
+Utilise axe seul 6
+35:
+Repere Utilis deplace par
+36:
+Etat repos
+37:
+Oui
+38:
+Non
+39:
+Offset de vitesse
+40:
+Oui
+41:
+Non
+42:
+Activer au demarrage
+43:
+Oui
+44:
+Non
+45:
+Interdit deact.
+46:
+Oui
+47:
+Non
+48:
+Relais
+49:
+Nom
+50:
+Nom
+51:
+Signal de sortie
+52:
+Signal d'entree
+53:
+Entree inversee
+54:
+Oui
+55:
+Non
+56:
+Temporisation
+57:
+Robot
+58:
+Nom         Type         Axes
+59:
+Nom
+60:
+Utilise type robot
+61:
+Utilise axe 1
+62:
+Utilise axe 2
+63:
+Utilise axe 3
+64:
+Utilise axe 4
+65:
+Utilise axe 5
+66:
+Utilise axe 6
+67:
+Repere base x
+68:
+Repere base y
+69:
+Repere base z
+70:
+Repere base u0
+71:
+Repere base u1
+72:
+Repere base u2
+73:
+Repere base u3
+74:
+Rep. base deplace par
+75:
+Axe seul
+76:
+Nom         Type         Axe
+77:
+Nom
+78:
+Utilise type axe seul
+79:
+Utilise axe
+80:
+M94 coord axe seul
+81:
+Non
+82:
+Oui
+83:
+Repere base x
+84:
+Repere base y
+85:
+Repere base z
+86:
+Repere base u0
+87:
+Repere base u1
+88:
+Repere base u2
+89:
+Repere base u3
+90:
+Repere base coord
+91:
+Type axe seul
+92:
+Nom
+93:
+Mecanique
+94:
+AXE LINEAIRE
+95:
+Vitesse max apprent.
+96:
+ROT_OUTIL
+97:
+ROT_LIBRE
+98:
+Axe
+99:
+Axes
+100:
+Nom
+101:
+Axe Logique
+102:
+Utilise canal Axc
+103:
+Utilise liaison
+104:
+Utilise frein
+105:
+Utilise surveillance
+106:
+Utilise filtre Axc
+107:
+Utilise syst ampli
+108:
+Type 'control m' non etal.
+109:
+UCCM0
+110:
+'control master' non etal.
+111:
+Type 'control master'
+112:
+UCCM0
+113:
+LCM0
+114:
+FFWCM0
+115:
+FFWCM1
+116:
+FFWCM2
+117:
+FFWCM3
+118:
+'control master' norm
+119:
+Canal Axc
+120:
+Nom
+121:
+Nom
+122:
+Canal de mesure
+123:
+Systeme de mesure
+124:
+Non def
+125:
+Serie
+126:
+Par. rel
+127:
+Par. abs
+128:
+Sens rot inverse
+129:
+Normal
+130:
+Inverse
+131:
+Liaison
+132:
+Nom         Type
+133:
+Nom
+134:
+Utilise type liaison
+135:
+Utilise pt controle
+136:
+Utilise charge bras
+137:
+Mouvement rotation
+138:
+Oui
+139:
+Non
+140:
+Centre_x axe rot
+141:
+Centre_y axe rot
+142:
+Centre_z axe rot
+143:
+Rotation axe (u0)
+144:
+Rotation axe (u1)
+145:
+Rotation axe (u2)
+146:
+Rotation axe (u3)
+147:
+Rapport reduction
+148:
+Rapport reduction haut
+149:
+Rapport reduction bas
+150:
+Limite sup. axe
+151:
+Limite inf. axe
+152:
+Position etalonnage
+153:
+Acceleration nominale
+154:
+Deceleration nominale
+155:
+Ratio suracc nominale
+156:
+Ratio surdec nominale
+157:
+Inertie transm.
+158:
+Pt controle bras
+159:
+Nom
+160:
+Nom
+161:
+Type controle
+162:
+Position
+163:
+Aucun
+164:
+Position x
+165:
+Position y
+166:
+Position z
+167:
+Charge bras
+168:
+Nom
+169:
+Nom
+170:
+Longueur
+171:
+Masse
+172:
+Centre gravite x
+173:
+Centre gravite y
+174:
+Centre gravite z
+175:
+Inertie x
+176:
+Inertie y
+177:
+Inertie z
+178:
+Frein
+179:
+Nom
+180:
+Nom
+181:
+Lim vit arret ctrl
+182:
+Tempo arret ctrl
+183:
+Tempo ctrl frein
+184:
+Couple frein
+185:
+Lim vit rampe frein
+186:
+Utilise type frein
+187:
+Type Frein
+188:
+Nom
+189:
+Nom
+190:
+Inertie
+191:
+Surveillance
+192:
+Nom         Type
+193:
+Nom
+194:
+Utilise type surveillance
+195:
+Surveillance pos a la m.s.t
+196:
+On
+197:
+Off
+198:
+Surveillance compteur
+199:
+On
+200:
+Off
+201:
+Surveillance pos
+202:
+On
+203:
+Off
+204:
+Surveillance vitesse
+205:
+On
+206:
+Off
+207:
+Surveillance charge
+208:
+On
+209:
+Off
+210:
+Surveillance blocage
+211:
+On
+212:
+Off
+213:
+Zone en position
+214:
+Vitesse nulle ( % )
+215:
+Type surveillance
+216:
+Nom
+217:
+Nom
+218:
+Lim pos a la m.s.t
+219:
+Duree max surcharge
+220:
+Duree max blocage
+221:
+Vit max teach 'main'
+222:
+Vit min teach 'norm'
+223:
+Vit max teach 'dsp'
+224:
+Syst ampli puiss
+225:
+Syst ampli puiss
+226:
+Nom
+227:
+Externe
+228:
+Oui
+229:
+Non
+230:
+Utilise secteur
+231:
+Utilise transfo
+232:
+Utilise redresseur
+233:
+Utilise ampli puiss
+234:
+Fct transf courant
+235:
+Utilise cable
+236:
+Utilise moteur
+237:
+Cycle thermique
+238:
+Cycle effort max
+239:
+Reducteur
+240:
+Secteur
+241:
+Secteur
+242:
+Nom
+243:
+Tolerance min secteur
+244:
+Tolerance max secteur
+245:
+Transfo
+246:
+Transfo
+247:
+Nom
+248:
+Utilise type transfo
+249:
+Puissance max
+250:
+Montee temp. ambiante
+251:
+Puissance thermique
+252:
+Type transfo
+253:
+Type
+254:
+Nom
+255:
+Tension secondaire
+256:
+Redresseur
+257:
+Nom         Type
+258:
+Nom
+259:
+Type
+260:
+Ampli Puissance
+261:
+Nom       Type
+262:
+Nom
+263:
+Utilise type ampli
+264:
+i_max
+265:
+Type ampli
+266:
+Nom       Type
+267:
+Nom
+268:
+Type
+269:
+Constante Courant
+270:
+Constante vitesse
+271:
+Offset max vitesse
+272:
+Cable
+273:
+Cables
+274:
+Nom
+275:
+Utilise type cable
+276:
+Longueur
+277:
+Moteur
+278:
+Nom         Type
+279:
+Nom
+280:
+Utilise type moteur
+281:
+Offset commutateur
+282:
+Offset com valide
+283:
+Oui
+284:
+Non
+285:
+Offset etalonnage
+286:
+Offset etalonnage valide
+287:
+Oui
+288:
+Non
+289:
+Type Moteur
+290:
+Nom
+291:
+Nom
+292:
+Paires de poles
+293:
+ke  ( V/rad/s )
+294:
+Courant max (A eff)
+295:
+Cycle thermique
+296:
+Cycles thermiques
+297:
+Nom
+298:
+Couple moyen 0
+299:
+Cycle effort max
+300:
+Cycles effort max
+301:
+Nom
+302:
+Vit abs. max
+303:
+Couple abs. max
+304:
+Reducteur
+305:
+Reducteur
+306:
+Nom
+307:
+'ctrl master' 0 non etal
+308:
+Nom
+309:
+Nom
+310:
+Kp, gain boucle pos
+311:
+Kv, gain boucle vit
+312:
+Ti T-Int boucle vit
+313:
+Vit max non etal
+314:
+Acc max non etal
+315:
+Dec max non etal
+316:
+Lag ctrl master 0
+317:
+Nom
+318:
+Nom
+319:
+Kp, gain boucle pos
+320:
+Kv, gain boucle vit
+321:
+Ti T-Int boucle vit
+322:
+Filtre 'Notch' actif
+323:
+Oui
+324:
+Non
+325:
+Frequence filtre 'Notch'
+326:
+Largeur filtre 'Notch'
+327:
+Temps de m.a.j process
+328:
+EXT_POS
+329:
+Nom process ext
+330:
+Axe independant
+331:
+On
+332:
+Off
+333:
+Limite sup. axe independant
+334:
+Lim inf. axe indepdt
+335:
+Facteur surv. blocage
+336:
+Facteur surv. charge
+337:
+Facteur surv. vitesse
+338:
+Facteur surv. position
+339:
+Vitesse maxi sync
+340:
+Vitesse mini sync
+341:
+Marge couple basses vitesses
+342:
+Marge couple hautes vitesses
+343:
+'Cutin point' pour marge couple
+344:
+Couple frein absolu
+345:
+Gravite beta
+346:
+EXT_CTL
+347:
+Affecte ctrl force
+348:
+Oui
+349:
+Non
+350:
+Limite pos on forcee
+351:
+Limite pos off forcee
+352:
+Lim sup vit max auto
+353:
+Control actif force
+354:
+Oui
+355:
+Non
+356:
+Kp force
+357:
+Ki force
+358:
+Tps montee Kp
+359:
+mode auto 'notch'
+360:
+Oui
+361:
+Non
+362:
+freq auto ss balayage
+363:
+freq auto min
+364:
+modif rel auto max
+365:
+Temps Prefetch
+366:
+Temps Event preset
+367:
+Vitesse Max coupure puiss.
+368:
+Egalisation CPU
+369:
+Tempo activation
+370:
+Tempo desactivation
+371:
+Dir mvt manuel lineaire
+372:
+Dir mvt manuel reorient.
+373:
+Dir mvt manuel axe/axe
+374:
+Dir mvt manuel axe seul
+375:
+Lim sup 2 axe couple
+376:
+Lim inf 2 axe couple
+377:
+Torque const ext
+378:
+Torque const prop
+379:
+Angle zero torq ext
+380:
+Mode prealim.
+381:
+Non
+382:
+Vit
+383:
+Trq
+384:
+Largeur de bande
+385:
+Df
+386:
+Dw
+387:
+Retard
+388:
+Inertie
+389:
+Mvt manuel lineaire
+390:
+Nom
+391:
+Nom
+392:
+Bas World
+393:
+Rot World
+394:
+Cote World
+395:
+Bas Base
+396:
+Rot Base
+397:
+Cote Base
+398:
+Bas Tool
+399:
+Rot Tool
+400:
+Cote Tool
+401:
+Bas Wobj
+402:
+Rot Wobj
+403:
+Cote Wobj
+404:
+Bas world outil au sol
+405:
+Rot world outil au sol
+406:
+Cote world outil au sol
+407:
+Bas base outil au sol
+408:
+Rot base outil au sol
+409:
+Cote base outil au sol
+410:
+Bas outil outil au sol
+411:
+Rot outil outil au sol
+412:
+Cote outil outil au sol
+413:
+Bas wobj outil au sol
+414:
+Rot wobj outil au sol
+415:
+Cote wobj outil au sol
+416:
+Mvt manuel reorient
+417:
+Nom
+418:
+Nom
+419:
+Bas World
+420:
+Rot World
+421:
+Cote World
+422:
+Bas Base
+423:
+Rot Base
+424:
+Cote Base
+425:
+Bas Tool
+426:
+Rot Tool
+427:
+Cote Tool
+428:
+Bas Wobj
+429:
+Rot Wobj
+430:
+Cote Wobj
+431:
+Bas world outil au sol
+432:
+Rot world outil au sol
+433:
+Cote world outil au sol
+434:
+Bas base outil au sol
+435:
+Rot base outil au sol
+436:
+Cote base outil au sol
+437:
+Bas outil outil au sol
+438:
+Rot outil outil au sol
+439:
+Cote outil outil au sol
+440:
+Bas wobj outil au sol
+441:
+Rot wobj outil au sol
+442:
+Cote wobj outil au sol
+443:
+Mvt manuel axe/axe
+444:
+Nom
+445:
+Nom
+446:
+Axe 1
+447:
+Axe 2
+448:
+Axe 3
+449:
+Axe 4
+450:
+Axe 5
+451:
+Axe 6
+452:
+Mvt manuel axe seul
+453:
+Nom
+454:
+Nom
+455:
+Axe seul
+456:
+Use opt. stop duty c.

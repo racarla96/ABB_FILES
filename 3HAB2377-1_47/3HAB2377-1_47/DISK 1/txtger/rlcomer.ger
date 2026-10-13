@@ -1,0 +1,47 @@
+55::
+46:
+Kann nicht öffnen
+47:
+RAISE CODE:
+48:
+Nicht geöffnet
+49:
+Keine ASCII-Datei
+50:
+Keine Binär-Datei
+51:
+Kein Zugriff auf die Datei
+52:
+Der Parameter %s in
+53:
+ist kein Datenfeld.
+54:
+Ausgabepuffer muß Datenfeld Typ num sein
+55:
+ist als negativer Wert spezifiziert.
+56:
+Der Parameter muß positiv sein.
+57:
+Kein Zugriff auf
+58:
+-time event- Generator.
+59:
+-signal event- Generator.
+60:
+Timeout hat Abarb. unterbrochen von
+61:
+Dig. Eingang hat Abarbeit. unterbr. von
+65:
+Empfangene Daten sind nicht Typ num
+67:
+String zu lang
+68:
+Zu viele Leseanforderungen
+76:
+Das Pufferelement %i in
+77:
+ist außerhalb 0-255.
+78:
+Elemente im Puffer müssen Wert 0-255
+80:
+ist außerhalb Datenfeld.

@@ -1,0 +1,543 @@
+23::
+1125:
+Serieller Kanal 7 Fehler\n
+Empfangene Daten entsprechen nicht\n
+den gesendete Daten.\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1126:
+Überlauf serieller Kanal7\n
+\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1127:
+Kanal 7 Parität Fehler\n
+\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1128:
+Kanal7 Übertragungsfehler\n
+\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1129:
+Kanal 7 Störungen/Fehler\n
+\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1405:
+Achsprogramm fehlt\n
+Prom beinhaltet nicht das\n
+Achsprogramm\n
+\t\n
+Proms oder Robotcomputer austauschen
+1406:
+Speicherfehler\n
+Speicherfehler im Achscomputer\n
+\t\n
+Robotcomputer austauschen
+1407:
+Achscomputer Fehler\n
+\n
+\t\n
+Anschluß von Signal DRVFLT-N\n
+kontrollieren.\n
+Robotcomputer austauschen
+1416:
+Bahncomputer Fehler\n
+\n
+\t\n
+Bahncomputer austauschen
+1417:
+Bahncomputer Fehler\n
+\n
+\t\n
+Bahncomputer austauschen
+1421:
+Fehler im EA-Computer\n
+\n
+\t\n
+Robotcomputer austauschen
+1601:
+HI PROM Checksum Fehler\n
+Checksumme %.f sollte sein: %.f\n
+\t\n
+Proms oder Robotcomputer austauschen
+1602:
+LOW PROM Checksum Fehler\n
+Checksumme %.f sollte sein: %.f\n
+\t\n
+Proms oder Robotcomputer austauschen
+1603:
+PROM Checksumme Fehler\n
+Checksumme %.f\ sollte sein: %.f\n
+\t\n
+Proms oder Robotcomputer austauschen
+1703:
+Serieller Kanal 3\n
+Fehler Überlauf\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1704:
+Serieller Kanal 5\n
+Fehler Überlauf\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1705:
+Serieller Kanal 8\n
+Fehler Überlauf\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1708:
+Kanal 3 Parität Fehler\n
+Serieller Kanal 3 Paritätsfehler\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1709:
+Kanal 5 Parität Fehler\n
+Serieller Kanal 5 Paritätsfehler\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1710:
+Kanal 8 Parität Fehler\n
+Serieller Kanal 8 Paritätsfehler\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1713:
+Kanal3 Übertragungsfehler\n
+Serieller Kanal 3 Übertragungsfehler\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1714:
+Kanal5 Übertragungsfehler\n
+Serieller Kanal 5 Übertragungsfehler\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrolliere\n
+2. Robotcomputer austauschen
+1715:
+Kanal8 Übertragungsfehler\n
+Serieller Kanal 8 Übertragungsfehler\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1735:
+Serieller Kanal 3 Fehler\n
+Empfangene Daten entsprechen nicht\n
+den gesendete Daten.\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1736:
+Serieller Kanal 5 Fehler\n
+Empfangene Daten entsprechen nicht\n
+den gesendete Daten.\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1737:
+Serieller Kanal 8 Fehler\n
+Empfangene Daten entsprechen nicht\n
+den gesendete Daten.\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1743:
+Serieller Kanal 3 Fehler\n
+Handshake Fehler\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1744:
+Serieller Kanal 5 Fehler\n
+Handshake Fehler\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+1745:
+Serieller Kanal 8 Fehler\n
+Handshake Fehler\n
+\t\n
+1. Kommunikation Parameter\n
+   kontrollieren\n
+2. Robotcomputer austauschen
+3101:
+X Resolver Fehler\n
+Fehler beim X Resolversignal in\n
+Kanal %.f.\n
+X Signal ist zu niedrig.\n
+\t\n
+Resolver und -anschlüsse kontrollieren.\n
+Kontrolle/Austausch serielle Meßkarte\n
+oder externe Achsenkarte.
+3102:
+Y Resolver Fehler\n
+Fehler beim X Resolversignal in\n
+Kanal %.f.\n
+Y Signal ist zu niedrig.\n
+\t\n
+Resolver und -anschlüsse kontrollieren.\n
+Kontrolle/Austausch serielle Meßkarte\n
+oder externe Achsenkarte.
+3103:
+X oder Y Resolver Fehler\n
+Fehler bei X oder Y Resolversignal\n
+bei Achse %.f.\n
+Quadratsumme X und Y zu groß.\n
+\t\n
+Resolver und -anschlüsse kontrollieren.\n
+Kontrolle/Austausch serielle Meßkarte\n
+oder externe Achsenkarte.
+3104:
+X oder Y Resolver Fehler\n
+Fehler bei X oder Y Resolversignal\n
+bei Achse %.f.\n
+Quadratsumme X und Y zu klein.\n
+\t\n
+Resolver und -anschlüsse kontrollieren.\n
+Kontrolle/Austausch serielle Meßkarte\n
+oder externe Achsenkarte.
+3105:
+Resolver Einspeis. Fehler\n
+Fehlerhaftes Einspeisesignal zum\n
+Resolver.\n
+\t\n
+Kontrolle/Austausch serielle Meßkarte.
+3106:
+Offsetfehler Treiberstufe\n
+Offset Treiberstufe zu groß\n
+bei Achse/Kanal %.f.\n
+\t\n
+Restart des Systems\n
+Treiberstufe austauschen
+3107:
+Falscher Gleichrichter\n
+Gleichrichtereinheit paßt nicht\n
+zur Konfiguration des Systems.\n
+\t\n
+Kontrolle/Änderung der System-\n
+konfiguration.
+3108:
+Falscher Typ Treiberstufe\n
+Treiberstufe für Achse/Kanal %.f\n
+paßt nicht zur Konfiguration.\n
+\t\n
+Kontrolle/Änderung der Konfiguration.\n
+Austausch der Treiberstufe.
+3148:
+Int. Achscomputer Fehler\n
+Achscomputer gestoppt durch\n
+HW Interrupt wegen anderer Fehler.\n
+\t\n
+Kontrolle der Systemkonfiguration.\n
+System neu booten.\n
+Robotcomputer austauschen.
+3151:
+Achscomp.Ausgang Überlauf\n
+Achscomputer gestoppt durch\n
+HW Interrupt wegen Überlauf bei\n
+Ausgangssignal.\n
+\t\n
+System neu booten\n
+Robotcomputer austauschen
+3152:
+Achscomputer/Treiberstufe\n
+Achscomputer gestoppt durch\n
+HW Interrupt wegen Fehler\n
+in Treiberstufe.\n
+\t\n
+Kontrolle der Systemkonfiguration\n
+System neu booten\n
+Robotcomputer austauschen
+3153:
+Achscomp. Überlauf Tacho\n
+Achscomputer gestoppt durch\n
+HW Interrupt wegen Überlauf in\n
+Tachoregister.\n
+\t\n
+Kontrolle der Systemkonfiguration\n
+System neu booten\n
+Treiberstufe austauschen
+3154:
+Achscomputer Überlauf XY\n
+Achscomputer gestoppt durch\n
+HW Interrupt wegen Überlauf in\n
+X, Y-Register.\n
+\t\n
+System neu booten
+3155:
+Achscomputer Überlauf RC\n
+Achscomputer gestoppt durch\n
+HW Interrupt wegen Überlauf im\n
+Register für serielle Übertragung.\n
+\t\n
+Neustart des Systems und Kontrolle\n
+der Umdrehungszähler.\n
+System neu booten
+3156:
+Übertragung Fehler\n
+Kontakt zu dem serielle Meßsystem\n
+verloren. Achscomputer gestoppt\n
+durch Timeout bei Übertragung.\n
+\t\n
+Verbindung zwischen Steuerung, Roboter\n
+und serieller Meßkarte(n) kontrollieren.\n
+Serielle Meßkarte oder Robotcomputer\n
+austauschen.
+3157:
+Übertragung Fehler\n
+Achscomputer  hat einen Fehler\n
+in der Übertragung von/zum\n
+seriellen Meßsystem festgestellt.\n
+\t\n
+Verbindung/Kabel des seriellen Meßsystem\n
+und Abschirmungen kontrollieren.\n
+Kabel zum Roboter auf elektromagn.\n
+Störungen kontrollieren. Serielle Meß-\n
+karte oder Robotcomputer austauschen.
+3306:
+Brückentest Fehler\n
+Fehler in Treiberstufe beim Test\n
+der Brücken.\n
+\t\n
+--
+3307:
+Brückentest Fehler\n
+Fehler in Treiberstufe beim Test\n
+der Brücken.\n
+\t\n
+--
+3313:
+Kommunik. Brücken Fehler\n
+Ext. Achsen Kommunikations-\n
+fehler Brücken.\n
+\t\n
+--
+3317:
+Fehler im Achscomputer\n
+Fehler im Achscomputer\n
+Jumper Komm. Fehler\n
+\t\n
+Robotcomputer austauschen
+7001:
+Schütz Aktivierung Fehler\n
+MotorenEin Schütz nicht aktiviert./\n
+\t\n
+Neustart des Systems.\n
+TempSchalter in Haupttrafo kontrollieren.\n
+Schütz (M.ein/AUX) kontr./austauschen.\n
+Überwachungsschütz KM3 oder Systemkarte\n
+austauschen.
+8001:
+Akkupufferung verloren\n
+Akkupufferung für die serielle\n
+Meßkarte %.f.\n
+seit letztem Ausschalten oder Neustart\n
+verloren.\n
+\t\n
+Akkuspannung nach 18 Stunden Aufladung\n
+kontrollieren.\n
+Akkuanschlüsse auf der seriellen\n
+Meßkarte kontrollieren.\n
+Akku austauschen.
+8010:
+Meßkarte nicht gefunden\n
+Serielle Meßkarte %.f nicht gefunden.\n
+\t\n
+Parameter der Systemkonfiguration\n
+kontrollieren.\n
+Verbindung/Kabel des seriellen Meß-\n
+systems kontrollieren.\n
+Serielle Meßkarte austauschen.
+8011:
+Datenübertragung Fehler\n
+Fehler bei der Datenübertragung zu/von\n
+serielle Meßkarte %.f.\n
+\t\n
+Verbindung/Kabel des seriellen Meßsystem\n
+und Abschirmungen kontrollieren.\n
+Kabel zum Roboter auf elektromagn.\n
+Störungen kontrollieren. Serielle Meß-\n
+karte oder Robotcomputer austauschen.
+8012:
+Serieller Offset X Fehler\n
+Offset Fehler im X Signal auf\n
+serielle Meßkarte %.f.\n
+\t\n
+Serielle Meßkarte austauschen
+8013:
+Serieller Offset Y Fehler\n
+Offset Fehler im Y Signal auf\n
+serielle Meßkarte %.f.\n
+\t\n
+Serielle Meßkarte austauschen
+8014:
+Serieller Lin. Fehler\n
+Linearität Fehler bei Differenz im\n
+X-Y Signal serielle Meßkarte %.f.\n
+- System arbeitet noch mit Warnung.\n
+- System funktioniert nicht mit Fehler.\n
+\t\n
+Serielle Meßkarte austauschen
+8015:
+Serieller Lin. X Fehler\n
+Linearität Fehler im X Signal auf\n
+serielle Meßkarte %.f.\n
+\t\n
+Serielle Meßkarte austauschen
+8016:
+Serieller Lin. Y Fehler\n
+Linearität Fehler im Y Signal auf\n
+serielle Meßkarte %.f.\n
+\t\n
+Serielle Meßkarte austauschen
+8017:
+Parallel Komm. Fehler\n
+Kommunikationsfehler zur parallelen\n
+Karte für externe Achsen.\n
+\t\n
+Verbindung/Kabel des parallelen Meß-\n
+systems kontrollieren.\n
+Kontrolle der Systemkonfiguration.
+8018:
+Parallel Offset AD X\n
+X Signal Offset überschreitet Toleranz\n
+auf parallelen Karte für externe Achsen.\n
+\t\n
+Parallele Karte für externe Achsen\n
+austauschen.
+8019:
+Parallel Offset AD Y\n
+Y Signal Offset überschreitet Toleranz\n
+auf parallelen Karte für externe Achsen.\n
+\t\n
+Parallele Karte für externe Achsen\n
+austauschen.
+8020:
+Parallel Offset DA Fehler\n
+Offset überschreitet Toleranz.\n
+Fehler D/A Wandler in Kanal %.f auf\n
+parallelen Karte für externe Achsen.\n
+\t\n
+Parallele Karte für externe Achsen\n
+austauschen.\n
+Unterschiedliche Meßkanäle verwenden.
+8021:
+Parallel Linearität DA-AD\n
+Linearität Fehler im D/A und A/D Wandler\n
+in Kanal %.f auf parallelen Karte für\n
+externe Achsen.\n
+\t\n
+Parallele Karte für externe Achsen\n
+austauschen.
+8022:
+Konfiguration Fehler\n
+Fehler in Konfiguration des Meßsystems\n
+in Kanal %.f.\n
+\t\n
+Kontrolle/Änderung der Parameter\n
+der Systemkonfiguration.
+9001:
+Servosystem Fehler\n
+Gleichrichter ist nicht angeschlossen.\n
+\t\n
+Gleichrichter einbauen\n
+Gleichrichter austauschen
+9002:
+Servosystem Fehler\n
+Gleichrichter PowerUp Status falsch.\n
+\t\n
+Neustart des Systems\n
+Gleichrichter austauschen
+9003:
+Servosystem Fehler\n
+Gleichrichter Spannung zu hoch.\n
+\t\n
+Anschlüsse an Shunt-Widerstand\n
+kontrollieren.\n
+Gleichrichter austauschen
+9004:
+Servosystem Fehler\n
+Gleichrichter Spannung unzulässig.\n
+\t\n
+Spannung vom MotorenEin Schütz\n
+kontrollieren.\n
+Gleichrichter austauschen
+9005:
+Servosystem Fehler\n
+Gleichrichter Temperatur zu hoch.\n
+\t\n
+Lüfter oder Kühlgerät kontrollieren.\n
+Wechselspannung zum Gleichrichter\n
+kontrollieren.\n
+Programm ändern\n
+Gleichrichter austauschen
+9006:
+Servosystem Fehler\n
+Shunt Temperatur zu hoch.\n
+\t\n
+Zu hohe Verzögerung.\n
+Wechselspannung zum Gleichrichter\n
+kontrollieren.\n
+Programm ändern\n
+Gleichrichter austauschen
+9007:
+Servosystem Fehler\n
++/- 15V außerhalb der Grenzen.\n
+\t\n
++/- 15V von der Stromversorgung\n
+kontrollieren.\n
+Gleichrichter austauschen
+9008:
+Servosystem Fehler\n
+Stromüberwachung an Treiberstufe %.f.\n
+\t\n
+Auf gebrochene Leitungen kontrollieren.\n
+Manipulator Parameter -Netz- auf\n
+min. Toleranz in Bezug auf tatsächliche\n
+Netzspannung kontrollieren.\n
+Treiberstufe kontrollieren/austauschen.
+9009:
+Servosystem Fehler\n
+Strom zu hoch an Treiberstufe %.f.\n
+\t\n
+Motorenschaltkreis auf Kurzschluß\n
+kontrollieren.\n
+Treiberstufe kontrollieren/austauschen.
+9010:
+Servosystem Fehler\n
+Temperatur zu hoch an Treiberstufe %.f.\n
+\t\n
+Lüfter oder Kühlgerät kontrollieren.\n
+Programm ändern.\n
+Treiberstufe kontrollieren/austauschen.

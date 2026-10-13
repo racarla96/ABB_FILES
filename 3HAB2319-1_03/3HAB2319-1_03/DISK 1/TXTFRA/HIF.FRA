@@ -1,0 +1,251 @@
+
+
+10::
+0:
+Gestionnaire Fichier
+1:
+Nom        Type            Date
+2:
+Aller a ligne
+3:
+Ligne courante
+4:
+NivSup.
+5:
+Annuler
+6:
+OK
+7:
+Fichier
+8:
+Edition
+9:
+Voir
+10:
+Options
+11:
+Nouveau Repertoire...
+12:
+Renommer...
+13:
+Copier...
+14:
+Deplacer...
+15:
+Effacer...
+16:
+(Imprimer Repertoire...)
+17:
+Aller a Ligne...
+18:
+Aller Debut
+19:
+Aller Fin
+20:
+Formater...
+21:
+
+22:
+Formater
+23:
+Formater vol. de l'unite
+24:
+Nouveau nom du volume
+25:
+
+26:
+Nouveau Repertoire
+27:
+Creer repertoire nom
+28:
+Renommer
+29:
+Ancien nom repertoire
+30:
+Nouveau nom repertoire
+31:
+Ancien nom fichier
+32:
+Nouveau nom fichier
+33:
+Effacer
+34:
+Effacer repertoire
+35:
+Effacer fichier
+36:
+Imprimer repertoire
+37:
+Donnees a Impr.
+38:
+Repertoire Courant
+39:
+Arborescence Repert.
+40:
+Copier
+41:
+Vers
+42:
+Deplacer
+43:
+Info
+44:
+Nom
+45:
+Type
+46:
+Taille en octets
+47:
+Date
+48:
+Heure
+49:
+   Tapez Retour pour continuer
+50:
+Copie fichier impossible
+51:
+Fonction non implementee
+52:
+Creation repertoire impossible
+53:
+Le Nom existe deja
+54:
+
+55:
+Lecture repertoire impossible
+56:
+Renommer repertoire impossible
+57:
+Renommer fichier impossible
+58:
+Effacement repertoire impossible
+59:
+Effacement fichier impossible
+60:
+Unite
+61:
+Nom      Type
+62:
+A
+63:
+Copie repertoire impossible
+64:
+Depl. repertoire impossible
+65:
+Deplacement fichier impossible
+66:
+Le repertoire n'est pas vide
+67:
+Le volume n'a pas pu etre formatte
+68:
+...
+69:
+NOM_REP
+70:
+Saisie Texte
+71:
+
+72:
+
+73:
+
+74:
+
+75:
+Action impossible a realiser
+76:
+Pas de volume dans l'unite
+77:
+Depl. impossible entre unites
+78:
+Attendez S.V.P.
+79:
+Formatage volume en cours...
+80:
+Disque Vide ou Deffectueux
+81:
+Imprimer Fichier...
+82:
+Imprim. vers Fichier
+83:
+Fichier a Impr.
+84:
+Imprimer Fichier
+85:
+Imprim. Repert. vers Fichier:
+86:
+Impression en cours!
+87:
+   Tapez Retour pour annuler
+88:
+L'imprimante est occupee\n
+Reessayez quand l'imprimante\n
+sera prete
+89:
+Ne peut imprimer car la queue\n
+D'impression est pleine.\n
+\n
+Reessayez plus tard
+90:
+Impression impossible!\n
+Le port d'impression n'est\n
+pas configure dans Param Syst.
+91:
+Ne peut acceder au fichier:
+92:
+Impression annulee car l'acces\n
+au fichier a ete perdu pendant\n
+l'impression.
+93:
+Fichier non Imprimable
+94:
+Rep Source contient Rep Dest. 
+95:
+Covertisseur Rapid...
+96:
+Convertisseur Rapid
+97:
+Fichier a convertir
+98:
+Fichier a sauver sous:
+99:
+Convers
+100:
+Fichier a sauver sous:
+101:
+ Fichier deja existant
+102:
+ Ne peut convertir le fichier\n
+ Specifie.\n
+\n
+ Mauvais type de fichier
+103:
+Fichier a convertir:
+104:
+Fonction utilisee:
+105:
+Add Rapid Type Info
+106:
+Utilise Rapid Type Info
+107:
+\n
+ Echec Conversion Rapid 
+108:
+  Operation en cours !\n
+\n
+\n
+  Attendez SVP
+109:
+Convertion impossible\n
+\n
+Illegale combinaison de type\n
+de fichier et de fonction
+110:
+\n
+ Fichier de destination existe deja!\n
+\n
+ Reecrire ?
+111:
+"Source" et "destination" identiques
+112:
+Trop de niveaux de sous repertoire

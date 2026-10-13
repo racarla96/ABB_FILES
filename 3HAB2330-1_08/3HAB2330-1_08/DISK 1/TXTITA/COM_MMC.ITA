@@ -1,0 +1,89 @@
+80::
+0:
+Comunicazione
+1:
+Canale seriale
+2:
+Nome
+3:
+Baud rate
+4:
+Parita'
+5:
+Nr di bit
+6:
+Nr bits di stop
+7:
+Protocollo
+8:
+Ind LOC(SLIP)
+9:
+Ind Rem (SLIP)
+10:
+7
+11:
+8
+12:
+1
+13:
+2
+14:
+SLIP
+15:
+XONXOFF
+16:
+NONE
+17:
+300
+18:
+600
+19:
+1200
+20:
+2400
+21:
+4800
+22:
+9600
+23:
+19200
+24:
+38400
+25:
+nessuno
+26:
+dispari
+27:
+pari
+28:
+ignora
+29:
+Nome     Canale       Baudrate
+30:
+Canale
+31:
+Canali Fisici
+32:
+Protocollo Trasmissione
+33:
+Protocollo Applicazione
+34:
+Tipo
+35:
+Canale Fis
+36:
+Porta Nr
+37:
+Nome        Tipo       Canale
+38:
+Nome        Tipo       Canale Fis
+39:
+Nome        Tipo       Prot. Trasm.
+40:
+Prot. Trasm.
+41:
+Enable SysEvent
+42:
+TRUE
+43:
+FALSE

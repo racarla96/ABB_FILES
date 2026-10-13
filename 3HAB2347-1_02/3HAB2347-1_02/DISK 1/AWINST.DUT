@@ -1,0 +1,232 @@
+
+37::
+0:
+Arc Weld
+1:
+
+2:
+Booglassysteem
+3:
+Naam
+4:
+naam
+5:
+eenheden
+6:
+functies
+7:
+apparatuur
+8:
+Booglaseenheid
+9:
+Naam
+10:
+naam
+11:
+snelheid
+12:
+lengte
+13:
+draadaanvoer
+14:
+Booglasfunctie
+15:
+Naam
+16:
+naam
+17:
+herstart afstand
+18:
+aantal herh.
+19:
+schrapen
+20:
+schraapbreedte
+21:
+schraaprichting
+22:
+voorverwarmen
+23:
+pendelen
+24:
+pendel sync
+25:
+kratervulling
+26:
+pendelend vullen
+27:
+terugbranden
+28:
+terugrollen
+29:
+overschr.
+30:
+Booglasapparatuur
+31:
+Naam
+32:
+naam
+33:
+man. draadaanvoer
+34:
+lasblokkering
+35:
+pendelblokkering
+36:
+boogbewaking
+37:
+ontst timeout
+38:
+spanningsbewaking
+39:
+water bewaking
+40:
+draad bewaking
+41:
+gas bewaking
+42:
+booglas status
+43:
+gas bewaking
+44:
+gas sturing
+45:
+stroom sturing
+46:
+boog voorinsteltijd
+47:
+draadaanvoer
+48:
+draadaanvoer achterw
+49:
+pendelsync links
+50:
+pendelsync rechts
+51:
+lasschema-poort
+52:
+
+53:
+schema-poorttype
+54:
+lasspanning
+55:
+
+56:
+spanningsregeling
+57:
+
+58:
+draadaanvoer
+59:
+
+60:
+stroomregeling
+61:
+
+62:
+herstart
+63:
+opnieuw op snelh komen
+64:
+schraapcyclustijd
+65:
+stop proces
+66:
+aanroepen subroutine
+67:
+herstart
+68:
+boog ok-vertraging
+69:
+stroom bewaking
+70:
+draaduitsteekstatus
+71:
+impuls schema
+72:
+proces gestopt
+73:
+bewaking boog
+74:
+bewaking spanning
+75:
+bewaking stroom
+76:
+bewaking water
+77:
+bewaking gas
+78:
+bewaking draadaanvoer
+79:
+cm/min
+80:
+mm/s
+81:
+inch/min
+82:
+mm
+83:
+inch
+84:
+m/min
+85:
+mm/s
+86:
+inch/min
+87:
+Aan
+88:
+Uit
+89:
+Binair
+90:
+Puls
+91:
+weldguide
+92:
+WG klaar
+93:
+WG baan
+94:
+WG sync links
+95:
+WG sync rechts
+96:
+WG hoogte corr
+97:
+WG zijde corr
+98:
+WG data geldig
+99:
+WG data bevest
+100:
+Blokkering WG
+101:
+Booglas Weldguide
+102:
+weldguide
+103:
+Naam
+104:
+naam
+105:
+voorcond
+106:
+Blokkering superv
+107:
+Blokkering auto
+108:
+baan
+109:
+V
+110:
+toorts supervisie
+111:
+supervisie toorts
+112:
+CAN
+113:
+extra onst. schraap
+114:
+ontsteek data

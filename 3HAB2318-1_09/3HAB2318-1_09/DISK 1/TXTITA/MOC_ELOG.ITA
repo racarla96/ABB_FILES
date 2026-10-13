@@ -1,0 +1,586 @@
+25::
+0:
+Movimento
+1:
+Grave errore di movim.\n
+Imposs. proseguire con i movimenti\n
+\t\n
+Inizializzare di nuovo il robot
+21:
+Errore posizione asse\n
+Posizione attuale per asse %s\n
+troppo distante da quella\n
+impostata\n
+\t\n
+Verificare parametri trim, forze\n
+esterne sull'asse o l'hardware.
+22:
+Tensione DC - link\n
+Troppo bassa\n
+\t\n
+Controllare tensione contatt. Motor On\n
+Sostituire DC - link
+23:
+Errore Stop/Riavvio\n
+Stop eseguito quando molte istruzioni\n
+di movim. erano in coda per l'esecuz.\n
+Riavvio non possibile\n
+\t\n
+Verificare il numero di istruzioni con\n
+simultan.Spostare il punto di partenza\n
+e ripartire con un nuovo movimento.
+24:
+Errore percorso d'angolo\n
+percorso d'angolo eseg. come un punto\n
+FINE causa un tempo di ritardo.\n
+\t\n
+Controllare il numero di istruzioni\n
+fra le istruz. di movimento.
+25:
+Riavvio troppo lontano\n
+dal percorso\n
+\t\n
+Ritornare sul percorso.
+26:
+Errore Punto Sing. o Zone\n
+1 Robot troppo vicino al punto sing.\n
+2 Errore di Accur. in MoveL o in MoveJ\n
+\t\n
+1 Utiliz. joystick per spostare\n
+  gli assi o eseguire il prog in\n
+  coord robot.\n
+2 Utiliz. punto fine o modif. posiz.
+27:
+Asse fuori limite\n
+Asse %s fuori area\n
+\t\n
+Utiliz. il joystick per portare l'asse\n
+dentro la sua area di lavoro.
+28:
+Dir. errata Movim. Man.\n
+Asse %s fuori dall'area di lavoro\n
+\t\n
+Utiliz. il joystick per spostare l'asse\n
+nella direzione opposta.
+29:
+Robot fuori dai limiti\n
+Il robot ha raggiunto la configurazione\n
+limite per la trasmiss. al parallelogr.\n
+\t\n
+Utiliz. il joystick per spostare l'asse\n
+coinvolto dentro la sua area di lavoro.
+30:
+Robot fuori dai limiti\n
+Eseguito MovMan nella direzione\n
+sbagliata quando il parallelogramma era\n
+fuori dalla sua area di lavoro\n
+\t\n
+Utiliz. il joystick per spostare l'asse\n
+nella direzionbe opposta.
+31:
+Operaz. non consentita\n
+Parametri di sistema non sono\n
+modificabili con motori inseriti.\n
+Disinserire i motori.\n
+\t\n
+
+32:
+Errore comando calibraz.\n
+Si E' tentato di calibrare il robot\n
+con i motori inseriti.\n
+\t\n
+Disinserire i motori.
+33:
+Errore comando commutaz.\n
+Si E' tentato di commutare il robot\n
+con i motori inseriti.\n
+\t\n
+Disinserire i motori.
+35:
+Errore comando sincroniz\n
+Si E' tentato di sincroniz. il robot\n
+con i motori inseriti.\n
+\t\n
+Disinserire i motori.
+36:
+Impossib. recup. posiz.\n
+Interruzione esecuz. progr. avvenuta\n
+con punti troppo vicini e accuratezza\n
+non precisa. Al riavvio il robot si\n
+spostera' in un punto piu' avanti\n
+nel programma.\n
+\t\n
+Ridurre il numero dei punti vicini,\n
+aumentare la distanza tra loro o\n
+ridurre la velocita'.
+37:
+Comando MOTORS ON imposs.\n
+Precedente interruzione ancora non\n
+verificata.\n
+\t\n
+Riprovare ad attivare i motori.
+41:
+Robot troppo vicino alla\n
+singolarita'.\n
+\t\n
+Utiliz. l'istruzione SinArea\n
+o le coord robot se in esecuz. di\n
+prog o le coord robot in MovMan.
+42:
+Errore di sistema\n
+\n
+\t\n
+Aumentare la distanza tra due punti\n
+vicini e/o diminuire la veloc. e/o\n
+modif. il valore di acceleraz.
+50:
+Posizione fuori limite\n
+Posizione per l'asse %.f\n
+fuori area di lavoro.\n
+\t\n
+Verif. work object.\n
+Verif. l'area di lavoro del giunto.\n
+Muoversi in coord robot.
+52:
+Errore Velocita' asse\n
+Attuale veloc. asse %s troppo alta in\n
+relazione a quella impostata\n
+\t\n
+1 Verif. param. di regolaz., forze\n
+  esterne sull'asse e l'hardware\n
+2 Ridurre Velocita' programmata.
+53:
+Errore Counter resolver\n
+Differenza tra il counter\n
+nella scheda di misura seriale ed il\n
+valore richiesto dalla robot computer\n
+per l'asse %s\n
+\t\n
+Aggiornare i Counter\n
+Sostituire la scheda di misura seriale
+55:
+Errore carico asse\n
+La coppia attuale dell'asse %s e'\n
+maggiore di quella comandata.\n
+\t\n
+1. Verificare dato tipo load\n
+2. Verificare hardware\n
+3. Ridurre accelerazione
+56:
+Errore collisione asse\n
+Coppia reale dell'asse %s maggiore\n
+di quella comandata, a velocita'\n
+bassa o 0\n
+\t\n
+Causato forse da un urto o da\n
+un errore hardware.
+57:
+Errore sincroniz. asse\n
+La pos dell'asse %s dopo mancanza\n
+alim. di rete troppo distante dalla\n
+posiz. precedente la fermata.\n
+\t\n
+Aggiornare nuovamente il Counter\n
+del resolver.
+58:
+Errore sist. coord. Tool\n
+La direz. z utensile quasi parallela\n
+alla direzione della traiettoria.\n
+\t\n
+Modif. il sist. di coord. Tool tale\n
+da avere almeno una deviaz. di 3 gradi\n
+tra la direz. z e la direz. traiettoria.
+59:
+Errore Sist. di rifer.\n
+Definizione TCP fisso\n
+esterno non corretta.\n
+\t\n
+Verificare dati TCP.
+60:
+Errore Sist. di rifer.\n
+Definizione TCP fisso\n
+esterno non corretta.\n
+\t\n
+Verificare dati TCP.
+61:
+Errore Sist. di rifer.\n
+Definizione TCP fisso\n
+esterno non corretta.\n
+\t\n
+Verificare dati TCP.
+62:
+Errore program. cerchio\n
+Le posizioni iniziale e finale del\n
+cerchio sono troppo vicine.\n
+\t\n
+
+63:
+Errore program. cerchio\n
+Posiz. cerchio troppo vicina alla\n
+posizione iniz. o finale del cerchio.\n
+\t\n
+
+65:
+Errore di cinematica\n
+Posizione di arrivo impossibile da\n
+raggiungere o troppo vicina ad\n
+un punto singolare.\n
+\t\n
+Modificare la posizione finale.
+66:
+Robot non attivo\n
+Non muovere o calcolare posiz.\n
+del robot %s disattivato\n
+\t\n
+Attivare il robot manualmente,\n
+premendo il tasto Mov. Unita'\n
+o da programma.\n
+Verif. work object e programma.
+67:
+Unita' non attiva\n
+Non muovere o calcolare posiz.\n
+dell'asse esterno %s disattivato\n
+\t\n
+Attivare l'unita' manualmente,\n
+premendo il tasto Mov. Unita'\n
+o da programma.\n
+Verif. work object e programma.
+76:
+Errore definiz. orientam\n
+\n
+\t\n
+Fare un accurato calcolo degli\n
+elementi quaternioni.
+78:
+Posiz. troppo vicine\n
+Troppe consecutive posiz. programmate\n
+vicine tra loro\n
+\t\n
+Aumentare la distanza tra queste posiz.
+79:
+Pendol. polso non poss.\n
+\n
+\t\n
+Utiliz. piccola ampiezza di pendolam.\n
+o un TCP piu' grande.
+80:
+Posiz. non compatibile.\n
+Posizione non raggiungibile\n
+con attuale configuraz. robot\n
+\t\n
+Modificare posizione\n
+nel programma.
+82:
+Limite decelerazione\n
+Calcolo tempo di deceler. dell'asse\n
+eccede limiti interni relat. al mov.\n
+\n
+Non continuare senza aver risolto\n
+la causa dell'errore.\n
+\t\n
+Verif. deceleraz. asse esterno.\n
+Verif. liv. di disturbo connes. I/O.\n
+Aumentare accuratezza.\n
+Diminuire veloc. prog.,e/o aumentare\n
+parametri AccSet (se < 100%).
+83:
+Vel. dimin. dal sistema\n
+Velocita' diminuita dal sistema senza\n
+ragioni dinamiche.\n
+\t\n
+Diminuire la velocita' e/o non prog.\n
+posiz. vicine ad alta velocita' e/o\n
+aumentare accelerazione (se < 100%).
+85:
+Troppi user frames defin.\n
+Piu' di un user frame definito\n
+per Unita' meccanica %s.\n
+\t\n
+Eliminare user frame in eccesso\n
+oppure creare nuove unita' mec.
+86:
+Probl. punti singolari\n
+Troppo vicino ai punti sing. polso\n
+rispetto alla risoluz. numerica\n
+dell'asse 4 del IRB\n
+\t\n
+Modificare la posiz. finale di\n
+pochi incrementi.
+87:
+Probl. punti singolari\n
+Troppo vicino ai punti sing. polso\n
+rispetto alla risoluz. numerica\n
+dell'asse 6 del IRB\n
+\t\n
+Modificare la posiz. finale di\n
+pochi incrementi.
+88:
+Riavvio non possibile.\n
+Riavvio sul percorso non possibile\n
+causa un errore precedente.\n
+\t\n
+Spostare il punto di partenza e\n
+ripartire con un nuovo movimento.
+89:
+Freq. pendol. bassa\n
+La lungh. del periodo di pendolam.\n
+o il periodo e' troppo breve.\n
+\t\n
+Aumentare la lungh. del pend.\n
+o aumentare il periodo.
+91:
+Impossib. eseg. riavvio.\n
+E' impossibile eseguire un riavvio\n
+avendo cambiato unita'.\n
+\t\n
+Spostare PP ed eseguire un nuovo\n
+movimento.
+92:
+Errore Computer Assi\n
+Risposta Computer Assi non corretta\n
+\t\n
+Verif. param. cofiguraz. movim.\n
+Verif. Computer Assi hardware.
+93:
+Carico troppo grande\n
+La massa def. ha un val. troppo elevato\n
+
+94:
+Impos. utiliz. ServoTune\n
+Regolazione non implementata per\n
+l'asse specificato.\n
+\t\n
+
+95:
+Impos. attiv. asse est.\n
+Verif. configurazione ed attivaz.\n
+degli assi esterni.\n
+\t\n
+
+100:
+Errore manipolatore.\n
+Ci sono diversi errori di configuraz.\n
+o numerici per controllo movim.\n
+\t\n
+Correggere e riprovare.
+101:
+Errore config manip.\n
+'%s' non libero\n
+per param. '%s'\n
+tipo '%s' chiamato\n
+'%s'.\n
+\t\n
+Usarne un altro.\n
+Per nomi interni, vedere mocchk.log
+102:
+Errore config manip.\n
+'%s' usato nel\n
+parametro '%s'\n
+tipo '%s' chiamato\n
+'%s' non\n
+definito.\n
+\t\n
+Usarne un altro che sia definito o\n
+definire quello usato.\n
+Per nomi interni, vedere mocchk.log
+103:
+Errore num. manipolatore\n
+Orientamento definito in quaternioni\n
+includendo '%s' nel\n
+tipo '%s' chiamato\n
+'%s' non e'\n
+regolare.\n
+\t\n
+Verificare valori quaternioni e/o\n
+ricalcolarli.\n
+Per nomi interni, vedere mocchk.log
+104:
+Errore num. manipolatore\n
+Il parametro '%s'\n
+tipo '%s' chiamato\n
+'%s' non e' '%s'.\n
+\t\n
+Verif. valore.\n
+Per nomi interni, vedere mocchk.log
+128:
+Errore manipolatore\n
+Esecuz controllo manipolatore\n
+dovuta ad errori precedenti.\n
+\t\n
+Correggere errori visualizzati e\n
+ripetere il controllo manipolatore
+130:
+Sincronismo negato.\n
+Sincronismo non eseguito\n
+per l'asse %s.\n
+\t\n
+ripetere sincronizzazione.\n
+Necessario Riavvio.
+131:
+Calibrazione negata.\n
+Calibraz. non eseguita\n
+per l'asse %s.\n
+\t\n
+ripetere calibrazione.\n
+Necessario Riavvio.
+132:
+Commutazione negata.\n
+Commutaz. non eseguita\n
+per l'asse %s.\n
+\t\n
+ripetere commutazione.\n
+Necessario Riavvio.
+133:
+Errore segnale test.\n
+Non sono disponibili segnali\n
+di test per il robot.\n
+\t\n
+
+134:
+Attenz. vet. di correz.\n
+Calcolo sensore vettore di correz.\n
+non eseg. a causa di un err. preced.\n
+\t\n
+
+135:
+SoftAct non possibile.\n
+Impossibile attivare Soft servo.\n
+\t\n
+
+136:
+SoftAct non possibile.\n
+Impossibile modificare Soft servo\n
+durante mov.\n
+\t\n
+
+137:
+Punto fine inserito\n
+Accuratezza modificata in punto fine\n
+Troppe istruzioni Move consecutive\n
+senza punto fine.\n
+\t\n
+
+138:
+Probl. di Arm check point\n
+Limite di Arm check point\n
+raggiunto dal robot\n
+\t\n
+Utilizzare il joystick per riportare\n
+l'asse nuovamente nell'area di lavoro
+139:
+Probl. di Arm check point\n
+Movim. manuale robot in direz. errata\n
+con Arm check point fuori limite\n
+\t\n
+Utilizzare il joystick per muovere\n
+l'asse nella direzione opposta.
+140:
+Carico troppo grande\n
+Limite di coppia statica superato su\n
+asse %s causa un carico pesante\n
+\t\n
+Verif. e ridurre carico\n
+per asse e/o polso.\n
+Ridurre area di lavoro dell'asse per\n
+diminuire coppia statica causa gravita'.
+141:
+Err. Veloc/Accur/Mov Man\n
+1. Robot troppo vicino al punto sing.\n
+2. Errore accuratezza MoveL in MoveJ\n
+3. Errore movimento manuale\n
+4. Errore Velocita' alta\n
+\t\n
+1. Spostare il robot dal punto sing.\n
+   o eseguire il prog. in robot coord\n
+2. Usare punto fine o modif. posiz.\n
+3. Provare nuovamente\n
+4. Ridurre velocita' esecuzione prog.
+142:
+Errore config. manip.\n
+Configurazione manipolatore negata.\n
+\t\n
+Controllare parametri di sistema\n
+relativi al manipolatore.
+143:
+Errore config. assi robot\n
+Configurazione attuale differente\n
+da quella programmata.\n
+\t\n
+Utiliz SingArea e modif posiz robot.
+144:
+Displ frame indefinito.\n
+Calibraz displ frame non corretta\n
+1. Tcp sbagliato\n
+2. Punti di riferimento non precisi\n
+3. Distanze punti di rif non idonee\n
+\t\n
+Se errore stimato non accettabile:\n
+1. Controllare Tcp utilizzato\n
+2. Modificare punti di riferimento\n
+3. Posiz robot in modo piu' accurato
+145:
+Limitazione cinematica.\n
+Impossibile raggiungere il\n
+punto programmato.\n
+\t\n
+Bisogna aggiungere un\n
+punto intermedio.
+146:
+Limitazione riavvio\n
+Eseguita posiz con non fine.\n
+Impossibile eseg Power Fail Riavvio\n
+vicino ad un punto con arg non fine.\n
+\t\n
+Utiliz argomento fine nell'istruz\n
+Move, prima di RestoPath, ActUnit,\n
+Wait o Stop per poter usare PFR.
+147:
+Power Fail Riavvio negato\n
+Recupero percorso non eseguito\n
+\t\n
+Eseguire un'altra istruzione\n
+di movimento.
+148:
+MOCErr causato da\n
+chiamata di un sottoprog interrupt\n
+inesistente nella main computer.\n
+\t\n
+
+149:
+MOCErr computer assi\n
+\n
+\t\n
+
+150:
+MOC richiesta da\n
+main comp. di un comando al\n
+computer assi che non e' supportato.\n
+\t\n
+
+151:
+MOC computer assi\n
+driver non ha potuto creare\n
+una nuova mailbox1.\n
+\t\n
+
+152:
+MOC comp. assi driver\n
+non ha potuto creare una nuova\n
+mailbox1.\n
+\t\n
+
+153:
+Comando non consentito\n
+Impossibile eseguire istruzione\n
+o comando.\n
+\t\n
+Modificare programma e riprovare.
+155:
+Power Fail Riavvio negato\n
+Impossibile eseguire riavvio prima\n
+di RestoPath, ActUnit, Wait o istruz\n
+Stop\n
+\t\n
+Modificare zonedata istruz Move\n
+in fine ed eseguire un'altra\n
+istruzione.

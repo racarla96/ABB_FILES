@@ -1,0 +1,624 @@
+22::
+0:
+System
+
+10:
+Em stop state active\n
+Em stop reset is required.\n
+Press the panel button.\n
+\t\n
+
+11:
+Em stop state active\n
+Em stop reset is required.\n
+First release the Em stop button\n
+and then press the panel button.\n
+\t\n
+
+12:
+Sys failure state active\n
+Fatal non recoverable system error.\n
+Warm start is required.\n
+\t\n
+Switch the mains switch off and on\n
+again if the soft restart command is\n
+ignored or not possible to reach.
+
+
+24:
+Enable chain timeout\n
+Two channel status timeout.\n
+\t\n
+The acknowledgement for a two channel\n
+enable chain status change was not\n
+received within the expected time.
+
+
+30:
+Axis not commutated\n
+One or several internal drive unit\n
+axes are not commutated.\n
+\t\n
+
+31:
+Axis not calibrated\n
+One or several absolute/relative\n
+measurement axes are not calibrated.\n
+\t\n
+
+32:
+Rev counter not updated\n
+One or several absolute measurement\n
+axes are not synchronized.\n
+\n
+Move the robot to the sync position\n
+and update the revolution counters.\n
+\t\n
+
+33:
+Axis not synchronized\n
+One or several relative measurement\n
+axes are not synchronized.\n
+\n
+Order Motors On and synchronize all\n
+mechanical units in the list.\n
+\t\n
+
+50:
+Not allowed command\n
+Not allowed in this operating mode.\n
+\t\n
+
+51:
+Not allowed command\n
+Not allowed when client not in control\n
+of the resource (program/motion).\n
+\t\n
+
+52:
+Not allowed command\n
+Not allowed in this cabinet state.\n
+\t\n
+
+53:
+Not allowed command\n
+Not allowed in this manipulator state.\n
+\t\n
+
+54:
+Not allowed command\n
+Not allowed when program is executing.\n
+\t\n
+
+60:
+Not allowed command\n
+Not allowed in Auto mode.\n
+\t\n
+
+61:
+Not allowed command\n
+Not allowed when changing to Auto mode.\n
+\t\n
+
+62:
+Not allowed command\n
+Not allowed in Manual mode.\n
+\t\n
+
+63:
+Not allowed command\n
+Not allowed in Manual full speed mode.\n
+\t\n
+
+64:
+Not allowed command\n
+Not allowed when changing to Manual\n
+full speed mode.\n
+\t\n
+
+70:
+Not allowed command\n
+Not allowed in Motors On state.\n
+\t\n
+
+71:
+Not allowed command\n
+Not allowed while changing to\n
+Motors On state.\n
+\t\n
+
+72:
+Not allowed command\n
+Not allowed in Motors Off state.\n
+\t\n
+
+73:
+Not allowed command\n
+Not allowed while changing to\n
+Motors Off state.\n
+\t\n
+
+74:
+Not allowed command\n
+Not allowed in Guard Stop state.\n
+\t\n
+
+75:
+Not allowed command\n
+Not allowed in Emergency Stop state.\n
+\n
+Em stop reset is required.\n
+Press the panel button.\n
+\t\n
+
+76:
+Not allowed command\n
+Not allowed in System Failure state.\n
+\n
+Fatal non recoverable system error.\n
+Warm start is required.\n
+\t\n
+Switch the mains switch off and on\n
+again if the soft restart command is\n
+ignored or not possible to reach.
+
+80:
+Not allowed command\n
+Not allowed when axis is not commutated.\n
+\t\n
+
+81:
+Not allowed command\n
+Not allowed when axis is not calibrated.\n
+\t\n
+
+82:
+Not allowed command\n
+Not allowed when axis rev counter is not\n
+updated.\n
+\t\n
+
+83:
+Not allowed command\n
+Not allowed when axis is not\n
+synchronized.\n
+\t\n
+
+92:
+Not allowed command\n
+Not allowed in state\n
+System IO Start Blocked.\n
+\t\n
+
+100:
+Teachpendant in ctrl\n
+A teachpendant application\n
+is in control of the requested\n
+resource (program/motion)\n
+\t\n
+
+101:
+Teachp (prg) in ctrl\n
+The teachpendant programming\n
+window has focus and is in control\n
+of the program server.\n
+Change to the production window\n
+and perform the command again.\n
+\t\n
+
+102:
+Teachp (joystick) in ctrl\n
+The teachpendant joystick is in\n
+control of the motion server.\n
+Release the joystick and perform\n
+the command again.\n
+\t\n
+
+111:
+Teachp (prg) in ctrl\n
+The teachpendant programming\n
+window has focus and is in control\n
+of the program server.\n
+Change to the production window\n
+and perform the command again.\n
+\t\n
+
+112:
+Program 1 in ctrl\n
+The program server 1 is in\n
+control of the motion server.\n
+Stop the program and perform\n
+the command again.\n
+\t\n
+
+113:
+Program 2 in ctrl\n
+The program server 2 is\n
+in control of the motion server.\n
+Stop the program and perform\n
+the command again.\n
+\t\n
+
+114:
+Program 3 in ctrl\n
+The program server 3 is\n
+in control of the motion server.\n
+Stop the program and perform\n
+the command again.\n
+\t\n
+
+115:
+Program 4 in ctrl\n
+The program server 4 is\n
+in control of the motion server.\n
+Stop the program and perform\n
+the command again.\n
+\t\n
+
+116:
+Program 5 in ctrl\n
+The program server 5 is\n
+in control of the motion server.\n
+Stop the program and perform\n
+the command again.\n
+\t\n
+
+120:
+System IO in ctrl\n
+\t\n
+
+125:
+Client %s in ctrl\n
+Specified client is in\n
+control of the requested\n
+resource (program/motion)\n
+\t\n
+
+130:
+Out of memory in cfg\n
+\t\n
+
+131:
+Unable to read file\n
+\t\n
+
+132:
+Parameters not saved\n
+Parameters cannot be saved.\n
+Probably, because disk is write\n
+protected or no space available.\n
+\t\n
+Check if disk is write-protected or\n
+if space on disk is enough.
+
+133:
+Cannot modify instance\n
+Description\Reason:\n
+Can't replace instance in line %d\n
+of file %s\n
+\t\n
+The instance is write protected.
+
+134:
+Wrong version\n
+Description\Reason:\n
+The cfg domain version is wrong in file\n
+%s\n
+The software is made for\n
+version %s\n
+\t\n
+Change the version of the cfg domain.
+
+135:
+Line too long\n
+Description\Reason:\n
+Line %d > %d characters\n
+\t\n
+Reduce the number of characters.
+
+136:
+Attr out of range\n
+Description\Reason:\n
+Attribute %s is out of range\n
+in line %d\n
+\t\n
+Change the value on the attribute.
+
+137:
+Dublicate inst name\n
+Description\Reason:\n
+Dublicate name in line %d\n
+of file %s\n
+\t\n
+Change the name.
+
+140:
+Motors On rejected.\n
+Motors On via System IO\n
+not allowed.\n
+\t\n
+
+141:
+Motors Off rejected.\n
+Motors Off via System IO\n
+not allowed.\n
+\t\n
+
+142:
+Start rejected.\n
+Start/restart of program via System\n
+IO not allowed.\n
+\t\n
+The reason could be that the robot\n
+is outside of regain distance.
+
+143:
+Start main rejected.\n
+Start of main program via System IO\n
+not allowed.\n
+\t\n
+
+144:
+Stop rejected.\n
+Stop of program via System IO\n
+not allowed.\n
+\t\n
+
+145:
+Stop cycle rejected.\n
+Stop of program cycle via System IO\n
+not allowed.\n
+\t\n
+
+146:
+Man interrupt rejected.\n
+Manual interrupt of program via\n
+System IO not allowed.\n
+\t\n
+
+147:
+Load and start rejected.\n
+Load and start of program via\n
+System IO not allowed.\n
+Program file name (including mass\n
+memory unit) to be loaded must\n
+be defined.\n
+\t\n
+
+148:
+Confirm rejected.\n
+Emergency Stop Reset Confirm via\n
+System IO not allowed.\n
+\t\n
+
+149:
+Error reset rejected.\n
+Program execution error reset via\n
+System IO not allowed.\n
+\t\n
+
+150:
+Syncronization rejected.\n
+Syncronization of mechanical unit\n
+via System IO not allowed.\n
+\t\n
+
+151:
+Faulty signal name.\n
+Signal name not possible to\n
+subscribe to for Sysio.\n
+The Signal name might not be in\n
+the cfg-file for Sysio.\n
+\t\n
+
+152:
+Too many restrictions.\n
+For an action (signal) in\n
+Sysio, no restrictions are set.\n
+The total number of restrictions\n
+(signals) for an action in the\n
+cfg-file for Sysio are too high.\n
+\t\n
+
+153:
+Mot. On, Start rejected.\n
+Motors On, Start/restart of program\n
+via System IO not allowed.\n
+\t\n
+The reason could be that the robot\n
+is outside of regain distance.
+
+154:
+Stop instr. rejected.\n
+Stop of program instruction via\n
+System IO not allowed.\n
+\t\n
+
+155:
+Undefined Argument\n
+SyncExtAx mechanical_unit_name\n
+is not defined\n
+\t\n
+
+156:
+Undefined Argument\n
+Interrupt routine_name\n
+is not defined\n
+\t\n
+
+157:
+Undefined Argument\n
+LoadStart program_name\n
+is not defined\n
+\t\n
+
+158:
+No System Input signal\n
+A system input has been declared to\n
+a signal that doesnt exist.\n
+\t\n
+
+159:
+No System Output signal\n
+A system output has been declared to\n
+a signal that doesnt exist.\n
+\t\n
+
+160:
+Not in configuration\n
+The system module %!%s in task\n
+%s has no corresponding\n
+specification in the configuration\n
+for "Task modules"\n
+\t\n
+View "Task modules" in the "System\n
+Parameter" menu and add an item for\n
+this system module
+
+161:
+Path not find\n
+The system module %!%s in task\n
+%s has a corresponding\n
+specification in the configuration\n
+for "Task modules" that point out\n
+a non existing file path\n
+\t\n
+View "Task modules" in the "System\n
+Parameter" menu and change the path\n
+in the item for this system module
+
+162:
+Write error\n
+A write error occur when the system try\n
+to save the system module %!%.14s\n
+at %.37s\n
+in task %.16s. Or the file\n
+system was full\n
+\t\n
+View "Task modules" in the "System\n
+Parameter" menu and change the path\n
+in the item for this system module
+
+163:
+Reconfig failed\n
+Some user module(s) changed but not\n
+saved. See previous warnings stored\n
+in the log.\n
+\t\n
+Save those modules that are specified\n
+by earlier warnings and try another\n
+system start.
+
+164:
+Reconfig failed\n
+There are still some unsaved system\n
+module\n
+\t\n
+Read error descriptions in earlier\n
+messages.\n
+Try another system start
+
+165:
+PP lost!\n
+Restart is no longer possible from\n
+current position. The program has to be\n
+started from the beginning.\n
+\t\n
+
+166:
+Refuse to save module\n
+The module %!%.14s\n
+is older than the source\n
+at %.37s\n
+in task %.16s.\n
+\t\n
+
+167:
+Unsaved module\n
+The module %!%.14s\n
+is changed but not saved\n
+in task %.16s.\n
+\t\n
+
+170:
+SYS_STOP\n
+Program motion stopped along path.\n
+\t\n
+
+171:
+SYS_HALT\n
+Program and motion stopped with\n
+motors off.\n
+\t\n
+
+172:
+SYS_FAIL\n
+System Failure, restart system.\n
+\t\n
+
+175:
+Teachpendant fail\n
+Teachpendant lost contact\n
+this will force Guard Stop\n
+\t\n
+
+180:
+System IO restriction\n
+System IO restrictions are active for\n
+other clients, e.g. teach pendant or\n
+computer link.\n
+\t\n
+Motor on is restricted by System IO\n
+MotorOff.\n
+Program start is restricted by\n
+System IO Stop, StopCycle or StopInstr.
+
+261:
+Strings to long\n
+Description\Reason:\n
+- Elog message number %d:\n
+  Total String length %d >\n
+  %d characters\n
+\t\n
+Check list:\n
+1. Reduce the total string length.
+
+270:
+Access error\n
+Panel Module access error.\n
+\t\n
+Examine your EIO configuration files.
+
+280:
+Symbol conflict\n
+The signal %s defined in the IO\n
+configuration conflict with another\n
+program symbol with the same name.\n
+Due on that fact the signal will not be\n
+mapped to a program variable.\n
+\t\n
+Rename the signal in\n
+the IO configuration.
+
+313:
+SoftStop\n
+SoftStop has been detected on\n
+channel %.0f.\n
+\t\n
+Em button has been pressed with\n
+SoftStop activated. This will open\n
+runchain. Make sure the Em button is\n
+reset and press the panel button.\n
+
+
+
+
+
+
+
+
+
+
+
+
+

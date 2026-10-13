@@ -1,0 +1,944 @@
+Revision 1.10  1995/04/21  13:13:03  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.9  1994/08/19  09:40:30  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+3::
+0:
+Programm Bearbeitung
+1:
+Option
+2:
+ InstL_1
+3:
+ InstL_2
+4:
+ Test
+5:
+ Routine
+6:
+ Daten
+7:
+Modul Liste...
+8:
+Modul speichern
+9:
+Modul speichern unter...
+10:
+
+11:
+Programm speichern
+12:
+Programm speichern unter...
+13:
+Instruktionsliste -InstL-\n
+verwenden, um neue\n
+Instruktion einzufügen!
+14:
+Angewählte bearb.
+15:
+Auswählen
+16:
+Auswahl aufheben
+17:
+Instr.
+18:
+Programm Instruktionen
+19:
+Programm Test
+20:
+Routinen
+21:
+Daten
+22:
+Datentypen
+23:
+Test
+24:
+Module
+25:
+< Weiter mit ENTER >
+26:
+Cursor --> ProgrammZeiger
+27:
+ProgrammZeiger --> haupt
+28:
+ProgrammZeiger --> Routine...
+29:
+Verschiedene
+30:
+Bewegung&Prozeß
+31:
+Programm Ablauf
+32:
+Standard
+33:
+Beweg. Einstell.
+34:
+Interrupts
+35:
+E/A
+36:
+Kommunikation
+37:
+Programm Datentypen
+38:
+Fehlerbehandlung
+39:
+System & Zeit
+40:
+Ereignis Log
+41:
+Programm
+42:
+ProgrammZeiger --> Cursor
+43:
+Setze AbbruchPkt
+44:
+Lösche AbbruchPkt
+45:
+AbbruchPunkte...
+46:
+Simuliere...
+47:
+Im System
+48:
+switch
+49:
+Im Modul
+50:
+Daten
+51:
+Deklarieren...
+52:
+Duplizieren...
+53:
+Neue Routine...
+54:
+Typen
+55:
+In Routine
+56:
+Neu...
+57:
+Wert
+58:
+KorPos
+59:
+  Instr
+60:
+   Test
+61:
+ IL an
+62:
+-%
+63:
++%
+64:
+Start
+65:
+Sim
+66:
+Anzeige
+67:
+Neu
+68:
+ Deklar
+69:
+  Dupli
+70:
+Var
+71:
+Funkt
+72:
+Spiegeln...
+73:
+Umgek. Kopie...
+74:
+Ausgewählte_1
+75:
+Ausgewählte_2
+76:
+
+77:
+
+78:
+
+79:
+tooldata
+80:
+wobjdata
+81:
+Geschw:=
+82:
+Ablauf:=
+83:
+ 
+84:
+
+85:
+ 
+86:
+Name             Wert
+87:
+Name             Typ
+88:
+
+89:
+
+90:
+Mathematik
+91:
+Programmablauf
+92:
+Name            Wert            Modul
+93:
+Name             Typ         Modul
+94:
+(KorPos)
+95:
+  Daten
+96:
+Funkt
+97:
+kein Eintrag
+98:
+Falsche Syntax
+99:
+Dies ist kein Programm\n
+oder Modul.\n
+Neu auswählen!
+100:
+Zahlenwert unzulässig.\n
+Vordefinierte Daten\n
+verwenden!
+101:
+OK+NXT
+102:
+Programm Routinen
+103:
+Programm Daten
+104:
+ZusArg
+105:
+(Info)
+106:
+Proz
+107:
+lokal
+108:
+global
+109:
+Name:
+110:
+Bereich:
+111:
+Typ:
+112:
+Datentyp:
+113:
+Falsche Datenangaben.\n
+Name und Wert kontrollieren!
+114:
+Konst
+115:
+Ändern
+116:
+Kein Programm vorhanden.\n
+\n
+Neu oder Öffnen im\n
+Menü -Datei- verwenden.
+117:
+Datentyp:
+118:
+Marke
+119:
+Vorher einfügen:
+120:
+Name           Datentyp  notw Alt. Modus
+121:
+Schritt
+122:
+  Inter
+123:
+ 
+124:
+Ausgewähltes Objekt\n
+hat keinen Wert!
+125:
+25%
+126:
+100%
+127:
+ Operand
+128:
+Aktueller Wert
+129:
+Routinen Definition
+130:
+Routinen Deklaration
+131:
+Routinen Duplikation
+132:
+Daten Definition
+133:
+Daten Deklaration
+134:
+Daten Duplikation
+135:
+TRUE
+136:
+FALSE
+137:
+Anfangswert
+138:
+Anfangswert:
+139:
+Neuer Anfangswert
+140:
+haupt
+141:
+robtarget
+142:
+bool
+143:
+num
+144:
+ IL aus
+145:
+Routinen Daten
+146:
+Numerische Daten
+147:
+Wert...
+148:
+Verwendete Typen
+149:
+Alle Typ
+150:
+ Typen
+151:
+  Module
+152:
+Programm Module
+153:
+Aufwrts
+154:
+Modul Definition
+155:
+Modul Deklaration
+156:
+Programm Modul
+157:
+System Modul
+158:
+Programm
+159:
+System
+160:
+Aktuelle Instruktion
+161:
+Instruktion Argumente
+162:
+Nur eine Anweisung\n
+ist zulässig in einer\n
+kompakt-WENN-Schleife
+163:
+ Mehr
+164:
+(ZusArg)
+165:
+Speich
+166:
+Wert unzulässig für\n
+diesen Datentyp.
+167:
+Objekt bereits vorhanden!\n
+Anderen Namen wählen.
+168:
+ 
+169:
+
+170:
+Welche Routine?\n
+Routine aus dem Menü\n
+-Ansicht- wählen.
+171:
+haupt Routine nicht\n
+vorhanden.
+172:
+Fehler bei der\n
+Ausführung der\n
+Anweisung.
+173:
+Inhalt im Zwischenspeicher\n
+paßt nicht!\n
+Typ Platzhalter ist falsch.
+174:
+ 
+175:
+ProgrammZeiger (PZ) kann\n
+nicht gesetzt werden!\n
+Falscher Status.
+176:
+Cursor steht auf dem\n
+ProgrammZeiger (PZ)
+177:
+Datenelement vom Typ\n
+"Nur Lesen"\n
+kann nicht geändert werden!
+178:
+Es können keine neuen\n
+Signale erzeugt werden!\n
+Vordefinieren verwenden.
+179:
+System Daten! \n
+Daten Deklaration \n
+unmöglich.
+180:
+Funktions Argument
+181:
+Instruktions Argument
+182:
+Ausdruck
+183:
+Prozedur wählen
+184:
+Dies müssen Daten sein!
+185:
+Falsche Syntax.\n
+Wert nicht erlaubt.
+186:
+Beweg
+187:
+Keine Programm Routine\n
+angewählt!
+188:
+Instruktionsliste ist voll!\n
+Instruktion kann nicht\n
+hinzugefügt werden.
+189:
+Programm wurde gespeichert.
+190:
+Name                   Typ
+191:
+haupt Routine
+192:
+Programm oder Modul auswählen.
+193:
+Modul speichern unter:
+194:
+Programm speichern unter:
+195:
+Cursor muß im gleichen\n
+Teil der Routine sein,\n
+wie der ProgrammZeiger!
+196:
+Auswahl
+197:
+inkl.
+198:
+exkl.
+199:
+ 
+200:
+Setzen
+201:
+Ausgewählte Instruktionen
+202:
+Ausgewählte Instr. setzen
+203:
+Prozedur
+204:
+Funktion
+205:
+Interrupt
+206:
+Variable
+207:
+Konstante
+208:
+Speichernd
+209:
+IF
+210:
+WHILE
+211:
+FOR
+212:
+TEST
+213:
+GOTO
+214:
+ProcCall
+215:
+Label
+216:
+:=
+217:
+RETURN
+218:
+RAISE
+219:
+CONNECT
+220:
+EXIT
+221:
+RETRY
+222:
+TRYNEXT
+223:
+Compact IF
+224:
+Comment
+225:
+FREE Reserved for pallet
+226:
+Ausgewählte Routine
+227:
+Wert
+228:
+Literaler Wert
+229:
+-
+230:
+.
+231:
+IN
+232:
+routine
+233:
+modul
+234:
+param
+235:
+KeinAlt
+236:
+Erster
+237:
+Letzter
+238:
+Datentyp auswählen:
+239:
+Fehlerbehandlung
+240:
+FEHLER Behandlung
+241:
+
+242:
+Auswählen
+243:
+(Nein)
+244:
+Grenzen für das Auswählen\n
+sind erreicht.
+245:
+Programm kontrollieren
+246:
+Beweg. zur gewählten Pos.
+247:
+Programm ist OK!
+248:
+Ein Parameter kann nicht\n
+den gleichen Namen wie ein\n
+anderer Parameter haben!
+249:
+string
+250:
+TRUE
+251:
+FALSE
+252:
+ AND
+253:
+ XOR
+254:
+ OR
+255:
+ NOT
+256:
+ DIV
+257:
+ MOD
+258:
+ 
+259:
+ 
+260:
+ 
+261:
+Keine Parameter für eine \n
+Interrupt Routine erlaubt!
+262:
+Programm löschen
+263:
+Rückw. behandlung
+264:
+wobj0
+265:
+Werkzeug oder Werkobjekt\n
+der Instruktion nicht wie\n
+im Bewegen Fenster!
+266:
+Definiere Koordinaten
+267:
+pose
+268:
+signalae
+269:
+signalaa
+270:
+signalde
+271:
+signalda
+272:
+signalge
+273:
+signalga
+274:
+Fehlerbehandl. hinzu
+275:
+Fehlerbehandl. entf.
+276:
+Keine Fehlerbehandlung für\n
+diese Routine vorhanden!\n
+Verwende Routine:Hinzu...
+277:
+Programmspeicher fast voll!\n
+Programm speichern oder\n
+andere Aktion.
+278:
+alle Daten
+279:
+Abarbeitung
+280:
+Modul wurde gespeichert.
+281:
+Zuerst ein Programm mit\n
+Öffnen/Neu laden. Dann\n
+Zugriff auf System Module.
+282:
+Feldstruktur kann jetzt\n
+nicht bearbeitet werden!
+283:
+KorPos OK!\n
+ProgrammZeiger (PZ) zur\n
+nächsten Instruktion bewegt.
+284:
+Wollen Sie wirklich löschen:
+285:
+Wollen Sie wirklich ausschneiden:
+286:
+Rückw.behandl. hinzu
+287:
+Rückw.behandl. entf.
+288:
+Keine Rückwärtsbehandlung\n
+für diese Routine vorhanden!\n
+Verwende Routine: Hinzu...
+289:
+RÜCKWÄRTS Behandlung
+290:
+INOUT
+291:
+\n
+Aktuelles Programm\n
+%s\n
+speichern, bevor es ersetzt wird durch\n
+%s?
+292:
+Objekt in diesem Fenster\n
+nicht zu löschen!\n
+Kontrolle: Ansicht...
+293:
+Inhalt
+294:
+Einfüg
+295:
+Voreinstellungen
+296:
+Ausgewählte_3
+297:
+pos
+298:
+orient
+299:
+Programm/Modul überschreiben!\n
+Vorhandenes Programm/Modul\n
+wird überschrieben.\n
+\n
+Weiter mit OK ?
+300:
+Service
+301:
+i
+302:
+Beweg. Einst. zus.
+303:
+Beweg. zusätzlich
+304:
+Ext. Computer
+305:
+Multi Tasking
+306:
+RAPID Unterstütz.
+307:
+Zugriff Programm
+308:
+Lösch Inst.
+309:
+Lösch Obj.
+310:
+Cursor steht nicht auf dem\n
+ProgrammZeiger (PZ)!\n
+Programm starten von:
+311:
+Cursor
+312:
+  PZ
+313:
+BestätStart
+314:
+\n
+Bitte warten,\n
+\n
+Programm wird geladen...!
+315:
+\n
+Bitte warten, \n
+Modul wird geladen...!
+316:
+\n
+Bitte warten, \n
+Programm wird gespeichert...!
+317:
+\n
+Bitte warten, \n
+Modul wird gespeichert...!
+318:
+Das Modul '%s'\n
+ist schon vorhanden!\n
+\n
+Soll es ersetzt werden?
+319:
+Keine Routinen
+320:
+Keine Daten
+321:
+Keine Param.
+322:
+.prg
+323:
+.PRG
+324:
+.mod
+325:
+.MOD
+326:
+.sys
+327:
+.SYS
+328:
+Stop Instruktion
+329:
+StopInst
+330:
+Fenster -Programm- kann\n
+nicht in Automatik\n
+verwendet werden.\n
+Umschalten in Einrichten!
+331:
+ACHTUNG!\n
+Manipulator bewegt sich\n
+zur angewählten Position.
+332:
+Starten der Bewegung zur\n
+angewählten Position.
+333:
+Simulation
+334:
+Auswahl Sim Optionen
+335:
+Zulässig in MOTOREN AUS
+336:
+System Daten
+337:
+Anwender Daten
+338:
+Ausgewählter Bereich
+339:
+Speicher voll !\n
+\n
+Speichern des Programms\n
+im Menü -Datei-.\n
+Speichern zum Reset.
+340:
+KorPos nicht zulässig\n
+bei einer Position, die als\n
+Variable deklariert ist.
+341:
+Schleifen Variable! \n
+Kann nur erreicht werden\n
+von der  FOR-Instruktion.
+342:
+IL aus
+343:
+IL an
+344:
+Mehr
+345:
+In Modul:
+346:
+Wähle Modul:
+347:
+in
+348:
+Daten Def.
+349:
+benutzt
+350:
+Alle
+351:
+Instruktionen
+352:
+USER
+353:
+Positionen korrigieren
+354:
+Typ
+355:
+
+356:
+nicht verwendet
+357:
+KorPos
+358:
+LKorPos
+359:
+Max. Trans
+360:
+Max. Rot
+361:
+Max ext. Achse Trans
+362:
+Max ext. Achse Rot
+363:
+Modus
+364:
+Abs
+365:
+Rel
+366:
+Aktuelle Position nicht in\n
+den Grenzen entsprechend\n
+der Funktion LimitKorPos.
+367:
+Aktueller Name der Position\n
+ist zu lang für die Funktion\n
+KorPos.
+368:
+Limit KorPos ist aktiv,\n
+aber es ist nicht möglich\n
+neue Date zu erzeugen.
+369:
+Limit KorPos Fehler!
+370:
+o_robtarget
+371:
+o_
+372:
+\n
+Wollen Sie das alte Programm\n
+%s\n
+speichern, bevor Sie ein neues\n
+Programm erzeugen?
+373:
+\n
+Das Systemmodul '%s'\n
+ist geändert aber nicht gespeichert!\n
+\n
+Wollen Sie das Systemmodul speichern?
+374:
+Die folgenden Systemmodule wurden\n
+geändert aber nicht gespeichert:\n
+%s\n
+\n
+Wollen Sie die Systemmodule speichern?
+375:
+Ändern Prog
+376:
+vorhanden
+377:
+Wollen Sie das Programm ändern?
+378:
+array
+379:
+In Automatik
+380:
+Notw. Anwenderebene
+381:
+LKorPos
+382:
+unverändert
+383:
+verändert
+384:
+nicht notw.
+385:
+Routinen
+386:
+in Routine
+387:
+im Modul
+388:
+im System
+389:
+Ausdrucken von Programm
+390:
+ Drucken
+391:
+Drucke nur in Datei:
+392:
+Zu drucken
+393:
+Programm drucken in Datei:
+394:
+Druckt!
+395:
+  Abbruch mit ENTER
+396:
+  Weiter mit ENTER
+397:
+Drucker ist beschäftigt\n
+\n
+Später nochmal versuchen!
+398:
+Drucken nicht möglich da zu viel\n
+Druckaufträge in Warteschlange.\n
+\n
+Später nochmal versuchen!
+399:
+Drucken nicht möglich da\n
+Drucker in Systemparametern\n
+nicht konfiguriert.
+400:
+Nicht genügend Platz auf der\n
+Einheit zum Drucken (üblich\n
+%.9s). Benötigt %d Bytes.\n
+Bitte einige Dateien entfernen.
+401:
+  Beschäftigt\n
+  \n
+  Bitte Warten
+402:
+Kann nicht schreiben\n
+auf/erzeugen Datei:\n
+\n
+
+403:
+ Datei schon vorhanden
+404:
+ Programm

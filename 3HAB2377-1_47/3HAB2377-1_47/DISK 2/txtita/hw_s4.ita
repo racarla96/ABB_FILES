@@ -1,0 +1,511 @@
+23::
+1125:
+1. Verif. parametri comun\n
+I dati ricevuti non sono identici a\n
+quelli trasmessi\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1126:
+Overflow can. ser. 7\n
+\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1127:
+Err. parita' canale 7\n
+\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1128:
+Err. rif. canale 7\n
+\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1129:
+Disturbi su canale 7\n
+\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1405:
+Progr. assi mancante\n
+Progr. assi non presente su EPROM\n
+\t\n
+Sostituire EPROM su robot computer
+1406:
+Errore memoria\n
+Errore memoria in AXIS COMPUTER\n
+\t\n
+Sostituire scheda robot computer
+1407:
+Errore AXIS COMPUTER\n
+\n
+\t\n
+Verif. colleg. segnale DRVFLT-N.\n
+Sostituire scheda robot computer
+1416:
+Errore PATH COMPUTER\n
+\n
+\t\n
+Sostituire scheda path computer
+1417:
+Errore PATH COMPUTER\n
+\n
+\t\n
+Sostituire scheda path computer
+1421:
+Errore nel I/O computer\n
+\n
+\t\n
+Sostituire scheda robot computer
+1601:
+Err checksum HI PROM:\n
+Checksum %.f doveva essere: %.f\n
+\t\n
+Sostituire le EPROM o robot computer
+1602:
+Err checksum LOW PROM:\n
+Checksum %.f doveva essere: %.f\n
+\t\n
+Sostituire le EPROM o robot computer
+1603:
+Errore checksum PROM:\n
+Checksum %.f doveva essere: %.f\n
+\t\n
+Sostituire le EPROM o robot computer
+1703:
+Err. canale seriale 3\n
+\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire scheda robot computer
+1704:
+Err. canale seriale 5\n
+\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire scheda robot computer
+1705:
+Err. canale seriale 8\n
+\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire scheda robot computer
+1708:
+Err. parita' canale 3\n
+Errore parita' canale seriale 3\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire scheda robot computer
+1709:
+Err. parita' canale 5\n
+Errore parita' canale seriale 5\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire scheda robot computer
+1710:
+Err. parita' canale 8\n
+Errore parita' canale seriale 8\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire scheda robot computer
+1713:
+Errore canale 3\n
+Errore rifer. canale seriale 3\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire scheda robot computer
+1714:
+Errore canale 5\n
+Errore rifer. canale seriale 5\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire scheda robot computer
+1715:
+Errore canale 8\n
+Errore rifer. canale seriale 8\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire scheda robot computer
+1735:
+Err. canale seriale 3\n
+I dati ricevuti non sono identici a\n
+quelli trasmessi\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire scheda robot computer
+1736:
+Err. canale seriale 5\n
+I dati ricevuti non sono identici a\n
+quelli trasmessi\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire scheda robot computer
+1737:
+Err. canale seriale 8\n
+I dati ricevuti non sono identici a\n
+quelli trasmessi\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1743:
+Err. canale seriale 3\n
+Errore handshake\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire scheda robot computer
+1744:
+Err. canale seriale 5\n
+Errore handshake\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire scheda robot computer
+1745:
+Err. canale seriale 8\n
+Errore handshake\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire scheda robot computer
+3101:
+Errore resolver X\n
+Guasto nel segnale resolver X sul\n
+canale %.f.\n
+Il segnale X e' troppo basso.\n
+\t\n
+Verificare resolver e collegamenti.\n
+Sostit. schede di misuraz. seriale
+3102:
+Errore resolver Y\n
+Guasto nel segnale resolver Y sul\n
+canale %.f.\n
+Il segnale Y e' troppo basso.\n
+\t\n
+Verificare resolver e collegamenti.\n
+Sostit. schede di misuraz. seriale
+3103:
+Errore resolver X o Y\n
+Guasto nel segnale resolver X o Y\n
+sul canale %.f.\n
+Calcolazione valori\n
+dei segnali X e Y > limite max.\n
+\t\n
+Verificare resolver e collegamenti.\n
+Sostit. schede di misuraz. seriale
+3104:
+Errore resolver X o Y\n
+Guasto nel segnale resolver X o Y\n
+sul canale %.f.\n
+I segnali X e Y sono troppo bassi.\n
+\t\n
+Verificare resolver e collegamenti.\n
+Sostit. schede di misuraz. seriale
+3105:
+Err. alim. resolver\n
+Guasto sul segnale di alimentazione\n
+del resolver.\n
+\t\n
+Verificare collegamenti resolver\n
+Sostituire la scheda assi
+3106:
+Err Offset unita' Drive\n
+L'offset dell'unita' Drive nel canale\n
+%.f fuori limite massimo.\n
+\t\n
+Riavviare il sistema\n
+Sostituire unita' Drive
+3107:
+Tipo errato raddriz.\n
+Il tipo di raddrizzatore non e' del\n
+tipo presente in configurazione.\n
+\t\n
+Verificare e/o modificare il file di\n
+configurazione del sistema.
+3108:
+Tipo err. unita' Drive\n
+Tipo unita' Drive canale %.f\n
+non e' del tipo presente in config.\n
+\t\n
+Verificare e/o modificare il file di\n
+configurazione del sistema.\n
+Sostituire la unita' Drive.
+3148:
+Errore AXIS computer\n
+Computer assi bloccato con un\n
+interrupt hardware causato da un\n
+errore di tipo 'miscellaneous"\n
+\t\n
+Verif. la configurazione del sistema\n
+Ricaricare il sistema\n
+Sostituire scheda robot computer
+3151:
+Overflow out AXIS comp\n
+Computer assi bloccato con\n
+interrupt hardware causato da errori\n
+di saturazione delle uscite.\n
+\t\n
+Ricaricare il sistema\n
+Sostituire la scheda robot computer
+3152:
+Unita' Drive AXIS comp\n
+Computer assi bloccato con\n
+interrupt hardware causato da errore\n
+della unita' drive.\n
+\t\n
+Verificare configurazione del sistema\n
+Ricaricare il sistema\n
+Sostituire la unita' Drive.
+3153:
+Overflow AXIS comp\n
+Computer assi bloccato con\n
+un interrupt causato da overflow\n
+del registro tachimetriche.\n
+\t\n
+Verif. configurazione del sistema e\n
+riavviare il sistema\n
+Ricaricare il sistema\n
+Sostituire unita' Drive
+3154:
+Overflow XY AXIS comp.\n
+Computer assi bloccato\n
+con un interrupt hardware causato da\n
+saturazione del registro XY.\n
+\t\n
+Riavviare sistema e\n
+verificare sincronizzazione.\n
+Ricaricare il sistema
+3155:
+Overflow RC AXIS comp\n
+Computer assi bloccato con\n
+un interrupt hw causato da overflow\n
+del registro RC (ring controller).\n
+\t\n
+Riavviare il sistema e\n
+verificare sincronizzazione.\n
+Ricaricare il sistema
+3156:
+Errore trasmissione\n
+Misurazione seriale mancante.\n
+Computer assi bloccato\n
+causa timeout di trasmissione\n
+\t\n
+Verif. connessioni da armadio contr.\n
+verso robot e scheda misura seriale.\n
+Sostituire scheda di misura seriale o\n
+scheda robot computer.
+3157:
+Errore di trasmissione\n
+Computer assi ha rilevato un errore\n
+durante la trasm. da/verso il\n
+sistema di misura seriale.\n
+\t\n
+Verificare connessioni/cavi del sist.\n
+misura seriale. Verificare isolamenti\n
+Verif. eventuali disturbi elettromag.\n
+nel cavo di colleg. robot/armadio.\n
+Sost. scheda mis. seriale o robot comp
+3306:
+Test unita' drive\n
+Errore in test unita' drive\n
+\t\n
+--
+3307:
+Test unita' drive\n
+Errore in test unita' drive\n
+\t\n
+--
+3313:
+Errore comumicazione\n
+Errore comumicaz. assi est.\n
+\t\n
+--
+3317:
+Errore AXIS computer\n
+\n
+\t\n
+Sostituire scheda robot computer
+7001:
+Errore contatt. attivato\n
+Contattore Motor On non attivato o\n
+ non alimentato.\n
+\t\n
+Riavviare Sistema\n
+Verificare switch temp. nel principale\n
+Controll./Sostit. contatt.(M.On/AUX)\n
+Sostituire contattore KM3 o\n
+scheda sistema
+8001:
+Memoria backup persa\n
+Memoria di backup batteria su scheda\n
+seriale %.f\n
+resettata dall'ultimo spegnimento.\n
+\t\n
+Verificare tensione batteria senza\n
+alimentaz. dopo 18 ore di ricarica.\n
+Verif. il colleg. della batteria\n
+alla scheda seriale.\n
+Sostituire la batteria.
+8010:
+Manca scheda seriale\n
+Scheda misura seriale %.f non trovata\n
+\t\n
+Verif. config. param. di sistema\n
+Verif. connessioni e cavi sistema\n
+di misura seriale\n
+Sostituire la scheda di misura seriale
+8011:
+Errore trasmissione dati\n
+Errore durante trasmism. dati da/a\n
+scheda di misura seriale %.f\n
+\t\n
+Verif. connesioni e cavi del sistema\n
+di misura seriale. Verif. isolamenti\n
+Verif. eventuali disturbi elettromag.\n
+nel cavo di colleg. robot/armadio.\n
+Sost. scheda misura seriale o robot comp
+8012:
+Err. offset X seriale\n
+Errore segnale offset X su scheda\n
+misura seriale %.f\n
+\t\n
+Sostituire scheda di misura seriale
+8013:
+Err. offset Y seriale\n
+Errore segnale offset Y su scheda\n
+misura seriale %.f\n
+\t\n
+Sostituire scheda di misura seriale
+8014:
+Err. linear. seriale\n
+Errore differenza linear. segnale X-Y\n
+su scheda misura seriale %.f\n
+- Sistema potrebbe oper. con segnal.\n
+- Il sist. non funzionera' in errore\n
+\t\n
+Sostituire scheda di misura seriale
+8015:
+Err. lineare X seriale\n
+Errore linear. seriale  segnale X\n
+su scheda misura seriale %.f\n
+\t\n
+Sostituire scheda di misura seriale
+8016:
+Err. lineare Y seriale\n
+Errore linear. seriale  segnale Y\n
+su scheda misura seriale %.f\n
+\t\n
+Sostituire scheda di misura seriale
+8017:
+Errore Comm Parallela\n
+Errore comunicaz. alla scheda assi\n
+\t\n
+Verif. colleg. su scheda assi\n
+Verificare  configurazione sistema
+8018:
+Offset Paral. AD X\n
+Segnale offset X supera tolleranza su\n
+scheda assi\n
+\t\n
+Sostituire scheda assi
+8019:
+Offset Paral. AD Y\n
+Segnale offset Y supera tolleranza su\n
+scheda assi\n
+\t\n
+Sostituire scheda assi
+8020:
+Err. Offset Paral. DA\n
+Offset supera errore tolleranza\n
+convertitore D/A su canale %.f\n
+su scheda assi\n
+\t\n
+Sostit. scheda assi\n
+Usare un diverso canale di misura
+8021:
+Linear. paral. DA-AD\n
+Errore linear. nel convert. D/A\n
+e A/D su canale %.f su scheda assi\n
+\t\n
+Sostituire scheda assi
+8022:
+Errore configurazione\n
+Errore configurazione sistema di\n
+misura su canale %.f\n
+\t\n
+Verificare o modificare configuraz.\n
+parametri di sistema
+9001:
+Errore unita' Drive\n
+DC-link (raddrizzatore) non collegato\n
+\t\n
+Inserire DC-link\n
+Sostituire DC-link
+9002:
+Errore unita' Drive\n
+Errata alimentaz. DC-link\n
+\t\n
+Riavviare il sistema\n
+Sostituire il DC-link (raddrizzatore)
+9003:
+Errore unita' Drive\n
+Tensione DC-link troppo alta\n
+\t\n
+Verificare collegamenti\n
+resistenza shunt\n
+Sostituire DC-link (raddrizzatore)
+9004:
+Errore unita' Drive\n
+Tensione DC-link non corretta\n
+\t\n
+Verificare la tensione\n
+sul contattore Motor On\n
+Sostituire il DC-link (raddrizzatore)
+9005:
+Errore unita' Drive\n
+Temp. raddrizzatore troppo alta\n
+\t\n
+Verificare ventole e/o condizionatore\n
+Verificare la tensione AC al raddriz.\n
+Modificare il programma\n
+Sostituire il DC-link (raddrizzatore)
+9006:
+Errore unita' Drive\n
+Temp. Shunt troppo alta\n
+\t\n
+Decelerazione eccessiva\n
+Modificare programma utente\n
+Verificare tensione AC al raddriz.\n
+Sostituire il DC-link (raddrizzatore)
+9007:
+Errore unita' Drive\n
++/- 15V fuori limite\n
+\t\n
+Verificare +/- 15V sull' alimentatore\n
+Sostituire il DC-link (raddrizzatore)
+9008:
+Errore unita' Drive\n
+Guasto corrente bassa drive unit %.f\n
+\t\n
+Verificare eventuali cavi interrotti\n
+Verificare se toller. min. del param.\n
+di movimento Mains corrisponde al\n
+reale Mains\n
+Verificare/sostituire la unit` drive
+9009:
+Errore Sistema Drive\n
+Corrente troppo alta su\n
+unita' drive %.f\n
+\t\n
+Verif. se motore o circuito\n
+motore in corto circuito\n
+Verificare/sostituire unita' drive
+9010:
+Errore Sistema Drive\n
+Temp. troppo alta su unita'\n
+drive %.f\n
+\t\n
+Verificare ventole o condizionatore\n
+Modificare il programma\n
+Verificare/sostituire le unita' drive

@@ -1,0 +1,28 @@
+15::
+1:
+Het object is gedeclareerd\n
+in een read only module\n
+en kan niet gewijzigd worden.
+2:
+Het object is gedeclareerdin\n
+een view only module en\n
+kan niet gewijzigd worden.
+3:
+Naam niet toegestaan! Het\n
+moet beginnen met een letter.\n
+Geres. woorden niet toegestaan.
+4:
+Afloop richting kan niet\n
+veranderd worden binnen een\n
+complexe instructie.
+5:
+Het is niet toegestaan de\n
+afloop richting te veranderen\n
+binnen deze routine.
+6:
+RAPID syntaxis fout(en).\n
+Fouten in het programma.
+7:
+Kan de afloop niet uitvoeren\n
+voorbij de eerste instructie\n
+in een blok of routine.

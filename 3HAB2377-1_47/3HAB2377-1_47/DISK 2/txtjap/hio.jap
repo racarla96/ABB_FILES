@@ -1,0 +1,267 @@
+Revision 1.11  1996/12/12  07:36:15  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+4::
+0:
+
+1:
+Inputs/Outputs
+2:
+Invert:
+3:
+Groups
+4:
+Most Common
+5:
+
+6:
+
+7:
+Name:
+8:
+Value:
+9:
+Type:
+10:
+
+11:
+Bus:
+12:
+Open
+13:
+Close
+14:
+Set
+15:
+Reset
+16:
+1
+17:
+0
+18:
+File
+19:
+Print...
+20:
+Preferences...
+21:
+Edit
+22:
+Alias Digital Out
+23:
+Alias Analog
+24:
+Goto...
+25:
+Goto Top
+26:
+Goto Bottom
+27:
+AliasIO
+28:
+View
+29:
+Most Common
+30:
+I/O units
+31:
+Digital In
+32:
+Digital Out
+33:
+Analog
+34:
+Alias Digital In
+35:
+Groups
+36:
+Alias All signals
+37:
+All signals
+38:
+Alias Groups
+39:
+Safety
+40:
+
+41:
+
+42:
+
+43:
+Address:
+44:
+I/O unit:
+45:
+Signal:
+46:
+
+47:
+Signal attributes:
+48:
+State
+49:
+I/O units
+50:
+OK
+51:
+Sigstate
+52:
+Cancel
+53:
+Result
+54:
+Incl
+55:
+Excl
+56:
+Goto Line!
+57:
+Enter Line
+58:
+Change
+59:
+Name         Value        Type
+60:
+Bus Addr     Name         Type
+61:
+Most Common  Name         Type
+62:
+Name         Value        Signals
+63:
+No  Value    I/O Unit      Signal
+64:
+Group:
+65:
+Signal       Value        Name
+66:
+Up
+67:
+Move
+68:
+Setup
+69:
+             Name         Type
+70:
+Most Common Result
+71:
+Most Common Setup
+72:
+Off
+73:
+On
+74:
+False
+75:
+True
+76:
+Passive
+77:
+Active
+78:
+Low
+79:
+High
+80:
+Unit type:
+81:
+
+82:
+
+83:
+No signals
+84:
+Press Enter to proceed
+85:
+No signals mapped to unit
+86:
+Enter Value for IO Group
+87:
+Limits: Minimum
+88:
+        Maximum
+89:
+Data input for Inputs/Outputs
+90:
+Enter Value for Analog Signal
+91:
+Inputs/Outputs Printing
+92:
+Print
+93:
+Print Only to File :
+94:
+Add Signal Info    :
+95:
+Data to Print
+96:
+Print Inputs/Outputs to File:
+97:
+Printing !
+98:
+   To Cancel Press Enter
+99:
+ Press Enter to Continue
+100:
+Printer is Busy\n
+\n
+Try again when printer is ready
+101:
+Cannot Print because too many\n
+print job queued\n
+\n
+Try again later
+102:
+Cannot Print because\n
+Printer Device not configured\n
+in System Parameters
+103:
+Not enough free space on unit\n
+used when printing (usually\n
+%.9s). Needs %d bytes\n
+Please Move/Delete some files
+104:
+  Busy\n
+  \n
+  Wait Please
+105:
+ Cannot create/write to file:\n
+\n
+
+106:
+ File already exist\n
+
+107:
+Start Signal
+108:
+Cannot include signal!\n
+The most common list may only\n
+contain %d signals.
+109:
+Cannot change group value!\n
+\n
+The selected group contains\n
+signals loaded as internal.
+110:
+Special
+111:
+I/O Buses
+112:
+Bus
+113:
+Restart
+114:
+I/O buses
+
+
+
+
+
+
+
+
+
+
+
+

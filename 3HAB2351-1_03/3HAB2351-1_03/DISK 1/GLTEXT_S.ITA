@@ -1,0 +1,20 @@
+%%%
+  VERSION: 1
+  LANGUAGE: ENGLISH
+%%%
+
+MODULE GLTEXT (SYSMODULE, NOSTEPIN, READONLY)
+
+! ----------------
+! $Revision: 1.2 $ 
+! ----------------
+
+ !***************
+ ! Global data  *
+ !***************
+ !Error messages: header (max 24 char), reason (max 40 char), reason (max 40 char)
+ CONST string stErrMess{25,3}:=[["gl01: Glue Start Error","Not possible to start without","ON argument."],["gl02: Glue Data Error","Value for global fl1 override","is out of limits."],["gl03: Glue Data Error","Value for global fl2 override","is out of limits."],["gl04: Glue Data Error","Value for gl_on_time in ggundata","is out of limits."],["gl05: Glue Data Error","Value for gl_off_time in ggundata","is out of limits."],["gl06: Glue Data Error","Value for fl1_on_time in ggundata","is out of limits."],["gl07: Glue Data Error","Value for fl1_time in ggundata","is out of limits."],["gl08: Glue Data Error","Value for fl1_off_time in ggundata","is out of limits."],["gl09: Glue Data Error","Value for fl2_on_time in ggundata","is out of limits."],["gl10: Glue Data Error","Value for fl2_time in ggundata","is out of limits."],["gl11: Glue Data Error","Value for fl2_off_time in ggundata","is out of limits."],["gl12: Glue Data Error","Value for fl1_type in ggundata","is out of limits."],["gl13: Glue Data Error","Value for fl2_type in ggundata","is out of limits."],["gl14: Glue Start Error","Not possible to start gluing twice.",""],["gl15: Glue Error","Calculated value for analog signal 1","is to large."],["gl16: Glue Error","Calculated value for analog signal 2","is to large."],["gl17: Glue End Error","Not possible to end gluing","without start."],["gl18: Unexpected Stop","Stopped while gluing was active.",""],["gl19: Glue Data Error","Value for fl1_delay in ggundata","is out of limits."],["gl20: Glue Data Error","Value for fl2_delay in ggundata","is out of limits."],["gl21: Glue Data Error","Value for fl1_refspeed in ggundata","is out of limits."],["gl22: Glue Data Error","Value for fl2_refspeed in ggundata","is out of limits."],["gl23: Glue Data Error","Value for ggun_no in ggundata","is out of limits."],["gl24: Glue Data Error","Change of Gun while gluing is active","is not allowed."],["gl25: Unknown Error","Unknown error during gluing occured.",""]];
+ !Error message reason (max 40 char)
+ CONST string stErrCont:="Gluing is restarted in next ON instr."; 
+ 
+ENDMODULE

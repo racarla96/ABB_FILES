@@ -1,0 +1,152 @@
+ on main routine.
+Revision 1.9  1996/12/12  07:37:49  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+9::
+0:
+Produktion
+10:
+Arkiv
+11:
+Redigera
+12:
+Visa
+20:
+Ladda program...
+21:
+Kunde inte starta programmet
+22:
+Inställningar...
+23:
+Gå till...
+24:
+Starta från början
+25:
+Info
+26:
+Position
+27:
+Operatör Uteffekt & Ineffekt
+50:
+Avbryt
+51:
+OK
+80:
+Program
+82:
+Data
+83:
+Inställningar
+84:
+Datavärde
+85:
+Gå till rad
+86:
+Välj ett program att ladda
+87:
+Produktions Info
+88:
+Produktions Position
+100:
+Program namn
+101:
+Status
+102:
+Hastighet:=
+103:
+%
+104:
+Körsätt:=
+105:
+Rutin
+106:
+
+107:
+Gå till rad
+108:
+Utför RAPID instruktion
+109:
+Aktuell rutin
+110:
+100%
+111:
+Inget RAPID program laddat
+112:
+*
+130:
+Ej tillåtet att ändra riktning.
+131:
+Start från början krävs.
+132:
+Inga instruktioner i rutinen.
+133:
+Ej laddat
+134:
+Färdigt
+135:
+Stoppat
+136:
+Körning
+137:
+mm/s
+138:
+-%
+139:
+25%
+140:
+
+141:
++%
+142:
+Ja
+143:
+Nej
+144:
+      Vill du fortsätta ?
+145:
+En start från början innebär att
+146:
+tidigare rutinanrop förloras.
+147:
+Varning
+148:
+>>
+149:
+Laddat
+150:
+Odefinierat
+151:
+Stopp uppkom under återvinning
+200:
+Tryck Enter för att fortsätta
+201:
+Länkat
+202:
+Kunde inte ladda program
+203:
+Kunde inte frigöra program
+204:
+
+205:
+Kan inte ladda program
+206:
+Typ måste vara ett program
+207:
+Troligtvis fel i programmet!
+208:
+Kan inte visa programmet.
+209:
+Kan inte visa RAPID instruktioner.
+210:
+\n
+Vänta,\n
+program laddas ...!
+211:
+Slut på minne.
+212:
+Ej körbart
+213:
+Kan inte köra program.
+214:
+Ingen huvudrutin funnen.

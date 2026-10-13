@@ -1,0 +1,1864 @@
+24::
+0:
+Programa
+1:
+Error de argumento\n
+Tarea %s: el mismo parametro\n
+opcional aparece mas de una vez.\n
+\t\n
+Asegurarse que el mismo parametro\n
+opcional no aparece mas de una vez en\n
+misma llamada de rutina.
+2:
+Error de argumento\n
+Tarea %s: argumentos excluyentes\n
+deben tener valor condicional\n
+\t\n
+No se pueden especificar argumentos\n
+para mas de un parametro de una lista\n
+de parametros mutuamente exclusivos a\n
+menos que todos sean argumentos con\n
+valores condicionales.
+3:
+Error de argumento\n
+Tarea %s: Se espera\n
+argumento requerido\n
+\t\n
+Comprobar que los argumentos estan\n
+en el mismo orden que los parametros\n
+de la rutina llamada.
+4:
+Error de argumento\n
+Tarea %s: argumento para\n
+parametro REF no es referencia a dato\n
+\t\n
+Asegurarse que expresion del argumento\n
+son solo datos o referencia.
+5:
+Error de argumento\n
+Tarea %s: Argumento para\n
+parametro 'INOUT' no es variable o ref.\n
+a persistente o es solo lectura\n
+\t\n
+Comprobar que la expresion de los\n
+argumentos son variables, persistentes,\n
+referencia a param. persistente o param\n
+variable. La variable o persistente\n
+pueden no ser solo lectura.
+6:
+Error de argumento\n
+Tarea %s: No hay valor\n
+de argumento opcional\n
+\t\n
+Solo parametros 'switch' se pueden\n
+especificar por nombre. Parametros\n
+opcionales de otros tipos se debe dar\n
+un valor. Añadir un valor.
+7:
+Error de argumento\n
+Tarea %s: Argumento\n
+opcional en lugar erroneo\n
+en lista de argumentos\n
+\t\n
+Comprobar que los argumentos estan\n
+en el mismo orden que los parametros\n
+de la rutina llamada.
+8:
+Error de argumento\n
+Tarea %s: Referencia a parametro\n
+requerido en argumento opcional\n
+\t\n
+Argumento correspondiente a parametro\n
+requerido no debe ser especificado con\n
+el caracter '\'. Cambiar el argumento\n
+opcional en uno requerido.
+9:
+Error de argumento\n
+Tarea %s: Referencia a\n
+parametro requerido en valor\n
+de argumento opcional.\n
+\t\n
+El valor condicional de un parametro\n
+opcional debe referirse a un parametro\n
+opcional en la rutina que llama.\n
+Cambiar el valor condicional.
+10:
+Error de argumento\n
+Tarea %s: Referencia a parametro\n
+requerido en argumento opcional\n
+\t\n
+Argumento correspondiente a parametro\n
+requerido no debe ser especificado con\n
+el caracter '\'. Cambiar el argumento\n
+opcional en uno requerido.
+11:
+Error de argumento\n
+Tarea %s: Argumento requerido en\n
+sitio erroneo de la lista de argumentos\n
+\t\n
+Comprobar que los argumentos estan\n
+en el mismo orden que los parametros\n
+de la rutina llamada.
+12:
+Error de argumento\n
+Tarea %s: Argumento 'switch' no\n
+puede tener valor\n
+\t\n
+El argumento correspondiente a un\n
+parametro 'switch' no puede asignarse a\n
+un valor. Quitar valor.
+13:
+Error de argumento\n
+Tarea %s: Pocos argumentos\n
+en llamada a rutina\n
+\t\n
+La llamada a rutina debe dar todos\n
+valores para parametros requeridos de\n
+la rutina llamada. Añadir argumentos\n
+para ajustarse a la lista parametros.
+14:
+Error de argumento\n
+Tarea %s: Demasiados argumentos\n
+en llamada a rutina.\n
+\t\n
+Quitar argumentos para suprimir el\n
+exceso de los argumentos suministrados\n
+respecto la lista de parametros de\n
+a rutina llamada.
+15:
+Error declaracion datos\n
+Tarea %s: Dimension de\n
+matriz debe ser > 0.\n
+\t\n
+Dimension de matriz debe ser positiva.\n
+Cambiar la expresion de dimension.
+16:
+Error declaracion datos\n
+Tarea %s: Demasiadas\n
+dimensiones en definicion de matriz.\n
+\t\n
+Una matriz puede tener 3 dimensiones.\n
+Cambiar el programa para que solo se\n
+necesiten 3 dimensiones.
+17:
+Error de tipo\n
+Tarea %s: Datos indexados\n
+no son tipo matriz\n
+\t\n
+Solo los datos declarados como matrices\n
+pueden ser indexados. Quitar indice o\n
+indices, o declarar el dato como\n
+matriz.
+18:
+Error de tipo\n
+Tarea %s: El dato no es\n
+tipo compuesto\n
+\t\n
+Los componentes solo se acceden en\n
+datos tipo compuesto. Comprobar nombre\n
+y tipo de dato referenciado.
+19:
+Error de limite\n
+Tarea %s: Error al\n
+crear entrada en sdb\n
+\t\n
+Ha ocurrido un error al insertar un\n
+persistente en la base de datos comun.\n
+Quizas la base de datos esta llena.
+20:
+Error declaracion datos\n
+Tarea %s: la expresion no\n
+es una expresion constante.\n
+\t\n
+Las expresiones contenidas en\n
+declaraciones de datos deben ser\n
+expresiones constantes. Comprobar que\n
+la expresion no contiene variables,\n
+persistentes o llamadas a funciones.
+21:
+Error de instruccion\n
+Tarea %s: RETURN de una\n
+funcion debe tener una expresion\n
+\t\n
+Una instruccion RETURN dentro de una\n
+funcion debe especificar un valor de\n
+retorno. Añadir una expresion de valor.
+22:
+Error de tipo\n
+Tarea %s: Combinacion\n
+ilegal de operandos para el\n
+operador '*'\n
+\t\n
+Las combinaciones permitidas para los\n
+dos operandos del operador '*' son\n
+'num'*'num', 'num'*'pos', 'pos'*'num',\n
+'pos'*'pos' y 'orient'*'orient'.\n
+Comprobar tipos de los operandos.
+23:
+Error de instruccion\n
+Tarea %s: No puedo transferir\n
+control a otra lista de instrucciones\n
+\t\n
+Asegurarse que la etiqueta esta situada\n
+en la misma lista de instrucciones del\n
+GOTO, en el mismo nivel o mas externo.\n
+No es posible saltar dentro de un flujo\n
+de instrucciones de programa.
+24:
+Error de tipo\n
+Tarea %s: Operando\n
+izquierdo de tipo ilegal en operador\n
+binario '+' o '-'\n
+\t\n
+Los tipos de operandos permitidos del\n
+operador '+' son 'num','pos' y 'string'\n
+,para el operador '-' son 'num' y\n
+'pos'. Comprobar el tipo de operando.
+25:
+Error de tipo\n
+Tarea %s: Operando de tipo\n
+ilegal en operador unario '+' o '-'\n
+\t\n
+Los tipos de operandos permitidos de\n
+los operadores '+' y '-' son 'num' y\n
+'pos'. Comprobar el tipo de operando.
+26:
+Error de tipo\n
+Tarea %s: Operando\n
+derecho de tipo ilegal en\n
+operador binario '+' o '-'\n
+\t\n
+Los tipos de operandos permitidos del\n
+operador '+' son 'num','pos' y 'string'\n
+,para el operador '-' son 'num' y\n
+'pos'. Comprobar el tipo de operando.
+27:
+Error de tipo\n
+Tarea %s: Operando izquierdo\n
+de tipo ilegal en\n
+operador binario '/','DIV' o 'MOD'\n
+\t\n
+El unico tipo de operando permitido de\n
+los operadores '/','DIV' y 'MOD' es\n
+'num'. Comprobar el tipo de operando.
+28:
+Error de tipo\n
+Tarea %s: Operando derecho\n
+de tipo ilegal en\n
+operador binario '/','DIV' o 'MOD'\n
+\t\n
+El unico tipo de operando permitido de\n
+los operadores '/','DIV' y 'MOD' es\n
+'num'. Comprobar el tipo de operando.
+29:
+Error de tipo\n
+Tarea %s: Operando izquierdo\n
+de tipo ilegal en\n
+operador '<', '<=', '>' o '>='\n
+\t\n
+El unico tipo de operando permitido de\n
+los operadores '<', '<=', '>' y '>=' es\n
+'num'. Comprobar el tipo de operando.
+30:
+Error de tipo\n
+Tarea %s: Operando derecho\n
+de tipo ilegal en\n
+operador '<', '<=', '>' o '>='\n
+\t\n
+El unico tipo de operando permitido de\n
+los operadores '<', '<=', '>' y '>=' es\n
+'num'. Comprobar el tipo de operando.
+31:
+Error de tipo\n
+Tarea %s: Operando izquierdo\n
+de tipo ilegal en operador '*'\n
+\t\n
+Los tipos permitidos para el operando\n
+del operador '*' son 'num', 'pos' y\n
+'orient'. Comprobar tipo del operando.
+32:
+Error de tipo\n
+Tarea %s: Operando derecho\n
+de tipo ilegal en operador '*'\n
+\t\n
+Los tipos permitidos para el operando\n
+del operador '*' son 'num', 'pos' y\n
+'orient'. Comprobar tipo del operando.
+33:
+Error de tipo\n
+Tarea %s: Operando de\n
+tipo ilegal en operador 'NOT'\n
+\t\n
+El unico tipo de operando permitido\n
+del operador 'NOT' es 'bool'.\n
+Comprobar el tipo del operando.
+34:
+Error de tipo\n
+Tarea %s: Operando izquierdo\n
+de tipo ilegal en\n
+operador 'OR', 'XOR' o 'AND'\n
+\t\n
+El unico tipo de operando permitido de\n
+los operadores 'OR', 'XOR' y 'AND' es\n
+'bool'. Comprobar el tipo de operando.
+35:
+Error de tipo\n
+Tarea %s: Operando derecho\n
+de tipo ilegal en\n
+operador 'OR', 'XOR' o 'AND'\n
+\t\n
+El unico tipo de operando permitido de\n
+los operadores 'OR', 'XOR' y 'AND' es\n
+'bool'. Comprobar el tipo de operando.
+36:
+Error de tipo\n
+Tarea %s: Numero de indices\n
+incorrecto en lista de indices\n
+\t\n
+Asegurarse que el numero de indices en\n
+la lista de indices es la misma que el\n
+numero de dimensiones de la matriz.
+37:
+Error declaracion datos\n
+Tarea %s: LOCAL es ilegal\n
+en declaracion de constante en rutina\n
+\t\n
+Solo las declaraciones de datos de\n
+programa pueden tener atributo LOCAL.\n
+Quitar atributo LOCAL o mover la\n
+declaracion fuera de la rutina.
+38:
+Error declaracion datos\n
+Tarea %s: LOCAL es ilegal\n
+en declaracion de variable en rutina\n
+\t\n
+Solo las declaraciones de datos de\n
+programa pueden tener atributo LOCAL.\n
+Quitar atributo LOCAL o mover la\n
+declaracion fuera de la rutina.
+39:
+Error de nombre\n
+Tarea %s: Nombre de\n
+constante ambiguo\n
+\t\n
+Datos de rutina deben tener nombres\n
+unicos dentro de la rutina. Datos de\n
+programa deben tener nombres unicos\n
+dentro del modulo. Renombrar datos o\n
+cambiar el nombre conflictivo.
+40:
+Error de nombre\n
+Tarea %s: Nombre de\n
+constante global ambiguo\n
+\t\n
+Datos globales deben tener nombres\n
+unicos en todos los datos globales,\n
+rutinas globales y modulos en todas las\n
+tareas del programa. Renombrar datos o\n
+cambiar el nombre conflictivo.
+41:
+Error de nombre\n
+Tarea %s: Nombre de\n
+persistente global ambiguo\n
+\t\n
+Datos globales deben tener nombres\n
+unicos en todos los datos globales,\n
+rutinas globales y modulos en todas las\n
+tareas del programa. Renombrar datos o\n
+cambiar el nombre conflictivo.
+42:
+Error de nombre\n
+Tarea %s: Nombre de\n
+rutina global ambiguo\n
+\t\n
+Rutinas globales deben tener nombres\n
+unicos en todos los datos globales,\n
+rutinas globales y modulos en todas las\n
+tareas del programa. Renombrar datos o\n
+cambiar el nombre conflictivo.
+43:
+Error de nombre\n
+Tarea %s: Nombre de\n
+variable global ambiguo\n
+\t\n
+Datos globales deben tener nombres\n
+unicos en todos los datos globales,\n
+rutinas globales y modulos en todas las\n
+tareas del programa. Renombrar datos o\n
+cambiar el nombre conflictivo.
+44:
+Error de nombre\n
+Tarea %s: Nombre de\n
+etiqueta ambigua\n
+\t\n
+Etiquetas deben tener nombres unicos\n
+dentro de la rutina. Renombrar etiqueta\n
+o cambiar el nombre conflictivo.
+45:
+Error de nombre\n
+Tarea %s: Nombre de\n
+modulo ambiguo\n
+\t\n
+Modulos deben tener nombres unicos\n
+en todos los datos globales, rutinas\n
+globales y modulos en todas las\n
+tareas del programa. Renombrar datos o\n
+cambiar el nombre conflictivo.
+46:
+Error de nombre\n
+Tarea %s: Nombre de\n
+parametro ambiguo\n
+\t\n
+Parametros deben tener nombres unicos\n
+dentro de la rutina. Renombrar el\n
+parametro o cambiar el nombre\n
+conflictivo.
+47:
+Error de nombre\n
+Tarea %s: Nombre de\n
+persistente ambiguo\n
+\t\n
+Datos de programa deben tener nombres\n
+unicos dentro del modulo. Renombrar el\n
+dato o cambiar el nombre conflictivo.
+48:
+Error de nombre\n
+Tarea %s: Nombre de\n
+rutina ambigua\n
+\t\n
+Rutinas deben tener nombres unicos\n
+dentro del modulo. Renombrar la rutina\n
+o cambiar el nombre conflictivo.
+49:
+Error de nombre\n
+Tarea %s: Nombre de\n
+variable ambiguo\n
+\t\n
+Datos de rutina deben tener nombres\n
+unicos dentro de la rutina. Datos de\n
+programa deben tener nombres unicos\n
+dentro del modulo. Renombrar el\n
+dato o cambiar el nombre conflictivo.
+50:
+Error de tipo\n
+Tarea %s: Tipos de operando de los\n
+operadores binarios '+'o'-' no iguales\n
+\t\n
+Los dos operandos de los operadores\n
+ '+' y '-' deben ser del mismo tipo.\n
+Comprobar  tipos de operandos.
+51:
+Error de tipo\n
+Tarea %s: Tipos de operando de los\n
+operadores '=' o '<>' no son iguales\n
+\t\n
+Los dos operandos de los operadores\n
+ '=' y '<>' deben ser del mismo tipo.\n
+Comprobar  tipos de operandos.
+52:
+Error de instruccion\n
+Tarea %s: RETURN con\n
+expresion permitido solo en una funcion\n
+\t\n
+En trap o procedimiento la instruccion\n
+RETURN no debe especificar una valor\n
+de retorno. Eliminar la expresion.
+53:
+Error de instruccion\n
+Tarea %s: RAISE en gestor de\n
+errores no puede tener una expresion\n
+\t\n
+La instruccion RAISE en un gestor de\n
+errores solo se usa para propagar el\n
+error actual. Por ello no puede\n
+especificar un numero de error. Borrar\n
+la expresion del numero de error.
+54:
+Error de tipo\n
+Tarea %s: Dimension distinta\n
+de tipo matriz y agregado\n
+\t\n
+Verificar que el numero de expresiones\n
+del agregado es el mismo que la\n
+dimension de la matriz.
+55:
+Error de tipo\n
+Tarea %s: Destino de asignacion\n
+debe ser un valor o un semi-valor\n
+\t\n
+El tipo de dato asignable a un valor\n
+debe ser del tipo valor o semi-valor.\n
+Datos tipo no valor solo se pueden\n
+asignar con instrucciones o funciones\n
+especiales predefinidas
+56:
+Error de tipo\n
+Tarea %s: Tipo de operando\n
+izquierdo de operador\n
+'=' o '<>' no son valor o semivalor\n
+\t\n
+Los operadores '=' y '<>' solo pueden\n
+aplicarse a expresiones de tipo valor o\n
+semivalor. Si se hacen comparaciones,\n
+se necesitan funciones predefinidas\n
+especiales.
+57:
+Error de tipo\n
+Tarea %s: Tipo de operando\n
+derecho de operador\n
+'=' o '<>' no son valor o semivalor\n
+\t\n
+Los operadores '=' y '<>' solo pueden\n
+aplicarse a expresiones de tipo valor o\n
+semivalor. Si se hacen comparaciones,\n
+se necesitan funciones predefinidas\n
+especiales.
+58:
+Error de tipo\n
+Tarea %s: Expresion TEST\n
+no es valor o semivalor\n
+\t\n
+La instruccion TEST solo se puede usar\n
+con expresiones de tipo valor o semi-\n
+valor. Si se hacen comparaciones, se\n
+necesitan funciones predefinidas\n
+especiales.
+59:
+Error declaracion datos\n
+Tarea %s: Comodin de\n
+expresion de valor no\n
+permitido en definicion de constante\n
+\t\n
+Completar la declaracion o cambiar\n
+nombre de dato en un comodin.
+60:
+Error declaracion datos\n
+Tarea %s: Comodin en dimension\n
+de matriz  permitido en definicion de\n
+nombre de constante o variable\n
+\t\n
+Completar la declaracion o cambiar\n
+nombre de dato en un comodin.
+61:
+Error declaracion rut.\n
+Tarea %s: Comodin para dimension\n
+de matriz de parametros no permitido\n
+en definicion de rutina con nombre\n
+\t\n
+Completar la declaracion de parametros\n
+o cambiar nombre de rutina en un\n
+comodin.
+62:
+Error de nombre\n
+Tarea %s: Comodin para nombre\n
+de parametro no permitido en\n
+definicion de rutina\n
+\t\n
+Completar la declaracion de rutina\n
+o cambiar nombre de rutina  en un\n
+comodin.
+63:
+Error declaracion datos\n
+Tarea %s: Comodin para expresion\n
+de valor inicial no permitido en\n
+definicion de persistente nombrado\n
+\t\n
+Completar la declaracion de datos o\n
+cambiar nombre de dato en un comodin.
+64:
+Error declaracion rut.\n
+Tarea %s: Comodin para\n
+parametro no permitido\n
+en definicion de rutina nombrada\n
+\t\n
+Completar la declaracion de parametros,\n
+borrar comodin o cambiar nombre de\n
+rutina  en un comodin.
+65:
+Error de referencia\n
+Tarea %s: Comodin para\n
+tipo no permitido en\n
+definicion de rutina o dato nombrado\n
+\t\n
+Completar la declaracion de dato o\n
+rutina o cambiar nombre de rutina\n
+en un comodin.
+66:
+Error declaracion datos\n
+Tarea %s: Comodin para expresion\n
+de valor inicial no permitido en\n
+definicion de variable nombrada\n
+\t\n
+Completar la declaracion de datos o\n
+cambiar nombre de dato en un comodin.
+67:
+Error de tipo\n
+Tarea %s: Pocos componentes\n
+en agregado de comp.\n
+\t\n
+Verificar que numero de expresiones del\n
+agregado es igual al numero de compo-\n
+nentes de un tipo compuesto.
+68:
+Error de tipo\n
+Tarea %s: Muchos componentes\n
+en agregado de comp.\n
+\t\n
+Verificar que numero de expresiones del\n
+agregado es igual al numero de compo-\n
+nentes de un tipo compuesto.
+69:
+Error de referencia\n
+Tarea %s: Referencia de\n
+dato ambigua\n
+\t\n
+Hay uno o mas objetos con el mismo\n
+nombre que el dato referenciado\n
+visibles desde la posicion de programa\n
+Verificar que todos los objetos cumplen\n
+las reglas de unicidad de nomenclatura
+70:
+Error de referencia\n
+Tarea %s: Referencia de\n
+funcion ambigua\n
+\t\n
+Hay uno o mas objetos con el mismo\n
+nombre que la funcion referenciada\n
+visibles desde la posicion de programa\n
+Verificar que todos los objetos cumplen\n
+las reglas de unicidad de nomenclatura
+71:
+Error de referencia\n
+Tarea %s: Referencia de\n
+etiqueta ambigua\n
+\t\n
+Hay uno o mas objetos con el mismo\n
+nombre que la etiqueta referenciada\n
+visibles desde la posicion de programa\n
+Verificar que todos los objetos cumplen\n
+las reglas de unicidad de nomenclatura
+72:
+Error de referencia\n
+Tarea %s: Referencia de\n
+procedimiento ambigua\n
+\t\n
+Hay uno o mas objetos con el mismo\n
+nombre que procedimiento referenciado\n
+visibles desde la posicion de programa\n
+Verificar que todos los objetos cumplen\n
+las reglas de unicidad de nomenclatura
+73:
+Error de referencia\n
+Tarea %s: Referencia de\n
+trap ambigua\n
+\t\n
+Hay uno o mas objetos con el mismo\n
+nombre que el trap referenciado\n
+visibles desde la posicion de programa\n
+Verificar que todos los objetos cumplen\n
+las reglas de unicidad de nomenclatura
+74:
+Error de referencia\n
+Tarea %s: No es una\n
+completa referencia a dato\n
+\t\n
+El nombre especificado identifica un\n
+objeto distinto a un dato. Comprobar\n
+que el dato deseado no esta oculto por\n
+otro objeto con el mismo nombre.
+75:
+Error de referencia\n
+Tarea %s: No es una\n
+referencia a funcion\n
+\t\n
+El nombre especificado identifica un\n
+objeto distinto a una funcion.\n
+Comprobar que dato deseado no lo oculta\n
+otro objeto con el mismo nombre.
+76:
+Error de referencia\n
+Tarea %s: No es una\n
+referencia a etiqueta\n
+\t\n
+El nombre especificado identifica un\n
+objeto distinto a una etiqueta.\n
+Comprobar que dato deseado no lo oculta\n
+otro objeto con el mismo nombre.
+77:
+Error de referencia\n
+Tarea %s: No es una\n
+referencia a parametro opcional\n
+en valor de argumento condicional.\n
+\t\n
+El nombre especificado identifica un\n
+objeto distinto a un parametro opcional\n
+Comprobar que dato deseado no lo oculta\n
+otro objeto con el mismo nombre.
+78:
+Error de referencia\n
+Tarea %s: No es una\n
+referencia a parametro opcional\n
+\t\n
+Nombre especificado identifica objeto\n
+distinto a un parametro opcional.\n
+Cambiar el nombre para referirse a un\n
+parametro opcional
+79:
+Error de referencia\n
+Tarea %s: No es una\n
+referencia a procedimiento\n
+\t\n
+El nombre especificado identifica un\n
+objeto distinto a un procedimiento.\n
+Comprobar que dato deseado no lo oculta\n
+otro objeto con el mismo nombre.
+80:
+Error de referencia\n
+Tarea %s: No es una\n
+referencia a parametro requerido\n
+\t\n
+El nombre especificado identifica un\n
+objeto distinto a un parametro obligado\n
+Comprobar que dato deseado no lo oculta\n
+otro objeto con el mismo nombre.
+81:
+Error de referencia\n
+Tarea %s: No es una\n
+referencia a trap\n
+\t\n
+El nombre especificado identifica un\n
+objeto distinto a un trap.\n
+Comprobar que dato deseado no lo oculta\n
+otro objeto con el mismo nombre.
+82:
+Error de referencia\n
+Tarea %s: No es nombre de tipo\n
+\t\n
+El nombre especificado identifica un\n
+objeto distinto a un tipo.\n
+Comprobar que dato deseado no lo oculta\n
+otro objeto con el mismo nombre.
+83:
+Error de tipo\n
+Tarea %s: No es del tipo valor\n
+\t\n
+Solo variables sin valor inicial y\n
+parametros modo 'VAR' pueden ser de\n
+tipo semivalor o no valor.
+84:
+Error de referencia\n
+Tarea %s: Referencia\n
+a dato desconocido\n
+\t\n
+No hay datos (u otros objetos) con el\n
+nombre especificado visibles desde esta\n
+posicion de programa.
+85:
+Error de referencia\n
+Tarea %s: Referencia a\n
+funcion desconocida\n
+\t\n
+No hay funciones (u otros objetos)\n
+con el nombre especificado visibles\n
+desde esta posicion de programa.
+86:
+Error de referencia\n
+Tarea %s: Referencia a\n
+etiqueta desconocida\n
+\t\n
+La rutina no contiene etiquetas (u\n
+otros objetos) con nombre especificado
+87:
+Error de referencia\n
+Tarea %s: Referencia a\n
+parametro opcional desconocido\n
+\t\n
+La rutina llamada no contiene parametro\n
+opcional (u otros objetos)\n
+con el nombre especificado.
+88:
+Error de referencia\n
+Tarea %s: Referencia a\n
+procedimiento desconocido\n
+\t\n
+No hay procedimientos (u otros objetos)\n
+con el nombre especificado visibles\n
+desde esta posicion de programa.
+89:
+Error de referencia\n
+Tarea %s: Referencia a\n
+componente desconocido\n
+\t\n
+El tipo compuesto no contiene componen-\n
+te con el nombre especificado.
+90:
+Error de referencia\n
+Tarea %s: Referencia a\n
+parametro requerido desconocido\n
+\t\n
+La rutina llamada no contiene parametro\n
+obligatorio (u otros objetos)\n
+con el nombre especificado.
+91:
+Error de referencia\n
+Tarea %s: Referencia a\n
+trap desconocido\n
+\t\n
+No hay trap (u otros objetos)\n
+con el nombre especificado visibles\n
+desde esta posicion de programa.
+92:
+Error de referencia\n
+Tarea %s: Referencia a\n
+nombre de tipo desconocido\n
+\t\n
+No hay tipo de dato (u otros objetos)\n
+con el nombre especificado visibles\n
+desde esta posicion de programa.
+93:
+Error de instruccion\n
+Tarea %s: Destino de\n
+asignacion es solo lectura\n
+\t\n
+El dato a asignar el valor no puede ser\n
+constante, variable solo lectura o\n
+persistente solo lectura.
+94:
+Error declaracion datos\n
+Tarea %s: Declaracion de\n
+persistente no permitida en rutina\n
+\t\n
+Persistente solo se puede declarar a\n
+nivel de modulo. Mover la declaracion\n
+del persistente fuera de la rutina.
+95:
+Error de instruccion\n
+Tarea %s: RAISE sin expresion\n
+permitida solo en gestor de errores\n
+\t\n
+Añadir expresion de numero de error\n
+en la instruccion RAISE.
+96:
+Error de instruccion\n
+Tarea %s: RETRY permitida\n
+solo en gestor errores\n
+\t\n
+Instruccion RETRY solo se puede usar\n
+en gestor de errores. Borrarlo.
+97:
+Error de instruccion\n
+Tarea %s: TRYNEXT solo\n
+permitida en gestor errores\n
+\t\n
+La instruccion TRYNEXT solo se puede\n
+usar en gestores de error. Borrarla.
+98:
+Error de parametro\n
+Tarea %s: Parametro switch\n
+debe ser con modo transferencia IN.\n
+\t\n
+Eliminar el modo de transferencia de\n
+parametro. Si modo de transferencia IN\n
+no es suficiente, cambiar el tipo de\n
+dato del parametro.
+99:
+Error de parametro\n
+Tarea %s: Parametro switch\n
+no puede tener dimension\n
+\t\n
+Eliminar la dimension de matriz o\n
+cambiar el tipo del parametro.
+100:
+Error de parametro\n
+Tarea %s: Switch solo\n
+permitido como parametro opcional\n
+\t\n
+Cambiar el parametro a parametro\n
+opcional, o cambiar el tipo de dato del\n
+parametro. Si el objeto no es un para-\n
+metro, cambiar el tipo de dato.
+101:
+Error de tipo\n
+Tarea %s: Tipo erroneo\n
+\t\n
+La expresion no es del tipo de dato\n
+esperado.
+102:
+Error de tipo\n
+Tarea %s: Tipo erroneo\n
+de agregado\n
+\t\n
+El agregado no coincide con el tipo de\n
+dato esperado.
+103:
+Error de tipo\n
+Tarea %s: Tipo erroneo\n
+de persistente\n
+\t\n
+Ya hay un dato persistente con este\n
+nombre pero con otro tipo de dato.\n
+Renombrar el persistente o cambiar su\n
+tipo de dato.
+104:
+Error declaracion datos\n
+Tarea %s: No puedo determinar\n
+dimension de matriz (referencia\n
+circular de constantes ?)\n
+\t\n
+Comprobar si toda constante referida\n
+esta correctamente definida. Si es asi,\n
+el programa es demasiado complejo.\n
+Reescribir las declaraciones.
+105:
+Error declaracion datos\n
+Tarea %s: No puedo determinar\n
+tipo de valor de constante (referencia\n
+circular de constantes ?)\n
+\t\n
+Comprobar si toda constante referida\n
+esta correctamente definida. Si es asi,\n
+el programa es demasiado complejo.\n
+Reescribir las declaraciones.
+106:
+Error declaracion datos\n
+Tarea %s: No puedo evaluar\n
+expresion de valor de constante\n
+(referencia circular de constantes ?)\n
+\t\n
+Comprobar si toda constante referida\n
+esta correctamente definida. Si es asi,\n
+el programa es demasiado complejo.\n
+Reescribir las declaraciones.
+107:
+Error declaracion datos\n
+Tarea %s: No puedo determinar\n
+tipo de variable (referencia\n
+circular de constantes ?)\n
+\t\n
+Comprobar si toda constante referida\n
+esta correctamente definida. Si es asi,\n
+el programa es demasiado complejo.\n
+Reescribir las declaraciones.
+108:
+Error de tipo\n
+Tarea %s: tipo de\n
+agregado desconocido\n
+\t\n
+Un agregado no se puede usar en esta\n
+posicion por no esperarse tipo de dato\n
+Declarar dato con tipo de dato deseado\n
+y valor de agregado. Usar el nombre del\n
+dato en lugar del agregado.
+121:
+Error de argumento\n
+Tarea %s: Argumento para\n
+parametro 'PERS' no es una referencia\n
+persistente o es solo lectura.\n
+\t\n
+Asegurar que la expresion del argumento\n
+es un persistente o una referencia a\n
+parametro completamente persistente\n
+Persistente no puede ser solo lectura
+122:
+Error de argumento\n
+Tarea %s: Argumento para\n
+parametro 'VAR' no es referencia\n
+a variable o es solo lectura\n
+\t\n
+Asegurar que la expresion del argumento\n
+es una variable o una referencia a\n
+parametro variable. La variable no\n
+puede ser solo lectura.
+123:
+Error de instruccion\n
+Tarea %s: Numero de\n
+interrupcion no es referencia a\n
+variable estatica o es solo lectura\n
+\t\n
+Asegurarse que numero de interrupcion\n
+es solo una variable o una referencia a\n
+param. variable. La variable debe ser\n
+estatica. La variable no puede no ser\n
+solo lectura.
+124:
+Error de valor\n
+Tarea %s: Entero\n
+demasiado grande\n
+\t\n
+El valor de la expresion debe ser un\n
+entero. El valor actual esta fuera\n
+del rango de un entero.
+125:
+Error de valor\n
+Tarea %s: No es valor entero\n
+\t\n
+El valor de la expresion debe ser un\n
+valor entero exacto. El valor actual\n
+tiene una parte fraccionaria.
+141:
+Error de argumento\n
+Tarea %s: Argumento\n
+condicional duplicado\n
+\t\n
+Hay presente mas de un argumento\n
+condicional para el mismo parametro
+142:
+Error de valor\n
+Tarea %s: Division por cero\n
+\t\n
+No puedo dividir por cero. Reescribir\n
+el progrma para no ejecutar la division\n
+cuando el divisor es 0.
+143:
+Error de limite\n
+Tarea %s: Excedido numero\n
+maximo de RETRY permitidos.\n
+\t\n
+La correccion del error realizada antes\n
+de ejecutar la instruccion RETRY, no es\n
+probablemente sufuciente para resolver\n
+el error. Comprobar gestor de errores
+144:
+Error de instruccion\n
+Tarea %s: Intento de\n
+ejecucion de un comodin.\n
+\t\n
+Borrar el comodin o la instruccion\n
+que lo contiene, o completar la\n
+instruccion. Despues, continuar la\n
+ejecucion.
+145:
+Error de limite\n
+Tarea %s: Soprepasamiento\n
+del stack de ejecucion\n
+\t\n
+El programa es demasiado complejo para\n
+ejecutarse. Probablemente el programa\n
+contiene rutinas recursivas.
+146:
+Error de ejecucion\n
+Tarea %s: Error fatal\n
+de runtime\n
+\t\n
+Ha ocurrido un error fatal\n
+Un error fatal causa fin inmediato de\n
+la ejecucion del programa. Ver\n
+mensaje previo para saber la causa
+147:
+Error de ejecucion\n
+Tarea %s: La funcion\n
+no retorna ningun valor.\n
+\t\n
+Se ha alcanzado el final de la funcion\n
+sin haber ejecutado una instruccion\n
+RETURN. Añadir una instruccion  RETURN\n
+especificando un valor de retorno.
+148:
+Error de valor\n
+Tarea %s: Valor de\n
+orientacion ilegal\n
+\t\n
+Intento de usar un valor de orientacion\n
+(cuaternion) ilegal.
+149:
+Error de valor\n
+Tarea %s: Numero de\n
+error ilegal en RAISE\n
+\t\n
+Solo se permiten numeros de 1-99 en\n
+la instruccion RAISE.
+150:
+Error de ejecucion\n
+Tarea %s: Codigo de\n
+retorno ilegal de rutina ReaL\n
+\t\n
+La causa de esto siempre es un error\n
+interno de una rutina ReaL.
+151:
+Error de limite\n
+Tarea %s: No hay mas\n
+interrupciones disponibles\n
+\t\n
+Hay un numero limitado de numeros de\n
+interrupcion. Reescribir el programa\n
+para usar menos interrupciones. Este\n
+mensaje puede aparecer tambien como\n
+consecuencia de un error de sistema.
+152:
+Error de valor\n
+Tarea %s: Operando\n
+negativo no permitido\n
+\t\n
+El operador 'MOD' solo acepta operandos\n
+no negativos. Cambiar el programa para\n
+asegurarse que el operador no se aplica\n
+a valores negativos.
+153:
+Error de tipo\n
+Tarea %s: Dimension\n
+de matriz comformante incomptible\n
+\t\n
+La matriz no es del tamño esperado.\n
+Asignaciones de matrices solo se pueden\n
+hacer con matrices de tamaños identicos
+154:
+Error de referencia\n
+Tarea %s: Parametro\n
+opcional no presente\n
+\t\n
+El valor de un parametro opcional no\n
+presente no se puede referenciar. Usar\n
+la funcion predefinida 'Present' para\n
+comprobar la presencia del parametro\n
+antes de usar su valor.
+155:
+Error de valor\n
+Tarea %s: Indice de\n
+matriz fuera de limites\n
+\t\n
+El indice de la matriz excede el\n
+tamaño declarado de la matriz.
+156:
+Error de limite\n
+Tarea %s: Soprepasamiento\n
+del stack runtime\n
+\t\n
+El programa es demasiado complejo para\n
+ejecutarse. Probablemente el programa\n
+contiene rutinas recursivas.
+157:
+Error de valor\n
+Tarea %s: String muy largo\n
+\t\n
+La cadena concatenada excede la\n
+longitud maximo permitida. Reescribir\n
+programa para usar cadenas mas cortas
+158:
+Error de ejecucion\n
+Tarea %s: Error runtime\n
+no fatal sin tratar %i\n
+\t\n
+Ha ocurrido un error no fatal, pero\n
+no esta tratado por clausula ERROR\n
+Ver mensaje previo para saber la\n
+causa
+159:
+Error de ejecucion\n
+Tarea %s: Error raise\n
+sin tratar %i\n
+\t\n
+Ha ocurrido un error creado por un\n
+RAISE, pero no esta tratado por una\n
+clausula ERROR
+160:
+Error de ejecucion\n
+Tarea %s: Error runtime\n
+no fatal sin tratar\n
+\t\n
+Ha ocurrido un error no fatal, pero\n
+no esta tratado por ninguna clausula\n
+ERROR
+161:
+Error de ejecucion\n
+Tarea %s: Variable y rutina\n
+trap ya conectadas\n
+\t\n
+Conectar mas de una vez una\n
+rutina trap especifica con una\n
+variable especifica no es legal.
+162:
+Error de ejecucion\n
+Tarea %s: ejecucion abortada\n
+\t\n
+Ejecucion abortada debido a\n
+un error fatal.
+163:
+Error de ejecucion\n
+Tarea %s: la ejecucion no\n
+puede rearrancar\n
+\t\n
+Ejecucion no puede continuar por un\n
+corte de tension. Rearrancar programa.
+171:
+Error de valor\n
+Tarea %s: Dimension de\n
+matriz fuera de rango\n
+\t\n
+El valor para el parametro 'DimNo' de\n
+la funcion 'Dim' debe estar en el\n
+rango 1-3.
+172:
+Error de tipo\n
+Tarea %s: El dato\n
+no es una matriz\n
+\t\n
+El parametro 'ArrPar' de la funcion\n
+'Dim' debe ser una matriz.
+173:
+Error de valor\n
+Tarea %s: Numero de\n
+interrupcion desconocido\n
+\t\n
+Comprobar que la variable interrupcion\n
+especificada se ha inicializado con\n
+CONNECT, y que la interrupcion se ha\n
+definido usando ISignalDI u otra ins-\n
+truccion de definicion interrupciones
+201:
+Error de nombre\n
+Tarea %s: Nombre\n
+simbolo ambiguo\n
+\t\n
+Los objetos instalados deben tener\n
+nombres unicos. Renombrar el objeto o\n
+cambiar el nombre conflictivo.
+202:
+Error de limite\n
+Tarea %s: Error al\n
+crear entrada en sdb\n
+\t\n
+Ha ocurrido un error al insertar un\n
+persistente en la base de datos comun.\n
+Quizas la base de datos esta llena.
+203:
+Error definicion tipo\n
+Tarea %s: No permitido\n
+alias de alias\n
+\t\n
+No se puede definir un tipo de alias\n
+igual a otro tipo de alias. En su lugar\n
+definir dos tipos de alias igual al\n
+mismo tipo simple o compuesto
+204:
+Error definicion simbolo\n
+Tarea %s: Parametro 'ANYTYPE'\n
+no puede ser dimensionado\n
+\t\n
+Borrar la especificacion de dimension\n
+'ANYTYPE$&' incluye tipo matriz
+205:
+Error definicion simbolo\n
+Tarea %s: 'ANYTYPE' solo\n
+permitido para parametro\n
+\t\n
+Usar otro tipo.
+206:
+Error de parametro\n
+Tarea %s: 'alt' no debe\n
+usarse en el primer parametro opcional\n
+de lista de alternativas\n
+\t\n
+Asegurar que solo el segundo parametro\n
+y siguientes de cada lista alternativa\n
+de parametros opcionales excluyentes\n
+estan marcados como alternativos.
+207:
+Error de parametro\n
+Tarea %s: Un parametro\n
+modo 'REF' no puede ser dimensionado.\n
+\t\n
+Borrar la especificacion de\n
+dimension de matriz o cambiar el\n
+modo del parametro.
+208:
+Error de parametro\n
+Tarea %s: Un parametro\n
+'switch' no puede ser dimensionado.\n
+\t\n
+Borrar la especificacion de\n
+dimension de matriz o cambiar el\n
+tipo de datos del parametro.
+209:
+Error de parametro\n
+Tarea %s: Un parametro 'switch'\n
+debe tener modo de transferencia 'IN'\n
+\t\n
+Borrar el especificador del modo de\n
+transferencia de parametro. Si el modo\n
+de transferencia 'IN' no es suficiente,\n
+cambiar el tipo de dato del parametro.
+210:
+Error definicion simbolo\n
+Tarea %s: 'switch'\n
+solo permitido para parametro opcional\n
+\t\n
+Cambia el parametro a opcional\n
+o cambiar el tipo de dato del\n
+parametro. Si el objeto no es un\n
+parametro, cambiar el tipo de dato
+211:
+Error definicion tipo\n
+Tarea %s: El tipo de valor\n
+debe ser uno  de: PGM_SYMVALTYP_VAL,\n
+_SEMIVAL, _NONVAL o _NONE\n
+\t\n
+Cambiar el tipo de valor.
+212:
+Error declaracion datos\n
+Tarea %s: Demasiadas\n
+dimensiones\n
+\t\n
+La matriz puede ser maximo 3 dimesiones
+213:
+Error de nombre\n
+Tarea %s: Nombre de simbolo\n
+debe ser identificador RAPID,\n
+excepto palabras reservadas\n
+\t\n
+Los nombres de objetos instalados,\n
+incluyendo parametros y componentes,\n
+deben ser identificadores RAPID legales\n
+diferentes de toda palabra reservada de\n
+el lenguaje RAPID. Cambiar el nombre.\n
+
+214:
+Error definicion simbolo\n
+Tarea %s: Falta\n
+funcion C\n
+\t\n
+Se debe especificar una funcion C,\n
+que esta ejecutando la funcion ReaL\n
+que se esta definiendo.\n
+
+215:
+Error definicion simbolo\n
+Tarea %s: Falta funcion\n
+de inicializacion de valor\n
+\t\n
+Se debe especificar una funcion de\n
+inicializacion de valor.
+216:
+Error de referencia\n
+Tarea %s: No es nombre\n
+de tipo de dato\n
+\t\n
+El nombre especificado identifica un\n
+objeto que no es un tipo.
+217:
+Error de referencia\n
+Tarea %s: No es un tipo\n
+de dato de valor\n
+\t\n
+Solo componentes de tipos compuestos,\n
+alias de tipos, var., param. modo'VAR'\n
+pueden ser tipo no-valor o semi-valor.
+218:
+Error definicion simbolo\n
+Tarea %s: Falta funcion\n
+de conversion de valor\n
+\t\n
+Se debe especificar una funcion de con-\n
+version de valor para tipos semi-valor
+219:
+Error definicion tipo\n
+Tarea %s: Tipo privado solo\n
+puede ser tipo no valor o semi valor.\n
+\t\n
+Cambiar la clase del tipo de valor
+220:
+Error definicion tipo\n
+Tarea %s: Tamaño de tipo\n
+privado debe ser multiplo de 4.\n
+\t\n
+Todos los tipos de RAPID deben tener un\n
+tamaño que sea multiplo de 4. Cambiar\n
+el tamaño de tipo especificado.
+221:
+Error de tipo\n
+Tarea %s: Error de\n
+tipo de persistente\n
+\t\n
+Existe ya un dato persistente con el\n
+mismo nombre pero con otro tipo de\n
+dato. Renombrar uno de los persistentes\n
+o cambiar su tipo de dato.
+222:
+Error de referencia\n
+Tarea %s: Nombre de\n
+tipo desconocido\n
+\t\n
+No existe tipo de dato (u otro objeto)\n
+con el nombre especificado.
+223:
+Error de parametro\n
+Tarea %s: Modo de\n
+transferencia desconocido\n
+\t\n
+Modo transferencia de parametro especi-\n
+ficado no es 'IN','VAR','PERS','INOUT'\n
+o 'REF'. Usar corresp. PGM_SYMPARMOD_x
+224:
+Error definic. simbolo\n
+Tarea %s: No existe\n
+este tipo de simbolo\n
+\t\n
+La definicion del tipo de simbolo no\n
+especifica uno de los simbolos de tipo\n
+permitidos. (PGM_SYMDEF_x)
+301:
+Error de E/S\n
+Tarea %s: permiso denegado\n
+\t\n
+
+302:
+Error de E/S\n
+Tarea %s: no existe ese\n
+fichero o directorio\n
+\t\n
+
+303:
+Error de E/S\n
+Tarea %s: no hay espacio libre\n
+en el dispositivo.\n
+\t\n
+
+304:
+Error de E/S\n
+Tarea %s: no puedo acceder\n
+al fichero %s!\n
+\t\n
+Debido a uno de:\n
+ Permiso denegado (prot.escritura)\n
+ No existe fichero o directorio\n
+ No hay espacio libre
+501:
+Exceso tiempo\n
+%s\n
+%s\n
+\t\n
+
+502:
+Interrupcion entrada dig.\n
+%s\n
+%s\n
+\t\n
+
+503:
+Error de referencia\n
+Descriptor de dispositivo es\n
+%s\n
+\t\n
+
+504:
+Error en parametro\n
+%s\n
+\t\n
+%s
+505:
+Error acceso a archivo\n
+%s\n
+\t\n
+
+506:
+Error acceso sistema\n
+%s\n
+\t\n
+
+507:
+Errro de limite\n
+%s\n
+\t\n
+
+508:
+Valor orientacion erronea en\n
+%s\n
+\t\n
+
+509:
+Advertencia busqueda\n
+%s\n
+Antes de ejecutar la siguiente busqueda\n
+confirmar que el TCP ha retrocedido a\n
+la posicion de arranque de la trayecto-\n
+ria de busqueda\n
+\t\n
+Si no se reposiciona antes del\n
+rearranque de la busqueda circular,\n
+el movimiento puede causar algun daño.
+510:
+Advertencia seguridad\n
+La instruccion move no puede rearrancar\n
+por un problema de seguridad\n
+Tratar de mover el PP\n
+\t\n
+
+511:
+Error de parametro\n
+El parametro %s en %s\n
+esta especificado como valor negativo\n
+\t\n
+El parametro debe ser positivo.
+512:
+Falta valor de eje externo\n
+Algun eje externo activo tiene un valor\n
+de consigna incorrecto o sin valor.\n
+Reprogramar la posicion.\n
+\t\n
+
+513:
+Error unidad mecanica\n
+No es posible activar o desactivar\n
+la unidad mecanica.\n
+\t\n
+
+514:
+Error de ejecucion\n
+Demasiado lejos de la trayectoria para\n
+efectuar un StartMove del movimiento\n
+interrumpido.\n
+\t\n
+Posicionar el robot en la posicion\n
+interrumpida del programa.
+515:
+Error de tipo\n
+Tarea %s: Tipo de dato ilegal\n
+en argumento de parametro %s\n
+\t\n
+
+516:
+Error de tipo\n
+Tarea %s: Valor ilegal\n
+en argumento de parametro %s\n
+\t\n
+
+517:
+Error de busqueda\n
+%s\n
+Sin flanco de busqueda o mas de un\n
+flanco en ejecucion paso a paso.\n
+Instruccion de busqueda finalizada, se\n
+puede ejecutar instruccion siguiente.\n
+\t\n
+La instruccion de busqueda no ha\n
+retornado ninguna posicion.
+600:
+Error de argumento\n
+No esta definido el \WObj para\n
+movimiento con TCP estacionario\n
+\t\n
+Añadir el argumento \WObj para la\n
+pieza de trabajo actual.\n
+Si no es movimiento de TCP estacionario\n
+cambiar el dato de TCP a "Robot\n
+sujeta la herramienta".
+601:
+Error de argumento\n
+No definido si el robot lleva la herra-\n
+mienta o la pieza de trabajo.\n
+\t\n
+Comprobar correspondencia entre argu-\n
+mentos Tool y \Wobj para el dato\n
+"Robot sujeta la herramienta"
+602:
+Error de argumento\n
+El argumento %s\n
+tiene al menos un componente con\n
+valor negativo.\n
+\t\n
+Situar todos los componentes del dato\n
+en argumento %s\n
+a valores positivos.
+603:
+Error de argumento\n
+El argumento %s\n
+tiene valor negativo no permitido\n
+\t\n
+Poner el argumento %s a positivo
+604:
+Error de argumento\n
+El argumento Tool tiene la carga de\n
+herramienta indefinida.\n
+\t\n
+Definir la carga actual de herramienta\n
+antes de usar la herramienta para movi-\n
+miento manual o por programa.
+605:
+Error de argumento\n
+El argumento Tool tiene la carga de\n
+herramienta negativa.\n
+\t\n
+Definir la carga actual de herramienta\n
+correcta antes de usar la herramienta\n
+en movimiento manual o por programa.
+606:
+Error de argumento\n
+El argumento Tool tiene al menos un\n
+componente de inercia.\n
+con valor negativo.\n
+\t\n
+Definir todos los componentes de\n
+inercia (ix, iy, iz) a valores\n
+positivos actuales.
+607:
+Error de ejecucion\n
+No esta permitido cambiar el modo de\n
+ejecucion de adelante a atras durante\n
+un movimiento circular.\n
+\t\n
+Si es posible, seleccionar el modo de\n
+ejecucion original y pulsar Arranca\n
+para continuar el movimiento circular.\n
+Si no lo es, mover el robot y puntero\n
+programa para arrancar de nuevo.
+608:
+Error de argumento\n
+Error de definicion de orientacion\n
+en %s.\n
+\t\n
+Todas las orientaciones usadas deben\n
+estar normalizadas, es decir la suma de\n
+los cuadrados debe ser igual a 1.
+609:
+Error de argumento\n
+El argumento \WObj especifica unidad\n
+mecanica con el nombre demasiado largo\n
+\t\n
+Usar max. 16 caracteres para el nombre\n
+de la unidad mecanica coordinada.
+610:
+Error de argumento\n
+El argumento \WObj especifica nombre\n
+de unidad mecanica  no activada o\n
+desconocida en el sistema.\n
+\t\n
+El nombre de unidad mecanica definido\n
+en \WObj debe corresponder con nombre\n
+definido anteriormenete en parametros\n
+y debe estar activada.
+611:
+Error de ejecucion\n
+No permitido paso atras en la\n
+instruccion actual.\n
+\t\n
+No esta permitido el paso atras en un\n
+movimiento circular, si el punto final\n
+del movimiento circular esta definido\n
+con otro TCP y/o work object.
+612:
+Error de argumento\n
+No hay argumento programado para el\n
+nombre de la señal de salida\n
+\t\n
+Es posible activar una ES de posicion,\n
+como digital, grupo de digitales o\n
+salida analogica durante el movimiento\n
+del robot
+613:
+Error de argumento\n
+Argumento opcional %s\n
+solo se puede combinar con el argumento\n
+de señal de salida %s.\n
+\t\n
+
+614:
+Error de argumento\n
+Argumento %s\n
+no es 0 o 1.\n
+\t\n
+Señales digitales de salida solo\n
+pueden ser puestas a 0 o 1.
+615:
+Error de argumento\n
+Argumento %s\n
+no es un valor entero\n
+\t\n
+Grupo de salidas digitales solo\n
+pueden tener valores enteros.
+616:
+Error de argumento\n
+Argumento %s\n
+fuera de limites permitidos\n
+\t\n
+Grupo de salidas digitales solo pueden\n
+tener valores entre 0 y %s\n
+de acuerdo con la configuracion en\n
+los parametros del sistema.
+617:
+Error de argumento\n
+Argumento %s\n
+fuera de limites permitidos\n
+\t\n
+La salida analogica solo puede\n
+ponerse entre %s y %s\n
+de acuerdo con la configuracion en\n
+los parametros del sistema.
+618:
+Error de argumento\n
+El argumento %s\n
+contiene numero de interrupcion ilegal\n
+\t\n
+El numero de interrupcion es ilegal\n
+porque no ha sido definido por  una\n
+instruccion CONNECT.\n
+CONNECT realiza definicion y conexion\n
+del numero de interrupcion a rutina trap
+619:
+Error de argumento\n
+El argumento %s\n
+contiene numero de interrupcion que ya\n
+se usa para otros propositos.\n
+\t\n
+Antes de reutilizar una variable de\n
+interrupcion de nuevo en el programa,\n
+cancelar anterior generacion y numero\n
+de interrupcion con IDelete.
+622:
+Error de argumento\n
+El argumento Tiempo en ITmer es.\n
+muy bajo para interrupciones ciclicas.\n
+\t\n
+
+623:
+Error de argumento\n
+El argumento Tiempo en ITmer es.\n
+muy bajo para interrupciones single.\n
+\t\n
+
+631:
+Error de intruccion\n
+Demasiadas instruciones move en\n
+secuencia con ejecucion concurrente\n
+de programa RAPID.\n
+\t\n
+Editar el programa  max de 5 MoveX\Conc\n
+en secuencia en el nivel basico\n
+de ejecucion de programa.
+632:
+Error de intruccion\n
+No permitidas instruciones move con\n
+ejecucion concurrente de programa RAPID\n
+dentro de parte de programa comprendido\n
+entre StorePath y RestPath.\n
+\t\n
+Editar el programa que no contenga\n
+ninguna instruccion MoveX\Conc\n
+dentro de parte de programa comprendido\n
+entre StorePath y RestPath.
+633:
+Error de referencia\n
+El parametro Trigg no %s referencia\n
+a datos trigg no definidos.\n
+\t\n
+Definir datos Trigg ejecutando las\n
+instrucciones  TriggIO o TriggInt\n
+antes de TriggL, TriggC o TriggJ.
+634:
+Error de referencia\n
+Referencia a señal en parametro %s\n
+contiene señal desconocida para robot\n
+\t\n
+Todas las señales se deben definir en\n
+parametros y no debe hacerse en el\n
+programa RAPID.
+635:
+Error de referencia\n
+Referencia a argumento en parametro %s\n
+no es una variable persistente completa\n
+\t\n
+No es posible usar un componente de\n
+agregado o de matriz en argumento\n
+%s. Solo es posible usar variables\n
+persistentes en Tool, Wobj o Load\n
+en instrucciones de movimiento.
+636:
+Error de sensor\n
+No hay medida del sensor.\n
+\t\n
+Dato solicitado no esta disponible.
+637:
+Error de sensor\n
+Aun no esta preparado.\n
+\t\n
+Funcion solicitada no esta preparada.
+638:
+Error de sensor\n
+Error general.\n
+\t\n
+Ha ocurrido un error general que no\n
+esta especificamente relacionado con la\n
+accion solicitada. Leer bloque "Error\n
+log" si la funcion esta disponible.
+639:
+Error de sensor\n
+Sensor ocupado, intentar despues.\n
+\t\n
+El sensor esta ocupado realizando\n
+otra funcion.
+640:
+Error de sensor\n
+Orden desconocida.\n
+\t\n
+La funcion solicitada al sensor\n
+no es conocida.
+641:
+Error de sensor\n
+Variable o numero de bloque ilegal.\n
+\t\n
+Variable o numero de bloque solicitado\n
+no definido en el sensor.
+642:
+Error de sensor\n
+Alarma externa.\n
+\t\n
+Alarma del equipo externo.
+643:
+Error de sensor\n
+Alarma de camara.\n
+\t\n
+Se han detectado algunos errores en la\n
+camara. Ejecutar Camcheck para\n
+comprobar si la camara esta OK.
+644:
+Error de sensor\n
+Alarma de temperatura.\n
+\t\n
+La camara se ha sobrecalentado y\n
+precisa mas aire/agua de refrigeración.
+645:
+Error de sensor\n
+Valor fuera de rango.\n
+\t\n
+El valor de los datos enviados al\n
+sensor estan fuera de rango.
+646:
+Error de sensor\n
+Fallo de comprobacion de camara.\n
+\t\n
+La funcion CAMCHECK ha fallado. La\n
+camara esta estropeada. Enviar a reparar
+647:
+Error de sensor\n
+Exceso de tiempo de comunicacion.\n
+\t\n
+Incrementar tiempo de timeout y\n
+comprobar conexiones al sensor.
+648:
+Error de sensor\n
+No es posible StorePath mientras se\n
+realiza busqueda a nivel de path basico\n
+\t\n
+Si usa programa con movimiento dentro\n
+de TRAP, esta interrupcion se debe\n
+deactivar durante la busqueda.\n
+P.ej. Isleep - SearchL - IWatch
+649:
+Error limite camino\n
+%s ya realizado.\n
+\t\n
+Se debe realizar instruccion %s\n
+antes que la nueva %s se\n
+pueda ejecutar.
+700:
+Error sintactico\n
+Tarea %s: Error sintactico\n
+%s\n
+\t\n
+
+701:
+Memoria programa llena\n
+La tarea %s tiene solo\n
+%i bytes libres en\n
+memoria de usuario\n
+\t\n
+Borrar algun otro modulo y\n
+reintentar.

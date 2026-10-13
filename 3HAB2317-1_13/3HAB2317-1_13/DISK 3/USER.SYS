@@ -1,0 +1,37 @@
+%%%
+  VERSION: 1
+  LANGUAGE: ENGLISH
+%%%
+
+MODULE USER (SYSMODULE)
+
+ ! System module with predefined user data
+ !****************************************
+ 
+ ! Declaration of numeric registers reg1...reg5
+ VAR num reg1 := 0;
+ VAR num reg2 := 0;
+ VAR num reg3 := 0;
+ VAR num reg4 := 0;
+ VAR num reg5 := 0;
+ 
+ ! Declaration of stopwatch clock1
+ VAR clock clock1;
+ 
+ ! Declaration of tool tool1
+ PERS tooldata tool1 := [TRUE, [[0, 0, 0], [1, 0, 0, 0]],
+                        [-1, [0, 0, 0],[1, 0, 0, 0], 0, 0, 0]];
+		 			 
+ ! Declaration of workobject wobj1		 
+ PERS wobjdata wobj1 := [FALSE, TRUE, "", [[0, 0, 0],[1, 0, 0, 0]],
+                        [[0, 0, 0],[1, 0, 0, 0]]];
+						
+ ! Declaration of gripload load1				
+ PERS loaddata load1 := [0, [0, 0, 0],[1, 0, 0, 0], 0, 0, 0];
+ 
+ 
+ ! Declaration of symbolical data for digital signals value
+ CONST dionum high := 1;
+ CONST dionum low  := 0;
+ 
+ENDMODULE

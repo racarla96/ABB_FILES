@@ -1,0 +1,30 @@
+72::
+100:
+Le parametre %.16s\n
+ne correspond a aucun fichier texte\n
+charge.
+101:
+Verifier que le fichier texte est (bien)\n
+installe.
+102:
+Il n'y a aucun objet de donnee valide\n
+pour le parametre d'entree\n
+%s\n
+de l'instruction %s.
+103:
+Verifier qu'il existe un objet de donnee\n
+correct.
+104:
+Le numero d'erreur utilisateur\n
+SHELL-RAPID %.16s\n
+doit etre declare comme global.
+105:
+Verifier la declaration errnum.
+106:
+Erreur attribution nouveau numero\n
+d'erreur %.16s.\n
+La valeur doit etre -1 ou l'ancien\n
+numero.
+107:
+Verifier la valeur de la nouvelle\n
+variable errnum.

@@ -1,0 +1,155 @@
+%%%
+  VERSION: 1
+  LANGUAGE: ENGLISH
+%%%
+ 
+MODULE SWUSER (SYSMODULE)
+
+ !***************
+ ! Global data  *
+ !***************
+ 
+ ! Declaration of spotdata			
+ PERS spotdata spot1 := [1, 1, 1, 1];
+ 
+ ! Declaration of gundata
+ PERS gundata gun1 := [1, 4, TRUE, TRUE, 0, 0, 20000, 20000,
+                       0.050, 0.050, 0.050, 0.050, 0, 0, 0, 0, 0];	
+		       
+ ! Declaration of tooldata
+ PERS tooldata toolg1 := [TRUE, [[0, 0, 0], [1, 0, 0, 0]],
+                        [-1, [0, 0, 0],[1, 0, 0, 0], 0, 0, 0]];	
+			
+ 
+ PERS num sw_weld_counter := 0;
+
+ CONST num sw_gp_timeout := 2;
+ CONST num sw_wr_timeout := 2;
+ CONST num sw_go_timeout := 2; 
+ CONST num sw_prog_max := 63;
+ CONST bool sw_inhib_weld := FALSE;
+ CONST bool sw_sim_weld := FALSE;
+ CONST num sw_sim_time := 0.5; 
+ CONST num sw_aut_reweld := 0;
+ CONST num sw_parity:= 0;
+ CONST num sw_reset_time1 := 0.5;
+ CONST num sw_reset_time2 := 0.5;
+ CONST bool sw_inpos  := FALSE;
+ CONST bool sw_aut_work_sel  := TRUE;
+ CONST num sw_start_type:= 0;
+
+ VAR num sw_close_corr := 100;
+ 
+   
+ !*************************
+ !  Supervision routines  *
+ !************************* 
+
+ !*************************** 
+   
+ PROC sw_preweld_sup()
+ 
+  !User defined code:
+  IF sw_inhib_weld=FALSE AND sw_sim_weld=FALSE THEN
+   IF Dinput(timer_ready)=0 THEN
+    Set reset_fault;
+    WaitTime sw_reset_time1;
+    Reset reset_fault;
+    WaitTime sw_reset_time2;
+   ENDIF
+   IF Dinput(timer_ready)=0 THEN
+    errtext := "Preweld error: Timer not ready";
+   ENDIF   
+   IF Dinput(flow_ok)=0 THEN
+    errtext := "Preweld error: Water supply error";
+   ENDIF
+   IF Dinput(temp_ok)=0 THEN
+    errtext := "Preweld error: Overtemperature";
+   ENDIF
+   IF Dinput(current_ok)=0 THEN
+    errtext := "Preweld error: Weld current error";
+   ENDIF
+  ENDIF
+ ENDPROC
+ 
+ 
+ !***************************
+ 
+ PROC sw_postweld_sup()
+  !User defined code:
+  
+  IF current_retr = FALSE THEN 
+   ! work stroke
+   Set work_select;
+  ELSE 
+   ! retract stroke
+   Reset work_select;
+  ENDIF
+
+ ENDPROC
+ 
+ !***************************
+ 
+ PROC sw_bwd_sup()
+  !User defined code:
+    
+  IF current_retr = FALSE THEN 
+   ! work stroke
+   Set work_select;
+  ELSE 
+   ! retract stroke
+   Reset work_select;
+  ENDIF
+
+ ENDPROC 
+
+ !*********************
+ !  Service routines  *
+ !*********************
+  
+ PROC sw_service_cg()
+  VAR num input_key;
+ 
+  ! Service when pressure not reached.
+  ! User defined code:
+  TPErase;
+  TPReadFK input_key,"sw_service_cg not prepared.","","","","","Return";
+  TEST input_key     
+  CASE 5:   
+  DEFAULT:
+  ENDTEST
+ ENDPROC
+ 
+ 
+ !***************************
+  
+ PROC sw_service_og()
+  VAR num input_key;
+  
+  ! Service when gun open timeout.
+  !User defined code:
+  TPErase;
+  TPReadFK input_key,"sw_service_og not prepared.","","","","","Return";
+  TEST input_key     
+  CASE 5:   
+  DEFAULT:
+  ENDTEST
+ ENDPROC
+ 
+
+ !***************************
+ 
+ PROC sw_service_wf()
+  VAR num input_key;
+ 
+  ! Service when weld_ready timeout.
+  ! User defined code:
+  TPErase;
+  TPReadFK input_key,"sw_service_wf not prepared.","","","","","Return";
+  TEST input_key     
+  CASE 5:   
+  DEFAULT:
+  ENDTEST
+ ENDPROC 
+
+ENDMODULE

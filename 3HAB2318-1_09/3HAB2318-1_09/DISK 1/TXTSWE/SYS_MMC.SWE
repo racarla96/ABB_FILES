@@ -1,0 +1,83 @@
+30::
+0:
+Styrsystem
+1:
+Säkerhet
+2:
+Funktion
+3:
+Aktiv
+4:
+Ja
+5:
+Nej
+6:
+Funktion    Aktiv
+7:
+Håll-För-Drift
+8:
+SPÄNNING_TILL
+9:
+START
+10:
+STOPP
+11:
+QSTOPP
+12:
+OMSTART
+13:
+NOLLSTÄLL
+14:
+Händelse-rutiner
+15:
+Händelse    Rutin     Process
+16:
+Händelse
+17:
+Rutin
+18:
+Processer
+19:
+Process
+20:
+Prog
+21:
+Process i förgrund
+22:
+Typ
+23:
+Huvudrutin
+24:
+NORMAL
+25:
+STATISK
+26:
+SEMISTATISK
+27:
+Process     Prog     Typ
+28:
+Process
+29:
+Processmoduler
+30:
+Fil
+31:
+Task     Fil
+32:
+Återgångs- avstånd
+33:
+Mod
+34:
+Tcp_avst
+35:
+Tcp_rot
+36:
+Ext_avst
+37:
+Ext_rot
+38:
+Mod     Tcp-avst     Tcp-rot
+39:
+MAN
+40:
+AUTO

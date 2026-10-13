@@ -1,0 +1,132 @@
+Revision 1.8  1995/04/21  13:18:52  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.7  1994/08/19  09:47:02  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+5::
+0:
+Deplacement manuel
+1:
+Aligner...
+2:
+L'alignement commence en bougeant le\n
+joystick.
+3:
+
+4:
+L'outil sera aligne selon l'axe\n
+de coordonnees "%s".
+5:
+
+6:
+
+7:
+Unite:
+8:
+Mouvement:
+9:
+Groupe:
+10:
+Coord:
+11:
+Outil:
+12:
+RepPiece:
+13:
+Incremental:
+14:
+Selectionner la donnee dans la liste:
+15:
+Deplacement manuel
+16:
+Position Robot:
+17:
+
+18:
+
+19:
+Lineaire
+20:
+Orientation
+21:
+Articulaire
+22:
+x y z
+23:
+Moteur
+24:
+Atelier
+25:
+Base
+26:
+Outil
+27:
+Piece
+28:
+
+29:
+
+30:
+
+31:
+
+32:
+
+33:
+
+34:
+2 1 3
+35:
+5 4 6
+36:
+4 5 6
+37:
+Axes Robot :
+38:
+Externe:
+39:
+Petit
+40:
+Moyen
+41:
+Large
+42:
+Atelier
+43:
+Base
+44:
+Outil
+45:
+Piece
+46:
+1 2 3
+47:
+Non
+48:
+Petit
+49:
+Moyen
+50:
+Large
+51:
+1
+52:
+2
+53:
+Deplacement manuel\n
+non utilisable quand\n
+un programme est en\n
+cours d'execution.
+54:
+Deplacement manuel\n
+non utilisable en\n
+mode AUTO.
+55:
+Nouveau
+56:
+Change
+57:
+Definir

@@ -1,0 +1,203 @@
+17::
+0:
+Signaux d E/S
+1:
+Signaux Utilisateur
+2:
+Systeme
+3:
+Groupes
+4:
+Nom du Signal
+5:
+Nom de la carte
+6:
+Type du Signal
+7:
+Numero du signal
+8:
+Premier Signal
+9:
+Longueur du Groupe
+10:
+DI
+11:
+DO
+12:
+Securite
+13:
+Nom de la Carte
+14:
+Type de la Carte
+15:
+Bus de connexion
+16:
+Entrees Numeriques
+17:
+Sorties Numeriques
+18:
+Cartes E/S
+19:
+Nom         Carte       Type        Sig
+20:
+Nom         Carte       Long       SigPh
+21:
+Type de Carte
+22:
+Nom         Type        Bus      Adresse
+23:
+GI
+24:
+GO
+25:
+Entrees Systeme
+26:
+Sorties Systeme
+27:
+Nom
+28:
+Action
+29:
+Etat
+30:
+Moteurs SP
+31:
+Moteurs HP
+32:
+En Cycle
+33:
+Moteurs SP
+34:
+Moteurs HP
+35:
+Depart
+36:
+Depart Prog
+37:
+Stop
+38:
+Stop Cycle
+39:
+Interruption
+40:
+Chargt Prg
+41:
+Argument
+42:
+Nom         Action
+43:
+Nom         Etat
+44:
+-
+45:
+Vers
+46:
+Depuis
+47:
+Rebouclages
+48:
+Depuis      Vers
+49:
+Entrees Analogiques
+50:
+Sorties Analogiques
+51:
+Adresse
+52:
+AO
+53:
+AI
+54:
+RazAU
+55:
+AU
+56:
+Auto
+57:
+Chaine AU Ok
+58:
+Vitesse outil
+59:
+Max Logique
+60:
+Max Physique
+61:
+Min Logique
+62:
+Min Physique
+63:
+Filtre Etat Bas
+64:
+Filtre Etat Haut
+65:
+Inverse
+67:
+Oui
+68:
+Non
+69:
+Adr. RIO(octal)
+70:
+Vitesse liaison RIO
+71:
+Premier groupe RIO
+72:
+Taille du rack
+73:
+Dernier groupe
+74:
+57.6 kB
+75:
+115 kB
+76:
+230 kB
+77:
+0
+78:
+2
+79:
+4
+80:
+6
+81:
+1/4
+82:
+1/2
+83:
+3/4
+84:
+COMPLET
+85:
+Erreur
+86:
+Sync Axe Ext
+87:
+BAS
+88:
+VME
+89:
+SIM
+90:
+Raz Erreur
+91:
+CAN
+92:
+Adresse
+93:
+Restaure
+94:
+Etat Mot SP
+95:
+Etat Mot HP
+96:
+Erreur Prg
+97:
+Mot SP Depart
+98:
+Instr Stop
+99:
+Arret Syst
+100:
+AckErrDialog
+101:
+Dim. rack IBS

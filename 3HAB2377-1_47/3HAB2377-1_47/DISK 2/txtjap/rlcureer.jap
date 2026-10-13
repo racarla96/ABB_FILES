@@ -1,0 +1,35 @@
+67::
+
+17:
+Unknown SERVO instance
+
+18:
+Unknown IPOL instance
+
+19:
+Unknown MECMAP instance
+
+20:
+Can't set test signals
+
+21:
+Unknown mechanical unit
+
+22:
+axis is out of range
+
+23:
+out channel is out of range
+
+24:
+step is out of range
+
+25:
+Can't activate the unit
+
+26:
+Can't set current reference
+
+27:
+Can't reset current reference
+

@@ -1,0 +1,105 @@
+# 
+# The text description file for Spotweld elog messages
+# The English version
+# A message is described according to:
+# - line 1  	a header for the message log, Maximum 25 characters
+# - line 2-x	The reason for message. Maximum 200 char on 5 lines
+# - line x+1	\t\n to separate reason from check list
+# - line x+2-y	The check list for message. Maximum 200 char on 5 lines
+#
+# $Revision: 1.1 $
+# ------------------------------------------------------------------------------
+# File = sw_elog.eng
+# Text resource number = TX_RES_SW_ELOG
+73::
+#
+# PURPOSE: Defines the name for the Category Spotweld.
+#	The name is used in the error dialog title 2
+# LIMITS: no_of_char = 20  no_of_lines = 1
+# USED: WINDOW_TITLE
+#
+0:
+Spotweld
+#
+# PURPOSE: ...
+# LIMITS: no_of_char = ..  no_of_lines = .
+# USED: ...
+#
+
+################################################################################
+
+#1000:
+#Header for message log ..\n
+#Reason for message .....................\n
+#........................................\n
+#........................................\n
+#........................................\n
+#........................................\n
+#\t\n
+#Check list for message .................\n
+#........................................\n
+#........................................\n
+#........................................\n
+#........................................
+
+################################################################################
+
+#SYS_ERR_SWD_STATE
+1:
+Spot weld system error\n
+Spot weld proc not idle\n
+\t\n
+Set the process state defined by SwInit\n
+to idle
+#
+#SYS_ERR_SWD_INPAR
+2:
+Spot weld system error\n
+Parameter %s\n
+\t\n
+
+#
+3:
+SwStart Timeout negative\n
+\t\n
+
+#
+4:
+SwInit Interrupt negative\n
+\t\n
+
+#
+5:
+ProcId. The reason is either:\n
+-ProcId does not correspond to the\n
+ value given from SwInit\n
+-The spot weld process has been\n
+ cancelled\n
+\t\n
+
+#
+#SYS_ERR_SWD_COMM
+6:
+Spot weld comm. error\n
+Reason: %s\n
+\t\n
+
+#
+7:
+Response slower than poll rate\n
+\t\n
+
+#
+8:
+No more BOSCH connection available\n
+\t\n
+
+################################################################################
+
+#End of file
+
+
+
+
+
+

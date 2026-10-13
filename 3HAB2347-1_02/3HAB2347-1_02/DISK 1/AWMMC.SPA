@@ -1,0 +1,253 @@
+71::
+0:
+So.arco
+1:
+Ajuste sold..
+2:
+Ajuste oscil..
+3:
+Ajuste seam..
+4:
+(Ajuste track)
+5:
+Bloquear...
+6:
+Bloqueo
+7:
+Desbloq
+8:
+Cancela
+9:
+OK
+10:
+Bloqueo Sold.arco
+11:
+Para bloquear proceso, pulsar Bloqueo
+12:
+Para activar proceso,pulsar Desbloq
+13:
+Bloqueado
+14:
+Proceso
+15:
+x
+16:
+
+17:
+Soldad.
+18:
+Oscilac.
+19:
+Tracking
+20:
+Soldad.
+21:
+Oscilac.
+22:
+Track
+23:
+Ajuste S.arco
+24:
+Cambiar valor actual
+25:
+Datos soldadura
+26:
+Ajuste
+27:
+Actual
+28:
+Seleccionar dato
+29:
+Origen >
+30:
+Actu >
+31:
+-
+32:
++
+33:
+Restau
+34:
+Ajuste oscil. sold.
+35:
+Datos de oscilacion
+36:
+Actuali
+37:
+Actualiza valor origen
+38:
+Origen
+39:
+Ajuste actual
+40:
+aw_inhibit
+41:
+weldBlocked
+42:
+weaveBlocked
+43:
+trackBlocked
+44:
+seamdata
+45:
+welddata
+46:
+weavedata
+47:
+Alim hilo manual...
+48:
+Gas act/des
+49:
+Alim. hilo manual
+50:
+Para avanzar, pulsar Avz
+51:
+Para retoceder, pulsar Rtr
+52:
+El hilo esta en marcha mientras
+53:
+mantenga la tecla pulsada
+54:
+Avz
+55:
+Rtr
+56:
+(Desbl)
+60:
+bool
+61:
+Selecc. sist. Sold..
+62:
+Sistema:
+63:
+Incrementos..
+64:
+Incr. ajuste sold.
+65:
+Tension:
+66:
+Distancia:
+67:
+Alimentacion hilo:
+68:
+Velocidad soldadura:
+69:
+Seleccion sist.sold.
+70:
+curr_aw_data
+71:
+curr_system_nr
+72:
+curr_weld
+73:
+curr_weld_type
+74:
+curr_seam
+75:
+curr_seam_type
+76:
+curr_weave
+77:
+curr_weave_type
+78:
+string
+80:
+Act/Des Gas manual
+81:
+Para activar, pulse ActGas
+82:
+El gas esta abierto mientras
+83:
+se mantenga la tecla pulsada
+84:
+ActGas
+86:
+
+87:
+awproc_id
+88:
+ipm_id
+89:
+user_data
+100:
+Sensor manual Sold Act/Des
+101:
+Para activar sensor, pulsar Act
+102:
+Para desactivar sensor, pulsar Des
+103:
+Act
+104:
+(Act)
+105:
+Des
+106:
+(Des)
+107:
+Y:
+108:
+Z:
+109:
+Sepa.
+110:
+*****
+111:
+Coordenadas sensor
+112:
+Junta:
+113:
+Error de sensor\n
+\n
+   Error comunicacion
+114:
+Error de sensor\n
+\n
+   Error general
+115:
+Error de sensor\n
+\n
+   Sensor ocupado
+116:
+Error de sensor\n
+\n
+   Orden desconocida
+117:
+Error de sensor\n
+\n
+   Numero variable ilegal
+118:
+Error de sensor\n
+\n
+   Alarma externa
+119:
+Error de sensor\n
+\n
+   Error de camara
+120:
+Error de sensor\n
+\n
+   Error de temperatura
+121:
+Error de sensor\n
+\n
+   Valor fuera de rango
+122:
+Error de sensor\n
+\n
+   Error test camara
+123:
+OK
+124:
+Sensor...
+125:
+(Sensor)
+126:
+Coordenadas Robot
+127:
+Calibracion:
+140:
+Medir valores..
+141:
+Valores medida
+142:
+        Actual

@@ -1,0 +1,105 @@
+22::
+1:
+Enable chain open\n
+\t\n
+
+2:
+Emergency stop\n
+\t\n
+
+3:
+Limit stop\n
+\t\n
+
+6:
+Auto stop\n
+\t\n
+
+7:
+Manual stop\n
+\t\n
+
+8:
+General stop\n
+\t\n
+
+9:
+Run chain status fault\n
+Two channel status conflict.\n
+\t\n
+Check the leds on the system board\n
+when the red ERR led is lit to see\n
+where the fault is situated.
+
+20:
+Run chain status timeout\n
+Two channel status timeout.\n
+\n
+The acknowledgement for a two channel\n
+run chain status change was not\n
+received within the expected time.\n
+\t\n
+Check the leds on the system board\n
+when the red ERR led is lit to locate\n
+the fault. You might have to order\n
+Motors On to get the ERR led lit.\n
+Check temp. switch in main transformer.
+
+21:
+Key speed status fault\n
+The operating mode selector signals\n
+and the speed signal are in conflict.\n
+\t\n
+
+22:
+Key status fault\n
+The operating mode selector signals\n
+are in conflict (i.e. several modes or\n
+no mode indicated).\n
+\t\n
+
+25:
+Stop order timeout\n
+The stop order was carried out\n
+as a forced guard stop when\n
+no acknowledgement was received\n
+within the expected time\n
+\t\n
+
+26:
+Run control status fault\n
+Status conflict\n
+between runchain relays and\n
+run control.\n
+\t\n
+Replace system board
+
+40:
+Hold stop\n
+\t\n
+
+41:
+Motor 1-6 overload\n
+One or several Motors are overheated.\n
+Make sure to let the Motors cool down\n
+before ordering Motors On again.\n
+This error will otherwise occur again\n
+after 15 sec in Motors On state.\n
+\t\n
+View Safety in the IO window and wait\n
+until the signal OLM1 equals 0 before\n
+ordering Motors On again.
+
+42:
+Motor 7-x overload\n
+One or several Motors are overheated.\n
+Make sure to let the Motors cool down\n
+before ordering Motors On again.\n
+This error will otherwise occur again\n
+after 15 sec in Motors On state.\n
+\t\n
+View Safety in the IO window and wait\n
+until the signal OLM7 equals 0 before\n
+ordering Motors On again.
+
+

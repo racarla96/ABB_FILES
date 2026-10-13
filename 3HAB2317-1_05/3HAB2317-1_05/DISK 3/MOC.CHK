@@ -1,0 +1,509 @@
+/**********************************************************
+*
+* mocS.rlf  -  Configuration rules for MOC.cfg M95
+*
+*  This file must not be chanched without permission from
+*  ABB Robotics dept. for Motion Control.
+*  Changes can affect the configuration control and 
+*  violate the behavior of the robot and the safety.
+*
+**********************************************************/
+
+
+
+$NOT_DEFINED_IF:
+	
+$UNION:
+	#MECHANICAL_UNIT.use_run_enable
+	#MECHANICAL_UNIT.use_activation_relay
+	#MECHANICAL_UNIT.use_brake_relay
+	#MECHANICAL_UNIT.@use_relay
+	#MECHANICAL_UNIT.@master_robot
+	#MECHANICAL_UNIT.use_robot
+	#MECHANICAL_UNIT(*).use_single
+	#RELAY.@signal
+	#ROBOT.@use_master_joint
+	#MECHANICAL_UNIT(*).{use_robot>ROBOT.use_joint,use_single>SINGLE.use_joint}
+	#MECHANICAL_UNIT.{use_robot>ROBOT.@dummy_joint,use_single>SINGLE.@dummy_joint}
+	#JOINT.@master_logical_axis
+	#JOINT.@dummy_logical_axis	
+	#MECHANICAL_UNIT(*).{use_robot>ROBOT.use_joint>JOINT.logical_axis,\
+		             use_single>SINGLE.use_joint>JOINT.logical_axis}
+	#JOINT.use_axc_channel
+	#JOINT.use_arm
+	#JOINT.use_brake
+	#JOINT.use_supervision
+	#JOINT.use_axc_filter
+	#JOINT.use_drive_system
+	#JOINT.use_uncalibrated_control_master
+	#JOINT.use_normal_control_master
+	#AXC_CHANNEL.channel
+	#ARM.use_check_point
+	#ARM.use_customer_arm_load
+	#DRIVE_SYSTEM.@master_drive_unit
+	#DRIVE_SYSTEM.@dummy_drive_unit
+	#DRIVE_SYSTEM(*).use_drive_unit
+	#DRIVE_SYSTEM.use_motor
+	#DRIVE_SYSTEM.use_thermal_duty_cycle
+	#DRIVE_SYSTEM.use_stress_duty_cycle
+	
+$RULES:
+	#MOTION_SYSTEM(1)
+			.max_geometric_sample_time	
+						C_PUSH(0.145152)
+						C_EVAL(== %,104,"= %V")
+						C_PUSH(%)
+						       
+			.path_resolution	C_DIV(0.024192)
+						C_EVAL(>=%,104,"<= %V")
+						       
+			.min_servo_queue_time	C_PUSH(%)
+						
+			.std_servo_queue_time	C_EVAL(<=%,104,">= %A1")
+						C_PUSH(%)
+			
+			.max_servo_queue_time	C_EVAL(<=%,104,">= %A1")
+							
+			.min_temp_ambient_cabinet	
+						C_PUSH(%)
+			
+			.max_temp_ambient_cabinet
+						C_EVAL(<=%,104,">=%A1")
+			
+			.min_temp_ambient_robot	C_PUSH(%)
+			
+			.max_temp_ambient_robot	C_EVAL(<=%,104,">= %A1")
+	
+	#MECHANICAL_UNIT(1)
+		.use_robot			USED(,@master_robot)
+		
+	#MECHANICAL_UNIT
+		.use_robot			DEFINED(ROBOT)
+		.use_run_enable			DEFINED(RELAY)
+						USED(use_activation_relay)
+						USED(use_brake_relay,@use_relay)
+						
+		.use_activation_relay		DEFINED(RELAY)
+						USED(use_brake_relay)
+						USED(use_run_enable,@use_relay)
+						
+		.use_brake_relay		DEFINED(RELAY)
+						USED(use_run_enable)	
+						USED(use_activation_relay,@use_relay)
+							
+	#MECHANICAL_UNIT(2:26)
+		.use_robot			DEFINED(ROBOT)
+						USED(@master_robot)
+		.use_single_0			DEFINED(SINGLE)
+						USED(use_single,use_single)
+		
+		.use_single_1			DEFINED(SINGLE)
+						USED(use_single,use_single)
+						
+		.use_single_2			DEFINED(SINGLE)
+						USED(use_single,use_single)
+		
+		.use_single_3			DEFINED(SINGLE)
+						USED(use_single,use_single)
+						
+		.use_single_4			DEFINED(SINGLE)
+						USED(use_single,use_single)
+		
+		.use_single_5			DEFINED(SINGLE)
+						USED(use_single,use_single)
+						
+		.user_frame_moved_by		DEFINED(ROBOT,SINGLE)
+		
+	#RELAY
+		.out_signal			USED(@signal,@signal)
+						
+		.in_signal			USED(@signal,@signal)
+						
+	#ROBOT
+		.use_robot_type			DEFINED(ROBOT_TYPE)
+		
+		
+	#ROBOT(MECHANICAL_UNIT.use_robot)
+		.base_frame_orient_u0		C_SQR(%)
+		.base_frame_orient_u1		C_SQR(%)
+						C_ADD
+		.base_frame_orient_u2		C_SQR(%)
+						C_ADD
+		.base_frame_orient_u3		C_SQR(%)
+						C_ADD
+						C_DUP
+						C_EVAL(< 1.0001,103,"%A3")
+						C_EVAL(> 0.9999,103,"%A3")
+		.base_frame_coordinated		DEFINED(ROBOT,SINGLE)
+		
+		
+	#ROBOT[use_robot_type>ROBOT_TYPE.master_robot]
+		.use_joint_0			DEFINED(JOINT)
+						USED(@use_master_joint,@use_master_joint)
+						
+		.use_joint_1			DEFINED(JOINT)
+						USED(@use_master_joint,@use_master_joint)
+						
+		.use_joint_2			DEFINED(JOINT)
+						USED(@use_master_joint,@use_master_joint)
+						
+		.use_joint_3			DEFINED(JOINT)
+						USED(@use_master_joint,@use_master_joint)
+						
+		.use_joint_4			DEFINED(JOINT)
+						USED(@use_master_joint,@use_master_joint)
+						
+		.use_joint_5			DEFINED(JOINT)
+						USED(@use_master_joint,@use_master_joint)
+						
+	#ROBOT[use_robot_type>ROBOT_TYPE.!master_robot]
+		.use_joint_0			DEFINED(JOINT)
+						USED(@use_master_joint,use_joint)
+						
+		.use_joint_1			DEFINED(JOINT)
+						USED(use_joint,use_joint)
+						USED(@use_master_joint,@dummy_joint)
+						
+		.use_joint_2			DEFINED(JOINT)
+						USED(use_joint,use_joint)
+						USED(@use_master_joint,@dummy_joint)
+						
+		.use_joint_3			DEFINED(JOINT)
+						USED(use_joint,use_joint)
+						USED(@use_master_joint,@dummy_joint)
+						
+		.use_joint_4			DEFINED(JOINT)
+						USED(use_joint,use_joint)
+						USED(@use_master_joint,@dummy_joint)
+						
+		.use_joint_5			DEFINED(JOINT)
+						USED(use_joint,use_joint)
+						USED(@use_master_joint,@dummy_joint)
+		.use_joint_0>JOINT.name
+						C_PUSH(1)
+		.use_joint_1>JOINT.name
+						C_ADD(1)
+		.use_joint_2>JOINT.name
+						C_ADD(1)
+		.use_joint_3>JOINT.name
+						C_ADD(1)
+		.use_joint_4>JOINT.name
+						C_ADD(1)
+		.use_joint_5>JOINT.name
+						C_ADD(1)
+		.use_robot_type>ROBOT_TYPE.no_of_joints
+						C_EVAL(== %,104,"= %V")
+		
+	
+	#SINGLE	.use_single_type		DEFINED(SINGLE_TYPE)
+	
+		.use_joint			DEFINED(JOINT)
+						USED
+						
+		.base_frame_orient_u0		C_SQR(%)
+		.base_frame_orient_u1		C_SQR(%)
+						C_ADD
+		.base_frame_orient_u2		C_SQR(%)
+						C_ADD
+		.base_frame_orient_u3		C_SQR(%)
+						C_ADD
+						C_DUP
+						C_EVAL(< 1.0001,103,"%A3")
+						C_EVAL(> 0.9999,103,"%A3")
+		
+		.base_frame_coordinated		DEFINED(ROBOT,SINGLE)
+		
+	#JOINT(MECHANICAL_UNIT.use_robot>ROBOT[use_robot_type>ROBOT_TYPE.\
+	       master_robot].use_joint)
+	       
+	       	.logical_axis			USED(@master_logical_axis,\
+						     @master_logical_axis)
+	
+		
+	#JOINT(MECHANICAL_UNIT.use_robot>ROBOT[use_robot_type>ROBOT_TYPE.\
+	       !master_robot].use_joint,MECHANICAL_UNIT.use_single>SINGLE.\
+	       use_joint)
+	       
+	       	.logical_axis			USED(@master_logical_axis,\
+						     @dummy_logical_axis)
+						USED
+		.use_axc_filter			DEFINED(AXC_FILTER)
+		.use_uncalibrated_control_master
+						DEFINED(UCCM0)
+		.use_normal_control_master	DEFINED(LCM0)
+		
+	#JOINT
+		.use_axc_channel		DEFINED(AXC_CHANNEL)
+						USED
+		.use_arm			DEFINED(ARM)
+						USED
+		.use_brake			DEFINED(BRAKE)
+						USED
+		.use_supervision		DEFINED(SUPERVISION)
+						USED
+		.use_axc_filter			USED
+		.use_drive_system		DEFINED(DRIVE_SYSTEM)
+						USED
+		.use_uncalibrated_control_master
+						USED
+		.use_normal_control_master	USED
+		
+	#AXC_CHANNEL
+		.channel			USED
+		
+	#AXC_CHANNEL(MECHANICAL_UNIT.use_robot>ROBOT[use_robot_type>ROBOT_TYPE.\
+	             !master_robot].use_joint>JOINT[use_drive_system>\
+		     DRIVE_SYSTEM.!external].use_axc_channel,MECHANICAL_UNIT.\
+		     use_single>SINGLE.use_joint>JOINT[use_drive_system>\
+		     DRIVE_SYSTEM.!external].use_axc_channel)
+		     
+		.measurement_type		C_PUSH(%)
+						C_EVAL(== 1,104,"= 1")
+						
+	#ARM
+		.use_arm_type			DEFINED(ARM_TYPE)
+		.use_check_point		DEFINED(ARM_CHECK_POINT)
+						USED
+		.use_customer_arm_load		DEFINED(ARM_LOAD)
+						USED
+		.upper_joint_bound		C_PUSH(%)
+						C_PUSH(%)
+						C_PUSH(%)
+		.lower_joint_bound		C_EVAL(> %,104,"< %A1")
+						C_PUSH(%)
+		.lower_joint_bound_min		C_EVAL(>= %,104,"<= %A1")
+						C_PUSH(%)
+		.upper_joint_bound_max		C_EVAL(< %,104,"> %A1")
+						C_EVAL(<= %,104,">= %A3")
+		.lower_joint_bound		C_PUSH(%)
+		.cal_position			C_EVAL(<= %,104,">= %A1")
+						C_EVAL(>= %,104,"<= %A5")
+		
+	
+	#ARM_TYPE(MECHANICAL_UNIT.use_robot>ROBOT[use_robot_type>ROBOT_TYPE.\
+	         !master_robot].use_joint>JOINT.use_arm>ARM.use_arm_type,\
+		 MECHANICAL_UNIT.use_single>SINGLE.use_joint>JOINT.use_arm>\
+		 ARM.use_arm_type)	
+		 
+		.min_inertia			C_PUSH(%)
+		.max_inertia			C_EVAL(<= %,104,">= %A1")
+		
+						
+	#BRAKE(MECHANICAL_UNIT.use_robot>ROBOT[use_robot_type>ROBOT_TYPE.\
+	       !master_robot].use_joint>JOINT.use_brake,MECHANICAL_UNIT.\
+	       use_single>SINGLE.use_joint>JOINT.use_brake) 
+	       
+	       .use_brake_type			DEFINED(BRAKE_TYPE)
+	       
+	#SUPERVISION(MECHANICAL_UNIT.use_robot>ROBOT[use_robot_type>\
+		     ROBOT_TYPE.!master_robot].use_joint>JOINT.\
+		     use_supervision,MECHANICAL_UNIT.use_single>SINGLE.\
+		     use_joint>JOINT.use_supervision)
+		     
+		.use_supervision_type		DEFINED(SUPERVISION_TYPE)
+		
+	#SUPERVISION_TYPE(MECHANICAL_UNIT.use_robot>ROBOT[use_robot_type>\
+	                  ROBOT_TYPE.!master_robot].use_joint>JOINT.\
+			  use_supervision>SUPERVISION.use_supervision_type,\
+	                  MECHANICAL_UNIT.use_single>SINGLE.use_joint>JOINT.\
+		          use_supervision>SUPERVISION.use_supervision_type)
+			  
+		.teach_mode_speed_max_main	C_PUSH(%)
+		.teach_normalized_low_speed	C_EVAL(< %,104,"> %A1")
+						C_PUSH(%)
+		.teach_mode_speed_max_dsp	C_EVAL(< %,104,"> %A1")
+		
+	#JOINT(MECHANICAL_UNIT.use_robot>ROBOT[use_robot_type>ROBOT_TYPE.\
+	       !master_robot].use_joint,MECHANICAL_UNIT.use_single>SINGLE.\
+	       use_joint)
+	    
+		.use_uncalibrated_control_master>UCCM0.Kp
+						C_PUSH(%)
+		.use_normal_control_master>LCM0.Kp
+						C_EVAL(<= %,104,">= %A1")
+
+		.use_drive_system>DRIVE_SYSTEM.use_stress_duty_cycle>\
+		 STRESS_DUTY_CYCLE.speed_absolute_max	
+		 				C_PUSH(%)
+		.use_uncalibrated_control_master>UCCM0.speed_max_n
+						C_EVAL(>= %,104,"<= %A1")
+		.use_arm>ARM.transm_joint	C_SQR(%)
+						C_SQRT
+						C_MUL(1.05)
+						C_DUP
+		.use_arm>ARM.wc_acc		C_MUL(%)
+		.use_uncalibrated_control_master>UCCM0.acc_max_n
+						C_EVAL(>= %,104,"<= %V")
+		.use_arm>ARM.wc_dec		C_MUL(%)
+		.use_uncalibrated_control_master>UCCM0.dec_max_n
+						C_EVAL(>= %,104,"<= %V")
+						
+	#MOTION_SYSTEM(1)
+		.dynamic_resolution		C_PUSH(0.8)
+						C_DIV(%*0.024192)
+	
+	#JOINT(MECHANICAL_UNIT.use_robot>ROBOT[use_robot_type>ROBOT_TYPE.\
+	       !master_robot].use_joint>JOINT[use_drive_system>DRIVE_SYSTEM.\
+	       !external],MECHANICAL_UNIT.use_single>SINGLE.\
+	       use_joint>JOINT[use_drive_system>DRIVE_SYSTEM.\
+	       !external])
+		
+	       	.use_uncalibrated_control_master>UCCM0.Kv
+						C_PUSH(%)
+		.use_normal_control_master>LCM0.Kv
+						C_EVAL(<= %,104,">= %A1")
+		.use_uncalibrated_control_master>UCCM0.Ti
+						C_PUSH(%)
+		.use_normal_control_master>LCM0.Ti
+						C_EVAL(>= %,104,"<= %A1")
+		.use_uncalibrated_control_master>UCCM0.Kp_stability
+						C_DUP
+						C_EVAL(>=%,104,"<= %V")
+		.use_drive_system>DRIVE_SYSTEM.use_drive_unit>DRIVE_UNIT.\
+		 use_drive_unit_type>DRIVE_UNIT_TYPE.current_constant
+		 				C_PUSH(1)
+		 				C_PUSH(%)
+		.use_drive_system>DRIVE_SYSTEM.use_motor>MOTOR.use_motor_type.\
+		 MOTOR_TYPE.ke
+						C_MUL(%)
+		.use_drive_system>DRIVE_SYSTEM.use_stress_duty_cycle.\
+		 STRESS_DUTY_CYCLE.speed_absolute_max
+		 				C_DIV(%)
+						C_DUP
+						C_MUL(2095)
+		.use_normal_control_master>LCM0.Kv
+						C_EVAL(> %,104,"< %V")
+						
+		 				C_MUL(1000000)
+						C_DIV
+						C_MUL(3.85)
+		.use_normal_control_master>LCM0.Ti
+						C_EVAL(< %,104,"> %V")
+	
+	#DRIVE_SYSTEM(MECHANICAL_UNIT.use_robot>ROBOT[use_robot_type>\
+	              ROBOT_TYPE.master_robot].use_joint>JOINT.use_drive_system)
+		.use_drive_unit			USED(@master_drive_unit,@master_drive_unit)
+		.use_motor			USED
+		
+	#DRIVE_SYSTEM(MECHANICAL_UNIT.use_robot>ROBOT[use_robot_type>\
+	              ROBOT_TYPE.!master_robot].use_joint>JOINT.use_drive_system,\
+		      MECHANICAL_UNIT.use_single>SINGLE.use_joint>\
+		      JOINT.use_drive_system)
+		      
+		.use_mains			DEFINED(MAINS)
+		.use_trafo			DEFINED(TRAFO)
+		.use_dc_link			DEFINED(DC_LINK)
+		.use_drive_unit			DEFINED(DRIVE_UNIT)
+						USED(@master_drive_unit,@dummy_drive_unit)
+						USED
+		.use_current_transfer_function	DEFINED(CURRENT_TRANSFER_FUNCTION)
+		.use_cable			DEFINED(CABLE)
+		.use_motor			DEFINED(MOTOR)
+						USED
+		.use_thermal_duty_cycle		DEFINED(THERMAL_DUTY_CYCLE)
+						USED
+		.use_stress_duty_cycle		DEFINED(STRESS_DUTY_CYCLE)
+						USED
+						
+	#MAINS
+		.u_tolerance_min		C_PUSH(%)
+		.u_tolerance_max		C_EVAL(<= %,104,">= %A1")
+					
+	#MOTION_SYSTEM(1)
+		.max_temp_ambient_cabinet	C_PUSH(1)
+						C_PUSH(%)
+		
+	#DRIVE_SYSTEM(MECHANICAL_UNIT.use_robot>ROBOT[use_robot_type>\
+	              ROBOT_TYPE.master_robot].use_joint_0>JOINT.use_drive_system)
+		
+		.use_trafo>TRAFO.temp_ambient_rise
+						C_ADD(%)
+		.use_trafo>TRAFO.power_thermal	C_PUSH(%)
+		.use_mains>MAINS.u_tolerance_min
+						C_PUSH(1+%)
+		.use_trafo>TRAFO.use_trafo_type>TRAFO_TYPE.secondary_voltage
+						C_MUL(%)
+						C_DIV
+						C_SQRT(3)
+						C_DIV
+		.use_trafo>TRAFO.use_trafo_type>TRAFO_TYPE.i_n
+						C_DIV(%)
+						C_SQR
+		.use_trafo>TRAFO.use_trafo_type>TRAFO_TYPE.temp_rise
+						C_MUL(%)
+						C_ADD
+						C_ADD(-20)
+		.use_trafo>TRAFO.use_trafo_type>TRAFO_TYPE.r_temp_coef_20
+						C_MUL(%)
+						C_ADD(1)
+		.use_trafo>TRAFO.use_trafo_type>TRAFO_TYPE.r_20
+						C_MUL(%)
+						C_DIV
+		.use_mains>MAINS.u_tolerance_min
+						C_PUSH(1+%)
+		.use_trafo>TRAFO.secondary_voltage
+						C_MUL(%/2)
+						C_SQR
+						C_MUL
+		.use_trafo>TRAFO.power_max	C_EVAL(>=%,104,"<= %V")
+		
+		.use_trafo>TRAFO.use_trafo_type>TRAFO_TYPE.temp_max
+						C_PUSH(%)
+		.use_trafo>TRAFO.temp_ambient_rise
+						C_PUSH(%)
+		.use_trafo>TRAFO.use_trafo_type>TRAFO_TYPE.temp_rise
+						C_ADD(%)
+						C_SUB
+					
+	#MOTION_SYSTEM(1)
+		.max_temp_ambient_cabinet	C_EVAL(>= %,104,"<= %V")
+		
+	#DRIVE_UNIT(DRIVE_SYSTEM[!external].use_drive_unit)
+		.use_drive_unit_type>DRIVE_UNIT_TYPE.current_constant
+						C_PUSH(10*%)
+		.i_max				C_EVAL(>=%,104,"<= %V")
+		
+	#DRIVE_SYSTEM[external]
+		.use_stress_duty_cycle>STRESS_DUTY_CYCLE\
+		.speed_absolute_max		C_PUSH(%/10)
+		.use_drive_unit>DRIVE_UNIT.use_drive_unit_type>DRIVE_UNIT_TYPE\
+		.speed_constant			
+						C_EVAL(<=%,104,">= %V")
+						
+	#CABLE
+		.use_cable_type			DEFINED(CABLE_TYPE)
+		
+	#MOTOR
+		.use_motor_type			DEFINED(MOTOR_TYPE)
+		
+		
+	#DRIVE_SYSTEM(MECHANICAL_UNIT.use_robot>ROBOT[use_robot_type>ROBOT_TYPE.\
+	              !master_robot].use_joint>JOINT.use_drive_system,\
+		      MECHANICAL_UNIT.use_single>SINGLE.\
+	              use_joint>JOINT.use_drive_system)
+		      
+		.use_motor>MOTOR.use_motor_type>MOTOR_TYPE.torque_0
+						C_PUSH(%)
+		.use_thermal_duty_cycle>THERMAL_DUTY_CYCLE.torque_static
+						C_EVAL(>=%,104,"<= %A1")
+	
+		.use_stress_duty_cycle>STRESS_DUTY_CYCLE\
+		.speed_absolute_max	
+						C_PUSH(3300)
+						C_EVAL(>=%,104,"<= %V")
+						C_CLEAR
+				
+	
+	#DRIVE_SYSTEM(MECHANICAL_UNIT.use_robot>ROBOT[use_robot_type>ROBOT_TYPE.\
+	              !master_robot].use_joint>JOINT.use_drive_system>\
+		      DRIVE_SYSTEM[!external],\
+		      MECHANICAL_UNIT.use_single>SINGLE.\
+	              use_joint>JOINT.use_drive_system>DRIVE_SYSTEM[!external])
+		      
+		.use_motor>MOTOR.use_motor_type>MOTOR_TYPE.pole_pairs
+						C_PUSH(165*60/%)
+		.use_stress_duty_cycle>STRESS_DUTY_CYCLE\
+		.speed_absolute_max	
+						C_EVAL(>=%,104,"<= %V")
+		
+$END

@@ -1,0 +1,37 @@
+54::
+27:
+tegen schrijven beveiligd
+28:
+niet geldig voor digitale schrijfopdr.
+29:
+niet geldig voor analoge schrijfopdracht
+30:
+niet geldig voor digitale leesopdracht
+31:
+niet geldig voor analoge leesopdracht
+42:
+niet geldig voor alias opdracht
+43:
+Geen toegang tot
+44:
+tijd event generator.
+46:
+Onmogelijk om I/O signaal te lezen.\n
+
+47:
+Onmogelijk om I/O signaal te schrijven.\n
+
+48:
+Configuratie fout voor I/O signaal.\n
+
+49:
+Controleer de IO signaal configuratie\n
+of alias definitie.
+50:
+Onmogelijk om I/O signaal te lezen\n
+%s in unit %s.\n
+
+51:
+Onmogelijk om I/O signaal te schrijven\n
+%s in unit %s.\n
+

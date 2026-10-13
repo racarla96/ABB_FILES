@@ -1,0 +1,27 @@
+72::
+100:
+El parametro %.16s\n
+no corresponde con ningun archivo de\n
+texto cargado.
+101:
+Comprobar si este archivo de texto\n
+esta instalado (correctamente).
+102:
+Hay un objeto no valido para el\n
+parametro-in %s de la\n
+instruccion %s.
+103:
+Comprobar si hay el objeto dato correcto
+104:
+El numero de error de usuario del\n
+SHELL-RAPID %.16s\n
+debe declararse como un global.
+105:
+Comprobar la declaracion del errnum.
+106:
+La reserva de un nuevo numero de error\n
+%.16s fallo. El valor inicial\n
+debe ser -1 o el antiguo.
+107:
+Comprobar el valor inicial de la nueva\n
+variable errnum

@@ -1,0 +1,919 @@
+27::
+0:
+ES y Comunicacion
+1000:
+Nombre de bus invalido\n
+Descripcion\Motivo:\n
+- Unidad tipo %s: tiene\n
+  un nombre de bus invalido\n
+\t\n
+Comprobar:\n
+1. Cambiar nombre de bus del tipo unidad
+1001:
+Direccion duplicada\n
+Descripcion\Motivo:\n
+- Direccion igual en unidad %s y %s\n
+\t\n
+Comprobar:\n
+1. Comprobar la direccion\n
+2. Comprobar el bus
+1002:
+Controlador invalido\n
+Descripcion\Motivo:\n
+- Unidad %s: no especificada\n
+  tipo unidad con nombre: %s.\n
+\t\n
+Comprobar:\n
+1. Comprobar el tipo de unidad con el\n
+   especificado para la unidad
+1003:
+Unidad invalida\n
+Descripcion\Motivo:\n
+- La unidad especificada para señal %s\n
+  no especificada en seccion unidades\n
+\t\n
+Comprobar:\n
+1. Cambiar el nombre de la unidad\n
+2. Añadir nueva unidad a la lista
+1004:
+Longitud señal invalida\n
+Descripcion\Motivo:\n
+- La longitud de la señal\n
+  digital %s debe ser 1\n
+\t\n
+Comprobar:\n
+1.Cambiar longitud a 1 o borrar\n
+  la instruccion.
+1005:
+Tiempo de filtro invalido\n
+Descripcion\Motivo:\n
+- Señal %s: El tiempo del filtro pasivo\n
+  debe ser 0 o %d - %d ms\n
+\t\n
+Comprobar:\n
+1.Cambiar el tiempo del filtro
+1006:
+Tiempo de filtro invalido\n
+Descripcion\Motivo:\n
+- Señal %s: El tiempo del filtro activo\n
+  debe ser 0 o %d - %d ms\n
+\t\n
+Comprobar:\n
+1.Cambiar el tiempo del filtro
+1007:
+Valor logico fuera rango\n
+Descripcion\Motivo:\n
+- Señal %s: Max logico es menor o\n
+  igual que el Min logico\n
+\t\n
+Comprobar:\n
+1.Corregir valores: max mayor que min
+1008:
+Valor fisico fuera rango\n
+Descripcion\Motivo:\n
+- Señal %s: Max fisico es menor o\n
+  igual que el Min fisico\n
+\t\n
+Comprobar:\n
+1.Corregir valores: max mayor que min
+1009:
+Tipo invalido\n
+Descripcion\Motivo:\n
+- Señal %s: tipo de señal es\n
+  invalido\n
+\t\n
+Comprobar:\n
+1.Cambiar el tipo
+1010:
+Señal fuera de rango\n
+Descripcion\Motivo:\n
+- Señal %s: la señal fisica\n
+  numero + long. -1 es > %d\n
+\t\n
+Comprobar:\n
+1.Cambiar el numero de señal fisica\n
+2.Cambiar la longitud
+1015:
+Exceso entradas digitales\n
+Descripcion\Motivo:\n
+- Numero de entradas digitales para\n
+  la carta %s es mayor\n
+  que %d\n
+\t\n
+Comprobar:\n
+1.Reducir numero de entradas digitales
+1016:
+Exceso salidas digitales\n
+Descripcion\Motivo:\n
+- Numero de salidas digitales para\n
+  la carta %s es mayor\n
+  que %d\n
+\t\n
+Comprobar:\n
+1.Reducir numero de salidas digitales
+1017:
+Sin señal activacion\n
+Descripcion\Motivo:\n
+- Falta señal de activacion en enlace\n
+\t\n
+Comprobar:\n
+1.Se debe dar una señal de activacion
+1018:
+Exceso señales activacion\n
+Descripcion\Motivo:\n
+- Numero de señales activacion de\n
+  enlace es demasiado alto\n
+\t\n
+Comprobar:\n
+1.Se debe dar una sola señal\n
+  de activacion
+1019:
+Falta definicion señal\n
+Descripcion\Motivo:\n
+- La señal: %s, en enlace, no esta\n
+  definida\n
+\t\n
+Comprobar:\n
+1.Definir el nombre de la señal en\n
+  la seccion de señales
+1020:
+Sin señal resultado\n
+Descripcion\Motivo:\n
+- Falta señal de resultado\n
+\t\n
+Comprobar:\n
+1.Se debe dar al menos una señal de\n
+  resultado
+1021:
+Señales enlace duplicadas\n
+Descripcion\Motivo:\n
+- La señal: %s, aparece simultaneamente\n
+  como DE y como A.\n
+\t\n
+Comprobar:\n
+1.La misma señal no puede darse como DE\n
+  y como A simultaneamente
+1022:
+Max fisico muy alto\n
+Descripcion\Motivo:\n
+- Señal: %s\n
+- El valor fisico max > %.3f\n
+\t\n
+Comprobar:\n
+1.Cambiar valor en configuracion
+1023:
+Min fisico muy bajo\n
+Descripcion\Motivo:\n
+- Señal: %s\n
+- El valor fisico min < %.3f\n
+\t\n
+Comprobar:\n
+1.Cambiar valor en configuracion
+1024:
+Max fisico muy alto\n
+Descripcion\Motivo:\n
+- Señal: %s\n
+- Valor actual = %d > ValorMax = %d\n
+- Valor actualizado a ValorMax\n
+\t\n
+Comprobar:\n
+1.Cambiar valor fisico max en\n
+  configuracion
+1025:
+Min fisico muy bajo\n
+Descripcion\Motivo:\n
+- Señal: %s\n
+- Valor actual = %d < ValorMin = %d\n
+- Valor actualizado a ValorMin\n
+\t\n
+Comprobar:\n
+1.Cambiar valor fisico min en\n
+  configuracion
+1026:
+Max logico muy alto\n
+Descripcion\Motivo:\n
+- Señal: %s\n
+- Valor actual = %d > ValorMax = %d\n
+- Valor actualizado a ValorMax\n
+\t\n
+Comprobar:\n
+1.Cambiar valor logico max en\n
+  configuracion
+1027:
+Min logico muy bajo\n
+Descripcion\Motivo:\n
+- Señal: %s\n
+- Valor actual = %d < ValorMin = %d\n
+- Valor actualizado a ValorMin\n
+\t\n
+Comprobar:\n
+1.Cambiar valor logico min en\n
+  configuracion
+1033:
+Ent. digital fuera rango\n
+Descripcion\Motivo:\n
+- Numero de entradas digitales esta\n
+  fuera de rango en carta direccion %d\n
+  Las entradas max son %d\n
+\t\n
+Comprobar:\n
+1. Cambiar configuracion de\n
+   la carta
+1034:
+Sal. digital fuera rango\n
+Descripcion\Motivo:\n
+- Numero de salidas digitales esta\n
+  fuera de rango en carta direccion %d\n
+  Las salidas max son %d\n
+\t\n
+Comprobar:\n
+1. Cambiar configuracion de\n
+   la carta
+1036:
+Nombre fuera de rango\n
+Descripcion\Motivo:\n
+- El numero de caracteres en el nombre\n
+- %s\n
+- es mayor de %d caracteres o\n
+- falta el nombre\n
+\t\n
+Comprobar:\n
+1. Dar un nuevo nombre que este dentro\n
+   de los limites
+1037:
+Fallo en enlace ES\n
+Descripcion\Motivo:\n
+- La señal %s aparece en DE\n
+  y en A de la misma cadena\n
+\t\n
+Comprobar:\n
+1. Corregir la configuracion del enlace\n
+   de ES donde la señal mencionada este\n
+   conectada.
+1038:
+Enlace ES muy profundo\n
+Descripcion\Motivo:\n
+- El enlace en la misma cadena es\n
+- demasiado profundo. Nombre señal\n
+- inicial: %s\n
+\t\n
+Comprobar:\n
+1. Hacer menos profundo el enlace
+1041:
+Exceso salidas analogicas\n
+Descripcion\Motivo:\n
+- El numero de salidas analogicas de la\n
+- carta %s es mayor de %d\n
+\t\n
+Comprobar:\n
+1. Reducir numero de salidas analogicas
+1042:
+Exceso entradas analog.\n
+Descripcion\Motivo:\n
+- El numero de entradas analogicas de\n
+- carta %s es mayor de %d\n
+\t\n
+Comprobar:\n
+1. Reducir numero de entradas analogicas
+1043:
+Error de tipo de señal\n
+Descripcion\Motivo:\n
+- El tipo especificado en señal %s no\n
+  puede conectarse a carta especificada\n
+\t\n
+Comprobar:\n
+1. Cambiar a otro tipo.\n
+2. Cambiar a otra carta.
+1044:
+Exceso en señal fisica\n
+Descripcion\Motivo:\n
+- El rango de señalfis., o longitud o\n
+  señalfis y longitud de señal %s\n
+  es mayor de %d\n
+\t\n
+Comprobar:\n
+1. Cambiar el numero de señal fisica\n
+2. Cambiar la longitud
+1045:
+Err.especificacion filtro\n
+Descripcion\Motivo:\n
+- Señal %s : No se puede especificar\n
+  tiempo filtro en este tipo de señal\n
+\t\n
+Comprobar:\n
+1. Poner el tiempo de filtro a 0 o\n
+   o borrar la instruccion.
+1046:
+Error de escalado\n
+Descripcion\Motivo:\n
+- Señal %s: No se puede escalar\n
+\t\n
+Comprobar:\n
+1. Borrar el dato de escalado
+1049:
+Error parametro inversion\n
+Descripcion\Motivo:\n
+- Señal %s: Este tipo de señal\n
+  no se puede invertir\n
+\t\n
+Comprobar:\n
+1. Solo puede invertirse señal digital
+1050:
+Señal enlace no digital\n
+Descripcion\Motivo:\n
+- Señal %s: No es una señal digital\n
+\t\n
+Comprobar:\n
+1. Solo se pueden enlazar señales\n
+   digitales
+1052:
+Tabla enlace llena\n
+Descripcion\Motivo:\n
+- La suma de señales DE con el total\n
+  de la suma de señales A no deben\n
+  exceder %d\n
+\t\n
+Comprobar:\n
+1. Reducir el numero de señales
+1053:
+Rotura de conexion RIO\n
+Descripcion\Motivo:\n
+- No puedo acceder a la RIO porque la\n
+  conexion con el PLC se ha roto\n
+\t\n
+Comprobar:\n
+1. Comprobar cable de enlace al PLC\n
+2. Comprobar si el PLC esta apagado
+1054:
+Tipo señal erroneo\n
+Descripcion/motivo:\n
+- Señal %s:\n
+  El tipo de señal es incorrecto\n
+\t\n
+Comprobar:\n
+1. Cambiar el tipo
+1055:
+Nombre señal invalido\n
+Descripcion/motivo:\n
+- Simbolo %s: no esta definido\n
+\t\n
+Comprobar:\n
+1. Cambiar el nombre des simbolo
+1056:
+Recup. fallo tens. llena\n
+Descripcion/motivo:\n
+- Simbolo %s: no se pudo configurar para\n
+  recuperacion de fallo alimentacion.\n
+  La tabla para fallo tension esta llena\n
+\t\n
+Comprobar:\n
+1. Incrementar tamaño de tabla en\n
+   archivo inicial configuracion.\n
+2. Borrar otras señales de la lista de\n
+   recuperacion.
+1058:
+Sin contacto unidad E/S\n
+Descripcion/motivo:\n
+- Sin contacto con unidad E/S: %s\n
+  en el bus: %s\n
+\t\n
+Comprobar:\n
+1. Comprobar direcciones de todos\n
+   los modulos conectados al bus\n
+2. Cambiar la direccion
+1059:
+Error config. nodo CAN\n
+Descripcion/motivo:\n
+- Error configurando nodo Can\n
+  conectado al nodo direccion %d\n
+\t\n
+Comprobar:\n
+1. Corregir la configuracion del nodo\n
+   de en la direccion dada
+1061:
+Error de bus E/S\n
+Descripcion/motivo:\n
+- Se ha detectado una frecuencia de\n
+  errores anormal en el bus %s.\n
+\t\n
+Comprobar:\n
+1. Comprobar el bus\n
+2. Reiniciar el sistema
+1072:
+Señal config. no guardar\n
+Descripcion/motivo:\n
+- Señal %s\n
+  no tiene el atributo Guardar en SI\n
+\t\n
+Comprobar:\n
+1. Activar el atributo Guardar
+1073:
+Error en bus E/S\n
+Descripcion/motivo:\n
+- Se ha detectado una frecuencia de\n
+  errores anormal en el bus %s.\n
+  El conector para E/S de CAN externo\n
+  se ha desconectado.\n
+\t\n
+Comprobar:\n
+1. Comprobar terminadores de bus.\n
+2. Comprobar cortocircuito en bus E/S.\n
+3. Reiniciar el sistema.
+1074:
+Config. fuera de rango\n
+Descripcion/motivo:\n
+- El cuarto inicial de IBS y tamaño de\n
+  rack esta fuera de rango para\n
+  carta %s\n
+\t\n
+Comprobar:\n
+1. Para el cuarto inicial 1, el tamaño\n
+   de rack debe ser menor de 5
+1076:
+Error com de rtp1\n
+Descripcion/motivo:\n
+- No hay respuesta de linea serie\n
+\t\n
+Comprobar:\n
+1. Comprobar dispositivo o comunicacion
+1077:
+Error com de rtp1\n
+Descripcion/motivo:\n
+- No es posible entregar el\n
+  mensaje recibido\n
+\t\n
+Comprobar:\n
+1. Comprobar flujo de comunicacion
+1078:
+Error com de rtp1\n
+Descripcion/motivo:\n
+- La respuesta del dispositivo no\n
+  tiene una secuencia valida\n
+\t\n
+Comprobar:\n
+1. Comprobar ruido en la linea serie
+1079:
+Salida grupo en pulso\n
+Descripcion/motivo:\n
+- Grupo de salida pulsante no permitido\n
+\t\n
+Comprobar:\n
+1. ---
+1080:
+Tabla tipo unidad llena\n
+Descripcion/motivo:\n
+- El numero de tipos de unidad no\n
+  debe exceder %d\n
+\t\n
+Comprobar:\n
+1. Reducir el numero de tipos de unidad\n
+2. Incrementar numero de tipos de unidad\n
+   permitidos.
+1081:
+Tabla fisica llena\n
+Descripcion/motivo:\n
+- El numero de señales fisicas no debe\n
+  exceder de %d\n
+\t\n
+Comprobar:\n
+1. Reducir el numero de señales fisicas\n
+2. Incrementar numero de señales fisicas\n
+   permitidas.
+1082:
+Tabla señales llena\n
+Descripcion/motivo:\n
+- El numero de señales definidas de\n
+  usuario mas las señales de panel\n
+  no debe exceder de %d\n
+\t\n
+Comprobar:\n
+1. Reducir el numero de señales.\n
+2. Incrementar numero de señales\n
+   permitidas.
+1083:
+Tabla simbolos llena\n
+Descripcion/motivo:\n
+- El numero de simbolos\n
+  no debe exceder de %d\n
+\t\n
+Comprobar:\n
+1. Reducir el numero de simbolos.\n
+2. Incrementar numero de simbolos.\n
+   permitidas.
+1084:
+Tabla Triggr llena\n
+Descripcion/motivo:\n
+- El numero de señales suscritas\n
+  no debe exceder de %d\n
+\t\n
+Comprobar:\n
+1. Reducir el numero de señales\n
+   suscritas\n
+2. Incrementar numero de suscripciones\n
+   permitidas.
+1085:
+Tabla unidades llena\n
+Descripcion/motivo:\n
+- El numero de cartas\n
+  no debe exceder de %d\n
+\t\n
+Comprobar:\n
+1. Reducir el numero de cartas definidas\n
+2. Incrementar numero de cartas\n
+   permitidas.
+1094:
+Demasiados enlac. act def\n
+Descripcion/motivo:\n
+- Las conexiones enlace tiene definidos\n
+  demasiadas señales "De" : %s\n
+\t\n
+Comprobar:\n
+1. Comprobar configuracion enlace.
+1095:
+Str muy larga act. enlace\n
+Descripcion/motivo:\n
+- La parte "De" de string enlace es\n
+  demasiado larga : %s\n
+\t\n
+Comprobar:\n
+1. Comprobar configuracion enlace.
+1097:
+Error parametro guardar\n
+Descripcion/motivo:\n
+- Señal %s: Este tipo de señal\n
+  no puede tener la opcion guardar\n
+\t\n
+Comprobar:\n
+1. Solo señales digitales pueden tener\n
+   guardar
+1098:
+Servidor NFS perdido\n
+Descripcion/motivo:\n
+- Se ha perdido el contacto con el\n
+  servidor NFS '%s'.\n
+\t\n
+Comprobar:\n
+1. Comprobar el servidor NFS.\n
+2. Comprobar la conexion de red.\n
+3. Comprobar la configuracion.
+1099:
+Servidor seguro NFS perd.\n
+Descripcion/motivo:\n
+- Se ha perdido el contacto con el\n
+  servidor seguro NFS\n
+  '%s'.\n
+\t\n
+Comprobar:\n
+1. Comprobar el servidor NFS.\n
+2. Comprobar la conexion de red.\n
+3. Comprobar la configuracion.
+1101:
+Nombre de bus desconocido\n
+Descripcion/motivo:\n
+- Carta %s: Bus desconocido\n
+  con nombre %s\n
+\t\n
+Comprobar:\n
+1. Cambiar el nombre de bus para la\n
+   carta en la configuracion del tipo de\n
+   unidad
+1102:
+DeviceNet incompatible\n
+Descripcion/motivo:\n
+- Nodo %d:\n
+  Info interna:\n
+  %s,%d\n
+  (%s)\n
+\t\n
+Comprobar:\n
+1. Desconectar el nodo del bus\n
+2. Contactar ABB.
+1103:
+Error de bus E/S\n
+Descripcion/motivo:\n
+- Se ha detectado una frecuencia de\n
+  errores anormal en el bus %s.\n
+  El conector para el CAN de E/S robot\n
+  se ha desconectado.\n
+\t\n
+Comprobar:\n
+1. Comprobar terminadores del bus\n
+2. Comprobar cortocircuito en bus E/S\n
+3. Reiniciar el sistema
+1104:
+Error de bus E/S\n
+Descripcion/motivo:\n
+- Se ha detectado una frecuencia de\n
+  errores anormal en el bus %s.\n
+Los conectores para el CAN de E/S robot\n
+y CAN externo se han desconectado.\n
+\t\n
+Comprobar:\n
+1. Comprobar terminadores del bus\n
+2. Comprobar cortocircuito en bus E/S\n
+3. Reiniciar el sistema
+1113:
+Fallo comando IBS usuario\n
+Descripcion/motivo:\n
+- Advertencia debido a: %d\n
+\t\n
+Comprobar:\n
+1. Comprobar la configuracion InterBus-S\n
+   de acuerdo con el codigo de error\n
+   mostrado.
+1114:
+Direccion IP no valida\n
+Descripcion/motivo:\n
+'%s' no es una direccion\n
+IP valida\n
+\t\n
+Comprobar:\n
+1.Comprobar la configuracion de\n
+  comunicacion
+1115:
+Mascara subred no valida\n
+Descripcion/motivo:\n
+'%s' no es una mascara\n
+de subred valida\n
+\t\n
+Comprobar:\n
+1.Comprobar la configuracion de\n
+  comunicacion
+1117:
+Res. supervision bateria\n
+Descripcion/motivo:\n
+Capacidad de bateria = %d\n
+\t\n
+Comprobar:
+1118:
+Estado superv. bateria\n
+Descripcion/motivo:\n
+La supervision de bateria esta en un\n
+estado erroneo.\n
+El estado es = %s\n
+\t\n
+Comprobar:
+1119:
+Tabla unidades ES llena.\n
+Descripcion/motivo:\n
+- Se ha excedido el numero maximo de\n
+  unidades del tipo %s.\n
+  Max = %d\n
+\t\n
+Comprobar:\n
+1. Reducir el numero de unidades ES.
+1120:
+Opcion RAP no instalada.\n
+Descripcion/motivo:\n
+- La opcion de comunicacion RAP se debe\n
+  instalar para configurar RAP o usar\n
+  SCWrite.\n
+\t\n
+Comprobar:\n
+1. Reiniciar e instalar la opcion\n
+   de comunicacion RAP.
+1121:
+Fallo inicializacion RAP.\n
+Descripcion/motivo:\n
+- La inicializacion del RAP ha fallado.\n
+\t\n
+Comprobar:\n
+1. Comprobar registro interno para\n
+   la descripcion.
+1122:
+Direccion IP incorrecta.\n
+Descripcion/motivo:\n
+- La direccion '%s'\n
+  del protocolo '%s'\n
+  no es una direccion IP correcta.\n
+\t\n
+Comprobar:\n
+1. Cambiar la direccion.
+1123:
+Prot. Trans. no coincide\n
+Descripcion/motivo:\n
+El protocolo transmision '%s'\n
+dado para protocolo aplicacion '%s'\n
+no se pudo encontrar.\n
+\t\n
+Comprobar:\n
+1. Cambiar el protocolo de transmision.
+1124:
+Prot. trans. NFS erroneo\n
+Descripcion/motivo:\n
+El protocolo de transmision para el\n
+protocolo NFS '%s' debe ser\n
+TCP/IP.\n
+\t\n
+Comprobar:\n
+1. Cambiar protocolo de transmision.
+1125:
+Permiso montaje denegado\n
+Descripcion/motivo:\n
+Se denego el permiso para montar el\n
+dierctorio '%s'\n
+en el servidor '%s'.\n
+\t\n
+Comprobar:\n
+1. Cambiar el ID de usuario o grupo.
+1126:
+Directorio no exportado\n
+Monateje de directorio '%s'\n
+como '%s' ha fallado\n
+debido a que no esta exportado en el\n
+servidor '%s'.\n
+Protocol: '%s'.\n
+\t\n
+Comprobar:\n
+1. Exportar el directorio en el\n
+   servidor
+1127:
+IDs no coinciden\n
+Descripcion/motivo:\n
+Los IDs de usuario y grupo deben tener\n
+los mismos valores para todos los discos\n
+remotos.\n
+\t\n
+Comprobar:
+1128:
+Opcion Ethernet no inst.\n
+Descripcion/motivo:\n
+- La opcion de servicios ethernet se\n
+  debe instalar para montar discos\n
+  remotos.\n
+\t\n
+Comprobar:\n
+1. Reiniciar e instalar la opcion de\n
+   servicios ethernet.
+1129:
+Demasiados discos remotos\n
+Descripcion/motivo:\n
+El numero maximo de discos montados\n
+remotos es '%d'.\n
+\t\n
+Comprobar:\n
+1. Reducir el numero de discos montados\n
+   remotos
+1130:
+Demasiados servidores\n
+Descripcion/motivo:\n
+El numero maximo de servidores para\n
+montar discos remotos es '%d'.\n
+\t\n
+Comprobar:\n
+1. Reducir el numero de servidores
+1131:
+No puedo montar direct.\n
+Descripcion/motivo:\n
+Montar directorio '%s'\n
+en computador '%s' ha fallado\n
+Protocolo: '%s'.\n
+\t\n
+Comprobar:\n
+1. Comprobar configuracion servidor NFS
+1132:
+Bloq. supervision bateria\n
+Descripcion/motivo:\n
+La supervison de bateria se ha bloqueado\n
+porque se ha desconectado/conectado\n
+tension.\n
+Se desbloquara %s\n
+\t\n
+Comprobar:
+1133:
+Bateria no cargada\n
+Descripcion/motivo:\n
+La bateria no se ha cargado despues de\n
+el primer estado de carga.\n
+\t\n
+Comprobar:\n
+1. Comprobar que la señal batlow esta\n
+   conectada a la DSQC347.\n
+2. Comprobar conexiones de bateria\n
+3. Comprobar la bateria
+1137:
+Codigo error de unidad\n
+Descripcion/motivo:\n
+Se ha retornado el siguiente codigo de\n
+error: %s\n
+\t\n
+Comprobar:\n
+1. Comprobar configuracion parametros de\n
+   la unidad.
+1139:
+Error acceso de ES\n
+Descripcion/motivo:\n
+- No puedo leer/escribir la señal\n
+  %s debido a un corte de\n
+  la comunicacion\n
+\t\n
+Comprobar:\n
+1. Comprobar informe de 'Sin contacto\n
+   con unidad ES' para el motivo
+1140:
+Error param. activacion\n
+Descripcion/motivo:\n
+- Señal %s: Este tipo de señal no se\n
+  puede configurar como activa positiva\n
+\t\n
+Comprobar:\n
+1. Solo se pueden configurar las salidas\n
+   como activas positivas
+1141:
+Valor def. fuera rango\n
+Descripcion/motivo:\n
+- El valo por defecto de la señal\n
+  %s esta fuera de rango.\n
+\t\n
+Comprobar:\n
+1.Cambiar el valor por defecto en la\n
+  configuracion.
+1142:
+Error param. por defecto\n
+Descripcion/motivo:\n
+- Señal %s: a este tipo de\n
+  señal no se le puede asignar un valor\n
+  por defecto.\n
+\t\n
+Comprobar:\n
+1. Solo se pueden asignar a las salidas\n
+   valores por defecto
+1143:
+CTS/RTS no permitido\n
+Descripcion/motivo:\n
+- Canal serie %s:\n
+  no puede tener la opcion RTS/CTS.\n
+\t\n
+Comprobar:\n
+1. Borrar esta opcion de la\n
+   configuracion.
+1146:
+Error suscripcion\n
+Descripcion/motivo:\n
+- El maxlimit es menor que minlimit\n
+  maxlimit = %f minlimit = %f.\n
+\t\n
+Comprobar:\n
+1. Corregir e intentar de nuevo
+1153:
+Can't access parameter\n
+Description\Reason:\n
+- Unit %s has parameters\n
+  that can't be edited from\n
+  the teach pendant.\n
+\t\n
+Check list:\n
+1. Save the EIO configuration to\n
+   a file\n
+2. Use a text editor to change\n
+   the parameters
+1156:
+IPC queue full\n
+Description\Reason:\n
+- The ipc queue was full,\n
+  when sending to trap routine.\n
+  errno = %x\n
+\t\n
+Check list:\n
+1. Restart the system
+1157:
+Invalid app type\n
+Description\Reason:\n
+- Com Unit %s: has an unspecified\n
+  Com app type named: %s.\n
+\t\n
+Check list:\n
+1.Check the Com app type against\n
+  the one specified for the Com app
+1159:
+Signal Access illegal\n
+Description\Reason:\n
+- Signal %s:\n
+  The number of characters in\n
+  Access %s\n
+  is greater than %d or name missing.\n
+\t\n
+Check list:\n
+1. Give a new Access that fits within\n
+   the limits.
+1160:
+Access level illegal\n
+Description\Reason:\n
+- Signal %s:\n
+  Access level %s in\n
+  group %s is illegal.\n
+- Legal choices all/man/auto/none.\n
+\t\n
+Check list:\n
+1. Give a new access level for group\n
+   that fits.
+1161:
+Access name not found\n
+Description\Reason:\n
+- Signal %s:\n
+  The Access name %s\n
+  not found in EIO_USER_ACCESS.\n
+\t\n
+Check list:\n
+1. Define %s in EIO_USER_ACCESS\n
+   or change Access name.

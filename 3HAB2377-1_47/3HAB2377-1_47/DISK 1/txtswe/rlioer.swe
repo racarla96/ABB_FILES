@@ -1,0 +1,37 @@
+54::
+27:
+skrivskyddad
+28:
+ej giltig för digital skriv-operation
+29:
+ej giltig för analog skriv-operation
+30:
+ej giltig för digital läs-operation
+31:
+ej giltig för analog läs-operation
+42:
+ej giltig för en alias-operation
+43:
+Kunde inte komma åt
+44:
+tidshändelse-generatorn.
+46:
+Kan ej läsa I/O signal.\n
+
+47:
+Kan ej skriva till I/O signal.\n
+
+48:
+Konfigurationsfel för I/O signal.\n
+
+49:
+Kontrollera konfiguration eller\n
+alias definition för I/O signalen.
+50:
+Kan ej läsa I/O signal\n
+%s på enhet %s.\n
+
+51:
+Kan ej skriva till I/O signal\n
+%s på enhet %s.\n
+

@@ -1,0 +1,104 @@
+22::
+1:
+Cadena enable abierta\n
+\n
+\t\n
+
+2:
+Parada emergencia\n
+\n
+\t\n
+
+3:
+Parada limite\n
+\n
+\t\n
+
+6:
+Parada Auto\n
+\n
+\t\n
+
+7:
+Parada manual\n
+\n
+\t\n
+
+8:
+Parada gral.\n
+\n
+\t\n
+
+9:
+Fallo en cadena Run\n
+Conflicto en estado de los dos canales\n
+\t\n
+Comprobar leds en carta sistema\n
+cuando luzca el led rojo ERR para\n
+situar el fallo
+20:
+Exceso tiempo cadena Run\n
+Lmte tiempo estado de los dos canales\n
+\n
+El reconocimiento del cambio de estado\n
+de las dos cadenas de run no se recibio\n
+dentro del tiempo previsto\n
+\t\n
+Comprobar leds en carta sistema cuando\n
+luzca el led rojo ERR para situar el\n
+fallo. Quiza deba volver a ordenar\n
+Motors On para encender el led ERR de\n
+nuevo. Ver switch temp. de trafo princ.
+21:
+Fallo llave y velocidad\n
+Conflicto entre señales de seleccion\n
+modo funcionamiento y señal velocidad\n
+\t\n
+
+22:
+Fallo de llave modo func\n
+Señales del selector de modo func. en\n
+conflicto (se indican varios modos\n
+o ningun modo)\n
+\t\n
+
+25:
+Tiempo exced. orden stop\n
+El stop ordenado se ha ejecutado\n
+como parada seguridad por no recibir\n
+confirmacion dentro del tiempo previsto\n
+\t\n
+
+26:
+Fallo estado Run control\n
+Conflicto entre estado de cadena reles\n
+de run y el control run\n
+\t\n
+Cambiar carta de sistema
+40:
+Hold stop\n
+\n
+\t\n
+
+41:
+Sobrecarga motores 1-6\n
+Uno o mas motores sobrecalentados.\n
+Asegurarse que los motores se enfrian\n
+antes de ordenar Motors On. Sino, este\n
+mensaje se repetira a los 15 seg.\n
+de tener Motores On.\n
+\t\n
+Mirar carta seguridades en ventana ES y\n
+esperar que la señal OLM1 sea 0 antes de\n
+ordenar otra vez Motors On
+42:
+Sobrecarga motores 7-x\n
+Uno o mas motores sobrecalentados.\n
+Asegurarse que los motores se enfrian\n
+antes de ordenar Motors On. Sino, este\n
+mensaje se repetira a los 15 seg.\n
+de tener Motores On.\n
+\t\n
+Mirar carta seguridades en ventana ES y\n
+esperar que la señal OLM7 sea 0 antes\n
+de ordenar otra vez Motors On.

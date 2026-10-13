@@ -1,0 +1,735 @@
+
+
+64::
+0:
+Soldadura Arco
+1:
+Supervision gas\n
+\n
+\t\n
+Comprobar equipo de soldadura
+2:
+Supervision agua\n
+\n
+\t\n
+Comprobar equipo de soldadura
+3:
+Supervision arco\n
+\n
+\t\n
+Comprobar equipo de soldadura
+4:
+Supervision tension\n
+\n
+\t\n
+Comprobar equipo de soldadura
+5:
+Supervision corriente\n
+\n
+\t\n
+Comprobar equipo de soldadura
+6:
+Supervision arrastre hilo\n
+\n
+\t\n
+Comprobar equipo de soldadura
+7:
+Supervision pegado hilo\n
+\n
+\t\n
+Comprobar equipo de soldadura
+8:
+Fallo ignicion arco\n
+\n
+\t\n
+Comprobar equipo de soldadura
+9:
+Error transfer schedule\n
+\n
+\t\n
+Definir entrada strobe prog.soldadura
+10:
+Error transfer schedule\n
+\n
+\t\n
+El port de prog.sold. estaba ocupado por\n
+una transferencia anterior
+11:
+Proceso parado\n
+\n
+\t\n
+Proceso parado por entrada digital
+12:
+Fallo ignicion relleno\n
+\n
+\t\n
+Comprobar equipo de soldadura
+13:
+Supervision antorcha\n
+\n
+\t\n
+Comprobar equipo de soldadura
+1000:
+Error patron oscilacion\n
+Error tipo interpolacion de oscilacion\n
+(Geometrica = 0, Rapida = 1)\n
+\t\n
+Ajustar parametros de oscilacion
+1001:
+Error patron oscilacion\n
+Error perfil patron de oscilacion\n
+(Sin perfil = 0, Perfil Zig-Zag = 1)\n
+(Perfil V = 2, Perfil triangular = 3)\n
+\t\n
+Ajustar parametros de oscilacion
+1002:
+Error patron oscilacion\n
+Error longitud ciclo de oscilacion\n
+(0 - 1) [m]\n
+\t\n
+Ajustar parametros de oscilacion
+1003:
+Error patron oscilacion\n
+Error tiempo ciclo de oscilacion\n
+(0 - 100) [s]\n
+\t\n
+Ajustar parametros de oscilacion
+1004:
+Error patron oscilacion\n
+Error anchura patron de oscilacion\n
+(0 - 1) [m]\n
+\t\n
+Ajustar parametros de oscilacion
+1005:
+Error patron oscilacion\n
+Error altura patron de oscilacion\n
+(0 - 1) [m]\n
+\t\n
+Ajustar parametros de oscilacion
+1006:
+Error patron oscilacion\n
+Error pausa izq. patron de oscilacion\n
+(0 - 1) [m]\n
+\t\n
+Ajustar parametros de oscilacion
+1007:
+Error patron oscilacion\n
+Error pausa centro patron de oscilacion\n
+(0 - 1) [m]\n
+\t\n
+Ajustar parametros de oscilacion
+1008:
+Error patron oscilacion\n
+Error pausa der. patron de oscilacion\n
+(0 - 1) [m]\n
+\t\n
+Ajustar parametros de oscilacion
+1009:
+Error patron oscilacion\n
+Error bias patron de oscilacion\n
+(-1 - 1) [m]\n
+\t\n
+Ajustar parametros de oscilacion
+1010:
+Error patron oscilacion\n
+Error angulo direc. patron de oscilacion\n
+(-PI/2 - PI/2) [rad]\n
+\t\n
+Ajustar parametros de oscilacion
+1011:
+Error patron oscilacion\n
+Error ang.inclinacion patron de oscil.\n
+(-PI/2 - PI/2) [rad]\n
+\t\n
+Ajustar parametros de oscilacion
+1012:
+Error patron oscilacion\n
+Error ang.rotacion patron de oscil.\n
+(-PI/2 - PI/2) [rad]\n
+\t\n
+Ajustar parametros de oscilacion
+1013:
+Error patron oscilacion\n
+Error offset horiz. patron de oscil.\n
+(-1 - 1) [m]\n
+\t\n
+Ajustar parametros de oscilacion
+1014:
+Error patron oscilacion\n
+Error offset vert. patron de oscil.\n
+(-1 - 1) [m]\n
+\t\n
+Ajustar parametros de oscilacion
+1015:
+Error patron oscilacion\n
+Error condicion sinc. izq. patron oscil.\n
+(1 - 100) [%]\n
+\t\n
+Ajustar parametros de oscilacion
+1016:
+Error patron oscilacion\n
+Error condicion sinc. der. patron oscil.\n
+(1 - 100) [%]\n
+\t\n
+Ajustar parametros de oscilacion
+1017:
+Error patron oscilacion\n
+Combinacion prohibida bias-perfil\n
+Bias solo permitido con perfil Zig-Zag\n
+\t\n
+Ajustar parametros de oscilacion
+1018:
+Error patron oscilacion\n
+Combinacion prohibida bias-anchura\n
+Bias debe ser menor que mitad anchura\n
+\t\n
+Ajustar parametros de oscilacion
+1019:
+Error patron oscilacion\n
+Combinacion prohibida long. pausa y\n
+longitud de ciclo\n
+Pausa debe ser menor longitud de ciclo\n
+Pendiente rampa (ampl./long.) limitada\n
+\t\n
+Ajustar parametros de oscilacion
+3000:
+Error config. equipo\n
+\n
+\t\n
+Configuracion AW y EIO no coinciden
+4000:
+Error weldguide\n
+\n
+\t\n
+Comprobar parametros weldguide\n
+y el equipo
+5000:
+Error config. seamless\n
+Parametro desconocido en\n
+unidad de potencia\n
+\t\n
+Comprobar archivo de configuracion\n
+seamless
+5001:
+Error config. seamless\n
+Usada unit_id invalida\n
+\t\n
+Comprobar archivo de configuracion\n
+seamless
+5002:
+Error config. seamless\n
+Usada longitud de transmision\n
+invalida\n
+\t\n
+Comprobar archivo de configuracion\n
+seamless
+5003:
+Error config. seamless\n
+Usado selection_id invalido\n
+\t\n
+Comprobar archivo de configuracion\n
+seamless
+5004:
+Error config. seamless\n
+Sistemas seamless con unidades\n
+distintas\n
+\t\n
+Comprobar archivo de configuracion\n
+seamless
+5005:
+Error config. seamless\n
+No se usa ninguna unidad\n
+\t\n
+Comprobar archivo de configuracion\n
+seamless
+5006:
+Error config. seamless\n
+Demasiados parametros de ajuste\n
+\t\n
+Comprobar archivo de configuracion\n
+seamless
+6000:
+Error de track\n
+\n
+\t\n
+Comprobar definicion de junta
+6001:
+Error de inicio track\n
+\n
+\t\n
+Comprobar definicion de junta
+6002:
+Error de corr. max track\n
+\n
+\t\n
+Comprobar definicion de junta
+7001:
+Error equipo soldadura\n
+Error EPROM checksum en unidad control\n
+soldadura, detectado al dar tension.\n
+\t\n
+La EPROM en unidad de control soldadura\n
+esta dañada. Ejecutar con este error\n
+puede producir resultados impredecibles.\n
+Cambiar la EPROM.
+7002:
+Error equipo soldadura\n
+Error lectura/escritura en RAM interna\n
+de unidad de control soldadura,\n
+detectado al dar tension.\n
+\t\n
+Como minimo una celda de memoria en la\n
+memora interna del microprocesador fallo\n
+en el test lectura/escritura. Ejecutar\n
+puede producir resultados impredecibles.\n
+Cambiar unidad de control de soldadura.
+7003:
+Error equipo soldadura\n
+Error lectura/escritura en RAM externa\n
+de unidad de control soldadura,\n
+detectado al dar tension.\n
+\t\n
+Como minimo una celda de memoria en la\n
+memora externa del microprocesador fallo\n
+en el test lectura/escritura. Ejecutar\n
+puede producir resultados impredecibles.\n
+Cambiar unidad de control de soldadura.
+7004:
+Error equipo soldadura\n
+Voltaje alimentacion DC para regulador\n
+de 5V en unidad de control de soldadura\n
+ha fallado.\n
+\t\n
+Indica que hay un problema en la alimen-\n
+tacion de tension, pero la funcionalidad\n
+no esta afectada. Comprobar la entrada\n
+de tension de alimentacion a la unidad\n
+de control de soldadura.
+7012:
+Error equipo soldadura\n
+Bus interno de controlador CAN de unidad\n
+de control de soldadura esta en estado\n
+WARNING.\n
+\t\n
+Cambiar datos varias veces o inicializar\n
+equipo de soldadura con el interruptor\n
+principal. Si el error no desaparece,\n
+comprobar conexiones del bus y/o cambiar\n
+la unidad de control de soldadura.
+7013:
+Error equipo soldadura\n
+Bus externo de controlador CAN de unidad\n
+de control de soldadura esta en estado\n
+WARNING.\n
+\t\n
+Cambiar datos varias veces o inicializar\n
+equipo de soldadura con el interruptor\n
+principal. Si el error no desaparece,\n
+comprobar conexiones del bus y/o cambiar\n
+la unidad de control de soldadura.
+7014:
+Error equipo soldadura\n
+Bus interno de controlador CAN de unidad\n
+de control de soldadura esta en estado\n
+BUS-OFF.\n
+\t\n
+Inicializar equipo de soldadura con el\n
+interruptor principal. Si el error no\n
+desaparece, comprobar conexiones del bus\n
+y/o cambiar la unidad de control de\n
+soldadura.
+7015:
+Error equipo soldadura\n
+Unidad de control de soldadura ha\n
+detectado que se ha perdido un mensaje\n
+CAN interno recibido\n
+(sobreescrito por un mensaje posterior).\n
+\t\n
+Inicializar equipo de soldadura con el\n
+interruptor principal.
+7016:
+Error equipo soldadura\n
+Unidad de control de soldadura ha\n
+detectado que se ha perdido un mensaje\n
+CAN externo recibido\n
+(sobreescrito por un mensaje posterior).\n
+\t\n
+Inicializar equipo de soldadura con el\n
+interruptor principal.
+7017:
+Error equipo soldadura\n
+Unidad de control de soldadura ha\n
+perdido contacto con unidad de arrastre\n
+de hilo.\n
+\t\n
+Comprobar cable de conexion entre unidad\n
+de control y tarjeta de control de\n
+unidad de arrastre de hilo, comprobar\n
+alimentacion de potencia de tarjeta de\n
+control de unidad de arrastre.
+7018:
+Error equipo soldadura\n
+Unidad de control de soldadura ha\n
+perdido contacto con unidad Olivia.\n
+\t\n
+Comprobar cable de conexion entre unidad\n
+de control y unidad Olivia, comprobar\n
+alimentacion de potencia a unidad Olivia
+7019:
+Error equipo soldadura\n
+Fallo de datos en RAM no volatil,\n
+detectado en unidad de control de\n
+soldadura al dar tension. Error checksum\n
+\t\n
+Causada probablemente por tension de\n
+bateria backup baja. Equipo de soldadura\n
+se reinicia a valores por defecto. Datos\n
+en unidad control soldadura se perderan.\n
+Es posible trabajar sin limitaciones.
+7020:
+Error equipo soldadura\n
+Fallo de datos en RAM no volatil,\n
+detectado en unidad de control de\n
+soldadura al dar tension. Parametro no\n
+numerico situado fuera de rango.\n
+\t\n
+Causada probablemente por tension de\n
+bateria backup baja. Equipo de soldadura\n
+se reinicia a valores por defecto. Datos\n
+en unidad control soldadura se perderan.\n
+Es posible trabajar sin limitaciones.
+7021:
+Error equipo soldadura\n
+Combinacion de valores de parametros no\n
+numericos detectado en unidad de control\n
+de soldadura al dar tension.\n
+\t\n
+Equipo de soldadura reinicia a valores\n
+por defecto. Datos en unidad de control\n
+soldadura se pierden. Inicializar equipo\n
+de soldadura con interruptor principal.\n
+
+7022:
+Error equipo soldadura\n
+Sobrepasamiento de buffer de transmision\n
+del bus CAN (externo) en unidad de\n
+control de soldadura.\n
+\t\n
+Unidad de control de soldadura no puede\n
+transmitir datos al ritmo requerido. El\n
+bus puede estar excepcionalmente ocupado\n
+Reiniciar el equipo de soldadura con el\n
+interruptor principal.
+7023:
+Error equipo soldadura\n
+Sobrepasamiento de buffer de recepcion\n
+del bus CAN (externo) en unidad de\n
+control de soldadura.\n
+\t\n
+Unidad de control de soldadura no puede\n
+procesar datos recibidos al ritmo\n
+requerido. Reiniciar el equipo de\n
+soldadura con el interruptor principal.
+7024:
+Error equipo soldadura\n
+Fragmentos fuera de orden al recibir un\n
+mensaje fragmentado la unidad de control\n
+de soldadura.\n
+\n
+\t\n
+Las partes de un mensaje fragmentado no\n
+se recibieron en orden correcto. Una\n
+transmision de un bloque de datos de\n
+soldadura es erroneo. Reiniciar equipo\n
+de soldadura con interruptor principal.
+7025:
+Error equipo soldadura\n
+Formato de bloque de datos soldadura in-\n
+compatible. La unidad control soldadura\n
+ha recibido datos guardados con otra\n
+version de programa con otra version de\n
+programa.\n
+\t\n
+Encontrar los datos con la version\n
+correcta o entrar datos de nuevo.
+7026:
+Error equipo soldadura\n
+Error de ejecucion de programa.\n
+Activado el "Watch dog" de la unidad de\n
+control de soldadura.\n
+\t\n
+Inicializar equipo de soldadura con el\n
+interruptor principal.
+7027:
+Error equipo soldadura\n
+Error de unidad de control de soldadura\n
+no documentado.\n
+\t\n
+Pedir informacion adicional de ESAB/ABB.
+7028:
+Error equipo soldadura\n
+Error de unidad de control de soldadura\n
+no documentado.\n
+\t\n
+Pedir informacion adicional de ESAB/ABB.
+7029:
+Error equipo soldadura\n
+Error de unidad de control de soldadura\n
+no documentado.\n
+\t\n
+Pedir informacion adicional de ESAB/ABB.
+7201:
+Error equipo soldadura\n
+Error de checksum en EPROM de unidad de\n
+control de potencia.\n
+\t\n
+La EPROM de la unidad de control de\n
+potencia esta dañada. Ejecutar con este\n
+error puede producir resultados\n
+impredecibles. Cambiar la EPROM.
+7202:
+Error equipo soldadura.\n
+Error lectura/escritura en RAM interna\n
+de unidad de control de potencia,\n
+detectado al dar tension.\n
+\t\n
+Como minimo una celda de memoria en la\n
+memora interna del microprocesador fallo\n
+en el test lectura/escritura. Ejecutar\n
+puede producir resultados impredecibles.\n
+Cambiar la unidad de control potencia.
+7204:
+Error equipo soldadura\n
+Voltaje alimentacion DC para regulador\n
+de 5V en unidad de potencia soldadura\n
+ha fallado.\n
+\t\n
+Indica que hay un problema en la alimen-\n
+tacion de tension, pero la funcionalidad\n
+no esta afectada. Comprobar la entrada\n
+de tension de alimentacion a la unidad\n
+de potencia de soldadura.
+7205:
+Error equipo soldadura\n
+Tension alta en bus inversor. El equipo\n
+desconectara el inversor hasta que la\n
+tension baje a un nivel normal.\n
+\t\n
+Puede estar causado por impedancia alta\n
+en alimentacion, transitorios. Se puede\n
+reiniciar soldadura tan pronto la\n
+tension este por debajo del limite.
+7206:
+Error equipo soldadura\n
+Temperatura alta en disipador de unidad\n
+de potencia. El inversor se desconectara\n
+hasta que el termostato se cierre de\n
+nuevo.\n
+\t\n
+Asegurarse de que no hay obstaculos que\n
+reduzcan el flujo de aire que pasa a\n
+traves del disipador de la unidad de\n
+potencia. Esperar hasta que termostato\n
+se cierre.
+7207:
+Error equipo soldadura\n
+Corriente alta en circuito inversor.\n
+Puede estar causado por un componente\n
+dañado.\n
+\t\n
+Reiniciar equipo con el interruptor\n
+principal. Comprobar que la unidad de\n
+potencia no consuma demasiada corriente\n
+sin una orden start, Si es asi, hay un\n
+fallo de algun componente.
+7208:
+Error equipo soldadura\n
+Tension de alimentacion de 15VC para\n
+cartas en unidad de control de potencia\n
+es demasiado baja o alta.\n
+\t\n
+Cambiar unidad de control de potencia.
+7209:
+Error equipo soldadura\n
+Tension de alimentacion de -15V para\n
+cartas en unidad de control de potencia\n
+es demasiado baja o alta.\n
+\t\n
+Cambiar unidad de control de potencia.
+7210:
+Error equipo soldadura\n
+Tension de alimentacion de 15VB para\n
+cartas en unidad de control de potencia\n
+es demasiado baja o alta.\n
+\t\n
+Cambiar unidad de control de potencia.
+7211:
+Error equipo soldadura\n
+Diferencia entre corriente de soldadura\n
+ordenada y actual durante largo tiempo.\n
+\t\n
+Hay un problema hardware en el servo\n
+(carta de control de potencia o bloque\n
+inversor) o condiciones de carga\n
+anormales (= mala soldadura)
+7212:
+Error equipo soldadura.\n
+Fallo interno de comunicacion. Circuitos\n
+CAN de unidad de potencia de soldadura\n
+esta en estado WARNING.\n
+\t\n
+Cambiar datos varias veces o inicializar\n
+equipo de soldadura con el interruptor\n
+principal. Si el error no desaparece,\n
+comprobar conexiones del bus y/o cambiar\n
+la unidad de potencia de soldadura.
+7215:
+Error equipo soldadura\n
+Unidad de control de potencia ha\n
+detectado que se ha perdido un mensaje\n
+CAN interno recibido\n
+(sobreescrito por un mensaje posterior).\n
+\t\n
+Inicializar equipo de soldadura con el\n
+interruptor principal.
+7226:
+Error equipo soldadura\n
+Error de ejecucion de programa.\n
+Activado el "Watch dog" de la unidad de\n
+control de potencia.\n
+\t\n
+Inicializar equipo de soldadura con el\n
+interruptor principal.
+7227:
+Error equipo soldadura\n
+Error de unidad de control de potencia\n
+no documentado.\n
+\t\n
+Pedir informacion adicional de ESAB/ABB.
+7228:
+Error equipo soldadura\n
+Error de unidad de control de potencia\n
+no documentado.\n
+\t\n
+Pedir informacion adicional de ESAB/ABB.
+7229:
+Error equipo soldadura\n
+Error de unidad de control de potencia\n
+no documentado.\n
+\t\n
+Pedir informacion adicional de ESAB/ABB.
+7301:
+Error equipo soldadura\n
+Error EPROM checksum en unidad arrastre\n
+de hilo, detectado al dar tension.\n
+\t\n
+La EPROM en unidad de arrastre de hilo\n
+esta dañada. Ejecutar con este error\n
+puede producir resultados impredecibles.\n
+Cambiar la EPROM.
+7302:
+Error equipo soldadura\n
+Error lectura/escritura en RAM interna\n
+de unidad de arrastre de hilo,\n
+detectado al dar tension.\n
+\t\n
+Como minimo una celda de memoria en la\n
+memora interna del microprocesador fallo\n
+en el test lectura/escritura. Ejecutar\n
+puede producir resultados impredecibles.\n
+Cambiar unidad de arrastre de hilo.
+7304:
+Error equipo soldadura\n
+Voltaje alimentacion DC para regulador\n
+de 5V en unidad de arrastre de hilo\n
+ha fallado.\n
+\t\n
+Indica que hay un problema en la alimen-\n
+tacion de tension, pero la funcionalidad\n
+no esta afectada. Comprobar la entrada\n
+de tension de alimentacion a la unidad\n
+de arrastre de hilo.
+7308:
+Error equipo soldadura\n
+Tension de alimentacion de 15V para\n
+cartas en unidad de arrastre de hilo\n
+es demasiado baja o alta.\n
+\t\n
+Cambiar unidad de arrastre de hilo.
+7309:
+Error equipo soldadura\n
+Tension de alimentacion de 24V para\n
+cartas en unidad de arrastre de hilo\n
+es demasiado baja o alta.\n
+\t\n
+Cambiar unidad de arrastre de hilo.
+7311:
+Error equipo soldadura\n
+Diferencia entre velocidad de hilo\n
+ordenada y actual durante largo tiempo.\n
+\t\n
+Hay un problema hardware en el servo\n
+sistema de arrastre de hilo o caida de\n
+tension en el suministro de 42V AC.
+7312:
+Error equipo soldadura\n
+Fallo interno de comunicacion. Circuitos\n
+CAN de unidad de arrastre de hilo estan\n
+en estado WARNING.\n
+\t\n
+Cambiar datos varias veces o inicializar\n
+equipo de soldadura con el interruptor\n
+principal. Si el error no desaparece,\n
+comprobar conexiones del bus y/o cambiar\n
+la unidad de arrastre de hilo.
+7315:
+Error equipo soldadura\n
+Unidad de arrastre de hilo ha detectado\n
+que se ha perdido un mensaje CAN interno\n
+recibido\n
+(sobreescrito por un mensaje posterior).\n
+\t\n
+Inicializar equipo de soldadura con el\n
+interruptor principal.
+7326:
+Error equipo soldadura\n
+Error de ejecucion de programa.\n
+Activado el "Watch dog" de la unidad de\n
+arrastre de hilo.\n
+\t\n
+Inicializar equipo de soldadura con el\n
+interruptor principal.
+7327:
+Error equipo soldadura\n
+Error de unidad de arrastre de hilo\n
+no documentado.\n
+\t\n
+Pedir informacion adicional de ESAB/ABB.
+7328:
+Error equipo soldadura\n
+Error de unidad de arrastre de hilo\n
+no documentado.\n
+\t\n
+Pedir informacion adicional de ESAB/ABB.
+7329:
+Error equipo soldadura\n
+Error de unidad de arrastre de hilo\n
+no documentado.\n
+\t\n
+Pedir informacion adicional de ESAB/ABB.
+7500:
+Error apertura archivo\n
+Nombre de archivo desconocido\n
+\t\n
+
+8000:
+Fallo com CAN externo\n
+Demasiadas peticiones sin respuesta.\n
+\t\n
+Comprobar configuracion de comunicacion.
+9000:
+Installation error\n
+External axes are not allowed in this\n
+type of robot configuration\n
+\t\n
+Remove mechanical units

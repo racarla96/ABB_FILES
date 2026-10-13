@@ -1,0 +1,918 @@
+27::
+0:
+I/O & Comunicazione
+1000:
+Nome bus non valido\n
+Descriz.\Motivo:\n
+- Driver %s: nome bus non valido\n
+\t\n
+Elenco verifiche:\n
+1. Modificare nome bus per tipo unita'
+1001:
+Indirizzo duplicato\n
+Descriz.\Motivo:\n
+- Stesso indirizzo per unita' %s e %s\n
+\t\n
+Elenco verifiche:\n
+1. Verificare l'indirizzo\n
+2. Verificare il bus
+1002:
+Tipo unita' non valido\n
+Descriz.\Motivo:\n
+- unita' %s: non specificato\n
+  nome tipo unita': %s.\n
+\t\n
+Elenco verifiche:\n
+1. Verificare tipo unita' con\n
+   quello specificato per l'unita'
+1003:
+Unita' non valida\n
+Descriz.\Motivo:\n
+- L'unita' specif. per il segnale %s\n
+  non e' dichiarata nella sez. unita'\n
+\t\n
+Elenco verifiche:\n
+1. Modificare il nome dell'unita'\n
+2. Aggiungere una nuova unita'.
+1004:
+Lungh. segn. non valida\n
+Descriz.\Motivo:\n
+- La lungh. del segnale digitale\n
+  %s deve essere 1\n
+\t\n
+Elenco verifiche:\n
+1. Modif. la lungh. ad 1 o cancel.\n
+   l'istruzione.
+1005:
+Tempo filtro non valido\n
+Descriz.\Motivo:\n
+- Segnale %s: tempo filtro passivo\n
+  deve essere 0 oppure %d - %d ms\n
+\t\n
+Elenco verifiche:\n
+1. Modificare il tempo del filtro
+1006:
+Tempo filtro non valido\n
+Descriz.\Motivo:\n
+- Segnale %s: tempo filtro passivo\n
+  deve essere 0 oppure %d - %d ms\n
+\t\n
+Elenco verifiche:\n
+1. Modificare il tempo del filtro
+1007:
+Val. logico fuori lim.\n
+Descriz.\Motivo:\n
+- Segnale %s: il val logico max\n
+  minore o uguale al val logico min\n
+\t\n
+Elenco verifiche:\n
+1. Correggere i valori in modo che\n
+   il valore max sia maggiore del min.
+1008:
+Val. fisico fuori lim.\n
+Descriz.\Motivo:\n
+- Segnale %s: il val fisico max\n
+  minore o uguale al val fisico min\n
+\t\n
+Elenco verifiche:\n
+1. Correggere i valori in modo che il\n
+   valore max sia maggiore del min.
+1009:
+Tipo non valido\n
+Descriz.\Motivo:\n
+- Segnale %s: il tipo del segnale\n
+  non e' valido\n
+\t\n
+Elenco verifiche:\n
+1. Modificare il tipo
+1010:
+Segnale fuori limite\n
+Descriz.\Motivo:\n
+- Segnale %s: numero segnale fisico\n
+  + lunghezza -1 non puo' superare\n
+  numero segnale fis. max per l'unita'.\n
+  Valore max = %d\n
+\t\n
+Elenco verifiche:\n
+1. Modificare numero segnale fisico\n
+2. Modificare la lunghezza
+1015:
+Overflow input digitale\n
+Descriz.\Motivo:\n
+- Numero di input digitali per\n
+  scheda %s  maggiore di %d\n
+\t\n
+Elenco verifiche:\n
+1. Ridurre il numero di input digitali
+1016:
+Overflow output digitale\n
+Descriz.\Motivo:\n
+- Numero di output digitali per\n
+  scheda %s  maggiore\n
+  di %d\n
+\t\n
+Elenco verifiche:\n
+1. Ridurre il numero di output digitali
+1017:
+Nessun segnale attivato\n
+Descriz.\Motivo:\n
+- Manca segn. attivazione connessioni\n
+  incrociate\n
+\t\n
+Elenco verifiche:\n
+1. Deve essere dato un segnale attivaz.
+1018:
+Overflow segn. attivaz.\n
+Descriz.\Motivo:\n
+- Numero segnali attivati per conn.\n
+  incrociate troppo alto\n
+\t\n
+Elenco verifiche:\n
+1. E' necessario un solo\n
+   segnale attivaz.
+1019:
+Manca definiz. segnale\n
+Descriz.\Motivo:\n
+- Segnale: %s, manca definiz. incroc.\n
+\t\n
+Elenco verifiche:\n
+1. Definire il nome del segnale\n
+   nella sezione segnale
+1020:
+Nessun Segnale\n
+Descriz.\Motivo:\n
+- Manca lettura segnale\n
+\t\n
+Elenco verifiche:\n
+1. Almeno un segnale risult. deve\n
+   essere letto.
+1021:
+Duplicaz. segn. incroc.\n
+Descriz.\Motivo:\n
+- Il segnale: %s, appare sia nella\n
+  parte DA che nella parte A\n
+\t\n
+Elenco verifiche:\n
+1. Non puo' essere utilizzato\n
+   lo stesso segnale
+1022:
+Valore fis. max alto\n
+Descriz.\Motivo:\n
+- Segnale: %s\n
+- Il valore fisico max > %.3f\n
+\t\n
+Elenco verifiche:\n
+1. Modificare valore in fase di\n
+   configurazione
+1023:
+Valore fis. min basso\n
+Descriz.\Motivo:\n
+- Segnale: %s\n
+- Il valore fisico min < %.3f\n
+\t\n
+Elenco verifiche:\n
+1. Modificare valore in fase di\n
+   configurazione
+1024:
+Valore fis. troppo alto\n
+Descriz.\Motivo:\n
+- Segnale: %s\n
+- Valore attuale = %d > Val. max = %d\n
+- Valore impostato a Valore max\n
+\t\n
+Elenco verifiche:\n
+1. Modif. il valore fisico max\n
+   in fase di configurazione
+1025:
+Val. fis. troppo basso\n
+Descriz.\Motivo:\n
+- Segnale: %s\n
+- Valore attuale = %d < Val. min = %d\n
+- Valore impostato a Valore min\n
+\t\n
+Elenco verifiche:\n
+1. Modif. il valore fisico min\n
+   in fase di configurazione
+1026:
+Valore log. troppo alto\n
+Descriz.\Motivo:\n
+- Segnale: %s\n
+- Valore attuale = %d > Val. max = %d\n
+- Valore impostato a Valore max\n
+\t\n
+Elenco verifiche:\n
+1. Modif. il valore logico max\n
+   in fase di configurazione
+1027:
+Val. log. troppo basso\n
+Descriz.\Motivo:\n
+- Segnale: %s\n
+- Valore attuale = %d < Val. min = %d\n
+- Valore impostato a Valore min\n
+\t\n
+Elenco verifiche:\n
+1. Modif. il valore logico min\n
+   in fase di configurazione
+1033:
+Input dig. fuori limite\n
+Descriz.\Motivo:\n
+- Il numero di input digitali\n
+  per la scheda %d e' maggiore del\n
+  limite imposto, numero max e' %d\n
+\t\n
+Elenco verifiche:\n
+1. Modificare configurazione della\n
+   scheda
+1034:
+Output dig. fuori limite\n
+Descriz.\Motivo:\n
+- Il numero di output digitali\n
+  per la scheda %d e' maggiore del\n
+  limite imposto, numero max e' %d\n
+\t\n
+Elenco verifiche:\n
+1. Modificare configurazione della\n
+   scheda
+1036:
+Nome troppo lungo\n
+Descriz.\Motivo:\n
+- Il numero di caratteri\n
+  del nome  %s\n
+  e' maggiore di %d caratteri\n
+  oppure manca il nome.\n
+\t\n
+Elenco verifiche:\n
+1. Dare nuovo nome\n
+   conforme ai limiti.
+1037:
+Errore IO connes. incr.\n
+Descriz.\Motivo:\n
+- Il segnale %s appare sia nella\n
+  parte DA che nella parte A\n
+\t\n
+Elenco verifiche:\n
+1. Correggere la configurazione per\n
+   le connessioni incrociate dove il\n
+   segnale e' collegato.
+1038:
+IO Cross complessa\n
+Descriz.\Motivo:\n
+- La connes. incr. per la stessa catena\n
+  e' troppo complessa\n
+- Nome primo segnale: %s\n
+\t\n
+Elenco verifiche:\n
+1. Semplificare connessioni incrociate.
+1041:
+Overflow output analog.\n
+Descriz.\Motivo:\n
+- Il nr di output analogici per la\n
+  scheda %s e' maggiore di %d.\n
+\t\n
+Elenco verifiche:\n
+1. Ridurre il nr di output analogici.
+1042:
+Overflow input analog.\n
+Descriz.\Motivo:\n
+- Il nr di input analogici per la\n
+  scheda %s e' maggiore di %d.\n
+\t\n
+Elenco verifiche:\n
+1. Ridurre il nr di input analogici.
+1043:
+Errore tipo segnale\n
+Descriz.\Motivo:\n
+- Impos. colleg. il tipo spec. per il\n
+  segn. %s con la scheda specif.\n
+\t\n
+Elenco verifiche:\n
+1. Modificare il tipo.\n
+2. Modificare la scheda.
+1044:
+Overflow segnale fisico\n
+Descriz.\Motivo:\n
+- Parametro del segnale %s\n
+  maggiore di %d\n
+\t\n
+Elenco verifiche:\n
+1. Modif. nr fisico del segnale\n
+2. Modif. lungh. segnale
+1045:
+Errore specif. filtro\n
+Descriz.\Motivo:\n
+- Segnale %s: impos. specif. tempo\n
+  di filtro per questo segnale\n
+\t\n
+Elenco verifiche:\n
+1. Azzerare tempo di filtro o cancellare\n
+   l'istruzione.
+1046:
+Errore scaling\n
+Descriz.\Motivo:\n
+- Segnale %s: Impos. eseg. scaling.\n
+\t\n
+Elenco verifiche:\n
+1. Cancellare istruzione scaling.
+1049:
+Errore Param. Invert\n
+Descriz.\Motivo:\n
+- Segnale %s: questo tipo di segnale\n
+  non puo' essere invertito.\n
+\t\n
+Elenco verifiche:\n
+1. Solo i segnali digitali si possono\n
+   invertire
+1050:
+Segnale non digitale\n
+Descriz.\Motivo:\n
+- Segnale %s: segnale non digitale\n
+\t\n
+Elenco verifiche:\n
+1. Solo segnali digitali possono\n
+   avere collegamenti incrociati
+1052:
+Tavola Incr. piena.\n
+Descriz.\Motivo:\n
+- La somma dei segnali differenti DA e\n
+  di tutti i segnali A deve essere\n
+  minore o uguale di %d\n
+\t\n
+Elenco verifiche:\n
+1. Ridurre il nr dei segnali.\n
+2. Aumentare il numero di connessioni\n
+   incrociate permesse.
+1053:
+Interrotto colleg. RIO\n
+Descriz.\Motivo:\n
+- Accesso non consentito alla scheda\n
+  causa interruz. comunicazione\n
+\t\n
+Elenco verifiche:\n
+1. Verificare il cavo di comunicazione\n
+   con la scheda\n
+2. Verificare se la scheda e' spenta
+1054:
+Tipo segnale errato\n
+Descriz.\Motivo:\n
+- Segnale %s:\n
+  Il tipo di segnale e' errato\n
+\t\n
+Elenco verifiche:\n
+1. Modificare il tipo
+1055:
+Nome segnale non valido\n
+Descriz.\Motivo:\n
+- Simbolo %s: non e' definito\n
+\t\n
+Elenco verifiche:\n
+1. Modificare il nome del simbolo
+1056:
+Errore alimentazione\n
+Descriz.\Motivo:\n
+- Il simbolo %s: non puo' essere\n
+  impostato per ripristinare l'errore.\n
+  La tabella per errori di alimentazione\n
+  e' completa.\n
+\t\n
+Lista di controllo:\n
+1. Aumentare le dimensioni della\n
+   tabella nel file di startup.\n
+2. Rimuovere altri segnali dalla lista\n
+   di ripristino.
+1058:
+No contatto con unita'I/O\n
+Descriz.\Motivo:\n
+- Nessun contatto con unita'I/O:\n
+  %s su bus : %s\n
+\n
+\t\n
+Elenco verifiche:\n
+1. Verificare indirizzi su tutte le\n
+   unita' I/O colleg. al bus\n
+2. Modificare indirizzi
+1059:
+Errore config. nodo Can\n
+Descriz.\Motivo:\n
+- Errore nella configurazione del\n
+  nodo Can collegato\n
+  all'indirizzo %\n
+\t\n
+Elenco verifiche:\n
+1. Correggere configurazione nodo\n
+   Can all'indirizzo specificato.
+1061:
+Errore I/O bus\n
+Descriz.\Motivo:\n
+- Individuati errori sul bus\n
+  %s\n
+\t\n
+Elenco verifiche:\n
+1. Verificare bus\n
+2. Riavviare il sistema
+1072:
+Defin. segn. non salvata\n
+Descriz.\Motivo:\n
+- Segnale %s\n
+  non ha defin. l'attributo Mem con SI\n
+\t\n
+Elenco verifiche:\n
+1. Definire attributo Mem.
+1073:
+Errore bus I/O\n
+Descriz.\Motivo:\n
+- Identificati errori sul\n
+  %s Bus.\n
+  Il connettore per Est. CAN I/O\n
+  e' stato spento.\n
+\t\n
+Elenco verifiche:\n
+1. Verif. terminali bus\n
+2. Verif. event. corti circuiti I/O\n
+3. Riavviare il sistema.
+1074:
+Config. fuori limite\n
+Descriz.\Motivo:\n
+- Starting quarter IBS e rack size\n
+  fuori limite per la scheda %s\n
+\t\n
+Elenco verifiche:\n
+1. La dimensione del rack deve essere\n
+   inferiore a 5
+1076:
+Errore comunicaz. rpt1\n
+Descriz.\Motivo:\n
+- Nessuna risposta da linea\n
+  seriale.\n
+\t\n
+Lista verifiche:\n
+1. Verificare collegamento.
+1077:
+Errore comunicaz. rpt1\n
+Descriz.\Motivo:\n
+- Impossibile trasferire messaggio\n
+  ricevuto.\n
+\t\n
+Elenco verifiche:\n
+1. Verificare flusso comunicazione.
+1078:
+Errore comunicaz. rpt1\n
+Descriz.\Motivo:\n
+- La risposta dal dispositivo\n
+  non ha una corretta sequenza\n
+\t\n
+Elenco verifiche:\n
+1. Verificare disturbo su linea\n
+   seriale.
+1079:
+Impulso gruppo uscite\n
+Descriz.\Motivo:\n
+- Impulso gruppo uscite non consentite\n
+\t\n
+Elenco verifiche:\n
+1. ---
+1080:
+Tab. tipo unita' completa\n
+Descriz.\Motivo:\n
+- Il numero dei tipi unita'\n
+  non deve eccedere %d\n
+\t\n
+Elenco verifiche:\n
+1. Ridurre il numero dei tipi unita'.\n
+2. Aumentare il numero di tipi\n
+   consentiti.
+1081:
+Tabella fisica piena\n
+Descriz.\Motivo:\n
+- Il numero di segnali fisici non\n
+  deve superare %d\n
+\t\n
+Elenco verifiche:\n
+1. Ridurre il numero di segnali fisici\n
+2. Aumentare il numero di phs consentiti
+1082:
+Tabella segnali piena.\n
+Descriz.\Motivo:\n
+- Il numero di segnali definiti piu'\n
+  i segnali pannello non deve\n
+  superare %d\n
+\t\n
+Elenco verifiche:\n
+1. Ridurre il numero dei segnali.\n
+2. Aumentare il numero dei segnali\n
+   consentiti.
+1083:
+Tabella simboli piena.\n
+Descrizione\Motivo:\n
+- Il numero dei simboli non\n
+  deve superare %d\n
+\t\n
+Elenco verifiche:\n
+1. Ridurre il numero dei segnali.\n
+2. Aumentare il numero dei segnali\n
+   consentiti.
+1084:
+Tabella Triggr piena.\n
+Descrizione\Motivo:\n
+- Il numero dei segnali Subcribed\n
+  non deve superare %d\n
+\t\n
+Elenco verifiche:\n
+1. Ridurre il numero dei segnali\n
+   Subcribed.\n
+2. Aumentare il numero di Subcribtions\n
+   consentiti.
+1085:
+Tabella unita' piena.\n
+Descrizione\Motivo:\n
+- Il numero di schede non\n
+  deve superare %d\n
+\t\n
+Elenco verifiche:\n
+1. Ridurre il numero di schede definite.\n
+2. Aumentare il numero di schede\n
+   consentite.
+1094:
+Troppe cross-actors def.\n
+Descrizione\Motivo:\n
+- Le connessioni incrociate hanno\n
+  troppi segnali "From" : %s\n
+\t\n
+Elenco verifiche:\n
+1. Verificare la configuraz. incroc.
+1095:
+Stringa cross-actor lunga\n
+Descrizione\Motivo:\n
+- La parte "From" nella stringa\n
+  e' troppo lunga: %s\n
+\t\n
+Elenco verifiche:\n
+1. Verificare la configuraz. incroc.
+1097:
+Errore memor. parametri\n
+Descrizione\Motivo:\n
+- Segnale %s: questo segnale non\n
+  puo' avere memorizz. opzionale.\n
+\t\n
+Elenco verifiche:\n
+1. Solo output digitali possono\n
+   essere memorizz.
+1098:
+Perdita NFS server\n
+Descrizione\Motivo:\n
+- Perdita del contatto con NFS\n
+  server '%s'.\n
+\t\n
+Elenco verifiche:\n
+1. Verificare NFS server.\n
+2. Verificare connessione in rete\n
+3. Verificare configurazione.
+1099:
+Anomalia NFS server\n
+Descrizione\Motivo:\n
+- Perdita del contatto con\n
+  NFS server '%s'.\n
+\t\n
+Elenco verifiche:\n
+1. Verificare NFS server.\n
+2. Verificare connessione in rete.\n
+3. Verificare la configurazione.
+1101:
+Nome bus sconosciuto.\n
+Descrizione\Motivo:\n
+- Scheda %s: Nome bus sconosciuto\n
+  %s\n
+\t\n
+Elenco verifiche:\n
+1. Modif. nome bus per la scheda\n
+   del tipo unita' config.
+1102:
+DeviceNet non compatibile\n
+Descrizione\Motivo:\n
+- Nodo %d:\n
+  Info intern\n
+  %s,%d\n
+  (%s)\n
+\t\n
+Elenco verifiche:\n
+1. Scollegare il nodo dal bus\n
+2. Contattare ABB.
+1103:
+Errore I/O Bus\n
+Descrizione\Motivo:\n
+- Individuati errori sul\n
+  %s bus.\n
+  Il connettore per Robot CAN I/O\n
+  e' stato spento.\n
+\t\n
+Elenco verifiche:\n
+1. Verif. terminali bus.\n
+2. Verif. event. corti circuiti I/O bus\n
+3. Riavviare il sistema.
+1104:
+Errore I/O Bus\n
+Descrizione\Motivo:\n
+- Identificati alcuni errori sul\n
+  %s Bus.\n
+I connettori per CAN I/O Esterno e\n
+CAN I/O Robot sono stati spenti.\n
+\t\n
+Elenco verifiche:\n
+1. Verificare terminali bus\n
+2. Verif. event. corti circ. I/O Bus.\n
+3. Riavviare il sistema.
+1113:
+Errore IBS comando utente\n
+Descrizione\Motivo:\n
+- Attenzione: %d\n
+\t\n
+Elenco verifiche:\n
+1. Verif. config. InterBus-S facendo\n
+   rifer. al codice sopra indicato
+1114:
+Indirizzo IP non corretto\n
+Descrizione\Motivo:\n
+'%s' non corretto per l'indirizzo\n
+IP\n
+\t\n
+Elenco verifiche:\n
+1. Verif. config. Comunicazione.
+1115:
+Subnet mask non corretta\n
+Descrizione\Motivo:\n
+'%s' subnet mask non corretto\n
+\t\n
+Elenco verifiche:\n
+1. Verif. config. Comunicazione
+1117:
+Controllo batteria res.\n
+Descrizione\Motivo:\n
+Capacità batteria = %d\n
+\t\n
+Elenco verifiche:
+1118:
+Controllo stato batteria\n
+Descrizione\Motivo:\n
+Stato della batteria non corretto.\n
+Lo stato è = %s\n
+\t\n
+Elenco verifiche:
+1119:
+Tabella unita'-IO piena.\n
+Descrizione\Motivo:\n
+- Numero massimo di unita'-IO\n
+  di tipo %s in eccesso.\n
+  Max = %d\n
+\t\n
+Elenco verifiche:\n
+1. Ridurre il numero di unita' IO
+1120:
+Opz. RAP non installata.\n
+Descrizione\Motivo:\n
+- L'opzione RAP deve essere installata\n
+  se si vuole configurare come tipo di\n
+  comunicaz. oppure per usare SCWrite.\n
+\t\n
+Elenco verifiche:\n
+1. Eseguire reboot per poter installare\n
+   l'opzione 'RAP Serial Link'.
+1121:
+Attiv. RAP non eseguita.\n
+Descrizione\Motivo:\n
+- Inizializzazione RAP non eseguita.\n
+\t\n
+Elenco verifiche:\n
+1. Controllare log interno per la\n
+   descrizione.
+1122:
+Indir. IP non corretto.\n
+Descrizione\Motivo:\n
+- L'indirizzo '%s'\n
+  nel protocollo '%s'\n
+  non e' l'indirizzo IP corretto.\n
+\t\n
+Elenco verifiche:\n
+1. Modificare indirizzo.
+1123:
+Errore trasm. prot.\n
+Descrizione\Motivo:\n
+Protocollo di trasm. '%s'\n
+per applicaz. protoc. '%s'\n
+non riconosciuto.\n
+\t\n
+Elenco verifiche:\n
+1. Modif. protocollo di trasmissione.
+1124:
+Prot. tras. NFS errato\n
+Descrizione\Motivo:\n
+Protocollo di trasmissione per\n
+protocollo NFS '%s' deve essere\n
+TCP/IP.\n
+\t\n
+Elenco verifiche:\n
+1. Modif. protocollo di trasmissione.
+1125:
+Mount Permission negato\n
+Descrizione\Motivo:\n
+'Permission' negato\n
+direttorio '%s'\n
+sul server '%s'.\n
+\t\n
+Elenco verifiche:\n
+1. Modificare User o Group ID.
+1126:
+Direttorio non abilitato\n
+Descrizione\Motivo:\n
+Direttorio 'mounting' '%s'\n
+come '%s' inadeguato finche' non è\n
+riconosciuto dal server '%s'.\n
+Protocollo: '%s'.\n
+\t\n
+Elenco verifiche:\n
+1. Spostare il direttorio sul\n
+   computer server.
+1127:
+ID non uguale\n
+Descrizione\Motivo:\n
+User e Group ID non hanno lo stesso\n
+valore per i dischi remotati.\n
+\t\n
+Elenco verifche:\n
+
+1128:
+Opz. Ethernet non inst.\n
+Descrizione\Motivo:\n
+- L'opzione Ethernet non e' stata\n
+  installata\n
+\t\n
+Elenco verifiche:\n
+1. Eseguire reboot ed installare\n
+   l'opzione Ethernet Services.
+1129:
+Troppi dischi remotati\n
+Descrizione\Motivo:\n
+Numero massimo di dischi remotati\n
+consentiti : '%d'.\n
+\t\n
+Elenco verifiche:\n
+1. Ridurre il numero di dischi\n
+   remotati.
+1130:
+Troppi server remotati\n
+Descrizione\Motivo:\n
+Il numero massimo di server per\n
+dischi remotati e' '%d'.\n
+\t\n
+Elenco verifiche:\n
+1. Ridurre numero di server
+1131:
+Errore direttorio 'mount'\n
+Descrizione\Motivo:\n
+Direttorio 'mount' '%s'\n
+sul computer '%s' negato.\n
+Protocollo: '%s'.\n
+\t\n
+Elenco verifche:\n
+1. Verif. setup server NFS
+1132:
+Contr. batteria in blocco\n
+Descrizione\Motivo:\n
+Controllo batteria in blocco a\n
+causa di un riavvio del sistema.\n
+Verra' riabilitato %s\n
+\t\n
+Elenco verifche:
+1133:
+Batteria scarica\n
+Descrizione\Motivo:\n
+Batteria scarica.\n
+\t\n
+Elenco verifiche:\n
+1. Verif. segnale 'Batteria Bassa'\n
+   collegato alla scheda DSQC347.\n
+2. Verif. colleg. batteria\n
+3. Controllare batteria.
+1137:
+Errore codice dall'unita'\n
+Descrizione\Motivo:\n
+Individuato il seguente errore:\n
+%s\n
+\t\n
+Elenco verifiche:\n
+1. Verif. config. param. unita'
+1139:
+Errore accesso da IO\n
+Descrizione\Motivo:\n
+- Errore comunicazione seriale;\n
+  Impos. Leggere o Scrivere segnale\n
+  %s\n
+\t\n
+Elenco verifiche:\n
+1. Verif. 'Nessun contatto con unita'\n
+   I/O'.
+1140:
+Errore param. 'act high'\n
+Descrizione\Motivo:\n
+- Segnale %s: questo tipo di segnale\n
+  non puo' essere attivato.\n
+\t\n
+Elenco verifiche:\n
+1. Solo i segnali in uscita possono\n
+   essere attivati.
+1141:
+Default fuori dai limiti\n
+Descrizione\Motivo:\n
+- Valore di default per\n
+        segnale %s fuori dai limiti\n
+\t\n
+Elenco verifche:\n
+1. Modif. valore di default nella\n
+   config.
+1142:
+Errore Param. Default\n
+Descrizione\Motivo:\n
+- Segnale %s: a questo tipo di segnale\n
+  non può essere assegnato un valore\n
+  di default\n
+\t\n
+Elenco verifiche:\n
+1. Solo ai segnali in uscita puo' essere\n
+        assegnato un valore di default.
+1143:
+CTS/RTS non consentito\n
+Descrizione\Motivo:\n
+- Canale seriale %s:\n
+  non puo' avere l'opzione RTS/CTS.\n
+\t\n
+Elenco verifiche:\n
+1. Eliminare l'opzione dalla config.
+1146:
+Errore asseganzione\n
+Descrizione/Motivo:\n
+- Il limite massimo e' inferiore al\n
+  limite minimo\n
+  limite max = %f  limite min = %f.\n
+\t\n
+Check list:\n
+1. Correggere e riprovare
+1153:
+Can't access parameter\n
+Description\Reason:\n
+- Unit %s has parameters\n
+  that can't be edited from\n
+  the teach pendant.\n
+\t\n
+Check list:\n
+1. Save the EIO configuration to\n
+   a file\n
+2. Use a text editor to change\n
+   the parameters
+1156:
+IPC queue full\n
+Description\Reason:\n
+- The ipc queue was full,\n
+  when sending to trap routine.\n
+  errno = %x\n
+\t\n
+Check list:\n
+1. Restart the system
+1157:
+Invalid app type\n
+Description\Reason:\n
+- Com Unit %s: has an unspecified\n
+  Com app type named: %s.\n
+\t\n
+Check list:\n
+1.Check the Com app type against\n
+  the one specified for the Com app
+1159:
+Signal Access illegal\n
+Description\Reason:\n
+- Signal %s:\n
+  The number of characters in\n
+  Access %s\n
+  is greater than %d or name missing.\n
+\t\n
+Check list:\n
+1. Give a new Access that fits within\n
+   the limits.
+1160:
+Access level illegal\n
+Description\Reason:\n
+- Signal %s:\n
+  Access level %s in\n
+  group %s is illegal.\n
+- Legal choices all/man/auto/none.\n
+\t\n
+Check list:\n
+1. Give a new access level for group\n
+   that fits.
+1161:
+Access name not found\n
+Description\Reason:\n
+- Signal %s:\n
+  The Access name %s\n
+  not found in EIO_USER_ACCESS.\n
+\t\n
+Check list:\n
+1. Define %s in EIO_USER_ACCESS\n
+   or change Access name.

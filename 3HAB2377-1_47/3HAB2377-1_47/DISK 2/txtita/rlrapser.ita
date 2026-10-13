@@ -1,0 +1,28 @@
+72::
+100:
+Il parametro %.16s\n
+non corrisponde a nessuno dei file di\n
+testo caricati.
+101:
+Verificare che il file di testo sia\n
+(correttamente) installato.
+102:
+Non c'e' un dato valido per il\n
+parametro %s in ingresso\n
+all'istruzione %s.
+103:
+Verificare che ci sia un dato valido.
+104:
+Il codice di errore utente SHELL-RAPID\n
+%.16s deve essere dichiarato\n
+come globale.
+105:
+Verificare la dichiarazione di errnum.
+106:
+La prenotazione di un nuovo codice di\n
+errore %.16s e' fallita.\n
+Il valore di inizializzazione deve\n
+essere -1 o uguale al vecchio codice.
+107:
+Verificare il valore di inizializzaz.\n
+della nuova variabile errnum.

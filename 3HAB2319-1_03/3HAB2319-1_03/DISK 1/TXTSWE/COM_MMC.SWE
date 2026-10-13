@@ -1,0 +1,98 @@
+80::
+0:
+Kommunikation
+1:
+Seriekanal
+2:
+Namn 
+3:
+Data hast
+4:
+Paritet
+5:
+Antal bitar
+6:
+Antal stoppbitar
+7:
+Protokoll
+8:
+Lokal adress (SLIP)
+9:
+Fjärradress (SLIP)
+10:
+7
+11:
+8
+12:
+1
+13:
+2
+14:
+SLIP
+15:
+XONXOFF
+16:
+Inget
+17:
+300
+18:
+600
+19:
+1200           
+20:
+2400
+21:
+4800
+22:
+9600
+23:
+19200
+24:
+38400
+25:
+ingen
+26:
+udda 
+27:
+jämn
+28:
+ignore
+29:
+Namn     Kanal       Datahast.
+30:
+Kanal
+31:
+Fysiska kanaler
+32:
+Transmissionsprotokoll
+33:
+Applikationsprotokoll
+34:
+Typ
+35:
+Fys.Kanal
+36:
+PortNr
+37:
+Namn        Typ         Kanal 
+38:
+Namn        Typ         Fys.kanal
+39:
+Namn        Typ         Trans Prot. 
+40:
+Trans Prot. 
+41:
+Tillåt SysEvent 
+42:
+SANN
+43:
+FALSK 
+44:
+App. Drivrutin
+45:
+App. Enhet
+46:
+Applikation Drivrutiner
+47:
+Namn   Trans   Drivrutin
+

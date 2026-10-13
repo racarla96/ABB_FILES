@@ -1,0 +1,51 @@
+55::
+46:
+Ne peut ouvrir
+47:
+CODE D'ERREUR:
+48:
+Non ouvert
+49:
+Fichier non ASCII
+50:
+Fichier non binaire
+51:
+Ne peut acceder au fichier
+52:
+Le parametre %s dans
+53:
+n'est pas un tableau.
+54:
+Le buffer de sortie doit etre un tableau\n
+de num
+55:
+a une valeur negative.
+56:
+Le parametre doit etre positif.
+57:
+Ne peut acceder le
+58:
+generateur d'evenement tempo.
+59:
+generateur d'evenement tempo signal.
+60:
+Un timeout a interrompu l'execution\n
+de
+61:
+Une entree logique a interrompu\n
+l'execution de
+65:
+Donnee recue pas de type numerique
+67:
+Chaine trop longue
+68:
+Trop de requetes de lecture en attente
+76:
+L'element de buffert %i dans
+77:
+est en dehors de 0-255.
+78:
+Tous les elements du buffer doivent etre\n
+dans la plage 0-255
+80:
+est en dehors du tableau.

@@ -1,0 +1,253 @@
+71::
+0:
+Arcweld
+1:
+Schweiß Einstell...
+2:
+Pendel Einstell...
+3:
+(Naht Einstell)
+4:
+(Track Einstell)
+5:
+Blockieren...
+6:
+Block
+7:
+Frei
+8:
+ Abbruch
+9:
+OK
+10:
+Schweißen Blockieren
+11:
+Zum Prozeß block., Block betätigen
+12:
+Zum Prozeß freigeb., Frei betätigen
+13:
+Block.
+14:
+Prozeß
+15:
+x
+16:
+
+17:
+Schweißen
+18:
+Pendeln
+19:
+Tracking
+20:
+Schweiß
+21:
+Pendeln
+22:
+Track
+23:
+Schweiß Einstellung
+24:
+Aktuellen Wert ändern
+25:
+Schweißdaten
+26:
+Einstell
+27:
+Aktuell
+28:
+Daten auswählen
+29:
+Urspr >
+30:
+Akt >
+31:
+-
+32:
++
+33:
+Zurück
+34:
+Pendel Einstellungen
+35:
+Pendeldaten
+36:
+Update
+37:
+Update ursprünglichen Wert
+38:
+Ursprung
+39:
+Einstell. Aktuell
+40:
+aw_inhibit
+41:
+schw_block
+42:
+pend_block
+43:
+track_block
+44:
+seamdata
+45:
+welddata
+46:
+weavedata
+47:
+Man. Drahtvorschub...
+48:
+Gas Ein/Aus...
+49:
+Man. Drahtvorschub
+50:
+Zum Vortransport -Vorw- betätigen
+51:
+Zum Rücktransport -Rückw- betätigen
+52:
+Der Drahtvorschub läuft, solange
+53:
+die Funktionstaste betätigt wird.
+54:
+Vorw
+55:
+Rückw
+56:
+(Frei)
+60:
+bool
+61:
+AW System wählen...
+62:
+System:
+63:
+Inkremente...
+64:
+AW Inkremente einstellen
+65:
+Spannung:
+66:
+Strecke:
+67:
+Drahtvorschub:
+68:
+AW Geschw.:
+69:
+AW System wählen
+70:
+curr_aw_data
+71:
+curr_system_nr
+72:
+curr_weld
+73:
+curr_weld_type
+74:
+curr_seam
+75:
+curr_seam_type
+76:
+curr_weave
+77:
+curr_weave_type
+78:
+string
+80:
+AW manuell Gas Ein/Aus
+81:
+Zur Aktivierung, Gas Ein betätigen
+82:
+Das Gas strömt, solange die
+83:
+Funktionstaste betätigt wird.
+84:
+Gas Ein
+86:
+ 
+87:
+awproc_id
+88:
+ipm_id
+89:
+user_data
+100:
+AW manuell Sensor Ein/Aus
+101:
+Aktivierung des Sensors mit -Ein-
+102:
+Deaktivierung des Sensors mit -Aus-
+103:
+Ein
+104:
+(Ein)
+105:
+Aus
+106:
+(Aus)
+107:
+Y:
+108:
+Z:
+109:
+Spalt:
+110:
+*****
+111:
+Sensor Koordinaten
+112:
+Achse:
+113:
+Sensor Fehler\n
+\n
+Kommunikation Fehler
+114:
+Sensor Fehler\n
+\n
+Allgemeiner Fehler
+115:
+Sensor Fehler\n
+\n
+Sensor beschäftigt
+116:
+Sensor Fehler\n
+\n
+Unbekannter Befehl
+117:
+Sensor Fehler\n
+\n
+Unzulässige Variabel
+118:
+Sensor Fehler\n
+\n
+Externer Alarm
+119:
+Sensor Fehler\n
+\n
+Kamera Fehler
+120:
+Sensor Fehler\n
+\n
+Temperatur Fehler
+121:
+Sensor Fehler\n
+\n
+Wert außerhalb Bereich
+122:
+Sensor Fehler\n
+\n
+Kamerakontrolle Fehler
+123:
+OK
+124:
+Sensor...
+125:
+(Sensor)
+126:
+Robot Koordinaten
+127:
+Kalibrierung:
+140:
+Meßwerte...
+141:
+Gemessene Werte
+142:
+        Aktuell

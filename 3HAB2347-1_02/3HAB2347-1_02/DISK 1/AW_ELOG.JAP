@@ -1,0 +1,699 @@
+
+
+64::
+0:
+Arcweld
+1:
+Gas supervision\n
+\n
+\t\n
+Check the welding equipment.
+2:
+Water supervision\n
+\n
+\t\n
+Check the welding equipment.
+3:
+Arc supervision\n
+\n
+\t\n
+Check the welding equipment.
+4:
+Voltage supervision\n
+\n
+\t\n
+Check the welding equipment.
+5:
+Current supervision\n
+\n
+\t\n
+Check the welding equipment.
+6:
+Wirefeed supervision\n
+\n
+\t\n
+Check the welding equipment.
+7:
+Wirestick supervision\n
+\n
+\t\n
+Check the welding equipment.
+8:
+Arc ignition failed\n
+\n
+\t\n
+Check the welding equipment.
+9:
+Schedule transfer error\n
+\n
+\t\n
+Define a weld schedule strobe input
+10:
+Schedule transfer error\n
+\n
+\t\n
+The schedule port was busy with previous\n
+transfer.
+11:
+Process stopped\n
+\n
+\t\n
+Process was stopped by digital input.
+12:
+Arc fill ignition failed\n
+\n
+\t\n
+Check the welding equipment.
+13:
+Torch supervision\n
+\n
+\t\n
+Check the welding equipment.
+1000:
+Weave pattern error\n
+Weave interpolation type error\n
+[Geometric = 0, Rapid = 1]\n
+\t\n
+Adjust weave parameters
+1001:
+Weave pattern error\n
+Weave pattern shape error\n
+[No shape = 0, Zig-zag shape    = 1]\n
+[V-shape  = 2, Triangular shape = 3]\n
+\t\n
+Adjust weave parameters
+1002:
+Weave pattern error\n
+Weave pattern cycle length error\n
+(0 - 1) [m]\n
+\t\n
+Adjust weave parameters
+1003:
+Weave pattern error\n
+Weave pattern cycle time error\n
+(0 - 100) [s]\n
+\t\n
+Adjust weave parameters
+1004:
+Weave pattern error\n
+Weave pattern width error\n
+(0 - 1) [m]\n
+\t\n
+Adjust weave parameters
+1005:
+Weave pattern error\n
+Weave pattern height error\n
+(0 - 1) [m]\n
+\t\n
+Adjust weave parameters
+1006:
+Weave pattern error\n
+Weave pattern left dwell error\n
+(0 - 1) [m]\n
+\t\n
+Adjust weave parameters
+1007:
+Weave pattern error\n
+Weave pattern center dwell error\n
+(0 - 1) [m]\n
+\t\n
+Adjust weave parameters
+1008:
+Weave pattern error\n
+Weave pattern right dwell error\n
+(0 - 1) [m]\n
+\t\n
+Adjust weave parameters
+1009:
+Weave pattern error\n
+Weave pattern bias error\n
+(-1 - 1) [m]\n
+\t\n
+Adjust weave parameters
+1010:
+Weave pattern error\n
+Weave pattern direction angle error\n
+(-PI/2 - PI/2) [rad]\n
+\t\n
+Adjust weave parameters
+1011:
+Weave pattern error\n
+Weave pattern tilt angle error\n
+(-PI/2 - PI/2) [rad]\n
+\t\n
+Adjust weave parameters
+1012:
+Weave pattern error\n
+Weave pattern rotation angle error\n
+(-PI/2 - PI/2) [rad]\n
+\t\n
+Adjust weave parameters
+1013:
+Weave pattern error\n
+Weave pattern horizontal offset error\n
+(-1 - 1) [m]\n
+\t\n
+Adjust weave parameters
+1014:
+Weave pattern error\n
+Weave pattern vertical offset error\n
+(-1 - 1) [m]\n
+\t\n
+Adjust weave parameters
+1015:
+Weave pattern error\n
+Weave pattern sync condition left error\n
+(0 - 100) [%]\n
+\t\n
+Adjust weave parameters
+1016:
+Weave pattern error\n
+Weave pattern sync condition right error\n
+(0 - 100) [%]\n
+\t\n
+Adjust weave parameters
+1017:
+Weave pattern error\n
+Forbidden combination of bias and shape\n
+Bias only allowed for Zig-zag shape\n
+\t\n
+Adjust weave parameters
+1018:
+Weave pattern error\n
+Forbidden combination of bias and width\n
+Bias must be less than half the width\n
+\t\n
+Adjust weave parameters
+1019:
+Weave pattern error\n
+Forbidden combination of dwells and\n
+cycle length\n
+Dwells must be less than cycle length\n
+Ramp slope (amplitude/length) is limited\n
+\t\n
+Adjust weave parameters
+3000:
+Equipment config error\n
+\n
+\t\n
+AW and EIO configurations do not match
+4000:
+Weldguide error\n
+\n
+\t\n
+Check weldguide parameters\n
+and equipment
+5000:
+Seamless Config Error\n
+Unknown parameter in\n
+Power Source\n
+\t\n
+Check Seamless configuration file
+5001:
+Seamless Config Error\n
+Invalid unit_id used\n
+\t\n
+Check Seamless configuration file
+5002:
+Seamless Config Error\n
+Invalid transmission\n
+length used\n
+\t\n
+Check Seamless configuration file
+5003:
+Seamless Config Error\n
+Invalid selection_id used\n
+\t\n
+Check Seamless configuration file
+5004:
+Seamless Config Error\n
+Seamless systems with\n
+different units\n
+\t\n
+Check Seamless configuration file
+5005:
+Seamless Config Error\n
+No units used at all\n
+\t\n
+Check Seamless configuration file
+5006:
+Seamless Config Error\n
+To many tuning parameters\n
+\t\n
+Check Seamless configuration file
+6000:
+Track error\n
+\n
+\t\n
+Check joint definition
+6001:
+Track start error\n
+\n
+\t\n
+Check joint definition
+6002:
+Track max path corr error\n
+\n
+\t\n
+Check joint definition
+7001:
+Welding equipment error\n
+EPROM checksum error in Welddata Unit\n
+detected at power up.\n
+\t\n
+EPROM in Welddata Unit is faulty.\n
+Running with this error gives\n
+unpredictable result.\n
+Exchange EPROM.
+7002:
+Welding equipment error\n
+Internal RAM read/write error in\n
+Welddata Unit detected at power up.\n
+\t\n
+At least one memory cell in internal\n
+microprocessor memory failed in read\n
+/write test. Running with this error\n
+gives unpredictable result.\n
+Replace Welddata Unit.
+7003:
+Welding equipment error\n
+External RAM read/write error in\n
+Welddata Unit detected at power up.\n
+\t\n
+At least one memory cell in external\n
+microprocessor memory failed in read\n
+/write test. Running with this error\n
+gives unpredictable result.\n
+Replace Welddata Unit.
+7004:
+Welding equipment error\n
+DC supply voltage for 5 Volt regulator\n
+in Welddata Unit has been down.\n
+\t\n
+Indicates that there is a problem in\n
+power supply but the function is\n
+probably not affected. Check incoming\n
+power supply to Welddata Unit.
+7012:
+Welding equipment error\n
+Welddata Unit CAN-controller for\n
+internal bus is in WARNING state.\n
+\t\n
+Change data several times or reset\n
+welding equipment with power switch.\n
+If the error do not disappear, check\n
+bus connections and/or exchange\n
+Welddata Unit.
+7013:
+Welding equipment error\n
+Welddata Unit CAN-controller for\n
+external bus is in WARNING state.\n
+\t\n
+Change data several times or reset\n
+welding equipment with power switch.\n
+If the error do not disappear, check\n
+bus connections and/or exchange\n
+Welddata Unit.
+7014:
+Welding equipment error\n
+Welddata Unit CAN-controller for\n
+internal bus is in BUS-OFF state.\n
+\t\n
+Reset welding equipment with power\n
+switch. If the error do not disappear,\n
+check bus connections and/or exchange\n
+Welddata Unit.
+7015:
+Welding equipment error\n
+Welddata Unit has detected that a\n
+received internal CAN message was lost\n
+(Overwritten by a later message).\n
+\t\n
+Reset welding equipment with power\n
+switch.
+7016:
+Welding equipment error\n
+Welddata Unit has detected that a\n
+received external CAN message was lost\n
+(Overwritten by a later message).\n
+\t\n
+Reset welding equipment with power\n
+switch.
+7017:
+Welding equipment error\n
+Welddata Unit lost contact with\n
+Wirefeed Unit.\n
+\t\n
+Check connection cable between Welddata\n
+Unit and wirefeed control board, check\n
+power supply to wirefeed control board.
+7018:
+Welding equipment error\n
+Welddata Unit has lost contact with\n
+Olivia Unit.\n
+\t\n
+Check connection cable between\n
+Welddata Unit and Olivia unit, check\n
+power supply to Olivia Unit
+7019:
+Welding equipment error\n
+Non-volatile RAM data value failure\n
+detected in Welddata Unit at power up.\n
+Checksum error.\n
+\t\n
+Probably caused by low memory backup\n
+battery voltage. Welding equipment\n
+will be reset to a default state. Data\n
+in Welddata Unit will be lost.\n
+Possible to run without limitations.
+7020:
+Welding equipment error\n
+Non-volatile RAM data value failure\n
+detected in Welddata Unit at power up.\n
+Non numeric setting parameter out of\n
+range.\n
+\t\n
+Welding equipment will be reset to a\n
+default state. Data in Welddata Unit\n
+will be lost. Possible to run without\n
+limitations.
+7021:
+Welding equipment error\n
+Invalid combination of non-numeric\n
+setting parameters in Welddata Unit\n
+detected at power up.\n
+\t\n
+Welding equipment will be reset to a\n
+default state. Data in Welddata Unit\n
+will be lost. Reset welding equipment\n
+with power switch.
+7022:
+Welding equipment error\n
+CAN-bus (external) transmit buffer\n
+overflow in Welddata Unit.\n
+\t\n
+Welddata Unit are unable to transmit\n
+data at the needed rate. Could be\n
+caused by unnormal occupation on the\n
+bus. Reset welding equipment with\n
+power switch.
+7023:
+Welding equipment error\n
+CAN-bus (external) receive buffer\n
+overflow in Welddata Unit.\n
+\t\n
+Welddata Unit are unable to process\n
+received messages at the needed rate.\n
+Reset welding equipment with power\n
+switch.
+7024:
+Welding equipment error\n
+Fragments not in number order when\n
+Welddata Unit received a fragmented\n
+message.\n
+\t\n
+The parts of a fragmented message were\n
+not received in proper order. A weld\n
+data block transmission has been faulty\n
+received. Reset welding equipment with\n
+power switch.
+7025:
+Welding equipment error\n
+Incompatible format of weld data block.\n
+Welddata Unit received data that is\n
+stored in another program version with\n
+other format version.\n
+\t\n
+Find data with correct version or enter\n
+new data.
+7026:
+Welding equipment error\n
+Program execution error.\n
+Watch dog in Welddata Unit program\n
+activated.\n
+\t\n
+Reset welding equipment with\n
+power switch.\n
+
+7027:
+Welding equipment error\n
+Undocumented Welddata Unit error.\n
+\t\n
+Request additional information from\n
+ESAB/ABB.
+7028:
+Welding equipment error\n
+Undocumented Welddata Unit error.\n
+\t\n
+Request additional information from\n
+ESAB/ABB.
+7029:
+Welding equipment error\n
+Undocumented Welddata Unit error.\n
+\t\n
+Request additional information from\n
+ESAB/ABB.
+7201:
+Welding equipment error\n
+EPROM checksum error in Powersource\n
+Control Unit.\n
+\t\n
+EPROM in Powersource Control Unit is\n
+faulty. Running with this error gives\n
+unpredictable result.\n
+Replace EPROM.
+7202:
+Welding equipment error.\n
+Internal RAM read/write error in\n
+Powersource Control Unit detected at\n
+power up.\n
+\t\n
+At least one memory cell in internal\n
+microprocessor memory failed in read\n
+/write test. Running with this error\n
+gives unpredictable result.\n
+Replace Powersource Control Unit.
+7204:
+Welding equipment error\n
+DC supply voltage to 5 Volt regulator in\n
+Powersource Control Unit has been down.\n
+\t\n
+Indicates that there is a problem in\n
+power supply but the function is\n
+probably not affected. Check incoming\n
+power supply to Powersource Control Unit
+7205:
+Welding equipment error\n
+High DC inverter bus voltage. Hardware\n
+will shut down inverter till voltage\n
+comes down to normal.\n
+\t\n
+Might be caused by high mains impedance\n
+or transients, possible to restart\n
+welding as soon as voltage has dropped\n
+below limit.
+7206:
+Welding equipment error\n
+Temperature in power source heatsink too\n
+high. Inverter is shut down until\n
+temperature switch is closed again.\n
+\t\n
+Ensure that there is no obstacle that\n
+reduces the cooling airflow that passes\n
+through the heatsink of the powersource.\n
+Wait until temperature switch is closed.
+7207:
+Welding equipment error\n
+High current in inverter circuit. Might\n
+be caused by component failure.\n
+\t\n
+Reset welding equipment with power\n
+switch. Check that the power source does\n
+not consume unnormal high current\n
+without start command. If so: there is\n
+a component failure.
+7208:
+Welding equipment error\n
+PCB supply voltage 15VC on Powersource\n
+Control Unit to high or to low.\n
+\t\n
+Replace Powersource Control Unit.
+7209:
+Welding equipment error\n
+PCB supply voltage -15V on Powersource\n
+Control Unit to high or to low.\n
+\t\n
+Replace Powersource Control Unit.
+7210:
+Welding equipment error\n
+PCB supply voltage 15VB on Powersource\n
+Control Unit to high or to low.\n
+\t\n
+Replace Powersource Control Unit.
+7211:
+Welding equipment error\n
+Long term difference between requested\n
+and actual weld current value.\n
+\t\n
+Hardware problem in current servo system\n
+(Power source control board or inverter\n
+block) or unnormal load conditions\n
+(= bad welding).
+7212:
+Welding equipment error.\n
+Internal CAN communication failure CAN\n
+circuits in Powersource Control Unit\n
+is in WARNING state.\n
+\t\n
+Change data several times or reset\n
+welding equipment with power switch. If\n
+the error do not disappear, check bus\n
+connections and/or exchange Powersource\n
+Control Unit.
+7215:
+Welding equipment error\n
+Powersource Control Unit has detected\n
+that a received internal CAN message was\n
+lost (overwritten by a later message).\n
+\t\n
+Reset welding equipment with power\n
+switch.
+7226:
+Welding equipment error\n
+Program execution error.\n
+Watch dog in Powersource Control Unit\n
+program activated.\n
+\t\n
+Reset welding equipment with\n
+power switch.
+7227:
+Welding equipment error\n
+Undocumented Powersource Control Unit\n
+error.\n
+\t\n
+Request additional information from\n
+ESAB/ABB.
+7228:
+Welding equipment error\n
+Undocumented Powersource Control Unit\n
+error.\n
+\t\n
+Request additional information from\n
+ESAB/ABB.
+7229:
+Welding equipment error\n
+Undocumented Powersource Control Unit\n
+error.\n
+\t\n
+Request additional information from\n
+ESAB/ABB.
+7301:
+Welding equipment error\n
+EPROM checksum error in Wirefeed unit\n
+detected at power up.\n
+\t\n
+EPROM in Wirefeed unit is faulty.\n
+Running with this error gives\n
+unpredictable result.\n
+Exchange EPROM.
+7302:
+Welding equipment error\n
+Internal RAM read/write error in\n
+Wirefeed Unit detected at power up.\n
+\t\n
+At least one memory cell in internal\n
+microprocessor memory failed in read\n
+/write test. Running with this error\n
+gives unpredictable result.\n
+Replace Wirefeed Unit.
+7304:
+Welding equipment error\n
+DC supply voltage for 5 Volt regulator\n
+in Wirefeed Unit has been down.\n
+\t\n
+Indicates that there is a problem in\n
+power supply but the function is\n
+probably not affected. Check incoming\n
+power supply to Wirefeed Unit.
+7308:
+Welding equipment error\n
+PCB supply voltage 15V on Wirefeed Unit\n
+to high or to low.\n
+\t\n
+Replace Wirefeed Unit.
+7309:
+Welding equipment error\n
+PCB supply voltage 24V on Wirefeed Unit\n
+to high or to low.\n
+\t\n
+Replace Wirefeed Unit.
+7311:
+Welding equipment error\n
+Long term difference between requested\n
+and actual wirefeed velocity.\n
+\t\n
+Hardware problem in wirefeed servo\n
+system or voltage drop in 42 V\n
+AC supply.
+7312:
+Welding equipment error\n
+Internal CAN communication failure\n
+CAN circuits in Wirefeed Unit is in\n
+WARNING state.\n
+\t\n
+Change wirefeed speed several times\n
+or reset welding equipment with power\n
+switch. If the error do not disappear,\n
+check bus connections and/or exchange\n
+Wirefeed Unit.
+7315:
+Welding equipment error\n
+Wirefeed Unit has detected that a\n
+received internal CAN message was lost\n
+(overwritten by a later message).\n
+\t\n
+Reset welding equipment with power\n
+switch.
+7326:
+Welding equipment error\n
+Program execution error.\n
+Watch dog in Wirefeed Unit program\n
+activated.\n
+\t\n
+Reset welding equipment with\n
+power switch.\n
+
+7327:
+Welding equipment error\n
+Undocumented Wirefeed Unit error.\n
+\t\n
+Request additional information from\n
+ESAB/ABB.
+7328:
+Welding equipment error\n
+Undocumented Wirefeed Unit error.\n
+\t\n
+Request additional information from\n
+ESAB/ABB.
+7329:
+Welding equipment error\n
+Undocumented Wirefeed Unit error.\n
+\t\n
+Request additional information from\n
+ESAB/ABB.
+7500:
+Open file error\n
+File name unknown\n
+\t\n
+
+8000:
+Ext CAN com failure\n
+Too many requests without response\n
+\t\n
+Check communication configuration
+9000:
+Installation error\n
+External axes are not allowed in this\n
+type of robot configuration\n
+\t\n
+Remove mechanical units

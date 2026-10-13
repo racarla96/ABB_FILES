@@ -1,0 +1,97 @@
+80::
+0:
+Kommunikation
+1:
+Serieller Kanal
+2:
+Name
+3:
+Baudrate
+4:
+Parität
+5:
+Anzahl Datenbits
+6:
+Anzahl Stopbits
+7:
+Protokoll
+8:
+Lokale Adr. (SLIP)
+9:
+Remote Adr. (SLIP)
+10:
+7
+11:
+8
+12:
+1
+13:
+2
+14:
+SLIP
+15:
+XONXOFF
+16:
+KEIN
+17:
+300
+18:
+600
+19:
+1200
+20:
+2400
+21:
+4800
+22:
+9600
+23:
+19200
+24:
+38400
+25:
+keine
+26:
+ungerade
+27:
+gerade
+28:
+ignorieren
+29:
+Name     Kanal        Baudrate
+30:
+Kanal
+31:
+Phys. Kanal
+32:
+Übertr. Protokoll
+33:
+Appl. Protokoll
+34:
+Typ
+35:
+Phys. Kanal
+36:
+Port-Nr.
+37:
+Name        Typ         Kanal
+38:
+Name        Typ         Phys. Kanal
+39:
+Name        Typ         Übertr Protokoll
+40:
+Übertr. Protokoll
+41:
+Freig. Sys. Ereignis
+42:
+TRUE
+43:
+FALSE
+44:
+Appl. Treiber
+45:
+Appl. Einheit
+46:
+Appl. Treiber
+47:
+Name     Übertr. Treiber

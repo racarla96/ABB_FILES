@@ -1,0 +1,152 @@
+ on main routine.
+Revision 1.9  1996/12/12  07:37:49  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+9::
+0:
+Produktion
+10:
+Datei
+11:
+Bearb.
+12:
+ Ansicht
+20:
+Programm laden...
+21:
+Programm kann nicht starten
+22:
+Voreinstellungen...
+23:
+Gehe zu...
+24:
+Start von haupt
+25:
+Info
+26:
+Position
+27:
+Bediener Ausgabe & Eingabe
+50:
+ Abbruch
+51:
+ OK
+80:
+Programm
+82:
+Daten
+83:
+Voreinstellungen
+84:
+Daten Wert
+85:
+Gehe zu Zeile
+86:
+Programm zum Laden ausw‰hlen
+87:
+Produktion Info
+88:
+Produktion Position
+100:
+Prog. Name
+101:
+Status
+102:
+Geschw.:
+103:
+%
+104:
+Abarbeit.Modus:=
+105:
+Routine
+106:
+
+107:
+Gehe zu Zeile
+108:
+RAPID Instruktion wird abgearbeitet
+109:
+Aktuelle Routine
+110:
+100%
+111:
+Kein RAPID Programm geladen
+112:
+*
+130:
+Richtungswechsel unzul‰ssig
+131:
+
+132:
+
+133:
+nicht gelad.
+134:
+fertig
+135:
+gestoppt
+136:
+l‰uft
+137:
+mm/s
+138:
+-%
+139:
+25%
+140:
+
+141:
++%
+142:
+Ja
+143:
+Nein
+144:
+   Wollen Sie weitermachen ?
+145:
+Start vom Anfang
+146:
+Achtung!  Ist der Weg frei?
+147:
+Warnung
+148:
+>>
+149:
+geladen
+150:
+undefiniert
+151:
+Stop w‰hrend Wiederanfahren
+200:
+<  Weiter mit ENTER  >
+201:
+verbunden
+202:
+Programm nicht geladen!
+203:
+Programm nicht entfernt!
+204:
+
+205:
+Programm nicht ladbar!
+206:
+Datei muﬂ Typ Programm sein.
+207:
+Fehler im Programm.
+208:
+Programm nicht anzeigbar!
+209:
+RAPID Instr nicht anzeigbar!
+210:
+\n
+Bitte Warten.\n
+Programm wird geladen...!
+211:
+Speicher voll.
+212:
+nicht abzuarb.
+213:
+Programm nicht abarbeitbar.
+214:
+Keine haupt Routine gefunden.

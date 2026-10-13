@@ -1,0 +1,365 @@
+16::
+0:
+Tool Coordinates Definition
+1:
+Tool
+2:
+Method
+3:
+Point                  Status
+4:
+(Desc.)
+5:
+ModPos
+6:
+Cancel
+7:
+OK
+8:
+Tool Coordinates Description
+9:
+Position from/to
+10:
+Tool Calculation Result
+11:
+TCP
+12:
+Calculation Log
+13:
+File...
+14:
+Select a position array
+15:
+Array name
+16:
+Select a tool definition method!
+17:
+Method info
+18:
+Method name
+19:
+-
+20:
+Modified
+21:
+Pos From
+22:
+Method
+23:
+Mean error
+24:
+Max error
+25:
+Save calculation log to file
+26:
+Quaternion 1
+27:
+Quaternion 2
+28:
+Quaternion 3
+29:
+Quaternion 4
+30:
+Displaying position arrays of type
+31:
+(OK)
+32:
+
+33:
+None
+34:
+Tool variable not found!\n
+\n
+    < Press Enter to proceed >
+35:
+Wobj variable not found!\n
+\n
+    < Press Enter to proceed >
+36:
+Pose variable not found!\n
+\n
+    < Press Enter to proceed >
+37:
+Could not use jogging tool!\n
+Jogging tool must be of type\n
+persistent.\n
+\n
+    < Press Enter to proceed >
+38:
+Could not use jogging wobj!\n
+Jogging wobj must be of type\n
+persistent.\n
+\n
+    < Press Enter to proceed >
+39:
+Cartesian X
+40: 
+(New)
+41: 
+(Delete)
+42:
+Defines
+43:
+Cartesian Y
+44:
+Cartesian Z
+45:
+Orbit User Frame Definition
+46:
+Orbit User Frame Calculation Result
+47:
+Select a definition method!
+48:
+Unit
+49:
+Robot Base Frame Definition
+50:
+Robot Base Frame Calculation Result
+51:
+Set Reference Point
+52:
+(ModPos)
+53:
+Please give world coordinates\n
+for the fixed reference point.
+54:
+Lin Single User Frame Definition
+55:
+Lin Single User Frame Calc Result
+56:
+Rot Single User Frame Definition
+57:
+Rot Single User Frame Calc Result
+58:
+Track Base Frame Definition
+59:
+Track Base Frame Calculation Result
+60:
+Set...
+61:
+Moved method
+62:
+X
+63:
+Y
+64:
+Z
+65:
+Overwriting Parameters!\n
+Existing parameters will be \n
+overwritten.\n
+\n
+OK to continue?
+66:
+Mechanical Unit Axes Definition
+67:
+Mechanical Unit Axes Calc Result
+69:
+Axis
+100:
+Work Object Coordinates Definition
+101:
+Work Object Coordinates Description
+102:
+Work Object Calculation Result
+103:
+Select a position array
+104:
+WObj
+105:
+User method
+106:
+Obj method
+107:
+Select an object method
+108:
+Select a user method
+109:
+User pos from/to
+110:
+Object pos from/to
+111:
+User
+112:
+Obj
+200:
+Displacement Frame Definition
+201:
+Displacement Frame Description
+202:
+Displacement Frame Calculation Result
+203:
+Select a position array
+204:
+Disp
+205:
+Orig
+206:
+Number of points
+207:
+Select new method
+500:
+n points (n=%d)
+501:
+Initial point
+502:
+Moved point
+503:
+Point
+504:
+Negative X
+505:
+Positive X
+506:
+Positive Y
+507:
+4 points
+508:
+Base frame's orientation same as the\n
+world coordinate system's.
+509:
+Approach point 1
+510:
+Approach point 2
+511:
+Approach point 3
+512:
+Approach point 4
+513:
+Approach point 5
+514:
+Approach point 6
+515:
+Approach point 7
+516:
+Approach point 8
+517:
+Approach point 9
+518:
+Approach point 10
+519:
+Elongator point X
+520:
+Elongator point Z
+521:
+4 points XZ
+522:
+X and Z elongator used to define\n
+orientation of the base frame.
+523:
+4 points TCP
+524:
+The orientation will be the same as\n
+for the robot's mounting flange.
+525:
+5 points TCP & Z
+526:
+X and Y direction will be as close\n
+to the wrist coords as possible.
+527:
+6 points TCP & XZ
+528:
+The TCP and all tool directions\n
+are defined.
+529:
+3 points
+530:
+Three user points are used. Two on\n
+the x axis, and one on the y axis.
+531:
+User
+532:
+Object
+533:
+Three object points are used. Two on\n
+the x axis, and one on the y axis.
+534:
+4 p TCP ORIENT NOT SET
+535:
+The tool's orientation component\n
+will be left unaffected.
+536:
+No change
+537:
+The definition of user coordinate\n
+system will be left unaffected.
+538:
+The definition of object coordinate\n
+system will be left unaffected.
+539:
+No changes to the definitions of the\n
+coordinate systems will be made.
+550:
+Stationary Tool Coordinates Definition
+551:
+Used tool
+552:
+Definition of stationary tool\n
+coordinates is not possible when\n
+the robot is holding the tool.\n
+\n
+    < Press Enter to proceed >
+600:
+Mirroring Of Routine
+601:
+Routine to mirror
+602:
+New routine name
+603:
+Work object
+604:
+Mirror frame
+605:
+Mirror axis
+606:
+X
+607:
+Y
+608:
+Frame selection
+609:
+Give name of new routine
+610:
+Select a work object frame from\n
+the list below.
+611:
+Select a mirror frame from the\n
+list below.
+612:
+Not changed
+613:
+Please wait!\n
+\n
+Performing mirroring on\n 
+selected routine.
+614:
+Mirroring not performed.\n
+Name of mirror routine already\n
+exists. 
+615:
+Can't perform definition!\n
+The variable is declared in a\n
+READ only module.\n
+\n
+    < Press Enter to proceed >
+616:
+Calibration of a work object\n
+with a coordinated user frame\n
+is not supported.\n
+\n
+    < Press Enter to proceed >
+617:
+Calibration of a work object\n
+that is held by the robot is\n
+not possible.\n
+\n
+    < Press Enter to proceed >
+618:
+Calibration of a work object\n
+using a stationary TCP is not\n
+possible.\n
+\n
+    < Press Enter to proceed >
+
+
+

@@ -1,0 +1,73 @@
+Revision 1.9  1995/04/21  13:11:01  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.8  1994/08/19  09:38:46  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+2::
+0:
+
+1:
+Bienvenido a
+2:
+ABB Robotics Products AB
+3:
+Info
+4:
+Regtros
+5:
+Error
+6:
+Cancelar el cambio de\n
+modo de operacion!\n
+\n
+Colocar nuevamente el selector\n
+en modo MANUAL
+7:
+Cambiar Modo de Operacion
+8:
+Se ha cambiado el modo de operacion\n
+de MANUAL a AUTO.
+9:
+Se ha cambiado el modo de operacion\n
+de MANUAL a MANUAL 100%.
+10:
+Por favor, confirmar pulsando OK.!\n
+\n
+\n
+(Si cancela se debe colocar en MANUAL\n
+el selector de modo de operacion)
+11:
+Funcionamiento sostenido!\n
+\n
+Esperando pulsacion de boton\n
+de funcionamiento sostenido.
+12:
+
+13:
+
+14:
+
+15:
+
+16:
+Estado
+17:
+\n
+Las siguientes unidades\n
+no se han sincronizado.\n
+Para hacerlo, pulsar\n
+Sinc (con MOTORS ON)
+18:
+Unidades no sincronizadas!
+19:
+Unidad            Estado
+20:
+Sincronizando %s\n
+\n
+\n
+Listo en un momento!
+21:
+Sinc

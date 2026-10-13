@@ -1,0 +1,587 @@
+22::
+0:
+Sistema
+10:
+Stop emerg attivo\n
+Richiesto reset Stop Emergenza\n
+Utilizzare pulsante MotorsOff.\n
+\t\n
+
+11:
+Stop emerg attivo\n
+Richiesto reset Stop Emergenza\n
+Utilizzare il pulsante MotorsOff\n
+sull'armadio robot dopo aver rilasciato\n
+il pulsante di emergenza\n
+\t\n
+
+12:
+Sistema in errore\n
+Errore di sistema non recuperabile.\n
+Necessario Warm Start.\n
+\t\n
+Agire sull'interruttore principale\n
+se il comando Riavvio non viene\n
+eseguito correttamente.
+24:
+Timeout catena Enable\n
+Timeout stato doppio canale.\n
+\t\n
+La variazione dello stato di una\n
+delle due catene di Enable non e'\n
+stata ricevuta nel tempo limite.
+30:
+Assi non commutati\n
+Uno o piu' assi interni non\n
+sono commutati.\n
+\t\n
+
+31:
+Assi non calibrati\n
+Uno o piu' assi assoluti o relativi\n
+non sono calibrati.\n
+\t\n
+
+32:
+Counter non aggiornati\n
+Uno o piu' assi robot non\n
+sono calibrati.\n
+\t\n
+Portare il robot nella posizione di\n
+calibraz. ed aggiornare i Counter.\n
+
+33:
+Assi non sincronizzati\n
+Uno o piu' assi esterni non\n
+sono sincronizzati.\n
+\t\n
+Attivare i motori e sincronizzare\n
+tutte le unita' meccaniche visualiz.\n
+
+50:
+Operaz. non consentita\n
+Selez. un diverso modo operativo.\n
+\t\n
+
+51:
+Operaz. non consentita\n
+Il client non ha il contr. richiesto\n
+(programma/movimento).\n
+\t\n
+
+52:
+Operaz. non consentita\n
+Modif. stato controllore.\n
+\t\n
+
+53:
+Operaz. non consentita\n
+Modif. stato manipolatore.\n
+\t\n
+
+54:
+Operaz. non consentita\n
+Programma in esecuzione.\n
+\t\n
+
+60:
+Operaz. non consentita\n
+Modo Operativo in Auto.\n
+\t\n
+
+61:
+Operaz. non consentita\n
+Cambio modo operativo in Auto.\n
+\t\n
+
+62:
+Operaz. non consentita\n
+Modo Operativo in Manuale < 250.\n
+\t\n
+
+63:
+Operaz. non consentita\n
+Modo Operativo in Manuale 100%.\n
+\t\n
+
+64:
+Operaz. non consentita\n
+Cambio modo operativo in\n
+Manuale 100%.\n
+\t\n
+
+70:
+Operaz. non consentita\n
+Motori inseriti.\n
+\t\n
+
+71:
+Operaz. non consentita\n
+Non consentito durante cambio\n
+a stato motori inseriti.\n
+\t\n
+
+72:
+Operaz. non consentita\n
+Motori disinseriti.\n
+\t\n
+
+73:
+Operaz. non consentita\n
+Non consentito durante cambio\n
+a stato motori disinseriti.\n
+\t\n
+
+74:
+Operaz. non consentita\n
+Stop Sicurezza attivato.\n
+\t\n
+
+75:
+Operaz. non consentita\n
+Operazione non permessa in stop\n
+emergenza.\n
+E' richiesto un reset dello stop di\n
+emergenza. Utilizzare il pulsante\n
+MotorsOff sull'armadio robot.\n
+\t\n
+\n
+
+76:
+Operaz. non consentita\n
+Sistema in errore.\n
+\t\n
+Errore di sistema non recuperabile.\n
+Inizializzare il robot.\n
+Agire sull'interruttore principale\n
+se il comando Riavvio non viene\n
+correttamente eseguito.
+80:
+Operaz. non consentita\n
+Assi non commutati.\n
+\t\n
+
+81:
+Operaz. non consentita\n
+Assi non calibrati.\n
+\t\n
+
+82:
+Operaz. non consentita\n
+Counter resolver non\n
+aggiornati.\n
+\t\n
+
+83:
+Operaz. non consentita\n
+Assi non\n
+sincronizzati.\n
+\t\n
+
+92:
+Operaz. non consentita\n
+Sistema IO bloccato.\n
+\t\n
+
+100:
+Unit. prog in ctrl\n
+Una applicazione con unita' di\n
+program. e' in controllo della\n
+risorsa (programma/movimento)\n
+\t\n
+
+101:
+Unit. prog (prg) ctrl\n
+La finestra programma dell'unita'\n
+di program. e' attiva ed e' in\n
+controllo del programma.\n
+Entrare nella finestra produzione\n
+e ripetere il comando.\n
+\t\n
+
+102:
+Joystick in ctrl\n
+Il joystick e' attivo ed e' in\n
+controllo movimento.\n
+Rilasciare il joystick e riprovare\n
+nuovamente.\n
+\t\n
+
+111:
+Unita' prog(prg) ctrl\n
+La finetra programma della unita'\n
+di program. e' attiva ed e' in\n
+controllo del programma.\n
+Entrare nella finestra produzione\n
+e ripetere il comando.\n
+\t\n
+
+112:
+Pgm (1) in ctrl\n
+Programma server 1 in\n
+controllo movimento.\n
+Interrompere l'esecuzione del progr.\n
+e ripetere il comando.\n
+\t\n
+
+113:
+Pgm (2) in ctrl\n
+Programma server 2 in\n
+controllo movimento.\n
+Interrompere l'esecuzione del progr.\n
+e ripetere il comando.\n
+\t\n
+
+114:
+Pgm (3) in ctrl\n
+Programma server 3 in\n
+controllo movimento.\n
+Interrompere l'esecuzione del progr.\n
+e ripetere il comando.\n
+\t\n
+
+115:
+Pgm (4) in ctrl\n
+Programma server 4 in\n
+controllo movimento.\n
+Interrompere l'esecuzione del progr.\n
+e ripetere il comando.\n
+\t\n
+
+116:
+Pgm (5) in ctrl\n
+Programma server 5 in\n
+controllo movimento.\n
+Interrompere l'esecuzione del progr.\n
+e ripetere il comando.\n
+\t\n
+
+120:
+Sistema I/O in ctrl\n
+\n
+\t\n
+
+125:
+Client %s in ctrl\n
+Client specif. e' in\n
+ctrl ricerca\n
+richiesta ( prog\mov)\n
+\t\n
+
+130:
+Fuori memoria in cfg\n
+\n
+\t\n
+
+131:
+Impos. leggere il file\n
+\n
+\t\n
+
+132:
+Parametri non salvati\n
+Impossibile salvare parametri.\n
+Disco protetto oppure spazio su\n
+disco insufficiente.\n
+\t\n
+Verificare o cambiare disco\n
+se risulta essere danneggiato.
+133:
+Impos. modif. identif.\n
+Descrizione\Motivo:\n
+Impossibile sostituire linea %d\n
+del file %s\n
+\t\n
+Contenuto protetto in scrittura.
+134:
+Versione errata\n
+Descrizione\Motivo:\n
+Nel file %s versione config\n
+errata\n
+Configurazione software\n
+%s\n
+\t\n
+Cambiare versione configurazione.
+135:
+Linea troppo lunga\n
+Descrizione\Motivo:\n
+Linea %d > %d caratteri\n
+\t\n
+Ridurre numero dei caratteri.
+136:
+Attrib. fuori limite\n
+Descrizione\Motivo:\n
+Attributo %s fuori limite\n
+nella linea %d\n
+\t\n
+Cambiare valore dell'attributo.
+137:
+Nome istruz. duplicato\n
+Descrizione\Motivo:\n
+Nome duplicato nella linea %d\n
+del file %s\n
+\t\n
+Cambiare il nome.
+140:
+MotorsOn non consentito.\n
+MotorsOn via IO di sistema\n
+non consentito.\n
+\t\n
+
+141:
+MotorsOff non consentito\n
+MotorsOff via IO di sistema\n
+non consentito.\n
+\t\n
+
+142:
+Start non consentito.\n
+Start via IO di sistema\n
+non consentito.\n
+\t\n
+
+143:
+Start Main non consent.\n
+Start Main via IO di sistema\n
+non consentito.\n
+\t\n
+
+144:
+Stop non consentito.\n
+Stop via IO di sistema\n
+non consentito.\n
+\t\n
+
+145:
+Stop Cycle non consent.\n
+Stop Cycle via IO di sistema\n
+non consentito.\n
+\t\n
+
+146:
+Interrupt  non consent.\n
+Man Interrupt via IO di sistema\n
+non consentito.\n
+\t\n
+
+147:
+Start non consentito\n
+Caricam. e start via IO di sistema\n
+non consentiti.\n
+\t\n
+
+148:
+Conferma non consentita\n
+Conf. Reset Stop Emerg. via\n
+IO di sistema non consentita.\n
+\t\n
+
+149:
+Ripr. non consentito.\n
+Esecuz. riprist. errore prg via\n
+IO di sistema non consentito.\n
+\t\n
+
+150:
+Sincroniz. non consent.\n
+Sincronizzazione di unita' meccanica\n
+via IO di sistema non consentita.\n
+\t\n
+
+151:
+Errore nome segnale.\n
+Impossibile usare nome segnale\n
+per parametri IO.\n
+Il nome del segn. non deve essere\n
+nel file di cfg IO.\n
+\t\n
+
+152:
+Troppe restrizioni.\n
+Non ci sono restrizioni per un'azione\n
+(segnale) nei param. SysIO.\n
+Numero di restrizioni nel file di\n
+cfg per param. SysIO troppo alto.\n
+\t\n
+
+153:
+Mot.On, Start negato\n
+MotorsOn, Start/riavvio del prog\n
+via sistema IO non consentito.\n
+\t\n
+
+154:
+Stop Istruz negato.\n
+Interruzione del prog\n
+via IO sistema non consentito.\n
+\t\n
+
+155:
+Argomento non definito\n
+Nome unita' meccanica SincAssiEst\n
+non definito\n
+\t\n
+
+156:
+Argomento non definito\n
+Nome sottoprogr. interrupt\n
+non definito\n
+\t\n
+
+157:
+Argomento non definito\n
+Nome programma LoadStart\n
+non definito\n
+\t\n
+
+158:
+Errore ingresso sistema\n
+E' stato dichiarato un ingresso di\n
+sistema con un segnale inesistente\n
+\n
+\t\n
+
+159:
+Errore uscita di sistema\n
+E' stata dichiarata un'uscita di\n
+sistema con un segnale inesistente\n
+\t\n
+
+160:
+Configurazione errata\n
+Il modulo di sistema %!%s nella task\n
+%s non ha le corrispondenti\n
+specifiche della configurazione\n
+per "Moduli Task"\n
+\t\n
+Visualiz. "Moduli Task" mei Parametri\n
+di Sistema e modificare la config.\n
+relativa al modulo in oggetto.
+161:
+Percorso file non valido\n
+Il modulo di sistema %!%s nella task\n
+%s non ha le corrispondenti\n
+specifiche della configurazione\n
+per "Moduli Task"; fa riferimento\n
+ad un percorso file inesistente\n
+\t\n
+Visualiz "Moduli Task" mei Parametri\n
+di Sistema e modificare il percorso\n
+file relativo al modulo in oggetto.
+162:
+Errore scrittura\n
+Errore scrittura durante tentativo\n
+di salvare modulo di sistema %!%s\n
+nella task %s. Oppure spazio\n
+insufficiente\n
+\t\n
+Visualiz. "Moduli Task" nei Parametri\n
+di Sistema e eseguire opportuna\n
+modifica.
+163:
+Riconfigurazione negata\n
+Alcuni moduli user modificati non\n
+sono stati salvati. Vedi messaggi\n
+nel log\n
+\t\n
+Salvare i moduli specificati dai\n
+messaggi precedenti e riprovare un\n
+avvio del sistema.
+164:
+Riconfigurazione negata\n
+Alcuni moduli di sistema non sono\n
+stati ancora salvati\n
+\t\n
+Leggere le descrizioni degli errori\n
+dei messaggi precedenti.\n
+Riprovare ad eseguire comando Start.
+165:
+Posizione indef.!\n
+Impossibile continuare esecuzione del\n
+programma dalla posizione attuale.\n
+Ricominciare dall'inizio del main.\n
+\t\n
+
+166:
+Imposs. salvare modulo\n
+Il modulo %!%.14s\n
+e' piu' vecchio del sorgente\n
+a %.37s\n
+nel task %.16s.\n
+\n
+\t\n
+
+167:
+Modulo non salvato\n
+Il modulo %!%.14s\n
+è modificato ma non salvato\n
+nel task %.16s.\n
+\t\n
+
+170:
+STOP DI SISTEMA\n
+Movimento interrotto durante il percorso\n
+\t\n
+
+171:
+HALT DI SISTEMA\n
+Programma e movimenti interrotti\n
+con spegnimento dei motori.\n
+\t\n
+
+172:
+ERRORE DI SISTEMA\n
+Errore di sistema, riavviare il sistema\n
+\t\n
+
+175:
+Errore Teachpendant\n
+Teachpendant ha perso contatto\n
+che causa un arresto Guard Stop\n
+\t\n
+
+180:
+Limitazione sistema IO\n
+Limitazioni sistemi IO sono attive per\n
+altri clients, per esempio teachpendant\n
+o il computer link.\n
+\t\n
+Motor on  impedito dal MotorOff\n
+del sistema I/O.\n
+Avvio programma impedito da Stop del\n
+sistema I/O, da StopCycle o da StopInstr
+261:
+Stringa troppo lunga\n
+Descrizione\Motivazione:\n
+- Numero messaggio Elog %d:\n
+  Lunghezza totale strina %d >\n
+  %d caratteri\n
+\t\n
+Lista verifiche:\n
+1. Ridurre la lunghezza totale stringa.
+270:
+Errore di accesso\n
+Errore accesso modulo.\n
+\t\n
+Esaminare il proprio file\n
+di configurazione EIO.
+280:
+Symbol conflict\n
+Il segnale %s definito nella configuraz.\n
+I/O contrasta con un altro simbolo di\n
+programma con lo stesso nome.\n
+Per questo motivo il segnale non sara'\n
+segnato nelle variabili di programma.\n
+\t\n
+Rinomina il segnale nella\n
+configurazione degli I/O.
+313:
+SoftStop\n
+SoftStop has been detected on\n
+channel %.0f.\n
+\t\n
+Em button has been pressed with\n
+SoftStop activated. This will open\n
+runchain. Make sure the Em button is\n
+reset and press the panel button.\n
+

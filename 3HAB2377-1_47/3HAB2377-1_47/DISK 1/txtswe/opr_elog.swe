@@ -1,0 +1,554 @@
+21::
+0:
+Statusändring
+2:
+Programmet nollställt\n
+Programpekaren för programmet\n
+%!%!%s har flyttats till början.\n
+\t\n
+
+5:
+Programmet stoppat\n
+Programmet %!%!%s har\n
+stoppat. orsaken är att\n
+%s\n
+\t\n
+
+500:
+Ett externt eller internt stopp\n
+efter aktuell instruktion har inträffat.
+501:
+Programmet har nått en EXIT instruktion
+502:
+Programmet är klart
+503:
+Programmet är klart med det här steget
+504:
+Programmet har nått en Break-instruktion
+505:
+Ett externt eller internt stopp har\n
+uppstått
+506:
+ett fel har uppstått
+507:
+Kan inte köra bakåt förbi första\n
+instruktionen
+508:
+Kan inte köra bakåt förbi denna\n
+instruktion
+509:
+the event routine for RESET or POWER_ON\n
+is ready.
+7:
+Program startat\n
+Programmet %!%!%s har\n
+startats för att utföra.\n
+%s\n
+\t\n
+
+8:
+Program återstartat\n
+Programmet %!%!%s har\n
+återstartats för att utföra.\n
+%s\n
+\t\n
+
+701:
+Detta är gjort från programfönstret.
+702:
+Detta är gjort från produktionsfönstret.
+703:
+Vem som har gjort detta är okänt.
+704:
+Detta har skett från extern utrustning.
+9:
+Arbetsminnet fullt\n
+Inget minne kvar för nya RAPID\n
+instruktioner eller data.\n
+Programet är %!%!%s\n
+\t\n
+Spara programmet och återstarta det.
+10:
+Motorer från tillstånd\n
+\n
+\t\n
+
+11:
+Motorer till tillstånd\n
+\n
+\t\n
+
+12:
+Skyddsstopps-tillstånd\n
+Driftkedjan öppnad av något säkerhets-\n
+skydd förutom nödstoppet.\n
+\t\n
+Stäng driftkedjan, den kan vara bruten\n
+av följande anorningar (om använda):\n
+Grind, Ljusbom, Servo-bortkopplare eller\n
+någon annat säkerhetsanorning kopplad\n
+till driftkedjan.
+13:
+Nödstopps tillstånd\n
+Driftkedjan öppnad av nödstoppet\n
+Nödstopps återställning är nödvändigt\n
+Tryck Motorer Från.\n
+\t\n
+
+14:
+Systemfels tillstånd\n
+Går ej att återställa.\n
+Gör en omstart.\n
+\t\n
+
+15:
+Manuellt körsätt valt.\n
+\n
+\t\n
+
+16:
+Autom. körsätt begärt.\n
+\n
+\t\n
+
+17:
+Autom. körsätt bekräftat.\n
+\n
+\t\n
+
+18:
+Man. körsätt FS begärt.\n
+\n
+\t\n
+
+19:
+Man. körsätt FS bekräftat\n
+Manuellt körsätt med full fart\n
+bekräftat.\n
+\t\n
+
+20:
+Progr.kör.fel tillstånd.\n
+Programkörnongen har nått ett spontan-\n
+felstillstånd.\n
+\t\n
+
+21:
+Progr.kör.fel återställt.\n
+Programkörningen har lämnat ett spontan-\n
+felstillstånd.\n
+\t\n
+
+22:
+Väntar på Håll-för-drift.\n
+Väntar på att Håll-för-drift knappen\n
+ska tryckas på prog. lådan.\n
+\t\n
+
+23:
+Håll- för- drift timeout.\n
+Håll-för-drift knappen på prog. lådan\n
+måste tryckas inom 'timeout' gränsen.\n
+\t\n
+
+30:
+Alla axlar kommuterade\n
+\n
+\t\n
+
+31:
+Alla axlar kallibrerade\n
+\n
+\t\n
+
+32:
+Alla varvräknare uppdat.\n
+\n
+\t\n
+
+33:
+Alla axlar synkroniserade\n
+\n
+\t\n
+
+34:
+Axlar ej kommuterade\n
+\n
+\t\n
+
+35:
+Axlar ej kalibrerade\n
+\n
+\t\n
+
+36:
+Varvräknare ej uppdat.\n
+\n
+\t\n
+
+37:
+Axlar ej synkroniserade\n
+\n
+\t\n
+
+40:
+Program laddat\n
+Ett program har laddats till\n
+%!%!%s.\n
+Ledigt användarminne var%i byte\n
+före denna operation och\n
+%i byte efter.\n
+\t\n
+
+41:
+Program raderat\n
+Ett program har tagits bort i\n
+%!%!%s.\n
+\t\n
+
+43:
+Fel vid återstart\n
+Programmet %!%!%s\n
+kan inte återstartas.\n
+\t\n
+
+44:
+Programpekare uppdaterad\n
+Programmet %!%!%s\n
+kan ha flyttat programpekaren.\n
+\t\n
+
+45:
+Systemet återstartat\n
+Ett redan installerat syatem\n
+återstartades.\n
+\t\n
+
+4501:
+ordered warmstart.
+4502:
+it has been switched off.
+46:
+Kallstart av systemet\n
+Första start efter installation.\n
+\t\n
+
+47:
+Bakgrundsprogram %s\n
+kan inte startas.\n
+%s\n
+\t\n
+
+4701:
+Programmet är tomt.
+4702:
+Felaktigt tillstånd.
+4703:
+Kan inte sätta PP till huvudrutin.
+4704:
+Kan inte sätta programkörningssätt.
+4705:
+Start-ordern felade.
+4706:
+P g a syntaxfel
+48:
+Bakgrundsprogr. stoppades\n
+Programmet % stoppat\n
+utan orsak.\n
+%s\n
+\t\n
+
+49:
+Kritisk del ej avslutad\n
+Ett spänningsbortfall inträffade\n
+i mitten av en kritisk del för\n
+programmet %!%s\n
+%s\n
+\t\n
+
+4901:
+Systemet försöker att självläka.
+4902:
+Ett väntande fel tas bort från kön.
+4903:
+Ett väntande avslut tas bort från kön.
+4904:
+Detta kan leda till en extra program-\n
+cykel.
+4905:
+Programmet kommer att\n
+startas från början.
+4906:
+Nästa varmstart kommer att återställa\n
+alla progr. och anv. progr. försvinner.
+4907:
+Försök att spara användarprogramet och\n
+gör en varmstart.
+50:
+Utförande inställt\n
+Återstarten kommer att klargöra\n
+utförandet i program\n
+%!%.16s av en %s\n
+\t\n
+%s
+5001:
+Ström På systemutfallsrutin
+5002:
+Stoppa systemutfallsrutinen.
+5003:
+Nöd Stopp systemutfallsrutin
+5004:
+Starta systemutfallsrutinen.
+5005:
+Återstarta systemutfallsrutinen.
+5006:
+Återställ systemutfallsrutinen.
+5007:
+Intern systemutfallsrutin
+5008:
+Användarrutin
+51:
+Händelserutins-fel.\n
+Programmet %!%s kunde inte starta den\n
+specificerade systemhändelse-srutinen\n
+%s\n
+Rutinen är antingen okänd av systemet\n
+eller olänkbar.\n
+\t\n
+Placera rutinen i en systemmodul.\n
+eller korrigera programmet.
+52:
+Återgångs-start\n
+En återgångsrörelse har startats.\n
+\t\n
+
+53:
+Återgång klar\n
+Återgångsrörelsen är klar.\n
+\t\n
+
+54:
+Regain rejected\n
+Regain on path not possible one client\n
+has already order it.\n
+\t\n
+A new regain movement is ordered during\n
+an already started regain movement.\n
+Reduce the number of start order from\n
+e.g system I/O
+60:
+Test av enable-slinga\n
+Enable-slingan testas alltid vid\n
+uppstart. Om testet misslyckades\n
+följer ett felmeddelande rörande\n
+enable.\n
+\t\n
+Om enable-slingan misslyckades\n
+vid uppstart kommer följande\n
+felmeddelande vara\n
+"Enable chain timeout".
+70:
+Backup-steg klart.\n
+Backup-en %!%s är klar.\n
+\t\n
+
+7000:
+Steg preparera backup
+7001:
+Steg konfigurations-backup
+7002:
+av system
+71:
+Backup-fel\n
+Fel under backup\n
+av %!%!%s\n
+%s\n
+\t\n
+%s\n
+
+7100:
+steg preparera backup
+7101:
+steg konfigurations-backup
+7102:
+steg task backup
+72:
+Återställnings-steg klart\n
+Återställningen %!%s\n
+är klar.\n
+\t\n
+
+7200:
+steg preparera
+7201:
+steg konfiguration
+7202:
+av task
+7203:
+av system
+73:
+Återställningsfel\n
+Fel under återställning\n
+av %!%!%s\n
+%s\n
+\t\n
+%s\n
+
+7260:
+Del kan inte raderas.
+7261:
+Lagrings-media fullt.
+7262:
+Okänt task
+7263:
+Åtminstone ett modulnamn är för långt.
+7264:
+Skrivfel
+7265:
+Nuvarande system och backupen\n
+överränsstämmer ej.
+7266:
+Fel vid återställning av\n
+konfigurationsparametrar.
+7267:
+Fel vid återställning av\n
+konfigurationsparametrar.
+7268:
+Systemversionen matchar\n
+inte backupen.
+7269:
+Katalogen saknar åtminstone en\n
+nödvändig del.
+7270:
+
+7271:
+Strukturen är för djup.
+7272:
+Skrivfel, konfigurationsparametrar.
+7273:
+Läsfel, konfigurationsparametrar
+7274:
+Fel vid lagring av backup.
+7275:
+Kan ej skapa katalog.
+7276:
+Katalogen existerar ej.
+7277:
+Katalogen saknar åtminstone en\n
+nödvändig del.
+7278:
+Katalogen innehåller delar som\n
+ska skapas.
+7279:
+
+7300:
+steg preparera
+7301:
+steg konfiguration
+7302:
+steg task-konfiguration
+7303:
+steg användar-task
+74:
+NFS servern uppe.\n
+Kopplingen till NFS-servern\n
+'%s' fungerar.\n
+Alla enheter som är remote-monterade\n
+från denna server är nu tillgängliga.\n
+\t\n
+
+75:
+NFS servern nere.\n
+Kopplingen till NFS-servern\n
+'%s' har förlorats.\n
+Inga enheter som är remote-monterade\n
+från denna server är nu tillgängliga.\n
+\t\n
+
+80:
+Bakgrunds-task %s\n
+har en äldre version av modulen\n
+installerad än källan\n
+%s\n
+\t\n
+Återstarta systemet med en P-START\n
+för att installera den nya versionen.
+81:
+Bakgrunds-task %s\n
+Misslyckades att ladda en nyare version\n
+av en modul. Modulens källa är\n
+%s\n
+\t\n
+Se föregående meddelande för orsaken,\n
+Eller återstarta systemet med en P-START\n
+för att ladda den nya versionen.\n
+
+82:
+RAPID Task supervision\n
+Task %s is not running\n
+the system will be set in SysFail\n
+state. It's now impossible to change\n
+to motors on\n
+%s\n
+\t\n
+See previous messages for the cause\n
+Restart the system to reset the\n
+error state
+83:
+RAPID Task supervision\n
+Task %s is not running\n
+the system will be set in motors off\n
+state.\n
+%s\n
+\t\n
+See previous messages for the cause\n
+ 
+84:
+RAPID Task supervision\n
+Task %s is not running\n
+the main task will also stop\n
+%s\n
+\t\n
+See previous messages for the cause\n
+
+88:
+Restart not possible\n
+Restart is not possible from the\n
+current program position.\n
+The Program Pointer must be moved\n
+before restart.\n
+\t\n
+Reason:\n
+The system has been in system\n
+failure state  or\n
+the program execution is blocked.\n
+ 
+89:
+A P-Start is ordered\n
+%s\n
+\t\n
+
+8901:
+The P-Start has been ordered from\n
+the system.
+8902:
+The P-Start has been ordered manually or\n
+automatically during a configuration.
+8903:
+The P-Start has been ordered from\n
+I/O unit.
+90:
+P-Start done\n
+An ordered P-Start is done.\n
+All tasks are reset\n
+and all user programs are lost.\n
+\t\n
+
+91:
+(Re)start not possible\n
+(Re)start is not possible due to lost\n
+contact with IO module\n
+%s configured with\n
+trustlevel 3.\n
+\t\n
+

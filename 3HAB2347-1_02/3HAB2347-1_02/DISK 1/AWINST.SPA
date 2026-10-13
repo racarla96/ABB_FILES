@@ -1,0 +1,232 @@
+
+37::
+0:
+Soldadura arco
+1:
+
+2:
+Sist.sold.arco
+3:
+Nombre
+4:
+nombre
+5:
+unidades
+6:
+funciones
+7:
+equipo
+8:
+Unidades sold. arco
+9:
+Nombre
+10:
+nombre
+11:
+velocidad
+12:
+longitud
+13:
+alimentacion hilo
+14:
+Funciones sold. arco
+15:
+Nombre
+16:
+nombre
+17:
+distancia rearranque
+18:
+nro de reintentos
+19:
+rascado
+20:
+anchura rascado
+21:
+direccion rascado
+22:
+precalentamiento
+23:
+oscilacion
+24:
+sinc oscilacion
+25:
+relleno crater
+26:
+oscilacion relleno
+27:
+postquemado
+28:
+enrollar atras
+29:
+ajuste online
+30:
+Equipo sold. arco
+31:
+Nombre
+32:
+nombre
+33:
+alim. hilo manual
+34:
+inhibicion sold.
+35:
+inhibicion oscil.
+36:
+Supervision arco
+37:
+tiempo espera ign
+38:
+supervision tension
+39:
+supervision agua
+40:
+supervision hilo
+41:
+supervision gas
+42:
+estado sold. arco
+43:
+supervision gas
+44:
+control gas
+45:
+control potencia
+46:
+Tiempo arco previo
+47:
+arrastre hilo
+48:
+arrastre hilo atras
+49:
+sinc oscil. izq
+50:
+sinc oscil. der
+51:
+port prog. sold.
+52:
+
+53:
+tipo port prog.sold.
+54:
+tension sold.
+55:
+
+56:
+ajuste tension
+57:
+
+58:
+alimentacion hilo
+59:
+
+60:
+ajuste corriente
+61:
+
+62:
+rearranque
+63:
+veloc. recup.
+64:
+tiempo ciclo rascado
+65:
+paro proceso
+66:
+llamada subrutina
+67:
+rearranque
+68:
+retraso arco OK
+69:
+supervis. corriente
+70:
+estado hilo pegado
+71:
+strobe prog.sold.
+72:
+proceso parado
+73:
+supervision arco
+74:
+supervision tension
+75:
+supervis. corriente
+76:
+supervision agua
+77:
+supervision gas
+78:
+supervis. alim. hilo
+79:
+cm/min
+80:
+mm/s
+81:
+ppm
+82:
+mm
+83:
+pulgadas
+84:
+m/min
+85:
+mm/s
+86:
+ppm
+87:
+Activado
+88:
+Desact.
+89:
+Binario
+90:
+Pulsos
+91:
+weldguide
+92:
+wg lista
+93:
+wg track
+94:
+sinc izq wg
+95:
+sinc der wg
+96:
+corr altura wg
+97:
+corr lateral wg
+98:
+dato wg valido
+99:
+confirm dato wg
+100:
+inhib wg
+101:
+Weldguide sold. arco
+102:
+weldguide
+103:
+Nombre
+104:
+nombre
+105:
+precond
+106:
+inhib superv
+107:
+inhib auto
+108:
+track
+109:
+V
+110:
+supervision antorcha
+111:
+supervision antorcha
+112:
+CAN
+113:
+rascado ignicion opc
+114:
+datos ignicion

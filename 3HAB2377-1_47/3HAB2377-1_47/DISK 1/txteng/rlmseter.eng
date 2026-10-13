@@ -1,0 +1,17 @@
+58::
+
+58:
+Both parameters must be >= 0
+
+59:
+Both parameters must be > 0 and <= 100
+
+60:
+Quaternion error
+
+62:
+Axis should not be less than 0
+
+63:
+SDB error
+

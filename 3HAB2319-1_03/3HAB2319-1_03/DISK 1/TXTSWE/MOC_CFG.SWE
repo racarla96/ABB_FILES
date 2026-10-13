@@ -1,0 +1,652 @@
+33::
+1:
+Manipulator
+2:
+Rörelsesystem
+3:
+Namn
+4:
+Namn
+5:
+Version
+6:
+Broms till tid
+7:
+Hastighetsupplösning
+8:
+Kölängd Dynamisk upplösning
+9:
+0.3
+10:
+0.50
+11:
+0.67
+12:
+0.83
+13:
+1.00
+14:
+Banupplösning
+15:
+Kötid
+16:
+17:
+Min temp skåp
+18:
+Max temp skåp
+19:
+Min temp robot
+20:
+Max temp robot
+21:
+Namn
+22:
+Mekanisk enhet
+23:
+Namn
+24:
+Namn
+25:
+Använd run enable
+26:
+Använd akt.relä
+27:
+Använd bromsrelä
+28:
+Använd robot
+29:
+Använd singel 1
+30:
+Använd singel 2
+31:
+Använd singel 3
+32:
+Använd singel 4
+33:
+Använd singel 5
+34:
+Använd singel 6
+35:
+Anv.koord. flyttas av
+36:
+Stand by tillstånd
+37:
+Ja
+38:
+Nej
+39:
+Hast offset vid start
+40:
+Ja
+41:
+Nej
+42:
+Aktivera vid uppstart:
+43:
+Ja
+44:
+Nej
+45:
+Tillåt ej deaktivera
+46:
+Ja
+47:
+Nej
+48:
+Relä
+49:
+Namn
+50:
+Namn
+51:
+Utsignal
+52:
+Insignal
+53:
+Inverterad ingång
+54:
+Ja
+55:
+Nej
+56:
+Fördröj.tid
+57:
+Robot
+58:
+Namn        Typ         Leder
+59:
+Namn
+60:
+Använd robottyp
+61:
+Använd led 1
+62:
+Använd led 2
+63:
+Använd led 3
+64:
+Använd led 4
+65:
+Använd led 5
+66:
+Använd led 6
+67:
+Bas.koord. x
+68:
+Bas.koord. y
+69:
+Bas.koord. z
+70:
+Bas.koord. u0
+71:
+Bas.koord. u1
+72:
+Bas.koord. u2
+73:
+Bas.koord. u3
+74:
+Bas.koord. flyttas av
+75:
+Singel
+76:
+Namn        Typ         Leder
+77:
+Namn
+78:
+Använd singel-typ
+79:
+Använd led
+80:
+M94 singel- koord
+81:
+Nej
+82:
+Ja
+83:
+Bas.koord. x
+84:
+Bas.koord. y
+85:
+Bas.koord. z
+86:
+Bas.koord. u0
+87:
+Bas.koord. u1
+88:
+Bas.koord. u2
+89:
+Bas.koord. u3
+90:
+Bas.koord. coord
+91:
+Singeltyp
+92:
+Namn
+93:
+Mekanik
+94:
+TRACK
+95:
+CONVEYOR
+96:
+TOOL_ROT
+97:
+FREE_ROT
+98:
+Led
+99:
+Leder
+100:
+Namn
+101:
+Logisk axel
+102:
+Använd axel-kanal
+103:
+Använd arm
+104:
+Använd broms
+105:
+Använd övervakning
+106:
+Använd axel-filter
+107:
+Använd drivsystem
+108:
+Okal. styrningstyp
+109:
+UCCM0
+110:
+Okal. styrning
+111:
+Styrningstyp
+112:
+UCCM0
+113:
+LCM0
+114:
+FFWCM0
+115:
+FFWCM1
+116:
+FFWCM2
+117:
+FFWCM3
+118:
+Normal styrning
+119:
+Axel-kanal
+120:
+Namn
+121:
+Namn
+122:
+Mätsystem-kanal
+123:
+Mätsystem hårdvara
+124:
+Ej def
+125:
+Seriell
+126:
+Par. rel
+127:
+Par. abs
+128:
+Omvänd rotation
+129:
+Normal
+130:
+Omvänd
+131:
+Arm
+132:
+Namn        Typ
+133:
+Namn
+134:
+Använd armtyp
+135:
+Använd kontrollpunkt
+136:
+Använd armlast
+137:
+Roterande rörelse
+138:
+Ja
+139:
+Nej
+140:
+Rot. centrum_x av axel
+141:
+Rot. centrum_y av axel
+142:
+Rot. centrum_ z av axel
+143:
+Rotation av axel (u 0)
+144:
+Rotation av axel (u 2)
+145:
+Rotation av axel (u2)
+146: 
+Rotation av axel (u3) 
+147:
+Överf. utväxling
+148:
+Överf. utväxling hög
+149:
+Överf. utväxling låg
+150:
+Max arbetsområde
+151:
+Min arbetsområde
+152:
+Kalibreringsposition
+153:
+Nominell acceleration
+154:
+Nominell inbromsning
+155:
+Nom broms derivata
+156:
+Nom broms derivata
+157:
+Överf. tröghet
+158:
+Arm kontrollpunkt
+159:
+Namn
+160:
+Namn
+161:
+Kontrolltyp
+162:
+Position
+163:
+Ingen
+164:
+Position x
+165:
+Position y
+166:
+Position z
+167:
+Armlast
+168:
+Namn
+169:
+Namn
+170:
+Längd
+171:
+Vikt
+172:
+Masscentrum x
+173:
+Masscentrum y
+174:
+Masscentrum z
+175:
+Tröghet x
+176:
+Tröghet y
+177:
+Tröghet z
+178:
+Broms
+179:
+Namn
+180:
+Namn
+181:
+Styr av hast.gräns
+182:
+Styr av fördröj
+183:
+Broms till fördröj
+184:
+Broms moment
+185:
+Broms ramp hastgräns
+186:
+Använd bromstyp
+187:
+Bromstyp
+188:
+Namn
+189:
+Namn
+190:
+Tröghet
+191:
+Övervakning
+192:
+Namn        Typ
+193:
+Namn
+194:
+Använd övervakningstyp
+195:
+Påslag pos överv
+196:
+Till
+197:
+Från
+198:
+Räknarövervakning
+199:
+Till
+200:
+Från
+201:
+Pos övervakning
+202:
+Till
+203:
+Från
+204:
+Hast övervakning
+205:
+Till
+206:
+Från
+207:
+Lastövervakning
+208:
+Till
+209:
+Från
+210:
+Jam övervakning
+211:
+Till
+212:
+Från
+213:
+I positionsområde 
+214:
+Nollhastighet ( % )
+215:
+Övervakningstyp
+216:
+Namn
+217:
+Namn
+218:
+Dyn påslag pos gräns
+219:
+Max överlasttid
+220:
+Max jam tid
+221:
+Teach max sp main
+222:
+Teach norm low spd
+223:
+Teach max sp dsp
+224:
+Drivsystem
+225:
+Drivsystem
+226:
+Namn
+227:
+Externt
+228:
+Ja
+229:
+Nej
+230:
+Använd spänning
+231:
+Använd trafo
+232:
+Använd DC-länk
+233:
+Använd drivdon
+234:
+Strömöverföring f
+235:
+Använd kabel
+236:
+Använd motor
+237:
+Termisk driftcykel
+238:
+Max. driftcykel
+239:
+Växellåda
+240:
+Spänning
+241:
+Spänning
+242:
+Namn
+243:
+Spänn.tolerans min
+244:
+Spänn.tolerans max
+245:
+Trafo
+246:
+Trafo
+247:
+Namn
+248:
+Använd trafotyp
+249:
+Power max
+250:
+Temp ambient rise
+251:
+Power ternisk
+252:
+Trafo-typ
+253:
+Typ
+254:
+Namn
+255:
+Sekundär spänning
+256:
+DC länk
+257:
+Namn        Typ
+258:
+Typ
+259:
+Namn
+260:
+Drivdon
+261:
+Namn      Typ
+262:
+Namn
+263:
+Använd drivdonstyp
+264:
+i_max
+265:
+Drivdonstyp
+266:
+Namn      Typ
+267:
+Namn
+268:
+Typ
+269:
+Strömkonstant
+270:
+Hast.konstant
+271:
+Max hast offset
+272:
+Kabel
+273:
+Kablar
+274:
+Namn
+275:
+Använd kabeltyp
+276:
+Längd
+277:
+Motor
+278:
+Namn        Typ
+279:
+Namn
+280:
+Använd motortyp
+281:
+Kommuteringsoffset
+282:
+Kom offset korrekt
+283:
+Ja
+284:
+Nej
+285:
+Kalibreringsoffset
+286:
+Kal offset korrekt
+287:
+Ja
+288:
+Nej
+289:
+Motortyp
+290:
+Namn
+291:
+Namn
+292:
+Polpar
+293:
+ke  ( V/rad/s )
+294:
+Max ström (A rms)
+295:
+Termisk driftcykel
+296:
+Termiska driftcykler
+297:
+Namn
+298:
+Medelmoment 0
+299:
+Max driftcykel
+300:
+Max driftcykler
+301:
+Namn
+302:
+Hast abs. max
+303:
+Moment abs. max
+304:
+Växellåda
+305:
+Växellåda
+306:
+Namn
+307:
+Okal. styrning 0
+308:
+Namn
+309:
+Namn
+310:
+Kp, först. pos loop
+311:
+Kv, först.hast loop
+312:
+Ti I-tid hast loop
+313:
+Hast max okal.
+314:
+Acc max okal.
+315:
+Deacc. max okal.
+316:
+Styrning 0
+317:
+Namn
+318:
+Namn
+319:
+Kp, först. pos loop
+320:
+Kv, först. hast loop
+321:
+Ti I-tid hast loop
+322:
+Notch- filter aktivt
+323:
+Ja
+324:
+Nej
+325:
+Notch- filter frekvens
+326:
+Notch- filter bredd

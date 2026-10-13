@@ -1,0 +1,83 @@
+30::
+0:
+Controlador
+1:
+Seguridad
+2:
+Funcion
+3:
+Activo
+4:
+VERDADERO
+5:
+FALSO
+6:
+Funcion     Activo
+7:
+HoldToRun
+8:
+POWER_ON
+9:
+START
+10:
+STOP
+11:
+QSTOP
+12:
+RESTART
+13:
+RESET
+14:
+Rutinas evento
+15:
+Evento      Rutina
+16:
+Evento
+17:
+Rutina
+18:
+Tareas
+19:
+Tarea
+20:
+Prog
+21:
+Tarea 1er plano
+22:
+Tipo
+23:
+Entrada principal
+24:
+NORMAL
+25:
+STATIC
+26:
+SEMISTATIC
+27:
+Tarea       Prog        Tipo
+28:
+Tarea
+29:
+Modulos tarea
+30:
+Archivo
+31:
+Tarea       Archivo
+32:
+Distancia recup.
+33:
+Modo
+34:
+Dist_Tcp
+35:
+Rot_Tcp
+36:
+Dist_Ext
+37:
+Rot_Ext
+38:
+Modo        Dist-Tcp    Rot-Tcp
+39:
+MAN
+40:
+AUTO

@@ -1,0 +1,57 @@
+RLSYM::
+
+
+101:
+Das Symbol %s ist vom\n
+Typ %s, nicht vom erwarteten\n
+Typ %s. 
+
+102:
+Das Symbol %s ist\n
+read-only.\n
+RAISE CODE: ERR_SYM_ACCESS=%d
+
+103:
+Das Symbol %s nicht gefunden.\n
+RAISE CODE: ERR_SYM_ACCESS=%d
+
+104:
+Mehrdeutiges Symbol %s.
+
+105:
+Suchfehler für\n
+das Symbol %s.
+
+106:
+Das Symbol %s\n
+ist kein lesbares Objekt.\n
+RAISE CODE: ERR_SYM_ACCESS=%d
+
+107:
+Unbekannter Modulname %s
+
+108:
+Mehrdeutiger Modulname %s
+
+109:
+Mehrdeutiger Routinenname %s
+
+110:
+Unbekannter Routinenname %s
+
+111:
+Nach einem Objekt\n
+vom Typ %s\n
+kann nicht gesucht werden.
+
+112:
+Das Symbol %s ist\n
+in diesem Bereich nicht verfügbar.\n
+RAISE CODE: ERR_SYM_ACCESS=%d
+
+113:
+In der Instruktion %s\n
+Der Parameter %s\n
+kann nicht verwendet werden ohne\n
+den Parameter %s.
+

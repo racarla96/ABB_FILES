@@ -1,0 +1,367 @@
+16::
+0:
+Werkzeug Koordinaten Definition
+1:
+Werkzeug
+2:
+Methode
+3:
+Punkt                  Status
+4:
+(Beschr)
+5:
+KorPos
+6:
+ Abbruch
+7:
+  OK
+8:
+Werkzeug Koordinaten Definition
+9:
+Position von/bis
+10:
+Werkzeug Berechnungs Resultat
+11:
+TCP
+12:
+Berechnungs Log
+13:
+Datei...
+14:
+Wähle Positionsfeld aus
+15:
+Feldname
+16:
+Wähle Werkzeug Definitions Methode!
+17:
+Methode  Info
+18:
+Methode  Name
+19:
+-
+20:
+Modifiziert
+21:
+Pos Von
+22:
+Methode
+23:
+Mittlerer Fehler
+24:
+Max. Fehler
+25:
+Berechnungs log speichern als Datei
+26:
+Quaternion 1
+27:
+Quaternion 2
+28:
+Quaternion 3
+29:
+Quaternion 4
+30:
+Anzeige Positions Datenfeld vom Typ
+31:
+  (OK)
+32:
+
+33:
+Keine
+34:
+Werkzeug Daten nicht\n
+gefunden!\n
+\n
+    < Weiter mit ENTER >
+35:
+Werkobjekt Daten nicht\n
+gefunden!\n
+\n
+    < Weiter mit ENTER >
+36:
+Pose Daten nicht\n
+gefunden!\n
+\n
+    < Weiter mit ENTER >
+37:
+Werkzeug im -Bewegen- Fenster\n
+nicht verwendbar!\n
+Werkzeug muß vom Typ\n
+Speichernd sein.\n
+    < Weiter mit ENTER >
+38:
+Werkobjekt im -Bewegen- Fenster\n
+nicht verwendbar!\n
+Werkobjekt muß vom Typ\n
+Speichernd sein.\n
+    < Weiter mit ENTER >
+39:
+Kartesisch X
+40: 
+(Neu)
+41: 
+(Lösche)
+42:
+Definiert
+43:
+Kartesisch Y
+44:
+Kartesisch Z
+45:
+Positionierer Anw. Koord. Definition
+46:
+Positionierer Anw.Koord. Berechn. Result
+47:
+Wähle Definitions Methode!
+48:
+Einheit
+49:
+Manipulator Basis Koord. Definition
+50:
+Manip. Basis Koord. Berechn. Resultat
+51:
+Setze Referenzpunkt
+52:
+(KorPos)
+53:
+Welt Koordinaten für festen\n
+Referenzpunkt eingeben.
+54:
+Lin Single Anwender Koord. Definition
+55:
+Lin Single Anw Koord. Berechn. Resultat
+56:
+Rot Single Anwender Koord. Definition
+57:
+Rot Single Anw Koord. Berechn. Resultat
+58:
+Verfahrachse Basis Koord. Definition
+59:
+Verfahr. Basis Koord. Berechn. Resultat
+60:
+Setze..
+61:
+Methode Beweg.
+62:
+X
+63:
+Y
+64:
+Z
+65:
+Parameter überschreiben?\n
+Vorhandene Parameter werden \n
+überschrieben.\n
+\n
+Weiter mit OK?
+66:
+Mech. Einheit Achsen Definition
+67:
+Mech. Einheit Achsen Berechn. Result.
+69:
+Achsen
+100:
+WerkObjekt Koordinaten Definition
+101:
+WerkObjekt Koordinaten Beschreibung
+102:
+WerkObjekt Berechn. Result.
+103:
+Auswahl Positions Datenfeld
+104:
+WObj
+105:
+Anw. Methode
+106:
+Obj. Methode
+107:
+Objekt Methode wählen
+108:
+Anwender Methode wählen
+109:
+Anw. Pos. von/bis
+110:
+Objekt Pos von/bis
+111:
+Anw
+112:
+Obj
+200:
+Verschiebe Koord. Definition
+201:
+Verschiebe Koord. Beschreibung
+202:
+Verschiebe Koord. Berechn. Result.
+203:
+Auswahl Positions Datenfeld
+204:
+Verschieb
+205:
+Orig
+206:
+Anzahl der Punkte
+207:
+Auswahl neue Methode
+500:
+n Punkte (n=%d)
+501:
+Ausgangs Punkt
+502:
+Verschobener Punkt
+503:
+Punkt
+504:
+Negativ X
+505:
+Positiv X
+506:
+Positiv Y
+507:
+4 Punkte
+508:
+Orientierung der Basis Koordinaten\n
+wie Welt Koordinaten System.
+509:
+Meßpunkt 1
+510:
+Meßpunkt 2
+511:
+Meßpunkt 3
+512:
+Meßpunkt 4
+513:
+Meßpunkt 5
+514:
+Meßpunkt 6
+515:
+Meßpunkt 7
+516:
+Meßpunkt 8
+517:
+Meßpunkt 9
+518:
+Meßpunkt 10
+519:
+Richtungspunkt X
+520:
+Richtungspunkt Z
+521:
+4 Punkte XZ
+522:
+X und Y Richtung benutzt zum Definieren\n
+der Richtung des Basis Koord. Systems.
+523:
+4 Punkte TCP
+524:
+Die Orientierung ist wie die\n
+Orientierung des Flansches.
+525:
+5 Punkte TCP & Z
+526:
+X und Y Richtung bleibt möglichst\n
+wie X und Y des Flansches.
+527:
+6 Punkte TCP & XZ
+528:
+Der TCP und die Werkzeugrichtungen\n
+X, Y und Z sind definiert.
+529:
+3 Punkte
+530:
+Drei Anwender Punkte. Zwei auf der\n
+X- und einer auf der Y-Koordinate.
+531:
+Anwender
+532:
+Objekt
+533:
+Drei Objekt Punkte. Zwei auf der\n
+X- und einer auf der Y-Koordinate.
+534:
+4 Pkt Orient. bleibt
+535:
+Die Werkzeug Orientierung\n
+bleibt unbeeinflußt.
+536:
+Keine Änderung
+537:
+Definition des Anwender-Koordinaten-\n
+systems wird nicht beeinflußt.
+538:
+Definition des Objekt-Koordinaten-\n
+systems wird nicht beeinflußt.
+539:
+Keine Änderungen der Definition\n
+des Koordinatensystems.
+550:
+Raumfestes Werkzeug Koord. Definition
+551:
+Verw. Werkzg
+552:
+Definition eines raumfesten\n
+Werkzeug-Koordinatensystems\n
+nicht möglich wenn Manipulator\n
+das Werkzeug hält.\n
+    < Weiter mit ENTER >
+600:
+Spiegeln von Routinen
+601:
+Routine spiegeln
+602:
+Name gesp. Routine
+603:
+WerkObjekt
+604:
+Spiegel Ebene
+605:
+Spiegel Koordinate
+606:
+X
+607:
+Y
+608:
+Auswahl Koordinate
+609:
+Neuen Routinen Namen eingeben.
+610:
+WerkObjekt aus der Liste\n
+auswählen.
+611:
+Spiegel Ebene aus der Liste\n
+auswählen.
+612:
+Nicht verändert
+613:
+Bitte warten!\n
+\n
+Berechnung zum Spiegeln\n
+der Routine läuft.
+614:
+Nicht gespiegelt.\n
+\n
+Name der gespiegelten\n
+Routine schon vorhanden.
+615:
+Definition nicht ausführbar!\n
+Variable ist in einem\n
+-NUR_LESEN- Modul deklariert.\n
+\n
+    < Weiter mit ENTER >
+616:
+Kalibrierung eines Werkobjekts\n
+mit koord. Anwender-Koord.system\n
+wird nicht unterstützt.\n
+\n
+    < Weiter mit ENTER >
+617:
+Kalibrierung eines Werkobjekts\n
+nicht möglich wenn Manipulator\n
+das Werkobjekt hält.\n
+\n
+    < Weiter mit ENTER >
+618:
+Kalibrierung eines Werkobjekts\n
+nicht möglich wenn raumfestes\n
+Werkzeug verwendet wird.\n
+\n
+    < Weiter mit ENTER >
+

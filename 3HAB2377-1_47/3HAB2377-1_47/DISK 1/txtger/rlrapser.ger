@@ -1,0 +1,26 @@
+72::
+100:
+Der Parameter %.16s\n
+entspricht keiner geladenen Textdatei.
+101:
+Kontrolle, ob die Textdatei\n
+(richtig) installiert ist.
+102:
+Es gibt kein gültiges Datenobjekt\n
+für den IN-Parameter %s\n
+der Instruktion %s.
+103:
+Kontrolle, ob richtiges Datenobjekt\n
+vorhanden ist.
+104:
+Die RAPID-SHELL Anwenderfehlernummer\n
+%.16s muß als globale deklariert sein.
+105:
+Die -errnum- Deklaration kontrollieren.
+106:
+Das Buchen der neuen Fehlernummer\n
+%.16s ist fehlgeschlagen. Der Anfangs-\n
+wert muß -1 oder die alte Nummer sein.
+107:
+Anfangswert der neuen Fehlernummer\n
+kontrollieren.

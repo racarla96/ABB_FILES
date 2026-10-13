@@ -1,0 +1,232 @@
+
+37::
+0:
+Sald Arco
+1:
+
+2:
+Sist. Sald Arco
+3:
+Nome
+4:
+nome
+5:
+unita'
+6:
+funzioni
+7:
+dispositivi
+8:
+Unita' Sald Arco
+9:
+Nome
+10:
+nome
+11:
+velocita'
+12:
+lunghezza
+13:
+avanz. filo
+14:
+Funz. Sald Arco
+15:
+Nome
+16:
+nome
+17:
+dist. di riavvio
+18:
+nr di tentativi
+19:
+sfregamento
+20:
+ampiezza sfregam.
+21:
+direz. sfregam.
+22:
+preriscaldamento
+23:
+pendol.
+24:
+sinc. pendol.
+25:
+riempim. cratere
+26:
+riemp. con pendol.
+27:
+bruc. finale filo
+28:
+riavvolg.
+29:
+regolaz. param.
+30:
+Disp. Sald Arco
+31:
+Nome
+32:
+nome
+33:
+avanz. filo manuale
+34:
+inibiz. saldatura
+35:
+inibiz. pendol.
+36:
+contr. arco acceso
+37:
+tempo max accens.
+38:
+contr. tens. sald.
+39:
+contr. acqua raff.
+40:
+controllo filo
+41:
+controllo gas
+42:
+condiz. sald. arco
+43:
+controllo gas
+44:
+verifica gas
+45:
+verifica potenza
+46:
+tempo preattiv arco
+47:
+avanz. filo
+48:
+riavvolg. filo
+49:
+sinc. pendol. sx
+50:
+sinc. pendol. dx
+51:
+porta interf. sald.
+52:
+
+53:
+Tipo porta interf.
+54:
+tensione sald.
+55:
+
+56:
+regolaz. tensione
+57:
+
+58:
+avanz. filo
+59:
+
+60:
+regolaz. corrente
+61:
+
+62:
+riavvio
+63:
+riguadagno veloc.
+64:
+tempo ciclo sfreg.
+65:
+interruz. processo
+66:
+chiamata sotprog
+67:
+riavvio
+68:
+ritardo arco ok
+69:
+controllo corrente
+70:
+condiz. stick out
+71:
+interf. strobe
+72:
+proc. interrotto
+73:
+contr. arco
+74:
+contr. tensione
+75:
+contr. corrente
+76:
+contr. acqua raff.
+77:
+contr. gas
+78:
+contr. avanz. filo
+79:
+cm/min
+80:
+mm/s
+81:
+ipm
+82:
+mm
+83:
+inch
+84:
+m/min
+85:
+mm/s
+86:
+ipm
+87:
+On
+88:
+Off
+89:
+Binario
+90:
+Pulsato
+91:
+weldguide
+92:
+wg pronta
+93:
+wg track
+94:
+wg sinc sx
+95:
+wg sinc dx
+96:
+wg altezza corr
+97:
+wg parte corr
+98:
+dato wg valido
+99:
+dato wg ack
+100:
+inibiz. wg
+101:
+Sald Arco Weldguide
+102:
+weldguide
+103:
+Nome
+104:
+nome
+105:
+precond
+106:
+contr. inibiz.
+107:
+inibiz. auto
+108:
+track
+109:
+V
+110:
+supervisione torcia
+111:
+supervisione torcia
+112:
+CAN
+113:
+opt ignition scrape
+114:
+Dati accensione

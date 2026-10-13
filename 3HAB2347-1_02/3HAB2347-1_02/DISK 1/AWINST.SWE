@@ -1,0 +1,232 @@
+
+37::
+0:
+Bågsvetsning
+1:
+
+2:
+Bågsvets System
+3:
+Namn
+4:
+namn
+5:
+enheter
+6:
+funktioner
+7:
+utrustning
+8:
+Bågsvets Enhet
+9:
+Namn
+10:
+namn
+11:
+hastighet
+12:
+längd
+13:
+trådmatning
+14:
+Bågsvets Funktion
+15:
+Namn
+16:
+namn
+17:
+omstart avstånd
+18:
+antal försök
+19:
+skrap
+20:
+skrapbredd
+21:
+skrapriktning
+22:
+förvärmning
+23:
+pendling
+24:
+pendling synk
+25:
+kraterfyllnad
+26:
+fyllnad pendling
+27:
+efterbränning
+28:
+trådbackning
+29:
+override
+30:
+Bågsvets Utrustning
+31:
+Namn
+32:
+namn
+33:
+manuell trådmatning
+34:
+svets undertryck
+35:
+pendling undertryck
+36:
+båge övervakning
+37:
+tänd timeout
+38:
+spänning övervakning
+39:
+vatten övervakning
+40:
+tråd övervakning
+41:
+gas övervakning
+42:
+bågsvets status
+43:
+gas övervakning
+44:
+gas styrning
+45:
+spänning styrning
+46:
+båge fördröj
+47:
+trådmatning
+48:
+trådmatning bakåt
+49:
+pendling synk vr
+50:
+pendling synk hr
+51:
+svetsprogram port
+52:
+
+53:
+svetsprogram porttyp
+54:
+svets spänning
+55:
+
+56:
+spänning justera
+57:
+
+58:
+trådmatning
+59:
+
+60:
+ström justera
+61:
+
+62:
+omstart
+63:
+återgång hastighet
+64:
+skrap cykeltid
+65:
+stopp process
+66:
+anropa subrutin
+67:
+omstart
+68:
+båge ok fördröj
+69:
+ström övervakning
+70:
+tråd status
+71:
+program strobe
+72:
+process stoppad
+73:
+övervakning båge
+74:
+övervakning spänning
+75:
+övervakning ström
+76:
+övervakning vatten
+77:
+övervakning gas
+78:
+övervakning trådmat
+79:
+cm/min
+80:
+mm/s
+81:
+ipm
+82:
+mm
+83:
+inch
+84:
+m/min
+85:
+mm/s
+86:
+ipm
+87:
+På
+88:
+Av
+89:
+Binär
+90:
+Puls
+91:
+weldguide
+92:
+wg klar
+93:
+wg följning
+94:
+wg vänster synk
+95:
+wg höger synk
+96:
+wg höjdkorr.
+97:
+wg sidokorr.
+98:
+wg data korrekt
+99:
+wg data ack
+100:
+wg undertryck
+101:
+Bågsvets Weldguie
+102:
+weldguide
+103:
+Namn
+104:
+namn
+105:
+startvillkor
+106:
+överv. undertryck
+107:
+auto undertryck
+108:
+Följning
+109:
+V
+110:
+torch supervision
+111:
+supervision torch
+112:
+CAN
+113:
+opt ignition scrape
+114:
+ignition data

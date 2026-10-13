@@ -1,0 +1,278 @@
+27::
+1011:
+Tipo unidad no soportada\n
+Descripcion\Motivo:\n
+- El tipo unidad %s no esta soportada\n
+\t\n
+Comprobar:\n
+1. Cambiar nombre del tipo de unidad
+1012:
+Sobrepasamiento memoria\n
+Descripcion\Motivo:\n
+- Carta %s: demasiadas cartas del\n
+  tipo especificado\n
+\t\n
+Comprobar:\n
+1.Cambiar numero cartas para el tipo\n
+  de unidad en la configuracion.
+1013:
+Tipo de carta erronea\n
+Descripcion\Motivo:\n
+- Tipo de carta erronea conectada en\n
+  direccion %d\n
+\t\n
+Comprobar:\n
+1. Ver tipo de carta en direccion dada
+1014:
+Carta no conectada\n
+Descripcion\Motivo:\n
+- No hay carta conectada en\n
+  direccion %d\n
+\t\n
+Comprobar:\n
+1.Conectar la carta en la ranura\n
+2.Cambiar la direccion de la carta
+1028:
+Config. fuera de rango\n
+Descripcion\Motivo:\n
+- El cuarto inicial y tamaño rack\n
+  de la RIO esta fuera de rango en\n
+  carta %s\n
+\t\n
+Comprobar:\n
+1.Para el cuarto inicial 0, el tamaño\n
+  del rack debe ser menor de 4
+1029:
+Config. fuera de rango\n
+Descripcion\Motivo:\n
+- El cuarto inicial y tamaño rack\n
+  de la RIO esta fuera de rango en\n
+  carta %s\n
+\t\n
+Comprobar:\n
+1.Para el cuarto inicial 1, el tamaño\n
+  del rack debe ser menor de 3
+1030:
+Config. fuera de rango\n
+Descripcion\Motivo:\n
+- El cuarto inicial y tamaño rack\n
+  de la RIO esta fuera de rango en\n
+  carta %s\n
+\t\n
+Comprobar:\n
+1.Para el cuarto inicial 2, el tamaño\n
+  del rack debe ser menor de 2
+1031:
+Config. fuera de rango\n
+Descripcion\Motivo:\n
+- El cuarto inicial y tamaño rack\n
+  de la RIO esta fuera de rango en\n
+  carta %s\n
+\t\n
+Comprobar:\n
+1.Para el cuarto inicial 3, el tamaño\n
+  del rack debe ser 0
+1032:
+Fallo Comunicacion\n
+Descripcion\Motivo:\n
+- La carta RIO ha perdido comunicacion\n
+  con el PLC en carta con\n
+  direccion %d\n
+\t\n
+Comprobar:\n
+1. Comprobar cable de enlace con PLC\n
+2. Comprobar si el PLC esta apagado\n
+3. Comprobar baudios de la RIO\n
+4. Comprobar direcc. y grupo inicial RIO
+1035:
+Cuarto inic. fuera rango\n
+Descripcion\Motivo:\n
+- El cuarto inicial esta fuera de rango\n
+  en la carta %s\n
+\t\n
+Comprobar:\n
+1. El cuarto inicial debe estar entre\n
+   los valores 0 y 3. Cambiar la\n
+   configuracion
+1039:
+Instanc. max fuera rango\n
+Descripcion\Motivo:\n
+- Numero instancias max del tipo unidad:\n
+- %s estan fuera de rango\n
+\t\n
+Comprobar:\n
+1. Asegurarse que numero de instancias\n
+   es mayor de 0 y que no es mayor que\n
+   el numero de ranuras de ES.
+1040:
+Direccion RIO fuera rango\n
+Descripcion\Motivo:\n
+- La direccion de enlace de carta RIO\n
+- %s esta fuera de rango\n
+\t\n
+Comprobar:\n
+1. Asegurarse que direccion de enlace\n
+   de la RIO es mayor de 0 y menor de 64
+1051:
+Direccion enlace no octal\n
+Descripcion\Motivo:\n
+- Señal %s: La direccion RIO no esta en\n
+  forma octal\n
+\t\n
+Comprobar:\n
+1. Entrar nueva direccion en forma octal
+1057:
+Falta carta DSQC319\n
+Descripcion/motivo:\n
+- No hay carta tipo DSQC319\n
+  conectada en direccion %d\n
+\t\n
+Comprobar:\n
+1. Conectar carta en la ranura\n
+2. Cambiar direccion de la carta
+1060:
+Error interno DSQC319\n
+Descripcion/motivo:\n
+- La carta DSQC319 conectada\n
+  a la direccion %d\n
+  tiene un error interno\n
+\t\n
+Comprobar:\n
+1. Comprobar que bus CAN funciona bien\n
+2. Comprobar que DSQC319 funciona bien
+1062:
+Buffer recep. D319 lleno\n
+Descripcion/motivo:\n
+- Buffer recepcion lleno en carta\n
+  conectado en direccion %d.\n
+  Se pueden perder mensajes\n
+\t\n
+Comprobar:\n
+1. Reducir numero de nodos del bus Can
+1063:
+Mensaje Can perdido\n
+Descripcion/motivo:\n
+- Mensajes Can perdidos en carta\n
+  conectada en direccion %d\n
+\t\n
+Comprobar:\n
+1. Reducir numero de nodos del bus Can
+1064:
+Fallo generado por IOC\n
+Descripcion/motivo:\n
+- Fallo señales IOC en carta\n
+  DSQC260 en direccion %d\n
+\t\n
+Comprobar:\n
+1. Comprobar IOC
+1065:
+Fallo generado en DSQC260\n
+Descripcion/motivo:\n
+- Carta DSQC260 en direccion %d\n
+  esta en fallo.\n
+\t\n
+Comprobar:\n
+1. Comprobar carta DSQC260
+1066:
+Interbus-S inactivo\n
+Descripcion/motivo:\n
+- Interbus-S conectado en carta\n
+  DSQC260 en direccion %d\n
+  esta inactivo\n
+\t\n
+Comprobar:\n
+1. Comprobar nodos de Interbus-S
+1067:
+Interbus-S desconectado\n
+Descripcion/motivo:\n
+- Interbus-S asociado en carta\n
+  DSQC260 en direccion %d\n
+  desconectado o master IBS\n
+  esta en modo reset\n
+\t\n
+Comprobar:\n
+1. Comprobar nodos de Interbus-S\n
+2. Comprobar master de Interbus-S
+1068:
+IOC OK\n
+Descripcion/motivo:\n
+- IOC antes con fallo, ahora OK\n
+  Mensaje de fallo enviado a carta\n
+  DSQC260 en direccion %d\n
+\t\n
+Comprobar:\n
+1. No hacer nada
+1069:
+DSQC260 OK\n
+Descripcion/motivo:\n
+- Carta DSQC260 en direccion %d\n
+  antes con fallo, ahora OK\n
+\t\n
+Comprobar:\n
+1. No hacer nada
+1070:
+Interbus-S activo\n
+Descripcion/motivo:\n
+- Interbus-S conectado a carta\n
+  DSQC260 en direccion %d\n
+  antes inactivo, ahora OK\n
+\t\n
+Comprobar:\n
+1. No hacer nada
+1071:
+Interbus-S conectado\n
+Descripcion/motivo:\n
+- Interbus-S asociado a carta\n
+  DSQC260 en direccion %d\n
+  antes desconectado o master IBS\n
+  en modo reset, ahora OK\n
+\t\n
+Comprobar:\n
+1. No hacer nada
+1075:
+Error acceso de ES\n
+Descripcion/motivo:\n
+- No puedo leer o escribir de/a carta de\n
+  ES debido a corte de comunicacion\n
+\t\n
+Comprobar:\n
+1. Comprobar informe fallo comunicacion\n
+   para saber el motivo
+1086:
+Com. OK con RIO\n
+Descripcion/motivo:\n
+- Contacto establecido con nodo RIO\n
+  conectado en nodo direccion %d\n
+\t\n
+Comprobar:\n
+1. No hacer nada.
+1087:
+Bus Can OK\n
+Descripcion/motivo:\n
+- Contacto establecido con bus Can\n
+  conectado a DSQC319 en la\n
+  direccion %d\n
+\t\n
+Comprobar:\n
+1. No hacer nada.
+1096:
+PLC en modo programacion\n
+Descripcion/motivo:\n
+- No puedo acceder a carta PLC debido\n
+  a que PLC esta en modo programacion\n
+  o que la RIO esta configurado\n
+  incorrectamente\n
+\t\n
+Comprobar:\n
+1. PLC en modo programacion\n
+2. Comprobar configuracion RIO
+1151:
+Error bus Can\n
+Descripcion/motivo:\n
+- Aparicion anormal de error en bus\n
+  Can conectado a DSQC319\n
+  en direccion %d\n
+\t\n
+Comprobar:\n
+1. Comprobar cable de comunicacion al\n
+   bus Can

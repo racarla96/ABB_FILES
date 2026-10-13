@@ -1,0 +1,46 @@
+73::
+0:
+Bodove svarovani
+1:
+Chyba systemu bod. svar.\n
+Proces bod svar neni v klidu\n
+\t\n
+Nastavte stav procesu definovany SwInit\n
+na klidovy
+2:
+Chyba systemu bod. svar.\n
+Parametr %s\n
+\t\n
+
+3:
+Zaporna prodleva SwStart\n
+\n
+\t\n
+
+4:
+Zaporne preruseni SwInit\n
+\n
+\t\n
+
+5:
+ProcId. Duvodem je bud:\n
+-ProcId neodpovida hodnote zadane\n
+ ze SwInit\n
+-Proces bodoveho svarovani byl zrusen\n
+\t\n
+
+6:
+Chyba komunik. bod. svar.\n
+Duvod: %s\n
+\t\n
+
+7:
+Odezva pom nez rych vyzvy\n
+\n
+\t\n
+
+8:
+Dalsi spojeni BOSCH neni\n
+\n
+\t\n
+

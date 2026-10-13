@@ -1,0 +1,41 @@
+54::
+27:
+Protezione da scrittura
+28:
+Non valido per operazione di\n
+scrittura digitale
+29:
+Non valido per operazione di\n
+scrittura analogica
+30:
+Non valido per operazione di\n
+lettura digitale
+31:
+Non valido per operazione di\n
+lettura analogica
+42:
+Non valido per un'operazione di alias
+43:
+Impossibile accedere al
+44:
+Generatore evento temporale.
+46:
+Unable to read I/O signal.\n
+
+47:
+Unable to write I/O signal.\n
+
+48:
+Configuration error for I/O signal.\n
+
+49:
+Check the IO signals configuration\n
+or alias definition.
+50:
+Unable to read the I/O signal\n
+%s in unit %s.\n
+
+51:
+Unable to write to the I/O signal\n
+%s in unit %s.\n
+

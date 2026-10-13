@@ -1,0 +1,1008 @@
+25::
+0:
+Rörelse
+1:
+Allvarligt rörelsefel\n
+Ej möjligt att fortsätta rörelsen\n
+\t\n
+Gör en omstart
+21:
+Axelpositions-fel\n
+Aktuell position för axel %s\n
+för långt ifrån den beordrade\n
+positionen\n
+\t\n
+Kontrollera servo-parametrarna, yttre\n
+krafter eller hårdvaran
+22:
+För låg likriktarspänning\n
+\n
+\t\n
+Kontrollera spänningen från\n
+Motorer Till kontaktorerna\n
+Byt likriktare
+23:
+Stopp-/Återstartsfel\n
+Stoppet gjordes när för många rörelse\n
+instruktioner låg i kö för körning.\n
+Återstart ej möjlig\n
+\t\n
+Kontrollera antalet rörelseinstruktioner\n
+med argumentet \Conc.Flytta startpekaren\n
+och starta en ny rörelse.
+24:
+Hörnbanefel\n
+En passerpunkt kördes som en stoppunkt\n
+pga någon av följande orsaker:\n
+1 tidsfördröjning.\n
+2 Tätt programmerade punkter.\n
+3 Systemet kräver för hög CPU-last.\n
+\t\n
+1 Reducera antalet instruktioner\n
+  mellan rörelseinstruktionerna.\n
+2 Reducera hastigheten, utöka avståndet\n
+  mellan punkterna, använd /CONC option.\n
+3 Öka ipol_prefetch_time.
+25:
+Återstart långt från bana\n
+\n
+\t\n
+Flytta TCP tillbaka till banan
+26:
+Singularitet eller zonfel\n
+1 Roboten för nära singulära punkten\n
+2 MoveL till MoveJ hörn zon fel\n
+\t\n
+1 Använd styrspaken för att köra iväg\n
+  från singulära punkten eller kör ett\n
+  program i  robotkoordinater.\n
+2 Använd finpunkter eller modifiera\n
+  punkten
+27:
+AXEL utanför arbetsområde\n
+AXEL %s är utanför arbetsområdet\n
+\t\n
+Använd styrspaken för att köra axeln\n
+in i arbetsområdet
+28:
+Joggning i fel riktning\n
+AXEL %s är utanför arbetsområdet\n
+\t\n
+Använd syrspaken för att köra axeln\n
+i motsatt riktning.
+29:
+Roboten utanför sin gräns\n
+Roboten har nått konfigurations-\n
+gränsen för överföringsparallellogrammen\n
+\t\n
+Använd styrspaken för att köra tillbaka\n
+berörda axlar in i arbetsområdet igen.
+30:
+Roboten utanför sin gräns\n
+Joggning har utförts i fel riktning när\n
+parallellogrammen var utanför\n
+arbetsområdet.\n
+\t\n
+Använd styrspaken för att köra axeln\n
+i motsatt riktning.
+31:
+Ej tillåtet kommando.\n
+Systemparametrar kan inte\n
+ändras i MOTORER TILL\n
+\t\n
+Byt till MOTORER FRÅN.
+32:
+Kalibrering ej tillåten\n
+Ett försök har gjorts att kalibrera\n
+i MOTORER TILL.\n
+\t\n
+Byt till MOTORER FRÅN.
+33:
+Kommutering ej tillåten\n
+Ett försök har gjorts att kommutera i\n
+MOTORER TILL.\n
+\t\n
+Byt till MOTORER FRÅN.
+35:
+synkroniseringsfel\n
+Ett försök har gjorts att synkronisera\n
+i MOTORER TILL.\n
+\t\n
+Byt till MOTORER FRÅN.
+36:
+Korrekt återgång omöjligt\n
+Korrekt återgång omöjligt. Ett stopp\n
+inträffade med för många närliggande\n
+hörnbanor. Efter återstart vill roboten\n
+gå till en pos längre fram i programmet.\n
+Reducera antalet närliggande positioner,\n
+\t\n
+förläng avståndet mellan positionerna\n
+eller reducera hastigheten.
+37:
+MOTORER TILL ignoreras\n
+MOTORER TILL ignoreras för att\n
+föregående stopp ej är bekräftat.\n
+\t\n
+Beordra MOTORER TILL igen.
+41:
+Roboten är för nära\n
+singulära punkten.\n
+\t\n
+Om programkörning, använd SingArea\n
+instruktionen eller robotkoordinater.\n
+Vid joggning använd robotkoordinater.
+42:
+Systemfel\n
+\n
+\t\n
+Öka avståndet mellan täta positioner\n
+och/eller minska hastigheten och/eller\n
+byt accelerationsvärde
+50:
+Pos utanför arbetsområdet\n
+Position för IRB axel %.f\n
+är utanför arbetsområdet.\n
+\t\n
+Kontrollera arbetsobjektet.\n
+Kontrollera arbetsområdet för axeln.\n
+Kör axeln i robotkoordinater.
+52:
+Axel-hastighetsfel\n
+Hastigheten för axel %s är för hög\n
+relativt den beodrade hastigheten\n
+\t\n
+1 Kontrollera servo-param., externa\n
+  krafter på axeln eller hårdvaran\n
+2 Reducera programerad hastighet.
+53:
+Varvräknarfel\n
+För stor skillnad mellan värdet i\n
+seriemätkortet och beräknat värde i\n
+axeldatorn för axel %s\n
+\t\n
+Uppdatera varvräknaren\n
+Byt seriemätkort
+55:
+Axel lastfel\n
+Aktuellt moment på axel %s är för högt.\n
+Kan ha orsakats av fel på ladd-data, för\n
+hög acceleration, höga externa process\n
+krafter, låg temperatur eller\n
+hårdvarufel.\n
+\t\n
+1. Kontrollera last data\n
+2. Reducera accelerationen eller farten\n
+3. Kontrollera hårdvaran
+56:
+Axel kollisions fel\n
+Aktuellt moment på axel %s är högre än\n
+beordrat vid låg eller stillastående\n
+hastighet.\n
+\t\n
+Kan vara förorsakat av att roboten har\n
+kört fast eller hårdvarufel.
+57:
+Axel synkfel\n
+Positionen för axel %s efter nät-\n
+bortfallet är för långt ifrån positionen\n
+som var före nätbortfallet.\n
+\t\n
+Gör en ny uppdatering av varvräknaren.
+58:
+Verktygs koord. sys fel\n
+Verktygets Z-riktn. är nästan paralellt\n
+med banriktningen.\n
+\t\n
+Ändra verktygskoordinatsystemet så\n
+att det blir minst 3 graders avvikelse\n
+mellan Z-rikningen och banriktningen.
+59:
+Koordinatfel\n
+Definitionen av  verktyg är ej korrekt\n
+\t\n
+Kontrollera verktygs och objekt data.
+60:
+Koordinatfel\n
+Definitionen av  verktyg är ej korrekt\n
+\t\n
+Kontrollera verktygs och objekt data.
+61:
+Koordinatfel\n
+Definitionen av  verktyg är ej korrekt\n
+\t\n
+Kontrollera verktygs och objekt data.
+62:
+Cirkel programmeringsfel\n
+Start och slutpunkt för\n
+cirkeln ligger för nära varann.\n
+\t\n
+
+63:
+Cirkel programmeringsfel\n
+Cirkel positionen är för nära\n
+start eller slutpunkten av cirkeln.\n
+\t\n
+
+65:
+Utanför arbetsområdet\n
+Slutpunkten för rörelsen är utanför\n
+robotens arbetsområde eller för\n
+näre singularitet.\n
+\t\n
+Flytta slutpunkten.
+66:
+Robot inte aktiv\n
+Försök har gjorts att koordinera rörelse\n
+eller att läsa en pos. från en ej\n
+aktiv robot %s.\n
+\t\n
+Aktivera enhet via rörelse enhet\n
+sedan Jogging fönstret, eller\n
+i programmet.\n
+Kontrollera arbetsobjekt och program.
+67:
+Enhet ej aktiv\n
+Försök har gjorts att koordinera\n
+rörelse eller räkna ut position från\n
+ej aktiv enhet %s\n
+\t\n
+Aktivera enhet via rörelse enhet\n
+sedan Jogging fönstret, eller\n
+i programmet.\n
+Kontrollera arbetsobjekt och program.
+76:
+Ori-definitionsfel\n
+\n
+\t\n
+Gör en nogrann normalisering av\n
+quaternion-elementen.
+78:
+För täta positioner\n
+För många närliggande possitioner\n
+efter varandra.\n
+\t\n
+Öka avståndet mellan närliggande\n
+positioner
+79:
+Handledspendling\n
+omöjlig.\n
+\t\n
+Använd mindre pendlingsamplitud\n
+eller större TCP.
+80:
+Position ej kompatibel.\n
+Positionen ej tillgänglig för\n
+denna robotkonfigureringen.\n
+\t\n
+Ändra positionen i programmet.
+82:
+Inbromsnings begränsning\n
+Beräkning av tiden för axelinbromsning\n
+överskrider intern gräns för denna\n
+rörelse.\n
+Fortsätt inte utan att ta åtgärda\n
+orsaken till detta fel (se Check).\n
+\t\n
+Öka aktuell path_resolution eller:\n
+minska hastigheten, använd finpunkt, öka\n
+AccSet. Öka värdet på path- eller\n
+dynamic resolution.\n
+Öka std_servo_que_time.
+83:
+Hastighet minskad.\n
+Hastigheten har minskats av systemet\n
+beroende på dynamiska skäl\n
+\t\n
+Minska hastigheten och/eller använd inte\n
+närliggande positioner vid hög hastighet\n
+och/eller öka accelerationen\n
+(om under 100%).
+85:
+För många koord. system.\n
+För mek_enhet %s har mer än ett\n
+användar koordinat system definerats.\n
+\t\n
+Ta bort ett användar koordinat system\n
+eller definera en till mek_enhet.
+86:
+Singularitetsproblem.\n
+För nära handledssingularitet\n
+p g a numerisk utväxling av axel 4\n
+på IRB\n
+\t\n
+Flytta slutpunkten några inkrement.
+87:
+Singularitetsproblem.\n
+För nära handledssingularitet\n
+p g a numerisk utväxling av axel 6\n
+på IRB\n
+\t\n
+Flytta slutpunkten några inkrement.
+88:
+Återstart ej möjlig.\n
+Banan är ej möjlig att återstarta\n
+på grund av ett föregående fel.\n
+\t\n
+Flytta startpunkten\n
+och starta en ny rörelse.
+89:
+Pendling ändrad.\n
+Den beordrade pendlingen uppnåddes ej\n
+pga: Hög pendingsfrekvens, otillåtet\n
+byte av pendlingsmetod eller att\n
+SingArea/Wrist används tillsammans med\n
+handledspendling.\n
+\t\n
+Öka pendlingens periodlängd eller tid.\n
+Byt ej mellan arm och handledspendling.\n
+Använd SingArea/Off med handledspendling
+91:
+Återstart ej möjligt.\n
+Byte av enhets tillstånd gjorde\n
+återstart omöjligt.\n
+\t\n
+Flytta startpunkten och starta\n
+en ny rörelse.
+92:
+Axeldator komm. fel\n
+Ej korrekt svar från axel datorn\n
+\t\n
+Kontrollera rörelse parametrar.\n
+Kontrollera axel datorns hårdvara.
+93:
+För hög last\n
+Definierad last för hög\n
+\n
+\n
+\n
+\n
+
+94:
+Servotrimning ej möjlig.\n
+Trimningen är inte utförd för\n
+specificerad AXEL.\n
+\t\n
+
+95:
+Åtkomst nekad axel\n
+Åtkomst nekad extern axel.\n
+Kontrollera konfiguration och\n
+aktivering av extern axel.\n
+\t\n
+
+96:
+ServoTune ej tillåtet.\n
+Ej tillåtet att justera den\n
+valda axeln.\n
+\t\n
+
+100:
+Manipulatorfel.\n
+Det finns flera konfigurations eller\n
+numeriska fel i rörelsedomänen.\n
+\t\n
+Korrigera felen och prova igen.
+101:
+Manipulatorfel.\n
+'%s' är inte tillgänglig för\n
+parameter '%s' i typ '%s'\n
+med namn '%s'.\n
+\t\n
+Använd en annan\n
+För interna namn, se moc_chk.log
+102:
+Manipulatorfel.\n
+'%s' används av parametern\n
+'%s' i typ '%s' med namn\n
+'%s' är inte definerad.\n
+Använd en annan eller definiera en ny.\n
+För interna namn, se moc_chk.log\n
+\t\n
+
+103:
+Numeriskt param. fel\n
+Orienteringen definerad av parametern\n
+'%s' i typ '%s' med namn\n
+'%s' är inte normaliserad.\n
+Räkna om orienteringen.\n
+Kvadratsumman ska vara 1.\n
+\t\n
+För interna namn, se moc_chk.log
+104:
+Numeriskt param.fel\n
+Parametern ´%s´\n
+i typen ´%s´med namn\n
+´%s´ är inte ´%s´.\n
+\t\n
+Kontrollera värdet.
+128:
+Manipulatorfel\n
+Avslutar kontrollen för manipulator\n
+p g a tidigare fel.\n
+\t\n
+Korrigera tidigare fel och gör om\n
+kontrollen.
+130:
+Synkroniserings fel\n
+för axel %.s\n
+\t\n
+Synkronisera om.\n
+Gör en omstart av systemet.
+131:
+Kallibrerings fel\n
+för axel %.s.\n
+\t\n
+Kalibrera om.\n
+Gör en omstart systemet.
+132:
+Kommuterings fel\n
+för axel %.s.\n
+\t\n
+Kommutera om.\n
+Gör en omstart av systemet.
+133:
+Test signal fel\n
+Inga test signaler är tillgängliga\n
+för master-roboten.\n
+\t\n
+
+134:
+Korr. vektor varning\n
+Sensor korrektions vektors beräkningar\n
+felade beroende på föregående fel.\n
+\t\n
+
+135:
+Mjuk servo fel\n
+Mjuk servo kan inte aktiveras\n
+\t\n
+
+136:
+Mjuk servo fel\n
+Mjuk servo kan inte modifieras\n
+under rampning.\n
+\t\n
+
+137:
+Fin punkt insatt\n
+Hörnbana är ändrad till finpunkt\n
+För många på varandra följande\n
+rörelse instruktioner utan finpunkter.\n
+\t\n
+
+138:
+Armkontrollpunkt utanför\n
+Roboten har nått gränsen för\n
+Armkontrollpunkten\n
+\t\n
+Använd joysticken för att köra in\n
+inblandad axel till arbetsområdet igen
+139:
+Armkontrollpunkt utanför\n
+Joggning utfördes i fel riktning\n
+när armkontrollpunkten var utanför\n
+arbetsområdet.\n
+\t\n
+Använd joystcken för att köra axeln\n
+i motsatt riktning.
+140:
+För tung hanteringsvikt\n
+Tung hanteringsvikt orsakade\n
+statisk moment att lösa ut på\n
+axel %s\n
+\t\n
+Kontrollera och reducera\n
+hanteringsvikten för arm / handleden.\n
+Minska axelns arbetsområde för att\n
+reducera statiskt moment på grund av\n
+gravitation.
+141:
+Jogg eller Hastighetfel\n
+1. Joggings fel\n
+2. Hög hastighetsfel\n
+3. Roboten för nära singulära punkten\n
+\t\n
+1. Jogga inkrementellt.\n
+2. Reducera programmerad hastighet
+142:
+Manipulator konfig. fel\n
+Konfig. av manipulatorn misslyckades.\n
+\t\n
+Kontrollera parametervärden under\n
+Systemparametrar: Manipulator.\n
+Om systemet har bootats med fel\n
+manipulator-typ måste en kallstart\n
+utföras.
+143:
+Robotaxlars konfig. fel\n
+Verklig konfiguration är inte samma\n
+som beordrad, och/eller omorientering\n
+av axel 4/6 är för stor.\n
+\t\n
+Använd SingArea_Wrist, ConfL_Off,\n
+modifieringsposition eller lägg in\n
+mellan-punkt.
+144:
+Ramförskjutn osäker.\n
+Kalibrering av ramförskjutn osäker\n
+1. Fel TCP\n
+2. Ref. punkter felaktiga\n
+3. Ref. punkter illa placerade\n
+\t\n
+Om uppskattat fel är oacceptabelt\n
+1. Kontrollera att rätt TCP används:\n
+2. Pröva fler än 3 ref.punkter.\n
+3. Var försiktig vid inställning av\n
+   robot efter ref.punkter.
+145:
+Kinematisk begränsning.\n
+Kinematisk begränsning, ingen lösning.\n
+1. Långt segment\n
+2. Position nära singularitet\n
+3. Axel 1, 2 eller 3 utanför sitt område\n
+4. Position utom räckhåll.\n
+\t\n
+1. Sätt in en mellanpunkt för att\n
+   reducera segmentlängden.\n
+2. Använd MoveAbsJ.\n
+3-4. Kontrollera arbetsområdet.
+146:
+ Återstartbegränsning\n
+Hörnbana utförd som stoppunkt.\n
+Återstart efter kraftavbrott omöjligt\n
+nära stoppunkten.\n
+\t\n
+Använd finepoint i Move-instr före\n
+RestoPath,ActUnit,Wait eller Stop-instr\n
+för att möjliggöra återstart efter kraft\n
+avbrott.
+147:
+PF-Återstart misslyckades\n
+Återskapande av banan misslyckades\n
+\t\n
+Flytta startpunkten och starta\n
+en ny rörelse.
+151:
+MOC_MAILBOX1_ERROR\n
+Axeldatorns drivrutin misslyckades med\n
+att generera ett nytt mailbox1 avbrott\n
+eftersom det tidigare avbrottet inte\n
+blivit riktigt omhändertaget.\n
+\t\n
+Ladda om systemet.\n
+But robotdator.
+152:
+MOC_MAILBOX2_ERROR\n
+Axeldatorns drivrutin misslyckades med\n
+att generera ett nytt mailbox2 avbrott\n
+eftersom det tidigare avbrottet inte\n
+blivit riktigt omhändertaget.\n
+\t\n
+Ladda om systemet.\n
+But robotdator.
+153:
+Kommando inte tillåtet\n
+Den givna instruktionen, eller kommandot\n
+var otillåten eftersom robotprogrammet\n
+var verkställande i ett hold-läge.\n
+(%s %d %d)\n
+\t\n
+Modifiera program- eller stopprogram-\n
+utförandet innan kommandot sänds.
+154:
+Kommando inte tillåtet\n
+SingArea/Wrist läge interpolation är\n
+inte bekräftad för IRB6400C roboten.\n
+\t\n
+Återställ SINGAREA\WRIST instruktionen\n
+med SINGAREA\OFF.
+155:
+Kraftavb. återstart fel\n
+Omöjligt att återstarta Move-instr\n
+före RestoPath, ActUnit, Wait eller\n
+Stop-instr\n
+\t\n
+Gör programmet fritt från MOTION WARNING\n
+50146 Återstartbegränsning, genom att\n
+ändra Move-instr till finepoint\n
+Flytta startpunkten och starta\n
+en ny rörelse.
+156:
+Oberoende axel fel\n
+Axel %s är inte konfigurerad som en\n
+oberoende axel.\n
+\t\n
+Modifiera programet eller konfigurera\n
+axeln som en oberoende axel.
+157:
+Korr. vektor varning\n
+Sensor korrektion vektor X beräkningar\n
+misslyckades p g a tidigare fel.\n
+\t\n
+
+158:
+Sensorprocess saknas\n
+Sensorprocess saknades under\n
+initialisering. Namngiven sensorprocess\n
+%s kunde inte hittas eller\n
+initialiseras.\n
+\t\n
+Kontrollera processnamn i rörelse\n
+och processkonfigurations filerna.
+159:
+Ingen extern process\n
+Försök att koordinera rörelse eller\n
+beräkna position av single %s\n
+utan en extern process.\n
+\t\n
+Kontrollera processnamn i rörelse\n
+och processkonfigurations filerna.
+160:
+Kan inte nå position\n
+Programerad position för oberoende\n
+axel %s är utanför arbetsområdet och\n
+kan därför inte nås.\n
+\t\n
+Ändra positionen.\n
+Kontrollera gränserna för axelns\n
+arbetsområde.\n
+Kontrollera det använda arbets objektet.
+161:
+Roboten är för nära\n
+en singularitet. Detta område har\n
+kinematiska begränsningar.\n
+\t\n
+Under jogging, använd axel för axel.\n
+Under programkörning, använd MoveAbsJ.
+162:
+Internt positionsfel\n
+Fel orsakat av intern numerisk\n
+begränsning.\n
+\t\n
+Återställ oberoende axel.\n
+Reducera arbetsområdet om det är utökat.\n
+Ta bort eller separera stängnings-\n
+punkter.
+163:
+Extern Pos justering\n
+Extern Pos justering för stor.\n
+TPC fart, orienteringsfart, eller\n
+extern positionsfart överskrider\n
+tillåtet robot utförande.\n
+\t\n
+1. Reducera programerade TPC och\n
+   orienteringsfarter.\n
+2. Modifiera banan.\n
+3. WaitWObj närmare synk.\n
+4. Kör i  AUTO.
+164:
+Ober. deaktiveringsfel\n
+Oberoende deaktiveringsfel.\n
+Deaktivering av mekanisk enhet kan inte\n
+utföras i oberoende läge.\n
+\t\n
+
+165:
+Transport max avstånd\n
+Transportör positionen av %5.3f meter\n
+överskrider maximalt säkerhetsavstånd\n
+konfigurerat för transportör.\n
+\t\n
+Kontrollera transportörkonfiguration.\n
+Kontrollera maximalt avstånd för\n
+transportörposition.
+166:
+Transport pos. överfull\n
+Transportörposition överfylld vid\n
+sökning av arbetsobjekt. Arbetsobjektet\n
+gick utanför mätområdet.\n
+\t\n
+Öka programerad fart.\n
+Ändra mätväxel förhållande för att öka\n
+sökningsområde.\n
+Reducera transportörens fart.
+167:
+Varning: ny synk\n
+Varning: en ny objektsynk signal har\n
+uppkommit medan transportören är aktiv\n
+och programet körs.\n
+\t\n
+
+168:
+Ny objekt synk\n
+Ny objektsynk uppkom när transportören\n
+sökte föregående objekt. Kan inte söka\n
+två objekt samtidigt.\n
+\t\n
+Reducera transportörens fart.\n
+Öka programerad fart.
+169:
+Koordination misslyckades\n
+Koordination med den externa positionen\n
+misslyckades. Detta p g a tidigare fel,\n
+eller olämpligt användande av DeactUnit,\n
+DropWObj under koordinerad rörelse.\n
+\t\n
+
+170:
+Process saknas\n
+Extern kontrollprocess saknad under\n
+initialiseringen.\n
+Namngiven process %s\n
+kunde ej hittas eller initialiseras.\n
+\t\n
+Kontrollera processnamnet i rörelse och\n
+process konfigurationen.
+171:
+För låg hastighet.\n
+Numeriska problem vid interpolering av\n
+långa segment med mycket låg hastighet,\n
+speciellt för tunga externa axlar eller\n
+interpolering nära singularitet.\n
+\t\n
+Öka hastigheten eller dela upp segment\n
+som har längre interpoleringstid än\n
+path_resolution * 4 minuter eller använd\n
+Joint-interpolering eller flytta\n
+positionen bort från singulariteten.
+172:
+MoveJ ej tillåtet.\n
+MoveJ kan ej användas med arbetsobjekt\n
+som är koordinerat med en externt\n
+positionerad mekanisk enhet.\n
+\t\n
+Byt interpoleringstyp eller\n
+arbetsobjekt.
+173:
+Använd finpunkt.\n
+Använd finpunkt vid byte av verktyg\n
+eller koordinerat arbetsobjekt när\n
+arbetsobjektet är koordinerat med en\n
+externt positionerad mekanisk enhet.\n
+\t\n
+Skapa en finpunkt och\n
+byt sedan verktygsdata.
+174:
+WObj ej kopplat.\n
+arbetsobjektet är inte kopplat till\n
+konveyern. Robotens TCP kan inte\n
+koordineras med arbetsobjektet.\n
+\t\n
+Kontrollera om WaitWObj saknas.\n
+Kontrollera att DropWObj utföres innan\n
+koordinering avslutas.
+175:
+Konveyern i rörelse.\n
+Konveyorn var i rörelse under försök att\n
+koordinera robotens TCP med konveyerns\n
+arbetsobjekt som är i förbjudet läge.\n
+\t\n
+Det är inte möjligt att koordinera med\n
+konveyern i Manuell Reducerad Hastighet,\n
+eller att gå till Auto när konveyern\n
+är i rörelse.
+176:
+Konveyern ej aktiv.\n
+Konveyerns mekaniska enhet var inte\n
+aktiv under försök att koordinera\n
+robotens TCP med konveyerns arbetsobjekt\n
+\t\n
+Se till att konveyerns mekaniska enhet\n
+är aktiv. Kontrollera att sista\n
+koordinerade rörelsen innan DeactUnit\n
+var en finpunkt.
+177:
+Kan ej återstarta.\n
+Konveyern i rörelse vid försök att\n
+återstarta programmet efter ett stopp\n
+eller stegvis körning.\n
+\t\n
+Se till att konveyern står stilla.\n
+Alternativt, med konveyer i rörelse, kör\n
+i kontinuerligt läge i 100% eller Auto.
+178:
+Ej optimal rörelse\n
+Ej optimal rörelse.\n
+Begärt moment för högt.\n
+Manuell justering av acceleration eller\n
+fart behövs.\n
+\t\n
+Reducera accelerationen (AccSet50 100)\n
+i denna rörelse, återställ den efteråt\n
+(AccSet 100 50). Optimera utförandet\n
+genom sökning av max acceleration 50-99.\n
+Alternativt, minska farten.
+179:
+Paritetsfel på position\n
+Läser\n
+\t\n
+Kontrollera kopplingarna mellan PLC och\n
+S4. Kontrollera I/O signalernas\n
+konfigurering.\n
+
+180:
+Korr.vektor-varning\n
+Beränkning av sensorkorrektions-vektor\n
+misslyckades pga tidigare fel.\n
+\t\n
+
+181:
+Out of coupled range\n
+Joint %s and %s are out of\n
+coupled working range.\n
+\t\n
+Use the joystick to move joints into\n
+their coupled working range.
+182:
+Felaktig jogg-riktning.\n
+Axel %s och %s är utanför\n
+coupled working range.\n
+\t\n
+Use the joystick to move joints into\n
+their coupled working range.
+183:
+Robot utanför arb.område\n
+Roboten har nått\n
+Word Zone %s.\n
+\t\n
+Kontrollera skälet för World Zonen.\n
+Om nödvändigt, använd joysticken för att\n
+jogga roboten ut ur Word Zonen.
+184:
+Korr.vektor-varning\n
+Beränkning av sensorkorrektions-vektor\n
+misslyckades pga tidigare fel.\n
+\t\n
+
+185:
+Korr.vektor-varning\n
+Beränkning av sensorkorrektions-vektor\n
+misslyckades pga tidigare fel.\n
+\t\n
+
+186:
+Koordinationsfel.\n
+Omöjligt att köra robot %s\n
+med koordinerad Base Frame.\n
+Funktionen är inte installerad.\n
+\t\n
+Installera optionen Advanced Motion.
+187:
+Koordinationsfel.\n
+Omöjligt at koordinera User Frame med\n
+robot %s\n
+Funktionen är inte installerad\n
+\t\n
+Installera optionen Advanced Motion.
+188:
+Ej optimal rörelse.\n
+Ej optimal rörelse.\n
+Det beordrade momentet är för högt.\n
+Manuell justering av pendlingsfrekvens\n
+eller amplitud krävs.\n
+\t\n
+Reducera pendlingsfrekvens eller\n
+pendlingsamplitud för denna rörelse.\n
+Alternativt, reducera hastigheten.
+189:
+Reläsignal ej funnen.\n
+Signalen %s för relä %s\n
+Kan inte hittas i I/O-konfigurationen.\n
+\n
+Den mekaniska enheten som använder detta\n
+relä kommer att ignoreras.\n
+\t\n
+Kontrollera I/O-definitionen och system-\n
+parameterar i Manipulator, Typer: Relä.
+190:
+Permanent ipol-låsning\n
+Avsökt antal aktiva axlar ej lika med\n
+förväntat antal axlar..\n
+\t\n
+Kontrollera konfigurering av enhet som\n
+använder generell kinematik..
+191:
+För många TCP-hastigheter\n
+Antalet TCP-hastigheter i ett segment\n
+är för stort.\n
+Max antal TCP-hastigheter: %d.\n
+\t\n
+Kontrollera om ett segment har för många\n
+TCP-hastigheter satta eller om en\n
+sekvens av segment har ökande DipLag.
+192:
+Joggfel\n
+Joggning påbörjades för snabbt efter\n
+ett programstopp.\n
+\t\n
+Försök igen.
+193:
+Axelsynk.fel\n
+Hastigheten på axel %s var för\n
+hög innan spänningen slogs av\n
+(eller Power Failure).\n
+\t\n
+Uppdatera varvräknarna\n
+på nytt..
+194:
+Internt positionsfel.\n
+Ett fel har orsakats pga\n
+en intern numerisk begränsning.\n
+Logg. Axel nummer %2.0f.\n
+\t\n
+Dyn step 0 = %f\n
+Dyn step 1 = %f\n
+Dyn step 2 = %f\n
+Axc step = %f
+195:
+Independent-rörelsefel\n
+Axel %s kan inte köras i\n
+independent-läge.\n
+\t\n
+
+196:
+Kalibreringsfel\n
+punkt 0 och 1 för nära varandra.\n
+\t\n
+
+197:
+Kalibreringsfel\n
+punkterna 0, 1, 2 på linje eller\n
+punkt 2 för nära punkt 0 eller 1\n
+\t\n
+
+198:
+Kalibreringsfel\n
+Internt fel\n
+\t\n
+Rapportera felet.
+199:
+Kalibreringsfel\n
+Externa axlar har flyttats\n
+under kalibreringen.\n
+\t\n
+Undvik att röra på externa axlarna.
+200:
+Momentfel.\n
+Momentfel p g a\n
+för hög hastighet\n
+\t\n
+1 Kontrollera loaddata\n
+2 Reducera hastigheten.
+201:
+Orient. utanför räckvidd\n
+Felet på den programmerade orienteringen\n
+överskrider acceptabel nivå.\n
+\t\n
+1 Justera robtarget orientering.\n
+2 Justera/kolla orientering för aktuella\n
+koord.system: tool frame, base frame,\n
+user frame, object frame...
+202:
+dc-link ej konfigurerad\n
+Likriktaren(%s) och\n
+drivdonet(%s) använt\n
+av axel: %s är inte\n
+kopplade till samma serielänk.\n
+\t\n
+Välj en anna likriktare..\n
+Ändra serielänk för drivdonet.\n
+Sätt parametern '-no_dc_link'\n
+till TRUE.
+203:
+Measurement node använd\n
+measurement node för axel\n
+%s används redan.\n
+\t\n
+Välj en annan node.
+213:
+Frame rotationsfel.\n
+Troligen beroende på en onormaliserad\n
+quaternion\n
+eller positon utanför räckvidd.\n
+\t\n
+Kontrollera quaternionens\n
+normalisering\n
+eller positionens X,Y,Z värden.\n
+

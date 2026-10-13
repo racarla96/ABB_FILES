@@ -1,0 +1,758 @@
+
+
+64::
+0:
+Arcweld
+1:
+Überwachung Gas\n
+\n
+\t\n
+Stromquelle kontrollieren.\n
+Einstellungen prüfen.
+2:
+Überwachung Wasser\n
+\n
+\t\n
+Stromquelle kontrollieren.\n
+Kühlwasser nachfüllen und/oder\n
+Wasserdurchfluß am Brenner prüfen.
+3:
+Überwachung  Stromrelais\n
+\n
+\t\n
+Stromquelle kontrollieren.\n
+Stromkontaktrohr prüfen.
+4:
+Überwachung Spannung\n
+\n
+\t\n
+Stromquelle kontrollieren.\n
+Einstellungen prüfen.
+5:
+Überwachung Strom\n
+\n
+\t\n
+Stromquelle kontrollieren.\n
+Einstellungen prüfen.\n
+Abstand Stromkontaktrohr prüfen.
+6:
+Überwachung Drahtvorschub\n
+\n
+\t\n
+Stromquelle kontrollieren.\n
+Einstellungen prüfen.\n
+Drahtführungsseele und\n
+Drahtförderrollen prüfen.
+7:
+Überwach. Drahtfestbrand\n
+\n
+\t\n
+Stromquelle kontrollieren.
+8:
+Zündfehler\n
+\n
+\t\n
+Stromquelle kontrollieren.\n
+Einstellungen prüfen.\n
+Stromkontaktrohr prüfen.
+9:
+Fehler Schweißparameter\n
+Fehler bei der Übertragung\n
+der Schweißparameter.\n
+\t\n
+Eingang für Parameter_Strobe\n
+definieren.
+10:
+Fehler Schweißparameter\n
+Fehler bei der Übertragung\n
+der Schweißparameter.\n
+\t\n
+Gruppe_Schweißparameter hat\n
+vorhergehende Übertragung\n
+noch nicht beendet.
+11:
+Schweißprozeß gestoppt\n
+\n
+\t\n
+Schweißprozeß wurde über\n
+digitalen Eingang gestoppt.\n
+(Zweiter IR).
+12:
+Fehler Kraterfüllen\n
+\n
+\t\n
+Stromquelle kontrollieren.
+13:
+Brenner Überwachung\n
+\n
+\t\n
+Stromquelle und Brenner kontrollieren.
+1000:
+Fehler Pendelfigur\n
+Fehler Interpolation Pendeltyp.\n
+[Geometrie = 0, Rapid = 1]\n
+\t\n
+Pendelparameter korrigieren.
+1001:
+Fehler Pendelfigur\n
+Fehler Pendelform.\n
+[Keine Form = 0, Zig-zag_Form = 1]\n
+[V_Form  = 2, Dreieck_Form = 3]\n
+\t\n
+Pendelparameter korrigieren.
+1002:
+Fehler Pendelfigur\n
+Fehler Zykluslänge Pendelfigur.\n
+(0 - 1) [m]\n
+\t\n
+Pendelparameter korrigieren.
+1003:
+Fehler Pendelfigur\n
+Fehler Zykluszeit Pendelfigur.\n
+(0 - 100) [s]\n
+\t\n
+Pendelparameter korrigieren.
+1004:
+Fehler Pendelfigur\n
+Fehler Pendelhub.\n
+(0 - 1) [m]\n
+\t\n
+Pendelparameter korrigieren.
+1005:
+Fehler Pendelfigur\n
+Fehler Pendelhöhe.\n
+(0 - 1) [m]\n
+\t\n
+Pendelparameter korrigieren.
+1006:
+Fehler Pendelfigur\n
+Fehler Pendelverzögerung_Links.\n
+(0 - 1) [m]\n
+\t\n
+Pendelparameter korrigieren.
+1007:
+Fehler Pendelfigur\n
+Fehler Pendelverzögerung_Mitte.\n
+(0 - 1) [m]\n
+\t\n
+Pendelparameter korrigieren.
+1008:
+Fehler Pendelfigur\n
+Fehler Pendelverzögerung_Rechts.\n
+(0 - 1) [m]\n
+\t\n
+Pendelparameter korrigieren.
+1009:
+Fehler Pendelfigur\n
+Fehler Penden_MitteVor.\n
+(0 - 1) [m]\n
+\t\n
+Pendelparameter korrigieren.
+1010:
+Fehler Pendelfigur\n
+Fehler Pendel_Winkel (horizontal).\n
+(-PI/2 - PI/2) [rad]\n
+\t\n
+Pendelparameter korrigieren.
+1011:
+Fehler Pendelfigur\n
+Fehler Pendel_Neigung (vertikal).\n
+(-PI/2 - PI/2) [rad]\n
+\t\n
+Pendelparameter korrigieren.
+1012:
+Fehler Pendelfigur\n
+Fehler Pendel_Drehung.\n
+(-PI/2 - PI/2) [rad]\n
+\t\n
+Pendelparameter korrigieren.
+1013:
+Fehler Pendelfigur\n
+Fehler Pendel_Offset_Horizontal.\n
+(-1 - 1) [m]\n
+\t\n
+Pendelparameter korrigieren.
+1014:
+Fehler Pendelfigur\n
+Fehler Pendel_Offset_Vertikal.\n
+(-1 - 1) [m]\n
+\t\n
+Pendelparameter korrigieren.
+1015:
+Fehler Pendelfigur\n
+Fehler Sync_Ausgang_Links.\n
+(0 - 100) [%]\n
+\t\n
+Pendelparameter korrigieren.
+1016:
+Fehler Pendelfigur\n
+Fehler Sync_Ausgang_Rechts.\n
+(0 - 100) [%]\n
+\t\n
+Pendelparameter korrigieren.
+1017:
+Fehler Pendelfigur\n
+Unzulässige Kombination von\n
+MitteVor und Pendelfigur.\n
+MitteVor nur bei Zig-Zag zulässig.\n
+\t\n
+Pendelparameter korrigieren.
+1018:
+Fehler Pendelfigur\n
+Unzulässige Kombination von\n
+MitteVor und Pendelhub.\n
+MitteVor muß kleiner als der\n
+halbe Pendelhub sein.\n
+\t\n
+Pendelparameter korrigieren.
+1019:
+Fehler Pendelfigur\n
+Unzulässige Kombination von Verzög.-\n
+weg und Zykluslänge. Verzög.weg muß\n
+kleiner sein als die Zykluslänge.\n
+(Amplitude/Länge) ist begrenzt.\n
+\t\n
+Pendelparameter korrigieren.
+3000:
+Stromq. Konfig. Fehler\n
+\n
+\t\n
+AW und EA Konfiguration\n
+stimmen nicht überein.
+4000:
+Fehler Weldguide\n
+\n
+\t\n
+WeldGuide Parameter und\n
+Hardware kontrollieren.
+5000:
+Arcitec Konfig Fehler\n
+Unbekannte Parameter in\n
+Stromquelle\n
+\t\n
+Arcitec Konfiguration kontrollieren.
+5001:
+Arcitec Konfig Fehler\n
+Ungültige Einheit_id verwendet.\n
+\t\n
+Arcitec Konfiguration kontrollieren.
+5002:
+Arcitec Konfig Fehler\n
+Ungültige Übertragungslänge\n
+verwendet.\n
+\t\n
+Arcitec Konfiguration kontrollieren.
+5003:
+Arcitec Konfig Fehler\n
+Ungültige Anwahl_id verwendet.\n
+\t\n
+Arcitec Konfiguration kontrollieren.
+5004:
+Arcitec Konfig Fehler\n
+Arcitec Systeme mit unter-\n
+schiedlichen Einheiten.\n
+\t\n
+Arcitec Konfiguration kontrollieren.
+5005:
+Arcitec Konfig Fehler\n
+Keine Einheiten verwendet.\n
+\t\n
+Arcitec Konfiguration kontrollieren.
+5006:
+Arcitec Konfig Fehler\n
+Zu viele Einstellung Parameter.\n
+\t\n
+Arcitec Konfiguration kontrollieren.
+6000:
+Track Fehler\n
+\n
+\t\n
+Definition der Achse kontrollieren.
+6001:
+Track Start Fehler\n
+\n
+\t\n
+Definition der Achse kontrollieren.
+6002:
+Track max Bahnkorr. Fehler\n
+\n
+\t\n
+Definition der Achse kontrollieren.
+7001:
+Fehler Schweißausrüstung\n
+EPROM Checksummenfehler in\n
+Schweißdaten-Einheit beim Einschalten\n
+entdeckt.\n
+\t\n
+EPROM in Schweißdaten-Einheit defekt.\n
+Betrieb mit diesem Fehler führt zu\n
+unvorhersehbaren Resultaten.\n
+EPROM austauschen.
+7002:
+Fehler Schweißausrüstung\n
+Schreib/Lese Fehler im internes RAM der\n
+Schweißdaten-Einheit beim Einschalten\n
+entdeckt.\n
+\t\n
+Ein Speicher im int. Microprozessor-\n
+speicher fehlerhaft beim Schreib/Lese-\n
+Test. Betrieb mit diesem Fehler führt\n
+zu unvorhersehbaren Resultaten.\n
+Schweißdaten-Einheit austauschen.
+7003:
+Fehler Schweißausrüstung\n
+Schreib/Lese Fehler im externen RAM der\n
+Schweißdaten-Einheit beim Einschalten\n
+entdeckt.\n
+\t\n
+Ein Speicher im ext. Microprozessor-\n
+speicher fehlerhaft beim Schreib/Lese-\n
+Test. Betrieb mit diesem Fehler führt\n
+zu unvorhersehbaren Resultaten.\n
+Schweißdaten-Einheit austauschen.
+7004:
+Fehler Schweißausrüstung\n
+5 V DC Spannungsversorgung in\n
+Schweißdaten-Einheit  ausgefallen.\n
+\t\n
+Problem in der Spannungsversorgung,\n
+Funktion muß aber nicht beeiflußt sein.\n
+Spannung zur Schweißdaten-Einheit\n
+kontrollieren.
+7012:
+Fehler Schweißausrüstung\n
+CAN-Controller für den internen Bus\n
+in Schweißausrüstung ist im Zustand\n
+WARNING.\n
+\t\n
+Daten mehrmals ändern oder Schweiß-\n
+ausrüstung mit Hauptschalter aus/ein\n
+neustarten. Bleibt Fehler, Busstecker\n
+kontrollieren und/oder Schweißausrüstung\n
+tauschen.
+7013:
+Fehler Schweißausrüstung\n
+CAN-Controller für den externen Bus\n
+in Schweißausrüstung ist im Zustand\n
+WARNING.\n
+\t\n
+Daten mehrmals ändern oder Schweiß-\n
+ausrüstung mit Hauptschalter aus/ein\n
+neustarten. Bleibt Fehler, Busstecker\n
+kontrollieren und/oder Schweißausrüstung\n
+tauschen.
+7014:
+Fehler Schweißausrüstung\n
+CAN-Controller für den internen Bus\n
+in Schweißausrüstung ist im Zustand\n
+BUS-OFF.\n
+\t\n
+Schweißausrüstung mit Hauptschalter\n
+aus/ein neustarten.\n
+Bleibt Fehler, Busstecker kontrollieren\n
+und/oder Schweißausrüstung tauschen.
+7015:
+Fehler Schweißausrüstung\n
+Schweißdaten-Einheit hat erkannt,\n
+daß eine empfangene interne CAN\n
+Meldung verloren wurde (überschrieben\n
+durch eine spätere Meldung).\n
+\t\n
+Schweißausrüstung mit Hauptschalter\n
+aus/ein neustarten.
+7016:
+Welding equipment error\n
+Schweißdaten-Einheit hat erkannt,\n
+daß eine empfangene externe CAN\n
+Meldung verloren wurde (überschrieben\n
+durch eine spätere Meldung).\n
+\t\n
+Schweißausrüstung mit Hauptschalter\n
+aus/ein neustarten.
+7017:
+Fehler Schweißausrüstung\n
+Schweißdaten-Einheit hat Kontakt\n
+mit Drahtvorschub-Einheit verloren.\n
+\t\n
+Kabel zwischen Schweißdaten-Einheit\n
+und Drahtvorschub-Karte sowie Strom-\n
+versorgung zur Drahtvorschub-Karte\n
+kontrollieren.
+7018:
+Fehler Schweißausrüstung\n
+Schweißdaten-Einheit hat Kontakt\n
+mit Olivia -Einheit verloren.\n
+\t\n
+Kabel zwischen Schweißdaten-Einheit\n
+und Olivia-Einheit sowie Stromversor-\n
+gung zur Olivia-Einheit kontrollieren.
+7019:
+Fehler Schweißausrüstung\n
+Datenfehler im nicht flüchtigen RAM\n
+der Schweißdaten-Einheit beim Ein-\n
+schalten entdeckt.\n
+Checksummenfehler.\n
+\t\n
+Vielleicht zu niedrige Spannung der\n
+Pufferbatterie. Schweißausrüstung wird\n
+in den Ursprungszustand zurückgesetzt.\n
+Daten der Schweißausrüstung verloren.\n
+Möglicher Betrieb ohne Einschränkungen.
+7020:
+Fehler Schweißausrüstung\n
+Datenfehler im nicht flüchtigen RAM\n
+der Schweißdaten-Einheit beim Ein-\n
+schalten entdeckt. Nicht numerische\n
+Einstellungsparameter außerhalb Bereich.\n
+\t\n
+Schweißausrüstung wird in den Ursprungs-\n
+zustand zurückgesetzt.\n
+Daten der Schweißausrüstung verloren.\n
+Möglicher Betrieb ohne Einschränkungen.
+7021:
+Fehler Schweißausrüstung\n
+Ungültige Kombination von nicht\n
+numerischen Einstellungsparameter\n
+in der Schweißdaten-Einheit beim\n
+Einschalten entdeckt.\n
+\t\n
+Schweißausrüstung wird in den Ursprungs-\n
+zustand zurückgesetzt.\n
+Daten der Schweißausrüstung verloren.\n
+Schweißausrüstung mit Hauptschalter\n
+aus/ein neustarten.
+7022:
+Fehler Schweißausrüstung\n
+CAN-Bus Überlauf (ext.) Übertragungs-\n
+puffer in Schweißdaten-Einheit.\n
+\t\n
+Schweißdaten-Einheit kann Daten nicht\n
+korrekt übertragen.\n
+Schweißausrüstung mit Hauptschalter\n
+aus/ein neustarten.
+7023:
+Fehler Schweißausrüstung\n
+CAN-Bus Überlauf (ext.) Empfangs-\n
+puffer in Schweißdaten-Einheit.\n
+\t\n
+Schweißdaten-Einheit kann Daten nicht\n
+korrekt empfangen.\n
+Schweißausrüstung mit Hauptschalter\n
+aus/ein neustarten.
+7024:
+Fehler Schweißausrüstung\n
+Fragmente nicht in korrekter Reihen-\n
+folge beim Empfang einer fragmentierten\n
+Meldung in der Schweißdaten-Einheit.\n
+\t\n
+Teile einer fragmentierten Meldung nicht\n
+in richtiger Reihenfolge empfangen.\n
+Schweißdatenblock-Üertragung fehler-\n
+haft empfangen. Schweißausrüstung\n
+mit Hauptschalter aus/ein neustarten.
+7025:
+Fehler Schweißausrüstung\n
+Inkompatibles Format in Schweißdaten-\n
+block. Schweißdaten-Einheit hat Daten\n
+empfangen die in anderer Programm-\n
+version oder-format gespeichert sind.\n
+\t\n
+Korrekte Datenversion oder neue Daten\n
+eingeben.
+7026:
+Fehler Schweißausrüstung\n
+Fehler bei der Programmabarbeitung.\n
+Überwachung im Programm der\n
+Schweißdaten-Einheit aktiv.\n
+\t\n
+Schweißausrüstung mit Hauptschalter\n
+aus/ein neustarten.
+7027:
+Fehler Schweißausrüstung\n
+Nicht dokumentierter Fehler in der\n
+Schweißdaten-Einheit.\n
+\t\n
+Zusätzliche Informationen bei\n
+ESAB/ABB anfragen.
+7028:
+Fehler Schweißausrüstung\n
+Nicht dokumentierter Fehler in der\n
+Schweißdaten-Einheit.\n
+\t\n
+Zusätzliche Informationen bei\n
+ESAB/ABB anfragen.
+7029:
+Fehler Schweißausrüstung\n
+Nicht dokumentierter Fehler in der\n
+Schweißdaten-Einheit.\n
+\t\n
+Zusätzliche Informationen bei\n
+ESAB/ABB anfragen.
+7201:
+Fehler Schweißausrüstung\n
+EPROM Checksummenfehler in der\n
+Steuerungs-Einheit der Stromquelle.\n
+\t\n
+EPROM in Steuerungs-Einheit der\n
+Stromquelle ist defekt.\n
+Betrieb mit diesem Fehler führt zu\n
+unvorhersehbaren Resultaten.\n
+EPROM austauschen.
+7202:
+Fehler Schweißausrüstung\n
+Schreib/Lese Fehler im internes RAM der\n
+Steuerungs-Einheit der Stromquelle\n
+beim Einschalten entdeckt.\n
+\t\n
+Ein Speicher im int. Microprozessor-\n
+speicher fehlerhaft beim Schreib/Lese-\n
+Test. Betrieb mit diesem Fehler führt\n
+zu unvorhersehbaren Resultaten.\n
+Steuerungs-Einheit austauschen.
+7204:
+Fehler Schweißausrüstung\n
+5 V DC Spannungsversorgung in\n
+Steuerungs-Einheit der Stromquelle\n
+ausgefallen.\n
+\t\n
+Problem in der Spannungsversorgung,\n
+Funktion muß aber nicht beeiflußt sein.\n
+Spannung zur Steuerungs-Einheit der\n
+Stromquelle kontrollieren.
+7205:
+Fehler Schweißausrüstung\n
+Bus-Spannung Hochspannungsumrichter.\n
+Hardware schaltet den Umrichter aus bis\n
+die Spannung auf normalem Wert ist.\n
+\t\n
+Ursache vielleicht hoher Netzwiderstand\n
+oder Abweichungen.\n
+Schweißneustart möglich wenn Spannung\n
+unter Grenzwert.
+7206:
+Fehler Schweißausrüstung\n
+Temperatur in Stromquelle zu hoch.\n
+Umrichter abgeschaltet bis Temperatur\n
+auf normalem Wert.\n
+\t\n
+Sicherstellen das der Luftstrom in der\n
+Kühlung der Stromquelle nicht behindert\n
+wird.\n
+Warten bis Thermoschalter geschlossen\n
+ist.
+7207:
+Fehler Schweißausrüstung\n
+Hoher Strom im Umrichterkreis.\n
+Fehler einzelner Komponenten.\n
+\t\n
+Schweißausrüstung mit Hauptschalter\n
+aus/ein neustarten. Stromaufnahme\n
+der Stromquelle ohne anstehenden\n
+Startbefehl kontrollieren.
+7208:
+Fehler Schweißausrüstung\n
+PCB +15 V C Versorgungsspannung an\n
+der Steuerungs-Einheit der Stromquelle\n
+zu hoch oder zu niedrig.\n
+\t\n
+Steuerungs-Einheit der Stromquelle aus-\n
+tauschen.
+7209:
+Fehler Schweißausrüstung\n
+PCB -15 V C Versorgungsspannung an\n
+der Steuerungs-Einheit der Stromquelle\n
+zu hoch oder zu niedrig.\n
+\t\n
+Steuerungs-Einheit der Stromquelle aus-\n
+tauschen.
+7210:
+Fehler Schweißausrüstung\n
+PCB +15 V B Versorgungsspannung an\n
+der Steuerungs-Einheit der Stromquelle\n
+zu hoch oder zu niedrig.\n
+\t\n
+Steuerungs-Einheit der Stromquelle aus-\n
+tauschen.
+7211:
+Fehler Schweißausrüstung\n
+Zu großer Unterschied zwischen dem\n
+angeforderten und dem aktuellen Wert\n
+des Schweißstroms.\n
+\t\n
+Hardwareproblem im Strom Servo System\n
+(Steuerungs-Einheit der Stromquelle oder\n
+Umrichterblock) oder unnormale Last-\n
+bedingungen.\n
+(= schlechtes Schweißresultat).
+7212:
+Fehler Schweißausrüstung\n
+CAN-Controller für den internen Bus\n
+in Steuerungs-Einheit der Stromquelle\n
+ist im Zustand WARNING.\n
+\t\n
+Daten mehrmals ändern oder Schweiß-\n
+ausrüstung mit Hauptschalter aus/ein\n
+neustarten. Bleibt Fehler, Busstecker\n
+kontrollieren und/oder Schweißausrüstung\n
+tauschen.
+7215:
+Fehler Schweißausrüstung\n
+Steuerungs-Einheit der Stromquelle hat\n
+erkannt, daß eine empfangene interne\n
+CAN Meldung verloren wurde (über-\n
+schrieben durch eine spätere Meldung).\n
+\t\n
+Schweißausrüstung mit Hauptschalter\n
+aus/ein neustarten.
+7226:
+Fehler Schweißausrüstung\n
+Fehler bei der Programmabarbeitung.\n
+Überwachung im Programm der\n
+Steuerungs-Einheit der Stromquelle\n
+aktiv.\n
+\t\n
+Schweißausrüstung mit Hauptschalter\n
+aus/ein neustarten.
+7227:
+Fehler Schweißausrüstung\n
+Nicht dokumentierter Fehler in der\n
+Steuerungs-Einheit der Stromquelle.\n
+\t\n
+Zusätzliche Informationen bei\n
+ESAB/ABB anfragen.
+7228:
+Fehler Schweißausrüstung\n
+Nicht dokumentierter Fehler in der\n
+Steuerungs-Einheit der Stromquelle.\n
+\t\n
+Zusätzliche Informationen bei\n
+ESAB/ABB anfragen.
+7229:
+Fehler Schweißausrüstung\n
+Nicht dokumentierter Fehler in der\n
+Steuerungs-Einheit der Stromquelle.\n
+\t\n
+Zusätzliche Informationen bei\n
+ESAB/ABB anfragen.
+7301:
+Fehler Schweißausrüstung\n
+EPROM Checksummenfehler in der\n
+Drahtvorschub-Einheit.\n
+\t\n
+EPROM in der Drahtvorschub-Einheit\n
+ist defekt.\n
+Betrieb mit diesem Fehler führt zu\n
+unvorhersehbaren Resultaten.\n
+EPROM austauschen.
+7302:
+Fehler Schweißausrüstung\n
+Schreib/Lese Fehler im internes RAM der\n
+Drahtvorschub-Einheit beim Einschalten\n
+entdeckt.\n
+\t\n
+Ein Speicher im int. Microprozessor-\n
+speicher fehlerhaft beim Schreib/Lese-\n
+Test. Betrieb mit diesem Fehler führt\n
+zu unvorhersehbaren Resultaten.\n
+Drahtvorschub-Einheit austauschen.
+7304:
+Fehler Schweißausrüstung\n
+5 V DC Spannungsversorgung in\n
+in Drahtvorschub-Einheit  ausgefallen.\n
+\t\n
+Problem in der Spannungsversorgung,\n
+Funktion muß aber nicht beeiflußt sein.\n
+Spannung zur Drahtvorschub-Einheit\n
+kontrollieren.
+7308:
+Fehler Schweißausrüstung\n
+PCB 15 V Versorgungsspannung an\n
+Drahtvorschub-Einheit zu hoch oder\n
+zu niedrig.\n
+\t\n
+Drahtvorschub-Einheit austauschen.
+7309:
+Fehler Schweißausrüstung\n
+PCB 24 V Versorgungsspannung an\n
+Drahtvorschub-Einheit zu hoch oder\n
+zu niedrig.\n
+\t\n
+Drahtvorschub-Einheit austauschen.
+7311:
+Fehler Schweißausrüstung\n
+Zu großer Unterschied zwischen\n
+angeforderter und aktueller\n
+Drahtvorschubgeschwindigkeit.\n
+\t\n
+Hardwareproblem im Drahtvorschub\n
+Servo System oder Spannungsabfall\n
+bei 42 V AC Versorgung.
+7312:
+Fehler Schweißausrüstung\n
+Interne CAN Kommunikation fehlerhaft.\n
+CAN Kreise in Einheit für Drahtvorschub\n
+im Zustand WARNING.\n
+\t\n
+Geschwindigkeit Drahtvorschub mehr-\n
+mals ändern oder Schweißausrüstung\n
+mit Hauptschalter aus/ein neustarten.\n
+Bleibt Fehler, Busstecker kontrollieren\n
+und/oder Drahtvorschub-Einheit tauschen.
+7315:
+Fehler Schweißausrüstung\n
+Einheit für Drahtvorschub hat erkannt,\n
+daß eine empfangene interne CAN\n
+Meldung verloren wurde (überschrieben\n
+durch eine spätere Meldung).\n
+\t\n
+Schweißausrüstung mit Haupt-\n
+schalter aus/ein neustarten.
+7326:
+Fehler Schweißausrüstung\n
+Fehler bei der Programmabarbeitung.\n
+Überwachung in Programm für\n
+Drahtvorschub-Einheit aktiviert.\n
+\t\n
+Schweißausrüstung mit Haupt-\n
+schalter aus/ein neustarten.
+7327:
+Fehler Schweißausrüstung\n
+Nicht dokumentierter Fehler in\n
+Einheit für Drahtvorschub.\n
+Zusätzliche Informationen bei\n
+ESAB/ABB anfragen.\n
+\t\n
+
+7328:
+Fehler Schweißausrüstung\n
+Nicht dokumentierter Fehler in\n
+Einheit für Drahtvorschub.\n
+Zusätzliche Informationen bei\n
+ESAB/ABB anfragen.\n
+\t\n
+
+7329:
+Fehler Schweißausrüstung\n
+Nicht dokumentierter Fehler in\n
+Einheit für Drahtvorschub.\n
+Zusätzliche Informationen bei\n
+ESAB/ABB anfragen.\n
+\t\n
+
+7500:
+Fehler Datei offen\n
+Dateiname unbekannt\n
+\t\n
+
+8000:
+Ext CAN Kommunik. Fehler\n
+Zu viele Anfragen ohne Antwort.\n
+\t\n
+Kommunikations Konfiguration\n
+kontrollieren.
+9000:
+Installation error\n
+External axes are not allowed in this\n
+type of robot configuration\n
+\t\n
+Remove mechanical units

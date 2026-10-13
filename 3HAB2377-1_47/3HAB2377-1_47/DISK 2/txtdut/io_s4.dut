@@ -1,0 +1,283 @@
+27::
+1011:
+Unit type niet geldig\n
+Beschrijving\reden:\n
+- Het unit type %d wordt niet\n
+  ondersteund\n
+\t\n
+Controle lijst:\n
+1. Verander de naam van het unit type
+1012:
+Geheugen-overloop\n
+Beschrijving\reden:\n
+- Kaart %s: Te veel kaarten van\n
+  het gespecificeerde type.\n
+\t\n
+Controle lijst:\n
+1. Verander het aantal kaarten voor het\n
+   unit type in de configuratie.\n
+ 
+1013:
+Onjuist kaarttype\n
+Beschrijving\reden:\n
+- Onjuist kaarttype gekoppeld aan\n
+  adres %d\n
+\t\n
+Controle lijst:\n
+1. Controleer het kaarttype op het\n
+   gegeven adres
+1014:
+Kaart ontbreekt\n
+Beschrijving\reden:\n
+- Aan het gegeven adres %d\n
+  is geen kaart gekoppeld\n
+\t\n
+Controle lijst:\n
+1. Plaats een kaart in het slot\n
+2. Verander het kaartadres
+1028:
+Config. buiten grenzen\n
+Beschrijving\reden:\n
+- Het RIO starting quarter en rack\n
+  size zijn buiten de grenzen voor\n
+  kaart %s.\n
+\t\n
+Controle lijst:\n
+1. Voor starting quarter 0 moet de\n
+   rack size kleiner zijn dan 4.
+1029:
+Config. buiten grenzen\n
+Beschrijving\reden:\n
+- Het RIO starting quarter en rack\n
+  size zijn buiten de grenzen voor\n
+  kaart %s.\n
+\t\n
+Controle lijst:\n
+1. Voor starting quarter 1 moet de\n
+   rack size kleiner zijn dan 3.
+1030:
+Config. buiten grenzen\n
+Beschrijving\reden:\n
+- Het RIO starting quarter en rack\n
+  size zijn buiten de grenzen voor\n
+  kaart %s.\n
+\t\n
+Controle lijst:\n
+1. Voor starting quarter 2 moet de\n
+   rack size kleiner zijn dan 2.
+1031:
+Config. buiten grenzen\n
+Beschrijving\reden:\n
+- Het RIO starting quarter en rack\n
+  size zijn buiten de grenzen voor\n
+  kaart %s.\n
+\t\n
+Controle lijst:\n
+1. Voor starting quarter 3 moet de\n
+   rack size 0 zijn.
+1032:
+Communicatie storing\n
+Beschrijving\reden:\n
+- De RIO kaart heeft het contact\n
+  verloren met de PLC op het\n
+  adres %d\n
+\t\n
+Controle lijst:\n
+1. Controleer de comm. kabel naar de PLC\n
+2. Controleer of de PLC uitgeschakeld is\n
+3. Controleer de RIO Baud Rate\n
+4. Controleer RIO adres en Start Group
+1035:
+Start quart buiten bereik\n
+Beschrijving\reden:\n
+- Het starting quarter is buiten het\n
+  bereik voor kaart %s\n
+\t\n
+Controle lijst:\n
+1. Starting quarter moet een waarde\n
+   hebben tussen 0 en 3.\n
+   Verander het config bestand
+1039:
+Max instanties buiten tol\n
+Beschrijving\reden:\n
+- Het max aantal instanties voor\n
+  unit type: %s is buiten bereik.\n
+\t\n
+Controle lijst:\n
+1. Controleer dat het aantal instanties\n
+   groter is dan 0 echter niet groter\n
+   dan het aantal IO slots.
+1040:
+RIO link adres buiten tol\n
+Beschrijving\reden:\n
+- Het RIO link adres voor kaart\n
+  %s is buiten het bereik.\n
+\t\n
+Controle lijst:\n
+1. Zorg ervoor dat het RIO link adres\n
+   groter is dan 0 en kleiner is dan 64.
+1051:
+Link adres niet oktaal.\n
+Beschrijving\reden:\n
+- Signaal %s: Het RIO adres is niet\n
+  in oktale vorm.\n
+\t\n
+Controle lijst:\n
+1. Geef het adres opnieuw oktaal in.
+1057:
+DSQC319 kaart ontbreekt\n
+Beschrijving\Reden:\n
+- Geen kaart van het type DSQC319\n
+  aanwezig in het slot %d\n
+\t\n
+Controle lijst:\n
+1. Plaats kaart in bovengenoemde slot.\n
+2. Verander het adres van de kaart.
+1060:
+DSQC319 Interne fout\n
+Beschrijving\Reden:\n
+- De DSQC319 kaart aangesloten op\n
+  het adres %d geeft\n
+  een interne fout.\n
+\t\n
+Controle lijst:\n
+1. Controleer of Can bus correct werkt.\n
+2. Controleer of DSQC319 correct werkt.
+1062:
+D319 ontvangst buffer vol\n
+Beschrijving\Reden:\n
+- Ontvangst buffer vol op de kaart\n
+  aangesloten op adres %d.\n
+  Boodschappen kunnen verloren gaan.\n
+\t\n
+Controle lijst:\n
+1. Reduceer het aantal nodes op de\n
+   Can bus.
+1063:
+Can boodschap verloren\n
+Beschrijving\Reden:\n
+- Can boodschappen verloren op de\n
+  kaart aangesloten op adres %d.\n
+\t\n
+Controle lijst:\n
+1. Reduceer het aantal nodes op de\n
+   Can bus.
+1064:
+IOC fout\n
+Beschrijving\Reden:\n
+- IOC stuurt een fout naar de DSQC260\n
+  kaart op adres %d.\n
+\t\n
+Controle lijst:\n
+1. Controleer de IOC.
+1065:
+DSQC260 fout\n
+Beschrijving\Reden:\n
+- DSQC260 kaart op adres %d\n
+  genereert een fout.\n
+\t\n
+Controle lijst:\n
+1. Controleer de DSQC260 kaart
+1066:
+InterBus-S niet actief\n
+Beschrijving\Reden:\n
+- InterBus-S aangesloten op de\n
+  DSQC260 kaart op adres %d\n
+  is niet actief.\n
+\t\n
+Controle lijst:\n
+1. Controleer de InterBus-S nodes.
+1067:
+InterBus-S niet aangesl.\n
+Beschrijving\Reden:\n
+- InterBus-S verbonden met de DSQC260\n
+  kaart op adres %d\n
+  niet aangesloten of IBS master in\n
+  reset modus.\n
+\t\n
+Controle lijst:\n
+1. Controleer de InterBus-S nodes.\n
+2. Controleer de InterBus-S master.
+1068:
+IOC OK\n
+Beschrijving\Reden:\n
+- IOC fout geweest, nu echter OK.\n
+  Fout boodschap was doorgestuurd naar\n
+  DSQC260 kaart op adres %d.\n
+\t\n
+Controle lijst:\n
+1. Onderneem geen actie.
+1069:
+DSQC260 OK\n
+Beschrijving\Reden:\n
+- DSQC260 kaart op adres %d\n
+  fout geweest, nu echter OK.\n
+\t\n
+Controle lijst:\n
+1. Onderneem geen actie.
+1070:
+InterBus-S actief\n
+Beschrijving\Reden:\n
+- InterBus-S aangesloten op de DSQC260\n
+  kaart op adres %d niet actief\n
+  geweest nu echter OK.\n
+\t\n
+Controle lijst:\n
+1. Onderneem geen actie.
+1071:
+InterBus-S aangesloten\n
+Beschrijving\Reden:\n
+- InterBus-S verbonden met de DSQC260\n
+  aangesloten op adres %d\n
+  is niet aangesloten geweest of IBS\n
+  master in reset mode, nu echter OK.\n
+\t\n
+Controle lijst:\n
+1. Onderneem geen actie.
+1075:
+Toegangsfout van IO\n
+Beschrijving\Reden:\n
+-Kan niet lezen of schrijven van/naar\n
+ I/O kaart omdat er geen communicatie is\n
+\t\n
+Controle lijst:\n
+1. Controleer voor reden communicatie\n
+   fout verslag.
+1086:
+Com. OK met RIO\n
+Beschrijving\Reden:\n
+- Contact gemaakt met RIO node\n
+  verbonden op node adres %d\n
+\t\n
+Controle lijst:\n
+1. Onderneem geen actie.
+1087:
+Can bus OK\n
+Beschrijving\Reden:\n
+- Contact gemaakt op Can bus\n
+  verbonden met DSQC319 op\n
+  adres %d\n
+\t\n
+Controle lijst:\n
+1. Onderneem geen actie.
+1096:
+PLC in programmeer modus\n
+Beschrijving\Reden:\n
+- Er is geen toegang to de kaart\n
+  omdat de PLC in programmeer modus\n
+  is of omdat de RIO niet goed\n
+  geconfigureerd is.\n
+\t\n
+Controle lijst:\n
+1. PLC in programmeer modus\n
+2. Controleer RIO configuratie
+1151:
+Can bus fout\n
+Beschrijving\Reden:\n
+- Groot aantal fouten opgetreden op de\n
+  Can bus verbonden met de DSQC319\n
+  op adres %d\n
+\t\n
+Controle lijst:\n
+1. Controleer de communicatie kabel\n
+   naar de Can bus.

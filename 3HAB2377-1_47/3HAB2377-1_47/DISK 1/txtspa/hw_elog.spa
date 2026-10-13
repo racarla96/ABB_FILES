@@ -1,0 +1,936 @@
+23::
+0:
+Hardware
+1203:
+Error unidad floppy\n
+Floppy defectuoso o sin formato\n
+\t\n
+1. Reintentarlo\n
+2. Cambiar disco
+1206:
+Error unidad floppy\n
+Floppy defectuoso o error interno\n
+\t\n
+1. Reintentarlo\n
+2. Cambiar disco\n
+3. Reiniciar el sistema
+1207:
+Floppy Disk Error\n
+No hay disco o disco no preparado\n
+\t\n
+1. Reintentarlo
+1210:
+Error unidad floppy\n
+Formato no valido\n
+\t\n
+1. Cambiar disco
+1211:
+Error unidad floppy\n
+Error transferencia datos de/a floppy\n
+\t\n
+1. Reintentarlo\n
+2. Cambiar disco\n
+3. Reiniciar el sistema
+1214:
+Error unidad floppy\n
+Transferencia de datos interrumpida\n
+\t\n
+1. Reintentarlo\n
+2. Reiniciar el sistema
+1215:
+Error unidad floppy\n
+Comando interno no valido\n
+\t\n
+1. Reintentarlo\n
+2. Reiniciar el sistema
+1216:
+Error unidad floppy\n
+Floppy quitado durante transferencia\n
+\t\n
+1. Reintentarlo\n
+2. Reiniciar el sistema
+1217:
+Error unidad floppy\n
+Floppy o unidad defectuosos\n
+\t\n
+1. Reintentarlo\n
+2. Cambiar el disco\n
+3. Reiniciar el sistema
+1219:
+Error unidad floppy\n
+La unidad floppy no esta lista\n
+\t\n
+1. Reintentarlo\n
+2. Reiniciar el sistema
+1220:
+Error unidad floppy\n
+Floppy defectuoso o error interno\n
+\t\n
+1. Reintentarlo\n
+2. Cambiar disco\n
+3. Reiniciar el sistema
+1221:
+Error unidad floppy\n
+Error de datos\n
+\t\n
+1. Reintentarlo\n
+2. Cambiar disco\n
+3. Reiniciar el sistema
+1222:
+Error unidad floppy\n
+Error interno - Sobrepasamiento\n
+\t\n
+1. Reintentarlo\n
+2. Reiniciar el sistema
+1223:
+Error unidad floppy\n
+Floppy defectuoso o error interno\n
+\t\n
+1. Reintentarlo\n
+2. Cambiar disco\n
+3. Reiniciar el sistema
+1224:
+Error unidad floppy\n
+Floppy protegido de escritura\n
+\t\n
+1. Quitar proteccion
+1225:
+Error unidad floppy\n
+Floppy defectuoso, falta marca direcc.\n
+\t\n
+1. Cambiar disco
+1226:
+Error unidad floppy\n
+Datos erroneos en floppy\n
+\t\n
+1. Cambiar disco
+1227:
+Error unidad floppy\n
+Floppy defectuoso, falta cilindro\n
+\t\n
+1. Cambiar disco
+1228:
+Error unidad floppy\n
+Floppy defectuoso, cilindro defectuoso\n
+\t\n
+1. Cambiar disco
+1229:
+Error unidad floppy\n
+Floppy defectuoso, marca datos defect.\n
+\t\n
+1. Cambiar disco
+1605:
+Error memoria comput. ES\n
+\n
+\t\n
+Cambiar carta computador robot
+1606:
+Error memoria comput. ES\n
+\n
+\t\n
+Cambiar carta computador robot
+1607:
+Error memoria comput. ES\n
+\n
+\t\n
+Cambiar carta computador robot
+1608:
+Error checksum comp. ES\n
+\n
+\t\n
+Cambiar carta computador robot
+2118:
+MC RESET ERROR.\n
+Main computer running in spite\n
+of RESET command.\n
+\t\n
+Replace main computer board
+2301:
+Error memoria COMP.PRINC.\n
+\n
+\t\n
+Cambiar carta computador principal
+2302:
+Error memoria COMP.PRINC.\n
+\n
+\t\n
+Cambiar carta computador principal
+2303:
+Error memoria COMP.PRINC.\n
+\n
+\t\n
+Cambiar carta computador principal
+2305:
+Error tipo EXPANSION MEM.\n
+\n
+\t\n
+Cambiar carta expansion memoria
+1401:
+Error DMA\n
+Error transf. DMA en COMPUTADOR ROBOT\n
+\t\n
+Cambiar carta computador robot
+1402:
+Error DMA\n
+Error transf. DMA en COMPUTADOR ROBOT\n
+\t\n
+Cambiar carta computador robot
+1403:
+Error DMA\n
+Error transf. DMA en COMPUTADOR ROBOT\n
+\t\n
+Cambiar carta computador robot
+1404:
+Error DMA\n
+Error transf. DMA en COMPUTADOR ROBOT\n
+\t\n
+Cambiar carta computador robot
+1408:
+Error computador de ejes\n
+\n
+\t\n
+Cambiar la carta computador robot
+1409:
+Error computador robot\n
+\n
+\t\n
+Cambiar la carta computador robot
+1410:
+Error computador de ejes\n
+\n
+\t\n
+Cambiar la carta computador robot
+1411:
+Error computador de ejes\n
+\n
+\t\n
+Cambiar la carta computador robot
+1414:
+Error computador princ.\n
+\n
+\t\n
+1. Cambiar carta computador principal\n
+2. Cambiar carta computador robot
+1415:
+Error computador princ.\n
+\n
+\t\n
+Cambiar carta computador principal
+1418:
+Error transferencia DMA\n
+Error transf. DMA en COMPUTADOR ROBOT\n
+\t\n
+Cambiar carta computador robot
+1419:
+Error transferencia DMA\n
+Error transf. DMA en COMPUTADOR ROBOT\n
+\t\n
+Cambiar carta computador robot
+1420:
+Error transferencia DMA\n
+Error transf. DMA en COMPUTADOR ROBOT\n
+\t\n
+Cambiar carta computador robot
+1114:
+Error de bus\n
+Error de bus accediendo a LED\n
+en computador principal\n
+\t\n
+1. Cambiar carta computador principal\n
+2. Cambiar carta computador robot
+1501:
+Tension bateria muy baja\n
+Tension de bateria demasiado baja\n
+en bateria 1\n
+\t\n
+Cambiar bateria 1
+1502:
+Tension bateria muy baja\n
+Tension de bateria demasiado baja\n
+en bateria 2\n
+\t\n
+Cambiar bateria 2
+1503:
+Tension baterias muy baja\n
+Tension de baterias demasiado baja\n
+en ambas baterias\n
+\t\n
+Cambiar baterias
+1505:
+Error circuito bateria\n
+\n
+\t\n
+Cambiar carta computador robot
+3301:
+Error en computador ejes\n
+\n
+\t\n
+Cambiar carta computador robot
+3302:
+Error en computador ejes\n
+El computador de ejes no pudo desactivar\n
+la señal SYSFAIL del VME\n
+\t\n
+Cambiar carta computador robot
+3303:
+Error en computador ejes\n
+El computador de ejes no pudo activar\n
+la señal SYSFAIL del VME\n
+\t\n
+Cambiar carta computador robot
+3304:
+Error en computador ejes\n
+\n
+\t\n
+Cambiar carta computador robot
+3305:
+Error mem. comput. ejes\n
+\n
+\t\n
+Cambiar carta computador robot
+3308:
+Error en computador ejes\n
+\n
+\t\n
+Cambiar carta computador robot
+3309:
+Error en computador ejes\n
+\n
+\t\n
+Cambiar carta computador robot
+3310:
+Error en computador ejes\n
+\n
+\t\n
+Cambiar carta computador robot
+3311:
+Computador ejes\n
+Error bucle realim. corriente\n
+\t\n
+Cambiar carta computador robot
+3312:
+Error computador ejes\n
+Error señal RUNNING\DRVFLT\n
+\t\n
+1. Cambiar carta computador robot\n
+2. Comprobar cartas de potencia
+3314:
+Error en computador ejes\n
+\n
+\t\n
+Cambiar carta computador robot
+3315:
+Error en computador ejes\n
+\n
+\t\n
+Cambiar carta computador robot
+3316:
+Error bucle com comp ejes\n
+Error com. bucle  computador ejes\n
+\t\n
+Cambiar carta computador robot
+3320:
+Error computador ejes\n
+El computador de ejes imformo del error\n
+\t\n
+Cambiar carta computador de ejes
+3321:
+Error computador ejes\n
+Vector VME incorrecto generado durante\n
+el test.\n
+\t\n
+Cambiar carta computador de ejes
+4001:
+Error de bus\n
+Error de bus inesperado durante el\n
+test VME.\n
+\t\n
+Comprobar cartas VME.
+4002:
+Error de bus\n
+Respuesta inesperada durante test VME\n
+\t\n
+Comprobar cartas VME
+4003:
+Error VME\n
+La señal SYSFAIL de VME no se puede\n
+desactivar\n
+\t\n
+1.Cambiar cartas VME\n
+2.Cambiar placa madre VME\n
+3.Cambiar carta de terminacion VME,\n
+  si existe.
+7002:
+No corre la DSQC306\n
+Software comp. principal no cargado\n
+o no esta en marcha.\n
+\t\n
+
+7003:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7004:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7005:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7006:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7007:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7008:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7009:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7010:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7011:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7012:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7013:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7014:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7015:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7016:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7017:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7018:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7019:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7020:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7021:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7022:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7023:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7024:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7025:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7026:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7027:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7028:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7029:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7030:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7031:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7032:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7033:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7034:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7035:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7036:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7037:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7038:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7039:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7040:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7041:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7042:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7043:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7044:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7045:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7046:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7047:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7048:
+Error en comput.principal\n
+\n
+\t\n
+Cambiar carta computador robot
+7049:
+Error activar contactor\n
+Contactor de la estacion %s o\n
+contactor supervisor o contctor auxiliar\n
+no se activaron o no recibieron energia\n
+\t\n
+Reiniciar el sistema. Comprobar el\n
+contactor, el contactor supervisor o el\n
+auxiliar. Comprobar la salida digital al\n
+contactor o la entrada digital del\n
+contactor. Cambiar carta de sistema.
+1701:
+Sobrepasam. canal serie\n
+Error sobrepasamiento canal\n
+serie %.f\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1702:
+Sobrepasam. canal serie 2\n
+\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1706:
+Error paridad canal\n
+Error paridad canal serie %.f\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1707:
+Error paridad canal 2\n
+Error paridad canal serie 2\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1711:
+Error secuencia\n
+Error secuencia canal serie %.f\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1712:
+Error secuencia canal 2\n
+Error secuencia canal serie 2\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1716:
+Error canal\n
+Error canal serie %.f\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1730:
+Error Timer %.f\n
+\n
+\t\n
+2. Cambiar carta computador robot
+1733:
+Error canal serie %.f\n
+Datos recibidos no iguales a datos\n
+transmitidos.\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1734:
+Error canal serie 2\n
+Datos recibidos no iguales a datos\n
+transmitidos\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1738:
+Error Timer o Contador\n
+Error %.f Timer o Contador\n
+\t\n
+Cambiar carta computador robot
+1742:
+Error canal serie 2\n
+Error de handshake\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1746:
+Error canal serie %.f\n
+Error de handshake\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1747:
+Error canal serie %.f\n
+Error de interrupcion\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+2235:
+Error trans. DMA (MC-AXC)\n
+El asic R4 del MC informa de un error\n
+DMA interno.\n
+\t\n
+1.Cambiar carta computador principal\n
+2.Reiniciar el sistema, si el error\n
+  persiste:\n
+3.Cambiar carta computador robot
+2244:
+Err. DMA timeout (MC-AXC)\n
+La transferencia DMA no se completo\n
+dentro de los limites de tiempo.\n
+\t\n
+1.Comprobar bus VME\n
+2.Cambiar carta computador principal o\n
+3.Cambiar carta computador robot
+2246:
+Error trans. DMA (MC-AXC)\n
+Bandera de finalizacion del asic R4 del\n
+MC no se activo.\n
+\t\n
+1.Cambiar carta computador principal
+2247:
+Error interrupc. Buzon 1\n
+Error interrupcion del Buzon 1 en\n
+el computador ES\n
+\t\n
+Cambiar carta computador robot
+2248:
+Error interrupc. Buzon 2\n
+Error interrupcion del Buzon 2 en\n
+el computador ES\n
+\t\n
+Cambiar carta computador robot
+2254:
+Error comput. principal\n
+El computador principal no puedoe\n
+activar la señal SYSFAIL de VME.\n
+\t\n
+1.Cambiar carta computador principal
+2255:
+Error comput. principal\n
+El computador principal no puede\n
+desactivar la señal SYSFAIL de VME.\n
+\t\n
+1.Cambiar carta computador principal
+2256:
+Error transf. DMA(MC-AXC)\n
+Fallo en test de patrones de memoria en\n
+el AXC\n
+\t\n
+1.Cambiar carta computador principal
+2257:
+Error transf. DMA(MC-AXC)\n
+Fallo en test de patrones de memoria en\n
+el MC\n
+\t\n
+1.Cambiar carta computador principal
+1108:
+Error canal serie\n
+Error canal serie %.f\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1115:
+Error canal serie 1\n
+Datos recibidos no iguales a datos\n
+transmitidos\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1116:
+Sobrepasam. canal serie 1\n
+\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1117:
+Error paridad canal 1\n
+\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1118:
+Error secuencia canal 1\n
+\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1119:
+Error ruido canal 1\n
+\n
+\t\n
+1. Comprobar parametros comunicacion\n
+2. Cambiar carta computador robot
+1130:
+Error de puerto\n
+\n
+\t\n
+Cambiar carta computador robot
+1131:
+SYSRESET no dispara\n
+\n
+\t\n
+Cambiar cartas VME.\n
+1. Comprobar comp. robot\n
+2. Comprobar otras cartas VME\n
+3. Comprobar placa bus
+1132:
+Error en canal serie 2\n
+Datos recibidos no son iguales a los\n
+datos transmitidos\n
+\t\n
+1. Comprobar parametros de comunicacion\n
+2. Cambiar carta computador robot
+1133:
+Sobrepasam. canal serie 2\n
+\n
+\t\n
+1. Comprobar parametros de comunicacion\n
+2. Cambiar carta computador robot
+1134:
+Error paridad en canal 2\n
+\n
+\t\n
+1. Comprobar parametros de comunicacion\n
+2. Cambiar carta computador robot
+1135:
+Error trama en canal 2\n
+\n
+\t\n
+1. Comprobar parametros de comunicacion\n
+2. Cambiar carta computador robot
+1136:
+Error ruido en canal 2\n
+\n
+\t\n
+1. Comprobar parametros de comunicacion\n
+2. Cambiar carta computador robot
+1147:
+Error computador ES\n
+El computador ES no puede activar la\n
+señal SYSFAIL del VME.\n
+\t\n
+1.Cambiar carta computador ES
+1148:
+Error computador ES\n
+El computador ES no puede desactivar la\n
+señal SYSFAIL del VME.\n
+\t\n
+1.Cambiar carta computador ES
+3150:
+Error Int computador ejes\n
+Computador ejes se paro por una\n
+interrupcion hw por error interrupcion\n
+\t\n
+Cargar sistema de nuevo\n
+Cambiar carta computador robot
+3158:
+Fallo reloj comp. ejes\n
+Fallo reloj de control del computador\n
+ejes. Computador principal no responde\n
+a los requerimientos\n
+\t\n
+Cargar sistema de nuevo.\n
+Cambiar carta computador principal
+3159:
+Advert. vel. modo manual\n
+Velocidad modo manual excesiva para\n
+eje conectado a canal axc %.f.\n
+\t\n
+Comprobar correcta definicion de masa\n
+Comprobar parametros de controlador en\n
+ejes externos\n
+Comprobar singularidad en robot\n
+Cambiar unidad accionamiento
+3201:
+Error lectura cpu ejes\n
+Error leyendo del driver computador\n
+ejes. El driver del computador de ejes\n
+no devuelve numero de bytes correcto\n
+\t\n
+Comprobar configuracion del sistema.\n
+Cargar sistema de nuevo.\n
+Cambiar carta computador robot.
+3202:
+Error escritura cpu ejes\n
+Error escribiendo al driver computador\n
+ejes. El driver del computador de ejes\n
+no devuelve numero de bytes correcto\n
+\t\n
+Comprobar configuracion del sistema.\n
+Cargar sistema de nuevo.\n
+Cambiar carta computador robot.
+3203:
+Error ioctl cpu ejes\n
+Error en ioctl al driver del computador\n
+de ejes\n
+Fallo de ejecucion orden ioctl\n
+\t\n
+Reiniciar el sistema.\n
+Cargar sistema de nuevo.\n
+Cambiar carta computador robot.
+3210:
+Error realimentacion pos.\n
+Accionamiento fallo al leer la posicion\n
+de realimentacion del eje %.f\n
+\t\n
+Cargar sistema de nuevo.\n
+Cambiar carta computador principal
+3211:
+Underrun control posicion\n
+No puedo completar control de posicion\n
+en el tiempo permitido\n
+\t\n
+Cargar sistema de nuevo\n
+Comprobar nivel de ruido en conexiones\n
+de E/S.
+3212:
+Exceso tiempo DMA\n
+Exceso de tiempo DMA del computador\n
+principal al de ejes\n
+\t\n
+Cargar el sistema\n
+Cambiar carta computador principal y\n
+carta computador ejes
+3213:
+Error operacion DMA\n
+Fallo en control de operacion DMA del\n
+computador principal al de ejes\n
+\t\n
+Cargar el sistema\n
+Cambiar carta computador principal y\n
+carta computador ejes
+3220:
+Fallo computador ejes.\n
+El computador ejes ha devuelto codigo\n
+de error indicando fallo hardware\n
+\t\n
+Cargar sistema de nuevo\n
+Cambiar carta computador ejes

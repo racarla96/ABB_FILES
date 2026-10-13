@@ -1,0 +1,281 @@
+Revision 1.11  1996/12/12  07:28:17  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+7::
+0:
+Parametri di Sistema
+1:
+ Argom              Data modif
+2:
+Argom
+3:
+Tipi
+4:
+Tutti gli argom
+5:
+Parametri            Info
+6:
+Aggiung
+7:
+Caricamento Parametri!\n
+\n
+Pronto tra poco...
+8:
+Modif. Cod. Accesso...
+9:
+Testo
+10:
+Salvataggio Parametri!\n
+\n
+Pronto tra poco...
+11:
+Aggiungi o modifica parametri...
+12:
+Vai a...
+13:
+Vai all'inizio
+14:
+Vai alla fine
+15:
+(Ricerca...)
+16:
+Le variazioni dei Codici di Accesso\n
+modificheranno l'ingresso al sistema!\n
+\n
+Assicurarsi di eseguire questa\n
+operazione solo se voluta.
+17:
+Modif. Cod. Accesso!
+18:
+Selezione linea
+19:
+Ins linea #
+20:
+Ins. vecchio Codice di Accesso\n
+prima di modificarlo.
+21:
+Input Numero
+22:
+Ins stringa testo per
+23:
+Ins valore numerico per
+24:
+Carica Parametri Salvati...
+25:
+Salva tutto come...
+26:
+Salva come...
+27:
+(Stampa...)
+28:
+Riavvio...
+29:
+Limiti: Minimo
+30:
+        Massimo
+31:
+Param. protetto in scrittura.\n
+Impossibile modificarlo!\n
+\n
+Premere Invio per proseguire
+32:
+Errore int. causa questa perdita dati!
+33:
+\n
+Nessun parametro caricato!\n
+\n
+Utiliz. menu File per caric. parametri
+34:
+Nessun parametro da visualizzare!
+35:
+Canc
+36:
+(Cancel)
+37:
+Nessun param. da visualizzare!\n
+\n
+Premere Invio per proseguire!
+38:
+Visualiz. Cambio Registro...
+39:
+Carica Parametri Salvati!
+40:
+Selez. un direttorio o file da caricare
+41:
+Salva tutti i parametri !
+42:
+Selez. un direttorio dove salvare
+43:
+Vecchio
+44:
+Parametri salvati!\n
+\n
+\n
+Premere Invio per proseguire!
+45:
+PARSIST
+46:
+\n
+Nuovi Parametri caricati!\n
+\n
+Utiliz. menu File per Riavvio.
+47:
+Nessun parametro caricato!\n
+Non esiste nessun parametro\n
+nel direttorio o file param.\n
+selezionato.\n
+Premere Invio per proseguire.
+48:
+Lista Selezione (Nome)
+49:
+Lista Selezione (Tab)
+50:
+Definire Nome!\n
+Occorre definire un unico nome\n
+al Nome del parametro.\n
+\n
+Premere Invio per proseguire.
+51:
+RIAVVIO NECESSARIO!\n
+I parametri sono modificati.\n
+Necessario un Riavvio.\n
+\n
+Premere Invio per proseguire.
+52:
+Salva Parametri Come!
+53:
+Sovrascrittura di parametri!\n
+I parametri esistenti saranno\n
+riscritti.\n
+\n
+OK per continuare ?
+54:
+Attenzione!
+55:
+Cambiare Registro
+56:
+Cambiare Registro Operazioni
+57:
+car par:
+58:
+salv par:
+59:
+agg ist:
+60:
+canc ist:
+61:
+camb ist:
+62:
+camb att:
+63:
+riavvio:
+64:
+Comando di Riavvio!\n
+Vuoi riavviare il\n
+controllo?\n
+\n
+OK per continuare
+65:
+Parametro obbligatorio!\n
+Occorre defin. questo param.\n
+con un valore.\n
+\n
+Premere Invio per proseguire.
+66:
+Nome non valido!\n
+Occorre defin. nome univoco\n
+per questo parametro.\n
+\n
+Premere Invio per proseguire.
+67:
+Cambio Registro e' vuoto!
+68:
+Agg. Nuovi Parametri...
+69:
+Agg. Nuovi Parametri!
+70:
+Nuovo
+71:
+Nessun "Cod Accesso"
+72:
+Il vecchio "Cod. Accesso"\n
+per Servizio non\n
+e' corretto.\n
+\n
+Premere Invio e riprovare!
+73:
+Il vecchio "Cod. Accesso"\n
+per Programmatore non\n
+e' corretto.\n
+\n
+Premere Invio e riprovare!
+74:
+Cod. Accesso %s\n
+%s\n
+e' stato aggiornato!\n
+Premere Invio per proseguire!
+75:
+Autoriz. Parametri Sistema
+76:
+Mod. Codice
+77:
+Istr. Delete
+78:
+Il parametro cancellato non puo'\n
+essere recuperato. Assicurarsi di\n
+volere questa operazione.\n
+\n
+OK per Cancellare?
+79:
+Tipi 1
+80:
+Info
+81:
+Impossib. visualizzare info\n
+del parametro causa le\n
+troppe richieste in corso.\n
+Premere Invio per proseguire!
+82:
+Impossib. visualizzare info\n
+del parametro perche' non\n
+disponibile.\n
+\n
+Premere Invio per proseguire!
+83:
+Verificare i parametri
+84:
+Verifica dei parametri...\n
+\n
+Verifica della consistenza\n
+dei parametri di sistema in\n
+%s\n
+in corso.\n
+Attendere prego...
+85:
+Complimenti!\n
+I parametri di sistema in\n
+%s\n
+sono consistenti e validi.
+86:
+<Premere Invio per proseguire>
+87:
+La verifica dei parametri in\n
+%s\n
+non puo' essere eseguita.\n
+nessun metodo e' disponib.\n
+per l'argomento in questione.
+88:
+Parametri non possono\n
+essere modificati se\n
+prog in esecuzione.\n
+Arrestare programma!
+89:
+Parametri non possono\n
+essere modificati\n
+in modo automatico.\n
+Selez. Modo Manuale!
+90:
+Tipi 2
+91:
+Aggiungi o sostituisci parametri!

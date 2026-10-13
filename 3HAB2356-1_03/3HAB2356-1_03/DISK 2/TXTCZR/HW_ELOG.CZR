@@ -1,0 +1,1293 @@
+23::
+0:
+Technicke prostredky
+1203:
+Chyba disketove jednotky\n
+Vadna nebo neformat. disketa\n
+\t\n
+1. Opakujte pokus\n
+2. Vymente disketu
+1206:
+Chyba disketove jednotky\n
+Vadna disketova jednotka, nebo vnitrni\n
+chyba\n
+\t\n
+1. Opakujte pokus\n
+2. Vymente disketu\n
+3. Spustte system znovu
+1210:
+Chyba disketove jednotky\n
+Neplatny format\n
+\t\n
+1. Vymente disketu
+1211:
+Chyba disketove jednotky\n
+Chyba prenosu dat na/z diskety\n
+\t\n
+1. Opakujte pokus\n
+2. Vymente disketu\n
+3. Spustte system znovu
+1214:
+Chyba disketove jednotky\n
+Prenos dat byl prerusen\n
+\t\n
+1. Opakujte pokus\n
+2. Spustte system znovu
+1215:
+Chyba disketove jednotky\n
+Neplatny vnitrni prikaz\n
+\t\n
+1. Opakujte pokus\n
+2. Spustte system znovu
+1216:
+Chyba disketove jednotky\n
+Behem prenosu se manipulovalo s disketou\n
+\t\n
+1. Opakujte pokus\n
+2. Spustte system znovu
+1217:
+Chyba disketove jednotky\n
+Vadna disketa nebo disketova jednotka\n
+\t\n
+1. Opakujte pokus\n
+2. Vymente disketu\n
+3. Spustte system znovu
+1219:
+Chyba disketove jednotky\n
+Disketova jednotka neni pripravena\n
+\t\n
+1. Opakujte pokus\n
+2. Spustte system znovu
+1220:
+Chyba disketove jednotky\n
+Vadna disketa nebo vnitrni chyba\n
+\t\n
+1. Opakujte pokus\n
+2. Vymente disketu\n
+3. Spustte system znovu
+1221:
+Chyba disketove jednotky\n
+Chyba dat\n
+\t\n
+1. Opakujte pokus\n
+2. Vymente disketu\n
+3. Spustte system znovu
+1222:
+Chyba disketove jednotky\n
+Vnitrni chyba - prebeh\n
+\t\n
+1. Opakujte pokus\n
+2. Spustte system znovu
+1223:
+Chyba disketove jednotky\n
+Vadna disketa nebo vnitrni chyba\n
+\t\n
+1. Opakujte pokus\n
+2. Vymente disketu\n
+3. Spustte system znovu
+1224:
+Chyba disketove jednotky\n
+Disketa chranena proti zapisu\n
+\t\n
+1. Odstrante ochranu proti zapisu
+1225:
+Chyba disketove jednotky\n
+Vadna disketa - oznaceni adresy chybi\n
+\t\n
+1. Vymente disketu
+1226:
+Chyba disketove jednotky\n
+Vadna data na diskete\n
+\t\n
+1. Vymente disketu
+1227:
+Chyba disketove jednotky\n
+Vadna disketa - chybejici cylindr\n
+\t\n
+1. Vymente disketu
+1228:
+Chyba disketove jednotky\n
+Vadna disketa - vadny cylindr\n
+\t\n
+1. Vymente disketu
+1229:
+Chyba disketove jednotky\n
+Vadna disketa - vadne oznaceni adresy\n
+v datech\n
+\t\n
+1. Vymente disketu
+1601:
+Chyb kont soucet HI PROM:\n
+Kontrolni soucet %.f mel byt: %.f\n
+\t\n
+Vymente PROM nebo pocitac robota
+1602:
+Chyb kont souc LOW PROM:\n
+Kontrolni soucet %.f mel byt: %.f\n
+\t\n
+Vymente pameti PROM nebo pocitac robota
+1603:
+Chybny kontr soucet PROM:\n
+Kontrolni soucet %.f mel byt: %.f\n
+\t\n
+Vymente PROM nebo pocitac robota
+1605:
+Chyba pameti V/V pocitace\n
+\n
+\t\n
+Vymente desku pocitace robota
+1606:
+Chyba pameti V/V pocitace\n
+\n
+\t\n
+Vymente desku pocitace robota
+1607:
+Chyba pameti V/V pocitace\n
+\n
+\t\n
+Vymente desku pocitace robota
+1608:
+Chyb kont souctu V/V poc\n
+\n
+\t\n
+Vymente desku pocitace robota
+2301:
+Chyba pameti HLAVN POCIT\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+2302:
+Chyba pameti HLAVN POCIT\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+2303:
+Chyba pameti HLAVN POCIT\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+2305:
+Chyba typu ROZSIR PAMET\n
+\n
+\t\n
+Vymente desku rozsirene pameti
+1401:
+Chyba DMA\n
+Chyba prenosu DMA v POCITACI ROBOTA\n
+\t\n
+Vymente desku pocitace robota
+1402:
+Chyba DMA\n
+Chyba prenosu DMA v POCITACI ROBOTA\n
+\t\n
+Vymente desku pocitace robota
+1403:
+Chyba DMA\n
+Chyba prenosu DMA v POCITACI ROBOTA\n
+\t\n
+Vymente desku pocitace robota
+1404:
+Chyba DMA\n
+Chyba prenosu DMA v POCITACI ROBOTA\n
+\t\n
+Vymente desku pocitace robota
+1405:
+Chybi program osy\n
+Pamet PROM neobsahuje program osy\n
+\t\n
+Vymente PROM na desce pocitace robota
+1406:
+Chyba pameti\n
+Chyba pameti v pocitaci osy\n
+\t\n
+Vymente desku pocitace robota
+1407:
+Chyba pocitace osy\n
+\n
+\t\n
+Zkontrolujte pripojeni signalu DRVFLT-N\n
+Vymente desku pocitace robota
+1408:
+Chyba pocitace osy\n
+\n
+\t\n
+Vymente desku pocitace robota
+1409:
+Chyba pocitace robota\n
+\n
+\t\n
+Vymente desku pocitace robota
+1410:
+Chyba pocitace osy\n
+\n
+\t\n
+Vymente desku pocitace robota
+1411:
+Chyba pocitace osy\n
+\n
+\t\n
+Vymente desku pocitace robota
+1414:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+1. Vymente desku hlavniho pocitace\n
+2. Vymente desku pocitace robota
+1415:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+1416:
+Chyba pocitace drahy\n
+\n
+\t\n
+Vymente desku pocitace drahy
+1417:
+Chyba pocitace drahy\n
+\n
+\t\n
+Vymente desku pocitace drahy
+1418:
+Chyba prenosu DMA\n
+Chyba prenosu DMA v POCITACI ROBOTA\n
+\t\n
+Vymente desku pocitace robota
+1419:
+Chyba prenosu DMA\n
+Chyba prenosu DMA v POCITACI ROBOTA\n
+\t\n
+Vymente desku pocitace robota
+1420:
+Chyba prenosu DMA\n
+Chyba prenosu DMA v POCITACI ROBOTA\n
+\t\n
+Vymente desku pocitace robota
+1421:
+Chyba V/V POCITACE\n
+\n
+\t\n
+Vymente desku pocitace robota
+1114:
+Chyba sbernice\n
+Chyba sbernice pri pristupu k LED\n
+na hlavnim pocitaci\n
+\t\n
+1. Vymente desku hlavniho pocitace\n
+2. Vymente desku pocitace robota
+1501:
+Napeti baterie moc nizke\n
+Napeti na baterii 1 je prilis nizke\n
+\t\n
+Vymente baterii 1
+1502:
+Napeti baterie moc nizke\n
+Napeti na baterii 2 je prilis nizke\n
+\t\n
+Vymente baterii 2
+1503:
+Napeti baterie moc nizke\n
+Napeti obou baterii je prilis nizke\n
+\t\n
+Vymente baterie
+3301:
+Chyba pocitace osy\n
+\n
+\t\n
+Vymente desku pocitace robota
+3302:
+Chyba pocitace osy\n
+\n
+\t\n
+Vymente desku pocitace robota
+3303:
+Chyba pocitace osy\n
+\n
+\t\n
+Vymente desku pocitace robota
+3304:
+Chyba pocitace osy\n
+\n
+\t\n
+Vymente desku pocitace robota
+3305:
+Chyba pameti pocitace osy\n
+\n
+\t\n
+Vymente desku pocitace robota
+3306:
+Test spojky poh. jednotky\n
+Chyba v testu spojky pohonne jednotky\n
+\t\n
+--
+3307:
+Test spojky poh. jednotky\n
+Chyba v testu spojky pohonne jednotky\n
+\t\n
+--
+3308:
+Chyba pocitace osy\n
+\n
+\t\n
+Vymente desku pocitace robota
+3309:
+Chyba pocitace osy\n
+\n
+\t\n
+Vymente desku pocitace robota
+3310:
+Chyba pocitace osy\n
+\n
+\t\n
+Vymente desku pocitace robota
+3311:
+Pocitac osy\n
+Chyba referencni proudove smycky\n
+\t\n
+Vymente desku pocitace robota
+3312:
+Chyba pocitace osy\n
+Chyba signalu RUNNING/DRVFLT\n
+\t\n
+1. Vymente desku pocitace robota\n
+2. Zkontrolujte desky pohonneho systemu
+3313:
+Chyba propoj. komunikace\n
+Chyba propojeni komunikace s vnejsi osou\n
+\t\n
+--
+3314:
+Chyba pocitace osy\n
+\n
+\t\n
+Vymente desku pocitace robota
+3315:
+Chyba pocitace osy\n
+\n
+\t\n
+Vymente desku pocitace robota
+3316:
+Chyba kom smycky poc osy\n
+Chyba komunikacni smycky pocitace osy\n
+\t\n
+Vymente desku pocitace robota
+3317:
+Chyba kom propoj poc osy\n
+\n
+\t\n
+Vymente desku pocitace robota
+7001:
+Chyba aktivace stykace\n
+Stykac MOTOR ZAP se neaktivoval/nesepnul\n
+nebo kontrolni stykac KM3 neni aktivovan\n
+/sepnut, nebo signal MOTOR ZAP neni pres\n
+pomocny kontakt prenasen\n
+\t\n
+Spustte system znovu.\n
+Vymente stykac MOTOR ZAP nebo kontrolni\n
+stykac KM3 nebo pomocny stykac.\n
+Vymente systemovou desku.
+7002:
+DSQC306 nebezi\n
+Programove vybaveni hlavniho pocitace se\n
+nezavedlo, nebo nebezi\n
+\t\n
+
+7003:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7004:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7005:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7006:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7007:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7008:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7009:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7010:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7011:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7012:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7013:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7014:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7015:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7016:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7017:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7018:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7019:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7020:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7021:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7022:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7023:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7024:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7025:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7026:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7027:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7028:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7029:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7030:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7031:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7032:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7033:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7034:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7035:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7036:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7037:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7038:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7039:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7040:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7041:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7042:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7043:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7044:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7045:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7046:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7047:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+7048:
+Chyba hlavniho pocitace\n
+\n
+\t\n
+Vymente desku hlavniho pocitace
+1701:
+Prebeh serioveho kanalu\n
+Chyba prebehu serioveho kanalu %.f\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1702:
+Chyba preb. ser. kanalu 2\n
+\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1703:
+Chyba preb. ser. kanalu 3\n
+\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1704:
+Chyba preb. ser. kanalu 5\n
+\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1705:
+Chyba preb. ser. kanalu 8\n
+\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1706:
+Chyba parity kanalu\n
+Chyba parity serioveho kanalu %.f\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1707:
+Chyba parity kanalu 2\n
+Chyba par. ser. kanalu 2\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1708:
+Chyba parity kanalu 3\n
+Chyba par. ser. kanalu 3\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1709:
+Chyba parity kanalu 5\n
+Chyba par. ser. kanalu 5\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1710:
+Chyba parity kanalu 8\n
+Chyba par. ser. kanalu 8\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1711:
+Chyba tvoreni ramcu\n
+Chyba tvoreni ramcu serioveho kanalu %.f\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1712:
+Chyba tvor. ramcu kan. 2\n
+Ch. tv. ramcu ser. kan. 2\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1713:
+Chyba tvor. ramcu kan. 3\n
+Ch. tv. ramcu ser. kan. 3\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1714:
+Chyba tvor. ramcu kan. 5\n
+Ch. tv. ramcu ser. kan. 5\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1715:
+Chyba tvor. ramcu kan. 8\n
+Ch. tv. ramcu ser. kan. 8\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1716:
+Chyba kanalu\n
+Chyba serioveho kanalu %.f\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1730:
+Chyba casovace %.f\n
+\n
+\t\n
+2. Vymente desku pocitace robota
+1733:
+Chyba ser. kanalu %.f\n
+Prijata data a prenesena data nejsou\n
+stejna\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1734:
+Chyba serioveho kanalu 2\n
+Prijata data a prenesena data nejsou\n
+stejna\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1735:
+Chyba serioveho kanalu 3\n
+Prijata data a prenesena data nejsou\n
+stejna\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1736:
+Chyba serioveho kanalu 5\n
+Prijata data a prenesena data nejsou\n
+stejna\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1737:
+Chyba serioveho kanalu 8\n
+Prijata data a prenesena data nejsou\n
+stejna\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1738:
+Chyba casov. nebo citace\n
+Chyba casovace nebo citace %.f\n
+\t\n
+Vymente desku pocitace robota
+1742:
+Chyba serioveho kanalu 2\n
+Chyba handshakingu\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1743:
+Chyba serioveho kanalu 3\n
+Chyba handshakingu\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1744:
+Chyba serioveho kanalu 5\n
+Chyba handshakingu\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1745:
+Chyba serioveho kanalu 8\n
+Chyba handshakingu\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1746:
+Chyba ser. kanalu %.f\n
+Chyba handshakingu\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1747:
+Chyba ser. kanalu %.f\n
+Chyba preruseni\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+2247:
+Chyba prer. post. schr. 1\n
+Chyba preruseni postovni schranky 1\n
+na V/V pocitaci\n
+\n
+\t\n
+Vymente desku pocitace robota
+2248:
+Chyba prer. post. schr. 2\n
+Chyba preruseni postovni schranky 2\n
+na V/V pocitaci\n
+\t\n
+Vymente desku pocitace robota
+1108:
+Chyba serioveho kanalu\n
+Chyba ser. kanalu %.f\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1115:
+Chyba serioveho kanalu 1\n
+Prijata data a prenesena data nejsou\n
+stejna\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1116:
+Preteceni ser. kanalu 1\n
+\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1117:
+Chyba par. ser. kanalu 1\n
+\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1118:
+Chyba tvor. ramcu kan. 1\n
+\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1119:
+Chyba sumu kanalu 1\n
+\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1125:
+Chyba serioveho kanalu 7\n
+Prijata data a prenesena data nejsou\n
+stejna\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1126:
+Preteceni ser. kanalu 7\n
+\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1127:
+Chyba parity kanalu 7\n
+\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1128:
+Chyba tvor. ramcu kan. 7\n
+\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1129:
+Chyba sumu kanalu 7\n
+\n
+\t\n
+1. Zkontrolujte parametry komunikace\n
+2. Vymente desku pocitace robota
+1130:
+Chyba portu\n
+\n
+\t\n
+Vymente desku pocitace robota
+1131:
+SYSRESET nezahajil.\n
+\n
+\t\n
+Vymente desky sbernice VME.\n
+1. Zkontrolujte pocitac robota.\n
+2. Zkontrolujte dalsi desky sbern. VME.\n
+3. Zkontrolujte desku plos. spoju pocit.
+3201:
+Chyba cteni CPU osy\n
+Chyba pri cteni ovladace pocitace osy.\n
+Ovladac pocitace osy nevratil spravny\n
+pocet bytu.\n
+\t\n
+Zkontrolujte konfiguraci systemu.\n
+Znovu zavedte system.\n
+Vymente desku pocitace robota.
+3202:
+Chyba zapisu CPU osy\n
+Chyba pri psani do ovladace pocitace\n
+osy. Ovladac pocitace osy nevratil\n
+spravny pocet bytu.\n
+\t\n
+Zkontrolujte konfiguraci systemu.\n
+Znovu zavedte system.\n
+Vymente desku pocitace robota.
+3203:
+Chyba ovlad. V/V CPU osy\n
+Chyba ovladani V/V ovladace pocitace\n
+osy.\n
+Selhani pri vykonani prikazu ioctl\n
+\t\n
+Znovu spustte system.\n
+Znovu zavedte system.\n
+Vymente desku pocitace robota.
+3220:
+Selhani pocitace osy\n
+Pocitac osy vratil chybovy kod, ktery\n
+naznacuje poruchu techn. prostredku.\n
+\t\n
+Znovu zavedte system\n
+Vymente desku pocitace robota
+8001:
+Zaloh. baterie ztraceno\n
+Zalohovani baterie na seriove merici\n
+desce %.f\n
+ztraceno v dusledku posledniho\n
+vypadku napajeni nebo opak. spousteni.\n
+\t\n
+Po 18 h. nabijeni se zapnutym napajenim\n
+zkontrolujte pri vypnutem napajeni\n
+napeti baterie. Zkontrolujte pripojeni\n
+baterie na seriovou merici desku.\n
+Vymente baterii.
+3101:
+Chyba rozkladace X\n
+Porucha signalu rozkladace X\n
+na kanalu %.f\n
+Signal X je slabsi nez uroven sumu.\n
+\t\n
+Zkontrolujte rozkladac a jeho pripojeni.\n
+Vymente merici desky.
+3102:
+Chyba rozkladace Y\n
+Porucha signalu rozkladace Y\n
+na kanalu %.f\n
+Signal Y je slabsi nez uroven sumu.\n
+\t\n
+Zkontrolujte rozkladac a jeho pripojeni.\n
+Vymente merici desky.
+3103:
+Chyba rozkladace X nebo Y\n
+Porucha signalu rozkladace X nebo Y\n
+na kanalu %.f\n
+Signal ctverce X a Y presahuje max.\n
+\t\n
+Zkontrolujte rozkladac a jeho pripojeni.\n
+Vymente merici desky.
+3104:
+Chyba rozkladace X a Y\n
+Porucha signalu rozkladace X a Y\n
+na kanalu %.f\n
+Signaly X a Y jsou slabsi\n
+nez uroven sumu.\n
+\t\n
+Zkontrolujte rozkladac a jeho pripojeni.\n
+Vymente merici desky.
+3105:
+Chyba privodu rozkladace\n
+Porucha privodu signalu do rozkladacu.\n
+\t\n
+Zkontrolujte pripojeni rozkladacu.\n
+Vymente desky os.
+3106:
+Chyba odch. poh. jednotky\n
+Odchylka pohonne jednotky presahuje\n
+na kanalu %.f maximum.\n
+\t\n
+Znovu spustte system.\n
+Vymente pohonnou jednotku.
+3107:
+Nespr. typ stejn. vedeni\n
+Typ fyzickeho stejnosmerneho vedeni\n
+neodpovida konfiguraci.\n
+\t\n
+Zkontrolujte/modifikujte systemovou\n
+konfiguraci.
+3108:
+Nespr. typ pohon. jednot.\n
+Typ fyzicke pohonne jednotky pro\n
+kanal %.f neodpovida konfiguraci.\n
+\t\n
+Zkontrolujte/modifikujte systemovou\n
+konfiguraci.\n
+Vymente pohonnou jednotku.
+3148:
+Chyba pocitace osy\n
+Pocitac osy zastavilo preruseni techn.\n
+prostredku v dusledku nejake chyby.\n
+\t\n
+Zkontrolujte konfiguraci systemu.\n
+Znovu zavedte system.\n
+Vymente desku pocitace robota.
+3150:
+Chyba prerus. pocit. osy\n
+Pocitac osy zastavilo preruseni techn.\n
+prostredku v dusledku chyby preruseni.\n
+\t\n
+Znovu zavedte system.\n
+Vymente desku pocitace robota.
+3151:
+Pretec. vyst. pocit. osy\n
+Pocitac osy zastavilo preruseni techn.\n
+prostredku v dusledku chyby preteceni\n
+vystupu.\n
+\t\n
+Znovu zavedte system.\n
+Vymente desku pocitace robota.
+3152:
+Poh. jedn. pocitace osy\n
+Pocitac osy zastavilo preruseni techn.\n
+prostredku v dusledku chyby pohonne\n
+jednotky.\n
+\t\n
+Zkontrolujte konfiguraci systemu.\n
+Znovu zavedte system.\n
+Vymente pohonnou jednotku.
+3153:
+Pretec. tach. pocit. osy\n
+Pocitac osy zastavilo preruseni techn.\n
+prostredku v dusledku preteceni registru\n
+tachometru.\n
+\t\n
+Zkontrolujte konfiguraci systemu a znovu\n
+spustte system.\n
+Znovu zavedte system.\n
+Vymente pohonnou jednotku.
+3154:
+Preteceni XY pocitace osy\n
+Pocitac osy zastavilo preruseni techn.\n
+prostredku v dusledku preteceni registru\n
+X, Y.\n
+\t\n
+Znovu spustte system a zkontrolujte\n
+synchronizaci.\n
+Znovu zavedte system.
+3155:
+Preteceni RC pocitace osy\n
+Pocitac osy zastavilo preruseni techn.\n
+prostredku v dusledku preteceni\n
+kruhoveho radice registru.\n
+\n
+\t\n
+Znovu spustte system a zkontrolujte\n
+zpetne citace.\n
+Znovu zavedte system.
+3156:
+Porucha prenosu\n
+Kontakt se seriovym mericim systemem je\n
+ztracen. Pocitac osy se zastavil\n
+v dusledku casove prodlevy prenosu.\n
+\t\n
+Zkontrolujte spojeni ze skrine k robotu\n
+a seriovym mericim deskam.\n
+Vymente merici desku, nebo pocitac\n
+robota.
+3157:
+Porucha prenosu\n
+Pocitac osy zjistil poruchu prenosu\n
+do/ze serioveho\n
+mericiho systemu.\n
+\t\n
+Zkontrolujte spojeni/kabely serioveho\n
+mericiho systemu. Zkontrolujte stineni.\n
+Zkontrolujte silne elmagn. ruseni podel\n
+trasy kabelu k robotu.\n
+Vymente merici desku nebo pocitac robota
+3158:
+Porucha hodin pocit. os\n
+Porucha hodin ovladace pocitace os.\n
+Hlavni pocitac neodpovida na pozadavek.\n
+\t\n
+Znovu zavedte system.\n
+Vymente desku hlavniho pocitace.
+3159:
+Vystr. rychl. ruc. rezimu\n
+Rychlost v rucnim rezimu byla prekrocena\n
+pro kloub pripojeny ke kanalu osy %.f.\n
+\t\n
+Zkontrolujte spravnost definice hmoty\n
+zatizeni. Zkontrolujte parametry radice\n
+na vnejsich osach.\n
+Zkontrolujte singularitu robota.\n
+Vymente pohonnou jednotku.
+3210:
+Chyba polohy zpetne vazby\n
+Ovladac nedokazal precist polohu zpetne\n
+vazby na kloubu %.f\n
+\t\n
+Znovu spustte system.\n
+Vymente desku hlavniho pocitace.
+3211:
+Podbeh. regulace polohy\n
+Nedokazala dokoncit regulaci polohy\n
+ve vymezenem case.\n
+\t\n
+Znovu zavedte system.
+3212:
+Chyba prodlevy DMA\n
+DMA pristup z hlavniho pocitace\n
+do pocitace os selhal.\n
+\t\n
+Znovu zavedte system.\n
+Vymente desku hlavniho pocitace a\n
+desku pocitace os.
+3213:
+Chyba operace DMA\n
+Ridici operace DMA z hlavniho pocitace\n
+do pocitace os selhala.\n
+\t\n
+Znovu zavedte system.\n
+Vymente desku hlavniho pocitace a\n
+desku pocitace os.
+8010:
+Seriova deska nenalezena\n
+Seriova merici deska %.f neni nalezena.\n
+\t\n
+Zkontrolujte parametry systemove\n
+konfigurace. Zkontrolujte spoje\n
+a kabely k seriovemu mericimu systemu.\n
+Vymente seriovou merici desku.
+8011:
+Chyba prenosu dat\n
+Porucha prenosu dat do/ze seriove merici\n
+desky %.f\n
+\t\n
+Zkontrolujte spoje a kabely k seriovemu\n
+mericimu systemu. Zkontrolujte stineni.\n
+Zkontrolujte silne elmagn. ruseni podel\n
+trasy kabelu.\n
+Vymente merici desku nebo pocitac robota
+8012:
+Chyba odchylky seriove X\n
+Chyba odchylky signalu X na seriove\n
+merici desce %.f\n
+\t\n
+Vymente seriovou merici desku.
+8013:
+Chyba odchylky seriove Y\n
+Chyba odchylky signalu Y na seriove\n
+merici desce %.f\n
+\t\n
+Vymente seriovou merici desku.
+8014:
+Chyba seriove linearity\n
+Chyba linearity diference signalu X-Y\n
+na seriove merici desce %.f\n
+- System muze s vystrahou stale pracovat\n
+- System nebude fungovat s chybou.\n
+\t\n
+Vymente seriovou merici desku.
+8015:
+Chyba seriove linearity X\n
+Chyba linearity na signalu X merici\n
+desky %.f\n
+\t\n
+Vymente seriovou merici desku.
+8016:
+Chyba seriove linearity Y\n
+Chyba linearity na signalu Y merici\n
+desky %.f\n
+\t\n
+Vymente seriovou merici desku.
+8017:
+Chyba paralel. komunikace\n
+Chyba komunikace s deskou os.\n
+\t\n
+Zkontrolujte spojeni na desce os.\n
+Zkontrolujte systemovou konfiguraci.
+8018:
+Paralelni odchylka AD X\n
+Odchylka signalu X prekracuje tolerance\n
+desky os.\n
+\t\n
+Vymente desku os.
+8019:
+Paralelni odchylka AD Y\n
+Odchylka signalu Y prekracuje tolerance\n
+desky os.\n
+\t\n
+Vymente desku os.
+8020:
+Chyba paralel odchylky DA\n
+Odchylka prekracuje chybu tolerance D/A\n
+prevodniku na kanalu %.f na desce os.\n
+\t\n
+Pouzijte jiny merici kanal.\n
+Vymente desku os.
+8021:
+Paralelni linearita DA-AD\n
+Chyba linearity D/A a A/D prevodniku\n
+na kanalu %.f na desce os.\n
+\t\n
+Vymente desku os.
+8022:
+Chyba konfigurace\n
+Chyba konfigurace mericiho systemu\n
+na kanalu %.f\n
+\t\n
+Zkontrolujte/zmente parametry systemove\n
+konfigurace.
+9001:
+Chyba pohonu systemu\n
+Stejnosm. ved. nepripoj.\n
+\t\n
+Pripojte stejnosmerne vedeni.\n
+Vymente stejnosmerne vedeni.
+9002:
+Chyba pohonu systemu\n
+Chybny stav stejnosm. vedeni pri zapnuti\n
+\t\n
+Znovu spustte system.\n
+Vymente stejnosm. vedeni.
+9003:
+Chyba pohonu systemu\n
+Napeti stejnosm. vedeni prilis vysoke.\n
+\t\n
+Zkontrolujte pripojeni bocniku.\n
+Vymente stejnosm. vedeni.
+9004:
+Chyba pohonu systemu\n
+Napeti stejnosm. vedeni neni platne.\n
+\t\n
+Zkontrolujte napeti na stykaci MOTOR ZAP\n
+Vymente stejnosm. vedeni.
+9005:
+Chyba pohonu systemu\n
+Teplota stejnosm. vedeni prilis vysoka.\n
+\t\n
+Zkontrolujte chladici vetrak(y) nebo\n
+klimatizer. Zkontrolujte stridave napeti\n
+na stejnosm. vedeni.\n
+Modifikujte uzivatelsky program.\n
+Vymente stejnosm. vedeni.
+9006:
+Chyba pohonu systemu\n
+Teplota bocniku prilis vysoka.\n
+\t\n
+Prilisne zpomaleni.\n
+Modifikujte uzivatelsky program.\n
+Zkontrolujte stridave napeti na\n
+stejnosm. vedeni.\n
+Vymente stejnosm. vedeni.
+9007:
+Chyba pohonu systemu\n
++/- 15V je mimo meze\n
+\t\n
+Zkontrolujte +/- 15V od privodu napajeni\n
+Vymente stejnosm. vedeni.
+9008:
+Chyba pohonu systemu\n
+Porucha maleho odberu proudu\n
+na pohonne jednotce %.f\n
+\t\n
+Zkontrolujte preruseni vodicu.\n
+Zkontrolujte, zda parametr pohybu min.\n
+tolerance site odpovida skutecne siti.\n
+Zkontrolujte/vymente pohonnou jednotku.
+9009:
+Chyba pohonu systemu\n
+Proud na pohonne jednotce %.f prilis\n
+vysoky.\n
+\t\n
+Zkontrolujte, jestli na motoru nebo\n
+v obvodu motoru neni zkrat.\n
+Zkontrolujte/vymente pohonnou jednotku.
+9010:
+Chyba pohonu systemu\n
+Teplota na pohonne jednotce %.f prilis\n
+vysoka.\n
+\t\n
+Zkontrolujte chladici vetrak(y) nebo\n
+klimatizer.\n
+Modifikujte uzivatelsky program.\n
+Zkontrolujte/vymente pohonnou jednotku.

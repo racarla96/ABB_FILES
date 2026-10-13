@@ -1,0 +1,46 @@
+73::
+0:
+Soudure
+1:
+Erreur Systeme soudure\n
+Le process n'est pas au repos (idle)\n
+\t\n
+Positionner le process dans l'etat\n
+defini par SwInit pour le mettre\n
+au repos.
+2:
+Erreur Systeme soudure\n
+Parametre %s\n
+\t\n
+
+3:
+Timeout SwStart negatif\n
+\n
+\t\n
+
+4:
+Interrupt Swinit negative\n
+\n
+\t\n
+
+5:
+Procid. la raison est :\n
+-Procid. n'a pas la valeur de Swinit\n
+-Le process a ete annule.\n
+\t\n
+
+6:
+Erreur communic. soudure\n
+Raison: %s\n
+\t\n
+
+7:
+Communication trop lente\n
+\n
+\t\n
+
+8:
+PB communication BOSCH\n
+\n
+\t\n
+

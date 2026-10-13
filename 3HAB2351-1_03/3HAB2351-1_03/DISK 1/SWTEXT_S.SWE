@@ -1,0 +1,51 @@
+%%%
+  VERSION: 1
+  LANGUAGE: ENGLISH
+%%%
+
+MODULE SWTEXT (SYSMODULE, NOVIEW)
+
+! ----------------
+! $Revision: 1.1 $ 
+! ----------------
+
+ !***************
+ ! Global data  *
+ !***************
+ 
+ !Function key texts (max 7 char)
+ CONST string swfktx1 := "Service";
+ CONST string swfktx2 := "Skip";
+ CONST string swfktx3 := "Reweld";
+ CONST string swfktx4 := "Retry";
+ CONST string swfktx9 := "Break";
+ 
+ !Info texts (max 40 char) 
+ CONST string swtx1 := "Service routine ready";
+
+ !system error messages
+ CONST string sw001_s := "SWSYS01: Illegal supervision interrupt";
+ CONST string sw002_s := "SWSYS02: Illegal process interrupt";
+ CONST string sw003_s := "SWSYS03: Internal error, Invalid errno";
+
+ !Error message header (max 24 char)  
+ CONST string sw001_h := "sw001: Invalid spotdata";
+ CONST string sw002_h := "sw002: Invalid spotdata";
+ CONST string sw003_h := "sw003: Invalid spotdata";  
+ CONST string sw004_h := "sw004: Gun error";
+ CONST string sw005_h := "sw005: Gun error";
+ CONST string sw006_h := "sw006: Weld error";
+ CONST string sw007_h := "sw007: Invalid value";
+ CONST string sw008_h := "sw008: Preweld error";
+ CONST string sw009_h := "sw009: Postweld error";
+
+ !Error message reason (max 40 char)  
+ CONST string sw001_r := "Invalid prog_no in spotdata"; 
+ CONST string sw002_r := "Invalid tip_no in spotdata"; 
+ CONST string sw003_r := "Invalid gun_pressure in spotdata";
+ CONST string sw004_r := "Gun pressure not reached"; 
+ CONST string sw005_r := "Gun open timeout";
+ CONST string sw006_r := "Weld_ready timeout";
+ CONST string sw007_r := "Invalid data value: sw_parity"; 
+ENDMODULE
+

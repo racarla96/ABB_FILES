@@ -1,0 +1,47 @@
+RLSYM::
+101:
+Le symbole %s est du\n
+type %s au lieu\n
+de %s.
+102:
+Le symbole %s est\n
+en lecture seule.\n
+CODE D'ERREUR: ERR_SYM_ACCESS=%d
+103:
+Symbole %s non trouve.\n
+CODE D'ERREUR: ERR_SYM_ACCESS=%d
+104:
+Symbole %s ambigu.
+105:
+Rechercher les erreurs pour le\n
+symbole %s.
+106:
+Le symbole %s\n
+n'est pas un objet accessible.\n
+CODE DÉRREUR: ERR_SYM_ACCESS=%d
+107:
+Nom de module %s inconnu\n
+
+108:
+Nom de module %s ambigu\n
+
+109:
+Nom de routine %s ambigu\n
+
+110:
+Nom de routine %s inconnu\n
+
+111:
+Ne peut cherecher un objet de\n
+type %s\n
+\n
+
+112:
+Le symbole %s\n
+n'est pas accessible d'ici.\n
+CODE D'ERREUR: ERR_SYM_ACCESS=%d
+113:
+Dans l'instruction %s\n
+le parametre %s\n
+ne peut etre utilise sans\n
+le parametre %s

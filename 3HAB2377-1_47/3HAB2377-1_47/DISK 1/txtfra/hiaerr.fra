@@ -1,0 +1,77 @@
+ne parameter.
+ine parameter.
+15::
+1:
+Modif. objet impossible!\n
+Module de declaration en\n
+lecture seule.
+2:
+Modif. objet impossible!\n
+Module de declaration en\n
+visualisation seule.
+3:
+Nom non autorise! Doit\n
+commencer par une lettre.\n
+Aucun mot reserve autorise.
+4:
+Le sens d'execution ne\n
+peut etre change dans une\n
+instruction complexe!
+5:
+Le sens d'execution ne\n
+peut etre change dans cette\n
+routine!
+6:
+Erreur(s) de syntaxe RAPID\n
+dans le programme.
+7:
+Execution precedente instr\n
+impossible dans un bloc ou\n
+une routine!
+8:
+PP ne peut etre mis a la\n
+place demandee.
+9:
+Module de declaration non\n
+visible. Modif., sauv.,\n
+impr. objet impossible!
+10:
+Module de declaration non\n
+visible. la routine ne peut\n
+etre vue.
+11:
+Type de donnees local non\n
+defini dans ce module.\n
+Modifier module de type.
+12:
+Une donnee persistante ne\n
+peut etre declaree locale.\n
+Modifier type ou visibilite
+13:
+Instr. de programme trop\n
+longues tronquees pour cre-\n
+ation fichier ou affichage.
+14:
+Annulation impossible.\n
+Contexte d'annulation\n
+perdu.
+15:
+Taille totale tableau trop\n
+grande.\n
+Reduire dimension(s).
+16:
+Ne peut montrer contenu du\n
+tableau. Reduire dimension\n
+par editeur hors-ligne.
+17:
+Impossible creer nouvelle\n
+donnee de type switch.\n
+Utiliser comme param.
+18:
+To long value for pendant.\n
+Please view and edit data\n
+of this datatype offline.
+19:
+To many components for\n
+pendant. Please view and\n
+edit this data offline.

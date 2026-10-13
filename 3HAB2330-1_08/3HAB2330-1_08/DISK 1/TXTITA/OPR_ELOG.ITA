@@ -1,0 +1,257 @@
+21::
+0:
+Operativita'
+2:
+Reset programma\n
+Il task %!%%s e' stato\n
+resettato.\n
+\t\n
+
+5:
+Esec. prog interrotta\n
+Il prog %.f e' stato\n
+interrotto. Il motivo e' %.f.\n
+Motivo: %s\n
+\t\n
+
+500:
+interruz. a causa di\n
+uno stop interno oppure esterno.
+501:
+il task ha eseg. un'istruz. EXIT
+502:
+task pronto.
+503:
+task pronto con livello desiderato.
+504:
+il task ha eseg. un'istruz. Break.
+505:
+stop interno oppure esterno attivato.
+506:
+riscontrato errore.
+507:
+Impos eseg istruz\n
+al contrario.
+508:
+Impos eseg istruz\n
+al contrario.
+7:
+Programma in esecuzione\n
+Iniziata L'esecuzione\n
+del task %!%!%s.\n
+%s\n
+\t\n
+
+8:
+Riavvio programma\n
+Eseg. Riavvio\n
+del task %!%!%s.\n
+%s\n
+\t\n
+
+701:
+L'origine e' finestra di prog.
+702:
+L'origine e' finestra di produz.
+703:
+L'origine e' sconosciuta.
+704:
+L'origine e' un client esterno.
+9:
+Area prog piena\n
+Memoria non disponib.\n
+per istruz o dati RAPID.\n
+Il task e' %!%!%s\n
+\t\n
+Salvare il prog e riavviarlo.
+10:
+Stato Motori disinseriti\n
+\n
+\t\n
+
+11:
+Stato Motori inseriti\n
+\n
+\t\n
+
+12:
+Stato stop di sicurezza\n
+Catena RUN aperta da contr. sicurezza\n
+escluso dallo stop di emergenza.\n
+\t\n
+
+13:
+Stop di emergenza\n
+Catena di Run aperta da emerg. stop.\n
+Bisogna riprist. emerg. stop.\n
+Premere pulsante Motor off.\n
+\t\n
+
+14:
+Stato di errore sistema\n
+Errore di sistema non recuperabile.\n
+Richiesto riavvio.\n
+\t\n
+
+15:
+Modo manuale selezionato\n
+\n
+\t\n
+
+16:
+Richiesta modo automatico\n
+\n
+\t\n
+
+17:
+Modo automatico conferm.\n
+\n
+\t\n
+
+18:
+Richiesta modo manuale VP\n
+\n
+\t\n
+
+19:
+Modo manuale VP conferm.\n
+\n
+\t\n
+
+20:
+Errore di esecuzione\n
+\n
+\t\n
+
+21:
+Riprist. errore di esec.\n
+\n
+\t\n
+
+22:
+Attesa Hold to run\n
+\n
+\t\n
+
+23:
+Hold to run Timeout\n
+\n
+\t\n
+
+30:
+Commutati tutti gli assi\n
+\n
+\t\n
+
+31:
+Calibrati tutti gli assi\n
+\n
+\t\n
+
+32:
+Aggiornati tutti Counter\n
+\n
+\t\n
+
+33:
+Sincroniz. tutti gli assi\n
+\n
+\t\n
+
+34:
+Assi non commutati\n
+\n
+\t\n
+
+35:
+Assi non calibrati\n
+\n
+\t\n
+
+36:
+Counter non aggiornati\n
+\n
+\t\n
+
+37:
+Assi non sincronizzati\n
+\n
+\t\n
+
+40:
+Programma caricato\n
+Il task %!%!%s ha\n
+caricato un programma.\n
+Memoria libera %i bytes\n
+prima del caricamento prog\n
+e %i bytes attuale.\n
+\t\n
+
+41:
+Programma cancellato\n
+Il task %!%!%s ha cancellato\n
+un programma.\n
+\t\n
+
+43:
+Riavvio negato\n
+Impossibile riavviare\n
+task %!%!%s\n
+\t\n
+
+44:
+Puntatore prog. aggiorn.\n
+Cambiata posiz del PP\n
+nel task %!%!%s\n
+\t\n
+
+45:
+Sistema riavviato\n
+\n
+\t\n
+
+46:
+Sistema riavviato in\n
+modalita' Cold Start\n
+\t\n
+
+47:
+Negata esecuz del\n
+task %s\n
+%s\n
+\t\n
+
+4701:
+Task vuoto
+4702:
+Stato non corretto
+4703:
+Impos def PC in main prog
+4704:
+Impos def modalita' esecuz
+4705:
+Comando start negato
+48:
+Interruz task non esguita\n
+Task %s interrotto senza motivo\n
+%s\n
+\t\n
+
+49:
+Area protetta non terminata\n
+Interruz alimentaz avvenuta\n
+al centro di area protetta\n
+per task %!%s\n
+%s\n
+\t\n
+
+4901:
+Correz eventuali errori sistema
+4902:
+Errore eliminato
+4903:
+Modifica Errore
+4904:
+Potrebbe risult da extra ciclo prog
+4905:
+Task sara' eseg dall'inizio prog main

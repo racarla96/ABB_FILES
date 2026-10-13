@@ -1,0 +1,920 @@
+23::
+0:
+Hårdvara
+1203:
+Diskettfel\n
+Dålig disk eller ej formaterad\n
+\t\n
+1. Försök igen\n
+2. Byt disk
+1206:
+Diskettfel\n
+Dålig disk eller internt fel\n
+\t\n
+1. Försök igen\n
+2. Byt disk\n
+3. Återstarta systemet
+1207:
+Diskett-fel\n
+Diskett saknas eller är inte redo.\n
+\t\n
+1. Försök igen.
+1210:
+Diskettfel\n
+Ogiltigt format\n
+\t\n
+1. Byt disk
+1211:
+Diskettfel\n
+Fel vid läsning till/från disk\n
+\t\n
+1. Försök igen\n
+2. Byt disk\n
+3. Återstarta systemet
+1214:
+Diskettfel\n
+Data överföring avbruten\n
+\t\n
+1. Försök igen\n
+2.  Återstarta systemet
+1215:
+Diskettfel\n
+Internt kommando ogiltigt\n
+\t\n
+1. Försök igen\n
+2.  Återstarta systemet
+1216:
+Diskettfel\n
+Disken flyttades under överföringen\n
+\t\n
+1. Försök igen\n
+2.  Återstarta systemet
+1217:
+Diskettfel\n
+Dålig disk eller enhet\n
+\t\n
+1. Försök igen\n
+2. Byt disk\n
+3. Återstarta systemet
+1219:
+Diskettfel\n
+Disk enhet ej klar\n
+\t\n
+1. Försök igen\n
+2.  Återstarta systemet
+1220:
+Diskettfel\n
+Dålig disk eller internt fel\n
+\t\n
+1. Försök igen\n
+2. Byt disk\n
+3. Återstarta systemet
+1221:
+Diskettfel\n
+Data fel\n
+\t\n
+1. Försök igen\n
+2. Byt disk\n
+3. Återstarta systemet
+1222:
+Diskettfel\n
+Internt fel\n
+\t\n
+1. Försök igen\n
+2.  Återstarta systemet
+1223:
+Diskettfel\n
+Dålig disk eller internt fel\n
+\t\n
+1. Försök igen\n
+2. Byt disk\n
+3. Återstarta systemet
+1224:
+Diskettfel\n
+Disk skrivskyddad\n
+\t\n
+1. Ta bort skrivskyddet
+1225:
+Diskettfel\n
+Dålig disk - Adressmarkering saknas\n
+\t\n
+1. Byt disk
+1226:
+Diskettfel\n
+Felaktigt data på disken\n
+\t\n
+1. Byt disk
+1227:
+Diskettfel\n
+Dålig disk - Saknar cylinder\n
+\t\n
+1. Byt disk
+1228:
+Diskettfel\n
+Dålig disk - Dålig cylinder\n
+\t\n
+1. Byt disk
+1229:
+Diskettfel\n
+Dålig disk -Dålig adressmarkering i data\n
+\t\n
+1. Byt disk
+1605:
+Minnesfel i I/O datorn\n
+\n
+\t\n
+Byt robotdatorkortet
+1606:
+Minnesfel i I/O datorn\n
+\n
+\t\n
+Byt robotdatorkortet
+1607:
+Minnesfel i I/O datorn\n
+\n
+\t\n
+Byt robotdatorkortet
+1608:
+Checksummafel I/O- datorn\n
+\n
+\t\n
+Byt robotdatorkortet
+2118:
+MC RESET ERROR.\n
+Main computer running in spite\n
+of RESET command.\n
+\t\n
+Replace main computer board
+2301:
+Minnesfel i huvuddatorn\n
+\n
+\t\n
+Byt huvuddatorkortet
+2302:
+Minnesfel i huvuddatorn\n
+\n
+\t\n
+Byt huvuddatorkortet
+2303:
+Minnesfel i huvuddatorn\n
+\n
+\t\n
+Byt huvuddatorkortet
+2305:
+Typfel minneskort\n
+\n
+\t\n
+Byt minneskort
+1401:
+DMA fel\n
+DMA överföringsfel i robotdatorn\n
+\t\n
+Byt robotdatorkort
+1402:
+DMA fel\n
+DMA överföringsfel i robotdatorn\n
+\t\n
+Byt robotdatorkort
+1403:
+DMA fel\n
+DMA överföringsfel i robotdatorn\n
+\t\n
+Byt robotdatorkort
+1404:
+DMAfel\n
+DMA överföringsfel i robotdatorn\n
+\t\n
+Byt robotdatorkort
+1408:
+Axeldatorfel\n
+\n
+\t\n
+Byt robotdatorkortet
+1409:
+Robotdatorfel\n
+\n
+\t\n
+Byt robotdatorkortet
+1410:
+Axeldatorfel\n
+\n
+\t\n
+Byt robotdatorkortet
+1411:
+Axeldatorfel\n
+\n
+\t\n
+Byt robotdatorkortet
+1414:
+Huvuddatorfel\n
+\n
+\t\n
+1. Byt huvuddatorkortet\n
+2. Byt robotdatorkortet
+1415:
+Huvuddatorfel\n
+\n
+\t\n
+Byt huvuddatorkortet
+1418:
+DMA överföringsfel\n
+DMA överföringsfel i robotdatorn\n
+\t\n
+Byt robotdatorkort
+1419:
+DMA överföringsfel\n
+DMA överföringsfel i robotdatorn\n
+\t\n
+Byt robotdatorkort
+1420:
+DMA överförinsfel\n
+DMA överföringsfel i robotdatorn\n
+\t\n
+Byt robotdatorkort
+1114:
+Bussfel\n
+Bussfel när lysdioden på\n
+huvuddatorn skulle nås\n
+\t\n
+1. Byt huvuddatorkort\n
+2. Byt robotdatorkort
+1501:
+Batterispänning för låg\n
+Batterispänning för låg\n
+på batteri 1\n
+\t\n
+Byt batteri 1
+1502:
+Batterispänning för låg\n
+Batterispänning för låg\n
+på batteri 2\n
+\t\n
+Byt batteri 2
+1503:
+Batterispänning för låg\n
+Batteri spänningen är för låg\n
+på båda batterierna\n
+\t\n
+Byt batterier
+1505:
+Batterikrets-fel\n
+\n
+\t\n
+Byt robotdatorkort
+3301:
+Fel i axeldatorn\n
+\n
+\t\n
+Byt robotdatorkort
+3302:
+Fel i axeldatorn\n
+Axeldatorn kunde inte deaktivera\n
+VME-signalen SYSFAIL\n
+\t\n
+Byt robotdatorkort
+3303:
+Fel i axeldatorn\n
+Axeldatorn kunde inte aktivera\n
+VME-signalen SYSFAIL\n
+\t\n
+Byt robotdatorkort
+3304:
+Fel i axeldatorn\n
+\n
+\t\n
+Byt robotdatorkort
+3305:
+Fel i axeldatorns minne\n
+\n
+\t\n
+Byt robotdatorkort
+3308:
+Fel i axeldatorn\n
+\n
+\t\n
+Byt robotdatorkort
+3309:
+Fel i axeldatorn\n
+\n
+\t\n
+Byt robotdatorkort
+3310:
+Fel i axeldatorn\n
+\n
+\t\n
+Byt robotdatorkort
+3311:
+Axeldator\n
+Strömreferens återkopplingsfel\n
+\t\n
+Byt robotdatorkort
+3312:
+Fel i axeldatorn\n
+RUNNING/DRVFLT signal fel\n
+\t\n
+1. Byt robotdatorkort\n
+2. Kontrollera drivdonen
+3314:
+Fel i axeldatorn\n
+\n
+\t\n
+Byt robotdatorkort
+3315:
+Fel i axeldatorn\n
+\n
+\t\n
+Byt robotdatorkort
+3316:
+Ax.datafel återkoppl.kom.\n
+Axeldatorfel återkopplng\n
+komm. fel.\n
+\t\n
+Byt robotdatorkort
+3320:
+Axeldatorfel\n
+Fel rapporterat av axeldatorn.\n
+\t\n
+Byt robotdatorkort.
+3321:
+Axeldatorfel\n
+Felaktig VME-vektor genererades vid test\n
+\t\n
+Byt robotdatorkort.
+4001:
+Bussfel\n
+Oväntat bussfel under VME-test\n
+\t\n
+Kontrollera VME-korten.
+4002:
+Bussfel\n
+Oväntat svar under VME-test.\n
+\t\n
+Kontrollera VME-korten.
+4003:
+VME-fel\n
+VME-signalen SYSFAIL kan inte\n
+deaktiveras.\n
+\t\n
+1.Byt VME-kort.\n
+2.Byt VME-bakplan.\n
+3.Byt VME-terminations-kort,\n
+  om sådant finns.
+7002:
+DSQC306 fungerar inte\n
+Huvuddatorns mjukvara är inte nerladdad\n
+eller fungerande.\n
+\t\n
+
+7003:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7004:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7005:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7006:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7007:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7008:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7009:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7010:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7011:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7012:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7013:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7014:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7015:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7016:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7017:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7018:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7019:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7020:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7021:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7022:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7023:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7024:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7025:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7026:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7027:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7028:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7029:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7030:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7031:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7032:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7033:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7034:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7035:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7036:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7037:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7038:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7039:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7040:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7041:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7042:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7043:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7044:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7045:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7046:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7047:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7048:
+Huvuddator fel\n
+\n
+\t\n
+Byt huvuddatorkortet
+7049:
+Kontaktor-aktiveringsfel\n
+Kontaktor för station %s eller\n
+övervaknings eller reserv-kontaktor\n
+har ej aktiverats.\n
+\t\n
+Gör en varmstart.\n
+Kontrollera kontaktorer.\n
+Kontrollera digital in och utgång\n
+ till kontaktor.\n
+Byt systemkort.
+1701:
+Överfull seriekanal\n
+För mycket data på seriekanal %.f\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1702:
+Fullt av data i ser.kan 2\n
+\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1706:
+Kanal paritetsfel\n
+Paritetsfel på seriekanal %.f\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1707:
+Paritets fel på kanal 2\n
+Paritetsfel på seriekanal 2\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1711:
+Överföringsfel\n
+Överföringsfel på seriekanal %.f\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1712:
+Överföringsfel på kanal 2\n
+Överföringsfel på seriekanal 2\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1716:
+Kanalfel\n
+Fel i seriekanal %.f\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1730:
+Fel i klocka %.f\n
+\n
+\t\n
+2. Byt robotdatorkort
+1733:
+Fel i seriekanal %.f\n
+Mottaget data ej lika som sänt data\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1734:
+Fel i seriekanal 2\n
+Mottaget data ej lika som sänt data\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1738:
+Fel i klocka el. räknare\n
+Fel i klocka eller räknare %.f\n
+\t\n
+Byt robotdatorkort
+1742:
+Fel i serie kanal 2\n
+Handskaknings fel\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1746:
+Fel i serie kanal %.f\n
+Handskaknings fel\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1747:
+Fel i serie kanal %.f\n
+Avbrottsfel\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+2235:
+DMA överför. fel(MC-AXC)\n
+MC asic R4 rapporterar internt DMA-fel.\n
+\t\n
+1.Byt huvuddatorkort.\n
+2.Omstarts systemet, om felet består:\n
+3.Byt robotdatorkort.
+2244:
+DMA timeout-fel (MC-AXC)\n
+DMA-överföring vart inte klar inom\n
+tidsbegränsningen.\n
+\t\n
+1.Kontrollera VME-bussen.\n
+2.Byt huvuddatorkort eller\n
+3.Byt robotdatorkort.
+2246:
+DMA överför. fel(MC-AXC)\n
+MC asic R4 DMA ready flagga\n
+aktiverades inte\n
+\t\n
+1.Byt huvuddatorkort.
+2247:
+Avbrottsfel på Mailbox 1\n
+Avbrottsfel i Mailbox 1 på IO datorn\n
+\t\n
+Byt robotdatorkort
+2248:
+Avbrottsfel på Mailbox 2\n
+Avbrottsfel i Mailbox 2 på IO datorn\n
+\t\n
+Byt robotdatorkort
+2254:
+Huvuddatorfel\n
+Huvuddatorn kan inte aktivera\n
+VME-signalen SYSFAIL.\n
+\t\n
+1.Byt huvuddatorkort.
+2255:
+Huvuddatorfel\n
+Huvuddatorn kan inte avaktivera\n
+VME-signalen SYSFAIL.\n
+\t\n
+1.Byt huvuddatorkort.
+2256:
+DMA överför. fel(MC-AXC)\n
+Mönstertest i AXC minnet misslyckades.\n
+\t\n
+1.Byt huvuddatorkort.
+2257:
+DMA överför. fel(MC-AXC)\n
+Mönstertest i MC minnet misslyckades.\n
+\t\n
+1.Byt huvuddatorkort.
+1108:
+Fel i seriekanal\n
+Fel i seriekanal %.f\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1115:
+Fel i seriekanal 1\n
+Mottaget data ej lika som sänt data\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1116:
+Fullt m. data i ser.kan 1\n
+\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1117:
+Paritets fel på ser.kan 1\n
+\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1118:
+Överf. fel i seriekanal 1\n
+\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1119:
+Störn. fel i seriekanal 1\n
+\n
+\t\n
+1. Kontrollera kommunikationsparametrar\n
+2. Byt robotdatorkort
+1130:
+Port fel\n
+\n
+\t\n
+Byt robotdatorkort
+1131:
+SYSRESET avfyrades inte.\n
+\n
+\t\n
+Åerställ VMEbuss korten.\n
+1. Kontrollera robotdatorn.\n
+2. Kontrollera andra VMEbuss kort.\n
+3. Kontrollera bakplan.
+1132:
+Fel i seriekanal 2\n
+Mottaget data överänsstämmer inte med\n
+sänt data.\n
+\t\n
+1. Kontrollera kommunikationsparametrar.\n
+2. Byt robotdatorkort.
+1133:
+Overflow seriekanal 2\n
+\n
+\t\n
+1. Kontrollera kommunikationsparametrar.\n
+2. Byt robotdatorkort.
+1134:
+Paritetsfel, seriekanal 2\n
+\n
+\t\n
+1. Kontrollera kommunikationsparametrar.\n
+2. Byt robotdatorkort.
+1135:
+Framing-fel, seriekanal 2\n
+\n
+\t\n
+1. Kontrollera kommunikationsparametrar.\n
+2. Byt robotdatorkort.
+1136:
+Brusfel, seriekanal 2\n
+\n
+\t\n
+1. Kontrollera kommunikationsparametrar.\n
+2. Byt robotdatorkort.
+1147:
+IO-datorfel\n
+IO-datorn kan inte aktivera\n
+VME-signalen SYSFAIL.\n
+\t\n
+1.Byt IO-datorkort.
+1148:
+IO-datorfel\n
+IO-datorn kan inte avaktivera\n
+VME-signalen SYSFAIL.\n
+\t\n
+1.Byt IO-datorkort.
+3150:
+Axeldator fel\n
+Axeldatorn stoppades med\n
+hårdvaruavbrott p g a avbrottsfel.\n
+\t\n
+Ladda in styrprogrammet igen\n
+Byt ut robotdatorkortet.
+3158:
+Axeldator fel\n
+Axeldator driver klockfel\n
+Huvuddatorn svarar inte\n
+\t\n
+Ladda in styrprogrammet igen\n
+Byt ut huvuddatorkortet.
+3159:
+Hastighetsvarning\n
+Hastigheten för axel %.f överskrider\n
+tillåtet värde i manuellt körsätt\n
+\t\n
+Kontrollera lastdefinitionen.\n
+Kontrollera parametrarna för externa\n
+axlar. Kontrollera om singularitet\n
+föreligger. Byt drivdon
+3201:
+Axeldator läsfel\n
+Fel har uppstått vid läsning från axel-\n
+dator. Axeldatorn svarade inte med rätt\n
+antal byte.\n
+\t\n
+Kontrollera systemkonfigureringen\n
+Ladda in styrprogrammet igen\n
+Byt ut robotdatorkortet.
+3202:
+Axeldator skrivfel\n
+Fel har uppstått vid skrivning till\n
+axeldator. Axeldatorn svarade inte med\n
+rätt antal byte.\n
+\t\n
+Kontrollera systemkonfigureringen\n
+Ladda in styrprogrammet igen\n
+Byt ut robotdatorkortet.
+3203:
+Axeldator ioctl-fel\n
+Fel vid ioctl till axeldator\n
+Kan inte utföra ioctl\n
+\t\n
+Gör en omstart.\n
+Ladda in styrprogrammet igen\n
+Byt ut robotdatorkortet.
+3210:
+Feedback positionsfel\n
+Feedbackpositionen kunde inte läsas på\n
+axel %.f\n
+\t\n
+Ladda in styrprogrammet igen\n
+Byt ut huvuddatorkortet.
+3211:
+Positionsstyrningsfel\n
+Kan ej avsluta positionsstyrning i tid.\n
+\t\n
+Ladda in styrprogrammet igen\n
+Kontrollera brusnivå på I/O-kopplingarna
+3212:
+DMA Timeoutfel\n
+DMA Access fungerar ej mellan huvud och\n
+axeldator.\n
+\t\n
+Ladda in styrprogrammet igen\n
+Byt ut hvuddatorkort och\n
+axeldatorkort
+3213:
+DMA funktionsfel\n
+DMA Operation fungerar ej mellan huvud\n
+och axeldator.\n
+\t\n
+Ladda in styrprogrammet igen\n
+Byt ut hvuddatorkort och\n
+axeldatorkort
+3220:
+Axeldator fel\n
+Axeldatorn har gett en felkod som\n
+indikerar hårdvaru-fel.\n
+\t\n
+Ladda in styrprogrammet igen\n
+Byt ut robotdatorkortet.

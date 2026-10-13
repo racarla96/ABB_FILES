@@ -1,0 +1,1951 @@
+24::
+0:
+Programme
+1:
+Erreur d'argument\n
+Tache %s: Plus d'une occurence du meme\n
+parametre optionnel.\n
+\t\n
+Assurez-vous que le meme parametre\n
+optionnel n'est pas utilise plus d'une\n
+fois dans le meme appel de routine.
+2:
+Erreur d'argument\n
+Tache %s: Les arguments exclusifs\n
+doivent avoir une valeur\n
+conditionnelle.\n
+\t\n
+On ne peut specifier en meme temps des\n
+parametres mutuellement exclusifs a\n
+moins de les utiliser avec des valeurs\n
+conditionnelles.
+3:
+Erreur d'argument\n
+Tache %s: Argument obligatoire\n
+attendu.\n
+\t\n
+Verifier que les arguments sont\n
+utilises dans le meme ordre que dans\n
+la declaration de la routine appelee.
+4:
+Erreur d'argument\n
+Tache %s: L'argument du parametre REF\n
+n'est pas une reference a une donnee.\n
+\t\n
+Verifier que l'expression en argument\n
+est bien une reference a une donnee ou\n
+a un parametre.
+5:
+Argument error\n
+Tache %s: L'argument du parametre\n
+'INOUT' n'est pas une reference a une\n
+une variable ou a un persistant, ou\n
+est en lecture seulement.\n
+\t\n
+Verifier que l'expression en argument\n
+est bien une reference a une variable,\n
+a un persistant, a un parametre\n
+variable ou a un parametre persistant.\n
+Et pas lecture seulement (var ou pers)
+6:
+Erreur d'argument\n
+Tache %s: Manque parametre optionnel.\n
+\t\n
+Les parametres optionnels autres que\n
+les 'commutateurs' doivent avoir une\n
+valeur. Ajouter une valeur.
+7:
+Erreur d'argument\n
+Tache %s: Argument optionnel place au\n
+mauvais endroit.\n
+\t\n
+Verifier que les arguments sont\n
+utilises dans le meme ordre que dans\n
+la declaration de la routine appelee.
+8:
+Erreur d'argument\n
+Tache %s: Reference a un parametre\n
+optionnel sous forme d'argument\n
+obligatoire.\n
+\t\n
+Un argument correspondant a un\n
+parametre optionnel doit commencer par\n
+un '\'. Modifier l'argument en\n
+consequence.
+9:
+Erreur d'argument\n
+Tache %s: Reference a un parametre\n
+obligatoire sous forme d'argument\n
+conditionnel.\n
+\t\n
+La valeur conditionnelle d'un\n
+parametre optionnel doit se referer a\n
+un parametre optionnel dans la routine\n
+appelante.\n
+Modifier la valeur conditionnelle.
+10:
+Erreur d'argument\n
+Tache %s: Reference a un parametre\n
+obligatoire sous forme d'argument\n
+optionnel.\n
+\t\n
+Un argument correspondant a un\n
+parametre obligatoire ne doit pas etre\n
+precede de '\'. Modifier l'argument\n
+optionnel en argument obligatoire.
+11:
+Erreur d'argument\n
+Tache %s: Argument obligatoire nomme\n
+au mauvais endroit dans la liste\n
+d'arguments.\n
+\t\n
+Verifier que les arguments sont\n
+utilises dans le meme ordre que dans\n
+la declaration de la routine appelee.
+12:
+Erreur d'argument\n
+Tache %s: Un argument de type\n
+'commutateur' ne peut avoir de valeur.\n
+\t\n
+Un argument correspondant a un\n
+parametre de type 'commutateur' ne\n
+peut comporter de valeur.\n
+Supprimer la valeur.
+13:
+Erreur d'argument\n
+Tache %s: Trop peu d'arguments dans\n
+l'appel de la routine.\n
+\t\n
+Un appel de routine doit passer des\n
+valeurs a tous parametres obligatoires\n
+de la routine appelee. Ajouter les\n
+arguments manquants conformement\n
+a la liste de parametres.
+14:
+Erreur d'argument\n
+Tache %s: Trop d'arguments dans\n
+l'appel de la routine.\n
+\t\n
+Supprimer les arguments qui ne figurent\n
+pas dans la liste des parametres de la\n
+routine appelee.
+15:
+Erreur decl donnee\n
+Tache %s: La dimension du tableau doit\n
+etre > 0.\n
+\t\n
+Les dimensions d'un tableau doivent\n
+etre positives. Modifier l'expression\n
+donnant la dimension.
+16:
+Erreur decl donnee\n
+Tache %s: Trop de dimensions dans la\n
+definition de tableau.\n
+\t\n
+Un tableau peut avoir 3 dimensions au\n
+plus. Reconcevoir le programme pour\n
+que le tableau n'ait pas plus de 3\n
+dimensions.
+17:
+Erreur de type\n
+Tache %s: La donnee indicee n'est pas\n
+de type tableau.\n
+\t\n
+Seules les donnees declarees comme\n
+tableaux peuvent etre indicees.\n
+Supprimer le ou les indices, ou\n
+declarer la donnee en tant que\n
+tableau.
+18:
+Erreur de type\n
+Tache %s: La donnee n'est pas de type\n
+'enregistrement'.\n
+t\n
+Les composants ne sont utilisables\n
+que pour les donnees de type\n
+'enregistrement'. Verifier le type et\n
+le nom de la donnee referencee.
+19:
+Erreur de limite\n
+Tache %s: Erreur lors de la creation de\n
+donnee dans la sdb\n
+\t\n
+Une erreur est apparue lors de\n
+l'insertion d'un persistant dans la\n
+base de donnees partagee. La base de\n
+donnees est probablement pleine.
+20:
+Erreur decl donnee\n
+Tache %s: L'expression n'est pas une\n
+expression constante.\n
+\t\n
+Les expressions utilisees lors des\n
+declarations de donnees doivent etre\n
+des expressions constantes et ne\n
+peuvent contenir ni variable ni donnee\n
+persistente ni appel de fonction.
+21:
+Erreur d'instruction\n
+Tache %s: RETURN dans une fonction\n
+doit comporter une expression.\n
+\t\n
+Une instruction RETURN a l'interieur\n
+d'une fonction doit specifier la valeur\n
+de retour de la fonction. Ajouter une\n
+valeur de retour.
+22:
+Erreur de type\n
+Tache %s: Combinaison illicite de\n
+types d'operandes pour l'operateur\n
+'*'.\n
+\t\n
+Les combinaisons de types utilisables\n
+avec l'operateur '*' sont: 'num'*'num',\n
+'num'*'pos', 'pos'*'num', 'pos'*'pos'\n
+et 'orient'*'orient'. Verifier les\n
+types des operandes.
+23:
+Erreur d'instruction\n
+Tache %s: Ne peut transferer le\n
+controle a une autre liste\n
+d'instructions.\n
+\t\n
+L'etiquette doit etre situee dans la\n
+meme liste d'instructions que le GOTO,\n
+a un niveau egal ou superieur. Il est\n
+impossible d'aller a l'interieur d'une\n
+instruction de controle de flux.
+24:
+Erreur de type\n
+Tache %s: Type illicite pour l'operande\n
+a gauche de l'operateur binaire '+' ou\n
+'-'.\n
+\t\n
+Les types permis pour les operandes de\n
+l'operateur '+' sont 'num', 'pos' et\n
+'string'; pour l'operateur '-' ce sont\n
+'num' et 'pos'.\n
+Verifier le type de l'operande.
+25:
+Erreur de type\n
+Tache %s: Type illicite pour l'operande\n
+de l'operateur unaire '+' ou '-'.\n
+\t\n
+Les types permis pour l'operande des\n
+operateurs unaires '+' et '-' sont\n
+'num' and 'pos'.\n
+Verifier le type de l'operande.
+26:
+Erreur de type\n
+Tache %s: Type illicite pour l'operande\n
+a droite de l'operateur binaire '+' ou\n
+'-'.\n
+\t\n
+Les types permis pour les operandes de\n
+l'operateur '+' sont 'num', 'pos' et\n
+'string'; pour l'operateur '-' ce sont\n
+'num' et 'pos'.\n
+Verifier le type de l'operande.
+27:
+Erreur de type\n
+Tache %s: Type illicite pour l'operande\n
+a gauche de l'operateur '/', 'DIV' ou\n
+'MOD'.\n
+\t\n
+Le seul type permis pour les operandes\n
+des operateurs '/', 'DIV' et 'MOD' est\n
+'num'.\n
+Verifier le type de l'operande.
+28:
+Erreur de type\n
+Tache %s: Type illicite pour l'operande\n
+a droite de l'operateur '/', 'DIV' ou\n
+'MOD'.\n
+\t\n
+Le seul type permis pour les operandes\n
+des operateurs '/', 'DIV' et 'MOD' est\n
+'num'.\n
+Verifier le type de l'operande.
+29:
+Erreur de type\n
+Tache %s: Type illicite pour l'operande\n
+de gauche des operateurs '<', '<=', '>'\n
+ou '>='.\n
+\t\n
+Le seul type permis pour les operandes\n
+des operateurs '<', '<=', '>' et '>='\n
+est 'num'.\n
+Verifier le type de l'operande.
+30:
+Erreur de type\n
+Tache %s: Type illicite pour l'operande\n
+de droite des operateurs '<', '<=', '>'\n
+ou '>='.\n
+\t\n
+Le seul type permis pour les operandes\n
+des operateurs '<', '<=', '>' et '>='\n
+est 'num'.\n
+Verifier le type de l'operande.
+31:
+Erreur de type\n
+Tache %s: Type illicite pour l'operande\n
+de gauche de l'operateur '*'.\n
+\t\n
+Les types permis pour les operandes de\n
+l'operateur '*' sont 'num', 'pos' et\n
+'orient'.\n
+Verifier le type de l'operande.
+32:
+Erreur de type\n
+Tache %s: Type illicite pour l'operande\n
+de droite de l'operateur '*'.\n
+\t\n
+Les types permis pour les operandes de\n
+l'operateur '*' sont 'num', 'pos' et\n
+'orient'.\n
+Verifier le type de l'operande.
+33:
+Erreur de type\n
+Tache %s: Type illicite pour l'operande\n
+de l'operateur 'NOT'.\n
+\t\n
+Le seul type permis pour l'operande de\n
+l'operateur 'NOT' est 'bool'.\n
+Verifier le type de l'operande.
+34:
+Erreur de type\n
+Tache %s: Type illicite pour l'operande\n
+de gauche de l'operateur 'OR', 'XOR' ou\n
+'AND'.\n
+\t\n
+Le seul type permis pour les operandes\n
+des operateurs 'OR', 'XOR' and "AND'\n
+est 'bool'.\n
+Verifier le type de l'operande.
+35:
+Erreur de type\n
+Tache %s: Type illicite pour l'operande\n
+de droite de l'operateur 'OR', 'XOR' ou\n
+'AND'.\n
+\t\n
+Le seul type permis pour les operandes\n
+des operateurs 'OR', 'XOR' and "AND'\n
+est 'bool'.\n
+Verifier le type de l'operande.
+36:
+Erreur de type\n
+Tache %s: Nombre incorrect d'indices\n
+dans la liste d'indices.\n
+\t\n
+Assurez-vous que le nombre d'indices\n
+dans la liste d'indices est le meme\n
+que le nombre de dimensions du tableau\n
+utilise.
+37:
+Erreur decl donnee\n
+Tache %s: LOCAL illicite dans la\n
+declaration de constantes d'une routine\n
+\t\n
+Seules les declarations de donnees au\n
+niveau programme peuvent comporter\n
+l'attribut LOCAL. Supprimer l'attribut\n
+LOCAL ou transferer la declaration hors\n
+de la routine.
+38:
+Erreur decl donnee\n
+Tache %s: LOCAL illicite dans la\n
+declaration de variables d'une routine.\n
+\t\n
+Seules les declarations de donnees au\n
+niveau programme peuvent comporter\n
+l'attribut LOCAL. Supprimer l'attribut\n
+LOCAL ou transferer la declaration hors\n
+de la routine.
+39:
+Erreur de nom\n
+Tache %s: Nom de constante ambigu.\n
+\t\n
+Les donnees d'une routine doivent avoir\n
+des noms uniques a l'interieur de la\n
+routine et celles du programme des noms\n
+uniques a l'interieur du module.\n
+Renommer la donnee.
+40:
+Erreur de nom\n
+Tache %s: Nom de constante globale\n
+ambigu.\n
+\t\n
+Les donnees globales doivent avoir\n
+des noms uniques parmi toutes les\n
+donnees globales, les routines globales\n
+et les modules dans la tache entiere.\n
+Renommer la donnee.
+41:
+Erreur de nom\n
+Tache %s: Nom de donnee globale\n
+persistente ambigu.\n
+\t\n
+Les donnees globales doivent avoir\n
+des noms uniques parmi toutes les\n
+donnees globales, les routines globales\n
+et les modules dans la tache entiere.\n
+Renommer la donnee.
+42:
+Erreur de nom\n
+Tache %s: Nom de routine globale\n
+ambigu.\n
+\t\n
+Les donnees globales doivent avoir\n
+des noms uniques parmi toutes les\n
+donnees globales, les routines globales\n
+et les modules dans la tache entiere.\n
+Renommer la donnee.
+43:
+Erreur de nom\n
+Tache %s: Nom de variable globale\n
+ambigu.\n
+\t\n
+Les donnees globales doivent avoir\n
+des noms uniques parmi toutes les\n
+donnees globales, les routines globales\n
+et les modules dans la tache entiere.\n
+Renommer la donnee.
+44:
+Erreur de nom\n
+Tache %s: Nom d'etiquette ambigu.\n
+\t\n
+Les etiquettes doivent avoir des noms\n
+uniques a l'interieur d'une routine.\n
+Renommer l'etiquette ou modifier le nom\n
+en conflit.
+45:
+Erreur de nom\n
+Tache %s: Nom de module ambigu.\n
+\t\n
+Les modules doivent avoir des noms\n
+uniques parmi toutes les donnees\n
+globales, les routines globales\n
+et les modules dans la tache entiere\n
+Renommer la donnee.
+46:
+Erreur de nom\n
+Tache %s: Nom de parametre ambigu.\n
+\t\n
+Les parametres doivent avoir des noms\n
+uniques a l'interieur d'une routine.\n
+Renommer le parametre ou modifier le\n
+nom en conflit.
+47:
+Erreur de nom\n
+Tache %s: Nom de variable persistente\n
+ambigu.\n
+\t\n
+Les donnees d'un programme doivent\n
+avoir des noms uniques a l'interieur\n
+du module. Renommer la donnee ou\n
+modifier le nom en conflit.
+48:
+Erreur de nom\n
+Tache %s: Nom de routine ambigu.\n
+\t\n
+Les routines d'un programme doivent\n
+avoir des noms uniques a l'interieur\n
+du module. Renommer la routine ou\n
+modifier le nom en conflit.
+49:
+Erreur de nom\n
+Tache %s: Nom de variable ambigu.\n
+\t\n
+Les donnees d'une routine doivent avoir\n
+des noms uniques a l'interieur de la\n
+routine et celles du programme des noms\n
+uniques a l'interieur du module.\n
+Renommer la donnee.
+50:
+Erreur de type\n
+Tache %s: Les deux operandes de\n
+l'operateur binaire '+' ou '-' sont de\n
+types differents.\n
+\t\n
+Les deux operandes des operateurs '+'\n
+et '-' doivent avoir le meme type.\n
+Verifier les types de operandes.
+51:
+Erreur de type\n
+Tache %s: Les deux operandes de\n
+l'operateur '=' ou '<>' sont de types\n
+differents.\n
+\t\n
+Les deux operandes des operateurs '='\n
+et '<>' doivent avoir le meme type.\n
+Verifier les types de operandes.
+52:
+Erreur d'instruction\n
+Tache %s: RETURN suivi d'une expression\n
+n'est permis que dans une fonction.\n
+\t\n
+Dans une procedure ou une exception\n
+l'instruction RETURN ne doit pas\n
+contenir d'expression.\n
+Supprimer l'expression.
+53:
+Erreur d'instruction\n
+Tache %s: RAISE dans un gestionnaire\n
+d'erreur ne doit pas etre suivi d'une\n
+expression.\n
+\t\n
+L'instruction RAISE a l'interieur d'un\n
+gestionnaire d'erreur ne peut etre\n
+utilise que pour propager l'erreur\n
+courante et ne peut donc comporter de\n
+numero d'erreur. Supprimer le numero.
+54:
+Erreur de type\n
+Tache %s: Dimension differente entre le\n
+type de tableau et l'aggregat.\n
+\t\n
+Assurez-vous que le nombre des\n
+expressions dans l'aggregat est le meme\n
+que la dimension du tableau.
+55:
+Erreur de type\n
+Tache %s: La destination d'une\n
+assignation doit avoir un type 'value'\n
+ou 'semi-value'.\n
+\t\n
+Le type de la donnee a laquelle est\n
+assignee une valeur, doit etre un type\n
+'value' ou 'semi-value'. On ne peut\n
+changer les donnees du type 'non value'\n
+que par des instructions specifiques.
+56:
+Erreur de type\n
+Tache %s: Le type de l'operande de\n
+gauche de l'operateur '=' ou '<>' n'est\n
+ni un type 'value' ni un type\n
+'semi-value'.\n
+\t\n
+Les operateurs '=' and '<>' ne peuvent\n
+s'utiliser qu'avec des expressions de\n
+type 'value' ou 'semi-value'. Pour les\n
+autres types utiliser des fonctions\n
+specifiques pre-definies.
+57:
+Erreur de type\n
+Tache %s: Le type de l'operande de\n
+droite de l'operateur '=' ou '<>' n'est\n
+ni un type 'value' ni un type\n
+'semi-value'.\n
+\t\n
+Les operateurs '=' and '<>' ne peuvent\n
+s'utiliser qu'avec des expressions de\n
+type 'value' ou 'semi-value'. Pour les\n
+autres types utiliser des fonctions\n
+specifiques pre-definies.
+58:
+Erreur de type\n
+Tache %s: L'expression utilisee avec\n
+TEST n'est ni de type 'value' ni\n
+'semi-value'.\n
+\t\n
+L'instruction TEST ne peut s'appliquer\n
+qu'a des expressions de type 'value' ou\n
+'semi-value'. Si des comparaisons sont\n
+necessaires, utiliser des fonctions\n
+specifiques pre-definies.
+59:
+Erreur decl donnee\n
+Tache %s: Un suppletif pour une\n
+expression n'est pas autorise dans la\n
+definition d'une constante nommee.\n
+\t\n
+Completer la declaration de la donnee\n
+ou changer le nom de la donnee en un\n
+suppletif.
+60:
+Erreur decl donnee\n
+Tache %s: Un suppletif pour une\n
+dimension de tableau n'est pas autorise\n
+dans la definition d'une constante ou\n
+d'une variable nommee.\n
+\t\n
+Completer la declaration de la donnee\n
+ou changer le nom de la donnee en un\n
+suppletif.
+61:
+Erreur decl routine\n
+Tache %s: Un suppletif pour la\n
+dimension d'un tableau de parametres\n
+n'est pas autorise dans la definition\n
+d'une routine nommee.\n
+\t\n
+Completer la declaration du parametre\n
+ou changer le nom de la routine en un\n
+suppletif.
+62:
+Erreur de nom\n
+Tache %s: Un suppletif de nom de\n
+parametre n'est pas autorise dans la\n
+definition d'une routine nommee.\n
+\t\n
+Completer la declaration du parametre\n
+ou changer le nom de la routine en un\n
+suppletif.
+63:
+Erreur decl donnee\n
+Tache %s: Un suppletif d'expression de\n
+valeur initiale n'est pas autorise\n
+dans la definition d'une variable\n
+persistente nommee.\n
+\t\n
+Completer la declaration de la donnee\n
+ou changer le nom de la donnee en un\n
+suppletif.
+64:
+Erreur decl routine\n
+Tache %s: Un suppletif de parametre\n
+n'est pas autorise dans la definition\n
+d'une routine nommee.\n
+\t\n
+Completer la declaration du parametre\n
+ou changer le nom de la routine en un\n
+suppletif.
+65:
+Reference error\n
+Tache %s: Un suppletif de type n'est\n
+pas autorise dans la definition d'une\n
+donnee ou d'une routine nommee.\n
+\t\n
+Completer la declaration de la variable\n
+ou de la routine ou changer le nom de\n
+la variable ou de la routine en un\n
+suppletif.
+66:
+Erreur decl donnee\n
+Tache %s: Un suppletif d'expression de\n
+valeur initiale n'est pas autorise dans\n
+la definition d'une variable nommee.\n
+\t\n
+Completer la declaration de la donnee\n
+ou changer le nom de la donnee en un\n
+suppletif.
+67:
+Erreur de type\n
+Tache %s: Trop peu de composants dans\n
+un aggregat de type enregistrement.\n
+\t\n
+Assurez-vous que le nombre des\n
+expressions dans l'aggregat est le meme\n
+que le nombre de composants dans le\n
+type d'enregistrement.
+68:
+Erreur de type\n
+Tache %s: Trop de composants dans un\n
+aggregat de type enregistrement.\n
+\t\n
+Assurez-vous que le nombre des\n
+expressions dans l'aggregat est le meme\n
+que le nombre de composants dans le\n
+type d'enregistrement.
+69:
+Erreur de reference\n
+Tache %s: Reference ambigue a une\n
+donnee.\n
+\t\n
+Au moins un autre objet partageant le\n
+meme nom que la donnee referencee est\n
+visible de cet endroit du programme.\n
+Assurez-vous que les objets remplissent\n
+les regles d'unicite de nom.
+70:
+Erreur de reference\n
+Tache %s: Reference ambigue a une\n
+fonction.\n
+\t\n
+Au moins un autre objet partageant le\n
+meme nom que la donnee referencee est\n
+visible de cet endroit du programme.\n
+Assurez-vous que les objets remplissent\n
+les regles d'unicite de nom.
+71:
+Erreur de reference\n
+Tache %s: Reference ambigue a une\n
+etiquette.\n
+\t\n
+Au moins un autre objet partageant le\n
+meme nom que la donnee referencee est\n
+visible de cet endroit du programme.\n
+Assurez-vous que les objets remplissent\n
+les regles d'unicite de nom.
+72:
+Erreur de reference\n
+Tache %s: Reference ambigue a une\n
+procedure.\n
+\t\n
+Au moins un autre objet partageant le\n
+meme nom que la donnee referencee est\n
+visible de cet endroit du programme.\n
+Assurez-vous que les objets remplissent\n
+les regles d'unicite de nom.
+73:
+Erreur de reference\n
+Tache %s: Reference ambigue a une\n
+exception.\n
+\t\n
+Au moins un autre objet partageant le\n
+meme nom que la donnee referencee est\n
+visible de cet endroit du programme.\n
+Assurez-vous que les objets remplissent\n
+les regles d'unicite de nom.
+74:
+Erreur de reference\n
+Tache %s: Ce n'est pas une reference a\n
+une donnee complete.\n
+\t\n
+Le nom specifie identifie un objet\n
+autre qu'une donnee. Verifier que la\n
+donnee desiree n'est pas masquee par\n
+quelqu'objet du meme nom.
+75:
+Erreur de reference\n
+Tache %s: Ce n'est pas une reference a\n
+une fonction.\n
+\t\n
+Le nom specifie identifie un objet\n
+autre qu'une fonction. Verifier que la\n
+fonction desiree n'est pas masquee par\n
+quelqu'objet du meme nom.
+76:
+Erreur de reference\n
+Tache %s: Ce n'est pas une reference a\n
+une etiquette.\n
+\t\n
+Le nom specifie identifie un objet\n
+autre qu'une etiquette. Verifier que\n
+l'etiquette desiree n'est pas masquee\n
+par quelqu'objet du meme nom.
+77:
+Erreur de reference\n
+Tache %s: Ce n'est pas une reference a\n
+un parametre optionnel dans un argument\n
+conditionnel.\n
+\t\n
+Le nom specifie identifie un objet\n
+autre qu'un parametre optionnel.\n
+Modifier le nom pour faire\n
+reference a un parametre optionnel.
+78:
+Erreur de reference\n
+Tache %s: Ce n'est pas une reference a\n
+un parametre optionnel.\n
+\t\n
+Le nom specifie identifie un objet\n
+autre qu'un parametre optionnel.\n
+Modifier le nom pour faire\n
+reference a un parametre optionnel.
+79:
+Erreur de reference\n
+Tache %s: Ce n'est pas une reference a\n
+une procedure.\n
+\t\n
+Le nom specifie identifie un objet\n
+autre qu'une procedure. Verifier que la\n
+procedure desiree n'est pas masquee.\n
+par quelqu'objet du meme nom.
+80:
+Erreur de reference\n
+Tache %s: Ce n'est pas une reference a\n
+un parametre obligatoire.\n
+\t\n
+Le nom specifie identifie un objet\n
+autre qu'un parametre obligatoire.\n
+Modifier le nom pour faire\n
+reference a un parametre obligatoire.
+81:
+Erreur de reference\n
+Tache %s: Ce n'est pas une reference a\n
+une exception.\n
+\t\n
+Le nom specifie identifie un objet\n
+autre qu'une exception. Verifier que\n
+l'exception desiree n'est pas masquee\n
+par quelqu'objet du meme nom.
+82:
+Erreur de reference\n
+Tache %s: Ce n'est pas une reference a\n
+un type.\n
+\t\n
+Le nom specifie identifie un objet\n
+autre qu'un type. Verifier que le\n
+type desire n'est pas masque par\n
+quelqu'objet du meme nom.
+83:
+Erreur de type\n
+Tache %s: Ce n'est pas un type 'value'.\n
+\t\n
+Seules les variables sans valeur\n
+initiale et les parametres en mode\n
+'VAR' peuvent etre de type 'semi-value'\n
+ou 'non-value'.
+84:
+Erreur de reference\n
+Tache %s: Reference a une donnee\n
+complete inconnue.\n
+\t\n
+Aucune donnee (ni aucun autre objet)\n
+avec le nom specifie n'est visible de\n
+cet endroit du programme.
+85:
+Erreur de reference\n
+Tache %s: Reference a une fonction\n
+inconnue.\n
+\t\n
+Aucune fonction (ni aucun autre objet)\n
+avec le nom specifie n'est visible de\n
+cet endroit du programme.
+86:
+Erreur de reference\n
+Tache %s: Reference a une etiquette\n
+inconnue.\n
+\t\n
+La routine ne contient aucune etiquette\n
+(ni aucun autre objet) de ce nom.
+87:
+Erreur de reference\n
+Tache %s: Reference a un parametre\n
+optionnel inconnu.\n
+\t\n
+La routine appelee ne contient aucun\n
+parametre optionnel (ni aucun autre\n
+objet) de ce nom.
+88:
+Erreur de reference\n
+Tache %s: Reference a une procedure\n
+inconnue.\n
+\t\n
+Aucune procedure (ni aucun autre\n
+objet) avec le nom specifie n'est\n
+visible de cet endroit du programme.
+89:
+Erreur de reference\n
+Tache %s: Reference a un composant\n
+d'enregistrement inconnu.\n
+\t\n
+Le type d'enregistrement ne contient\n
+aucun composant de ce nom.
+90:
+Erreur de reference\n
+Tache %s: Reference a un parametre\n
+obligatoire inconnu.\n
+\t\n
+La routine appelee ne contient aucun\n
+parametre obligatoire (ni aucun autre\n
+objet) de ce nom.
+91:
+Erreur de reference\n
+Tache %s: Reference a une exception\n
+inconnue.\n
+\t\n
+Aucune exception (ni aucun autre\n
+objet) avec le nom specifie n'est\n
+visible de cet endroit du programme.
+92:
+Erreur de reference\n
+Tache %s: Nom de type inconnu.\n
+\t\n
+Aucun type de donnee (ni aucun autre\n
+objet) avec le nom specifie n'est\n
+visible de cet endroit du programme.
+93:
+Erreur d'instruction\n
+Tache %s: La destination de\n
+l'assignation est en lecture seulement.\n
+\t\n
+La donnee a laquelle on affecte une\n
+valeur ne peut etre une constante, ni\n
+une variable en lecture seulement, ni\n
+une donnee persistente en lecture\n
+seulement.
+94:
+Erreur decl donnee\n
+Tache %s: La declaration de donnees\n
+persistentes n'est pas permise dans une\n
+routine.\n
+\t\n
+Les donnees persistentes ne peuvent\n
+etre declarees qu'au niveau du module.\n
+Enlever la declaration de la routine.
+95:
+Erreur d'instruction\n
+Tache %s: RAISE sans argument n'est\n
+permis que dans un gestionnaire\n
+d'erreur.\n
+\t\n
+Ajouter un numero d'erreur a\n
+l'instruction RAISE.
+96:
+Erreur d'instruction\n
+Tache %s: RETRY n'est permis que dans\n
+un gestionnaire d'erreur.\n
+\t\n
+L'instruction RETRY ne peut etre\n
+utilisee que dans un gestionnaire\n
+d'erreur. Le supprimer ici.
+97:
+Erreur d'instruction\n
+Tache %s: TRYNEXT n'est permis que dans\n
+un gestionnaire d'erreur.\n
+\t\n
+L'instruction TRYNEXT ne peut etre\n
+utilisee que dans un gestionnaire\n
+d'erreur. Le supprimer ici.
+98:
+Erreur de parametre\n
+Tache %s: Un parametre de type\n
+'commutateur' doit avoir le mode de\n
+transfert 'IN'.\n
+\t\n
+Supprimer le specificateur de mode de\n
+transfert de parametre. Si le mode de\n
+transfert 'IN' n'est pas suffisant,\n
+changer le type du parametre.
+99:
+Erreur de parametre\n
+Tache %s: Un parametre de type\n
+'commutateur' n'a pas de dimension.\n
+\t\n
+Supprimer la dimension de tableau ou\n
+changer le type du parametre.
+100:
+Erreur de parametre\n
+Tache %s: Le type 'commutateur' n'est\n
+autorise que pour les parametres\n
+optionnels.\n
+\t\n
+Changer le parametre en un parametre\n
+optionnel ou changer le type de donnee\n
+du parametre. Si l'objet n'est pas un\n
+parametre, changer son type.
+101:
+Erreur de type\n
+Tache %s: Conflit de type.\n
+\t\n
+L'expression n'a pas le type de donnee\n
+attendu.
+102:
+Erreur de type\n
+Tache %s: Conflit de type pour\n
+l'aggregat.\n
+\t\n
+L'aggregat n'est pas du type de donnee\n
+attendu.
+103:
+Type error\n
+Tache %s: Conflit de type pour\n
+le persistant.\n
+\t\n
+Il existe deja un persistent avec le\n
+meme nom mais d'un autre type. Renommer\n
+le persistant ou chang son type.
+104:
+Erreur decl donnee\n
+Tache %s: Ne peut determiner la\n
+dimension du tableau (references\n
+circulaires a des constantes ?).\n
+\t\n
+Verifier que toutes les constantes\n
+referencees sont correctement definies.\n
+Si oui, le programme est trop complexe.\n
+Reecrire les declarations.
+105:
+Erreur decl donnee\n
+Tache %s: Ne peut determiner le type de\n
+la valeur constante (references\n
+circulaires a des constantes ?).\n
+\t\n
+Verifier que toutes les constantes\n
+referencees sont correctement definies.\n
+Si oui, le programme est trop complexe.\n
+Reecrire les declarations.
+106:
+Erreur decl donnee\n
+Tache %s: Ne peut evaluer l'expression\n
+constante (references circulaires a des\n
+constantes ?).\n
+\t\n
+Verifier que toutes les constantes\n
+referencees sont correctement definies.\n
+Si oui, le programme est trop complexe.\n
+Reecrire les declarations.
+107:
+Erreur decl donnee\n
+Tache %s: Ne peut determiner le type de\n
+la valeur de la variable.(references\n
+circulaires a des constantes ?).\n
+\t\n
+Verifier que toutes les constantes\n
+referencees sont correctement definies.\n
+Si oui, le programme est trop complexe.\n
+Reecrire les declarations.
+108:
+Erreur de type\n
+Tache %s: Type d'aggregat inconnu.\n
+\t\n
+Un aggregat ne peut etre utilise a cet\n
+endroit puisqu'il n'y a pas de type de\n
+donnee attendu. Declarer une donnee du\n
+type desire suivi de l'aggregat, ou\n
+utiliser le nom de la donnee.
+121:
+Erreur d'argument\n
+Tache %s: L'argument pour le parametre\n
+de type 'PERS' n'est pas une reference\n
+complete a une donnee persistente ou\n
+est en lecture seulement.\n
+\t\n
+Assurez-vous que l'expression passee\n
+en argument represente une reference\n
+a une donnee ou un parametre persistent\n
+complet. La donnee persistente ne\n
+peut pas etre en lecture seulement.
+122:
+Erreur d'argument\n
+Tache %s: L'argument pour le parametre\n
+de type 'VAR' n'est pas une reference\n
+a une variable ou est en lecture\n
+seulement.\n
+\t\n
+Assurez-vous que l'expression passee\n
+en argument represente une reference\n
+a une variable ou a un parametre\n
+variable. La variable ne peut etre en\n
+lecture seulement.
+123:
+Erreur d'instruction\n
+Tache %s: Le numero d'interruption\n
+n'est pas un reference sur une variable\n
+statique ou est en lecture seulement.\n
+\t\n
+Verifier que le numero d'interruption\n
+est bien une reference a une variable\n
+ou a un parametre variable. La variable\n
+doit etre statique et ne doit pas etre\n
+en lecture seulement.
+124:
+Erreur de valeur\n
+Tache %s: Valeur entiere trop grande.\n
+\t\n
+La valeur de l'expression doit etre une\n
+valeur entiere. La valeur courante est\n
+en dehors des limites possibles.
+125:
+Erreur de valeur\n
+Tache %s: Valeur non entiere.\n
+\t\n
+La valeur de l'expression doit etre une\n
+valeur entiere exacte.\n
+La valeur courante contient une partie\n
+decimale.
+141:
+Erreur d'argument\n
+Tache %s: Duplication de la presence\n
+d'un argument conditionnel\n
+\t\n
+Plus d'un argument conditionnel present\n
+pour le meme parametre.
+142:
+Erreur de valeur\n
+Tache %s: Division par zero.\n
+\t\n
+On ne  peut diviser par 0. Reecrire le\n
+programme afin que la division ne soit\n
+pas effectuee lorsque le diviseur est 0\n
+(zero).
+143:
+Erreur de limite\n
+Tache %s: Depassement du nombre maximum\n
+de RETRY permis.\n
+\t\n
+La correction d'erreur effectuee avant\n
+l'instruction RETRY n'est sans doute\n
+pas suffisante pour faire disparaitre\n
+l'erreur. Verifier le gestionnaire\n
+d'erreur.
+144:
+Erreur d'instruction\n
+Tache %s: Tentative d'execution d'un\n
+suppletif.\n
+\t\n
+Supprimer le suppletif ou l'instruction\n
+qui le contient, ou completer\n
+l'instruction. Reprendre alors\n
+l'execution.
+145:
+Erreur de limite\n
+Tache %s: Debordement de la pile\n
+d'execution.\n
+\t\n
+Le programme est trop complexe pour\n
+pouvoir etre execute. Le programme\n
+contient probablement des appels\n
+recursifs de routine.
+146:
+Erreur d'execution\n
+Tache %s: Erreur fatale en execution\n
+\t\n
+Une erreur d'execution fatale est\n
+apparue. Les erreurs fatales provoquent\n
+un arret immediat de l'execution. Voir\n
+les messages precedents pour en\n
+determiner la cause.
+147:
+Erreur d'execution\n
+Tache %s: Fonction sans valeur de\n
+retour.\n
+\t\n
+La fin de la fonction a ete atteinte\n
+sans qu'une instruction RETURN ait ete\n
+executee. Ajouter une instruction\n
+RETURN pour donner une valeur de retour\n
+a la fonction.
+148:
+Erreur de valeur\n
+Tache %s: Valeur d'orientation\n
+illicite.\n
+\t\n
+La valeur d'orientation (quaternion)\n
+utilisee est illicite.
+149:
+Erreur de valeur\n
+Tache %s: Numero d'erreur illicite dans\n
+l'instruction RAISE.\n
+\t\n
+Les numeros d'erreur autorises dans\n
+l'instruction RAISE vont de 1 a 99.
+150:
+Erreur d'execution\n
+Tache %s: Code de retour illicite recu\n
+d'une routine Real\n
+\t\n
+Cet erreur est toujours causee par une\n
+erreur interne a la routine Real.
+151:
+Erreur de limite\n
+Tache %s: Plus de numero d'interruption\n
+disponible.\n
+\t\n
+Le nombre de numero d'interruption est\n
+limite. Reecrire le programe pour en\n
+utiliser moins. Ce message peut auusi\n
+apparaitre suite a une erreur systeme
+152:
+Erreur de valeur\n
+Tache %s: Operande negative illicite.\n
+\t\n
+L'operateur 'MOD' n'accepte que des\n
+operandes positives.\n
+Modifier le programme afin que\n
+l'operateur ne soit pas applique a\n
+des valeurs negatives.
+153:
+Erreur de type\n
+Tache %s: Dimension de tableau\n
+incompatible.\n
+\t\n
+Le tableau n'a pas la taille attendue.\n
+Une copie de tableau ne peut etre\n
+realisee que sur des tableaux de\n
+tailles identiques.
+154:
+Erreur de reference\n
+Tache %s: Parametre optionnel non\n
+present.\n
+\t\n
+La valeur d'un parametre optionnel non\n
+present ne peut etre referencee.\n
+Utiliser la fonction predefinie\n
+'Present' pour verifier la presence du\n
+parametre avant de l'utiliser.
+155:
+Erreur de valeur\n
+Tache %s: Index de tableau hors\n
+limites.\n
+\t\n
+La valeur de l'indice de tableau\n
+depasse la taille declaree du tableau.
+156:
+Erreur de limite\n
+Tache %s: Debordement de pile.\n
+\t\n
+Le programme est trop complexe pour\n
+pouvoir etre execute. Le programme\n
+contient probablement des appels\n
+recursifs de routine.
+157:
+Erreur de valeur\n
+Tache %s: Chaine trop longue.\n
+\t\n
+La valeur de la chaine concatenatee\n
+depasse la longueur maximale permise.\n
+Reecrire le programme pour utiliser\n
+des chaines plus courtes.
+158:
+Erreur d'execution\n
+Tache %s: Erreur d'execution non fatale\n
+non geree %i\n
+\t\n
+Une erreur d'execution non fatale s'est\n
+produite et n'a pas ete geree par une\n
+clause ERROR. Voir le message precedent\n
+pour en connaitre l'origine.
+159:
+Erreur d'execution\n
+Tache %s: Erreur levee non geree\n
+\t\n
+Un erreur a ete levee par une\n
+instruction RAISE, mais n'est n'est\n
+geree par aucune clause ERROR.
+160:
+Erreur d'execution\n
+Tache %s: Erreur d'execution non fatale\n
+non geree %i\n
+\t\n
+Une erreur d'execution non fatale s'est\n
+produite et n'a pas ete geree par une\n
+clause ERROR.
+161:
+Erreur d'execution\n
+Tache %s: La variable et la routine de\n
+piege sont deja connectes.\n
+\t\n
+Il est interdit de connecter plus d'une\n
+fois une variable donnee avec une\n
+routine de piege donnee
+162:
+Erreur d'execution\n
+Tache %s: Execution interrompue\n
+\t\n
+L'execution a ete interrompue suite a\n
+une erreur fatale.
+163:
+Erreur d'execution\n
+Tache %s: L'execution ne peut etre\n
+relancee\n
+\t\n
+L'execution ne peut continuer apres\n
+un arret de la puissance. Relancer le\n
+programme
+171:
+Erreur de valeur\n
+Tache %s: Numero de dimension de\n
+tableau hors limite.\n
+\t\n
+La valeur du parametre 'DimNo' de la\n
+fonction 'Dim' doit etre comprise entre\n
+1 et 3.
+172:
+Erreur de type\n
+Tache %s: La donnee n'est pas un\n
+tableau.\n
+\t\n
+Le parametre 'ArrPar' de la fonction\n
+'Dim' doit etre un tableau.
+173:
+Erreur de valeur\n
+Tache %s: Numero d'interruption\n
+inconnu.\n
+\t\n
+Verifier que la variable qui specifie\n
+le numero d'interruption a bien ete\n
+initialisee par une instruction CONNECT\n
+et que l'interruption a ete definie par\n
+ISignalDI ou une instruction similaire.
+201:
+Erreur de nom\n
+Tache %s: Nom de symbole ambigu.\n
+\t\n
+Les objets installes doivent avoir des\n
+noms uniques. Renommer l'objet ou\n
+modifier le nom en conflit.
+202:
+Erreur de nom\n
+Tache %s: Erreur a la creation de\n
+l'entree en sdb.\n
+\t\n
+Une erreur s'est produite lors de\n
+l'insertion de la donnee persistente\n
+dans la base de donnee partagee (sdb).\n
+La base de donnee est sans doute\n
+pleine.
+203:
+Erreur definition type\n
+Tache %s: Alias d'alias non permis.\n
+\t\n
+Il n'est pas possible de definir un\n
+type alias base sur un autre alias.\n
+Definir plutot 2 alias a partir du meme\n
+type de base, atomique ou complexe.
+204:
+Erreur def. symbole\n
+Tache %s: Un parametre 'ANYTYPE#' ne\n
+peut etre dimensionne.\n
+\t\n
+Supprimer la specification de dimension\n
+car 'ANYTYPE#' comprend deja les types\n
+tableaux.
+205:
+Erreur def. symbole\n
+Tache %s: 'ANYTYPE#' autorise seulement\n
+pour les parametres.\n
+\t\n
+Utiliser un autre type.
+206:
+Erreur de parametre\n
+Tache %s: 'alt' ne doit pas etre\n
+positionne pour le premier parametre\n
+optionnel dans une liste d'alternatives.\n
+\t\n
+Assurez-vous que seuls les parametres\n
+autres que le premier dans une liste de\n
+parametres mutuellement exclusifs sont\n
+marques comme des alternatives.
+207:
+Erreur de parametre\n
+Tache %s: Un parametre de mode 'REF'\n
+ne peut etre dimensionne.\n
+\t\n
+Supprimer la specification de dimension\n
+de tableau, ou changer le mode du\n
+parametre.
+208:
+Erreur de parametre\n
+Tache %s: Un parametre de type\n
+'commutateur' ne peut etre dimensionne.\n
+\t\n
+Supprimer la specification de dimension\n
+de tableau, ou changer le mode du\n
+parametre.
+209:
+Erreur de parametre\n
+Tache %s: Un parametre de type\n
+'commutateur' doit avoir le mode de\n
+transfert 'IN'.\n
+\t\n
+Supprimer specificateur de mode de\n
+transfert du parametre.\n
+Si le mode de transfert 'IN' n'est pas\n
+suffisant, changer le type de donnee du\n
+parametre.
+210:
+Erreur def. symbole\n
+Tache %s: Le type 'commutateur' n'est\n
+autorise que pour les parametres\n
+optionnels.\n
+\t\n
+Changer le parametre en un parametre\n
+optionnel ou changer le type de donnee\n
+du parametre. Si l'objet n'est pas un\n
+parametre, changer son type.
+211:
+Erreur definition type\n
+Tache %s: La classe de type de valeur\n
+doit etre une des suivantes:\n
+PGM_SYMVALTYP_VAL, _SEMIVAL, _NONVAL ou\n
+_NONE.\n
+\t\n
+Changer la classe de type de valeur.
+212:
+Erreur decl donnee\n
+Tache %s: Trop de dimensions de\n
+tableau.\n
+\t\n
+Un tableau peut avoir au plus 3\n
+dimensions.
+213:
+Erreur de nom\n
+Tache %s: Un nom de symbole doit etre\n
+un identificateur RAPID autre qu'un\n
+mot reserve.\n
+\t\n
+Les noms des objets installes, ainsi\n
+que les parametres et les composants,\n
+doivent etre etre des identificateurs\n
+RAPID vaildes, differents des mots\n
+reserves du langage. Changer le nom.
+214:
+Erreur def. symbole\n
+Tache %s: Manque la fonction C.\n
+\t\n
+Specifier une fonction C qui realisera\n
+la fonction ReaL definie ici.
+215:
+Erreur def. symbole\n
+Tache %s: Manque la fonction\n
+d'initialisation.\n
+\t\n
+Specifier une fonction d'initialisation\n
+des valeurs.
+216:
+Erreur de reference\n
+Tache %s: Ce n'est pas un nom de type\n
+de donnees.\n
+\t\n
+Le nom specifie identifie un objet\n
+autre qu'un type.
+217:
+Erreur de reference\n
+Tache %s: Ce n'est pas un type de\n
+donnee 'value'.\n
+\t\n
+Seuls les composants d'enregistrements,\n
+les types alias, les variables et les\n
+parametres en mode 'VAR' peuvent etre\n
+de type 'semi-value' ou 'non-value'.
+218:
+Erreur def. symbole\n
+Tache %s: Manque la fonction de\n
+conversion.\n
+\t\n
+Specifier une fonction de conversion\n
+pour ce type de donnees 'semi-value'.
+219:
+Erreur definition type\n
+Tache %s: Un type prive ne peut etre\n
+que 'semi-value' ou 'non-value'.\n
+\t\n
+Changer la classe de type de valeur.
+220:
+Erreur definition type\n
+Tache %s: La taille d'un type prive\n
+doit etre un multiple de 4.\n
+\t\n
+Tous les types RAPID doivent avoir une\n
+taille multiple de 4. Modifier la\n
+taille pour ce type.
+221:
+Erreur de type\n
+Tache %s: Conflit dans le type du\n
+persistant\n
+\t\n
+Il existe deja une donnee persistant\n
+avec le meme nom mais d'un autre type.\n
+Renommer le persistant ou changer son\n
+type.
+222:
+Erreur de reference\n
+Tache %s: Nom de type de donnee\n
+inconnu.\n
+\t\n
+Il n'existe aucun type de donnees\n
+(ni aucun autre objet) avec le nom\n
+specifie.
+223:
+Erreur de parametre\n
+Tache %s: Mode de transfert de\n
+parametre inconnu.\n
+\t\n
+Le mode de transfert de parametre n'est\n
+ni 'IN', ni 'VAR', ni 'PERS', ni 'REF'\n
+ni 'INOUT'. Utiliser le PGM_SYMPARMOD_x\n
+correspondant.
+224:
+Erreur def. symbole\n
+Tache %s: Ce type de definition de\n
+symbole\n
+n'existe pas.\n
+\t\n
+L'attribut de type de definition de\n
+symbole ne fait pas partie des types de\n
+symboles permis (PGM_SYMDEF_x).
+301:
+E/S erreur\n
+Tache %s: Acces refusee\n
+\t\n
+
+302:
+E/S erreur\n
+Tache %s: Fichier ou repertoire\n
+inexistant.\n
+\t\n
+
+303:
+E/S erreur\n
+Tache %s: Plus de place sur le support\n
+\t\n
+
+304:
+E/S erreur\n
+Tache %s: Impossible d'acceder au\n
+fichier\n
+%!\n
+\t\n
+Soit :\n
+ Acces refuse (protege en ecriture)\n
+ Fichier ou repertoire inexistant\n
+ Plus de place sur le support
+501:
+Timeout\n
+%s\n
+%s\n
+\t\n
+
+502:
+Chgt d'entree logique:\n
+%s\n
+%s\n
+\t\n
+
+503:
+Descript. peripherique:\n
+%s\n
+\t\n
+
+504:
+Erreur de parametre\n
+%s\n
+\t\n
+%s
+505:
+Erreur acces fichier:\n
+%s\n
+\t\n
+
+506:
+Erreur acces Systeme\n
+%s\n
+\t\n
+
+507:
+Erreur de limite\n
+%s\n
+\t\n
+
+508:
+Mauvaise orientation:\n
+%s\n
+\t\n
+
+509:
+Avertisst recherche:\n
+Avant d'effectuer la recherche suivante\n
+s'assurer que la pointe outil est de\n
+nouveau placee a la position de depart\n
+de la trajectoire de recherche.\n
+%s\n
+\t\n
+Si ce repositionnement n'est pas\n
+effectue avant le redemarrage de la\n
+recherche circulaire, il peut\n
+s'ensuivre un mouvement intempestif.
+510:
+Avertissement securite:\n
+L'instruction de mouvement ne peut\n
+reprendre suite a un probleme de\n
+securite. Essayez de deplacer le\n
+pointeur de programme.\n
+\t\n
+
+511:
+Erreur de parametre\n
+Le parametre %s dans %s\n
+est utilise avec une valeur negative.\n
+\t\n
+Le parametre doit etre positif.
+512:
+Manque valeur axe ext.\n
+Un axe externe a une valeur incorrecte\n
+Reprogrammer la position.\n
+\t\n
+
+513:
+Erreur unite mecanique\n
+Impossible d'activer ou de desactiver\n
+l'unite mecanique.\n
+\t\n
+
+514:
+Erreur d'execution\n
+Trop loin pour effectuer StartMove sur\n
+le mouvement interrompu.\n
+\t\n
+Repositionner le robot pres de\n
+l'endroit ou le programme a ete\n
+interrompu.
+515:
+Erreur de type\n
+Tache %s: Argument de type illicite\n
+comme parametre.\n
+\t\n
+
+516:
+Erreur de valeur\n
+Tache %s: Argument de valeur illicite\n
+comme parametre.\n
+\t\n
+
+517:
+Erreur de recherche\n
+%s\n
+Pas de signal de detection ou plus d'un\n
+signal de detection durant l'execution\n
+pas a pas. L'instruction de recherche\n
+est terminee et l'instruction suivante\n
+peut etre executee.\n
+\t\n
+Noter qu'aucune position n'a ete\n
+retournee de l'instruction de\n
+recherche.
+600:
+Erreur d'argument\n
+Aucun \WObj n'est specifie pour un\n
+mouvement avec outil au sol.\n
+\t\n
+Ajouter un argument \WObj pour l'objet\n
+de travail. Si l'outil n'est pas au sol\n
+changer l'argument outil en "Le robot\n
+porte l'outil".
+601:
+Erreur d'argument\n
+Indefini si le robot porte l'outil ou\n
+l'objet.\n
+\t\n
+Verifier s'il existe un conflit entre\n
+l'argument outil et l'argument \WObj\n
+pour le composant 'robhold'.
+602:
+Erreur d'argument\n
+L'argument %s a\n
+au moins un composant avec une valeur\n
+negative.\n
+\t\n
+Tous les composants de la donnee\n
+%s\n
+doivent etre positifs.
+603:
+Erreur d'argument\n
+L'argument %s a\n
+une valeur negative illicite.\n
+\t\n
+Rendre l'argument positif.
+604:
+Erreur d'argument\n
+L'argument outil a une charge d'outil\n
+indefinie.\n
+\t\n
+Definir la charge effective de l'outil\n
+avant de l'utiliser pour deplacer le\n
+robot en pilotage manuel ou en\n
+execution.
+605:
+Erreur d'argument\n
+L'argument outil a une charge d'outil\n
+negative.\n
+\t\n
+Definir la charge correcte de l'outil\n
+avant de l'utiliser pour deplacer le\n
+robot en pilotage manuel ou en\n
+execution.
+606:
+Erreur d'argument\n
+L'argument outil a au moins une\n
+composante d'inertie negative.\n
+\t\n
+Definir toutes les composantes\n
+d'inertie (ix, iy, iz) avec des valeurs\n
+positives.
+607:
+Erreur d'execution\n
+Il n'est pas permis de changer le mode\n
+d'execution de 'avant' a 'arriere' ou\n
+vice versa pendant l'execution d'un\n
+mouvement circulaire.\n
+\t\n
+Si possible,choisir le mode d'execution\n
+d'origine et appuyer sur 'exec' pour\n
+continuer le mouvement circulaire.\n
+Sinon, deplacer le robot et le pointeur\n
+de programme pour un nouveau depart.
+608:
+Erreur d'argument\n
+Erreur de definition d'orientation\n
+in %s.\n
+\t\n
+Toutes les orientations utilisees\n
+doivent etre normalisees, c.a.d. que la\n
+somme des carres des composants d'un\n
+quaternion doit etre egale a 1.
+609:
+Erreur d'argument\n
+L'argument \WObj specifie une unite\n
+mecanique avec un nom trop long.\n
+\t\n
+Utiliser au maximum 16 caracteres pour\n
+definir un nom d'unite coordonnee\n
+mecanique.
+610:
+Erreur d'argument\n
+L'argument \WObj specifie un nom\n
+d'unite mecanique non activee ou\n
+inconnue du systeme.\n
+\t\n
+Le nom d'unite mecanique defini dans\n
+\WObj doit correspondre a un nom defini\n
+anterieurement dans les parametres\n
+systeme. L'unite mecanique doit etre\n
+activee.
+611:
+Erreur d'execution\n
+Il n'est pas possible d'effectuer un\n
+pas 'arriere' avec cette instruction.\n
+\t\n
+Il n'est pas possible d'effectuer un\n
+pas 'arriere' dans un mouvement\n
+cercle si le point final du mouvement\n
+est defini avec un outil ou objet\n
+different.
+612:
+Erreur d'argument\n
+Aucun argument n'a ete programme pour\n
+le nom du signal de sortie.\n
+\t\n
+Possible de positionner une sortie\n
+logique, groupee ou analogique liee a\n
+une position fixe du robot, pendant le\n
+mouvement du robot.
+613:
+Erreur d'argument\n
+L'argument en option %s\n
+ne peut etre combine qu'avec l'argument\n
+de signal de sortie %s.\n
+\t\n
+
+614:
+Erreur d'argument\n
+L'argument %s\n
+n'est ni 0 ni 1.\n
+\t\n
+Les signaux de sortie logique ne\n
+vent etre poositionnes qu'a 0 ou 1.
+615:
+Erreur d'argument\n
+L'argument %s\n
+n'est pas une valeur entiere.\n
+\t\n
+Les groupes de sorties logiques ne\n
+peuvent avoir que des valeurs entieres.
+616:
+Erreur d'argument\n
+L'argument %s\n
+est en dehors des limites permises.\n
+\t\n
+D'apres la configuration definie dans\n
+les parametres systeme, le groupe de\n
+sorties logiques utilise ne peut avoir\n
+qu'une valeur entre 0 et %s.
+617:
+Erreur d'argument\n
+L'argument %s\n
+est en dehors des limites permises.\n
+\t\n
+D'apres la configuration definie dans\n
+les parametres systeme, la sortie\n
+analogique utilisee ne peut avoir\n
+qu'une valeur entre 0 et %s.
+618:
+Erreur d'argument\n
+L'argument %s\n
+contient un numero d'interruption\n
+incorrect.\n
+\t\n
+Le numero d'interruption est incorrect\n
+parce qu'il n'a pas ete alloue par\n
+l'instruction CONNECT, qui realise\n
+l'allocation d'un numero d'interruption\n
+et l'associe a une routine de piege.
+619:
+Erreur d'argument\n
+L'argument %s\n
+contient un numero d'interruption qui\n
+est deja utilise a d'autres fins.\n
+\t\n
+Avant de reutiliser un numero\n
+d'interruption dans un programme,\n
+annuler son ancienne definition grace\n
+a l'instruction IDelete.
+622:
+Erreur d'argument\n
+La valeur de l'argument Time dans\n
+l'instruction ITimer est trop faible\n
+pour les interruptions cycliques.\n
+\t\n
+
+623:
+Erreur d'argument\n
+La valeur de l'argument Time dans\n
+l'instruction ITimer est trop faible\n
+pour les interruptions isolees\n
+(non cycliques).\n
+\t\n
+
+631:
+Erreur d'instruction\n
+Trop d'instructions de mouvement en\n
+sequence avec execution concurrente\n
+du programme RAPID.\n
+\t\n
+Editer le programmme pour executer au\n
+maximum 5 MoveX \Conc en sequence, au\n
+niveau d'execution de base.
+632:
+Erreur d'instruction\n
+Aucune instruction de mouvement avec\n
+execution concurrente de programme\n
+n'est autorisee a l'interieur d'une\n
+section StorePath-RestoPath du\n
+programme.\n
+\t\n
+Editer le programme afin qu'il ne\n
+contienne pas d'instruction MoveX \Conc\n
+a l'interieur d'une section\n
+StorePath-RestoPath du programme.
+633:
+Erreur de reference\n
+Le parametre de Trigg No %s fait\n
+reference a une donnee de declenchement\n
+non definie.\n
+\t\n
+Definir la donnee de declenchement en\n
+executant une instruction TriggIO ou\n
+TriggInt avant TriggL, TriggC ou\n
+TriggJ.
+634:
+Erreur de reference\n
+Le signal reference par le parametre\n
+%s\n
+est un signal inconnu.\n
+\t\n
+Tous les signaux doivent etre definis\n
+dans les parametres systeme et ne\n
+devraient pas etre definis dans un\n
+programme RAPID.
+635:
+Erreur de reference\n
+L'argument reference par le parametre\n
+%s\n
+n'est pas une variable persistant\n
+complete\n
+\t\n
+Impossible d'utiliser un composant\n
+d'enregistrement ou de tableau pour\n
+argument. Utiliser des variables\n
+persistant completes comme argument\n
+Tool,WObj ou Load dans instruct. mvt
+636:
+Erreur du capteur\n
+Pas de mesure du capteur\n
+\t\n
+Les donnees demandees ne sont pas\n
+disponibles.
+637:
+Erreur du capteur\n
+Pas encore pret.\n
+\t\n
+La function demandee n'est pas encore\n
+prete.
+638:
+Erreur du capteur\n
+Erreur generale\n
+\t\n
+Une erreur generale est survenue qui\n
+n'est pas obligatoirement liee a\n
+l'action demandee. Lire le bloc\n
+"journal d'erreur" (Error log) si la\n
+fonction est disponible.
+639:
+Erreur du capteur\n
+Capteur occupe, Essayer plus tard\n
+\t\n
+Le capteur est occupe a executer\n
+une autre fonction.
+640:
+Erreur du capteur\n
+Commande inconnue.\n
+\t\n
+La fonction demandee au capteur est\n
+inconnue.
+641:
+Erreur du capteur\n
+Variable ou numero de bloc illicite\n
+\t\n
+La variable ou le bloc demandee n'est\n
+pas defini dans le capteur.
+642:
+Erreur du capteur\n
+Alarme externe.\n
+\t\n
+Alarme d'un equipement externe.
+643:
+Erreur du capteur\n
+Alarme de la camera.\n
+\t\n
+Une erreur a ete detectee dans la\n
+camera. Executer Camcheck pour tester\n
+si la camera est OK.
+644:
+Erreur du capteur\n
+Alarme de temperature.\n
+\t\n
+La camera est en surchauffe. Elle a\n
+besoin de plus de rafraichissement\n
+par air et/ou eau.
+645:
+Erreur du capteur\n
+Valeur hors limites.\n
+\t\n
+La valeur envoyee au capteur est hors\n
+limites.
+646:
+Erreur du capteur\n
+Erreur durant la verification de l'etat\n
+de la camera.\n
+\t\n
+La fonction CAMCHECK a renvoye une\n
+erreur. La camera est hors d'usage.\n
+Envoyez la en reparation.
+647:
+Erreur du capteur\n
+Time out de communication.\n
+\t\n
+Augmenter le temps du time out et\n
+verifier les connections avec le\n
+capteur.
+648:
+Erreur de recherche\n
+Impossible d'executer une instruction\n
+StorePath pendant une recherche\n
+\t\n
+Si un programme avec des instructions\n
+de mouvement est utilise dans une\n
+routine de piege (TRAP), cette\n
+routine doit etre desactive durant la\n
+recherche (cf ISleep/SearchL/IWatch)
+649:
+Erreur limit mouvement\n
+%s deja execute\n
+\t\n
+L'instruction %s doit d'abord etre\n
+execute avant qu'une nouvelle\n
+%s le soit.
+700:
+Erreur de syntaxe\n
+Tache %s: Erreur de syntaxe\n
+%s\n
+\t\n
+
+701:
+Memoire prog pleine\n
+La tache %s, a seulement %i octets\n
+libres dans son espace utilisateur\n
+\t\n
+Supprime d'autres modules et essaye\n
+encore.

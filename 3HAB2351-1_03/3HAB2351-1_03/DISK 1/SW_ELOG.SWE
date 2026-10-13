@@ -1,0 +1,46 @@
+73::
+0:
+Punktsvets
+1:
+Punktsvets systemfel\n
+Punktsvets-processen är inte igång\n
+\t\n
+Sätt process-tillstånd definierad av\n
+SwInit till idle
+2:
+Punktsvets systemfel\n
+Parameter %s\n
+\t\n
+
+3:
+SwStart Timeout negativt\n
+\n
+\t\n
+
+4:
+SwInit Avbrott negativt\n
+\n
+\t\n
+
+5:
+ProcId. Ors. är antingen:\n
+-ProcId motsvarar inte värdet angett av\n
+ SwInit\n
+-Punktsvets-processen har avbrutits\n
+\t\n
+
+6:
+Punktsvets komm. fel\n
+Orsak: %s\n
+\t\n
+
+7:
+Svar långsamm. än valtakt\n
+\n
+\t\n
+
+8:
+Inga fl.BOSCH ansl.tillg.\n
+\n
+\t\n
+

@@ -1,0 +1,280 @@
+Revision 1.8  1995/04/21  13:26:56  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.7  1994/08/19  10:45:05  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+7::
+0:
+System Parameters
+1:
+ Topics             Changed date
+2:
+Topics
+3:
+Types
+4:
+All Topics
+5:
+Parameters           Info
+6:
+Add
+7:
+Loading Parameters!\n
+\n
+Ready in a short while...
+8:
+Change Pass Codes...
+9:
+Text
+10:
+Saving Parameters!\n
+\n
+Ready in a short while...
+11:
+New Parameters Loaded!\n
+\n
+System is restarted with the\n
+command Restart in menu File\n
+
+12:
+Goto...
+13:
+Goto Top
+14:
+Goto Bottom
+15:
+(Search...)
+16:
+Changing the Pass Codes will affect\n
+your access to the system!\n
+\n
+Make sure You do not unintentionally\n
+change any of the Pass Codes.
+
+17:
+Change Pass Code!
+18:
+Line selection
+19:
+Enter line #
+20:
+Input the old Pass Code before\n
+changing to a new Pass Code.
+21:
+Input Number
+22:
+Enter text string for
+23:
+Enter numeric value for
+24:
+Load Saved Parameters... 
+25:
+Save All as...
+26:
+Save as...
+27:
+(Print...)
+28:
+Restart... 
+29:
+Limits: Minimum 
+30:
+        Maximum 
+31:
+Write protected parameter.\n
+Cannot be changed!\n
+\n
+Press Enter to proceed!
+32:
+Internal error cause this loose of data!
+33:
+\n
+No parameters are loaded!\n
+\n
+Use the File menu to load parameters.
+34:
+No parameters to show!
+35:
+Delete
+36:
+(Delete)
+37:
+No parameters to show!\n
+\n
+Press Enter to proceed!
+38:
+Show Change Log...
+39:
+Load Saved Parameters!
+40:
+Select a directory or a file to Load.
+41:
+Save All Parameters!
+42:
+Select a directory to Save to.
+43:
+Old
+44:
+Parameters Saved!\n
+\n
+\n
+Press Enter to proceed!
+45:
+SYSPAR
+46:
+\n
+New parameters are loaded!\n
+\n
+Use the File menu to Restart.
+47:
+No parameters Loaded!\n
+No parameters in selected\n
+directory or parameter file.\n
+\n
+Press Enter to proceed.
+48:
+Choice List (Named Instance)
+49:
+Choice List (Table)
+50:
+Define Name!\n
+You must define a unique name\n
+to the Name parameter.\n
+\n
+Press Enter to proceed.
+51:
+RESTART REQUIRED!\n
+Parameters have been changed\n
+that will require a restart.\n
+\n
+Press Enter to proceed.
+52:
+Save Parameters As!
+53:
+Overwriting Parameters!\n
+Existing parameters will be \n
+overwritten.\n
+\n
+OK to continue?
+54:
+Warning!
+55:
+Change Log
+56:
+Change Log Transactions
+57:
+load par:
+58:
+save par:
+59:
+add inst:
+60:
+del inst:
+61:
+chg inst:
+62:
+chg attr:
+63:
+restart:
+64:
+Restart command!\n
+Do you wish to restart \n
+the control.\n
+\n
+OK to continue?
+65:
+Mandatory Parameter!\n
+You must define this parameter\n
+with a value.\n
+\n
+Press Enter to proceed.
+66:
+Name conflict!\n
+You must define a unique name\n
+for this parameter.\n
+\n
+Press Enter to proceed.
+67:
+Change Log is empty!
+68:
+Add New Parameters...
+69:
+Add New Parameters!
+70:
+New
+71:
+No "Pass Code"
+72:
+Old "Pass Code" for Service\n
+is not correct.\n
+\n
+\n
+Press Enter to Try again!
+73:
+Old "Pass Code" for\n
+Programmer is not correct.\n
+\n
+\n
+Press Enter to Try again!
+74:
+Pass Code for %s\n
+%s updated!\n
+\n
+\n
+Press Enter to Proceed!
+75:
+Authorize SystemParameters
+76:
+Change Code
+77:
+Delete Inst
+78:
+Deleting a parameter can not be undone!\n
+Make sure You do not unintentionally\n
+delete a parameter.\n
+\n
+OK to Delete?
+79:
+
+80:
+Info
+*	  attributes links, i.e an attribute referencing data from
+81:
+Cannot show info for\n
+parameter because too many\n
+"Info" pressed.\n
+\n
+Press Enter to Proceed!
+*	  attribute link, i.e an attribute referencing data from
+82:
+Cannot show info for\n
+parameter because it is not\n
+available.\n
+\n
+Press Enter to Proceed!
+83:
+Check Parameters
+84:
+Checking system parameters...\n
+\n
+A consistency check of the\n
+system parameters in topic\n
+%s\n
+is now being performed.\n
+This might take a while...
+85:
+Congratulations!\n
+The system parameters in topic\n
+%s\n
+are consistent and in good shape.
+86:
+  <  Press Enter to proceed  >
+87:
+The parameter check of topic\n
+%s\n
+cannot be performed.\n
+No method is available for this\n
+topic.

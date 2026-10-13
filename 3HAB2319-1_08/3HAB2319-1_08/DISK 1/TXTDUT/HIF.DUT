@@ -1,0 +1,257 @@
+Revision 1.7  1995/04/21  13:25:09  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.6  1994/08/19  10:42:49  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+10::
+0:
+bestandsbeheer
+1:
+Naam       Type            Datum
+2:
+Ga naar regel
+3:
+Huidige regel
+4:
+Omhoog
+5:
+Annul
+6:
+OK
+7:
+Bestand
+8:
+Opmaak
+9:
+Inkijken
+10:
+Opties
+11:
+Nieuwe directory...
+12:
+Herbenoemen...
+13:
+Kopieren...
+14:
+Verplaatsen...
+15:
+Wissen...
+16:
+Directory afdrukken...
+17:
+Ga naar...
+18:
+Ga naar begin
+19:
+Ga naar einde
+20:
+Formatteren...
+21:
+
+22:
+Formatteren
+23:
+Volume formatteren in
+24:
+Nieuwe volumenaam
+25:
+
+26:
+Nieuwe directory
+27:
+Maak directory genaamd
+28:
+Hernoem
+29:
+Oude directory-naam
+30:
+Nieuwe directory-naam
+31:
+Oude bestandsnaam
+32:
+Nieuwe bestandsnaam
+33:
+Wissen
+34:
+Directory wissen
+35:
+Bestand wissen
+36:
+Directory afdrukken
+37:
+Af te drukken data
+38:
+Actuele directory
+39:
+Directory boom
+40:
+Kopieren
+41:
+Naar
+42:
+Verplaats
+43:
+Info
+44:
+Naam
+45:
+Type
+46:
+Grootte in bytes
+47:
+Datum
+48:
+Tijd
+49:
+Druk op Enter!
+50:
+Kan bestand niet kopieren
+51:
+Functie niet geimplementeerd
+52:
+Kan directory niet aanmaken
+53:
+Naam bestaat reeds
+54:
+
+55:
+Kan directory niet lezen
+56:
+Kan directory niet hernoemen
+57:
+Kan bestand niet hernoemen
+58:
+Kan directory niet wissen
+59:
+Kan bestand niet wissen
+60:
+Eenheid
+61:
+Naam               Type
+62:
+In
+63:
+Kan directory niet kopieren
+64:
+Kan directory niet verplaatsen
+65:
+Kan bestand niet verplaatsen
+66:
+Directory niet leeg
+67:
+Kan volume niet formatteren
+68:
+...
+69:
+DIRNAAM
+70:
+Tekstinvoer
+71:
+
+72:
+
+73:
+
+74:
+
+75:
+Kan actie niet uitvoeren
+76:
+Geen volume in gesel. eenh.
+77:
+Kan niet tussen eenheden verpl
+78:
+Even wachten A.u.b.
+79:
+Volume wordt formatteerd...
+80:
+Lege of slechte diskette
+81:
+Bestand afdrukken
+82:
+Afdruk alleen naar bestand
+83:
+Af te drukken bestand
+84:
+Bestand afdrukken
+85:
+Afdruk directory naar bestand:
+86:
+Afdruk bezig!
+87:
+ Druk op Enter om af te breken
+88:
+Printer is bezig\n
+\n
+Probeer opnieuw als printer\n
+klaar is
+89:
+Kan niet afdrukken omdat er\n
+te veel opdrachten wachten\n
+\n
+Probeer het later opnieuw
+90:
+Kan niet afdrukken omdat de\n
+printer niet gedefinieerd is\n
+in de systeem parameters
+91:
+Geen toegang tot gespec bestand:
+92:
+Afdrukken gestopt omdat de toegang\n
+tot het gespecificeerde bestand\n
+onderbroken was tijdens het afdrukken
+93:
+Kan bestand niet afdrukken
+94:
+"Naar"-dir is deel van "Van"-dir
+95:
+RAPID Omzetters...
+96:
+RAPID Omzetter
+97:
+Om te zetten bestand:
+98:
+Bestand opslaan als:
+99:
+Omzetten
+100:
+Bestand op te slaan als:
+101:
+ Bestand bestaat reeds
+102:
+ Kan het gespecificeerde\n
+ bestand niet omzetten\n
+ \n
+ Ongeldig type bestand
+103:
+ Om te zetten bestand:
+104:
+Met functie:
+105:
+ Toevoegen info RAPID type
+106:
+ Gebruik info RAPID type
+107:
+ RAPID omzetting mislukt
+108:
+ Bezig\n
+ \n
+ \n
+ Even geduld A.U.B.
+109:
+ Omzetting niet mogelijk\n
+ \n
+ Ongeldige combinatie van\n
+ bestands type en functie.
+110:
+ Bestemmings bestand bestaat\n
+ reeds!\n
+ \n
+ Overschrijven?
+111:
+"Naar" en "Van" zijn identiek
+112:
+Te veel sub-directory niveau's

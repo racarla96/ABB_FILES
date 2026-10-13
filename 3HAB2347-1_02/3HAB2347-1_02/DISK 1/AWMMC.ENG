@@ -1,0 +1,254 @@
+71::
+0:
+Arcweld
+1:
+Weld Tuning...
+2:
+Weave Tuning...
+3:
+(Seam Tuning)
+4:
+(Track Tuning)
+5:
+Blocking...
+6:
+Block
+7:
+Release
+8:
+Cancel
+9:
+OK
+10:
+AW Blocking
+11:
+To block a process, press Block
+12:
+To release a process, press Release
+13:
+Blocked
+14:
+Process
+15:
+x
+16:
+
+17:
+Welding
+18:
+Weaving
+19:
+Tracking
+20:
+Weld
+21:
+Weave
+22:
+Track
+23:
+AW Weld Tuning
+24:
+Change Present value
+25:
+Welddata
+26:
+Tuning
+27:
+Present
+28:
+Select the data
+29:
+Origin >
+30:
+Pres >
+31:
+-
+32:
++
+33:
+Revert
+34:
+AW Weave Tuning
+35:
+Weavedata
+36:
+Update
+37:
+Update origin value
+38:
+Origin
+39:
+Tuning  Present
+40:
+aw_inhibit
+41:
+weldBlocked
+42:
+weaveBlocked
+43:
+trackBlocked
+44:
+seamdata
+45:
+welddata
+46:
+weavedata
+47:
+Manual wirefeed...
+48:
+Gas on/off...
+49:
+AW Manual Wirefeed 
+50:
+To feed forward, press Fwd
+51:
+To feed backward, pres Bwd
+52:
+The wirefeed is going on as long as
+53:
+the function key is pressed.
+54:
+Fwd
+55:
+Bwd
+56:
+(Releas)
+60:
+bool
+61:
+Select AW system...
+62:
+System:
+63:
+Increments...
+64:
+AW Tuning increments
+65:
+Voltage:
+66:
+Distance:
+67:
+Wirefeed:
+68:
+Welding speed:
+69:
+Select AW system
+70:
+curr_aw_data
+71:
+curr_system_no
+72:
+curr_weld
+73:
+curr_weld_type
+74:
+curr_seam
+75:
+curr_seam_type
+76:
+curr_weave
+77:
+curr_weave_type
+78:
+string
+80:
+AW Manual Gas On/Off
+81:
+To activate, press Gas on
+82:
+The gas is on as long as
+83:
+The function key is pressed.
+84:
+Gas on
+86:
+                                       
+87:
+awproc_id
+88:
+ipm_id
+89:
+user_data
+100:
+AW Manual Sensor On/Off
+101:
+To activate sensor, press On
+102:
+To deactivate sensor, press Off
+103:
+On
+104:
+(On)
+105:
+Off
+106:
+(Off)
+107:
+Y:
+108:
+Z:
+109:
+Gap:
+110:
+*****
+111:
+Sensor coordinates
+112:
+Joint:   
+113:
+Sensor error\n
+\n
+   Communication error
+114:
+Sensor error\n
+\n
+   General error
+115:
+Sensor error\n
+\n
+   Sensor busy
+116:
+Sensor error\n
+\n
+   Unknown command
+117:
+Sensor error\n
+\n
+   Illegal variable number
+118:
+Sensor error\n
+\n
+   External alarm
+119:
+Sensor error\n
+\n
+   Camera error
+120:
+Sensor error\n
+\n
+   Temperature error
+121:
+Sensor error\n
+\n
+   Value out of range
+122:
+Sensor error\n
+\n
+   Camera check error
+123:
+OK   
+124:
+Sensor...
+125:
+(Sensor)
+126:
+Robot coordinates
+127:
+Calibration:   
+140:
+Meas. values...
+141:
+Measurement values
+142:
+        Present
+

@@ -1,0 +1,1100 @@
+25::
+0:
+Bewegungen
+1:
+Bewegungsabfolge Fehler\n
+Bewegungskontrolle unmöglich.\n
+\t\n
+Neustart des Systems.
+21:
+Achsposition Fehler\n
+Aktuelle Position derv Achse %s\n
+ist zu weit entfernt von der\n
+angeforderten Position.\n
+\t\n
+Servoparameter kontrollieren,\n
+externe Kräfte oder Hardware.
+22:
+Gleichrichter Spannung\n
+Die Gleichrichterspannung ist\n
+zu gering.\n
+\t\n
+Spannung an MOTOREN EIN Schützen\n
+kontrollieren.\n
+Gleichrichter austauschen.
+23:
+Stop/Neustart Fehler\n
+Bei Stop waren zu viele Bewegungs-\n
+instruktionen zur Abarbeitung\n
+gespeichert.\n
+Neustart nicht möglich.\n
+\t\n
+Anzahl der Bewegungsinstruktionen mit\n
+-ausschl- Argument kontrollieren.\n
+ProgrammZeiger setzen und starten.
+24:
+Bahnverschleifen Fehler\n
+Position wurde wegen einem der folgenden\n
+Gründe als Feinpunkt ausgeführt:\n
+1. Zeitverzögerung\n
+2. Zu eng programmierte Punkte\n
+3. System hat hohe CPU-Auslastung\n
+\t\n
+1. Anzahl der Instruktionen zwischen\n
+   den Bewegungsinstr. verringern.\n
+2. Geschw. reduzieren, größeren Abstand\n
+   zwischen Positionen, /CONC Option.\n
+3. ipol_prefetch_time vergrößern.
+25:
+Abstand Neustart\n
+Die aktuelle Position ist zu weit\n
+von der Bahn entfernt.\n
+\t\n
+Manipulator zurück zur Bahn\n
+bewegen.
+26:
+Singularität/Zone Fehler\n
+1. Achsen zu nah an Singularität.\n
+2. MoveL nach MoveJ Zonenfehler.\n
+\t\n
+1. Achsen mittels Steuerknüppel aus\n
+   Singularität herausbewegen oder ein\n
+   Programm in Achskoord. abarbeiten.\n
+2. Zone -fine- verwenden oder KorPos.
+27:
+Achse aus Arbeitsbereich\n
+Achse %s steht außerhalb ihres\n
+Arbeitsbereiches.\n
+\t\n
+Achse mittels Steuerknüppel zurück\n
+in ihren Arbeitsbereich bewegen.
+28:
+Bewegung falsche Richtung\n
+Achse %s steht außerhalb ihres\n
+Arbeitsbereiches.\n
+\t\n
+Entsprechende Achse mittels Steuer-\n
+knüppel in entgegengesetzter Richtung\n
+zurück in ihren Arbeitsbereich bewegen.
+29:
+Manipulator aus Grenze\n
+Der Manipulator hat die Grenze für die\n
+Achskonfiguration des Parallelogramms\n
+erreicht.\n
+\t\n
+Entsprechende Achse mittels Steuer-\n
+knüppel in entgegengesetzter Richtung\n
+zurück in ihren Arbeitsbereich bewegen.
+30:
+Manipulator aus Grenze\n
+Bewegung wurde in die falsche Richtung\n
+ausgeführt, wenn Parallelogramm außer-\n
+halb Arbeitsbereich war.\n
+\t\n
+Entsprechende Achse mittels Steuer-\n
+knüppel in entgegengesetzter Richtung\n
+zurück in ihren Arbeitsbereich bewegen.
+31:
+Anweisung unzulässig.\n
+Systemparameter können nicht im Zustand\n
+MOTOREN EIN geändert werden.\n
+\t\n
+Steuerung in den Zustand MOTOREN AUS\n
+schalten.
+32:
+Anweisung Kalib. Fehler\n
+Kalibrierung kann nicht im Zustand\n
+MOTOREN EIN geändert werden.\n
+\t\n
+Steuerung in den Zustand MOTOREN AUS\n
+schalten.
+33:
+Anweisung Kommut. Fehler\n
+Kommutierung kann nicht im Zustand\n
+MOTOREN EIN geändert werden.\n
+\t\n
+Steuerung in den Zustand MOTOREN AUS\n
+schalten.
+35:
+Anweisung Synch. Fehler\n
+Synchronisierung kann nicht im Zustand\n
+MOTOREN EIN geändert werden.\n
+\t\n
+Steuerung in den Zustand MOTOREN AUS\n
+schalten.
+36:
+Korrekt. Anfahren unmögl.\n
+Im Stopbereich sind zu viele Punkte\n
+mit Zonen eng beieinander. Bei Neustart\n
+wird der Roboter zu einem entfernteren\n
+Punkt im Programm bewegen.\n
+\t\n
+Anzahl der nahen Punkte reduzieren,\n
+Abstand zwischen Positionen\n
+vergrößern oder Geschwindigkeit\n
+reduzieren.
+37:
+MOTOREN EIN ignoriert\n
+MOTOREN EIN ignoriert, da der vorherige\n
+Stop noch nicht rückgestellt ist.\n
+\t\n
+MOTOREN EIN erneut betätigen.
+41:
+Roboter in Singularität\n
+Achsstellung ist zu nah an\n
+der Singularität.\n
+\t\n
+Während der Abarbeitung des Programms\n
+-SingArea- Instr. oder Achsbewegungen\n
+verwenden.\n
+Manuelle Bewegungen achsenweise durch-\n
+führen.
+42:
+System Fehler\n
+\n
+\t\n
+Abstand zwischen zu engen Positionen\n
+vergrößern und/oder Geschwindigkeit\n
+und/oder Beschleunigung reduzieren.
+50:
+Position nicht erreichbar\n
+Position für Achse %.f\n
+außerhalb des Arbeitsbereiches.\n
+\t\n
+WerkObjekt kontrollieren.\n
+Arbeitsbereich der Achse kontrollieren.\n
+Die Achse achsenweise bewegen.
+52:
+Achsgeschw. Fehler\n
+Die Geschwindigkeit der Achse %s\n
+ist zu hoch in Relation zu der ange-\n
+forderten Geschwindigkeit.\n
+\t\n
+1. Servoparameter kontrollieren,\n
+   externe Kräfte oder Hardware.\n
+2. Prog. Geschwindigkeit reduzieren.
+53:
+Umdrehungszähler Fehler\n
+Zu großer Unterschied zwischen dem\n
+Zähler im seriellen Meßboard und dem\n
+erwarteten Wert im Robotercomputer\n
+für Achse %s.\n
+\t\n
+Umdr._Zähler aktualisieren.\n
+Seriellen Meßboard austauschen.
+55:
+Achsdrehmoment Fehler\n
+Akt. Drehmoment in Achse %s ist\n
+zu groß. Vielleicht falsche Werkzeug-\n
+last, zu hohe Beschleunigung, große\n
+externe Kräfte, niedrige Temperatur\n
+oder Hardwarefehler.\n
+\t\n
+Vielleicht falsche Daten:\n
+1. Werkzeuglast kontrollieren.\n
+3. Beschleunigung kontrollieren.\n
+2. Hardware kontrollieren.
+56:
+Achskollision Fehler\n
+Akt. Drehmoment in Achse %s ist\n
+größer als angefordert bei niedriger\n
+oder keiner Geschwingigkeit.\n
+\t\n
+Vielleicht Kollision (Arm verklemmt)\n
+oder Hardwarefehler.
+57:
+Achssynch. Fehler\n
+Die Position der Achse %s nach\n
+Netzausfall ist zu weit entfernt von\n
+der Position vor dem Netzausfall.\n
+\t\n
+Umdr._Zähler neu aktualisieren.
+58:
+Werkzgkoord. Systemfehler\n
+Die Z-Achse des Werkzeugkoordinaten-\n
+systems ist fast parallel mit der\n
+Bahnrichtung.\n
+\t\n
+Werkzeugkoordinatensystem ändern,\n
+um mindestens 3 Grad Abweichung\n
+zwischen Z-Achse und Bahnrichtung\n
+zu erreichen.
+59:
+Koordinatensystem Fehler\n
+Die Definition des Werkzeugs\n
+am Manipulator ist nicht korrekt.\n
+\t\n
+Daten für Werkzeug und WerkObjekt\n
+kontrollieren.
+60:
+Koordinatensystem Fehler\n
+Die Definition des Werkzeugs\n
+am Manipulator ist nicht korrekt.\n
+\t\n
+Daten für Werkzeug und WerkObjekt\n
+kontrollieren.
+61:
+Koordinatensystem Fehler\n
+Die Definition des Werkzeugs\n
+am Manipulator ist nicht korrekt.\n
+\t\n
+Daten für Werkzeug und WerkObjekt\n
+kontrollieren.
+62:
+Progr. Kreisbogen Fehler\n
+Start- und Endposition für den\n
+Bogen liegen zu eng beieinander.\n
+\t\n
+
+63:
+Progr. Kreisbogen Fehler\n
+Die Bogenposition liegt zu nah\n
+an der Start- oder Endposition\n
+des Kreisbogens.\n
+\t\n
+
+65:
+Kinematik Fehler\n
+Das Ziel der Bewegung liegt außerhalb\n
+der Reichweite des Manipulators oder\n
+zu nah an der Singularität.\n
+\t\n
+Zielposition ändern.
+66:
+Manipulator nicht aktiv\n
+Versuch Bewegung zu koordinieren\n
+oder Position zu berechnen, bei\n
+deaktiviertem Manipulator %s.\n
+\t\n
+Manipulator mittels Schalter, Fenster\n
+-Bewegen- oder Programm aktivieren.\n
+Programm und WerkObjekt kontrollieren.
+67:
+Einheit nicht aktiv\n
+Versuch Bewegung zu koordinieren\n
+oder Position zu berechnen, bei\n
+deaktivierter Einheit %s.\n
+\t\n
+Einheit mittels Schalter, Fenster\n
+-Bewegen- oder Programm aktivieren.\n
+Programm und WerkObjekt kontrollieren.
+76:
+Def. Orientierung Fehler\n
+Die Orientierung ist unzulässig\n
+definiert.\n
+\t\n
+Genaue Definition der Quarternion-\n
+elemente durchführen.
+78:
+Zu dichte Positionsfolge\n
+Zu viele eng aufeinanderfolgende\n
+Positionen\n
+\t\n
+Abstand zwischen den aufeinander-\n
+folgenden Positionen vergrößern.
+79:
+Handgelenk Pendeln\n
+Handgelenkspendeln ist\n
+nicht möglich.\n
+\t\n
+Kleinere Pendelamplitude oder einen\n
+längeren TCP verwenden.
+80:
+Position nicht kompatibel\n
+Position bei der gegebenen Achs-\n
+konfiguration nicht erreichbar.\n
+\t\n
+Position im Programm verändern.
+82:
+Verzögerungsgrenze\n
+Berechnung der Achseverzögerungszeit\n
+hat interne Grenzen für diese Bewegung\n
+überschritten.\n
+Ursachen des Fehlers beheben, bevor\n
+Sie weitermachen. Siehe Kontrolle.\n
+\t\n
+Akt. Override Bahnauflösung vergrößern\n
+oder Geschw. verringern, Feinpunkt ver-\n
+wenden und AccSet erhöhen. Dynamik-\n
+oder Bahnauflösung vergrößern.\n
+Pufferzeit vergrößern.
+83:
+Geschw. Reduzierung\n
+Geschwindigkeit wurde vom System wegen\n
+dynamischer Begrenzungen reduziert.\n
+\t\n
+Geschwindigkeit reduz. und/oder nicht\n
+zu eng programm. Positionen bei hoher\n
+Geschwindigkeit und/oder Beschleuni-\n
+gung erhöhen (wenn < 100%).
+85:
+Zuviele AnwenderKoord.sys\n
+Für Mech_Einheit %s sind mehr als\n
+ein AnwenderKoord.system definiert.\n
+\t\n
+Ein AnwenderKoord.system entfernen,\n
+eine  weitere Mech_Einheit definieren.
+86:
+Singular. Berechn. Fehler\n
+Zu nah an der Singularität des Hand-\n
+gelenks wegen der Auflösung der\n
+4. Achse.\n
+\t\n
+Zielposition einige Inkremente\n
+verändern.
+87:
+Singular. Berechn. Fehler\n
+Zu nah an der Singularität des Hand-\n
+gelenks wegen der Auflösung der\n
+6. Achse\n
+\t\n
+Zielposition einige Inkremente\n
+verändern.
+88:
+Neustart nicht möglich\n
+Wegen eines früheren Fehlers ist ein\n
+Neustart auf der Bahn nicht möglich.\n
+\t\n
+ProgrammZeiger setzen und neue\n
+Bewegung starten.
+89:
+Pendeln geändert\n
+Pendeln kann nicht ausgeführt werden:\n
+Hohe Pendelfrequenz, Änderung der\n
+Pendelmethode oder SingArea/Wrist\n
+wird zusammen mit Handgelenks-\n
+pendeln verwendet.\n
+\t\n
+Pendelamplitude oder -zeit vergrößern.\n
+Nicht zwischen Arm- und Handgelenks-\n
+pendeln wechseln.\n
+SingArea/Off zusammen mit Handgelenks-\n
+pendeln verwenden.
+91:
+Neustart nicht möglich\n
+Änderung des Zustands einer Einheit\n
+macht Neustart des Programms\n
+unmöglich.\n
+\t\n
+ProgrammZeiger setzen und neue\n
+Bewegung starten.
+92:
+Komm. Achscomputer Fehler\n
+Falsche Antwort vom Achscomputer.\n
+\t\n
+Bewegungskonfig. Param. kontrollieren.\n
+Hardware Achscomputer kontrollieren.
+93:
+Zu große Last\n
+Die definierte Masse der Last\n
+ist zu groß.\n
+\n
+
+94:
+ServoTune nicht möglich\n
+Tuning der spezifizierten Achse ist\n
+nicht vorgesehen.\n
+\t\n
+
+95:
+Kein Zugriff auf Achse\n
+Kein Zugriff externe Achse.\n
+Konfiguration und Aktivierung\n
+der externen Achse kontrollieren.\n
+\t\n
+
+96:
+ServoTune unzulässig\n
+Tuning ist für die spezifizierte Achse\n
+unzulässig.\n
+\t\n
+
+100:
+Manipulator Fehler\n
+Weitere Konfigurations- oder num.\n
+Fehler im Bewegungsbereich.\n
+\t\n
+Vorhergehende korrigieren und\n
+erneut versuchen.
+101:
+Manipulator Konfig.Fehler\n
+'%s' ist nicht frei für den\n
+Parameter '%s'\n
+in Typ '%s' namens\n
+'%s'.\n
+\t\n
+Anderen verwenden.\n
+Für interne Namen, siehe moc_chk.log.
+102:
+Manipulator Konfig.Fehler\n
+'%s' verwendet im\n
+Parameter '%s' in\n
+Typ '%s' namens\n
+'%s' ist\n
+nicht definiert.\n
+\t\n
+Anderen verwenden der definiert ist\n
+oder den Verwendeten definieren.\n
+Für interne Namen, siehe moc_chk.log.
+103:
+Manipulator Num. Fehler\n
+Orientierung def. durch Quaternionen\n
+mit '%s' im Typ\n
+'%s' namens\n
+'%s' ist nicht\n
+normalisiert.\n
+\t\n
+Quaternionen kontrollieren und/oder\n
+neu berechnen.\n
+Für interne Namen, siehe moc_chk.log.
+104:
+Manipulator Num. Fehler\n
+Der Parameter '%s'\n
+im Typ '%s' namens\n
+'%s' ist nicht '%s'.\n
+\t\n
+Wert kontrollieren.\n
+Für interne Namen, siehe moc_chk.log.
+128:
+Manipulator Fehler\n
+Kontrolle der Parameter -Manipulator-\n
+bedingt durch frühere Fehler\n
+abgebrochen.\n
+\t\n
+Fehler korrigieren und Kontrolle der\n
+Parameter erneut durchführen.
+130:
+Synch. fehlerhaft\n
+Synchronisierung fehlgeschlagen\n
+für Achse %s.\n
+\t\n
+Erneute Synchronisierung .\n
+Neustart des Systems.
+131:
+Kalibrierung fehlerhaft\n
+Kalibrierung fehlgeschlagen\n
+für Achse %s.\n
+\t\n
+Erneute Kalibrierung.\n
+Neustart des Systems.
+132:
+Kommutierung fehlerhaft\n
+Kommutierung fehlgeschlagen\n
+für Achse %s.\n
+\t\n
+Erneute Kommutierung.\n
+Neustart des Systems.
+133:
+Testsignal Fehler\n
+Für den Roboter stehen keine\n
+Testsignale zur Verfügung.\n
+\t\n
+
+134:
+Korr. Vektor Warnung\n
+Berechnungsfehler für Sensor\n
+Korrektur Vektor wegen eines\n
+früheren Fehlers.\n
+\t\n
+
+135:
+SoftServo nicht möglich\n
+Soft Servo kann nicht aktiviert\n
+werden.\n
+\t\n
+
+136:
+SoftServo nicht möglich\n
+Soft Servo kann nicht modifiziert\n
+werden.\n
+\t\n
+
+137:
+Feinpunkt eingefügt\n
+Zone wurde in -fine- Punkt geändert.\n
+Zuviele nachfolgende Bewegungs-\n
+Instruktionen ohne -fine- Punkt.\n
+\t\n
+
+138:
+Arm Kontr. Punkt außerh.\n
+Der Roboter hat die Grenze für den\n
+Arm Kontroll Punkt erreicht.\n
+\t\n
+Entsprechende Achse mittels\n
+Steuerknüppel zurück in den\n
+Arbeitsbereich verfahren.
+139:
+Arm Kontr. Punkt außerh.\n
+Bewegung in die falsche Richtung.\n
+\t\n
+Entsprechende Achse mittels Steuer-\n
+knüppel in entgegengesetzter Richtung\n
+zurück in ihren Arbeitsbereich bewegen.
+140:
+Last zu groß\n
+Schwere Last verursacht überschreiten\n
+des statischen Moments an Achse %s\n
+\t\n
+Last für -Arm- und -Hand- kontrollieren\n
+und reduzieren.\n
+Arbeitsbereich reduzieren um\n
+statisches Moment zu verringern.
+141:
+Gschw oder Bewegen Fehler\n
+1. Bewegen Fehler.\n
+2. Fehler durch hohe Geschwindigkeit.\n
+3. Roboter zu nah an Singularität.\n
+\t\n
+1. Manuelles Bewegen mit Inkrementen.\n
+2. Prog. Geschwindigkeit reduzieren.
+142:
+Manipulator Konfig.Fehler\n
+Konfiguration des Manipulators\n
+fehlerhaft.\n
+\t\n
+Die Werte der Parameter unter\n
+-Param- Manipulator kontrollieren.\n
+Bei Anpassung von int/ext Parametern\n
+z.B. falsche MOC.cfg geladen - Kaltstart\n
+des Systems mit korrekten Parametern.
+143:
+Roboterachs Konfig.Fehler\n
+Aktuelle Konfiguration ist nicht gleich\n
+der geforderten Konfiguration und/oder\n
+Umorientierung der Achse 4/6 zu groß.\n
+\t\n
+SingArea_Wrist, ConfL_Off\n
+verwenden, Position verändern\n
+oder Zwischenpunkt einfügen.
+144:
+Versch_Koord unbestimmt\n
+Kalibrerung des Verschiebungs-\n
+Koordinatensystem unbestimmt.\n
+1. Falscher TCP\n
+2. Ref. Punkte ungenau.\n
+3. Ref. Punkte schlecht gewählt.\n
+\t\n
+Wenn der geschätzte Fehler zu groß ist:\n
+1. Kontrolle ob korrekter TCP.\n
+2. Mehr als 3 Ref. Punkte verwenden.\n
+3. Manipulator seht genau an den\n
+   Ref. Punkten positionieren.
+145:
+Kinematische Grenzen\n
+Keine Lösung gefunden.\n
+1. Langes Segment.\n
+2. Position nahe Singularität.\n
+3. Achse 1, 2 oder 3 außerhalb Bereich.\n
+4. Position außerhalb Bereich.\n
+\t\n
+1. Zwischenpunkt einfügen um die Länge\n
+   des Segments zu reduzieren.\n
+2. MoveAbsJ verwenden.\n
+3-4. Arbeitsbereich kontrollieren.
+146:
+Neustartg Grenzen\n
+Eckbahnverlauf als Stoppunkt ausgeführt.\n
+Neustart nach Netzfehler nicht möglich\n
+in der Nähe eines Stoppunktes.\n
+\t\n
+Feinkunkt in der Move-Instr. vor\n
+RestoPath, ActUnit, Wait oder\n
+Stop-Instr. verwenden um Neustart\n
+nach Netzfehler zu ermöglichen.
+147:
+Neustart fehlgeschlagen\n
+Wiederherstellung der Bahn\n
+fehlgeschlagen.\n
+\t\n
+StartZeiger setzen und eine neue\n
+Bewegung starten.
+151:
+MOC_MAILBOX1_ERROR\n
+Treiber des Achsrechners ist nicht\n
+in der Lage einen neuen mailbox 1\n
+Interruptzu zu generieren, da\n
+vorheriger Interrupt nicht korrekt\n
+ausgeführt wurde.\n
+\t\n
+System neu installieren.\n
+Robotercomputer austauschen.
+152:
+MOC_MAILBOX2_ERROR\n
+Treiber des Achsrechners ist nicht\n
+in der Lage einen neuen mailbox 2\n
+Interruptzu zu generieren, da\n
+vorheriger Interrupt nicht korrekt\n
+ausgeführt wurde.\n
+\t\n
+System neu installieren.\n
+Robotercomputer austauschen.
+153:
+Anweisung nicht zulässig\n
+Die gegenbene Instruktion oder Anweisung\n
+ist nicht zulässig, da das Programm im\n
+Halt-Zustand abgearbeitet wurde.\n
+(%s %d %d)\n
+\t\n
+Programm verändern oder die Abarbeitung\n
+stoppen bevor Anweisung gegeben wird.
+154:
+Unzulässige Anweisung\n
+SingArea\Wrist Interpolation wird\n
+nicht unterstützt für den IRB6400C.\n
+\t\n
+Instruktion -SingArea\Wrist- ersetzen\n
+durch -SingArea\Off-.
+155:
+Neustart fehlgeschlagen\n
+Move-Instr. kann nicht abgearbeitet\n
+werden vor RestoPath, ActUnit, Wait\n
+oder Stop-Instr.\n
+\t\n
+Programm frei machen von FEHLER 50146\n
+Neustartgrenzen durch Änderung der\n
+Move-Instr. in einen Feinpunkt.\n
+StartZeiger setzen und eine neue\n
+Bewegung starten.
+156:
+Unabhängige Achse Fehler\n
+Achse %s ist nicht als eine\n
+unabhängige Achse konfiguriert.\n
+\t\n
+Programm verändern oder Achse\n
+als unabhängige Achse konfigurieren.
+157:
+Korr. Vektor Warnung\n
+Berechnungsfehler für Sensor\n
+Korrekturvektor X wegen eines\n
+früheren Fehlers.\n
+\t\n
+
+158:
+Sensorprozeß fehlt\n
+Sensorprozeß fehlt während\n
+Initialisierung.\n
+Name des Sensorprozeß %s\n
+nicht gefunden oder initialisiert.\n
+\t\n
+Prozeßname in Datei für\n
+Bewegung und Prozeß Konfiguration\n
+kontrollieren.
+159:
+Kein externer Prozeß\n
+Versuch einer koordinierten Bewegung\n
+oder Berechnung von Single %s\n
+ohne einen externen Prozeß.\n
+\t\n
+Prozeßname in Datei für\n
+Bewegung und Prozeß Konfiguration\n
+kontrollieren.
+160:
+Position nicht erreichbar\n
+Prog. Position der unabh. Achse\n
+%s ist außerhalb Arbeitsbereich\n
+und kann nicht erreicht werden.\n
+\t\n
+Position ändern.\n
+Grenzen Arbeitsbereich kontrollieren.\n
+Verwendetes WerkObjekt kontrollieren.
+161:
+Roboter nahe Singularität\n
+Dieser Bereich hat kinematische\n
+Grenzen.\n
+\t\n
+Beim manuellen Bewegen, Achse für Achse\n
+verfahren.\n
+Während Programmabarbeitung, die\n
+Instruktion MoveAbsJ verwenden.
+162:
+Interner Positionsfehler\n
+Fehler verursacht durch interne\n
+numerische Grenze.\n
+\t\n
+Unabhängige Achse zurücksetzen.\n
+Arbeitsbereich begrenzen.\n
+Zu enge Positionen verändern oder\n
+entfernen.
+163:
+Ext. Pos. Einstellungen\n
+Einstellungen externer Positionen zu\n
+groß. TCP Geschw., Orientierungs-\n
+geschw. oder Geschw. ext. Positionen\n
+überschreiten die Möglichkeiten.\n
+\t\n
+1. Progr. TCP- und Orientierungs-\n
+   geschwindigkeit reduzieren.\n
+2. Die Bahn verändern.\n
+3. WaitWObj näher zur Sync.\n
+4. Abarbeitung in AUTOMATIK
+164:
+Unabh. Achse Deakt Fehler\n
+Fehler bei der Deaktivierung einer\n
+Achse. Deaktivierung einer mech.\n
+Einheit nicht im Modus -unabhängig-.\n
+\t\n
+
+165:
+Förderer max Abstand\n
+Fördererposition von %5.3f Meter\n
+überschreitet den konfigurierten\n
+max. Sicherheitsabstand für Förderer.\n
+\t\n
+Fördererkonfiguration kontrollieren.\n
+Max. möglichen Abstand für Förderer-\n
+position kontrollieren.
+166:
+Fördererpos. Überlauf\n
+Überlauf  Fördererposition während\n
+dem Folgen eines WerkObjektes.\n
+WerkObjekt außerhalb Meßbereich.\n
+\t\n
+Prog. Geschwindigkeit erhöhen.\n
+Getriebefaktor Meßsystem ändern\n
+um Folgebereich zu vergrößern.\n
+Geschwindigkeit des Förderers\n
+reduzieren.
+167:
+Warnung: neue sync\n
+Warnung: Neues Objekt Sync Signal\n
+während der Förderer aktiv ist und das\n
+Programm abgearbeitet wird.\n
+\t\n
+
+168:
+Neues Objekt Sync\n
+Neues Objekt Sync Signal während der\n
+Förderer dem vorhergehenden Objekt\n
+folgt. Zwei Objekte können nicht gleich-\n
+zeitig verfolgt werden.\n
+\t\n
+Prog. Geschwindigkeit erhöhen.\n
+Geschwindigkeit des Förderers\n
+reduzieren.
+169:
+Koordination Fehler\n
+Koordination mit externer Position\n
+bedingt durch vorhergehenden Fehler\n
+oder durch unkorrekte Verwendung von\n
+DeactUnit, DropWObj während koord.\n
+Bewegung fehlgeschlagen.\n
+\t\n
+
+170:
+Prozeß fehlt\n
+Externe Prozeßsteuerung fehlt\n
+während der Initialisierung.\n
+Prozeß %s\n
+konnte nicht gefunden oder\n
+initialisiert werden.\n
+\t\n
+Name des Prozesses in der\n
+Konfigurationsdatei für\n
+-Bewegung und Prozess-\n
+kontrollieren.
+171:
+Geschw. zu niedrig\n
+Numerisches Problem bei Interpolation\n
+von langen Bahnsegmenten bei niedriger\n
+Geschwindigkeit und externen Achsen mit\n
+schweren Lasten oder bei Interpolationen\n
+in der Nähe von Singularitäten.\n
+\t\n
+Die Segmente mit langen Interpolations-\n
+zeiten (Bahnauflösung * 4 Minuten) auf-\n
+teilen, zu Punktinterpolation wechseln\n
+oder Positionen weiter weg von den\n
+Singularitäten programmieren.
+172:
+MoveJ unzulässig\n
+MoveJ unzulässig, wenn das Werkobjekt\n
+mit einer externen mechanischen Einheit\n
+koordiniert wird.\n
+\t\n
+Die Art der Interpolationsart oder\n
+das WerkObjekt ändern.
+173:
+Feinpunkt verwenden\n
+Feinpunkt verwenden bei Änderung\n
+der Koordination von Werkzeug oder\n
+Werkobjekt, wenn das Werkobjekt\n
+mit einer externen mechanischen\n
+Einheit koordiniert wird.\n
+\t\n
+Einen Feinpunkt erzeugen und\n
+das Werkzeug ändern.
+174:
+WObj nicht verbunden\n
+Das WObj ist nicht mit dem begegten\n
+Förderer verbunden.\n
+Das Werkzeug kann nicht mit dem\n
+Werkobjekt koordiniert werden.\n
+\t\n
+Auf fehlende Instruktion -WaitWObj-\n
+kontrollieren. Instruktion -DropWObj-\n
+vor dem Ende der Koordination ebenfalls\n
+kontrollieren.
+175:
+Förderer Bewegung\n
+Bewegung des Förderers während\n
+des Versuchs der Koordination von\n
+Werkzeug und Werkobjekt des Förderers\n
+im Modus -prohibited-.\n
+\t\n
+Bei manuell reduzierter Geschwindigkeit\n
+oder schrittweiser Abarbeitung in Auto-\n
+matik ist es nicht möglich den bewegten\n
+Förderer zu koordinieren.
+176:
+Förderer nicht aktiv\n
+Die mechanische Einheit Förderer\n
+war nicht aktiv während des Versuchs\n
+der Koordination von Werkzeug und\n
+Werkobjekt des Förderers.\n
+\t\n
+Sicherstellen das die mechanische\n
+Einheit aktiv ist.\n
+Feinpunkt für die letzte koordinierte\n
+Bewegung vor der Instruktion\n
+-DeactUnit- kontrollieren.
+177:
+Neustart unmöglich\n
+Der Förderer bewegt sich bei dem\n
+Versuch das Programm nach Stop\n
+oder schrittweiser Abarbeitung neu\n
+zu starten.\n
+\t\n
+Sicherstellen das der Förderer sich\n
+nicht bewegt.\n
+Alternativ bei bewegtem Förderer\n
+kontinuierlicher Abarbeitung in\n
+Einrichten 100% oder Automatik.
+178:
+Keine optimale Bewegung\n
+Keine optimale Bewegung.\n
+Notwendiges Moment ist zu hoch.\n
+Veränderung der Beschleunigung oder\n
+Reduzierung der Geschwindigkeit not-\n
+wendig.\n
+\t\n
+Beschleunigung für diese Bewegung redu-\n
+zieren (AccSet 50 100). Zurückändern auf\n
+(AccSet 100 100). Optimieren durch Suche\n
+nach max möglicher Beschleunigung 50-99.\n
+Alternativ Geschwindigkeit reduzieren.
+179:
+Paritätsfehler\n
+Paritätsfehler beim Lesen der\n
+Position.\n
+\t\n
+Verbindung SPS - S4 und die\n
+Konfiguration der E/A Signale\n
+kontrollieren.
+180:
+Korr.vektor Warnung\n
+Berechnung des Sensor Korrekturvektor\n
+wegen eines vorhergehenden Fehlers\n
+fehlgeschlagen.\n
+\t\n
+
+181:
+Außerhalb verb. Bereich\n
+Achse %s und %s sind\n
+außerhalb des verbundenen\n
+Arbeitsbereiches.\n
+\t\n
+Achsen mit dem Steuerknüppel in\n
+ihren verbundenen Arbeitsbereich\n
+zurückbewegen.
+182:
+Bewegung falsche Richtung\n
+Achse %s und %s sind\n
+außerhalb des verbundenen\n
+Arbeitsbereiches.\n
+\t\n
+Achsen mit dem Steuerknüppel in\n
+ihren verbundenen Arbeitsbereich\n
+zurückbewegen.
+183:
+Roboter aus Arbeitbereich\n
+Der Roboter hat die\n
+Weltzone %d erreicht.\n
+\t\n
+Den Grund für die Weltzone\n
+kontrollieren.\n
+Wenn notwendig, den Roboter\n
+mit dem Steuerknüppel aus der\n
+Weltzone herausbewegen.
+184:
+Korr. Vektor Warnung\n
+Berechnungsfehler für Sensor\n
+Korrektur Vektor wegen eines\n
+früheren Fehlers.\n
+\t\n
+
+185:
+Korr. Vektor Warnung\n
+Berechnungsfehler für Sensor\n
+Korrektur Vektor wegen eines\n
+früheren Fehlers.\n
+\t\n
+
+186:
+Koordination Fehler\n
+Es ist nicht möglich den Robotern\n
+%s mit einem koordinierten\n
+Koordinatensystem zu betreiben.\n
+Funktion nicht im System vorhanden.\n
+\t\n
+Option Advanced Motion installieren.
+187:
+Koordination Fehler\n
+Es ist nicht möglich den Robotern\n
+%s mit dem Anwender-\n
+Koordinatensystem zu betreiben.\n
+Funktion nicht im System vorhanden.\n
+\t\n
+Option Advanced Motion installieren.
+188:
+Keine optimale Bewegung\n
+Keine optimale Bewegung\n
+Notwendiges Drehmoment ist zu groß.\n
+Manuelle Einstellung der Pendelfrequenz\n
+oder -amplitude notwendig.\n
+\t\n
+Pendelfrequenz oder -amplitude in\n
+dieser Bewegung reduzieren.\n
+Alternativ die Geschwindigkeit\n
+reduzieren.
+189:
+Relaissign nicht gefunden\n
+Das Signal %s für Relais %s\n
+wurde nicht in der E/A Konfiguration\n
+gefunden.\n
+Die mechanische Einheit, die dieses\n
+Relais verwendet, wird ignoriert.\n
+\t\n
+Kontrolle der E/A Signaldefinitionen und\n
+der Systemparameter des Manipulators,\n
+Typ: Relais.
+190:
+Perman. ipol lock Fehler\n
+Die gefundene Anzahl aktiver Achsen\n
+entspricht nicht der Anzahl der\n
+erwarteten Achsen.\n
+\t\n
+Konfiguration der Einheiten die eine\n
+allgemeine Kinematik verwenden.
+191:
+Zu viele TCP Geschw.\n
+Die Anzahl der TCP Geschwindigkeiten\n
+in einem Segment ist zu groß. Die max.\n
+Anzahl von TCP Geschwindigkeiten\n
+ist %d.\n
+\t\n
+Kontrolle ob ein Segment zu viele TCP\n
+Geschwindigkeiten gesetzt hat oder ob\n
+eine Sequenz von Segmenten ansteigen-\n
+den DipLag hat.
+192:
+Bewegen Fehler\n
+Eine Bewegung wurde zu schnell nach\n
+einem Programmstop gestartet.\n
+\t\n
+Neustart und erneuter Versuch.
+193:
+Achsen sync. Fehler\n
+Die Geschwindigkeit von Achse %s\n
+war vor dem Ausschalten der Steuerung\n
+oder einem Netzausfall zu hoch.\n
+\t\n
+Erneute Aktualisierung der Umdrehungs-\n
+zähler durchführen.
+194:
+Interne Position Fehler\n
+Der Fehler wurde durch eine interne\n
+numerische Begrenzung verursacht.\n
+Logische Achse Nr. %2.0f.\n
+\t\n
+Dyn step 0 = %f\n
+Dyn step 1 = %f\n
+Dyn step 2 = %f\n
+Axc step = %f
+195:
+Unabh. Bewegung Fehler\n
+Achse %s kann nicht im Modus\n
+-unabhängig- bewegt werden.\n
+\t\n
+
+196:
+Kalibrierung Fehler\n
+Punkte 0 und 1 sind zu nah\n
+beieinander.\n
+\t\n
+
+197:
+Kalibrierung Fehler\n
+Punkte 0, 1, 2 liegen auf einer Linie\n
+oder Punkt 2 ist zu nah an den\n
+Punkten 0 oder 1.\n
+\t\n
+
+198:
+Kalibrierung Fehler\n
+Interner Fehler\n
+\t\n
+
+199:
+Kalibrierung Fehler\n
+Externe Achsen wurden während\n
+der Kalibrierung bewegt.\n
+\t\n
+Bewegung der externen Achsen\n
+verhindern.
+200:
+Drehmoment Fehler\n
+Drehmomentfehler bedingt durch\n
+hohe Geschwindigkeit.\n
+\t\n
+1. Lastdaten kontrollieren.\n
+2. Geschwindigkeit reduzieren.
+201:
+Orient. außer Reichweite\n
+Der Fehler der programmierten\n
+Orientierung überschreitet die\n
+zulässigen Grenzwert.\n
+\t\n
+1. Orientierung des robtarget ändern.\n
+2. Orientierung aktueller Koordinaten-\n
+    systeme: Werkzeug-, Basis-,\n
+    Anwender-, Objekt-...\n
+    kontrollieren / ändern.
+202:
+Kein Gleichrichter konfig\n
+Gleichrichter (%s) und\n
+Treiberstufe (%s) von\n
+Achse: %s sind nicht\n
+mit der gleichen seriellen Schnitt-\n
+stelle verbunden.\n
+\t\n
+Anderen Gleichrichter wählen.\n
+Seriellen Schnittstelle für Gleich-\n
+richter ändern.\n
+Parameter '-no_dc_link' auf\n
+TRUE setzen.
+203:
+Meßknoten verwendet\n
+Der Meßknoten für Achse\n
+%s wird bereits verwendet.\n
+\t\n
+Anderen Meßknoten wählen.
+213:
+Koordsys Rotation Fehler\n
+Möglicherweise durch unnormalisierte\n
+Quarternionen oder die Position ist\n
+außerhalb der Grenzen.\n
+\t\n
+Die Normalisierung der Eingangs-\n
+qarternionen oder die Größe der\n
+Eingangspositionen kontrollieren.

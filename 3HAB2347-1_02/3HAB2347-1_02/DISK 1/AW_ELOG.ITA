@@ -1,0 +1,731 @@
+
+
+64::
+0:
+Sald. arco
+1:
+Controllo gas\n
+\n
+\t\n
+Verificare accessori saldatura.
+2:
+Contr. acqua raffred\n
+\n
+\t\n
+Verificare accessori di saldatura.
+3:
+Contr. arco acceso\n
+\n
+\t\n
+Verificare accessori di saldatura.
+4:
+Contr. tensione\n
+\n
+\t\n
+Verificare accessori di saldatura.
+5:
+Contr. corrente\n
+\n
+\t\n
+Verificare accessori di saldatura.
+6:
+Contr. avanzamento filo\n
+\n
+\t\n
+Verificare accessori saldatura.
+7:
+Contr. stick out\n
+\n
+\t\n
+Verificare accessori saldatura.
+8:
+Accensione arco fallita\n
+\n
+\t\n
+Verificare accessori saldatura.
+9:
+Errore trasf. dati sald.\n
+\n
+\t\n
+Definire strobe input per trasf. dati
+10:
+Errore trasf. dati sald.\n
+\n
+\t\n
+Operazione non consentita. Trasferim.\n
+dati precedente ancora in esecuzione.
+11:
+Saldatura interrotta\n
+\n
+\t\n
+Processo interrotto da input digitale.
+12:
+Innesco arco fallito\n
+\n
+\t\n
+Verificare accessori saldatura.
+13:
+Supervisione torcia\n
+\n
+\t\n
+Verificare accessori di saldatura.
+1000:
+Percorso pendol. errato\n
+Errore di interpolazione\n
+[Geometrico = 0, Rapid = 1]\n
+\t\n
+Regolare parametro pendolamento
+1001:
+Percorso pendol. errato\n
+Errore di geometria\n
+[Nessuna forma = 0, Zig-Zag      = 1]\n
+[V             = 2, Triangolare  = 3]\n
+\t\n
+Regolare parametro pendolamento
+1002:
+Percorso pendol. errato\n
+Errore lunghezza pendol.\n
+(0 - 1) [m]\n
+\t\n
+Regolare parametro pendolamento
+1003:
+Percorso pendol. errato\n
+Errore tempo pendolamento\n
+(0 - 100) [s]\n
+\t\n
+Regolare parametro pendolamento
+1004:
+Percorso pendol. errato\n
+Errore larghezza pendolamento\n
+(0 - 1)  [m]\n
+\t\n
+Regolare parametro pendolamento
+1005:
+Percorso pendol. errato\n
+Errore altezza pendolamento\n
+(0 - 1)  [m]\n
+\t\n
+Regolare parametro pendolamento
+1006:
+Percorso pendol. errato\n
+Errore oscillazione sinistra\n
+(0 - 1)  [m]\n
+\t\n
+Regolare parametro pendolamento
+1007:
+Percorso pendol. errato\n
+Errore oscillazione centrale\n
+(0 - 1)  [m]\n
+\t\n
+Regolare parametro pendolamento
+1008:
+Percorso pendol. errato\n
+Errore oscillazione destra\n
+(0 - 1)  [m]\n
+\t\n
+Regolare parametro pendolamento
+1009:
+Percorso pendol. errato\n
+Errore Bias\n
+(-1 - 1) [m]\n
+\t\n
+Regolare parametro pendolamento
+1010:
+Percorso pendol. errato\n
+Errore orientamento angolo\n
+(-PI/2 - PI/2) [rad]\n
+\t\n
+Regolare parametro pendolamento
+1011:
+Percorso pendol. errato\n
+Errore inclinazione angolo\n
+(-PI/2 - PI/2) [rad]\n
+\t\n
+Regolare parametro pendolamento
+1012:
+Percorso pendol. errato\n
+Errore rotazione angolo\n
+(-PI/2 - PI/2 ) [rad]\n
+\t\n
+Regolare parametro pendolamento
+1013:
+Percorso pendol. errato\n
+Errore offset orizzontale\n
+(-1 - 1) [m]\n
+\t\n
+Regolare parametro pendolamento
+1014:
+Percorso pendol. errato\n
+Errore offset verticale\n
+(-1 - 1) [m]\n
+\t\n
+Regolare parametro pendolamento
+1015:
+Percorso pendol. errato\n
+Errore sincronismo sinistro\n
+(0 - 100) [%]\n
+\t\n
+Regolare parametro pendolamento
+1016:
+Percorso pendol. errato\n
+Errore sincronismo destro\n
+(0 - 100) [%]\n
+\t\n
+Regolare parametro pendolamento
+1017:
+Percorso pendol. errato\n
+Configuraz. pendolam. non consentita.\n
+Bias valido solo per forma a Zig-zag\n
+\t\n
+Regolare parametro pendolamento
+1018:
+Percorso pendol. errato\n
+Configuraz. pendolam. non consentita.\n
+Bias deve essere < della meta' largh.\n
+\t\n
+Regolare parametro pendolamento
+1019:
+Percorso pendol. errato\n
+Combinazione non poss. di oscillazione\n
+e lunghezza.\n
+Oscillaz. deve essere inf. della lungh.\n
+La Pendenza rampa (ampiezza/lunghezza)\n
+e' limitata\n
+\t\n
+Regolare parametro pendolamento
+3000:
+Errore config. accessori\n
+\n
+\t\n
+Config AW non corrispondente\n
+con configurazione IO
+4000:
+Errore weldguide\n
+\n
+\t\n
+Verificare parametri e\n
+accessori weldguide
+5000:
+Err configur. Seamless\n
+Parametro sconosciuto in alimentatore\n
+\t\n
+Verificare file di configurazione\n
+Seamless
+5001:
+Err configur. Seamless\n
+Unit_id usata non valida\n
+\t\n
+Verificare file di configurazione\n
+Seamless
+5002:
+Err configur. Seamless\n
+Lungh. trasmissione non valida\n
+\t\n
+Verificare file di configurazione\n
+Seamless
+5003:
+Err configur. Seamless\n
+Selection_id non valida\n
+\t\n
+Verificare file di configurazione\n
+Seamless
+5004:
+Err configur. Seamless\n
+Sistema Seamless con unita' diverse\n
+\t\n
+Verificare file di configurazione\n
+Seamless
+5005:
+Err configur. Seamless\n
+Nessuna unita' utilizzata\n
+\t\n
+Verificare file di configurazione\n
+Seamless
+5006:
+Err. configur Seamless\n
+Troppi parametri di regolazione\n
+\t\n
+Verificare file di configurazione\n
+Seamless
+6000:
+Errore track\n
+\n
+\t\n
+Verificare definizione giunto
+6001:
+Errore avvio track\n
+\n
+\t\n
+Verificare definizione giunto
+6002:
+Errore max correz. track\n
+\n
+\t\n
+Verificare definizione giunto
+7001:
+Err. accessori saldatura\n
+Errore di calcolo EPROM relativo dati\n
+di saldatura ad arco.\n
+\t\n
+EPROM difettosa in unita' Welddata\n
+Proseguendo senza eliminare l'errore\n
+potrebbe causare risultati imprevisti.\n
+Sostituire EPROM.
+7002:
+Err. accessori saldatura\n
+Errore interno di lettura/scrittura\n
+su RAM nell'unita' Welddata rilevato\n
+all'accensione.\n
+\t\n
+Almeno una cella di mem. nel microproc.\n
+int. non ha passato test di lett/scrit.\n
+Proseguendo senza eliminare l'errore\n
+potrebbe  causare risultati imprevisti.\n
+Sostituire l'unita' Welddata.
+7003:
+Err. accessori saldatura\n
+Errore di lettura/scrittura in RAM\n
+esterna nell'unita' Welddata rilevato\n
+all'accensione.\n
+\t\n
+Almeno una cella di mem. nel microproc.\n
+est. non ha passato test di lett/scrit.\n
+Proseguendo senza eliminare l'errore\n
+potrebbe causare risultati imprevisti.\n
+Sostituire l'unita' Welddata.
+7004:
+Err. accessori saldatura\n
+Alimentazione DC a 5V dal regolatore\n
+nell'unita' Welddata insufficiente.\n
+\t\n
+Si evidenzia la presenza di un problema\n
+nell'alimentazione ma probabilmente\n
+la funzionalita' non e' compromessa.\n
+Verificare alimentazione in ingresso\n
+all'unita' Welddata.
+7012:
+Err. accessori saldatura\n
+CAN-controller unita' Welddata\n
+per bus interno in stato di WARNING.\n
+\t\n
+Modificare i dati o inizializzare il\n
+sistema di saldatura dall'interruttore\n
+principale. Se l'errore non si risolve\n
+verificare le connessioni del bus e/o\n
+cambiare l'unita' Welddata.
+7013:
+Err. accessori saldatura\n
+CAN-controller unita' Welddata\n
+per bus esterno in stato di anomalia.\n
+\t\n
+Modificare i dati o inizializzare il\n
+sistema di saldatura dall'interruttore\n
+principale. Se l'errore non si risolve\n
+verificare le connessioni del bus e/o\n
+cambiare l'unita' Welddata.
+7014:
+Err. accessori saldatura\n
+CAN-controller unita' Welddata\n
+per bus interno in stato di BUS-OFF.\n
+\t\n
+Inizializzare il sistema di saldatura\n
+dall'interruttore principale.\n
+Se l'errore non si risolve\n
+verificare le connessioni del bus e/o\n
+cambiare l'unita' Welddata.
+7015:
+Err. accessori saldatura\n
+L'unita' Welddata ha rilevato che un\n
+messaggio CAN interno e' stato ricevuto\n
+ed e' andato perso.\n
+(Sovrascritto da messaggio successivo).\n
+\t\n
+Inizializzare il sistema di saldatura\n
+dall'interruttore principale.
+7016:
+Err. accessori saldatura\n
+L'unita' Welddata ha rilevato che un\n
+messaggio CAN interno e' stato ricevuto\n
+ed e' andato perso.\n
+(Sovrascritto da messaggio successivo).\n
+\t\n
+Inizializzare il sistema di saldatura\n
+dall'interruttore principale.
+7017:
+Err. accessori saldatura\n
+L'unita' Welddata ha perso il contatto\n
+con il sistema traina filo.\n
+\t\n
+Verificare il cavo di connessione tra\n
+l'unita' Welddata e la scheda di\n
+controllo del sistema traina filo\n
+Verificare l'alimentazione alla scheda\n
+di controllo del sistema traina filo
+7018:
+Err. accessori saldatura\n
+L'unita' Welddata ha perso il contatto\n
+con l'unita' Olivia.\n
+\t\n
+Verificare il cavo di connessione tra\n
+l'unita' Welddata e l'unita' Olivia.\n
+Verificare l'alimentazione\n
+all'unita' Olivia.
+7019:
+Err. accessori saldatura\n
+Errore nei dati della RAM non volatile\n
+rilevato all'accensione nell'unita'\n
+Welddata.\n
+Errore di Checksum.\n
+\t\n
+Probabile causa: batterie di backup\n
+scariche. Il sistema di sald. verra'\n
+inizializzato nello stato di default.\n
+I dati in unita' Welddata saranno persi\n
+E' possibile proseguire senza limitaz.
+7020:
+Err. accessori saldatura\n
+Errore nei dati della RAM non volatile\n
+rilevato all'accensione nell'unita'\n
+Welddata.\n
+Parametri non numerici fuori scala.\n
+\t\n
+Il sistema di saldatura verra'\n
+inizializzato nello stato di default.\n
+I dati in unita' Welddata saranno persi\n
+E' possibile proseguire senza limitaz.
+7021:
+Err. accessori saldatura\n
+Combinazione non valida di parametri\n
+non numerici rilevata nell'unita'\n
+Welddata all'accensione.\n
+\t\n
+Il sistema di saldatura verra'\n
+inizializzato nello stato di default.\n
+I dati saranno persi.\n
+Inizializzare l'unita' Welddata agendo\n
+sull'interruttore principale.
+7022:
+Err. accessori saldatura\n
+Overflow nel buffer di trasmissione\n
+CAN-bus (esterno) nell'unita' Welddata.\n
+\t\n
+L'unita' Welddata non riesce a\n
+trasmettere alla veloc. richiesta. Cio'\n
+potrebbe essere dovuto ad un'anomala\n
+occupazione del bus. Inizializzare\n
+unita' Welddata dall'interruttore princ.
+7023:
+Err accessori saldatura\n
+Overflow nel buffer di trasmissione\n
+CAN-bus (esterno) nell'unita' Welddata.\n
+\t\n
+L'unita' Welddata non riesce a\n
+trasmettere alla veloc. richiesta.\n
+Inizializzare l'unita' Welddata\n
+agendo sull'interruttore principale.
+7024:
+Err. accessori saldatura\n
+Errore trasferimento dati.\n
+\t\n
+Le singole parti di un messaggio non\n
+sono state ricevute nel giusto ordine.\n
+Un blocco di dati di sald. non e' stato\n
+ricevuto correttamente. Inizializz. il\n
+sistema di sald. dall'interrutt. princ.
+7025:
+Err. accessori saldatura\n
+Formato non corretto per un blocco di\n
+dati di saldatura. L'unita' Welddata ha\n
+ricevuto dati memorizzati con una\n
+diversa versione del programma o in un\n
+formato differente.\n
+\t\n
+Trovare i dati nella versione corretta\n
+o inserire nuovi dati.
+7026:
+Err. accessori saldatura\n
+Errore esecuzione programma.\n
+Attivato Watch dog nel programma\n
+dell'unita' Welddata.\n
+\t\n
+Inizializzare il sistema di saldatura\n
+agendo sull'interruttore principale.\n
+
+7027:
+Err. accessori saldatura\n
+Errore non documentato su unita'\n
+Welddata.\n
+\t\n
+Richiedere informazioni ad ABB
+7028:
+Err. accessori saldatura\n
+Errore non documentato su unita'\n
+Welddata.\n
+\t\n
+Richiedere informazioni ad ABB
+7029:
+Err. accessori saldatura\n
+Errore non documentato su unita'\n
+Welddata.\n
+\t\n
+Richiedere informazioni ad ABB
+7201:
+Err. accessori saldatura\n
+Errore checksum su EPROM nell' unita'\n
+di controllo saldatrice.\n
+\t\n
+EPROM difettosa nell'unita' di contr.\n
+saldatrice. Proseguendo senza eliminare\n
+l'errore potrebbe causare risultati\n
+imprevisti. Sostituire la EPROM.
+7202:
+Err. accessori saldatura\n
+Errore di lettura/scrittura in RAM\n
+interna sull'unita' di controllo\n
+saldatrice rilevato all'accensione.\n
+\t\n
+Almeno una cella di mem. nel microproc.\n
+int. non ha eseguito correttam. test di\n
+lett/scrit. Proseguendo senza eliminare\n
+l'err. potrebbe causare risult. negat.\n
+Sostituire l'unita' di control. saldat.
+7204:
+Err. accessori saldatura\n
+L'alimentazione 5V DC al regolatore\n
+nell'unita' di controllo saldatrice\n
+e' stata interrotta.\n
+\t\n
+Si e' evidenziato un problema\n
+nell'alimentatore ma la funzionalita'\n
+non e' probabilmente compromessa.\n
+Verificare l'alimentazione in ingresso\n
+all'unita' di controllo saldatrice.
+7205:
+Err. accessori saldatura\n
+Elevato valore tensione DC da inverter\n
+sul bus. L'hardware spegnera'\n
+l'inverter fino a che la tensione\n
+sara' tornata a valori normali.\n
+\t\n
+Possibili cause: elevata impedenza\n
+del primario o transienti. Sara'\n
+possibile riprendere a saldare non\n
+appena la tensione sara' scesa\n
+a limiti accettabli.
+7206:
+Err. accessori saldatura\n
+Temperatura troppo elevata nei\n
+dissipatori dell'alimentatore.\n
+L'inverter viene spento fino a che\n
+la temperatura non tornera' a livelli\n
+accettabili.\n
+\t\n
+Assicurarsi che non esistano ostacoli\n
+che riducano il flusso di aria ai\n
+dissipatori dell'alimentatore.\n
+Attendere fino a che la temperatura non\n
+sia tornata a livelli accettabili.
+7207:
+Err. accessori saldatura\n
+Corrente elevata nel circuito inverter.\n
+Probabile causa: componete difettoso.\n
+\t\n
+Inizializzare il sistema di saldatura\n
+agendo sull'interruttore principale.\n
+Verificare che non vi siano consumi\n
+anomali prima che venga dato lo start.\n
+Se cosi' c'e' un componente difettoso
+7208:
+Err. accessori saldatura\n
+Alimentazione PCB a 15V su alimentatore\n
+Unita' di controllo troppo alta o bassa\n
+\t\n
+Sostituire unita' di controllo sald.
+7209:
+Err. accessori saldatura\n
+Alimentazione PCB a -15V su alimentat.\n
+Unita' di controllo troppo alta o bassa\n
+\t\n
+Sostituire unita' di controllo sald.
+7210:
+Err. accessori saldatura\n
+Alimentazione PCB a 15VB su alimentatore\n
+Unita' di controllo troppo alta o bassa\n
+\t\n
+Sostituire unita' di controllo sald.
+7211:
+Err. accessori saldatura\n
+Riscontrata una differenza tra i valori\n
+richiesti e quelli effettivi della\n
+corrente di saldatura.\n
+\t\n
+Problema hardware nel sistema di\n
+servocontrollo della corrente (Scheda\n
+controllo sald. o inverter) o\n
+condizioni anomale di carico\n
+(= cattiva saldatura).
+7212:
+Err. accessori saldatura\n
+Errore comunicazione interno su CAN\n
+Circuiti CAN in unita' di controllo\n
+saldat. in stato di WARNING.\n
+\t\n
+Modificare i dati o inizializzare il\n
+sistema di saldatura dall'interruttore\n
+principale. Se l'errore non si risolve\n
+verificare le connessioni del bus e/o\n
+cambiare l'unita'di controllo saldat.
+7215:
+Err. accessori saldatura\n
+L'unita' di controllo saldat. ha\n
+rilevato che un messaggio CAN interno e'\n
+stato ricevuto ed e' andato perso\n
+(sovrascrit. da un messaggio successivo)\n
+\t\n
+Inizializzare il sistema di saldatura\n
+agendo sull'interruttore principale.
+7226:
+Err. accessori saldatura\n
+Errore esecuzione programma.\n
+Attivato Watch dog nel programma\n
+dell'unita' controllo saldat.\n
+\t\n
+Inizializzare il sistema di saldatura\n
+agendo sull'interruttore principale.
+7227:
+Err. accessori saldatura\n
+Errore nell'unita' di\n
+controllo saldat.\n
+\t\n
+Richiedere informazioni ad ABB.
+7228:
+Err. accessori saldatura\n
+Errore nell'unita' di\n
+controllo saldat.\n
+\t\n
+Richiedere informazioni ad ABB.
+7229:
+Err. accessori saldatura\n
+Errore nell'unita' di\n
+controllo saldat.\n
+\t\n
+Richiedere informazioni ad ABB.
+7301:
+Err. accessori saldatura\n
+Rilevato errore di checksum su EPROM\n
+nel sistema traina filo\n
+all'accensione.\n
+\t\n
+EPROM difettosa nel sistema di\n
+traina filo.\n
+Proseguendo senza eliminare l'errore\n
+potrebbe causare risultati imprevisti.\n
+Sostituire la EPROM.
+7302:
+Err. accessori saldatura\n
+Errore lettura/scrittura in RAM interna\n
+rilevato all'accensione sul sistema\n
+traina filo.\n
+\t\n
+Almeno una cella di mem. nel microproc.\n
+int. ha fallito il test di lett/scrit\n
+Proseguendo senza eliminare l'errore\n
+potrebbe causare risultati imprevisti.\n
+Sostituire l'unita' traina filo.
+7304:
+Err. accessori saldatura\n
+L'alimentazione DC a 5V per il\n
+regolatore nell'unita' traina\n
+filo e' venuta a mancare.\n
+\t\n
+Si e' evidenziato un problema\n
+nell'alimentatore ma la funzionalita'\n
+e' probabilmente intatta. Verificare\n
+l'alimentazione in ingresso all'unita'\n
+traina filo.
+7308:
+Err. accessori saldatura\n
+Tensione di alimentazione PCB a 15V\n
+su unita' traina filo troppo\n
+alta o bassa.\n
+\t\n
+Sostituire l'unita' traina filo.
+7309:
+Err. accessori saldatura\n
+Tensione di alimentazione PCB a 24V\n
+su unita' traina filo troppo\n
+alta o bassa.\n
+\t\n
+Sostituire l'unita' traina filo.
+7311:
+Err. accessori saldatura\n
+Differenza eccessiva tra velocita'\n
+richiesta e velocita' effettiva del\n
+sistema traina filo.\n
+\t\n
+Problema hardware nel sistema di\n
+servocontrollo del traina filo\n
+o caduta di tensione nell'alimentazione\n
+a 42V AC.
+7312:
+Err. accessori saldatura\n
+Errore di comunicazione interno su CAN\n
+Circuiti CAN nel sistema di\n
+traina filo in stato di anomalia.\n
+\t\n
+Modificare i dati di velocita' o\n
+inizializzare il sistema di saldatura\n
+dall'interruttore principale. Se l'err.\n
+non si risolve verificare le connessioni\n
+del bus e/o camb. l'unita' traina filo.
+7315:
+Err. accessori saldatura\n
+Il sistema di alimentazione filo ha\n
+rilevato che un messaggio CAN interno\n
+e' stato ricevuto ed e' andato perso\n
+(sovrascritt. da un messaggio success.)\n
+\t\n
+Inizializzare il sistema di saldatura\n
+dall'interruttore principale.
+7326:
+Err. accessori saldatura\n
+Errore esecuzione programma.\n
+Attivato watch dog nel programma\n
+dell'unita' traina filo.\n
+\t\n
+Inizializzare il sistema di saldatura\n
+dall'interruttore principale.
+7327:
+Err. accessori saldatura\n
+Errore sconosciuto nel sistema\n
+traina filo.\n
+\t\n
+Richiedere informazioni ad ABB.
+7328:
+Err. accessori saldatura\n
+Errore sconosciuto nel sistema\n
+traina filo.\n
+\t\n
+Richiedere informazioni ad ABB.
+7329:
+Err. accessori saldatura\n
+Errore sconosciuto nel sistema\n
+traina filo.\n
+\t\n
+Richiedere informazioni ad ABB.
+7500:
+Err. in apertura file\n
+Nome file sconosciuto\n
+\t\n
+
+8000:
+Errore ext CAN com\n
+Troppe richieste senza risposta.\n
+\t\n
+Verificare configurazione comunicazione
+9000:
+Installation error\n
+External axes are not allowed in this\n
+type of robot configuration\n
+\t\n
+Remove mechanical units

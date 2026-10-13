@@ -1,0 +1,362 @@
+16::
+0:
+Definicion coordenadas Herramienta
+1:
+Herramienta
+2:
+Metodo
+3:
+Punto                  Estado
+4:
+(Desc.)
+5:
+ModPos
+6:
+Cancela
+7:
+OK
+8:
+Descripcion Coordenadas Herramienta
+9:
+Posicion de/a
+10:
+Resultado Calculo Herramienta
+11:
+TCP
+12:
+Registro de calculo
+13:
+Arch...
+14:
+Seleccionar una matriz de posicion
+15:
+Nombre matriz
+16:
+Seleccionar metodo definicion herram.
+17:
+Info metodo
+18:
+Nombre metodo
+19:
+-
+20:
+Modificado
+21:
+Pos de
+22:
+Metodo
+23:
+Error medio
+24:
+Error max
+25:
+Guarda registro calculo a archivo
+26:
+Cuaternion 1
+27:
+Cuaternion 2
+28:
+Cuaternion 3
+29:
+Cuaternion 4
+30:
+Mostrando matriz posiciones del tipo
+31:
+(OK)
+32:
+
+33:
+Ninguno
+34:
+No encuentro variable tool!\n
+\n
+  <Pulsar Entrar para continuar>
+35:
+No encuentro variable Wobj!\n
+\n
+  <Pulsar Entrar para continuar>
+36:
+No encuentro variable Pose!\n
+\n
+  <Pulsar Entrar para continuar>
+37:
+No puedo usar tool para mvto.\n
+manual. Tool debe ser del tipo\n
+persistente\n
+\n
+  <Pulsar Entrar para continuar>
+38:
+No puedo usar wobj para mvto.\n
+manual. Wobj debe ser del tipo\n
+persistente\n
+\n
+  <Pulsar Entrar para continuar>
+39:
+X Cartesiano
+40:
+(Nuevo)
+41:
+(Borra)
+42:
+Define
+43:
+Y Cartesiano
+44:
+Z Cartesiano
+45:
+Definicion frame usuario Orbit
+46:
+Resultado calculo frame usuario Orbit
+47:
+Seleccionar metodo de definicion
+48:
+Unidad
+49:
+Definicion frame base robot
+50:
+Resultado calculo frame base robot
+51:
+Activar punto referencia
+52:
+(ModPos)
+53:
+Por favor, dar coordenadas\n
+mundo para pto. ref. fijo.
+54:
+Definicion frame usuario lin single
+55:
+Resultado calc. frame usuario lin single
+56:
+Definicion rot. frame usuario single
+57:
+Resultado calc frame usuario rot. single
+58:
+Definicion frame base track
+59:
+Resultado calc. frame base track
+60:
+Activar
+61:
+Metodo movimiento
+62:
+X
+63:
+Y
+64:
+Z
+65:
+Sustituyendo parametros!\n
+Parametros actuales seran\n
+sustituidos.\n
+\n
+OK para continuar?
+66:
+Definicion ejes unidad mecanica
+67:
+Resultado calc ejes unidad mecanica
+69:
+Ejes
+100:
+Definicion coordenadas Work Object
+101:
+Descripcion coordenadas Work Object
+102:
+Resultado calc coordenadas Work Object
+103:
+Seleccionar una matriz de posicion
+104:
+WObj
+105:
+Metodo usrio
+106:
+Metodo Obj
+107:
+Seleccionar un metodo de objeto
+108:
+Seleccionar un metodo de usuario
+109:
+Pos usuario de/a
+110:
+Pos objeto de/a
+111:
+Usua
+112:
+Obj
+200:
+Definicion base de desplazamiento
+201:
+Descripcion base de desplazamiento
+202:
+Resultado calculo base de desplazamiento
+203:
+Seleccionar una matriz de posicion
+204:
+Desp
+205:
+Orig
+206:
+Numero de puntos
+207:
+Seleccionar nuevo metodo
+500:
+n puntos (n=%d)
+501:
+Punto inicial
+502:
+Punto desp.
+503:
+Punto
+504:
+X negativa
+505:
+X positiva
+506:
+Y positiva
+507:
+4 puntos
+508:
+Orientacion de frame base es igual a\n
+sistema coordenadas mundo.
+509:
+Punto aprox 1
+510:
+Punto aprox 2
+511:
+Punto aprox 3
+512:
+Punto aprox 4
+513:
+Punto aprox 5
+514:
+Punto aprox 6
+515:
+Punto aprox 7
+516:
+Punto aprox 8
+517:
+Punto aprox 9
+518:
+Punto aprox 10
+519:
+Punto prolongacion X
+520:
+Punto prolongacion Z
+521:
+4 puntos XZ
+522:
+X y prolongacion Z se usan para definir\n
+la orientacion del frame base
+523:
+4 puntos TCP
+524:
+La orinetacion sera igual a la del\n
+acoplamiento del robot
+525:
+5 puntos TCP y Z
+526:
+Direcciones X e Y estaran lo mas cerca\n
+posible de las coordenadas de muñeca
+527:
+6 puntos TCP y XZ
+528:
+Se definen el TCP y todas\n
+sus direcciones
+529:
+3 puntos
+530:
+Se usan tres puntos de usuario. Dos\n
+sobre el eje x y uno sobre el eje y.
+531:
+Usuario
+532:
+Objeto
+533:
+Se usan tres puntos del objeto. Dos\n
+sobre el eje x y uno sobre el eje y.
+534:
+4 p ORIENT TCP NO DEF
+535:
+El componente de orientacion de la\n
+herramienta no queda afectado
+536:
+Sin cambio
+537:
+La definicion de sistema coordenadas\n
+de usuario no queda afectado
+538:
+La definicion de sistema coordenadas\n
+de objeto no queda afectado
+539:
+No se realizaran cambios en\n
+definiciones sistemas de coordenadas
+550:
+Definicion coordenadas Tool estacionario
+551:
+Tool usada
+552:
+Definicion de herramieta estac.\n
+no es posible si el robot\n
+sujeta la herramienta.\n
+\n
+<Pulsar Entrar para continuar>
+600:
+Espejo de una rutina
+601:
+Rutina a aplicar espejo
+602:
+Nombre nueva rutina
+603:
+Work object
+604:
+Frame espejo
+605:
+Eje espejo
+606:
+X
+607:
+Y
+608:
+Seleccion Frame
+609:
+Dar nombre de nueva rutina
+610:
+Seleccionar work object frame de\n
+la lista inferior.
+611:
+Seleccionar frame de espejo de\n
+la lista inferior.
+612:
+No modificado
+613:
+Por favor espere!\n
+\n
+Realizando espejo sobre\n
+la rutina seleccionada.
+614:
+Espejo no realizado.\n
+El nombre de la rutina espejo\n
+ya existe.
+615:
+No puedo realizar definicion!\n
+Variable declarada en modulo\n
+que es SOLOLECTURA\n
+\n
+<Pulse Entrar para continuar>
+616:
+Calibracion de work object con\n
+frame de usuario coordinado\n
+no esta soportado\n
+\n
+<Pulsar Entrar para continuar>
+617:
+Calibracion de work object\n
+que este sujeto al el robot\n
+no es posible\n
+\n
+<Pulsar Entrar para continuar>
+618:
+Calibracion de work object\n
+con TCP estacionario no\n
+es posible\n
+\n
+<Pulsar Entrar para continuar>

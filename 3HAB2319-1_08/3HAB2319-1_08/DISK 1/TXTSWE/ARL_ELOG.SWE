@@ -1,0 +1,1777 @@
+24::
+0:
+Program
+1:
+Argumentfel\n
+Task %s: Samma valfria\n
+parameter finns flera gånger\n
+\t\n
+Kontrollera att valfri parameter\n
+inte är specificerad mer än en gång\n
+i samma rutinanrop.
+2:
+Argumentfel\n
+Task %s: Uteslutande\n
+argument måste ha villkorliga värden\n
+\t\n
+Enbart ett argument får användas i en\n
+lista av parametrar som utesluter\n
+ varandra om inte alla värden är\n
+villkorliga argumentvärden.
+3:
+Argumentfel\n
+Task %s: Obligatoriskt\n
+argument förväntas\n
+\t\n
+Kontrollera att de angivna argumenten\n
+är i korrekt ordning enligt parameter-\n
+listan för den anropade rutinen.
+4:
+Argumentfel\n
+Task %s: Argument för REF\n
+parameter är ej datareferens\n
+\t\n
+Kontrollera att argumentet är en data\n
+eller parameter referens.
+5:
+Argumentfel\n
+Task %s: Argument för\n
+'INOUT' parameter ej en variabel eller\n
+persistent-referens eller är read only\n
+\t\n
+Kontrollera att argumentet är av typ\n
+variabel, persistent, variabel parameter\n
+eller persistent parameter referens.\n
+En variabel eller persistent får ej vara\n
+read only.
+6:
+Argumentfel\n
+Task %s: Villkorligt\n
+argumentvärde saknas.\n
+\t\n
+Endast '\' parametrar får specifiseras\n
+med enbart namn. Andra typer av valfria\n
+parametrar måste tilldelas ett värde.\n
+Lägg till ett värde.
+7:
+Argumentfel\n
+Task %s: Villkortligt\n
+argumentvärde har använts för en\n
+obligatorisk parameter.\n
+\t\n
+Villkorligt värde för valfri parameter\n
+måster referera till valfri parameter i\n
+den anropade rutinen.\n
+Ändra det villkorliga värdet.
+8:
+Argumentfel\n
+Task %s: Ett valfritt\n
+argument har använts i stället för ett\n
+obligatoriskt.\n
+\t\n
+Argument till en obligatorisk parameter\n
+får inte startas med tecknet '\'.\n
+Ändra till ett obligatoriskt argument.
+9:
+Argumentfel\n
+Task %s: Obligatoriskt\n
+argument har använts i stället för ett\n
+villkorligt\n
+\t\n
+Ett villkorligt värde till en valfri\n
+parameter måste referera till en valfri\n
+parameter i den anropande rutinen.\n
+Ändra det villkorliga värdet.
+10:
+Argumentfel\n
+Task %s: En obligatorisk\n
+parameter har använts i valfritt\n
+argument\n
+\t\n
+Argument till en obligatorisk parameter\n
+får inte startas med tecknet '\'.\n
+Ändra till ett obligatoriskt argument.
+11:
+Argumentfel\n
+Task %s: Namngivet\n
+obligatoriskt argument på fel plats i\n
+argumentlistan\n
+\t\n
+Kontrollera att argumenten är inskrivna\n
+i samma ordning som den anropande\n
+rutinens paramerar.
+12:
+Argumentfel\n
+Task %s: '\' argument\n
+kan ej ha ett värde\n
+\t\n
+Ett argument som motsvarar en '\' param\n
+får inte tilldelas ett värde.\n
+Ta bort värdet.
+13:
+Argumentfel\n
+Task %s: För få argument\n
+i ett rutinanrop\n
+\t\n
+Rutinens samtliga obligatoriska argument\n
+måste anges vid anrop. Lägg till fler\n
+argument enligt rutinens parameterlista.
+14:
+Argumentfel\n
+Task %s: För många\n
+argument i ett rutinanrop\n
+\t\n
+Tag bort argument så att de stämmer\n
+överens med rutinens parameterlista.
+15:
+Data deklarationsfel\n
+Task %s: Listdimension\n
+måste vara större än 0\n
+\t\n
+Listdimensioner måste vara positiva.\n
+Ändra dimensionen.
+16:
+Data deklarationsfel\n
+Task %s: För många\n
+dimensioner i listdefinition.\n
+\t\n
+Högst 3 dimensioner i en lista (array).\n
+Ändra programmet så att högst 3\n
+dimensioner behövs.
+17:
+Typfel\n
+Task %s:Indexerade data\n
+är ej av listtyp\n
+\t\n
+Enbart data som är av listtyp (arrayer)\n
+kan indexeras. Ta bort index eller\n
+deklarera datat som en lista.
+18:
+Typfel\n
+Task %s: Data är ej\n
+av posttyp\n
+\t\n
+Komponenter är enbart tillgängliga för\n
+data av posttyp. Kontrollera typ och\n
+namn på det refererade datat.
+19:
+Begränsningsfel.\n
+Task %s: Fel vid skapande\n
+av delad databaspost\n
+\t\n
+Fel när en persistent skulle lagras\n
+i den delade databasen. databasen\n
+är troligen full.
+20:
+Data deklarationsfel\n
+Task %s: Uttrycket är\n
+ej ett konstant uttryck\n
+\t\n
+Uttryck i datadeklarationer måste vara\n
+konstanta. Kontrollera att inga\n
+referenser görs till variabler,bestående\n
+eller funktioner.
+21:
+Instruktionsfel\n
+Task %s: RETURN från\n
+en funktion måste ha ett uttryck\n
+\t\n
+En RETURN-instruktion i en funktion\n
+måste innehålla värdet som ska\n
+returneras. Lägg till detta argument.
+22:
+Typfel\n
+Task %s: Felaktig\n
+kombination av operandtyper för '*'\n
+operatorn\n
+\t\n
+Tillåtna typer av kombinationer för de\n
+två operanderna till '*' operatorn är\n
+'num'*'num', 'num'*'pos', 'pos'*'num',\n
+'pos'*'pos' och 'orient'*'orient'.\n
+Kontrollera operandernas typer.
+23:
+Instruktionsfel\n
+Task %s: Kan inte hoppa\n
+till en annan instruktionslista\n
+\t\n
+Kontrollera att labeln är placerat i\n
+samma  instruktionslista som GOTO-\n
+instruktionen, eller i en yttre nivå.\n
+Det är ej möjligt att hoppa in i en\n
+programflödes-instruktion.
+24:
+Typfel\n
+Task %s: Felaktig typ på\n
+vänsteroperanden för operatorn '+'\n
+eller '-'\n
+\t\n
+Tillåtna typer för operanderna till\n
+'+' operatorn är 'num', 'pos' och\n
+'string',\n
+för '-' operatorn 'num' och 'pos'.\n
+Kontrollera operandens typ.
+25:
+Typfel\n
+Task %s: Felaktig typ på\n
+operanden för den enställiga operatorn\n
+'+' eller '-'\n
+\t\n
+Tillåtna typer är 'num' och 'pos'.\n
+Kontrollera operandens typ.
+26:
+Typfel\n
+Task %s: Felaktig typ på\n
+högeroperanden för operatorn\n
+'+' eller '-'\n
+\t\n
+Tillåtna typer för operanderna till\n
+'+' operatorn är 'num', 'pos' och\n
+'string',\n
+för '-' operatorn 'num' och 'pos'.\n
+Kontrollera operandens typ.
+27:
+Typfel\n
+Task %s: Felaktig typ på\n
+vänsteroperanden för operatorn\n
+'/', DIV eller MOD.\n
+\t\n
+Tillåten typ är enbart 'num'.\n
+Kontrollera operandens typ.
+28:
+Typfel\n
+Task %s: Felaktig typ på\n
+högeroperanden för operatorn\n
+'/', DIV eller MOD.\n
+\t\n
+Tillåten typ är enbart 'num'.\n
+Kontrollera operandens typ.
+29:
+Typfel\n
+Task %s: Felaktig typ på\n
+vänsteroperanden för operatorn\n
+'<', '<=', '>' eller '>='.\n
+\t\n
+Tillåten typ är enbart 'num'.\n
+Kontrollera operandens typ.
+30:
+Typfel\n
+Task %s: Felaktig typ på\n
+högeroperanden för operatorn\n
+'<', '<=', '>' eller '>='.\n
+\t\n
+Tillåten typ är enbart 'num'.\n
+Kontrollera operandens typ.
+31:
+Typfel\n
+Task %s: Felaktig typ på\n
+vänsteroperanden för operatorn '*'.\n
+\t\n
+Tillåtna typer är 'num', 'pos', 'orient'\n
+Kontrollera operandens typ.
+32:
+Typfel\n
+Task %s: Felaktig typ på\n
+högeroperanden för operatorn '*'.\n
+\t\n
+Tillåtna typer är 'num', 'pos', 'orient'\n
+Kontrollera operandens typ.
+33:
+Typfel\n
+Task %s: Felaktig typ på\n
+operanden för operatorn 'NOT'\n
+\t\n
+Tillåten typ är enbart 'bool'.\n
+Kontrollera operandens typ.
+34:
+Typfel\n
+Task %s: Felaktig typ på\n
+vänsteroperanden för operatorn\n
+'OR', 'XOR' eller 'AND'.\n
+\t\n
+Tillåten typ är enbart 'bool'.\n
+Kontrollera operandens typ.
+35:
+Typfel\n
+Task %s: Felaktig typ på\n
+högeroperanden för operatorn\n
+'OR', 'XOR' eller 'AND'.\n
+\t\n
+Tillåten typ är enbart 'bool'.\n
+Kontrollera operandens typ.
+36:
+Typfel\n
+Task %s: Felaktigt antal\n
+index i en indexlista\n
+\t\n
+Se till så att antal index i indexlistan\n
+stämmer överens med listans dimension.
+37:
+Datadeklarationsfel\n
+Task %s: Rutinkonstanter\n
+får ej vara lokala\n
+\t\n
+Enbart programdata får deklareras som\n
+lokala. Ta bort attributet LOCAL\n
+eller flytta datat utanför rutinen.
+38:
+Datadeklarationsfel\n
+Task %s: Rutinvariabler\n
+får ej vara lokala\n
+\t\n
+Enbart programdata får deklareras som\n
+lokala. Ta bort attributet LOCAL\n
+eller flytta datat utanför rutinen.
+39:
+Namnfel\n
+Task %s: Namn på\n
+konstant tvetydigt\n
+\t\n
+Rutindata måste ha namn som är unika\n
+inom rutinen. Programdata måste ha\n
+namn som är unika inom modulen.\n
+Byt namn på datat.
+40:
+Namnfel\n
+Task %s: Namn på\n
+global konstant tvetydigt\n
+\t\n
+Globala data måste ha namn som är unika\n
+bland samtliga globala data, globala\n
+rutiner och moduler.\n
+Byt namn på datat.
+41:
+Namnfel\n
+Task %s: Namn på\n
+global bestående tvetydigt\n
+\t\n
+Globala data måste ha namn som är unika\n
+bland samtliga globala data, globala\n
+rutiner och moduler.\n
+Byt namn på datat.
+42:
+Namnfel\n
+Task %s: Namn på\n
+global rutin tvetydigt\n
+\t\n
+Globala data måste ha namn som är unika\n
+bland samtliga globala data, globala\n
+rutiner och moduler.\n
+Byt namn på rutinen.
+43:
+Namnfel\n
+Task %s: Namn på\n
+global variabel tvetydigt\n
+\t\n
+Globala data måste ha namn som är unika\n
+bland samtliga globala data, globala\n
+rutiner och moduler.\n
+Byt namn på datat.
+44:
+Namnfel\n
+Task %s: Namn på\n
+label tvetydigt\n
+\t\n
+En label måste ha namn som är unik\n
+inom rutinen. Byt namn.
+45:
+Namnfel\n
+Task %s: Modulnamn\n
+tvetydigt\n
+\t\n
+Moduler måste ha namn som är unika\n
+bland samtliga globala data, globala\n
+rutiner och moduler.\n
+Byt namn på modulen.
+46:
+Namnfel\n
+Task %s: Namn på\n
+parameter tvetydigt\n
+\t\n
+parametrar måste ha namn som är\n
+unika inom rutinen.\n
+Byt namn på parametern.
+47:
+Namnfel\n
+Task %s: Namn på\n
+bestående tvetydigt\n
+\t\n
+Programdata måste ha namn som är unika\n
+inom modulen.\n
+Byt namn på datat.
+48:
+Namnfel\n
+Task %s: Rutinnamn\n
+tvetydigt\n
+\t\n
+Rutiner måste ha namn som är unika\n
+inom modulen.\n
+Byt namn på rutinen.
+49:
+Namnfel\n
+Task %s: Namn på\n
+variabel tvetydigt\n
+\t\n
+Rutindata måste ha namn som är unika\n
+inom rutinen. Programdata måste ha\n
+namn som är unika inom modulen.\n
+Byt namn på datat.
+50:
+Typfel\n
+Task %s: Operandtyperna\n
+för operatorn '+' eller '-' är ej samma.\n
+\t\n
+De två operanderna måste vara.\n
+av samma typ.\n
+Kontrollera operandernas typer.
+51:
+Typfel\n
+Task %s: Operandtyperna\n
+för operatorn '=' eller '<>' är ej samma\n
+\t\n
+De två operanderna måste vara.\n
+av samma typ.\n
+Kontrollera operandernas typer.
+52:
+Instruktionsfel\n
+Task %s: RETURN med\n
+argument får enbart finnas i en funktion\n
+\t\n
+En RETURN-instruktion i en procedur eller\n
+avbrottsrutin får ej innehålla något\n
+returvärde. Ta bort detta argument.
+53:
+Instruktionsfel\n
+Task %s: RAISE med\n
+argument får ej finnas i en felhanterare\n
+\t\n
+En RAISE-instruktion i en felhanterare\n
+kan enbart användas för att skicka\n
+felet vidare och får därför ej innehålla\n
+ett felnummer. Ta bort detta argument.
+54:
+Typfel\n
+Task %s: Fel dimension\n
+på listaggregat\n
+\t\n
+Se till så att antalet uttryck i\n
+aggregatet stämmer överens med\n
+listans dimension.
+55:
+Typfel\n
+Task %s: Data för\n
+tilldelning måste vara av värdetyp\n
+\t\n
+Typen på det data som ska tilldelas ett\n
+värde måste vara av värde-typ eller\n
+semivärde-typ.
+56:
+Typfel\n
+Task %s: Typen för\n
+vänsteroperanden till operatorn '='\n
+eller '<>' är ej av värde-typ.\n
+\t\n
+Operatorerna '=' och '<>' får enbart\n
+användas ihop med uttryck av värde-\n
+eller semivärde- typ.\n
+Speciella funktioner för\n
+ickevärde-typer måste användas.
+57:
+Typfel\n
+Task %s: Typen för\n
+högeroperanden till operatorn '=' eller\n
+'<>' är ej av värde-typ.\n
+\t\n
+Operatorerna '=' och '<>' får enbart\n
+användas ihop med uttryck av värde-\n
+eller semivärde- typ.\n
+Speciella funktioner för\n
+ickevärde-typer måste användas.
+58:
+Typfel\n
+Task %s: TEST-uttrycket\n
+är ej av värde-typ.\n
+\t\n
+TEST-instruktionen får enbart\n
+användas ihop med uttryck av värde-\n
+eller semivärde- typ.\n
+Speciella funktioner för\n
+ickevärde-typer måste användas.
+59:
+Datadeklarationsfel\n
+Task %s: Platshållare ej\n
+tillåtet vid deklaration av en konstant.\n
+\t\n
+Gör deklarationen komplett.
+60:
+Datadeklarationsfel\n
+Task %s: Platshållare för\n
+listdimension otillåten vid deklaration\n
+av en konstant eller variabel.\n
+\t\n
+Gör deklarationen komplett.
+61:
+Rutindeklarationsfel\n
+Task %s: Platshållare för\n
+listdimension ej tillåtet vid\n
+rutindeklaration\n
+\t\n
+Gör parameterdeklarationen\n
+komplett.
+62:
+Namnfel\n
+Task %s: Platshållare för\n
+parameternamn ej tillåtet vid\n
+rutindeklaration\n
+\t\n
+Gör rutindeklarationen komplett.
+63:
+Datadeklarationsfel\n
+Task %s: Platshållare för\n
+initieringsvärde ej tillåtet vid\n
+deklaration av en bestående.\n
+\t\n
+Gör deklarationen komplett.
+64:
+Rutindeklarationsfel\n
+Task %s: Platshållare för\n
+parameter ej tillåtet vid\n
+rutindeklaration\n
+\t\n
+Gör parameterdeklarationen\n
+komplett.
+65:
+Referensfel\n
+Task %s: Platshållare för\n
+typ ej tillåtet vid data- eller\n
+rutindeklaration\n
+\t\n
+Gör deklarationen komplett.
+66:
+Datadeklarationsfel\n
+Task %s: Platshållare för\n
+initieringsvärde ej tillåtet vid\n
+deklaration av en variabel.\n
+\t\n
+Gör deklarationen komplett.
+67:
+Typfel\n
+Task %s: För få komponenter\n
+i ett post-aggregat\n
+\t\n
+Lägg till komponenter så att de överens-\n
+stämmer med datats deklaration.
+68:
+Typfel\n
+Task %s: För många komponenter\n
+i ett post-aggregat\n
+\t\n
+Tag bort komponenter så att de överens-\n
+stämmer med datats deklaration.
+69:
+Referensfel\n
+Task %s: Datareferens tvetydig\n
+\t\n
+Åtminstone ett annat objekt med samma\n
+namn  är synligt från denna\n
+programposition.\n
+Ändra något av namnen.
+70:
+Referensfel\n
+Task %s: Funktionsreferens\n
+tvetydig\n
+\t\n
+Åtminstone ett annat objekt med samma\n
+namn är synligt från denna\n
+programposition.\n
+Ändra något av namnen.
+71:
+Referensfel\n
+Task %s: Labelreferens\n
+tvetydig\n
+\t\n
+Åtminstone ett annat objekt med samma\n
+namn är synligt från denna\n
+programposition.\n
+Ändra något av namnen.
+72:
+Referensfel\n
+Task %s: Procedurreferens\n
+tvetydig\n
+\t\n
+Åtminstone ett annat objekt med samma\n
+namn är synligt från denna\n
+programposition.\n
+Ändra något av namnen.
+73:
+Referensfel\n
+Task %s: Referens till\n
+avbrottsrutin tvetydig\n
+\t\n
+Åtminstone ett annat objekt med samma\n
+namn är synligt från denna\n
+programposition.\n
+Ändra något av namnen.
+74:
+Referensfel\n
+Task %s: Ej referens till\n
+komplett data\n
+\t\n
+Angivet namn refererar till ett objekt\n
+som inte är data. Kontrollera om\n
+det önskade datat är gömt av något\n
+annat objekt med samma namn.
+75:
+Referensfel\n
+Task %s: Ej referens till\n
+funktion\n
+\t\n
+Angivet namn refererar till ett objekt\n
+som inte är funktion. Kontrollera om\n
+den önskade funktionen är gömt av\n
+något annat objekt med samma namn.
+76:
+Referensfel\n
+Task %s: Ej referens till\n
+label\n
+\t\n
+Angivet namn refererar till ett objekt\n
+som inte är label. Kontrollera om\n
+den önskade funktionen är gömt av\n
+något annat objekt med samma namn.
+77:
+Referensfel\n
+Task %s: Referens till\n
+annat än valbar parameter i villkorligt\n
+argumentvärde.\n
+\t\n
+Angivet namn refererar till ett objekt\n
+som inte är en valbar parameter.\n
+Ändra namn så att referens sker till\n
+en valbar parameter.
+78:
+Referensfel\n
+Task %s: Ej referens till\n
+valbar parameter.\n
+\t\n
+Angivet namn refererar till ett objekt\n
+som inte är en valbar parameter.\n
+Ändra namn så att referens sker till\n
+en valbar parameter.
+79:
+Referensfel\n
+Task %s: Ej referens till\n
+procedur.\n
+\t\n
+Angivet namn refererar till ett objekt\n
+som inte är en procedur.Kontrollera om\n
+den önskade proceduren är gömd av\n
+något annat objekt med samma namn.
+80:
+Referensfel\n
+Task %s: Ej referens till\n
+obligatorisk parameter.\n
+\t\n
+Angivet namn refererar till ett objekt\n
+som inte är en obligatorisk parameter.\n
+Ändra namn så att referens sker till\n
+en obligatorisk parameter.
+81:
+Referensfel\n
+Task %s: Ej referens till\n
+avbrottsrutin.\n
+\t\n
+Angivet namn refererar till ett objekt\n
+som inte är en avbrottsrutin.Kontrollera\n
+om den önskade avbrottsrutinen är\n
+gömd av något annat objekt med\n
+samma namn.
+82:
+Referensfel\n
+Task %s: Ej typnamn.\n
+\t\n
+Angivet namn refererar till ett objekt\n
+som inte är en typ.Kontrollera om\n
+den önskade typen är gömd av\n
+något annat objekt med samma namn.
+83:
+Typfel\n
+Task %s: Icke-värde typ\n
+\t\n
+Enbart variabler som saknar initierings-\n
+värde, och 'VAR'-mod parametrar kan vara\n
+ickevärde eller semi-värde typ.
+84:
+Referensfel\n
+Task %s: Referens till\n
+okänt data\n
+\t\n
+Inget data (eller annat objekt) med\n
+detta namn är synligt ifrån denna\n
+programposition.
+85:
+Referensfel\n
+Task %s: Referens till\n
+okänd funktion\n
+\t\n
+Ingen funktion (eller annat objekt)\n
+med detta namn är synligt ifrån\n
+denna programposition.
+86:
+Referensfel\n
+Task %s: Referens till\n
+okänd label\n
+\t\n
+Ingen label (eller annat objekt)\n
+med detta namn är synligt ifrån\n
+denna programposition.
+87:
+Referensfel\n
+Task %s: Referens till\n
+okänd valbar parameter\n
+\t\n
+Den anropade rutinen innehåller\n
+ingen valbar parameter (eller annat\n
+objekt) med detta namn.
+88:
+Referensfel\n
+Task %s: Referens till\n
+okänd procedur\n
+\t\n
+Ingen procedur (eller annat objekt)\n
+med detta namn är synligt ifrån\n
+denna programposition.
+89:
+Referensfel\n
+Task %s: Referens till\n
+okänd postkomponent\n
+\t\n
+Posttypen innehåller ingen komponent\n
+med detta namn.
+90:
+Referensfel\n
+Task %s: Referens till\n
+okänd obligatorisk parameter\n
+\t\n
+Den anropade rutinen innehåller\n
+ingen obligatorisk parameter (eller\n
+annat objekt) med detta namn.
+91:
+Referensfel\n
+Task %s: Referens till\n
+okänd avbrottsrutin\n
+\t\n
+Ingen avbrottsrutin (eller annat objekt)\n
+med detta namn är synligt ifrån\n
+denna programposition.
+92:
+Referensfel\n
+Task %s: Okänt typnamn\n
+\t\n
+Ingen datatyp (eller annat objekt)\n
+med detta namn är synligt ifrån\n
+denna programposition.
+93:
+Instruktionsfel\n
+Task %s: Tilldelningsdata\n
+är "läs enbart"\n
+\t\n
+Det data som ska tilldelas ett värde\n
+får inte vara en konstant eller\n
+"läs enbart" data.
+94:
+Datadeklarationsfel\n
+Task %s: Deklaration av\n
+bestående ej tillåtet i rutin.\n
+\t\n
+Bestående får enbart deklareras som\n
+programdata. Flytta ut deklarationen\n
+från rutinen.
+95:
+Instruktionsfel\n
+Task %s: RAISE utan\n
+argument är enbart tillåten i en\n
+felhanterare.\n
+\t\n
+Lägg till ett felnummer efter\n
+RAISE-instruktionen.
+96:
+Instruktionsfel\n
+Task %s: RETRY enbart\n
+tillåten i felhanterare.\n
+\t\n
+RETRY-instruktion får enbart finnas\n
+i en felhanterare. Tag bort den.
+97:
+Instruktionsfel\n
+Task %s: TRYNEXT\n
+enbart tillåten i felhanterare.\n
+\t\n
+TRYNEXT-instruktion får enbart finnas\n
+i en felhanterare. Tag bort den.
+98:
+Parameterfel\n
+Task %s: 'switch' parameter\n
+måste vara en IN-parameter\n
+\t\n
+Ändra överföringsmoden till IN eller\n
+ändra parameterns datatyp.
+99:
+Parameterfel\n
+Task %s: 'switch' parameter\n
+kan inte vara dimensionerad.\n
+\t\n
+Tag bort listdimensionen eller\n
+ändra parameterns datatyp.
+100:
+Parameterfel\n
+Task %s: 'switch' enbart\n
+tillåten för valbara parametrar\n
+\t\n
+Ändra till en obligatorisk parameter\n
+eller ändra parameterns datatyp.
+101:
+Typfel\n
+Task %s: Typen ej korrekt.\n
+\t\n
+Uttrycket är ej av den förväntade\n
+datatypen.
+102:
+Typfel\n
+Task %s: Typen för\n
+aggregat är ej korrekt.\n
+\t\n
+Aggregatet är ej av den förväntade\n
+datatypen.
+103:
+Typfel\n
+Task %s: Typen för\n
+bestående är ej korrekt.\n
+\t\n
+Det finns redan en bestående data\n
+med samma namn men med annan\n
+datatyp. Döp om eller ändra datatyp.
+104:
+Datadeklarationsfel\n
+Task %s: Kan inte bestämma\n
+listdimensioner (referenser i cirklar?)\n
+\t\n
+Kontrollera om någon refererad\n
+konstant är felaktig eller om programmet\n
+är för komplext. Försök skriva om\n
+deklarationerna.
+105:
+Datadeklarationsfel\n
+Task %s: Kan inte bestämma\n
+typ av konstant värde\n
+(referenser i cirklar?)\n
+\t\n
+Kontrollera om någon refererad\n
+konstant är felaktig eller om programmet\n
+är för komplext. Försök skriva om\n
+deklarationerna.
+106:
+Datadeklarationsfel\n
+Task %s: Kan inte beräkna\n
+uttrycket (referenser i cirklar?)\n
+\t\n
+Kontrollera om någon refererad\n
+konstant är felaktig eller om programmet\n
+är för komplext. Försök skriva om\n
+deklarationerna.
+107:
+Datadeklarationsfel\n
+Task %s: Kan inte bestämma\n
+typ av variabelvärde\n
+(referenser i cirklar?)\n
+\t\n
+Kontrollera om någon refererad\n
+konstant är felaktig eller om programmet\n
+är för komplext. Försök skriva om\n
+deklarationerna.
+108:
+Typfel\n
+Task %s: Okänd aggregattyp\n
+\t\n
+Ett aggregat får inte användas i denna\n
+position eftersom datattyp ej förväntas.\n
+Deklarera data med den önskade datatypen\n
+och aggregatvärde. Använd namnet\n
+på datat i stället för aggregatet.
+121:
+Argumentfel\n
+Task %s: Argument för\n
+'PERS' parameter är inte en komplett\n
+bestående eller är "läs bara"\n
+\t\n
+Se till så att argumentet är en\n
+komplett bestående eller komplett\n
+bestående parameterreferens.\n
+Den får inte vara "läs bara".
+122:
+Argumentfel\n
+Task %s: Argument för\n
+'VAR' parameter är inte en variabel-\n
+referens eller är "läs bara"\n
+\t\n
+Se till så att argumentet är en\n
+variabel eller parameterreferens\n
+Den får inte vara "läs bara".
+123:
+Instruktionsfel\n
+Task %s: Avbrottsnummer\n
+är ej en statisk variabel eller är\n
+"läs bara"\n
+\t\n
+Kontrollera att avbrottsnummret är en\n
+variabel eller referens till variabel-\n
+parameter. Variabeln måste vara statisk\n
+Variabeln får inte vara "läs bara".
+124:
+Värdefel\n
+Task %s: Helstalsvärde\n
+för stort\n
+\t\n
+Värdet för uttrycket måste vara ett\n
+heltal. Aktuellt värde är utanför\n
+heltalsområdet.
+125:
+Värdefel\n
+Task %s: Ej helstalsvärde\n
+\t\n
+Värdet för uttrycket måste vara ett\n
+exakt heltal. Aktuellt värde har en\n
+decimaldel.
+141:
+Argumentfel\n
+Task %s: Villkorligt\n
+argument finns flera gånger\n
+\t\n
+Det finns flera tillgängliga villkorliga\n
+argument till samma parameter.
+142:
+Värdefel\n
+Task %s: Division med noll\n
+\t\n
+Kan inte dividera med 0. Skriv om\n
+programmet så att ingen division sker\n
+då divisorn är 0.
+143:
+Gränsfel\n
+Task %s: Maximalt\n
+antal körda RETRY är uppnått.\n
+\t\n
+Felhanteringen som görs innan RETRY\n
+körs, är troligtvis inte tillräcklig.\n
+Kontrollera felhanteraren.
+144:
+Instruktionsfel\n
+Task %s: Försök att\n
+köra platshållare\n
+\t\n
+Tag bort platshållaren eller\n
+instruktionen där den ingår, eller gör\n
+instruktionen fullständig.
+145:
+Gränsfel\n
+Task %s: Program-\n
+körnings-stack full\n
+\t\n
+Programmet är för komplext att köra.\n
+Troligtvis innehåller programmet\n
+rekursiva rutinanrop.
+146:
+Körningsfel\n
+Task %s: Fatalt körningsfel.\n
+\t\n
+Ett fatalt Körningsfel har inträffat.\n
+Detta innebär att programkörningen\n
+omedelbart har avbrutits. Se föregående\n
+meddelande för faktisk orsak.
+147:
+Körningsfel\n
+Task %s: Funktion\n
+returnerar inget värde\n
+\t\n
+Slutet på en funktion har nåtts utan att\n
+en RETURN-instruktion har körts.\n
+Lägg till en RETURN-instruktion som\n
+anger funktionens returvärde.
+148:
+Värdefel\n
+Task %s: Ogiltigt\n
+orienterings värde\n
+\t\n
+Försök att använda ett giltigt\n
+orienterings (quartenions) värde.
+149:
+Värdefel\n
+Task %s: Ogiltigt fel-\n
+nummer i RAISE\n
+\t\n
+Endast felnummer mellan 1-99 är tillåtna\n
+i RAISE instruktionen.
+150:
+Körningsfel\n
+Task %s: Ogiltig returkod\n
+från en ReaL-rutin\n
+\t\n
+Detta orsakas alltid av ett internt fel\n
+i ReaL-rutinen.
+151:
+Gränsfel\n
+Task %s: Slut på\n
+tillgängliga avbrottsnummer\n
+\t\n
+Det finns endast ett begränsat antal\n
+avbrotts-nummer tillgängliga. Skriv om\n
+programmet så att färre avbrottsnummer\n
+används. Detta meddelande kan även fås\n
+som konsekvens av ett systemfel.
+152:
+Värdefel\n
+Task %s: Negativ operand\n
+är ej tillåten.\n
+\t\n
+'MOD' operatorn tillåter endast positiva\n
+operander. Ända i programmet så att\n
+operatorn ej appliceras på negativa\n
+värden.
+153:
+Typfel\n
+Task %s: Likformig list-\n
+dimension är ej kompatibel\n
+\t\n
+Listan är ej av förväntad storlek.\n
+List tilldelning kan bara utföras på\n
+listor med samma storlek.
+154:
+Referensfel\n
+Task %s: Valbar\n
+parameter saknas\n
+\t\n
+Värdet av en icke använd valbar\n
+parameter får inte refereras. Använd\n
+den fördefinierade funktionen 'Present'\n
+för att kontrollera om parameter\n
+definierats innan dess värde används.
+155:
+Värdefel\n
+Task %s: Listindex\n
+utanför gränserna\n
+\t\n
+Värdet för ett listindex ligger utanför\n
+storleken enligt listans deklaration.
+156:
+Gränsfel\n
+Task %s: Program-\n
+körnings stack full\n
+\t\n
+Programmet är för komplext att köra.\n
+Troligtvis innehåller programmet\n
+rekursiva rutinanrop.
+157:
+Värdefel\n
+Task %s: Sträng för lång\n
+\t\n
+Längden av sammanslagna strängar\n
+blir för lång. Skriv om programmet\n
+så att kortare strängar används.
+158:
+Körningsfel\n
+Task %s: Ohanterat\n
+icke-fatalt programkörningsfel %i\n
+\t\n
+Ett icke-fatalt fel har inträffat\n
+som inte hanterades av felhanteraren.\n
+Se tidigare meddelande för grundorsak.
+159:
+Körningsfel\n
+Task %s: Ohanterat\n
+RAISE-fel %i\n
+\t\n
+Ett fel har signalerats av en RAISE\n
+instruktion men har ej tagits omhand\n
+av någon felhanterare.
+160:
+Körningsfel\n
+Task %s: Ohanterat\n
+icke-fatalt körningsfel\n
+\t\n
+Icke-fatalt körningsfel har inträffat\n
+utan att tas om hand av en felhanterare.
+161:
+Körningsfel\n
+Task %s: Variabel och\n
+avbrotts-rutin är redan kopplade\n
+\t\n
+Det är otillåtet att koppla en variabel\n
+till en avbrotts-rutin flera gånger.
+162:
+Körningsfel\n
+Task %s: Programkörningen\n
+har avbrutits.\n
+\t\n
+Programkörningen har avbrutits på grund\n
+av ett fatalt fel.
+163:
+Körningsfel\n
+Task %s: Programkörningen\n
+kunde inte återstartas.\n
+\t\n
+Programkörningen kunde inte fortsätta\n
+efter 'power failure'.\n
+Starta om programmet.
+171:
+Värdefel\n
+Task %s: Listdimension\n
+utanför gränserna\n
+\t\n
+Värdet hos parametern 'DimNo' för\n
+funktionen 'Dim' måsta ligga inom\n
+området 1-3.
+172:
+Typfel\n
+Task %s: Data är ej en lista\n
+\t\n
+Parametern 'ArrPar' för funktionen\n
+'Dim' måste vara en lista.
+173:
+Värdefel\n
+Task %s: Okänt\n
+avbrottsnummer\n
+\t\n
+Kontrollera att den angivna avbrotts-\n
+variabeln har initierats med instruk-\n
+tionen CONNECT och att avbrottet har\n
+definierats med ISignalDI eller\n
+annan avbrottsfunktion.
+201:
+Namnfel\n
+Task %s: Namn på\n
+bestående tvetydigt\n
+\t\n
+Bestående måste ha namn som är unika\n
+inom hela programmet, inklusive\n
+fördefinierade bestående.\n
+Byt namn på datat.
+202:
+Gränsfel\n
+Task %s: Fel vid\n
+skapande av sdb post.\n
+\t\n
+Ett fel inträffade när en bestående\n
+skulle lagras i den bestående databasen.\n
+Databasen är troligen full.
+203:
+Typdefinitionsfel\n
+Task %s: Alias av alias\n
+ej tillåten\n
+\t\n
+Det är ej möjligt att definiera en alias\n
+typ lika som en annan alias-typ.\n
+Definiera i stället två alias-typer lika\n
+som samma atomära eller post-typ.
+204:
+Symbolfel\n
+Task %s: 'ANYTYPE#'-\n
+parameter kan inte dimensioneras\n
+\t\n
+Tag bort dimensionen.\n
+'ANYTYPE#' inkluderar list-typer.
+205:
+Symbolfel\n
+Task %s: 'ANYTYPE#'\n
+enbart tillåten för parameter\n
+\t\n
+Använd en annan typ.
+206:
+Parameterfel\n
+Task %s: 'alt' får ej sättas\n
+för första valbara parametern i en\n
+alternativ lista\n
+\t\n
+Se till så att enbart den andra och\n
+därefter följande i varje lista av\n
+ömsesidigt uteslutande valbara\n
+parametrar är markerade som\n
+alternativa.
+207:
+Parameterfel\n
+Task %s: 'REF'-mod\n
+parameter kan inte dimensioneras\n
+\t\n
+Ta bort list-dimensionen eller\n
+ändra parameter-mod.
+208:
+Parameterfel\n
+Task %s: switch-parameter\n
+kan inte dimensioneras\n
+\t\n
+Ta bort list-dimensionen eller\n
+ändra parameterns datatyp.
+209:
+Parameterfel\n
+Task %s: switch-parameter\n
+måste ha överföringsmod IN\n
+\t\n
+Ändra överföringsmoden till IN eller\n
+ändra parameterns datatyp.
+210:
+Symbolfel\n
+Task %s: 'switch' enbart\n
+tillåten för valbara parametrar\n
+\t\n
+Ändra till en obligatorisk parameter\n
+eller ändra datatyp.
+211:
+Typfel\n
+Task %s: Värdetyp klass\n
+måste vara en av PGM_SYMVALTYP_VAL,\n
+ _SEMIVAL, _NONVAL or _NONE\n
+\t\n
+Ändra värde-typ klass.
+212:
+Datadeklarationsfel\n
+Task %s: För många\n
+listdimensioner\n
+\t\n
+En lista får ha högst 3 dimensioner.
+213:
+Namnfel\n
+Task %s: Symbolnamn\n
+måste vara en RAPID- identifierare men\n
+inte reserverade ord\n
+\t\n
+Namn på installerade objekt,\n
+inklusive parametrar och komponenter,\n
+måste vara tillåtna RAPID-identifierare\n
+men inte reserverade ord.\n
+Ändra namn.
+214:
+Symbolfel\n
+Task %s: Missing C function\n
+\t\n
+A C-function that executes the ReaL\n
+function being defined, must be\n
+specified.
+215:
+Symbolfel\n
+Task %s: Värdeinitierings-\n
+funktion saknas\n
+\t\n
+En värdeinitieringsfunktion måste\n
+anges.
+216:
+Referensfel\n
+Task %s: Ej ett namn\n
+på en datatyp\n
+\t\n
+Angivet namn pekar ut ett objekt som\n
+inte är en datatyp.
+217:
+Referensfel\n
+Task %s: Ej  en värde-\n
+datatyp\n
+\t\n
+Enbart post-komponenter, alias typer,\n
+variabler och 'VAR'-mod parametrar får\n
+vara av icke-värde typ.
+218:
+Symbolfel\n
+Task %s: Missing value\n
+conversion function.\n
+\t\n
+A value conversion function must be\n
+specified for a semi-value type.
+219:
+Typfel\n
+Task %s: Private type can\n
+only be semi-value or non-value type\n
+\t\n
+Change the value type class.
+220:
+Typdefinitionsfel\n
+Task %s: Storleken på\n
+privata typer måste vara en\n
+multipel av 4\n
+\t\n
+Alla RAPID typer måste ha en storlek som\n
+är en multipel av fyra.\n
+Ändra typens storlek.
+221:
+Typfel\n
+Task %s: Bestående matchar\n
+ej definition.\n
+\t\n
+Det finns redan ett bestående data med\n
+samma namn men med annan datatyp.\n
+Döp om eller ändra datatyp.
+222:
+Referensfel\n
+Task %s: Okänt typnamn\n
+\t\n
+Ingen datatyp (eller annat objekt)\n
+med detta namn finns.
+223:
+Parameterfel\n
+Task %s: Okänd\n
+parameter-mod\n
+\t\n
+Angiven parameter-mod är inte någon av\n
+IN, 'VAR', 'PERS', 'INOUT' eller REF.\n
+Använd motsvarande PGM_SYMPARMOD_x.
+224:
+Symboldefinitionsfel\n
+Task %s: Ingen sådan\n
+typ av symboldefinition\n
+\t\n
+Symboldefinitionstypen anger inte någon\n
+av de tillåtna symboltyperna\n
+(PGM_SYMDEF_x).
+301:
+I/O fel\n
+Task %s: Åtkomst nekad\n
+\t\n
+.
+302:
+I/O fel\n
+Task %s: Filen eller\n
+katalogen finns ej\n
+\t\n
+.
+303:
+I/O fel\n
+Task %s: Enheten full.\n
+\t\n
+.
+304:
+I/O fel\n
+Task %s: I/O fel %i\n
+.\n
+\t\n
+
+501:
+Timeout\n
+%s\n
+%s\n
+\t\n
+
+502:
+Digital input break\n
+%s\n
+%s\n
+\t\n
+
+503:
+Referensfel\n
+Enhetsbeskrivare är\n
+%s\n
+\t\n
+
+504:
+parameterfel\n
+%s\n
+\t\n
+%s
+505:
+Fil åtkomstfel\n
+%s\n
+\t\n
+
+506:
+System åtkomstfel\n
+%s\n
+\t\n
+
+507:
+Gränsfel\n
+%s\n
+\t\n
+
+508:
+Fel orienteringsvärde i\n
+%s\n
+\t\n
+
+509:
+Sökvarning\n
+%s\n
+Innan nästa sökning utförs,\n
+kontrollera att arbetspunkten\n
+befinner sig i startpunkten för\n
+nästa sökning.\n
+\t\n
+Rörelser som kan orsaka skador kan\n
+inträffa om ingen repositionering uförs\n
+före återstart av cirkulär sökning.
+510:
+Säkerhetsvarning\n
+Rörelseinstruktionen kan inte\n
+återstartas på grund av säkerhets-\n
+problem. Försök att flytta PP.\n
+\t\n
+
+511:
+Parameterfel\n
+Parametern %s i %s\n
+är angiven med negativt värde\n
+\t\n
+Parametern måste vara positiv.
+512:
+Värde saknat\n
+Någon aktiv extern axel har\n
+felaktigt eller inget värde.\n
+Ändra positionen.\n
+\t\n
+
+513:
+Mek.enhet fel\n
+Ej möjligt att aktivera eller\n
+deaktivera mekanisk enhet.\n
+\t\n
+
+514:
+Körningsfel\n
+För långt från banan för att utföra\n
+StartMove av en avbruten rörelse.\n
+\t\n
+Flytta roboten nära den avbrutna\n
+positionen i programmet.
+515:
+Typfel\n
+Task %s: Argument har\n
+ogiltig datatyp för parameter %s\n
+\t\n
+
+516:
+Värdefel\n
+Task %s: Argument har\n
+ogiltigt värde för parameter %s\n
+\t\n
+
+517:
+Sökningsfel\n
+%s\n
+Ingen eller fler än 1 sökningsträff\n
+under stegvis körning framåt. Sök-\n
+instruktionen är klar, nästa instruktion\n
+kan utföras.\n
+\t\n
+OBS! Ingen position har returnerats\n
+från sök instruktionen.
+600:
+Argumentfel\n
+Inget \WObj angivet\n
+för rörelse med stationär TCP.\n
+\t\n
+Lägg till argumentet \WObj\n
+med aktuellt arbetsobjekt.\n
+Om ej stationärt verktyg används,\n
+ändra argumentet Tool till\n
+"roboten håller verktyget".
+601:
+Argumentfel\n
+Odefinierat om roboten håller\n
+verktyg eller arbetsobjekt.\n
+\t\n
+Kontrollera om komponenten robhold\n
+ej överensstämmer mellan argumentet\n
+Tool och argumentet \WObj.
+602:
+Argumentfel\n
+Argument %s har\n
+åtminstone en datakomponent\n
+med negativt värde.\n
+\t\n
+Sätt alla datakomponenter\n
+i argumentet %s\n
+till positiva värden.
+603:
+Argumentfel\n
+Argument %s har\n
+ej tillåtna negativa värden.\n
+\t\n
+Sätt argument %s positivt.
+604:
+Argumentfel\n
+Argumentet Tool har odefinierad\n
+last på verktyget.\n
+\t\n
+Definiera aktuell last på verktyget.
+605:
+Argumentfel\n
+Argument Tool har negativ\n
+last på verktyget.\n
+\t\n
+Definiera aktuell last på verktyget.
+606:
+Argumentfel\n
+Argumentet Tool har åtminstone\n
+ett tröghetsmoment med\n
+negativt värde.\n
+\t\n
+Definiera alla tröghetsmoment\n
+(ix, iy och iz) till aktuella\n
+positiva värden.
+607:
+Körningsfel\n
+Otillåtet att ändra programkörningssätt\n
+från framåt eller bakåt eller tvärtom\n
+vid körning av en cirkulär rörelse.\n
+\t\n
+Om möjligt, välj tillbaka ursprungligt\n
+programkörningssätt och tryck sedan på\n
+Start igen för att fortsätta med cirkel-\n
+rörelsen. Om ej möjligt, flytta robot\n
+och programpekare.
+608:
+Argumentfel\n
+Orientationsfel\n
+in %s.\n
+\t\n
+Orienteringen måste vara normaliserad\n
+dvs summan av kvadraten på komponenterna\n
+måste vara 1.
+609:
+Argumentfel\n
+Argumentet \WObj anger en mekanisk enhet\n
+med för långt namn.\n
+\t\n
+Använd max. 16 tecken för att ange\n
+namnet på en mekanisk enhet.
+610:
+Argumentfel\n
+Argument \WObj anger en mekanisk enhet\n
+som ej är aktiverad eller är okänd\n
+för roboten.\n
+\t\n
+Den mekaniska enhetens namn i\n
+\WObj måste tidigare vare definierad\n
+i systemparametrarna och måste\n
+dessutom vara aktiverad.
+611:
+Körningsfel\n
+Ej tillåtet att stega bakåt\n
+i aktuell instruktion.\n
+\t\n
+Ej tillåtet att stega bakåt i en\n
+cirkulär rörelse om slutpunkten är\n
+definierad med annat verktyg och/eller\n
+arbetsobjekt.
+612:
+Argumentfel\n
+Inget argument programmerat\n
+för namnet på utsignalen.\n
+\t\n
+Möjligt att sätta en positionsfix IO\n
+under robotens rörelse.
+613:
+Argumentfel\n
+Valbart argument %s\n
+kan enbart kombineras med\n
+utsignal argument %s.\n
+\t\n
+
+614:
+Argumentfel\n
+Argument %s\n
+är ej  0 eller 1.\n
+\t\n
+Digital utsignal kan enbart\n
+sättas till 0 eller 1.
+615:
+Argumentfel\n
+Argument %s\n
+är ej ett heltal.\n
+\t\n
+Digital grupp av utsignaler\n
+kan enbart ha ett heltalsvärde.
+616:
+Argumentfel\n
+Argument %s\n
+är utanför tillåtna värden.\n
+\t\n
+Använd grupp an digitala signaler\n
+kan enbart sättas mellan 0 och %s\n
+enligt konfigurationen i\n
+systemparametrarna.
+617:
+Argumentfel\n
+Argument %s\n
+är utanför tillåtna värden.\n
+\t\n
+Använd analog utsignal kan\n
+enbart sättas mellan %s och %s\n
+enligt konfigurationen i\n
+systemparametrarna.
+618:
+Argumentfel\n
+Argument %s\n
+innehåller ett felaktigt avbrottsnummer.\n
+\t\n
+Avbrottsnumret är ej tillåtet.\n
+Det måste först knytas till en\n
+avbrottsrutin med hjälp av\n
+instruktionen CONNECT.
+619:
+Argumentfel\n
+Argument %s\n
+innehåller ett avbrottsnummer som\n
+redan används.\n
+\t\n
+Innan avbrottsvariabeln används\n
+igen måste den tidigare avbrottet\n
+raderas med instruktionen IDelete.
+622:
+Argumentfel\n
+Värdet för argumentet Time i ITimer\n
+är för lågt för cykliska avbrott.\n
+\t\n
+
+623:
+Argumentfel\n
+Värdet för argumentet Time i ITimer\n
+är för lågt för enstaka avbrott.\n
+\t\n
+
+631:
+Instruktionsfel\n
+För många Move-instruktioner\n
+med argumentet \Conc.\n
+\t\n
+Ändra programmet så att max\n
+5 Move \Conc ligger efter varandra.
+632:
+Instruktionsfel\n
+Inga Move-instruktioner med\n
+argumentet \Conc får finnas\n
+mellan StorePath och Restopath.\n
+\t\n
+Tag bort \Conc i dess instruktioner.
+633:
+Referensfel\n
+Trigg-parameter nr %s refererar\n
+till ett odefinierat triggdata.\n
+\t\n
+Definiera triggdata med hjälp av\n
+TriggIO eller TriggInt.
+634:
+Referensfel\n
+Signalreferens i parameter %s\n
+innehåller en okänd signal.\n
+\t\n
+Alla signaler måste definieras i\n
+systemparametrarna. De får ej\n
+definieras i programmet.
+635:
+Referensfel\n
+Argument-referens i parameter %s\n
+är ej en bestående variabel.\n
+\t\n
+kan inte använda aggregatkomponent\n
+eller listelement i argument %s.\n
+Enbart helt bestående variabler får\n
+användas föt Tool, WObj eller Load\n
+i en rörelse-instruktion.
+636:
+Sensorfel\n
+Ingen avläsning från sensorn.\n
+\t\n
+Begärda data är ej tillgänglig.
+637:
+Sensorfel\n
+Inte klar än.\n
+\t\n
+Begärd funktion är inte klar än.
+638:
+Sensorfel\n
+Allmänt fel.\n
+\t\n
+Ett allmänt fel har inträffat som inte\n
+beror på den begärda funktionen.\n
+Läs i "Error Log" om funktionen finns.
+639:
+Sensorfel\n
+Sensorn är upptagen, försök senare.\n
+\t\n
+Sensorn är upptagen med en annan\n
+funktion.
+640:
+Sensorfel\n
+Okänt kommando.\n
+\t\n
+Den begärda funktionen är okänd.
+641:
+Sensorfel\n
+Ogiltig variabel eller blocknummer.\n
+\t\n
+Den begärda variabeln eller blocket är\n
+inte definierat i sensorn.
+642:
+Sensorfel\n
+Externt larm.\n
+\t\n
+Larm från en extern utrustning.
+643:
+Sensorfel\n
+Kamera larm.\n
+Något fel har upptäckts i kameran.\n
+Exekvera CAMCHECK för att se om\n
+kameran är OK.\n
+\t\n
+
+644:
+Sensorfel\n
+Temperatur larm.\n
+\t\n
+Kameran är överhettad och behöver\n
+mer kyl vatten och/eller luft.
+645:
+Sensorfel\n
+Värde för stort.\n
+\t\n
+Värdet på datat som sändes till\n
+sensorn är för stort.
+646:
+Sensorfel.\n
+Kamera-kontroll misslyckades.\n
+\t\n
+CAMCHECK funktionen misslyckades.\n
+Kameran är trasig och måste repareras.
+647:
+Sensorfel.\n
+Kommunikations timeout.\n
+\t\n
+Öka 'timeout' tiden och kontrollera\n
+sensorns anslutningar.
+648:
+Sökningsfel.\n
+Kan ej utföra StorePath samtidigt med\n
+sökning på grundläggande nivån.\n
+\t\n
+Avbrottsrutiner som innehåller robot-\n
+rörelser måste vara deaktiverad när\n
+sökning pågår.\n
+E.g. ISleep - SearchL - IWatch
+649:
+Path limit error\n
+%s already done.\n
+\t\n
+Instruction %s must first be\n
+executed, before a new %s can\n
+be done.
+700:
+Syntax fel\n
+Task %s: vägrar att\n
+ladda ett program på grund syntaxfel:\n
+%s\n
+\t\n
+
+701:
+Programminne fullt\n
+Task %s: har endast\n
+%i tecken lediga i sitt\n
+användarutrymme.\n
+\t\n
+Tag bort någon modul och försök igen.

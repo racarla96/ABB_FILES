@@ -1,0 +1,27 @@
+72::
+100:
+Parametern %.16s\n
+överänsstämmer ej med\n
+någon laddad textfil.
+101:
+Kontrollera att textfilen är\n
+(korrekt) installerad.
+102:
+Det finns inget giltigt dataobjekt för\n
+inparametern %s till\n
+instruktionen %s.
+103:
+Kontrollera om det är rätt dataobjekt.
+104:
+SKAL-RAPIDs användar-felnummer\n
+%.16s måste vara deklarerad\n
+globalt.
+105:
+Kontrollera errnum-deklarationen.
+106:
+Bokning av det nya felnummret\n
+%.16s misslyckades.\n
+Initvärdet måste vara -1 eller det gamla
+107:
+Kontrollera initvärdet för den nya\n
+errnum-variabeln.

@@ -1,0 +1,127 @@
+80::
+0:
+Communication
+1:
+Liaison serie
+2:
+Nom
+3:
+Vitesse (bauds)
+4:
+Parite
+5:
+Nbre de bits
+6:
+Nbre de stop bits
+7:
+Protocole
+8:
+Adresse Locale
+9:
+Adresse distant
+10:
+7
+11:
+8
+12:
+1
+13:
+2
+14:
+SLIP
+15:
+XONXOFF
+16:
+SANS
+17:
+300
+18:
+600
+19:
+1200
+20:
+2400
+21:
+4800
+22:
+9600
+23:
+19200
+24:
+38400
+25:
+Sans
+26:
+impaire
+27:
+paire
+28:
+ignore
+29:
+Nom      Canal        Vitesse
+30:
+Canal
+31:
+Canaux Physiques
+32:
+Protocoles Transmission
+33:
+Protocoles Application
+34:
+Type
+35:
+Canal Phys.
+36:
+PortNo
+37:
+Nom         Type        Canal
+38:
+Nom         Type        CanalPhys
+39:
+Nom         Type        Prot Trans.
+40:
+Prot Trans.
+41:
+Envoi mess demarrage
+42:
+VRAI
+43:
+FAUX
+44:
+on
+45:
+off
+46:
+RTS/CTS Control
+47:
+Adresse Serveur
+48:
+Tout monter
+49:
+Securise
+50:
+Chemin Local
+51:
+Chemin Serveur
+52:
+ID Utilisateur
+53:
+ID Groupe
+54:
+Oui
+55:
+Non
+56:
+Montrer sur PMA
+57:
+Passerelle
+58:
+Masq ss-reseau
+59:
+Duplex
+60:
+Full
+61:
+Half
+62:
+Autorise SUBSCW

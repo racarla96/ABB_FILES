@@ -1,0 +1,77 @@
+ne parameter.
+ine parameter.
+15::
+1:
+Objekt ist in einem\n
+-READONLY- Modul.\n
+Objekt nicht zu verändern.
+2:
+Objekt ist in einem\n
+-VIEWONLY- Modul.\n
+Objekt nicht zu verändern.
+3:
+Name unzulässig! Namen-\n
+anfang mit Buchstabe,\n
+reserv. Worte unzulässig.
+4:
+Wechsel von Richtung der\n
+Abarbeitung in komplexer\n
+Instruktion nicht zulässig.
+5:
+Wechsel von Richtung der\n
+Abarbeitung in dieser\n
+Routine unzulässig.
+6:
+RAPID Syntaxfehler\n
+Fehler im Programm.
+7:
+Abarbeitung Rückwärts nicht\n
+über erste Instruktion in\n
+Block oder Routine möglich.
+8:
+PZ kann nicht auf gewählte\n
+Position gesetzt werden.\n
+Andere Position versuchen.
+9:
+Objekt ist in einem\n
+-NOVIEW- Modul und\n
+ist nicht änder-/speichbar.
+10:
+Routine ist in einem\n
+-NOVIEW- Modul. Routinen-\n
+inhalt ist nicht anzeigbar.
+11:
+Lokaler Datentyp nicht in\n
+gewähltem Modul definiert.\n
+Modul oder Datentyp ändern.
+12:
+Speichernde Daten dürfen\n
+nicht lokal deklar. werden.\n
+Typ oder Bereich ändern.
+13:
+Beim Erzeugen der Ansicht\n
+wurden zu lange Instr.\n
+gekürzt.
+14:
+Rückgängig nicht möglich.\n
+Inhalt von -Rückgängig-\n
+ist verloren gegangen.
+15:
+Datenfeld zu groß.\n
+Dimension reduzieren.
+16:
+Inhalt Datenfeld nicht anzeig-\n
+bar. Die Dimension Offline\n
+reduzieren.
+17:
+Daten vom Datentyp -switch-\n
+nicht erzeugbar. Nur als\n
+Routinenparam. verwendbar.
+18:
+To long value for pendant.\n
+Please view and edit data\n
+of this datatype offline.
+19:
+To many components for\n
+pendant. Please view and\n
+edit this data offline.

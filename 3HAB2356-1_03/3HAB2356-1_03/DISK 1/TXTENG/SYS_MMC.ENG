@@ -1,0 +1,123 @@
+30::
+0:
+Controller
+1:
+Safety
+2:
+Function
+3:
+Active
+4:
+TRUE
+5:
+FALSE
+6:
+Function    Active
+7:
+HoldToRun
+8:
+POWER_ON
+9:
+START
+10:
+STOP
+11:
+QSTOP
+12:
+RESTART
+13:
+RESET
+14:
+Event Routines
+15:
+Event       Routine     Task
+16:
+Event
+17:
+Routine
+18:
+Tasks
+19:
+Task
+20:
+Prog
+21:
+Task in foreground
+22:
+Type
+23:
+Main entry
+24:
+NORMAL
+25:
+STATIC
+26:
+SEMISTATIC
+27:
+Task        Prog        Type 
+28:
+Task
+29:
+Task modules
+30:
+File
+31:
+Task        File
+32:
+Regain distances
+33:
+Mode
+34:
+Tcp_dist
+35:
+Tcp_rot
+36:
+Ext_dist
+37:
+Ext_rot
+38:
+Mode        Tcp-dist    Tcp-rot 
+39:
+MAN
+40:
+AUTO
+41:
+BindRef
+42:
+StackSize [%]
+43:
++
+44:
+-
+45:
+Storage
+46:
+Loaded
+47:
+Build in
+48:
+System misc
+49:
+Function
+50:
+Value
+51:
+Function    Value
+52:
+MemTask0[%]
+53:
+SimMenu
+54:
+No more functions
+55:
+AveragePers
+56:
+TextResource
+57:
+Size [bytes]
+58:
+Unspec.
+59:
+YES
+60:
+NO

@@ -1,0 +1,689 @@
+27::
+0:
+E/A & Kommunikation
+1000:
+Bus Name ungültig\n
+Beschreibung\Ursache: \n
+- Treiber %s: hat ungültigen -Bus- Namen.\n
+\t\n
+Kontrolle: \n
+1. -Bus- Name für den Treiber ändern.
+1001:
+Identische Adressen\n
+Beschreibung\Ursache: \n
+- Gleiche Adresse für %s und %s. \n
+\t\n
+Kontrolle: \n
+1. Adresse kontrollieren. \n
+2. Bus kontrollieren.
+1002:
+Ungültiger Treiber \n
+Beschreibung\Ursache: \n
+- Einheit %s: hat nicht spez. Treiber.\n
+\t\n
+Kontrolle: \n
+1.Treiber kontrollieren und gegen den\n
+   für die Einheit spez. austauschen.
+1003:
+Ungültige Einheit\n
+Beschreibung\Ursache: \n
+- Die für das Signal spez. Einheit %s  \n
+  ist nicht in der Auswahl Liste der\n
+  Einheiten spezifiziert.\n
+\t\n
+Kontrolle: \n
+1. Name der Einheit ändern. \n
+2. Neue Einheit zur Auswahl Liste\n
+    hinzufügen.
+1004:
+Ungültige Signallänge\n
+Beschreibung\Ursache: \n
+- Die Länge des dig. Signals %s \n
+  muß 1 sein.\n
+\t\n
+Kontrolle: \n
+1. Länge des Signals auf 1 ändern.
+1005:
+Ungültige Filterzeit\n
+Beschreibung\Ursache: \n
+- Signal %s: Die Zeit für Filter Passiv\n
+  sollte 0 oder %d - %d ms sein.\n
+\t\n
+Kontrolle: \n
+1. Filterzeit ändern.
+1006:
+Ungültige Filterzeit\n
+Beschreibung\Ursache: \n
+- Signal %s: Die Zeit für Filter Aktiv \n
+  sollte 0 oder %d - %d ms sein.\n
+\t\n
+Kontrolle: \n
+1. Filterzeit ändern.
+1007:
+Logischer Wert unzulässig \n
+Beschreibung\Ursache: \n
+- Signal %s: Logisch Max. ist\n
+  <  oder = Logisch Min. \n
+\t\n
+Kontrolle: \n
+1. Werte korrigieren.
+1008:
+Phys. Wert unzulässig \n
+Beschreibung\Ursache: \n
+- Signal %s: Phys. Max. ist\n
+  < oder = Phys. Min. \n
+\t\n
+Kontrolle: \n
+1. Werte korrigieren.
+1009:
+Typ ungültig\n
+Beschreibung\Ursache: \n
+- Signal %s: Der Typ des Signals\n
+  ist ungültig.\n
+\t\n
+Kontrolle: \n
+1. Typ ändern.
+1010:
+Signal außerhalb Bereich\n
+Beschreibung\Ursache: \n
+- Signal %s: Phys. Signalnummer \n
+  + Länge -1 ist > %d. \n
+\t\n
+Kontrolle: \n
+1. Phys. Signalnummer ändern. \n
+2. Länge ändern.
+1011:
+Treiber nicht unterstützt \n
+Beschreibung\Ursache: \n
+- Der Treiber %s wird nicht\n
+  unterstützt.\n
+\t\n
+Kontrolle: \n
+1. Namen des Treibers ändern.
+1012:
+Speicherüberlauf \n
+Beschreibung\Ursache: \n
+- Karte %s: Zu viele Karten für\n
+  den spezifizierten Treibertyp.\n
+\t\n
+Kontrolle: \n
+1. Anzahl der Karten für den Treiber\n
+   in der Treiberkonfiguration ändern.
+1013:
+Falscher Kartentyp \n
+Beschreibung\Ursache: \n
+- Falscher Kartentyp verbunden \n
+  mit Adresse %d.\n
+\t\n
+Kontrolle: \n
+1. Kartentyp und Adresse kontrollieren.
+1014:
+Karte fehlt \n
+Beschreibung\Ursache: \n
+- Keine Karte angeschlossen bei\n
+  angegebener Adresse %d. \n
+\t\n
+Kontrolle: \n
+1. Karte in Rack einstecken. \n
+2. Adresse der Karte ändern.
+1015:
+Überlauf dig. Eingänge\n
+Beschreibung\Ursache: \n
+- Anzahl der dig. Eingänge für\n
+  Karte %s ist größer als %d.\n
+\t\n
+Kontrolle: \n
+1. Anzahl der Eingänge reduzieren.
+1016:
+Überlauf dig. Ausgänge\n
+Beschreibung\Ursache: \n
+- Anzahl der dig. Ausgänge für\n
+  Karte %s ist größer\n
+  als %d.\n
+\t\n
+Kontrolle: \n
+1. Anzahl der Ausgänge reduzieren.
+1017:
+Kein aktives Signal \n
+Beschreibung\Ursache: \n
+- Aktives Signal für Querverbindung\n
+  fehlt.\n
+\t\n
+Kontrolle: \n
+1. Ein aktives Signal muß gegeben sein.
+1018:
+Überlauf aktives Signal \n
+Beschreibung\Ursache: \n
+-Anzahl der aktiven Signale für\n
+ Querverbindung zu groß. \n
+\t\n
+Kontrolle: \n
+1. Nur ein aktives Signal darf \n
+    vorhanden sein.
+1019:
+Fehlende Signaldefinition \n
+Beschreibung\Ursache: \n
+- Das Signal: %s für die \n
+  Querverbindung ist nicht definiert.\n
+\t\n
+Kontrolle: \n
+1. Signalname in der Signal Auswahl\n
+   definieren.
+1020:
+Kein Ziel_Signal \n
+Beschreibung\Ursache: \n
+- Fehlendes Ziel_Signal.\n
+\t\n
+Kontrolle: \n
+1. Mindestens ein Ziel_Signal\n
+    muß vorhanden sein.
+1021:
+Identische Signale in\n
+Querverbindung.\n
+Beschreibung\Ursache: \n
+- Das Signal: %s, erscheint als\n
+  -von- und -zu- .\n
+\t\n
+Kontrolle: \n
+1. Das gleiche Signal kann nicht für\n
+    -von- und -zu- verwendet werden.
+1022:
+Phys. max. Wert zu groß\n
+Beschreibung\Ursache: \n
+- Signal: %s \n
+  Der phys. max. Wert > %d.\n
+\t\n
+Kontrolle: \n
+1. Wert in Konfiguration ändern.
+1023:
+Phys. min. Wert zu klein\n
+Beschreibung\Ursache: \n
+- Signal: %s \n
+  Der phys. min. Wert < %d.\n
+\t\n
+Kontrolle: \n
+1. Wert in Konfiguration ändern.
+1024:
+Phys. Wert zu groß\n
+Beschreibung\Ursache: \n
+- Signal: %s\n 
+  Aktueller Wert = %d > max. Wert = %d.\n
+  Wert = max. Wert setzen.\n
+\t\n
+Kontrolle: \n
+1. Phys. max. Wert in der \n 
+   Konfiguration ändern.
+1025:
+Phys. Wert zu klein\n
+Beschreibung\Ursache: \n
+- Signal: %s\n 
+  Aktueller Wert = %d < min. Wert = %d.\n
+  Wert = min. Wert setzen.\n
+\t\n
+Kontrolle: \n
+1. Phys. min. Wert in der \n 
+   Konfiguration ändern.
+1026:
+Logischer Wert zu groß\n
+Beschreibung\Ursache: \n
+- Signal: %s\n 
+  Aktueller Wert = %d > max. Wert = %d.\n
+  Wert = max. Wert setzen.\n
+\t\n
+Kontrolle: \n
+1. Logischen max. Wert in der \n 
+   Konfiguration ändern.
+1027:
+Logischer Wert zu klein\n
+Beschreibung\Ursache: \n
+- Signal: %s\n 
+  Aktueller Wert = %d < min. Wert = %d.\n
+  Wert = min. Wert setzen.\n
+\t\n
+Kontrolle: \n
+1. Logischen min. Wert in der \n 
+   Konfiguration ändern.
+1028:
+Konfiguration unzulässig\n
+Beschreibung\Ursache: \n
+- Der PLC starting quarter und\n
+  rack size ist unzulässig für\n
+  die Karte %s.\n
+\t\n
+Kontrolle: \n
+1. Für starting quarter 0 muß\n
+   rack size kleiner als 4 sein.
+1029:
+Konfiguration unzulässig\n
+Beschreibung\Ursache: \n
+- Der PLC starting quarter und\n
+  rack size ist unzulässig für\n 
+  die Karte %s.\n
+\t\n
+Kontrolle: \n
+1. Für starting quarter 1 muß\n
+   rack size kleiner als 3 sein.
+1030:
+Konfiguration unzulässig\n
+Beschreibung\Ursache: \n
+- Der PLC starting quarter und\n 
+  rack size ist unzulässig für\n
+  die Karte %s.\n
+\t\n
+Kontrolle: \n
+1. Für starting quarter 2 muß\n
+   rack size kleiner als 2 sein.
+1031:
+Konfiguration unzulässig\n
+Beschreibung\Ursache: \n
+- Der PLC starting quarter und\n 
+  rack size ist unzulässig für\n
+  die Karte %s.\n
+\t\n
+Kontrolle: \n
+1. Für starting quarter 3 muß\n
+   rack size kleiner als 0 sein.
+1032:
+Kommunikations Fehler\n
+Beschreibung\Ursache: \n
+- PLC Karte hat keine Kommunikation\n
+  mit dem PLC an Karten-\n
+  addresse %d.\n
+\t\n
+Kontrolle: \n
+1. Kabel zum PLC ? \n
+2. PLC eingeschaltet ?
+1033:
+Dig. Eingang unzulässig\n
+Beschreibung\Ursache: \n
+- Die Anzahl der dig. Eingänge ist\n
+  unzulässig für Kartenaddresse %d\n
+  Max. Eingänge %d.\n
+\t\n
+Kontrolle: \n
+1. Konfiguration ändern.
+1034:
+Dig. Ausgang unzulässig\n
+Beschreibung\Ursache: \n
+- Die Anzahl der dig. Ausgänge ist\n
+  unzulässig für Kartenaddresse %d.\n
+  Max. Ausgänge %d.\n
+\t\n
+Kontrolle: \n
+1. Konfiguration ändern.
+1035:
+Starting quarter unzul.\n
+Beschreibung\Ursache: \n
+- Der starting quarter ist\n
+  unzulässig für Karte %s.\n
+\t\n
+Kontrolle: \n
+1. Der starting quarter muß innerhalb\n
+   der Werte 0 bis 3 sein.\n
+   Konfiguration ändern.
+1036:
+Name unzulässig\n
+Beschreibung\Ursache: \n
+- Die Anzahl der Zeichen\n
+  im Namen %s \n
+  ist größer als %d Zeichen\n
+  oder der Name fehlt.\n
+\t\n
+Kontrolle: \n
+1. Neuen Namen vergeben.
+1037:
+E/A Querverbindung Fehler\n
+Beschreibung\Ursache: \n
+- Das Signal %s erscheint bei\n
+  -von- und -bis-\n
+  in der gleichen Verbindung. \n
+\t\n
+Kontrolle: \n
+1. Konfiguration der Querverbindung\n
+   ändern.
+1038:
+E/A Querverbindungstiefe\n
+Beschreibung\Ursache: \n
+- Die Querverbindung ist zu tief.\n
+  Erstes Signal Name: %s\n
+\t\n
+Kontrolle: \n
+1. Querverbindungstiefe ändern.
+1039:
+Anzahl Kartentyp unzul.\n
+Beschreibung\Ursache: \n
+- Die max. Anzahl des Kartentyps\n
+  für Treiber %s ist unzulässig.\n
+\t\n
+Kontrolle: \n
+1. Anzahl des Kartentyps ist größer\n
+   als 0, aber nicht größer als die\n
+   Anzahl der Steckplätze.
+1040:
+PLC link address unzul.\n
+Beschreibung\Ursache: \n
+- Die PLC link address für Karte \n
+  %s ist unzulässig.\n
+\t\n
+Kontrolle: \n
+1. Die PLC link address muß \n
+   größer 0 und kleiner 64 sein.
+1041:
+Analog Ausgang Überlauf\n
+Beschreibung\Ursache: \n
+- Anzahl der analog Ausgänge für \n
+  Karte %s ist größer als %d.\n
+\t\n
+Kontrolle: \n
+1. Die Anzahl der analog Ausgänge\n
+   reduzieren.
+1042:
+Analog Eingang Überlauf\n
+Beschreibung\Ursache: \n
+- Anzahl der analog Eingänge für \n
+  Karte %s ist größer als %d.\n
+\t\n
+Kontrolle: \n
+1. Die Anzahl der analog Eingänge\n
+   reduzieren.
+1043:
+Signaltyp Fehler \n
+Beschreibung\Ursache: \n
+- Der spezifizierte Typ für Signal %s \n
+  ist unzulässig für die spez. Karte.\n
+\t\n
+Kontrolle: \n
+1. Anderen Typ wählen.\n
+2. Andere Karte wählen.
+1044:
+Phys. Signal Überlauf \n
+Beschreibung\Ursache: \n
+- Die Anzahl der Phys., oder Länge,\n
+  oder Phys. und Länge für Signal %s\n
+  ist größer als %d. \n
+\t\n
+Kontrolle: \n
+1. Phys. Signal Nummer ändern.\n
+2. Länge ändern.
+1045:
+Filter Spezif. Fehler \n
+Beschreibung\Ursache: \n
+- Signal %s : Für diesen Typ Signal \n
+  kann keine Filterzeit spez. werden. \n
+\t\n
+Kontrolle: \n
+1. Filterzeit auf 0 setzen oder\n
+   entfernen.
+1046:
+Skalierungs Fehler\n
+Beschreibung\Ursache: \n
+- Signal %s: Keine Skalierung möglich. \n
+\t\n
+Kontrolle: \n
+1. Skalierung entfernen.
+1049:
+Parameter Invert Fehler\n
+Beschreibung\Ursache: \n
+- Signal %s: Dieser Typ von Signal \n
+  kann nicht invertiert werden.\n
+\t\n
+Kontrolle: \n
+1. Nur digitale Signale können\n
+   invertiert werden.
+1050:
+Quersignal nicht digital\n
+Beschreibung\Ursache: \n
+- Signal %s: Kein digitales Signal.\n
+\t\n
+Kontrolle: \n
+1. Nur digitale Signale können\n
+   querverbunden werden.
+1051:
+Link address nicht oktal\n
+Beschreibung\Ursache: \n
+- Signal %s: Die PLC address ist nicht\n
+  in oktaler Form.\n
+\t\n
+Kontrolle: \n
+1. Neue Adresse in oktaler Form\n
+   eingeben.
+1052:
+Querver. Tabelle voll\n
+Beschreibung\Ursache: \n
+- Die Summe der -von- Signale\n
+  addiert mit der Summe der\n
+  -zu- Signale darf größer sein\n
+  als %d.\n
+\t\n
+Kontrolle: \n
+1. Anzahl der Signale reduzieren.
+1053:
+PLC Verbindung Fehler\n
+Beschreibung\Ursache: \n
+- Kein Zugriff auf PLC Karte, da die\n
+  Kommunikation mit PLC fehlerhaft.\n
+\t\n
+Kontrolle: \n
+1. Kabel zum PLC ? \n
+2. PLC eingeschaltet ?
+1054:
+Falscher Signaltyp\n
+Beschreibung\Ursache:\n
+- Signal %s:\n
+  Der Typ des Signals ist falsch.\n
+\t\n
+Kontrolle:\n
+1. Typ ändern.
+1055:
+Ungültiger Signalname\n
+Beschreibung\Ursache:\n
+- Symbol %s: ist nicht definiert.\n
+\t\n
+Kontrolle:\n
+1. Namen ändern.
+1057:
+DSQC319 Karte fehlt\n
+Beschreibung\Ursache: \n
+- Keine Karte vom Typ DSQC319\n
+  angeschlossen an Adresse %d.\n
+\t\n
+Kontrolle:\n
+1. Karte in Einschub stecken.\n
+2. Kartenadresse ändern.
+1058:
+Kein Kontakt CAN Knoten\n
+Beschreibung\Ursache:\n
+- Kein Kontakt mit CAN Knoten\n
+  angeschlossen an Adresse %d.\n
+\t\n
+Kontrolle:\n
+1. Knotenadresse an allen Modulen\n
+   am CAN Bus kontrollieren\n
+2. Knotenadresse ändern.
+1059:
+Konfig. CAN Knoten Fehler\n
+Beschreibung\Ursache:\n
+- Fehler bei der Konfiguration des\n
+  CAN Knoten an Knotenadresse %d.\n
+\t\n
+Kontrolle:\n
+1. Konfiguration des CAN Knoten an\n
+   der entsprechenden Knotenadresse\n
+   ändern.
+1060:
+DSQC319 Interner Fehler\n
+Beschreibung\Ursache:\n
+- Die Karte DSQC319\n
+  an der Adresse %d hat\n
+  einen internen Fehler.\n
+\t\n
+Kontrolle:\n
+1. Kontrolle der Funktion des CAN Bus.\n
+2. Kontrolle der DSQC319.
+1061:
+CAN Bus Fehler\n
+Beschreibung\Ursache:\n
+- Anormale Ereignisse von Fehlern\n
+  am CAN Bus an der DSQC319\n
+  an Adresse %d.\n
+\t\n
+Kontrolle:\n
+1. Verbindungskabel zum CAN Bus\n
+   kontrollieren.
+1062:
+DSQC319 Speicher voll\n
+Beschreibung\Ursache:\n
+- Empfangsspeicher ist voll für\n
+  die Karte an Adresse %d.\n
+  Meldungen können verloren sein.\n
+\t\n
+Kontrolle:\n
+1. Anzahl der Knoten am CAN Bus\n
+   reduzieren.
+1063:
+CAN Meldung verloren\n
+Beschreibung\Ursache:\n
+- CAN Meldung verloren für\n
+  die Karte an Adresse %d.\n
+\t\n
+Kontrolle:\n
+1. Anzahl der Knoten am CAN Bus\n
+   reduzieren.
+1064:
+IOC gener. Fehler\n
+Beschreibung\Ursache:\n
+- IOC Signalfehler an Karte DSQC260\n
+  an Adresse %d.\n
+\t\n
+Kontrolle:\n
+1. IOC kontrollieren.
+1065:
+DSQC260 gener. Fehler\n
+Beschreibung\Ursache:\n
+- Signalfehler an Karte DSQC260\n
+  an Adresse %d.\n
+\t\n
+Kontrolle:\n
+1. Karte DSQC260 kontrollieren.
+1066:
+InterBus-S inaktiv\n
+Beschreibung\Ursache:\n
+- InterBus-S inaktiv an Karte DSQC260\n
+  an Adresse %d.\n
+\t\n
+Kontrolle:\n
+1. InterBus-S Knoten kontrollieren.
+1067:
+InterBus-S nicht angeschl\n
+Beschreibung\Ursache:\n
+- InterBus-S an Karte DSQC260\n
+  an Adresse %d.\n
+  nicht angeschlossn oder IBS master\n
+  im Resetmodus.\n
+\t\n
+Kontrolle:\n
+1. InterBus-S Knoten kontrollieren.\n
+2. InterBus-S Master kontrollieren.
+1068:
+IOC OK\n
+Beschreibung\Ursache:\n
+- Vorheriger Fehler IOC, jetzt OK.\n
+  Fehlermeldung gesendet an Karte\n
+  DSQC260 an Adresse %d.\n
+\t\n
+Kontrolle:\n
+1. Keine Aktion notwendig.
+1069:
+DSQC260 OK\n
+Beschreibung\Ursache:\n
+- Vorheriger Fehler Karte DSQC260\n
+  an Adresse %d, jetzt OK\n
+\t\n
+Kontrolle:\n
+1. Keine Aktion notwendig.
+1070:
+InterBus-S aktiv\n
+Beschreibung\Ursache:\n
+- InterBus-S an Karte DSQC260\n
+  an Adresse %d vorher inaktiv,\n
+  jetzt OK.\n
+\t\n
+Kontrolle:\n
+1. Keine Aktion notwendig.
+1071:
+InterBus-S angeschlossen\n
+Beschreibung\Ursache:\n
+- InterBus-S an Karte DSQC260\n
+  an Adresse %d vorher nicht\n
+  angeschlossen oder IBS master\n
+  im Resetmodus, jetzt OK.\n
+\t\n
+Kontrolle:\n
+1. Keine Aktion notwendig.
+1072:
+Signal n. sicher gesetzt\n
+Beschreibung\Ursache:\n
+- Signal %s\n
+  hat das Store Attribut nicht auf\n
+  YES gesetzt.\n
+\t\n
+Kontrolle:\n
+1. Store Attribut setzen.
+1073:
+Contact established with Can node \n
+Description\Reason: \n
+- Contact established with Can node\n
+  connected at node address %d \n
+\t\n
+Check list: \n
+1. Do nothing.
+1074:
+Config. out of range\n
+Description\Reason: \n
+- The IBS starting quarter and rack \n
+  size is out of range for \n
+  board %s\n
+\t\n
+Check list: \n
+1. For starting quarter 1 rack size \n
+   must be less than 5
+1075:
+Access error from IO\n
+Description\Reason: \n
+- Cannot Read or Write from/to IO \n
+  board at address %d\n
+\t\n
+Check list: \n
+1. Check/change the IO module
+1076:
+Comm error from rtp1\n
+Description\Reason: \n
+- No response from the \n
+  serial line \n
+\t\n
+Check list: \n
+1. Check the device or connection
+1077:
+Comm error from rtp1\n
+Description\Reason: \n
+- Not possible to deliver \n
+  the received message \n
+\t\n
+Check list: \n
+1. Check the communication flow
+1078:
+Comm error from rtp1\n
+Description\Reason: \n
+- The response from the device \n
+  has a non valid frame sequence \n
+\t\n
+Check list: \n
+1. Check for noise on the serial \n
+   line
+1079:
+Pulsing group output\n
+Description\Reason: \n
+- Pulsing group output not allowed.\n
+\t\n
+Check list: \n
+1. ---

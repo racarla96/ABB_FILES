@@ -1,0 +1,256 @@
+Revision 1.11  1996/12/12  07:36:15  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+4::
+0:
+
+1:
+Ingangen/Uitgangen
+2:
+Inverteer
+3:
+Groepen
+4:
+Meest gebruikt
+5:
+
+6:
+
+7:
+Naam:
+8:
+Waarde:
+9:
+Type:
+10:
+
+11:
+Bus:
+12:
+Openen
+13:
+Sluiten
+14:
+Set
+15:
+Reset
+16:
+1
+17:
+0
+18:
+Bestand
+19:
+Afdrukken...
+20:
+Voorkeuren...
+21:
+Opmaak
+22:
+Alias Digitaal Uit
+23:
+Alias Analog
+24:
+Ga naar...
+25:
+Ga naar begin
+26:
+Ga naar einde
+27:
+AliasIO
+28:
+Inkijke
+29:
+Meest gebruikt
+30:
+Kaarten
+31:
+Digitaal in
+32:
+Digitaal uit
+33:
+Analoog
+34:
+Alias Digital In
+35:
+Groepen
+36:
+Alias alle signalen
+37:
+Alle signalen
+38:
+Alias Groepen
+39:
+Veiligheid
+40:
+
+41:
+
+42:
+
+43:
+Adres:
+44:
+Kaart:
+45:
+Signaal:
+46:
+
+47:
+Signaalattributen:
+48:
+Status
+49:
+Kaarten
+50:
+OK
+51:
+Sigstatus
+52:
+Annulee
+53:
+Result
+54:
+Incl
+55:
+Excl
+56:
+Ga naar regel!
+57:
+Voer regel in
+58:
+Wijzig
+59:
+Naam         Waarde       Type
+60:
+Busadr       Naam         Type
+61:
+Meest gebr.  Naam         Type
+62:
+Naam         Waarde       Signalen
+63:
+Geen waarde  Kaart         Signaal
+64:
+Groep:
+65:
+Signaal      Waarde       Naam
+66:
+Omhoog
+67:
+Omlaag
+68:
+Setup
+69:
+             Naam         Type
+70:
+Res. meest gebruikt
+71:
+Inst. meest gebruikt
+72:
+Uit
+73:
+Aan
+74:
+False
+75:
+True
+76:
+Passive
+77:
+Active
+78:
+Low
+79:
+High
+80:
+Kaarttype:
+81:
+
+82:
+
+83:
+Geen signalen
+84:
+Druk op Enter!
+85:
+Geen sign. naar eenheid
+86:
+Geef waarde voor IO-groep
+87:
+Limieten: Minimum
+88:
+        Maximum
+89:
+Data invoer voor In-/Uitgangen
+90:
+Voer waarde analoog signaal in
+91:
+Afdrukken In-/Uitgangen
+92:
+Print
+93:
+Print alleen  File :
+94:
+Toev. signaal info :
+95:
+Af te drukken data
+96:
+Print In-/Uitgangen n bestand:
+97:
+Afdruk bezig!
+98:
+Druk Enter om te annuleren
+99:
+ Druk op Enter
+100:
+Printer is bezig\n
+\n
+Probeer opnieuw als de printer\n
+klaar is
+101:
+Kan niet afdrukken omdat er\n
+te veel opdrachten wachten\n
+\n
+Probeer het later opnieuw
+102:
+Kan niet afdrukken omdat de\n
+printer niet gedefinieerd is\n
+in de systeem parameters
+103:
+Onvoldoende ruimte op de unit\n
+die voor printen gebruikt wordt\n
+(meestal %.9s). %d bytes\n
+nodig. Maak ruimte op de unit!
+104:
+ Bezig\n
+\n
+ Even geduld a.u.b.
+105:
+Kan best. niet creeren/schrijven\n
+\n
+
+106:
+ Bestand bestaat reeds\n
+
+107:
+Start signaal
+108:
+Geen signaal toegevoegd!\n
+De meest gebruikte lijst mag\n
+maar %d signalen bevatten.
+109:
+Waarde v groep niet gewijzigd!\n
+\n
+De geselecteerde groep bevat\n
+signalen die intern zijn.
+110:
+Special
+111:
+I/O Buses
+112:
+Bus
+113:
+Restart
+114:
+I/O buses

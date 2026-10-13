@@ -1,0 +1,256 @@
+Revision 1.11  1996/12/12  07:36:15  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+4::
+0:
+
+1:
+Input/Output
+2:
+Invert:
+3:
+Porte Digitali
+4:
+Piu' comuni
+5:
+
+6:
+
+7:
+Nome:
+8:
+Valore:
+9:
+Tipo:
+10:
+
+11:
+Bus:
+12:
+Apri
+13:
+Chiudi
+14:
+Set
+15:
+Reset
+16:
+1
+17:
+0
+18:
+File
+19:
+Stampa...
+20:
+Preferenze...
+21:
+Modif
+22:
+Alias Output Digitale
+23:
+Alias Segnale Analogico
+24:
+Vai a...
+25:
+Vai all'inizio
+26:
+Vai alla fine
+27:
+AliasIO
+28:
+Vista
+29:
+Piu' Comuni
+30:
+Schede I/O
+31:
+Input digitali
+32:
+Output digitali
+33:
+Analogici
+34:
+Alias Input Digitale
+35:
+Porte Digitali
+36:
+Alias Tutti segnali
+37:
+Tutti segnali
+38:
+Alias Porte
+39:
+Sicurezza
+40:
+
+41:
+
+42:
+
+43:
+Indirizzo:
+44:
+Scheda I/O:
+45:
+Segnale:
+46:
+
+47:
+Attributi segnale:
+48:
+Stato
+49:
+Schede I/O
+50:
+OK
+51:
+Stato segn
+52:
+Annulla
+53:
+Risult
+54:
+Incl
+55:
+Escl
+56:
+Vai alla linea!
+57:
+Inser Linea
+58:
+Modif
+59:
+Nome         Valore       Tipo
+60:
+Indir Bus    Nome         Tipo
+61:
+Piu' Comuni  Nome         Tipo
+62:
+Nome         Valore       Segnali
+63:
+Nes Valore   Scheda I/O     Segnale
+64:
+PortaDig:
+65:
+Segnale      Valore       Nome
+66:
+Su
+67:
+Sposta
+68:
+Impost
+69:
+             Nome         Tipo
+70:
+Risult. Piu' Comune
+71:
+Definiz. Piu' Comune
+72:
+Off
+73:
+On
+74:
+False
+75:
+True
+76:
+Passivo
+77:
+Attivo
+78:
+Basso
+79:
+Alto
+80:
+Tipo Scheda:
+81:
+
+82:
+
+83:
+Nessun segnale
+84:
+Invio per proseguire
+85:
+Nes. segn rifer. a scheda
+86:
+Ins. valore per Porta I/O
+87:
+Limiti: Minimo
+88:
+        Massimo
+89:
+Input dati per Input/Output
+90:
+Ins. valore per Segnale Analog.
+91:
+Stampa Input/Output
+92:
+Stampa
+93:
+Stampa solo su File:
+94:
+Agg. Info Segnale  :
+95:
+Dati da stampare
+96:
+Stampa Input/Output sul file:
+97:
+In stampa !
+98:
+   Per Cancel. premere Invio
+99:
+ Premere Invio per procedere
+100:
+La stampante e' impegnata\n
+\n
+Riprovare quando sara' pronta
+101:
+Impossibile stampare causa\n
+coda piena\n
+\n
+Riprovare piu' tardi
+102:
+Impossib. stampare causa errata\n
+definizione della porta PRINTER\n
+nei parametri di sistema
+103:
+Spazio non suffic. sull'unita'\n
+utiliz. quando in stampa (norm.\n
+%.9s). Occorrono %d bytes\n
+Prego spost./cancel. dei files
+104:
+  Impegnato\n
+\n
+  Prego Attendere
+105:
+ Imposs. creare/scriv. al file:\n
+\n
+
+106:
+ File gia' esistente\n
+
+107:
+Segnale Start
+108:
+Impossibile includere segnale!\n
+La lista Piu'Comuni puo'\n
+contenere solo %d segnali.
+109:
+Impossibile modificare il\n
+valore della PortaDigitale!\n
+\n
+La PortaDigitale selezionata\n
+contiene segnali interni
+110:
+Special
+111:
+I/O Buses
+112:
+Bus
+113:
+Restart
+114:
+I/O buses

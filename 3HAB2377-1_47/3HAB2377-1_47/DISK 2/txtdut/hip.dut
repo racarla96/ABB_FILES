@@ -1,0 +1,152 @@
+ on main routine.
+Revision 1.9  1996/12/12  07:37:49  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+9::
+0:
+Produktie
+10:
+Bestand
+11:
+Opmaak
+12:
+Inkijke
+20:
+Laad programma...
+21:
+Kon programma niet starten
+22:
+Voorkeuren...
+23:
+Ga naar...
+24:
+Starten vanaf het begin
+25:
+Info
+26:
+Positie
+27:
+Gebruikers Out-/Input
+50:
+Annulee
+51:
+OK
+80:
+Programma
+82:
+Data
+83:
+Voorkeuren
+84:
+Datawaarde
+85:
+Ga naar regel
+86:
+Selecteer te laden programma
+87:
+Productie info
+88:
+Productie positie
+100:
+Progr. naam
+101:
+Status
+102:
+Snelh:=
+103:
+%
+104:
+Prod. mode:=
+105:
+Routine
+106:
+
+107:
+Ga naar regel
+108:
+Uitvoeren RAPID-programma
+109:
+Huidige routine
+110:
+100%
+111:
+Geen RAPID-programma geladen
+112:
+*
+130:
+Andere richtings niet toegest.
+131:
+Start vanaf het begin vereist
+132:
+Geen statements in de routine
+133:
+Niet geladen
+134:
+Klaar
+135:
+Gestopt
+136:
+Uitv actief
+137:
+mm/s
+138:
+-%
+139:
+25%
+140:
+
+141:
++%
+142:
+Ja
+143:
+Nee
+144:
+     Wenst u verder te gaan ?
+145:
+Start vanaf het begin laat
+146:
+programmacontext verloren gaan.
+147:
+Waarschuwing
+148:
+>>
+149:
+Geladen
+150:
+Ongedef.
+151:
+Stop opgetr tijdens herstellen
+200:
+<  Druk op Enter  >
+201:
+Verbonden
+202:
+Kan programma niet laden
+203:
+Kan programma niet ontladen
+204:
+
+205:
+Kan programma niet laden.
+206:
+Type moet programma zijn.
+207:
+Wellicht een programmafout!
+208:
+Kan programma niet tonen.
+209:
+Kan RAPID-instr. niet tonen.
+210:
+\n
+Even geduld\n
+Programma wordt geladen..!
+211:
+Geheugen vol.
+212:
+Niet uitvoerb.
+213:
+Kan programma niet uitvoeren
+214:
+Main routine niet gevonden

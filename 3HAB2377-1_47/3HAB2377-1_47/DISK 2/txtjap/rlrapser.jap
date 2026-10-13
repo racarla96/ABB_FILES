@@ -1,0 +1,27 @@
+72::
+100:
+The parameter %.16s\n
+does not corresponding to any loaded\n
+text file.
+101:
+Check if the text file is\n
+(correct) installed.
+102:
+There is no valid data object for the\n
+inparameter %s of the\n
+instruction %s.
+103:
+Check if there is a right data object.
+104:
+The SHELL-RAPID user error number\n
+%.16s must be declared as a\n
+global one.
+105:
+Check the errnum declaration.
+106:
+Booking of the new error number\n
+%.16s failed. The init value\n
+must be -1 or the old no.
+107:
+Check the init value of the new errnum\n
+variable.

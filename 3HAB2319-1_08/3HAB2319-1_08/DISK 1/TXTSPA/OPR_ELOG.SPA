@@ -1,0 +1,257 @@
+21::
+0:
+Operacional
+2:
+Reset programa\n
+La tarea %!%!%s se ha\n
+llevado a su punto inicial.\n
+\t\n
+
+5:
+Programa parado\n
+La tarea %!%!%s ha\n
+parado. La razon es que\n
+%s\n
+\t\n
+
+500:
+ha ocurrido una parada interna o externa\n
+despues de la instruccion actual.
+501:
+la tarea ha alcanzado una instr, exit.
+502:
+la tarea esta lista.
+503:
+la tarea esta lista con este paso.
+504:
+la tarea ha alcanzado una instr, break.
+505:
+ha ocurrido una parada interna o externa.
+506:
+ha ocurrido un error.
+507:
+no puedo ejecutar atras pasado el\n
+inicio de la lista de instrucciones.
+508:
+no puedo ejecutar atras pasada esta\n
+instruccion.
+7:
+Programa arrancado\n
+La tarea %!%!%s ha\n
+iniciado la ejecucion.\n
+%s\n
+\t\n
+
+8:
+Programa rearrancado\n
+La tarea %!%!%s ha\n
+reiniciado la ejecucion.\n
+%s\n
+\t\n
+
+701:
+El originador es la ventana programa
+702:
+El originador es la ventana produccion
+703:
+El originador es desconocido
+704:
+El originador es un cliente externo
+9:
+Memoria trabajo llena\n
+No hay memoria disponible para\n
+instrucciones o datos RAPID.\n
+La tarea es %!%!%s\n
+\t\n
+Guardar el programa y\n
+y luego reiniciarlo.
+10:
+Motores en OFF\n
+\n
+\t\n
+
+11:
+Motores en ON\n
+\n
+\t\n
+
+12:
+Parada de seguridad\n
+La cadena RUN abierta por dispositivo\n
+de seguridad, excepto parada emergencia\n
+\t\n
+
+13:
+Parada emergencia activa\n
+La cadena RUN abierta por parada de\n
+emergencia. Necesita resetear emergencia\n
+Usar el boton mottors off\n
+\t\n
+
+14:
+Error sistema activo\n
+Error de sistema no recuperable.\n
+Se requiere reiniciar el sistema.\n
+\t\n
+
+15:
+Seleccionado modo manual\n
+\n
+\t\n
+
+16:
+Solicitado modo automat.\n
+\n
+\t\n
+
+17:
+Modo automat. confirmado\n
+\n
+\t\n
+
+18:
+Modo manual 100% solicitado\n
+\n
+\t\n
+
+19:
+Modo manual 100% confirmado\n
+\n
+\t\n
+
+20:
+Error ejecucion activado\n
+\n
+\t\n
+
+21:
+Reset error ejecucion\n
+\n
+\t\n
+
+22:
+Esperando Hold to run\n
+\n
+\t\n
+
+23:
+Exceso tiempo Hold to run\n
+\n
+\t\n
+
+30:
+Todos ejes conmutados\n
+\n
+\t\n
+
+31:
+Todos ejes calibrados\n
+\n
+\t\n
+
+32:
+Todos cont.rev. actualiz\n
+\n
+\t\n
+
+33:
+Todos ejes sincronizados\n
+\n
+\t\n
+
+34:
+Eje no conmutado\n
+\n
+\t\n
+
+35:
+Eje no calibrado\n
+\n
+\t\n
+
+36:
+Cnt.Rv. no actualizado\n
+\n
+\t\n
+
+37:
+Eje no sincronizado\n
+\n
+\t\n
+
+40:
+Programa cargado\n
+La tarea %!%!%s ha\n
+cargado un programa\n
+\t\n
+Espacio libre usuario %i bytes\n
+antes de la operacion y de\n
+%i bytes despues.
+41:
+Programa borrado\n
+La tarea %!%!%s ha\n
+borrado un programa\n
+\t\n
+
+43:
+Fallo de reinicio\n
+La tarea %!%!%s\n
+no puede reiniciar\n
+\t\n
+
+44:
+PP actualizado\n
+La tarea %!%!%s\n
+puede haber cambiado la pos. del PP.\n
+\t\n
+
+45:
+Sistema reiniciado\n
+\n
+\t\n
+
+46:
+Sistema reiniciado en modo\n
+frio\n
+\t\n
+
+47:
+Tarea en segundo plano %s\n
+rechaza arrancar\n
+%s\n
+\t\n
+
+4701:
+Tarea vacia
+4702:
+Estado erroneo
+4703:
+No puedo ver PC desde rutina main
+4704:
+No puedo fijar modo de ejecucion
+4705:
+La orden de arranque ha fallado
+48:
+Tarea en segundo plano ha parado\n
+La tarea %s ha parado sin razon\n
+%s\n
+\t\n
+
+49:
+Area protegida no ha finalizado\n
+Un fallo alim. ha ocurrido en\n
+medio de una zona protegida de\n
+la tarea %!%s\n
+%s\n
+\t\n
+
+4901:
+El sistema trata de recuperarse
+4902:
+Error pendiente borrado de la cola
+4903:
+Exit pendiente borrado de la cola
+4904:
+Puede provocar ciclo de programa adicional
+4905:
+La tarea se reiniciara desde la rutina principal

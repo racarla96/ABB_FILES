@@ -1,0 +1,47 @@
+73::
+0:
+Spotweld
+1:
+Spot weld system error\n
+Spot weld proc not idle\n
+\t\n
+Set the process state defined by SwInit\n
+to idle
+2:
+Spot weld system error\n
+Parameter %s\n
+\t\n
+
+3:
+SwStart Timeout negative\n
+\n
+\t\n
+
+4:
+SwInit Interrupt negative\n
+\n
+\t\n
+
+5:
+ProcId. The reason is either:\n
+-ProcId does not correspond to the\n
+ value given from SwInit\n
+-The spot weld process has been\n
+ cancelled\n
+\t\n
+
+6:
+Spot weld comm. error\n
+Reason: %s\n
+\t\n
+
+7:
+Response slower than poll rate\n
+\n
+\t\n
+
+8:
+No more BOSCH connection available\n
+\n
+\t\n
+

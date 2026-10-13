@@ -1,0 +1,269 @@
+
+
+8::
+0:
+Maintenance
+1:
+Archives
+2:
+
+3:
+
+4:
+
+5:
+Etalonnage
+6:
+Commutation
+7:
+Etalon.
+8:
+(Etalonner Manuellement...)
+9:
+Etalonner...
+10:
+M.a.j. Compteurs d'axes...
+11:
+(Voir Position Mesuree...)
+12:
+Re-ecriture archive!\n
+Les messages d'archive existants\n
+seront effaces.\n
+\n
+OK pour continuer?
+13:
+Unite             Etat
+14:
+   Axes       Etat
+15:
+
+16:
+Pour etalonner, choisissez les axes\n
+et tapez OK.
+17:
+Inclure
+18:
+Exclure
+19:
+Tous
+20:
+Synchronise
+21:
+Non synchronise
+22:
+Non Etalonne
+23:
+Compteurs axes non definis
+24:
+Etalonne
+25:
+Compteurs mis a jour
+26:
+L'etalonnage va etre mis a jour\n
+avec les valeurs saisies.\n
+L'operation ne peut pas etre annullee!\n
+\n
+OK pour continuer?
+27:
+L'etalonnage pour tous les axes\n
+selectionnes va changer.\n
+L'operation ne peut pas etre annullee!\n
+\n
+OK pour continuer?
+28:
+Les compteurs des axes selectionnes\n
+seront mis a jour.\n
+L'operation ne peut pas etre annullee!\n
+\n
+OK pour continuer?
+29:
+Pas d'axe selectionne.\n
+\n
+\n
+\n
+Tapez Retour pour continuer!
+30:
+Procedure etalonnage en cours!\n
+\n
+Pret dans quelques secondes...
+31:
+Commutation non definie
+32:
+Etat initial
+33:
+Commut.
+34:
+(Reglage Commutation Manuel...)
+35:
+Regler Commutation...
+36:
+Sauvegarde archive\n
+dans fichier...
+37:
+Pour regler les angles de commutation,\n
+choisissez les axes et tapez OK.
+38:
+Les angles de commutation des axes\n
+selectionnes vont etre mis a jour.\n
+L'operation ne peut pas etre annullee!\n
+\n
+OK pour continuer?
+39:
+Les angles de commutation des axes\n
+selectionnes vont etre changes.\n
+L'operation ne peut pas etre annullee!\n
+\n
+OK pour continuer?
+40:
+Commutation reglee
+41:
+Pas d'axe selectionne.\n
+\n
+\n
+\n
+Tapez Retour pour continuer!
+42:
+Reglage Commutation en cours!\n
+\n
+Pret dans quelques secondes...
+43:
+Le reglage de commutation\n
+d'une unite mecanique n'est\n
+pas realise! Selectionner\n
+Commutation dans menu Voir.\n
+Tapez Retour pour continuer!
+44:
+Date & Heure... 
+45:
+Date:
+46:
+Heure:
+47:
+<
+48:
+>
+50:
+Msg
+51:
+Nom                 #      Dernier
+52:
+Messages
+53:
+Effacer Archive
+54:
+Effacer toutes archives
+55:
+Special
+56:
+Archiv.
+57:
+Message                  Date
+58:
+Pas de message a montrer!
+59:
+M.a.j.
+60:
+M.a.j. archive sur Demande
+61:
+M.a.j. archive sur Evenement
+62:
+Tous les messages de l'archive %s\n
+seront effaces.\n
+\n
+OK pour continuer?
+63:
+Tous les messages de toutes\n
+les archives seront effaces.\n
+\n
+OK pour continuer?
+64:
+Sauver %s archives sous!
+65:
+ARCHIVES
+66:
+%s messages archives\n
+Date sauvegarde: %s
+67:
+Aller a ligne!
+68:
+Ligne:=
+69:
+Erreur:
+70:
+Redemarrage... 
+71:
+Commande de redemarrage!\n
+Voulez vous redemarrer\n
+le systeme ?.\n
+\n
+OK pour continuer?
+72:
+Etat
+73:
+Avertissement
+74:
+Sauver archives sous!
+75:
+Definition de referentiel
+76:
+Unite               Type
+77:
+Selectionnez l'unite de\n
+definition de referentiel.\n
+Les unites de possibles sont\n
+dans la liste suivante.
+78:
+Def...
+79:
+Robot IRB1400
+80:
+Robot IRB1400
+81:
+Robot IRB2400
+82:
+Robot IRB2400
+83:
+Robot IRB3400
+84:
+Robot IRB6400
+85:
+Robot IRBPAL
+86:
+Orbit 160B_1
+87:
+Orbit 160B_2
+88:
+Portique
+89:
+Suivi
+90:
+Convoyeur
+91:
+Outil de rotation
+92:
+Rotation libre
+93:
+Referentiel de base... 
+94:
+Sauvegarde archive impossible!\n
+L'unite n'a pas assez de place\n
+ou est protegee en ecriture.\n
+\n
+Tapez Retour pour continuer!
+95:
+Non utilise
+96:
+Definition Deux axes
+97:
+Choisissez l'unite ou effectuer\n
+une definition d'axe.\n
+Seules les unites valides deux\n
+axes sont dans la liste.
+98:
+Def...
+99:
+Definition Deux axes...
+100:
+(Def)
+101:
+Pas d'unite valide disponible.

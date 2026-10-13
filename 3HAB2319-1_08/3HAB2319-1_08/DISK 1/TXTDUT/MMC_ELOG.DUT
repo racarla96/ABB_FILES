@@ -1,0 +1,196 @@
+26::
+0:
+Operator
+1:
+%s ontbreekt\n
+Tool %s wordt niet\n
+gebruikt in het huidige programma.\n
+Omdat de tool werd verwijderd ofwel\n
+omdat de tool niet gedefinieerd is.\n
+\t\n
+Schakel over op een ander tool\n
+met behulp van het jogging-venster.
+2:
+%s ontbreekt\n
+Wobj %s wordt niet\n
+gebruikt in het huidige programma.\n
+Omdat het Wobj werd verwijderd ofwel\n
+omdat het Wobj niet gedefinieerd is.\n
+\t\n
+Schakel over op een ander workobject\n
+met behulp van het jogging-venster.
+3:
+Directory niet aangemaakt!\n
+De directory %s kan\n
+niet worden aangemaakt. Waarschijnlijk\n
+omdat de directory reeds bestaat of de\n
+disk beveiligd is tegen overschrijven.\n
+\t\n
+Controleer of de directory bestaat en\n
+of de disk een overschrijfbeveiliging\n
+heeft. Controleer tevens of er nog\n
+voldoende plaats op de disk is.
+4:
+Verwarring betr. het robotgereedschap!\n
+De gebruikte tool en het gebruikte\n
+werkobject kunnen niet allebei\n
+tegelijk door de robot worden\n
+vastgehouden of stationair zijn.\n
+\t\n
+Controleer het door de robot\n
+vastgehouden component van de\n
+gebruikte tool en het werkobject.
+5:
+%s ontbreekt!\n
+Het werkobject %s bevat\n
+een gecoordineerde mechanische eenheid\n
+die niet kan worden gevonden.\n
+\t\n
+Controleer het component van de\n
+mechanische eenheid en het werkobject.
+6:
+%s Gebruikersframe!\n
+Het werkobject %s bevat\n
+geen gebruikersframe gedefinieerd voor\n
+een gecoordineerde mechanische eenheid.\n
+\t\n
+Controleer het component van de\n
+mechanische eenheid en het werkobject.
+7:
+Joggen niet toegestaan!\n
+In deze modus is joggen niet\n
+toegestaan.\n
+\t\n
+Laat de joystick en de dodemansknop\n
+los en herhaal. Controleer eveneens\n
+de aktieve mechanische eenheid.
+8:
+Tool-massa niet gedefinieerd!\n
+Joggen is niet mogelijk indien de\n
+gebruikte tool een ongedefinieerde\n
+massa heeft.\n
+\t\n
+Voer de massa in, in de tool-data\n
+voor de gebruikte tool.
+9:
+Robot niet gesynchroniseerd!\n
+De robot of de externe as is niet\n
+gesynchroniseerd.\n
+\t\n
+Synchroniseer de robot of externe as.
+10:
+Orientatie fout!\n
+Orientatie in %s\n
+is niet genormaliseerd\n
+\t\n
+Controleer de waarde van de\n
+orientatie.
+11:
+Fouten in de parameters!\n
+Het laden van de parameters in\n
+%s\n
+kan niet volbracht worden.\n
+Zie, als reden\n
+%s\n
+\t\n
+Copieer het bestand\n
+%s\n
+naar een diskette en onderzoek de\n
+oorzaak met behulp van een gewone\n
+tekstverwerker!
+12:
+Geen parameters geladen!\n
+Er zijn geen parameters aanwezig in\n
+%s\n
+\t\n
+Controleer het bestand\n
+%s\n
+met behulp van een gewone\n
+tekstverwerker!
+13:
+Joggen niet toegestaan!\n
+Het joggen van een mechanische\n
+eenheid is niet mogelijk.\n
+Eenheid is niet geactiveerd.\n
+\t\n
+Activeer de mechanische eenheid.
+14:
+Disk is vol!\n
+Geen info opgeslagen in de Change\n
+Log betreffende de aangepaste\n
+parameter omdat er geen plaats op\n
+de disk is.\n
+\t\n
+Probeer bestanden te verwijderen of\n
+of herorganiseer de disk.
+15:
+PP kan niet geplaatst worden!\n
+PP kan niet in de routine %s\n
+geplaatst worden omdat deze parameters\n
+bevat\n
+\t\n
+Maak een routine die %s aanroept\n
+of verwijder de parameters.
+16:
+PP kan niet geplaatst worden!\n
+PP kan niet in de routine %s\n
+geplaatst worden omdat de routine\n
+zich in een NOSTEPIN module bevindt.\n
+\t\n
+Kopieer de routine naar een andere\n
+module of verander het module\n
+attribuut.
+17:
+PGM_TELLBACK code %d\n
+\t\n
+Geen verdere informatie beschikbaar.\n
+
+18:
+RAPID syntaxis fout!\n
+Het programma kan niet geladen worden\n
+vanwege een syntaxis fout(en).\n
+\t\n
+Een RAPID syntaxis controle programma\n
+voor de PC of QuickTeach kan gebruikt\n
+worden om de syntaxis fout(en) op te\n
+sporen. Het bestand PGMCPL1.LOG\n
+bevat informatie omtrent de fout.
+19:
+Data invoer fout!\n
+Het component '%s' in data\n
+type '%s' is niet juist.\n
+De limieten zijn:\n
+%s!\n
+\t\n
+Controleer de data en voer de juiste\n
+waarde in.
+20:
+PP kan niet geplaatst worden!\n
+PP kan niet in de routine '%s'\n
+geplaatst worden omdat deze als een\n
+trap routine gedefinieerd is.\n
+\t\n
+Verander de definitie voor de\n
+routine '%s'\n
+naar 'Procedure'.
+21:
+Cannot show items!\n
+The number of selected items exceeds the\n
+current memory limit specified for this\n
+configuration. The items can thus not\n
+be shown.\n
+\t\n
+Reduce the number of data or\n
+change the configuration to a memory\n
+board with more memory.
+22:
+Cannot show all items!\n
+Only %d variables (out of %d) will be\n
+listed.\n
+All variables cannot be shown because\n
+the current memory limit specified for\n
+this configuration will be exceeded.\n
+\t\n
+Reduce the number of data or\n
+change the configuration to a memory\n
+board with more memory.

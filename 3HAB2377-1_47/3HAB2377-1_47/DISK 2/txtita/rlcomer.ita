@@ -1,0 +1,52 @@
+55::
+46:
+Impossibile aprire
+47:
+CODICE CHIAMATA:
+48:
+Non aperto
+49:
+Non e' un file ascii
+50:
+Non e' un file binario
+51:
+Impossibile accedere al file
+52:
+Il parametro %s in
+53:
+non e' un array.
+54:
+Il buffer di uscita deve essere\n
+un array di num\n
+
+55:
+e' specificato come valore negativo.
+56:
+Il parametro deve essere positivo.
+57:
+Impossibile accedere al
+58:
+generatore eventi temporali.
+59:
+generatore segnali.
+60:
+Un timeout ha interrotto l'esecuzione di
+61:
+Un input digitale ha interrotto\n
+l'esecuzione di
+65:
+I dati ricevuti non sono\n
+di tipo numerico
+67:
+Stringa troppo lunga
+68:
+Troppe richieste di lettura in attesa
+76:
+L'elemento di buffer %i in
+77:
+non e' compreso tra 0-255.
+78:
+Tutti gli elementi nel buffer devono\n
+avere valori compresi tra 0-255
+80:
+e' fuori dall'array.

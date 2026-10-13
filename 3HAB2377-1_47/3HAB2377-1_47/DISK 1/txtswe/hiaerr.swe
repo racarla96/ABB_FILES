@@ -1,0 +1,78 @@
+ne parameter.
+ine parameter.
+15::
+1:
+Objektet är deklarerat i\n
+en 'read only' modul och\n
+kan inte modifieras.
+2:
+Objektet är deklarerat i\n
+en 'view only' modul och\n
+kan inte modifieras.
+3:
+Namnet är otillåtet!\n
+Måste börja med bokstav och\n
+får ej vara reserverat ord.
+4:
+Exekveringsriktning kan\n
+ej ändras inuti en\n
+komplex instruktion.
+5:
+Ej tillåtet att ändra\n
+exekveringsriktning\n
+i denna rutin.
+6:
+RAPID syntax fel.\n
+Fel i programmet.
+7:
+Kan ej exekvera förbi\n
+första instruktionen i ett\n
+block eller en rutin.
+8:
+Kan inte sätta PP till\n
+begärd position. Försök\n
+med en annan position.
+9:
+Objektet är deklarerat i en\n
+'noview' modul och kan inte\n
+ändras, sparas el. skrivas.
+10:
+Rutin deklarerad i en\n
+'noview' modul. Rutin-\n
+innehållet kan ej visas.
+11:
+Lokala datatypen ej defini-\n
+erad i den valda modulen.\n
+Ändra modul eller datatyp.
+12:
+Bestående data kan inte\n
+deklareras lokalt.\n
+Ändra typ eller scope
+13:
+En för lång program-instr.\n
+vart avklippt när\n
+fil/vy genererades
+14:
+Går ej att ångra.\n
+Ångra funktionen har tappat\n
+sammanhanget.
+15:
+Den totala array-storleken\n
+är för stor.\n
+Reducera dimensionstorleken
+16:
+Kan ej visa arraydata.\n
+Reducera dimensionsstorlek\n
+i en offline-editor.
+17:
+Kan ej skapa nya data av\n
+datatypen switch. Använd\n
+endast som rutinparameter
+18:
+To long value for pendant.\n
+Please view and edit data\n
+of this datatype offline.
+19:
+To many components for\n
+pendant. Please view and\n
+edit this data offline.

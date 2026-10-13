@@ -1,0 +1,83 @@
+30::
+0:
+Systeme de commande
+1:
+Securite
+2:
+Fonction
+3:
+Active
+4:
+TRUE
+5:
+FALSE
+6:
+Fonction    Active
+7:
+HoldToRun
+8:
+POWER_ON
+9:
+START
+10:
+STOP
+11:
+QSTOP
+12:
+RESTART
+13:
+RESET
+14:
+Routines evt
+15:
+Evt         Routine     Tache
+16:
+Evt
+17:
+Routine
+18:
+Taches
+19:
+Tache
+20:
+Prog
+21:
+Tache de premier plan
+22:
+Type
+23:
+Point d'entree
+24:
+NORMAL
+25:
+STATIC
+26:
+SEMISTATIC
+27:
+Tache       Prog        Type
+28:
+Tache
+29:
+Modules tache
+30:
+Fichier
+31:
+Tache       Fichier
+32:
+Distance de recouvrement
+33:
+Mode
+34:
+Tcp_dist
+35:
+Tcp_rot
+36:
+Ext_dist
+37:
+Ext_rot
+38:
+Mode        Tcp-dist    Tcp-rot
+39:
+MAN
+40:
+AUTO

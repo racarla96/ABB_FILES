@@ -1,0 +1,592 @@
+27::
+0:
+IO & Kommunikation
+1000:
+Otillåtet bussnamn \n
+Beskrivning\Orsak: \n
+- Driver %s: har felaktigt bussnamn \n
+\t\n
+1. Ändra bussnamn
+1001:
+Duplicerad adress \n
+Beskrivning\Orsak: \n
+- Samma adress för enhet %soch %s \n
+\t\n
+1. Kontrollera adressen\n
+2. Kontrollera bussen
+1002:
+Otillåten driver \n
+Beskrivning\Orsak: \n
+- Enhet %s: har ospecificerad driver \n
+\t\n
+1. Kontrollera driver
+1003:
+Otillåten enhet \n
+Beskrivning\Orsak: \n
+- Enheten angiven för signal %s\n
+  är ospecificerad  \n
+\t\n
+1. Ändra namnet på enheten\n
+2. Lägg till en ny enhet
+1004:
+Otillåten signallängd \n
+Beskrivning\Orsak: \n
+- Längden för signal %s måste vara 1\n
+\t\n
+1. Ändra längden till 1
+1005:
+Otillåten filtertid\n
+Beskrivning\Orsak: \n
+- Signal %s: Passiv filtertid\n
+  ska vara 0 eller %d - %d ms\n
+\t\n
+1. Ändra filtertiden
+1006:
+Otillåten filtertid\n
+Beskrivning\Orsak: \n
+- Signal %s: Aktiv filtertid\n
+  ska vara 0 eller %d - %d ms\n
+\t\n
+1. Ändra filtertiden
+1007:
+Otillåtet logiskt värde\n
+Beskrivning\Orsak: \n
+- Signal %s: Logiskt max\n
+  är mindre än logiskt min\n
+\t\n
+1. Korrigera värdena så att max är\n
+större än min
+1008:
+Otillåtet fysiskt värde\n
+Beskrivning\Orsak: \n
+- Signal %s: Fysiskt max\n
+  är mindre än fysiskt min\n
+\t\n
+1. Korrigera värdena så att max är större\n
+än min
+1009:
+Otillåten typ\n
+Beskrivning\Orsak: \n
+- Signal %s: Signalens typ är otillåten\n
+\t\n
+1. Ändra typen
+1010:
+Signal felaktig\n
+Beskrivning\Orsak: \n
+- Signal %s: Fysiskt\n
+  signalnummer + längd - 1 är > &d\n
+\t\n
+1. Ändra fysiskt signalnummer\n
+2. Ändra längden
+1011:
+Driver inte supportad\n
+Beskrivning\Orsak: \n
+Driver %s är inte supportad\n
+\t\n
+1. Byt namn på drivern
+1012:
+Minnet fullt\n
+Beskrivning\Orsak: \n
+- Kort %s: För många kort\n
+  för specificerad driver typ\n
+\t\n
+1. Ändra antal kort för drivern\n
+    i driver konfigurationen.
+1013:
+Felaktig kortttyp\n
+Beskrivning\Orsak: \n
+- Felaktig korttyp ansluten till\n
+  adress %d\n
+\t\n
+1. Kontrollera typkoden för angiven adr.\n
+2. Ändra korttypenskoden
+1014:
+Kort saknas\n
+Beskrivning\Orsak: \n
+- Inget kort anslutet till adress %d\n
+\t\n
+1. Anslut ett kort\n
+2. Ändra kortadressen
+1015:
+För många Digital In\n
+Beskrivning\Orsak: \n
+- Antalet Digital IN kanaler på \n
+  kort %s är större\n
+än %d\n
+\t\n
+1. Reducera antalet Digitala Ingångar
+1016:
+För många Digital Ut\n
+Beskrivning\Orsak: \n
+- Antalet Digitala Ut kanaler på\n
+  kort %s är större\n
+  än %d\n
+\t\n
+1. Reducera antalet Digitala Utgångar
+1017:
+Ingen aktiv signal\n
+Beskrivning\Orsak: \n
+- Aktiv signal för korskoppling saknas\n
+\t\n
+1. Ange aktiv signal
+1018:
+För många aktiva signaler\n
+Beskrivning\Orsak: \n
+- För många aktiva signaler för kors-\n
+koppling\n
+\t\n
+1. Enbart en aktiv signal får anges
+1019:
+Signaldefinition saknas\n
+Beskrivning\Orsak: \n
+- Signalen %s för\n
+  korskoppling är ej definierad\n
+\t\n
+1. Definiera signalen
+1020:
+Ingen resultat signal\n
+Beskrivning\Orsak: \n
+- Resultat-signal saknas\n
+\t\n
+1. Ange resultat-signal
+1021:
+Duplicerad korskoppling\n
+Beskrivning\Orsak: \n
+- Signalen %s är både FRÅN och TILL\n
+\t\n
+1. Ändra definition för korskoppling
+1022:
+Fysiskt max för hög\n
+Beskrivning\Orsak: \n
+- Signal %s\n
+- Fysiskt max värde > %d\n
+\t\n
+1. Ändra värdet i konfigurationen
+1023:
+Fysiskt min för lågt\n
+Beskrivning\Orsak: \n
+- Signal %s\n
+- Fysiskt min värde < %d\n
+\t\n
+1. Ändra värdet i konfigurationen
+1024:
+Fysiskt värde för högt\n
+Beskrivning\Orsak: \n
+- Signal %s\n
+- Aktuellt värde = %d > Maxvärde = %d\n
+- Värdet är satt till maxvärdet\n
+\t\n
+1. Ändra fysiska maxvärdet i \n
+    konfigurationen
+1025:
+Fysiskt värde för lågt\n
+Beskrivning\Orsak: \n
+- Signal %s\n
+- Aktuellt värde = %d < Minvärde = %d\n
+- Värdet är satt till minvärdet\n
+\t\n
+1. Ändra fysiska minvärdet i \n
+    konfigurationen
+1026:
+Logiskt värde för högt\n
+Beskrivning\Orsak: \n
+- Signal %s\n
+- Aktuellt värde = %d > Maxvärde = %d\n
+- Värdet är satt till maxvärdet\n
+\t\n
+1. Ändra logiska maxvärdet i \n
+    konfigurationen
+1027:
+Logiskt värde för lågt\n
+Beskrivning\Orsak: \n
+- Signal %s\n
+- Aktuellt värde = %d < Minvärde = %d\n
+- Värdet är satt till minvärdet\n
+\t\n
+1. Ändra logiska minvärdet i \n
+    konfigurationen
+1028:
+Ej tillåten konfigurering\n
+Beskrivning\Orsak: \n
+- RIO startkvartil och rack storlek\n
+- är utanför tillåtet värde för kort %s\n
+\t\n
+1. För startkvartil 0 måste rack\n
+storleken vara mindre än 4.
+1029:
+Ej tillåten konfigurering\n
+Beskrivning\Orsak: \n
+- RIO startkvartil och rack storlek\n
+- är utanför tillåtet värde för kort %s\n
+\t\n
+1. För startkvartil 1 måste rack\n
+storleken vara mindre än 3.
+1030:
+Ej tillåten konfigurering\n
+Beskrivning\Orsak: \n
+- RIO startkvartil och rack storlek\n
+- är utanför tillåtet värde för kort %s\n
+\t\n
+1. För startkvartil 2 måste rack\n
+storleken vara mindre än 2.
+1031:
+Ej tillåten konfigurering\n
+Beskrivning\Orsak: \n
+- RIO startkvartil och rack storlek\n
+- är utanför tillåtet värde för kort %s\n
+\t\n
+1. För startkvartil 3 måste rack\n
+storleken vara 0.
+1032:
+Kommunikationsfel\n
+Beskrivning\Orsak: \n
+RIO kortet har tappat kommunikationen\n
+med PLCn på kort adress %d\n
+\t\n
+1. Kontrollera kommunikations kabeln\n
+   till PLCn\n
+2. Kontrollera att PLCn är påslagen
+1033:
+För många Digitala In\n
+Beskrivning\Orsak: \n
+- Antalet Digitala ingångar är för\n
+  många på kort adress %d\n
+  max antal är %d\n
+\t\n
+1. Ändra konfigureringen för kortet
+1034:
+För många Digitala Ut\n
+Beskrivning\Orsak: \n
+- Antalet Digitala utgångar är för\n
+  många på kort adress %d\n
+  max antal är %d\n
+\t\n
+1. Ändra konfigureringen för kortet
+1035:
+Ej tillåten startkvartil\n
+Beskrivning\Orsak: \n
+- startkvartilen är utanför gräns\n
+  för kort %s\n
+\t\n
+1. Startkvartilen måste vara mellan\n
+   0 och 3 ändra konfigureringen.
+1036:
+Ej tillåtet namn\n
+Beskrivning\Orsak: \n
+- Antal tecken i namnet\n
+- %s\n
+- är fler än %d tecken\n
+1. Ge ett nytt namn med\n
+   färre tecken.
+1037:
+IO korskopplings fel\n
+Beskrivning\Orsak: \n
+- Signalen %s är både FRÅN och TILL\n
+  i samma kedja\n
+\t\n
+1. Ändra definition för korskopplingen
+1038:
+IO korskoppling för djup\n
+Beskrivning\Orsak: \n
+- Kors kopplingen i samma kedja\n
+är för djup. Första signal namn:\n
+- %s\n
+\t\n
+Gör kors kopplingen mindre djup.
+1039:
+För många kort\n
+Beskrivning\Orsak: \n
+- Max antal kort för driver\n
+- %s är utanför gränsen\n
+\t\n
+1. Kontrollera att antal kort är fler än\n
+   0, och ej fler än antal IO platser.
+1040:
+RIO adress ej tillåten\n
+Beskrivning\Orsak: \n
+RIO länk adressen för kort %s\n
+är ej tillåten\n
+\t\n
+Kontrollera att RIO länk adressen\n
+är större än 0, och mindre än 64.
+1041:
+För många Analoga Ut\n
+Beskrivning\Orsak: \n
+- Antalet Analoga utgångar\n
+  för kort %s är fler än %d.\n
+ \t\n
+1. Reducera antalet Analoga ingångar.
+1042:
+För många Analoga In\n
+Beskrivning\Orsak: \n
+- Antalet Analoga Ingångar\n
+  för kort %s är fler än %d.\n
+ \t\n
+1. Reducera antalet Analoga Utgångar.
+1043:
+Signal fel\n
+Beskrivning\Orsak: \n
+- Typen för specificerad signal %s\n
+kan inte anslutas till specificerat kort\n
+\t\n
+1. Byt till en annan typ.\n
+2. Byt till ett annat kort.
+1044:
+Fysiskt signal fel\n
+Beskrivning\Orsak: \n
+- Antalet och eller längden av\n
+  signalen %s är större än %d\n
+\t\n
+1. Ändra fysiskt signal nummer\n
+2. Ändra längden
+1045:
+Filter fel\n
+Beskrivning\Orsak: \n
+- Signal %s : Ingen\n
+  filter tid kan specificeras för denna\n
+  typ av signal\n
+\t\n
+1. Sätt filter tiden till 0 eller ta\n
+   bort instuktionen.
+1046:
+Skalnings fel\n
+Beskrivning\Orsak: \n
+- Signal %s: Ingen skalning kan göras.\n
+\t\n
+1. Ta bort skalningen.
+1049:
+Inverterings fel\n
+Beskrivning\Orsak: \n
+- Signal %s: Den här\n
+  typen av signal kan inte inverteras\n
+\t\n
+1. Endast digitala signaler kan inverteras
+1050:
+Signal för kors ej digital.\n
+Beskrivning\Orsak: \n
+- Signal %s: är inte en digital signal\n
+\t\n
+1. Endast digitala signaler kan\n
+   kors kopplas
+1051:
+Länk adress ej oktal.\n
+Beskrivning\Orsak: \n
+- Signal %s.RIO adressen är inte av\n
+  oktal form\n
+\t\n
+1. Skriv in en ny adress i oktal form.
+1052:
+Kors tabell full.\n
+Beskrivning\Orsak: \n
+- Kors kopplingen kan endast innehålla\n
+  %d signaler\n
+\t\n
+1. Reducera antalet signaler.
+1053:
+Ingen RIO kommunikation\n
+Beskrivning\Orsak: \n
+Ingen åtkomst med RIO kortet beroende\n
+på att PLC kommunikationen är nere\n
+\t\n
+1. Kontrollera kommunications kabeln\n
+   till PLCn\n
+2. Kontrollera att PLCn är påslagen
+1054:
+Fel signaltyp\n
+Beskrivning\Orsak:\n
+Signal %s:\n
+Fel signaltyp.\n
+\t\n
+1. Ändra typen.
+1055:
+Felaktigt signalnamn\n
+Beskrivning\Orsak:\n
+- Symbol %s är ej definierad\n
+\t\n
+1. Ändra ovanstående symbols namn
+1057:
+DSQC319 Kort saknas\n
+Beskrivning\Orsak:\n
+- Inget kort av typ DSQC319\n
+  anslutet till address %d\n
+\t\n
+1. Anslut ett kort till kortplatsen.\n
+2. Ändra kortets address.
+1058:
+Ej kontakt med Can-noden\n
+Beskrivning\Orsak:\n
+- Ingen kontakt med Can-noden som\n
+är ansluten till nod-address %d\n
+\t\n
+1. Kontrollera nod-addresserna på\n
+   alla Can-moduler som är anslutna till\n
+   Can-bussen.\n
+2. Ändra nod-addressen.
+1059:
+Konfig.fel Can-nod.\n
+Beskrivning\Orsak:\n
+- Fel vid konfigurering av Can-nod\n
+  ansluten till nod-address %d\n
+\t\n
+1. Korrigera konfigurationen för Can-\n
+   noden på given address.
+1060:
+DSQC319 internt fel.\n
+Beskrivning\Orsak:\n
+- DSQC319-kortet som är\n
+  anslutet till address %d \n
+  har ett internt fel.\n
+\t\n
+1. Kontrollera att CAN-bussen fungerar.\n
+2. Kontrollera att DSQC319 fungerar.
+1061:
+Can buss-fel\n
+Beskrivning\Orsak:\n
+- Onormala feltillfällen på Can-\n
+  bussen som är ansluten till DSQC319\n
+  på address %d\n
+\t\n
+1. Kontrollera Can-bussens\n
+   kommunikations-kabel.
+1062:
+D319 Inbuffert full.\n
+Beskrivning\Orsak:\n
+- Inbufferten är full på kortet som är\n
+  anslutet på address %d.\n
+  Meddelanden kan gå förlorade.\n
+\t\n
+1. Reducera antalet noder på Can-bussen.
+1063:
+Can-meddelande förlorat\n
+Beskrivning\Orsak:\n
+- Can-meddelande har tappats på kortet\n
+  som är anslutet till address %d.\n
+\t\n
+1. Reducera antalet noder på Can-bussen.
+1064:
+IOC-genererat fel.\n
+Beskrivning\Orsak:\n
+- IOC signalerar fel till DSQC260-kortet\n
+  på address %d.\n
+\t\n
+1. Kontrollera IOCn.
+1065:
+DSQC260-genererat fel\n
+Beskrivning\Orsak:\n
+- DSQC260-kortet på address %d\n
+  signalerar ett fel.\n
+\t\n
+1. Kontrollera DSQC260-kortet.
+1066:
+InterBus-S inaktiv.\n
+Beskrivning\Orsak:\n
+- InterBus-S ansluten till DSQC260-\n
+  kortet på address %d är inaktiv.\n
+\t\n
+1. Kontrollera InterBus-S noderna.
+1067:
+InterBus-S ej inkopplad\n
+Beskrivning\Orsak:\n
+- InterBus-S ansluten till\n
+  DSQC260-kortet på addr. %d\n
+  är ej inkopplat eller IBS-master  är \n
+  i återställnings-tillstånd.\n
+\t\n
+1. Kontrollera InterBus-S noderna.\n
+2. Kontrollera InterBus-S mastern.
+1068:
+IOC OK\n
+Beskrivning\Orsak:\n
+- IOC tidigare felaktig, nu OK.\n
+  Felmrddelande sändes till DSQC260-\n
+  kortet på address %d\n
+\t\n
+1. Ingen åtgärd behövs.
+1069:
+DSQC260 OK.\n
+Beskrivning\Orsak:\n
+- DSQC260-kortet på address %d\n
+  var tidigare felaktigt, nu OK.\n
+\t\n
+1. Ingen åtgärd behövs.
+1070:
+InteBus-S aktiv.\n
+Beskrivning\Orsak:\n
+- InterBus-S ansluten till DSQC260-\n
+  kortet på address %d var tidigare\n
+  inaktivt, nu OK.\n
+\t\n
+1.  Ingen åtgärd behövs.
+1071:
+InterBus-S inkopplad.\n
+Beskrivning\Orsak:\n
+- InterBus-S ansluten till DSQC260-\n
+  kortet på address %d var tidigare\n
+  ej inkopplat, nu OK.\n
+\t\n
+1. Ingen åtgärd behövs.
+1072:
+Ingen RIO kommunikation.\n
+Beskrivning\Orsak:\n
+Signal %s har ej satt\n
+Spara attributet till JA.\n
+\t\n
+1. Sätt Spara attributet.
+1073:
+Contact established with Can node \n
+Description\Reason: \n
+- Contact established with Can node\n
+  connected at node address %d \n
+\t\n
+Check list: \n
+1. Do nothing.
+1074:
+Config. out of range\n
+Description\Reason: \n
+- The IBS starting quarter and rack \n
+  size is out of range for \n
+  board %s\n
+\t\n
+Check list: \n
+1. For starting quarter 1 rack size \n
+   must be less than 5
+1075:
+Access error from IO\n
+Description\Reason: \n
+- Cannot Read or Write from/to IO \n
+  board at address %d\n
+\t\n
+Check list: \n
+1. Check/change the IO module
+1076:
+Comm error from rtp1\n
+Description\Reason: \n
+- No response from the \n
+  serial line \n
+\t\n
+Check list: \n
+1. Check the device or connection
+1077:
+Comm error from rtp1\n
+Description\Reason: \n
+- Not possible to deliver \n
+  the received message \n
+\t\n
+Check list: \n
+1. Check the communication flow
+1078:
+Comm error from rtp1\n
+Description\Reason: \n
+- The response from the device \n
+  has a non valid frame sequence \n
+\t\n
+Check list: \n
+1. Check for noise on the serial \n
+   line
+1079:
+Pulsing group output\n
+Description\Reason: \n
+- Pulsing group output not allowed.\n
+\t\n
+Check list: \n
+1. ---

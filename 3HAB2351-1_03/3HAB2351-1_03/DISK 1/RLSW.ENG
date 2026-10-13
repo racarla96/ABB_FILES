@@ -1,0 +1,262 @@
+###################################################################
+#
+# rlsw.eng  -  Class rlsw english text description file  
+#
+# $Revision: 1.4 $
+#
+# DESCRIPTION:
+#
+#  ReaL text description file
+# 
+# DEFINITION AND TRANSLATION RULES
+# 
+# This file refer to following type of top object in the Robust (ARL)
+# Reference Manual: INSTRUCTION, FUNCTION or DATA TYPE
+#
+# Following general rules for ARL Identifiers must applies for translation to
+# native language of all text objects:
+# - Maximum general length of text object 16 characters
+# - Characters means letters, digits or underscore _ (According ISO 8859-1)
+# - The first character in an text object must be a letter
+# - All characters are significant
+# - Text object differing only in the use of corresponding upper and lower
+#   case letters are considered the same
+#
+# Type of text objects to translate:
+# (1) Name of INSTRUCTION:
+#     - Max. 9 characters (Instruction Plock List) 
+#     - Upper case letter for the first letter in one word. The rest of the word
+#       in lower case letters. Normal abbreviation of several words.
+#     - E.g. MoveL for Move Linear
+# (2) Name of FUNCTION:
+#     - Max. 9 characters. (Instruction Plock List)
+#       Need for shorter for expression context.
+#     - Upper case letter for the first letter in the word. The rest of the word
+#       in lower case letters. Normal abbreviation of several words.
+#     - E.g. ReadNum for Read Numerical
+# 
+# (3) Name of REQUIRED PARAMETER:
+#     - Max. 12 characters (Instruction Form)
+#     - Upper case letter for the first letter in the word. The rest of the word
+#       in lower case letters.
+#     - E.g. Speed
+#
+# (4) Name of OPTION PARAMETER:
+#     - Must be short (in the program list)
+#     - Upper case letter for the first letter in the word. The rest of the word
+#       in lower case letters.
+#     - E.g. WObj for Work Object
+#
+# (5) Name of SWITCH PARAMETER:
+#     - Must be short (in the program list)
+#     - Upper case letter for the first letter in the word. The rest of the word
+#       in lower case letters.
+#     - E.g. Conc for Concurrent
+#
+# (6) Name of DATA TYPE:
+#     - Can be fairly long (not in the visible program list)
+#     - Only lower case letters
+#     - E.g. robtarget for robot target
+#
+# (7) Name of DATA COMPONENT:
+#     - Must be short (in the program list)
+#     - Only lower case letters
+#     - E.g. robconf for robot configuration
+#
+# MODIFICATIONS:
+#
+# $Log: rlsw.eng,v $
+# Revision 1.4  1996/02/01  13:02:33  swdadmin
+# vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+# Moved back to subject from/projects/foxsw/swd/classlib
+#
+# Revision 1.1  1995/06/12  06:41:25  swdadmin
+# Initial revision\
+# ^^^^^^^^^^^^ PROJECT COMMENTS BEGIN ^^^^^^^^^^^^^
+#
+# Revision 1.3  1995/06/11  17:42:24  swdadmin
+# vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+# Moved back to subject from/projects/foxsw/swd/classlib/rlsw
+#
+# Revision 1.2  1995/05/03  07:55:50  hekn
+# Undo and stop signals added
+#
+# Revision 1.2  95/05/02  10:59:58  10:59:58  hekn (Henrik KNOBEL)
+# Stop and undo added
+# 
+# Revision 1.1  94/09/26  08:37:16  08:37:16  swdadmin
+# Initial revision\
+# ^^^^^^^^^^^^ PROJECT COMMENTS BEGIN ^^^^^^^^^^^^^
+# 
+# Revision 1.1  1994/09/23  11:54:01  swdadmin
+# Initial revision
+#
+# Revision 1.5  1994/06/29  14:31:54  hekn
+# *** empty log message ***
+#
+# Revision 1.4  1994/06/29  14:20:26  hekn
+# Text resource identity changed
+#
+# Revision 1.3  1994/06/21  17:52:27  hekn
+# Text resource temporarely changed to aw
+#
+# Revision 1.2  1994/06/15  15:16:20  hekn
+# *** empty log message ***
+#
+# Revision 1.1  1994/03/25  09:15:26  hekn
+# Initial revision
+#
+#
+#
+#
+# Copyright (c) ABB Robotics AB 1994  All rights reserved
+#
+############################################################################## 
+#
+# Text resource number = 78
+# NOTE: Should be changed to -1 with new load method to class tx
+78::
+#
+# Reference to system internal ReaL-class (do not translate)
+0:
+rlsw
+# Type of top object  : INSTRUCTION
+# Ref. to top object  : SwStart
+# Type of text object : INSTRUCTION 
+# Full name.......... : SpotWeld START
+# Note............... : 
+1:
+SwStart
+# Type of top object  : INSTRUCTION
+# Ref. to top object  : SwStart
+# Type of text object : SWITCH PARAMETER
+# Full name.......... : NOCONC
+# Note............... : 
+2:
+NoConc
+# Type of top object  : INSTRUCTION
+# Ref. to top object  : SwInit
+# Type of text object : REQUIRED PARAMETER
+# Full name.......... : DOSTART
+# Note............... : 
+3:
+DOStart
+# Type of top object  : INSTRUCTION
+# Ref. to top object  : SwInit
+# Type of text object : REQUIRED PARAMETER 
+# Full name.......... : DIREADY
+# Note............... : 
+4:
+DIReady
+# Type of top object  : INSTRUCTION
+# Ref. to top object  : SwInit
+# Type of text object : REQUIRED PARAMETER 
+# Full name.......... : INTERRUPT
+# Note............... : 
+5:
+Interrupt
+# Type of top object  : INSTRUCTION
+# Ref. to top object  : SwInit
+# Type of text object : REQUIRED PARAMETER 
+# Full name.......... : PROCess State
+# Note............... : 
+6:
+ProcState
+# Type of top object  : INSTRUCTION
+# Ref. to top object  : SwStart
+# Type of text object : REQUIRED PARAMETER  
+# Full name.......... : TIMEOUT
+# Note............... : 
+7:
+Timeout
+# Type of top object  : DATA TYPE
+# Ref. to top object  : switch
+# Type of text object : DATA TYPE
+# Full name.......... :
+# Note............... : Reference to already installed type name.
+8:
+switch
+# Type of top object  : DATA TYPE
+# Ref. to top object  : signaldi
+# Type of text object : DATA TYPE
+# Full name.......... :
+# Note............... : Reference to already installed type name.
+9:
+signaldi
+# Type of top object  : DATA TYPE
+# Ref. to top object  : signaldo
+# Type of text object : DATA TYPE
+# Full name.......... :
+# Note............... : Reference to already installed type name.
+10:
+signaldo
+# Type of top object  : DATA TYPE
+# Ref. to top object  : num
+# Type of text object : DATA TYPE
+# Full name.......... :
+# Note............... : Reference to already installed type name.
+11:
+num
+# Type of top object  : DATA TYPE
+# Ref. to top object  : intnum
+# Type of text object : DATA TYPE
+# Full name.......... :
+# Note............... : Reference to already installed type name.
+12:
+intnum
+# Type of top object  : DATA TYPE
+# Ref. to top object  : bool
+# Type of text object : DATA TYPE
+# Full name.......... :
+# Note............... : Reference to already installed type name.
+13:
+bool
+# Type of top object  : DATA TYPE
+# Ref. to top object  : errnum
+# Type of text object : DATA TYPE
+# Full name.......... :
+# Note............... : Reference to already installed type name.
+14:
+errnum
+# Type of top object  : INSTRUCTION
+# Ref. to top object  : SwStart
+# Type of text object : SWITCH PARAMETER
+# Full name.......... : SIMPROC
+# Note............... : 
+15:
+SimProc
+# Type of top object  : INSTRUCTION
+# Ref. to top object  : SwInit, SwStart
+# Type of text object : REQUIRED PARAMETER
+# Full name.......... : PROCID
+# Note............... : 
+16:
+ProcId
+# Type of top object  : INSTRUCTION
+# Ref. to top object  : SwInit
+# Type of text object : INSTRUCTION 
+# Full name.......... : SpotWeld INIT
+# Note............... : 
+17:
+SwInit
+# Type of top object  : INSTRUCTION
+# Ref. to top object  : SwInit
+# Type of text object : OPTION PARAMETER
+# Full name.......... : DOUNDO
+# Note............... : 
+18:
+DOUndo
+# Type of top object  : INSTRUCTION
+# Ref. to top object  : SwInit
+# Type of text object : OPTION PARAMETER
+# Full name.......... : DISTOP
+# Note............... : 
+19:
+DIStop
+# End of file
+
+
+
+
+
+

@@ -1,0 +1,913 @@
+33::
+1:
+Manipulador
+2:
+Sistema movimiento
+3:
+Nombre
+4:
+Nombre
+5:
+Version
+6:
+Tiempo act. freno
+7:
+Resolucion velocidad
+8:
+Resolucion dinamica
+9:
+0.33
+10:
+0.50
+11:
+0.67
+12:
+0.83
+13:
+1.00
+14:
+Resolucion camino
+15:
+Tiempo cola
+16:
+Longitud cola
+17:
+Temp min cabina
+18:
+Temp max cabina
+19:
+Temp min robot
+20:
+Temp max robot
+21:
+Nombre
+22:
+Unidad mecanica
+23:
+Nombre
+24:
+Nombre
+25:
+Usar run enable
+26:
+Usar rele act
+27:
+Usar rele freno
+28:
+Usar robot
+29:
+Usar single 1
+30:
+Usar single 2
+31:
+Usar single 3
+32:
+Usar single 4
+33:
+Usar single 5
+34:
+Usar single 6
+35:
+Base usuario movida por
+36:
+Estado Stand by
+37:
+Si
+38:
+No
+39:
+Offs vel. inicial
+40:
+Si
+41:
+No
+42:
+Activar en puesta marcha
+43:
+Si
+44:
+No
+45:
+Desact. no permitida
+46:
+Si
+47:
+No
+48:
+Rele
+49:
+Nombre
+50:
+Nombre
+51:
+Señal salida
+52:
+Señal entrada
+53:
+Señal invertida
+54:
+Si
+55:
+No
+56:
+Tiempo retraso
+57:
+Robot
+58:
+Nombre      Tipo        Ejes
+59:
+Nombre
+60:
+Usar robot tipo
+61:
+Usar eje 1
+62:
+Usar eje 2
+63:
+Usar eje 3
+64:
+Usar eje 4
+65:
+Usar eje 5
+66:
+Usar eje 6
+67:
+Base frame x
+68:
+Base frame y
+69:
+Base frame z
+70:
+Base frame q1
+71:
+Base frame q2
+72:
+Base frame q3
+73:
+Base frame q4
+74:
+Base frame movido por
+75:
+Single
+76:
+Nombre      Tipo        Eje
+77:
+Nombre
+78:
+Usar single tipo
+79:
+Usar eje
+80:
+Coord single M94
+81:
+No
+82:
+Si
+83:
+Base frame x
+84:
+Base frame y
+85:
+Base frame z
+86:
+Base frame q1
+87:
+Base frame q2
+88:
+Base frame q3
+89:
+Base frame q4
+90:
+Base frame coord
+91:
+Tipo single
+92:
+Nombre
+93:
+Mecanica
+94:
+TRACK
+95:
+Vel max modo teach
+96:
+TOOL_ROT
+97:
+FREE_ROT
+98:
+Eje
+99:
+Ejes
+100:
+Nombre
+101:
+Eje logico
+102:
+Usar canal axc
+103:
+Usar brazo
+104:
+Usar freno
+105:
+Usar supervision
+106:
+Usar filtro axc
+107:
+Use drive system
+108:
+Tipo m control descal
+109:
+UCCM0
+110:
+Master control descal
+111:
+Tipo control master
+112:
+UCCM0
+113:
+LCM0
+114:
+FFWCM0
+115:
+FFWCM1
+116:
+FFWCM2
+117:
+FFWCM3
+118:
+Control master normal
+119:
+Canal axc
+120:
+Nombre
+121:
+Nombre
+122:
+Canal de medida
+123:
+Hardware de medida
+124:
+No def
+125:
+Serie
+126:
+Par. rel.
+127:
+Par. abs
+128:
+Rotacion inversa
+129:
+Normal
+130:
+Invertida
+131:
+Brazo
+132:
+Nombre      Tipo
+133:
+Nombre
+134:
+Usar tipo brazo
+135:
+Usar pto comprb.
+136:
+Usar carga brazo
+137:
+Mov. rotativo
+138:
+Si
+139:
+No
+140:
+Centro_x rot del eje
+141:
+Centro_y rot del eje
+142:
+Centro_y rot del eje
+143:
+Rotacion de eje (u0)
+144:
+Rotacion de eje (u1)
+145:
+Rotacion de eje (u2)
+146:
+Rotacion de eje (u3)
+147:
+Relacion transm
+148:
+rel transm alta
+149:
+rel transm baja
+150:
+Limite sup.eje
+151:
+Limite inf.eje
+152:
+Posicion calibracion
+153:
+Aceleracion nominal
+154:
+Deceleracion nominal
+155:
+Ratio deriv. acel. nom
+156:
+Ratio deriv. decel. nom
+157:
+Inercia transm
+158:
+Pto. compr. brazo
+159:
+Nombre
+160:
+Nombre
+161:
+Tipo comprb.
+162:
+Posicion
+163:
+Ninguna
+164:
+Posicion x
+165:
+Posicion y
+166:
+Posicion z
+167:
+Carga brazo
+168:
+Nombre
+169:
+Nombre
+170:
+Longitud
+171:
+Masa
+172:
+Centro masa x
+173:
+Centro masa y
+174:
+Centro masa z
+175:
+Inercia x
+176:
+Inercia y
+177:
+Inercia z
+178:
+Freno
+179:
+Nombre
+180:
+Nombre
+181:
+Lim vel off ctrl
+182:
+Retraso control off
+183:
+Retraso act freno
+184:
+Par freno
+185:
+Lim vel rampa freno
+186:
+Usar freno tipo
+187:
+Tipo freno
+188:
+Nombre
+189:
+Nombre
+190:
+Inercia
+191:
+Supervision
+192:
+Nombre      Tipo
+193:
+Nombre
+194:
+Usar tipo supervision
+195:
+Pos superv puesta march
+196:
+Activa
+197:
+Desact
+198:
+Supervision contador
+199:
+Activa
+200:
+Desact
+201:
+Pos supervision
+202:
+Activa
+203:
+Desact
+204:
+Supervision vel
+205:
+Activa
+206:
+Desact
+207:
+Supervision carga
+208:
+Activa
+209:
+Desact
+210:
+Supervision Bloqueo
+211:
+Activa
+212:
+Desact
+213:
+En rango posicion
+214:
+Vel zero (%)
+215:
+Tipo supervision
+216:
+Nombre
+217:
+Nombre
+218:
+Pos lim dinm p.marcha
+219:
+Tiempo max sobrecarga
+220:
+Tiempo max bloq.
+221:
+Vel man princ max
+222:
+Vel man norm lenta
+223:
+Vel man max dsp
+224:
+Sistema accmto
+225:
+Sistemas accmto
+226:
+Nombre
+227:
+Externo
+228:
+Si
+229:
+No
+230:
+Usa Tens.Alim.
+231:
+Usa trafo
+232:
+Usa DC-link
+233:
+Usa unidad acc
+234:
+F. transf corriente
+235:
+Usa cable
+236:
+Usa motor
+237:
+Ciclo carga term
+238:
+Ciclo carga esfuerz
+239:
+Caja reductora
+240:
+Tension Alim.
+241:
+Tension Alim.
+242:
+Nombre
+243:
+Tol min Alimentacion
+244:
+Tol max Alimentacion
+245:
+Trafo
+246:
+Trafo
+247:
+Nombre
+248:
+Usa trafo tipo
+249:
+Poten max
+250:
+Incr temp ambiente
+251:
+Poten termica
+252:
+Tipo trafo
+253:
+Tipo
+254:
+Nombre
+255:
+Voltaje secundario
+256:
+DC link
+257:
+Nombre      Tipo
+258:
+Nombre
+259:
+Tipo
+260:
+Unidad acc
+261:
+Nombre    Tipo
+262:
+Nombre
+263:
+Usa unidad acc tipo
+264:
+i_max
+265:
+Tipo unidad acc.
+266:
+Nombre    Tipo
+267:
+Nombre
+268:
+Tipo
+269:
+Constante corriente
+270:
+Constante vel
+271:
+Offset vel max
+272:
+Cable
+273:
+Cables
+274:
+Nombre
+275:
+Usa cable tipo
+276:
+Longitud
+277:
+Motor
+278:
+Nombre      Tipo
+279:
+Nombre
+280:
+Usa motor tipo
+281:
+Offset Conmutacion
+282:
+Offset conm valido
+283:
+Si
+284:
+No
+285:
+Offset calibracion
+286:
+Offset cal valido
+287:
+Si
+288:
+No
+289:
+Tipo Motor
+290:
+Nombre
+291:
+Nombre
+292:
+Pares polos
+293:
+ke  ( V/rad/s )
+294:
+Corriente Max (A rms)
+295:
+Ciclo carga term
+296:
+Ciclos carga termica
+297:
+Nombre
+298:
+Par medio 0
+299:
+Ciclo carga esfuerz
+300:
+Ciclos carga esfuerz
+301:
+Nombre
+302:
+Vel max abs.
+303:
+Par max abs.
+304:
+Caja reductora
+305:
+Caja reductora
+306:
+Nombre
+307:
+Ctrl master descal 0
+308:
+Nombre
+309:
+Nombre
+310:
+Kp, gan bucle pos
+311:
+Kv, gan bucle vel
+312:
+Ti l-time bucle vel
+313:
+Vel max descal
+314:
+Acel max descal
+315:
+Dec max descal
+316:
+Ctrl master lag 0
+317:
+Nombre
+318:
+Nombre
+319:
+Kp, gan bucle pos
+320:
+Kv, gan bucle vel
+321:
+Ti l-time bucle vel
+322:
+Filtro notch activo
+323:
+Si
+324:
+No
+325:
+Frecuencia filtro notch
+326:
+Amplitud filtro notch
+327:
+Tiempo actual. proceso
+328:
+EXT_POS
+329:
+Nombre proceso Ext pos
+330:
+Eje independiente
+331:
+Activo
+332:
+Desact
+333:
+Limite superior eje independiente
+334:
+Lim. inferior eje indep.
+335:
+Factor corte sup. bloqueo
+336:
+Factor corte sup carga
+337:
+Factor corte sup veloc.
+338:
+Factor corte sup pos.
+339:
+Vel sinc superior
+340:
+Vel sinc inferior
+341:
+Margen par nominal vels bajas
+342:
+Margen par nominal vels altas
+343:
+Pto corte nominal para margen par
+344:
+Par frenada absoluto
+345:
+Gravedad beta
+346:
+EXT_CTL
+347:
+Afecta ctrl forzado
+348:
+Si
+349:
+No
+350:
+Forzado act pos limite
+351:
+Forzado desact pos limite
+352:
+Lim sup vel max Auto
+353:
+Control forzado activo
+354:
+Si
+355:
+No
+356:
+Factor forzado para Kp
+357:
+Factor forzado para Ki
+358:
+Tiempo subida para Kp
+359:
+Notch modo auto
+360:
+Si
+361:
+No
+362:
+Frec onda auto n
+363:
+Frec min auto
+364:
+Cambio rel max auto
+365:
+Tiempo prebusqueda
+366:
+Tiempo evento preselec.
+367:
+Vel max desconectar
+368:
+Ecualizacion CPU
+369:
+En tiempo retraso act
+370:
+En tiempo retraso desact
+371:
+Dir lineal mov man
+372:
+Dir reorient mov man
+373:
+Dir eje mov man
+374:
+Dir mov man single
+375:
+Eje sup acopl lim 2
+376:
+Eje inf acopl lim 2
+377:
+Par ext const
+378:
+Par ext prop
+379:
+Angulo cero par ext
+380:
+Modo anticipacion
+381:
+No
+382:
+Vel
+383:
+Par
+384:
+Paso banda
+385:
+Df
+386:
+Dw
+387:
+Retraso
+388:
+Inercia
+389:
+Mov.man. lineal
+390:
+Nombre
+391:
+Nombre
+392:
+Mundo abajo
+393:
+Mundo rot
+394:
+Mundo lat
+395:
+Base abajo
+396:
+Base rot
+397:
+Base lat
+398:
+Herr. abajo
+399:
+Herr. rot
+400:
+Herr. lat
+401:
+Wobj abajo
+402:
+Wobj rot
+403:
+Wobj lat
+404:
+St herr. mundo abajo
+405:
+St herr. mundo rot
+406:
+St herr. mundo lat
+407:
+St herr. base abajo
+408:
+St herr. base rot
+409:
+St herr. base lat
+410:
+St herr. herr. abajo
+411:
+St herr. herr. rot
+412:
+St herr. herr. lat
+413:
+St herr. wobj abajo
+414:
+St herr. wobj rot
+415:
+St herr. wobj lat
+416:
+Mov.man. reorient
+417:
+Nombre
+418:
+Nombre
+419:
+Mundo abajo
+420:
+Mundo rot
+421:
+Mundo lat
+422:
+Base abajo
+423:
+Base rot
+424:
+Base lat
+425:
+Herr. abajo
+426:
+Herr. rot
+427:
+Herr. lat
+428:
+Wobj abajo
+429:
+Wobj rot
+430:
+Wobj lat
+431:
+St herr. mundo abajo
+432:
+St herr. mundo rot
+433:
+St herr. mundo lat
+434:
+St herr. base abajo
+435:
+St herr. base rot
+436:
+St herr. base lat
+437:
+St herr. herr. abajo
+438:
+St herr. herr. rot
+439:
+St herr. herr. lat
+440:
+St herr. wobj abajo
+441:
+St herr. wobj rot
+442:
+St herr. wobj lat
+443:
+Mov. man. eje
+444:
+Nombre
+445:
+Nombre
+446:
+Eje 1
+447:
+Eje 2
+448:
+Eje 3
+449:
+Eje 4
+450:
+Eje 5
+451:
+Eje 6
+452:
+Mov. man. Single
+453:
+Nombre
+454:
+Nombre
+455:
+Single
+456:
+Use opt. stop duty c.

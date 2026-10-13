@@ -1,0 +1,253 @@
+Revision 1.9  1995/04/21  13:28:26  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.8  1994/08/19  10:46:38  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+1::
+0:
+
+1:
+Passwort Eingabe!
+2:
+Service
+3:
+Programmierer
+4:
+Andere Fenster
+5:
+"%s" Passwort notwendig\n
+zur weiteren Bearbeitung.
+6:
+Bediener
+7:
+Zugriff
+8:
+ProgOderServ
+9:
+Diskette geändert!\n
+Der Inhalt der Diskette wurde\n
+seit letztem Lesen geändert.\n
+\n
+Inhalt neu Lesen?
+10:
+Datei
+11:
+Bearb.
+12:
+ Ansicht
+13:
+ Spezial
+14:
+Widerrufen
+15:
+Ausschneiden
+16:
+Kopieren
+17:
+Einfügen
+18:
+Suchen...
+19:
+Gehe zu...
+20:
+Gehe zum Anfang
+21:
+Gehe zum Ende
+22:
+Seite vor
+23:
+Seite zurück
+24:
+Öffnen...
+25:
+Speichern unter...
+26:
+Drucken...
+27:
+Voreinstellungen...
+28:
+  OK
+29:
+ Abbruch
+30:
+ Text
+31:
+Ja
+32:
+Nein
+33:
+Hinzu
+34:
+Vstecke
+35:
+Löschen
+36:
+Zeigen
+37:
+Medium
+38:
+-->
+39:
+Öffnen
+40:
+Text...
+41:
+789456123-0.ABCDEFGHIJKLMNOPQRSTUÜVWXYZ+<>*/,?=& :_[](){}%&"
+42:
+789456123-0.abcdefghijklmnopqrstuüvwxyz+<>*/,?=& :_[](){}%&"
+43:
+a->A
+44:
+A->a
+45:
+Info
+46:
+Name eingeben!
+47:
+Name:
+48:
+Speichermedium=
+49:
+Neu Verz
+50:
+Name für Verzeichnis eingeben!
+51:
+Allgemeine
+52:
+Interne
+53:
+Warnung!
+54:
+Weiter mit ENTER!
+55:
+mm
+56:
+Deg
+57:
+789456123_0_ABCDEFGHIJKLMNOPQRSTUVWXYZ_
+58:
+Ausschn
+59:
+Kopie
+60:
+Einfüg
+61:
+Start
+62:
+Vorwts
+63:
+Rückwts
+64:
+Kont
+65:
+Zykl
+66:
+ Instr
+67:
+kontinuierlich
+68:
+zyklisch
+69:
+instruktionsweise
+70:
+unsynchronisiert
+71:
+789456123_0_ABCDEFGHIJKLMNOPQRSTUVWXYZ_
+72:
+789456123_0_abcdefghijklmnopqrstuvwxyz_
+73:
+Ein Name muß mit einem\n
+Buchstaben z.B. ABB oder\n
+abb beginnen!\n
+\n
+Weiter mit ENTER!
+74:
+Parameter
+75:
+Programm
+76:
+Programm Modul
+77:
+System Modul
+78:
+Fehler Log
+79:
+Log
+80:
+Verzeichnis
+81:
+Eine Ebene zurück
+82:
+Verzeichnis leer
+83:
+unbekannt
+84:
+Funktion
+85:
+Anwender Ebene
+86:
+Bestätigen
+87:
+Funktion    Anw. Ebene  Bestätigen
+88:
+Nicht auf der Bahn!\n
+Der Roboter wurde bewegt\n
+nach Programm Stop.\n
+Soll der Roboter nach dem\n
+-Start- zurück zur Bahn?
+89:
+Nein
+90:
+Ja
+91:
+haupt
+92:
+NeuLese
+94:
+DruckDatei
+95:
+Warten!\n
+ProgrammServer wird bereits\n
+von einem anderen Client\n
+benutzt.
+96:
+Konvert Programm
+97:
+Konv Prog Mod
+98:
+Konv System Mod
+99:
+Programmierbare Tasten
+100:
+Taste       Typ         Verbindung
+101:
+Taste
+102:
+Typ
+103:
+Verbindung
+104:
+Taste betätigt
+105:
+keine
+106:
+Eingang
+107:
+Ausgang
+108:
+Interrupt
+109:
+Umschalt
+110:
+Setzen 0
+111:
+Setzen 1
+112:
+Betät/Lösen
+113:
+Pulsen
+114:
+größer 0 aber kleiner max. Last

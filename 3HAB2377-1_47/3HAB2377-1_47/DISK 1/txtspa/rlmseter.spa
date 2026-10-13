@@ -1,0 +1,11 @@
+58::
+58:
+Ambos parametros deben ser >= 0
+59:
+Ambos parametros deben ser > 0 y <= 100
+60:
+Error de cuaternion
+62:
+Ejes no deben ser menores de 0
+63:
+Error SBD

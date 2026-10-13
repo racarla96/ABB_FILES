@@ -1,0 +1,231 @@
+
+
+4::
+0:
+
+1:
+Entrees/Sorties
+2:
+Inverser:
+3:
+Groupes
+4:
+Liste Commune
+5:
+
+6:
+
+7:
+Nom:
+8:
+Valeur:
+9:
+Type:
+10:
+
+11:
+Bus:
+12:
+Ouvrir
+13:
+Fermer
+14:
+Activer
+15:
+Desactiver
+16:
+1
+17:
+0
+18:
+Fichier
+19:
+(Imprimer...)
+20:
+Preferences...
+21:
+Editer
+22:
+
+23:
+
+24:
+Aller a...
+25:
+Aller Debut
+26:
+Aller Fin
+27:
+
+28:
+Voir
+29:
+Liste Commune
+30:
+Cartes
+31:
+Entree TOR
+32:
+Sortie TOR
+33:
+Analogique
+34:
+
+35:
+Groupes
+36:
+
+37:
+Tous signaux
+38:
+
+39:
+Securite
+40:
+
+41:
+
+42:
+
+43:
+Adresse:
+44:
+Carte
+45:
+Signal:
+46:
+
+47:
+Attributs Signal:
+48:
+Etat
+49:
+Cartes
+50:
+OK
+51:
+Etat E/S
+52:
+Annuler
+53:
+Result.
+54:
+Inclure
+55:
+Exclure
+56:
+Aller a la Ligne!
+57:
+Entrez no ligne
+58:
+Changer
+59:
+Nom          Valeur       Type
+60:
+Bus Adresse  Nom          Type
+61:
+Commune      Nom          Type
+62:
+Nom          Valeur       Signaux
+63:
+No  Valeur   Carte         Signal
+64:
+Groupe:
+65:
+Signal       Valeur       Nom
+66:
+Dessus
+67:
+Dessous
+68:
+Definir
+69:
+             Nom          Type
+70:
+Most Common Result
+71:
+Resultat Liste Commune
+72:
+Ferme
+73:
+Ouvert
+74:
+Faux
+75:
+Vrai
+76:
+Passif
+77:
+Actif
+78:
+Bas
+79:
+Haut
+80:
+Board type:
+81:
+Dessus
+82:
+
+83:
+Aucun signal
+84:
+Tapez sur Retour pour continuer
+85:
+Aucun signal connecte a l'unite
+86:
+Entrez Valeur pour Groupe E/S
+87:
+Limites: Minimum
+88:
+         Maximum 
+89:
+Saisie donnee pour Entrees/Sorties
+90:
+Entrez Valeur pour signal Analogique
+91:
+Impression des Entrees/Sorties
+92:
+Impres.
+93:
+Impres. vers fichier:
+94:
+Ajout. Signal Info :
+95:
+Donnees a imprimer
+96:
+Imp. Entrees/Sorties vers fic.
+97:
+Impression en cours!
+98:
+Tapez Retour pour annuler
+99:
+Tapez Retour pour continuer
+100:
+L'imprimante est occupee\n
+Reessayez quand l'imprimante\n
+sera prete
+101:
+Ne peut imprimer car la queue\n
+D'impression est pleine.\n
+\n
+Reessayez plus tard
+102:
+Impression impossible car le\n
+port d'impression n'est pas\n
+Configure dans Parametres Syst.
+103:
+Pas assez de place sur l'unite\n
+utilisee pour l'impression\n
+(%.9s). requiert %d bytes\n
+Supprimez/Deplacez des fichiers
+104:
+  occupe\n
+\n
+  Attendez SVP
+105:
+Creat/Ecrit fichier impossible:
+106:
+ Fichier deja existant
+107:
+Signal Depart

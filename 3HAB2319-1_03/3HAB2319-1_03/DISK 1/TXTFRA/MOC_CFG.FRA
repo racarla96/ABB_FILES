@@ -1,0 +1,654 @@
+
+33::
+1:
+Manipulateur
+2:
+Syst Mouvement
+3:
+Nom
+4:
+Nom
+5:
+Version
+6:
+Tempo frein arret
+7:
+Resolution vitesse
+8:
+Resolution Dynamique
+9:
+0.33
+10:
+0.50
+11:
+0.67
+12:
+0.83
+13:
+1.00
+14:
+Resolution traj
+15:
+Temps de file
+16:
+Taille de file
+17:
+Temp. min armoire
+18:
+Temp. max armoire
+19:
+Temp. min robot
+20:
+Temp. max robot
+21:
+Nom
+22:
+Unite mecanique
+23:
+Nom
+24:
+Nom
+25:
+Utilise run enable
+26:
+Utilise relai activ
+27:
+Utilise relai frein
+28:
+Utilise robot
+29:
+Utilise axe seul 1
+30:
+Utilise axe seul 2
+31:
+Utilise axe seul 3
+32:
+Utilise axe seul 4
+33:
+Utilise axe seul 5
+34:
+Utilise axe seul 6
+35:
+Repere Utilis deplace par
+36:
+Etat repos
+37:
+Oui
+38:
+Non
+39:
+Ajuste offset vitesse
+40:
+Oui
+41:
+Non
+42:
+Active au demarrage
+43:
+Oui
+44:
+Non
+45:
+Deactiv interdit
+46:
+Oui
+47:
+Non
+48:
+Relai
+49:
+Nom
+50:
+Nom
+51:
+Signal de sortie
+52:
+Signal d entree
+53:
+Entree inversee
+54:
+Oui
+55:
+Non
+56:
+Temporisation
+57:
+Robot
+58:
+Nom         Type         Axes
+59:
+Nom
+60:
+Utilise robot type
+61:
+Utilise axe 1
+62:
+Utilise axe 2
+63:
+Utilise axe 3
+64:
+Utilise axe 4
+65:
+Utilise axe 5
+66:
+Utilise axe 6
+67:
+Repere base x
+68:
+Repere base y
+69:
+Repere base z
+70:
+Repere base u0
+71:
+Repere base u1
+72:
+Repere base u2
+73:
+Repere base u3
+74:
+Rep base deplace par
+75:
+Axe seul
+76:
+Nom         Type         Axe
+77:
+Nom
+78:
+Utilise type axe seul
+79:
+Utilise axe
+80:
+M94 axe seul coord
+81:
+Non
+82:
+Oui
+83:
+Repere base x
+84:
+Repere base y
+85:
+Repere base z
+86:
+Repere base u0
+87:
+Repere base u1
+88:
+Repere base u2
+89:
+Repere base u3
+90:
+Repere base coord
+91:
+Type axe seul
+92:
+Nom
+93:
+Mecanique
+94:
+AXE LINEAIRE
+95:
+CONVOYEUR
+96:
+ROTAT_OUTIL
+97:
+ROTAT_LIBRE
+98:
+Axe
+99:
+Axes
+100:
+Nom
+101:
+Axe Logique
+102:
+Utilise canal Axc
+103:
+Utilise liaison
+104:
+Utilise frein
+105:
+Util surveillance
+106:
+Utilise filtre Axc
+107:
+Utilise syst ampli
+108:
+Uncal control m type
+109:
+UCCM0
+110:
+Uncal control master
+111:
+Control master type
+112:
+UCCM0
+113:
+LCM0
+114:
+FFWCM0
+115:
+FFWCM1
+116:
+FFWCM2
+117:
+FFWCM3
+118:
+Norm control master
+119:
+Canal Axc
+120:
+Nom
+121:
+Nom
+122:
+Canal de mesure
+123:
+Systeme de mesure
+124:
+Non def
+125:
+Serie
+126:
+Par. rel
+127:
+Par. abs
+128:
+Inverse sens rot
+129:
+Normal
+130:
+Inverse
+131:
+Liaison
+132:
+Nom         Type
+133:
+Nom
+134:
+Utilise type liaison
+135:
+Util point control
+136:
+Util charge bras
+137:
+Mouvement rotat
+138:
+Oui
+139:
+Non
+140:
+Rot. centre_x axe
+141:
+Rot. centre_y axe
+142:
+Rot. centre_y axe
+143:
+Rotation axe (u0)
+144:
+Rotation axe (u1)
+145:
+Rotation axe (u2)
+146:
+Rotation axe (u3)
+147:
+Rapport reduction
+148:
+Transm gear high
+149:
+Transm gear low
+150:
+Limite sup. axe
+151:
+Limite inf. axe
+152:
+Position etalon.
+153:
+Acceleration nominale
+154:
+Deceleration nominale
+155:
+Ratio suracc. nominale
+156:
+Ratio surdec. nominale
+157:
+Inertie transmise
+158:
+Pt controle bras
+159:
+Nom
+160:
+Nom
+161:
+Type controle
+162:
+Position
+163:
+Aucun
+164:
+Position x
+165:
+Position y
+166:
+Position z
+167:
+Charge bras
+168:
+Nom
+169:
+Nom
+170:
+Longueur
+171:
+Masse
+172:
+Centre gravite x
+173:
+Centre gravite y
+174:
+Centre gravite z
+175:
+Inertie x
+176:
+Inertie y
+177:
+Inertia z
+178:
+Frein
+179:
+Nom
+180:
+Nom
+181:
+Lim arret ctrl vit
+182:
+Tempo arret ctrl
+183:
+Tempo ctrl frein act
+184:
+Couple frein
+185:
+Lim rampe vit frein
+186:
+Utilise type frein
+187:
+Type Frein
+188:
+Nom
+189:
+Nom
+190:
+Inertie
+191:
+Surveillance
+192:
+Nom         Type
+193:
+Nom
+194:
+Utilise type surveill
+195:
+Power up pos surveill
+196:
+On
+197:
+Off
+198:
+Surveill compteur
+199:
+On
+200:
+Off
+201:
+Surveill pos
+202:
+On
+203:
+Off
+204:
+Surveill vitesse
+205:
+On
+206:
+Off
+207:
+Surveill charge
+208:
+On
+209:
+Off
+210:
+Surveill blocage
+211:
+On
+212:
+Off
+213:
+Course en position
+214:
+Vitesse nulle ( % )
+215:
+Type surveill
+216:
+Nom
+217:
+Nom
+218:
+Dyn pwr up pos lim
+219:
+Duree surcharge max
+220:
+Duree blocage max
+221:
+Teach max sp main
+222:
+Teach norm low spd
+223:
+Teach max sp dsp
+224:
+Syst ampli puiss
+225:
+Syst ampli puiss
+226:
+Nom
+227:
+Externe
+228:
+Oui
+229:
+Non
+230:
+Utilise secteur
+231:
+Utilise transfo
+232:
+Util redresseur
+233:
+Util ampli puiss
+234:
+Fct transf courant
+235:
+Utilise cable
+236:
+Utilise moteur
+237:
+Cycle thermique
+238:
+Cycle effort max
+239:
+Reducteur
+240:
+Secteur
+241:
+Secteur
+242:
+Nom
+243:
+Tension secteur mini
+244:
+Tension secteur maxi
+245:
+Transfo
+246:
+Transfo
+247:
+Nom
+248:
+Utilise transfo type
+249:
+Puissance max
+250:
+Montee temp ambiente
+251:
+Puissance thermique
+252:
+Type transfo
+253:
+Type
+254:
+Nom
+255:
+Tension secondaire
+256:
+Redresseur
+257:
+Nom         Type
+258:
+Nom
+259:
+Type
+260:
+Ampli Puissance
+261:
+Nom       Type
+262:
+Nom
+263:
+Utilise type ampli
+264:
+i_max
+265:
+Type ampli
+266:
+Nom       Type
+267:
+Nom
+268:
+Type
+269:
+Constante Courant
+270:
+Constante vitesse
+271:
+Offset max vitesse
+272:
+Cable
+273:
+Cables
+274:
+Nom
+275:
+Utilise type cable
+276:
+Longueur
+277:
+Moteur
+278:
+Nom         Type
+279:
+Nom
+280:
+Utilise type moteur
+281:
+Offset commutateur
+282:
+Offset com valide
+283:
+Oui
+284:
+Non
+285:
+Offset etalonnage
+286:
+Offset etalon valide
+287:
+Oui
+288:
+Non
+289:
+Type Moteur
+290:
+Nom
+291:
+Nom
+292:
+Paires de poles
+293:
+ke  ( V/rad/s )
+294:
+Courant max (A rms)
+295:
+Cycle thermique
+296:
+Cycles thermiques
+297:
+Nom
+298:
+Couple moyen 0
+299:
+Cycle effort max
+300:
+Cycles effort max
+301:
+Nom
+302:
+Vit abs. max
+303:
+Couple abs. max
+304:
+Reducteur
+305:
+Reducteur
+306:
+Nom
+307:
+Uncal ctrl master 0
+308:
+Nom
+309:
+Nom
+310:
+Kp, gain boucle pos
+311:
+Kv, gain boucle vit
+312:
+Ti T-Int boucle vit
+313:
+Vit max non etal
+314:
+Acc max non etal
+315:
+Dec max non etal
+316:
+Lag ctrl master 0
+317:
+Nom
+318:
+Nom
+319:
+Kp, gain boucle pos
+320:
+Kv, gain boucle vit
+321:
+Ti T-Int boucle vit
+322:
+Filtre Notch actif
+323:
+Oui
+324:
+Non
+325:
+Frequence filtre Notch
+326:
+Largeur filtre Notch

@@ -1,0 +1,47 @@
+54::
+
+27:
+write protected
+
+28:
+not valid for a digital write operation
+
+29:
+not valid for a analog write operation
+
+30:
+not valid for a digital read operation
+
+31:
+not valid for a analog read operation
+
+42:
+not valid for an alias operation
+
+43:
+Could not access the
+
+44:
+time event generator.
+
+46:
+Unable to read I/O signal.\n
+
+47:
+Unable to write I/O signal.\n
+
+48:
+Configuration error for I/O signal.\n
+
+49:
+Check the IO signals configuration\n
+or alias definition.
+
+50:
+Unable to read the I/O signal\n
+%s in unit %s.\n
+
+51:
+Unable to write to the I/O signal\n
+%s in unit %s.\n
+

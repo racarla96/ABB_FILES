@@ -1,0 +1,765 @@
+25::
+0:
+Mouvement
+1:
+Grave erreur mouvement\n
+Impossible de generer le mouvement.\n
+\t\n
+Redemarrer le systeme.
+21:
+Erreur de trainage axe\n
+La position courante de l'axe %s\n
+est trop eloignee de la position de\n
+consigne.\n
+\t\n
+Verifier les parametres 'trim',\n
+les efforts externes, le materiel.
+22:
+Alim puissance trop basse\n
+\n
+\t\n
+Verifier la tension sur les contacteurs\n
+de MOTEURS EN MARCHE (KM1, KM2).\n
+Remplacer le bloc alim. puissance.
+23:
+Erreur de Stop/Reprise\n
+Stop fait alors que trop d'instructions\n
+etaient en attente d'execution.\n
+Reprise impossible.\n
+\t\n
+Verifier le nombre d'instructions de\n
+mouvement avec le commutateur 'Conc'.\n
+Deplacer le Pointeur de Programme\n
+et lancer un nouveau mouvement.
+24:
+Erreur point de passage\n
+Point de passage transforme en point\n
+d'arret sur depassement de temps.\n
+\t\n
+Verifier le nombre d'instructions\n
+entre les instructions move.
+25:
+Reprise trop loin de traj\n
+\n
+\t\n
+Revenir vers la trajectoire.
+26:
+Err. Singularite ou Zone\n
+1. Robot trop proche d'une singularite.\n
+2. Erreur de 'zone' de MoveL vers MoveJ.\n
+\t\n
+1. Utiliser le joystick pour l'ecarter\n
+   de la singularite ou lancer un prog.\n
+   en coordonnees articulaires.\n
+2. Mettre un point d'arret (fine), ou\n
+   modifier la position.
+27:
+Axe hors limites\n
+L'axe %s est hors domaine de travail.\n
+\t\n
+Utiliser le joystick pour ramener l'axe\n
+dans son domaine de travail.
+28:
+Mauvais sens de pilotage\n
+L'axe %s est hors domaine de travail.\n
+Le pilotage a ete fait en mauvais sens.\n
+\t\n
+Piloter l'axe en sens oppose avec le\n
+joystick.
+29:
+Robot hors limites\n
+Le robot a atteint la configuration de\n
+pincement du parallelogramme.\n
+\t\n
+Utiliser le joystick pour ramener l'axe\n
+en cause dans le domaine de travail.
+30:
+Robot hors limites\n
+Pilotage manuel en mauvaise direction\n
+pendant un pincement du parallelogramme.\n
+\t\n
+Piloter l'axe en cause dans le sens\n
+oppose avec le joystick.
+31:
+Commande non autorisee\n
+Les parametres systeme ne peuvent etre\n
+modifies MOTEURS EN MARCHE.\n
+\t\n
+Mettre MOTEURS A L'ARRET.
+32:
+Etalonnage non autorise\n
+Une demande d'etalonnage a ete faite\n
+MOTEURS EN MARCHE.\n
+\t\n
+Mettre MOTEURS A l'ARRET.
+33:
+Commutation non autorisee\n
+Une demande de commutation des moteurs\n
+a ete faite MOTEURS EN MARCHE.\n
+\t\n
+Mettre MOTEURS A l'ARRET.
+35:
+Synchronis. non autorisee\n
+Une demande de synchronisation des axes\n
+a ete faite MOTEURS EN MARCHE.\n
+\t\n
+Mettre MOTEURS A l'ARRET.
+36:
+Retour traj. impossible\n
+Un stop est arrive avec trop de points\n
+de passage proches.\n
+Attention, un depart lancera le robot\n
+vers un point plus loin dans le prog.\n
+\t\n
+Diminuer le nombre de points proches,\n
+augmenter la distance entre eux, ou bien\n
+reduire la vitesse.
+37:
+MOTEURS EN MARCHE ignore\n
+La demande de mise MOTEURS EN MARCHE a\n
+ete ignoree car le stop precedent n'a\n
+pas encore ete acquitte.\n
+\t\n
+Remettre MOTEURS EN MARCHE.
+41:
+Erreur singularite robot\n
+Robot trop proche d'une singularite.\n
+\t\n
+En execution, utiliser l'instruction\n
+SingArea ou l'interpolation articulaire.\n
+En pilotage, selectionner l'articulaire.
+42:
+Erreur systeme\n
+\n
+\t\n
+Augmenter la distance entre points\n
+proches et/ou diminuer la vitesse\n
+ou changer l'acceleration.
+50:
+Position hors d'atteinte\n
+La position de l'axe %.f est\n
+hors de son domaine de travail.\n
+\t\n
+Verifier le referentiel objet.\n
+Verifier les limites de l'axe.\n
+Deplacer l'axe en coord. articulaires.
+52:
+Erreur de vitesse axe\n
+La vitesse de l'axe %s depasse la\n
+vitesse de consigne.\n
+\t\n
+1. Verifier le reglage parametres,\n
+   les efforts externes et le materiel.\n
+2. Diminuer la vitesse programmee.
+53:
+Erreur compteur d'axe\n
+Trop grand ecart entre la valeur du\n
+compteur d'axe de la carte de mesure et\n
+la valeur attendue par la carte robot\n
+pour l'axe %s.\n
+\t\n
+Mettre a jour le compteur d'axe.\n
+Remplacer la carte de mesure serie\n
+'serial measurement board'.
+55:
+Erreur de charge axe\n
+Couple trop eleve sur l'axe %s.\n
+A cause d'une donnee charge incorrecte,\n
+acceleration trop grande, forces\n
+externes trop elevees, basse temperature\n
+ou erreur materielle.\n
+\t\n
+1. Verifier la donnee type 'load data'.\n
+2. Reduire l'acceleration ou la vitesse.\n
+3. Verifier le materiel.
+56:
+Erreur de collision axe\n
+Le couple sur l'axe %s depasse la\n
+consigne de couple a l'arret ou\n
+basse vitesse.\n
+\t\n
+Peut etre du a un blocage (la liaison\n
+est reste collee) ou erreur materiel.
+57:
+Erreur synchronis. axe\n
+La position de l'axe %s apres perte\n
+de l'alimentation est trop eloignee\n
+de la position avant la perte de\n
+l'alimentation.\n
+\t\n
+Refaire une mise à jour du compteur\n
+de tours de l'axe.
+58:
+Erreur coord. outil\n
+La direction de l'axe Z du systeme de\n
+coordonnees outil est parallele avec la\n
+direction de la trajectoire.\n
+\t\n
+Modifier le systeme de coordonnees outil\n
+pour assurer 3 degres d'ecart au moins\n
+entre l'axe Z et la direction de la\n
+trajectoire.
+59:
+Erreur de referentiel\n
+La definition de l'outil porte par le\n
+robot est incorrecte.\n
+\t\n
+Verifier les donnees d'outil et d'objet.
+60:
+Erreur de referentiel\n
+La definition de l'outil porte par le\n
+robot est incorrecte.\n
+\t\n
+Verifier les donnees d'outil et d'objet.
+61:
+Erreur de referentiel\n
+La definition de l'outil porte par le\n
+robot est incorrecte.\n
+\t\n
+Verifier les donnees d'outil et d'objet.
+62:
+Erreur de prog. cercle\n
+Les positions de debut et de fin de\n
+cercle sont trop proches.\n
+\t\n
+
+63:
+Erreur de prog. cercle\n
+La position sur le cercle est trop\n
+proche du debut ou de la fin du cercle.\n
+\t\n
+
+65:
+Erreur geometrique\n
+La destination du mouvement est hors\n
+d'atteinte du robot ou trop proche\n
+d'une singularite (degenerescence).\n
+\t\n
+Modifier la position de destination.
+66:
+Robot inactif\n
+Demande de deplacement ou de calcul de\n
+position d'un robot desactive %s.\n
+\t\n
+Activer le robot par la touche Mouvement\n
+Unite, puis la fenetre Pilotage, ou le\n
+le programme.\n
+Verifier le repere objet, le programme.
+67:
+Unite inactive\n
+Demande de mouvement coordonne ou de\n
+calcul de position de l'axe seul %s\n
+desactive.\n
+\t\n
+Activer l'axe par la touche Mouvement\n
+Unite. Puis la fenetre Pilotage ou le\n
+programme.\n
+Verifier le repere objet, le programme.
+76:
+Erreur orientation\n
+L'orientation est mal definie.\n
+\t\n
+Faire une normalisation plus precise des\n
+elements du quaternion.
+78:
+Trop de positions proches\n
+Trop de positions consecutives proches.\n
+\t\n
+Augmenter la distance entre positions\n
+consecutives proches.
+79:
+Balayage impossible\n
+\n
+\t\n
+Diminuer l'amplitude du balayage du\n
+poignet ou utiliser un plus grand outil.
+80:
+Position non compatible\n
+La position ne peut etre atteinte avec\n
+avec la configuration donnee du robot.\n
+\t\n
+Modifier la position du robot\n
+dans le programme.
+82:
+Limite en deceleration\n
+Le calcul du temps de deceleration de\n
+l'axe depasse la capacite interne pour\n
+ce mouvement.\n
+Eliminer les causes de l'erreur (Verif).\n
+\t\n
+Reduire vitesse, utiliser points arret,\n
+augmenter param. AccSet. Verifier dece-\n
+leration axes ext., bruit connexion E/S.\n
+Augmenter parametres dynamic_resolution,\n
+path_resolution, std_servo_que_time.
+83:
+Vitesse abaissee\n
+La vitesse a ete diminuee par le systeme\n
+en raison de limitations dynamiques.\n
+\t\n
+Diminuer la vitesse, ne pas utiliser\n
+de positions proches a haute vitesse,\n
+augmenter l'acceleration (si inf. 100%).
+85:
+Trop de referentiels\n
+L'unite mecanique %s a ete definie\n
+avec plus d'un referentiel utilisateur.\n
+\t\n
+Enlever un referentiel utilisateur\n
+ou definir une unite mecanique en plus.
+86:
+Erreur singularite axe 4\n
+Robot trop proche de la singularite\n
+du poignet pour respecter la resolution\n
+numerique de l'axe 4 d'un IRB.\n
+\t\n
+Modifier la position de destination de\n
+quelques increments.
+87:
+Erreur singularite axe 6\n
+Robot trop proche de la singularite du\n
+poignet pour assurer la resolution\n
+numerique de l'axe 6 d'un IRB.\n
+\t\n
+Modifier la position de destination de\n
+quelques increments.
+88:
+Reprise impossible\n
+Il n'est pas possible de rejoindre la\n
+trajectoire a cause d'une erreur\n
+anterieure.\n
+\t\n
+Deplacer le pointeur de programme (PP)\n
+et lancer un nouveau mouvement.
+89:
+Freq. balayage trop basse\n
+Le pas de balayage et/ou la periode de\n
+temps de balayage sont trop faibles.\n
+\t\n
+Augmenter le pas de balayage et/ou\n
+diminuer la periode de temps.
+91:
+Redemarrage impossible\n
+Le changement d'unite a rendu impossible\n
+le redemarrage du programme.\n
+\t\n
+Deplacer le pointeur de programme (PP)\n
+et lancer un nouveau mouvement.
+92:
+Erreur de la carte axes\n
+Message invalide de la carte axes.\n
+\t\n
+Verifier les param. de configuration.\n
+Verifier la carte axes.
+93:
+Charge trop importante\n
+La masse definie dans la donnee charge\n
+(type 'load data') est trop elevee.\n
+\n
+\n
+\n
+
+94:
+Reglage non disponible\n
+Le reglage n'est pas implante pour cet\n
+axe.\n
+\t\n
+
+95:
+Axe externe inactif\n
+Verifier la configuration et\n
+l'activation des axes externes.\n
+\t\n
+
+100:
+Erreur Manipulateur\n
+Il y a de nombreuses erreurs de\n
+configuration ou d'erreurs numeriques\n
+concernant le domaine du mouvement.\n
+\t\n
+Corriger les erreurs anterieures avant\n
+de reessayer.
+101:
+Erreur conf. Manipulateur\n
+'%s' non libre\n
+pour param '%s'\n
+dans type '%s' nomme\n
+'%s'.\n
+\t\n
+Utiliser un autre nom.\n
+Pour les noms internes, cf moc_chk.log.
+102:
+Erreur conf. Manipulateur\n
+'%s' utilise dans le\n
+parametre '%s' dans\n
+type '%s' nomme\n
+'%s' n'est pas\n
+defini.\n
+\t\n
+Utiliser un autre nom qui soit defini\n
+ou definir celui utilise.\n
+Pour les noms internes, cf moc_chk.log.
+103:
+Erreur num. Manipulateur\n
+L'orientation definie par quaternions\n
+incluant '%s' dans\n
+le type '%s' nomme\n
+'%s' n'est pas\n
+normalise.(SQRSUM =1)\n
+\t\n
+Verifer les quaternions et/ou les.\n
+recalculer.\n
+Pour les noms internes, cf moc_chk.log.
+104:
+Erreur numerique Manip.\n
+Le parametre '%s'\n
+dans type '%s' nomme\n
+'%s' n'est pas\n
+'%s'\n
+\t\n
+Verifier les valeurs.\n
+Pour les noms internes, cf moc_chk.log.
+128:
+Erreur Verif. Manip.\n
+Termine la verification du sujet\n
+Manipulateur apres erreurs anterieures.\n
+\t\n
+Corriger les erreurs precedentes puis\n
+relancer la verification.
+130:
+Erreur synchronisation\n
+La tentative de synchronisation a echoue\n
+pour l'axe %s.\n
+\t\n
+Refaire la synchronisation.\n
+Relancer le systeme.
+131:
+Erreur d'etalonnage\n
+La tentative d'etalonnage a echoue\n
+pour l'axe %s.\n
+\t\n
+Refaire l'etalonnage.\n
+Relancer le systeme.
+132:
+Erreur de commutation\n
+La tentative de commutation a echoue\n
+pour l'axe %s.\n
+\t\n
+Refaire la commutation.\n
+Relancer le systeme.
+133:
+Erreur de test signal\n
+Pas de signaux de test disponible\n
+pour le robot maitre.\n
+\t\n
+
+134:
+Erreur correct. vecteur\n
+Les calculs de correction vecteur ont\n
+echoue a cause d'une erreur anterieure.\n
+\t\n
+
+135:
+SoftAct impossible\n
+L'asservissement souple 'soft servo' ne\n
+peut pas etre active.\n
+\t\n
+
+136:
+SoftAct impossible\n
+L'asservissement souple 'soft servo' ne\n
+peut pas etre modifie durant la phase\n
+de rampe.\n
+\t\n
+
+137:
+Point d'arret insere\n
+Une donnee de zone est changee 'fine'\n
+(point d'arret).\n
+Il y a trop d'instructions Move\n
+consecutives sans point d'arret 'fine'.\n
+\t\n
+
+138:
+Controle bras hors limite\n
+Le robot a atteint sa limite pour le\n
+point de controle du bras.\n
+\t\n
+Utiliser le joystick pour ramener l'axe\n
+en cause dans son domaine de travail.
+139:
+Controle bras hors limite\n
+Pilotage manuel en mauvaise direction\n
+amenant le point de controle du bras\n
+en dehors de son domaine de travail.\n
+\t\n
+Piloter l'axe en cause dans le sens\n
+oppose avec le joystick.
+140:
+Charge utile trop lourde\n
+Une charge utile elevee a entraine le\n
+depassement de la limite de couple\n
+statique sur l'axe %s.\n
+\t\n
+Verifier et reduire la charge utile\n
+pour le bras et/ou le poignet.\n
+Restreindre le domaine de travail pour\n
+reduire le couple statique de pesanteur.
+141:
+Err Vitesse ou Pilotage\n
+1. Robot trop proche d'une singularite.\n
+2. Erreur de pilotage manuel.\n
+3. Erreur due a une trop grande vitesse.\n
+\t\n
+1. S'ecarter de la singularite ou lancer\n
+   le programne en coord. articulaires.\n
+2. Essayer a nouveau.\n
+3. Reduire la vitesse programmee.
+142:
+Erreur conf. Manipulateur\n
+Echec de configuration du manipulateur.\n
+\t\n
+Verifier les valeurs des parametres\n
+sous Parametres Systemes:Manipulateur.
+143:
+Erreur conf. axes Robot\n
+La configuration reelle differe de la\n
+configuration demandee ou la variation\n
+d'axe 4/6 a faire est trop grande.\n
+\t\n
+Utiliser SingArea\Wrist ou ConfL\Off,\n
+modifier la position ou inserer un point\n
+intermediaire.
+144:
+Depl. ref. incertain\n
+Etalonnage de deplacement de referentiel\n
+1. Mauvais outil (CDO).\n
+2. Points de ref. non precis.\n
+2. Points de ref. mal espaces.\n
+\t\n
+Si l'erreur estimee est inacceptable:\n
+1. Verifier si l'outil est correct.\n
+2. Essayer avec plus de 3 points de ref.\n
+3. Prendre soin du positionnement du\n
+   robot sur les points de ref.
+145:
+Limitation geometrique\n
+Limitation geometique, pas de solution\n
+obtenue.\n
+1. Trop long segment.\n
+2. Position proche d'une singularite.\n
+3. Axe hors limites.\n
+4. Position hors d'atteinte.\n
+1. Inserer un point intermediaire pour\n
+   reduire la longueur du segment.\n
+2. Utiliser MoveAbsJ.\n
+3-4. Verifier le domaine de travail.\n\t
+146:
+Limitation de relance\n
+Point de passage execute en point arret.\n
+Redemarrage sur perte d'alimentation\n
+non possible pres du point d'arret.\n
+\t\n
+Utiliser point d'arret (fine) dans instr\n
+Move apres les instructions RestoPath,\n
+ActUnit, Wait ou Stop pour permettre\n
+un demarrage apres perte alimentation.
+147:
+Echec relance perte alim\n
+La regeneration de trajectoire a echoue.\n
+\t\n
+Deplacer le point de depart et relancer\n
+un nouveau mouvement.
+148:
+MOC_WRONG_MAIN_ISR_TYPE\n
+Tentative d'appel d'une routine\n
+d'interruption non existante dans\n
+'main computer' depuis 'axis computer'.\n
+\t\n
+
+149:
+MOC_SCHED_QUEUE_FULL\n
+Erreur de file pleine du 'scheduler'\n
+dans 'axis computer'.\n
+\t\n
+
+150:
+MOC_WRONG_CMD_TYPE\n
+'axis computer' a recu une commande\n
+depuis 'main computer' qui n'est pas\n
+supportee.\n
+\t\n
+
+151:
+MOC_MAILBOX1_ERROR\n
+Le driver de 'axis computer' a echoue\n
+en generant une nouvelle interruption\n
+'maibox 1' alors que la precedente\n
+n'a pas ete servie correctement.\n
+\t\n
+
+152:
+MOC_MAILBOX2_ERROR\n
+Le driver de 'axis computer' a echoue\n
+en generant une nouvelle interruption\n
+'maibox 2' alors que la precedente\n
+n'a pas ete servie correctement.\n
+\t\n
+
+153:
+Commande non autorisee\n
+L'instruction, ou la commande, n'etait\n
+pas autorisee pendant que le programme\n
+s'executait dans l'etat hold (StopMove).\n
+\t\n
+Modifier le programme ou l'arreter\n
+avant de declencher la commande.
+154:
+Commande non autorisee\n
+Mode d'interpolation 'SingArea\Wrist'\n
+non supporte par le robot IRB6400C.\n
+\t\n
+Remplacer l'instruction SingArea\Wrist\n
+par SingArea\Off.
+155:
+Echec relance perte alim\n
+Il n'est pas possible de relancer\n
+l'instruction Move avant les instr\n
+RestoPath, ActUnit, Wait ou Stop.\n
+\t\n
+Modifier le prog pour s'affranchir du\n
+WARNING MOUVEMENT: '50146 Limitation de\n
+relance', en mettant un pt d'arret dans\n
+l'instruction Move. Deplacer le point\n
+de depart et relancer le mvt.
+156:
+Erreur d'axe independant\n
+L'axe %s n'est pas configure comme\n
+axe independant.\n
+\t\n
+Modifier le programme ou configurer\n
+l'axe comme axe independant.
+157:
+Warning corr. vecteur\n
+Les calculs de correction capteur selon\n
+le vecteur X ont echoue a cause d'une\n
+erreur precedente.\n
+\t\n
+
+158:
+Process capteur manquant\n
+Process capteur manquant a\n
+l'initialisation.\n
+Le nom de process capteur %s\n
+n'est pas trouve ou ne peut etre\n
+initialise.\n
+\t\n
+Verifier le nom du process dans la\n
+configuration mouvement et process.
+159:
+Pas de process capteur\n
+Tentative de mouvement coordonne ou\n
+de calcul de position d'axe seul %s\n
+sans process capteur.\n
+\t\n
+Verifier le nom du process dans la\n
+configuration mouvement et process.
+160:
+Position hors d'atteinte\n
+La position programme de l'axe\n
+independant %s est hors domaine de\n
+travail et donc ne peut etre atteinte.\n
+\t\n
+Changer la position.\n
+Verifier les limites de l'axe, le repere\n
+objet utilise.
+161:
+Trop proche singularite\n
+La zone de singularite du robot comporte\n
+des limitations d'ordre geomtrique.\n
+\t\n
+Pour le pilotage manuel utiliser le\n
+systeme de coordonnees articulaires.\n
+Pour l'execution de programme utiliser\n
+l'instr MoveAbsJ.
+162:
+Erreur interne position\n
+Erreur due a limitation numerique.\n
+\t\n
+Effectuer un reset d'axe independant.\n
+Reduire le domaine de travail.\n
+Supprimer ou ecarter les points trop\n
+proches.
+163:
+Ajustement Pos externe\n
+Ajustement de Pos externe trop grand.\n
+La vitesse du CDO, d'orientation ou\n
+de position externe depasse les\n
+possibilites du robot.\n
+\t\n
+1. Reduire la vitesse programmee\n
+   (CDO et orientation).\n
+2. Modifier la trajectoire.\n
+3. WaitWObj trop proche de sync.\n
+4. Lancer en AUTO.
+164:
+Err. deact axe indep.\n
+Erreur desactivation d'axe independant.\n
+Une desactivation d'unite mechanique ne\n
+peut etre faite en mode independant.\n
+\t\n
+
+165:
+Distance max convoyeur\n
+La position convoyeur %5.3f m\n
+depasse la distance maxi de securite\n
+configuree.\n
+\t\n
+Verifier dans la configuration convoyeur\n
+la distance maxi de position convoyeur.
+166:
+Depassement pos convoyeur\n
+Depassement position convoyeur pendant\n
+le suivi d'un objet. La valeur del'objet\n
+a depasse la plage de mesure admissible.\n
+\t\n
+Augmenter la vitesse programmee.\n
+Changer le coefficient de reduction pour\n
+augmenter la plage de mesure.\n
+Reduire la vitesse du convoyeur.
+167:
+Attention: nouvelle sync\n
+Un nouveau signal de synchro. objet\n
+est arrive pendant que le convoyeur\n
+etait actif et que le prog tournait.\n
+\t\n
+
+168:
+Nouvelle sync objet\n
+Une nouvelle synchronisation objet est\n
+arrivee pendant que le convoyeur suivait\n
+l'objet precedent. Impossible de suivre\n
+deux objets simultanement.\n
+\t\n
+Reduire la vitesse du convoyeur.\n
+Augmenter la vitesse programmee.
+169:
+Echec de coordination\n
+La coordination avec la position externe\n
+a echoue a cause d'une erreur precedente\n
+ou d'un mauvais emploi de DeactUnit,\n
+DropWObj pendant le mouvement coordonne.\n
+\t\n
+
+178:
+Mouvement non optimal\n
+Un mouvement non optimal a necessite\n
+un couple trop eleve.\n
+Il faut ajuster l'acceleration ou la\n
+vitesse.\n
+\t\n
+Reduire l'acceleration (AccSet 50 100)\n
+pour ce mouvement, la remettre ensuite\n
+(AccSet 100 100). Optimiser les perf.\n
+en cherchant l'acc max de 50 a 99.\n
+Ou alors reduire la vitesse.

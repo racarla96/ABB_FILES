@@ -1,0 +1,1288 @@
+23::
+0:
+Hardware
+1203:
+Errore floppy disk\n
+Disco guasto o non inizializzato\n
+\t\n
+1. Ripetere il tentativo\n
+2. Sostituire il disco
+1206:
+Errore floppy disk\n
+Disco guasto o errore interno\n
+\t\n
+1. Ripetere il tentativo\n
+2. Sostituire il disco\n
+3. Inizializzare il sistema
+1210:
+Errore floppy disk\n
+Formato non corretto\n
+\t\n
+1. Sostituire il disco
+1211:
+Errore floppy disk\n
+Errore trasf. dati da/per disco\n
+\t\n
+1. Ripetere il tentativo\n
+2. Sostituire il disco\n
+3. Inizializzare il sistema
+1214:
+Errore floppy disk\n
+Trasferimento dati interrotto\n
+\t\n
+1. Ripetere il tentativo\n
+2. Inizializzare il sistema
+1215:
+Errore floppy disk\n
+Comando interno non valido\n
+\t\n
+1. Ripetere il tentativo\n
+2. Inizializzare il sistema
+1216:
+Errore floppy disk\n
+Tolto disco durante trasferim. dati\n
+\t\n
+1. Ripetere il tentativo\n
+2. Inizializzare il sistema
+1217:
+Errore floppy disk\n
+Disco o drive guasto\n
+\t\n
+1. Ripetere il tentativo\n
+2. Sostituire il disco\n
+3. Inizializzare il sistema
+1219:
+Errore floppy disk\n
+Drive non pronto\n
+\t\n
+1. Ripetere il tentativo\n
+2. Inizializzare il sistema
+1220:
+Errore floppy disk\n
+Disco guasto o errore interno\n
+\t\n
+1. Ripetere il tentativo\n
+2. Sostituire il disco\n
+3. Inizializzare il sistema
+1221:
+Errore floppy disk\n
+Errore dati\n
+\t\n
+1. Ripetere il tentativo\n
+2. Sostituire il disco\n
+3. Inizializzare il sistema
+1222:
+Errore floppy disk\n
+Errore interno - overrun\n
+\t\n
+1. Ripetere il tentativo\n
+2. Inizializzare il sistema
+1223:
+Errore floppy disk\n
+Disco guasto o errore interno\n
+\t\n
+1. Ripetere il tentativo\n
+2. Sostituire il disco\n
+3. Inizializzare il sistema
+1224:
+Errore floppy disk\n
+Disco protetto in scrittura\n
+\t\n
+1. Rimuovere la protezione
+1225:
+Errore floppy disk\n
+Disco guasto - Indirizzo mancante\n
+\t\n
+1. Sostituire il disco
+1226:
+Errore floppy disk\n
+Dati non corretti su disco\n
+\t\n
+1. Sostituire il disco
+1227:
+Errore floppy disk\n
+Disco Guasto\n
+\t\n
+1. Sostituire il disco
+1228:
+Errore floppy disk\n
+Disco Guasto\n
+\t\n
+1. Sostituire il disco
+1229:
+Errore floppy disk\n
+Disco Guasto\n
+\t\n
+1. Sostituire il disco
+1601:
+Errore checksum HI PROM:\n
+Checksum %.f doveva essere: %.f\n
+\t\n
+Sostituire le PROMS o il robot computer
+1602:
+Errore checksum LowPROM:\n
+Checksum %.f doveva essere: %.f\n
+\t\n
+Sostituire le PROMS o il robot computer
+1603:
+Errore checksum PROM:\n
+Checksum %.f doveva essere: %.f\n
+\t\n
+Sostituire le PROMS o il robot computer
+1605:
+Errore mem. I/O computer\n
+\n
+\t\n
+Sostituire la scheda robot computer
+1606:
+Errore mem. I/O computer\n
+\n
+\t\n
+Sostituire la scheda robot computer
+1607:
+Errore mem. I/O computer\n
+\n
+\t\n
+Sostituire la scheda robot computer
+1608:
+Errore checksum I/O comp\n
+\n
+\t\n
+Sostituire la scheda robot computer
+2301:
+Errore mem MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+2302:
+Errore mem MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+2303:
+Errore mem MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+2305:
+Errore scrittura ESP MEM\n
+\n
+\t\n
+Sostituire scheda espansione memoria
+1401:
+Errore DMA\n
+DMA trasferisce errore\n
+nel ROBOT computer\n
+\t\n
+Sostituire la scheda robot computer
+1402:
+Errore DMA\n
+DMA trasferisce errore\n
+nel ROBOT computer\n
+\t\n
+Sostituire la scheda robot computer
+1403:
+Errore DMA\n
+DMA trasferisce errore\n
+nel ROBOT computer\n
+\t\n
+Sostituire la scheda robot computer
+1404:
+Errore DMA\n
+DMA trasferisce errore\n
+nel ROBOT computer\n
+\t\n
+Sostituire la scheda robot computer
+1405:
+Prog assi mancanti\n
+PROM non contiene prog assi\n
+\t\n
+Sostituire le PROMS sul robot computer
+1406:
+Errore mem.\n
+Errore mem nel AXIS computer\n
+\t\n
+Sostituire la scheda robot computer
+1407:
+Errore AXIS computer\n
+\n
+\t\n
+Verif. se il segnale DRVFLT-N colleg.\n
+Sostituire la scheda robot computer
+1408:
+Errore AXIS computer\n
+\n
+\t\n
+Sostituire la scheda robot computer
+1409:
+Errore ROBOT computer\n
+\n
+\t\n
+Sostituire la scheda robot computer
+1410:
+Errore AXIS computer\n
+\n
+\t\n
+Sostituire la scheda robot computer
+1411:
+Errore AXIS computer\n
+\n
+\t\n
+Sostituire la scheda robot computer
+1414:
+Errore MAIN computer\n
+\n
+\t\n
+1. Sostituire la scheda main computer\n
+2. Sostituire la scheda robot computer
+1415:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+1416:
+Errore PATH computer\n
+\n
+\t\n
+Sostituire la scheda path computer
+1417:
+Errore PATH computer\n
+\n
+\t\n
+Sostituire la scheda path computer
+1418:
+Errore trasf. DMA\n
+Errore trasf DMA nel ROBOT computer\n
+\t\n
+Sostituire la scheda robot computer
+1419:
+Errore trasf. DMA\n
+Errore trasf DMA nel ROBOT computer\n
+\t\n
+Sostituire la scheda robot computer
+1420:
+Errore trasf. DMA\n
+Errore trasf DMA nel ROBOT computer\n
+\t\n
+Sostituire la scheda robot computer
+1421:
+Errore nel I/O computer\n
+\n
+\t\n
+Sostituire la scheda robot computer
+1114:
+Errore di bus\n
+Errore accesso bus/MAIN computer\n
+\t\n
+1. Sostituire la scheda main computer\n
+2. Sostituire la scheda robot computer
+1501:
+Tensione batteria bassa\n
+Tensione batteria 1 troppo bassa\n
+\t\n
+Sostituire batteria 1
+1502:
+Tensione batteria bassa\n
+Tensione batteria 2 troppo bassa\n
+\t\n
+Sostituire batteria 2
+1503:
+Tensione batterie bassa\n
+su entrambe le batterie\n
+\t\n
+Sostituire le batterie
+3301:
+Errore AXIS computer\n
+\n
+\t\n
+Sostituire la scheda robot computer
+3302:
+Errore AXIS computer\n
+\n
+\t\n
+Sostituire la scheda robot computer
+3303:
+Errore AXIS computer\n
+\n
+\t\n
+Sostituire la scheda robot computer
+3304:
+Errore AXIS computer\n
+\n
+\t\n
+Sostituire la scheda robot computer
+3305:
+Errore mem AXIS computer\n
+\n
+\t\n
+Sostituire la scheda robot computer
+3306:
+Errore test Unita' Drive\n
+\n
+\t\n
+--
+3307:
+Errore test Unita' Drive\n
+\n
+\t\n
+--
+3308:
+Errore AXIS computer\n
+\n
+\t\n
+Sostituire la scheda robot computer
+3309:
+Errore AXIS computer\n
+\n
+\t\n
+Sostituire la scheda robot computer
+3310:
+Errore AXIS computer\n
+\n
+\t\n
+Sostituire la scheda robot computer
+3311:
+Axis computer\n
+Errore loopback rif. corrente\n
+\t\n
+Sostituire la scheda robot computer
+3312:
+Errore AXIS computer\n
+Errore segnale RUNNING/DRVFLT\n
+\t\n
+1. Sostituire la scheda robot computer\n
+2. Verificare le unita' drive
+3313:
+Errore comumicaz.\n
+Errore comumicaz. assi est.\n
+\t\n
+--
+3314:
+Errore AXIS computer\n
+\n
+\t\n
+Sostituire la scheda robot computer
+3315:
+Errore AXIS computer\n
+\n
+\t\n
+Sostituire la scheda robot computer
+3316:
+Errore AXIS computer\n
+Errore comunicazione\n
+di axis computer\n
+\t\n
+Sostituire la scheda robot computer
+3317:
+Errore AXIS computer\n
+Errore comunicazione\n
+di axis computer\n
+\t\n
+Sostituire la scheda robot computer
+7001:
+Errore contatt attivato\n
+Contatt motor on non attivato o\n
+segnale motor on non distribuito\n
+a contatto ausiliario\n
+\t\n
+Riavviare Sistema\n
+Sostituire contatt Motor On o\n
+contatto ausiliario\n
+Sostituire scheda sistema
+7002:
+DSQC306 guasta\n
+Software non caricato\n
+su main computer\n
+oppure con problemi\n
+\t\n
+
+7003:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire scheda main computer
+7004:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7005:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7006:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7007:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7008:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7009:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7010:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7011:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7012:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7013:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7014:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7015:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7016:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7017:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7018:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7019:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7020:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7021:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7022:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7023:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7024:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7025:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7026:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7027:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7028:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7029:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7030:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7031:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7032:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7033:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7034:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7035:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7036:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7037:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7038:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7039:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7040:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7041:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7042:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7043:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7044:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7045:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7046:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7047:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+7048:
+Errore MAIN computer\n
+\n
+\t\n
+Sostituire la scheda main computer
+1701:
+Overrun canale seriale\n
+Errore di overrun\n
+canale seriale %.f\n
+\t\n
+1. Verif. i parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1702:
+Errore canale seriale 2\n
+\n
+\t\n
+1. Verif. i parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1703:
+Errore canale seriale 3\n
+\n
+\t\n
+1. Verif. i parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1704:
+Errore canale seriale 5\n
+\n
+\t\n
+1. Verif. i parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1705:
+Errore canale seriale 8\n
+\n
+\t\n
+1. Verif. i parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1706:
+Err parita' canale ser.\n
+Errore parita' canale seriale %.f\n
+\t\n
+1. Verif. i parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1707:
+Errore parita' canale 2\n
+Errore parita' canale seriale 2\n
+\t\n
+1. Verif. i parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1708:
+Errore parita' canale 3\n
+Errore parita' canale seriale 3\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1709:
+Errore parita' canale 5\n
+Errore parita' canale seriale 5\n
+\t\n
+1. Verif. i parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1710:
+Errore parita' canale 8\n
+Errore parita' canale seriale 8\n
+\t\n
+1. Verif. i parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1711:
+Errore riferimento\n
+Errore riferimento canale seriale %.f\n
+\t\n
+1. Verif. i parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1712:
+Errore canale 2\n
+Errore riferimento canale seriale 2\n
+\t\n
+1. Verif. i parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1713:
+Errore canale 3\n
+Errore riferimento canale seriale 3\n
+\t\n
+1. Verif. i parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1714:
+Errore canale 5\n
+Errore riferimento canale seriale 5\n
+\t\n
+1. Verif. i parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1715:
+Errore canale 8\n
+Errore riferimento canale seriale 8\n
+\t\n
+1. Verif. i parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1716:
+Errore canale\n
+Errore canale seriale %.f\n
+\t\n
+1. Verif. i parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1730:
+Errore Timer %.f\n
+\n
+\t\n
+Sostituire la scheda robot computer
+1733:
+Errore canal seriale %.f\n
+I dati ricevuti non sono identici a\n
+quelli trasmessi\n
+\t\n
+1. Verif. i parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1734:
+Errore canale seriale 2\n
+I dati ricevuti non sono identici a\n
+quelli trasmessi\n
+\t\n
+1. Verif. i parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1735:
+Errore canale seriale 3\n
+I dati ricevuti non sono identici a\n
+quelli trasmessi\n
+\t\n
+1. Verif. i parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1736:
+Errore canale seriale 5\n
+I dati ricevuti non sono identici a\n
+quelli trasmessi\n
+\t\n
+1. Verif. i parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1737:
+Errore canale seriale 8\n
+I dati ricevuti non sono identici a\n
+quelli trasmessi\n
+\t\n
+1. Verif. i parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1738:
+Errore Timer o Counter\n
+Errore Timer o Counter  %.f\n
+\t\n
+Sostituire la scheda robot computer
+1742:
+Errore canale seriale 2\n
+Errore handshake\n
+\t\n
+1. Verif. i parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1743:
+Errore canale seriale 3\n
+Errore handshake\n
+\t\n
+1. Verif. i parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1744:
+Errore canale seriale 5\n
+Errore handshake\n
+\t\n
+1. Verif. i parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1745:
+Errore canale seriale 8\n
+Errore handshake\n
+\t\n
+1. Verif. i parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1746:
+Errore canale serial %.f\n
+Errore handshake\n
+\t\n
+1. Verif. i parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1747:
+Errore canale serial %.f\n
+Errore interrupt\n
+\t\n
+1. Verif. i parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+2247:
+Errore interr mailbox 1\n
+Errore interrupt mailbox 1\n
+su I/O computer\n
+\t\n
+Sostituire la scheda robot computer
+2248:
+Errore interr mailbox 2\n
+Errore interrupt mailbox 2\n
+su I/O computer\n
+\t\n
+Sostituire la scheda robot computer
+1108:
+Errore canale seriale\n
+Errore in canale seriale %.f\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1115:
+Errore canale seriale 1\n
+I dati ricevuti non sono identici a\n
+quelli trasmessi\n
+\t\n
+1. Verif. i parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1116:
+Overflow canale serial 1\n
+\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1117:
+Errore parita' canale 1\n
+\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1118:
+Errore riferim canale 1\n
+\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1119:
+Disturbi su canale 1\n
+\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1125:
+Errore canale seriale 7\n
+I dati ricevuti non sono identici a\n
+quelli trasmessi\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1126:
+Overflow canale serial 7\n
+\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1127:
+Errore parita' canale 7\n
+\n
+\t\n
+1. Verif. i parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1128:
+Errore rif canale 7\n
+\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1129:
+Disturbi su canale 7\n
+\n
+\t\n
+1. Verif. parametri di comunicazione\n
+2. Sostituire la scheda robot computer
+1130:
+Errore Porta\n
+\n
+\t\n
+Sostituire la scheda robot computer
+3201:
+Errore lett. AXIS comp.\n
+Errore di lettura dall'unita' computer\n
+assi. Il computer assi non ritorna un\n
+corretto numero di bytes.\n
+\t\n
+Verificare la configurazione sistema\n
+Ricaricare il sistema\n
+Sostituire la scheda robot computer
+3202:
+Errore scritt AXIS comp\n
+Err di scrittura nell'unita' computer\n
+assi. Il computer assi non ritorna un\n
+corretto numero di bytes.\n
+\t\n
+Verificare la configurazione sistema\n
+Ricaricare il sistema\n
+Sostituire la scheda robot computer
+3203:
+Errore ioctl AXIS comp\n
+Errore ioctl nel computer assi\n
+Errore nell'eseguire il comando ioctl\n
+\t\n
+Riavviare il sistema\n
+Ricaricare il sistema\n
+Sostituire la scheda robot computer
+3220:
+Errore AXIS computer\n
+Il computer assi ha segnalato un\n
+codice di errore indicante un\n
+guasto hardware DSP.\n
+\t\n
+Ricaricare il sistema\n
+Sostituire la scheda robot computer
+8001:
+Batteria backup scarica\n
+Batteria di backup scarica sulla\n
+scheda di misura seriale %.f\n
+da ultimo spegnimento o riavvio.\n
+\t\n
+Verif.  tensione batteria senza\n
+alimentazione dopo 18 ore di ricarica\n
+Verif. il collegamento della batteria\n
+alla scheda di misura seriale\n
+Sostituire la batteria.
+3101:
+Errore resolver X\n
+Guasto nel segnale resolver X sul\n
+canale %.f.\n
+Il segnale X e' minore del 'rumore'.\n
+\t\n
+Verificare il resolver e le connes.\n
+Sostituire la scheda di\n
+misura seriale e/o parallela.
+3102:
+Errore resolver Y\n
+Guasto nel segnale resolver Y sul\n
+canale %.f.\n
+Il segnale Y e' minore del 'rumore'.\n
+\t\n
+Verificare il resolver e le connes.\n
+Sostituire la scheda di\n
+misura seriale e/o parallela.
+3103:
+Errore resolver X o Y\n
+Guasto nel segnale resolver X o Y\n
+sul canale %.f.\n
+La somma dei valori dei segnali X e Y\n
+supera il limite massimo.\n
+\t\n
+Verificare il resolver e le connes.\n
+Sostituire la scheda di\n
+misura seriale e/o parallela.
+3104:
+Errore resolver X o Y\n
+Guasto nel segnale resolver X o Y\n
+sul canale %.f.\n
+I segnali X/Y sono minori del 'rumore'\n
+\t\n
+Verificare resolver e le connessioni.\n
+Sostituire la scheda di\n
+misura seriale e/o parallela.
+3105:
+Errore aliment resolver\n
+Guasto sul segnale di alimentazione\n
+del resolver.\n
+\t\n
+Sostituire la scheda di\n
+misura parallela.
+3106:
+Err Offset unita' Drive\n
+L'offset dell'unita' Drive nel canale\n
+%.f fuori limite massimo.\n
+\t\n
+Riavviare il sistema\n
+Sostituire la unita' Drive
+3107:
+Tipo errato di raddriz.\n
+Il tipo di raddrizzatore non e' del\n
+tipo presente in configurazione.\n
+\t\n
+Verificare e/o modificare il file di\n
+configurazione del sistema.
+3108:
+Tipo errato unita' Drive\n
+Il tipo di unita' Drive nel canale %.f\n
+Non e' del tipo presente in config.\n
+\t\n
+Verificare e/o modificare il file di\n
+configurazione del sistema.\n
+Sostituire la unita' Drive.
+3148:
+Errore computer assi\n
+Computer assi si e' bloccato con un\n
+interrupt hardware causato da un\n
+Errore interrupt\n
+\t\n
+Verif. la configurazione del sistema\n
+Ricaricare il sistema\n
+Sostituire la scheda robot computer
+3150:
+Errore Int computer assi\n
+Computer assi si e' bloccato con un\n
+interrupt hardware causato da un\n
+Errore interrupt\n
+\t\n
+Ricaricare il sistema\n
+Sostituire la scheda robot computer
+3151:
+Overflow output cpu assi\n
+Computer assi si e' bloccato con\n
+un interrupt hardware causato da err\n
+di saturazione delle uscite.\n
+\t\n
+Ricaricare il sistema\n
+Sostituire la scheda robot computer
+3152:
+unita' Drive cpu assi\n
+Computer assi si e' bloccato con\n
+un interrupt hardware causato da err\n
+della unita' drive.\n
+\t\n
+Verif. configurazione del sistema\n
+Ricaricare il sistema\n
+Sostituire la unita' Drive.
+3153:
+Overflow Tach cpu assi\n
+Computer assi si e' bloccato con\n
+un interrupt causato da overflow\n
+del registro tachimetriche.\n
+\t\n
+Verif. configurazione del sistema e\n
+riavviare il sistema\n
+Ricaricare il sistema\n
+Sostituire la unita' Drive.
+3154:
+Overflow XY cpu assi\n
+Computer assi si e' bloccato\n
+con un interrupt hardware causato da\n
+saturazione del registro XY.\n
+\t\n
+Riavviare sistema e\n
+Verificare sincronizzazione\n
+Ricaricare il sistema
+3155:
+Overflow RC cpu assi\n
+Il computer assi si e' bloccato con\n
+un interrupt hw causato da overflow\n
+del registro RC (ring controller).\n
+\t\n
+Riavviare il sistema e\n
+verificare contatori rivoluz\n
+Ricaricare il sistema
+3156:
+Errore trasmissione\n
+Manca contatto con sistema misura\n
+seriale. Computer assi bloccato\n
+a causa timeout di trasmissione\n
+\t\n
+Verif. connessioni da armadio contr.\n
+verso robot e scheda misura seriale.\n
+Sostituire scheda di misura seriale o\n
+scheda robot computer.
+3157:
+Errore di trasmissione\n
+Computer assi ha riscon. un errore\n
+durante la trasm. da/verso il\n
+sistema di misura seriale\n
+\t\n
+Verificare connessioni/cavi del sist.\n
+misura seriale. Verificare isolamenti\n
+Verif. se ci sono disturbi elettromag.\n
+nel cavo di colleg. robot/armadio.\n
+Sost. scheda mis. seriale o robot comp
+3158:
+Errore clock cpu assi\n
+Errore unita' clock di computer assi\n
+Main comp non risponde su richiesta\n
+\t\n
+Ricaricare il sistema\n
+Sostituire la scheda main computer
+3159:
+Attenz - vel. Modo Man.\n
+L'asse %.f ha superato la velocita'\n
+max consentita in modo Manuale\n
+\t\n
+Verif. la corretta definiz. massa\n
+Verif. parametri del contr. assi est.\n
+Verificare i punti sing. del robot.\n
+Sostituire L'unita' drive.
+3210:
+Errore Feedback Position\n
+Errore generato in lettura feedback\n
+di posizione sull'asse %.f.\n
+\t\n
+Ricaricare il sistema\n
+Sostituire la scheda main computer
+3211:
+Probl. contr. posizione\n
+Non possib. completare il controllo di\n
+posizione nel tempo consentito.\n
+\t\n
+Ricaricare il sistema
+3212:
+Errore Timeout DMA\n
+Interrotto accesso DMA dalla main\n
+computer al computer assi.\n
+\t\n
+Ricaricare il sistema\n
+Sostituire la scheda main\n
+computer o il computer assi
+3213:
+Errore Operazione DMA\n
+Azione Controllo DMA interrotta dalla\n
+main computer al computer assi.\n
+\t\n
+Ricaricare il sistema\n
+Sostituire la scheda main\n
+computer o il computer assi.
+8010:
+Manca scheda seriale\n
+Scheda misura seriale %.f non trovata\n
+\t\n
+Verif. config. param. di sistema\n
+Verif. connessioni e cavi sistema\n
+di misura seriale\n
+Sostituire la scheda di misura seriale
+8011:
+Errore trasmissione dati\n
+Errore durante trasmis. dati da/a\n
+scheda di misura seriale %.f\n
+\t\n
+Verif. connesioni e cavi del sistema\n
+di misura seriale. Verif. isolamenti\n
+Verif. se ci sono disturbi elettromag.\n
+nel cavo di colleg. robot/armadio.\n
+Sost. scheda misura seriale o robot comp
+8012:
+Errore offset X seriale\n
+Errore segnale offset X su scheda\n
+misura seriale %.f\n
+\t\n
+Sostituire scheda di misura seriale
+8013:
+Errore offset Y seriale\n
+Errore segnale offset Y su scheda\n
+misura seriale %.f\n
+\t\n
+Sostituire scheda di misura seriale
+8014:
+Err linearita' seriale\n
+Errore differenza linear. segnale X-Y\n
+su scheda misura seriale %.f\n
+- Il sist. potreb. oper. con attenz.\n
+- Il sist. non funzionera' in errore\n
+\t\n
+Sostituire scheda di misura seriale
+8015:
+Errore lineare X seriale\n
+Errore linear. seriale  segnale X\n
+su scheda misura seriale %.f\n
+\t\n
+Sostituire scheda di misura seriale
+8016:
+Errore lineare Y seriale\n
+Errore linear. seriale  segnale Y\n
+su scheda misura seriale %.f\n
+\t\n
+Sostituire scheda di misura seriale
+8017:
+Errore Comm Parallela\n
+Errore comunicaz. per scheda\n
+misura parallela\n
+\t\n
+Verif. connes. su scheda assi paral.\n
+Verificare  config. sistema
+8018:
+Offset Paral. AD X\n
+Segnale offset X supera tolleranza su\n
+scheda di misura parallela\n
+\t\n
+Sostit. scheda misura parallela
+8019:
+Offset Paral. AD Y\n
+Segnale offset Y supera tolleranza su\n
+scheda di misura parallela\n
+\t\n
+Sostit. scheda misura parallela
+8020:
+Errore Offset Paral. DA\n
+Offset supera errore tolleranza D/A\n
+conv. su canale %.f su scheda di\n
+misura parallela\n
+\t\n
+Sostit. scheda misura parallela\n
+Usare un diverso canale di misura
+8021:
+Linear. paral. DA-AD\n
+Errore linear. in D/A e A/D conv.\n
+su canale %.f su scheda misura paral.\n
+\t\n
+Sostit. scheda misura parallela
+8022:
+Errore Configurazione\n
+Errore di config.  sistema di misura\n
+su canale %.f\n
+\t\n
+Verif/mod. config. parametri\n
+di Sistema
+9001:
+Errore unita' Drive\n
+DC-link non collegato\n
+Stato: UNIT\n
+\t\n
+Sostituire il DC-link
+9002:
+Errore unita' Drive\n
+Stato di DC-link alim.\n
+Stato: POWER\n
+\t\n
+Sostituire il DC-link
+9003:
+Errore unita' Drive\n
+Tensione DC-link troppo alta\n
+Stato: DC\n
+\t\n
+Sostituire il DC-link
+9004:
+Errore unita' Drive\n
+Tensione DC-link non corretta\n
+Stato: AC -n\n
+\t\n
+Sostituire il DC-link
+9005:
+Errore unita' Drive\n
+Temp. raddrizzat. troppo alta\n
+Stato: T\n
+\t\n
+Sostituire il DC-link
+9006:
+Errore unita' Drive\n
+Temp. Shunt troppo alta\n
+Stato: T\n
+\t\n
+Sostituire il DC-link
+9007:
+Errore unita' Drive\n
++- 15V fuori limite\n
+Stato: U\n
+\t\n
+Sostituire il DC-link
+9008:
+Errore unita' Drive\n
+Guasto ctrl corrente su scheda %.f\n
+Stato: CONTROL-N\n
+\t\n
+Verif./Sostit. l'unita' drive\n
+Verif. cavi motore\n
+Verif. se tolleranza min. del param.\n
+di movimento Mains corrisponde al\n
+reale Mains
+9009:
+Errore Sistema Drive\n
+Corrente troppo alta su\n
+unita' drive %.f\n
+\t\n
+Verif. se motore o circuito\n
+motore in corto circuito\n
+Verif. / Sostit. unita' drive
+9010:
+Errore Sistema Drive\n
+Temp. troppo alta su unita'\n
+drive %.f\n
+\t\n
+Verif. vent. o condizionatore\n
+Modificare programma utente\n
+Verif./Sostit. unita' drive

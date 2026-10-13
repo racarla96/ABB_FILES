@@ -1,0 +1,927 @@
+27::
+0:
+IO & Communicatie
+1000:
+Ongeldige busnaam\n
+Beschrijving\reden:\n
+- Driver %s: heeft een ongeldige busnaam\n
+\t\n
+Controlelijst:\n
+1. Verander de busnaam voor de driver
+1001:
+Gedupliceerd adres\n
+Beschrijving\reden:\n
+- Zelfde adres voor eenheid %s en %s\n
+\t\n
+Controlelijst:\n
+1. Controleer het adres\n
+2. Controleer de bus
+1002:
+Ongeldige driver\n
+Beschrijving\reden:\n
+- Eenheid %s: heeft niet\n
+  gespecificeerde driver\n
+\t\n
+Controlelijst:\n
+1. Vergelijk de drivers met degene die\n
+   voor de eenheid is gespecificeerd.
+1003:
+Ongeldige eenheid\n
+Beschrijving\reden:\n
+- De voor het signaal %s\n
+  gespecificeerde eenheid is niet in\n
+  de eenheidssectie gespecificeerd\n
+\t\n
+Controlelijst:\n
+1.Verander de naam van de eenheid\n
+2.Voeg nwe eenheid toe aan eenhedenlijst
+1004:
+Ongeldige signaallengte\n
+Beschrijving\reden:\n
+- De lengte van het digitale signaal\n
+  %s moet 1 zijn\n
+\t\n
+Controlelijst:\n
+1.Verander de lengte in 1 of\n
+  verwijder de instructie.
+1005:
+Filtertijd ongeldig\n
+Beschrijving\reden:\n
+- Signaal %s: de passieve filtertijd\n
+  moet 0 zijn of %d - %d ms\n
+\t\n
+Controlelijst:\n
+1.Verander de filtertijd
+1006:
+Filtertijd ongeldig\n
+Beschrijving\reden:\n
+- Signaal %s: de actieve filtertijd\n
+  moet 0 zijn of %d - %d ms\n
+\t\n
+Controlelijst:\n
+1.Verander de filtertijd
+1007:
+Log. waarde buiten bereik\n
+Beschrijving\reden:\n
+- Signaal %s: logisch max is kleiner\n
+  of gelijk aan het logische min\n
+\t\n
+Controlelijst:\n
+1.Corrigeer de waarden zodat max\n
+  groter is dan min
+1008:
+Act. waarde buiten bereik\n
+Beschrijving\reden:\n
+- Signaal %s: fysisch max is kleiner\n
+  of gelijk aan fysisch min\n
+\t\n
+Controlelijst:\n
+1.Corrigeer de waarden zodat max\n
+  groter is dan min
+1009:
+Ongeldig type\n
+Beschrijving\reden:\n
+- Signaal %s: het signaaltype is\n
+  ongeldig\n
+\t\n
+Controlelijst:\n
+1.Verander het type
+1010:
+Groep buiten het bereik\n
+Beschrijving\reden:\n
+- Signaal %s: het fysische\n
+  signaalnummer + lengte -1 is > %d\n
+\t\n
+Controlelijst:\n
+1.Verander het fysische signaalnummer\n
+2.Verander de lengte
+1015:
+Overloop van Dig. Input\n
+Beschrijving\reden:\n
+- Het aantal digitale ingangskanalen\n
+  op kaart %d is groter\n
+  dan %d\n
+\t\n
+Controlelijst:\n
+1. Verminder aantal digitale ingangen.
+1016:
+Overloop van Dig. Output\n
+Beschrijving\reden:\n
+- Het aantal digitale uitgangen op\n
+  kaart %d is groter\n
+  dan %d\n
+\t\n
+Controlelijst:\n
+1. Verminder aantal digitale uitgangen
+1017:
+Geen activeringssignaal\n
+Beschrijving\reden:\n
+- Activeringssignaal voor kruis\n
+  referentie ontbreekt\n
+\t\n
+Controlelijst:\n
+1. Er moet een activeringssignaal\n
+   worden gegeven
+1018:
+Overloop activerings sign\n
+Beschrijving\reden:\n
+-Te groot aantal activeringssignalen\n
+ voor de kruisreferentie\n
+\t\n
+Controlelijst:\n
+1. Er mag slechts een activeringssignaal\n
+   gegeven worden
+1019:
+Signaal def. ontbreekt\n
+Beschrijving\reden:\n
+-Het signaal: %s, voor de\n
+ kruisreferentie is niet gedefinieerd\n
+\t\n
+Controlelijst:\n
+1. U moet de signaalnaam in de\n
+   signaalsectie bepalen
+1020:
+Geen resultaatsignaal\n
+Beschrijving\reden:\n
+- Resultaatsignaal ontbreekt\n
+\t\n
+Controlelijst:\n
+1. Er moet minstens een\n
+   resultaatsignaal worden gegeven
+1021:
+Dubbele kruisverbindingen\n
+Beschrijving\reden:\n
+- Het signaal: %s, verschijnt zowel\n
+  als VAN en als NAAR.\n
+\t\n
+Controlelijst:\n
+1. Hetzelfde signaal kan niet worden\n
+   gegeven voor zowel VAN als NAAR
+1022:
+Fysisch max te groot\n
+Beschrijving\reden:\n
+- Signaal: %s\n
+- De fysische max waarde > %d\n
+\t\n
+Controlelijst:\n
+1. Verander de waarde in de configuratie
+1023:
+Fysisch min te laag\n
+Beschrijving\reden:\n
+- Signaal: %s\n
+- De fysische min waarde < %d\n
+\t\n
+Controlelijst:\n
+1. Verander de waarde in de configuratie
+1024:
+Fysische waarde te groot\n
+Beschrijving\reden:\n
+- Signaal: %s\n
+- Huidige waarde = %d > Maxwaarde = %d\n
+- Waarde wordt op Maxwaarde ingesteld\n
+\t\n
+Controlelijst:\n
+1. Verander de fysische max waarde in\n
+   de configuratie
+1025:
+Fysische waarde te laag\n
+Beschrijving\reden:\n
+- Signaal: %s\n
+- Huidige waarde = %d < Minwaarde = %d\n
+- Waarde wordt op Minwaarde ingesteld\n
+\t\n
+Controlelijst:\n
+1. Verander de fysische min. waarde in\n
+   de configuratie
+1026:
+Logische waarde te groot\n
+Beschrijving\reden:\n
+- Signaal: %s\n
+- Huidige waarde %d < Maxwaarde %d\n
+- Waarde wordt ingesteld op Maxwaarde\n
+\t\n
+Controlelijst:\n
+1. Verander de logische max waarde in\n
+   de configuratie
+1027:
+Logische waarde te laag\n
+Beschrijving\reden:\n
+- Signaal: %s\n
+- Huidige waarde %d < Minwaarde %d\n
+- Waarde wordt ingesteld op Minwaarde\n
+\t\n
+Controlelijst:\n
+1. Verander de logische min. waarde in\n
+   de configuratie
+1033:
+Dig ingang buiten bereik\n
+Beschrijving\reden:\n
+- Het aantal digitale ingangen is\n
+  buiten het bereik op kaartadres %d\n
+  max aantal ingangen is %d\n
+\t\n
+Controle lijst:\n
+1. Verander de configuratie van\n
+   de kaart.
+1034:
+Dig uitgang buiten bereik\n
+Beschrijving\reden:\n
+- Het aantal digitale uitgangen is\n
+  buiten het bereik op kaartadres %d\n
+  max aantal uitgangen is %d\n
+\t\n
+Controle lijst:\n
+1. Verander de configuratie van\n
+   de kaart.
+1036:
+Naam buiten bereik\n
+Beschrijving\reden:\n
+- Het aantal karakters in de\n
+- naam %s\n
+- is groter dan %d karakters of de\n
+- naam ontbreekt.\n
+\t\n
+Controle lijst:\n
+1. Geef een nieuwe naam die binnen de\n
+   limieten valt.
+1037:
+IO kruisverbindings fout\n
+Beschrijving\reden:\n
+- Het signaal %s komt zowel voor als VAN\n
+  en als NAAR in de zelfde verbinding\n
+\t\n
+Controle lijst:\n
+1. Corrigeer de configuratie voor de\n
+   kruisverbindingen waaraan het hier\n
+   boven genoemde signaal is verbonden.
+1038:
+IO kruis niveau te diep\n
+Beschrijving\reden:\n
+- Het niveau van kruisverbindingen in\n
+- dezelfde verbinding is te diep.\n
+- Eerste signaal naam: %s\n
+\t\n
+Controle lijst:\n
+1.Verm. aantal kruisverbindings niveaus
+1041:
+Analoge output overflow\n
+Beschrijving\reden:\n
+- Aantal analoge uitgangen voor\n
+- kaart %s is groter dan %d.\n
+\t\n
+Controle lijst:\n
+1. Verminder aantal analoge uitgangen.
+1042:
+Analoge inputs overflow\n
+Beschrijving\reden:\n
+- Aantal analoge ingangen voor\n
+- kaart %s is groter dan %d.\n
+\t\n
+Controle lijst:\n
+1. Verminder aantal analoge ingangen.
+1043:
+Signaal type fout\n
+Beschrijving\reden:\n
+- Het gespecificeerde type voor\n
+  signaal %s kan niet verbonden\n
+  worden met de gespecificeerde kaart\n
+\t\n
+Controle lijst:\n
+1. Selecteer een ander type.\n
+2. Selecteer een andere kaart.
+1044:
+Overloop fysisch signaal\n
+Beschrijving\reden:\n
+- Het bereik van phsig, of de lengte,\n
+  of phsig en de lengte voor signaal\n
+  %s is groter dan %d\n
+\t\n
+Controle lijst:\n
+1. Verander het fysische signaal nummer\n
+2. Verander de lengte.
+1045:
+Filter specificatie fout\n
+Beschrijving\reden:\n
+- Signaal %s : Er kan geen filter\n
+  tijd gespecificeerd worden voor dit\n
+  type signaal.\n
+\t\n
+Controle lijst:\n
+1. Zet de filter tijd op 0 of\n
+   verwijder de instructie.
+1046:
+Schalings fout\n
+Beschrijving\reden:\n
+- Signaal %s: Schaling kan niet\n
+  uitgevoerd worden\n
+\t\n
+Controle lijst:\n
+1. Verwijder de schalings instructies
+1049:
+Parameter Invert fout\n
+Beschrijving\reden:\n
+- Signaal %s : Dit type signaal kan\n
+  niet geinverteerd worden.\n
+\t\n
+Controle lijst:\n
+1. Alleen digitale signalen kunnen\n
+   geinverteerd worden.
+1050:
+Kruissignaal niet dig.\n
+Beschrijving\reden:\n
+- Signaal %s: Is geen digitaal signaal\n
+\t\n
+Controle lijst:\n
+1. Alleen digitale signalen kunnen\n
+   kruis verbindingen zijn.
+1052:
+Kruisverb. tabel vol\n
+Beschrijving\reden:\n
+-Het tot. aantal verschillende VAN sign.\n
+ opgeteld bij totaal aantal NAAR sign.\n
+ moet kleiner zijn dan %d\n
+\t\n
+Controle lijst:\n
+1. Verminder het aantal signalen.\n
+2. Verminder het aantal toegestane\n
+   kruisverbindingen.
+1053:
+RIO verbinding afwezig\n
+Beschrijving\reden:\n
+- Kan geen toegang krijgen tot de RIO\n
+  kaart omdat de verbinding afwezig is\n
+\t\n
+Controle lijst:\n
+1. Controleer de communicatie kabel\n
+   naar de PLC.\n
+2. Controleer of PLC uitgeschakeld is.
+1054:
+Onjuist signaal type\n
+Beschrijving\Reden:\n
+- Signaal %s:\n
+  Het signaal type is onjuist\n
+\t\n
+Controle lijst:\n
+1. Verander het type
+1055:
+Ongeldige signaal naam\n
+Beschrijving\Reden:\n
+- Symbool %s: is niet gedefinieerd\n
+\t\n
+Controle lijst:\n
+1. Verander de genoemde signaal naam
+1056:
+Power Fail herstel vol\n
+Beschrijving\Reden:\n
+- Symbool %s: is niet ingesteld voor\n
+  Power Fail herstelling.\n
+  De tabel voor Power Fail is vol.\n
+\t\n
+Controle lijst:\n
+1. Verminder de tabelgrootte in\n
+   het startup bestand.\n
+2. Verwijder enige signalen uit de\n
+   herstellijst.
+1058:
+Geen contact met Can node\n
+Beschrijving\Reden:\n
+- Geen contact met Can node verbonden\n
+  aan adres %d\n
+\t\n
+Controle lijst:\n
+1. Controleer het node adres op alle\n
+   Can modules aangesloten op de Can bus\n
+2. Verander het node adres
+1059:
+Fout config. Can node\n
+Beschrijving\Reden:\n
+- Fout tijdens configureren van Can node\n
+  aangesloten op node adres %d\n
+\t\n
+Controle lijst:\n
+1. Corrigeer de configuratie van de\n
+   Can node op het gegeven adres.
+1061:
+Can bus fout\n
+Beschrijving\Reden:\n
+- Abnormaal optredende fouten op de\n
+  Can bus aangesloten op de DSQC319\n
+  op adres %d\n
+\t\n
+Controle lijst:\n
+1. Controleer de communicatiekabel\n
+   met de Can bus
+1072:
+Geen save set on signaal\n
+Beschrijving\Reden:\n
+- Signaal %s\n
+  heeft het Store attribuut niet op YES\n
+\t\n
+Controle lijst:\n
+1. Set het Store attribuut.
+1073:
+Cont gemaakt met Can node\n
+Beschrijving\Reden:\n
+- Contact gemaakt met Can node\n
+  verbonden op node adres %d\n
+\t\n
+Controle lijst:\n
+1. Onderneem geen actie.
+1074:
+Config. buiten tol.\n
+Beschrijving\Reden:\n
+- De IBS starting quarter and rack\n
+  size is buiten tolerantie voor\n
+  kaart %s\n
+\t\n
+Controle lijst:\n
+1. Het starting quarter 1 rack size\n
+   moet kleiner zijn dan 5
+1076:
+Comm. fout van rtp1\n
+Beschrijving\Reden:\n
+- Geen response op de\n
+  seriele verbinding\n
+\t\n
+Controle lijst:\n
+1. Controleer het apparaat en verbinding
+1077:
+Comm. fout van rtp1\n
+Beschrijving\Reden:\n
+- Het is niet mogelijk om\n
+  een bericht te ontvangen\n
+\t\n
+Controle lijst:\n
+1. Controleer de communicatie stroom
+1078:
+Comm. fout van rtp1\n
+Beschrijving\Reden:\n
+- Het antwoord van het apparaat\n
+  heeft een ongeldige frame volgorde\n
+\t\n
+Controle lijst:\n
+1. Controleer of ruis is op de\n
+   seriele verbinding
+1079:
+Pulsen van group output\n
+Beschrijving\Reden:\n
+-Pulsen van group output is niet toegest\n
+\t\n
+Controle lijst:\n
+1. ---
+1080:
+Driver tabel vol.\n
+Beschrijving\Reden:\n
+- Het aantal drivers mag niet\n
+  groter zijn dan %d\n
+\t\n
+Controle lijst:\n
+1. Verminder het aantal drivers.\n
+2. Vergroot het aantal toegestane\n
+   drivers.
+1081:
+Fysische tabel val.\n
+Beschrijving\Reden:\n
+- Het aantal fysische signalen mag niet\n
+  groter zijn dan %d\n
+\t\n
+Controle lijst:\n
+1. Verminder het aantal fysische\n
+   signalen.\n
+2. Vergroot het aantal toegestane sig.
+1082:
+Signaal tabel vol.\n
+Beschrijving\Reden:\n
+- Het aantal gebruikerssignalen mag niet\n
+  groter zijn dan %d\n
+\t\n
+Controle lijst:\n
+1. Verminder het aantal signalen.\n
+2. Vergroot het aantal toegestane\n
+   signalen.
+1083:
+Symbool tabel vol.\n
+Beschrijving\Reden:\n
+- Het aantal symbolen mag niet\n
+  groter zijn dan %d\n
+\t\n
+Controle lijst:\n
+1. Verminder het aantal symbolen.\n
+2. Vergroot het aantal toegestane\n
+   symbolen.
+1084:
+Triggr tabel vol.\n
+Beschrijving\Reden:\n
+-Het aantal toegewezen signalen mag niet\n
+ groter zijn dan %d\n
+\t\n
+Controle lijst:\n
+1. Verminder het aantal toegewezen\n
+   signalen.\n
+2. Vergroot het aantal toegestane\n
+   toegewezen signalen.
+1085:
+Unit tabel vol.\n
+Beschrijving\Reden:\n
+- Het aantal borden mag niet\n
+  groter zijn dan %d\n
+\t\n
+Controle lijst:\n
+1. Verminder het aantal gedef. borden.\n
+2. Vergroot het aantal toegestane\n
+   borden.
+1094:
+Te veel kruis-acties def.\n
+Beschrijving\Reden:\n
+- De kruisverbindingen hebben te\n
+  veel "From" signalen : %s\n
+\t\n
+Controle lijst:\n
+1. Controleer de kruis configuratie.
+1095:
+Te lange cross-acties str\n
+Beschrijving\Reden:\n
+- Het "From" gedeelte in de kruis-string\n
+  is te lang : %s\n
+\t\n
+Controle lijst:\n
+1. Controleer de kruis configuratie.
+1097:
+Parameter opslag fout\n
+Beschrijving\Reden:\n
+- Signaal %s: Dit type signaal\n
+  kan geen opslag optie hebben.\n
+\t\n
+Controle lijst:\n
+1. Alleen digitale signalen kunnen\n
+   "opslag" hebben.
+1098:
+Geen verb. met NFS server\n
+Beschrijving/Oorzaak:\n
+- De verbinding met NFS server\n
+   '%s' is er niet.\n
+\t\n
+Controleer:\n
+1. de NFS server.\n
+2. de netwerk verbindingen.\n
+3. de configuratie.
+1099:
+Geen Trusted NFS server\n
+Beschrijving/Oorzaak:\n
+- De verbinding met de trusted\n
+  NFS server '%s'\n
+  is er niet.\n
+\t\n
+Controleer:\n
+1. de NFS server.\n
+2. de netwerk verbindingen.\n
+3. de configuratie.
+1101:
+Onbekende busnaam\n
+Beschrijving/Reden\n
+- Kaart %s: Onbekende bus-\n
+  naam %s\n
+\t\n
+Kontrolelijst:\n
+1. Verander de busnaam voor de kaart\n
+   betreffende de unittype konfiguratie.
+1102:
+DeviceNet niet compatibel\n
+Beschrijving/Reden:\n
+- Node %d:\n
+  Interne informatie:\n
+  %s, %d\n
+  (%s)\n
+\t\n
+Kontrolelijst:\n
+1. Verbreek de node van de bus\n
+2. Neem kontakt op met ABB
+1103:
+Fout op de I/O-bus\n
+Beschrijving/Reden:\n
+- Een abnormale hoeveelheid fouten op de\n
+  %s bus zijn gedetecteerd.\n
+  De konnektor van de robot CAN I/O zijn\n
+  uitgeschakeld.\n
+\t\n
+Kontrolelijst:\n
+1. Kontroleer de bus terminators\n
+2. Kontroleer I/O-bus voor kortsluiting\n
+3. Hetstart het systeem
+1104:
+Fout op de I/O-bus\n
+Beschrijving/Reden:\n
+- Een abnormale hoeveelheid fouten op de\n
+  %s bus zijn gedetecteerd.\n
+De konnektor voor de externe CAN I/O en\n
+voor de robot CAN I/O zijn uitgeschakeld\n
+\t\n
+Kontrolelijst:\n
+1. Kontroleer de bus terminators\n
+2. Kontroleer de bus voor kortsluiting\n
+3. Hetstart het systeem
+1113:
+IBS user opdrachtfout\n
+Beschrijving/Reden:\n
+- Waarschuwing als gevolg van: %d\n
+\t\n
+Kontrolelijst:\n
+1. Kontroleer de InterBus-S konfiguratie\n
+   naar aanleiding van de bovenstaande\n
+   foutcode.
+1114:
+Ongeldig IP adres\n
+Beschrijving/Reden:\n
+'$s' is geen gelding IP adres\n
+\t\n
+Kontrolelijst:\n
+1. Kontroleer de konfiguratie i.v.m. de\n
+   kommunikatie.
+1115:
+Ongeldige subnet mask\n
+Beschrijving/Reden:\n
+'%s' is geen geldige subnet mask\n
+\t\n
+Kontrolelijst:\n
+1. Kontroleer de konfiguratie i.v.m.\n
+   kommunikatie.
+1117:
+Batterij supervisie res.\n
+Beschrijving/Reden:\n
+De batterij-capaciteit = %d\n
+\t\n
+Kontrolelijst:\n
+Geen
+1118:
+Status batt.-supervisie\n
+Beschrijving/Reden:\n
+De batterij-supervisie verkeerd in ver-\n
+keerde status.\n
+De status is -> %s\n
+\t\n
+Kontrolelijst:\n
+Geen
+1119:
+IO-unit tabel is vol\n
+Beschrijving/Reden:\n
+- Maximum hoeveelheid IO-units van het\n
+  type %s is overschreden.\n
+  Maximum = %d\n
+\t\n
+Kontrolelijst:\n
+1. Verklein het aantal van I0-units
+1120:
+RAP optie niet geinstall.\n
+Beschrijving/Reden:\n
+- de RAP kommunikatie-optie moet gein-\n
+  stalleerd zijn als je RAP wilt konfi-\n
+  gureren of als je SCWrite wilt gebrui-\n
+  ken.\n
+\t\n
+Kontrolelijst:\n
+1. Reboot het systeem en installeer de\n
+   RAP-kommunikatie-optie.
+1121:
+Opstart RAP mislukt.\n
+Beschrijving/Reden:\n
+- Het initialiseren van RAP is mislukt.\n
+\t\n
+Kontrolelijst:\n
+1. Kontroleer interne foutenlogboek voor\n
+   de omschrijving van deze fout.
+1122:
+Foutief IP adres.\n
+Beschrijving/Reden:\n
+- Het adres '%s'\n
+  in protokol '%s'\n
+  is geen juist IP-adres\n
+\t\n
+Kontrolelijst:\n
+1. Verander het IP-adres
+1123:
+Geen gelijk tran. prot.\n
+Beschrijving/Reden:\n
+Het transmissieproktol '%s'\n
+gegeven voor applikatieprotokol '$s'\n
+kan niet gevonden worden.\n
+\t\n
+Kontrolelijst:\n
+1. Verander het transmissieprotokol
+1124:
+Verkeerd trans.prot. NFS\n
+Beschrijving/Reden:\n
+Het transmissieprotokol voor het NFS-\n
+protokol '%s' moet TCP/IP zijn.\n
+\t\n
+Kontrolelijst:\n
+1. Verander het transmissieprotokol.
+1125:
+Mount permissie afgekeurd\n
+Beschrijving/Reden:\n
+Niet toegestaan om de dirctory '%s'\n
+te installeren op de server '%s'.\n
+\t\n
+Kontrolelijst:\n
+1. Verander de User- of Group ID.
+1126:
+Directory niet geexport.\n
+Beschrijving/Reden:\n
+Installeren van directory '%s'\n
+als '%s' mislukt omdat\n
+het niet is geexporteerd op de server\n
+computer '%s', protokol: '%s'.\n
+\t\n
+Kontrolelijst:\n
+1. Exporteer de directory op de server\n
+   computer
+1127:
+ID's zijn niet gelijk\n
+Beschrijving/Reden:\n
+De User- en de Group-ID's moeten de-\n
+zelfde waarde hebben voor alle remote\n
+schijfstations.\n
+\t\n
+Kontrolelijst:\n
+Geen
+1128:
+Ethernet optie niet geins\n
+Beschrijving/Reden:\n
+- De ethernet diensten optie moet gein-\n
+  stalleerd worden als je werkt met re-\n
+  mote mounted schijfstations.\n
+\t\n
+Kontrolelijst:\n
+1. Reboot het robotsysteem en installeer\n
+   de ethernet-diensten optie.
+1129:
+Teveel remote disks\n
+Beschrijving/Reden:\n
+Het maximum aantal remote schijfstations\n
+is '%d'.\n
+\t\n
+Kontrolelijst:\n
+1. Verminder het aantal remote mounted\n
+   schijfstations.
+1130:
+Teveel remote servers\n
+Beschrijving/Reden:\n
+Het maximum aantal servers voor de re-\n
+mote mounted servers is '%d'.\n
+\t\n
+Kontrolelijst:\n
+1. Verminder het aantal servers.
+1131:
+Kan direct. niet mounten\n
+Beschrijving/Reden:\n
+Installeren directory '%s'\n
+op computer '%s' is mislukt.\n
+Protokol: '%s'.\n
+\t\n
+Kontolelijst:\n
+1. Kontroleer de NFS-server instelling
+1132:
+Batterij supervisieblokk.\n
+Beschrijving/Reden:\n
+De Batterijsupervisie is geblokkeerd\n
+omdat de voeding is uit- en ingeschakeld\n
+Het volgende wordt verwijderd: %s\n
+\t\n
+Kontolelijst:\n
+Geen.
+1133:
+Batterij niet opgeladen\n
+Beschrijving/Reden:\n
+De batterij is niet opgeladen na de\n
+eerste oplaadstatus.\n
+\t\n
+Kontrolelijst:\n
+1. Kontroleer of het batlow-signaal vast\n
+   zit op de DSQC347.\n
+2. Kontroleer de batterijaansluitingen.\n
+3. Kontroleer de batterij.
+1137:
+Foutcode van unit\n
+Beschrijving/Reden:\n
+De volgende fout is teruggestuurd:\n
+%s\n
+\t\n
+Kontrolelijst:\n
+1. Kontroleer unit-parameterkonfiguratie
+1139:
+Toegangsfout van IO\n
+Beschrijving/Reden:\n
+- Kan Lees- of Schrijfsignaal %s niet\n
+  uitvoeren als gevolg van geen kom-\n
+  munikatie.\n
+\t\n
+Kontrolelijst:\n
+1. Kontroleer 'Geen kontakt met I/O\n
+   unit' rapport voor de reden.
+1140:
+Parameter act high fout\n
+Beschrijving/Reden:\n
+- Signaal %s: Dit signaaltype kan niet\n
+  aktief hoog gemaakt worden.\n
+\t\n
+Kontrolelijst:\n
+1. Alleen uitgangssignalen kunnen aktief\n
+   hoog gemaakt worden.
+1141:
+Default buiten bereik\n
+Beschrijving/Reden\n
+\t\n
+Kontrolelijst:\n
+1. Verander de default in de\n
+   konfiguratie
+1142:
+Default parameter fout\n
+Beschrijving/Reden:\n
+- Signaal %s: aan dit type signaal\n
+  kan geen default toegekend worden.\n
+\t\n
+Kontrolelijst:\n
+1. Alleen uitgangssignalen kunnen\n
+   default waardes toegewezen krijgen.
+1143:
+CTS/RTS niet toegestaan\n
+Beschrijving/Reden:\n
+- Serieel kanaal %s\n
+  kan geen RTS/CTS-optie hebben.\n
+\t\n
+Kontrolelijst:\n
+1. Verwijder deze optie uit de\n
+   konfiguratie.
+1146:
+Toeschrijffout\n
+Beschrijving/Reden:\n
+- De maximumlimiet is minder dan de\n
+  minimumlimiet.\n
+  maxlimiet = %f\n
+  minlimiet = %f\n
+\t\n
+Kontrolelijst:\n
+1. Maak een korrektie en probeer het\n
+   opnieuw.
+1153:
+Geen toegang tot param.\n
+Beschrijving/Reden:\n
+- Unit %s heeft parameters\n
+  welke niet veranderd kunnen worden\n
+  via de programmeereenheid.\n
+\t\n
+Kontrolelijst:\n
+1. Schrijf de EIO.cfg naar schijf.\n
+2. Gebruik een texteditor om de para-\n
+   meters aan te passen.
+1156:
+IPC wachtrij vol\n
+Beschrijving/Reden:\n
+- de IPC wachtrij %s werd\n
+  vol toen er naar een traproutine ge-\n
+  stuurd werd.\n
+\t\n
+Kontrolelijst:\n
+1. Herstart het systeem.
+1157:
+Ongeldig app type\n
+Beschrijving/Reden:\n
+- Kommunikatieunit %s: heeft een\n
+  niet gespecificeerde Com app type met\n
+  de naam: %s.\n
+\t\n
+Kontrolelijst:\n
+1. Kontroleer de Com app type met degene\n
+   die gespecificeerd is voor de Com\n
+   app.
+1159:
+Toegang signaal illegaal\n
+Beschrijving/Reden:\n
+- Signaal %s:\n
+  De hoeveelheid karakters in\n
+  toegang %s\n
+  is groter dan %d of er is geen naam.\n
+\t\n
+Kontrolelijst:\n
+1. Geef een nieuwe toegang die tussen\n
+   de gestelde limieten past.
+1160:
+Toegangsnivo illegaal\n
+Beschrijving/Reden:\n
+- Signaal %s\n
+  Toegangsnivo %s in de\n
+  groep %s is illegaal\n
+- Legale keuzes: alle/man/auto/geen\n
+\t\n
+Kontrolelijst:\n
+1. Geef een nieuw toegangsnivo die past\n
+   voor de groep.
+1161:
+Toegangsnaam is er niet\n
+Beschrijving/Reden:\n
+- Signaal %s\n
+  De Toegangsnaam %s\n
+  niet gevonden in EIO_USER_ACCES.\n
+\t\n
+Kontrolelijst:\n
+1. Definieer %s in EIO_USER_ACCESS of\n
+   verander de toegangsnaam.

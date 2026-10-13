@@ -1,0 +1,97 @@
+80::
+0:
+Communication
+1:
+Liaison serie
+2:
+Nom
+3:
+Vitesse (bauds)
+4:
+Parite
+5:
+Nbre bits
+6:
+Nbre de stop bits
+7:
+Protocole
+8:
+Adresse Locale (SLIP)
+9:
+Adresse deporte (SLIP)
+10:
+7
+11:
+8
+12:
+1
+13:
+2
+14:
+SLIP
+15:
+XONXOFF
+16:
+SANS
+17:
+300
+18:
+600
+19:
+1200
+20:
+2400
+21:
+4800
+22:
+9600
+23:
+19200
+24:
+38400
+25:
+Sans
+26:
+impaire
+27:
+paire
+28:
+ignore
+29:
+Nom      Canal        Vitesse
+30:
+Canal
+31:
+Canal Physique
+32:
+Transmission Protocole
+33:
+Application Protocole
+34:
+Type
+35:
+PhyCanal
+36:
+PortNo
+37:
+Nom         Type        Canal
+38:
+Nom         Type        PhyCanal
+39:
+Nom         Type        Trans Prot.
+40:
+Trans Prot.
+41:
+Enable SysEvent
+42:
+TRUE
+43:
+FALSE
+44:
+Driver App.
+45:
+Device App.
+46:
+Drivers Application
+47:
+Nom      Driver Trans

@@ -1,0 +1,269 @@
+8::
+0:
+Service
+1:
+Loggar
+2:
+
+3:
+
+4:
+
+5:
+Kalibrering
+6:
+Kommutering
+7:
+Kalib
+8:
+(Manuell kalibrering)
+9:
+Kalibrera...
+10:
+Uppdatera varvräknare...
+11:
+(Visa Uppmätt Position...)
+12: 
+Skriver över logg!\n
+Existerande logg kommer att \n
+skrivas över.\n
+\n
+OK att fortsätta?
+
+13:
+Enhet          Status
+14:
+    Axel       Status 
+15:
+16:
+För kalibrering, inkludera axel och \n
+tryck OK.
+17:
+Inkl
+18:
+Exkl
+19:
+Alla
+20:
+Synkroniserad
+21:
+Osynkroniserad
+22:
+Ej kalibrerad
+23:
+Varvräknare ej uppdat.
+24:
+Kalibrerad
+25:
+Varvräknare uppdaterad
+26:
+Kalibreringen kommer att uppdateras\n
+med inmatade värden.\n
+Går ej att få tillbaka!\n
+\n
+OK att fortsätta?
+27:
+Kalibreringen för alla markerade axlar\n
+kommer att ändras.\n
+Går ej att få tillbaka!\n
+\n
+OK att fortsätta?
+28:
+Varvräknarna för alla markerade\n
+axlar kommer att uppdateras.\n
+Går ej att få tillbaka!\n
+\n
+OK att fortsätta?
+29:
+Ingen axel är inkluderad\n
+\n
+\n
+\n
+Tryck Enter för att försöka igen!
+30:
+Kalibrering utförs!\n
+\n
+Klar om några sekunder...
+31:
+Ej kommuterad
+32:
+Init tillstånd
+33:
+Komm
+34:
+(Manuell kommutering...)
+35:
+Kommutera...
+36:
+\n
+Sparar logg till fil...
+37:
+För kommutering, inkludera axel och\n
+tryck OK.
+38:
+Kommuteringen kommer att uppdateras\n
+med inmatade värden.\n
+Går ej att få tillbaka!\n
+\n
+OK att fortsätta?
+39:
+Kommuteringen för markerade axlar\n
+kommer att ändras.\n
+Går ej att få tillbaka!\n
+\n
+OK att fortsätta?
+40:
+Kommuterad
+41:
+Ingen axel är inkluderad\n
+\n
+\n
+\n
+Tryck Enter för att försöka igen!
+42:
+Kommuteringsprocess startad!\n
+\n
+Klar om några sekunder...
+43:
+Vissa mek enheter är inte\n
+kommuterade. Välj\n
+"kommutering" i Visa-menyn.\n
+Tryck Enter för att fortsätta!
+44:
+Datum & Tid...
+45:
+Datum:
+46:
+Tid:
+47:
+<
+48:
+>
+50:
+Medd
+51:
+Namn                 #     Senast
+52:
+Meddelanden
+53:
+Radera Logg
+54:
+Radera Alla Loggar
+55:
+Special
+56:
+Loggar
+57:
+Meddelanden           Datum
+58:
+Inga meddelanden att visa!
+59:
+Uppdat
+60:
+Uppdatera loggar på kommando
+61:
+Uppdatera loggar automatiskt
+62:
+Alla meddelanden i logg %s\n
+kommer att raderas.\n
+\n
+OK att fortsätta?
+63:
+Alla meddelanden i alla loggar\n
+kommer att raderas.\n
+\n
+OK att fortsätta?
+64:
+Spara %s loggmeddelande som!
+65:
+ELOG
+66:
+%s logg meddelande\n
+Datum för sparande: %s\n
+
+67:
+Gå till rad!
+68:
+Rad:=
+69:
+Fel:
+70:
+Omstart...
+71:
+Omstarts kommando!\n
+Vill du göra en omstart\n
+av roboten.\n
+\n
+OK att fortsätta?
+72:
+Status:
+73:
+Varning:
+74:
+Spara logg-meddelanden som!
+75:
+Koord.sys. Definition
+76:
+Enhet               Typ
+77:
+Välj enhet för vilken definition\n
+av koord.system ska ske.\n
+Enbart enheter som detta kan \n
+definieras för visas.
+78:
+Def...
+79:
+Robot IRB1400
+80:
+Robot IRB1400
+81:
+Robot IRB2400
+82:
+Robot IRB2400
+83:
+Robot IRB3400
+84:
+Robot IRB6400
+85:
+Robot IRBPAL
+86:
+Orbit 160B_1
+87:
+Orbit 160B_2
+88:
+Gantry
+89:
+Åkbana
+90:
+Conveyor
+91:
+Verktygsrotation
+92:
+Fritt roterande
+93:
+BasKoord...
+94:
+Kan inte spara logg! \n
+Ej tillräckligt med minne \n
+eller skrivskyddad disk. \n
+\n
+Tryck på Enter för att försöka igen!
+95:
+Ej använd
+96:
+Två- axel Definition
+97:
+Välj enhet för vilken en \n
+definition ska utföras. \n
+Enbart enheter som detta kan \n
+definieras för visas.
+98:
+Def...
+99:
+Två- axel Definition...
+100:
+(Def)
+101:
+Tillåtna enheter saknas.
+
+

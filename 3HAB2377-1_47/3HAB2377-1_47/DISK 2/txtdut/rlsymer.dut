@@ -1,0 +1,44 @@
+RLSYM::
+
+101:
+Het symbool %s is\n
+type %s niet het verwachtte\n
+type %s.
+102:
+Het symbool %s is\n
+read-only.\n
+RAISE CODE: ERR_SYM_ACCESS=%d
+103:
+Het symbool %s niet gevonden.\n
+RAISE CODE: ERR_SYM_ACCESS=%d
+104:
+Te moeilijk symbool %s.
+105:
+Zoek fout voor\n
+het symbool %s.
+106:
+Het symbool %s\n
+is geen leesbaar object.\n
+RAISE CODE: ERR_SYM_ACCESS=%d
+107:
+Onbekend module naam %s\n
+
+108:
+Te moeilijke module naam %s
+109:
+Te moeilijke routine naam %s
+110:
+Onbekende routine naam %s\n
+
+111:
+Naar object van het type %s\n
+kan niet worden gezocht.
+112:
+Het symbool %s is\n
+vanaf hier niet toegankelijk.\n
+RAISE CODE: ERR_SYM_ACCESS=%d
+113:
+In de instructie %s\n
+de parameter %s\n
+kan niet worden gebruikt zonder\n
+de parameter %s

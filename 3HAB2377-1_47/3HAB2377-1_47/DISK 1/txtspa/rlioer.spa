@@ -1,0 +1,37 @@
+54::
+27:
+protegido escritura
+28:
+no valido para operacion escrt. digital
+29:
+no valido para operacion escrt.analogica
+30:
+no valido para operacion lect. digital
+31:
+no valido para operacion lect. analogica
+42:
+no valido para operacion alias
+43:
+No pude acceder el
+44:
+generador de eventos de tiempo.
+46:
+No puedo leer señal E/S.\n
+
+47:
+No puedo escribir señal E/S.\n
+
+48:
+Error configuracion de señal E/S.\n
+
+49:
+Comprobar configuracion de señales\n
+E/S o definicion de alias.
+50:
+No puedo leer señal E/S\n
+%s en unidad %s.\n
+
+51:
+No puedo escribir a señal E/S\n
+%s en unidad %s.\n
+

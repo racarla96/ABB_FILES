@@ -1,0 +1,95 @@
+Revision 1.12  1996/12/12  07:34:28  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+2::
+0:
+
+1:
+Welcome To
+2:
+ABB Robotics Products AB
+3:
+Check
+4:
+Log
+5:
+Error
+6:
+Cancel Change of Operating Mode!\n
+\n
+\n
+Switch Operating Mode Selector\n
+back to MANUAL
+7:
+Change of Operating Mode
+8:
+Operating Mode has been changed from\n
+MANUAL to AUTO.
+9:
+Operating Mode has been change from\n
+MANUAL to MANUAL FULL SPEED.
+10:
+Please, acknowledge this by pressing OK.\n
+\n
+\n
+(If Cancel, the Operating Mode Selector\n
+ must be switched back to MANUAL)
+11:
+Hold-To-Run!\n
+\n
+Waiting for Hold-To-Run button\n
+to be pressed.
+12:
+(c) Copyright 1993
+13:
+
+14:
+
+15:
+
+16:
+Status
+17:
+\n
+The following units are\n
+Not Synchronized.\n
+To Synchronize,\n
+press Sync (in MOTORS ON).
+18:
+Not Synchronized Units!
+19:
+Unit              Status
+20:
+Synchronizing %s\n
+\n
+\n
+Ready in a short while!
+21:
+Sync
+22:
+An unexpected error has occurred.\n
+Report this error with the following\n
+code and describe the circumstances.
+23:
+Check/save all error logs.\n
+If impossible to continue, perform a\n
+warm start or reboot the system.
+24:
+Unexpected error
+25:
+INTERNAL
+26:
+
+27:
+Current stack is not\n
+based on main routine.\n
+\n
+Complete transition\n
+to Auto mode?
+28:
+\n
+To leave AUTO mode\n
+please turn operating\n
+mode switch to MANUAL.
+

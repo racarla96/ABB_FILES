@@ -1,0 +1,95 @@
+Revision 1.12  1996/12/12  07:34:28  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+2::
+0:
+
+1:
+Welkom bij
+2:
+ABB Robotics Products AB
+3:
+Contr.
+4:
+Log
+5:
+Fout
+6:
+Annuleer de verandering van\n
+de werkingsmodus!\n
+\n
+Draai de keuzeschakelaar van\n
+de werkingsmodus naar MANUEEL
+7:
+De werkingsmodus veranderen
+8:
+De werkingsmodus werd veranderd van\n
+MANUEEL naar AUTO.
+9:
+De werkingsmodus werd veranderd van\n
+MANUEEL naar MANUEEL VOLLE SNELHEID.
+10:
+Bevestig dit door OK te drukken.\n
+\n
+(Bij Annuleren moet de keuzeschakelaar\n
+voor de werkingsmodus teruggedraaid\n
+worden naar de MANUEEL-stand.)
+11:
+Hold-To_Run!\n
+\n
+Wachtend totdat de Hold-To-Run\n
+knop ingedrukt wordt.
+12:
+(c) Copyright 1993
+13:
+
+14:
+
+15:
+
+16:
+Status
+17:
+\n
+De volgende units zijn\n
+niet gesynchroniseerd.\n
+Om te synchroniseren,\n
+druk op Sync (in MOTOREN AAN).
+18:
+Niet gesynchroniseerde units!
+19:
+Units            Status
+20:
+Bezig met synchroniseren\n
+van %s\n
+\n
+Nog even geduld....
+21:
+Sync
+22:
+Een onverwachte fout is opgetreden. Rap-\n
+porteer deze fout met de bijbehorende\n
+melding en beschrijf omstandigheden.
+23:
+Kontroleer/bewaar alle foutenlogboeken.\n
+Als het onmogelijk is door te gaan, doe\n
+dan een warme start of, als dit ook niet\n
+lukt, reboot dan het robotsysteem.
+24:
+Onverwachte fout
+25:
+INTERN
+26:
+
+27:
+Huidige stack is niet\n
+gebaseerd op main routine.\n
+\n
+Maak het omschakelen naar\n
+Auto mode af?
+28:
+\n
+Om AUTO mode te verlaten\n
+zet de sleutel schakelaar\n
+in MANUEEL.

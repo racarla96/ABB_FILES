@@ -1,0 +1,77 @@
+ne parameter.
+ine parameter.
+15::
+1:
+Het object is gedeclareerd\n
+in een read only module en\n
+kan niet gewijzigd worden.
+2:
+Het object is gedeclareerd\n
+in een view only module en\n
+kan niet gewijzigd worden.
+3:
+Naam niet toegestaan! Het\n
+moet beginnen met letter.\n
+Geen gereserveerde woorden!
+4:
+Afloop richting kan niet\n
+veranderd worden binnen een\n
+complexe instructie.
+5:
+Het is niet toegestaan de\n
+afloop richting te verande-\n
+ren binnen deze routine.
+6:
+RAPID syntaxis fout(en).\n
+Fouten in het programma.
+7:
+Kan de afloop niet uitvoe-\n
+ren voorbij de eerste instr\n
+in een blok of routine.
+8:
+Kan de PP niet verplaatsen\n
+naar de gewenste positie.\n
+Probeer een andere pos.
+9:
+Object is gedeclareerd in\n
+een noview module, niet\n
+wijzigen,opslaan en printen
+10:
+Routine is gedeclareerd in\n
+een noview module. Kan\n
+routine inhoud niet tonen!
+11:
+Lokaal datatype niet gede-\n
+fineerd in gekozen modul.\n
+Wijzig module of datatype.
+12:
+Persistente data kan lokaal\n
+worden gedeclareerd. Wijzig\n
+type of scoop.
+13:
+Te lange programma instr.\n
+is afgehakt toen de\n
+file/beeld gemaakt werd.
+14:
+Herstellen kan niet.\n
+De inhoud voor herstellen\n
+is verloren gegaan.
+15:
+Totale array grootte te\n
+groot. Verklein deze!
+16:
+Grootte van array data kan\n
+niet worden getoond.\n
+Verklein deze offline.
+17:
+Geen nieuw data of datatype\n
+switch. Alleen gebruiken\n
+als routine parameter.
+18:
+To long value for pendant.\n
+Please view and edit data\n
+of this datatype offline.
+19:
+To many components for\n
+pendant. Please view and\n
+edit this data offline.

@@ -1,0 +1,22 @@
+%%%
+  VERSION: 1
+  LANGUAGE: ENGLISH
+%%%
+
+MODULE GLTEXT (SYSMODULE, NOSTEPIN, READONLY)
+
+! ----------------
+! $Revision: 1.2 $ 
+! ----------------
+
+ !***************
+ ! Global data  *
+ !***************
+ !Error messages: header (max 24 char), reason (max 40 char), reason (max 40 char)
+ CONST string stErrMess{25,3}:=[["gl01: Chyba spusteni lepeni","nelze spustit bez","argumentu ZAP."],["gl02: Chyba dat lepeni","hodnota pro globalni prejeti fl1","je mimo meze."],["gl03: Chyba dat lepeni","hodnota pro globalni prejeti fl2","je mimo meze."],["gl04: Chyba dat lepeni","hodnota pro gl_on_time v ggundata","je mimo meze."],["gl05: Chyba dat lepeni","hodnota pro gl_off_time v ggundata","je mimo meze."],["gl06: Chyba dat lepeni","hodnota pro fl1_on_time v ggundata","je mimo meze."],["gl07: Chyba dat lepeni","hodnota pro fl1_time v ggundata","je mimo meze."],["gl08: Chyba dat lepeni","hodnota pro fl1_off_time v ggundata","je mimo meze."],["gl09: Chyba dat lepeni","hodnota pro fl2_on_time v ggundata","je mimo meze."],["gl10: Chyba dat lepeni","hodnota pro fl2_time v ggundata","je mimo meze."],["gl11: Chyba dat lepeni","hodnota pro fl2_off_time v ggundata","je mimo meze."],["gl12: Chyba dat lepeni","hodnota pro fl1_type v ggundata","je mimo meze."],["gl13: Chyba dat lepeni","hodnota pro fl2_type v ggundata","je mimo meze."],["gl14: Chyba startu lepeni","lepeni nelze spustit dvakrat.",""],["gl15: Chyba lepeni","vypoctena hodnota analogoveho signalu 1","je prilis velka."],["gl16: Chyba lepeni","vypoctena hodnota analogoveho signalu 2","je prilis velka."],
+["gl17: Chyba ukonceni lepeni","lepeni nelze ukoncit","bez spusteni."],["gl18: Neocekavane zastaveni","zastaveni pri aktivnim lepeni.",""],["gl19: Chyba dat lepeni","hodnota pro fl1_delay v ggundata","je mimo meze."],["gl20: Chyba dat lepeni","hodnota pro fl2_delay v ggundata","je mimo meze."],["gl21: Chyba dat lepeni","hodnota pro fl1_refspeed v ggundata","je mimo meze."],["gl22: Chyba dat lepeni","hodnota pro fl2_refspeed v ggundata","je mimo meze."],
+["gl23: Chyba dat lepeni","hodnota pro ggun_no v ggundata","je mimo meze."],["gl24: Chyba dat lepeni","zmena pistole pri aktivnim lepeni","neni dovolena."],["gl25: Neznama chyba","behem lepeni vznikla neznama chyba.",""]];
+ !Error message reason (max 40 char)
+ CONST string stErrCont:="Lepeni zacne znovu v dalsi instr. ZAP."; 
+ 
+ENDMODULE

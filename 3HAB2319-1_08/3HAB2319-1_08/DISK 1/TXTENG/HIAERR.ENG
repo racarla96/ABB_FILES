@@ -1,0 +1,28 @@
+15::
+1:
+The object is declared\n
+in a read only module\n
+and cannot be modified.
+2:
+The object is declared\n
+in a view only module\n
+and cannot be modified.
+3:
+Name not allowed! It must\n
+begin with a letter and no\n
+reserved words are allowed.
+4:
+Execution direction cannot\n
+be changed within a\n
+complex instruction.
+5:
+Not allowed to change\n
+execution direction\n
+within this routine.
+6:
+RAPID syntax error(s).\n
+Error(s) in program.
+7:
+Cannot execute past first\n
+instruction in a block\n
+or a routine.

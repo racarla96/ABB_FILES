@@ -1,0 +1,157 @@
+14::
+0:
+No object
+1:
+Comodin
+2:
+Final
+3:
+Declaracion Modulo
+4:
+Declaracion dato Constante
+5:
+Declaracion dato Variable
+6:
+Declaracion dato Persistente
+7:
+Declaracion Funcion
+8:
+Declaracion Procedimiento
+9:
+Declaracion Trap
+10:
+Parametro necesario
+11:
+Parametro Opcional
+12:
+Parametro Alternativo
+13:
+Label
+14:
+Return
+15:
+Raise
+16:
+Retry
+17:
+Try Next
+18:
+Connect
+19:
+Exit
+20:
+Goto
+21:
+Asignacion
+22:
+IF
+23:
+Compact IF
+24:
+WHILE
+25:
+FOR
+26:
+TEST
+27:
+Llamada Procedimiento
+28:
+Elseif
+29:
+Case
+30:
+Argumento necesario
+31:
+Argumento opcional
+32:
+Expresion Constante
+33:
+Expresion
+34:
+Literal
+35:
+Variable
+36:
+Nombre de Objeto
+37:
+Nombre de Objeto
+38:
+Tipo de valor
+39:
+Tipo de dato
+40:
+Dimension
+41:
+Comentario
+42:
+
+44:
+
+46:
+
+48:
+
+50:
+No child
+51:
+End
+52:
+Atributo modulo de sistema
+53:
+Atributo modulo NoEntrar
+54:
+Atributo modulo SoloVer
+55:
+Atributo modulo SoloLectura
+56:
+Nombre de Objeto
+57:
+Lista Declaracion de Datos
+58:
+Lista Declaracion de Rutinas
+59:
+Local
+60:
+Tipo
+61:
+Lista de Expresiones
+62:
+Expresiones
+63:
+Declarar Parametro
+64:
+Lista de Instrucciones
+65:
+Lista inversa de Instr.
+66:
+ELSE
+67:
+Modo Parametro Variable
+68:
+Modo Parametro Persistente
+69:
+Modo Parametro Inout
+70:
+Dimensiones
+71:
+Referencia nombre de objeto
+72:
+Referencia Variable
+73:
+Lista de Instrucciones
+74:
+Instruccion
+75:
+ELSEIF
+76:
+De
+77:
+A
+78:
+Paso
+79:
+Lista Case
+80:
+Expresiones
+81:
+Lista Argumentos

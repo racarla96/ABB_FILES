@@ -1,0 +1,272 @@
+Revision 1.8  1995/04/21  13:29:57  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.7  1994/08/19  10:48:07  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+8::
+0:
+Servizio
+1:
+Registro
+2:
+
+3:
+
+4:
+
+5:
+Calibrazione
+6:
+Commutazione
+7:
+Calib
+8:
+(Calibraz. Manuale...)
+9:
+Calibraz...
+10:
+Aggiorn. Counter Resolver...
+11:
+(Visualiz. Posiz. Misurata...)
+12:
+Sovrascrittura del registro!\n
+Il registro esistente sara'\n
+riscritto.\n
+\n
+OK per continuare?
+13:
+Unita'          Stato
+14:
+   Asse       Stato
+15:
+
+16:
+Per calibrare, inser. assi e premere OK.
+17:
+Incl
+18:
+Escl
+19:
+Tutti
+20:
+Sincronizzato
+21:
+Non sincronizzato
+22:
+Non Calibrato
+23:
+Counter Res. non agg.
+24:
+Calibrato
+25:
+Counter Resolver agg.
+26:
+La calibrazione sara' agg. con\n
+i valori in ingresso.\n
+Impossibile annullare in seguito!\n
+\n
+OK per continuare ?
+27:
+La calibrazione per tutti gli assi\n
+segnati sara' effettuata.\n
+Impossibile annullare in seguito!\n
+\n
+OK per continuare ?
+28:
+I Counter Resolver per gli assi\n
+segnati saranno aggiornati.\n
+Impossibile annullare in seguito!\n
+\n
+OK per continuare ?
+29:
+Nessun asse incluso.\n
+\n
+\n
+Premere Invio per\n
+provare nuovamente.
+30:
+Processo Calibraz. iniziato!\n
+\n
+Pronto tra poco...
+31:
+Non Commutato
+32:
+Stato Iniz.
+33:
+Com
+34:
+(Commutaz. Manuale...)
+35:
+Commutaz...
+36:
+Salvataggio reg. nel file...
+37:
+Per commutare, inser. assi e premere OK.
+38:
+La commutazione sara' agg. con\n
+i valori in ingresso.\n
+Impos. annullare in seguito!\n
+\n
+OK per continuare ?
+39:
+La commutazione sara' modif. per\n
+tutti gli assi segnati.\n
+Impossibile annullare in seguito!\n
+\n
+OK per continuare ?
+40:
+Commutato
+41:
+Nessun asse inserito\n
+\n
+\n
+Premere Invio per\n
+provare nuovamente!
+42:
+Processo Commutaz. iniziato!\n
+\n
+Pronto tra poco...
+43:
+Alcuni assi non sono\n
+commutati. Selezionare\n
+Commutazione dal menu\n
+Vista.\n
+Premere Invio per proseguire!
+44:
+Data e ora...
+45:
+Data:
+46:
+Ora:
+47:
+<
+48:
+>
+50:
+Messag
+51:
+Nome              #   Ultimo
+52:
+Messaggi
+53:
+Cancella Registro
+54:
+Cancella Tutti Registri
+55:
+Special
+56:
+Reg
+57:
+Messaggio                Data
+58:
+Nessun messaggio
+59:
+Aggiorn
+60:
+Agg. reg. su comando
+61:
+Agg. reg. su Evento
+62:
+Tutti messaggi nel registro %s\n
+saranno cancellati.\n
+\n
+OK per continuare ?
+63:
+Tutti messaggi in tutti registri\n
+saranno cancellati.\n
+\n
+OK per continuare ?
+64:
+Salva %s reg. messaggi come
+65:
+ELOG
+66:
+%s reg. messaggi\n
+Salvati il: %s\n
+
+67:
+Vai alla Linea!
+68:
+Linea:=
+69:
+Errore:
+70:
+Riavvio...
+71:
+Comando di Riavvio!\n
+Vuoi riavviare il\n
+controllo?\n
+\n
+OK per continuare
+72:
+Stato:
+73:
+Attenzione
+74:
+Salva Reg. messaggi come
+75:
+Definiz. Sist. di Riferim.
+76:
+Unita'            Tipo
+77:
+Selez. l'unita' alla quale si\n
+vuole defin. un sist. di rifer.\n
+Le unita' dove e' possibile def.\n
+sono visualizzate nell'elenco.
+78:
+Def...
+79:
+Robot IRB1400
+80:
+Robot IRB1400
+81:
+Robot IRB2400
+82:
+Robot IRB2400
+83:
+Robot IRB3400
+84:
+Robot IRB6400
+85:
+Robot IRBPAL
+86:
+Orbit 160B_1
+87:
+Orbit 160B_2
+88:
+Portale
+89:
+Slitta
+90:
+Convogliatore
+91:
+Tool rotational
+92:
+Free rotational
+93:
+Sist.Rif.Base...
+94:
+Impos. salvare reg.!\n
+Spazio su disco insuffic. o\n
+disco protetto da scrittura.\n
+Premere Invio per riprovare!
+95:
+Non utiliz.
+96:
+Definizione di due assi
+97:
+Selezionare unita' per la quale\n
+effettuare definizione degli assi.\n
+Sono elencate solo\n
+le unita' con due assi.
+98:
+Def...
+99:
+Definizione due assi...
+100:
+(Def)
+101:
+Nessuna unita' valida disponibile.

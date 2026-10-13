@@ -1,0 +1,926 @@
+Revision 1.10  1995/04/21  13:13:03  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.9  1994/08/19  09:40:30  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+3::
+0:
+Editore di Programma
+1:
+Opzione
+2:
+LI1
+3:
+LI2
+4:
+Test
+5:
+Sotprog
+6:
+Dati
+7:
+Elenco Moduli...
+8:
+Salva Modulo
+9:
+Salva Modulo come...
+10:
+ 
+11:
+Salva Programma
+12:
+Salva Programma come...
+13:
+Utilizzare Lista\n
+Istruzioni per inserire\n
+una nuova istruzione!
+14:
+Cambio Selez.
+15:
+Riferimento
+16:
+NonRiferim
+17:
+Istr.
+18:
+Istr Programma
+19:
+Test Programma
+20:
+Sottoprogrammi
+21:
+Dati
+22:
+Tipo Dati
+23:
+Test
+24:
+Moduli
+25:
+< Premere INVIO >
+26:
+Spost il Cursore al PP
+27:
+Spost PP inizio prog. Main
+28:
+Spost PP al Sotprog...
+29:
+Vari
+30:
+Movimenti e Proc.
+31:
+Flusso Prog.
+32:
+Comuni
+33:
+Definiz. Movim.
+34:
+Interruzioni
+35:
+IO
+36:
+Comunicazione
+37:
+Tipo Dati Programma
+38:
+Gestione Errori
+39:
+Tempo e Sistema
+40:
+Registro Eventi
+41:
+Programma
+42:
+Spost il PP al Cursore
+43:
+Def Punto Interruz
+44:
+Canc Punto Interruz
+45:
+Punti Interruz...
+46:
+Simulaz...
+47:
+Nel sistema
+48:
+switch
+49:
+Nel Modulo
+50:
+Dati
+51:
+Dichiarazione...
+52:
+Duplicazione...
+53:
+Nuovo Sotprog...
+54:
+Tipi
+55:
+Nel Sotprog
+56:
+Nuovo...
+57:
+Valore
+58:
+ModPos
+59:
+Istruz
+60:
+Test
+61:
+Vis.LI
+62:
+-%
+63:
++%
+64:
+Start
+65:
+Simula
+66:
+Spostam
+67:
+Nuovo
+68:
+Dich
+69:
+Dupl
+70:
+Var
+71:
+Funz
+72:
+Spec...
+73:
+Copia Spec...
+74:
+Piu' Comuni 1
+75:
+Piu' Comuni 2
+76:
+
+77:
+
+78:
+
+79:
+tooldata
+80:
+wobjdata
+81:
+Velocita':=
+82:
+Esecuzione:=
+83:
+
+84:
+
+85:
+
+86:
+Nome             Valore
+87:
+Nome             Tipo
+88:
+
+89:
+
+90:
+Matematica
+91:
+Esec.Prog.
+92:
+Nome             Valore          Modulo
+93:
+Nome             Tipo            Modulo
+94:
+(ModPos)
+95:
+Dati
+96:
+Funz
+97:
+Nessun oggetto
+98:
+Sintassi Errata
+99:
+Questo non e' un Programma\n
+o un Modulo Programma.\n
+Provare con un altro!
+100:
+Numeri non consentiti,\n
+usare dati predefiniti
+101:
+Succ
+102:
+Lista Programmi
+103:
+Dati Programma
+104:
+ArgOpz
+105:
+(Info)
+106:
+Proc
+107:
+Locale
+108:
+Globale
+109:
+Nome:=
+110:
+Uso:=
+111:
+Tipo:=
+112:
+Tipo Dato:
+113:
+Dichiar. dato non valida\n
+Controllare nome e valore
+114:
+Costan
+115:
+Cambia
+116:
+Nessun programma inserito\n
+\n
+Utilizzare il menu FILE per\n
+aprire o creare un Programma
+117:
+TipoDato:=
+118:
+Label
+119:
+Inserire prima:
+120:
+Nome         TipoDato    Ric Alt  Modo
+121:
+Salta
+122:
+Trap
+123:
+
+124:
+Oggetto selezionato\n
+senza valore!
+125:
+25%
+126:
+100%
+127:
+Operat
+128:
+Valore Dato Attuale
+129:
+Definizione Sotprog
+130:
+Dichiarazione Sotprog
+131:
+Duplicazione Sotprog
+132:
+Definizione Dato
+133:
+Dichiarazione Dato
+134:
+Duplicazione Dato
+135:
+TRUE
+136:
+FALSE
+137:
+Valore Iniz. Dato
+138:
+Valore Iniz:=
+139:
+Nuovo Valore Iniz. Dato
+140:
+main
+141:
+robtarget
+142:
+bool
+143:
+num
+144:
+Nasc LI
+145:
+Dati Sotprog
+146:
+Dati Num
+147:
+Valore...
+148:
+Tipi Usati
+149:
+Tut tipi
+150:
+Tipi
+151:
+Modulo
+152:
+Lista Moduli
+153:
+Su
+154:
+Definizione Modulo
+155:
+Dichiarazione Modulo
+156:
+Modulo Programma
+157:
+Modulo Sistema
+158:
+Program
+159:
+Sistema
+160:
+Istruzione attuale
+161:
+Argomenti Istruzione
+162:
+Solo una istruzione e'\n
+consentita nel Compact IF
+163:
+Altri
+164:
+(ArgOpz)
+165:
+Pers
+166:
+Il dato e' di tipo che\n
+non puo' avere un valore
+167:
+Oggetto gia' esistente\n
+Cambiare nome
+168:
+
+169:
+
+170:
+Quale sotprog?\n
+Utiliz. "Vista":Sotprog
+171:
+Non esiste prog princ.
+172:
+Comando non eseguito
+173:
+Contenuto nel buffer non\n
+adatto.
+174:
+
+175:
+Il Puntatore Progr. (PP)\n
+non puo' essere definito!\n
+Condizione errata
+176:
+Il Cursore e' spostato\n
+al Puntatore Progr.(PP)
+177:
+Dato di "Solo Lett."\n
+e non modificabile.
+178:
+Nes. nuovo segn puo' esser\n
+inserito.Scegli predef.
+179:
+Dato sistema!\n
+Dichiar. dato non puo'\n
+essere raggiunta.
+180:
+Argomento Funzione
+181:
+Argomento Istruzione
+182:
+Espressione
+183:
+Selez. Procedura
+184:
+Deve essere un dato
+185:
+Sintassi errata\n
+Valore non consentito
+186:
+Sposta
+187:
+Nessun sotprg\n
+selezionato
+188:
+IPL piena!\n
+Impossibile includere\n
+l'istruzione!
+189:
+Programma salvato.
+190:
+Nome                      Tipo
+191:
+Progr Princ
+192:
+Selez. un Prog. o un Modulo
+193:
+Salva Mod. come:
+194:
+Salva Prog. come:
+195:
+Il cursore deve essere\n
+stessa parte di sotprog\n
+del PP!
+196:
+Risult
+197:
+Incl.
+198:
+Escl.
+199:
+
+200:
+Defin
+201:
+Risult. piu' comuni
+202:
+Defin. piu' comuni
+203:
+Procedura
+204:
+Funzione
+205:
+Trap
+206:
+Variabile
+207:
+Costante
+208:
+Persistente
+209:
+IF
+210:
+WHILE
+211:
+FOR
+212:
+TEST
+213:
+GOTO
+214:
+ProcCall
+215:
+Label
+216:
+:=
+217:
+RETURN
+218:
+RAISE
+219:
+CONNECT
+220:
+EXIT
+221:
+RETRY
+222:
+TRYNEXT
+223:
+Compact IF
+224:
+Comment
+225:
+LIBERO Riservato per pallet
+226:
+Sotprog. selezion.
+227:
+Valore
+228:
+Valore caratteri
+229:
+-
+230:
+.
+231:
+  In
+232:
+sotprog
+233:
+modulo
+234:
+param
+235:
+No Alt.
+236:
+Primo
+237:
+Coda
+238:
+Selez. tipo dato:
+239:
+Gestione Errori
+240:
+ERROR - gestione
+241:
+
+242:
+Selez.
+243:
+(No)
+244:
+Limite per spostam. rifer.\n
+raggiunto
+245:
+Controllo Prog.
+246:
+Vai alla pos. selezion...
+247:
+Programma OK!
+248:
+Un parametro non puo'\n
+avere lo stesso nome di\n
+un'altro parametro!
+249:
+string
+250:
+TRUE
+251:
+FALSE
+252:
+ AND
+253:
+ XOR
+254:
+ OR
+255:
+ NOT
+256:
+ DIV
+257:
+ MOD
+258:
+
+259:
+
+260:
+
+261:
+Non sono consentiti param\n
+per un sotprog di interr.
+262:
+Chiudi Programma
+263:
+Gestione Backward
+264:
+wobj0
+265:
+Tool o Wobj nell'istruzione\n
+non e' lo stesso utilizzato\n
+in MovMan!
+266:
+Definire Coord.
+267:
+pose
+268:
+signalai
+269:
+signalao
+270:
+signaldi
+271:
+signaldo
+272:
+signalgi
+273:
+signalgo
+274:
+Agg. Gestione Errori
+275:
+Elimina Gestione Errori
+276:
+Non esiste gestione err.\n
+per questo sotprg!\n
+Utiliz. Sotprog:Agg...
+277:
+Memoria lav. quasi piena!\n
+Salvare prog o prendere\n
+opportune soluzioni.
+278:
+tutti dati
+279:
+Esecuzione!
+280:
+Il modulo e' stato salvato
+281:
+Creare/aprire un progr. ad\n
+accesso moduli di sistema\n
+Alcuni sono gia' caricati!
+282:
+Le strutture della matrice\n
+non poss. essere gestite!.
+283:
+ModPos OK!\n
+NB: PP spostato sulla\n
+istruzione successiva
+284:
+Vuoi cancellare:
+285:
+Vuoi tagliare:
+286:
+Agg. Gestione Backward
+287:
+Elimina Gestione Backward
+288:
+Non esiste gestione\n
+backward per questo sotprog!\n
+Premere Sotprog: Agg...
+289:
+BACKWARD - gestione
+290:
+InOut
+291:
+\n
+Vuoi salvare il vecchio programma\n
+%s\n
+prima di sostituirlo con\n
+%s?
+292:
+Oggetto non cancellabile\n
+in questa finestra!\n
+Premere Vista:...
+293:
+Conten
+294:
+Inser
+295:
+Preferenze
+296:
+Piu' Comuni 3
+297:
+pos
+298:
+orient
+299:
+Sovrascrittura di programma!\n
+Il programma esistente\n
+sara' riscritto.\n
+\n
+OK per continuare ?
+300:
+Servizio
+301:
+i
+302:
+Def. Avanz. Movim.
+303:
+Def. Movim.
+304:
+Computer Est.
+305:
+Multi Tasking
+306:
+Supporto RAPID
+307:
+Autorizz. Programma
+308:
+Cancel. Istr
+309:
+Cancel. Ogg.
+310:
+Il cursore non concide con\n
+Puntatore Prog. (PP)!\n
+Eseg. Start Prog. da:
+311:
+Cursore
+312:
+  PP
+313:
+Conf. Start
+314:
+\n
+Aspettare, Caricam. prog...!
+315:
+\n
+Aspettare, Caricam. modulo...!
+316:
+\n
+Aspettare, Salvatag. prog...!
+317:
+\n
+Aspettare, Salvatag. modul...!
+318:
+Il modulo '%s'\n
+e' gia' esistente!\n
+\n
+Vuoi sostituirlo?
+319:
+Nessun sotprog
+320:
+Nessun dato
+321:
+Nessun parametro
+322:
+.prg
+323:
+.PRG
+324:
+.mod
+325:
+.MOD
+326:
+.sys
+327:
+.SYS
+328:
+Istruz. di Stop
+329:
+IstStop
+330:
+Impossibile utilizzare\n
+finestra di programmaz.\n
+in modo automatico.\n
+Ritorna al modo manuale!
+331:
+NB: Il robot si sta\n
+muovendo verso la\n
+posizione desiderata!
+332:
+Muovere il robot verso\n
+la posiz. selezionata
+333:
+Simulaz.
+334:
+Selez. opzioni simul.
+335:
+Consentita esecuzione in MOTORS OFF
+336:
+Dati di Sistema
+337:
+Dati User
+338:
+Area selez.
+339:
+Memoria lavoro piena !!\n
+\n
+Util. il menu File per salvare\n
+il programma.\n
+Operazione necessaria.
+340:
+Mod Pos non consentito\n
+per una posizione dichiarata\n
+come variabile.
+341:
+Variabile Loop!\n
+Puo` essere solo raggiun.\n
+dall`istruz. FOR.
+342:
+Nascondi IPL
+343:
+Mostra IPL
+344:
+Altro
+345:
+Nel modulo
+346:
+Seleziona il modulo
+347:
+in
+348:
+Def. dati
+349:
+Usati
+350:
+Tutti
+351:
+Istruzioni
+352:
+USER
+353:
+Modifica la posizione
+354:
+Tipo
+355:
+ 
+356:
+Non usato
+357:
+ModPos
+358:
+LModPos
+359:
+Max. Trasl.
+360:
+Max. Rot.
+361:
+Max. Trasl. Estern.
+362:
+Max. Rot. Estern.
+363:
+Modo
+364:
+Ass
+365:
+Rel
+366:
+La posizione attuale\n
+non rientra nei limiti\n
+della funz. Limit ModPos.
+367:
+Il nome della posizione\n
+attuale e' troppo lungo\n
+per la funz. Limit ModPos.
+368:
+La funzione Limit ModPos\n
+e' attiva ma non e'\n
+possib. creare nuovi dati
+369:
+Errore di Limit ModPos!
+370:
+o_robtarget
+371:
+o_
+372:
+Vuoi salvare il vecchio programma\n
+%s\n
+prima di crearne uno nuovo?
+373:
+\n
+Il modulo di sistema '%s'\n
+e' stato modificato ma non salvato!\n
+\n
+Vuoi salvare il modulo di sistema?
+374:
+I seguenti moduli di sistema sono\n
+stati modificati ma non salvati,\n
+%s\n
+Voui salvare i moduli di sistema?
+375:
+Modif Prog
+376:
+present
+377:
+Vuoi modificare il programma?:
+378:
+array
+379:
+Se in mod. auto
+380:
+Liv. ut. richiesto
+381:
+LModPos
+382:
+Come e'
+383:
+c modif
+384:
+No Req.
+385:
+Sottoprog
+386:
+In sottoprog.
+387:
+Nel modulo
+388:
+Nel sistema
+389:
+Programma in stampa
+390:
+Stampa
+391:
+Stampa solo su file:
+392:
+Da stampare
+393:
+Stampa il programma nel file
+394:
+Stampa in corso!
+395:
+Invio per annullare
+396:
+Premere Invio per proseguire
+397:
+La stampante e' impegnata\n
+\n
+riprovare a stampante pronta!
+398:
+Impossibile stampare\n
+troppe stampe in coda\n
+\n
+riprova piu' tardi!
+399:
+Impossibile stampare\n
+Stampante non cofigurata\n
+tra i parametri di sistema.
+400:
+Spazio lib. insuff sull'unita'\n
+in fase di stampa (normalmente\n
+%.9s). Necessari %d bytes\n
+Prego spost./cancel. alcuni file
+401:
+Impegnata\n
+\n
+Attendere prego
+402:
+Impossib. crea\scriv il file\n
+\n
+
+403:
+Il file esiste gia'
+404:
+Programma

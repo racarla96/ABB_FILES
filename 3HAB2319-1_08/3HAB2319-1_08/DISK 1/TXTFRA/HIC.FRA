@@ -1,0 +1,279 @@
+Revision 1.8  1995/04/21  13:26:56  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.7  1994/08/19  10:45:05  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+7::
+0:
+Parametres Systeme
+1:
+ Sujets             Date modifiee
+2:
+Sujets
+3:
+Types
+4:
+Tous sujets
+5:
+Parametres           Info
+6:
+Ajouter
+7:
+Chargement Parametres\n
+en cours !\n
+Pret dans quelques secondes...
+8:
+Changement Mot de Passe
+9:
+Text
+10:
+Sauvegarde Parametres!\n
+\n
+Pret dans quelques secondes...
+11:
+Nouveaux Parametres charges!\n
+\n
+Le Systeme redemarre avec\n
+la commande Redemarrage\n
+dans le menu Fichier.
+12:
+Aller a...
+13:
+Debut fichier
+14:
+Fin fichier
+15:
+(Rechercher...)
+16:
+Changer les mots de passe modifiera\n
+vos droits d'acces au systeme!\n
+\n
+Attention a ne pas modifier les mots\n
+de passe par megarde.
+17:
+Modif. Mot de Passe!
+18:
+Selection ligne
+19:
+Entrer no ligne
+20:
+
+21:
+Nombre a definir
+22:
+Entrer texte pour
+23:
+Entrer nombre pour
+24:
+Charger les parametres...
+25:
+Sauver Tout sous...
+26:
+Sauver sous...
+27:
+(Imprimer...)
+28:
+Redemarrer...
+29:
+Limites: Minimum
+30:
+         Maximum
+31:
+Les parametres sont proteges\n
+en ecriture. Ils ne peuvent\n
+pas etre changes!\n
+\n
+Tapez Retour pour continuer!
+32:
+Perte de donnees due a erreur interne!
+33:
+\n
+Pas de parametres charges!\n
+\n
+Utiliser le menu Fichier\n
+pour charger les parametres.
+34:
+Parametres non charges!
+35:
+Effacer
+36:
+(Effacer)
+37:
+Parametres non charges!\n
+\n
+Tapez Retour pour continuer!
+38:
+Voir Modif. Archive...
+39:
+Charger les Parametres!
+40:
+Choisissez un repertoire ou un fichier\n
+a ouvrir.
+41:
+Sauvez Tous les parametres!
+42:
+Choisissez un repertoire de sauvegarde.
+43:
+Ancien
+44:
+Parametres sauvegardes!\n
+\n
+\n
+Tapez Retour pour continuer!
+45:
+PARSYS
+46:
+\n
+Nouveaux parametres charges!\n
+\n
+Utilisez le menu Fichier pour Redemarrer.
+47:
+Parametres non charges !\n
+Pas de parametres dans le\n
+repertoire ou le fichier\n
+selectionne.\n
+Tapez Retour pour continuer.
+48:
+Liste de choix (ordre alphanumerique)
+49:
+Liste de choix (Table)
+50:
+Definir un Nom!\n
+Definir un nom unique\n
+pour l'attribut du nom.\n
+\n
+Tapez Retour pour continuer.
+51:
+REDEMARRAGE OBLIGATOIRE!\n
+Les Parametres ont ete modifies\n
+cela necessite un redemarrage.\n
+\n
+Tapez Retour pour continuer.
+52:
+Sauvez les Parametres sous!
+53:
+Re-ecriture Parametres!\n
+Les parametres existants\n
+seront re-ecrits.\n
+\n
+OK pour continuer?
+54:
+Attention!
+55:
+Changer Archive
+56:
+Changer Transactions Archive
+57:
+charger par:
+58:
+sauver par:
+59:
+ajout inst:
+60:
+eff inst:
+61:
+modif inst:
+62:
+modif attr:
+63:
+redemarrage:
+64:
+Commande de redemarrage!\n
+Voulez-vous redemarrer\n
+le systeme?\n
+\n
+OK pour continuer?
+65:
+Parametre obligatoire!\n
+Vous devez definir ce\n
+parametre avec une valeur.\n
+\n
+Tapez Retour pour continuer.
+66:
+Conflit de nom!\n
+Vous devez definir un nom\n
+unique pour ce parametre.\n
+\n
+Tapez Retour pour continuer.
+67:
+Changer Archive est vide!
+68:
+Charger nouveaux Parametres...
+69:
+Chargement nouveaux Parametres...
+70:
+Nouveau
+71:
+No "Mot de Passe"
+72:
+Ancien "Mot de Passe" pour\n
+Maintenance est incorrect.\n
+\n
+\n
+Tapez Retour pour reessayer!
+73:
+Ancien "Mot de Passe" pour\n
+Programmeur est incorrect.\n
+\n
+\n
+Tapez Retour pour reessayer!
+74:
+Mot de Passe pour %s\n
+%s mis a jour!\n
+\n
+\n
+Tapez Retour pour continuer!
+75:
+Parametres Systeme autorises
+76:
+Change Code
+77:
+Suppr. Inst
+78:
+Supprimer un parametre ne peut s'annuler\n
+Attention a ne pas supprimer un\n
+parametre par megarde.\n
+\n
+OK pour Supprimer?
+79:
+
+80:
+Info
+81:
+Ne peut montrer d'info sur ce\n
+parametre car trop d'appuis\n
+sur "Info"\n
+\n
+Tapez Retour pour continuer!
+82:
+Ne peut montrer d'info sur ce\n
+parametre car il n'est pas\n
+disponible.\n
+\n
+Tapez Retour pour continuer!
+83:
+Controle des parametres
+84:
+Controle des param. systeme..\n
+\n
+Un controle de coherence des\n
+parametres systeme du theme\n
+%s\n
+se realise.\n
+Patientez un moment...
+85:
+Les parametres systeme\n
+du theme\n
+%s\n
+sont integres et coherents.
+86:
+< Tapez Retour pour continuer >
+87:
+Le controle des param du theme\n
+%s\n
+ne peut etre realise.\n
+Pas de controle possible\n
+sur ce theme.

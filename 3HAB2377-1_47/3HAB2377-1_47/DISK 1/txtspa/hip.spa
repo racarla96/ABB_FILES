@@ -1,0 +1,152 @@
+ on main routine.
+Revision 1.9  1996/12/12  07:37:49  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+9::
+0:
+Produccion
+10:
+Archivo
+11:
+Editar
+12:
+Ver
+20:
+Cargar Programa...
+21:
+No pude arrancar programa
+22:
+Preferencias...
+23:
+Ir a la Linea...
+24:
+Arrancar desde el Inicio
+25:
+Info
+26:
+Posicion
+27:
+Entrada/Salida Operador
+50:
+Cancela
+51:
+OK
+80:
+Programa
+82:
+Datos
+83:
+Preferencias
+84:
+Valores de datos
+85:
+Ir a la Linea
+86:
+Seleccionar programa a cargar
+87:
+Info Produccion
+88:
+Posicion Produccion
+100:
+Nombre prog
+101:
+Estado
+102:
+Velocidad:=
+103:
+%
+104:
+Modo ejecuc.:=
+105:
+Rutina
+106:
+
+107:
+Ir a la Linea
+108:
+Ejecutando instruccion RAPID
+109:
+Rutina actual
+110:
+100%
+111:
+No se ha cargado programa
+112:
+*
+130:
+Cambio direccion no permitido
+131:
+Necesario arrancar del inicio
+132:
+No hay instr. en la rutina
+133:
+No cargado
+134:
+Listo
+135:
+Parado
+136:
+Ejecutando
+137:
+mm/s
+138:
+-%
+139:
+25%
+140:
+
+141:
++%
+142:
+Si
+143:
+No
+144:
+     Desea continuar?
+145:
+Arrancando desde el inicio
+146:
+causa perdida de contexto de prog.
+147:
+Advertencia!
+148:
+>>
+149:
+Cargado
+150:
+Indefinido
+151:
+Paro durante recuperacion
+200:
+<Pulse Entrar para continuar>
+201:
+Enlazado
+202:
+No pudo cargar programa
+203:
+No pudo descargar programa
+204:
+
+205:
+No puedo cargar programa
+206:
+Tipo debe ser un Programa
+207:
+Probablemente, error en prog.!
+208:
+No puedo mostrar programa.
+209:
+No puedo mostrar instr. RAPID.
+210:
+\n
+Por favor espere!\n
+Cargando programa ...!
+211:
+Memoria insuficiente
+212:
+No ejecutable
+213:
+No puedo ejecutar programa
+214:
+No encontrada rutina main

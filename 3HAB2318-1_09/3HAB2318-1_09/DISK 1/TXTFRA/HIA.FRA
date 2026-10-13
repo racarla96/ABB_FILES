@@ -1,0 +1,926 @@
+Revision 1.10  1995/04/21  13:13:03  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.9  1994/08/19  09:40:30  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+3::
+0:
+Editeur de Programme
+1:
+Option
+2:
+LstSys1
+3:
+LstSys2
+4:
+Tester
+5:
+Routine
+6:
+Donnees
+7:
+Liste Modules...
+8:
+Sauver Module
+9:
+Sauver Module sous...
+10:
+
+11:
+Sauver Programme
+12:
+Sauver Programme sous...
+13:
+Utiliser Liste (Liste\n
+d'instr) pour inserer\n
+une nouvelle instruction!
+14:
+Modif. selectionnee
+15:
+Marquer
+16:
+Supp. Marque
+17:
+Instr.
+18:
+Instr. Programme
+19:
+Test Programme
+20:
+Routines
+21:
+Donnees
+22:
+Type de Donnees
+23:
+Tester
+24:
+Modules
+25:
+Tapez Retour pour continuer
+26:
+Pt Prg. --> Ligne courante
+27:
+Pt Prg. --> Prog. Principal
+28:
+Pt Prg. --> Autre Routine
+29:
+Divers
+30:
+Mouvements&Process
+31:
+Struct. Prog.
+32:
+Commune
+33:
+Gestion Mouvements
+34:
+Interruptions
+35:
+E/S
+36:
+Communication
+37:
+Type Donn. Prog
+38:
+Gestion d'erreurs
+39:
+Systeme & Horloge
+40:
+Archive Evenement
+41:
+Programme
+42:
+Depl. PP -> Curseur
+43:
+Def. Point d'arret
+44:
+Eff. Point d'arret
+45:
+Point d'arret...
+46:
+Simuler...
+47:
+Dans Systeme
+48:
+switch
+49:
+Dans le Module
+50:
+Donnees
+51:
+Declaration...
+52:
+Dupliquer...
+53:
+Nouvelle Routine...
+54:
+Types
+55:
+Dans la Routine
+56:
+Nouveau...
+57:
+Valeur
+58:
+ModPos
+59:
+Instr
+60:
+Tester
+61:
+VoirLst
+62:
+-%
+63:
++%
+64:
+Depart
+65:
+Simul
+66:
+Deplace
+67:
+Nouveau
+68:
+Declare
+69:
+Duplic.
+70:
+Var
+71:
+Fonct
+72:
+Miroir...
+73:
+Copie Inverse...
+74:
+Commune 1
+75:
+Commune 2
+76:
+
+77:
+
+78:
+
+79:
+tooldata
+80:
+wobjdata
+81:
+Vitesse:=
+82:
+Mode Exec.:=
+83:
+
+84:
+
+85:
+
+86:
+Nom              Valeur
+87:
+Nom              Type
+88:
+
+89:
+
+90:
+Mathematiques
+91:
+Execution Programme
+92:
+Nom              Valeur      Module
+93:
+Nom              Type        Module
+94:
+(Modpos)
+95:
+Donnees
+96:
+Fonct
+97:
+Pas d'objets
+98:
+Mauvaise Syntaxe
+99:
+Ce n'est pas un Programme\n
+ou un Module de Programme\n
+Essayez-en un autre!
+100:
+Nombres non autorises,\n
+utiliser donnees predef.
+101:
+Suivant
+102:
+Routines de Programme
+103:
+Donnees Programme
+104:
+ArgOpt
+105:
+(Info)
+106:
+Proc
+107:
+Locale
+108:
+Globale
+109:
+Nom:=
+110:
+Objet:=
+111:
+Type:=
+112:
+Type Donnee:
+113:
+Declaration donnees incorrecte\n
+Verifier le nom et le contenu
+114:
+Const
+115:
+Changer
+116:
+Aucun programme en memoire.\n
+\n
+Utiliser le menu Fichier pour\n
+ouvrir ou creer un nouveau\n
+programme.
+117:
+Type donnee:=
+118:
+Etiquette
+119:
+Insertion avant:
+120:
+Nom            Type donnee Req      Mode
+121:
+Eviter
+122:
+Exception
+123:
+
+124:
+L'objet selectionne\n
+n'a pas de valeur!
+125:
+25%
+126:
+100%
+127:
+Operat.
+128:
+Valeur Donnee
+129:
+Definition Routine
+130:
+Declaration Routine
+131:
+Duplication Routine
+132:
+Definition Donnee
+133:
+Declaration Donnee
+134:
+Duplication Donnee
+135:
+TRUE
+136:
+FALSE
+137:
+Valeur initiale donnee
+138:
+Valeur Init.:=
+139:
+Nlle valeur init. donnee
+140:
+main
+141:
+robtarget
+142:
+bool
+143:
+num
+144:
+CachLst
+145:
+Donnees Routine
+146:
+Donnees Num.
+147:
+Valeur...
+148:
+Types utilise
+149:
+Tous Types
+150:
+Types
+151:
+Module
+152:
+Modules de Programmes
+153:
+Dessus
+154:
+Definition Module
+155:
+Declaration Module
+156:
+Module Programmes
+157:
+Module Systeme
+158:
+Programme
+159:
+Systeme
+160:
+Instruction Courante
+161:
+Arguments Instruction
+162:
+Seule une instruction est\n
+autorisee pour le SI compact
+163:
+Options
+164:
+(ArgOpt)
+165:
+Pers
+166:
+Ce type de donnee ne peut\n
+pas avoir de valeur!
+167:
+L'objet existe deja\n
+Changez de nom
+168:
+
+169:
+
+170:
+Quelle routine ?\n
+Utilisez Voir:Routines
+171:
+Pas de routine principale
+172:
+La commande a echouee
+173:
+Le contenu de la memoire tampon\n
+n'est pas adapte a l'argument!\n
+Mauvais type d'argument
+174:
+
+175:
+Le pointeur de prog (PP)\n
+ne peut pas etre defini!\n
+Etat incorrect
+176:
+Le curseur est deplace\n
+au point de depart (PtD)
+177:
+Donnee dispo. en lecture seulement\n
+et ne peut pas etre changee.
+178:
+Creation nouv. signaux impossible\n
+Utilisez signaux pre-definis
+179:
+Donnee systeme!\n
+Sa declaration n'est\n
+pas accessible.
+180:
+Argument Fonction
+181:
+Argument Instruction
+182:
+Expression
+183:
+Selectionner une Procedure
+184:
+Doit etre une donnee
+185:
+Mauvaise Syntaxe\n
+Valeur non autorisee
+186:
+Depl.
+187:
+Pas de routine programme\n
+selectionnee
+188:
+Instruction non inseree\n
+La liste est pleine!
+189:
+Le Programme a ete sauvegarde.
+190:
+Nom                       Type
+191:
+Routine princ.
+192:
+Selectionnez un Programme ou un Module
+193:
+Sauver Module sous:
+194:
+Sauver Programme sous:
+195:
+Le curseur doit etre dans\n
+le meme bloc d'inst que PP!
+196:
+Resultat
+197:
+Incl.
+198:
+Excl.
+199:
+
+200:
+Config.
+201:
+Resultat liste commune
+202:
+Config. liste commune
+203:
+Procedure
+204:
+Fonction
+205:
+Exception
+206:
+Variable
+207:
+Constante
+208:
+Persistente
+209:
+IF
+210:
+WHILE
+211:
+FOR
+212:
+TEST
+213:
+GOTO
+214:
+ProcCall
+215:
+Label
+216:
+:=
+217:
+RETURN
+218:
+RAISE
+219:
+CONNECT
+220:
+EXIT
+221:
+RETRY
+222:
+TRYNEXT
+223:
+Compact IF
+224:
+Comment
+225:
+FREE Reserved for pallet
+226:
+Routine select.
+227:
+Valeur
+228:
+Valeur Litterale
+229:
+-
+230:
+.
+231:
+In
+232:
+routine
+233:
+module
+234:
+param
+235:
+Pas Alt.
+236:
+Premier
+237:
+Suivant
+238:
+Selectionner type donnee:
+239:
+Gest. d'Erreur
+240:
+Gest. d'ERREUR
+241:
+
+242:
+Selection
+243:
+(Non)
+244:
+La limite pour Marquage\n
+est atteinte
+245:
+Verifier Programme
+246:
+Aller a position selectionnee...
+247:
+Programme est OK!
+248:
+Un parametre ne peut pas\n
+avoir le meme nom qu'un\n
+autre parametre!
+249:
+string
+250:
+TRUE
+251:
+FALSE
+252:
+ AND
+253:
+ XOR
+254:
+ OR
+255:
+ NOT
+256:
+ DIV
+257:
+ MOD
+258:
+
+259:
+
+260:
+
+261:
+Pas de parametres autorise\n
+pour une routine d'exception
+262:
+Fermer Programme
+263:
+Gestionnaire d'erreur
+264:
+wobj0
+265:
+Outil ou RepObj utilise\n
+dans l'instruction n'est pas\n
+le meme qu'en apprentissage!
+266:
+Definir Coord.
+267:
+pose
+268:
+signalai
+269:
+signalao
+270:
+signaldi
+271:
+signaldo
+272:
+signalgi
+273:
+signalgo
+274:
+Ajouter gestionnaire d'erreur
+275:
+Supprimer gestionnaire d'erreur
+276:
+Pas de gestionnaire d'erreur\n
+pour cette routine!\n
+Utiliser Routine:Ajouter...
+277:
+Memoire programme pleine!\n
+Sauver programme ou faites\n
+une action appropriee.
+278:
+toutes donnees
+279:
+Execution en cours!
+280:
+Le Module a ete sauve.
+281:
+Creer/ouvrir un programme\n
+pour acceder a un module\n
+systeme. Il en existe deja!
+282:
+Les structures tableau\n
+ne sont pas encore gerees!.
+283:
+ModPos realise!\n
+Point. Prog (PP) deplace\n
+a l'instruction suivante.
+284:
+Voulez vous supprimer:
+285:
+Voulez vous couper:
+286:
+Ajouter gestionnaire inverse
+287:
+Supprimer gestionnaire inverse
+288:
+Pas de gestionnaire inverse\n
+pour cette routine!\n
+Utiliser Routine:Ajouter...
+289:
+Gestionnaire INVERSE
+290:
+InOut
+291:
+\n
+Voulez vous sauvegarder d'abord le prog.\n
+%s\n
+avant de le remplacer par\n
+%s?
+292:
+L'Objet ne peut etre\n
+detruit dans cette fenetre!\n
+Utiliser Voir:...
+293:
+Contenu
+294:
+Inserer
+295:
+Preferences
+296:
+Commune 3
+297:
+pos
+298:
+orient
+299:
+Re-ecriture Program!\n
+Les programmes existants\n
+seront ecrases.\n
+\n
+OK pour continuer?
+300:
+Service
+301:
+i
+302:
+Mouv. Def Avt
+303:
+Mouv. Avt
+304:
+Ord. Externe
+305:
+Multi Taches
+306:
+Support RAPID
+307:
+Programme autorise
+308:
+Suppr. Inst.
+309:
+Suppr. Objet
+310:
+Le curseur ne coincide pas\n
+avec le pointeur de programme\n
+Demmarrez le programme depuis:
+311:
+Curseur
+312:
+PP
+313:
+Conf. Depart
+314:
+Patientez\n
+Chargement Programme en cours!
+315:
+Patientez\n
+Chargement Module en cours!
+316:
+Patientez\n
+Sauvegarde Programme en cours!
+317:
+Patientez\n
+Sauvegarde Module en cours!
+318:
+Le Module '%s'\n
+existe deja!\n
+\n
+Voulez vous le remplacer?
+319:
+Pas de Routine
+320:
+Pas de donnees
+321:
+Pas de parametre
+322:
+.prg
+323:
+.PRG
+324:
+.mod
+325:
+.MOD
+326:
+.sys
+327:
+.SYS
+328:
+Stop Instruction
+329:
+StopInst
+330:
+La fenetre Programme ne\n
+peut etre utilisee en\n
+mode automatique.\n
+Retourner en Mode Manuel!
+331:
+NB: Le robot se deplace\n
+vers la position choisie!!
+332:
+Depart du robot vers la\n
+Position choisie
+333:
+Simulation
+334:
+Choix des options de simulation
+335:
+Autorise execution en MOTORS OFF
+336:
+Donnees systeme
+337:
+Donnees Utilisateur
+338:
+Zone Selectionnee
+339:
+Pile pleine !!!.\n
+\n
+Utiliser le menu fichier\n
+pour sauver le programme.\n
+Sauvegarder pour continuer.
+340:
+Modif Pos non autorise\n
+sur une position declaree\n
+comme une Variable.
+341:
+Variable de boucle!\n
+Ne peut etre atteinte que\n
+par l'instruction FOR.
+342:
+CachLst
+343:
+Instr
+344:
+Encore
+345:
+Dans Module
+346:
+Select Module:
+347:
+Dans
+348:
+Data Def.
+349:
+Utilise
+350:
+Tout
+351:
+Instructions
+352:
+USER
+353:
+Modification Position
+354:
+Type
+355:
+
+356:
+Inutilise
+357:
+ModPos
+358:
+LModPos
+359:
+Max Trans
+360:
+Max Rot
+361:
+Max Trans Externe
+362:
+Max Rot Externe
+363:
+Mode
+364:
+Abs
+365:
+Rel
+366:
+Position courante hors des\n
+definies dans la fonction\n
+Limite ModPos.
+367:
+Le nom de la position\n
+courante trop long pour\n
+la fonction Limite ModPos.
+368:
+Limite ModPos est actif\n
+mais il n'est pas possible\n
+de creer des donnees.
+369:
+Erreur Limite ModPos!
+370:
+o_robtarget
+371:
+o_
+372:
+\n
+Voulez vous sauvegarder l'ancien prog\n
+%s\n
+avant d'en creer un nouveau?
+373:
+\n
+Le module systeme '%s'\n
+est change mais pas sauvegarde!\n
+\n
+Voulez vous sauver ce module systeme?
+374:
+Les modules systeme suivant ont ete\n
+change mais non sauvegardes,\n
+%s\n
+Voulez vous sauver ces modules systeme?
+375:
+Edit Program
+376:
+present
+377:
+Voulez vous entrer le prog. a editer?
+378:
+tableau
+379:
+Si Auto
+380:
+Necessite Userlevel
+381:
+LModPos
+382:
+Ident.
+383:
+Id Edit
+384:
+Pas Req
+385:
+Routines
+386:
+Dans Routine
+387:
+Dans Module
+388:
+Dans Systeme
+389:
+Imprime Programme
+390:
+Imprim
+391:
+Impr. vers Fichier:
+392:
+A Imprimer
+393:
+Impr. programme vers Fichier:
+394:
+Impression en cours!
+395:
+   Retour pour annuler
+396:
+   Retour pour continuer
+397:
+L'imprimante est occupee\n
+\n
+Reessayer quand elle sera prete!
+398:
+Impression impossible car trop\n
+d'impression dans la file\n
+\n
+Reessayer plus tard!
+399:
+Impression impossible car\n
+l'imprimante est mal configuree\n
+dans Parametres Systeme.
+400:
+Pas assez de place sur l'unite\n
+lors de l'impression (usuel\n
+%.9s). Necessite %d octets\n
+suppr. ou deplac. des fichiers.
+401:
+  Occupe\n
+\n
+  Attendez SVP
+402:
+Creat./ecr. impos. du fichier:\n
+\n
+
+403:
+Fichier deja existant
+404:
+ Programme

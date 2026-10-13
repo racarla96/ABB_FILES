@@ -1,0 +1,173 @@
+26::
+0:
+Operatore
+1:
+%s mancante\n
+Tool %s non utilizzato nel\n
+programma corrente.\n
+forse perche' cancellato oppure\n
+Non definito.\n
+\t\n
+Scegliere un altro Tool utilizzando\n
+la finestra MovMan.
+2:
+%s mancante\n
+WObj non utilizzato nel\n
+programma corrente.\n
+forse perche' cancellato oppure\n
+Non definito.\n
+\t\n
+Scegliere un altro WObj utilizzando\n
+la finestra MovMan.
+3:
+Direttorio non creato!\n
+Il direttorio non puo' essere creato\n
+forse perche' gia' esiste o disco e'\n
+protetto dalla scrittura.\n
+\t\n
+Controllare anche se lo spazio e'\n
+sufficiente.
+4:
+Problema robot!\n
+Il TCP ed il Wobj\n
+non possono fare riferimento\n
+entrambi alla terna di assi del\n
+polso oppure alla terna di assi\n
+world.\n
+\t\n
+
+5:
+%s mancante!\n
+Errata definizione del\n
+workobject %s.\n
+\t\n
+Verificare l'unita' meccanica comp.\n
+del workobject.
+6:
+%s frame Utente!\n
+Errata definizione\n
+frame utente.\n
+\t\n
+Verificare l'unita' meccanica comp.\n
+del workobject.
+7:
+MovMan non consentito!\n
+MovMan non esguibile con il modo\n
+operativo selezionato.\n
+\t\n
+Rilasciare il joystick, abilitare\n
+sistema e ripetere.\n
+Verif. anche Unita' meccanica attiva.
+8:
+Massa Tool non definita !\n
+Non e' possibile MovMan se si\n
+utilizza un tool con massa indefinita\n
+\t\n
+Dare un valore alla massa del Tool.
+9:
+Robot non sincronizzato!\n
+Robot o assi esterni non\n
+sono sincronizzati.\n
+\t\n
+Sincr. robot o assi esterni.
+10:
+Errore orientamento!\n
+Orientamento in %s non regolare.\n
+\t\n
+Verif. valore orientamento.
+11:
+Errore parametri!\n
+Caricamento parametri in\n
+%s\n
+Non puo' essere completato.\n
+Per indiv. il motivo, vedere\n
+%s\n
+\t\n
+Copiare il file\n
+%s\n
+su un dischetto e controllare le cause\n
+utilizzando un normale editor di testo!
+12:
+Parametri non caricati!\n
+Parametri non presenti\n
+in %s\n
+\t\n
+Verificare il file\n
+%s\n
+utilizzando un normale editor di testo!
+13:
+Mov. man. non consentito!\n
+Non e' possibile Mov. man.\n
+dell' unita' mec.\n
+Unita' non attivata.\n
+\t\n
+Attivare l'unita' meccanica.
+14:
+Disco pieno!\n
+Nessuna informaz. tipo modif. param.\n
+salvata in Modif. Registri causa\n
+insufficiente spazio su disco.\n
+\t\n
+Cancellare alcuni files o\n
+riorganizzare il disco.
+15:
+Impos definire puntatore!\n
+Impossibile definire PP nel sottoprg\n
+'%s'.\n
+\t\n
+Definire chiamata del sottoprg\n
+o eliminarne i parametri.
+16:
+Impos definere puntatore!\n
+Impossibile definire PP nel sottoprg\n
+'%s' perche' risiede in un modulo\n
+con attributo NOSTEPIN.\n
+\t\n
+Copiare il sottoprg in un altro\n
+modulo o modificarne l'attributo.
+17:
+Codice %d PGM\n
+\t\n
+Nessun altra informazione a disposiz.
+18:
+Errore Sintassi RAPID!\n
+Impossibile caricare prog a causa\n
+di errori di sintassi.\n
+\t\n
+Un prog per controllare la sintassi\n
+potrebbe essere utiliz su PC.\n
+Altrimenti controllare il file su\n
+ramdisk PGMCPL1.LOG.
+19:
+Errore definiz dato!\n
+Il componente '%s' del dato\n
+di tipo '%s' non e' corretto.\n
+I limiti sono\n
+%s!\n
+\t\n
+Verif dato e modificarne\n
+Il valore.
+20:
+Imposs. def. puntatore!\n
+Impossibile definire PP nel sotprog\n
+'%s' perche' definito come\n
+sotprog trap\n
+\t\n
+Modificare definiz sotprog\n
+'%s'in 'Procedura'.
+21:
+Imposs. visualizz. dati!\n
+Il numero di dati selezionati\n
+eccede il limite memoria specific.\n
+per l'attuale config.\n
+\t\n
+Ridurre numero dati o modificare\n
+configurazione memoria.
+22:
+Imposs. visualizz. dati!\n
+Solo %d variabili\n
+possono essere visualizzate\n
+a causa config memoria.\n
+\t\n
+Ridurre numero dati o modificare\n
+configurazione memoria.

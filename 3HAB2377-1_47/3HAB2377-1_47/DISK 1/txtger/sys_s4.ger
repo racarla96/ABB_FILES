@@ -1,0 +1,108 @@
+22::
+1:
+Sicherheitskreis offen\n
+\n
+\t\n
+
+2:
+NOT-AUS\n
+\n
+\t\n
+
+3:
+Arbeitsbereich_Ende\n
+\n
+\t\n
+
+6:
+Sicherheitshalt Automatik\n
+\n
+\t\n
+
+7:
+Sicherheitshalt Einricht.\n
+\n
+\t\n
+
+8:
+Allg. Sicherheitshalt\n
+\n
+\t\n
+
+9:
+Sicherheitskreis Fehler\n
+Konflikt Zweikanaligkeit.\n
+\t\n
+Wenn die rote -ERR- LED auf der\n
+Systemkarte leuchtet, LEDs des\n
+Sicherheitskreises kontrollieren.
+20:
+Timeout Sicherheitskreis\n
+Timeout Zweikanaligkeit\n
+Die notwendige Bestätigung bei einer\n
+Zustandsänderung im zweikanaligen\n
+Sicherheitskreis erfolgte nicht in\n
+der erwarteten Zeit.\n
+\t\n
+Wenn die rote -ERR- LED auf der\n
+Systemkarte leuchtet, LEDs des\n
+Sicherheitskreises kontrollieren.\n
+MOTOREN AUS Taste erneut betätigen.\n
+TempSchalter in Haupttrafo kontrollieren
+21:
+Geschwindigkeit Fehler\n
+Die Signale des Betriebsartenwahl-\n
+schalters und das Geschwindigkeits-\n
+signal stimmen nicht überein.\n
+\t\n
+
+22:
+Betriebsartenwahl\n
+Die Signale des Betriebsartenwahl-\n
+schalters stimmen nicht (Meldung\n
+verschiedener/keiner Betriebsart).\n
+\t\n
+
+25:
+Stop_Befehl Timeout\n
+Ein Stop wurde ausgeführt, ohne\n
+die notwendige Bestätigung inner-\n
+halb der erwarteten Zeit.\n
+\t\n
+
+26:
+Run control Status Fehler\n
+Statuskonflikt zwischen\n
+Relais des Betriebskreis und\n
+-run control-.\n
+\t\n
+Systemkarte austauschen.
+40:
+Halt_Stop\n
+\n
+\t\n
+
+41:
+Motor 1-6 Überlast\n
+Ein/mehrere Motoren haben Übertempertur.\n
+Motoren abkühlen lassen vor erneutem\n
+Einschalten der Motoren.\n
+Dieser Fehler tritt sonst nach 15 Sek.\n
+im Zustand MotorenEin erneut auf.\n
+\t\n
+Ansicht -Sicherheit- im E/A Fenster\n
+wählen und warten bis Signal OLM1\n
+gleich 0 ist, bevor die Motoren erneut\n
+einschaltet werden.
+42:
+Motor 7-x Überlast\n
+Ein/mehrere Motoren haben Übertempertur.\n
+Motoren abkühlen lassen vor erneutem\n
+Einschalten der Motoren.\n
+Dieser Fehler tritt sonst nach 15 Sek.\n
+im Zustand MotorenEin erneut auf.\n
+\t\n
+Ansicht -Sicherheit- im E/A Fenster\n
+wählen und warten bis Signal OLM7\n
+gleich 0 ist, bevor die Motoren erneut\n
+einschaltet werden.

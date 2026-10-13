@@ -1,0 +1,755 @@
+25::
+0:
+Movimento
+1:
+Grave errore di movim.\n
+Imposs. proseguire con i movimenti\n
+\t\n
+Inizializzare di nuovo il robot
+21:
+Errore posizione asse\n
+Posizione attuale per asse %s\n
+troppo distante da quella\n
+impostata\n
+\t\n
+Verificare parametri trim, forze\n
+esterne sull'asse o l'hardware.
+22:
+Tensione DC-link bassa\n
+\n
+\t\n
+Controllare tensione contat. Motor On\n
+Sostituire DC-link (raddrizzatore)
+23:
+Errore Stop/Riavvio\n
+Stop eseguito quando troppe istruz.\n
+di movim. erano in coda per l'esecuz.\n
+Riavvio non possibile\n
+\t\n
+Verificare numero di istruzioni con\n
+simultan. Spostare punto di partenza\n
+e ripartire con un nuovo movimento.
+24:
+Err. percorso d'angolo\n
+Percorso d'angolo eseg. come un punto\n
+FINE causa un tempo di ritardo.\n
+\t\n
+Controllare il numero di istruzioni\n
+fra le istruz. di movimento.
+25:
+Riavvio troppo lontano\n
+\n
+\t\n
+Ritornare sul percorso.
+26:
+Err. Punto Sing o Zona\n
+1 Robot troppo vicino al punto sing.\n
+2 Errore zona da MoveL a MoveJ\n
+\t\n
+1 Utiliz. joystick per spostarsi\n
+  dalla singolarita' o eseguire\n
+  il programma in coordinate robot.\n
+2 Utiliz. punto fine o modif. posiz.
+27:
+Asse fuori limite\n
+Asse %s fuori area di lavoro\n
+\t\n
+Utiliz. il joystick per portare l'asse\n
+dentro la sua area di lavoro.
+28:
+Dir. errata Movim. Man.\n
+Asse %s fuori dall'area di lavoro\n
+\t\n
+Utiliz. il joystick per spostare l'asse\n
+nella direzione opposta.
+29:
+Robot fuori dai limiti\n
+Il robot ha raggiunto la config.\n
+limite per la trasmiss. parallelogr.\n
+\t\n
+Utiliz. joystick per spostare l'asse\n
+dentro la sua area di lavoro.
+30:
+Robot fuori dai limiti\n
+Eseguito MovMan nella direzione\n
+sbagliata quando il parallelogr. era\n
+fuori dalla sua area di lavoro\n
+\t\n
+Utiliz. joystick per spostare l'asse\n
+nella direzionbe opposta.
+31:
+Operaz. non consentita\n
+Parametri di sistema non\n
+modificabili con motori inseriti.\n
+\t\n
+Disinserire i motori.
+32:
+Err. comando calibraz.\n
+Si e' tentato di calibrare il robot\n
+con i motori inseriti.\n
+\t\n
+Disinserire i motori.
+33:
+Err. comando commutaz.\n
+Si e' tentato di commutare il robot\n
+con i motori inseriti.\n
+\t\n
+Disinserire i motori.
+35:
+Err. comando sincroniz.\n
+Si e' tentato di sincroniz. il robot\n
+con i motori inseriti.\n
+\t\n
+Disinserire i motori.
+36:
+Impos. recup. posiz.\n
+Interruz. esecuz. progr. avvenuta\n
+con punti troppo vicini e accuratezza\n
+non precisa. Al riavvio il robot si\n
+spostera' in un punto piu' avanti\n
+nel programma.\n
+\t\n
+Ridurre il numero dei punti vicini,\n
+aumentare la distanza tra loro o\n
+ridurre la velocita'.
+37:
+Comando MOTORS ON imposs.\n
+Comando di MOTORS ON ignorato a causa\n
+di una precedente interruzione\n
+ancora non verificata.\n
+\t\n
+Riprovare ad attivare i motori.
+41:
+Robot in punto sing.\n
+Robot troppo vicino ad un punto sing.\n
+\t\n
+Durante l'esecuzione di un programma\n
+utilizzare l'istruzione SingArea\n
+o l'istruz. MoveJ.\n
+Utilizzare movimento asse per asse\n
+durante il movimento in manuale.
+42:
+Errore di sistema\n
+\n
+\t\n
+Aumentare la distanza tra due punti\n
+vicini e/o diminuire la veloc. e/o\n
+modificare il valore di accelerazione.
+50:
+Posizione fuori limite\n
+Posizione per l'asse %.f\n
+fuori area di lavoro.\n
+\t\n
+Verif. work object.\n
+Verif. l'area di lavoro dell'asse.\n
+Muoversi in coord robot.
+52:
+Errore Velocita' asse\n
+Attuale veloc. asse %s troppo alta\n
+in relazione a quella impostata.\n
+\t\n
+1 Verif. param. di regolaz., forze\n
+  esterne sull'asse e l'hardware.\n
+2 Ridurre Velocita' programmata.
+53:
+Errore Counter resolver\n
+Differenza tra il counter\n
+nella scheda di misura seriale ed il\n
+valore richiesto dalla robot computer\n
+per l'asse %s\n
+\t\n
+Aggiornare i Counter\n
+Sostituire la scheda di misura seriale
+55:
+Errore carico asse\n
+La coppia attuale dell'asse %s e'\n
+troppo elevata; dato di carico\n
+errato, acceler. troppo alta, forze\n
+esterne elevate, basse temperature\n
+o un errore hardware.\n
+\t\n
+1. Verificare il dato load\n
+2. Verificare acceleraz. o velocita'\n
+3. Verificare l'hardware
+56:
+Errore collisione asse\n
+Coppia reale asse %s maggiore\n
+di quella comandata, a velocita'\n
+bassa o 0\n
+\t\n
+Causato da un urto (asse bloccato)\n
+o da un errore hardware.
+57:
+Errore sincroniz. asse\n
+Posizione asse %s dopo mancanza\n
+alim. di rete troppo distante dalla\n
+posizione precedente la fermata.\n
+\t\n
+Aggiornare nuovamente il Counter\n
+del resolver.
+58:
+Err. sist. coord. Tool\n
+La direz. z utensile quasi parallela\n
+alla direzione della traiettoria.\n
+\t\n
+Modificare sist. di coord. tool per\n
+avere almeno una deviaz. di 3 gradi\n
+tra la direz. z e direz. traiettoria.
+59:
+Errore Sist. di rifer.\n
+Definizione TCP fisso\n
+esterno non corretta.\n
+\t\n
+Verificare dati TCP.
+60:
+Errore Sist. di rifer.\n
+Definizione TCP fisso\n
+esterno non corretta.\n
+\t\n
+Verificare dati TCP.
+61:
+Errore Sist. di rifer.\n
+Definizione TCP fisso\n
+esterno non corretta.\n
+\t\n
+Verificare dati TCP.
+62:
+Err. program. cerchio\n
+Posizione iniziale e finale del\n
+cerchio sono troppo vicine.\n
+\t\n
+
+63:
+Err. program. cerchio\n
+Posiz. cerchio troppo vicina alla\n
+posizione iniz. o finale del cerchio.\n
+\t\n
+
+65:
+Errore di cinematica\n
+Posizione di arrivo impossibile da\n
+raggiungere o troppo vicina ad\n
+un punto singolare.\n
+\t\n
+Modificare la posizione finale.
+66:
+Robot non attivo\n
+Non muovere o calcolare posizioni\n
+del robot %s disattivato\n
+\t\n
+Attivare il robot manualmente,\n
+premendo il tasto Mov. Unita'\n
+o da programma.\n
+Verificare work object e programma.
+67:
+Unita' non attiva\n
+Non muovere o calcolare posizioni\n
+dell'unita' single %s disattivato\n
+\t\n
+Attivare l'unita' manualmente,\n
+premendo il tasto Mov. Unita'\n
+o da programma.\n
+Verif. work object e programma.
+76:
+Err. definiz. orientam\n
+L'orientamento non e' definito\n
+correttamente\n
+\t\n
+Fare un accurato calcolo degli\n
+elementi quaternioni.
+78:
+Posiz. troppo vicine\n
+Troppe posiz. consec. programmate\n
+vicine tra loro.\n
+\t\n
+Aumentare la distanza tra queste posiz.
+79:
+Pendolamento\n
+non possibile.\n
+\t\n
+Utiliz. piccola ampiezza di pendolam.\n
+o un TCP diverso.
+80:
+Posiz. non compatib.\n
+Posizione non raggiungibile\n
+con attuale configuraz. robot\n
+\t\n
+Modificare posizione\n
+nel programma.
+82:
+Limite decelerazione\n
+Calcolo tempo di deceler. dell'asse\n
+eccede limiti int. relativi al mov.\n
+\n
+Non continuare senza aver risolto\n
+la causa dell'errore.\n
+\t\n
+Ridurre la veloc., usare punti FINE\n
+e aumentare i parametri accset\n
+Verif. deceler. asse est. e livelli\n
+disturbo connes. I/O. Aument. risol.\n
+dinamic, accurat. e std_servo_que_time.
+83:
+Vel. dimin. dal sist.\n
+Velocita' diminuita dal sistema causa\n
+limiti dinamici.\n
+\t\n
+Diminuire la velocita' e/o non prog.\n
+posiz. vicine ad alta velocita' e/o\n
+aumentare accelerazione (se < 100%).
+85:
+Troppi user frames defin.\n
+Piu' di un user frame definito\n
+per Unita' meccanica %s.\n
+\t\n
+Eliminare user frame in eccesso\n
+oppure creare nuove unita' mec.
+86:
+Probl. punti singolari\n
+Troppo vicino ai punti sing. polso\n
+rispetto alla risoluz. numerica\n
+dell'asse 4 del IRB\n
+\t\n
+Modificare la posiz. finale di\n
+pochi incrementi.
+87:
+Probl. punti singolari\n
+Troppo vicino ai punti sing. polso\n
+rispetto alla risoluz. numerica\n
+dell'asse 6\n
+\t\n
+Modificare la posiz. finale di\n
+pochi incrementi.
+88:
+Riavvio non possibile.\n
+Riavvio sul percorso non possibile\n
+causa un errore precedente.\n
+\t\n
+Spostare il punto di partenza e\n
+ripartire con un nuovo movimento.
+89:
+Freq. pendol. bassa\n
+La lungh. del periodo di pendolam.\n
+o il periodo e' troppo breve.\n
+\t\n
+Aumentare la lungh. del pend.\n
+o aumentare il periodo.
+91:
+Impos. eseg. riavvio.\n
+Impossibile eseguire un riavvio.\n
+Una modifica dello stato dell'unita'\n
+rende il riavvio impossibile.\n
+\t\n
+Spostare PP ed eseguire un nuovo\n
+movimento.
+92:
+Err. comm. Axis comp.\n
+Risposta computer assi non corretta\n
+\t\n
+Verif. param. cofiguraz. movim.\n
+Verif. hardware del computer assi.
+93:
+Carico troppo grande\n
+Massa def. ha val. troppo elevato\n
+
+94:
+Impos. util. ServoTune\n
+Regolazione non implementata per\n
+l'asse specificato.\n
+\t\n
+
+95:
+Impos. attiv. asse.\n
+Impossibile accedere all'asse esterno.\n
+Verificare configurazione ed attivaz.\n
+degli assi esterni.\n
+\t\n
+
+100:
+Errore manipolatore.\n
+Ci sono diversi errori di configuraz.\n
+o numerici per controllo movim.\n
+\t\n
+Correggere e riprovare.
+101:
+Errore config manip.\n
+'%s' non libero\n
+per param. '%s'\n
+tipo '%s' chiamato\n
+'%s'.\n
+\t\n
+Utilizzarne un altro.\n
+Per nomi interni, vedere moc_chk.log
+102:
+Errore config manip.\n
+'%s' usato nel\n
+parametro '%s'\n
+tipo '%s' chiamato\n
+'%s' non\n
+definito.\n
+\t\n
+Usarne un altro che sia definito o\n
+definire quello utilizzato.\n
+Per nomi interni, vedere moc_chk.log
+103:
+Errore num. manipol.\n
+Orientamento definito in quaternioni\n
+includendo '%s' nel\n
+tipo '%s' chiamato\n
+'%s' non e'\n
+regolare (SQRSUM =1)\n
+\t\n
+Verificare valori quaternioni e/o\n
+ricalcolarli.\n
+Per nomi interni, vedere moc_chk.log
+104:
+Errore num. manipolatore\n
+Il parametro '%s'\n
+tipo '%s' chiamato\n
+'%s' non e' '%s'.\n
+\t\n
+Verif. valore.\n
+Per nomi interni, vedere moc_chk.log
+128:
+Errore manipolatore\n
+Termine esecuz. controllo manipol.\n
+a causa di errori precedenti.\n
+\t\n
+Correggere errori visualizzati e\n
+ripetere il controllo manipolatore
+130:
+Sincronismo negato.\n
+Sincronismo non eseguito\n
+per l'asse %s.\n
+\t\n
+Ripetere sincronizzazione.\n
+Necessario Riavvio.
+131:
+Calibraz. non consent.\n
+Calibraz. non eseguita\n
+per l'asse %s.\n
+\t\n
+Ripetere calibrazione.\n
+Necessario Riavvio.
+132:
+Commutaz. non consent.\n
+Commutaz. non eseguita\n
+per l'asse %s.\n
+\t\n
+Ripetere commutazione.\n
+Necessario Riavvio.
+133:
+Errore segnale test.\n
+Non sono disponibili segnali\n
+di test per il robot.\n
+\t\n
+
+134:
+Anomalie vet. correz.\n
+Calcolo sensore vettore di correzione\n
+non eseguita a causa di un errore\n
+precedente.\n
+\t\n
+
+135:
+SoftAct non possibile.\n
+Impossibile attivare Soft servo.\n
+\t\n
+
+136:
+SoftAct non possibile.\n
+Impossibile modificare Soft servo\n
+durante mov.\n
+\t\n
+
+137:
+Punto fine inserito\n
+Accuratezza modificata in punto fine\n
+Troppe istruzioni Move consecutive\n
+senza punto fine.\n
+\t\n
+
+138:
+Anom. Arm check point\n
+Limite di Arm check point\n
+raggiunto dal robot\n
+\t\n
+Utilizzare il joystick per riportare\n
+l'asse nuovamente nell'area di lavoro
+139:
+Anom. Arm check point\n
+Movim. manuale robot in direz. errata\n
+con Arm check point fuori limite\n
+\t\n
+Utilizzare il joystick per muovere\n
+l'asse nella direzione opposta.
+140:
+Carico troppo grande\n
+Limite di coppia statica superato su\n
+asse %s causa un carico pesante\n
+\t\n
+Verificare e ridurre carico\n
+per asse e/o polso.\n
+Ridurre area di lavoro dell'asse per\n
+diminuire coppia statica causa gravita'.
+141:
+Errore Veloc/Mov Man\n
+1. Robot troppo vicino al punto sing.\n
+2. Errore movimento manuale\n
+3. Errore Velocita' alta\n
+\t\n
+1. Spostare il robot dal punto sing.\n
+   o eseguire il prog. in robot coord\n
+2. Provare nuovamente\n
+3. Ridurre velocita' esecuzione prog.
+142:
+Errore config. manip.\n
+Configurazione manipolatore negata.\n
+\t\n
+Controllare parametri di sistema\n
+relativi al manipolatore.
+143:
+Err. conf. assi robot\n
+Configurazione attuale differente\n
+da quella programmata o riorient.\n
+assi 4/6 eccessivo.\n
+\t\n
+Utiliz SingArea_Wrist, ConfL_Off,\n
+modificare la posizione o inserire\n
+un punto intermedio.
+144:
+Displ frame indef.\n
+Calibraz displ frame non corretta\n
+1. Tcp sbagliato\n
+2. Punti di riferimento non precisi\n
+3. Distanze punti di rif non idonee\n
+\t\n
+Se errore stimato non accettabile:\n
+1. Controllare Tcp utilizzato.\n
+2. Utiliz. piu' di 3 punti di rifer.\n
+3. Posiz robot in modo piu' accurato\n
+   sui punti di riferimento.
+145:
+Limitaz. cinematica.\n
+Limitaz. cinematica, nessuna soluz.\n
+ottenuta\n
+1. Segmento lungo\n
+2. Posizione vicino ad una singolar.\n
+3. Assi fuori limite.\n
+4. Posizione non raggiungibile\n
+1. Inserire un punto intermedio o\n
+   ridurre la lunghezza del segmento\n
+2. Usare MoveAbsJ.\n
+3-4. Verificare l'area di lavoro.\n\t
+146:
+Limitazione riavvio\n
+Eseguita posiz. con punto non fine.\n
+Impos. eseguire Power Fail Riavvio\n
+vicino ad un punto con arg. non fine.\n
+\t\n
+Utilizzare argomento fine nell'istr.\n
+Move, prima di RestoPath, ActUnit,\n
+Wait o Stop per poter usare PFR.
+147:
+Pow Fail Riav. negato\n
+Recupero percorso non eseguito\n
+\t\n
+Spostare il punto iniziale e\n
+eseguire un'altra istruzione\n
+di movimento.
+148:
+MOC_WRONG_MAIN_ISR_TYPE\n
+Chiamata ad un sottoprog interrupt\n
+inesistente nella main computer\n
+da parte del computer assi.\n
+\t\n
+
+149:
+MOC_SCHED_QUEUE_FULL\n
+Errore Axis computer.\n
+\t\n
+
+150:
+MOC_WRONG_CMD_TYPE\n
+Errore mentre il computer assi ha\n
+ricevuto un comando dal main computer\n
+che non e' supportato.\n
+\t\n
+
+151:
+MOC_MAILBOX1_ERROR\n
+Il computer assi non ha potuto creare\n
+un nuovo interrupt mailbox1 dato che\n
+l'interrupt non e' stato servito\n
+correttamente.\n
+\t\n
+
+152:
+MOC_MAILBOX2_ERROR\n
+Il computer assi non ha potuto creare\n
+un nuovo interrupt mailbox2 dato che\n
+l'interrupt non e' stato servito\n
+correttamente.\n
+\t\n
+
+153:
+Comando non consentito\n
+L'istruzione o il comando non sono\n
+consentiti dato che il programma robot\n
+era in esecuzione in stato di hold.\n
+\t\n
+Modificare il programma o interrompere\n
+l'esecuzione del programma prima di\n
+dare il comando.
+154:
+Comando non consentito\n
+L'interpolazione SingArea\Wrist\n
+non e' supportata per il IRB6400C.\n
+\t\n
+Sostituire istruzione SingArea\Wrist\n
+con SingArea\Off.
+155:
+Pow Fail Riav negato\n
+Impossibile eseguire riavvio prima\n
+di RestoPath, ActUnit, Wait o istruz.\n
+Stop\n
+\t\n
+Eliminare il WARNING MOTION 50145\n
+con limitaz. al riavvio modificando\n
+istruz. Move in fine, spostarsi al\n
+punto iniziale ed iniziare un nuovo\n
+movimento.
+156:
+Errore asse indipend.\n
+L'asse %s non e' configurato\n
+come un asse indipendente.\n
+\t\n
+Modificare il programma o configurare\n
+l'asse come indipendente.
+157:
+Errore vettore correz.\n
+Calcoli di correzione vettore X non\n
+eseguiti causa un precedente errore.\n
+\t\n
+
+158:
+Assenza sens. processo\n
+Assenza sensore processo\n
+in fase di inizializzazione.\n
+Il sensore processo %s\n
+non puo' essere trovato o inizializ.\n
+\t\n
+Verifica nome processo e relativi\n
+files di configurazione.
+159:
+Assenza sens. processo\n
+Tentativo di movimento coordinato\n
+o di calcolo di posiz. single %s\n
+senza sensore di processo.\n
+\t\n
+Verifica nome processo e relativi\n
+files di configurazione.
+160:
+Posiz. non raggiunta\n
+La posizione programmata %s\n
+e' fuori dalla sua area di lavoro\n
+e pertanto non puo' essere raggiunta.\n
+\t\n
+Modificare la posizione.\n
+Verificare limiti area di lavoro.\n
+Verificare il wobj usato.
+161:
+Robot vicino ad un\n
+punto singolare. Quest'area ha\n
+delle limitazioni cinematiche.\n
+\t\n
+Durante il MovMan, utilizzare il\n
+movimento per singoli assi.\n
+Durante l'esecuzione di un programma\n
+utilizzare MoveAbsJ.
+162:
+Errore posiz. interna\n
+Errore causato da una limitazione\n
+numerica interna\n
+\t\n
+Resettare l'asse indipendente\n
+Ridurre l'area di lavoro se estesa\n
+Rimuovere o distanziare punti vicini
+163:
+Correzione Posiz. est.\n
+Correzione posiz. est. troppo ampia.\n
+La velocita' del TCP, la velocita' di\n
+riorientamento, o la velocita' di\n
+posizione esterna superano le capacita'\n
+del robot.\n
+\t\n
+1. Ridurre la velocita' del TCP\n
+   e quella di riorientamento\n
+2. Modificare la traiettoria\n
+3. WaitWObj piu' vicino a sync\n
+4. Eseguire in modalita' AUTO
+164:
+Err. disattiv. ind.\n
+Errore disattivazione indipendente.\n
+La disattivazione di un'unita' mecc.\n
+non puo' essere fatta in modo\n
+indipendente.\n
+\t\n
+
+165:
+Distanza max conveyor\n
+La posizione del conveyor di %5.3f m\n
+eccede la massima distanza di sicur.\n
+stabilita.\n
+\t\n
+Verificare la configurazione del\n
+conveyor.\n
+Verificare distanza max possibile\n
+per la posizione del conveyor.
+166:
+Overflow pos. conveyor\n
+Overfolw posizione conveyor durante\n
+inseguimento di wobj. Work object\n
+e' oltre il limite.\n
+\t\n
+Aumentare la velocita' programmata\n
+Modificare i rapporti di misura per\n
+aumentare l'area di insegimento.\n
+Ridurre la velocita' del conveyor.
+167:
+Attenzione: nuovo sinc\n
+Attenzione: un nuovo segnale sincr.\n
+ricevuto mentre il conveyor e'\n
+attivo e il programma e' in esecuz.\n
+\t\n
+
+168:
+Nuovo sincr. oggetto\n
+Nuovo sincr. oggetto letto mentre il\n
+conveyor stava trasportando il\n
+precedente.\n
+Impossibile trasportare i due\n
+contemporaneamente.\n
+\t\n
+Ridurre la velocita' del conveyor\n
+Aumentare la velocita' programmata
+169:
+Coord. non eseguita\n
+Coordinaz. non eseg. con posizione\n
+esterna. Questo a causa di un prec.\n
+errore o di un uso improprio di\n
+DeactUnit o DropWObj durante il\n
+movimento coordinato.\n
+\t\n
+
+178:
+Movimento inadeguato\n
+Richiesta una coppia troppo elevata\n
+Necessaria regolazione manuale\n
+dell'accelerazione o della velocita'.\n
+\t\n
+Ridurre l'acceleraz. (AccSet 50 100)\n
+in questo movim., e riportarla poi a\n
+valore prec.(AccSet 100 100). Ottim.\n
+le prestaz. cercando max accel 50-99\n
+In alternativa, ridurre la velocita'.

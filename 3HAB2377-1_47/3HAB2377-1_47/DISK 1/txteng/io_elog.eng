@@ -1,0 +1,918 @@
+27::
+0:
+IO & Communication
+1000:
+Bus name invalid\n
+Description\Reason:\n
+- Unit type %s: has\n
+  an invalid bus name\n
+\t\n
+Check list:\n
+1. Change the busname for the unit type
+1001:
+Duplicated address\n
+Description\Reason:\n
+- Same address for unit %s and %s\n
+\t\n
+Check list:\n
+1.Check the address\n
+2.Check the bus
+1002:
+Invalid unit type\n
+Description\Reason:\n
+- Unit %s: has an unspecified\n
+  unit type named: %s.\n
+\t\n
+Check list:\n
+1.Check the unit type against the one\n
+  specified for the unit
+1003:
+Invalid unit\n
+Description\Reason:\n
+- The unit specified for the signal %s\n
+  is not specified in the unit section\n
+\t\n
+Check list:\n
+1.Change the name of the unit\n
+2.Add a new unit to the unit list
+1004:
+Invalid signal length\n
+Description\Reason:\n
+- The length of the digital\n
+  signal %s must be 1\n
+\t\n
+Check list:\n
+1.Change the length to 1 or remove\n
+  the statement.
+1005:
+Filter time invalid\n
+Description\Reason:\n
+- Signal %s: The passive filter time\n
+  should be 0 or %d - %d ms\n
+\t\n
+Check list:\n
+1.Change the filter time
+1006:
+Filter time invalid\n
+Description\Reason:\n
+- Signal %s: The active filter time\n
+  should be 0 or %d - %d ms\n
+\t\n
+Check list:\n
+1.Change the filter time
+1007:
+Logic. value out of range\n
+Description\Reason:\n
+- Signal %s: Logical Max is less or\n
+  equal to Logical Min\n
+\t\n
+Check list:\n
+1.Correct the values to be max greater\n
+  than min
+1008:
+Phys. value out of range\n
+Description\Reason:\n
+- Signal %s: Physical Max is less or\n
+  equal to Physical Min\n
+\t\n
+Check list:\n
+1.Correct the values to be max greater\n
+  than min
+1009:
+Type invalid\n
+Description\Reason:\n
+- Signal %s: the type of signal\n
+  is invalid\n
+\t\n
+Check list:\n
+1.Change the type
+1010:
+Signal out of range\n
+Description\Reason:\n
+- Signal %s: the physical signal\n
+  number + length -1 cannot exceed\n
+  max. physical signal number for\n
+  the unit. Maximum value = %d\n
+\t\n
+Check list:\n
+1.Change the physical signal number\n
+2.Change the length
+1015:
+Digital Input overflow\n
+Description\Reason:\n
+- Number of digital input channels\n
+  for board %s is greater\n
+  than %d\n
+\t\n
+Check list:\n
+1. Reduce the number digital inputs
+1016:
+Digital Output overflow\n
+Description\Reason:\n
+- Number of digital output channels\n
+  for board %s is greater\n
+  than %d\n
+\t\n
+Check list:\n
+1. Reduce the number of digital outputs
+1017:
+No activate signal\n
+Description\Reason:\n
+- Missing activate signal for cross\n
+\t\n
+Check list:\n
+1. One activate signal must be given
+1018:
+Activate signal overflow\n
+Description\Reason:\n
+-Number of activate signals for\n
+ cross too high\n
+\t\n
+Check list:\n
+1. Only one activate signal must\n
+   be given
+1019:
+Missing signal definition\n
+Description\Reason:\n
+-The signal: %s, at cross is\n
+ not defined\n
+\t\n
+Check list:\n
+1. Define the signal name\n
+   in signal section
+1020:
+No result signal\n
+Description\Reason:\n
+- Missing result signal\n
+\t\n
+Check list:\n
+1. At least one result signal must\n
+   be given
+1021:
+Duplicate cross signals\n
+Description\Reason:\n
+- The signal: %s, appears both as FROM\n
+  and as TO.\n
+\t\n
+Check list:\n
+1. The same signal can not be given for\n
+   both FROM and TO
+1022:
+Physical max too high\n
+Description\Reason:\n
+- Signal: %s\n
+- The physical max value > %.3f\n
+\t\n
+Check list:\n
+1. Change value in configuration
+1023:
+Physical min too low\n
+Description\Reason:\n
+- Signal: %s\n
+- The physical min value < %.3f\n
+\t\n
+Check list:\n
+1. Change value in configuration
+1024:
+Physical value too high\n
+Description\Reason:\n
+- Signal: %s\n
+- Current value = %.1f >\n
+- Maxvalue = %.1f\n
+- Value set to Maxvalue\n
+\t\n
+Check list:\n
+1. Change physical max value in\n
+   configuration
+1025:
+Physical value too low\n
+Description\Reason:\n
+- Signal: %s\n
+- Current value = %.1f <\n
+- Minvalue = %.1f\n
+- Value set to Minvalue\n
+\t\n
+Check list:\n
+1. Change physical min value in\n
+   configuration
+1026:
+Logical value too high\n
+Description\Reason:\n
+- Signal: %s\n
+- Current value = %.1f >\n
+- Maxvalue = %.1f\n
+- Value set to Maxvalue\n
+\t\n
+Check list:\n
+1. Change logical max value in\n
+   configuration
+1027:
+Logical value too low\n
+Description\Reason:\n
+- Signal: %s\n
+- Current value = %.1f <\n
+- Minvalue = %.1f\n
+- Value set to Minvalue\n
+\t\n
+Check list:\n
+1. Change logical min value in\n
+   configuration
+1033:
+Dig. input out of range\n
+Description\Reason:\n
+- The number of digital inputs is\n
+  out of range at board address %d\n
+  max inputs are %d\n
+\t\n
+Check list:\n
+1. Change the configuration for\n
+   the board
+1034:
+Dig. output out of range\n
+Description\Reason:\n
+- The number of digital outputs is\n
+  out of range at board address %d\n
+  max outputs are %d\n
+\t\n
+Check list:\n
+1. Change the configuration for\n
+   the board
+1036:
+Name out of range\n
+Description\Reason:\n
+- The number of characters in\n
+- name %s\n
+- is greater than %d characters or\n
+- the name is missing.\n
+\t\n
+Check list:\n
+1. Give a new name that fits within\n
+   the limits.
+1037:
+IO Cross connection fault\n
+Description\Reason:\n
+- The signal %s appears on both\n
+  FROM and TO in the same chain\n
+\t\n
+Check list:\n
+1. Correct the configuration for the\n
+cross connections where the signal above\n
+is connected.
+1038:
+IO Cross depth to high\n
+Description\Reason:\n
+- The Cross connection in the same chain\n
+- is too deep.\n
+- First signal name: %s\n
+\t\n
+Check list:\n
+1. Make the Cross connection less deep.
+1041:
+Analog output overflow\n
+Description\Reason:\n
+- Number of analog output for\n
+- board, %s is greater than %d.\n
+\t\n
+Check list:\n
+1. Reduce the number of analog outputs.
+1042:
+Analog inputs overflow\n
+Description\Reason:\n
+- Number of analog inputs for\n
+- board, %s is greater than %d.\n
+\t\n
+Check list:\n
+1. Reduce the number of analog inputs.
+1043:
+Signal type error\n
+Description\Reason:\n
+- The type specified for signal %s\n
+ can't be connected to specified board\n
+\t\n
+Check list:\n
+1. Change to another type.\n
+2. Change to another board.
+1044:
+Physical signal overflow\n
+Description\Reason:\n
+- The range of phsig, or length, or\n
+  phsig and length for signal %s is\n
+  greater than %d\n
+\t\n
+Check list:\n
+1. Change the physical signal number\n
+2. Change the length.
+1045:
+Filter specification err.\n
+Description\Reason:\n
+- Signal %s : No filter time can be\n
+  specified for this type of signal.\n
+\t\n
+Check list:\n
+1. Set filter time to 0 or remove the\n
+   statement.
+1046:
+Scaling error\n
+Description\Reason:\n
+- Signal %s: No scaling can be done.\n
+\t\n
+Check list:\n
+1. Remove the scaling statements.
+1049:
+Parameter Invert error\n
+Description\Reason:\n
+- Signal %s: This type of signal\n
+ can't be inverted.\n
+\t\n
+Check list:\n
+1. Only digital signals can be inverted.
+1050:
+Cross signal not digital.\n
+Description\Reason:\n
+- Signal %s: Is not a digital signal\n
+\t\n
+Check list:\n
+1. Only digital signals can be cross.\n
+   connected.
+1052:
+Cross table full.\n
+Description\Reason:\n
+- The sum of different FROM signals\n
+  added with total sum of TO signals\n
+  must not exceed %d\n
+\t\n
+Check list:\n
+1. Reduce the number of signals.\n
+2. Increase the number of crosscon.\n
+   allowed.
+1053:
+Connection to board down\n
+Description\Reason:\n
+- Can't access the board due to\n
+  communication is down\n
+\t\n
+Check list:\n
+1. Check the communication cable to\n
+   the board\n
+2. Check if the board is switched off
+1054:
+Wrong signal type\n
+Description\Reason:\n
+- Signal %s:\n
+  The type of signal is wrong\n
+\t\n
+Check list:\n
+1. Change the type
+1055:
+Invalid signal name\n
+Description\Reason:\n
+- Symbol %s: is not defined\n
+\t\n
+Check list:\n
+1. Change the symbol name above
+1056:
+Power fail restore full\n
+Description\Reason:\n
+- Symbol %s: could not be setup for\n
+  power failure restore.\n
+  The table for power fail is full.\n
+\t\n
+Check list:\n
+1. Increase the table size in\n
+   startup file.\n
+2. Remove some other signal from restore\n
+   list.
+1058:
+No contact with I/O unit\n
+Description\Reason:\n
+- No contact with I/O unit: %s\n
+  on bus: %s\n
+\t\n
+Check list:\n
+1. Check the addresses on all\n
+   I/O units connected to the bus\n
+2. Change the address
+1059:
+Error config. Can node\n
+Description\Reason:\n
+- Error when configuring Can node\n
+  connected at node address %d\n
+\t\n
+Check list:\n
+1. Correct the configuration for the\n
+   Can node at given address.
+1061:
+I/O bus error\n
+Description\Reason:\n
+- An abnormal rate of errors on\n
+  bus %s has been detected.\n
+\t\n
+Check list:\n
+1. Check the bus.\n
+2. Restart System.   
+1072:
+No save set on signal\n
+Description\Reason:\n
+- Signal %s\n
+  has not Set the Store attribute to YES\n
+\t\n
+Check list:\n
+1. Set the Store attribute.
+1073:
+Error on I/O Bus\n
+Description\Reason:\n
+- An abnormal rate of errors on the\n
+  %s Bus has been detected.\n
+  The connector for External CAN I/O\n
+  has been switched off\n
+\t\n
+Check list:\n
+1. Check bus terminators.\n
+2. Check I/O bus for short-circuit.\n
+3. Restart system.
+1074:
+Config. out of range\n
+Description\Reason:\n
+- The IBS starting quarter and rack\n
+  size is out of range for\n
+  board %s\n
+\t\n
+Check list:\n
+1. For starting quarter 1 rack size\n
+   must be less than 5
+1076:
+Comm error from rtp1\n
+Description\Reason:\n
+- No response from the\n
+  serial line\n
+\t\n
+Check list:\n
+1. Check the device or connection
+1077:
+Comm error from rtp1\n
+Description\Reason:\n
+- Not possible to deliver\n
+  the received message\n
+\t\n
+Check list:\n
+1. Check the communication flow
+1078:
+Comm error from rtp1\n
+Description\Reason:\n
+- The response from the device\n
+  has a non valid frame sequence\n
+\t\n
+Check list:\n
+1. Check for noise on the serial\n
+   line
+1079:
+Pulsing group output\n
+Description\Reason:\n
+- Pulsing group output not allowed.\n
+\t\n
+Check list:\n
+1. ---
+1080:
+Unit type table full.\n
+Description\Reason:\n
+- The number of unit types\n
+  must not exceed %d\n
+\t\n
+Check list:\n
+1. Reduce the number of unit types.\n
+2. Increase the number of types\n
+   allowed.
+1081:
+Physical table full.\n
+Description\Reason:\n
+- The number of physical signals\n
+  must not exceed %d\n
+\t\n
+Check list:\n
+1. Reduce the number of physical\n
+   signals.\n
+2. Increase the number of phs allowed.
+1082:
+Signal table full.\n
+Description\Reason:\n
+- The number of user defined signals\n
+  plus panel signals must not\n
+  exceed %d\n
+\t\n
+Check list:\n
+1. Reduce the number of signals.\n
+2. Increase the number of signals\n
+   allowed.
+1083:
+Symbol table full.\n
+Description\Reason:\n
+- The number of symbols\n
+  must not exceed %d\n
+\t\n
+Check list:\n
+1. Reduce the number of symbols.\n
+2. Increase the number of symbols\n
+   allowed.
+1084:
+Triggr table full.\n
+Description\Reason:\n
+- The number of Subcribed signals\n
+  must not exceed %d\n
+\t\n
+Check list:\n
+1. Reduce the number of Subcribed\n
+   signals.\n
+2. Increase the number of Subcribtions\n
+   allowed.
+1085:
+Unit table full.\n
+Description\Reason:\n
+- The number of boards\n
+  must not exceed %d\n
+\t\n
+Check list:\n
+1. Reduce the number of defined boards.\n
+2. Increase the number of boards\n
+   allowed.
+1094:
+Too many cross-actors def\n
+Description\Reason:\n
+- The cross-connection has too\n
+  many "From" signals : %s\n
+\t\n
+Check list:\n
+1. Check the cross configuration.
+1095:
+Too long cross-actor str\n
+Description\Reason:\n
+- The "From" part in the cross-string\n
+  is too long : %s\n
+\t\n
+Check list:\n
+1. Check the cross configuration.
+1097:
+Parameter store error\n
+Description\Reason:\n
+- Signal %s: This type of signal\n
+ can't have store option.\n
+\t\n
+Check list:\n
+1. Only digital output signals can\n
+   have store.
+1098:
+NFS server lost\n
+Description\Reason:\n
+- The contact with the NFS server\n
+   '%s' was lost.\n
+\t\n
+Check list:\n
+1. Check the NFS server.\n
+2. Check the network connection.\n
+3. Check the configuration.
+1099:
+Trusted NFS server lost\n
+Description\Reason:\n
+- The contact with the trusted\n
+  NFS server '%s'\n
+  was lost.\n
+\t\n
+Check list:\n
+1. Check the NFS server.\n
+2. Check the network connection.\n
+3. Check the configuration.
+1101:
+Unknown bus name.\n
+Description\Reason:\n
+- Board %s: Unknown bus\n
+  name %s\n
+\t\n
+Check list:\n
+1. Change the bus name for the board\n
+   at unit type configuration.
+1102:
+DeviceNet incompatible\n
+Description\Reason:\n
+- Node %d:\n
+  Internal info:\n
+  %s,%d\n
+  (%s)\n
+\t\n
+Check list:\n
+1. Disconnect the node from bus\n
+2. Contact ABB.
+1103:
+Error on I/O Bus\n
+Description\Reason:\n
+- An abnormal rate of errors on the\n
+  %s Bus has been detected.\n
+  The connector for Robot CAN I/O\n
+  has been switched off\n
+\t\n
+Check list:\n
+1. Check bus terminators.\n
+2. Check I/O bus for short-circuit.\n
+3. Restart system.
+1104:
+Error on I/O Bus\n
+Description\Reason:\n
+- An abnormal rate of errors on the\n
+  %s Bus has been detected.\n
+The connectors for External CAN I/O\n
+and Robot CAN I/O has been switched off\n
+\t\n
+Check list:\n
+1. Check bus terminators.\n
+2. Check I/O bus for short-circuit.\n
+3. Restart system.
+1113:
+IBS user command failure\n
+Description\Reason:\n
+- Warning due to: %d\n
+\t\n
+Check list:\n
+1. Check the InterBus-S configuration\n
+   according to above error code.
+1114:
+Invalid IP address\n
+Description\Reason:\n
+'%s' is not a valid IP address\n
+\t\n
+Check list:\n
+1.Check the Communication configuration.
+1115:
+Invalid subnet mask\n
+Description\Reason:\n
+'%s' is not a valid subnet mask\n
+\t\n
+Check list:\n
+1. Check the Communication configuration
+1117:
+Battery supervision res.\n
+Description\Reason:\n
+The battery capacity = %d\n
+\t\n
+Check list:
+1118:
+Battery supervision state\n
+Description\Reason:\n
+The battery supervision is in wrong\n
+state .\n
+The state is = %s\n
+\t\n
+Check list:
+1119:
+IO-unit table full.\n
+Description\Reason:\n
+- Maximum number of IO-units\n
+  of type %s exceeded.\n
+  Max = %d\n
+\t\n
+Check list:\n
+1. Reduce the number of IO-units.
+1120:
+RAP option not installed.\n
+Description\Reason:\n
+- The RAP Communication option has to be\n
+  installed when configuring RAP or\n
+  using SCWrite.\n
+\t\n
+Check list:\n
+1. Reboot and install the\n
+   RAP Communication option.
+1121:
+RAP start-up failed.\n
+Description\Reason:\n
+- The initialization of RAP failed.\n
+\t\n
+Check list:\n
+1. Check internal log for decription.
+1122:
+Incorrect IP address.\n
+Description\Reason:\n
+- The address '%s'\n
+  in protocol '%s'\n
+  is not a correct IP address.\n
+\t\n
+Check list:\n
+1. Change the address.
+1123:
+No matching trans. prot.\n
+Description\Reason:\n
+The transmission protocol '%s'\n
+given for application protocol '%s'\n
+could not be found.\n
+\t\n
+Check list:\n
+1. Change the transmission protocol.
+1124:
+Wrong trans prot. for NFS\n
+Description\Reason:\n
+The transmission protocol for\n
+the NFS protocol '%s' must be\n
+TCP/IP.\n
+\t\n
+Check list:\n
+1. Change the transmission protocol.
+1125:
+Mount Permission denied\n
+Description\Reason:\n
+Permission was denied to mount\n
+the directory '%s'\n
+on the server '%s'.\n
+\t\n
+Check list:\n
+1. Change the User or Group ID.
+1126:
+Directory not exported\n
+Description\Reason:\n
+Mounting directory '%s'\n
+as '%s' failed\n
+since it is not exported on the server\n
+computer '%s',Protocol: '%s'.\n
+\t\n
+Check list:\n
+1. Export the directory on\n
+   the server computer.
+1127:
+ID's not the equal\n
+Description\Reason:\n
+The User and Group ID's has to have\n
+the same value for all remote disks\n
+\t\n
+Check list:
+1128:
+Ethernet option not inst.\n
+Description\Reason:\n
+- The Ethernet Services option has to be\n
+  installed when remomte mounted disks\n
+\t\n
+Check list:\n
+1. Reboot and install the Ethernet\n
+   Services option.
+1129:
+Too many remote disks\n
+Description\Reason:\n
+The maximum number of remote mounted\n
+disks is '%d'.\n
+\t\n
+Check list:\n
+1. Reduces the number of remote mounted\n
+   disk.
+1130:
+Too many remote servers\n
+Description\Reason:\n
+The maximum number of servers for\n
+remote mounted disks is '%d'.\n
+\t\n
+Check list:\n
+1. Reduces the number of servers
+1131:
+Could not mount directory\n
+Description\Reason:\n
+Mounting directory '%s'\n
+on the computer '%s' failed\n
+Protocol: '%s'.\n
+\t\n
+Check list:\n
+1. Check the NFS server setup
+1132:
+Battery supervision block\n
+Description\Reason:\n
+The battery superviosion is blocked\n
+becaurse a power off/on is made.\n
+Will be released %s\n
+\t\n
+Check list:
+1133:
+Battery not charged\n
+Description\Reason:\n
+The battery is not charged after\n
+the first charging state.\n
+\t\n
+Check list:\n
+1. Check that the batlow signal is\n
+   connected to the DSQC347.\n
+2. Check the battery connections\n
+3. Check the battery.
+1137:
+Error code from unit\n
+Description\Reason:\n
+The following error was returned:\n
+%s\n
+\t\n
+Check list:\n
+1. Check unit parameter configuration.
+1139:
+Access error from IO\n
+Description\Reason:\n
+- Cannot Read or Write signal %s\n
+  due to communication down.\n
+\t\n
+Check list:\n
+1. Check 'No contact with I/O unit'\n
+   report for reason.
+1140:
+Parameter act high error\n
+Description\Reason:\n
+- Signal %s: This type of signal\n
+  can't be set to active high.\n
+\t\n
+Check list:\n
+1. Only output signals can be\n
+   set to active high.
+1141:
+Default out of range\n
+Description\Reason:\n
+- The default value for\n
+	signal %s is out of range\n
+\t\n
+Check list:\n
+1.Change the default value in\n
+  configuration.
+1142:
+Parameter Default error\n
+Description\Reason:\n
+- Signal %s: This type of signal\n
+  can't be assigned a default value\n
+\t\n
+Check list:\n
+1. Only output signals can be assigned\n
+	default values.
+1143:
+CTS/RTS not allowed\n
+Description\Reason:\n
+- Serie channel %s:\n
+  can't have option RTS/CTS.\n
+\t\n
+Check list:\n
+1. Remove the option from configuration.
+1146:
+Subscribe error\n
+Description\Reason:\n
+- The maxlimit is less then minlimit\n
+  maxlimit = %f minlimit = %f.\n
+\t\n
+Check list:\n
+1. Make the correction and try again
+1153:
+Can't access parameter\n
+Description\Reason:\n
+- Unit %s has parameters\n
+  that can't be edited from\n
+  the teach pendant.\n
+\t\n
+Check list:\n
+1. Save the EIO configuration to\n
+   a file\n
+2. Use a text editor to change\n
+   the parameters
+1156:
+IPC queue full\n
+Description\Reason:\n
+- The ipc queue was full,\n
+  when sending to trap routine.\n
+  errno = %x\n
+\t\n
+Check list:\n
+1. Restart the system
+1157:
+Invalid app type\n
+Description\Reason:\n
+- Com Unit %s: has an unspecified\n
+  Com app type named: %s.\n
+\t\n
+Check list:\n
+1.Check the Com app type against\n
+  the one specified for the Com app
+1159:
+Signal Access illegal\n
+Description\Reason:\n
+- Signal %s:\n
+  The number of characters in\n
+  Access %s\n
+  is greater than %d or name missing.\n
+\t\n
+Check list:\n
+1. Give a new Access that fits within\n
+   the limits.
+1160:
+Access level illegal\n
+Description\Reason:\n
+- Signal %s:\n
+  Access level %s in\n
+  group %s is illegal.\n
+- Legal choices all/man/auto/none.\n
+\t\n
+Check list:\n
+1. Give a new access level for group\n
+   that fits.
+1161:
+Access name not found\n
+Description\Reason:\n
+- Signal %s:\n
+  The Access name %s\n
+  not found in EIO_USER_ACCESS.\n
+\t\n
+Check list:\n
+1. Define %s in EIO_USER_ACCESS\n
+   or change Access name. 
