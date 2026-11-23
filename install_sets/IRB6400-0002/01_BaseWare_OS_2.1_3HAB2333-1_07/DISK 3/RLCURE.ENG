@@ -1,0 +1,65 @@
+67::
+0:
+Class rlcure
+1:
+SetCurrRef
+2:
+ResetCurrRef
+3:
+MechUnit
+4:
+Axis
+5:
+TstStep
+6:
+GetNextMechUnit
+7:
+ListNumber
+8:
+UnitName
+9:
+TestSign
+10:
+Output
+11:
+SignalId
+12:
+Scale
+13:
+Stime
+14:
+num
+15:
+string
+16:
+bool
+17:
+Unknown SERVO instance
+18:
+Unknown IPOL instance
+19:
+Unknown MECMAP instance
+20:
+Can't set test signals
+21:
+Unknown mechanical unit
+22:
+axis is out of range
+23:
+out channel is out of range
+24:
+step is out of range
+25:
+Can't activate the unit
+26:
+Can't set current reference
+27:
+Can't reset current reference
+28:
+testsignal
+29:
+mecunit
+30:
+errnum
+31:
+QStopExit

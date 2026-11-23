@@ -1,0 +1,77 @@
+Revision 1.10  1995/12/15  13:27:40  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.9  1995/04/21  13:11:01  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.8  1994/08/19  09:38:46  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+2::
+0:
+
+1:
+Welcome To
+2:
+ABB Robotics Products AB
+3:
+Check
+4:
+Log
+5:
+Error
+6:
+Cancel Change of Operating Mode!\n
+\n
+\n
+Switch Operating Mode Selector\n
+back to MANUAL
+7:
+Change of Operating Mode
+8:
+Operating Mode has been changed from\n
+MANUAL to AUTO.
+9:
+Operating Mode has been change from\n
+MANUAL to MANUAL FULL SPEED.
+10:
+Please, acknowledge this by pressing OK.\n
+\n
+\n
+(If Cancel, the Operating Mode Selector\n
+ must be switched back to MANUAL)
+11:
+Hold-To-Run!\n
+\n
+Waiting for Hold-To-Run button\n
+to be pressed.
+12:
+
+13:
+
+14:
+
+15:
+
+16:
+Status
+17:
+\n
+The following units are\n
+Not Synchronized.\n
+To Synchronize,\n
+press Sync (in MOTORS ON).
+18:
+Not Synchronized Units!
+19:
+Unit              Status
+20:
+Synchronizing %s\n
+\n
+\n
+Ready in a short while!
+21:
+Sync

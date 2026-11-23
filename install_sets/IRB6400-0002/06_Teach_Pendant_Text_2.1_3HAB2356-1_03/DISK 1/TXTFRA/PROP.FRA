@@ -1,0 +1,415 @@
+14::
+100:
+Pas d'objet
+200:
+Marque de reservation
+300:
+Fin
+400:
+Declaration de module
+401:
+Attribut module 'system'
+402:
+Attribut module 'Nostepin'
+403:
+Attribute module 'Viewonly'
+404:
+Attribut module 'Readonly'
+405:
+Nom d'Objet
+406:
+Liste de declaration de donnees
+407:
+Liste de declaration de routine
+408:
+Fin
+500:
+Declaration de constante
+501:
+Local
+502:
+Type
+503:
+Nom d'objet
+504:
+Liste d'expression
+505:
+Expression
+600:
+Declaration de variable
+601:
+Local
+602:
+Type
+603:
+Nom d'objet
+604:
+Liste d'expression
+605:
+Expression
+700:
+Declaration de persistante
+701:
+Local
+702:
+Type
+703:
+Nom d'objet
+704:
+Liste d'expression
+705:
+Expression
+800:
+Declaration de fonction
+801:
+Local
+802:
+Type
+803:
+Nom d'objet
+804:
+Declaration de parametre
+805:
+Liste de declaration de donnees
+806:
+Liste d'instructions
+807:
+ELSE
+808:
+Fin
+900:
+Declaration de procedure
+901:
+Local
+902:
+Nom d'objet
+903:
+Declaration de parametre
+904:
+Liste de declaration de donnee
+905:
+Liste d'instructions
+906:
+Liste d'instructions Backw
+907:
+ELSE
+908:
+Fin
+1000:
+Declaration de trap
+1001:
+Local
+1002:
+Nom d'objet
+1003:
+Liste de declaration de donnee
+1004:
+Liste d'instructions
+1005:
+ELSE
+1006:
+Fin
+1100:
+Parametre necessaire
+1101:
+Mode de parametre variable
+1102:
+Mode de parametre persistant
+1103:
+Mode de parametre Inout
+1104:
+Type
+1105:
+Nom d'objet
+1106:
+Dimensions
+1200:
+Parameter optionnel
+1201:
+Declaration de parametre
+1300:
+Parametre alternatif
+1301:
+Mode de parametre variable
+1302:
+Mode de parametre persistant
+1303:
+Mode de parametre inout
+1304:
+Type
+1305:
+Nom d'objet
+1306:
+Dimensions
+1400:
+Label
+1401:
+Nom d'objet
+1500:
+Return
+1501:
+Expression
+1600:
+Raise
+1601:
+Expression
+1700:
+Retry
+1800:
+Connect
+1801:
+Reference de variable
+1802:
+Reference de nom d'objet
+1900:
+Exit
+2000:
+Goto
+2001:
+Reference de nom d'objet
+2100:
+Affectation
+2101:
+Reference de variable
+2102:
+Expression
+2200:
+IF
+2201:
+Expression
+2202:
+Liste d'instructions
+2203:
+ELSEIF
+2204:
+ELSE
+2205:
+End
+2300:
+IF compact
+2301:
+Expression
+2302:
+Instruction
+2400:
+WHILE
+2401:
+Expression
+2402:
+Liste d'instructions
+2403:
+Fin
+2500:
+FOR
+2501:
+Nom d'objet
+2502:
+Depuis
+2503:
+Jusqu'a
+2504:
+Pas
+2505:
+Liste d'instructions
+2506:
+Fin
+2600:
+TEST
+2601:
+Expression
+2602:
+Liste de cas
+2603:
+Liste d'instructions
+2604:
+Fin
+2700:
+Appel de procedure
+2701:
+Reference de nom d'objet
+2702:
+List d'arguments
+2800:
+Elseif
+2801:
+Expression
+2802:
+Liste d'instructions
+2900:
+Case
+2901:
+Expressions
+2902:
+Liste d'instructions
+3000:
+Argument necessaire
+3001:
+Reference de nom d'objet
+3002:
+Expression
+3100:
+Argument optionnel
+3101:
+Reference de variable
+3102:
+Expression
+3103:
+Reference de variable
+3200:
+Expression de constante
+3300:
+Expression
+3400:
+Litteral
+3500:
+Variable
+3600:
+Nom d'objet
+3700:
+Nom d'objet
+3800:
+Type de valeur
+3900:
+Type de donnee
+4000:
+Dimension
+4100:
+Commentaire
+4200:
+Nouvel Essai
+10000:
+PGM_PHR_NONE
+10100:
+PGM_PHR_DDN
+10101:
+Declaration de constante
+10102:
+Declaration de variable
+10103:
+Declaration de persistante
+10104:
+Commentaire
+10200:
+PGM_PHR_RDN
+10201:
+Declaration de fonction
+10202:
+Declaration de procedure
+10203:
+Declaration de trap
+10204:
+Commentaire
+10300:
+PGM_PHR_PAR
+10301:
+Parametre necessaire
+10302:
+Parametre optionnel
+10400:
+PGM_PHR_ALT
+10401:
+Parametre alternatif
+10500:
+PGM_PHR_SMT
+10501:
+Etiquette
+10502:
+Return
+10503:
+Raise
+10504:
+Retry
+10505:
+Connect
+10506:
+Exit
+10507:
+Goto
+10508:
+Affectation
+10509:
+IF
+10510:
+IF compact
+10511:
+WHILE
+10512:
+FOR
+10513:
+TEST
+10514:
+Appel de procedure
+10515:
+Commentaire
+10516:
+Nouvel Essai
+10600:
+PGM_PHR_SSMT
+10601:
+Return
+10602:
+Raise
+10603:
+Retry
+10604:
+Connect
+10605:
+Exit
+10606:
+Goto
+10607:
+Affectation
+10608:
+Appel de procedure
+10609:
+Nouvel Essai
+10700:
+PGM_PHR_EIT
+10701:
+Elseif
+10800:
+PGM_PHR_CSE
+10801:
+Case
+10900:
+PGM_PHR_ARG
+10901:
+Argument necessaire
+10902:
+Argument optionnel
+11000:
+PGM_PHR_CEXP
+11001:
+Expression de constante
+11100:
+PGM_PHR_EXP
+11101:
+Expression
+11200:
+PGM_PHR_LEXP
+11201:
+Litteral
+11300:
+PGM_PHR_VRF
+11301:
+
+11400:
+PGM_PHR_NAM
+11401:
+
+11500:
+PGM_PHR_REF
+11501:
+
+11600:
+PGM_PHR_VALTYP
+11601:
+Type de valeur
+11700:
+PGM_PHR_DATTYP
+11701:
+Type de donnee
+11800:
+PGM_PHR_DIM
+11801:
+Dimension

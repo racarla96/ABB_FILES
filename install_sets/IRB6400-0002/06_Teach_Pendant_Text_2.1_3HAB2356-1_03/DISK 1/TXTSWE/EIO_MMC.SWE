@@ -1,0 +1,201 @@
+17::
+0:
+IO Signaler
+1:
+Användarsignaler
+2:
+System
+3:
+Grupper
+4:
+Signalnamn
+5:
+Enhetsnamn
+6:
+Signaltyp
+7:
+Signalnummer
+8:
+Start Signal
+9:
+Grupplängd
+10:
+DI
+11:
+DO
+12:
+Säkerhet
+13:
+Enhetsnamn
+14:
+Enhetstyp
+15:
+Enhetsbuss
+16:
+Digital ingång
+17:
+Digital utgång
+18:
+I/O Kort
+19:
+Namn        Enhet       Typ         Sig
+20:
+Namn        Enhet     Längd      Fyssig
+21:
+Enhetstyp
+22:
+Namn        Typ         Buss     Adress
+23:
+GI
+24:
+GO
+25:
+Systemingångar
+26:
+Systemutgångar
+27:
+Namn
+28:
+Händelse
+29:
+Status
+30:
+MotorOn
+31:
+MotorOff
+32:
+CycleOn
+33:
+MotorOn
+34:
+MotorOff
+35:
+Start
+36:
+StartMain
+37:
+Stop
+38:
+StopCycle
+39:
+Interrupt
+40:
+LoadStart
+41:
+Argument
+42:
+Namn        Händelse
+43:
+Namn        Status
+44:
+-
+45:
+Till
+46:
+Från
+47:
+Korskopplingar
+48:
+Från        Till
+49:
+Analoga ingångar
+50:
+Analoga utgångar
+51:
+Adress
+52:
+AO
+53:
+AI
+54:
+ResetEstop
+55:
+EmStop
+56:
+AutoOn
+57:
+RunchOk
+58:
+TCPSpeed
+59:
+Logiskt max
+60:
+Fysiskt max
+61:
+Logiskt min
+62:
+Fysiskt min
+63:
+Filter Passiv
+64:
+Filter Aktiv
+65:
+Inverterad
+67:
+JA
+68:
+NEJ
+69:
+RIO Nod-adress
+70:
+RIO Data Hast
+71:
+RIO Startgrupp
+72:
+RIO Rackstorlek
+73:
+RIO Sista rack
+74:
+57.6 kB
+75:
+115 kB
+76:
+230 kB
+77:
+0
+78:
+2
+79:
+4
+80:
+6
+81:
+1/4
+82:
+1/2
+83:
+3/4
+84:
+FULL
+85:
+Error
+86:
+SyncExtAx
+87:
+BAS
+88:
+VME
+89:
+SIM
+90:
+ResetError
+91:
+CAN
+92:
+Kort Addr
+93:
+Lagra
+94:
+MotOnState
+95:
+MotOffState
+96:
+PFError
+97:
+MotOnStart
+98:
+StopInstr
+99:
+SysReset
+100:
+IBS Hyllstorlek

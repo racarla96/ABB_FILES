@@ -1,0 +1,77 @@
+Revision 1.10  1995/12/15  13:27:40  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.9  1995/04/21  13:11:01  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.8  1994/08/19  09:38:46  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+2::
+0:
+
+1:
+Bienvenue sur
+2:
+ABB Robotics Products AB
+3:
+Verif.
+4:
+Arch.
+5:
+Erreur
+6:
+Annuler Changmt Mode Operatoire!\n
+\n
+\n
+Remettre le Selecteur de Mode\n
+Operatoire en mode MANUEL!
+7:
+Changer Mode Operatoire
+8:
+Mode Operatoire change de\n
+MANUEL a AUTO.
+9:
+Mode Operatoire change de\n
+MANUEL a MANUEL 100%.
+10:
+SVP, acquittez en tapant OK.\n
+\n
+\n
+(Si Annulation, le Selecteur de Mode\n
+operatoire doit etre remis en MANUEL)
+11:
+Hold-To-Run!\n
+\n
+SVP, acquittez en appuyant sur\n
+le bouton Hold-To-Run
+12:
+
+13:
+
+14:
+
+15:
+
+16:
+Etat
+17:
+\n
+Les unites suivantes ne\n
+sont pas Synchronisees.\n
+Pour Synchroniser,\n
+Appuyer sur Sync (en MOTORS ON).
+18:
+Unites non synchronisees!
+19:
+Unite             Etat
+20:
+Synchronisation axe %s\n
+\n
+\n
+Pret dans quelques instants!
+21:
+Synchro

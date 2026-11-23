@@ -1,0 +1,601 @@
+22::
+0:
+System
+1:
+Umoznit preruseni retezu\n
+\n
+\t\n
+
+2:
+Nouzove zastaveni\n
+\n
+\t\n
+
+3:
+Zastaveni narazkou\n
+\n
+\t\n
+
+6:
+Automaticke zastaveni\n
+\n
+\t\n
+
+7:
+Rucni zastaveni\n
+\n
+\t\n
+
+8:
+Celkove zastaveni\n
+\n
+\t\n
+
+9:
+Porucha stavu beh retezu\n
+Konflikt stavu dvou kanalu.\n
+\t\n
+Zkontrolujte kontrolky systemove desky\n
+kdyz je cervena kontrolka ERR rozsvicena\n
+pro zjisteni, kde se nachazi chyba.
+10:
+Aktivni stav Em stop\n
+Pozadovano vynulovani Em stop.\n
+Pouzijte tlacitko MOTORY VYP.\n
+\t\n
+
+12:
+Akt. stav system. porucha\n
+Kriticka nezotavitelna chyba systemu.\n
+Pozadovan teply start.\n
+\t\n
+Kdyz je programove opakovane spusteni\n
+ignorovano, nebo neni dosazitelne,\n
+vypnete a zapnete hlavni vypinac.
+20:
+Prodleva stavu beh retezu\n
+Prodleva stavu dvou kanalu.\n
+\n
+Potvrzeni zmeny stavu dvoukanaloveho\n
+behu retezu nebylo prijato v ocekavanem\n
+case.\n
+\t\n
+Zkontrolujte kontrolky systemove desky\n
+kdyz je cervena kontrolka ERR rozsvicena\n
+pro zjisteni, kde se nachazi porucha.\n
+Mozna budete muset znovu naridit MOTORY\n
+ZAP, aby se kontrolka ERR rozsvitila.
+21:
+Klic. porucha st. rychl.\n
+Signaly volice provozniho rezimu a\n
+signal rychlosti jsou v konfliktu.\n
+\t\n
+
+22:
+Porucha klicoveho stavu\n
+Signaly volice provozniho rezimu jsou\n
+v konfliktu (napr. je indikovano nekolik\n
+rezimu nebo zadny rezim).\n
+\t\n
+
+24:
+Umoznit prodlevu retezu\n
+Prodleva stavu dvou kanalu.\n
+\t\n
+Potvrzeni zmeny stavu dvoukanaloveho\n
+behu retezu nebylo prijato v ocekavanem\n
+case.
+25:
+Prodl. prikazu zastaveni\n
+Prikaz zastaveni byl vydan jako vynucene\n
+ochranne zastaveni, kdyz nebylo prijato\n
+zadne potvrzeni v ocekavanem case.\n
+\t\n
+
+26:
+Porucha stavu ovl. behu\n
+Stavovy konflikt mezi rele behu retezu a\n
+ovladanim behu. Chyba nastava,\n
+kdyz povolovaci zarizeni je stisknuto\n
+v rezimu Auto a zaroven MOTORY ZAP.\n
+V teto situaci je to normalni.\n
+\t\n
+Jestlize chyba nastava v jine situaci,\n
+vymente systemovou desku.
+30:
+Osa neni komutovana\n
+Jedna z nekolika vnitrnich pohonnych\n
+jednotek os neni komutovana.\n
+\t\n
+
+31:
+Osa neni kalibrovana\n
+Jedna z nekolika absolutnich/relativnich\n
+mericich os neni kalibrovana.\n
+\t\n
+
+32:
+Zp. citac neaktualizovan\n
+Jedna z nekolika absolutnich mericich os\n
+neni synchronizovana.\n
+\n
+Premistete robot do vychozi polohy\n
+a aktualizujte citace otacek.\n
+\t\n
+
+33:
+Osa neni synchronizovana\n
+Jedna nebo nekolik relativnich mericich\n
+os neni synchronizovana.\n
+\n
+Naridte MOTORY ZAP a synchronizujte\n
+vsechny mechanicke jednotky v seznamu.\n
+\t\n
+
+40:
+Podrzet zastaveni\n
+\n
+\t\n
+
+41:
+Pretizeni motoru 1-6\n
+Jeden z motoru je prehraty. Ujistete se,\n
+ze se motory nechaji pred prikazem\n
+noveho zapnuti zchladnout.\n
+Jinak tato chyba po 15 sekundach stavu\n
+MOTORY ZAP nastane znovu.\n
+\t\n
+Prohlizejte zabezpeceni v okne V/V a\n
+drive, nez znovu vydate prikaz MOTORY\n
+ZAP, pockejte, az se signal OLM1 bude\n
+rovnat 0.
+42:
+Pretizeni motoru 7-x\n
+Jeden z motoru je prehraty. Ujistete se,\n
+ze se motory nechaji pred prikazem\n
+noveho zapnuti zchladnout.\n
+Jinak tato chyba po 15 sekundach stavu\n
+MOTORY ZAP nastane znovu.\n
+\t\n
+Prohlizejte zabezpeceni v okne V/V a\n
+drive, nez znovu vydate prikaz MOTORY\n
+ZAP, pockejte, az se signal OLM7 bude\n
+rovnat 0.
+50:
+Nedovoleny prikaz\n
+V tomto provoznim rezimu neni dovolen.\n
+\t\n
+
+51:
+Nedovoleny prikaz\n
+Neni dovolen, kdyz klient nekontroluje\n
+zdroje (program/pohyb).\n
+\t\n
+
+52:
+Nedovoleny prikaz\n
+Neni dovolen v tomto stavu skrine.\n
+\t\n
+
+53:
+Nedovoleny prikaz\n
+Neni dovolen v tomto stavu manipulatoru.\n
+\t\n
+
+54:
+Nedovoleny prikaz\n
+Neni dovolen, kdyz se vykonava program.\n
+\t\n
+
+60:
+Nedovoleny prikaz\n
+Neni dovolen v rezimu Auto.\n
+\t\n
+
+61:
+Nedovoleny prikaz\n
+Neni dovolen pri zmene na rezim Auto.\n
+\t\n
+
+62:
+Nedovoleny prikaz\n
+Neni dovolen v rucnim rezimu.\n
+\t\n
+
+63:
+Nedovoleny prikaz\n
+Neni dovolen v rezimu rucne\n
+s plnou rychlosti.\n
+\t\n
+
+64:
+Nedovoleny prikaz\n
+Neni dovolen pri zmene na rucni rezim\n
+s plnou rychlosti.\n
+\t\n
+
+70:
+Nedovoleny prikaz\n
+Neni dovolen ve stavu MOTORY ZAP.\n
+\t\n
+
+71:
+Nedovoleny prikaz\n
+Neni dovolen pri zmene do stavu\n
+MOTORY ZAP.\n
+\t\n
+
+72:
+Nedovoleny prikaz\n
+Neni dovolen ve stavu MOTORY VYP.\n
+\t\n
+
+73:
+Nedovoleny prikaz\n
+Neni dovolen pri zmene stavu\n
+na MOTORY VYP.\n
+\t\n
+
+74:
+Nedovoleny prikaz\n
+Neni dovolen ve stavu zastaveni\n
+ochranou.\n
+\t\n
+
+75:
+Nedovoleny prikaz\n
+Neni dovolen ve stavu nouzoveho\n
+zastaveni.\n
+\n
+Pozaduje se vynulovani Em stop.\n
+Pouzijte tlacitko MOTORY VYP.\n
+\t\n
+
+76:
+Nedovoleny prikaz\n
+Neni dovolen ve stavu systemove poruchy.\n
+\n
+Kriticka nezotavitelna chyba systemu.\n
+Pozaduje se teply start.\n
+\t\n
+Jestlize prikaz soft restart je\n
+ignorovan nebo neni dosazitelny, vypnete\n
+a znovu zapnete hlavni vypinac.
+80:
+Nedovoleny prikaz\n
+Neni dovolen, kdyz osa neni komutovana.\n
+\t\n
+
+81:
+Nedovoleny prikaz\n
+Neni dovolen, kdyz osa neni kalibrovana.\n
+\t\n
+
+82:
+Nedovoleny prikaz\n
+Neni dovolen, kdyz zpetny citac osy neni\n
+aktualizovan.\n
+\t\n
+
+83:
+Nedovoleny prikaz\n
+Neni dovolen, kdyz osa neni\n
+synchronizovana.\n
+\t\n
+
+92:
+Nedovoleny prikaz\n
+Neni dovolen ve stavu spusteni systemu\n
+V/V zablokovano.\n
+\t\n
+
+100:
+Vyuka ma prideleno rizeni\n
+Vyukova aplikace ma prideleno rizeni\n
+pozadovanych zdroju\n
+(program/pohyb)\n
+\t\n
+
+101:
+Vyuka (prg) ma rizeni\n
+Vyukove programovaci okno je zamereno na\n
+a ma prideleno rizeni programoveho\n
+serveru.\n
+Zmente na okno vyroby a prikaz vykonejte\n
+znovu.\n
+\t\n
+
+102:
+Vyuka (joystik) ma rizeni\n
+Vyukovy joystik ma prideleno rizeni\n
+pohyboveho serveru.\n
+Uvolnete joystik a prikaz vykonejte\n
+znovu.\n
+\t\n
+
+111:
+Vyuka (prg) ma rizeni\n
+Vyukove programovaci okno je zamereno na\n
+a ma prideleno rizeni programoveho\n
+serveru.\n
+Zmente na okno vyroby a prikaz vykonejte\n
+znovu.\n
+\t\n
+
+112:
+Program 1 ma rizeni\n
+Programovy server 1 ma prideleno rizeni\n
+pohyboveho serveru.\n
+Zastavte program a prikaz vykonejte\n
+znovu.\n
+\t\n
+
+113:
+Program 2 ma rizeni\n
+Programovy server 2 ma prideleno rizeni\n
+pohyboveho serveru.\n
+Zastavte program a prikaz vykonejte\n
+znovu.\n
+\t\n
+
+114:
+Program 3 ma rizeni\n
+Programovy server 3 ma prideleno rizeni\n
+pohyboveho serveru.\n
+Zastavte program a prikaz vykonejte\n
+znovu.\n
+\t\n
+
+115:
+Program 4 ma rizeni\n
+Programovy server 4 ma prideleno rizeni\n
+pohyboveho serveru.\n
+Zastavte program a prikaz vykonejte\n
+znovu.\n
+\t\n
+
+116:
+Program 5 ma rizeni\n
+Programovy server 5 ma prideleno rizeni\n
+pohyboveho serveru.\n
+Zastavte program a prikaz vykonejte\n
+znovu.\n
+\t\n
+
+120:
+System V/V ma rizeni\n
+\n
+\t\n
+
+125:
+Klient %s ma rizeni\n
+Specifikovany klient ma prideleno rizeni\n
+pozadovanych zdroju\n
+(program/pohyb).\n
+\t\n
+
+130:
+Nedost. pameti v konfig.\n
+\n
+\t\n
+
+131:
+Soubor nelze cist\n
+\n
+\t\n
+
+132:
+Parametry nejsou ulozeny\n
+Parametry nelze ulozit.\n
+Pravdepodobne proto, ze disketa je\n
+chranena proti zapisu, nebo na ni neni\n
+dostatek prostoru.\n
+\t\n
+Zkontrolujte, jestli je disketa chranena\n
+proti zapisu, nebo jestli je prostor na\n
+diskete dostatecny.
+133:
+Instanci nelze modifik.\n
+Popis\Duvod:\n
+Nelze vymenit instanci v radku %d\n
+souboru %s\n
+\t\n
+Instance je chranena proti zapisu.
+134:
+Chybna verze\n
+Popis\Duvod:\n
+Verze konfiguracni domeny v souboru %s\n
+je chybna.\n
+Programove vybaveni je urceno pro\n
+verzi %s\n
+\t\n
+Zmente verzi konfiguracni domeny.
+135:
+Radek je prilis dlouhy\n
+Popis\Duvod:\n
+Radek %d > %d znaku\n
+\t\n
+Snizte pocet znaku.
+136:
+Atribut mimo rozsah\n
+Popis\Duvod:\n
+Atribute %s je mimo rozsah\n
+v radku %d\n
+\t\n
+Zmente hodnotu atributu.
+137:
+Zdvojte nazev instance\n
+Popis\Duvod:\n
+Zdvojte nazev v radku %d\n
+souboru %s\n
+\t\n
+Zmente nazev.
+140:
+MOTORY ZAP odmitnut.\n
+MPTORY ZAP pres systemove V/V\n
+neni dovolen.\n
+\t\n
+
+141:
+MOTORY VYP odmitnut.\n
+MOTORY VYP pres systemove V/V\n
+neni dovolen.\n
+\t\n
+
+142:
+Spusteni odmitnuto.\n
+Spusteni/opakovane spusteni programu\n
+pres V/V neni dovoleno.\n
+\t\n
+
+143:
+Spust. hl. prg. odmitnuto\n
+Spusteni hlavniho programu pres\n
+systemove V/V neni dovoleno.\n
+\t\n
+
+144:
+Zastaveni odmitnuto.\n
+Zastaveni programu pres systemove\n
+V/V neni dovoleno.\n
+\t\n
+
+145:
+Zastav. cyklu odmitnuto.\n
+Zastaveni programoveho cyklu pres\n
+systemove V/V neni dovoleno.\n
+\t\n
+
+146:
+Rucni prerus. odmitnuto.\n
+Rucni preruseni programu pres systemove\n
+V/V neni dovoleno.\n
+\t\n
+
+147:
+Zav. a spust. odmitnuto.\n
+Zavedeni a spusteni programu pres\n
+systemove V/V neni dovoleno.\n
+Musi se definovat nazev programoveho\n
+souboru (vc. jednotky hromadne pameti),\n
+ktery se ma zavadet.\n
+\t\n
+
+148:
+Potvrzeni odmitnuto.\n
+Potvrzeni nulovani nouzoveho zastaveni\n
+pres systemove V/V neni dovoleno.\n
+\t\n
+
+149:
+Vynul. chyby odmitnuto.\n
+Vynulovani chyby vykonani programu pres\n
+systemove V/V neni dovoleno.\n
+\t\n
+
+150:
+Synchronizace odmitnuta.\n
+Synchronizace mechanicke jednotky pres\n
+systemove V/V neni dovolena.\n
+\t\n
+
+151:
+Chybny nazev signalu.\n
+Nazev signalu nelze rezervovat pro\n
+V/V systemu.\n
+Nazev signalu by nemusel byt v seznamu\n
+konfiguracniho souboru pro V/V systemu.\n
+\t\n
+
+152:
+Prilis mnoho omezeni.\n
+Pro jakoukoli akci (signal) na V/V\n
+systemu nejsou nastavena zadna omezeni.\n
+Celkovy pocet omezeni (signalu) pro\n
+akci v konfiguracnim souboru pro V/V\n
+systemu je prilis velky.\n
+\t\n
+
+153:
+MOTORY ZAP, spust. odmit.\n
+MOTORY ZAP, spustit/opakovane spustit\n
+program pres systemove V/V neni dovolen.\n
+\t\n
+
+154:
+Instr. zastaveni odmitn.\n
+Zastaveni programu pres systemove V/V\n
+neni dovoleno.\n
+\t\n
+
+155:
+Nedefinovany argument\n
+SyncExtAx mechanical_unit_name\n
+neni definovan\n
+\t\n
+
+156:
+Nedefinovany argument\n
+routine_name preruseni\n
+neni definovan\n
+\t\n
+
+157:
+Nedefinovany argument\n
+LoadStart program_name\n
+neni definovan\n
+\t\n
+
+160:
+Neni v konfiguraci\n
+Systemovy modul %!%s v uloze\n
+%s nema odpovidajici specifikaci\n
+v konfiguraci pro\n
+"Moduly uloh"\n
+\t\n
+Prohlizejte "Moduly uloh" v menu\n
+"Systemove parametry" a pridejte polozku\n
+pro tento systemovy modul
+161:
+Cesta neni nalezena\n
+Systemovy modul %!%s v uloze %s ma\n
+odpovidajici specifikaci v konfiguraci\n
+pro "Moduly uloh", ktera ukazuje na\n
+neexistujici cestu souboru\n
+\t\n
+Prohlizejte "Moduly uloh" v menu\n
+"Systemove parametry" a zmente cestu\n
+v polozce pro tento systemovy modul
+162:
+Chyba zapisu\n
+Chyba zapisu nastane, kdyz system chce\n
+ulozit systemovy modul %!%.14s\n
+na %.37s\n
+v uloze %.16s. Nebo system\n
+souboru byl plny\n
+\t\n
+Prohlizejte "Moduly uloh" v menu\n
+"Systemove parametry" a zmente cestu\n
+v polozce pro tento systemovy modul
+163:
+Opak. konfigurace selhala\n
+nektera uzivatelska rutina(y) se zmenila\n
+ale neni ulozena\n
+\t\n
+Ulozte ji a zkuste dalsi spusteni\n
+systemu
+164:
+Opak. konfigurace selhala\n
+Stale zde jsou nektere systemove moduly\n
+neulozeny\n
+\t\n
+Prectete si popisy chyb predchozich\n
+zprav.\n
+Zkuste dalsi spusteni systemu
+165:
+PP ztracen!\n
+Ze soucasne polohy dalsi spusteni jiz\n
+neni mozne. Program se musi spustit od\n
+zacatku.\n
+\t\n
+

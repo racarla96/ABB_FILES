@@ -1,0 +1,752 @@
+25::
+0:
+Pohyb
+1:
+Zavazna chyba pohybu\n
+Rizeni pohybu nemuze pokracovat\n
+\t\n
+Spustte system znovu
+21:
+Chyba polohy kloubu\n
+Skutecna poloha kloubu %s\n
+je prilis daleko od narizene\n
+polohy\n
+\t\n
+Zkontrolujte ladici parametry, vnejsi\n
+sily nebo technicke prostredky.
+22:
+Moc nizke napeti ss linky\n
+\n
+\t\n
+Zkontrolujte napeti\n
+Vymente ss linku
+23:
+Chyba Zastav./Opak spust.\n
+K zastaveni doslo pri zarazeni prilis\n
+mnoho instrukci premisteni do fronty.\n
+Opakovane spusteni neni mozne\n
+\t\n
+Zkontrolujte soubezny vyskyt rady\n
+instrukci premisteni. Premistete\n
+vychozi bod a zacnete novy pohyb.
+24:
+Porucha rohove drahy\n
+Rohova draha byla v dusledku zdrzeni\n
+vykonana jako bod zastaveni.\n
+\t\n
+Zkontrolujte radu instrukci mezi\n
+instrukcemi premisteni.
+25:
+Opak spust dalek od drahy\n
+\n
+\t\n
+Premistete zpet k draze.
+26:
+Chyba singular. nebo zony\n
+1 Robot je moc blizko singularity\n
+2 Chyba premist roh zony MoveL do MoveJ\n
+\t\n
+1 K premisteni ze singularity pouzijte\n
+  joystik, nebo nechte bezet program\n
+  v souradnicich kloubu\n
+2 Pouzijte jemny bod nebo upravte polohu
+27:
+Kloub mimo rozsah\n
+Kloub %s je mimo pracovni rozsah\n
+\t\n
+Pouzijte joystik a premistete kloub do\n
+jeho pracovniho rozsahu
+28:
+Pomaly chod spatnym smer.\n
+Kloub %s je mimo pracovni rozsah\n
+\t\n
+Pouzijte joystik a premistete kloub do\n
+opacneho smeru.
+29:
+Robot mimo sve meze\n
+Robot dosahl mezi konfigurace pro prenos\n
+rovnobezniku.\n
+\t\n
+Pouzijte joystik a premistete dotceny\n
+kloub znovu do pracovniho rozsahu.
+30:
+Robot je mimo sve meze\n
+Kdyz byl rovnobeznik mimo pracovni\n
+rozsah, pomaly chod se uskutecnoval\n
+v chybnem smeru\n
+\t\n
+Pouzijte joystik k premisteni kloubu\n
+do opacneho smeru.
+31:
+Prikaz neni dovolen.\n
+Systemove parametry nelze menit ve stavu\n
+MOTORY ZAP.\n
+\t\n
+Zmente na MOTORY VYP.
+32:
+Chyba prikazu kalibrace\n
+Byl ucinen pokus o kalibraci ve stavu\n
+MOTORY ZAP.\n
+\t\n
+Zmente na MOTORY VYP.
+33:
+Chyba prikazu komutace\n
+Byl ucinen pokus o komutaci ve stavu\n
+MOTORY ZAP.\n
+\t\n
+Zmente na MOTORY VYP.
+35:
+Chyba synchronizace\n
+Byl ucinen pokus o synchronizaci\n
+ve stavu MOTORY ZAP.\n
+\t\n
+Zmente na MOTORY ZAP.
+36:
+Ziskat spravne zpet nelze\n
+Ziskat spravne zpet nelze. K zastaveni\n
+doslo s mnoha body blizko rohovych zon.\n
+Pri opakovanem spusteni robot prejde\n
+do dalsiho bodu dále v programu.\n
+\t\n
+Omezte pocet blizkych bodu, zvyste\n
+vzdalenost mezi nimi, nebo snizte\n
+rychlost.
+37:
+Prikaz MOTORY ZAP ignor.\n
+Prikaz MOTORY ZAP ignorovan, protoze\n
+predchozi krok jeste nebyl potvrzen.\n
+\t\n
+Vydejte znovu prikaz MOTORY ZAP.
+41:
+Robot v singularite\n
+Robot je prilis blizko singularity.\n
+\t\n
+Behem vykonavani programu pouzijte\n
+instrukci SingArea nebo interpolaci\n
+kloubu. V pomalem chodu pouzijte\n
+osu po ose.
+42:
+Systemova chyba\n
+\n
+\t\n
+Zvyste vzdalenost mezi blizkymi body\n
+a/nebo snizte rychlost a/nebo zmente\n
+hodnotu zrychleni.
+50:
+Poloha z dosahu\n
+Poloha pro IRB kloub %.f\n
+je mimo pracovni oblast.\n
+\t\n
+Zkontrolujte pracovni objekt.\n
+Zkontrolujte pracovni rozsah kloubu.\n
+Pohybujte kloubem v souradnicich kloubu.
+52:
+Chyba rychlosti kloubu\n
+Rychlost kloubu %s je vzhledem\n
+k prikazane rychlosti prilis vysoka\n
+\t\n
+1. Zkontrolujte ladici parametry, vnejsi\n
+   sily na kloub a technicke prostredky.\n
+2. Snizte programovanou rychlost.
+53:
+Chyba citace otacek\n
+Prilis velky rozdil mezi citacem na\n
+desce serioveho mereni a ocekavanou\n
+hodnotou v pocitaci robota pro kloub %s\n
+\t\n
+Aktualizujte citac otacek\n
+Vymente desku serioveho mereni
+55:
+Chyba zatizeni kloubu\n
+Skutecny kroutici moment na kloubu %s je\n
+prilis velky. Pricinou mohou byt chybna\n
+data zatizeni, prilis velka akcelerace,\n
+vysoke sily vnejsiho procesu, nizka\n
+teplota, nebo porucha techn. prostredku\n
+\t\n
+1. Zkontrolujte data zatizeni\n
+2. Snizte zrychleni nebo rychlost\n
+3. Zkontrolujte techn. prostredky
+56:
+Chyba kolize kloubu\n
+Skutecny kroutici moment na kloubu %s je\n
+pri nizke nebo nulove rychlosti vyssi\n
+nez narizeny.\n
+\t\n
+Pricinou muze byt chybou zablokovani\n
+(rameno uvazlo), nebo chybou\n
+technickych prostredku.
+57:
+Chyba synchroniz. kloubu\n
+Poloha kloubu %s po vypnuti/poruse\n
+je prilis daleko od polohy pred\n
+vypnutim/poruchou.\n
+\t\n
+Provedte novou aktualizaci citace\n
+otacek.
+58:
+System chyba sour. nastr.\n
+Smer z systemu souradnic nastroje je\n
+temer soubezny se smerem drahy.\n
+\t\n
+Zmente system souradnic nastroje, aby se\n
+dosahla alespon 3 stupnova odchylka mezi\n
+smerem z a smerem drahy.
+59:
+Chyba ramce\n
+Definice pevneho nastroje robota neni\n
+spravna.\n
+\t\n
+Zkontrolujte nastroj a data objektu.
+60:
+Chyba ramce\n
+Definice pevneho nastroje robota\n
+neni spravna.\n
+\t\n
+Zkontrolujte data nastroje a objektu.
+61:
+Chyba ramce\n
+Definice pevneho nastroje robota neni\n
+spravna.\n
+\t\n
+Zkontrolujte data nastroje a objektu.
+62:
+Chyba programovani okruhu\n
+Pocatecni a koncova poloha okruhu jsou\n
+prilis blizko.\n
+\t\n
+
+63:
+Chyba programovani kruhu\n
+Poloha kruhu je prilis blizko pocatecni\n
+nebo koncove polohy kruhu.\n
+\t\n
+
+65:
+Chyba kinematiky\n
+Misto dokonceni pohybu je z dosahu\n
+robota, nebo prilis blizko singularity.\n
+\t\n
+Zmente polohu mista dokonceni.
+66:
+Robot neni aktivni\n
+Pokus o koordinaci pohybu nebo vypocet\n
+polohy odstaveneho robota %s.\n
+\t\n
+Robota aktivujte pres klavesu Pohybova\n
+jednotka, pak okno Pomaly chod, nebo\n
+program. Zkontrolujte pracovni objekt\n
+a program.
+67:
+Jednotka neni aktivni\n
+Pokus o koordinovany pohyb nebo vypocet\n
+polohy odstavene samostatne jednotky %s.\n
+\t\n
+Jednotku aktivujte pres klavesu Pohybova\n
+jednotka, pak okno Pomaly chod, nebo\n
+program. Zkontrolujte pracovni objekt\n
+a program.
+76:
+Chyba definice orientace\n
+Orientace neni definovana spravne.\n
+\t\n
+Provedte presnou normalizaci prvku\n
+kvaternionu.
+78:
+Prilis mnoho blizk. poloh\n
+Prilis mnoho tesne po sobe jdoucich\n
+poloh.\n
+\t\n
+Zvyste vzdalenost mezi po sobe jdoucimi\n
+blizkymi polohami.
+79:
+Propletani zapesti\n
+neni mozne.\n
+\t\n
+Pouzijte mensi amplitudu propletani,\n
+nebo vetsi TCP.
+80:
+Poloha neni slucitelna.\n
+Poloha neni s danou konfiguraci robota\n
+dosazitelna\n
+\t\n
+Modifikujte polohu robota v programu.
+82:
+Mez zpomaleni\n
+Vypocet casu zpomaleni kloubu presahuje\n
+vnitrni meze pro tento pohyb.\n
+\n
+Nemuzete postoupit dale bez odstraneni\n
+pricin(y) teto chyby (viz Kontrola).\n
+\t\n
+Snizte rychlost, pouzijte jemne body a\n
+parametry prirustku AccSet. Zkontrolujte\n
+zpomal. vnej. os a uroven sumu vst/vyst\n
+pripojeni. Zvyste dynamic_resolution,\n
+path_resolution a std_servo_que_time.
+83:
+Rychlost snizil system.\n
+Rychlost snizil system v dusledku\n
+dynamickych omezeni.\n
+\t\n
+Snizte rychlost a/nebo neuzivejte blizke\n
+polohy pri vysokych rychlostech a/nebo\n
+zvyste zrychleni (kdyz je pod 100%).
+85:
+Prilis mnoho uziv. ramcu.\n
+Pro mech_unit %s je definovan vice jak\n
+jeden uzivatelsky ramec.\n
+\t\n
+Odstrante jeden uzivatelsky ramec, nebo\n
+definujte jednu dalsi mech_unit.
+86:
+Chyba vypoctu singularity\n
+Prilis blizko singularite zapesti\n
+s ohledem na ciselne rozliseni pro kloub\n
+4 IRB.\n
+\t\n
+Zmente polohu dokonceni pohybu o nekolik\n
+prirustku.
+87:
+Problemy singularity.\n
+Prilis blizko singularite zapesti\n
+s ohledem na ciselne rozliseni pro kloub\n
+6 IRB.\n
+\t\n
+Zmente polohu dokonceni pohybu o nekolik\n
+prirustku.
+88:
+Opak spusteni neni mozne.\n
+Znovu spustit s touto drahou nelze\n
+v dusledku predchozi chyby.\n
+\t\n
+Premistete bod spusteni programu\n
+a spustte novy pohyb.
+89:
+Nizsi frekv. propletani\n
+Delka periody propletani nebo doba\n
+trvani periody je prilis kratka.\n
+\t\n
+Zvyste delku propletani nebo prodluzte\n
+dobu trvani periody.
+91:
+Opak spusteni neni mozne.\n
+Opakovane spusteni jiz neni mozne. Zmena\n
+stavu jednotky znemoznila opakovane\n
+spusteni programu.\n
+\t\n
+Premistete ukazatel programu a spustte\n
+novy pohyb.
+92:
+Chyba komunik. pocit. osy\n
+Nespravna odezva pocitace osy\n
+\t\n
+Zkontrolujte parametry konfigurace\n
+pohybu. Zkontrolujte techn. prostredky\n
+pocitace osy.
+93:
+Zatizeni je prilis vysoke\n
+Hmota definovaneho zatizeni je prilis\n
+velka\n
+\n
+\n
+\n
+
+94:
+Ladeni serva neni mozne.\n
+Ladeni pro specifikovany kloub neni\n
+implementovano.\n
+\t\n
+
+95:
+Ke kloubu neni pristup.\n
+K vnejsimu kloubu neni pristup.\n
+Zkontrolujte konfiguraci a aktivaci\n
+vnejsich kloubu.\n
+\t\n
+
+100:
+Chyba manipulatoru\n
+V domene pohybu je vice konfiguracnich\n
+nebo ciselnych chyb.\n
+\t\n
+Opravte predchozi a zkuste znovu.
+101:
+Chyba konfig manipulatoru\n
+'%s' neni k dispozici pro\n
+parametr '%s'\n
+v typu '%s' s nazvem\n
+'%s'.\n
+\t\n
+Pouzijte jiny.\n
+Vnitrni nazvy viz moc_chk.log.
+102:
+Chyba konfig manipulatoru\n
+'%s' pouzity\n
+v parametru '%s'\n
+v typu '%s' s nazvem\n
+'%s' neni definovan.\n
+\t\n
+Pouzijte jiny definovany, nebo definujte\n
+pouzity.\n
+Vnitrni nazvy viz moc_chk.log.
+103:
+Cis. chyba v manipulatoru\n
+Orientace definovana kvaterniony vcetne\n
+'%s'\n
+v typu '%s' s nazvem\n
+'%s' neni normalizovana.\n
+(SQRSUM =1)\n
+\t\n
+Zkontrolujte kvaterniony a/nebo je\n
+prepoctete.\n
+Vnitrni nazvy viz moc_chk.log.
+104:
+Cis. chyba v manipulatoru\n
+Parametr '%s'\n
+v typ '%s' s nazvem\n
+'%s' neni '%s'.\n
+\t\n
+Zkontrolujte hodnotu.\n
+Vnitrni nazvy viz moc_chk.log.
+128:
+Chyba manipulatoru\n
+Ukonceni kontroly tematu manipulatoru\n
+v dusledku predchozich chyb.\n
+\t\n
+Opravte ohlasene chyby a nechte tema\n
+kontroly probehnout znovu.
+130:
+Synchronizace selhala.\n
+Synchronizace selhala pro kloub\n
+%s.\n
+\t\n
+Provedte novou synchronizaci.\n
+System spustte znovu.
+131:
+Kalibrace selhala.\n
+Kalibrace selhala pro kloub\n
+%s.\n
+\t\n
+Provedte novou kalibraci.\n
+System spustte znovu.
+132:
+Komutace selhala.\n
+Komutace selhala pro kloub\n
+%s.\n
+\t\n
+Provedte novou komutaci.\n
+System spustte znovu.
+133:
+Chyba zkusebniho signalu.\n
+Pro nadrizeny robot nejsou k dispozici\n
+zadne zkusebni signaly.\n
+\t\n
+
+134:
+Vystraha vektoru korekce\n
+Vypocty vektoru korekce snimace selhaly\n
+v dusledku predchozi chyby.\n
+\t\n
+
+135:
+SoftAct neni mozna.\n
+Programove servo nelze aktivovat.\n
+\t\n
+
+136:
+SoftAct neni mozna.\n
+Programove srvo nelze modifikovat behem\n
+pouziti rampy.\n
+\t\n
+
+137:
+Vlozen jemny bod\n
+Rohova zona se zmenila na jemny bod.\n
+Prilis mnoho po sobe jdoucich instrukci\n
+bez jemneho bodu\n
+\t\n
+
+138:
+Kontrolni bod ramena vne\n
+Robot dosahl meze kontrolniho bodu\n
+ramena\n
+\t\n
+Pouzijte joystik a premistete dotceny\n
+kloub znovu do jeho pracovniho rozsahu\n
+
+139:
+Kontrolni bod ramena vne\n
+Kdyz byl kontrolni bod ramena mimo\n
+pracovni rozsah, pomaly chod se\n
+uskutecnoval v chybnem smeru\n
+\t\n
+Pouzijte joystik a premistete kloub\n
+do opacneho smeru.
+140:
+Uzitec zatizeni moc velke\n
+Tezke uzitecne zatizeni zpusobilo na\n
+kloubu %s prekroceni meze statickeho\n
+krouticiho momentu\n
+\t\n
+Zkontrolujte a snizte uzitecne zatizeni\n
+pro rameno a/nebo zapesti.\n
+Omezte pracovni rozsah kloubu a snizte\n
+staticky kroutici moment v dusledku\n
+gravitace.
+141:
+Chyba rychl / pomal chodu\n
+1. Robot prilis blizko singularity\n
+2. Chyba pomaleho chodu\n
+3. Chyba vysoke rychlosti\n
+\t\n
+1. Premistete stranou singularity, nebo\n
+   nechte bezet program v sourad. kloubu\n
+2. Zkuste znovu\n
+3. Snizte programovanou rychlost
+142:
+Chyba konfig manipulatoru\n
+Konfigurace manipulatoru selhala.\n
+\t\n
+Zkontrolujte hodnoty parametru pod\n
+Systemove parametry:Manipulator.
+143:
+Chyba konfig os robota\n
+Aktualni konfigurace neni stejna jako\n
+narizena a/nebo zmena oprientace kloubu\n
+4/6 je prilis velka.\n
+\t\n
+Pouzijte SingArea_Wrist, ConfL_Off,\n
+modifikujte polohu nebo vlozte\n
+mezilehly bod.
+144:
+Ramec posunuti neurcity.\n
+Kalibrace ramce posunuti je neurcita\n
+1. Chybny TCP\n
+2. Ref. body nepresne\n
+3. Ref. body spatne rozmistene\n
+\t\n
+Kdyz odhadovana chyba neni prijatelna:\n
+1. Overte, ze je pouzit spravny TCP.\n
+2. Zkuste vic jak 3 ref. body.\n
+3. Pri polohovani robota do ref. bodu\n
+   budte opatrni.
+145:
+Kinematicke omezeni\n
+Kinematicke omezeni, neni zadne reseni.\n
+1. Dlouhy segment.\n
+2. Poloha blizko singularity.\n
+3. Kloub mimo rozsah.\n
+4. Poloha mimo dosah.\n
+1. Vlozte mezilehly bod a snizte\n
+   delku segmentu.\n
+2. Pouzijte MoveAbsJ.\n
+3-4. Zkontrol. pracovni rozsah.\n\t
+146:
+Znovu spustte omezeni\n
+Rohova draha vykonana jako bod\n
+zastaveni.\n
+Opakovane spusteni pri vypadku napajeni\n
+blizko bodu zastaveni neni mozne.\n
+\t\n
+Pred instrukcemi RestoPath, ActUnit,\n
+Wait nebo Stop pouzijte v instrukci Move\n
+jemny bod, aby opakovane spusteni\n
+po vypadku napajeni bylo mozne.
+147:
+Opak spust po vypad selh\n
+Znovuvytvoreni drahy selhalo\n
+\t\n
+Premistete bod spusteni a spustte\n
+novy pohyb.
+148:
+MOC_WRONG_MAIN_ISR_TYPE\n
+Chyba pri pokusu o volani neexistujici\n
+prerusovaci rutiny v hlavnim pocitaci\n
+z pocitace osy.\n
+\t\n
+
+149:
+MOC_SCHED_QUEUE_FULL\n
+Chyba, kdyz fronta casovani v pocitaci\n
+osy je plna.\n
+\t\n
+
+150:
+MOC_WRONG_CMD_TYPE\n
+Chyba, kdyz pocitac osy prijal prikaz\n
+hlavniho pocitace ktery neni podporovan.\n
+\t\n
+
+151:
+MOC_MAILBOX1_ERROR\n
+Ovladac pocitace osy nevyvolal preruseni\n
+nove postovni schranky 1, protoze\n
+predchozi preruseni nebylo radne\n
+zpracovano.\n
+\t\n
+
+152:
+MOC_MAILBOX2_ERROR\n
+Ovladac pocitace osy nevyvolal preruseni\n
+nove postovni schranky 2, protoze\n
+predchozi preruseni nebylo radne\n
+zpracovano.\n
+\t\n
+
+153:
+Prikaz neni dovolen\n
+Vydana instrukce nebo prikaz nebyl\n
+dovolen, protoze program robota se\n
+nachazel v pozastavenem stavu.\n
+\t\n
+Pred vydanim prikazu modifikujte program\n
+nebo zastavte vykonavani programu.
+154:
+Prikaz neni dovolen\n
+Interpolace rezimu SingArea\Wrist neni\n
+pro robot IRB6400C podporovana.\n
+\t\n
+Instrukci SINGAREA\WRIST vymente za\n
+SINGAREA\OFF.
+155:
+Opak spust po vypad selh\n
+Instrukci Move nelze znovu spustit pred\n
+instrukcemi RestoPath, ActUnit, Wait\n
+nebo Stop.\n
+\t\n
+Odstrante z programu omezeni opakovaneho\n
+spusteni VYSTRAHA POHYBU 50146 zmenou\n
+instrukce Move na jemny bod.\n
+Premistete bod spousteni a spustte novy\n
+pohyb.
+156:
+Chyba nezavisleho kloubu\n
+Kloub %s neni konfigurovan jako\n
+nezavisly kloub.\n
+\t\n
+Modifikujte program nebo provedte\n
+konfiguraci kloubu jako nezavisleho\n
+kloubu.
+157:
+Vystraha vektoru korekce\n
+Vypocty vektoru X korekce snimace\n
+selhaly v dusledku predchozi chyby.\n
+\t\n
+
+158:
+Proces snimace chybi\n
+Proces snimace behem inicializace chybi.\n
+Jmenovany proces snimace %s\n
+nemohl byt nalezen nebo inicializovan.\n
+\t\n
+Zkontrolujte nazev procesu v souborech\n
+konfigurace pohybu a procesu.\n
+
+159:
+Zadny proces snimace\n
+Pokus o koordinaci pohybu nebo vypocet\n
+polohy jednoho %s\n
+bez procesu snimace.\n
+\t\n
+Zkontrolujte nazev procesu v souborech\n
+konfigurace pohybu a procesu.
+160:
+Polohy nelze dosahnout\n
+Programovana poloha nezavisleho kloubu\n
+%s je mimo pracovni rozsah a tudiz\n
+nemuze byt dosazena.\n
+\t\n
+Zmente polohu.\n
+Zkontrolujte meze pracovni oblasti.\n
+Zkontrolujte pouzite pracovni objekty.
+161:
+Oblast singularity\n
+Robot je blizko singularity.\n
+Pracovni oblast s kinetickymi omezenimi.\n
+\t\n
+Behem pomalem chodu pouzijte osu po ose.\n
+Behgem vykonavani programu pouzijte\n
+MoveAbsJ.
+162:
+Chyba vnitrni polohy\n
+Chyba zpusobena vnitrnimi ciselnym\n
+omezenim\n
+\n
+\t\n
+Vynulujte nezavisly kloub.\n
+Omezte prac. obl. jestlize je rozsirena.\n
+Vyjmete nebo oddelte blizke body.
+163:
+Nastaveni vnejsi polohy\n
+Nastaveni vnejsi polohy je prilis velke.\n
+Rychlost TCP, rychlost orientace, nebo\n
+rychlost vnejsi polohy presahuji\n
+dovoleny vykon robota.\n
+\t\n
+1. Omezte rychlost programovaneho TCP a\n
+   orientace\n
+2. Modifikujte drahu\n
+3. WaitWObj je blize synchronizaci\n
+4. Nechte bezet v AUTO
+164:
+Chyba odstaveni nezavisl\n
+Chyba odstaveni nezavisleho.\n
+Odstaveni mechanicke jednotky se\n
+v nezavislem rezimu nemuze provadet.\n
+\t\n
+
+165:
+Max vzdalenost dopraveni\n
+Poloha dopravniku presahuje o %5.3f\n
+metru maximalni bezpecnou vzdalenost\n
+konfigurovanou pro dopravnik.\n
+\t\n
+Zkontrolujte konfiguraci dopravniku.\n
+Zkontrolujte maximalni moznou vzdalenost\n
+polohy dopravniku.
+166:
+Preteceni pol. dopravniku\n
+Preteceni polohy dopravniku behem\n
+sledovani pracovniho objektu. Pracovni\n
+objekt se dostal mimo merici rozsah.\n
+\t\n
+Zvyste programovanou rychlost.\n
+Zmente prevodovy pomer mereni a zvyste\n
+rozsah sledovani.\n
+Snizte rychlost dopravniku.
+167:
+Vystraha: nova synchron\n
+Vystraha: behem cinnosti dopravniku a za\n
+behu programu byl prijat novy signal\n
+synchronizace objektu.\n
+\t\n
+
+168:
+Synchron noveho objektu\n
+Zatimco dopravnik sledoval predchozi\n
+objekt, byl prijat novy objekt.\n
+Nelze sledovat soucasne dva objekty.\n
+\t\n
+Snizte rychlost dopravniku.\n
+Zvyste programovanou rychlost.
+169:
+Koordinace selhala\n
+Koordinace s vnejsi polohou selhala. To\n
+je zpusobeno predchozi chybou, nebo\n
+nespravnym pouzitim DeactUnit, DropWObj\n
+behem koordinovaneho pohybu.\n
+\t\n
+
+178:
+Pohyb neni optimalni\n
+Pohyb neni optimalni\n
+Pozadovany kroutici moment prilis velky\n
+Je treba rucni nastaveni zrychleni nebo\n
+rychlosti.\n
+\t\n
+Omezte zrychleni (AccSet 50 100) v tomto\n
+pohybu, obnovte ho pozdeji\n
+(AccSet 100 100). Optimalizujte vykon\n
+vyhledanim pro max zrychleni 50-99.\n
+Alternativne omezte rychlost.

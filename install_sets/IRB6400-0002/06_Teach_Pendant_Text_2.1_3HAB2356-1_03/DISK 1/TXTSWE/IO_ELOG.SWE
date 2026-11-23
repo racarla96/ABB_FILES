@@ -1,0 +1,792 @@
+27::
+0:
+IO & Kommunikation
+1000:
+Otillåtet bussnamn\n
+Beskrivning\Orsak:\n
+- Drivrutin %s: har felaktigt bussnamn\n
+\t\n
+Checklista:\n
+1. Ändra bussnamn för drivrutin
+1001:
+Duplicerad adress\n
+Beskrivning\Orsak:\n
+- Samma adress för enhet %s och %s\n
+\t\n
+Checklista:\n
+1. Kontrollera adressen\n
+2. Kontrollera bussen
+1002:
+Otillåten driver\n
+Beskrivning\Orsak:\n
+- Enhet %s: har en ospecificerad\n
+drivrutin\n
+\t\n
+Checklista:\n
+1. Kontrollera drivrutinerna mot den\n
+som är specificerad för enheten
+1003:
+Otillåten enhet\n
+Beskrivning\Orsak:\n
+- Enheten angiven för signal %s\n
+  är ospecificerad i enhetssektionen\n
+\t\n
+Checklista:\n
+1. Ändra namnet på enheten\n
+2. Lägg till en ny enhet till\n
+enhetslistan
+1004:
+Otillåten signallängd\n
+Beskrivning\Orsak:\n
+- Längden för signal %s måste vara 1\n
+\t\n
+Checklista:\n
+1. Ändra längden till 1 eller ta bort\n
+   uppgiften.
+1005:
+Otillåten filtertid\n
+Beskrivning\Orsak:\n
+- Signal %s: Passiv filtertid\n
+  ska vara 0 eller %d - %d ms\n
+\t\n
+Checklista:\n
+1. Ändra filtertiden
+1006:
+Otillåten filtertid\n
+Beskrivning\Orsak:\n
+- Signal %s: Aktiv filtertid\n
+  ska vara 0 eller %d - %d ms\n
+\t\n
+Checklista:\n
+1. Ändra filtertiden
+1007:
+För många logiska värden\n
+Beskrivning\Orsak:\n
+- Signal %s: Logiskt max\n
+  är mindre än eller lika med\n
+  logiskt min\n
+\t\n
+Checklista:\n
+1. Korrigera värdena så att max är\n
+större än min
+1008:
+För många fys. värden\n
+Beskrivning\Orsak:\n
+- Signal %s: Fysiskt max\n
+  är mindre än eller lika med\n
+  fysiskt min\n
+\t\n
+Checklista:\n
+1. Korrigera värdena så att max är\n
+större än min
+1009:
+Otillåten typ\n
+Beskrivning\Orsak:\n
+- Signal %s: Signalens typ är otillåten\n
+\t\n
+Checklista:\n
+1. Ändra typen
+1010:
+Signal utanför området\n
+Beskrivning\Orsak:\n
+- Signal %s: Fysiskt\n
+  signalnummer + längd - 1 är > &d\n
+\t\n
+Checklista:\n
+1. Ändra fysiskt signalnummer\n
+2. Ändra längden
+1011:
+Drivrtin inte supportad\n
+Beskrivning\Orsak:\n
+- Drivrutin %s är inte supportad\n
+\t\n
+Checklista:\n
+1. Byt namn på drivrutinen
+1012:
+Minnet fullt\n
+Beskrivning\Orsak:\n
+- Kort %s: För många kort\n
+  för specificerad drivrutinstyp\n
+\t\n
+Checklista:\n
+1. Ändra antal kort för drivrtinen\n
+   i drivrutinskonfigurationen.
+1013:
+Felaktig kortttyp\n
+Beskrivning\Orsak:\n
+- Felaktig korttyp ansluten till\n
+  adress %d\n
+\t\n
+Checklista:\n
+1. Kontrollera korttypen för angiven\n
+   adress.\n
+
+1014:
+Kort saknas\n
+Beskrivning\Orsak:\n
+- Inget kort anslutet till given\n
+  adress %d\n
+\t\n
+Checklista:\n
+1. Anslut ett kort\n
+2. Ändra kortadressen
+1015:
+För många Digital In\n
+Beskrivning\Orsak:\n
+- Antalet Digital IN kanaler på\n
+  kort %s är större\n
+än %d\n
+\t\n
+Checklista:\n
+1. Reducera antalet Digitala Ingångar
+1016:
+För många Digital Ut\n
+Beskrivning\Orsak:\n
+- Antalet Digitala Ut kanaler på\n
+  kort %s är större\n
+  än %d\n
+\t\n
+Checklista:\n
+1. Reducera antalet Digitala Utgångar
+1017:
+Ingen aktiv signal\n
+Beskrivning\Orsak:\n
+- Aktiv signal för korskoppling saknas\n
+\t\n
+Checklista:\n
+1. Ange aktiv signal
+1018:
+För många aktiva signaler\n
+Beskrivning\Orsak:\n
+- För många aktiva signaler för kors-\n
+koppling\n
+\t\n
+Checklista:\n
+1. Enbart en aktiv signal får anges
+1019:
+Signaldefinition saknas\n
+Beskrivning\Orsak:\n
+- Signalen %s för\n
+  korskoppling är ej definierad\n
+\t\n
+Checklista:\n
+1. Definiera signalnamnet i signal\n
+sektionen
+1020:
+Ingen resultat signal\n
+Beskrivning\Orsak:\n
+- Resultat-signal saknas\n
+\t\n
+Checklista:\n
+1. Minst en resultat-signal måste anges.
+1021:
+Duplicerad korskoppling\n
+Beskrivning\Orsak:\n
+- Signalen %s är både FRÅN och TILL\n
+\t\n
+Checklista:\n
+1. Samma signal kan inte ges för både\n
+   FRÅN och TILL
+1022:
+Fysiskt max för högt\n
+Beskrivning\Orsak:\n
+- Signal %s\n
+- Fysiskt max värde > %d\n
+\t\n
+Checklista:\n
+1. Ändra värdet i konfigurationen
+1023:
+Fysiskt min för lågt\n
+Beskrivning\Orsak:\n
+- Signal %s\n
+- Fysiskt min värde < %d\n
+\t\n
+Checklista:\n
+1. Ändra värdet i konfigurationen
+1024:
+Fysiskt värde för högt\n
+Beskrivning\Orsak:\n
+- Signal %s\n
+- Aktuellt värde = %d > Maxvärde = %d\n
+- Värdet är satt till maxvärdet\n
+\t\n
+Checklista:\n
+1. Ändra fysiska maxvärdet i\n
+    konfigurationen
+1025:
+Fysiskt värde för lågt\n
+Beskrivning\Orsak:\n
+- Signal %s\n
+- Aktuellt värde = %d < Minvärde = %d\n
+- Värdet är satt till minvärdet\n
+\t\n
+Checklista:\n
+1. Ändra fysiska minvärdet i\n
+    konfigurationen
+1026:
+Logiskt värde för högt\n
+Beskrivning\Orsak:\n
+- Signal %s\n
+- Aktuellt värde = %d > Maxvärde = %d\n
+- Värdet är satt till maxvärdet\n
+\t\n
+Checklista:\n
+1. Ändra logiska maxvärdet i\n
+    konfigurationen
+1027:
+Logiskt värde för lågt\n
+Beskrivning\Orsak:\n
+- Signal %s\n
+- Aktuellt värde = %d < Minvärde = %d\n
+- Värdet är satt till minvärdet\n
+\t\n
+Checklista:\n
+1. Ändra logiska minvärdet i\n
+    konfigurationen
+1028:
+För många Konfig.\n
+Beskrivning\Orsak:\n
+- RIO startkvartil och rack storlek\n
+- är utanför tillåtet värde för kort %s\n
+\t\n
+Checklista:\n
+1. För startkvartil 0 måste rack\n
+   storleken vara mindre än 4.
+1029:
+För många Konfig.\n
+Beskrivning\Orsak:\n
+- RIO startkvartil och rack storlek\n
+- är utanför tillåtet värde för kort %s\n
+\t\n
+Checklista:\n
+1. För startkvartil 1 måste rack\n
+   storleken vara mindre än 3.
+1030:
+För många Konfig.\n
+Beskrivning\Orsak:\n
+- RIO startkvartil och rack storlek\n
+- är utanför tillåtet värde för kort %s\n
+\t\n
+Checklista:\n
+1. För startkvartil 2 måste rack\n
+   storleken vara mindre än 2.
+1031:
+För många Konfig.\n
+Beskrivning\Orsak:\n
+- RIO startkvartil och rack storlek\n
+- är utanför tillåtet värde för kort %s\n
+\t\n
+Checklista:\n
+1. För startkvartil 3 måste rack\n
+   storleken vara 0.
+1032:
+Kommunikationsfel\n
+Beskrivning\Orsak:\n
+- RIO kortet har tappat kommunikationen\n
+  med PLCn på kort adress %d\n
+\t\n
+Checklista:\n
+1. Kontrollera kommunikations kabeln\n
+   till PLCn\n
+2. Kontrollera att PLCn är avslagen
+1033:
+För många Digitala In\n
+Beskrivning\Orsak:\n
+- Antalet Digitala ingångar är för\n
+  många på kort adress %d\n
+  max antal är %d\n
+\t\n
+Checklista:\n
+1. Ändra konfigureringen för kortet
+1034:
+För många Digitala Ut\n
+Beskrivning\Orsak:\n
+- Antalet Digitala utgångar är för\n
+  många på kort adress %d\n
+  max antal är %d\n
+\t\n
+Checklista:\n
+1. Ändra konfigureringen för kortet
+1035:
+För många startkvartiler\n
+Beskrivning\Orsak:\n
+- startkvartilerna är för många\n
+  för kort %s\n
+\t\n
+Checklista:\n
+1. Startkvartilen måste vara mellan\n
+   0 och 3 ändra konfigureringen.
+1036:
+Ej giltigt namn\n
+Beskrivning\Orsak:\n
+- Antal tecken i namnet\n
+- %s\n
+- är fler än %d tecken eller\n
+- namnet saknas\n
+\t\n
+Checklista:\n
+1. Ge ett nytt namn med\n
+   färre tecken.
+1037:
+IO korskopplings fel\n
+Beskrivning\Orsak:\n
+- Signalen %s är både FRÅN och TILL\n
+  i samma kedja\n
+\t\n
+Checklista:\n
+1. Ändra konfiguration för\n
+   korskopplingen där signalen över\n
+   är inkopplad.
+1038:
+IO korsdjup för hög\n
+Beskrivning\Orsak:\n
+- Kors kopplingen i samma kedja\n
+är för djup. Första signal namn:\n
+- %s\n
+\t\n
+Checklista:\n
+1. Gör korskopplingen mindre djup.
+1039:
+För många kort\n
+Beskrivning\Orsak:\n
+- Max antal kort för drivrutin\n
+- %s är för många\n
+\t\n
+Checklista:\n
+1. Kontrollera att antal kort är fler än\n
+   0, och ej fler än antal IO platser.
+1040:
+För många RIOlänk adr.\n
+Beskrivning\Orsak:\n
+- RIO länk adressen för kort %s\n
+- är för många\n
+\t\n
+Checklista:\n
+1. Kontrollera att RIO länk adressen\n
+   är större än 0, och mindre än 64.
+1041:
+För många Analoga Ut\n
+Beskrivning\Orsak:\n
+- Antalet Analoga utgångar\n
+  för kort %s är fler än %d.\n
+\t\n
+Checklista:\n
+1. Reducera antalet Analoga utgångar.
+1042:
+För många Analoga In\n
+Beskrivning\Orsak:\n
+- Antalet Analoga Ingångar\n
+  för kort %s är fler än %d.\n
+\t\n
+Checklista:\n
+1. Reducera antalet Analoga ingångar.
+1043:
+Signal fel\n
+Beskrivning\Orsak:\n
+- Typen för specificerad signal %s\n
+kan inte anslutas till specificerat kort\n
+\t\n
+Checklista:\n
+1. Byt till en annan typ.\n
+2. Byt till ett annat kort.
+1044:
+Fysiskt signal fel\n
+Beskrivning\Orsak:\n
+- Antalet och eller längden av\n
+  signalen %s är större än %d\n
+\t\n
+Checklista:\n
+1. Ändra fysiskt signal nummer\n
+2. Ändra längden
+1045:
+Filter spec. fel\n
+Beskrivning\Orsak:\n
+- Signal %s : Ingen\n
+  filter tid kan specificeras för denna\n
+  typ av signal\n
+\t\n
+Checklista:\n
+1. Sätt filter tiden till 0 eller ta\n
+   bort instuktionen.
+1046:
+Skalnings fel\n
+Beskrivning\Orsak:\n
+- Signal %s: Ingen skalning kan göras.\n
+\t\n
+Checklista:\n
+1. Ta bort skalningen.
+1049:
+Param. inverterings fel\n
+Beskrivning\Orsak:\n
+- Signal %s: Den här\n
+  typen av signal kan inte inverteras\n
+\t\n
+Checklista:\n
+1. Endast digitala signaler kan\n
+   inverteras.
+1050:
+Korssignal ej digital.\n
+Beskrivning\Orsak:\n
+- Signal %s: är inte en digital signal\n
+\t\n
+Cecklista:\n
+1. Endast digitala signaler kan\n
+   korskopplas.
+1051:
+Länk adress ej oktal.\n
+Beskrivning\Orsak:\n
+- Signal %s.RIO adressen är inte av\n
+  oktal form\n
+\t\n
+Checklista:\n
+1. Skriv in en ny adress i oktal form.
+1052:
+Korstabell full.\n
+Beskrivning\Orsak:\n
+- Summan av annorlunda FRÅN signaler\n
+  adderad med den totala summan av\n
+  TILL signaler får inte överstiga %d\n
+\t\n
+Checklista:\n
+1. Reducera antalet signaler.\n
+2. Öka antalet tillåtna\n
+   korsanslutningar.
+1053:
+Ingen RIO kommunikation\n
+Beskrivning\Orsak:\n
+- Ingen åtkomst med kortet beroende\n
+  på att kommunikationen är nere\n
+\t\n
+Checklista:\n
+1. Kontrollera kommunikations kabeln\n
+   till kortet\n
+2. Kontrollera om kortet är avslaget
+1054:
+Fel signaltyp\n
+Beskrivning\Orsak:\n
+- Signal %s:\n
+  Fel signaltyp.\n
+\t\n
+Checklista:\n
+1. Ändra typen.
+1055:
+Felaktigt signalnamn\n
+Beskrivning\Orsak:\n
+- Symbol %s är ej definierad\n
+\t\n
+Checklista:\n
+1. Ändra ovanstående symbolnamn
+1056:
+PF Återstart misslyckades\n
+Beskrivning/Orsak:\n
+- Symbol %s: kunde inte initieras för\n
+  återställande av strömavbrott.\n
+  Tabellen för PF är full.\n
+\t\n
+Checklista:\n
+1. Öka tabellstorleken i uppstartsfilen.\n
+2. Avlägsna några andra signaler från\n
+   återställningslistan.
+1057:
+DSQC319 Kort saknas\n
+Beskrivning\Orsak:\n
+- Inget kort av typ DSQC319\n
+  anslutet till address %d\n
+\t\n
+Checklista:\n
+1. Anslut ett kort till kortplatsen.\n
+2. Ändra kortets address.
+1058:
+Ej kontakt med Can-noden\n
+Beskrivning\Orsak:\n
+- Ingen kontakt med Can-noden som\n
+  är ansluten till nod-address %d\n
+\t\n
+Checklista:\n
+1. Kontrollera nod-addresserna på\n
+   alla Can-moduler som är anslutna till\n
+   Can-bussen.\n
+2. Ändra nod-addressen.
+1059:
+Konfig.fel Can-nod.\n
+Beskrivning\Orsak:\n
+- Fel vid konfigurering av Can-nod\n
+  ansluten till nod-address %d\n
+\t\n
+Checklista:\n
+1. Korrigera konfigurationen för Can-\n
+   noden på given address.
+1060:
+DSQC319 internt fel.\n
+Beskrivning\Orsak:\n
+- DSQC319-kortet som är\n
+  anslutet till address %d\n
+  har ett internt fel.\n
+\t\n
+Checklista:\n
+1. Kontrollera att CAN-bussen fungerar.\n
+2. Kontrollera att DSQC319 fungerar.
+1061:
+Can buss-fel\n
+Beskrivning\Orsak:\n
+- Onormala feltillfällen på Can-\n
+  bussen som är ansluten till DSQC319\n
+  på address %d\n
+\t\n
+Checklista:\n
+1. Kontrollera Can-bussens\n
+   kommunikations-kabel.
+1062:
+D319 Inbuffert full.\n
+Beskrivning\Orsak:\n
+- Inbufferten är full på kortet som är\n
+  anslutet på address %d.\n
+  Meddelanden kan gå förlorade.\n
+\t\n
+Checklista:\n
+1. Reducera antalet noder på Can-bussen.
+1063:
+Can-meddelande förlorat\n
+Beskrivning\Orsak:\n
+- Can-meddelande har tappats på kortet\n
+  som är anslutet till address %d.\n
+\t\n
+Checklista:\n
+1. Reducera antalet noder på Can-bussen.
+1064:
+IOC-genererat fel.\n
+Beskrivning\Orsak:\n
+- IOC signalerar fel till DSQC260-kortet\n
+  på address %d.\n
+\t\n
+Checklista:\n
+1. Kontrollera IOCn.
+1065:
+DSQC260-genererat fel\n
+Beskrivning\Orsak:\n
+- DSQC260-kortet på address %d\n
+  signalerar ett fel.\n
+\t\n
+Checklista:\n
+1. Kontrollera DSQC260-kortet.
+1066:
+InterBus-S inaktiv.\n
+Beskrivning\Orsak:\n
+- InterBus-S ansluten till DSQC260-\n
+  kortet på address %d är inaktiv.\n
+\t\n
+Checklista:\n
+1. Kontrollera InterBus-S noderna.
+1067:
+InterBus-S ej inkopplad\n
+Beskrivning\Orsak:\n
+- InterBus-S ansluten till\n
+  DSQC260-kortet på addr. %d\n
+  är ej inkopplat eller IBS-master  är\n
+  i återställnings-tillstånd.\n
+\t\n
+Checklista:\n
+1. Kontrollera InterBus-S noderna.\n
+2. Kontrollera InterBus-S mastern.
+1068:
+IOC OK\n
+Beskrivning\Orsak:\n
+- IOC tidigare felaktig, nu OK.\n
+  Felmeddelande sändes till DSQC260-\n
+  kortet på address %d\n
+\t\n
+Checklista:\n
+1. Ingen åtgärd behövs.
+1069:
+DSQC260 OK.\n
+Beskrivning\Orsak:\n
+- DSQC260-kortet på address %d\n
+  var tidigare felaktigt, nu OK.\n
+\t\n
+Checklista:\n
+1. Ingen åtgärd behövs.
+1070:
+InteBus-S aktiv.\n
+Beskrivning\Orsak:\n
+- InterBus-S ansluten till DSQC260-\n
+  kortet på address %d var tidigare\n
+  inaktivt, nu OK.\n
+\t\n
+Checklista:\n
+1.  Ingen åtgärd behövs.
+1071:
+InterBus-S inkopplad.\n
+Beskrivning\Orsak:\n
+- InterBus-S ansluten till DSQC260-\n
+  kortet på address %d var tidigare\n
+  ej inkopplat, nu OK.\n
+\t\n
+Checklista:\n
+1. Ingen åtgärd behövs.
+1072:
+Inget sparande vid signal\n
+Beskrivning\Orsak:\n
+- Signal %s har ej satt\n
+  Spara attributet till JA.\n
+\t\n
+Checklista:\n
+1. Sätt Spara attributet.
+1073:
+Kont. uppr. m. Can-noden\n
+Beskrivning/Orsak:\n
+- Kontakt upprättad med Can-noden\n
+  som är ansluten till nodadress %d\n
+\t\n
+Checklista:\n
+1. Ingen åtgärd behövs.
+1074:
+För många Konfig.\n
+Beskrivning/Orsak:\n
+- IBS startkvartil och rack-storlek\n
+  är utanför tillåtet värde för kort %s.\n
+\t\n
+Checklista:\n
+1. För startkvartilen 1 måste rack-\n
+   storleken vara mindre än 5.
+1075:
+Ingångsfel från IO\n
+Beskrivning/Orsak:\n
+- Kan inte läsa eller skriva från/till\n
+  IOkort p g a kommunikationsfel\n
+\t\n
+Checklista:\n
+1. Kontrollera kom.felsrapport\n
+   för orsak.
+1076:
+Komm. fel från rtp1\n
+Beskrivning/Orsak:\n
+- Ingen respons från den\n
+  seriella linjen.\n
+\t\n
+Checklista:\n
+1. Kontrollera enheten eller\n
+   anslutningen.
+1077:
+Komm. fel från rtp1\n
+Beskrivning/Orsak:\n
+- Det mottagna meddelandet\n
+  kan inte levereras.\n
+\t\n
+Checklista:\n
+1. Kontrollera kommunikationsflödet.
+1078:
+Komm. fel från rtp1\n
+Beskrivning/Orsak:\n
+- Responsen från enheten har\n
+  en ogiltig ramordning.\n
+\t\n
+Checklista:\n
+1. Kontrollera den seriella linjen\n
+   för störningar
+1079:
+Pulserande grupputgång\n
+Beskrivning/Orsak:\n
+- Pulserande grupputgång ej\n
+  tillåten.\n
+\t\n
+Checklista:\n
+1. ---
+1080:
+Körtabell full.\n
+Beskrivning/Orsak:\n
+- Antal drivrutiner får ej\n
+  överstiga %d.\n
+\t\n
+Checklista:\n
+1. Reducera antalet drivrutiner\n
+2. Öka antalet tillåtna drivrutiner
+1081:
+Fysisk tabell full.\n
+Beskrivning/Orsak:\n
+- Antal fysiska signaler får ej\n
+  överstiga %d.\n
+\t\n
+Checklista:\n
+1. Reducera antalet fysiska signaler.\n
+2. Öka antalet tillåtna fysiska\n
+   signaler.
+1082:
+Signal tabell full.\n
+Beskrivning/Orsak:\n
+- Antalet användar definierade signaler\n
+  får ej överstiga %d.\n
+\t\n
+Checklista:\n
+1. Reducera antalet signaler.\n
+2. Öka antalet tillåtna signaler.
+1083:
+Symbol tabell full.\n
+Beskrivning/Orsak:\n
+- Antalet symboler får ej\n
+  överstiga %d.\n
+\t\n
+Checklista:\n
+1. Reducera antalet symboler.\n
+2. Öka antalet tillåtna symboler.
+1084:
+Triggr tabell full.\n
+Beskrivning/Orsak:\n
+- Antalet Undertecknade signaler\n
+  får ej överstiga %d.\n
+\t\n
+Checklista:\n
+1. Reducera antalet Undertecknade\n
+   signaler.\n
+2. Öka antalet tillåtna Undertecknanden.
+1085:
+Enhetstabell full.\n
+Beskrivning/Orsak:\n
+- Antalet kort får ej\n
+  överstiga %d.\n
+\t\n
+Checklista:\n
+1. Reducera antalet definierade kort.\n
+2. Öka antalet tillåtna kort.
+1086:
+Data OK med RIO\n
+Beskrivning/Orsak:\n
+- Kontakt upprättad med RIO-noden\n
+  ansluten vid nod-adress %d.\n
+\t\n
+Checklista:\n
+1. Ingen åtgärd behövs.
+1094:
+För många korsaktörer def\n
+Beskrivning/Orsak:\n
+- Korsanslutningen har för många\n
+  "Från" signaler : %s.\n
+\t\n
+Checklista:\n
+1. Kontrollera kors konfigurationen.
+1095:
+För långa korsaktör str\n
+Beskrivning/Orsak:\n
+- "Från" delen i kors-strängen\n
+  är för lång : %s.\n
+\t\n
+Checklista:\n
+1. Kontrollera kors konfigurationen.
+1096:
+PLC i programeringsläge\n
+Beskrivning/Orsak:\n
+- Kan inte komma åt kortet p g a att\n
+  PLCn är i programeringsläge eller\n
+  så är kortet fel konfigurerat.\n
+\t\n
+Checklista:\n
+1. PLCn i programeringsläge\n
+2. Kontrollera PLC konfigurationen
+1097:
+Parameter lagringsfel\n
+Beskrivning/Orsak:\n
+- Signal %s: Denna typ av signal\n
+  kan inte ha lagringsmöjlighet.\n
+\t\n
+Checklista:\n
+1. Bara digitala signaler kan ha\n
+   lager.

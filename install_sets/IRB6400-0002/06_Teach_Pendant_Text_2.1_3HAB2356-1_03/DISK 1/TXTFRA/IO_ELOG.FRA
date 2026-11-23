@@ -1,0 +1,800 @@
+27::
+0:
+E/S & Communication
+1000:
+Nom du bus invalide\n
+Description\Cause:\n
+- Pilote %s: a un nom de bus invalide\n
+\t\n
+Verification\Remede:\n
+1. Changer le nom du bus pour ce pilote
+1001:
+Adresse deja utilisee\n
+Description\Cause:\n
+- unite %s et %s a la meme adresse\n
+\t\n
+Verification\Correction:\n
+1. Verifier l adresse\n
+2. Verifier le bus
+1002:
+Pilote invalide\n
+Description\Cause:\n
+- L unite %s a un pilote inconnu\n
+\t\n
+Verification\Correction:\n
+1.Verifier les pilotes par rapport\n
+  a celui specifie pour l unite
+1003:
+Unite invalide\n
+Description\Cause:\n
+- L unite specifiee pour le signal %s\n
+  n est pas dans la liste des unites\n
+\t\n
+Verification\Correction:\n
+1. Changer le nom de l unite\n
+2. Rajouter l unite dans la liste
+1004:
+Long. du signal invalide\n
+Description\Cause:\n
+- La longueur du signal %s\n
+ doit etre de 1\n
+\t\n
+Verification\Correction:\n
+1. changer la longueur ou supprimer\n
+la declaration
+1005:
+Filtre niveau bas errone\n
+Description\Cause:\n
+- Signal %s : Le temps du filtre\n
+ doit etre 0 ou %d - %d ms\n
+\t\n
+Verification\Correction:\n
+1. Changer le temps du filtre
+1006:
+Filtre niveau haut errone\n
+Description\Cause:\n
+- Signal %s : Le temps du filtre\n
+ doit etre 0 ou %d - %d ms\n
+\t\n
+Verification\Correction:\n
+1. Changer le temps du filtre
+1007:
+Val. logique hors borne\n
+Description\Cause:\n
+- Signal %s : Max logique inferieur\n
+  ou egal au Min\n
+\t\n
+Verification\Correction:\n
+1. Corriger les bornes
+1008:
+Val. physique hors borne\n
+Description\Cause:\n
+-Signal %s : Max physique <= Min\n
+\t\n
+Verification\Correction:\n
+1. Corriger les bornes
+1009:
+Type de signal invalide\n
+Description\Cause:\n
+- Signal %s : ce type est invalide\n
+\t\n
+Verification\Correction:\n
+1. Changer le type
+1010:
+Longueur signal invalide\n
+Description\Cause:\n
+- Signal %s: le numero physique\n
+plus la longueur -1 > %d\n
+\t\n
+Verification\Correction:\n
+1. Changer le numero\n
+2. Changer la longueur
+1011:
+Pilote inconnu\n
+Description\Cause:\n
+- Le pilote %s n'est pas connu\n
+\t\n
+Verification\Correction:\n
+1. Changer le nom du pilote
+1012:
+Memoire saturee\n
+Description\Cause:\n
+- Carte %s : trop de cartes\n
+pour le type de pilote specifie\n
+\t\n
+Verification\Correction:\n
+1. Changer le nombre de cartes pour ce\n
+ Pilote a la configuration des pilotes
+1013:
+Type de carte errone\n
+Description\Cause:\n
+- Mauvais type de carte connectee\n
+ a l adresse %d\n
+\t\n
+Verification\Correction:\n
+1. Verifier le type de carte\n
+ a cette adresse
+1014:
+Carte manquante\n
+Description\Cause:\n
+- Pas de carte a cette adresse\n
+%d\n
+\t\n
+Verification\Correction:\n
+1. Connecter une carte a cette adresse\n
+2. Changer l'adresse de la carte.
+1015:
+Trop d entrees logiques\n
+Description\Cause:\n
+- Le nombre d entrees pour la carte\n
+  %s est plus\n
+  grand que %d\n
+\t\n
+Verification\Correction:\n
+1.Reduire le nombre d entrees
+1016:
+Trop de sorties logiques\n
+Description\Cause:\n
+- Le nombre de sorties pour la carte\n
+ %s est plus\n
+ grand que %d\n
+\t\n
+Verification\Correction:\n
+1.Reduire le nombre de sorties
+1017:
+Signal source non defini\n
+Description\Cause:\n
+- un rebouclage doit avoir\n
+ un signal source\n
+\t\n
+Verification\Correction:\n
+1. Definir une source
+1018:
+Plus d un signal source\n
+Description\Cause:\n
+- Un seul signal source\n
+par rebouclage\n
+\t\n
+Verification\Correction:\n
+1.Ne garder qu un signal
+1019:
+Signal non defini\n
+Description\Cause:\n
+- Le signal: %s,de rebouclage\n
+  est inconnu\n
+\t\n
+Verification\Correction:\n
+1. Definir ce nom dans la\n
+ section signal
+1020:
+Pas de signal resultant\n
+Description\Cause:\n
+- Un rebouclage doit avoir au moins\n
+ un signal resultant\n
+\t\n
+Verification\Correction:\n
+1. definir un signal resultant
+1021:
+Signaux dupliques\n
+Description\Cause:\n
+- Le signal: %s, est declare comme\n
+ source et resultant du rebouclage\n
+\t\n
+Verification\Correction:\n
+1.Le meme signal ne peut etre declare\n
+comme source et resultant\n
+d un rebouclage
+1022:
+Valeur Max trop grande\n
+Description\Cause:\n
+-La val physique max > %d\n
+\t\n
+Verification\Correction:\n
+1. Changer la valeur en configuration
+1023:
+Valeur Min trop petite\n
+Description\Cause:\n
+-La val physique min < %d\n
+\t\n
+Verification\Correction:\n
+1.Changer la val. min\n
+ en configuration
+1024:
+Valeur courante > Max\n
+Description\Cause:\n
+- Signal: %s\n
+  Valeur courante =%d > Valeur max= %d\n
+  Valeur bornee au max\n
+\t\n
+Verification\Correction:\n
+1. Changer la valeur max\n
+ en configuration
+1025:
+Valeur courante < min\n
+Description\Cause:\n
+- Signal: %s\n
+  Valeur courante =%d < Valeur min= %d\n
+  Valeur bornee au min\n
+\t\n
+Verification\Correction:\n
+1. Changer la valeur min\n
+ en configuration
+1026:
+Val log courante > max\n
+Description\Cause:\n
+- Signal: %s\n
+  Valeur courante =%d > Valeur max= %d\n
+  Valeur bornee au max\n
+\t\n
+Verification\Correction:\n
+1. Changer la valeur logique max\n
+ en configuration
+1027:
+Val log courante < min\n
+Description\Cause:\n
+- Signal: %s\n
+  Valeur courante =%d < Valeur min= %d\n
+  Valeur bornee au min\n
+\t\n
+Verification\Correction:\n
+1. Changer la valeur logique min\n
+ en configuration
+1028:
+Conf automate inv\n
+Description\Cause:\n
+- La partition de debut et la taille\n
+  du rack sont invalides\n
+  pour la carte %s\n
+\t\n
+Verification\Correction:\n
+1. Pour la partition 0\n
+ la taille du rack doit etre < a 4
+1029:
+Conf automate inv\n
+Description\Cause:\n
+- La partition Un  et la taille\n
+  du rack sont invalides\n
+  pour la carte %s\n
+\t\n
+Verification\Correction:\n
+1. Pour la partition 1\n
+ la taille du rack doit etre < a 3
+1030:
+Conf automate inv\n
+Description\Cause:\n
+- La partition Deux et la taille\n
+  du rack sont invalides\n
+  pour la carte %s\n
+\t\n
+Verification\Correction:\n
+1. Pour la partition 2\n
+ la taille du rack doit etre < a 2
+1031:
+Conf automate inv\n
+Description\Cause:\n
+- La partition Trois et la taille\n
+  du rack sont invalides\n
+  pour la carte %s\n
+\t\n
+Verification\Correction:\n
+1. Pour la partition 3\n
+la taille du rack doit etre 0
+1032:
+Erreur de communication\n
+Description\Cause:\n
+- La communication entre la carte E/S\n
+ deportee et l automate est interrompue\n
+ a l adresse carte %d\n
+\t\n
+Verification\Correction:\n
+1. Verifiez le cable\n
+2. L automate n est il pas hors tension
+1033:
+Nbr entrees log inv\n
+Description\Cause:\n
+- Le nombre d entrees logiques\n
+ est trop grand pour la carte %d\n
+ le max autorise est %d\n
+\t\n
+Verification\Correction:\n
+1. Reconfigurer cette carte
+1034:
+Nbr sorties log inv\n
+Description\Cause:\n
+- Le nombre de sorties logiques\n
+ est trop grand pour la carte %d\n
+ le max autorise est %d\n
+\t\n
+Verification\Correction:\n
+1. Reconfigurer cette carte
+1035:
+Premier quart incorrect\n
+Description\Cause:\n
+- Le premier quart est\n
+ en dehors de la carte %s\n
+\t\n
+Verification\Correction:\n
+1. le premier quart doit etre\n
+ compris entre 0 et 3\n
+ reconfigurer
+1036:
+Nom trop long\n
+Description\Cause:\n
+- Le nombre de caracteres dans\n
+ le nom %s est > %d caracteres\n
+\t\n
+Verification\Correction:\n
+1.Trouver un nouveau nom
+1037:
+Chaine rebouclage inv\n
+Description\Cause:\n
+- Le signal %s apparait comme\n
+ source et resultant dans la chaine\n
+\t\n
+Verification\Correction:\n
+1. Corriger la config de la chaine\n
+  ou ce signal apparait
+1038:
+Rebouclage trop profond\n
+Description\Cause:\n
+- Le rebouclage dans la chaine est trop\n
+ profond. Premier signal: %s\n
+\t\n
+Verification\Correction:\n
+1.Reduire le rebouclage
+1039:
+Nombre de lien inv\n
+Description\Cause:\n
+- Le nombre max de liens\n
+pour le pilote %s\n
+est en dehors des bornes\n
+\t\n
+Verification\Correction:\n
+1.S assurer que le nombre de liens\n
+ est > 0 et < au nombre de slots E/S
+1040:
+Adr de lien E/S inv\n
+Description\Cause:\n
+-L adresse pour la carte %s\n
+ est hors zone\n
+\t\n
+Verification\Correction:\n
+1.L adresse doit etre comprise\n
+ entre 1 et 63
+1041:
+Trop de sorties analog\n
+Description\Cause:\n
+- Le nombre de sorties pour cette\n
+ carte, %s est superieur a %d\n
+\t\n
+Verification\Correction:\n
+1. Reduire le nombre de sorties
+1042:
+Trop d entrees analog\n
+Description\Cause:\n
+- Le nombre d entrees pour cette\n
+ carte, %s est superieur a %d\n
+\t\n
+Verification\Correction:\n
+1. Reduire le nombre d entrees
+1043:
+Type de signal incorrect\n
+Description\Cause:\n
+- Le type specifie pour\n
+ le signal %s ne peut convenir\n
+ a ce type de carte\n
+\t\n
+Verification\Correction:\n
+1.Corriger le type de signal\n
+2.Corriger le type de carte
+1044:
+Signal phys. inv\n
+Description\Cause:\n
+- Le numero ou la taille ou\n
+ le numero et la taille pour le\n
+ signal %s est > %d\n
+\t\n
+Verification\Correction:\n
+1. Changer le numero du signal\n
+2. Changer sa taille
+1045:
+Filtre inadapte\n
+Description\Cause:\n
+- \Signal : %s la declaration\n
+ d un filtre ne convient pas a\n
+ ce type de signal\n
+\t\n
+Verification\Correction:\n
+1. Mettre a zero le filtrage ou\n
+ supprimer l instruction
+1046:
+Erreur mise a l echelle\n
+Description\Cause:\n
+- Signal %s: mise a l echelle\n
+ ne peut etre faite\n
+\t\n
+Verification\Correction:\n
+1. Supprimer la mise a l echelle
+1049:
+Erreur param. inversion\n
+Description\Cause:\n
+- Signal %s: Ce type de signal\n
+ ne peut etre inverse\n
+\t\n
+Verification\Correction:\n
+1.Seuls les signaux logiques peuvent\n
+etre inverses
+1050:
+Sig. de rebouclage inval.\n
+Description\Cause:\n
+- Signal %s: doit etre de type\n
+ logique\n
+\t\n
+Verification\Correction:\n
+1. Seuls les signaux logiques\n
+ peuvent etre reboucles
+1051:
+Format d adresse errone\n
+Description\Cause:\n
+- Signal %s:l adresse de RIO\n
+ n est pas en octal\n
+\t\n
+Verification\Correction:\n
+1.Renseigner l adresse sous\n
+ forme octal
+1052:
+Table de reboucl. pleine\n
+Description\Cause:\n
+- Le total des signaux source\n
+  avec celui des signaux destination\n
+  ne peut exceder %d\n
+\t\n
+Verification\Correction:\n
+1. Reduire le nombre de signaux
+1053:
+Perte connexion Automate\n
+Description\Cause:\n
+-Communication  E/S deportee et PLC\n
+interrompue\n
+\t\n
+Verification\Correction:\n
+1. Verifier  le cable\n
+2. Verifier que l automate\n
+ est ss tension
+1054:
+Type de signal errone\n
+Description\Cause:\n
+- Signal %s:\n
+  Le type de signal est incorrect\n
+\t\n
+Verification\Correction:\n
+1. Changer le type
+1055:
+Signal inconnu\n
+Description\Cause:\n
+- Symbole %s: non defini\n
+\t\n
+Verification\Correction:\n
+1. Changer le nom du symbole
+1056:
+Liste de restaur. pleine\n
+Description\Cause:\n
+- Symbol %s: ne pourra etre\n
+  restaure en cas de coupure secteur\n
+  La liste est pleine.\n
+\t\n
+Verification\Correction:\n
+1. Augmenter la taille de la liste dans\n
+   le fichier de demarrage.\n
+2. Supprimer des signaux de la liste
+1057:
+Carte DSQC319 absente\n
+Description\Cause:\n
+- Pas de carte du type DSQC319\n
+  connectee a l'adresse %d\n
+\t\n
+Verification\Correction:\n
+1. Connecter une carte\n
+2. Changer l'adresse de la carte
+1058:
+Pas de connexion CAN\n
+Description\Cause:\n
+- Pas de connexion\n
+  avec le noeud d'adresse %d\n
+\t\n
+Verification\Correction:\n
+1. Verifier les adresses de tous\n
+   les modules CAN sur le bus\n
+2. Changer l'adresse du noeud
+1059:
+Erreur de config CAN\n
+Description\Cause:\n
+- Erreur en configurant\n
+  le noeud d'adresse %d\n
+\t\n
+Verification\Correction:\n
+1. Corriger la configuration
+1060:
+Erreur carte DSQC319\n
+Description\Cause:\n
+- La carte DSQC319\n
+  d'adresse %d\n
+  est en erreur\n
+\t\n
+Verification\Correction:\n
+1. Verifier la connexion\n
+   bus CAN\n
+2. S'assurer que la carte DSQC319\n
+  n'est pas en defaut
+1061:
+Erreur sur le bus CAN\n
+Description\Cause:\n
+- Taux d'erreur anormal sur le bus\n
+  CAN connectee a la carte DSQC319\n
+  d'adresse %d\n
+\t\n
+Verification\Correction:\n
+1. Verifier le cable de liaison
+1062:
+D319 Tampon recept plein\n
+Description\Cause:\n
+- Tampon de reception plein\n
+  sur la carte d'adresse %d.\n
+  des messages peuvent\n
+  etre perdus\n
+\t\n
+Verification\Correction:\n
+1. Reduire le nombre de noeuds sur Can.
+1063:
+Message Can perdu\n
+Description\Cause:\n
+- message Can perdu\n
+  sur la carte d'adresse %d.\n
+\t\n
+Verification\Correction:\n
+1. Reduire le nombre de noeuds sur Can.
+1064:
+Erreur com IOC-IBS\n
+Description\Cause:\n
+- IOC signale une erreur sur la\n
+  DSQC260 d'adresse %d\n
+\t\n
+Verification\Correction:\n
+1. Verifier la carte IOC.
+1065:
+Erreur sur carte DSQC260\n
+Description\Cause:\n
+- la carte DSQC260 d'adresse %d\n
+  signale une erreur.\n
+\t\n
+Verification\Correction:\n
+1. Verifier la carte DSQC260.
+1066:
+InterBus-S inactif\n
+Description\Cause:\n
+- InterBus-S connecte a la carte\n
+  DSQC260 d'adresse %d\n
+  est inactif.\n
+\t\n
+Verification\Correction:\n
+1. Controler les noeuds InterBus-S.
+1067:
+InterBus-S non connecte\n
+Description\Cause:\n
+- InterBus-S attache a la carte\n
+  DSQC260 d'adresse %d\n
+  n'est pas connecte ou le maitre IBS\n
+  est en mode reset.\n
+\t\n
+Verification\Correction:\n
+1. Controler les noeuds InterBus-S.\n
+2. Controler le maitre InterBus-S.
+1068:
+IOC OK\n
+Description\Cause:\n
+- IOC n'est plus en erreur.\n
+  le message d'erreur a ete envoye a\n
+  la carte DSQC260 d'adresse %d\n
+\t\n
+Verification\Correction:\n
+1. Ne rien faire
+1069:
+DSQC260 OK\n
+Description\Cause:\n
+- La carte DSQC260 d'adresse %d\n
+  n'est plus en erreur.\n
+\t\n
+Verification\Correction:\n
+1. Ne rien faire.
+1070:
+InterBus-S reprise\n
+Description\Cause:\n
+- InterBus-S connecte a\n
+  la carte DSQC260 d'adresse %d\n
+  n'est plus inactif.\n
+\t\n
+Verification\Correction:\n
+1. Ne rien faire.
+1071:
+InterBus-S connecte\n
+Description\Cause:\n
+- InterBus-S attache a\n
+  la carte DSQC260 d'adresse %d\n
+  n'est plus deconnecte ou le maitre IBS\n
+  n'est plus en mode reset.\n
+\t\n
+Verification\Correction:\n
+1. Ne rien faire.
+1072:
+Pas d'attr. restaure\n
+Description\Cause:\n
+- le signal %s\n
+  n'a pas positionne a OUI l'attribut\n
+  Restaure.\n
+\t\n
+Verification\Correction:\n
+1. Positionner l'attribut Store.
+1073:
+Connexion etablie\n
+Description\Cause:\n
+- Connexion etablie avec le noeud Can\n
+  a l addresse %d\n
+\t\n
+Verification\Correction:\n
+1.Ne rien faire.
+1074:
+IBS Config. invalide\n
+Description\Cause:\n
+- Le de mots IBS est trop grand\n
+  pour la carte %s\n
+\t\n
+Verification\Correction:\n
+1. Le nombre de mot doit etre < 5\n
+
+1075:
+Erreur acces E/S\n
+Description\Cause:\n
+- Ecriture/Lecture impossible\n
+  sur la carte d'adresse %d\n
+\t\n
+Verification\Correction:\n
+1. Verifier\Changer la carte
+1076:
+Erreur de com sur RTP1\n
+Description\Cause:\n
+- Pas de reponse sur la\n
+  liaison serie\n
+\t\n
+Verification\Correction:\n
+1. Verifier la liaison ou\n
+   l'appareil connecte
+1077:
+Erreur de com sur RTP1\n
+Description\Cause::\n
+- Le message recu ne peut etre\n
+  envoye au destinataire\n
+\n
+\t\n
+Verification\Correction:\n
+1. Verifier le bavardage sur la ligne
+1078:
+Erreur de com sur RTP1\n
+Description\Cause::\n
+- La reponse recue est invalide\n
+\n
+\t\n
+Verification\Cause:\n
+1. La ligne est bruitee\n
+2. Les connexions sont intermittentes\n
+3. L'appareil connecte ne respecte pas\n
+   le protocole RTP1
+1079:
+Creneau sur sorties num\n
+Description\Cause::\n
+- Les demades de creneaux sur les\n
+  sorties numeriques ne sont pas\n
+  autorisees.\n
+\t\n
+Verification\Correction:\n
+1. ---
+1080:
+Liste de pilotes pleine.\n
+Description\Cause::\n
+- Le nombre de pilote\n
+  doit etre < %d\n
+\t\n
+Verification\Correction:\n
+1. Reduire le nombre de pilotes.\n
+2. Augmenter le nombre max autorise\n
+
+1081:
+Trop de signaux.\n
+Description\Cause::\n
+- Le nombre de signaux doit etre < %d\n
+\n
+\t\n
+Verification\Correction:\n
+1. Reduire le nombre de signaux\n
+2. Augmenter le nombre max permis.
+1082:
+Trop de signaux .\n
+Description\Cause::\n
+- Le nombre de signaux utilisateurs\n
+  doit etre < %d\n
+\t\n
+Verification\Correction:\n
+1. Reduire le nombre de signaux\n
+2. Augmenter le nombre max permis.
+1083:
+Trop de symboles.\n
+Description\Cause::\n
+- Le nombre de symboles\n
+  doit etre < %d\n
+\t\n
+Verification\Correction:\n
+1. Reduire le nombre de symboles\n
+2. Augmenter le nombre max permis.\n
+
+1084:
+Trop de declenchements.\n
+Description\Cause::\n
+- Le nombre de declenchements\n
+  doit etre < %d\n
+\t\n
+Verification\Correction:\n
+1. Reduire le nombre de symboles\n
+2. Augmenter le nombre max permis.\n
+
+1085:
+Trop d'unites.\n
+Description\Cause::\n
+- Le nombre d'unites\n
+  doit etre < %d\n
+\t\n
+Verification\Correction:\n
+1. Reduire le nombre d unites\n
+2. Augmenter le nombre max permis.\n
+
+1086:
+Comm etablie avec RIO\n
+Description\Cause::\n
+- Communication etablie avec\n
+  la carte RIO connectee\n
+  a l adress %d\n
+\t\n
+Verification\Correction:\n
+1. Aucune.
+1094:
+Trop de rebouclages\n
+Description\Cause::\n
+- Le rebouclage a trop de signaux\n
+  source : %s\n
+\t\n
+Verification\Correction:\n
+1. Corriger le rebouclage.
+1095:
+Chaine reboucl invalide\n
+Description\Cause::\n
+- La partie "From" de la chaine de\n
+  rebouclage est trop longue\n
+\t\n
+Verification\Correction:\n
+1. Corriger le rebouclage.
+1096:
+Automate en mode Prog\n
+Description\Cause::\n
+- Acces a l'automate impossible\n
+\t\n
+Verification\Correction:\n
+1. Automate en mode programme\n
+2. Automate mal configure
+1097:
+Attrib Restaur invalide\n
+Description\Cause::\n
+- Le Signal %s: ce type de signal\n
+  ne peut avoir l attribut\n
+  de restauration.\n
+\t\n
+Verification\Correction:\n
+1. Seuls les signauc digitaux peuvent\n
+  posseder cet attribut.

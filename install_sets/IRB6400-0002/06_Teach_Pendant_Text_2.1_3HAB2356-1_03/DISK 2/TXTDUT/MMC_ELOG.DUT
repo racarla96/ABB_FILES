@@ -1,0 +1,227 @@
+26::
+0:
+Operator
+1:
+%s ontbreekt\n
+Tool %s wordt niet\n
+gebruikt in het huidige programma.\n
+Omdat de tool werd verwijderd ofwel\n
+omdat de tool niet gedefinieerd is.\n
+\t\n
+Schakel over op een ander tool\n
+met behulp van het jogging-venster.
+2:
+%s ontbreekt\n
+Wobj %s wordt niet\n
+gebruikt in het huidige programma.\n
+Omdat het Wobj werd verwijderd ofwel\n
+omdat het Wobj niet gedefinieerd is.\n
+\t\n
+Schakel over op een ander werkobject\n
+met behulp van het jogging-venster.
+3:
+Directory niet aangemaakt\n
+De directory %s kan niet worden\n
+aangemaakt. Waarschijnlijk omdat de\n
+directory reeds bestaat of de disk\n
+beveiligd is tegen overschrijven.\n
+\t\n
+Controleer of de directory bestaat en\n
+of de disk een overschrijfbeveiliging\n
+heeft. Controleer tevens of er nog\n
+voldoende plaats op de disk is.
+4:
+Robot Hold verwarring\n
+De gebruikte tool en het gebruikte\n
+werkobject kunnen niet allebei tegelijk\n
+door de robot worden vastgehouden of\n
+stationair zijn.\n
+\t\n
+Controleer het robhold component van het\n
+gebruikte tool en werkobject.
+5:
+%s ontbreekt!\n
+Het werkobject %s bevat\n
+een gecoordineerde mechanische eenheid\n
+die niet kan worden gevonden.\n
+\t\n
+Controleer het component van de\n
+mechanische eenheid en het werkobject.
+6:
+%s Gebruikersframe!\n
+Het werkobject %s bevat\n
+geen gebruikersframe gedefinieerd voor\n
+een gecoordineerde mechanische eenheid.\n
+\t\n
+Controleer het component van de\n
+mechanische eenheid en het werkobject.
+7:
+Joggen niet toegestaan!\n
+In deze modus is joggen niet toegestaan.\n
+\t\n
+Laat de joystick en de dodemansknop\n
+los en herhaal. Controleer eveneens\n
+de actieve mechanische eenheid.
+8:
+Tool-massa niet gedef!\n
+Joggen is niet mogelijk indien gebruikte\n
+tool een ongedefinieerde massa heeft.\n
+\t\n
+Voer de massa in, in de tool-data\n
+voor de gebruikte tool.
+9:
+Ongesynchroniseerde robot\n
+De robot of de externe as zijn niet\n
+gesynchroniseerd.\n
+\t\n
+Synchroniseer de robot of externe as.
+10:
+Orientatie fout!\n
+Orientatie in %s is niet genormaliseerd\n
+\t\n
+Controleer waarde van de orientatie.
+11:
+Fouten in de parameters!\n
+Het laden van de parameters in\n
+%s\n
+kan niet volbracht worden.\n
+Zie, als reden\n
+%s\n
+\t\n
+Kopieer het bestand\n
+%s\n
+naar een diskette en onderzoek de\n
+oorzaak mbv een tekstverwerker!
+12:
+Geen parameters geladen!\n
+Er zijn geen parameters aanwezig in\n
+%s\n
+\t\n
+Controleer het bestand\n
+%s\n
+mbv een tekstverwerker!
+13:
+Joggen niet toegestaan!\n
+Het joggen van een mechanische\n
+eenheid is niet mogelijk.\n
+Eenheid is niet geactiveerd.\n
+\t\n
+Activeer de mechanische eenheid.
+14:
+Disk is vol!\n
+Geen info opgeslagen in de Change Log\n
+betreffende de aangepaste parameter\n
+omdat er geen plaats op de disk is.\n
+\t\n
+Probeer bestanden te verwijderen\n
+of herorganiseer de disk.
+15:
+PP niet te plaatsen\n
+PP niet te plaatsen in routine\n
+'%s' omdat deze parameters bevat.\n
+\t\n
+Maak een routine die %s aanroept\n
+of verwijder de parameters.
+16:
+PP niet te plaatsen\n
+PP kan niet in de routine\n
+'%s' geplaatst worden omdat\n
+de routine zich in een NOSTEPIN\n
+module bevindt.\n
+\t\n
+Kopieer de routine naar een andere\n
+module of verander het module\n
+attribuut.
+17:
+PGM_TELLBACK code %d\n
+\n
+\t\n
+Geen verdere informatie beschikbaar.\n
+
+18:
+RAPID syntaxis fout!\n
+Het programma kan niet geladen worden\n
+vanwege een syntaxis fout(en).\n
+\t\n
+Een RAPID syntaxis controle programma\n
+voor de PC of QuickTeach kan gebruikt\n
+worden om de syntaxis fout(en) op te\n
+sporen. Het bestand PGMCPL1.LOG op RAM\n
+disk bevat informatie omtrent de fout.
+19:
+Data invoer fout!\n
+Het component '%s' in data\n
+type '%s' is niet juist.\n
+De limieten zijn:\n
+%s!\n
+\t\n
+Controleer de data en voer de juiste\n
+waarde in.
+20:
+PP niet te plaatsen\n
+PP kan niet in de routine\n
+'%s' geplaatst worden omdat deze\n
+als een trap routine gedefinieerd is.\n
+\t\n
+Verander de definitie voor de\n
+routine '%s'\n
+naar 'Procedure'.
+21:
+Kan geen delen aangeven!\n
+Het aantal van de geselecteerde delen is\n
+groter dan het maximale gespecificeerd\n
+voor de configuratie. Deze delen kunnen\n
+dus niet worden getoond.\n
+\t\n
+Verminder het aantal data of\n
+wijzig de configuratie met een geheugen\n
+bord met meer geheugen.
+22:
+Kan geen delen aangeven!\n
+Alleen %d variabelen (van de %d)\n
+worden weergegeven.\n
+Alle variabelen kunnen niet worden weer\n
+gegeven omdat er dan meer geheugen nodig\n
+is als dat er nu aanwezig is.\n
+\t\n
+Verminder het aantal data of\n
+wijzig de configuratie met een geheugen\n
+bord met meer geheugen.
+23:
+Limiet ModPos!\n
+U kun deze positie niet aanpassen omdat\n
+gelimiteerde MODPOS is actief met ABS.\n
+ABS, absolute modus, betekent dat de\n
+originele positie moet worden bewaard.\n
+Dit kan niet tijdens het optimaliseren.\n
+\t\n
+Tijdens uitvoering, stop het programma.\n
+Pas de positie aan in Programma Window.\n
+Dit zal een originele positie aanmaken.\n
+Daarna kan deze worden geoptimaliseerd.\n
+Grenzen instellen bij Limiet ModPos.
+24:
+Buiten Limieten!\n
+De verandering is of buiten de interne\n
+limiet van 10 mm of is groter dan de\n
+limiet ingesteld bij de limiet ModPos\n
+parameter Max Trans.\n
+\t\n
+Een enkele verandering mag niet groter\n
+zijn dan 10mm. Gebruik kleinere stappen.\n
+Als de Limiet ModPos parameter actief is\n
+en de Max Trans is kleiner dan 10mm\n
+kan deze parameter gewijzigd worden.
+25:
+Naam niet toegestaan!\n
+Deze naam bestaat al of is een\n
+gereserveerd woord.\n
+\t\n
+Gebruik a.u.b. een andere naam. Voor\n
+gereserveerde woorden:zie RAPID handboek
+26:
+Progr. geheugen bijna vol\n
+Sla programma op en neem\n
+passende actie.\n
+\t\n
+

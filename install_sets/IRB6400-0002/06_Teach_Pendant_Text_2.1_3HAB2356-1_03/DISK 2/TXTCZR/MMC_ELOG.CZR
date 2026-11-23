@@ -1,0 +1,224 @@
+26::
+0:
+Operator
+1:
+%s chybi\n
+Nastroj %s se v soucasnem\n
+programu nepouziva.\n
+Mozna proto, ze byl smazan,\n
+nebo neni definovan.\n
+\t\n
+Zmente na jiny nastroj s pouzitim\n
+okna Pomaly chod.
+2:
+%s chybi\n
+Wobj %s se v soucasnem\n
+programu nepouziva.\n
+Mozna proto, ze byl smazan,\n
+nebo neni definovan.\n
+\t\n
+Zmente na jiny pracovni objekt\n
+s pouzitim okna Pomaly chod.
+3:
+Adresar neni vytvoren!\n
+Adresar %s nelze vytvorit.\n
+Pravdepodobne proto, ze jiz existuje,\n
+nebo je disk chranen proti zapisu.\n
+\t\n
+Zkontrolujte, zda adresar existuje nebo\n
+je chranen proti zapisu.\n
+Zkontrolujte take, jestli je na disku\n
+dostatecny prostor.
+4:
+Zmatene drzeni robota!\n
+Nelze, aby robot soucasne drzel pouzity\n
+nastroj a pouzity pracovni objekt, nebo\n
+aby tyto byly stacionarni.\n
+\t\n
+Zkontrolujte robhold soucast pouziteho\n
+nastroje a pracovniho objektu.
+5:
+%s chybi!\n
+Pracovni objekt %s obsahuje\n
+koordinovanou mechanickou jednotku\n
+kterou nelze nalezt.\n
+\t\n
+Zkontrolujte soucast mechanicke jednotky\n
+pracovniho objektu.
+6:
+%s uzivatelsky ramec!\n
+Pracovni objekt %s obsahuje\n
+koordinovanou mechanickou jednotku,\n
+ktera nema definovany uzivatelsky ramec.\n
+\t\n
+Zkontrolujte soucast pracovniho objektu\n
+mechanicke jednotky.
+7:
+Pomaly chod neni dovolen!\n
+Pomaly chod v tomto rezimu nelze\n
+provadet.\n
+\t\n
+Uvolnete joystik a povolovaci zarizeni\n
+a opakujte.\n
+Zkontrolujte take aktivni mechanickou\n
+jednotku.
+8:
+Hmota nastroje nedefin!\n
+Pomaly chod nelze provadet, jestlize\n
+pouzity nastroj nema definovanou hmotu\n
+\t\n
+Zadejte hodnotu pro hmotu do tooldata\n
+pro pouzity nastroj.
+9:
+Nesynchronizovany robot!\n
+Robot nebo vnejsi osa nejsou\n
+synchronizovany.\n
+\t\n
+Synchronizujte robota nebo vnejsi osu.
+10:
+Chyba orientace!\n
+Orientace v %s neni normalizovana.\n
+\t\n
+Zkontrolujte hodnotu orientace.
+11:
+Porucha parametru!\n
+Zavadeni parametru do\n
+%s\n
+nelze provest.\n
+Duvod viz\n
+%s\n
+\t\n
+Zkopirujte soubor\n
+%s\n
+na disketu a s pouzitim obycejneho\n
+textoveho editoru vysetrete duvody!
+12:
+Parametry nezavedeny!\n
+V %s nejsou zadne parametry\n
+\t\n
+Zkontrolujte soubor\n
+%s\n
+s pouzitim obycejneho textoveho editoru!
+13:
+Pomaly chod neni dovolen!\n
+Pomaly chod mechanicke jednotky\n
+neni mozny.\n
+Jednotka neni aktivovana.\n
+\t\n
+Aktivujte mechanickou jednotku.
+14:
+Disk je plny!\n
+Do protokolu zmen nejsou ulozeny zadne\n
+informace o zmene parametru, protoze na\n
+disku neni dostatek prostoru.\n
+\t\n
+Pokuste se smazat nektere soubory, nebo\n
+preorganizujte svuj disk.
+15:
+PP nelze nastavit!\n
+PP nelze nastavit do rutiny\n
+'%s' protoze ma parametry.\n
+\t\n
+Vytvorte rutinu ktera vola '%s'\n
+nebo odstrante parametry.
+16:
+PP nelze nastavit!\n
+PP nelze nastavit do rutiny\n
+'%s' protoze sidli v modulu,\n
+ktery ma jako atribut modulu\n
+NOSTEPIN.\n
+\t\n
+Zkopirujte rutinu '%s' do\n
+jineho modulu, nebo zmente\n
+atribut modulu.
+17:
+PGM_TELLBACK kod %d\n
+\n
+\t\n
+K dispozici neni zadna dalsi informace.
+18:
+Chyba syntaxe RAPID!\n
+Program nelze zavest, protoze ma\n
+syntaktickou chybu(y).\n
+\t\n
+Pro zjisteni chyby lze v pocitaci pouzit\n
+program na kontrolu syntaxe RAPID, nebo\n
+QuickTeach. Soubor PGMCPL1.LOG na\n
+vnitrnim RAM disku obsahuje informace\n
+o teto chybe.
+19:
+Chyba vstupu dat!\n
+Slozka '%s' v datech\n
+typu '%s' neni spravna.\n
+Meze jsou\n
+%s!\n
+\t\n
+Zkontrolujte data a zadejte spravnou\n
+hodnotu.
+20:
+PP nelze nastavit!\n
+PP nelze nastavit do rutiny\n
+'%s' protoze je definovana jako\n
+rutina podmineneho skoku.\n
+\t\n
+Zmente definici\n
+rutiny '%s'\n
+na 'Procedura'.
+21:
+Polozky nelze zobrazit!\n
+Pocet vybranych polozek presahuje\n
+soucasne meze pameti specifikovane pro\n
+tuto konfiguraci. Polozky tudiz nelze\n
+zobrazit.\n
+\t\n
+Omezte mnozstvi dat, nebo konfiguraci\n
+zmente na pametovou desku s vetsi\n
+pameti.
+22:
+Nelze zobr. vs. polozky!\n
+V seznamu budou pouze %d promenne\n
+(mimo %d).\n
+Vsechny promenne nelze zobrazit, protoze\n
+soucasne meze pameti, specifikovane pro\n
+tuto konfiguraci, by byly prekroceny.\n
+\t\n
+Omezte mnozstvi dat, nebo konfiguraci\n
+zmente na pametovou desku s vetsi\n
+pameti.
+23:
+Meze ModPos!\n
+Tuto polohu nemuzete modifikovat, nebot\n
+meze ModPos jsou aktivovany v ABS.\n
+ABS, absolutni rezim znamena, ze by se\n
+mela ulozit puvodni poloha.\n
+To nelze provadet pri ladeni.\n
+\t\n
+Pri vykonavani zastavte program. Polohu\n
+modifikujte v okne programu.\n
+Tim se vytvori puvodni poloha.\n
+Tato poloha proto umozni ladeni.\n
+Meze se nastavuji pouzitim Limit Modpos.
+24:
+Mimo meze!\n
+Zmena je bud mimo vnitrni meze 10 mm,\n
+nebo prekracuje meze nastavene\n
+parametrem Max Trans mezi polohy modulu.\n
+\t\n
+Jednotliva zmena nemuze prekrocit 10 mm.\n
+Zmenu provadejte v mensich krocich.\n
+Kdyz je Limit Modpos nastaven a parametr\n
+Max Trans je mensi nez 10 mm, tento\n
+parametr se musi zmenit.
+25:
+Nazev neni dovolen!\n
+Nazev jiz existuje, nebo je\n
+rezervovanym slovem.\n
+\t\n
+Prosim, pouzijte jiny nazev. Viz seznam\n
+rezervovanych slov v prirucce Rapid.
+26:
+Pamet programu brzy plna\n
+Ulozte program, nebo provedte jina\n
+prislusna opatreni.\n
+\t\n
+

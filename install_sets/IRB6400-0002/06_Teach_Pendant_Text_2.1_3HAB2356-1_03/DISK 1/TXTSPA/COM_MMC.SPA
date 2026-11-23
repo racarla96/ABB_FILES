@@ -1,0 +1,97 @@
+80::
+0:
+Comunicacion
+1:
+Canal serie
+2:
+Nombre
+3:
+Baudios
+4:
+Paridad
+5:
+No de bits
+6:
+No de bits stop
+7:
+Protocolo
+8:
+Direccion local (SLIP)
+9:
+Direcc. remota (SLIP)
+10:
+7
+11:
+8
+12:
+1
+13:
+2
+14:
+SLIP
+15:
+XONXOFF
+16:
+NINGUNO
+17:
+300
+18:
+600
+19:
+1200
+20:
+2400
+21:
+4800
+22:
+9600
+23:
+19200
+24:
+38400
+25:
+sin
+26:
+impar
+27:
+par
+28:
+ignorar
+29:
+Nombre   Canal        Baudios
+30:
+Canal
+31:
+Canal fisico
+32:
+Protocolo transmision
+33:
+Protocolo aplicacion
+34:
+Tipo
+35:
+CanalFis
+36:
+NroPort
+37:
+Nombre      Tipo        Canal
+38:
+Nombre      Tipo        CanalFisic
+39:
+Nombre      Tipo        Prot.Trans.
+40:
+Prot. Trans
+41:
+Habilita EventSist
+42:
+VERDAD
+43:
+FALSO
+44:
+on
+45:
+off
+46:
+Control RTS/CTS
+47:
+Enable SUBSCW

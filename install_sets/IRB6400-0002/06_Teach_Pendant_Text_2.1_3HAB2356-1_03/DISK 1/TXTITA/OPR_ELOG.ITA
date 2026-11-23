@@ -1,0 +1,334 @@
+21::
+0:
+Operativita'
+2:
+Reset programma\n
+Il task %!%!%s e' stato\n
+resettato.\n
+\t\n
+
+5:
+Esec. prog interrotta\n
+Il prog %!%!%s e' stato\n
+interrotto. Il motivo e' %s\n
+\t\n
+
+500:
+Interruzzione a causa di uno stop\n
+interno o esterno dopo l'istruzione\n
+corrente.
+501:
+La task ha eseg. un'istruz. EXIT
+502:
+Task pronta.
+503:
+Task pronta con livello desiderato.
+504:
+La task ha eseg. un'istruzione Break.
+505:
+stop interno o esterno attivato.
+506:
+riscontrato errore.
+507:
+Impossibile eseguire istruzioni al\n
+contrario essendo all'inizio del progr.
+508:
+Impossibile eseguire istruzioni al\n
+contrario da questa istruzione.
+509:
+the event routine for RESET or POWER_ON\n
+is ready.
+7:
+Programma in esecuzione\n
+Iniziata L'esecuzione\n
+della task %!%!%s.\n
+%s\n
+\t\n
+
+8:
+Programma riavviato\n
+Eseg. Riavvio\n
+della task %!%!%s.\n
+%s\n
+\t\n
+
+701:
+L'origine e' la finestra di programmaz.
+702:
+L'origine e' la finestra di produzione.
+703:
+L'origine e' sconosciuta.
+704:
+L'origine e' un client esterno.
+9:
+Area programma piena\n
+Memoria non disponibile\n
+per nuove istruz o dati RAPID.\n
+La task e' %!%!%s\n
+\t\n
+Salvare il programma e riavviarlo.
+10:
+Stato Motori disinseriti\n
+\n
+\t\n
+
+11:
+Stato Motori inseriti\n
+\n
+\t\n
+
+12:
+Stato stop di sicurezza\n
+Catena RUN aperta da contr. sicurezza\n
+escluso dallo stop di emergenza.\n
+\t\n
+
+13:
+Stato di emergenza\n
+Catena di Run aperta da una emergenza.\n
+Necessario un reset dell'emergenza,\n
+premendo il pulsante di Motors On.\n
+\t\n
+
+14:
+Stato di errore sistema\n
+Errore sistema non recuperabile.\n
+Necessario warm start.\n
+\t\n
+
+15:
+Modo Manuale selezionato\n
+\n
+\t\n
+
+16:
+Necessario modo Auto\n
+\n
+\t\n
+
+17:
+Confermato modo Auto\n
+\n
+\t\n
+
+18:
+Necess. modo Man. V100%\n
+Richiesto modo manuale V100%\n
+\t\n
+
+19:
+Conferm. modo man. V100%\n
+Confermato modo manuale V100%\n
+\t\n
+
+20:
+Errore esecuzione\n
+L'esecuzione programma ha generato\n
+un errore spontaneo.\n
+\t\n
+
+21:
+Resettare errore esecuz.\n
+L'esecuzione programma ha riscontrato\n
+un errore spontaneo.\n
+\t\n
+
+22:
+In attesa di Hold to Run\n
+In attesa che il tasto Hold to Run\n
+sulla unita' di programmazione venga\n
+premuto.\n
+\t\n
+
+23:
+Timeout Hold to Run\n
+Il tasto di Hold to Run deve essere\n
+premuto nel tempo limite.\n
+\t\n
+
+30:
+Assi commutati\n
+\n
+\t\n
+
+31:
+Assi calibrati\n
+\n
+\t\n
+
+32:
+Counters aggiornati\n
+\n
+\t\n
+
+33:
+Assi sincronizzati\n
+\n
+\t\n
+
+34:
+Assi non commutati\n
+\n
+\t\n
+
+35:
+Assi non calibrati\n
+\n
+\t\n
+
+36:
+Counters non aggiornati\n
+\n
+\t\n
+
+37:
+Assi non sincronizzati\n
+\n
+\t\n
+
+40:
+Programma caricato\n
+La task %!%!%s ha\n
+caricato un programma o un modulo.\n
+L'area libera era di %i bytes\n
+prima dell'operazione e di\n
+%i bytes dopo.\n
+\t\n
+
+41:
+Programma cancellato\n
+La task %!%!%s ha\n
+cancellato un programma.\n
+\t\n
+
+43:
+Riavvio non eseguito\n
+La task %!%!%s\n
+non puo' essere riavviata.\n
+\t\n
+
+44:
+Aggiornato Puntat. Progr.\n
+La task %!%!%s\n
+potrebbe avere modificato la posizione\n
+del Puntatore Porgramma.\n
+\t\n
+
+45:
+Sistema riavviato\n
+Il sistema gia' installato\n
+e' stato riavviato.\n
+\t\n
+
+46:
+Sistema riavviato in Cold\n
+start\n
+Primo avvio dopo l'installazione.\n
+\t\n
+
+47:
+Esec. task background %s\n
+non eseguita\n
+%s\n
+\t\n
+
+4701:
+Task vuota
+4702:
+Errore di stato
+4703:
+Impossib. def. PC alla main rout
+4704:
+Impossib. definire il modo di esecuz.
+4705:
+Comando di start non eseguito
+4706:
+causa errore di sintassi
+48:
+Background task bloccata\n
+La task %s bloccata senza motivo\n
+%s\n
+\t\n
+
+49:
+Area protetta non termin.\n
+Guasto alimentaz. riscontrato nel\n
+mezzo di un area protetta per\n
+la task %!%s\n
+%s\n
+\t\n
+%s
+4901:
+Il sistema sta tentando di ripristinarsi
+4902:
+Un errore e' stato tolto\n
+dalla coda
+4903:
+Un uscita e' stata rimossa\n
+dalla coda
+4904:
+Questo potrebbe risultare in un\n
+extra ciclo programma
+4905:
+La task sara' riavviata dal\n
+sotprog principale
+4906:
+Un succ. warm start resettera' tutte le\n
+task e il progr. cliente verra' perso
+4907:
+Provare a salvare il programma ed\n
+eseguire un warm start del sistema\n
+
+50:
+Esecuzione cancellata\n
+Il riavvio azzerera' l'esecuzione\n
+nella task %!%.16s di un\n
+%s\n
+\t\n
+%s
+5001:
+Sotprog evento Power On sistema
+5002:
+Sotprog evento Stop sistema
+5003:
+Sotprog evento Emergency Stop sistema
+5004:
+Sotprog evento Start sistema
+5005:
+Sotprog evento Restart sistema
+5006:
+Sotprog evento Reset sistema
+5007:
+Sotprog evento Internal sistema
+5008:
+Sotprog User
+51:
+Sotprog evento non valido\n
+La task %!%s potrebbe non riavviare\n
+il sotprog evento sistema specificato\n
+%s\n
+\t\n
+Inserire il sotprog in un modulo\n
+module.
+52:
+Recupero esecuzione\n
+Recupero mov. eseguito\n
+\t\n
+
+53:
+Recupero pronto\n
+Recupero movimento pronto\n
+\t\n
+
+60:
+Test catena enable\n
+La catena di enable e' sempre\n
+controllata all'avvio. Se il test ha\n
+riscontrato un errore il sistema genera\n
+un messaggio.\n
+\t\n
+Se la catena di enable all'avvio ha\n
+riscontrato un errore, apparira' un\n
+messaggio del tipo\n
+"Enable chain timeout"\n
+

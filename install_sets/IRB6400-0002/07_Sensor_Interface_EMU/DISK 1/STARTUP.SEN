@@ -1,0 +1,4 @@
+#Sensor Interface (replica EMU)
+task -path $(SEARCH)hpbin/ltdists \
+-slotname ltdists -slotid 35 -pri 100 -vwopt 0x1c -stcks 5000 \
+-entp ltdists_main -auto

@@ -1,0 +1,123 @@
+30::
+0:
+Controllore
+1:
+Sicurezza
+2:
+Funzione
+3:
+Attivo
+4:
+TRUE
+5:
+FALSE
+6:
+Funzione Attivo
+7:
+HoldToRun
+8:
+POWER_ON
+9:
+START
+10:
+STOP
+11:
+QSTOP
+12:
+RIAVVIO
+13:
+RESET
+14:
+Sotprog Evento
+15:
+Evento      Sotprog     Task
+16:
+Evento
+17:
+Sotprog
+18:
+Tasks
+19:
+Task
+20:
+Prog
+21:
+Task in evidenza
+22:
+Tipo
+23:
+Main Entry
+24:
+NORMALE
+25:
+STATICO
+26:
+SEMISTATICO
+27:
+Task         Prog        Tipo
+28:
+Task
+29:
+Moduli Task
+30:
+File
+31:
+Task         File
+32:
+Distanze di recupero
+33:
+Modo
+34:
+Tcp_dist
+35:
+Tcp_rot
+36:
+Est_dist
+37:
+Est_rot
+38:
+Modo      Tcp-dist    Tcp-rot
+39:
+MAN
+40:
+AUTO
+41:
+BindRef
+42:
+StackSize [%]
+43:
++
+44:
+-
+45:
+Memorizza
+46:
+Caricato
+47:
+Creato
+48:
+Sistema misc
+49:
+Funzione
+50:
+Valore
+51:
+Funzione    Valore
+52:
+MemTask0[%]
+53:
+SimMenu
+54:
+Nessun'altra funzione
+55:
+NormalePers
+56:
+TestoRicerca
+57:
+Grandez[bytes]
+58:
+Non specif.
+59:
+SI
+60:
+NO

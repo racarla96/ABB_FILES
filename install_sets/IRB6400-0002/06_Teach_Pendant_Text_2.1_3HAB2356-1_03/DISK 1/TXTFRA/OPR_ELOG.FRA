@@ -1,0 +1,327 @@
+21::
+0:
+Operationnel
+2:
+RAZ du programme\n
+La tache %!%!%s\n
+a ete redemarre a son\n
+point de depart.\n
+\t\n
+
+5:
+Programme arrete\n
+La tache %!%!%s\n
+est arretee. La raison est\n
+%s\n
+\t\n
+
+500:
+un stop interne ou externe est apparu\n
+apres l'instruction courante.
+501:
+la tache a atteint une instruction de\n
+sortie.
+502:
+Tache prete
+503:
+Tache prete pour cette etape
+504:
+la tache a atteint une instruction\n
+break.
+505:
+un stop interne ou externe est apparu.
+506:
+une erreur est apparue.
+507:
+Premiere instruction. Execution arriere\n
+impossible.
+508:
+Execution arriere impossible depuis\n
+cette instruction.
+509:
+the event routine for RESET or POWER_ON\n
+is ready.
+7:
+Programme lance\n
+La tache %!%!%s\n
+est lancee en execution.\n
+%s\n
+\t\n
+
+8:
+Programme relance\n
+La tache %!%!%s\n
+est relancee en execution.\n
+%s\n
+\t\n
+
+701:
+L'initiateur est la fenetre programme.
+702:
+L'initiateur est la fenetre production.
+703:
+L'initiateur est inconnu.
+704:
+L'initiateur est un client externe.
+9:
+Memoire de travail pleine\n
+Plus de memoire pour de nouvelles\n
+instructions ou donnees RAPID.\n
+La tache est %!%!%s\n
+\t\n
+Sauver le programme et relancer.
+10:
+Hors Puissance\n
+\n
+\t\n
+
+11:
+Sous Puissance\n
+\n
+\t\n
+
+12:
+Arret de securite\n
+Un contact (hors AU) est ouvert dans\n
+la chaine de securite.\n
+\t\n
+
+13:
+Arret d'urgence\n
+Chaine de securite ouverte par un AU.\n
+Acquitter l'AU.\n
+Utiliser le bouton "motors off".\n
+\t\n
+
+14:
+Arret du systeme\n
+Erreur fatale incontournable.\n
+Redemarrage a chaud necessaire.\n
+\t\n
+
+15:
+Mode Manuel selectionne\n
+\n
+\t\n
+
+16:
+Passer en Automatique\n
+\n
+\t\n
+
+17:
+Mode automatique confirme\n
+\n
+\t\n
+
+18:
+Passer en manuel 100%\n
+Passer en manuel 100%\n
+\t\n
+
+19:
+Mode manuel 100% confirme\n
+Mode manuel 100% confirme\n
+\t\n
+
+20:
+Erreur d'execution\n
+Le programme a trouve une erreur\n
+spontanee.\n
+\t\n
+
+21:
+RAZ erreur d'execution\n
+Le programme a quitte son\n
+etat d'erreur spontanee\n
+\t\n
+
+22:
+Maintenir touche Exec.\n
+Maintenir la touche Exec. enfoncee sur\n
+l'unite de programmation\n
+\t\n
+
+23:
+Time Exec. maintenu.\n
+La touche Exec. doit etre enfoncee\n
+avant un certain delai\n
+\t\n
+
+30:
+Axes commutes\n
+\n
+\t\n
+
+31:
+Axes etalonnes\n
+\n
+\t\n
+
+32:
+Compteurs reinitialises\n
+\n
+\t\n
+
+33:
+Axes synchronises\n
+\n
+\t\n
+
+34:
+Axe non commute\n
+\n
+\t\n
+
+35:
+Axe non etalonne\n
+\n
+\t\n
+
+36:
+Compteur non reinitialise\n
+\n
+\t\n
+
+37:
+Axe non synchronise\n
+\n
+\t\n
+
+40:
+Programme charge\n
+La tache %!%!%s a charge un programme.\n
+La memoire utilisateur libre etait\n
+de %i octets avant cette operation\n
+et de %i octets apres.\n
+\t\n
+
+41:
+Programme supprime\n
+La tache %!%!%s a supprime un programme\n
+\t\n
+
+43:
+Probleme au redemarrage\n
+La tache %!%!%s ne peut pas redemarrer.\n
+\t\n
+
+44:
+Pointeur reinitialise\n
+La tache %!%!%s peut avoir change la\n
+position du pointeur de programme\n
+\t\n
+
+45:
+System redemarre\n
+Un systeme deja installe a ete\n
+redemarre\n
+\t\n
+
+46:
+System redemarre a froid\n
+Premier demarrage apres installation\n
+\t\n
+
+47:
+La tache de fond %s\n
+refuse de demarrer\n
+%s\n
+\t\n
+
+4701:
+Tache vide
+4702:
+Mauvais etat
+4703:
+Impossible de forcer PC sur la routine\n
+principale
+4704:
+Impossible de passer en mode execution
+4705:
+Probleme sur ordre de demarrage
+4706:
+Erreur de syntaxe
+48:
+Tache de fond arrete\n
+La tache %s s'est arretee sans raison %s\n
+\t\n
+
+49:
+Zone protegee non finie\n
+Un arret de la puissance est survenu\n
+au milieu d'une zone protegee\n
+pour la tache %!%s\n
+%s\n
+\t\n
+%s
+4901:
+Le systeme essaye de se reparer
+4902:
+Erreur en attente supprimee de la queue
+4903:
+Sortie en attente supprimee de la queue
+4904:
+Peut resulter d'un cycle de programme\n
+supplementaire
+4905:
+La tache va redemarrer de la routine\n
+principale
+4906:
+RAZ des taches sur le prochain demarrage\n
+a chaud. Les programmes seront perdus.
+4907:
+Essayer de sauvegarder les programmes et\n
+redemarrer le systeme a chaud.
+50:
+Execution abandonnee.\n
+Le redemarrage arretera l'execution\n
+de la tache %!%.16s d'un\n
+%s\n
+\t\n
+%s
+5001:
+Routine de lancement du systeme.
+5002:
+Routine d'arret du systeme.
+5003:
+Routine d'arret d'urgence.
+5004:
+Routine de demarrage du systeme.
+5005:
+Routine de redemarrage du systeme.
+5006:
+Routine de RAZ du systeme.
+5007:
+Routine interne au systeme.
+5008:
+Routine utilisateur.
+51:
+Routine evenement inconnu\n
+La tache %!%s ne devrait pas pouvoir\n
+activer la routine systeme specifiee\n
+%s\n
+\t\n
+Inserrer la routine dans un module\n
+systeme\n
+
+52:
+Reprise du demarrage.\n
+Une reprise du mouvement a redemarre.\n
+\t\n
+
+53:
+Reprise prete.\n
+La reprise du mouvement est prete.\n
+\t\n
+
+60:
+Test chaine "enable"\n
+La chaine "enable" est toujours testee\n
+au demarrage. Un message est envoye si\n
+ce test est mauvais.\n
+\t\n
+Si le test de la chaine "enable" est\n
+mauvais, le message suivant apparaitra\n
+"Timeout chaine enable"\n
+
