@@ -1,0 +1,77 @@
+Revision 1.10  1995/12/15  13:27:40  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.9  1995/04/21  13:11:01  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.8  1994/08/19  09:38:46  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+2::
+0:
+
+1:
+Welkom bij
+2:
+ABB Robotics Products AB
+3:
+Controleer
+4:
+Log
+5:
+Fout
+6:
+Annuleer de verandering van\n
+de werkingsmodus!\n
+\n
+Draai de keuzeschakelaar van\n
+de werkingsmodus naar MANUEEL
+7:
+De werkingsmodus veranderen
+8:
+De werkingsmodus werd veranderd van\n
+MANUEEL naar AUTO.
+9:
+De werkingsmodus werd veranderd van\n
+MANUEEL naar MANUEEL VOLLE SNELHEID.
+10:
+Bevestig dit door OK te drukken.\n
+\n
+(Bij Annuleren moet de keuzeschakelaar\n
+voor de werkingsmodus teruggedraaid\n
+worden naar de MANUEEL-stand.)
+11:
+Hold-To_Run!\n
+\n
+Wachtend totdat de Hold_To_Run\n
+knop ingedrukt wordt.
+12:
+
+13:
+
+14:
+
+15:
+
+16:
+Status
+17:
+\n
+De volgende units zijn\n
+niet gesynchroniseerd.\n
+Om te synchroniseren,\n
+druk op Sync (in MOTOREN AAN).
+18:
+Niet gesynchroniseerde units!
+19:
+Units            Status
+20:
+Bezig met synchroniseren\n
+van %s\n
+\n
+Nog even geduld....
+21:
+Sync

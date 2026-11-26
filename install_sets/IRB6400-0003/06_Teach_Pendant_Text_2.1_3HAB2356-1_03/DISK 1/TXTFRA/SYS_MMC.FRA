@@ -1,0 +1,123 @@
+30::
+0:
+Systeme de commande
+1:
+Securite
+2:
+Fonction
+3:
+Active
+4:
+TRUE
+5:
+FALSE
+6:
+Fonction    Active
+7:
+Exec maintenu
+8:
+MISE EN ROUTE
+9:
+START
+10:
+STOP
+11:
+QSTOP
+12:
+RESTART
+13:
+RAZ
+14:
+Routines evt
+15:
+Evt         Routine     Tache
+16:
+Evt
+17:
+Routine
+18:
+Taches
+19:
+Tache
+20:
+Prog
+21:
+Tache premier plan
+22:
+Type
+23:
+Point d'entree
+24:
+NORMAL
+25:
+STATIQUE
+26:
+SEMISTATIQUE
+27:
+Tache       Prog        Type
+28:
+Tache
+29:
+Modules tache
+30:
+Fichier
+31:
+Tache       Fichier
+32:
+Distances de rerise
+33:
+Mode
+34:
+Tcp_dist
+35:
+Tcp_rot
+36:
+Ext_dist
+37:
+Ext_rot
+38:
+Mode        Tcp-dist    Tcp-rot
+39:
+MAN
+40:
+AUTO
+41:
+Ref. de lien
+42:
+Taille pile [%]
+43:
++
+44:
+-
+45:
+Sauvegarde
+46:
+Charge
+47:
+Inclure
+48:
+Objet Systeme
+49:
+Fonction
+50:
+Valeur
+51:
+Fonction    Valeur
+52:
+Tache Mem.0[%]
+53:
+Menu Sim.
+54:
+Plus de fonction
+55:
+Pers. moyenne
+56:
+Ressource Texte
+57:
+Taille [octets]
+58:
+Non specifie.
+59:
+OUI
+60:
+NON

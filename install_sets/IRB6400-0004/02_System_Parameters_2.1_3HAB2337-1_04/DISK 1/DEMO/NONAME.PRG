@@ -1,0 +1,11 @@
+%%%
+  VERSION:1
+  LANGUAGE:ENGLISH
+%%%
+
+MODULE NONAME
+  PROC main()
+    <SMT>
+  ENDPROC
+ENDMODULE
+

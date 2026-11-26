@@ -1,0 +1,293 @@
+Revision 1.9  1995/12/15  14:07:37  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.8  1995/04/21  13:26:56  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.7  1994/08/19  10:45:05  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+7::
+0:
+Systemove parametry
+1:
+ Temata             Zmenene datum
+2:
+Temata
+3:
+Typy
+4:
+Vsechna temata
+5:
+Parametry           Informace
+6:
+Pridat
+7:
+Zavadi se parametry!\n
+\n
+Hned bude pripraven...
+8:
+Zmenit kody pruchodu...
+9:
+Text
+10:
+Ukladani parametru!\n
+\n
+Hned bude pripraven...
+11:
+Zavedeny nove parametry!\n
+\n
+System nove spusten prikazem\n
+Opakovane spusteni\n
+v menu Soubor
+12:
+Prejit na...
+13:
+Prejit na zacatek
+14:
+Prejit na konec
+15:
+(Vyhledavat...)
+16:
+Zmena kodu pruchodu ovlivni Vas\n
+pristup k systemu!\n
+\n
+Ujistete se, ze neumyslne nemenite\n
+zadny z kodu pruchodu.
+17:
+Zmente kod pruchodu!
+18:
+Vyber radku
+19:
+Zadejte radek #
+20:
+Zadejte stary kod pristupu drive nez\n
+ho budete menit na novy kod pristupu.
+21:
+Cislo vstupu
+22:
+Zadejte textovy retezec pro
+23:
+Zadejte ciselnou hodnotu pro
+24:
+Zavedte ulozene parametry...
+25:
+Ulozit vse jako...
+26:
+Ulozit jako...
+27:
+(Tisk...)
+28:
+Opakovane spusteni...
+29:
+Meze: Minimalni
+30:
+        Maximalni
+31:
+Parametr chranen proti zapisu.\n
+Nelze zmenit!\n
+\n
+Pokracujte stiskem Enter!
+32:
+Vnitrni chyba zpusobuje uvolneni dat!
+33:
+\n
+Nejsou zavedeny zadne parametry!\n
+\n
+K zavedeni parametru pouzijte\n
+menu Soubor.
+34:
+Zadne parametry k zobrazeni!
+35:
+Smazat
+36:
+(Smazat)
+37:
+Zadne parametry k zobrazeni!\n
+\n
+Pokracujte stiskem Enter!
+38:
+Zobrazit protokol zmen...
+39:
+Zavest ulozene parametry!
+40:
+Vyberte adresar nebo soubor k zavedeni.
+41:
+Ulozit vsechny parametry!
+42:
+Vyberte adresar kam budete ukladat.
+43:
+Stary
+44:
+Parametry ulozeny!\n
+\n
+\n
+Pokracujte stiskem Enter!
+45:
+SYSPAR
+46:
+\n
+Jsou zavedeny nove parametry!\n
+\n
+K opakovanemu spusteni pouzijte\n
+menu Soubor.
+47:
+Neni zaveden zadny parametr!\n
+Ve vybranem adresari nebo\n
+souboru parametru neni zadny\n
+parametr.\n
+Pokracujte stiskem Enter.
+48:
+Zvolte seznam (Jmenovana instance)
+49:
+Zvolte seznam (Tabulka)
+50:
+Definujte nazev!\n
+Pro novy parametr musite\n
+definovat jedinecny nazev.\n
+\n
+Pokracujte stiskem Enter.
+51:
+POZADOVANO OPAKOVANE SPUSTENI!\n
+Parametry se zmenily a bude\n
+pozadovano opakovane spusteni.\n
+\n
+Pokracujte stiskem Enter.
+52:
+Ulozte parametry jako!
+53:
+Parametry se prepisi!\n
+Existujici parametry budou\n
+prepsany.\n
+\n
+OK a pokracovat?
+54:
+Vystraha!
+55:
+Zmena protokolu
+56:
+Transakce zmena protokolu
+57:
+load par:
+58:
+save par:
+59:
+add inst:
+60:
+del inst:
+61:
+chg inst:
+62:
+chg attr:
+63:
+restart:
+64:
+Prikaz opakovaneho spusteni!\n
+Chcete znovu spustit rizeni?\n
+\n
+OK a pokracovat?
+65:
+Povinny parametr!\n
+Tento parametr musite\n
+definovat s hodnotou.\n
+\n
+Pokracujte stiskem Enter.
+66:
+Konflikt nazvu!\n
+Pro tento parametr musite\n
+definovat jedinecney nazev.\n
+\n
+Pokracujte stiskem Enter.
+67:
+Zmena protokolu je prazdna!
+68:
+Pridejte nove parametry...
+69:
+Pridat nove parametry!
+70:
+Novy
+71:
+Zadny "Kod pruchodu"
+72:
+Stary "Kod pruchodu" pro\n
+provoz neni spravny.\n
+\n
+\n
+Stiskem Enter zkuste znovu!
+73:
+Stary "Kod pruchodu" pro\n
+programatora neni spravny.\n
+\n
+\n
+Stiskem Enter zkuste znovu!
+74:
+Kod pruchodu pro %s\n
+%s je aktualizovan!\n
+\n
+\n
+Pokracujte stiskem Enter!
+75:
+Schvalit systemove parametry
+76:
+Zmenit kod
+77:
+Smazat instr
+78:
+Smazani parametru nelze vratit!\n
+Ujistete se, ze neumyslne nemazete\n
+parametr.\n
+\n
+OK a smazat?
+79:
+
+80:
+Info
+81:
+Nelze zobrazit informace\n
+parametru, nebot je stisknuto\n
+prilis mnoho "Info".\n
+\n
+Pokracujte stiskem Enter!
+82:
+Nelze zobrazit informace\n
+parametru, nebot neni\n
+k dispozici.\n
+\n
+Pokracujte stiskem Enter!
+83:
+Zkontrolujte parametry
+84:
+Kontrola system. parametru...\n
+\n
+Kontrola konzistence\n
+systemovych parametru v tematu\n
+%s\n
+is now being performed.\n
+This might take a while...
+85:
+Gratulujeme!\n
+Systemove parametry v tematu\n
+%s\n
+jsou konzistentni a v dobrem\n
+stavu.
+86:
+  <  Pokracujte stiskem Enter  >
+87:
+Kontrolu parametru tematu\n
+%s\n
+nelze provest.\n
+Neni k dispozici metoda\n
+pro toto tema.
+88:
+Parametry nelze\n
+modifikovat kdyz se\n
+program vykonava.\n
+Zastavte program!
+89:
+Parametry nelze\n
+modifikovat v\n
+automatickem rezimu.\n
+Prepnete na rucni!

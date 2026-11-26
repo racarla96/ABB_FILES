@@ -1,0 +1,244 @@
+Revision 1.9  1995/12/15  13:57:29  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.8  1995/04/21  13:17:47  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.7  1994/08/19  09:46:00  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+4::
+0:
+
+1:
+Inputs/Outputs
+2:
+Invert:
+3:
+Groups
+4:
+Most Common
+5:
+
+6:
+
+7:
+Name:
+8:
+Value:
+9:
+Type:
+10:
+
+11:
+Bus:
+12:
+Open
+13:
+Close
+14:
+Set
+15:
+Reset
+16:
+1
+17:
+0
+18:
+File
+19:
+Print...
+20:
+Preferences...
+21:
+Edit
+22:
+
+23:
+
+24:
+Goto...
+25:
+Goto Top
+26:
+Goto Bottom
+27:
+
+28:
+View
+29:
+Most Common
+30:
+Boards
+31:
+Digital In
+32:
+Digital Out
+33:
+Analog
+34:
+
+35:
+Groups
+36:
+
+37:
+All signals
+38:
+
+39:
+Safety
+40:
+
+41:
+
+42:
+
+43:
+Address:
+44:
+Board:
+45:
+Signal:
+46:
+
+47:
+Signal attributes:
+48:
+State
+49:
+Boards
+50:
+OK
+51:
+Sigstate
+52:
+Cancel
+53:
+Result
+54:
+Incl
+55:
+Excl
+56:
+Goto Line!
+57:
+Enter Line
+58:
+Change
+59:
+Name         Value        Type
+60:
+Bus Addr     Name         Type
+61:
+Most Common  Name         Type
+62:
+Name         Value        Signals
+63:
+No  Value    Board         Signal
+64:
+Group:
+65:
+Signal       Value        Name
+66:
+Up
+67:
+Down
+68:
+Setup
+69:
+             Name         Type
+70:
+Most Common Result
+71:
+Most Common Setup
+72:
+Off
+73:
+On
+74:
+False
+75:
+True
+76:
+Passive
+77:
+Active
+78:
+Low
+79:
+High
+80:
+Board type:
+81:
+Up
+82:
+
+83:
+No signals
+84:
+Press Enter to proceed
+85:
+No signals mapped to unit
+86:
+Enter Value for IO Group
+87:
+Limits: Minimum
+88:
+        Maximum
+89:
+Data input for Inputs/Outputs
+90:
+Enter Value for Analog Signal
+91:
+Inputs/Outputs Printing
+92:
+Print
+93:
+Print Only to File :
+94:
+Add Signal Info    :
+95:
+Data to Print
+96:
+Print Inputs/Outputs to File:
+97:
+Printing !
+98:
+   To Cancel Press Enter
+99:
+ Press Enter to Continue
+100:
+Printer is Busy\n
+\n
+Try again when printer is ready
+101:
+Cannot Print because too many\n
+print job queued\n
+\n
+Try again later
+102:
+Cannot Print because\n
+Printer Device not configured\n
+in System Parameters
+103:
+Not enough free space on unit\n
+used when printing (usually\n
+%.9s). Needs %d bytes\n
+Please Move/Delete some files
+104:
+  Busy\n
+  \n
+  Wait Please
+105:
+ Cannot create/write to file:\n
+\n
+
+106:
+ File already exist\n
+
+107:
+Start Signal

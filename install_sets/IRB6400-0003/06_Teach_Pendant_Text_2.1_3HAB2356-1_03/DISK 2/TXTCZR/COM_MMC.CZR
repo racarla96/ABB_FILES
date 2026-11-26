@@ -1,0 +1,97 @@
+80::
+0:
+Komunikace
+1:
+Seriovy kanal
+2:
+Nazev
+3:
+Prenos rychlost v Bd
+4:
+Parita
+5:
+Pocet bitu
+6:
+Pocet stop bitu
+7:
+Protokol
+8:
+Mistni adresa (SLIP)
+9:
+Vzdalena adresa (SLIP)
+10:
+7
+11:
+8
+12:
+1
+13:
+2
+14:
+SLIP
+15:
+XONXOFF
+16:
+ZADNA
+17:
+300
+18:
+600
+19:
+1200
+20:
+2400
+21:
+4800
+22:
+9600
+23:
+19200
+24:
+38400
+25:
+zadna
+26:
+licha
+27:
+suda
+28:
+ignorovat
+29:
+Nazev    Kanal      Prenos rychl Bd
+30:
+Kanal
+31:
+Fyzicke kanaly
+32:
+Protokoly prenosu
+33:
+Protokoly aplikace
+34:
+Typ
+35:
+Fyzicky kanal
+36:
+Cislo portu
+37:
+Nazev       Typ         Kanal
+38:
+Nazev       Typ       Fyzicky kanal
+39:
+Nazev       Typ      Protokol prenosu
+40:
+Protokol prenosu
+41:
+Povolit system udalost
+42:
+ANO
+43:
+NE
+44:
+zap
+45:
+vyp
+46:
+Rizeni RTS/CTS
+47:
+Enable SUBSCW

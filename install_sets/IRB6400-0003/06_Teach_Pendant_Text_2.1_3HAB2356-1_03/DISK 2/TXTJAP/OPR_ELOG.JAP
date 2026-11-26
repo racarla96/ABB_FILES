@@ -1,0 +1,334 @@
+21::
+0:
+Operational
+2:
+Program reset\n
+The task %!%!%s has\n
+been rewound to its start point.\n
+\t\n
+
+5:
+Program stopped\n
+The task %!%!%s has\n
+stopped. The reason is that\n
+%s\n
+\t\n
+
+500:
+an external or internal stop after\n
+current instruction has occurred.
+501:
+the task has reached an exit\n
+instruction.
+502:
+the task is ready.
+503:
+the task is ready with this step.
+504:
+the task has reached a break\n
+instruction.
+505:
+an external or internal stop has\n
+occurred.
+506:
+an error has occurred.
+507:
+Cannot execute backward past beginning\n
+of instruction list.
+508:
+Cannot execute backward past this\n
+instruction.
+509:
+the event routine for RESET or POWER_ON\n
+is ready.
+7:
+Program started\n
+The task %!%!%s has\n
+start to execute.\n
+%s\n
+\t\n
+
+8:
+Program restarted\n
+The task %!%!%s has\n
+restart to execute.\n
+%s\n
+\t\n
+
+701:
+The originator is the program window.
+702:
+The originator is the production window.
+703:
+The originator is unknown.
+704:
+The originator is an extern client.
+9:
+Work memory full\n
+No memory left for new RAPID\n
+instructions or data.\n
+The task is %!%!%s\n
+\t\n
+Save the program and then\n
+restart.
+10:
+Motors off state\n
+\n
+\t\n
+
+11:
+Motors on state\n
+\n
+\t\n
+
+12:
+Guard stop state\n
+Runchain opened by any safety guard\n
+except the emergency stop.\n
+\t\n
+
+13:
+Emergency stop state\n
+Runchain opened by emergency stop.\n
+Em stop reset is required.\n
+Use the motors off button.\n
+\t\n
+
+14:
+System failure state\n
+Fatal non recoverable system error.\n
+Warm start is required.\n
+\t\n
+
+15:
+Manual mode selected\n
+\n
+\t\n
+
+16:
+Automatic mode requested\n
+\n
+\t\n
+
+17:
+Automatic mode confirmed\n
+\n
+\t\n
+
+18:
+Manual mode FS requested\n
+Manual mode with full speed requested\n
+\t\n
+
+19:
+Manual mode FS confirmed\n
+Manual mode with full speed confirmed\n
+\t\n
+
+20:
+Execution error state\n
+The program execution has reached\n
+a spontaneous error state\n
+\t\n
+
+21:
+Execution error reset\n
+The program execution has left\n
+a spontaneous error state\n
+\t\n
+
+22:
+Hold to run waiting\n
+Waiting for hold to run button to be\n
+pressed on the programming unit.\n
+\t\n
+
+23:
+Hold to run timeout\n
+The hold to run button on the\n
+programming unit must be pressed\n
+within timeout limit.\n
+\t\n
+
+30:
+All axes commutated\n
+\n
+\t\n
+
+31:
+All axes calibrated\n
+\n
+\t\n
+
+32:
+All rev counters updated\n
+\n
+\t\n
+
+33:
+All axes synchronized\n
+\n
+\t\n
+
+34:
+Axis not commutated\n
+\n
+\t\n
+
+35:
+Axis not calibrated\n
+\n
+\t\n
+
+36:
+Rev counter not updated\n
+\n
+\t\n
+
+37:
+Axis not synchronized\n
+\n
+\t\n
+
+40:
+Program loaded\n
+The task %!%!%s has\n
+loaded a program or program module.\n
+The free user space was %i bytes\n
+before this operation and\n
+%i bytes after.\n
+\t\n
+
+41:
+Program erased\n
+The task %!%!%s has\n
+erased a program.\n
+\t\n
+
+43:
+Restart failed\n
+The task %!%!%s\n
+can't restart\n
+\t\n
+
+44:
+Program Pointer updated\n
+The task %!%!%s\n
+could have changed the PP pos.\n
+\t\n
+
+45:
+System restarted\n
+An already installed system\n
+was restarted.\n
+\t\n
+
+46:
+System restarted in cold\n
+mode\n
+First start after installation.\n
+\t\n
+
+47:
+Background task %s\n
+refuse to start\n
+%s\n
+\t\n
+
+4701:
+Task is empty
+4702:
+Wrong state
+4703:
+Can't set PC to the main rout
+4704:
+Can't set the execution mode
+4705:
+The start order failed
+4706:
+Due on syntax error
+48:
+Background task did stop\n
+The task %s stoped without reason\n
+%s\n
+\t\n
+
+49:
+Protected area not finish\n
+A power fail did occur in the\n
+middle of a protected area for\n
+the task %!%s\n
+%s\n
+\t\n
+
+4901:
+The system is trying to selfheal
+4902:
+A pending error is removed\n
+from the queue
+4903:
+A pending exit is removed\n
+from the queue
+4904:
+This may result in an extra\n
+program cycle
+4905:
+The task will be restarted\n
+from the main routine
+4906:
+Next warm start will reset all tasks\n
+and all user program will be lost
+4907:
+Try to save the user program and\n
+do a warm start of the system
+50:
+Execution cancelled\n
+The restart will clear the execution\n
+in task %!%.16s of a\n
+%s\n
+\t\n
+
+5001:
+Power On system event routine
+5002:
+Stop system event routine
+5003:
+Emergency Stop system event routine
+5004:
+Start system event routine
+5005:
+Restart system event routine
+5006:
+Reset system event routine
+5007:
+Internal system event routine
+5008:
+User routine
+51:
+Unknown event routine\n
+The task %!%s could not start\n
+the specified system event routine\n
+%s\n
+\t\n
+Insert the routine in a system\n
+module.
+52:
+Regain start\n
+A regain movement has started\n
+\t\n
+
+53:
+Regain ready\n
+The regain movement is ready\n
+\t\n
+
+60:
+Test of enable chain\n
+The enable chain is always tested at\n
+startup. If the test failed an error\n
+message concerning enable will follow.\n
+\t\n
+If enable chain test at startup failed\n
+the related error message will be\n
+"Enable chain timeout"\n
+

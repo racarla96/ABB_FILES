@@ -1,0 +1,40 @@
+15::
+1:
+Objekt je deklarovan\n
+v modulu jen pro cteni\n
+a nemuze se modifikovat.
+2:
+Objekt je deklarovan\n
+v modulu jen pro prohlizeni\n
+a nemuze se modifikovat.
+3:
+Nazev neni dovolen! Musi\n
+zacinat pismenem a zadne\n
+rez. slovo neni dovoleno.
+4:
+Smer vykonavani nelze\n
+menit uvnitr slozite\n
+instrukce.
+5:
+Smer vykonavani nelze\n
+menit uvnitr teto\n
+rutiny.
+6:
+Chyba(y) syntaxe RAPID.\n
+Chyba(y) v programu.
+7:
+Pred prvni instrukci\n
+bloku nebo rutiny nelze\n
+vykonavat.
+8:
+PP nelze nastavit do\n
+pozadovane polohy. Zkuste\n
+s jinou polohou.
+9:
+Objekt je deklarovan v\n
+modulu noview a nelze\n
+menit, ukladat a tisknout.
+10:
+Rutina je deklarovana\n
+v modulu noview. Obsah\n
+rutiny nelze zobrazit.

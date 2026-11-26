@@ -1,0 +1,282 @@
+Revision 1.10  1995/12/15  14:09:17  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.9  1995/04/21  13:28:26  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.8  1994/08/19  10:46:38  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+1::
+0:
+
+1:
+Vstup kodu pruchodu!
+2:
+Provoz
+3:
+Programator
+4:
+Dalsi okna
+5:
+Pro pokracovani je pozadovan\n
+kod pruchodu "%s".
+6:
+Operator
+7:
+Spustit
+8:
+ProgOrServ
+9:
+Disk se zmenil!\n
+Obsah disku se od posledniho\n
+cteni zmenil.\n
+\n
+Precist znovu obsah?
+10:
+Soubor
+11:
+Upravy
+12:
+Prohliz
+13:
+Special
+14:
+Zpet
+15:
+Vyriznout
+16:
+Kopirovat
+17:
+Vlozit
+18:
+Vyhledat...
+19:
+Prejit na...
+20:
+Prejit na zacatek
+21:
+Prejit na konec
+22:
+Dalsi stranka
+23:
+Predchozi stranka
+24:
+Otevrit...
+25:
+Ulozit jako...
+26:
+Tisk...
+27:
+Preference...
+28:
+OK
+29:
+Zrusit
+30:
+Text
+31:
+Ano
+32:
+Ne
+33:
+Pridat
+34:
+Skryt
+35:
+Odstran
+36:
+Ukazat
+37:
+Jednot
+38:
+Nahoru
+39:
+Otevrit
+40:
+Text...
+41:
+789456123-0.ABCDEFGHIJKLMNOPQRSTUVWXYZ+-<>*/,?=& :_[](){}%\"
+42:
+789456123-0.abcdefghijklmnopqrstuvwxyz+-<>*/,?=& :_[](){}%\"
+43:
+a->A
+44:
+A->a
+45:
+Informace
+46:
+Zadejte nazev!
+47:
+Nazev:
+48:
+Jedn hromad pameti=
+49:
+Nov adr
+50:
+Zadejte nazev adresare!
+51:
+Spolecne
+52:
+Vnitrni
+53:
+Vystraha!
+54:
+Pokracujte stiskem Enter!
+55:
+mm
+56:
+st
+57:
+789456123_0_ABCDEFGHIJKLMNOPQRSTUVWXYZ_
+58:
+Vyriz
+59:
+Kopir
+60:
+Vlozit
+61:
+Spustit
+62:
+VPRED
+63:
+VZAD
+64:
+Pokrac
+65:
+Cyklus
+66:
+Instr
+67:
+Prubezny
+68:
+Cyklus
+69:
+Instrukce
+70:
+Nesynchronizovana
+71:
+789456123_0_ABCDEFGHIJKLMNOPQRSTUVWXYZ_
+72:
+789456123_0_abcdefghijklmnopqrstuvwxyz_
+73:
+Nazev musi zacinat\n
+pismenem, napr. ABB nebo abb.\n
+\n
+\n
+Pokracujte stiskem Enter!
+74:
+Parametry
+75:
+Program
+76:
+Programovy modul
+77:
+Systemovy modul
+78:
+Protokol chyb
+79:
+Protokol
+80:
+Adresar
+81:
+Jit o uroven vys
+82:
+Prazdny nosic
+83:
+Neznamy
+84:
+Funkce
+85:
+Uzivatelska uroven
+86:
+Potvrdit
+87:
+Funkce    Uzivat. uroven  Potvrdit
+88:
+Neni na draze!\n
+Robot se po programovem\n
+zastaveni premistil.\n
+Mel by se robot vratit\n
+na pocatek drahy?
+89:
+Ne
+90:
+Ano
+91:
+
+92:
+Cti zn
+93:
+
+94:
+Tisk souboru
+95:
+Ceka!\n
+Programovy server jiz pouziva\n
+jiny klient.
+96:
+Conv Program
+97:
+Conv Progr Mod
+98:
+Conv System Mod
+99:
+Programovatelne klavesy
+100:
+Klavesa     Typ        Spojeni
+101:
+KLavesa
+102:
+Typ
+103:
+Spojeni
+104:
+Klav. stisknuta
+105:
+Zadny
+106:
+Vstup
+107:
+Vystup
+108:
+Preruseni
+109:
+Prepinat
+110:
+Nastavit 0
+111:
+Nastavit 1
+112:
+Stisk/Uvoln
+113:
+Impulz
+114:
+vetsi nez 0 ale mensi nez max zatizeni
+115:
+Vybrat
+116:
+Dialog ladeni
+117:
+                    Ladeni  Pritomny
+118:
+Ladit
+119:
+Zadna data
+120:
+Informace
+121:
+Poloha
+122:
+Robtarget:=
+123:
+o_
+124:
+Zap
+125:
+Vyp
+126:
+Data oblouku

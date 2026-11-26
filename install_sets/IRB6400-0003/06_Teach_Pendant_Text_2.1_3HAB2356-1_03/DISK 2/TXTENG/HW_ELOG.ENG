@@ -1,0 +1,1198 @@
+23::
+0:
+Hardware
+1203:
+Floppy Disk Error\n
+Bad floppy disk or not formatted\n
+\t\n
+1. Repeat attempt\n
+2. Change disk
+1206:
+Floppy Disk Error\n
+Bad floppy disk or internal error\n
+\t\n
+1. Repeat attempt\n
+2. Change disk\n
+3. Restart the system
+1210:
+Floppy Disk Error\n
+Invalid format\n
+\t\n
+1. Change disk
+1211:
+Floppy Disk Error\n
+Data transfer error to/from floppy\n
+\t\n
+1. Repeat attempt\n
+2. Change disk\n
+3. Restart the system
+1214:
+Floppy Disk Error\n
+Data transfer was interrupted\n
+\t\n
+1. Repeat attempt\n
+2. Restart the system
+1215:
+Floppy Disk Error\n
+Internal command invalid\n
+\t\n
+1. Repeat attempt\n
+2. Restart the system
+1216:
+Floppy Disk Error\n
+Floppy disk was moved during tranfer\n
+\t\n
+1. Repeat attempt\n
+2. Restart the system
+1217:
+Floppy Disk Error\n
+Bad floppy disk or floppy device\n
+\t\n
+1. Repeat attempt\n
+2. Change Disk\n
+3. Restart the system
+1219:
+Floppy Disk Error\n
+Floppy device not ready\n
+\t\n
+1. Repeat attempt\n
+2. Restart the system
+1220:
+Floppy Disk Error\n
+Bad floppy disk or internal error\n
+\t\n
+1. Repeat attempt\n
+2. Change Disk\n
+3. Restart the system
+1221:
+Floppy Disk Error\n
+Data error\n
+\t\n
+1. Repeat attempt\n
+2. Change Disk\n
+3. Restart the system
+1222:
+Floppy Disk Error\n
+Internal error - Overrun\n
+\t\n
+1. Repeat attempt\n
+2. Restart the system
+1223:
+Floppy Disk Error\n
+Bad floppy or internal error\n
+\t\n
+1. Repeat attempt\n
+2. Change Disk\n
+3. Restart the system
+1224:
+Floppy Disk Error\n
+Floppy write protected\n
+\t\n
+1. Remove write protection
+1225:
+Floppy Disk Error\n
+Bad Floppy - Address mark missing\n
+\t\n
+1. Change Disk
+1226:
+Floppy Disk Error\n
+Bad data on floppy\n
+\t\n
+1. Change Disk
+1227:
+Floppy Disk Error\n
+Bad floppy - Missing cylinder\n
+\t\n
+1. Change Disk
+1228:
+Floppy Disk Error\n
+Bad floppy - Bad cylinder\n
+\t\n
+1. Change Disk
+1229:
+Floppy Disk Error\n
+Bad floppy - Bad address mark in data\n
+\t\n
+1. Change Disk
+1601:
+Error HI PROM checksum:\n
+Checksum %.f should have been: %.f\n
+\t\n
+Replace proms or robot computer
+1602:
+Error LOW PROM checksum:\n
+Checksum  %.f should have been: %.f\n
+\t\n
+Replace proms or robot computer
+1603:
+Error PROM checksum:\n
+Checksum  %.f should have been: %.f\n
+\t\n
+Replace proms or robot computer
+1605:
+Memory error IO-computer\n
+\t\n
+Replace robot computer board
+1606:
+Memory error IO-computer\n
+\t\n
+Replace robot computer board
+1607:
+Memory error IO-computer\n
+\t\n
+Replace robot computer board
+1608:
+Checksum Error IO-comp.\n
+\t\n
+Replace robot computer board
+2301:
+Memory error MAIN COMP.\n
+\t\n
+Replace main computer board
+2302:
+Memory error MAIN COMP.\n
+\t\n
+Replace main computer board
+2303:
+Memory error MAIN COMP.\n
+\t\n
+Replace main computer board
+2305:
+Type error MEMORY EXPANS.\n
+\t\n
+Replace memory expansion board
+1401:
+DMA error\n
+DMA transfer error in ROBOT COMPUTER\n
+\t\n
+Replace robot computer board
+1402:
+DMA error\n
+DMA transfer error in ROBOT COMPUTER\n
+\t\n
+Replace robot computer board
+1403:
+DMA error\n
+DMA transfer error in ROBOT COMPUTER\n
+\t\n
+Replace robot computer board
+1404:
+DMA error\n
+DMA transfer error in ROBOT COMPUTER\n
+\t\n
+Replace robot computer board
+1405:
+Missing axis program\n
+Prom not including axis program\n
+\t\n
+Replace proms on robot computer board
+1406:
+Memory error\n
+Memory error in axis computer\n
+\t\n
+Replace robot computer board
+1407:
+Axis computer error\n
+\t\n
+Check if signal DRVFLT-N is connected\n
+Replace robot computer board
+1408:
+Axis computer error\n
+\t\n
+Replace robot computer board
+1409:
+Robot computer error\n
+\t\n
+Replace robot computer board
+1410:
+Axis computer error\n
+\t\n
+Replace robot computer board
+1411:
+Axis computer error\n
+\t\n
+Replace robot computer board
+1414:
+Main computer error\n
+\t\n
+1. Replace main computer board\n
+2. Replace robot computer board
+1415:
+Main computer error\n
+\t\n
+Replace main computer board
+1416:
+Path computer error\n
+\t\n
+Replace path computer board
+1417:
+Path computer error\n
+\t\n
+Replace path computer board
+1418:
+DMA transfer error\n
+DMA transfer error in ROBOT COMPUTER\n
+\t\n
+Replace robot computer board
+1419:
+DMA transfer error\n
+DMA transfer error in ROBOT COMPUTER\n
+\t\n
+Replace robot computer board
+1420:
+DMA transfer error\n
+DMA transfer error in ROBOT COMPUTER\n
+\t\n
+Replace robot computer board
+1421:
+Error in IO COMPUTER\n
+\t\n
+Replace robot computer board
+1114:
+Bus error\n
+Bus error when accessing LED on\n
+main computer\n
+\t\n
+1. Replace main computer board\n
+2. Replace robot computer board
+1501:
+Battery voltage too low\n
+Battery voltage too low on\n
+batterie 1\n
+\t\n
+Replace batterie 1
+1502:
+Battery voltage too low\n
+Battery voltage too low on\n
+batterie 2\n
+\t\n
+Replace batterie 2
+1503:
+Battery voltage too low\n
+Battery voltage too low on both\n
+batteries\n
+\t\n
+Replace batteries
+3301:
+Error in axis computer\n
+\t\n
+Replace robot computer board
+3302:
+Error in axis computer\n
+\t\n
+Replace robot computer board
+3303:
+Error in axis computer\n
+\t\n
+Replace robot computer board
+3304:
+Error in axis computer\n
+\t\n
+Replace robot computer board
+3305:
+Error in axis comp memory\n
+\t\n
+Replace robot computer board
+3306:
+Drive unit jumper test\n
+Error in drive unit jumper test\n
+\t\n
+--
+3307:
+Drive unit jumper test\n
+Error in drive unit jumper test\n
+\t\n
+--
+3308:
+Error in axis computer\n
+\t\n
+Replace robot computer board
+3309:
+Error in axis computer\n
+\t\n
+Replace robot computer board
+3310:
+Error in axis computer\n
+\t\n
+Replace robot computer board
+3311:
+Axis computer\n
+Current ref. loopback error\n
+\t\n
+Replace robot computer board
+3312:
+Axis computer error\n
+RUNNING/DRVFLT signal error\n
+\t\n
+1. Replace robot computer board\n
+2. Check drive system boards
+3313:
+Communication jumper err.\n
+Ext axis communication jumper error\n
+\t\n
+--
+3314:
+Axis computer error\n
+\t\n
+Replace robot computer board
+3315:
+Axis computer error\n
+\t\n
+Replace robot computer board
+3316:
+Axis comp err loopb comm.\n
+Axis computer error loopback\n
+comm. error.\n
+\t\n
+Replace robot computer board
+3317:
+Axis comp err JUMPER comm\n
+\t\n
+Replace robot computer board
+7001:
+Contactor activate Error\n
+Motor On contactor did not activate/\n
+energize or KM3 Supervisory contactor\n
+is not activated/energized or Motor On\n
+signal is not distributed through\n
+auxiliary contact\n
+\t\n
+Restart system\n
+Replace Motor On contactor or KM3\n
+Supervisory contactor or auxiliary\n
+contactor\n
+Replace system board
+7002:
+DSQC306 not running\n
+Main computer software not downloaded\n
+or not running\n
+\t\n
+
+7003:
+Main computer error\n
+\t\n
+Replace main computer board
+7004:
+Main computer error\n
+\t\n
+Replace main computer board
+7005:
+Main computer error\n
+\t\n
+Replace main computer board
+7006:
+Main computer error\n
+\t\n
+Replace main computer board
+7007:
+Main computer error\n
+\t\n
+Replace main computer board
+7008:
+Main computer error\n
+\t\n
+Replace main computer board
+7009:
+Main computer error\n
+\t\n
+Replace main computer board
+7010:
+Main computer error\n
+\t\n
+Replace main computer board
+7011:
+Main computer error\n
+\t\n
+Replace main computer board
+7012:
+Main computer error\n
+\t\n
+Replace main computer board
+7013:
+Main computer error\n
+\t\n
+Replace main computer board
+7014:
+Main computer error\n
+\t\n
+Replace main computer board
+7015:
+Main computer error\n
+\t\n
+Replace main computer board
+7016:
+Main computer error\n
+\t\n
+Replace main computer board
+7017:
+Main computer error\n
+\t\n
+Replace main computer board
+7018:
+Main computer error\n
+\t\n
+Replace main computer board
+7019:
+Main computer error\n
+\t\n
+Replace main computer board
+7020:
+Main computer error\n
+\t\n
+Replace main computer board
+7021:
+Main computer error\n
+\t\n
+Replace main computer board
+7022:
+Main computer error\n
+\t\n
+Replace main computer board
+7023:
+Main computer error\n
+\t\n
+Replace main computer board
+7024:
+Main computer error\n
+\t\n
+Replace main computer board
+7025:
+Main computer error\n
+\t\n
+Replace main computer board
+7026:
+Main computer error\n
+\t\n
+Replace main computer board
+7027:
+Main computer error\n
+\t\n
+Replace main computer board
+7028:
+Main computer error\n
+\t\n
+Replace main computer board
+7029:
+Main computer error\n
+\t\n
+Replace main computer board
+7030:
+Main computer error\n
+\t\n
+Replace main computer board
+7031:
+Main computer error\n
+\t\n
+Replace main computer board
+7032:
+Main computer error\n
+\t\n
+Replace main computer board
+7033:
+Main computer error\n
+\t\n
+Replace main computer board
+7034:
+Main computer error\n
+\t\n
+Replace main computer board
+7035:
+Main computer error\n
+\t\n
+Replace main computer board
+7036:
+Main computer error\n
+\t\n
+Replace main computer board
+7037:
+Main computer error\n
+\t\n
+Replace main computer board
+7038:
+Main computer error\n
+\t\n
+Replace main computer board
+7039:
+Main computer error\n
+\t\n
+Replace main computer board
+7040:
+Main computer error\n
+\t\n
+Replace main computer board
+7041:
+Main computer error\n
+\t\n
+Replace main computer board
+7042:
+Main computer error\n
+\t\n
+Replace main computer board
+7043:
+Main computer error\n
+\t\n
+Replace main computer board
+7044:
+Main computer error\n
+\t\n
+Replace main computer board
+7045:
+Main computer error\n
+\t\n
+Replace main computer board
+7046:
+Main computer error\n
+\t\n
+Replace main computer board
+7047:
+Main computer error\n
+\t\n
+Replace main computer board
+7048:
+Main computer error\n
+\t\n
+Replace main computer board
+1701:
+Serial channel overrun\n
+Serial channel %.f overrun error\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1702:
+Serial ch 2 overrun error\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1703:
+Serial ch 3 overrun error\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1704:
+Serial ch 5 overrun error\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1705:
+Serial ch 8 overrun error\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1706:
+Channel parity error\n
+Serial channel %.f parity error\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1707:
+Channel 2 parity error\n
+Serial channel 2 parity error\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1708:
+Channel 3 parity error\n
+Serial channel 3 parity error\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1709:
+Channel 5 parity error\n
+Serial channel 5 parity error\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1710:
+Channel 8 parity error\n
+Serial channel 8 parity error\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1711:
+Framing error\n
+Serial channel %.f framing error\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1712:
+Channel 2 framing error\n
+Serial channel 2 framing error\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1713:
+Channel 3 framing error\n
+Serial channel 3 framing error\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1714:
+Channel 5 framing error\n
+Serial channel 5 framing error\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1715:
+Channel 8 framing error\n
+Serial channel 8 framing error\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1716:
+Channel error\n
+Serial channel %.f error\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1730:
+Timer %.f error\n
+\t\n
+2. Replace robot computer board
+1733:
+Serial channel %.f error\n
+Received data not equal transmitted\n
+data\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1734:
+Serial channel 2 error\n
+Received data not equal transmitted\n
+data\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1735:
+Serial channel 3 error\n
+Received data not equal transmitted\n
+data\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1736:
+Serial channel 5 error\n
+Received data not equal transmitted\n
+data\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1737:
+Serial channel 8 error\n
+Received data not equal transmitted\n
+data\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1738:
+Timer or Counter error\n
+Timer or Counter %.f error\n
+\t\n
+Replace robot computer board
+1742:
+Serial channel 2 error\n
+Handshake error\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1743:
+Serial channel 3 error\n
+Handshake error\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1744:
+Serial channel 5 error\n
+Handshake error\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1745:
+Serial channel 8 error\n
+Handshake error\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1746:
+Serial channel %.f error\n
+Handshake error\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1747:
+Serial channel %.f error\n
+Interrupt error\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+2247:
+Mailbox 1 interrupt error\n
+Mailbox 1 interrupt error on\n
+IO computer\n
+\t\n
+Replace robot computer board
+2248:
+Mailbox 2 interrupt error\n
+Mailbox 2 interrupt error on\n
+IO computer\n
+\t\n
+Replace robot computer board
+1108:
+Error in serial channe\n
+Error in serial channel %.f\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1115:
+Error in serial channel 1\n
+Received data not equal to transmitted\n
+data\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1116:
+Overflow serial channel 1\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1117:
+Parity error channel 1\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1118:
+Framing error channel 1\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1119:
+Noise error channel 1\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1125:
+Error in serial channel 7\n
+Received data not equal to transmitted\n
+data\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1126:
+Overflow serial channel 7\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1127:
+Parity error channel 7\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1128:
+Framing error channel 7\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1129:
+Noise error channel 7\n
+\t\n
+1. Check communication parameters\n
+2. Replace robot computer board
+1130:
+Port error\n
+\t\n
+Replace robot computer board
+1131:
+SYSRESET did not fire.\n
+\t\n
+Replace VME bus boards.\n
+1. Check Robot computer.\n
+2. Check other VME-bus boards.\n
+3. Check backplane.
+3201:
+Axis cpu Read Error\n
+Error in reading from axis computer\n
+driver. Axis computer driver did not\n
+return correct number of bytes.\n
+\t\n
+Check system configuration\n
+Reload system\n
+Replace robot computer board
+3202:
+Axis cpu Write Error\n
+Error in writing to the axis computer\n
+driver. Axis computer driver did not\n
+return correct number of bytes.\n
+\t\n
+Check system configuration\n
+Reload system\n
+Replace robot computer board
+3203:
+Axis cpu ioctl Error\n
+Error in ioctl to the axis computer\n
+driver.\n
+Fail to execute ioctl command\n
+\t\n
+Restart system\n
+Reload system\n
+Replace robot computer board
+3220:
+Axis computer failure\n
+Axis computer has returned an error code\n
+indicating hardware failure\n
+\t\n
+Reload system\n
+Replace robot computer board
+8001:
+Battery backup lost\n
+Battery backup on serial measurement\n
+board %.f\n
+lost since last\n
+power down or restart\n
+\t\n
+Check battery voltage during power off\n
+after 18 hours recharging in power on\n
+Check battery connection to serial\n
+measurement board\n
+Replace battery
+3101:
+X resolver Error\n
+Failure in X resolver signal on\n
+channel %.f\n
+X signal is less than noise value\n
+\t\n
+Check resolver and resolver connections.\n
+Replace measurement boards
+3102:
+Y resolver Error\n
+Failure in Y resolver signal on\n
+channel %.f\n
+Y signal is less than noise value\n
+\t\n
+Check resolver and resolver connections\n
+Replace measurement boards
+3103:
+X or Y resolver Error\n
+Failure in X or Y resolver signal on\n
+channel %.f\n
+Sum of squared X and Y exceeds max\n
+\t\n
+Check resolver and resolver connections\n
+Replace measurement boards
+3104:
+X and Y resolver Error\n
+Failure in X and Y resolver signals on\n
+channel %.f\n
+X, Y signals are less than noise value\n
+\t\n
+Check resolver and resolver connections\n
+Replace measurement boards
+3105:
+Resolver Feed Error\n
+Failure in feed signal to resolvers\n
+\t\n
+Check resolver connections\n
+Replace axes board
+3106:
+Drive Unit Offset Error\n
+Drive Unit offset exceeded maximum on\n
+channel %.f\n
+\t\n
+Restart system\n
+Replace drive unit
+3107:
+Incorrect DC-link type\n
+Physical DC-link type does not match\n
+configuration\n
+\t\n
+Check/modify system configuration
+3108:
+Incorrect Drive Unit Type\n
+Physical Drive Unit Type for channel %.f\n
+does not match configuration\n
+\t\n
+Check/modify system configuration\n
+Replace drive unit
+3148:
+Axis Computer Error\n
+Axis computer was stopped with\n
+hw interrupt due to miscellaneous error\n
+\t\n
+Check system configuration\n
+Reload system\n
+Replace robot computer board
+3150:
+Axis Computer Int Error\n
+Axis computer was stopped with\n
+hw interrupt due to interrupt error\n
+\t\n
+Reload system\n
+Replace robot computer board
+3151:
+Axis Comp Output Overflow\n
+Axis computer was stopped with hw\n
+interrupt due to output overflow error\n
+\t\n
+Reload system\n
+Replace robot computer board
+3152:
+Axis Computer Drive Unit\n
+Axis computer was stopped with\n
+hw interrupt due to drive unit error\n
+\t\n
+Check system configuration\n
+Reload system\n
+Replace drive unit
+3153:
+Axis Comp Tach Overflow\n
+Axis computer was stopped with\n
+interrupt due to tachometer register\n
+overflow\n
+\t\n
+Check system configuration and restart\n
+system\n
+Reload system\n
+Replace drive unit
+3154:
+Axis Computer XY Overflow\n
+Axis computer was stopped with\n
+hw interrupt due to X, Y register\n
+overflow\n
+\t\n
+Restart system and check\n
+synchronization\n
+Reload system
+3155:
+Axis Computer RC Overflow\n
+Axis computer was stopped with\n
+hw interrupt due to ring controller\n
+register overflow\n
+\t\n
+Restart system and check rev. counters\n
+Reload system
+3156:
+Transmission failure\n
+Contact lost with serial measurement\n
+system. Axis computer stopped\n
+due to transmission timeout.\n
+\t\n
+Check connections from cabinet to robot\n
+and serial measurement board(s).\n
+Replace measurement board or\n
+robot computer
+3157:
+Transmission failure\n
+Axis computer detected failure in\n
+transmission to/from serial\n
+measurement system.\n
+\t\n
+Check connections/cables for serial\n
+measurement system. Check shieldings\n
+Check for high electromagnetic\n
+disturbances along cable run to robot\n
+Replace measure board or robot computer
+3158:
+Axis Comp Driver Clk fail\n
+Axis computer driver clock failure\n
+Main computer is not responding on\n
+request\n
+\t\n
+Reload system\n
+Replace main computer board
+3159:
+Manual Mode Speed Warning\n
+Manual mode speed exceeded for\n
+the joint connected to axc channel %.f.\n
+\t\n
+Check for correct load mass definition\n
+Check controller parameters on external\n
+axes\n
+Check for robot singularity\n
+Replace drive unit
+3210:
+Feedback Position Error\n
+Driver failed to read feedback position\n
+on joint %.f\n
+\t\n
+Restart system\n
+Replace main computer board
+3211:
+Position Control Underrun\n
+Unable to complete position control in\n
+the allowed time\n
+\t\n
+Reload system
+3212:
+DMA Time out Error\n
+DMA access failed from main computer to\n
+axis computer\n
+\t\n
+Reload system\n
+Replace main computer board and\n
+axis computer board
+3213:
+DMA Operation Error\n
+DMA Control Operation failed from Main\n
+computer to Axis computer\n
+\t\n
+Reload system\n
+Replace main computer board and\n
+axis computer board
+8010:
+Serial Board not found\n
+Serial measurement board %.f not found\n
+\t\n
+Check system configuration parameters\n
+Check connections and cables to\n
+serial measurement system\n
+Replace serial measurement board
+8011:
+Data Transmission Error\n
+Failure in transmission of data to/from\n
+serial measurement board %.f\n
+\t\n
+Check connections and cables to serial\n
+measurement system. Check shieldings\n
+Check for high electromagnetic\n
+disturbances along cable run\n
+Replace measure board or robot computer
+8012:
+Serial Offset X Error\n
+Offset error in X signal on serial\n
+measurement board %.f\n
+\t\n
+Replace serial measurement board
+8013:
+Serial Offset Y Error\n
+Offset error in Y signal on serial\n
+measurement board %.f\n
+\t\n
+Replace serial measurement board
+8014:
+Serial Linearity Error\n
+Linearity error in X-Y signal difference\n
+on serial measurement board %.f\n
+- System may still operate with warning\n
+- System will not function with error\n
+\t\n
+Replace serial measurement board
+8015:
+Serial Linear X Error\n
+Linearity error in X signal on serial\n
+measurement board %.f\n
+\t\n
+Replace serial measurement board
+8016:
+Serial Linear Y Error\n
+Linearity error in Y signal on serial\n
+measurement board %.f\n
+\t\n
+Replace serial measurement board
+8017:
+Parallel Comm Error\n
+Communications error to axes board\n
+\t\n
+Check connections on axes board\n
+Check system configuration
+8018:
+Parallel Offset AD X\n
+X signal offset exceeds tolerance on\n
+axes board\n
+\t\n
+Replace axes board
+8019:
+Parallel Offset AD Y\n
+Y signal offset exceeds tolerance on\n
+axes board\n
+\t\n
+Replace axes board
+8020:
+Parallel Offset DA Error\n
+Offset exceeds tolerance error D/A\n
+converter on channel %.f on axes board\n
+\t\n
+Use different measurement channel\n
+Replace axes board
+8021:
+Parallel Linearity DA-AD\n
+Linearity error in D/A and A/D converter\n
+on channel %.f on axes board\n
+\t\n
+Replace axes board
+8022:
+Configuration Error\n
+Error in configuration of measurement\n
+system on channel %.f\n
+\t\n
+Check/change system configuration\n
+parameters
+9001:
+Drive System Error\n
+DC-link is not connected\n
+\t\n
+Insert DC-link\n
+Replace DC-link
+9002:
+Drive System Error\n
+DC-link Power-up status wrong\n
+\t\n
+Restart system\n
+Replace DC-link
+9003:
+Drive System Error\n
+DC-link output voltage too high\n
+\t\n
+Check connection to shunt resistor\n
+Replace DC-link
+9004:
+Drive System Error\n
+DC-link voltage not valid\n
+\t\n
+Check voltage from Motor On contactor\n
+Replace DC-link
+9005:
+Drive System Error\n
+DC-link temperature too high\n
+\t\n
+Check cooling fan(s) or air conditioner\n
+Check AC voltage to DC-link\n
+Modify user progam\n
+Replace DC-link
+9006:
+Drive System Error\n
+Shunt temperature too high\n
+\t\n
+Too much deceleration\n
+Modify user progam\n
+Check AC voltage to DC-link\n
+Replace DC-link
+9007:
+Drive System Error\n
++/- 15V out of limit\n
+\t\n
+Check +/- 15V from power supply\n
+Replace DC-link
+9008:
+Drive System Error\n
+Low current fault on drive unit %.f\n
+\t\n
+Check for broken wires\n
+Check if motion parameter Mains\n
+tolerance min correspond to\n
+real mains.\n
+Check/replace the drive unit
+9009:
+Drive System Error\n
+Current too high on drive unit %.f\n
+\t\n
+Check if motor or motor circuit is\n
+short circuit\n
+Check/replace drive unit
+9010:
+Drive System Error\n
+Temperature too high on drive unit %.f\n
+\t\n
+Check cooling fan(s) or air conditioner\n
+Modify user progam\n
+Check/replace drive unit
+
+
+

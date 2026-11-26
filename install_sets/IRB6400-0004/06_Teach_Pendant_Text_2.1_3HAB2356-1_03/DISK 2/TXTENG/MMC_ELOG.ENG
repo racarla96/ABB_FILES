@@ -1,0 +1,222 @@
+26::
+0:
+Operator
+1:
+%s missing\n
+Tool %s is not used in\n
+current program.\n
+Maybe because it has been deleted or\n
+it is not defined.\n
+\t\n
+Change to another tool using the\n
+Jogging window.
+2:
+%s missing\n
+Wobj %s is not used in\n
+current program.\n
+Maybe because it has been deleted or\n
+it is not defined.\n
+\t\n
+Change to another workobject using\n
+the Jogging window.
+3:
+Directory not created!\n
+The directory %s cannot be created.\n
+Probably, because directory already\n
+exists or the disk is write-protected.\n
+\t\n
+Check if directory exists or if disk\n
+is write-protected.\n
+Check also if space on disk is enough.
+4:
+Robot Hold confusion!\n
+The used tool and the used work object\n
+cannot both, in the same time, be hold\n
+by robot or be stationary.\n
+\t\n
+Check the robhold component of the\n
+used tool and work object.
+5:
+%s missing!\n
+The workobject %s contains\n
+a coordinated mechanical unit which\n
+cannot be found.\n
+\t\n
+Check the mechanical unit component of\n
+the workobject.
+6:
+%s Userframe!\n
+The workobject %s contains\n
+a coordinated mechanical unit which\n
+has no defined userframe.\n
+\t\n
+Check the mechanical unit component of\n
+the workobject.
+7:
+Jogging not permitted!\n
+Jogging cannot be done in this mode.\n
+\t\n
+Release the joystick and enabling\n
+device and repeat.\n
+Check also active mechanical unit.
+8:
+Tool mass undefined!\n
+Jogging cannot be done if the used tool\n
+has an undefined mass\n
+\t\n
+Enter a value for the mass, into the\n
+tooldata for the used tool.
+9:
+Unsynchronized robot!\n
+The robot or external axis are\n
+unsynchronized.\n
+\t\n
+Synchronize robot or external axis.
+10:
+Orientation error!\n
+Orientation in %s is unnormalized.\n
+\t\n
+Check orientation value.
+11:
+Parameter faults!\n
+Loading of parameters in\n
+%s\n
+cannot be fulfilled.\n
+For reason, see\n
+%s\n
+\t\n
+Copy the file\n
+%s\n
+to a floppy and examine reasons\n
+using an ordinary text editor!
+12:
+No Parameters loaded!\n
+There are no parameters in\n
+%s\n
+\t\n
+Check the file\n
+%s\n
+using an ordinary text editor!
+13:
+Jogging not permitted!\n
+Jogging of mechanical unit is\n
+not possible.\n
+Unit is not activated.\n
+\t\n
+Activate the mechanical unit.
+14:
+Disk is full!\n
+No info is saved in Change Log about\n
+the parameter change because no space\n
+available on disk.\n
+\t\n
+Try to delete files or\n
+reorganize your disk.
+15:
+PP cannot be set!\n
+PP cannot be set to routine\n
+'%s' because it has parameters.\n
+\t\n
+Make a routine which call '%s' or\n
+remove the parameters.
+16:
+PP cannot be set!\n
+PP cannot be set to routine\n
+'%s' because it resides in a\n
+module which has NOSTEPIN as\n
+module attribute.\n
+\t\n
+Copy the routine '%s' to\n
+another module or change the\n
+module attribute.
+17:
+PGM_TELLBACK code %d\n
+\t\n
+No more information available.
+18:
+RAPID syntax error!\n
+The program cannot be loaded because of\n
+syntactical error(s).\n
+\t\n
+A RAPID syntax check program for the PC\n
+or QuickTeach can be used to detect the\n
+error(s). The file PGMCPL1.LOG on the\n
+internal RAM disk contains information\n
+about the error(s).
+19:
+Data input error!\n
+The component '%s' in data\n
+type '%s' is not correct.\n
+The limits are\n
+%s!\n
+\t\n
+Check data and enter the correct\n
+value.
+20:
+PP cannot be set!\n
+PP cannot be set to routine\n
+'%s' because it is defined as\n
+a trap routine.\n
+\t\n
+Change the definition for the\n
+routine '%s'\n
+to 'Procedure'.
+21:
+Cannot show items!\n
+The number of selected items exceeds the\n
+current memory limit specified for this\n
+configuration. The items can thus not\n
+be shown.\n
+\t\n
+Reduce the number of data or\n
+change the configuration to a memory\n
+board with more memory.
+22:
+Cannot show all items!\n
+Only %d variables (out of %d)\n
+will be listed.\n
+All variables cannot be shown because\n
+the current memory limit specified for\n
+this configuration will be exceeded.\n
+\t\n
+Reduce the number of data or\n
+change the configuration to a memory\n
+board with more memory.
+23:
+Limit ModPos!\n
+You cannot modify this position because\n
+limit modpos is activated with ABS.\n
+ABS, absolute mode, means that the\n
+original position should be saved.\n
+This cannot be done while tuning.\n
+\t\n
+If executing, stop the program. Modify\n
+the position in the Program Window.\n
+This will create an original position.\n
+This position will thereafter allow\n
+tuning. Limits are set by Limit Modpos.
+24:
+Outside Limits!\n
+The change is either outside the\n
+internal limit 10 mm or exceeds the\n
+limit set by limit modpos parameter\n
+Max Trans.\n
+\t\n
+A single change cannot exceed 10 mm.\n
+Do the change in smaller steps.\n
+If Limit Modpos is set and the parameter\n
+Max Trans is less than 10 mm this\n
+parameter has to be changed.
+25:
+Name not allowed!\n
+The name already exist or is a\n
+reserved word.\n
+\t\n
+Please use an other name. See list of\n
+reserved words in Rapid manual.
+26:
+Program memory soon full\n
+Save program or take other\n
+appropiate actions.\n
+\t\n
+

@@ -1,0 +1,415 @@
+14::
+100:
+Zadny objekt
+200:
+Drzitel mista
+300:
+Konec
+400:
+Deklarace modulu
+401:
+Atribut systemoveho modulu
+402:
+Atribut modulu Nostepin
+403:
+Atribut modulu Viewonly
+404:
+Atribut modulu Readonly
+405:
+Nazev objektu
+406:
+Seznam deklarace dat
+407:
+Seznam deklarace rutin
+408:
+Konec
+500:
+Deklarace konstanty
+501:
+Mistni
+502:
+Typ
+503:
+Nazev objektu
+504:
+Seznam vyrazu
+505:
+Vyraz
+600:
+Deklarace promenne
+601:
+Mistni
+602:
+Typ
+603:
+Nazev objektu
+604:
+Seznam vyrazu
+605:
+Vyraz
+700:
+Deklarace stale hodnoty
+701:
+Mistni
+702:
+Typ
+703:
+Nazev objektu
+704:
+Seznam vyrazu
+705:
+Vyraz
+800:
+Deklarace funkce
+801:
+Mistni
+802:
+Typ
+803:
+Nazev objektu
+804:
+Deklarace parametru
+805:
+Seznam deklaraci dat
+806:
+Seznam prikazu
+807:
+ELSE
+808:
+End
+900:
+Deklarace procedury
+901:
+Mistni
+902:
+Nazev objektu
+903:
+Deklarace parametru
+904:
+Seznam deklaraci dat
+905:
+Seznam prikazu
+906:
+Seznam prikazu Backw
+907:
+ELSE
+908:
+End
+1000:
+Deklarace podmineneho skoku
+1001:
+Mistni
+1002:
+Nazev objektu
+1003:
+Seznam deklaraci dat
+1004:
+Seznam prikazu
+1005:
+ELSE
+1006:
+End
+1100:
+Pozadovany parametr
+1101:
+Rezim parametru promenne
+1102:
+Rezim parametru stale hodnoty
+1103:
+Rezim parametru Inout
+1104:
+Typ
+1105:
+Nazev objektu
+1106:
+Rozmery
+1200:
+Volitelny parametr
+1201:
+Deklarace parametru
+1300:
+Alternativni parametr
+1301:
+Rezim parametru promenne
+1302:
+Rezim parametru stale hodnoty
+1303:
+Rezim parametru Inout
+1304:
+Typ
+1305:
+Nazev objektu
+1306:
+Rozmery
+1400:
+Navesti
+1401:
+Nazev objektu
+1500:
+Navrat
+1501:
+Vyraz
+1600:
+Vyvolat
+1601:
+Vyraz
+1700:
+Zkusit znovu
+1800:
+Spojit
+1801:
+Odkaz na promennou
+1802:
+Odkaz na nazev objektu
+1900:
+Vystup
+2000:
+Prejit na
+2001:
+Odkaz na nazev objektu
+2100:
+Prirazeni
+2101:
+Odkaz na promennou
+2102:
+Vyraz
+2200:
+IF
+2201:
+Vyraz
+2202:
+Seznam prikazu
+2203:
+ELSEIF
+2204:
+ELSE
+2205:
+End
+2300:
+Compact IF
+2301:
+Vyraz
+2302:
+Prikaz
+2400:
+WHILE
+2401:
+Vyraz
+2402:
+Seznam prikazu
+2403:
+Konec
+2500:
+FOR
+2501:
+Nazev objektu
+2502:
+Od
+2503:
+Do
+2504:
+Krok
+2505:
+Seznam prikazu
+2506:
+Konec
+2600:
+TEST
+2601:
+Vyraz
+2602:
+Seznam pripadu
+2603:
+Seznam prikazu
+2604:
+Konec
+2700:
+Volani procedury
+2701:
+Odkaz na nazev objektu
+2702:
+Seznam argumentu
+2800:
+Elseif
+2801:
+Vyraz
+2802:
+Seznam prikazu
+2900:
+Pripad
+2901:
+Vyrazy
+2902:
+Seznam prikazu
+3000:
+Pozadovany argument
+3001:
+Odkaz na nazev objektu
+3002:
+Vyraz
+3100:
+Volitelny argument
+3101:
+Odkaz na promennou
+3102:
+Vyraz
+3103:
+Odkaz na promennou
+3200:
+Vyraz konstanty
+3300:
+Vyraz
+3400:
+Literal
+3500:
+Promenna
+3600:
+Nazev objektu
+3700:
+Nazev objektu
+3800:
+Typ hodnoty
+3900:
+Typ dat
+4000:
+Rozmer
+4100:
+Komentar
+4200:
+Zkuste dalsi
+10000:
+PGM_PHR_NONE
+10100:
+PGM_PHR_DDN
+10101:
+Deklarace konstanty
+10102:
+Deklarace promenne
+10103:
+Deklarace stale hodnoty
+10104:
+Komentar
+10200:
+PGM_PHR_RDN
+10201:
+Deklarace funkce
+10202:
+Deklarace procedur
+10203:
+Deklarace podmineneho skoku
+10204:
+Komentar
+10300:
+PGM_PHR_PAR
+10301:
+Pozadovany parametr
+10302:
+Volitelny parametr
+10400:
+PGM_PHR_ALT
+10401:
+Alternativni parametr
+10500:
+PGM_PHR_SMT
+10501:
+Navesti
+10502:
+Navrat
+10503:
+Vyvolat
+10504:
+Zkusit znovu
+10505:
+Spojit
+10506:
+Vystup
+10507:
+Prejit na
+10508:
+Prirazeni
+10509:
+IF
+10510:
+Compact IF
+10511:
+WHILE
+10512:
+FOR
+10513:
+TEST
+10514:
+Volani procedury
+10515:
+Komentar
+10516:
+Zkuste dalsi
+10600:
+PGM_PHR_SSMT
+10601:
+Navrat
+10602:
+Vyvolat
+10603:
+Zkusit znovu
+10604:
+Spojit
+10605:
+Vystup
+10606:
+Prejit na
+10607:
+Prirazeni
+10608:
+Volani procedury
+10609:
+Zkuste dalsi
+10700:
+PGM_PHR_EIT
+10701:
+Elseif
+10800:
+PGM_PHR_CSE
+10801:
+Pripad
+10900:
+PGM_PHR_ARG
+10901:
+Pozadovany argument
+10902:
+Volitelny argument
+11000:
+PGM_PHR_CEXP
+11001:
+Vyraz konstanty
+11100:
+PGM_PHR_EXP
+11101:
+Vyraz
+11200:
+PGM_PHR_LEXP
+11201:
+Literal
+11300:
+PGM_PHR_VRF
+11301:
+
+11400:
+PGM_PHR_NAM
+11401:
+
+11500:
+PGM_PHR_REF
+11501:
+
+11600:
+PGM_PHR_VALTYP
+11601:
+Typ hodnoty
+11700:
+PGM_PHR_DATTYP
+11701:
+Typ dat
+11800:
+PGM_PHR_DIM
+11801:
+Rozmer

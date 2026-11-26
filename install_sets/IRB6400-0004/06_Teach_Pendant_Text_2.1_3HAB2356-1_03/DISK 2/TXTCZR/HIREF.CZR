@@ -1,0 +1,362 @@
+16::
+0:
+Definice souradnic nastroje
+1:
+Nastroj
+2:
+Metoda
+3:
+Bod                    Stav
+4:
+(Popis)
+5:
+ModPos
+6:
+Zrusit
+7:
+OK
+8:
+Popis souradnic nastroje
+9:
+Poloha od/do
+10:
+Vysledek vypoctu nastroje
+11:
+TCP
+12:
+Protokol vypoctu
+13:
+Soub...
+14:
+Vyberte pole polohy
+15:
+Nazev pole
+16:
+Vyberte si metodu definice nastroje!
+17:
+Informace o metode
+18:
+Nazev metody
+19:
+-
+20:
+Modifikovany
+21:
+Poloha od
+22:
+Metoda
+23:
+Stredni chyba
+24:
+Maximalni chyba
+25:
+Ulozte protokol o vypoctu do souboru
+26:
+Quaternion 1
+27:
+Quaternion 2
+28:
+Quaternion 3
+29:
+Quaternion 4
+30:
+Zobrazeni poli polohy typu
+31:
+(OK)
+32:
+
+33:
+Zadny
+34:
+Promenna nastroje nenalezena!\n
+\n
+    < Pokracujte stiskem Enter >
+35:
+Promenna Wobj nenalezena!\n
+\n
+    < Pokracujte stiskem Enter >
+36:
+Polohova promenna nenalezena!\n
+\n
+    < Pokracujte stiskem Enter >
+37:
+Nastroj pomaleho chodu nelze\n
+pouzit!\n
+Nastroj pro pomaly chod musi\n
+byt typu stala hodnota.\n
+    < Pokracujte stiskem Enter >
+38:
+Wobj v pomalem chodu nelze\n
+pouzit!\n
+Wobj pro pomaly chod musi byt\n
+typu stala hodnota.\n
+    < Pokracujte stiskem Enter >
+39:
+Kartezska souradnice X
+40:
+(Nove)
+41:
+(Smazat)
+42:
+Defin
+43:
+Kartezska souradnice Y
+44:
+Kartezska souradnice Z
+45:
+Definice ramce obezne drahy uzivatele
+46:
+Vysledek vypoctu ramce obezne drahy uziv
+47:
+Vyberte si metodu definice!
+48:
+Jednotka
+49:
+Definice zakladniho ramce robota
+50:
+Vysledek vypoctu zakladniho ramce robota
+51:
+Nastavit referencni bod
+52:
+(ModPos)
+53:
+Prosim zadat svetove souradnice\n
+pro pevny referencni bod.
+54:
+Lin definice ramce jednoho uzivatele
+55:
+Lin vysledek vypoctu ramce jednoho uziv
+56:
+Rot definice ramce jednoho uzivatele
+57:
+Rot vysledek vypoctu ramce jednoho uziv
+58:
+Definice zakladniho ramce stopy
+59:
+Vysledek vypoctu zakladniho ramce stopy
+60:
+Nast...
+61:
+Posunuta metoda
+62:
+X
+63:
+Y
+64:
+Z
+65:
+Prepsani parametru!\n
+Stavajici parametry budou\n
+prepsany.\n
+\n
+OK a pokracovat?
+66:
+Definice os mechanicke jednotky
+67:
+Vysledek vypoctu os mechanicke jednotky
+69:
+Osa
+100:
+Definice souradnic pracovniho objektu
+101:
+Popis souradnic pracovniho objektu
+102:
+Vysledek vypoctu pracovniho objektu
+103:
+Vybrat pole polohy
+104:
+WObj
+105:
+Metoda uziv
+106:
+Metoda obj
+107:
+Vybrat metodu objektu
+108:
+Vybrat metodu uzivatele
+109:
+Poloha uzivat od/do
+110:
+Poloha objektu od/do
+111:
+Uziv
+112:
+Obj
+200:
+Definice ramce premisteni
+201:
+Popis ramce premisteni
+202:
+Vysledek vypoctu ramce premisteni
+203:
+Vybrat pole polohy
+204:
+Premisteni
+205:
+Poc
+206:
+Pocet bodu
+207:
+Vyberte si novou metodu
+500:
+n bodu (n=%d)
+501:
+Pocatecni bod
+502:
+Posunuty bod
+503:
+Bod
+504:
+Zaporna X
+505:
+Kladna X
+506:
+Kladna Y
+507:
+4 body
+508:
+Orientace zakladniho ramce a orientace\n
+systemu svetovych souradnic je stejna.
+509:
+Bod pristupu 1
+510:
+Bod pristupu 2
+511:
+Bod pristupu 3
+512:
+Bod pristupu 4
+513:
+Bod pristupu 5
+514:
+Bod pristupu 6
+515:
+Bod pristupu 7
+516:
+Bod pristupu 8
+517:
+Bod pristupu 9
+518:
+Bod pristupu 10
+519:
+Bod prodluzovace X
+520:
+Bod prodluzovace Z
+521:
+4 bodova XZ
+522:
+Prodluzovac X a Z pouzit k definici\n
+orientace zakladniho ramce.
+523:
+4 bodova TCP
+524:
+Orientace bude stejna jako pro montazni\n
+prirubu robota.
+525:
+5 bodova TCP & Z
+526:
+Smer X a Y bude co nejblize souradnicim\n
+zapestniho kloubu jak jen je mozne.
+527:
+6 bodova TCP & XZ
+528:
+Smer TCP a smery vsech nastroju jsou\n
+definovany.
+529:
+3 bodova
+530:
+Pouzivaji se tri body uzivatele. Dva na\n
+ose x a jeden na ose y.
+531:
+Uzivatel
+532:
+Objekt
+533:
+Pouzivaji se tri body objektu. Dva na\n
+ose x a jeden na ose y.
+534:
+4 b TCP ORIENT NENAST
+535:
+Slozka orientace nastroje zustane\n
+nedotcena.
+536:
+Zadna zmena
+537:
+Definice systemu souradnic uzivatele\n
+zustane nedotcena.
+538:
+Definice systemu souradnic objektu\n
+zustane nedotcena.
+539:
+Neprovedou se zadne zmeny definic\n
+systemu souradnic.
+550:
+Definice sourad stacionarniho nastroje
+551:
+Pouz nastroj
+552:
+Definice souradnic stacionarniho\n
+nastroje neni mozna, kdyz robot\n
+drzi nastroj.\n
+\n
+    < Pokracujte stiskem Enter >
+600:
+Zrcadleni rutiny
+601:
+Rutina k zrcadleni
+602:
+Nazev nove rutiny
+603:
+Pracovni objekt
+604:
+Ramec zrcadla
+605:
+Osa zrdcadla
+606:
+X
+607:
+Y
+608:
+Vyber ramce
+609:
+Zadejte nazev nove rutiny
+610:
+Ze seznamu uvedeneho nize si\n
+vyberte ramec pracovniho objektu.
+611:
+Ze seznamu uvedeneho nize si\n
+vyberte ramec zrcadla.
+612:
+Beze zmeny
+613:
+Prosim pockejte!\n
+\n
+Na vybrane rutine provadim\n
+zrcadleni.
+614:
+Zrcadleni neni provedeno.\n
+Nazev rutiny zrcadleni jiz\n
+existuje.
+615:
+Nelze vykonat definici!\n
+Promenna je deklarovana v modulu\n
+jen pro CTENI.\n
+\n
+    < Pokracujte stiskem Enter >
+616:
+Kalibrace pracovniho objektu\n
+s koordinovanym ramcem uzivatele\n
+neni podporovana.\n
+\n
+    < Pokracujte stiskem Enter >
+617:
+Kalibrace pracovniho objektu\n
+drzeneho robotem neni mozna.\n
+\n
+\n
+    < Pokracujte stiskem Enter >
+618:
+Kalibrace pracovniho objektu\n
+s pouzitim stacionarni TCP\n
+neni mozna.\n
+\n
+    < Pokracujte stiskem Enter >

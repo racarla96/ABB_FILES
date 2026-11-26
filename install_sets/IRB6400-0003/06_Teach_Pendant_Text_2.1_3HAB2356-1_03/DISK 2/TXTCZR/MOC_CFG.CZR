@@ -1,0 +1,690 @@
+33::
+1:
+Manipulator
+2:
+Pohybovy system
+3:
+Nazev
+4:
+Nazev
+5:
+Verze
+6:
+Brzdit na cas
+7:
+Rychlostni rozliseni
+8:
+Dynamicke rozliseni
+9:
+0,33
+10:
+0,50
+11:
+0,67
+12:
+0,83
+13:
+1,00
+14:
+Drahove rozliseni
+15:
+Cas fronty
+16:
+Delka fronty
+17:
+Min okol. teplota skrine
+18:
+Max okol. teplota skrine
+19:
+Min okol. teplota robota
+20:
+Max okol. teplota robota
+21:
+Nazev
+22:
+Mechanicka jednotka
+23:
+Nazev
+24:
+Nazev
+25:
+Pouzijte beh povolit
+26:
+Pouzijte rele aktivace
+27:
+Pouzijte rele brzdy
+28:
+Pouzijte robot
+29:
+Pouzijte samotnou 1
+30:
+Pouzijte samotnou 2
+31:
+Pouzijte samotnou 3
+32:
+Pouzijte samotnou 4
+33:
+Pouzijte samotnou 5
+34:
+Pouzijte samotnou 6
+35:
+Ramec uzivatele premistil:
+36:
+Pohotovostni stav
+37:
+Ano
+38:
+Ne
+39:
+Trvala odchylka rychlosti pri startu
+40:
+Ano
+41:
+Ne
+42:
+Aktivovat pri startu
+43:
+Ano
+44:
+Ne
+45:
+Nedovolte odstaveni
+46:
+Ano
+47:
+Ne
+48:
+Rele
+49:
+Nazev
+50:
+Nazev
+51:
+Vystupni signal
+52:
+Vstupni signal
+53:
+Invertovany vstup
+54:
+Ano
+55:
+Ne
+56:
+Delka zpozdeni
+57:
+Robot
+58:
+Nazev        Typ        Klouby
+59:
+Nazev
+60:
+Pouzijte typ robota
+61:
+Pouzijte kloub 1
+62:
+Pouzijte kloub 2
+63:
+Pouzijte kloub 3
+64:
+Pouzijte kloub 4
+65:
+Pouzijte kloub 5
+66:
+Pouzijte kloub 6
+67:
+Zakladni ramec x
+68:
+Zakladni ramec y
+69:
+Zakladni ramec z
+70:
+Zakladni ramec u0
+71:
+Zakladni ramec u1
+72:
+Zakladni ramec u2
+73:
+Zakladni ramec u3
+74:
+Zakladni ramec premistil:
+75:
+Jednotlivy
+76:
+Nazev        Typ        Kloub
+77:
+Nazev
+78:
+Pouzijte jednotlivy typ
+79:
+Pouzijte kloub
+80:
+Jednotlive sourad M94
+81:
+Ne
+82:
+Ano
+83:
+Zakladni ramec x
+84:
+Zakladni ramec y
+85:
+Zakladni ramec z
+86:
+Zakladni ramec u0
+87:
+Zakladni ramec u1
+88:
+Zakladni ramec u2
+89:
+Zakladni ramec u3
+90:
+Souradnice zakladniho ramce
+91:
+Jednotlivy typ
+92:
+Nazev
+93:
+Mechanika
+94:
+STOPA
+95:
+Maximalni rychlost vyukoveho rezimu
+96:
+TOOL_ROT
+97:
+FREE_ROT
+98:
+Kloub
+99:
+Klouby
+100:
+Nazev
+101:
+Logicka osa
+102:
+Pouzijte kanal axc
+103:
+Pouzijte rameno
+104:
+Pouzijte brzdu
+105:
+Pouzijte kontrolu
+106:
+Pouzijte filtr axc
+107:
+Pouzijte pohonny system
+108:
+Necejchovane rizeni nadrizeneho typu
+109:
+UCCM0
+110:
+Necejchovane nadrizene rizeni
+111:
+Rizeni nadrizeneho typu
+112:
+UCCM0
+113:
+LCM0
+114:
+FFWCM0
+115:
+FFWCM1
+116:
+FFWCM2
+117:
+FFWCM3
+118:
+Normalni nadrizene rizeni
+119:
+Kanal axc
+120:
+Nazev
+121:
+Nazev
+122:
+Merici kanal
+123:
+Merici technicke prostredky
+124:
+Nedefinovan
+125:
+Seriovy
+126:
+Paralelni relativni
+127:
+Paralelni absolutni
+128:
+Obracena rotace
+129:
+Normalni
+130:
+Obracena
+131:
+Rameno
+132:
+Nazev        Typ
+133:
+Nazev
+134:
+Pouzijte typ ramena
+135:
+Pouzijte kontrolni bod
+136:
+Pouzijte zatizeni ramena
+137:
+Rotacni pohyb
+138:
+Ano
+139:
+Ne
+140:
+Stred otaceni osy x centre_x
+141:
+Stred otaceni osy y centre_y
+142:
+Stred otaceni osy z centre_z
+143:
+Otaceni osy (u0)
+144:
+Otaceni osy (u1)
+145:
+Otaceni osy (u2)
+146:
+Otaceni osy (u3)
+147:
+Prevodovy pomer
+148:
+Vysoky prevodovy stupen
+149:
+Nizky prevodovy stupen
+150:
+Horni hranice kloubu
+151:
+Spodni hranice kloubu
+152:
+Poloha pro kalibraci
+153:
+Jmenovite zrychleni
+154:
+Jmenovite zpomaleni
+155:
+Derivacni pomer jmenoviteho zrychleni
+156:
+Derivacni pomer jmenoviteho zpomaleni
+157:
+Setrvacnost prevodu
+158:
+Kontrolni bod ramena
+159:
+Nazev
+160:
+Nazev
+161:
+Zkontrolujte typ
+162:
+Poloha
+163:
+Zadny
+164:
+Poloha x
+165:
+Poloha y
+166:
+Poloha z
+167:
+Zatizeni ramena
+168:
+Nazev
+169:
+Nazev
+170:
+Delka
+171:
+Hmota
+172:
+Stred hmoty x
+173:
+Stred hmoty y
+174:
+Stred hmoty z
+175:
+Setrvacnost x
+176:
+Setrvacnost y
+177:
+Setrvacnost z
+178:
+Brzda
+179:
+Nazev
+180:
+Nazev
+181:
+Mez rychlosti pri vypnutem rizeni
+182:
+Zpozdeni pri vypnutem rizeni
+183:
+Zpozdeni brzdy pri zapnutem rizeni
+184:
+Brzdny moment
+185:
+Rychlostni mez brzdne rampy
+186:
+Pouzijte typ brzdy
+187:
+Typ brzdy
+188:
+Nazev
+189:
+Nazev
+190:
+Setrvacnost
+191:
+Kontrola
+192:
+Nazev        Typ
+193:
+Nazev
+194:
+Pouzijte kontrolu typ
+195:
+Kontrola polohy pri zapnuti
+196:
+Zap
+197:
+Vyp
+198:
+Kontrola citace
+199:
+Zap
+200:
+Vyp
+201:
+Kontrola polohy
+202:
+Zap
+203:
+Vyp
+204:
+Kontrola rychlosti
+205:
+Zap
+206:
+Vyp
+207:
+Kontrola zatizeni
+208:
+Zap
+209:
+Vyp
+210:
+Kontrola zablokovani
+211:
+Zap
+212:
+Vyp
+213:
+V rozsahu polohy
+214:
+Nulova rychlost ( % )
+215:
+Druh kontroly
+216:
+Nazev
+217:
+Nazev
+218:
+Dynamicka mez polohy pri zapnuti
+219:
+Doba maximalniho pretizeni
+220:
+Maximalni doba zablokovani
+221:
+Max rychlost ve vyukovem rezimu - sit\n
+
+222:
+Normalizovana spodni vyukova rychlost
+223:
+Max rychlost ve vyukovem rezimu - dsp
+224:
+System pohonu
+225:
+Systemy pohonu
+226:
+Nazev
+227:
+Vnejsi
+228:
+Ano
+229:
+Ne
+230:
+Pouzijte sit
+231:
+Pouzijte trafo
+232:
+Pouzijte stejnosmerne vedeni
+233:
+Pouzijte pohonnou jednotku
+234:
+Soucasna prenosova funkce
+235:
+Pouzijte kabel
+236:
+Pouzijte motor
+237:
+Teplotni pracovni cyklus
+238:
+Zatezovaci pracovni cyklus
+239:
+Prevodovka
+240:
+Sit
+241:
+Sit
+242:
+Nazev
+243:
+Minimalni tolerance site
+244:
+Maximalni tolerance site
+245:
+Trafo
+246:
+Trafo
+247:
+Nazev
+248:
+Pouzijte trafo typ
+249:
+Maximalni vykon
+250:
+Stoupnuti okolni teploty
+251:
+Tepelny vykon
+252:
+Typ trafa
+253:
+Typ
+254:
+Nazev
+255:
+Sekundarni napeti
+256:
+Stejnosmerne vedeni
+257:
+Nazev        Typ
+258:
+Nazev
+259:
+Typ
+260:
+Pohonna jednotka
+261:
+Nazev      Typ
+262:
+Nazev
+263:
+Pouzijte pohonnou jednotku typ
+264:
+i_max
+265:
+Typ pohonne jednotky
+266:
+Nazev      Typ
+267:
+Nazev
+268:
+Typ
+269:
+Proudova konstanta
+270:
+Rychlostni konstanta
+271:
+Maximalni trvala odchylka rychlosti
+272:
+Kabel
+273:
+Kabely
+274:
+Nazev
+275:
+Pouzijte kabel typ
+276:
+Delka
+277:
+Motor
+278:
+Nazev        Typ
+279:
+Nazev
+280:
+Pouzijte motor typ
+281:
+Trvala odchylka komutatoru
+282:
+Platna trvala odchylka komutatoru
+283:
+Ano
+284:
+Ne
+285:
+Trvala odchylka kalibrace
+286:
+Platna trvala odchylka kalibrace
+287:
+Ano
+288:
+Ne
+289:
+Typ motoru
+290:
+Nazev
+291:
+Nazev
+292:
+Polovych paru
+293:
+ke  ( V/rad/s )
+294:
+Maximalni proud (A ef.)
+295:
+Teplotni pracovni cyklus
+296:
+Teplotni pracovni cykly
+297:
+Nazev
+298:
+Prumerny kroutici moment 0
+299:
+Zatezovaci pracovni cyklus
+300:
+Zatezovaci pracovni cykly
+301:
+Nazev
+302:
+Maximalni absolutni rychlost
+303:
+Maximalni absolutni kroutici moment
+304:
+Prevodovka
+305:
+Prevodovka
+306:
+Nazev
+307:
+Nekalibrovane nadrizene rizeni 0
+308:
+Nazev
+309:
+Nazev
+310:
+Zisk polohove smycky Kp
+311:
+Zisk rychlostni smycky Kv
+312:
+I-cas rychlostni smycky Ti
+313:
+Nekalibrovana maximalni rychlost
+314:
+Nekalibrovane maximalni zrychleni
+315:
+Nekalibrovane maximalni zpomaleni
+316:
+Zpozdeni nadrizeny rizeni 0
+317:
+Nazev
+318:
+Nazev
+319:
+Zisk polohove smycky Kp
+320:
+Zisk rychlostni smycky Kv
+321:
+I-cas rychlostni smycky Ti
+322:
+Uzkopasmovy filtr aktivni
+323:
+Ano
+324:
+Ne
+325:
+Frekvence uzkopasmoveho filtru
+326:
+Sirka uzkopasmoveho filtru
+327:
+Cas aktualizace procesu
+328:
+EXT_POS
+329:
+Nazev procesu vnejsi polohy
+330:
+Nezavisly kloub
+331:
+Zap
+332:
+Vyp
+333:
+Horni hranice nezavisleho kloubu
+334:
+Spodni hranice nezavisleho kloubu
+335:
+Prizpusob. cinitel kontroly zablokovani
+336:
+Prizpusob. cinitel kontroly zatizeni
+337:
+Prizpusob. cinitel kontroly rychlosti
+338:
+Prizpusob. cinitel kontroly polohy
+339:
+Vysoka synchronizace rychlosti
+340:
+Nizka synchronizace rychlosti
+341:
+Jm. moment. rezerva pro nizke rychlosti
+342:
+Jm. moment. rezerva pro vysoke rychlosti
+343:
+Jm. bod zapojeni pro momentovou rezervu
+344:
+Absolutni brzdny moment

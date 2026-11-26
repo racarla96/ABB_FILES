@@ -1,0 +1,283 @@
+Revision 1.10  1995/12/15  14:09:17  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.9  1995/04/21  13:28:26  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.8  1994/08/19  10:46:38  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+1::
+0:
+
+1:
+Passcode invoer!
+2:
+Service
+3:
+Programmeur
+4:
+Andere vensters
+5:
+"%s" Passcode vereist\n
+om door te gaan.
+6:
+Operator
+7:
+Lanceer
+8:
+ProgOrServ
+9:
+Disk Veranderd!\n
+De inhoud van de disk\n
+is veranderd sinds de\n
+laatste lees operatie.\n
+Herlees de inhoud?
+10:
+Bestand
+11:
+Opmaak
+12:
+Inkijken
+13:
+Speciaal
+14:
+Ongedaan maken
+15:
+Knip
+16:
+Kopieer
+17:
+Plak
+18:
+Zoek...
+19:
+Ganaar...
+20:
+Ganaar begin
+21:
+Ganaar einde
+22:
+Volgende pagina
+23:
+Vorige pagina
+24:
+Open...
+25:
+Opslaan als...
+26:
+Afdrukken...
+27:
+Voorkeuren...
+28:
+OK
+29:
+Annuleer
+30:
+Tekst
+31:
+Ja
+32:
+Nee
+33:
+VoegToe
+34:
+Verberg
+35:
+Verwijder
+36:
+Toon
+37:
+Eenheid
+38:
+Omhoog
+39:
+Open
+40:
+Tekst...
+41:
+789456123-0.ABCDEFGHIJKLMNOPQRSTUVWXYZ+-<>*/,?=& :_[](){}%\"
+42:
+789456123-0.abcdefghijklmnopqrstuvwxyz+-<>*/,?=& :_[](){}%\"
+43:
+a->A
+44:
+A->a
+45:
+Info
+46:
+Voer naam in!
+47:
+Naam:
+48:
+Massageheugen eenheid=
+49:
+Nieuwe dir
+50:
+Voer directory naam in!
+51:
+Gemeenschappelijk
+52:
+Intern
+53:
+Waarschuwing!
+54:
+     Druk op Enter!
+55:
+mm
+56:
+Grd
+57:
+789456123_0_ABCDEFGHIJKLMNOPQRSTUVWXYZ_
+58:
+Knip
+59:
+Kopieer
+60:
+Plak
+61:
+Start
+62:
+FWD
+63:
+BWD
+64:
+Continu
+65:
+Cyclus
+66:
+Instr
+67:
+Continu
+68:
+Cyclus
+69:
+Instructie
+70:
+Niet-gesynchroniseerd
+71:
+789456123_0_ABCDEFGHIJKLMNOPQRSTUVWXYZ_
+72:
+789456123_0_abcdefghijklmnopqrstuvwxyz_
+73:
+Een naam moet beginnen\n
+met een letter, b.v.\n
+ABB of abb.\n
+\n
+     Druk op Enter!
+74:
+Parameters
+75:
+Programma
+76:
+Programma module
+77:
+Systeem module
+78:
+Foutenlog
+79:
+Eventenlog
+80:
+Directory
+81:
+Ga een nivo hoger
+82:
+Leeg volume
+83:
+Onbekend
+84:
+Functie
+85:
+Gebr.Nivo
+86:
+Bevestig
+87:
+Functie     Gebr.Niveau Bevestig
+88:
+Niet op pad!\n
+Robot is bewogen na\n
+programma stop.\n
+Moet de robot terug gaan\n
+naar het pad bij Start?
+89:
+Nee
+90:
+Ja
+91:
+
+92:
+Herlees
+93:
+
+94:
+Druk bestand af
+95:
+Wachtend!\n
+Programma server is\n
+reeds in gebruik door\n
+een andere klant.
+96:
+Conv programma
+97:
+Conv Programma Mod
+98:
+Conv Systeem Mod
+99:
+Programmable Keys
+100:
+Key         Type        Connection
+101:
+Key
+102:
+Type
+103:
+Connection
+104:
+Key Pressed
+105:
+None
+106:
+Input
+107:
+Output
+108:
+Interrupt
+109:
+Toggle
+110:
+Set 0
+111:
+Set 1
+112:
+Press/Rel.
+113:
+Pulse
+114:
+groter dan 0 maar kleiner dan max bel.
+115:
+Selecteer
+116:
+Optimalisatie dialoog
+117:
+                    Optim.  Actueel
+118:
+Optim.
+119:
+Geen gegevens
+120:
+Info
+121:
+Positie
+122:
+Robtarget:=
+123:
+o_
+124:
+Aan
+125:
+Uit
+126:
+Arcitec gegevens

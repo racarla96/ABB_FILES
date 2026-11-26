@@ -1,0 +1,40 @@
+15::
+1:
+Objekt ist in einem\n
+-Nur_Lesen- Modul.\n
+Objekt nicht zu verändern.
+2:
+Objekt ist in einem\n
+-Nur_Ansicht- Modul.\n
+Objekt nicht zu verändern.
+3:
+Name unzulässig! Namen-\n
+anfang mit Buchstabe,\n
+reserv. Worte unzulässig.
+4:
+Wechsel von Richtung der\n
+Abarbeitung in komplexer\n
+Instruktion nicht zulässig.
+5:
+Wechsel von Richtung der\n
+Abarbeitung in dieser\n
+Routine unzulässig.
+6:
+RAPID Syntaxfehler\n
+Fehler im Programm.
+7:
+Abarbeitung Rückwärts nicht\n
+über erste Instruktion in\n
+Block oder Routine möglich.
+8:
+PZ kann nicht auf gewählte\n
+Position gesetzt werden.\n
+Andere Position versuchen.
+9:
+Objekt ist in einem\n
+-Keine_Ansicht- Modul und\n
+ist nicht änder-/speichbar.
+10:
+Routine ist in einem\n
+-Keine_Ansicht- Modul.\n
+Routine nicht anzeigbar.

@@ -1,0 +1,158 @@
+Revision 1.7  1995/12/15  14:00:02  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.6  1995/04/21  13:20:12  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.5  1994/08/19  09:48:47  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+9::
+0:
+Vyroba
+10:
+Soubor
+11:
+Upravy
+12:
+Prohliz
+20:
+Zavest program...
+21:
+Program se nemohl spustit
+22:
+Preference...
+23:
+Prejit na...
+24:
+Zacit od zacatku
+25:
+Informace
+26:
+Poloha
+27:
+Vstup a vystup operatora
+50:
+Zrusit
+51:
+OK
+80:
+Program
+82:
+Data
+83:
+Preference
+84:
+Hodnota dat
+85:
+Prejit na radek
+86:
+Vybrat program k zavedeni
+87:
+Vyrobni informace
+88:
+Vyrobni poloha
+100:
+Nazev progr.
+101:
+Stav
+102:
+Rychlost:=
+103:
+%
+104:
+Prac. rezim:=
+105:
+Rutina
+106:
+
+107:
+Prejit na radek
+108:
+Vykonava se RAPID program
+109:
+Soucasna rutina
+110:
+100%
+111:
+Zadny RAPID program neni zaveden
+112:
+*
+130:
+Zmena smeru zakazana
+131:
+Pozadavek spustit od zacatku.
+132:
+V rutine nejsou zadne prikazy.
+133:
+Neni zaveden
+134:
+Pripraven
+135:
+Zastaven
+136:
+Bezi
+137:
+mm/s
+138:
+-%
+139:
+25%
+140:
+
+141:
++%
+142:
+Ano
+143:
+Ne
+144:
+     Chcete pokracovat ?
+145:
+Zacina se od zacatku
+146:
+Zpusobuje ztratu kontextu programu
+147:
+Vystraha
+148:
+>>
+149:
+Zaveden
+150:
+Nedefinovan
+151:
+Zastaveni pri ziskavani zpet
+200:
+<  Pokracujte stiskem Enter  >
+201:
+Propojen
+202:
+Program se nemohl zavest
+203:
+Program se nemohl vyjmout
+204:
+
+205:
+Program nelze zavest.
+206:
+Musi byt typu program.
+207:
+Pravdepodobne chyba programu!
+208:
+Program nelze ukazat.
+209:
+Instrukce RAPID nelze ukazat.
+210:
+\n
+Vytrvat, zavadim program ...!
+211:
+Nedostatek pameti.
+212:
+Nevykonatelny
+213:
+Program nelze vykonat.
+214:
+Hlavni rutina neni nalezena.

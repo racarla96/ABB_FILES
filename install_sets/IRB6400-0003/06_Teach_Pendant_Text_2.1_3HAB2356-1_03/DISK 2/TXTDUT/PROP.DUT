@@ -1,0 +1,415 @@
+14::
+100:
+Geen object
+200:
+Plaatshouder
+300:
+Einde
+400:
+Module declaratie
+401:
+Systeemmodule attribuut
+402:
+NOSTEPIN module attribuut
+403:
+VIEUWONLY module attribuut
+404:
+READONLY module attribuut
+405:
+Object naam
+406:
+Data declaratie lijst
+407:
+Routine declaratie lijst
+408:
+Einde
+500:
+Constante declaratie
+501:
+Lokaal
+502:
+Type
+503:
+Object naam
+504:
+Uitdrukkingslijst
+505:
+Uitdrukking
+600:
+Variabele declaratie
+601:
+Lokaal
+602:
+Type
+603:
+Object naam
+604:
+Uitdrukkingslijst
+605:
+Uitdrukking
+700:
+Persistente declaratie
+701:
+Lokaal
+702:
+Type
+703:
+Object naam
+704:
+Uitdrukkingslijst
+705:
+Uitdrukking
+800:
+Functie declaratie
+801:
+Lokaal
+802:
+Type
+803:
+Object naam
+804:
+Parameter declaratie
+805:
+Data declaratie lijst
+806:
+Uitdrukkingslijst
+807:
+ELSE
+808:
+Einde
+900:
+Procedure declaratie
+901:
+Lokaal
+902:
+Object naam
+903:
+Parameter declaratie
+904:
+Data declaratie lijst
+905:
+Uitdrukkingslijst
+906:
+Achterw Instr lijst
+907:
+ELSE
+908:
+Einde
+1000:
+Interrupt declaratie
+1001:
+Lokaal
+1002:
+Object naam
+1003:
+Data declaratie lijst
+1004:
+Uitdrukkingslijst
+1005:
+ELSE
+1006:
+Einde
+1100:
+Vereiste parameter
+1101:
+Variabele parameter modus
+1102:
+Persistente parameter modus
+1103:
+Inout parameter modus
+1104:
+Type
+1105:
+Object naam
+1106:
+Dimensies
+1200:
+Optionele parameter
+1201:
+Parameter declaratie
+1300:
+Alternatieve parameter
+1301:
+Variabele parameter modus
+1302:
+Persistente parameter modus
+1303:
+Inout parameter modus
+1304:
+Type
+1305:
+Object naam
+1306:
+Dimensies
+1400:
+Label
+1401:
+Object naam
+1500:
+Return
+1501:
+Uitdrukking
+1600:
+Raise
+1601:
+Uitdrukking
+1700:
+Retry
+1800:
+Connect
+1801:
+Variabele referentie
+1802:
+Object naam referentie
+1900:
+Exit
+2000:
+Goto
+2001:
+Object naam referentie
+2100:
+Assignment
+2101:
+Variabele referentie
+2102:
+Uitdrukking
+2200:
+IF
+2201:
+Uitdrukking
+2202:
+Instr. lijst
+2203:
+ELSEIF
+2204:
+ELSE
+2205:
+Einde
+2300:
+Compact IF
+2301:
+Uitdrukking
+2302:
+Uitdrukking
+2400:
+WHILE
+2401:
+Uitdrukking
+2402:
+Uitdrukkingslijst
+2403:
+Einde
+2500:
+FOR
+2501:
+Object naam
+2502:
+Van
+2503:
+Tot
+2504:
+Stap
+2505:
+Uitdrukkingslijst
+2506:
+Einde
+2600:
+TEST
+2601:
+Uitdrukking
+2602:
+CASE lijst
+2603:
+Uitdrukkingslijst
+2604:
+Einde
+2700:
+Procedure call
+2701:
+Object naam referentie
+2702:
+argumentenlijst
+2800:
+Elseif
+2801:
+Instructie
+2802:
+Uitdrukkingslijst
+2900:
+Case
+2901:
+Instructie
+2902:
+Uitdrukkingslijst
+3000:
+Vereist argument
+3001:
+Object naam referentie
+3002:
+Uitdrukking
+3100:
+Optioneel argument
+3101:
+Variabele referentie
+3102:
+Uitdrukking
+3103:
+Variabele referentie
+3200:
+Constante uitdrukking
+3300:
+Uitdrukking
+3400:
+Literaal
+3500:
+Variabele
+3600:
+Object naam
+3700:
+Object naam
+3800:
+Waarde type
+3900:
+Data type
+4000:
+Dimensie
+4100:
+Comment
+4200:
+Try Next
+10000:
+PGM_PHR_NONE
+10100:
+PGM_PHR_DDN
+10101:
+Constante declaratie
+10102:
+Variabele declaratie
+10103:
+Persistente declaratie
+10104:
+Comment
+10200:
+PGM_PHR_RDN
+10201:
+Functie declaratie
+10202:
+Procedure declaratie
+10203:
+Interrupt declaratie
+10204:
+Comment
+10300:
+PGM_PHR_PAR
+10301:
+Vereiste parameter
+10302:
+Optionele parameter
+10400:
+PGM_PHR_ALT
+10401:
+Alternatieve parameter
+10500:
+PGM_PHR_SMT
+10501:
+Label
+10502:
+Return
+10503:
+Raise
+10504:
+Retry
+10505:
+Connect
+10506:
+Exit
+10507:
+Goto
+10508:
+Assignment
+10509:
+IF
+10510:
+Compact IF
+10511:
+WHILE
+10512:
+FOR
+10513:
+TEST
+10514:
+Procedure call
+10515:
+Comment
+10516:
+Try Next
+10600:
+PGM_PHR_SSMT
+10601:
+Return
+10602:
+Raise
+10603:
+Retry
+10604:
+Connect
+10605:
+Exit
+10606:
+Goto
+10607:
+Assignment
+10608:
+Procedure call
+10609:
+Try Next
+10700:
+PGM_PHR_EIT
+10701:
+Elseif
+10800:
+PGM_PHR_CSE
+10801:
+Case
+10900:
+PGM_PHR_ARG
+10901:
+Vereist argument
+10902:
+Optioneel argument
+11000:
+PGM_PHR_CEXP
+11001:
+Constante uitdrukking
+11100:
+PGM_PHR_EXP
+11101:
+Uitdrukking
+11200:
+PGM_PHR_LEXP
+11201:
+Literaal
+11300:
+PGM_PHR_VRF
+11301:
+
+11400:
+PGM_PHR_NAM
+11401:
+
+11500:
+PGM_PHR_REF
+11501:
+
+11600:
+PGM_PHR_VALTYP
+11601:
+Waarde type
+11700:
+PGM_PHR_DATTYP
+11701:
+Data type
+11800:
+PGM_PHR_DIM
+11801:
+Dimensie

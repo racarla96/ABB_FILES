@@ -1,0 +1,135 @@
+Revision 1.9  1995/12/15  13:58:40  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.8  1995/04/21  13:18:52  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.7  1994/08/19  09:47:02  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+5::
+0:
+Jogging
+1:
+Align...
+2:
+The alignment is started by moving the\n
+joystick.
+3:
+
+4:
+The tool will be aligned along a\n
+coordinate axis of "%s".
+5:
+
+6:
+
+7:
+Unit:
+8:
+Motion:
+9:
+Group:
+10:
+Coord:
+11:
+Tool:
+12:
+WObj:
+13:
+Incremental:
+14:
+Select desired data in the list:
+15:
+Jogging
+16:
+Robot Pos:     
+17:
+
+18:
+
+19:
+Linear
+20:
+Reorient
+21:
+Axes
+22:
+x y z
+23:
+Motor
+24:
+World
+25:
+Base
+26:
+Tool
+27:
+WObj
+28:
+
+29:
+
+30:
+
+31:
+
+32:
+
+33:
+
+34:
+2 1 3
+35:
+5 4 6
+36:
+4 5 6
+37:
+Robot angles:  
+38:
+External:      
+39:
+Small
+40:
+Medium
+41:
+Large
+42:
+World
+43:
+Base
+44:
+Tool
+45:
+WObj
+46:
+1 2 3
+47:
+No
+48:
+Small
+49:
+Medium
+50:
+Large
+51:
+1
+52:
+2
+53:
+Jogging cannot be\n
+used when a program\n
+is executing.
+54:
+Jogging cannot be\n
+used in automatic\n
+mode.
+55:
+New
+56:
+Change
+57:
+Define

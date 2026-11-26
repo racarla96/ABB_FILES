@@ -1,0 +1,334 @@
+21::
+0:
+Provozni
+2:
+Obnoveni programu\n
+Uloha %!%!%s byla nastavena\n
+do sveho vychoziho bodu.\n
+\t\n
+
+5:
+Program zastaven\n
+Uloha %!%!%s se zastavila.\n
+Duvodem je, ze\n
+%s\n
+\t\n
+
+500:
+po vydani soucasne instrukce doslo\n
+k vnitrnimu zastaveni.
+501:
+uloha dosahla instrukce vystupu.
+502:
+uloha je hotova.
+503:
+uloha je hotova timto krokem.
+504:
+uloha dosahla instrukce preruseni.
+505:
+doslo k vnejsimu nebo vnitrnimu\n
+zastaveni.
+506:
+vznikla chyba.
+507:
+na zacatku seznamu instrukci nelze\n
+vykonat prikaz jit zpet.
+508:
+prikaz jit zpet za tuto\n
+instrukci nelze vykonat.
+509:
+rutina udalosti pro VYNULOVAT\n
+nebo ZAPNOUT je pripravena.
+7:
+Program zacal\n
+Uloha %!%!%s se zacala\n
+vykonavat.\n
+%s\n
+\t\n
+
+8:
+Program se spustil znovu\n
+Uloha %!%!%s se znovu\n
+zacala vykonavat.\n
+%s\n
+\t\n
+
+701:
+Puvodcem je okno programu.
+702:
+Puvodcem je okno vyroby.
+703:
+Puvodce neni znam.
+704:
+Puvodcem je vnejsi klient.
+9:
+Pracovni pamet je plna\n
+Pro novou instrukci RAPID\n
+nebo data neni ponechana pamet.\n
+Uloha je %!%!%s\n
+\t\n
+Ulozte program a pak znovu spustte.
+10:
+Stav MOTORY VYP\n
+\n
+\t\n
+
+11:
+Stav MOTORY ZAP\n
+\n
+\t\n
+
+12:
+Stav zastaveni ochranou\n
+Beh retezu prerusen bezpecnostni\n
+ochranou s vyjimkou nouzoveho zastaveni.\n
+\t\n
+
+13:
+Stav nouzoveho zastaveni\n
+Beh retezu prerusen nouzovym zastavenim.\n
+Je treba vynulovat nouzove zastaveni.\n
+Pouzijte tlacitko MOTORY VYP.\n
+\t\n
+
+14:
+Stav systemove poruchy\n
+Kriticka nezotavitelna chyba systemu.\n
+Je treba provest teply start.\n
+\t\n
+
+15:
+Vybran rucni rezim\n
+\n
+\t\n
+
+16:
+Zada se automaticky rezim\n
+\n
+\t\n
+
+17:
+Automat. rezim potvrzen\n
+\n
+\t\n
+
+18:
+Zada se rucni rezim s PR\n
+Pozaduje se rucni rezim s plnou\n
+rychlosti\n
+\t\n
+
+19:
+Rucni rezim s PR potvrzen\n
+Rucni rezim s plnou rychlosti potvrzen\n
+\t\n
+
+20:
+Stav chyby vykonavani\n
+Vykonavani programu se dostalo do stavu\n
+spontanni chyby\n
+\t\n
+
+21:
+Nulovani chyby vykonavani\n
+Vykonavani programu opustilo stav\n
+spontanni chyby\n
+\t\n
+
+22:
+Cekani na pozast. pro beh\n
+Cekani na stisk tlacitka pozastaveni\n
+pro beh na programovaci jednotce.\n
+\t\n
+
+23:
+Prodleva pozast. pro beh\n
+Tlacitko pozastaveni pro beh na\n
+programovaci jednotce se musi stisknout\n
+behem vymezene prodlevy.\n
+\t\n
+
+30:
+Vsechny osy komutovany\n
+\n
+\t\n
+
+31:
+Vsechny osy kalibrovany\n
+\n
+\t\n
+
+32:
+Vsechny zpet. citace akt.\n
+\n
+\t\n
+
+33:
+Vsechny osy synchroniz.\n
+\n
+\t\n
+
+34:
+Osy nejsou komutovany\n
+\n
+\t\n
+
+35:
+Osy nejsou kalibrovany\n
+\n
+\t\n
+
+36:
+Zpetny citac neni aktual.\n
+\n
+\t\n
+
+37:
+Osa neni synchronizovana\n
+\n
+\t\n
+
+40:
+Program zaveden\n
+Uloha %!%!%s zavedla program, nebo\n
+programovy modul.\n
+Volny uzivatelsky prostor pred touto\n
+operaci byl %i bytu a\n
+%i bytu po ni.\n
+\t\n
+
+41:
+Program smazan\n
+Uloha %!%!%s vymazala\n
+program.\n
+\t\n
+
+43:
+Opak. spusteni selhalo\n
+Ulohu %!%!%s\n
+nelze znovu spustit\n
+\t\n
+
+44:
+Ukazatel programu aktual.\n
+Uloha %!%!%s\n
+nemohla polohu PP zmenit.\n
+\t\n
+
+45:
+System se spustil znovu\n
+Byl znovu spusten jiz instalovany\n
+system.\n
+\t\n
+
+46:
+System se znovu spustil\n
+ve studenem rezimu\n
+Prvni spusteni po instalaci.\n
+\t\n
+
+47:
+Uloha na pozadi %s\n
+se odmita spustit\n
+%s\n
+\t\n
+
+4701:
+Uloha je prazdna
+4702:
+Chybny stav
+4703:
+PP nelze nastavit na hlavni smer
+4704:
+Nelze nastavit rezim vykonavani
+4705:
+Prikaz ke spusteni selhal
+4706:
+Povinne pri chybe syntaxe
+48:
+Uloha na pozadi se zast.\n
+Uloha %s se zastavila bez duvodu\n
+%s\n
+\t\n
+
+49:
+Chranena oblast neukonc.\n
+Nastal vypadek napajeni uprostred\n
+chranene oblasti pro\n
+ulohu %!%s\n
+%s\n
+\t\n
+
+4901:
+System se sam pokousi o zotaveni
+4902:
+Nezpracovana chyba je odstranena\n
+z fronty
+4903:
+Nezpracovany vystup je odstranen\n
+z fronty
+4904:
+To muze mit za nasledek zvlastni\n
+cyklus programu
+4905:
+Uloha se spusti znovu\n
+z hlavni rutiny
+4906:
+Pristi teple spusteni vynuluje vsechny\n
+ulohy a uziv. programy budou ztraceny
+4907:
+Zkuste ulozit uzivatelsky program a\n
+provedte teple spusteni systemu
+50:
+Vykonavani zruseno\n
+Opakovane spusteni zrusi vykonavani\n
+ulohy %!%.16s\n
+%s\n
+\t\n
+
+5001:
+Rutiny udalosti zapnuti systemu
+5002:
+Rutiny udalosti zastaveni systemu
+5003:
+Rutiny udalosti nouzoveho zastaveni\n
+systemu
+5004:
+Rutiny udalosti spusteni systemu
+5005:
+Rutiny udalosti opakovaneho spusteni\n
+systemu
+5006:
+Rutiny udalosti vynulovani systemu
+5007:
+Rutiny udalosti vnitrniho systemu
+5008:
+Uzivatelske rutiny
+51:
+Rutina nezname udalosti\n
+Uloha %!%s nemohla spustit\n
+rutinu udalosti specifikovaneho systemu\n
+%s\n
+\t\n
+Zavedte rutinu do modulu systemu.
+52:
+Spusteni pro znovuziskani\n
+Pohyb znovuziskani zacal\n
+\t\n
+
+53:
+Znovuziskani hotovo\n
+Pohyb znovuziskani je hotov\n
+\t\n
+
+60:
+Test povoleni retezu\n
+Povoleni retezu je vzdy testovano pri\n
+spusteni. Jestlize test selze, bude\n
+nasledovat chybove hlaseni tykajici\n
+se povoleni.\n
+\t\n
+Kdyz test povoleni retezu pri spusteni\n
+selze, prislusne chybove hlaseni bude\n
+"Povolte prodlevu retezu"\n
+

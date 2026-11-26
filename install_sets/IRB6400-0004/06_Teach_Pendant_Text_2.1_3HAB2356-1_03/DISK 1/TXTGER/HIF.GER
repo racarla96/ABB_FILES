@@ -1,0 +1,261 @@
+Revision 1.8  1995/12/15  14:05:44  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.7  1995/04/21  13:25:09  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.6  1994/08/19  10:42:49  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+10::
+0:
+Datei Manager
+1:
+Name       Typ             Datum
+2:
+Gehe zu Zeile
+3:
+Aktuelle  Zeile
+4:
+  Zurück
+5:
+ Abbruch
+6:
+  OK
+7:
+Datei
+8:
+Bearb.
+9:
+ Ansicht
+10:
+  Option
+11:
+Verzeichnis erstellen...
+12:
+Umbenennen...
+13:
+Kopieren...
+14:
+Verschieben...
+15:
+Löschen...
+16:
+Verzeichnis drucken...
+17:
+Gehe zu...
+18:
+Gehe zum Anfang
+19:
+Gehe zum Ende
+20:
+Formatieren...
+21:
+
+22:
+Formatieren
+23:
+Datenträger formatieren
+24:
+Bezeich. Datenträger
+25:
+
+26:
+Neues Verzeichnis
+27:
+Neues Verzeichnis
+28:
+Umbenennen
+29:
+Altes Verzeichnis
+30:
+Neues Verzeichnis
+31:
+Alter Dateiname
+32:
+Neuer Dateiname
+33:
+Löschen
+34:
+Verzeichnis löschen
+35:
+Datei löschen
+36:
+Verzeichnis drucken
+37:
+Daten zu drucken
+38:
+Aktuelles Verzeichnis
+39:
+Verzeichnis Struktur
+40:
+  Kopie
+41:
+als
+42:
+  Verschieben
+43:
+Info
+44:
+Name
+45:
+Typ
+46:
+Größe in Bytes
+47:
+Datum
+48:
+Zeit
+49:
+   Weiter mit ENTER
+50:
+Kopieren Datei unmöglich
+51:
+Funktion nicht vorhanden
+52:
+Erstellen Verzeichnis unmöglich
+53:
+Name schon vorhanden
+54:
+
+55:
+Lesen Verzeichnis unmöglich
+56:
+Umbenennen Verzeich. unmöglich
+57:
+Umbenennen Datei unmöglich
+58:
+Löschen Verzeichnis unmöglich
+59:
+Löschen Datei unmöglich
+60:
+Medium
+61:
+
+62:
+nach
+63:
+Kopieren Verzeichnis unmöglich
+64:
+Verschieb Verzeich unmöglich
+65:
+Verschieben Datei unmöglich
+66:
+Verzeichnis nicht leer
+67:
+Formatieren unmöglich
+68:
+...
+69:
+DIRNAME
+70:
+Texteingabe
+71:
+
+72:
+
+73:
+
+74:
+
+75:
+Aktion unmöglich
+76:
+Kein Datenträger im Laufwerk
+77:
+Verschieben unmöglich
+78:
+Bitte warten
+79:
+Datenträger wird formatiert...
+80:
+Disk leer/defekt
+81:
+Drucken Datei...
+82:
+Drucken nur in Datei
+83:
+Datei zu drucken
+84:
+Datei drucken:
+85:
+Verzeichnis in Datei drucken:
+86:
+Druckt !
+87:
+   Abbruch mit ENTER
+88:
+Drucker ist beschäftigt.\n
+\n
+Drucken wenn Drucker fertig.
+89:
+Drucken unmöglich.\n
+Zu viele Aufträge gespeichert.\n
+\n
+Neuer Versuch später.
+90:
+Drucken unmöglich.\n
+Drucker in den Systemparametern\n
+nicht konfiguriert.
+91:
+Kein Zugriff auf die\n
+gewählte Datei:
+92:
+Drucken unterbrochen.\n
+Zugriff auf die gewählte\n
+Datei während Druck verloren.
+93:
+Keine druckbare Datei
+94:
+Zu-Verz. ist Teil von Von-Verz.
+95:
+Rapid Konverter...
+96:
+Rapid Konverter
+97:
+Datei zum Konvert.:
+98:
+Datei speichern unter:
+99:
+ Konvert
+100:
+Datei speichern unter:
+101:
+Datei bereits vorhanden
+102:
+Datei nicht konvertierbar.\n
+ \n
+Falscher Dateityp
+103:
+Datei zum Konvert.:
+104:
+Mit Funktion:
+105:
+Rapid Typ Info hinzufügen
+106:
+Rapid Typ Info verwenden
+107:
+ \n
+Rapid Konvert. fehlerhaft
+108:
+Beschäftigt\n
+\n
+\n
+Bitte warten!
+109:
+Nicht konvertierbar\n
+\n
+Falsche Kombination von\n
+Dateityp und Funktion
+110:
+ \n
+Datei bereits vorhanden !\n
+\n
+Überschreiben ?
+111:
+"Zu" und "Von" sind identisch
+112:
+Zu viele Verzeichnis Ebenen

@@ -1,0 +1,948 @@
+Revision 1.11  1995/12/15  13:29:18  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.10  1995/04/21  13:13:03  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.9  1994/08/19  09:40:30  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+3::
+0:
+Editor de programas
+1:
+Opcion
+2:
+IPL1
+3:
+IPL2
+4:
+Test
+5:
+Rutina
+6:
+Datos
+7:
+Lista de modulos
+8:
+Guardar modulo
+9:
+Guardar Modulo como...
+10:
+
+11:
+Guardar programa
+12:
+Guardar prog. como...
+13:
+Usar IPL (Instrucciones\n
+Por Lista) para insertar\n
+nuevas instrucciones!!
+14:
+Cambiar Seleccion
+15:
+Marcar
+16:
+Quitar marcas
+17:
+Instr.
+18:
+Inst. del Prog.
+19:
+Test Programa
+20:
+Rutinas
+21:
+Datos
+22:
+Tipos de datos
+23:
+Test
+24:
+Modulos
+25:
+< ENTRAR para continuar >
+26:
+Mover  Cursor al PP
+27:
+Mover PP a Main
+28:
+Mover PP a Rutina...
+29:
+Varios
+30:
+Movimiento y Proceso
+31:
+Flujo de prog.
+32:
+Comunes
+33:
+Valores de mvto.
+34:
+Interrupciones
+35:
+E/S
+36:
+Comunicaciones
+37:
+Tipos dat.Prog.
+38:
+Recuperacion errores
+39:
+Sistema y Tiempo
+40:
+Registro eventos
+41:
+Programa
+42:
+Mover PP al Cursor
+43:
+Poner BreakPoint
+44:
+Quitar BreakPoint
+45:
+BreakPoints...
+46:
+Simular...
+47:
+En todo el sistema
+48:
+switch
+49:
+En Modulo
+50:
+Datos
+51:
+Declaracion...
+52:
+Duplicar...
+53:
+Nueva Rutina...
+54:
+Tipos
+55:
+En Rutina
+56:
+Nuevo...
+57:
+Valor
+58:
+ModPos
+59:
+Instr
+60:
+Test
+61:
+VerIPL
+62:
+-%
+63:
++%
+64:
+Arranca
+65:
+Sim
+66:
+Despl
+67:
+Nuevo
+68:
+Decl
+69:
+Dupl
+70:
+Var
+71:
+Func
+72:
+Espejo...
+73:
+Copia Inversa...
+74:
+Mas Comunes 1
+75:
+Mas Comunes 2
+76:
+\n
+Espere por favor!\n
+Ordenando simbolos ...
+77:
+Cambiar no se puede\n
+deshacer. Salir de Buscar-\n
+Cambiar pulsando OK.
+78:
+Modulo escogido no tiene\n
+rutinas. Se utiliza la\n
+seleccion anterior.
+79:
+
+80:
+
+81:
+Veloc:=
+82:
+Ejecuta:=
+83:
+
+84:
+
+85:
+
+86:
+Nombre           Valor
+87:
+Nombre           Tipo
+88:
+
+89:
+
+90:
+Matematicas
+91:
+Ejecucion Programa
+92:
+Nombre           Valor           Modulo
+93:
+Nombre           Tipo            Modulo
+94:
+(ModPos)
+95:
+Datos
+96:
+Func
+97:
+No hay objetos
+98:
+Error de Sintaxis
+99:
+Esto no es un Programa o\n
+un Modulo de Programa.\n
+Probar otro archivo!
+100:
+Numeros no permitidos,\n
+usar datos predefinidos
+101:
+Proximo
+102:
+Rutinas de Programa
+103:
+Datos Programa
+104:
+ArgOpci
+105:
+(Info)
+106:
+Proc
+107:
+Local
+108:
+Global
+109:
+Nombre:=
+110:
+Alcance:=
+111:
+Tipo:=
+112:
+Tipo de Dato:
+113:
+Decl. de datos incorrecta\n
+Comprobar nombre y valor
+114:
+Const
+115:
+Cambiar
+116:
+No hay Programa.\n
+\n
+Utilizar el menu Archivo\n
+para cargar o crear un\n
+nuevo Programa.
+117:
+Tipo de dato:=
+118:
+Label
+119:
+Insertar antes:
+120:
+Nombre         Tipo dato   Req Alt. Modo
+121:
+Saltar
+122:
+Trap
+123:
+
+124:
+Objeto seleccionado\n
+no posee valor!
+125:
+25%
+126:
+100%
+127:
+
+128:
+Valor de Dato actual
+129:
+Definir Rutina
+130:
+Declarar Rutina
+131:
+Duplicar Rutina
+132:
+Definir Datos
+133:
+Declarar datos
+134:
+Duplicar Datos
+135:
+TRUE
+136:
+FALSE
+137:
+Valor de Dato Inicial
+138:
+Valor inicial:=
+139:
+Nuevo Valor Inicial
+140:
+main
+141:
+
+142:
+
+143:
+
+144:
+OculIPL
+145:
+Datos de Rutina
+146:
+Datos num
+147:
+Valor...
+148:
+Tipos utilizados
+149:
+Todos tipos
+150:
+Tipos
+151:
+Modulo
+152:
+Modulos de Programa
+153:
+Anter.
+154:
+Definir Modulo
+155:
+Declarar Modulo
+156:
+Modulo Programa
+157:
+Modulo Sistema
+158:
+Progr.
+159:
+Sistema
+160:
+Instruccion Actual
+161:
+Argumentos de Instruccion
+162:
+El IF compacto solo\n
+permite una instruccion\n
+
+163:
+Mas
+164:
+(ArgOpc)
+165:
+Pers
+166:
+Dato de tipo "sin valor" y\n
+no puede tener valor
+167:
+El objeto ya existe\n
+Cambiar nombre
+168:
+
+169:
+
+170:
+Que rutina?\n
+Usar Ver:Rutinas
+171:
+No existe rutina main
+172:
+Falla el Comando
+173:
+No cabe el contenido en\n
+el buffer.\n
+Tipo de comodin incorrecto
+174:
+
+175:
+El Program Pointer (PP)\n
+no se puede fijar!\n
+Estado incorrecto
+176:
+El cursor se mueve al\n
+Program Pointer (PP)
+177:
+Dato de "solo lectura"\n
+y no puede cambiarse.
+178:
+No se pueden crear nuevas\n
+señales. Usar predefinidas.
+179:
+Datos de sistema!\n
+No se accede a la\n
+declaracion de datos.
+180:
+Argumento de Funciones
+181:
+Argumento de Instrucciones
+182:
+Expresion
+183:
+Seleccionar Procedimiento
+184:
+Debe ser un dato
+185:
+Sintaxis erronea\n
+Valor no permitido
+186:
+Mover
+187:
+No hay seleccionada\n
+ninguna rutina
+188:
+No se puede incluir\n
+la instruccion\n
+El IPL esta lleno!
+189:
+Programa guardado.
+190:
+Nombre                    Tipo
+191:
+Rutina Main
+192:
+Seleccionar un Programa o un Modulo
+193:
+Guarda mod como:
+194:
+Guarda prg como:
+195:
+Cursor debe estar en la\n
+misma parte de la rutina\n
+que el PP!
+196:
+Result
+197:
+Incl.
+198:
+Excl.
+199:
+
+200:
+Config
+201:
+Resultado Mas Comun
+202:
+Configura Mas Comun
+203:
+Procedimiento
+204:
+Funcion
+205:
+Trap
+206:
+Variable
+207:
+Constante
+208:
+Persistente
+209:
+IF
+210:
+WHILE
+211:
+FOR
+212:
+TEST
+213:
+GOTO
+214:
+ProcCall
+215:
+Label
+216:
+:=
+217:
+RETURN
+218:
+RAISE
+219:
+CONNECT
+220:
+EXIT
+221:
+RETRY
+222:
+TRYNEXT
+223:
+Compact IF
+224:
+Comentario
+225:
+
+226:
+Rutina seleccionada
+227:
+Valor
+228:
+Valor Literal
+229:
+-
+230:
+.
+231:
+  In
+232:
+rutina
+233:
+modulo
+234:
+param
+235:
+No Alt.
+236:
+Primero
+237:
+Ultimo
+238:
+Seleccionar tipo de dato:
+239:
+Gestor de Errores
+240:
+Gestor ERRORES
+241:
+
+242:
+Seleccionar
+243:
+(No)
+244:
+Alcanzado limite para el\n
+movimiento de marcado
+245:
+Verificar Programa
+246:
+Ir a posicion seleccionada
+247:
+Programa OK!
+248:
+Un parametro no puede\n
+tener el mismo nombre que\n
+otro parametro!!
+249:
+
+250:
+TRUE
+251:
+FALSE
+252:
+ AND
+253:
+ XOR
+254:
+ OR
+255:
+ NOT
+256:
+ DIV
+257:
+ MOD
+258:
+
+259:
+
+260:
+
+261:
+La rutina trap no admite\n
+parametros
+262:
+Cerrar Programa
+263:
+Gestor Atras
+264:
+wobj0
+265:
+Tool o Wobj de la instruc-\n
+cion no es la misma\n
+que en mov. manual!
+266:
+Definir Coord.
+267:
+
+268:
+
+269:
+
+270:
+
+271:
+
+272:
+
+273:
+
+274:
+Añadir gestor de errores
+275:
+Borrar gestor de errores
+276:
+No existe gestor errores\n
+para esta rutina\n
+Usar Rutina:Añadir...
+278:
+todos datos
+279:
+Ejecutando!
+280:
+El Modulo se ha guardado
+281:
+Crear/cargar un programa\n
+para acceder a modulo de\n
+sistema. Alguno ya cargado!
+282:
+Matrices de estructuras no\n
+se pueden aun tratar!.
+283:
+ModPos OK!\n
+El puntero (PP) se mueve\n
+a la siguiente instruccion
+284:
+Quiere borrar:
+285:
+Quiere cortar:
+286:
+Añadir Gestor Atras
+287:
+Borrar Gestor Atras
+288:
+No existe gestor Atras\n
+para esta rutina\n
+Usar Rutina:Añadir...
+289:
+Gestor ATRAS
+290:
+InOut
+291:
+\n
+Quiere guardar el programa anterior\n
+%s\n
+antes de reemplazarlo con\n
+%s?
+292:
+Objeto no se puede borrar\n
+en esta ventana!!!\n
+Usar Ver:...
+293:
+Conten.
+294:
+Inserta
+295:
+Preferencias
+296:
+Mas Comunes 3
+297:
+Expresion muy larga para\n
+edicion online. Se puede\n
+editar por partes o offline
+298:
+
+299:
+Sustitucion programa!\n
+El programa actual se va\n
+a sustituir.\n
+\n
+OK para continuar?
+300:
+Servicio
+301:
+i
+302:
+Ajustes mov. avanz.
+303:
+Mov. Avanzados
+304:
+Ordenador ext.
+305:
+Multitarea
+306:
+Soporte RAPID
+307:
+Autorizar Programa
+308:
+Borrar Instr
+309:
+Borrar Obj
+310:
+El curso no coincide con el\n
+Program Pointer (PP)!!\n
+Arrancar el programa desde:
+311:
+Cursor
+312:
+  PP
+313:
+Conf.Inicio
+314:
+\n
+Espere por favor!\n
+Cargando programa...!
+315:
+\n
+Espere por favor!\n
+Cargando modulo..!
+316:
+\n
+Espere por favor!\n
+Salvando programa...!
+317:
+\n
+Espere por favor!\n
+Salvando modulo...!
+318:
+El modulo '%s'\n
+ya existe!\n
+\n
+Quiere reemplazarlo?
+319:
+No hay rutinas
+320:
+No hay datos
+321:
+Sin parametros
+322:
+.prg
+323:
+.PRG
+324:
+.mod
+325:
+.MOD
+326:
+.sys
+327:
+.SYS
+328:
+Parar Instruccion
+329:
+ParaInst
+330:
+Ventana de programa no\n
+se puede usar en modo\n
+automatico.\n
+Cambiar a modo manual!
+331:
+El robot se esta moviendo\n
+a posicion seleccionada!!
+332:
+Arrancar movimiento robot\n
+a la posicion seleccionada
+333:
+Simulando
+334:
+Seleccionar opciones simulacion
+335:
+Permitir ejecucion con MOTORS OFF
+336:
+Datos sistema
+337:
+Datos usuario
+338:
+Area seleccionada
+339:
+Memoria trabajo llena!!\n
+\n
+Usar el menu Archivo para\n
+guardar el programa.\n
+Guardar es necesario!
+340:
+Mod Pos no permitida en\n
+una posicion declarada\n
+como Variable.
+341:
+Variable de bucle!\n
+Solo se puede acceder\n
+desde la instruccion FOR.
+342:
+Ocultar IPL
+343:
+Mostrar IPL
+344:
+Mas
+345:
+En Modulo:
+346:
+Seleccionar modulo:
+347:
+en
+348:
+Def.datos
+349:
+Usados
+350:
+Todos
+351:
+Instrucciones
+352:
+
+353:
+Modificar Posicion
+354:
+Tipo
+355:
+
+356:
+No utilizado
+357:
+ModPos
+358:
+LModPos
+359:
+Trans Max
+360:
+Rot Max
+361:
+Trans Max Externa
+362:
+Rot Max Externa
+363:
+Modo
+364:
+Abs
+365:
+Rel
+366:
+Posicion actual fuera de\n
+limites segun la funcion\n
+ModPos limitada.
+367:
+Nombre de posicion actual\n
+demasiado largo para la\n
+funcion ModPos limitada.
+368:
+ModPos limitado activo\n
+pero no es posible\n
+crear datos.
+369:
+Error ModPos limitado!
+370:
+Ajuste en Auto
+371:
+
+372:
+\n
+Quiere guardar el programa anterior\n
+%s\n
+antes de crear uno nuevo?
+373:
+\n
+El modulo de sistema '%s'\n
+Cambiado pero no guardado!\n
+\n
+Quiere guardar el modulo de sistema?
+374:
+Los modulos de sistema siguientes\n
+han cambiado y no se han guardado.\n
+%s\n
+\n
+Quiere guardar los modulos de sistema?
+375:
+Edit. Progr.
+376:
+present
+377:
+Quiere entrar en el programa a editar?
+378:
+matriz
+379:
+Si Auto
+380:
+Nivel usuario req.
+381:
+LModPos
+382:
+Como es
+383:
+Edita
+384:
+No Req
+385:
+Rutinas
+386:
+En Rutina
+387:
+En Modulo
+388:
+En Sistema
+389:
+Impresion Modulo Programa
+390:
+Imprime
+391:
+Impr.solo a archivo:
+392:
+A Imprimir
+393:
+Imprimir programa a archivo:
+394:
+Imprimiendo !
+395:
+  Cancelar pulsando Enter
+396:
+Pulsar Enter para Continuar
+397:
+Impresora ocupada\n
+\n
+Intentelo cuando este lista!
+398:
+No puedo imprimir por tener\n
+demasiados mensajes en cola\n
+\n
+Intentelo despues!
+399:
+No puedo imprimir porque el\n
+dispositivo de impresion no\n
+esta configurado en parametros.
+400:
+No hay espacio suficiente en\n
+unidad usada para imprimir\n
+(%.9s). Necesito %d bytes\n
+Mover/Borrar algunos archivos.
+401:
+  Ocupado\n
+ \n
+  Espere por favor
+402:
+No puedo crear/escribir archivo\n
+\n
+
+403:
+ Archivo ya existe
+404:
+ Programa
+405:
+Info Ejec. programa
+406:
+Posicion Ejec. Prog.
+407:
+Quiere cerrar:

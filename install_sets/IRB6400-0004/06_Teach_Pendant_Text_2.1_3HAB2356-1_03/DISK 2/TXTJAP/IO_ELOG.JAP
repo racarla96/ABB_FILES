@@ -1,0 +1,805 @@
+27::
+0:
+IO & Communication
+1000:
+Bus name invalid\n
+Description\Reason:\n
+- Driver %s: has an invalid bus name\n
+\t\n
+Check list:\n
+1. Change the busname for the driver
+1001:
+Duplicated address\n
+Description\Reason:\n
+- Same address for unit %s and %s\n
+\t\n
+Check list:\n
+1.Check the address\n
+2.Check the bus
+1002:
+Invalid driver\n
+Description\Reason:\n
+- Unit %s: has an unspecified driver\n
+\t\n
+Check list:\n
+1.Check the drivers against the one\n
+  specified for the unit
+1003:
+Invalid unit\n
+Description\Reason:\n
+- The unit specified for the signal %s\n
+  is not specified in the unit section\n
+\t\n
+Check list:\n
+1.Change the name of the unit\n
+2.Add a new unit to the unit list
+1004:
+Invalid signal length\n
+Description\Reason:\n
+- The length of the digital\n
+  signal %s must be 1\n
+\t\n
+Check list:\n
+1.Change the length to 1 or remove\n
+  the statement.
+1005:
+Filter time invalid\n
+Description\Reason:\n
+- Signal %s: The passive filter time\n
+  should be 0 or %d - %d ms\n
+\t\n
+Check list:\n
+1.Change the filter time
+1006:
+Filter time invalid\n
+Description\Reason:\n
+- Signal %s: The active filter time\n
+  should be 0 or %d - %d ms\n
+\t\n
+Check list:\n
+1.Change the filter time
+1007:
+Logic. value out of range\n
+Description\Reason:\n
+- Signal %s: Logical Max is less or\n
+  equal to Logical Min\n
+\t\n
+Check list:\n
+1.Correct the values to be max greater\n
+  than min
+1008:
+Phys. value out of range\n
+Description\Reason:\n
+- Signal %s: Physical Max is less or\n
+  equal to Physical Min\n
+\t\n
+Check list:\n
+1.Correct the values to be max greater\n
+  than min
+1009:
+Type invalid\n
+Description\Reason:\n
+- Signal %s: the type of signal\n
+  is invalid\n
+\t\n
+Check list:\n
+1.Change the type
+1010:
+Signal out of range\n
+Description\Reason:\n
+- Signal %s: the physical signal\n
+  number + length -1 is > %d\n
+\t\n
+Check list:\n
+1.Change the physical signal number\n
+2.Change the length
+1011:
+Driver not supported\n
+Description\Reason:\n
+- The driver %s is not supported\n
+\t\n
+Check list:\n
+1. Change the name of the driver
+1012:
+Memory overflow\n
+Description\Reason:\n
+- Board %s: Too many boards\n
+  for specified driver type\n
+\t\n
+Check list:\n
+1. Change number of boards for the\n
+   driver at driver configuration.
+1013:
+Wrong type of board\n
+Description\Reason:\n
+- Wrong type of board connected\n
+  to address %d\n
+\t\n
+Check list:\n
+1. Check the board type at given address
+1014:
+Board missing\n
+Description\Reason:\n
+- No board connected at given\n
+  address %d\n
+\t\n
+Check list:\n
+1. Connect a board to the slot\n
+2. Change the board address
+1015:
+Digital Input overflow\n
+Description\Reason:\n
+- Number of digital input channels\n
+  for board %s is greater\n
+  than %d\n
+\t\n
+Check list:\n
+1. Reduce the number digital inputs
+1016:
+Digital Output overflow\n
+Description\Reason:\n
+- Number of digital output channels\n
+  for board %s is greater\n
+  than %d\n
+\t\n
+Check list:\n
+1. Reduce the number of digital outputs
+1017:
+No activate signal\n
+Description\Reason:\n
+- Missing activate signal for cross\n
+\t\n
+Check list:\n
+1. One activate signal must be given
+1018:
+Activate signal overflow\n
+Description\Reason:\n
+-Number of activate signals for\n
+ cross too high\n
+\t\n
+Check list:\n
+1. Only one activate signal must\n
+   be given
+1019:
+Missing signal definition\n
+Description\Reason:\n
+-The signal: %s, at cross is\n
+ not defined\n
+\t\n
+Check list:\n
+1. Define the signal name\n
+   in signal section
+1020:
+No result signal\n
+Description\Reason:\n
+- Missing result signal\n
+\t\n
+Check list:\n
+1. At least one result signal must\n
+   be given
+1021:
+Duplicate cross signals\n
+Description\Reason:\n
+- The signal: %s, appears both as FROM\n
+  and as TO.\n
+\t\n
+Check list:\n
+1. The same signal can not be given for\n
+   both FROM and TO
+1022:
+Physical max too high\n
+Description\Reason:\n
+- Signal: %s\n
+- The physical max value > %d\n
+\t\n
+Check list:\n
+1. Change value in configuration
+1023:
+Physical min too low\n
+Description\Reason:\n
+- Signal: %s\n
+- The physical min value < %d\n
+\t\n
+Check list:\n
+1. Change value in configuration
+1024:
+Physical value too high\n
+Description\Reason:\n
+- Signal: %s\n
+- Current value = %d > Maxvalue = %d\n
+- Value set to Maxvalue\n
+\t\n
+Check list:\n
+1. Change physical max value in\n
+   configuration
+1025:
+Physical value too low\n
+Description\Reason:\n
+- Signal: %s\n
+- Current value = %d < Minvalue = %d\n
+- Value set to Minvalue\n
+\t\n
+Check list:\n
+1. Change physical min value in\n
+   configuration
+1026:
+Logical value too high\n
+Description\Reason:\n
+- Signal: %s\n
+- Current value = %d > Maxvalue = %d\n
+- Value set to Maxvalue\n
+\t\n
+Check list:\n
+1. Change logical max value in\n
+   configuration
+1027:
+Logical value too low\n
+Description\Reason:\n
+- Signal: %s\n
+- Current value = %d < Minvalue = %d\n
+- Value set to Minvalue\n
+\t\n
+Check list:\n
+1. Change logical min value in\n
+   configuration
+1028:
+Config. out of range\n
+Description\Reason:\n
+- The RIO starting quarter and rack\n
+  size is out of range for\n
+  board %s\n
+\t\n
+Check list:\n
+1. For starting quarter 0 rack size\n
+   must be less than 4
+1029:
+Config. out of range\n
+Description\Reason:\n
+- The RIO starting quarter and rack\n
+  size is out of range for\n
+  board %s\n
+\t\n
+Check list:\n
+1. For starting quarter 1 rack size\n
+   must be less than 3
+1030:
+Config. out of range\n
+Description\Reason:\n
+- The RIO starting quarter and rack\n
+  size is out of range for\n
+  board %s\n
+\t\n
+Check list:\n
+1. For starting quarter 2 rack size\n
+   must be less than 2
+1031:
+Config. out of range\n
+Description\Reason:\n
+- The RIO starting quarter and rack\n
+  size is out of range for\n
+  board %s\n
+\t\n
+Check list:\n
+1. For starting quarter 3 rack size\n
+   must be 0
+1032:
+Communication fail\n
+Description\Reason:\n
+- The RIO board has lost communication\n
+  with the PLC at board\n
+  address %d\n
+\t\n
+Check list:\n
+1. Check the communication cable to PLC\n
+2. Check of if the PLC is switched off
+1033:
+Dig. input out of range\n
+Description\Reason:\n
+- The number of digital inputs is\n
+  out of range at board address %d\n
+  max inputs are %d\n
+\t\n
+Check list:\n
+1. Change the configuration for\n
+   the board
+1034:
+Dig. output out of range\n
+Description\Reason:\n
+- The number of digital outputs is\n
+  out of range at board address %d\n
+  max outputs are %d\n
+\t\n
+Check list:\n
+1. Change the configuration for\n
+   the board
+1035:
+Start quart. out of range\n
+Description\Reason:\n
+- The starting quarter is\n
+  out of range for board %s\n
+\t\n
+Check list:\n
+1. The starting quarter must be within\n
+   the values 0 to 3. change the config\n
+   file.
+1036:
+Name out of range\n
+Description\Reason:\n
+- The number of characters in\n
+- name %s\n
+- is greater than %d characters or\n
+- the name is missing.\n
+\t\n
+Check list:\n
+1. Give a new name that fits within\n
+   the limits.
+1037:
+IO Cross connection fault\n
+Description\Reason:\n
+- The signal %s appears on both\n
+  FROM and TO in the same chain\n
+\t\n
+Check list:\n
+1. Correct the configuration for the\n
+cross connections where the signal above\n
+is connected.
+1038:
+IO Cross depth to high\n
+Description\Reason:\n
+- The Cross connection in the same chain\n
+- is too deep.\n
+- First signal name: %s\n
+\t\n
+Check list:\n
+1. Make the Cross connection less deep.
+1039:
+Max instance out of range\n
+Description\Reason:\n
+- The max number of instances for\n
+- driver %s is out of range.\n
+\t\n
+Check list:\n
+1. Make sure that the number of\n
+   instances is greater than 0,\n
+   and not more than number of IO slots.
+1040:
+RIO link addr out of rang\n
+Description\Reason:\n
+- The RIO link address for board\n
+- %s is out of range.\n
+\t\n
+Check list:\n
+1. Make sure that the RIO link address\n
+   is greater than 0, and less than 64.
+1041:
+Analog output overflow\n
+Description\Reason:\n
+- Number of analog output for\n
+- board, %s is greater than %d.\n
+\t\n
+Check list:\n
+1. Reduce the number of analog outputs.
+1042:
+Analog inputs overflow\n
+Description\Reason:\n
+- Number of analog inputs for\n
+- board, %s is greater than %d.\n
+\t\n
+Check list:\n
+1. Reduce the number of analog inputs.
+1043:
+Signal type error\n
+Description\Reason:\n
+- The type specified for signal %s\n
+ can't be connected to specified board\n
+\t\n
+Check list:\n
+1. Change to another type.\n
+2. Change to another board.
+1044:
+Physical signal overflow\n
+Description\Reason:\n
+- The range of phsig, or length, or\n
+  phsig and length for signal %s is\n
+  greater than %d\n
+\t\n
+Check list:\n
+1. Change the physical signal number\n
+2. Change the length.
+1045:
+Filter specification err.\n
+Description\Reason:\n
+- Signal %s : No filter time can be\n
+  specified for this type of signal.\n
+\t\n
+Check list:\n
+1. Set filter time to 0 or remove the\n
+   statement.
+1046:
+Scaling error\n
+Description\Reason:\n
+- Signal %s: No scaling can be done.\n
+\t\n
+Check list:\n
+1. Remove the scaling statements.
+1049:
+Parameter Invert error\n
+Description\Reason:\n
+- Signal %s: This type of signal\n
+ can't be inverted.\n
+\t\n
+Check list:\n
+1. Only digital signals can be inverted.
+1050:
+Cross signal not digital.\n
+Description\Reason:\n
+- Signal %s: Is not a digital signal\n
+\t\n
+Check list:\n
+1. Only digital signals can be cross.\n
+   connected.
+1051:
+Link address not octal.\n
+Description\Reason:\n
+- Signal %s: The RIO address is not in\n
+  octal form\n
+\t\n
+Check list:\n
+1. Reenter a new address in octal form.
+1052:
+Cross table full.\n
+Description\Reason:\n
+- The sum of different FROM signals\n
+  added with total sum of TO signals\n
+  must not exceed %d\n
+\t\n
+Check list:\n
+1. Reduce the number of signals.\n
+2. Increase the number of crosscon.\n
+   allowed.
+1053:
+Connection to board down\n
+Description\Reason:\n
+- Can't access the board due to\n
+  communication is down\n
+\t\n
+Check list:\n
+1. Check the communication cable to\n
+   the board\n
+2. Check if the board is switched off
+1054:
+Wrong signal type\n
+Description\Reason:\n
+- Signal %s:\n
+  The type of signal is wrong\n
+\t\n
+Check list:\n
+1. Change the type
+1055:
+Invalid signal name\n
+Description\Reason:\n
+- Symbol %s: is not defined\n
+\t\n
+Check list:\n
+1. Change the symbol name above
+1056:
+Power fail restore full\n
+Description\Reason:\n
+- Symbol %s: could not be setup for\n
+  power failure restore.\n
+  The table for power fail is full.\n
+\t\n
+Check list:\n
+1. Increase the table size in\n
+   startup file.\n
+2. Remove some other signal from restore\n
+   list.
+1057:
+DSQC319 Board missing\n
+Description\Reason:\n
+- No board of type DSQC319\n
+  connected at address %d\n
+\t\n
+Check list:\n
+1. Connect a board to the slot\n
+2. Change the board address
+1058:
+No contact with Can node\n
+Description\Reason:\n
+- No contact with Can node\n
+  connected at node address %d\n
+\t\n
+Check list:\n
+1. Check the node addresses on all\n
+   can modules connected to the can bus\n
+2. Change the node address
+1059:
+Error config. Can node\n
+Description\Reason:\n
+- Error when configuring Can node\n
+  connected at node address %d\n
+\t\n
+Check list:\n
+1. Correct the configuration for the\n
+   Can node at given address.
+1060:
+DSQC319 Internal error\n
+Description\Reason:\n
+- The DSQC319 board\n
+  connected at address %d\n
+  have an internal error\n
+\t\n
+Check list:\n
+1. Check if the CAN bus works correcltly\n
+2. Check if DSQC319 works correctly
+1061:
+Can bus error\n
+Description\Reason:\n
+- Abnormal occurrenses of error\n
+  on the Can bus connected to DSQC319\n
+  at address %d\n
+\t\n
+Check list:\n
+1. Check the communication cable to\n
+   the Can bus
+1062:
+D319 receive buffer full\n
+Description\Reason:\n
+- Receive buffer is full on board\n
+  connected at address %d.\n
+  Messages may be lost\n
+\t\n
+Check list:\n
+1. Reduce the number of nodes on the\n
+   Can bus.
+1063:
+Can message lost\n
+Description\Reason:\n
+- Can messages is lost on board\n
+  connected at address %d.\n
+\t\n
+Check list:\n
+1. Reduce the number of nodes on the\n
+   Can bus.
+1064:
+IOC generated fault\n
+Description\Reason:\n
+- IOC signals fault to the\n
+  dsqc260 board at address %d.\n
+\t\n
+Check list:\n
+1. Check the IOC.
+1065:
+DSQC260 generated fault\n
+Description\Reason:\n
+- DSQC260 board at address %d\n
+  signals fault.\n
+\t\n
+Check list:\n
+1. Check the dsqc260 board.
+1066:
+InterBus-S inactive\n
+Description\Reason:\n
+- InterBus-S connected to\n
+  dsqc260 board at address %d\n
+  inactive.\n
+\t\n
+Check list:\n
+1. Check the InterBus-S nodes.
+1067:
+InterBus-S unconnected\n
+Description\Reason:\n
+- InterBus-S attached to\n
+  dsqc260 board at address %d\n
+  unconnected or IBS master\n
+  in reset mode.\n
+\t\n
+Check list:\n
+1. Check the InterBus-S nodes.\n
+2. Check the InterBus-S master.
+1068:
+IOC OK\n
+Description\Reason:\n
+- IOC previously faulty, now OK.\n
+  Fault message was sent to\n
+  dsqc260 board at address %d.\n
+\t\n
+Check list:\n
+1. Do nothing.
+1069:
+DSQC260 OK\n
+Description\Reason:\n
+- DSQC260 board at address %d\n
+  previously faulty, now OK.\n
+\t\n
+Check list:\n
+1. Do nothing.
+1070:
+InterBus-S active\n
+Description\Reason:\n
+- InterBus-S connected to\n
+  dsqc260 board at address %d\n
+  previously inactive, now OK.\n
+\t\n
+Check list:\n
+1. Do nothing.
+1071:
+InterBus-S connected\n
+Description\Reason:\n
+- InterBus-S attached to\n
+  dsqc260 board at address %d\n
+  previously unconnected or IBS master\n
+  in reset mode, now OK.\n
+\t\n
+Check list:\n
+1. Do nothing.
+1072:
+No save set on signal\n
+Description\Reason:\n
+- Signal %s\n
+  has not Set the Store attribute to YES\n
+\t\n
+Check list:\n
+1. Set the Store attribute.
+1073:
+Cont establ with Can node\n
+Description\Reason:\n
+- Contact established with Can node\n
+  connected at node address %d\n
+\t\n
+Check list:\n
+1. Do nothing.
+1074:
+Config. out of range\n
+Description\Reason:\n
+- The IBS starting quarter and rack\n
+  size is out of range for\n
+  board %s\n
+\t\n
+Check list:\n
+1. For starting quarter 1 rack size\n
+   must be less than 5
+1075:
+Access error from IO\n
+Description\Reason:\n
+- Cannot Read or Write from/to IO\n
+  board due to communication down\n
+\t\n
+Check list:\n
+1. Check com.fail report for reason
+1076:
+Comm error from rtp1\n
+Description\Reason:\n
+- No response from the\n
+  serial line\n
+\t\n
+Check list:\n
+1. Check the device or connection
+1077:
+Comm error from rtp1\n
+Description\Reason:\n
+- Not possible to deliver\n
+  the received message\n
+\t\n
+Check list:\n
+1. Check the communication flow
+1078:
+Comm error from rtp1\n
+Description\Reason:\n
+- The response from the device\n
+  has a non valid frame sequence\n
+\t\n
+Check list:\n
+1. Check for noise on the serial\n
+   line
+1079:
+Pulsing group output\n
+Description\Reason:\n
+- Pulsing group output not allowed.\n
+\t\n
+Check list:\n
+1. ---
+1080:
+Driver table full.\n
+Description\Reason:\n
+- The number of drivers\n
+  must not exceed %d\n
+\t\n
+Check list:\n
+1. Reduce the number of drivers.\n
+2. Increase the number of drivers\n
+   allowed.
+1081:
+Physical table full.\n
+Description\Reason:\n
+- The number of physical signals\n
+  must not exceed %d\n
+\t\n
+Check list:\n
+1. Reduce the number of physical\n
+   signals.\n
+2. Increase the number of phs allowed.
+1082:
+Signal table full.\n
+Description\Reason:\n
+- The number of user defined signals\n
+  must not exceed %d\n
+\t\n
+Check list:\n
+1. Reduce the number of signals.\n
+2. Increase the number of signals\n
+   allowed.
+1083:
+Symbol table full.\n
+Description\Reason:\n
+- The number of symbols\n
+  must not exceed %d\n
+\t\n
+Check list:\n
+1. Reduce the number of symbols.\n
+2. Increase the number of symbols\n
+   allowed.
+1084:
+Triggr table full.\n
+Description\Reason:\n
+- The number of Subcribed signals\n
+  must not exceed %d\n
+\t\n
+Check list:\n
+1. Reduce the number of Subcribed\n
+   signals.\n
+2. Increase the number of Subcribtions\n
+   allowed.
+1085:
+Unit table full.\n
+Description\Reason:\n
+- The number of boards\n
+  must not exceed %d\n
+\t\n
+Check list:\n
+1. Reduce the number of dfined boards.\n
+2. Increase the number of boards\n
+   allowed.
+1086:
+Com. OK with RIO\n
+Description\Reason:\n
+- Contact established with RIO node\n
+  connected at node address %d\n
+\t\n
+Check list:\n
+1. Do nothing.
+1094:
+Too many cross-actors def\n
+Description\Reason:\n
+- The cross-connection has too\n
+  many "From" signals : %s\n
+\t\n
+Check list:\n
+1. Check the cross configuration.
+1095:
+Too long cross-actor str\n
+Description\Reason:\n
+- The "From" part in the cross-string\n
+  is too long : %s\n
+\t\n
+Check list:\n
+1. Check the cross configuration.
+1096:
+PLC in programming mode\n
+Description\Reason:\n
+- Can't access the board due to\n
+  the PLC in programming mode\n
+  or the it is configured\n
+  incorrectly.\n
+\t\n
+Check list:\n
+1. PLC in programming mode\n
+2. Check PLC configuration
+1097:
+Parameter store error\n
+Description\Reason:\n
+- Signal %s: This type of signal\n
+ can't have store option.\n
+\t\n
+Check list:\n
+1. Only digital signals can have store.

@@ -1,0 +1,332 @@
+Revision 1.9  1995/12/15  14:10:54  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.8  1995/04/21  13:29:57  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.7  1994/08/19  10:48:07  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+8::
+0:
+Service
+1:
+Log
+2:
+
+3:
+
+4:
+
+5:
+Calibration
+6:
+Commutation
+7:
+Calib
+8:
+(Calibrate Manually...)
+9:
+Calibrate...
+10:
+Rev.Counter Update...
+11:
+(Show Measured Position...)
+12:
+Overwriting log!\n
+Existing log will be\n
+overwritten.\n
+\n
+OK to continue?
+
+13:
+Unit            Status
+14:
+   Axis       Status
+15:
+External control
+
+16:
+To calibrate, include axes and press OK.
+17:
+Incl
+18:
+Excl
+19:
+All
+20:
+Synchronized
+21:
+Unsynchronized
+22:
+Not Calibrated
+23:
+Rev.Counter Not updated
+24:
+Calibrated
+25:
+Rev.Counter updated
+26:
+The Calibration will be updated with\n
+input values.\n
+It cannot be undone!\n
+\n
+OK to continue?
+27:
+The Calibration for all marked axes\n
+will be changed.\n
+It cannot be undone!\n
+\n
+OK to continue?
+28:
+The Rev.Counter for all marked\n
+axes will be updated.\n
+It cannot be undone!\n
+\n
+OK to continue?
+29:
+No axis is included.\n
+\n
+\n
+\n
+Press Enter to try again!
+30:
+Calibration process Started!\n
+\n
+Ready in a few seconds...
+31:
+Not Commutated
+32:
+Init state
+33:
+Com
+34:
+(Commutate Manually...)
+35:
+Commutate...
+36:
+\n
+Saving log to file...
+37:
+To commutate, include axes and press OK.
+38:
+The Commutation will be updated with\n
+input values.\n
+It cannot be undone!\n
+\n
+OK to continue?
+39:
+The Commutation for all marked axes\n
+will be changed.\n
+It cannot be undone!\n
+\n
+OK to continue?
+40:
+Commutated
+41:
+No axis is included\n
+\n
+\n
+\n
+Press Enter to try again!
+42:
+Commutation process Started!\n
+\n
+Ready in a few seconds...
+43:
+Some mech units are not\n
+commutated. Select\n
+"Commutation" in the View\n
+menu.\n
+Press Enter to proceed!
+44:
+Date & Time...
+45:
+Date:
+46:
+Time:
+47:
+<
+48:
+>
+49:
+System Info...
+50:
+Msg
+51:
+Name                 #     Latest
+52:
+Messages
+53:
+Erase Log
+54:
+Erase All Logs
+55:
+Special
+56:
+Logs
+57:
+Message                  Date
+58:
+No message to show!
+59:
+Update
+60:
+Update log on Command
+61:
+Update log on Event
+62:
+All messages in log %s\n
+will be erased.\n
+\n
+OK to continue?
+63:
+All messages in all logs\n
+will be erased.\n
+\n
+OK to continue?
+64:
+Save %s log messages as!
+65:
+ELOG
+66:
+%s log messages\n
+Date of saving: %s\n
+
+67:
+Goto Line!
+68:
+Line:=
+69:
+Error:
+70:
+Restart...
+71:
+Restart command!\n
+Do you wish to restart\n
+the control.\n
+\n
+OK to continue?
+72:
+Status:
+73:
+Warning:
+74:
+Save Log messages as!
+75:
+Frame Definition
+76:
+Unit                Type
+77:
+Select a unit for which a frame\n
+definition should be performed.\n
+Only units possible to define\n
+frame for are shown in the list.
+78:
+Def...
+79:
+Robot IRB1400
+80:
+Robot IRB1400
+81:
+Robot IRB2400
+82:
+Robot IRB2400
+83:
+Robot IRB3400
+84:
+Robot IRB6400
+85:
+Robot IRBPAL
+86:
+Orbit 160B_1
+87:
+Orbit 160B_2
+88:
+Gantry
+89:
+Track
+90:
+External position
+91:
+Tool rotational
+92:
+Free rotational
+93:
+BaseFrame...
+94:
+Cannot save log!\n
+Not enough space on disk or\n
+disk is write protected.\n
+\n
+Press Enter to try again!
+95:
+Not Used
+96:
+Two Axes Definition
+97:
+Select a unit for which an axes\n
+definition should be performed.\n
+Only valid two axes units are\n
+shown in the list.
+98:
+Def...
+99:
+Two Axes Definition...
+100:
+(Def)
+101:
+No valid units are available.
+102:
+Topics
+103:
+Select topic and press Enter
+104:
+Robot IRB4400
+105:
+Robot IRB540_FLX
+106:
+Robot IRB5400_HLW
+108:
+Storage capacity
+109:
+Task state
+110:
+System ID
+111:
+Product ID
+112:
+Robot type
+113:
+uninit
+114:
+ready
+115:
+executing
+116:
+stopped
+117:
+undefined
+118:
+Update
+119:
+Task
+120:
+Free
+121:
+Total
+122:
+Task state
+123:
+Device
+124:
+Program resources
+125:
+Max number of PERS variables:
+126:
+Total memory before task config:
+127:
+Not available

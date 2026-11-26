@@ -1,0 +1,39 @@
+15::
+1:
+Modif. objet impossible!\n
+Module de declaration en\n
+lecture seule.
+2:
+Modif. objet impossible!\n
+Module de declaration en\n
+visualisation seule.
+3:
+Nom non autorise! Doit\n
+commencer par une lettre.\n
+Aucun mot reserve autorise.
+4:
+Le sens d'execution ne\n
+peut etre change dans une\n
+instruction complexe!
+5:
+Le sens d'execution ne\n
+peut etre change dans cette\n
+routine!
+6:
+Erreur(s) de syntaxe RAPID\n
+dans le programme.
+7:
+Execution precedente instr\n
+impossible dans un bloc ou\n
+une routine!
+8:
+PP ne peut etre mis a la\n
+place demandee.
+9:
+Module de declaration non\n
+visible. Modif., sauv.,\n
+impr. objet impossible!
+10:
+Module de declaration non\n
+visible. la routine ne peut\n
+etre vue.

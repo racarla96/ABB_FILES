@@ -1,0 +1,943 @@
+Revision 1.11  1995/12/15  13:29:18  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.10  1995/04/21  13:13:03  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.9  1994/08/19  09:40:30  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+3::
+0:
+Programredigering
+1:
+Option
+2:
+IPL1
+3:
+IPL2
+4:
+Test
+5:
+Rutin
+6:
+Data
+7:
+Modullista...
+8:
+Spara modul
+9:
+Spara modul som...
+10:
+
+11:
+Spara program
+12:
+Spara program som...
+13:
+Använd IPL (Instr. plock\n
+lista) för att lägga till\n
+en instruktion!
+14:
+Ändra markerad
+15:
+Markera
+16:
+Avmarkera
+17:
+Instr.
+18:
+Program Instr
+19:
+Program Test
+20:
+Rutiner
+21:
+Data
+22:
+Datatyper
+23:
+Test
+24:
+Moduler
+25:
+Tryck Enter!
+26:
+Flytta markören till PP
+27:
+Flytta PP till början
+28:
+Flytta PP till rutin
+29:
+Diverse
+30:
+Rörelse&Process
+31:
+Programflöde
+32:
+Vanlig
+33:
+Rörelseinställning
+34:
+Avbrott
+35:
+IO
+36:
+Kommunikation
+37:
+Prog. Datatyper
+38:
+Felhantering
+39:
+System&Tid
+40:
+Händelselogg
+41:
+Program
+42:
+Flytta PP till markör
+43:
+Sätt brytpunkt
+44:
+Radera brytpunkt
+45:
+Brytpunkter...
+46:
+Simulera...
+47:
+System
+48:
+switch
+49:
+I modul
+50:
+Data
+51:
+Deklaration...
+52:
+Duplicera...
+53:
+Ny rutin...
+54:
+Typer
+55:
+I rutin
+56:
+Nytt...
+57:
+Värde
+58:
+Läge
+59:
+Instr
+60:
+Test
+61:
+IPLvisa
+62:
+-%
+63:
++%
+64:
+Starta
+65:
+Sim
+66:
+Förskjut
+67:
+Ny
+68:
+Dekl
+69:
+Dupl
+70:
+Var
+71:
+Funk
+72:
+Spegla...
+73:
+Omvänd Kopiering...
+74:
+Vanligast 1
+75:
+Vanligast 2
+76:
+\n
+Var vänlig vänta!\n
+Sorterar symboler ...
+77:
+Återst. kan inte göras.\n
+Lämna Search & Replace dia-\n
+logen genom att trycka OK.
+78:
+Vald modul har inga rutiner\n
+Föregående beslut är\n
+valda.
+79:
+
+80:
+
+81:
+Hast:=
+82:
+Körning:=
+83:
+
+84:
+
+85:
+
+86:
+Namn             Värde
+87:
+Namn             Typ
+88:
+
+89:
+
+90:
+Matematik
+91:
+Program Körning
+92:
+Namn             Värde           Modul
+93:
+Namn             Typ              Modul
+94:
+(Läge)
+95:
+Data
+96:
+Funk
+97:
+Inga objekt
+98:
+Fel syntax
+99:
+Detta är inte ett program\n
+eller en programmodul.\n
+Försök igen!
+100:
+Siffror ej tillåtna,\n
+använd fördef. data
+101:
+Nästa
+102:
+Program Rutiner
+103:
+Program Data
+104:
+OptArg
+105:
+(Info)
+106:
+Proc
+107:
+Lokal
+108:
+Global
+109:
+Namn:=
+110:
+Räckvidd:=
+111:
+Typ:=
+112:
+Datatyp:
+113:
+Felaktig datadeklaration\n
+Kontrollera namn och värde
+114:
+Konst
+115:
+Ändra
+116:
+Inget program att visa.\n
+\n
+Använd Arkiv-menyn att\n
+öppna ett program
+117:
+Datatyp:=
+118:
+Label
+119:
+Infoga före:
+120:
+Namn           Datatyp     Req Alt. Mod
+121:
+Skippa
+122:
+Avbrott
+123:
+
+124:
+Valt objekt\n
+har inget värde!
+125:
+25%
+126:
+100%
+127:
+
+128:
+Aktuellt datavärde
+129:
+Rutindefinition
+130:
+Rutindeklaration
+131:
+Rutinduplicering
+132:
+Datadefinition
+133:
+Datadeklaration
+134:
+Dataduplicering
+135:
+TRUE
+136:
+FALSE
+137:
+Initialvärde
+138:
+Initialvärde:=
+139:
+Nytt initialvärde
+140:
+main
+141:
+
+142:
+
+143:
+
+144:
+IPLgöm
+145:
+Rutindata
+146:
+Num Data
+147:
+Värde...
+148:
+Använda typer
+149:
+Alla typer
+150:
+Typer
+151:
+Modul
+152:
+Program Moduler
+153:
+Uppåt
+154:
+Moduldefinition
+155:
+Moduldeklaration
+156:
+Programmodul
+157:
+Systemmodul
+158:
+Program
+159:
+System
+160:
+Aktuell instruktion
+161:
+Instruktionsargument
+162:
+Enbart en instruktion är\n
+tillåten i Compact IF
+163:
+Mer
+164:
+(ValArg)
+165:
+Best
+166:
+Data är av icke-värde typ\n
+och kan inte ha ett värde
+167:
+Namnet används redan\n
+Ändra namn
+168:
+
+169:
+
+170:
+Vilken rutin ??\n
+Använd Visa:Rutiner
+171:
+Ingen huvudrutin finns
+172:
+Kommandot kunde inte\n
+utföras
+173:
+Innehållet i bufferten\n
+passar inte\n
+Felaktig platshållare
+174:
+
+175:
+Programpekaren (PP)\n
+kan inte flyttas!\n
+Felaktigt tillstånd
+176:
+Markören flyttas till\n
+programpekaren (PP)
+177:
+Data är "Läs enbart"\n
+och kan inte ändras
+178:
+Inga nya signaler kan\n
+skapas.\n
+Använd fördefinierade.
+179:
+System data!\n
+Datadeklarationen kan\n
+inte nås.
+180:
+Funktionsargument
+181:
+Instruktionsargument
+182:
+Uttryck
+183:
+Välj procedur
+184:
+Måste vara ett data
+185:
+Felaktig syntax\n
+Värde ej tillåtet
+186:
+Flytta
+187:
+Ingen programrutin är\n
+markerad.
+188:
+Plocklistan är full.\n
+Instruktionen kunde\n
+inte läggas in
+189:
+Programmet har sparats.
+190:
+Namn                      Typ
+191:
+Huvudrutin
+192:
+Markera program eller modul
+193:
+Spara modul som:
+194:
+Spara progr.som:
+195:
+Markören måste vara i samma\n
+rutindel som PP!
+196:
+Result
+197:
+Inkl.
+198:
+Exkl.
+199:
+
+200:
+Def
+201:
+Vanligast Resultat
+202:
+Vanligast Definition
+203:
+Procedur
+204:
+Funktion
+205:
+Avbrott
+206:
+Variabel
+207:
+Konstant
+208:
+Bestående
+209:
+IF
+210:
+WHILE
+211:
+FOR
+212:
+TEST
+213:
+GOTO
+214:
+ProcCall
+215:
+Label
+216:
+:=
+217:
+RETURN
+218:
+RAISE
+219:
+CONNECT
+220:
+EXIT
+221:
+RETRY
+222:
+TRYNEXT
+223:
+Compact IF
+224:
+Comment
+225:
+
+226:
+Markerad rutin
+227:
+Värde
+228:
+Litteralt värde
+229:
+-
+230:
+.
+231:
+  I
+232:
+rutin
+233:
+modul
+234:
+param
+235:
+Ej Alt.
+236:
+Första
+237:
+Sista
+238:
+Välj datatyp:
+239:
+Felhanterare
+240:
+Felhanterare
+241:
+
+242:
+Välj
+243:
+(Nej)
+244:
+Gränsen för Markera är\n
+uppnådd.
+245:
+Kontrollera program
+246:
+Gå till markerad position...
+247:
+Progr. är ok!
+248:
+En parameter kan inte ha\n
+samma namn som en annan\n
+parameter!!
+249:
+
+250:
+TRUE
+251:
+FALSE
+252:
+ AND
+253:
+ XOR
+254:
+ OR
+255:
+ NOT
+256:
+ DIV
+257:
+ MOD
+258:
+
+259:
+
+260:
+
+261:
+Inga parametrar är\n
+tillåtna för en\n
+avbrottsrutin
+262:
+Stäng program
+263:
+Bakåthanterare
+264:
+wobj0
+265:
+Verktyg eller arbetsobjekt\n
+i instruktionen är ej\n
+aktivt vid joggning.
+266:
+Definiera koord.
+267:
+
+268:
+
+269:
+
+270:
+
+271:
+
+272:
+
+273:
+
+274:
+Addera felhanterare
+275:
+Ta bort felhanterare
+276:
+Ingen felhanterare finns\n
+för denna rutin\n
+Använd Rutin:Addera...
+278:
+alla data
+279:
+Progr.körn.!
+280:
+Modulen har sparats
+281:
+Skapa/öppna ett program\n
+för att nå systemmoduler\n
+Några är redan laddade!
+282:
+List-strukturer kan inte\n
+hanteras!
+283:
+ModPos OK!\n
+Observera att PP är flyttad\n
+till nästa instruktion.
+284:
+Vill du radera:
+285:
+Vill du klippa ut:
+286:
+Addera bakåthanterare
+287:
+Ta bort bakåthanterare
+288:
+Ingen bakåthanterare finns\n
+för denna rutin!\n
+Använd Rutin: Addera...
+289:
+Bakåthanterare
+290:
+InUt
+291:
+Vill du spara det gamla programmet\n
+%s\n
+innan det ersätts med\n
+%s?
+292:
+Objekt kan inte raderas\n
+i detta fönster!!!\n
+Använd Visa:...
+293:
+Inneh.
+294:
+Inför
+295:
+Inställningar
+296:
+Vanligast 3
+297:
+Uttrycket är för långt för\n
+online editering. Det kan\n
+editeras offline el. i del.
+298:
+
+299:
+Skriver över program!\n
+Existerande program kommer att\n
+skrivas över.\n
+\n
+OK att fortsätta?
+300:
+Service
+301:
+i
+302:
+Rörelseinst. 2
+303:
+Rörelse 2
+304:
+Ext. Dator
+305:
+Multi Tasking
+306:
+RAPID support
+307:
+Lösenord Program
+308:
+Radera Inst
+309:
+Radera Obj
+310:
+Markören sammfaller inte med\n
+programpekaren (PP)!!\n
+Starta programmet från:
+311:
+Markör
+312:
+  PP
+313:
+Bekr. Start
+314:
+\n
+Vänta, Laddar program ...!
+315:
+\n
+Vänta, Laddar modul ...!
+316:
+\n
+Vänta, Sparar program ...!
+317:
+\n
+Vänta, Sparar modul ...!
+318:
+Modulen ´%s´\n
+finns redan i minnet!!!\n
+\n
+vill du fortsätta?
+319:
+Inga rutiner
+320:
+Inga data
+321:
+Inga parametrar
+322:
+.prg
+323:
+.PRG
+324:
+.mod
+325:
+.MOD
+326:
+.sys
+327:
+.SYS
+328:
+Stopp instruktion
+329:
+StopInst
+330:
+Programfönstret kan inte\n
+användas i automatiskt\n
+körsätt.\n
+Ändra till manuelt körsätt!
+331:
+Obs: Roboten förflyttas\n
+till angiven position!!
+332:
+Starta robotrörelsen mot\n
+markerad position
+333:
+Simulering
+334:
+Väl simuleringsalternativ
+335:
+Tillåt körning i MOTORER FRÅN
+336:
+Systemdata
+337:
+Användardata
+338:
+Markerad area
+339:
+Minnet fullt!!\n
+\n
+Använd menyn Arkiv för att\n
+spara programmet. Detta måste\n
+göras för att fortsätta!
+340:
+Läget kan ej ändras på en\n
+position som är deklarerad\n
+som en variabel.
+341:
+Loop-variabel!\n
+Kan enbart nås\n
+från en FOR-instruktion.
+342:
+Göm IPL
+343:
+Visa IPL
+344:
+Mer
+345:
+Modul
+346:
+Välj Modul
+347:
+i
+348:
+Datadef.
+349:
+Använd
+350:
+Alla
+351:
+Instruktioner
+352:
+
+353:
+Ändra läge
+354:
+Typ
+355:
+
+356:
+Ej använd
+357:
+Läge
+358:
+B Läge
+359:
+Max Förskj
+360:
+Max Rot
+361:
+Max Extern Förskj
+362:
+Max Extern Rot
+363:
+Mod
+364:
+Abs
+365:
+Rel
+366:
+Aktuell post ej inom\n
+gränserna för kommandot\n
+Begränsat Läge
+367:
+Aktuellt positionsnamn\n
+är för långt för kommandot\n
+Begränsat Läge
+368:
+Begränsat läge är aktivt\n
+men inga nya data\n
+kan skapas.
+369:
+Fel- Begränsat Läge!
+370:
+Inställning i Auto
+371:
+
+372:
+\n
+Vill du spara det gamla programmet\n
+%s\n
+innan det nya skapas?
+373:
+\n
+System modulen '%s'\n
+är ändrad men ej sparad!\n
+\n
+Vill du spara systemmodulen?
+374:
+Följande systemmoduler har\n
+ändrats men ej sparats.\n
+%s\n
+\n
+Vill du spara systemmodulerna?
+375:
+Ändra progr.
+376:
+aktuell
+377:
+Vill du gå in i programmet?
+378:
+lista
+379:
+Om Auto
+380:
+Krav på användarnivå
+381:
+LModPos
+382:
+Låt stå
+383:
+Som red
+384:
+No Req
+385:
+Rutiner
+386:
+I rutin
+387:
+I modul
+388:
+I system
+389:
+Program skrivs ut
+390:
+Skr. ut
+391:
+Skriv enb. till fil
+392:
+Att skriva ut
+393:
+Skriv programm till fil
+394:
+Utskrift!
+395:
+Avbryt med Enter
+396:
+Fortsätt med Enter
+397:
+Skrivare är upptagen\n
+\n
+Försök igen senare!
+398:
+Kan inte skriva ut.\n
+För mänga jobb köade\n
+\n
+Försök igen senare.
+399:
+Kan inte skriva ut.\n
+Skrivare ej konfigurerad\n
+i systemparametrarna.
+400:
+Ej tillräckligt med minne\n
+på enheten vid utskrift\n
+%.9s). Behöver %d bytes\n
+Flytta eller radera filerna.
+401:
+Upptagen\n
+\n
+Var vänlig vänta!
+402:
+Kan inte skapa/skriva till fil.\n
+\n
+
+403:
+Filen finns redan
+404:
+Program
+405:
+Programkörningsinfo.
+406:
+Programkörningspos.
+407:
+Vill du stänga:

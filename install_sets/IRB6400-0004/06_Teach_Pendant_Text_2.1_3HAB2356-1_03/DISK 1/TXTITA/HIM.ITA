@@ -1,0 +1,78 @@
+Revision 1.10  1995/12/15  13:27:40  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.9  1995/04/21  13:11:01  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.8  1994/08/19  09:38:46  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+2::
+0:
+
+1:
+Benvenuti in
+2:
+ABB Robotica S.p.A.
+3:
+Verif
+4:
+Registr
+5:
+Errore
+6:
+Annulla cambio modo operativo!\n
+\n
+\n
+Riportare il selettore\n
+modo operativo in MANUALE
+7:
+Cambio del modo operativo
+8:
+Il modo operativo e' stato cambiato\n
+da MANUALE ad AUTO.
+9:
+Il modo operativo e' stato cambiato\n
+da MANUALE a MANUALE VELOC. 100%
+10:
+Prego, premere OK per confermare.\n
+\n
+\n
+(Se annulla, selettore modo operativo\n
+deve essere riportato in MANUALE)
+11:
+Hold-To-Run!\n
+\n
+In attesa che il pulsante\n
+Hold-To-Run venga premuto.
+12:
+
+13:
+
+14:
+
+15:
+
+16:
+Stato
+17:
+\n
+I seguenti assi non\n
+sono sincronizzati.\n
+Per sincronizzarli premere\n
+Sinc (con motori inseriti).\n
+
+18:
+Assi non Sincronizzati!
+19:
+Asse              Stato
+20:
+Sincronizzazione %s\n
+\n
+\n
+Pronto in poco tempo!
+21:
+Sinc

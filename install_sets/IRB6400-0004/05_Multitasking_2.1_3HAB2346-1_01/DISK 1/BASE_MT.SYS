@@ -1,0 +1,52 @@
+%%%
+  VERSION: 1
+  LANGUAGE: ENGLISH
+%%%
+
+MODULE BASE_MT (SYSMODULE, NOSTEPIN, VIEWONLY)
+
+ ! System module for additional tasks besides the main task
+ ! with basic predefined system data and routines
+ !*********************************************************
+ 
+ 
+ ! System data tool0, wobj0 and load0
+ ! Do not translate or delete tool0, wobj0, load0
+ PERS tooldata tool0 := [TRUE, [[0, 0, 0], [1, 0, 0, 0]],
+                        [0.001, [0, 0, 0.001],[1, 0, 0, 0], 0, 0, 0]];
+		 			 	 
+ PERS wobjdata wobj0 := [FALSE, TRUE, "", [[0, 0, 0],[1, 0, 0, 0]],
+                        [[0, 0, 0],[1, 0, 0, 0]]];
+										
+ PERS loaddata load0 := [0.001, [0, 0, 0.001],[1, 0, 0, 0], 0, 0, 0];
+ 
+ 
+ 
+ ! Instruction Open parameter Object
+ CONST string flp1 := "flp1:";
+ CONST string ram1disk := "ram1disk:";
+ 
+ ! Constant pi
+ CONST num pi := 3.1415926; 
+  
+ ! Test Digital Input
+ FUNC bool TestDI(VAR signaldi Signal)
+  IF Signal = 1 THEN
+   RETURN TRUE;
+  ELSE
+   RETURN FALSE;
+  ENDIF
+ ENDFUNC
+ 
+ ! Call a procedure by a variable
+ PROC CallByVar(string Name,
+                num   Number)
+  IF (Number-Trunc(Number) <> 0) OR (Number<0) THEN
+   ErrWrite "CallByVar fault", "Argument Number is not an integer or"
+            \RL2:= "is negative.";
+   Stop;
+  ENDIF
+  %Name+NumToStr(Number,0)%;
+ ENDPROC 
+  
+ENDMODULE

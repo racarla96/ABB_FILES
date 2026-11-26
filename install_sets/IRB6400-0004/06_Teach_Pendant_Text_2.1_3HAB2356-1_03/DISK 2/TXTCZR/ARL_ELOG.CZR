@@ -1,0 +1,2302 @@
+24::
+0:
+Program
+1:
+Chyba argumentu\n
+Uloha %.16s: Vyskyt vice nez\n
+jednoho volitelneho parametru\n
+%.16s\n
+\t\n
+Ujistete se, ze volitelny parametr neni\n
+v tomtez volani rutiny specifikovan vic\n
+nez jednou.
+2:
+Chyba argumentu\n
+Uloha %.16s: Vylucujici\n
+argumenty musi mit podminenou hodnotu\n
+(%.16s ma hodnotu)\n
+\t\n
+Argumenty nelze specifikovat pro vice\n
+jak jeden parametr ze seznamu parametru,\n
+ktere se navzajem vylucuji, pokud\n
+vsechny hodnoty nejsou hodnotami\n
+podminenych argumentu.
+3:
+Chyba argumentu\n
+Uloha %.16s: Ocekava se\n
+argument pozadovaneho parametru,\n
+%.16s ale nalezen volitelny\n
+argument %.16s\n
+\t\n
+Zkontrolujte, zda jsou argumenty\n
+specifikovany ve stejnem poradi\n
+jako parametry pro volanou rutinu.
+4:
+Chyba argumentu\n
+Uloha %.16s: Argument pro REF\n
+parametr %.16s neni odkazem\n
+na data\n
+\t\n
+Ujistete se, ze vyraz pro argument jsou\n
+data nebo to je odkaz na parametr.
+5:
+Chyba argumentu\n
+Uloha %.16s: Argument pro\n
+'INOUT' parametr %.16s neni\n
+promenna ani staly odkaz, nebo\n
+je jen pro cteni\n
+\t\n
+Ujistete se, ze vyraz argumentu je\n
+promenna, stala hodnota, parametr\n
+promenne, nebo odkaz na parametr\n
+promenne. Promenna ani konstanta\n
+nemohou byt jen pro cteni.
+6:
+Chyba argumentu\n
+Uloha %.16s: Chybi hodnota\n
+volitelneho argumentu pro parametr\n
+%.16s\n
+\t\n
+Samotnym jmenem lze specifikovat jen\n
+'switch' parametry. Volitelne parametry\n
+dalsich typu musi mit prirazenu hodnotu.\n
+Pridejte hodnotu.
+7:
+Chyba argumentu\n
+Uloha %.16s: Volitelny\n
+argument %.16s je na chybnem\n
+miste seznamu argumentu\n
+\t\n
+Zkontrolujte, zda jsou argumenty\n
+specifikovany ve stejnem poradi\n
+jako parametry pro volanou rutinu.
+8:
+Chyba argumentu\n
+Uloha %.16s: Odkaz\n
+na volitelny parametr %.16s\n
+v pozadovanem argumentu\n
+\t\n
+Argument odpovidajici volitelnemu\n
+parametru musi byt oznacen vedoucim\n
+znakem '\'. Zmente pozadovany argument\n
+na volitelny.
+9:
+Chyba argumentu\n
+Uloha %.16s: Odkaz na\n
+pozadovany parametr %.16s\n
+v hodnote podmineneho argumentu\n
+\t\n
+Podminena hodnota volitelneho parametru\n
+se musi vztahovat k parametru ve volaci\n
+rutine. Zmente podminenou hodnotu.
+10:
+Chyba argumentu\n
+Uloha %.16s: Odkaz\n
+na pozadovany parametr %.16s\n
+ve volitelnem argumentu\n
+\t\n
+Argument odpovidajici pozadovanemu\n
+parametru nesmi byt oznacen vedoucim\n
+znakem '\'. Zmente volitelny argument\n
+na pozadovany.
+11:
+Chyba argumentu\n
+Uloha %.16s: Jmenovany\n
+pozadovany argument %.16s je\n
+na chybnem miste seznamu argumentu\n
+\t\n
+Zkontrolujte, zda jsou argumenty\n
+specifikovany ve stejnem poradi\n
+jako parametry pro volanou rutinu.
+12:
+Chyba argumentu\n
+Uloha %.16s: 'switch'\n
+argument %.16s nemuze mit\n
+hodnotu\n
+\t\n
+Argumentu odpovidajicimu 'switch'\n
+parametru nelze priradit hodnotu.\n
+Odstrante hodnotu.
+13:
+Chyba argumentu\n
+Uloha %.16s: Prilis malo\n
+argumentu ve volaci\n
+rutine %.16s\n
+\t\n
+Volani rutiny musi poskytnout hodnoty\n
+pro vsechny pozadovane parametry volane\n
+rutiny. Pridejte dalsi argumenty, aby\n
+odpovidaly seznamu parametru.
+14:
+Chyba argumentu\n
+Uloha %.16s: Prilis mnoho\n
+argumentu ve volani rutiny\n
+%.16s\n
+\t\n
+Odstrante argumenty tak, aby nebyly\n
+zadne argumenty navic proti definovanym\n
+na seznamu parametru volane rutiny.
+15:
+Chyba deklarace dat\n
+Uloha %.16s: Rozmer pole\n
+musi byt > 0 (hodnota je %i)\n
+\t\n
+Rozmery pole musi byt kladne.\n
+Zmente vyraz rozmeru.
+16:
+Chyba deklarace dat\n
+Uloha %.16s: Prilis\n
+mnoho rozmeru v definici pole\n
+\t\n
+Pole ma mit nanejvys 3 rozmery.\n
+Prepiste program, aby nebyly\n
+treba vic jak 3 rozmery.
+17:
+Chyba typu\n
+Uloha %.16s: Indexovana data\n
+%.18s %.18s\n
+nejsou typu pole\n
+\t\n
+Indexovat lze pouze data, ktera jsou\n
+deklarovana jako pole. Odstrante index\n
+nebo indexy, nebo data deklarujte jako\n
+pole.
+18:
+Chyba typu\n
+Uloha %.16s: Data\n
+%.18s %.18s\n
+nejsou typu zaznam\n
+\t\n
+Slozky jsou k dispozici jen pro data\n
+typu zaznam. Zkontrolujte typ a nazev\n
+odkazovanych dat.
+19:
+Chyba meze\n
+Uloha %.16s: Chyba %i pri\n
+vytvareni zaznamu stavoveho bytu\n
+%.16s\n
+\t\n
+Pri vkladani stale hodnoty do sdilene\n
+databaze vznikla chyba. Databaze\n
+je asi plna.
+20:
+Chyba deklarace dat\n
+Uloha %.16s: Vyraz neni\n
+vyrazem konstanty (%.16s\n
+neni konstanta)\n
+\t\n
+Vyrazy obsazene v deklaraci dat musi\n
+byt konstantni vyrazy. Ujistete se, ze\n
+vyraz neobsahuje odkaz na zadnou\n
+promennou ani stalou hodnotu ani volani\n
+funkce.
+21:
+Chyba instrukce\n
+Uloha %.16s: Navrat z funkce\n
+musi mit nejaky vyraz\n
+\t\n
+Instrukce navratu (RETURN) uvnitr funkce\n
+musi specifikovat hodnotu funkce, ktera\n
+se ma vratit. Pridejte vyraz hodnoty.
+22:
+Chyba typu\n
+Uloha %.16s: Nelegalni\n
+kombinace typu operandu\n
+%.18s a\n
+%.18s pro operator '*'\n
+\t\n
+Dovoleny typ kombinaci pro dva operandy\n
+operatoru '*' jsou 'num'*'num',\n
+'num'*'pos', 'pos'*'num', 'pos'*'pos'\n
+a 'orient'*'orient'. Zkontrolujte typy\n
+operandu.
+23:
+Chyba instrukce\n
+Uloha %.16s: Rizeni nelze\n
+prenest na dalsi seznam instrukci\n
+\t\n
+Ujistete se, ze se navesti nachazi ve\n
+stejnem seznamu instrukci jako instrukce\n
+GOTO, na stejne nebo vnejsi Urovni. Neni\n
+mozne skakat do vykonavane instrukce\n
+programu.
+24:
+Chyba typu\n
+Uloha %.16s: Nelegalni\n
+typ %.18s pro levy operand\n
+binarniho '+' nebo '-'\n
+\t\n
+Dovolene typy pro operand operatoru '+'\n
+jsou 'num', 'pos' a 'string', a pro\n
+operand operatoru '-' 'num' a 'pos'.\n
+Zkontrolujte typ operandu.
+25:
+Chyba typu\n
+Uloha %.16s: Nelegalni typ\n
+%.18s pro operand unarniho\n
+operatoru '+' nebo '-'\n
+\t\n
+Dovolene typy pro operand operatoru '+'\n
+a '-' jsou 'num' a 'pos'. Zkontrolujte\n
+typ operandu.
+26:
+Chyba typu\n
+Uloha %.16s: Nelegalni typ\n
+%.18s pro pravy operand\n
+binarniho operatoru '+' nebo '-'\n
+\t\n
+Dovolene typy pro operand operatoru '+'\n
+jsou 'num', 'pos' a 'string', a pro\n
+operand operatoru '-' 'num' a 'pos'.\n
+Zkontrolujte typ operandu.
+27:
+Chyba typu\n
+Uloha %.16s: Nelegalni typ\n
+%.18s pro levy operand\n
+operatoru '/', 'DIV' nebo 'MOD'\n
+\t\n
+Jediny dovoleny typ pro operandy\n
+operatoru '/', 'DIV' a 'MOD' je 'num'.\n
+Zkontrolujte typ operandu.
+28:
+Chyba typu\n
+Uloha %.16s: Nelegalni\n
+typ %.18s pro pravy operand\n
+operatoru '/', 'DIV' nebo 'MOD'\n
+\t\n
+Jediny dovoleny typ pro operandy\n
+operatoru '/', 'DIV' a 'MOD' je 'num'.\n
+Zkontrolujte typ operandu.
+29:
+Chyba typu\n
+Uloha %.16s: Nelegalni\n
+typ %.18s pro pravy operand\n
+operatoru '<', '<=', '>' nebo '>='\n
+\t\n
+Jediny dovoleny typ pro operandy\n
+operatoru '<', '<=', '>' a '>='\n
+je 'num'. Zkontrolujte typ operandu.
+30:
+Chyba typu\n
+Uloha %.16s: Nelegalni\n
+typ %.18s pro pravy operand\n
+operatoru '<', '<=', '>' or '>='\n
+\t\n
+Jediny dovoleny typ pro operatory\n
+operandu '<', '<=', '>' a '>='\n
+je 'num'. Zkontrolujte typ operandu.
+31:
+Chyba typu\n
+Uloha %.16s: Nelegalni\n
+typ %.18s pro levy operand\n
+operatoru '*'\n
+\t\n
+Dovolene typy pro operandy operatoru\n
+'*' jsou 'num', 'pos' a 'orient'.\n
+Zkontrolujte typ operandu.
+32:
+Chyba typu\n
+Uloha %.16s: Nelegalni typ\n
+%.18s pro pravy operand\n
+operatoru '*'\n
+\t\n
+Dovolene typy operandu operatoru '*'\n
+jsou 'num', 'pos' a 'orient'.\n
+Zkontrolujte typ operandu.
+33:
+Chyba typu\n
+Uloha %.16s: Nelegalni\n
+typ %.18s pro operand\n
+operatoru 'NOT'\n
+\t\n
+Jediny dovoleny typ operandu operatoru\n
+'NOT' je 'bool'. Zkontrolujte typ\n
+operandu.
+34:
+Chyba typu\n
+Uloha %.16s: Nelegalni\n
+typ %.18s pro levy operand\n
+operatoru 'OR', 'XOR' nebo 'AND'\n
+\t\n
+Jediny dovoleny typ operandu operatoru\n
+'OR', 'XOR' a "AND' je 'bool'.\n
+Zkontrolujte typ operandu.
+35:
+Chyba typu\n
+Uloha %.16s: Nelegalni typ\n
+%.18s pro pravy operand\n
+operatoru 'OR', 'XOR' nebo 'AND'\n
+\t\n
+Jediny dovoleny typ operandu operatoru\n
+'OR', 'XOR' a "AND' je 'bool'.\n
+Zkontrolujte typ operandu.
+36:
+Chyba typu\n
+Uloha %.16s: Nespravny pocet\n
+indexu na seznamu indexu pro pole\n
+%.18s s rozmery %i\n
+\t\n
+Ujistete se, ze pocet indexu na seznamu\n
+indexu je shodny s poctem rozmeru\n
+indexovaneho pole dat.
+37:
+Chyba deklarace dat\n
+Uloha %.16s: LOCAL neni\n
+v deklaraci konstanty rutiny legalni\n
+\t\n
+Jedine deklarace dat proramu mohou mit\n
+atribut LOCAL. Odstrante atribut LOCAL\n
+vyjmete deklaraci z rutiny.
+38:
+Chyba deklarace dat\n
+Uloha %.16s: LOCAL neni\n
+v deklaraci promenne rutiny legalni\n
+\t\n
+Jedine deklarace dat programu smi mit\n
+atribut LOCAL. Odstrante atribute LOCAL\n
+nebo vyjmete deklaraci z rutiny.
+39:
+Chyba nazvu\n
+Uloha %.16s: Nazev konstanty\n
+%.16s neni jednoznacny\n
+\t\n
+Data rutiny musi mit nazvy, ktere jsou\n
+v rutine jedinecne. Data programu musi\n
+mit nazvy, ktere jsou jedinecne\n
+v ramci modulu. Prejmenujte data, nebo\n
+zmente konfliktni nazev.
+40:
+Chyba nazvu\n
+Uloha %.16s: Nazev\n
+%.16s globalni konstanty\n
+neni jednoznacny\n
+\t\n
+Globalni data musi mit nazvy, ktere\n
+jsou mezi vsemi globalnimi typy, daty,\n
+globalnimi rutinami a moduly v celem\n
+programu jedinecne. Prejmenujte data,\n
+nebo zmente konfliktni nazev.
+41:
+Chyba nazvu\n
+Uloha %.16s: Nazev\n
+%.16s globalni stale hodnoty\n
+neni jednoznacny\n
+\t\n
+Globalni data musi mit nazvy, ktere jsou\n
+mezi vsemi globalnimi typy, daty,\n
+globalnimi rutinami a moduly v celem\n
+programu jedinecne. Prejmenujte data,\n
+nebo zmente konfliktni nazev.
+42:
+Chyba nazvu\n
+Uloha %.16s: Nazev\n
+%.16s globalni rutiny\n
+neni jednoznacny\n
+\n
+\t\n
+Globalni rutiny musi mit nazvy, ktere\n
+jsou mezi vsemi globalnimi typy, daty,\n
+globalnimi rutinami a moduly v celem\n
+programu jedinecne. Prejmenujte data,\n
+nebo zmente konfliktni nazev.
+43:
+Chyba nazvu\n
+Uloha %.16s: Nazev\n
+%.16s globalni promenne\n
+neni jednoznacny\n
+\t\n
+Globalni data musi mit nazvy, ktere jsou\n
+mezi vsemi globalnimi typy, daty,\n
+globalnimi rutinami a moduly v celem\n
+programu jedinecne. Prejmenujte data,\n
+nebo zmente konfliktni nazev.
+44:
+Chyba nazvu\n
+Uloha %.16s: Nazev navesti\n
+%.16s neni jednoznacny\n
+\t\n
+Navesti musi mit nazvy, ktere jsou\n
+v rutine jedinecne. Prejmenujte navesti,\n
+nebo zmente konfliktni nazev.
+45:
+Chyba nazvu\n
+Uloha %.16s: Nazev modulu\n
+%.16s neni jednoznacny\n
+\t\n
+Moduly musi mit nazvy, ktere jsou\n
+mezi vsemi globalnimi typy, globalnimi\n
+daty, globalnimi rutinami a moduly\n
+v celem programu jedinecne. Prejmenujte\n
+data, nebo zmente konfliktni nazev.
+46:
+Chyba nazvu\n
+Uloha %.16s: Nazev parametru\n
+%.16s neni jednoznacny\n
+\t\n
+Parametry musi mit nazvy, ktere jsou\n
+v rutine jedinecne. Prejmenujte\n
+parametr, nebo zmente konfliktni nazev.
+47:
+Chyba nazvu\n
+Uloha %.16s: Nazev\n
+stale hodnoty %.16s\n
+neni jednoznacny\n
+\t\n
+Data programu musi mit nazvy, ktere\n
+jsou v modulu jedinecne. Prejmenujte\n
+data, nebo zmente konfliktni nazev.
+48:
+Chyba nazvu\n
+Uloha %.16s: Nazev rutiny\n
+%.16s neni jednoznacny\n
+\t\n
+Rutiny musi mit nazvy, ktere jsou\n
+v modulu jedinecne. Prejmenujte rutinu,\n
+nebo zmente konfliktni nazev.\n
+
+49:
+Chyba nazvu\n
+Uloha %.16s: Nazev promenne\n
+%.16s neni jednoznacny\n
+\t\n
+Data rutiny musi mit nazvy, ktere jsou\n
+v rutine jedinecne. Data programu musi\n
+mit nazvy, ktere jsou v modulu\n
+jedinecne. Prejmenujte data, nebo\n
+zmente konfliktni nazev.
+50:
+Chyba typu\n
+Uloha %.16s: Typy operandu\n
+%.18s a\n
+%.18s pro binarni operatory\n
+'+' nebo '-' nejsou shodne\n
+\t\n
+Oba operandy operatoru '+' a '-' musi\n
+byt stejneho typu. Zkontrolujte typy\n
+operandu.
+51:
+Chyba typu\n
+Uloha %.16s: Typy operandu\n
+%.18s a\n
+%.18s pro operator '='\n
+nebo '<>' nejsou shodne\n
+\t\n
+Oba operandy operatoru '=' a '<>'\n
+musi byt stejneho typu. Zkontrolujte\n
+typy operandu.
+52:
+Chyba instrukce\n
+Uloha %.16s: RETURN s vyrazem\n
+dovolen jen ve funkci\n
+\t\n
+Instrukce RETURN nesmi v procedure nebo\n
+podminenem skoku udavat vyraz navratove\n
+hodnoty. Vyraz odstrante.
+53:
+Chyba instrukce\n
+Uloha %.16s: RAISE v rutine\n
+zpracovani chyb nesmi obsahovat vyraz\n
+\t\n
+Instrukci RAISE lze v rutine zpracovani\n
+chyb pouzit jen k sireni soucasne chyby\n
+a nemuze proto udavat cislo chyby.\n
+Odstrante vyraz s cislem chyby.
+54:
+Chyba typu\n
+Uloha %.16s: Ruzny rozmer\n
+typu pole (%i) a\n
+agregatu (%i)\n
+\t\n
+Ujistete se, ze pocet vyrazu v agregatu\n
+je shodny s rozmerem pole dat.
+55:
+Chyba typu\n
+Uloha %.16s: Cilovy typ\n
+prirazeni %.18s neni\n
+hodnota ani semi-hodnota\n
+\n
+\t\n
+Data, kterym se ma priradit hodnota,\n
+musi byt typu hodnota nebo semi-hodnota.\n
+Data jinych typu mohou nastavit pouze\n
+specificke preddefinovane instrukce,\n
+nebo funkce specialniho typu.
+56:
+Chyba typu\n
+Uloha %.16s: Typ\n
+%.18s pro levy operand\n
+operatoru '=' nebo '<>' neni\n
+hodnota ani semi-hodnota\n
+\t\n
+Operatory '=' a '<>' lze pouzit jen na\n
+vyrazy typu hodnota nebo semi-hodnota.\n
+Jestlize se ma provest porovnani, jsou\n
+nutne preddefinovane funkce specialniho\n
+typu.
+57:
+Chyba typu\n
+Uloha %.16s: Typ\n
+%.18s pro pravy operand\n
+operatoru '=' nebo '<>' neni\n
+hodnota ani semi-hodnota\n
+\t\n
+Operatory '=' a '<>' lze pouzit jen na\n
+vyrazy typu hodnota nebo semi-hodnota.\n
+Jestlize se ma provest porovnani, jsou\n
+nutne preddefinovane funkce specialniho\n
+typu.
+58:
+Chyba typu\n
+Uloha %.16s: Typ vyrazu TEST\n
+%.18s neni hodnota\n
+ani semi-hodnota\n
+\t\n
+Instrukci TEST lze pouzit jen na vyraz\n
+typu hodnota, nebo semi-hodnota.\n
+Jestlize se ma provest porovnani, jsou\n
+nutne preddefinovane funkce specialniho\n
+typu.
+59:
+Chyba deklarace dat\n
+Uloha %.16s: Drzitel mista\n
+pro vyraz hodnoty neni v definici\n
+jmenovane konstanty dovolen\n
+\t\n
+Dokoncete deklaraci dat, nebo zmente\n
+nazev dat na drzitele mista.
+60:
+Chyba deklarace dat\n
+Uloha %.16s: Drzitel mista\n
+pro rozmer pole neni v definici\n
+jmenovane konstanty nebo promenne\n
+dovolen\n
+\t\n
+Dokoncete deklaraci dat, nebo zmente\n
+nazev dat na drzitele mista.
+61:
+Chyba deklarace rutiny\n
+Uloha %.16s: Drzitel mista\n
+pro rozmery pole parametru neni\n
+v definici jmenovane rutiny dovolen\n
+\t\n
+Dokoncete deklaraci parametru, nebo\n
+zmente nazev rutiny na drzitele mista.
+62:
+Chyba nazvu\n
+Uloha %.16s: Drzitel mista\n
+pro nazev parametru neni v definici\n
+jmenovane rutiny dovolen\n
+\t\n
+Dokoncete deklaraci rutiny, nebo zmente\n
+nazev rutiny na drzitele mista.
+63:
+Chyba deklarace dat\n
+Uloha %.16s: Drzitel mista\n
+pro vyraz pocatecni hodnoty neni\n
+v definici jmenovane stale hodnoty\n
+dovolen\n
+\t\n
+Dokoncete deklaraci dat, nebo zmente\n
+nazev dat na drzitele mista.
+64:
+Chyba deklarace rutiny\n
+Uloha %.16s: Drzitel mista\n
+pro parametr neni v definici\n
+jmenovane rutiny dovolen\n
+\t\n
+Dokoncete deklaraci parametru,\n
+odstrante drzitele mista, nebo zmente\n
+nazev rutiny na drzitele mista.
+65:
+Chyba odkazu\n
+Uloha %.16s: Drzitel mista\n
+pro typ neni v definici jmenovanych dat,\n
+slozky zaznamu nebo rutiny dovolen\n
+\t\n
+Dokoncete deklaraci dat nebo rutiny,\n
+nebo zmente nazev dat nebo rutiny\n
+na drzitele mista.
+66:
+Chyba deklarace dat\n
+Uloha %.16s: Drzitel mista\n
+pro vyraz pocatecni hodnoty neni\n
+v definici jmenovane promenne dovolen\n
+\t\n
+Dokoncete deklaraci dat, nebo zmente\n
+nazev dat na nazev drzitele mista.
+67:
+Chyba typu\n
+Uloha %.16s: Prilis malo\n
+slozky v agregatu zaznamu typu\n
+%.18s\n
+\t\n
+Ujistete se, ze pocet vyrazu v agregatu\n
+je shodny s poctem slozek v typu\n
+zaznam.
+68:
+Chyba typu\n
+Uloha %.16s: Prilis mnoho\n
+slozek v agregatu zaznamu typu\n
+%.18s\n
+\t\n
+Ujistete se, ze pocet vyrazu v agregatu\n
+je shodny s poctem slozek v typu\n
+zaznam.
+69:
+Chyba odkazu\n
+Uloha %.16s: Odkaz na data\n
+%.16s neni jednoznacny\n
+\t\n
+Nejmene jeden dalsi objekt sdili stejny\n
+nazev, kdyz odkazovana data jsou z teto\n
+programove pozice viditelna. Ujistete\n
+se, ze vsechny nazvy objektu splnuji\n
+pravidla pro jednoznacnost nazvu.
+70:
+Chyba odkazu\n
+Uloha %.16s: Odkaz na funkci\n
+%.16s neni jednoznacny\n
+\t\n
+Nejmene jeden dalsi objekt sdili stejny\n
+nazev, kdyz odkazovana funkce je z teto\n
+programove pozice viditelna. Ujistete\n
+se, ze vsechny nazvy objektu splnuji\n
+pravidla pro jednoznacnost nazvu.
+71:
+Chyba odkazu\n
+Uloha %.16s: Odkaz na navesti\n
+%.16s neni jednoznacny\n
+\t\n
+Nejmene jeden dalsi objekt sdili stejny\n
+nazev, kdyz odkazovane navesti je z teto\n
+programove pozice viditelne. Ujistete\n
+se, ze vsechny nazvy objektu splnuji\n
+pravidla pro jednoznacnost nazvu.
+72:
+Chyba odkazu\n
+Uloha %.16s: Odkaz na\n
+proceduru %.16s neni\n
+jednoznacny\n
+\t\n
+Nejmene jeden dalsi objekt sdili stejny\n
+nazev, kdyz odkazovana procedura je\n
+z teto programove pozice viditelna.\n
+Ujistete se, ze vsechny nazvy objektu\n
+splnuji pravidla pro jednoznacnost nazvu
+73:
+Chyba odkazu\n
+Uloha %.16s: Odkaz\n
+na podmineny skok\n
+%.16s neni jednoznacny\n
+\t\n
+Nejmene jeden dalsi objekt sdili stejny\n
+nazev, kdyz odkazovany podmineny skok\n
+je z teto programove pozice viditelny.\n
+Ujistete se, ze vsechny nazvy objektu\n
+splnuji pravidla pro jednoznacnost nazvu
+74:
+Chyba odkazu\n
+Uloha %.16s: %.16s\n
+neni odkazem na cela data\n
+\t\n
+Specifikovany nazev identifikuje jiny\n
+objekt nez data. Zkontrolujte, zda\n
+pozadovana data nejsou zahryta jinym\n
+objektem se stejnym nazvem.
+75:
+Chyba odkazu\n
+Uloha %.16s: %.16s\n
+neni odkazem na funkci\n
+\t\n
+Specifikovany nazev identifikuje jiny\n
+objekt nez funkci. Zkontrolujte, zda\n
+pozadovana funkce neni zakryta jinym\n
+objektem se stejnym nazvem.
+76:
+Chyba odkazu\n
+Uloha %.16s: %.16s\n
+neni odkazem na navesti\n
+\t\n
+Specifikovany nazev identifikuje jiny\n
+objekt nez navesti. Zkontrolujte, zda\n
+pozadovane navesti neni zakryto jinym\n
+objektem se stejnym nazvem.
+77:
+Chyba odkazu\n
+Uloha %.16s: %.16s\n
+neni volitelnym odkazem na parametr\n
+v hodnote podmineneho argumentu\n
+\t\n
+Specifikovany nazev identifikuje jiny\n
+objekt nez volitelny parametr. Zmente\n
+nazev, aby odkazoval na volitelny\n
+parametr.
+78:
+Chyba odkazu\n
+Uloha %.16s: %.16s\n
+neni odkazem na volitelny parametr\n
+\n
+\t\n
+Specifikovany nazev identifikuje jiny\n
+objekt nez volitelny parametr. Zmente\n
+nazev, aby odkazoval na volitelny\n
+parametr.
+79:
+Chyba odkazu\n
+Uloha %.16s: %.16s\n
+neni odkazem na proceduru\n
+\t\n
+Specifikovany nazev identifikuje jiny\n
+objekt nez proceduru. Zkontrolujte, zda\n
+pozadovana procedura neni zakryta jinym\n
+objektem se stejnym nazvem.
+80:
+Chyba odkazu\n
+Uloha %.16s: %.16s\n
+neni odkazem na pozadovany parametr\n
+\t\n
+Specifikovany nazev identifikuje jiny\n
+objekt nez pozadovany parametr. Zmente\n
+nazev, aby odkazoval na pozadovany\n
+parametr.
+81:
+Chyba odkazu\n
+Uloha %.16s: %.16s\n
+neni odkazem na podmineny skok\n
+\t\n
+Specifikovany nazev identifikuje jiny\n
+objekt nez podmineny skok. Zkontrolujte,\n
+zda podmineny skok neni zakryt jinym\n
+objektem se stejnym nazvem.
+82:
+Chyba odkazu\n
+Uloha %.16s: %.16s\n
+neni jmenem typu\n
+\t\n
+Specifikovany nazev identifikuje jiny\n
+objekt nez typ. Zkontrolujte, zda\n
+pozadovany typ neni zakryt jinym\n
+objektem se stejnym nazvem.
+83:
+Chyba typu\n
+Uloha %.16s: %.16s\n
+neni typu hodnota\n
+\t\n
+Jen promenne bez pocatecni hodnoty a\n
+parametry rezimu 'VAR' mohou byt typu\n
+semi-hodnota nebo zadna hodnota.
+86:
+Chyba odkazu\n
+Uloha %.16s: Odkaz na\n
+nezname navesti %.16s\n
+\t\n
+Rutina neobsahuje navesti (ani jiny\n
+objekt) specifikovaneho nazvu.
+87:
+Chyba odkazu\n
+Uloha %.16s: Odkaz na\n
+neznamy volitelny parametr\n
+%.16s\n
+\t\n
+Volana rutina neobsahuje zadny volitelny\n
+parametr (ani jiny objekt)\n
+specifikovaneho nazvu.
+89:
+Chyba odkazu\n
+Uloha %.16s: Odkaz na\n
+slozku neznameho zaznamu\n
+%.16s\n
+\t\n
+Typ zaznam neobsahuje zadnou slozku\n
+zaznamu specifikovaneho nazvu.
+90:
+Chyba odkazu\n
+Uloha %.16s: Odkaz na\n
+neznamy pozadovany parametr\n
+%.16s\n
+\t\n
+Volana rutina neobsahuje zadny\n
+pozadovany parametr (ani jiny objekt)\n
+specifikovaneho nazvu.
+92:
+Chyba odkazu\n
+Uloha %.16s: Nazev neznameho\n
+typu %.16s\n
+\t\n
+Z teto pozice programu neni viditelny\n
+zadny typ dat (ani jiny objekt)\n
+specifikovaneho nazvu.
+93:
+Chyba instrukce\n
+Uloha %.16s: Cil prirazeni\n
+je jen pro cteni\n
+\t\n
+Data, kterym se ma priradit hodnota,\n
+nemohou byt typu konstanta, promenna\n
+nebo stala hodnota jen pro cteni.
+94:
+Chyba deklarace dat\n
+Uloha %.16s: Deklarace\n
+stale hodnoty neni v rutine dovolena\n
+\t\n
+Stale hodnoty se mohou deklarovat jen\n
+na urovni modulu. Vyjmete deklaraci\n
+stale hodnoty z rutiny.
+95:
+Chyba instrukce\n
+Uloha %.16s: RAISE bez vyrazu\n
+je dovolena jen v rutine pro zpracovani\n
+chyb\n
+\t\n
+K instrukci RAISE pridejte vyraz cisla\n
+chyby.
+96:
+Chyba instrukce\n
+Uloha %.16s: RETRY je\n
+dovolena jen v rutine pro zpracovani\n
+chyb\n
+\t\n
+Instrukce RETRY se muze pouzit jen\n
+v rutine pro zpracovani chyb. Odstrante\n
+ji.
+97:
+Chyba instrukce\n
+Uloha %.16s: TRYNEXT dovolena\n
+jen v rutine pro zpracovani chyb\n
+\t\n
+Instrukce TRYNEXT se muze pouzit jen\n
+v rutine pro zpracovani chyb.\n
+Odstrante ji.
+98:
+Chyba parametru\n
+Uloha %.16s: Parametr\n
+'switch' musi mit prenosovy rezim IN\n
+\t\n
+Odstrante specifikator prenosoveho\n
+rezimu. Jestlize prenosovy rezim IN neni\n
+dostatecny, zmente typ dat parametru.
+99:
+Chyba parametru\n
+Uloha %.16s: Parametru\n
+'switch' nelze dat rozmer\n
+\t\n
+Odstrante specifikaci rozmeru pole,\n
+nebo zmente typ dat parametru.
+100:
+Chyba parametru\n
+Uloha %.16s: 'switch' je\n
+dovolen jen pro volitelny parametr\n
+\t\n
+Zmente parametr na volitelny parametr,\n
+nebo zmente typ dat parametru. Jestlize\n
+objekt neni parametr, zmente typ dat.
+101:
+Chyba typu\n
+Uloha %.16s: Neshoda typu\n
+u ocekavaneho typu %.18s a\n
+typu %.18s\n
+\t\n
+Vyraz neni ocekavaneho typu dat.
+102:
+Chyba typu\n
+Uloha %.16s: Neshoda typu\n
+agregatu, ocekavan typ\n
+%.18s\n
+\t\n
+Agregat neodpovida ocekavanemu\n
+typu dat.
+103:
+Chyba typu\n
+Uloha %.16s: Neshoda typu\n
+stale hodnoty\n
+%.18s %.16s\n
+\t\n
+Jiz existuji stala data se stejnym\n
+nazvem, ale jineho typu dat. Odstrante\n
+tato stala data, nebo zmente jejich typ.
+104:
+Chyba deklarace dat\n
+Uloha %.16s: Nelze urcit\n
+rozmer pole (kruhove odkazy\n
+na konstantu ?)\n
+\t\n
+Zkontrolujte, zda jsou vsechny\n
+odkazovane konstanty spravne definovany.\n
+Jestlize ano, program je moc slozity.\n
+Zkuste prepsat deklarace.
+105:
+Chyba deklarace dat\n
+Uloha %.16s: Nelze urcit\n
+typ konstantni hodnoty (kruhove odkazy\n
+na konstantu ?)\n
+\t\n
+Zkontrolujte, zda vsechny odkazovane\n
+konstanty jsou spravne definovany.\n
+Jestlize ano, program je moc slozity.\n
+Zkuste prepsat deklarace.
+106:
+Chyba deklarace dat\n
+Uloha %.16s: Nelze vyhodnotit\n
+vyraz konstantni hodnoty (kruhove odkazy\n
+na konstantu ?)\n
+\t\n
+Zkontrolujte, zda vsechny odkazovane\n
+konstanty jsou spravne definovany.\n
+Jestlize ano, program je moc slozity.\n
+Zkuste prepsat deklarace.
+107:
+Chyba deklarace dat\n
+Uloha %.16s: Nelze urcit\n
+typ promenne hodnoty (kruhove odkazy\n
+na konstantu ?)\n
+\t\n
+Zkontrolujte, zda vsechny odkazovane\n
+konstanty jsou spravne definovany.\n
+Jestlize ano, program je moc slozity.\n
+Zkuste prepsat deklarace.
+108:
+Chyba typu\n
+Uloha %.16s: Neznamy typ\n
+agregatu\n
+\t\n
+Agregat se v teto pozici nemuze pouzit,\n
+protoze zde nejsou data ocekavaneho\n
+typu. Deklarujte data pozadovaneho typu\n
+a hodnoty agregatu. Namisto agregatu\n
+pouzijte nazev dat.
+109:
+Chyba definice typu\n
+Uloha %.16s: Nelze urcit\n
+typ slozky zaznamu\n
+%.16s\n
+(definice typu kruhem ?)\n
+\t\n
+Zkontrolujte, zda typ slozky je\n
+spravne definovan. Jestlize ano, mohla\n
+by to byt definice kruhem, typ slozky\n
+by se nemohl odkazovat na svuj vlastni\n
+typ zaznamu.
+110:
+Chyba odkazu\n
+Uloha %.16s: Nazev zaznamu\n
+%.16s neni jednoznacny\n
+\t\n
+Nejmene jeden dalsi objekt sdili stejny\n
+nazev, kdyz odkazovany zaznam je z teto\n
+programove pozice viditelny. Ujistete\n
+se, ze vsechny nazvy objektu splnuji\n
+pravidla pro jednoznacnost nazvu.
+111:
+Chyba nazvu\n
+Uloha %.16s: Nazev\n
+%.16s globalniho zaznamu neni\n
+jednoznacny\n
+\t\n
+Globalni typy musi mit nazvy, ktere jsou\n
+mezi vsemi globalnimi typy, daty,\n
+globalnimi rutinami a moduly v celem\n
+programu jedinecne. Prejmenujte zaznam,\n
+nebo zmente konfliktni nazev.
+112:
+Chyba odkazu\n
+Uloha %.16s: Dalsi nazev\n
+%.16s neni jednoznacny\n
+\t\n
+Nejmene jeden dalsi objekt sdili stejny\n
+nazev, kdyz odkazovany dalsi nazev je\n
+z teto programove pozice viditelny.\n
+Ujistete se, ze vsechny nazvy objektu\n
+splnuji pravidla pro jednoznacnost nazvu
+113:
+Chyba nazvu\n
+Uloha %.16s: Globalni dalsi\n
+nazev %.16s neni jednoznacny\n
+\t\n
+Globalni typy musi mit nazvy, ktere jsou\n
+mezi vsemi globalnimi typy, daty,\n
+globalnimi rutinami a moduly v celem\n
+programu jedinecne. Prejmenujte zaznam,\n
+nebo zmente konfliktni nazev.
+114:
+Chyba definice typu\n
+Uloha %.16s: Odkaz na typ\n
+dalsiho nazvu %.16s\n
+je dalsim typem\n
+\t\n
+Zkontrolujte, zda typ slozky je\n
+spravne definovan. Jestlize ano, mohla\n
+by to byt kruhova definice, typ slozky\n
+by se nemohl odkazovat na svuj vlastni\n
+typ zaznamu.
+115:
+Chyba definice typu\n
+Uloha %.16s: Nelze urcit\n
+typ dalsiho %.16s\n
+(definice typu kruhem ?)\n
+\t\n
+Zkontrolujte, zda typ dalsiho je\n
+spravne definovan. Jestlize ano, mohla\n
+by to byt kruhova definice, typ dalsiho\n
+by se nemohl odkazovat na zaznam, ktery\n
+pouziva dalsi jako slozku.
+116:
+Chyba odkazu\n
+Uloha %.16s:\n
+Nazev slozky zaznamu\n
+%.16s neni jednoznacny\n
+\t\n
+Nejmene jeden dalsi objekt sdili stejny\n
+nazev, kdyz odkazovana slozka je z teto\n
+programove pozice viditelna. Ujistete\n
+se, ze vsechny nazvy objektu splnuji\n
+pravidla pro jednoznacnost nazvu.
+117:
+Chyba definice typu\n
+Uloha %.16s: Drzitel mista\n
+pro slozku zaznamu neni dovolen\n
+v definici jmenovaneho zaznamu\n
+\t\n
+Dokoncete definici nebo zmente nazev\n
+dat na drzitele mista.
+118:
+Nema opravneni\n
+Uloha %.16s: Volitelna\n
+moznost uzivatelem definovanych typu\n
+dat neni v tomto systemu instalovana\n
+\t\n
+
+141:
+Chyba argumentu\n
+Uloha %.16s: Argument\n
+parametru 'PERS' %.16s neni\n
+odkazem na stalou hodnotu, nebo je jen\n
+pro cteni\n
+\t\n
+Ujistete se, ze vyraz argumentu je\n
+odkazem na stalou hodnotu nebo na\n
+parametr stale hodnoty. Stala hodnota\n
+muze byt jen pro cteni.
+142:
+Chyba argumentu\n
+Uloha %.16s: Argument\n
+parametru 'VAR' %.16s neni\n
+odkazem na promennou, nebo je\n
+jen pro cteni\n
+\t\n
+Ujistete se, ze vyraz argumentu je\n
+odkazem na promennou nebo na parametr\n
+promenne. Promenna nemuze byt jen\n
+pro cteni.
+157:
+Chyba instrukce\n
+Uloha %.16s: Cislo preruseni\n
+neni odkazem na statickou promennou,\n
+nebo je jen pro cteni\n
+\t\n
+Ujistete se, ze cislo preruseni je\n
+odkazem na promennou nebo na parametr\n
+promenne. Promenna nemuze byt jen\n
+pro cteni.
+158:
+Chyba hodnoty\n
+Uloha %.16s: Hodnota\n
+celeho cisla %G je prilis velka\n
+\t\n
+Hodnota vyrazu musi byt celociselna\n
+hodnota. Soucasna hodnota lezi mimo\n
+rozsah celych cisel.
+159:
+Chyba hodnoty\n
+Uloha %.16s: %G neni\n
+celociselna hodnota\n
+\t\n
+Hodnota vyrazu musi byt presna\n
+celociselna hodnota. Soucasna hodnota\n
+ma necelou cast.
+165:
+Chyba odkazu\n
+Uloha %.16s: Odkaz na\n
+neznama cela data %.16s\n
+\t\n
+Z teto pozice programu nejsou videt\n
+zadna data (ani jiny objekt)\n
+specifikovaneho nazvu.
+166:
+Chyba odkazu\n
+Uloha %.16s: Odkaz\n
+na neznamou funkci %.16s\n
+\t\n
+Z teto pozice programu neni videt zadna\n
+funkce (ani jiny objekt)specifikovaneho\n
+nazvu.
+168:
+Chyba odkazu\n
+Uloha %.16s: Odkaz\n
+na neznamou proceduru %.16s\n
+\t\n
+Z teto pozice programu neni videt zadna\n
+procedura (ani jiny objekt)\n
+specifikovaneho nazvu.
+170:
+Chyba odkazu\n
+Uloha %.16s: Odkaz na\n
+neznamy podmineny skok %.16s\n
+\t\n
+Z teto pozice programu neni videt zadny\n
+podmineny skok (ani jiny objekt)\n
+specifikovaneho nazvu.
+191:
+Chyba instrukce\n
+Uloha %.16s: Promenna\n
+a rutina podmineneho skoku jsou jiz\n
+spojeny\n
+\t\n
+Neni legalni spojovat specifickou\n
+promennou se specifickou rutinou\n
+podmineneho skoku vice jak jednou.
+192:
+Chyba argumentu\n
+Uloha %.16s: %.16s\n
+je druhy pritomny podmineny argument\n
+vylucujicich parametru\n
+\t\n
+Argumenty nemohou byt pritomne pro vic\n
+jak jeden parametr ze seznamu parametru,\n
+ktere se navzajem vylucuji.
+193:
+Chyba ve vykonavani\n
+Uloha %.16s: Chyba pozdniho\n
+volani spojovaci procedury %i\n
+\t\n
+V instrukci volani procedury je chyba.\n
+Viz predchozi hlaseni pro aktualni\n
+pricinu.
+194:
+Chyba hodnoty\n
+Uloha %.16s: Deleni nulou\n
+\t\n
+Nelze delit nulou. Prepiste program, aby\n
+se operace deleni neprovadela kdyz je\n
+delitel 0.
+195:
+Chyba meze\n
+Uloha %.16s: Prekrocen\n
+maximalni pocet %i dovolenych pokusu\n
+RETRY\n
+\t\n
+Oprava chyby provedena pred vykonavanim\n
+instrukce RETRY je asi pro napraveni\n
+chyby nedostatecna. Zkontrolujte rutinu\n
+pro zpracovani chyb.
+196:
+Chyba instrukce\n
+Uloha %.16s: Pokus\n
+o vykonavani drzitele mista\n
+\t\n
+Odstrante drzitele mista nebo instrukci\n
+kde je obsazen, nebo instrukci\n
+dokoncete. Pak pokracujte ve vykonavani.
+197:
+Chyba ve vykonavani\n
+Uloha %.16s: Funkce nevraci\n
+zadnou hodnotu\n
+\t\n
+Konec funkce byl dosazen bez vykonavani\n
+instrukce RETURN. Pridejte instrukci\n
+RETURN specifikujici hodnotu navratu\n
+funkce.
+198:
+Chyba hodnoty\n
+Uloha %.16s: Hodnota\n
+nelegalni orientace\n
+%.40s\n
+\t\n
+Pokus pouzit hodnotu nelegalni orientace\n
+(ctyrstavove)
+199:
+Chyba hodnoty\n
+Uloha %.16s: Chyba\n
+nelegalniho cisla %i v instrukci RAISE\n
+\t\n
+V instrukci RAISE jsou dovolena cisla\n
+chyb jen v rozsahu 1-99.
+200:
+Chyba meze\n
+Uloha %.16s: Neni k dispozici\n
+zadne dalsi cislo preruseni\n
+\t\n
+Pocet dostupnych cisel preruseni je\n
+omezen. Prepiste program pro pouziti\n
+mene cisel preruseni. Toto hlaseni se\n
+take muze objevit v dusledku chyby\n
+systemu.
+201:
+Chyba hodnoty\n
+Uloha %.16s: Negativni\n
+operand %i neni dovolen\n
+\t\n
+Operator'MOD' dovoluje jen nezaporne\n
+operandy. Zmente program, aby byla\n
+jistota, ze operator nepouziva zaporne\n
+hodnoty.
+202:
+Chyba typu\n
+Uloha %.16s: Rozmery %i\n
+a %i konformniho cisla rozmeru pole\n
+%i nejsou slucitelne\n
+\t\n
+Pole nema ocekavanou velikost. Prirazeni\n
+pole lze provest jen u poli identicke\n
+velikosti.
+203:
+Chyba odkazu\n
+Uloha %.16s: Volitelny\n
+parametr %.16s neni pritomen\n
+\t\n
+Na hodnotu nepritomneho volitelneho\n
+parametru se nelze odkazovat. Pouzijte\n
+preddefinovanou funkci 'Present' pro\n
+kontrolu pritomnosti parametru pred\n
+pouzitim teto hodnoty.
+204:
+Chyba hodnoty\n
+Uloha %.16s: Index pole %i\n
+pro cislo rozmeru %i lezi mimo meze\n
+(1-%i)\n
+\t\n
+Hodnota indexu pole neni kladna, nebo\n
+narusuje deklarovanou velikost pole.
+205:
+Chyba hodnoty\n
+Uloha %.16s: Retezec\n
+je prilis dlouhy\n
+\t\n
+Hodnota retezce prekracuje maximalni\n
+dovolenou delku. Prepiste program pro\n
+pouziti kratsi delky.
+221:
+Chyba ve vykonavani\n
+Uloha %.16s: Vykonavani\n
+preruseno\n
+\t\n
+Vykonavani bylo preruseno v dusledku\n
+zavazne chyby.
+222:
+Chyba meze\n
+Uloha %.16s: Preteceni\n
+zasobniku vykonavani\n
+\t\n
+Program je pro vykonavani prilis\n
+slozity. Program asi obsahuje rekurzivni\n
+rutiny.
+223:
+Chyba ve vykonavani\n
+Uloha %.16s: Zavazna chyba\n
+behu\n
+\t\n
+Vznikla zavazna chyba behu. Zavazne\n
+chyby behu zpusobuji okamzite ukonceni\n
+vykonavani. Viz predchozi hlaseni pro\n
+aktualni pricinu.
+224:
+Chyba ve vykonavani\n
+Uloha %.16s: Nelegalni kod\n
+navratu %i z rutiny ReaL\n
+\t\n
+To je vzdy zpusobeno vnitrni chybou\n
+rutiny ReaL.
+225:
+Chyba ve vykonavani\n
+Uloha %.16s: Vykonavani\n
+nemohlo byt znovu spusteno\n
+\t\n
+Vykonavani po vypadku napajeni nemohlo\n
+pokracovat. Spustte program znovu.
+226:
+Chyba nazvu\n
+Uloha %.16s: Nazev procedury\n
+%.40s\n
+neni identifikator RAPID vylucujici\n
+rezervovana slova\n
+\t\n
+Nazev procedury musi byt legalni\n
+identifikator RAPID ruzny\n
+od rezervovanych slov jazyka RAPID.\n
+Zmente vyraz nazvu.
+227:
+Chyba meze\n
+Uloha %.16s: Preteceni\n
+zasobniku behu\n
+\t\n
+Program je pro vykonavani prilis\n
+slozity. Program asi obsahuje rekurzivni\n
+rutiny.
+228:
+Chyba ve vykonavani\n
+Uloha %.16s: Nezpracovana\n
+nezavazna chyba behu %i\n
+\t\n
+Vznikla nezavazna chyba behu, ale nebyla\n
+zpracovana zadnou frazi ERROR. Viz\n
+predchozi hlaseni pro aktualni pricinu.
+229:
+Chyba ve vykonavani\n
+Uloha %.16s: Nezpracovana\n
+vyvolana chyba %i\n
+\t\n
+Instrukce RAISE vyvolala chybu, ale\n
+nebyla zpracovana zadnou frazi ERROR.
+230:
+Chyba ve vykonavani\n
+Uloha %.16s: Nezpracovana\n
+nezavazna chyba behu\n
+\t\n
+Vznikla nezavazna chyba behu, ale nebyla\n
+zpracovana zadnou frazi ERROR.
+241:
+Chyba hodnoty\n
+Uloha %.16s: Cislo rozmeru\n
+pole %G lezi mimo rozsah (1-%i)\n
+\t\n
+Hodnota parametru 'DimNo' funkce 'Dim'\n
+musi byt celociselna hodnota ve\n
+specifickem rozsahu.
+242:
+Chyba typu\n
+Uloha %.16s: Data nejsou pole\n
+\t\n
+Parametr 'DatObj' funkce 'Dim' musi byt\n
+pole.
+243:
+Chyba hodnoty\n
+Uloha %.16s: Nezname cislo\n
+preruseni\n
+\t\n
+Zkontrolujte, zda specifikovana promenna\n
+preruseni byla inicializovana prikazem\n
+CONNECT a zda toto preruseni bylo\n
+definovano s pouzitim ISignalDI nebo\n
+jine instrukce pro definici preruseni.
+251:
+Chyba nazvu\n
+Uloha %.16s: Nejednoznacny\n
+nazev symbolu\n
+%.16s\n
+\t\n
+Instalovane objekty musi mit nazvy,\n
+ktere jsou jednoznacna. Prejmenujte\n
+objekt, nebo zmente konfliktni nazev.
+252:
+Chyba meze\n
+Uloha %.16s: Chyba %i pri\n
+vytvareni zaznamu stavoveho bytu\n
+pro %.16s\n
+\t\n
+Vznikla chyba pri vkladani stale hodnoty\n
+do sdilene databaze. Databaze je\n
+pravdepodobne plna.
+253:
+Chyba definice typu\n
+Uloha %.16s: Dalsi\n
+%.16s pro dalsi\n
+%.16s neni dovoleno\n
+\t\n
+Nelze definovat dalsi typ stejny s jinym\n
+dalsim typem. Namisto toho definujte dva\n
+dalsi typy shodne se stejnym atomickym\n
+nebo zaznamovym typem.
+254:
+Chyba definice symbolu\n
+Uloha %.16s: Parametru\n
+'ANYTYPE#' %.16s nelze\n
+pridelit rozmer\n
+\t\n
+Odstrante specifikaci rozmeru.\n
+'ANYTYPE#' obsahuje typy pole.
+255:
+Chyba definice symbolu\n
+Uloha %.16s: 'ANYTYPE#' je\n
+dovolen jen pro parametry (nikoli pro\n
+%.16s)\n
+\t\n
+Pouzijte jiny typ.
+256:
+Chyba parametru\n
+Uloha %.16s: 'alt' nesmi byt\n
+nastaven pro prvni volitelny parametr\n
+%.16s v seznamu alternativ\n
+\t\n
+Ujistete se, zda pouze druhy a\n
+nasledujici parametr v kazdem seznamu\n
+vylucujicich volitelnych parametru jsou\n
+oznaceny jako alternmativa.
+257:
+Chyba parametru\n
+Uloha %.16s: Parametru\n
+rezimu REF %.16s nelze\n
+pridelit rozmer\n
+\t\n
+Odstrante specifikaci rozmeru pole, nebo\n
+zmente rezim parametru.
+258:
+Chyba parametru\n
+Uloha %.16s: 'switch'\n
+parametr %.16s nelze\n
+pridelit rozmer\n
+\n
+\t\n
+Odstrante specifikaci rozmeru\n
+pole, nebo zmente typ data parametru.
+259:
+Chyba parametru\n
+Uloha %.16s: 'switch'\n
+parametr %.16s musi mit\n
+prenosovy rezim IN (specifikovanou\n
+hodnotu %i)\n
+\t\n
+Odstrante specifikator prenosoveho\n
+rezimu. Jestlize prenosovy rezim IN neni\n
+dostatecny, zmente typ dat parametru.
+260:
+Chyba definice symbolu\n
+Uloha %.16s: 'switch' dovolen\n
+jen pro volitelny parametr\n
+(nikoli pro %.16s)\n
+\t\n
+Zmente parametr na volitelny parametr,\n
+nebo zmente typ dat parametru. Jestlize\n
+objekt neni parametr, zmente typ dat.
+261:
+Chyba definice typu\n
+Uloha %.16s: Trida typu\n
+hodnot pro %.16s musi byt\n
+jedna z REAL_SYMVALTYP_VAL, _SEMIVAL,\n
+_NONVAL nebo\n
+_NONE (specifikovana hodnota %i)\n
+\t\n
+Zmente tridu typu hodnot.
+262:
+Chyba deklarace dat\n
+Uloha %.16s: Prilis mnoho\n
+rozmeru pole pro %.16s\n
+(specifikovana hodnota %i)\n
+\t\n
+Pole muze mit nanejvys 3 rozmery.
+263:
+Chyba nazvu\n
+Uloha %.16s: Nazev symbolu\n
+%.40s\n
+neni identifikator RAPID vylucujici\n
+rezervovana slova\n
+\t\n
+Nazvy instalovanych objektu, zahrnujici\n
+parametry a slozky, musi byt legalni\n
+identifikatory RAPID ruzne od jakychkoli\n
+rezervovanych slov jazyka RAPID. Zmente\n
+nazev.
+264:
+Chyba definice symbolu\n
+Uloha %.16s: Chybejici\n
+funkce C pro %.16s\n
+\t\n
+Musi se specifikovat C-function, ktera\n
+vykonava definovanou funkci ReaL.
+265:
+Chyba definice symbolu\n
+Uloha %.16s: Chybejici\n
+hodnota inicializace funkce pro\n
+%.16s\n
+\t\n
+Musi byt specifikovana funkce pro\n
+inicializaci hodnoty.
+266:
+Chyba odkazu\n
+Uloha %.16s: %.16s\n
+neni nazev typu data (objekt\n
+%.16s)\n
+\t\n
+Specifikovane nazev identifikuje jiny\n
+objekt nez typ.
+267:
+Chyba odkazu\n
+Uloha %.16s: %.16s\n
+neni typ dat s hodnotou (objekt\n
+%.16s)\n
+\t\n
+Typ semi-hodnota nebo zadna hodnota\n
+mohou mit jen slozky zaznamu, dalsi\n
+typy, promenne a parametry rezimu 'VAR'.
+268:
+Chyba definice symbolu\n
+Uloha %.16s: Chybejici funkce\n
+konverze hodnoty pro %.16s\n
+\t\n
+Pro typ semi-hodnota musi byt\n
+specifikovana funkce konverze hodnoty.
+269:
+Chyba definice symbolu\n
+Uloha %.16s: Nedostatek\n
+pameti pro hodnotu dat\n
+%.16s\n
+\t\n
+Je treba vice pameti.
+270:
+Chyba definice typu\n
+Uloha %.16s: Privatni typ\n
+%.16s muze byt jen\n
+semi-hodnota nebo zadna hodnota\n
+(specifikovana hodnota %i)\n
+\t\n
+Zmente tridu typu hodnoty.
+271:
+Chyba definice typu\n
+Uloha %.16s: Velikost\n
+privatniho typu\n
+%.16s musi byt nasobkem\n
+4 (specifikovana hodnota %i)\n
+\t\n
+VSECHNY TYPY RAPID musi mit velikost,\n
+ktera je nasobkem ctyr. Zmente\n
+specifikovanou velikost typu.
+272:
+Chyba typu\n
+Uloha %.16s: Neshoda\n
+staleho typu pro %.16s\n
+\t\n
+Existuji zde jiz stala data stejneho\n
+nazvu, ale jineho typu dat. Prejmenujte\n
+stala data, nebo zmente typ techto dat.
+273:
+Chyba odkazu\n
+Uloha %.16s: Neznamy nazev\n
+typu dat %.16s pro\n
+%.16s\n
+\t\n
+Se specifikovanym nazvem zde neni\n
+zadny typ dat (ani jiny objekt).
+274:
+Chyba parametru\n
+Uloha %.16s: Neznamy rezim\n
+prenosu parametru %i pro\n
+%.16s\n
+\t\n
+Specifikovany rezim prenosu parametru\n
+neni IN, 'VAR', 'PERS', 'INOUT' ani REF.\n
+Pouzijte odpovidajici REAL_SYMPARMOD_x.
+275:
+Chyba definice symbolu\n
+Uloha %.16s: Neznamy typ\n
+definice symbolu %i\n
+\t\n
+Stitek typu definice symbolu neudava\n
+jeden z dovolenych typu symbolu\n
+(REAL_SYMDEF_x).
+301:
+Chyba vstupu/vystupu\n
+Uloha %.16s: Povoleni\n
+odepreno (nazev souboru\n
+%.39s)\n
+\t\n
+
+302:
+Chyba vstupu/vystupu\n
+Uloha %.16s: Zadny takovy\n
+soubor ani adresar\n
+directory (nazev souboru\n
+%.39s)\n
+\t\n
+
+303:
+Chyba vstupu/vystupu\n
+Uloha %.16s: Na zarizeni neni\n
+ponechan prostor\n
+(nazev souboru\n
+%.39s)\n
+\t\n
+
+304:
+Chyba vstupu/vystupu\n
+Uloha %.16s: Chyba\n
+vstupu/vystupu %!\n
+(nazev souboru\n
+%.39s)\n
+\t\n
+Jedno z:\n
+ Povoleni odepreno (chraneno proti\n
+                    zapisu)\n
+ Zadny takovy soubor ani adresar\n
+ Na zarizeni neni ponechan zadny prostor
+321:
+Chyba zavadeni\n
+Uloha %.16s:\n
+Modul zavedeny s cestou\n
+%.40s\n
+je aktivni\n
+\t\n
+Modul obsahujici rutiny nebo data, ktera\n
+jsou stale aktivni, nelze vymazat.\n
+
+322:
+Chyba zavadeni\n
+Uloha %.16s: Chyba syntaxe\n
+RAPID v souboru\n
+%.40s\n
+\t\n
+Zdrojovy soubor, ktery se ma zavadet,\n
+obsahuje chyby syntaxe RAPID. Opravte\n
+zdrojovy soubor. Chyby syntaxe jsou\n
+zaprotokolovany v oddelenem souboru.
+323:
+Chyba zavadeni\n
+Uloha %.16s: Chyba syntaxe(s)\n
+v zahlavi souboru\n
+%.40s\n
+\t\n
+Zdrojovy soubor, ktery se ma zavadet,\n
+obsahuje chybu syntaxe zahlavi. Opravte\n
+zdrojovy soubor. Chyby syntaxe jsou\n
+zaprotokolovany v oddelenem souboru.
+324:
+Chyba zavadeni\n
+Uloha %.16s: Klicova slova\n
+nejsou definovana ve specifikovanem\n
+jazyce (soubor\n
+%.39s)\n
+\t\n
+Nelze zavadet zdrojovy kod RAPID\n
+v narodnim jazyce specifikovanem\n
+v zahlavi souboru.
+325:
+Chyba zavadeni\n
+Uloha %.16s: Nedostatek\n
+prostoru pro hromadeni\n
+\t\n
+Nedostatek volne pameti.
+326:
+Chyba zavadeni\n
+Uloha %.16s: Zasobnik\n
+analyzatoru syntaxe\n
+je plny (soubor\n
+%.39s)\n
+\t\n
+Program je prilis slozity na zavedeni.
+327:
+Chyba zavadeni\n
+Uloha %.16s: Neni soucasna\n
+verze RAPID (soubor\n
+%.39s)\n
+\t\n
+Nelze zavadet zdrojovy kod RAPID verze,\n
+specifikovane v zahlavi souboru.
+351:
+Chyba pridelovani pameti\n
+Uloha %.16s: Nepodarilo se\n
+pridelit transformacni tabulku,\n
+pouzijte linearni seznam\n
+\t\n
+
+352:
+Chyba pridelovani pameti\n
+Uloha %.16s: Selhala\n
+aktualizace staleho vyrazu, ponechejte\n
+si stary\n
+\t\n
+
+501:
+Casova prodleva\n
+%s\n
+%s\n
+\t\n
+
+502:
+Prerusen digitalni vstup\n
+%s\n
+%s\n
+\t\n
+
+503:
+Chyba odkazu\n
+Popisovac zarizeni je\n
+%s\n
+\t\n
+
+504:
+Chyba parametru\n
+%s\n
+\t\n
+%s
+505:
+Chyba pristupu k zarizeni\n
+%s\n
+\t\n
+
+506:
+Chyba pristupu k systemu\n
+%s\n
+\t\n
+
+507:
+Chyba meze\n
+%s\n
+\t\n
+
+508:
+Chybna hodnota orientace\n
+v %s\n
+\t\n
+
+509:
+Vystraha vyhledavani\n
+%s\n
+Pred dalsim vyhledavanim se presvedcte,\n
+zda TCP presel zpet do vychozi pozice\n
+cesty vyhledavani.\n
+\t\n
+Jestlize neni provedena zmena pozice,\n
+pred zahajenim kruhoveho vyhledavani\n
+muze nastat pohyb, ktery muze zpusobit\n
+poskozeni.
+510:
+Vystraha zabezpeceni\n
+Instrukci pro pohyb nelze znovu spustit\n
+z duvodu problemu zabezpeceni. Pokuste\n
+se pohnout PP\n
+\t\n
+
+511:
+Chyba parametru\n
+Parametr %s v %s\n
+je specifikovan jako zaporna hodnota\n
+\t\n
+Parametr musi byt kladny.
+512:
+Chybi hodnota vnejsi osy\n
+Nektere vnejsi osy maji hodnotu\n
+nespravnou, nebo bez radu.\n
+Preprogramujte pozici.\n
+\t\n
+
+513:
+Chyba mechanicke jednotky\n
+Nelze aktivovat nebo\n
+deaktivovat mechanickou jednotku.\n
+\t\n
+
+514:
+Chyba ve vykonavani\n
+Prilis daleko od cesty na vykonani\n
+prikazu StartMove preruseneho pohybu.\n
+\t\n
+Premistete robot do prerusene polohy\n
+v programu.
+515:
+Chyba typu\n
+Uloha %s: Nelegalni typ dat\n
+argumentu pro parametr %s\n
+\t\n
+
+516:
+Chyba hodnoty\n
+Uloha %s: Nelegalni hodnota\n
+argumentu pro parametr %s\n
+\t\n
+
+517:
+Chyba vyhledavani\n
+%s\n
+Zadny, nebo vice jak 1 nalez vyhledavani\n
+pri provadeni ve smyslu kroku vpred.\n
+Instrukce vyhledavani je pripravena\n
+a lze vykonat dalsi instrukci.\n
+\t\n
+Vezmete na vedomi, ze instrukce\n
+vyhledavani nevratila zadnou pozici.
+518:
+Chyba typu\n
+%s\n
+\t\n
+
+600:
+Chyba argumentu\n
+Zadny \WObj neni pro pohyb\n
+se stacionarnim TCP specifikovan.\n
+\t\n
+Pridejte argument \WObj\n
+pro skutecny pracovni objekt.\n
+Jestlize se stacionarni TCP vubec\n
+nepohybuje, zmente argument na\n
+"robot drzi nastroj".
+601:
+Chyba argumentu\n
+Nedefinovano, jestlize robot drzi\n
+nastroj, nebo pracovni objekt.\n
+\t\n
+Zkontrolujte, zda neni neshoda mezi\n
+argumentem Nastroj a argumentem \WObj\n
+pro datovou slozku robhold.
+602:
+Chyba argumentu\n
+Argument %s ma\n
+nejmene jednu slozku dat\n
+se zapornou hodnotou.\n
+\t\n
+Nastavte vsechny slozky dat\n
+v argumentu %s\n
+na kladne hodnoty.
+603:
+Chyba argumentu\n
+Argument %s ma\n
+nedovolenou zapornou hodnotu.\n
+\t\n
+Nastavte argument %s na kladny.
+604:
+Chyba argumentu\n
+Argument Nastroj ma nedefinovane\n
+zatizeni nastroje.\n
+\t\n
+Definujte skutecne zatizeni nastroje\n
+pred jeho pouzitim pro pomaly nebo\n
+programovany pohyb.
+605:
+Chyba argumentu\n
+Argument Nastroj ma zaporne\n
+zatizeni nastroje.\n
+\t\n
+Definujte spravne zatizeni nastroje\n
+pred jeho pouzitim pro pomaly nebo\n
+programovany pohyb.
+606:
+Chyba argumentu\n
+Argument Nastroj ma nejmene\n
+jednu setrvacnou slozku dat\n
+se zapornou hodnotou.\n
+\t\n
+Definujte vsechny setrvacne slozky dat\n
+(ix, iy or iz) na skutecne\n
+kladne hodnoty.
+607:
+Chyba ve vykonavani\n
+Behem provadeni kruhoveho pohybu neni\n
+dovoleno menit rezim behu vpred na vzad\n
+a naopak.\n
+\t\n
+Jestli je to mozne, vyberte si pocatecni\n
+rezim behu a pro pokracovani zastaveneho\n
+kruhoveho pohybu stisknete start. Kdyz\n
+to neni mozne, robot a ukazatel programu\n
+premistete na novy start.
+608:
+Chyba argumentu\n
+Chyba definice orientace\n
+v %s.\n
+\t\n
+Vsechny pouzite orientace musi byt\n
+normalizovane, tj. soucet ctvercu\n
+ctyrstavovych prvku se musi rovnat 1.
+609:
+Chyba argumentu\n
+Argument \WObj specifikuje mechanickou\n
+jednotku s prilis dlouhym nazvem.\n
+\t\n
+Pro specifikaci nazvu mechanicke\n
+souradnicove jednotky pouzijte maximalne\n
+16 znaku.
+610:
+Chyba argumentu\n
+Argument \WObj specifikuje nazev\n
+mechanicke jednotky, ktera neni\n
+aktivovana nebo neni v systemu znama.\n
+\t\n
+Nazev mechanicke jednotky definovane\n
+v \WObj musi odpovidat nazvu jiz drive\n
+definovanemu v systemovych parametrech\n
+a musi se aktivovat.
+611:
+Chyba ve vykonavani\n
+Neni dovoleno krokovat zpet\n
+s aktualni instrukci.\n
+\t\n
+Neni dovoleno krokovat zpet v kruhovem\n
+pohybu, jestlize koncovy bod kruhoveho\n
+pohybu je definovan s jinym nastrojem\n
+a/nebo pracovnim objektem.
+612:
+Chyba argumentu\n
+Pro nazev vystupniho signalu neni\n
+definovan zadny argument.\n
+\t\n
+Behem pohybu robota je mozne nastavit\n
+jednopolohovy pevny IO jako digitalni,\n
+skupinovy digitalni, nebo analogovy\n
+vystupni signal.
+613:
+Chyba argumentu\n
+Volitelny argument %s\n
+lze kombinovat pouze s argumentem\n
+vystupniho signalu %s.\n
+\t\n
+
+614:
+Chyba argumentu\n
+Argument %s\n
+neni 0 ani 1.\n
+\t\n
+Digitalni vystupni signaly se mohou\n
+nastavovat pouze na 0 nebo 1.
+615:
+Chyba argumentu\n
+Argument %s\n
+neni celociselna hodnota.\n
+\t\n
+Digitalni skupina vystupnich signalu\n
+muze mit pouze celociselnou hodnotu.
+616:
+Chyba argumentu\n
+Argument %s\n
+lezi mimo dovolene meze.\n
+\t\n
+Pouzita skupina vystupnich signalu se\n
+muze nastavovat pouze v mezich 0 az %s\n
+podle konfigurace systemovych parametru.
+617:
+Chyba argumentu\n
+Argument %s\n
+lezi mimo dovolene meze.\n
+\t\n
+Pouzite analogove vystupni signaly se\n
+mohou nastavovat pouze v mezich %s az %s\n
+podle konfigurace systemovych parametru.
+618:
+Chyba argumentu\n
+Argument %s\n
+obsahuje nelegalni cislo preruseni.\n
+\t\n
+Cislo vstupniho preruseni neni legalni,\n
+protoze ho nepriradila instrukce\n
+CONNECT. CONNECT provadi prirazovani\n
+a pripojovani cisel preruseni k rutine\n
+podmineneho skoku.
+619:
+Chyba argumentu\n
+Argument %s\n
+obsahuje cislo preruseni, ktere se jiz\n
+pouziva pro jiny ucel.\n
+\t\n
+Pred opetovnym pouzitim promenne\n
+preruseni v programu zruste starou\n
+generaci preruseni a cisla preruseni\n
+instrukci IDelete.
+622:
+Chyba argumentu\n
+Hodnota argumentu Cas v ITimer\n
+je pro cyklicka preruseni prilis nizka.\n
+\t\n
+
+623:
+Chyba argumentu\n
+Hodnota argumentu Cas v ITimer je\n
+pro jednotlive preruseni prilis nizka.\n
+\t\n
+
+631:
+Chyba instrukce\n
+Prilis mnoho pohybovych instrukci\n
+v sekvenci se soucasnym vykonavanim\n
+programu RAPID.\n
+\t\n
+Upravte program na max. 5 MoveX \Conc\n
+v sekvenci na zakladni urovni vykonavani\n
+programu.
+632:
+Chyba instrukce\n
+Nejsou dovoleny zadne pohybove instrukce\n
+se soucasnym vykonavanim programu RAPID\n
+v casti StorePath-RestoPath programu.\n
+\t\n
+Upravte program, aby v casti programu\n
+StorePath-RestoPath neobsahoval zadne\n
+instrukce MoveX \Conc.
+633:
+Chyba odkazu\n
+Spousteci parametr nema %s odkaz\n
+na nedefinovana spousteci data.\n
+\t\n
+Definujte spousteci data vykonanim\n
+instrukce TriggIO, TriggInt, TriggEquip\n
+nebo TriggSpeed pred TriggL, TriggC\n
+nebo TriggJ.
+634:
+Chyba odkazu\n
+Odkaz na signal v parametru %s\n
+obsahuje pro robot neznamy signal.\n
+\t\n
+Vsechny signaly by se mely definovat\n
+v systemovych parametrech a nemely by\n
+se definovat v programu RAPID.
+635:
+Chyba odkazu\n
+Odkaz na argument v parametru %s\n
+neni úplna stala promenna.\n
+\t\n
+V argumentu %s nelze pouzit slozku\n
+zaznamu nebo prvek. Pouzit lze pouze\n
+celou stalou promennou pro Nastroj, WObj\n
+nebo Zatizeni v jakekoli instrukci pro\n
+pohyb.
+636:
+Chyba snimace\n
+Snimac neposkytuje zadne mereni.\n
+\t\n
+Pozadovana data nejsou k dispozici.
+637:
+Chyba snimace\n
+Jeste neni pripravena.\n
+\t\n
+Pozadovana funkce jeste neni pripravena.
+638:
+Chyba snimace\n
+Celkova chyba.\n
+\t\n
+Vznikla celkova chyba, ktera neni zvlast\n
+spojena s pozadovanou akci. Jestlize je\n
+funkce k dispozici, prectete si blok\n
+"Error log".
+639:
+Chyba snimace\n
+Snimac je vytizen, zkuste pozdeji.\n
+\t\n
+Senzor je vytizen jinou funkci.
+640:
+Chyba snimace\n
+Neznamy prikaz.\n
+\t\n
+Funkce pozadovana snimacem neni znama.
+641:
+Chyba snimace\n
+Nelegalni cislo promenne nebo bloku.\n
+\t\n
+Pozadovana promenna nebo blok nejsou ve\n
+snimaci definovany.
+642:
+Chyba snimace\n
+Vnejsi poplach.\n
+\t\n
+Poplach od vnejsiho zarizeni.
+643:
+Chyba snimace\n
+Poplach kamery.\n
+\t\n
+V kamere byla zjistena chyba. Nechte\n
+probehnout Camcheck a zjistete, jestli\n
+je kamera OK.
+644:
+Chyba snimace\n
+Poplach teploty.\n
+\t\n
+Kamera je prehrata a potrebuje vice\n
+chladiciho vzduchu nebo vody.
+645:
+Chyba snimace\n
+Hodnota lezi mimo rozsah\n
+\t\n
+Hodnota dat zaslanych snimaci lezi\n
+mimo rozsah.
+646:
+Chyba snimace\n
+Kontrola kamery selhala.\n
+\t\n
+Funkce CAMCHECK selhala. Kamera\n
+je poskozena. Zaslete ji do opravy.
+647:
+Chyba snimace\n
+Prodleva komunikace.\n
+\t\n
+Zvyste cas prodlevy a zkontrolujte\n
+pripojeni ke snimaci.
+648:
+Chyba vyhledavani\n
+Nelze provadet StorePath zatimco bezi\n
+vyhledavani na urovni zakladni cesty.\n
+\t\n
+Jestlize se program pouziva s pohybem\n
+robota v podminenem skoku, pak se takove\n
+preruseni behem jakehokoli vyhledavani\n
+musi deaktivovat.\n
+Napr. ISleep - SearchL - IWatch
+649:
+Chyba meze cesty\n
+%s je jiz provedena.\n
+\t\n
+Instrukce %s se musi nejprve vykonat\n
+a pak se muze provadet nova %s.
+650:
+Chybna kombin. parametru\n
+Volitelne parametry a prepinace se\n
+ve spravne kombinaci nepouzivaji.\n
+\t\n
+Zadny volitelny parametr ani prepinac\n
+si nedrzi stary souradnicovy system.\n
+Prepinac Old ma stejnou funkci. RefPos\n
+nebo RefNum se musi definovat\n
+se Short, Fwd nebo Bwd.
+651:
+Pouzijte numericky vstup\n
+Pro polohu pouzijte numericky vstup\n
+namisto robtarget.\n
+\t\n
+Polohu pro osy robota nelze definovat\n
+s robtarget. Pouzijte volitelny parametr\n
+pro numericky vstup polohy.
+652:
+Osa je v pohybu\n
+Osa robota, vnejsi osa nebo nezavisla\n
+osa je v pohybu.\n
+\t\n
+Vsechny osy robota, vnejsi a nezavisle\n
+osy musi klidne stat. Pouzijte napriklad\n
+MoveL s jemnym argumentem pro osy robota\n
+a vnejsi osy a IndRMove pro nezavisle\n
+osy.
+653:
+Prepinac chybi\n
+Musi se definovat jeden z parametru\n
+prepinace %s nebo %s.\n
+\t\n
+
+654:
+Osa neni aktivni\n
+Osa neni aktivni nebo\n
+neni definovana.\n
+\t\n
+Pred vykonanim teto instrukce a pred\n
+ulozenim robtarget se musi definovat\n
+mechanicka jednotka a osa.
+655:
+Osa neni nezavisla\n
+Osa neni v nezavislem rezimu.\n
+\t\n
+Stav lze obdrzet pouze od osy\n
+v nezavislem rezimu.
+656:
+Chyba ve vykonavani\n
+Nelze nastavit novou hodnotu meritka\n
+pro signal AO.\n
+\t\n
+Vnitrni proces, ktery ridi vystup\n
+signalu AO, je z neznameho duvodu\n
+"mrtvy".
+657:
+Chyba ve vykonavani\n
+Vystup signalu AO uz neni umerny\n
+rychlosti TCP.\n
+Duvody mohou byt tyto:\n
+\t\n
+- Pouziti instrukce MoveX mezi TriggX\n
+- V pouzite instrukci TriggX neni\n
+  nastaveni TriggSpeed\n
+- Pouzite ScaleLag je proti skutecnemu\n
+  zpozdeni serva robota prilis male.
+658:
+Chyba parametru\n
+Parametr %s se muze pouzit pouze\n
+tehdy, jestlize parametr %s\n
+je vetsi nez nula.\n
+\t\n
+Parametr %s je ucinny pouze v prvnim\n
+TriggX v sekvenci nekolika TriggX,\n
+ktere ridi rychlost umerne AO signalu.
+659:
+Nedefinovane zatizeni\n
+VYSTRAHA: Argument %.16s ma\n
+nedefinovane zatizeni (hmota se rovna\n
+0 kg). NUTNE DEFINOVAT SPRAVNE ZATIZENI,\n
+aby se robot mechanicky neposkodil a\n
+dosahlo se dobreho pohyboveho vykonu.\n
+\t\n
+Definujte aktualni zatizeni pro zatizeni\n
+od nastroje nebo upinani pred pohybem\n
+programu nebo pomalym pohybem.
+660:
+Nedefinovane zatizeni\n
+VYSTRAHA: Argument %.16s ma\n
+nedefinovany gravitacni stred zatizeni.\n
+NUTNE DEFINOVAT SPRAVNE ZATIZENI, aby\n
+nedoslo k mechanickemu poskozeni robota\n
+a dosahlo se dobreho pohyboveho vykonu.\n
+\t\n
+Definujte aktualni gravitacni stred pro\n
+zatizeni od nastroje nebo upinani pred\n
+pohybem programu nebo pomalym pohybem\n
+(cog.x, cog.y and cog.z nemuze byt\n
+soucasne 0 mm).
+670:
+Execution error\n
+Not allowed to change run mode\n
+from forward to backward or vice versa\n
+during running a invisible trap routine.\n
+\t\n
+If possible, select the original run\n
+mode and press start to continue the\n
+If not possible, move robot and\n
+program pointer for a new start.
+700:
+Chyba syntaxe\n
+Uloha %s: Chyba syntaxe\n
+%s\n
+\t\n
+
+701:
+Pamet programu je plna\n
+Uloha %s, ma ve svem uzivatelskem\n
+prostoru pouze %i volnych bytu\n
+\t\n
+Odstrante nektery dalsi modul a zkuste\n
+znovu.
+702:
+Soubor neni nalezen\n
+%.40s\n
+Cesta souboru, nebo nazev souboru jsou\n
+chybne, nebo soubor neexistuje.\n
+\n
+\n
+
+703:
+Chyba zavadeni\n
+%.40s\n
+Modul programu nebylo mozno zavest.\n
+\t\n
+Modul programu ma nejake chyby.
+704:
+Chyba UnLoad\n
+%.40s\n
+Modul programu nemohl byt uvolnen\n
+Mozne duvody:\n
+- Modul neni zaveden instrukci Load\n
+- Cesta souboru jina nez uzita pro Load\n
+\t\n
+Modul programu se musi zavadet instrukci\n
+Load. Cesta a nazev souboru musi byt\n
+stejne v instrukci UnLoad i Load.
+705:
+Chyba syntaxe\n
+Uloha %s: Chyba syntaxe\n
+%s\n
+\t\n
+Bude nasledovat vice chyb syntaxe
+706:
+Chyba zavadeni\n
+Programovy modul je jiz zaveden\n
+\t\n
+Nazev modulu v zahlavi souboru\n
+%.40s\n
+jiz existuje v pameti programu
+712:
+Event routine error\n
+Task %s: Too many event routines\n
+the routine %s, will not be\n
+executed. Maximum 4 routines\n
+could be specified for each event\n
+\t\n
+Encapslulate the routine in one of\n
+the others that are specified for\n
+the save event.

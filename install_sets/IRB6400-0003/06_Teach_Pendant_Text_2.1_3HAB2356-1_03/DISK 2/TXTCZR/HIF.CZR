@@ -1,0 +1,261 @@
+Revision 1.8  1995/12/15  14:05:44  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.7  1995/04/21  13:25:09  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.6  1994/08/19  10:42:49  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+10::
+0:
+Spravce souboru
+1:
+Nazev      Typ             Datum
+2:
+Prejdete na radek
+3:
+Soucasny radek
+4:
+Nahoru
+5:
+Zrusit
+6:
+OK
+7:
+Soubor
+8:
+Upravy
+9:
+Prohliz
+10:
+Moznost
+11:
+Novy adresar...
+12:
+Prejmenovat...
+13:
+Kopirovat...
+14:
+Premistit...
+15:
+Smazat...
+16:
+Tisk adresare...
+17:
+Prejit na...
+18:
+Prejit na zacatek
+19:
+Prejit na konec
+20:
+Format...
+21:
+
+22:
+Format
+23:
+Format. nosic dat v jed
+24:
+Novy nazev nosice dat
+25:
+
+26:
+Novy adresar
+27:
+Vytvor adresar nazvany
+28:
+Prejmenovat
+29:
+Nazev stareho adr
+30:
+Nazev noveho adr
+31:
+Nazev stareho soub
+32:
+Nazev noveho soub
+33:
+Smazat
+34:
+Smazat adresar
+35:
+Smazat soubor
+36:
+Tisk adresare
+37:
+Data k tisku
+38:
+Soucasny adresar
+39:
+Stromovy adresar
+40:
+Kopirovat
+41:
+Kam
+42:
+Premistit
+43:
+Informace
+44:
+Nazev
+45:
+Typ
+46:
+Velikost bytu
+47:
+Datum
+48:
+Cas
+49:
+Pokracujte stiskem Enter
+50:
+Soubor nelze kopirovat
+51:
+Funkce neni implementovana
+52:
+Nelze vytvorit adresar
+53:
+Nazev jiz existuje
+54:
+
+55:
+Nelze cist z adresare
+56:
+Nelze prejmenovat adresar
+57:
+Nelze prejmenovat soubor
+58:
+Nelze smazat adresar
+59:
+Nelze smazat soubor
+60:
+Jednot
+61:
+
+62:
+U
+63:
+Nelze kopirovat adresar
+64:
+Nelze premistit adresar
+65:
+Nelze premistit soubor
+66:
+Adresar neni prazdny
+67:
+Nosic dat nelze formatovat
+68:
+...
+69:
+NAZEVADR
+70:
+Vstup textu
+71:
+
+72:
+
+73:
+
+74:
+
+75:
+Akci nelze vykonat
+76:
+Ve vybrane jedn neni nosic dat
+77:
+Nelze premistovat mezi jednotk
+78:
+Prosim pockejte
+79:
+Formatovani nosice dat...
+80:
+Prazdny nebo vadny disk
+81:
+Tisk souboru...
+82:
+Tisk jen do souboru
+83:
+Soubor k tisku
+84:
+Tisk souboru
+85:
+Tisk adresare do souboru:
+86:
+Probiha tisk !
+87:
+   Zruste stiskem Enter
+88:
+Tiskarna je obsazena\n
+\n
+Zkuste znovu az bude pripravena
+89:
+Nelze tisknout, protoze\n
+ve fronte je mnoho praci\n
+\n
+Pozdeji zkuste znovu
+90:
+Nelze tisknout, protoze zarizeni\n
+tisku neni v systemovych\n
+parametrech konfigurovano
+91:
+Ke specif. souboru neni pristup:
+92:
+Tisk prace zrusen pro ztratu\n
+pristupu ke specifikovanemu\n
+souboru behem tisku.
+93:
+Soubor neni tisknutelny
+94:
+"Do"-adr je casti "Z"-adr
+95:
+Rychle prekladace...
+96:
+Rychle prekladace
+97:
+Soubor k prekladu:
+98:
+Soubor ulozit do:
+99:
+Preloz
+100:
+Soubor ulozit do:
+101:
+ Soubor jiz existuje
+102:
+ Specifikovany soubor\n
+ nelze prekladat.\n
+ \n
+ Nelegalni typ souboru
+103:
+ Soubor k prekladu:
+104:
+S funkci:
+105:
+Pridat info o typu rychl.
+106:
+Pouzit info o typu rychl.
+107:
+ \n
+ Rychly preklad selhal
+108:
+  Zaneprazdnen\n
+ \n
+ \n
+  Prosim pockejte
+109:
+ Nelze prelozit\n
+ \n
+ Nelegalni kombinace\n
+ typu souboru a funkce
+110:
+ \n
+ Soubor urceni jiz existuje !\n
+ \n
+ Prepsat ?
+111:
+"Do" a "Z" jsou totozne
+112:
+Prilis mnoho urovni podadres.

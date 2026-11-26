@@ -1,0 +1,158 @@
+Revision 1.7  1995/12/15  14:00:02  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.6  1995/04/21  13:20:12  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.5  1994/08/19  09:48:47  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+9::
+0:
+Production
+10:
+File
+11:
+Edit
+12:
+View
+20:
+Load Program...
+21:
+Could not start program
+22:
+Preferences...
+23:
+Goto...
+24:
+Start from Beginning
+25:
+Info
+26:
+Position
+27:
+Operator Output & Input
+50:
+Cancel
+51:
+OK
+80:
+Program
+82:
+Data
+83:
+Preferences
+84:
+Data value
+85:
+Go To Line
+86:
+Select a program to load
+87:
+Production Info
+88:
+Production Position
+100:
+Program name
+101:
+Status
+102:
+Speed:=
+103:
+%
+104:
+Running mode:=
+105:
+Routine
+106:
+
+107:
+Go to line
+108:
+Executing RAPID program
+109:
+Current routine
+110:
+100%
+111:
+No RAPID program loaded
+112:
+*
+130:
+Change of direction forbidden
+131:
+Start from beginning required.
+132:
+No statements in routine.
+133:
+Not loaded
+134:
+Ready
+135:
+Stopped
+136:
+Running
+137:
+mm/s
+138:
+-%
+139:
+25%
+140:
+
+141:
++%
+142:
+Yes
+143:
+No
+144:
+     Do you wish to proceed ?
+145:
+Starting from the beginning
+146:
+causes program context to be lost.
+147:
+Warning
+148:
+>>
+149:
+Loaded
+150:
+Undefined
+151:
+Stop occured during regain
+200:
+<  Press Enter to continue  >
+201:
+Linked
+202:
+Could not load program
+203:
+Could not unload program
+204:
+
+205:
+Cannot load program.
+206:
+Type must be Program.
+207:
+Probably, error in program!
+208:
+Cannot show Program.
+209:
+Cannot show RAPID instructions.
+210:
+\n
+Hang on, Loading program ...!
+211:
+Out of memory.
+212:
+Not executable
+213:
+Cannot execute program.
+214:
+No main routine found.

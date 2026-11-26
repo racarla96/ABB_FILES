@@ -1,0 +1,345 @@
+21::
+0:
+Betriebszustand
+2:
+Programm Reset\n
+Die Task %!%!%s hat\n
+den StartZeiger verändert.\n
+\t\n
+
+5:
+Programm gestoppt\n
+Die Task %!%!%s hat\n
+gestoppt. Die Ursache ist\n
+%s\n
+\t\n
+
+500:
+Ein externer oder interner Stop\n
+nach der aktuellen Instruktion.
+501:
+Die Task hat eine EXIT-Instruktion\n
+erreicht.
+502:
+Die Task ist fertig.
+503:
+Die Task ist fertig mit dem Schritt.
+504:
+Die Task hat eine Break-Instruktion\n
+erreicht.
+505:
+Ein externer oder interner Stop.
+506:
+Ein Fehler ist aufgetreten.
+507:
+Kann nicht weiter als Anfang der\n
+Instruktionsliste rückwärts abarbeiten.
+508:
+Kann nicht weiter als diese\n
+Instruktion rückwärts abarbeiten.
+509:
+the event routine for RESET or POWER_ON\n
+is ready.
+7:
+Programm gestartet\n
+Die Task %!%!%s hat\n
+die Abarbeitung gestartet.\n
+%s\n
+\t\n
+
+8:
+Programm erneut gestartet\n
+Die Task %!%!%s hat die\n
+Abarbeitung erneut gestartet.\n
+%s\n
+\t\n
+
+701:
+Der Urheber ist das Fenster -Program-.
+702:
+Der Urheber ist das Fenster -Produktion-.
+703:
+Der Urheber ist unbekannt
+704:
+Der Urheber ist ein externer Client.
+9:
+Arbeitsspeicher voll.\n
+Kein Speicher mehr für neue RAPID\n
+Instruktionen oder Daten vorhanden.\n
+Die Task ist %!%!%s\n
+\t\n
+Programm speichern und danach\n
+Neustart ausführen.
+10:
+MOTOREN AUS Zustand\n
+\n
+\t\n
+
+11:
+MOTOREN EIN Zustand\n
+\n
+\t\n
+
+12:
+Sicherheitshalt\n
+Sicherheitskreis durch Sicherheits-\n
+halt Signale geöffnet, mit Ausnahme\n
+des NOT-AUS.\n
+\t\n
+
+13:
+NOT-AUS Zustand\n
+Sicherheitskreis durch NOT-AUS\n
+geöffnet.\n
+Rücksetzen NOT-AUS notwendig.\n
+MOTOREN-AUS Taste verwenden.\n
+\t\n
+
+14:
+System Fehler\n
+Fataler System Fehler.\n
+Warmstart des Systems notwendig.\n
+\t\n
+
+15:
+Einrichten angewählt\n
+\n
+\t\n
+
+16:
+Automatik angewählt\n
+\n
+\t\n
+
+17:
+Automatik bestätigt\n
+\n
+\t\n
+
+18:
+Einrichten 100% angewählt\n
+Einrichten mit voller Geschwindigkeit\n
+angewählt.\n
+\t\n
+
+19:
+Einrichten 100% bestätigt\n
+Einrichten mit voller Geschwindigkeit\n
+bestätigt.\n
+\t\n
+
+20:
+Fehler bei Abarbeitung\n
+Die Programmabarbeitung hat einen\n
+spontanen Fehlerzustand erreicht.\n
+\t\n
+
+21:
+Reset Fehler Abarbeitung\n
+Die Programmabarbeitung hat einen\n
+spontanen Fehlerzustand verlassen.\n
+\t\n
+
+22:
+Warten auf Tippbetrieb\n
+Warten auf die Betätigung der ent-\n
+sprechenden Taste auf dem\n
+Programmiergerät (Tippbetrieb).\n
+\t\n
+
+23:
+Timeout Tippbetrieb\n
+Die Betätigung der entsprechenden\n
+Taste auf dem Programmiergerät\n
+(Tippbetrieb) muß innerhalb einer\n
+bestimmten Zeit erfolgen.\n
+\t\n
+
+30:
+Alle Achsen kommutiert\n
+\n
+\t\n
+
+31:
+Alle Achsen kalibriert\n
+\n
+\t\n
+
+32:
+Alle Umdr._Zähler aktual.\n
+\n
+\t\n
+
+33:
+Alle Achsen synchron.\n
+\n
+\t\n
+
+34:
+Achse nicht kommutiert\n
+\n
+\t\n
+
+35:
+Achse nicht kalibriert\n
+\n
+\t\n
+
+36:
+Umdr._Zähler nicht akt.\n
+\n
+\t\n
+
+37:
+Achse nicht synchron.\n
+\n
+\t\n
+
+40:
+Programm geladen.\n
+Die Task %!%!%s hat\n
+ein Programm geladen.\n
+Der freie Speicher war  %i Bytes\n
+vor dieser Operation und\n
+%i Bytes danach.\n
+\t\n
+
+41:
+Programm gelöscht\n
+Die Task %!%!%s hat ein\n
+Programm gelöscht.\n
+\t\n
+
+43:
+Restart fehlgeschlagen.\n
+Die Task %!%!%s\n
+kann nicht neu starten.\n
+\t\n
+
+44:
+ProgrammZeiger aktual.\n
+Die Task %!%!%s\n
+kann die Position des PZ\n
+geändert haben.\n
+\t\n
+
+45:
+System neu gestartet\n
+Ein bereits installiertes System\n
+wurde neu gestartet.\n
+\t\n
+
+46:
+Neustart nach Kaltstart\n
+Erster Neustart nach der Installation\n
+des Systems.\n
+\t\n
+
+47:
+Background Task %s\n
+Background Task kann\n
+%s nicht starten.\n
+\t\n
+
+4701:
+Task is leer.
+4702:
+Falscher Zustand.
+4703:
+PZ kann nicht auf haupt Routine\n
+gesetzt werden.
+4704:
+Abarbeitungsmodus kann nicht\n
+gesetzt werden.
+4705:
+Start Anweisung fehlgeschlagen.
+4706:
+Wegen eines Syntaxfehlers
+48:
+Background Task gestoppt\n
+Die Task %s hat\n
+ohne Grund gestoppt.\n
+%s\n
+\t\n
+
+49:
+Geschützter Bereich\n
+Netzfehler in der Mitte von\n
+geschütztem Bereich der\n
+Task %!%s\n
+%s\n
+\t\n
+
+4901:
+Das System versucht sich selbst\n
+zu helfen.
+4902:
+Ein anstehender Fehler wurde aus\n
+der Warteschlange entfernt.
+4903:
+Eine anstehende EXIT-Instruktion\n
+wurde aus der Warteschlange entfernt.
+4904:
+Dies kann zu einem weiteren\n
+Programmzyklus führen.
+4905:
+Die Task wird von der haupt Routine neu\n
+gestartet.
+4906:
+Nächste Warmstart wird alle Tasks zu-\n
+rücksetzen. Das Programm geht verloren.
+4907:
+Programm speichern und danach\n
+Warmstart des Systems ausführen.
+50:
+Abarbeitung abgebrochen\n
+Der Neustart wird die Abarbeitung\n
+beenden in task %!%.16s von\n
+%s\n
+\t\n
+%s
+5001:
+Motoren Ein System Ereignis Routine
+5002:
+Stop System Ereignis Routine
+5003:
+Not-Aus System Ereignis Routine
+5004:
+Start System Ereignis Routine
+5005:
+Neustart System Ereignis Routine
+5006:
+Reset System Ereignis Routine
+5007:
+Interne System Ereignis Routine
+5008:
+Anwender Routine
+51:
+Unbek. Ereignis Routine\n
+Die Task %!%s konnte nicht starten\n
+die spez. System Ereignis Routine\n
+%s\n
+\t\n
+Die Routine in ein System Modul\n
+einfügen.
+52:
+Wiederanfahren gestartet\n
+Eine Wiederanfahrbewegung wurde\n
+gestartet.\n
+\t\n
+
+53:
+Wiederanfahren fertig\n
+Die Wiederanfahrbewegung ist fertig.\n
+\t\n
+
+60:
+Test Sicherheitskreis\n
+Der Sicherheitskreis wird beim\n
+Einschalten immer getestet.\n
+Bei einem Fehler erfolgt eine\n
+entsprechende Fehlermeldung.\n
+\t\n
+Bei fehlerhaftem Test des Sicherheits-\n
+kreises erfolgt die Fehlermeldung\n
+"Timeout Sicherheitskreis"

@@ -1,0 +1,77 @@
+Revision 1.10  1995/12/15  13:27:40  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.9  1995/04/21  13:11:01  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.8  1994/08/19  09:38:46  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+2::
+0:
+
+1:
+Vitame Vas
+2:
+ABB Robotics Products AB
+3:
+Kontrol
+4:
+Protok
+5:
+Chyba
+6:
+Zruste zmenu provozniho rezimu!\n
+\n
+\n
+Prepnete volic provozniho rezimu\n
+zpet na RUCNI
+7:
+Zmena provozniho rezimu
+8:
+Provozni rezim se zmenil\n
+z RUCNI na AUTO.
+9:
+Provozni rezim se zmenil\n
+z RUCNI na RUCNI S PLNOU RYCHLOSTI.
+10:
+Prosim, potvrdte stiskem OK.\n
+\n
+\n
+(Kdyz stisknete Zrusit, volic provozniho\n
+ rezimu se musi prepnout zpet na RUCNI)
+11:
+Pridrz pro beh!\n
+\n
+Ceka na stisk tlacitka\n
+Pridrz-pro-beh.
+12:
+
+13:
+
+14:
+
+15:
+
+16:
+Stav
+17:
+\n
+Nasledujici jednotky nejsou\n
+synchronizovany.\n
+Pro synchronizaci\n
+stisknete Sync (v MOTORY ZAP).
+18:
+Nesynchronizovane jednotky!
+19:
+Jednotka          Stav
+20:
+Synchronizuje %s\n
+\n
+\n
+Hned bude hotovo!
+21:
+Sync

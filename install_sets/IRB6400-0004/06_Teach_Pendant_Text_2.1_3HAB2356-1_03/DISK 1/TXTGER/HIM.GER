@@ -1,0 +1,78 @@
+Revision 1.10  1995/12/15  13:27:40  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.9  1995/04/21  13:11:01  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+Revision 1.8  1994/08/19  09:38:46  mmcadmin
+vvvvvvvvvvvv PROJECT COMMENTS END vvvvvvvvvvvv\
+Moved back to subject from/projects/foxfun/funmmc/mmc/classlib
+
+2::
+0:
+
+1:
+Willkommen bei
+2:
+ABB Robotics Products AB
+3:
+Prüfen
+4:
+Log
+5:
+Fehler
+6:
+Betriebsart nicht wechseln!\n
+\n
+\n
+Betriebsarten-Wahlschalter\n
+zurück auf HAND
+7:
+Wechsel der Betriebsart
+8:
+Betriebsart gewechselt von\n
+HAND nach AUTOMATIK.
+9:
+Betriebsart gewechselt von\n
+HAND nach HAND 100%.
+10:
+Bitte mit OK bestätigen.\n
+\n
+(Bei Abbruch muß der Betriebsarten-\n
+ Wahlschalter auf HAND/HAND 100%\n
+ zurückgestellt werden.)
+11:
+Tippbetrieb!\n
+\n
+Warten auf die Betätigung\n
+der entsprechenden Taste.
+12:
+
+13:
+
+14:
+
+15:
+
+16:
+Status
+17:
+\n
+Folgende Einheiten sind\n
+nicht synchronisiert!\n
+\n
+Zum Synchronisieren\n
+Sync betätigen (bei MOTOREN EIN).
+18:
+Nicht synchronisierte Einheiten!
+19:
+Einheiten         Status
+20:
+Synchronisierung %s\n
+\n
+\n
+Fertig in einigen Sekunden!
+21:
+Sync

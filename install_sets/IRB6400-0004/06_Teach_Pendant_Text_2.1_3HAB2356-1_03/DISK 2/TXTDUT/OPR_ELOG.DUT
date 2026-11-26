@@ -1,0 +1,323 @@
+21::
+0:
+Operationeel
+2:
+Programma reset\n
+De taak %!%!%s is\n
+teruggezet op z'n startpunt.\n
+\t\n
+
+5:
+Programma gestopt\n
+De taak %!%!%s is\n
+gestopt. De oorzaak is\n
+%s\n
+\t\n
+
+500:
+een externe of interne stop is
+501:
+de taak heeft een EXIT
+502:
+de taak is klaar.
+503:
+de taak is klaar met deze stap
+504:
+de taak heeft een BREAK
+505:
+een interne of externe
+506:
+een fout is opgetreden
+507:
+Kan geen instr. achterwaarts uitvoeren
+508:
+Kan geen instructie achterwaarts
+509:
+de event routine voor RESET of POWER_ON
+7:
+Programma gestart\n
+De taak %!%!%s heeft\n
+de uitvoer gestart.\n
+%s\n
+\t\n
+
+8:
+Programma is herstart\n
+De taak %!%!%s heeft\n
+de uitvoer herstart.\n
+%s\n
+\t\n
+
+701:
+Is afkomstig van het programma venster.
+702:
+Is afkomstig van het produktie venster.
+703:
+De afkomst is onbekend.
+704:
+Is afkomstig van een externe klant.
+9:
+Werkgeheugen vol\n
+Geen geheugen over voor nieuwe\n
+RAPID instructies of data.\n
+De taak is %!%!%s\n
+\t\n
+Sla het programma op en\n
+herstart.
+10:
+Motoren-Uit status\n
+\n
+\t\n
+
+11:
+Motoren-Aan status\n
+\n
+\t\n
+
+12:
+Bewaking-Stop status\n
+Run-ketting geopend door een veiligheids\n
+functie echter niet door een noodstop.\n
+\t\n
+
+13:
+Noodstop status\n
+Run-ketting geopend door een noodstop.\n
+Noodstop reset is vereist.\n
+Druk op de MOTORS UIT knop.\n
+\t\n
+
+14:
+Systeemstoring status\n
+Fatale niet herstelbare systeemfout.\n
+Systeeminitialisatie is vereist.\n
+\t\n
+
+15:
+Manuele modus geselect.\n
+\n
+\t\n
+
+16:
+Auto modus gevraagd\n
+\n
+\t\n
+
+17:
+Auto modus bevestigd\n
+\n
+\t\n
+
+18:
+Man. modus volle snelheid\n
+Man. modus volle snelheid gevraagd\n
+\t\n
+
+19:
+Man. modus volle snelheid\n
+Man. modus op volle snelheid bevestigd\n
+\t\n
+
+20:
+Uitvoer fout status\n
+Het programma heeft spontaan een\n
+fout status bereikt\n
+\t\n
+
+21:
+Uitvoer fout reset\n
+Het programma heeft spontaan de\n
+fout status verlaten\n
+\t\n
+
+22:
+Hold-To-Run wacht\n
+Het wachten is op het indrukken van\n
+Hold To Run knop op programmeereenheid\n
+\t\n
+
+23:
+Hold-To-Run timeout\n
+De Hold To Run knop op de programmeer\n
+eenheid moet binnen een bepaalde tijd\n
+worden ingedrukt.\n
+\t\n
+
+30:
+Alle assen gecommuteerd\n
+\n
+\t\n
+
+31:
+Alle assen gecalibreerd\n
+\n
+\t\n
+
+32:
+Alle omw. tellers bijgew.\n
+\n
+\t\n
+
+33:
+Alle assen gesynchr.\n
+\n
+\t\n
+
+34:
+Assen niet gecommuteerd\n
+\n
+\t\n
+
+35:
+Assen niet gecalibreerd\n
+\n
+\t\n
+
+36:
+Omw. teller niet bijgew.\n
+\n
+\t\n
+
+37:
+As niet gesynchroniseerd\n
+\n
+\t\n
+
+40:
+Programma geladen\n
+De taak %!%!%s\n
+heeft een programma (module) geladen.\n
+De vrije ruimte was %i bytes\n
+voor het laden, en na het laden\n
+%i bytes.\n
+\t\n
+
+41:
+Programma gewist\n
+De taak %!%!%s\n
+heeft een programma gewist.\n
+\t\n
+
+43:
+Herstart mislukt\n
+De taak %!%!%s\n
+kan niet herstarten\n
+\t\n
+
+44:
+Programma Pointer bijgew.\n
+De taak %!%!%s\n
+kan de PP positie veranderd hebben.\n
+\t\n
+
+45:
+Systeem is herstart\n
+Een reeds geinstalleerd systeem\n
+is herstart.\n
+\t\n
+
+46:
+Systeem herstart in koude\n
+modus\n
+Eerste start na initialisatie.\n
+\t\n
+
+47:
+Achtergrond taak %s\n
+wil niet opstarten\n
+%s\n
+\t\n
+
+4701:
+Taak is leeg
+4702:
+Onjuiste status
+4703:
+Kan PP niet in MAIN rout plaatsen
+4704:
+Kan de uitvoer modus niet bepalen
+4705:
+Start opdracht mislukt
+4706:
+Door een syntax fout
+48:
+Achtergrond taak gestopt\n
+De taak %s is gestopt zonder reden\n
+%s\n
+\t\n
+
+49:
+Beschermd gebied niet gereed\n
+Een spanningsuitval is opgetreden in\n
+het midden van een beschermd gebied\n
+voor de taak %!%s\n
+%s\n
+\t\n
+
+4901:
+Systeem probeert te herstellen
+4902:
+Een aanhoudende fout
+4903:
+Een aanhoudende EXIT
+4904:
+Dit kan een extra progr.
+4905:
+De taak zal vanaf de Main
+4906:
+Volgende warme start zal
+4907:
+Probeer om het programma
+50:
+Uitvoering gestopt\n
+De herstart zal uitvoering wissen\n
+in taak %!%.16s van een\n
+%s\n
+\t\n
+
+5001:
+Power-On systeem event routine
+5002:
+Stop systeem event routine
+5003:
+Noodstop systeem event routine
+5004:
+Start systeem event routine
+5005:
+Herstart systeem event routine
+5006:
+Reset systeem event routine
+5007:
+Interne systeem event routine
+5008:
+User routine
+51:
+Onbekende event routine\n
+De taak %!%s kan de opgegeven\n
+systeem event routine niet starten,\n
+%s\n
+\t\n
+Voeg de routine toe aan een systeem\n
+module.
+52:
+Herstel gestart\n
+Een herstelbeweging is gestart\n
+\t\n
+
+53:
+Herstel is klaar\n
+De herstelbeweging is klaar\n
+\t\n
+
+60:
+Test van de activeringsketting\n
+Activeringsketting wordt altijd getest\n
+tijdens opstarten. Als er fout wordt\n
+geconstateerd zal een fout mbt active-\n
+ringsketting worden weergegeven.\n
+\t\n
+Als aan de activeringsketting tijdens\n
+opstarten een fout wordt geconstateerd\n
+zal de gerelateerde fout "activerings\n
+ketting timeout" zijn.\n
+
