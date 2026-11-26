@@ -7,7 +7,7 @@
 
 ## What changes against IRB6400-0001
 
-Only the files below, in `01_BaseWare_OS_2.1_3HAB2333-1_07_ReadTraj_ADIC_EMU` (renamed folder; the `disc.id` files are those of IRB6400-0001). `02_`–`06_` are byte-identical to IRB6400-0001. `USER.SYS`, `USRSYS.CFG`, `ABB_LOAD.CMD`, `ABB_IOC.000` are not touched: the ABB_MC patches are in place (same file sizes) and `ABB_LOAD.CMD` carries no checksum for `ABB_MC`.
+Only the files below, in `01_BaseWare_OS_2.1_3HAB2333-1_07_ReadTraj_ADIC_EMU` (renamed folder). `02_`–`06_` are byte-identical to IRB6400-0001 except `disc.id`. **All `disc.id` files carry serial `IRB6400-0004`** (header line and hidden tail, `tools/discid.py retarget`), at Rafa's request after the robot showed "Invalid or duplicated disc id" with serial `IRB6400-0001`. `USER.SYS`, `USRSYS.CFG`, `ABB_LOAD.CMD`, `ABB_IOC.000` are not touched: the ABB_MC patches are in place (same file sizes) and `ABB_LOAD.CMD` carries no checksum for `ABB_MC`.
 
 | File | sha256 in IRB6400-0001 | sha256 here |
 |---|---|---|
